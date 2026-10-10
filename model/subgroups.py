@@ -6,8 +6,9 @@ RATE=0.20; OTHER=0.008
 CATS=[("salt","1. Техническая соль и ПГМ"),("clothing","2. Одежда"),("gear","3. Амуниция и снаряжение"),
       ("ppe","4. СИЗ и бронезащита"),("vent","5. Вентиляция"),("plumb","6. Сантехника и ЖКХ"),
       ("med","7. Медицинские и лабораторные расходники"),("cable","8. ЭОМ (кабель)"),("ss","9. СС")]
+def is_alt(c): return c.get("alt") or str(c.get("item","")).lower().startswith("альтернатив")
 def calc(t,d):
-    P=t["nmck"]*(1-d); C=sum(c["qty"]*c["unit_cost"] for c in t["cost"]); L=t.get("log",0) or 0
+    P=t["nmck"]*(1-d); C=sum(c["qty"]*c["unit_cost"] for c in t["cost"] if not is_alt(c)); L=t.get("log",0) or 0
     fin=(C+L)*RATE*(t.get("days") or 40)/365; pre=P-C-L-fin-P*OTHER
     return P,C+L,(P-C-L)/P if P else 0,pre-max(0,pre)*0.15
 def be(t):
