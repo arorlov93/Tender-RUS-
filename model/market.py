@@ -1,6 +1,7 @@
 """Объём рынка 44-ФЗ по кодам ОКПД2: сумма НМЦК опубликованных закупок (gosplan, лимит 10 запросов/мин)."""
 import json, subprocess, time, sys, urllib.parse
-B="https://v2test.gosplan.info/fz44/purchases"
+LAW=sys.argv[2] if len(sys.argv)>2 else "fz44"
+B=f"https://v2test.gosplan.info/{LAW}/purchases"
 def get(p):
     u=B+"?"+urllib.parse.urlencode(p)
     for i in range(10):
@@ -9,7 +10,7 @@ def get(p):
         try: return json.loads(r)
         except Exception: time.sleep(10)
     return []
-CODES=[("Соль","08.93.10","2025-08-01","2026-04-01",1.0),
+CODES=[("Соль","08.93.10.115","2025-08-01","2026-04-01",1.0),("Соль","08.93.10.190","2025-08-01","2026-04-01",1.0),
        ("ПГМ","20.59.43.130","2025-08-01","2026-04-01",1.0),
        ("Одежда","14.12.11","2026-07-10","2026-10-10",4),("Одежда","14.12.21","2026-07-10","2026-10-10",4),
        ("Одежда","14.12.30","2026-07-10","2026-10-10",4),("Одежда","14.14","2026-07-10","2026-10-10",4),
@@ -25,12 +26,14 @@ CODES=[("Соль","08.93.10","2025-08-01","2026-04-01",1.0),
        ("Кабель (ЭОМ)","27.32","2026-07-10","2026-10-10",4),
        ("СС","26.40.33","2026-07-10","2026-10-10",4),("СС","26.30.11","2026-07-10","2026-10-10",4),("СС","26.30.50","2026-07-10","2026-10-10",4)]
 res=[]
+ONLY=sys.argv[3].split(",") if len(sys.argv)>3 else None
 for cat,code,a,b,k in CODES:
+    if ONLY and code not in ONLY: continue
     seen={}; skip=0
     while True:
         d=get({"classifier":code,"published_after":a,"published_before":b,"limit":100,"skip":skip})
         if not isinstance(d,list) or not d: break
-        for x in d: seen[x["purchase_number"]]=(x.get("max_price") or 0, x.get("customer") or x.get("customer_inn"))
+        for x in d: seen[x["purchase_number"]]=(x.get("max_price") or 0, x.get("customer") or x.get("customer_inn") or x.get("placer"))
         if len(d)<100 or skip>=3000: break
         skip+=100; time.sleep(7)
     s=sum(v[0] for v in seen.values()); n=len(seen); c=len({v[1] for v in seen.values()})
