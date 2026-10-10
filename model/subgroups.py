@@ -8,7 +8,7 @@ CATS=[("salt","1. Техническая соль и ПГМ"),("clothing","2. О
       ("med","7. Медицинские и лабораторные расходники"),("cable","8. ЭОМ (кабель)"),("ss","9. СС")]
 def is_alt(c): return c.get("alt") or str(c.get("item","")).lower().startswith("альтернатив")
 def calc(t,d):
-    P=t["nmck"]*(1-d); C=sum(c["qty"]*c["unit_cost"] for c in t["cost"] if not is_alt(c)); L=t.get("log",0) or 0
+    P=t["nmck"]*(1-d); C=sum((c.get("qty") or 0)*(c.get("unit_cost") or 0) for c in t["cost"] if not is_alt(c)); L=t.get("log",0) or 0
     fin=(C+L)*RATE*(t.get("days") or 40)/365; pre=P-C-L-fin-P*OTHER
     return P,C+L,(P-C-L)/P if P else 0,pre-max(0,pre)*0.15
 def be(t):
@@ -40,8 +40,9 @@ for key,title in CATS:
     out.append("|---|---|---|---|---|---|---|---|---|---|---|")
     notes=[]
     for t in data:
-        if not t.get("id") or not t.get("cost"):
-            out.append(f"| {t.get('subgroup','')} | — | — | — | — | — | — | — | — | — | Нет открытых тендеров / нет цен |")
+        if not t.get("id") or not t.get("cost") or ("covered_nmck" in t and not t["covered_nmck"]) or not t.get("nmck"):
+            lab=f"[{t['id']}]({t.get('src','')}) {t.get('customer','')}" if t.get('id') else "—"
+            out.append(f"| {t.get('subgroup','')} | {lab} | {t.get('deadline','—') if t.get('id') else '—'} | {f(t['nmck']) if t.get('nmck') else '—'} | — | — | — | — | — | — | {'Не считается (цена за единицу, объём не определён)' if t.get('id') else 'Нет открытых тендеров / нет цен'} |")
             if t.get("notes"): notes.append(f"- {t.get('subgroup','')}: {t['notes']}")
             continue
         # маржа считается только по покрытым позициям
