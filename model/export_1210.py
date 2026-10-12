@@ -57,8 +57,25 @@ for k,cat in names.items():
         dec="Нет" if nb<=0 else ("Осторожно" if b<0.3 else "Участвовать")
         hyp="[ГИПОТЕЗА по себестоимости] " if any(c.get("hyp") and not c.get("alt") for c in t["cost"]) else ""
         rows.append([cat,t["id"],t.get("customer",""),t.get("subgroup",""),t.get("law",""),t.get("deadline",""),t["nmck"],ui,avg,C,gm,disc[1],n0,nb,dec,hyp+(t.get("risks") or "")[:300]])
+TRI={x["num"]:x for x in tri}
+def sec(v,nm):
+    if v in (None,""): return "не установлено / не указано"
+    v=str(v)
+    if v.endswith("%"): 
+        try: return f"{v} (≈{float(v[:-1].strip())/100*nm:,.0f} ₽)".replace(","," ")
+        except Exception: return v
+    try: return f"{float(v):,.0f} ₽ ({float(v)/nm*100:.1f}%)".replace(","," ") if nm else v
+    except Exception: return v
+def adv(v):
+    if v in (None,"","RUB"): return "нет / не указан"
+    return str(v).replace("Есть. См. документацию","есть, размер в документации")
+rows2=[]
+for r in rows:
+    t=TRI.get(str(r[1]),{}); nm=r[6] or 0
+    rows2.append(r[:15]+[adv(t.get("advance")),sec(t.get("sec_app"),nm),sec(t.get("sec_contr"),nm),t.get("smp") or "",t.get("etp") or ""]+[r[15]])
+rows=rows2
 wb=openpyxl.Workbook(); ws=wb.active; ws.title="Тендеры 12.10"
-H=["Категория","№ закупки","Заказчик","Предмет","Закон","Подача","НМЦК, ₽","Позиции: кол-во × цена за ед. в НМЦК, ₽","Средняя цена за ед. в НМЦК, ₽","Себестоимость, ₽","Валовая маржа при НМЦК","Ожид. снижение","Прибыль при НМЦК, ₽","Прибыль при ожид. снижении, ₽","Решение","Комментарий"]
+H=["Категория","№ закупки","Заказчик","Предмет","Закон","Подача","НМЦК, ₽","Позиции: кол-во × цена за ед. в НМЦК, ₽","Средняя цена за ед. в НМЦК, ₽","Себестоимость, ₽","Валовая маржа при НМЦК","Ожид. снижение","Прибыль при НМЦК, ₽","Прибыль при ожид. снижении, ₽","Решение","Аванс","Обеспечение заявки","Обеспечение исполнения контракта","Только СМП","Площадка (ЭТП)","Комментарий"]
 ws.append(H)
 for c in ws[1]: c.font=Font(bold=True,color="FFFFFF"); c.fill=PatternFill("solid",fgColor="305496"); c.alignment=Alignment(wrap_text=True,vertical="center")
 order={"Участвовать":0,"Участвовать, если ≤2 заявок":1,"Осторожно":2,"Нет цен — запросить КП":3,"Нет":4}
@@ -70,7 +87,7 @@ for row in ws.iter_rows(min_row=2):
     row[7].alignment=Alignment(wrap_text=True,vertical="top")
     col={"Участвовать":"C6EFCE","Участвовать, если ≤2 заявок":"FFEB9C","Осторожно":"FFEB9C","Нет цен — запросить КП":"D9D9D9","Нет":"FFC7CE"}.get(row[14].value)
     if col: row[14].fill=PatternFill("solid",fgColor=col)
-for i,w in enumerate([16,22,40,45,10,18,14,70,14,14,10,10,14,16,20,60],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
+for i,w in enumerate([16,22,40,45,10,18,14,70,14,14,10,10,14,16,20,22,22,26,14,20,60],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws.freeze_panes="C2"; ws.auto_filter.ref=ws.dimensions
 # итоги
 s=wb.create_sheet("Итог")
