@@ -37,12 +37,16 @@ for x in xs:
     ui,avg=unitinfo(x["num"],nm)
     rows.append(["Одежда",x['num'],str(x['cust']),x['name'],x['law'],x['end'],nm,ui,avg,c,0.25,0.05,P(nm,c,.05),P(nm,c,.05),"Участвовать, если ≤2 заявок","себестоимость = 75% НМЦК (данные клиента), снижение ≤5%"])
 # агентские категории
-names={"med":"Медрасходники","cable":"Кабель (ЭОМ)","ss":"СС","gear":"Амуниция","plumb":"Сантехника и ЖКХ"}
+names={"med":"Медрасходники","cable":"Кабель (ЭОМ)","ss":"СС","gear":"Амуниция","plumb":"Сантехника и ЖКХ","med2a":"Медрасходники","med2b":"Медрасходники","other2":None}
+REL={x["num"]:x for x in json.load(open("data/relevant_1210.json"))}
 for k,cat in names.items():
     p=f"{SUB}/{k}.json"
     if not os.path.exists(p): continue
     for t in json.load(open(p,encoding="utf-8")):
         if not t.get("id") or not t.get("nmck"): continue
+        cat=names[k] or REL.get(t["id"],{}).get("cat","Прочее")
+        if t.get("cost")==[] and "не наш товар" in (t.get("notes") or ""):
+            continue
         ui,avg=unitinfo(t["id"],t["nmck"],t.get("positions"))
         if not t.get("cost") or not t.get("covered_nmck") or t.get("spec_known") is False:
             rows.append([cat,t["id"],t.get("customer",""),t.get("subgroup",""),t.get("law",""),t.get("deadline",""),t["nmck"],ui,avg,None,None,None,None,None,"Нет цен — запросить КП",(t.get("notes") or t.get("risks") or "")[:300]]); continue
@@ -78,4 +82,11 @@ for k,v in cats.items(): s.append([k]+v)
 for c in s[1]: c.font=Font(bold=True)
 s.column_dimensions["A"].width=24; s.column_dimensions["D"].width=26
 for row in s.iter_rows(min_row=2): row[3].number_format='# ##0'
+c2=wb.create_sheet("Коммерческие без НМЦК")
+c2.append(["Категория","№","Предмет","Заказчик","Регион","Подача","ЭТП","Что делать"])
+for c in c2[1]: c.font=Font(bold=True)
+for x in sorted([x for x in REL.values() if x["kind"]!="с НМЦК"],key=lambda x:(x["cat"],x["end"])):
+    c2.append([x["cat"],x["num"],x["name"],str(x["cust"]),x["region"],x["end"],x["etp"],"Цена не опубликована: запросить ТЗ на площадке и подать КП"])
+for i,w in enumerate([20,22,70,40,22,18,22,40],1): c2.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
+c2.freeze_panes="C2"; c2.auto_filter.ref=c2.dimensions
 wb.save("../TENDERS_1210.xlsx"); print(len(rows), {k:v for k,v in cats.items()})
