@@ -78,6 +78,9 @@ wb=openpyxl.Workbook(); ws=wb.active; ws.title="Тендеры 12.10"
 H=["Категория","№ закупки","Заказчик","Предмет","Закон","Подача","НМЦК, ₽","Позиции: кол-во × цена за ед. в НМЦК, ₽","Средняя цена за ед. в НМЦК, ₽","Себестоимость, ₽","Валовая маржа при НМЦК","Ожид. снижение","Прибыль при НМЦК, ₽","Прибыль при ожид. снижении, ₽","Решение","Аванс","Обеспечение заявки","Обеспечение исполнения контракта","Только СМП","Площадка (ЭТП)","Комментарий"]
 ws.append(H)
 for c in ws[1]: c.font=Font(bold=True,color="FFFFFF"); c.fill=PatternFill("solid",fgColor="305496"); c.alignment=Alignment(wrap_text=True,vertical="center")
+OVR={"0373200024426001489":("Нет","ТЗ под поршневую систему S-Monovette (Sarstedt), импорт пробирок запрещён — заявку с российским аналогом, скорее всего, отклонят. ")}
+for r in rows:
+    if str(r[1]) in OVR: r[14]=OVR[str(r[1])][0]; r[15]=OVR[str(r[1])][1]+str(r[15] or "")
 NORM={"Амуниция":"Амуниция и снаряжение","ЭОМ (кабель)":"Кабель (ЭОМ)","Соль и сыпучие":"Соль"}
 for r in rows: r[0]=NORM.get(r[0],r[0])
 _d={}
@@ -112,4 +115,16 @@ for x in sorted([x for x in REL.values() if x["kind"]!="с НМЦК"],key=lambda
     c2.append([x["cat"],x["num"],x["name"],str(x["cust"]),x["region"],x["end"],x["etp"],"Цена не опубликована: запросить ТЗ на площадке и подать КП"])
 for i,w in enumerate([20,22,70,40,22,18,22,40],1): c2.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 c2.freeze_panes="C2"; c2.auto_filter.ref=c2.dimensions
+top=[r for r in rows if r[14] and r[14].startswith(("Участвовать","Осторожно")) and r[13]]
+top.sort(key=lambda r:-r[13]); top=top[:30]
+t=wb.create_sheet("Топ-30",0)
+cols=[0,1,2,3,5,6,8,13,14,15,16,17,18,20]
+t.append(["#"]+[H[i] for i in cols])
+for c in t[1]: c.font=Font(bold=True,color="FFFFFF"); c.fill=PatternFill("solid",fgColor="305496"); c.alignment=Alignment(wrap_text=True)
+for i,r in enumerate(top,1): t.append([i]+[r[j] for j in cols])
+for row in t.iter_rows(min_row=2):
+    for k in (6,7,8):
+        if isinstance(row[k].value,(int,float)): row[k].number_format='# ##0'
+for i,w in enumerate([4,16,22,40,40,18,14,14,16,22,22,22,26,14,60],1): t.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
+t.freeze_panes="D2"
 wb.save("../TENDERS_1210.xlsx"); print(len(rows), {k:v for k,v in cats.items()})
