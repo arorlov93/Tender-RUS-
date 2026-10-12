@@ -44,7 +44,7 @@ for k,cat in names.items():
     for t in json.load(open(p,encoding="utf-8")):
         if not t.get("id") or not t.get("nmck"): continue
         ui,avg=unitinfo(t["id"],t["nmck"],t.get("positions"))
-        if not t.get("cost") or not t.get("covered_nmck"):
+        if not t.get("cost") or not t.get("covered_nmck") or t.get("spec_known") is False:
             rows.append([cat,t["id"],t.get("customer",""),t.get("subgroup",""),t.get("law",""),t.get("deadline",""),t["nmck"],ui,avg,None,None,None,None,None,"Нет цен — запросить КП",(t.get("notes") or t.get("risks") or "")[:300]]); continue
         tt=dict(t)
         if t.get("covered_nmck"): tt["nmck"]=t["covered_nmck"]
