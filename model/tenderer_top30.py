@@ -58,7 +58,7 @@ for row in ws.iter_rows(min_row=4):
         c.alignment=Alignment(wrap_text=True,vertical="top"); c.border=Border(top=thin,bottom=thin,left=thin,right=thin)
         if f: c.fill=PatternFill("solid",fgColor=f)
     for k in (11,12):
-        if isinstance(row[k].value,(int,float)): row[k].number_format='# ##0.##' if k==11 else '# ##0'
+        if isinstance(row[k].value,(int,float)): row[k].number_format='#,##0.00" ₽"' if k==11 else '#,##0" ₽"'
     row[2].number_format='@'
 for i,w in enumerate([4,13,22,9,18,14,36,18,42,9,8,14,15,17,16,16,11,8,30,48],1):
     ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w

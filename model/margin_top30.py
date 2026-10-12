@@ -5,6 +5,7 @@ src=open("tenderer_top30.py").read()
 ns={}; exec(src[:src.index("assert len(L)")],ns); L=ns["L"]
 wb=openpyxl.load_workbook("../TENDERS_1210.xlsx",data_only=True)
 INT={r[1]:r for r in wb["Тендеры 12.10"].iter_rows(min_row=2,values_only=True) if r[1]}
+MONEY='#,##0" ₽"'
 def P(nm,c,d):
     p=nm*(1-d); pre=p-c-p*0.008-c*0.2*60/365; return pre-max(pre,0)*0.15
 def be(nm,c):
@@ -49,24 +50,31 @@ H=["№","Категория","№ закупки","Заказчик","Реги�
 ws.append(H)
 for c in ws[3]: c.font=Font(bold=True,color="FFFFFF"); c.fill=PatternFill("solid",fgColor="305496"); c.alignment=Alignment(wrap_text=True,vertical="center")
 for r in rows: ws.append(r)
-def tot(label,flt):
+last=ws.max_row
+ws.auto_filter.ref=f"A3:O{last}"
+ts=out.create_sheet("Итоги")
+ts.append(["Итого","Лотов","НМЦК, ₽","Себестоимость, ₽","Чистая прибыль при НМЦК, ₽","Чистая прибыль при ожид. снижении, ₽"])
+for c in ts[1]: c.font=Font(bold=True,color="FFFFFF"); c.fill=PatternFill("solid",fgColor="305496"); c.alignment=Alignment(wrap_text=True,vertical="center")
+def tot(label,flt,bold=False):
     s=[r for r in rows if r[7] is not None and flt(r)]
-    ws.append(["","",label,"","","",sum(r[6] for r in s),sum(r[7] for r in s),"",None,sum(r[10] for r in s),"",sum(r[12] for r in s),"",""])
-    for c in ws[ws.max_row]: c.font=Font(bold=True)
-ws.append([])
-for cat in dict.fromkeys(r[1] for r in rows): tot(f"Итого: {cat}",lambda r,c=cat:r[1]==c)
-tot("ИТОГО без Самары",lambda r:r[2]!="0142200001326018965")
-tot("ИТОГО с Самарой",lambda r:True)
+    ts.append([label,len(s),sum(r[6] for r in s),sum(r[7] for r in s),sum(r[10] for r in s),sum(r[12] for r in s)])
+    for c in ts[ts.max_row]:
+        if bold: c.font=Font(bold=True)
+    for c in ts[ts.max_row][2:]: c.number_format=MONEY
+for cat in dict.fromkeys(r[1] for r in rows): tot(cat,lambda r,c=cat:r[1]==c)
+tot("ИТОГО без Самары",lambda r:r[2]!="0142200001326018965",True)
+tot("ИТОГО с Самарой",lambda r:True,True)
+for i,w in enumerate([26,8,18,18,20,22],1): ts.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 thin=Side(style="thin",color="BFBFBF")
 fills={"Соль":"E2EFDA","ПГР/ПГМ":"FFF2CC","Медрасходники":"DDEBF7","Форменная одежда":"FCE4D6"}
-for row in ws.iter_rows(min_row=4):
+for row in ws.iter_rows(min_row=4,max_row=last):
     f=fills.get(row[1].value)
     for c in row:
         c.alignment=Alignment(wrap_text=True,vertical="top"); c.border=Border(top=thin,bottom=thin,left=thin,right=thin)
         if f: c.fill=PatternFill("solid",fgColor=f)
-    for k in (6,7,10,12): row[k].number_format='# ##0'
+    for k in (6,7,10,12): row[k].number_format=MONEY
     for k in (9,11,13): row[k].number_format='0%'
-for i,w in enumerate([4,14,21,34,18,15,14,14,44,11,15,11,16,12,36],1):
+for i,w in enumerate([5,16,22,34,18,16,16,16,44,12,18,12,20,14,36],1):
     ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws.freeze_panes="D4"
 out.save("../MARGIN_TOP30_1210.xlsx")
