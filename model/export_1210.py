@@ -55,7 +55,8 @@ for k,cat in names.items():
         disc=t.get("disc") or [0,.15,.3]
         P0,C,gm,n0=calc(tt,0); Pb,_,_,nb=calc(tt,disc[1]); b=be(tt)
         dec="Нет" if nb<=0 else ("Осторожно" if b<0.3 else "Участвовать")
-        rows.append([cat,t["id"],t.get("customer",""),t.get("subgroup",""),t.get("law",""),t.get("deadline",""),t["nmck"],ui,avg,C,gm,disc[1],n0,nb,dec,(t.get("risks") or "")[:300]])
+        hyp="[ГИПОТЕЗА по себестоимости] " if any(c.get("hyp") and not c.get("alt") for c in t["cost"]) else ""
+        rows.append([cat,t["id"],t.get("customer",""),t.get("subgroup",""),t.get("law",""),t.get("deadline",""),t["nmck"],ui,avg,C,gm,disc[1],n0,nb,dec,hyp+(t.get("risks") or "")[:300]])
 wb=openpyxl.Workbook(); ws=wb.active; ws.title="Тендеры 12.10"
 H=["Категория","№ закупки","Заказчик","Предмет","Закон","Подача","НМЦК, ₽","Позиции: кол-во × цена за ед. в НМЦК, ₽","Средняя цена за ед. в НМЦК, ₽","Себестоимость, ₽","Валовая маржа при НМЦК","Ожид. снижение","Прибыль при НМЦК, ₽","Прибыль при ожид. снижении, ₽","Решение","Комментарий"]
 ws.append(H)
