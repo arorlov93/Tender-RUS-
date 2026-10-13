@@ -81,6 +81,7 @@ for i,w in enumerate([26,40,34,13,52,60],1): w2.column_dimensions[openpyxl.utils
 for row in w2.iter_rows():
     for c in row: c.alignment=Alignment(wrap_text=True,vertical="top")
 w2.auto_filter.ref=f"A1:F{w2.max_row}"
+from tidy import tidy; tidy(wb)
 wb.save("../SALT_PRICES_1410.xlsx")
 print([round(x) for x in tot])
 for name,num,end,nm,t,law in LOTS: print(name, round(nm/t), [round(P(nm,t*c,0.15)) for _,c in SC])

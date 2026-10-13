@@ -63,7 +63,7 @@ ws.append(["ИТОГО без Самары","","","","",""]+sum([["","",tot[n]] 
 for i in range(4): ws.cell(R,9+3*i).number_format=MONEY
 ws.cell(R,20).number_format=MONEY
 for c in ws[R]: c.font=Font(bold=True)
-for i,w in enumerate([28,21,11,14,7,11]+[10,8,14]*4+[34,16],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
+for i,w in enumerate([28,21,11,14,7,11]+[12,9,15]*4+[36,17],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 for row in ws.iter_rows(min_row=4):
     for c in row: c.border=Border(top=thin,bottom=thin,left=thin,right=thin); c.alignment=Alignment(wrap_text=True,vertical="top")
 ws.freeze_panes="C4"
@@ -111,6 +111,7 @@ for r in sorted(REF,key=lambda x:x[3]):
     if r[5].startswith("http"): w4.cell(R,6).hyperlink=r[5]; w4.cell(R,6).font=Font(color="0563C1",underline="single")
 for i,w in enumerate([26,40,34,13,52,60],1): w4.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 w4.auto_filter.ref=f"A1:F{w4.max_row}"
+from tidy import tidy; tidy(wb)
 wb.save("../SALT_STRATEGY_1410.xlsx")
 for (name,*_),vs,bn,bc,pr in strat: print(name,[None if c is None else round(c) for _,c,_ in vs],bn,round(bc),round(pr))
 print({k:round(v) for k,v in tot.items()},round(trec))

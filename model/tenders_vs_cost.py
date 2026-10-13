@@ -7,7 +7,9 @@ cr=load("cr","cost_reference_1410.py"); ss=load("ss","salt_strategy_1410.py")
 P,be=ss.P,ss.be
 def base(g):
     w,rows=cr.G[g]; mids=[(a+b)/2 for _,_,a,b,_,_ in rows]; opt=[(a+b)/2 for _,_,a,b,t,_ in rows if t=="опт"]
-    avg=st.mean(mids); return cr.CLIENT.get(g) or (min(st.mean(opt),avg*0.9) if opt else avg*0.9), w
+    avg=st.mean(mids)
+    if g.startswith('Полукомбинезон'): return avg*0.9, w
+    return cr.CLIENT.get(g) or (min(st.mean(opt),avg*0.9) if opt else avg*0.9), w
 SPEC={"нефть_л":(8978,2.0,"Тракт 6 731 / Спецобъединение 13 219, среднее −10%"),"нефть_з":(15953,2.6,"Тракт 11 253 / Спецобъединение 24 199, среднее −10%"),
       "сигн_л":(5501,1.3,"Спецобъединение «Рефлект-2» 6 112 −10%"),"сигн_з":(10459,2.6,"Спецобъединение «Рефлект-2» зим. 11 621 −10%"),
       "кщс":(6215,2.4,"Тракт, костюм КЩС утепл. 6 215"),"энцеф":(1112,1.0,"Фабрикант 975 / Ивсотекс 1 250"),"плащ":(1168,0.8,"Тракт 971 / Фабрикант 1 365")}
@@ -18,12 +20,24 @@ def cost(item,north=False):
     if "кислот" in s: return SPEC["кщс"]
     if "энц" in s: return SPEC["энцеф"]
     if "плащ" in s: return SPEC["плащ"]
-    rules=[("комбинезон" in s and "зим" in s and "полу" not in s,"Комбинезон зимний"),("комбинезон" in s and "полу" not in s,"Комбинезон летний"),
-           ("сварщ" in s,"Костюм сварщика"),("жилет" in s and "сигнал" in s,"Жилет сигнальный"),("жилет" in s,"Жилет утепленный"),
-           ("футболк" in s,"Футболка"),("халат" in s,"Халат рабочий"),("полукомбинезон" in s or ("брюки" in s and ("зим" in s or "пониж" in s)),"Полукомбинезон / брюки зимние"),
-           ("куртк" in s and ("зим" in s or "пониж" in s or "утепл" in s),"Куртка утепленная"),
-           (("зим" in s or "утепл" in s or "пониж" in s) and ("якут" in s or "особ" in s),"Костюм зимний северный (IV/особый пояс)"),
-           ("зим" in s or "утепл" in s or "пониж" in s,"Костюм зимний рабочий (I–III пояс)"),("спасат" in s,"Костюм летний спасателя/МЧС"),("костюм" in s,"Костюм летний рабочий")]
+    head=s.split()[0] if s.split() else ""
+    cold=("зим" in s or "утепл" in s or "пониж" in s)
+    north=("якут" in s or "особ" in s)
+    if head.startswith("костюм"):
+        if "сварщ" in s: g="Костюм сварщика"
+        elif cold and north: g="Костюм зимний северный (IV/особый пояс)"
+        elif cold: g="Костюм зимний рабочий (I–III пояс)"
+        elif "спасат" in s: g="Костюм летний спасателя/МЧС"
+        else: g="Костюм летний рабочий"
+    elif head.startswith("зимн") and ("одежд" in s or "форм" in s): g="Костюм зимний северный (IV/особый пояс)" if north else "Костюм зимний рабочий (I–III пояс)"
+    elif head.startswith("комбинезон"): g="Комбинезон зимний" if cold else "Комбинезон летний"
+    elif head.startswith("полукомбинезон") or (head.startswith("брюки") and cold): g="Полукомбинезон / брюки зимние"
+    elif head.startswith("куртк"): g="Куртка утепленная" if cold else "Костюм летний рабочий"
+    elif head.startswith("жилет"): g="Жилет сигнальный" if "сигнал" in s else "Жилет утепленный"
+    elif head.startswith("футболк"): g="Футболка"
+    elif head.startswith("халат"): g="Халат рабочий"
+    else: g=None
+    rules=[(g is not None,g)]
     for cond,g in rules:
         if cond: c,w=base(g); return c,w,f"справочник: {g}"
     return None,0,"не сопоставлено"
@@ -75,12 +89,15 @@ for r in rows:
 tot=sum(r[8] for r in rows if "Самара" not in r[1] and "15.10" not in r[3])
 S.append(["","ИТОГО (подача с 16.10, без Самары)","","","","","","",tot]); R=S.max_row; S.cell(R,9).number_format=MONEY
 for c in S[R]: c.font=Font(bold=True)
-for i,w in enumerate([9,36,21,11,15,16,9,9,17,10,60],1): S.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
+for i,w in enumerate([11,36,21,12,15,16,10,10,17,11,60],1): S.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 for i,w in enumerate([30,52,7,13,13,9,14,14,46],1): W.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 for ws in (S,W):
     for row in ws.iter_rows(min_row=2):
         for c in row: c.alignment=Alignment(wrap_text=True,vertical="top"); c.border=Border(top=thin,bottom=thin,left=thin,right=thin)
 S.freeze_panes="C4"; W.freeze_panes="C2"; W.auto_filter.ref=f"A1:I{W.max_row}"
+from tidy import tidy
+tidy(wb)
 wb.save("../TENDERS_VS_COST_1410.xlsx")
+json.dump([dict(num=r[2],C=r[5],m=r[6],pe=r[8],be=r[9]) for r in rows],open("data/tvc_rows.json","w"),ensure_ascii=False)
 for r in rows: print(r[0],r[1][:30],round(r[4]),round(r[5]),f"{r[6]:.0%}",round(r[8]),f"{r[9]:.0%}")
 print("итого",round(tot))

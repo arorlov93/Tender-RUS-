@@ -84,6 +84,7 @@ for title,f in (("Цены — одежда (рынок)","bench_clothes_market.
     for row in ws.iter_rows(min_row=2):
         for c in row: c.alignment=Alignment(wrap_text=True,vertical="top")
     ws.auto_filter.ref=f"A1:{openpyxl.utils.get_column_letter(len(keys))}{ws.max_row}"
+from tidy import tidy; tidy(wb)
 wb.save("../DEEP_MARGIN_1210.xlsx")
 for s in stats:
     if s[2]: print(s)

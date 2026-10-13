@@ -45,7 +45,7 @@ for c in ws[3]: c.font=Font(bold=True,color="FFFFFF"); c.fill=PatternFill("solid
 for g,(w,rows) in G.items():
     mids=[(a+b)/2 for _,_,a,b,_,_ in rows]; opt=[(a+b)/2 for _,_,a,b,t,_ in rows if t=="опт"]
     avg=st.mean(mids); aopt=st.mean(opt) if opt else None
-    base=CLIENT.get(g) or (min(aopt,avg*0.9) if aopt else avg*0.9)
+    base=CLIENT.get(g) or (avg*0.9 if g.startswith('Полукомбинезон') else (min(aopt,avg*0.9) if aopt else avg*0.9))
     dl=[base+w*r for r in DLV.values()]
     tm=bench.get(TEN.get(g,""),{}).get("tender_median")
     ws.append([g,len({r[0] for r in rows}),min(r[2] for r in rows),max(r[3] for r in rows),avg,aopt,base,w]+dl+[CLIENT.get(g),tm,(tm/dl[0]-1) if tm else None])
@@ -89,6 +89,7 @@ for i,w in enumerate([26,40,34,13,52,60],1): w4.column_dimensions[openpyxl.utils
 for wsx in (w2,w3,w4):
     for row in wsx.iter_rows():
         for c in row: c.alignment=Alignment(wrap_text=True,vertical="top")
+from tidy import tidy; tidy(wb)
 wb.save("../COST_REFERENCE_1410.xlsx")
 for row in ws.iter_rows(min_row=4,values_only=True): print(row[0],'|',round(row[4]),'|',row[5] and round(row[5]),'|',round(row[6]),'|',[round(x) for x in row[8:11]],'|',row[12],'|',row[13] and f"{row[13]:.0%}")
 print(len({s for _,(w,r) in G.items() for s,*_ in r}),"сайтов по одежде")

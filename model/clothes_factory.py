@@ -100,6 +100,7 @@ for g,s,m,mod,(a,b),t,u in REF:
     ws2.cell(r,8).hyperlink=u; ws2.cell(r,8).font=Font(color="0563C1",underline="single")
 for i,w in enumerate([32,18,30,36,12,12,18,60],1): ws2.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws2.auto_filter.ref=f"A1:H{ws2.max_row}"; ws2.freeze_panes="A2"
+from tidy import tidy; tidy(wb)
 wb.save("../CLOTHES_FACTORY_PRICES_1410.xlsx")
 for x in LOTS: print(x["num"],round(x["C"]),f'{x["m"]:.0%}',round(x["pn"]),round(x["pe"]),f'{x["be"]:.0%}')
 print(len(REF),"цен,",len({r[1] for r in REF}),"сайтов")

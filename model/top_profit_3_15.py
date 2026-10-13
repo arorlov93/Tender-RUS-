@@ -46,6 +46,7 @@ for cc in ws[R]: cc.font=Font(bold=True)
 for i,w in enumerate([4,16,21,9,34,18,24,12,14,14,8,15,9,17,10,14,14,9,8,46,11],1):
     ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws.freeze_panes="D4"; ws.auto_filter.ref=f"A3:U{R-1}"
+from tidy import tidy; tidy(wb)
 wb.save("../TOP_PROFIT_3_15_1210.xlsx")
 for r in L: print(r[1],r[0],r[11])
 print(sum(r[11] for r in L), sum(r[11] for r in L if "ниже порога" not in r[17]))
