@@ -15,7 +15,7 @@ H=["№","Категория","№ закупки","Ссылка","Заказч�
 ws.append(H)
 for c in ws[3]: c.font=Font(bold=True,color="FFFFFF"); c.fill=PatternFill("solid",fgColor="305496")
 MONEY='#,##0" ₽"'; thin=Side(style="thin",color="BFBFBF")
-DISC={"Соль":.15,"ПГР":.15,"Пробирки":.25}
+DISC={"Соль":.15,"ПГР":.15,"Пробирки":.25,"Форма":.17,"Спецодежда (коммерч":.07,"Спецодежда":.10,"Арматура":.14,"Трубы":.10}
 for i,(r,cond) in enumerate(rows,1):
     cat,n,cust,meth,end,nm,c,m,pe,be,sec,note,conf=r
     d=next((v for k,v in DISC.items() if cat.startswith(k)),None)
@@ -31,7 +31,7 @@ for i,(r,cond) in enumerate(rows,1):
 def total(label,flt):
     s=[r for r,c in rows if flt(c)]
     nm=sum(r[5] or 0 for r in s); c=sum(r[6] or 0 for r in s if r[5]); pe=sum(r[8] for r in s)
-    ws.append(["",label,"","","","","",nm,c,(nm-c)/nm if nm else None,nm-c,None,pe]); R=ws.max_row
+    ws.append(["","","","",label,"","",nm,c,(nm-c)/nm if nm else None,nm-c,None,pe]); R=ws.max_row
     for k in (8,9,11,13): ws.cell(R,k).number_format=MONEY
     ws.cell(R,10).number_format="0%"
     for cc in ws[R]: cc.font=Font(bold=True)
