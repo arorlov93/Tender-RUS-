@@ -102,6 +102,11 @@ for cc in ws[R]: cc.font=Font(bold=True)
 for i,w in enumerate([4,62,21,9,22,12,8,10,13,14,9,15,15,10,15,10,14,45,18,40],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws.freeze_panes="C4"
 for row in ws.iter_rows(min_row=4):
+    v=row[17].value
+    if isinstance(v,str):
+        v=re.sub(r"https?://\S+","",v).strip(" ():;,")
+        row[17].value=(v[:85]+"…") if len(v)>86 else v
+for row in ws.iter_rows(min_row=4):
     if row[18].hyperlink: row[18].font=Font(color="0563C1",underline="single")
 from tidy import tidy; tidy(wb, row_h=30)
 wb.save("../ITOG_LOTS_1410.xlsx")
