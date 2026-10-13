@@ -1,0 +1,373 @@
+{
+ "meta": {
+  "date": "2026-10-13",
+  "vat_note": "Цены дилеров — с НДС 22% (входной НДС у клиента в расходах). 'tender_unit_rub' — цены за ед. из НМЦК 44-ФЗ извещений 2026 (KTRU-позиции, gosplan), это цены заказчика до снижения, не цены контрактов.",
+  "markup_summary": {
+   "общепром сталь (краны LD, задвижки 30с41нж)": "тендерная НМЦК/ед. выше опта дилера: задвижки +25-30%, краны фланц. +40-110% (но разброс огромен); в коммерческих запросах оферт холдингов реалистичная наценка 15-25% к опту",
+   "затворы чугунные межфл.": "наценки практически нет (тендеры 44-ФЗ ≈ опт дилера/ниже — КНР no-name); участвовать только с собственным прямым каналом",
+   "латунные краны Ду15-50": "тендер ≈ розница LD; маржа только при скидке дистрибьютора 20-30% от розницы [оценка]",
+   "нерж/химическая/ASTM/специсполнение": "меньше конкурентов, наценка 25-40% [оценка], но высокий риск подбора/сроков импорта",
+   "ЗИП к импортной ЗРА (Sisto и т.п.)": "параллельный импорт, сроки 8-16 нед, наценка 30-50% [оценка]; без каталожных номеров не считать"
+  }
+ },
+ "items": [
+  {
+   "item": "Кран шаровой стальной LD КШЦФ Ду15 Ру40 фланц.",
+   "dealer_rub": [
+    1525,
+    1948
+   ],
+   "tender_unit_rub": null,
+   "note": "опт specarmatura 1525 / розн. dn.ru 1948 (с НДС 22%)",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du_15_ru40/",
+    "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100"
+   ]
+  },
+  {
+   "item": "Кран шаровой стальной LD КШЦФ Ду50 Ру16 фланц.",
+   "dealer_rub": [
+    2860,
+    3648
+   ],
+   "tender_unit_rub": [
+    3419,
+    5456
+   ],
+   "tender_median": 4840,
+   "note": "опт specarmatura 2860 (розн 3071); dn.ru 3648; 44-ФЗ НМЦК ед. медиана 4840 (n=3)",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du_50_ru16/",
+    "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100",
+    "https://v2test.gosplan.info/fz44/purchases/0252100003826000189/notification",
+    "https://v2test.gosplan.info/fz44/purchases/0329100007026000034/notification"
+   ]
+  },
+  {
+   "item": "Кран шаровой стальной LD КШЦФ Ду100 Ру16 фланц. (станд. проход)",
+   "dealer_rub": [
+    6750,
+    7989
+   ],
+   "tender_unit_rub": [
+    7350,
+    54333
+   ],
+   "tender_median": 16796,
+   "note": "santech.ru 6750, dn.ru 7989, полнопроходной specarmatura 13930; 44-ФЗ медиана 16796 (n=4, разброс большой)",
+   "sources": [
+    "https://www.santech.ru/catalog/317/324/i3401/v14771/",
+    "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100",
+    "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du100_ru_16_p_p/",
+    "https://v2test.gosplan.info/fz44/purchases/0368100010826000239/notification"
+   ]
+  },
+  {
+   "item": "Кран шаровой стальной LD КШЦП приварной Ду50 / Ду100 Ру25",
+   "dealer_rub": {
+    "Ду50": 2420,
+    "Ду100": 5590
+   },
+   "tender_unit_rub": {
+    "Ду50": 2746,
+    "Ду100": 6326
+   },
+   "note": "dn.ru розн. (станд. проход); 44-ФЗ 0322100003626000033 (n=1) — почти без наценки",
+   "sources": [
+    "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn100",
+    "https://v2test.gosplan.info/fz44/purchases/0322100003626000033/notification"
+   ]
+  },
+  {
+   "item": "Задвижка 30с41нж Ду50 Ру16",
+   "dealer_rub": [
+    5600,
+    6100
+   ],
+   "tender_unit_rub": [
+    2317,
+    30271
+   ],
+   "tender_median": 9564,
+   "note": "specarmatura опт/розн (вероятно литьё КНР/неуказ. завод); 44-ФЗ 'задвижка сталь Ду50' медиана 9564 (n=22)",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/zadvizhka_30s41nzh_ru_16/zadvizhka_30s41nzh_du_50/",
+    "https://v2test.gosplan.info/fz44/purchases/0165300011426000024/notification",
+    "https://v2test.gosplan.info/fz44/purchases/0313100013526000055/notification"
+   ]
+  },
+  {
+   "item": "Задвижка 30с41нж Ду100 Ру16",
+   "dealer_rub": [
+    11000,
+    11900
+   ],
+   "tender_unit_rub": [
+    2028,
+    50254
+   ],
+   "tender_median": 14295,
+   "note": "specarmatura опт 11000; 44-ФЗ медиана 14295 (n=20)",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/zadvizhka_30s41nzh_ru_16/zadvizhka_30s41nzh_du_100/",
+    "https://v2test.gosplan.info/fz44/purchases/0152600003126000067/notification",
+    "https://v2test.gosplan.info/fz44/purchases/0252100003826000177/notification"
+   ]
+  },
+  {
+   "item": "Задвижка 30с41нж Ду200 Ру16",
+   "dealer_rub": [
+    30700,
+    33000
+   ],
+   "tender_unit_rub": [
+    33709,
+    37351
+   ],
+   "tender_median": 35483,
+   "note": "specarmatura опт 30700; 44-ФЗ 0373500000126000054 (n=3)",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/zadvizhka_30s41nzh_ru_16/",
+    "https://v2test.gosplan.info/fz44/purchases/0373500000126000054/notification"
+   ]
+  },
+  {
+   "item": "Задвижка 30с941нж Ду100 Ру16 под э/привод + электропривод (Тулаэлектропривод)",
+   "dealer_rub": {
+    "задвижка": [
+     29591,
+     42636
+    ],
+    "электропривод ГЗ/Н-А": [
+     79456,
+     105537
+    ]
+   },
+   "tender_unit_rub": null,
+   "note": "задвижка: Хотокс/СибЗТА ~29.6-29.9 тыс, santech 42.6 тыс; привод Тулаэлектропривод 79-106 тыс",
+   "sources": [
+    "https://sibzta.ru/product/zadvizhki/stalnye/30s941nzh/30s941nzh-dn100-pn16/",
+    "https://www.santech.ru/catalog/317/330/i278/v2/",
+    "https://dn.ru/privod/elektroprivod/mnogooborotnyi/gz/380/a100",
+    "https://www.santech.ru/catalog/317/322/elektroprivod_tulaelektroprivod/"
+   ]
+  },
+  {
+   "item": "Затвор поворотный дисковый чугун межфл. Ду100 Ру16 (рукоятка)",
+   "dealer_rub": [
+    4260,
+    5611
+   ],
+   "tender_unit_rub": [
+    1160,
+    9775
+   ],
+   "tender_median": 4183,
+   "note": "specarmatura 30ч1р опт 4260; Kvant (РФ) dn.ru 5611; 44-ФЗ медиана 4183 (n=5) — рынок без наценки, демпинг КНР",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/zatvory_32ch1r/zatvor_32ch1r_du_100/",
+    "https://dn.ru/zatvor/zatvor-ruchnoi/kvant/mezhfl-epdm-chugun/dn100",
+    "https://v2test.gosplan.info/fz44/purchases/0324100003926000036/notification",
+    "https://v2test.gosplan.info/fz44/purchases/0156100010826000072/notification"
+   ]
+  },
+  {
+   "item": "Затвор поворотный дисковый чугун межфл. Ду200 Ру16",
+   "dealer_rub": [
+    13800,
+    14033
+   ],
+   "tender_unit_rub": [
+    4938,
+    4938
+   ],
+   "note": "specarmatura опт 13800; Kvant dn.ru 14033; 44-ФЗ n=1 (4938 — китайский no-name)",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/zatvory_32ch1r/zatvor_32ch1r_du_200/",
+    "https://dn.ru/zatvor/zatvor-ruchnoi/kvant/mezhfl-epdm-chugun/dn100",
+    "https://v2test.gosplan.info/fz44/purchases/0340100011026000037/notification"
+   ]
+  },
+  {
+   "item": "Затвор дисковый Ду1200 Ру10 с редуктором",
+   "dealer_rub": [
+    1125540,
+    1495670
+   ],
+   "tender_unit_rub": null,
+   "note": "ИНТЕРАРМ (РФ, сталь WCB) 1.126 млн; ABRA 1.496 млн; Benarmo 2.09-2.55 млн; Tecofi 2.76-3.09 млн (dn.ru/teharmatura/pipeprice)",
+   "sources": [
+    "https://dn.ru/zatvor/zatvor-ruchnoi/abra/buv-vf826dg-r-pn10/dn1200",
+    "https://teharmatura.ru/catalog/zatvory/1200/"
+   ]
+  },
+  {
+   "item": "Задвижка Ду1200 Ру10 (чугун/сталь)",
+   "dealer_rub": [
+    725000,
+    4659040
+   ],
+   "tender_unit_rub": null,
+   "note": "30ч930бр 725 тыс (teharmatura); 30ч925бр под э/п 910 тыс (ОНИС); 30ч539р с редуктором СибЗТА 4.64-4.66 млн",
+   "sources": [
+    "https://teharmatura.ru/catalog/zadvizhki_chugunnye/diam_up_1200/rabochee_davlinie_10/",
+    "https://www.mailsk.ru/truboprovodnaya-zapornaya-armatura/zadvizhki/chugunnye/30ch925br-du1200-ru10/",
+    "https://sibzta.ru/product/zadvizhki/chugunnye/30ch539r/30ch539r-dn1200-pn10-16/"
+   ]
+  },
+  {
+   "item": "Клапан запорный 15с22нж Ду15/25/50 Ру40",
+   "dealer_rub": {
+    "Ду15": 2650,
+    "Ду25": 3300,
+    "Ду50": 6200
+   },
+   "tender_unit_rub": null,
+   "note": "specarmatura опт; в 44-ФЗ выборке марочных 15с22нж нет (клапаны запорные Ду50 2.0-3.5 тыс — латунь/чугун, не сравнимо)",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/klapan_ventil_15s22nzh/klapan_ventil_15s22nzh_du_25_ru_40/",
+    "https://www.specarmatura.ru/catalog/klapan_ventil_15s22nzh/klapan_ventil_15s22nzh_du_50_ru_40/",
+    "https://www.specarmatura.ru/catalog/klapan_ventil_15s22nzh/klapan_ventil_15s22nzh_du_15_ru_40/"
+   ]
+  },
+  {
+   "item": "Клапан запорный 15с27нж Ду25/Ду50 Ру63",
+   "dealer_rub": {
+    "Ду25": [
+     4350,
+     11580
+    ],
+    "Ду50": 15410
+   },
+   "tender_unit_rub": null,
+   "note": "ТД НХИ 11580 без НДС (09.2026), В-Комплект 9370; МЗТА Ду50 15410 с НДС",
+   "sources": [
+    "https://tdnhi.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/i_klapan_zapornyj_saljnikovy~782/",
+    "https://vkomplekt.spb.ru/item/ventil-15s27nzh-du25-ru63"
+   ]
+  },
+  {
+   "item": "Клапан запорный 15лс68нж Ду25 Ру250 ХЛ1",
+   "dealer_rub": [
+    5076,
+    8100
+   ],
+   "tender_unit_rub": null,
+   "note": "Сургут 5076 (Ру25МПа ХЛ1 п/прив., дата не указана); ТД НХИ 15лс68нж Ду25 PN160 5300 без НДС; ответные фланцы — отдельно",
+   "sources": [
+    "https://xn--80aaibxtc9acgdiglc3l.xn--p1ai/shop/zapornaya-armatura/ventil/klapan-zapornyj-15ls68nzh-du25-ru250mpa-xl1-po-privarku/",
+    "https://tdnhi.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/i_klapan_zapornyj_saljnikovy~978/"
+   ]
+  },
+  {
+   "item": "Клапан обратный 19с53нж Ду50 Ру40",
+   "dealer_rub": [
+    6100,
+    6500
+   ],
+   "tender_unit_rub": [
+    4580,
+    4580
+   ],
+   "note": "specarmatura опт 6100; 44-ФЗ обратный Ду50 4580 (межфланц. двухстворчатый — дешевле, не идентичен)",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/klapana_obratnye_povorotnye_flantsevyy_19s53nzh/klapan_obratnyy_povorotnyy_flantsevyy_19s53nzh_du_50_ru_40_/",
+    "https://v2test.gosplan.info/fz44/purchases/0329100002526000042/notification"
+   ]
+  },
+  {
+   "item": "Кран латунный муфтовый Ду15 / Ду25 (LD Pride 47)",
+   "dealer_rub": {
+    "Ду15": 378,
+    "Ду25": 1152
+   },
+   "tender_unit_rub": {
+    "Ду15": [
+     178,
+     906
+    ],
+    "Ду25": [
+     685,
+     2999
+    ]
+   },
+   "tender_median": {
+    "Ду15": 376,
+    "Ду25": 1228
+   },
+   "note": "розница specarmatura; 44-ФЗ медианы n=20/n=11 — наценки нет, только объём/скидка дистрибьютора",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/krany_ld_pride/kran_sharovoy_ld_pride_47_15_v_v_r_du_15_ru_40/",
+    "https://www.specarmatura.ru/catalog/krany_ld_pride/kran_sharovoy_ld_pride_47_25_v_v_r_du_25_ru_40/",
+    "https://v2test.gosplan.info/fz44/purchases/0151600003926000127/notification",
+    "https://v2test.gosplan.info/fz44/purchases/0156100010826000072/notification"
+   ]
+  },
+  {
+   "item": "Кран шаровой нерж. (08Х18Н10/12Х18Н10Т) фланц. Ду25 / Ду50 Ру16",
+   "dealer_rub": {
+    "Ду25": 5750,
+    "Ду50": 13500,
+    "Ду100 LD 12Х18Н10Т": 24010
+   },
+   "tender_unit_rub": {
+    "Ду50": [
+     2500,
+     24383
+    ],
+    "Ду100": [
+     6578,
+     38333
+    ]
+   },
+   "note": "specarmatura 11нж01пф опт; dslprof LD нерж Ду100 24010; 44-ФЗ n=2 по ДУ",
+   "sources": [
+    "https://www.specarmatura.ru/catalog/krany_sharovye_nerzhaveyushchie_flantsevye_11nzh01pf/kran_sharovyy_flantsevyy_11nzh01pf_du25_ru16_iz_stali_08kh18n10/",
+    "https://www.specarmatura.ru/catalog/krany_sharovye_nerzhaveyushchie_flantsevye_11nzh01pf/kran_sharovyy_flantsevyy_11nzh01pf_du50_ru16_iz_stali_08kh18n10/",
+    "https://v2test.gosplan.info/fz44/purchases/0228100001926000081/notification"
+   ]
+  },
+  {
+   "item": "Отвод ППУ 90° 108/200 (ППУ-ПЭ / ППУ-ОЦ)",
+   "dealer_rub": {
+    "ППУ-ПЭ 108х4": 9672,
+    "ППУ-ОЦ 108х4/200": [
+     10234,
+     12454
+    ]
+   },
+   "tender_unit_rub": null,
+   "note": "НФ-Труба (с НДС 22%) 9672; ТехПром ППУ-ОЦ 10234-12454",
+   "sources": [
+    "https://nf-truba.ru/catalog/product/otvod-st-108h4-0-1-ppu-pe/",
+    "https://ppu-prom.ru/catalog/otvod-ppu-v-ocinkovannoj-obolochke/f/ugol-povorota---90/"
+   ]
+  },
+  {
+   "item": "Отвод ППУ-ПЭ 90° 219х6/315",
+   "dealer_rub": [
+    9700,
+    27846
+   ],
+   "tender_unit_rub": null,
+   "note": "Альфаводострой 9700 (СПб, сомнительно низко), НФ-Труба от 27846 — разброс x3; реалистично 18-28 тыс [оценка]",
+   "sources": [
+    "https://awstroy.ru/product/otvod-stalnoy-v-izolyatsii-ppu-pe-90-gradusov-219kh6-0-315/",
+    "https://nf-truba.ru/catalog/product/otvod-st-219h6-0-1-ppu-pe/"
+   ]
+  },
+  {
+   "item": "Труба бесшовная г/д ГОСТ 8732 ст.20, за тонну",
+   "dealer_rub": [
+    112690,
+    174990
+   ],
+   "tender_unit_rub": null,
+   "note": "металлобазы Москва: 89х4 112.7 тыс/т, 57-108 мм 115-138 тыс/т, мелкие 163-175 тыс/т",
+   "sources": [
+    "https://rt-metall.ru/%D1%82%D1%80%D1%83%D0%B1%D1%8B-%D0%B3%D0%B4/",
+    "https://www.metall-energy.ru/truba-besshovnaya-goryachedeformirovannaya.htm"
+   ]
+  }
+ ]
+}

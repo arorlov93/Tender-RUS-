@@ -1,0 +1,147 @@
+[
+ {
+  "num": "ГП632821",
+  "name": "Открытый конкурс на поставку дизельного топлива",
+  "cust": "ООО «Геоновасервис»",
+  "law": "Коммерческие",
+  "method": "Конкурс (ЭТП ГПБ)",
+  "end": "2026-10-16 12:00",
+  "nmck": 182786941.03,
+  "positions": [
+   {
+    "item": "ДТ (летнее/межсезонное + зимнее/арктическое, К5) с доставкой на объекты ХМАО — объём [оценка] при НМЦК≈103 000 ₽/т с доставкой",
+    "qty": 1774.6,
+    "unit": "т",
+    "nmck_unit": 103000,
+    "cost_unit": 95000,
+    "cost_src": "[оценка]: смесь 40% летнее (мелкий опт самовывоз 82 400–90 400 ₽/т на 13.10.2026, https://postavcom.ru/products/dizelnoe-toplivo/) + 60% зимнее/арктическое (биржа зимнее 79 880–81 821 ₽/т на 8–9.10.2026 https://www.sberometer.ru/rvn/224155/ceny-na-benzin-i-diztoplivo-na-birzhe-poshli ; +~16 000 ₽/т спред мелкого опта как у летнего; Зап. Сибирь без скидки) ≈95 000 ₽/т с НДС на нефтебазе"
+   }
+  ],
+  "cost_total": 168587000,
+  "logistics": 7098400,
+  "margin_pct": 0.0389,
+  "net_at_nmck": -136713,
+  "exp_disc": 0.05,
+  "net_expected": -9202945,
+  "breakeven_disc": -0.0008,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Документация (объём, базисы, сорта, отсрочка, обеспечение) не получена: ЭТП ГПБ/etpgpb.ru отдаёт 503, номер ГП632821 не индексируется агрегаторами. Сценарий: при НМЦК≈103 тыс ₽/т маржа ~3,9% → убыток при любом снижении; даже если НМЦК заложена по 108 тыс ₽/т (маржа 8%), при снижении 5% убыток. Нужен оборотный капитал ~30–45 млн ₽ (поставки ~150 т/мес, отсрочка 30–60 дн), обеспечение заявки/договора, бензовозы ДОПОГ/доступ на кустовые площадки (зимники), прямые договоры с ВИНК/НПЗ. Конкуренты — региональные сбыты ВИНК и крупные трейдеры с собственными нефтебазами. Лицензия на перепродажу не нужна; нужны паспорта качества, декларации ТР ТС 013/2011.",
+  "confidence": "low",
+  "sources": [
+   "https://www.sberometer.ru/rvn/224155/ceny-na-benzin-i-diztoplivo-na-birzhe-poshli",
+   "https://finance.mail.ru/article/zimnij-dizel-na-birzhe-obnovil-rekord-69231538/",
+   "https://postavcom.ru/products/dizelnoe-toplivo/",
+   "https://driff.ru/fuel-dynamics/"
+  ]
+ },
+ {
+  "num": "251526",
+  "name": "Поставка летнего и зимнего ДТ наливом для ОСП «Буровой участок №3»",
+  "cust": "АО «Русбурмаш» (ИНН 7713190205, Росатом)",
+  "law": "Коммерческие (положение Росатома)",
+  "method": "Закупка у единственного поставщика",
+  "end": "2026-10-16 00:00",
+  "nmck": 78999270,
+  "positions": [
+   {
+    "item": "ДТ летнее/зимнее К5 наливом — объём [оценка] при ≈100 000 ₽/т",
+    "qty": 790.0,
+    "unit": "т",
+    "nmck_unit": 100000,
+    "cost_unit": 92000,
+    "cost_src": "[оценка]: прошлые закупки ДТ Русбурмаша — Курганская обл., Шумихинский р-н (вероятное место участка) https://rostender.info/category/tendery-zao-rusburmash-29402; мелкий опт ЕЧР/Урал летнее 82–90 тыс ₽/т https://postavcom.ru/products/dizelnoe-toplivo/, зимнее ≈96–100 тыс"
+   }
+  ],
+  "cost_total": 72680000,
+  "logistics": 2370000,
+  "margin_pct": 0.05,
+  "net_at_nmck": 722397,
+  "exp_disc": 0.05,
+  "net_expected": -3068485,
+  "breakeven_disc": 0.0108,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Закупка у единственного поставщика — поставщик уже определён, конкурентной подачи нет (это публикация о намерении/договоре). Страница zakupki.rosatom.ru недоступна. Участвовать нельзя; можно только попасть в будущие мониторинги цен Русбурмаша (Росэлторг).",
+  "confidence": "low",
+  "sources": [
+   "https://zakupki.rosatom.ru/",
+   "https://rostender.info/category/tendery-zao-rusburmash-29402",
+   "https://postavcom.ru/products/dizelnoe-toplivo/"
+  ]
+ },
+ {
+  "num": "1251993",
+  "name": "ДТ для бункеровки буксиров ГК «Содружество», октябрь 2026",
+  "cust": "ООО УК «Содружество»",
+  "law": "Коммерческие",
+  "method": "Открытый аукцион (Тендер.Про)",
+  "end": "2026-10-13 17:00",
+  "nmck": null,
+  "positions": [
+   {
+    "item": "ДТ (судовое/ДТ-Л/межсезонное К5), бункеровка буксиров в порту Калининград — объём неизвестен, [оценка] 150 т",
+    "qty": 150,
+    "unit": "т",
+    "nmck_unit": null,
+    "cost_unit": 100000,
+    "cost_src": "[оценка]: в Калининграде дефицит, всё топливо завозится морем; биржевой/посреднический ресурс дороже ВИНК на 15–20 ₽ https://news.mail.ru/society/71532921/; база мелкий опт летнее 82–90 тыс ₽/т https://postavcom.ru/products/dizelnoe-toplivo/ + морская доставка"
+   }
+  ],
+  "cost_total": 15000000,
+  "logistics": 375000,
+  "margin_pct": 0.0509,
+  "net_at_nmck": null,
+  "exp_disc": null,
+  "net_expected": null,
+  "breakeven_disc": null,
+  "kp_price": 16200000,
+  "kp_margin_pct": 0.0509,
+  "decision": "Нет",
+  "risks": "Срок подачи — сегодня 17:00, документация на tender.pro не получена (503). Бункеровка с 01.03.2026 — только поставщики из реестра Минтранса (приказ №225 от 30.07.2025) https://ppt.ru/amp/obzory/vstupaet-v-silu/prikaz-mintransa-rossii-30-07-2025-225; нужен бункеровщик/автоцистерны с допуском в порт, свой ресурс в анклаве с дефицитом. Расчёт КП 108 тыс ₽/т даёт net ≈ 161432 ₽ — безубыточность ≈106,5 тыс ₽/т (тонкая маржа ~5%).",
+  "confidence": "low",
+  "sources": [
+   "https://news.mail.ru/society/71532921/",
+   "https://www.dp.ru/a/2026/07/04/v-kaliningrade-vozobnovljajut",
+   "https://ppt.ru/amp/obzory/vstupaet-v-silu/prikaz-mintransa-rossii-30-07-2025-225",
+   "https://postavcom.ru/products/dizelnoe-toplivo/"
+  ]
+ },
+ {
+  "num": "4635573",
+  "name": "Закупка ГСМ (масло моторное Gazpromneft)",
+  "cust": "ООО «Инфрадорстрой»",
+  "law": "Коммерческие",
+  "method": "Запрос цен (B2B-Center)",
+  "end": "2026-10-14 17:10",
+  "nmck": null,
+  "positions": [
+   {
+    "item": "Масло моторное Gazpromneft Diesel Premium 15W-40 (или G-Profi MSJ/MSH 10W-40), бочка 205 л — [оценка] 10 бочек",
+    "qty": 2050,
+    "unit": "л",
+    "nmck_unit": null,
+    "cost_unit": 330,
+    "cost_src": "[оценка]: розница VI Diesel Premium 15W-40 20 л = 8 924 ₽ (446 ₽/л), G-Profi MSK 5W-40 205 л = 175 540 ₽ (856 ₽/л) https://www.vseinstrumenti.ru/tag-page/gazpromneft-40-598856; дилерская закупка в бочке ≈25% ниже розничной канистры → ~330 ₽/л"
+   }
+  ],
+  "cost_total": 676500,
+  "logistics": 10148,
+  "margin_pct": 0.13,
+  "net_at_nmck": null,
+  "exp_disc": null,
+  "net_expected": null,
+  "breakeven_disc": null,
+  "kp_price": 789250,
+  "kp_margin_pct": 0.13,
+  "decision": "Запросить спецификацию",
+  "risks": "Спецификация закрыта логином B2B-Center; марка/объём неизвестны. Конкуренты — официальные дилеры «Газпромнефть-СМ» в Чите/Иркутске с прямой ценой; посредник без дилерского договора проигрывает 10–15%. Возможен запрос подтверждения оригинальности (сертификат дилера). Малый объём — абсолютный net ~62657 ₽.",
+  "confidence": "low",
+  "sources": [
+   "https://www.vseinstrumenti.ru/tag-page/gazpromneft-40-598856",
+   "https://www.zr.ru/content/news/956505-gazprom-neft-obespechit/"
+  ]
+ }
+]
