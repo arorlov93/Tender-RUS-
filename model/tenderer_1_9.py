@@ -4,7 +4,7 @@ from openpyxl.styles import Font, PatternFill, Border, Side
 def load(n,f):
     s=importlib.util.spec_from_file_location(n,f); m=importlib.util.module_from_spec(s); o=sys.stdout; sys.stdout=io.StringIO(); s.loader.exec_module(m); sys.stdout=o; return m
 iu=load("iu","itog_units.py")
-ROWS=[r for r,c in iu.it.rows]   # 1–9 + остальные лоты без аукционов (10–12)
+ROWS=[r for r,c in iu.it.rows][:9]   # только пункты 1–9
 I={ # площадка, регион поставки, обеспечение, аванс, СМП, нацрежим, что проверить
 "32616451106":("РТС-тендер","Московская обл.","67 240 ₽ (1%) / 672 400 ₽ (10%)","не указан","нет","нет (импорт допускается)","NaCl, фракция, упаковка (МКР/биг-бэг), график и адрес поставки"),
 "0851300006226000106":("ЕИС / площадка из извещения","г. Новосибирск, снегоотвал ул. Профилактическая, 73","1% / 5%","нет","да","нет","Контракт с ценой за единицу (объём не определён); МКР; концентрат минеральный — допуск эквивалента"),
@@ -21,7 +21,7 @@ I={ # площадка, регион поставки, обеспечение, �
 }
 MONEY='#,##0" ₽"'; thin=Side(style="thin",color="BFBFBF")
 wb=openpyxl.Workbook(); ws=wb.active; ws.title="Лоты к подаче"
-ws.append(["Лоты к подаче (без аукционов), подача с 16.10.2026 — для тендерного специалиста (12 лотов)"]); ws["A1"].font=Font(bold=True,size=13)
+ws.append(["Лоты к подаче (без аукционов), подача с 16.10.2026 — для тендерного специалиста (пункты 1–9)"]); ws["A1"].font=Font(bold=True,size=13)
 ws.append(["Время — московское. Перед подачей сверить данные с извещением и документацией."])
 H=["№","Лот / позиция","№ закупки","Ссылка","Способ","Площадка","Заказчик","Место поставки","Окончание подачи","Кол-во","Ед.","Цена за ед. в НМЦК, ₽","НМЦК / сумма, ₽","Обеспечение заявки / исполнения","Аванс","Только СМП","Национальный режим","Что проверить в ТЗ"]
 ws.append(H)
@@ -51,5 +51,5 @@ for k,r in enumerate(ROWS,1):
 for i,w in enumerate([4,58,21,9,22,20,34,26,12,8,10,13,15,22,10,8,26,46],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws.freeze_panes="C4"
 from tidy import tidy; tidy(wb,row_h=30)
-wb.save("../TENDERER_LOTS_1410.xlsx")
+wb.save("../TENDERER_LOTS_1-9_1410.xlsx")
 print([r[1] for r in ROWS])
