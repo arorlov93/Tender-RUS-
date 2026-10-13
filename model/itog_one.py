@@ -49,6 +49,6 @@ total("ИТОГО — с крупными (жёсткие условия)",lambd
 for i,w in enumerate([4,18,21,9,32,22,12,15,16,11,15,9,16,10,15,10,30,44,11],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws.freeze_panes="D4"; ws.auto_filter.ref=f"A3:S{ws.max_row-2}"
 from tidy import tidy; tidy(wb)
-wb.save("../ITOG_LOTS_1410.xlsx")
+if __name__=="__main__": wb.save("../ITOG_LOTS_1410.xlsx")
 print("AUCTIONS_REMOVED",[n for n,v in AUCTION.items() if v])
 for r,c in rows: print(r[0][:12],r[1],round(r[5] or 0),r[7] and f"{r[7]:.0%}",round(r[8]),c[:10])
