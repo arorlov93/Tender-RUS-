@@ -1,0 +1,983 @@
+{
+ "0358200022926000030": {
+  "name": "Ростов, форма спасателей",
+  "positions": [
+   {
+    "item": "Костюм спасателя зимний (куртка, брюки утепленные (полукомбинезон), комплект",
+    "qty": 168.0,
+    "unit": "Комплект",
+    "nmck_unit": 7698.83,
+    "cost_unit": 5091.0,
+    "group": "Костюм зимний рабочий (I–III пояс)",
+    "src": "ваша себестоимость; рынок 2026: fabrikant-textile.ru 1 845; techno-avia.ru 7 194; specteks37.ru 2 650",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/zimnyaya-spetsodezhda/"
+    ]
+   },
+   {
+    "item": "Костюм спасателя летний (куртка, брюки, кепка), комплект",
+    "qty": 241.0,
+    "unit": "Комплект",
+    "nmck_unit": 6613.44,
+    "cost_unit": 3545.5,
+    "group": "Костюм летний спасателя/МЧС",
+    "src": "ваша себестоимость; рынок 2026: voen36.ru 3 100; zvezda-army.ru 4 500; barrakuda.biz 4 900",
+    "urls": [
+     "https://voen36.ru/catalog/forma_mchs/kostyum_letniy_mchs_dl_rukav_tk_rip_stop_morskaya_volna/",
+     "https://zvezda-army.ru/catalog/odezhda/kostyumy/kostyum-letniy-mchs-siniy-rs/",
+     "https://barrakuda.biz/formennaya-odezhda/kostyumy-mchs/kostyum-letnij-spasatelya-mchs-tkan-rip-stop-briz-sero-sinego-tsv"
+    ]
+   },
+   {
+    "item": "Комбинезон спасателя зимний, шт.",
+    "qty": 208.0,
+    "unit": "Штука",
+    "nmck_unit": 7565.57,
+    "cost_unit": 13116.650000000001,
+    "group": "Комбинезон зимний",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 15 866; spets.ru 10 199",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_zimnyaya/kombinezon-pilot-zimnij-krasnyj-chernyj/"
+    ]
+   },
+   {
+    "item": "Комбинезон спасателя летний, шт.",
+    "qty": 239.0,
+    "unit": "Штука",
+    "nmck_unit": 6542.14,
+    "cost_unit": 3696.6,
+    "group": "Комбинезон летний",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 7 404; specteks37.ru 2 720; spets.ru 3 550",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/letnyaya-spetsodezhda/",
+     "https://www.spets.ru/products/spetsodezhda/letnyaya/kombinezon-pilot-letnij-t-sinij/"
+    ]
+   },
+   {
+    "item": "Футболка форменная, шт.",
+    "qty": 268.0,
+    "unit": "Штука",
+    "nmck_unit": 746.15,
+    "cost_unit": 493.17,
+    "group": "Футболка",
+    "src": "медиана опт/прайс 2026: trakt.ru 484; techno-avia.ru 486; spets.ru 488",
+    "urls": [
+     "https://www.trakt.ru/product/12012/",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/prices/price_msk.xls"
+    ]
+   }
+  ],
+  "C": 5453673.66,
+  "m": 0.12382630884830777,
+  "pe": -508033.4925027948,
+  "be": 0.08772237747407213,
+  "nm": 6224420.7
+ },
+ "32616431081": {
+  "name": "ФБУ ЦСМ Башкортостан, спецодежда 18 поз.",
+  "positions": [
+   {
+    "item": "Жилет сигнальный",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": 900.22,
+    "cost_unit": 321.23,
+    "group": "Жилет сигнальный",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 260; techno-avia.ru 396; ivuniforma.ru 210",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/signalnaya-odezhda/"
+    ]
+   },
+   {
+    "item": "Жилет утепленный",
+    "qty": 64.0,
+    "unit": "Штука",
+    "nmck_unit": 5316.19,
+    "cost_unit": 1613.855,
+    "group": "Жилет утепленный",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 1 313; ivuniforma.ru 875; trakt.ru 1 866",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/zhilety-rabochie/",
+     "https://www.trakt.ru/product/12021/"
+    ]
+   },
+   {
+    "item": "Костюм летний мужской противоэнцэфалитный",
+    "qty": 1.0,
+    "unit": "Комплект",
+    "nmck_unit": 15580.14,
+    "cost_unit": 3171.7,
+    "group": "Костюм противоэнцефалитный",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 975; techno-avia.ru 4 546; specteks37.ru 1 920",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/dlya-okhrany-i-otdykha/"
+    ]
+   },
+   {
+    "item": "Костюм летний мужской для защиты от механических воздействий и общих производственных загрязнений",
+    "qty": 23.0,
+    "unit": "Комплект",
+    "nmck_unit": 9971.47,
+    "cost_unit": 3542.0,
+    "group": "Костюм летний рабочий",
+    "src": "ваша себестоимость; рынок 2026: fabrikant-textile.ru 495; fabrikant-textile.ru 850; techno-avia.ru 2 359",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+    ]
+   },
+   {
+    "item": "Костюм летний женский для защиты от механических воздействий и общих производственных загрязнений",
+    "qty": 1.0,
+    "unit": "Комплект",
+    "nmck_unit": 9971.47,
+    "cost_unit": 3542.0,
+    "group": "Костюм летний рабочий",
+    "src": "ваша себестоимость; рынок 2026: fabrikant-textile.ru 495; fabrikant-textile.ru 850; techno-avia.ru 2 359",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+    ]
+   },
+   {
+    "item": "Куртка зимняя мужской для защиты от механических воздействий и общих производственных загрязнений",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": 8546.92,
+    "cost_unit": 2551.1,
+    "group": "Куртка утепленная",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 1 125; techno-avia.ru 4 567; specteks37.ru 1 200",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/zimnyaya-spetsodezhda/"
+    ]
+   },
+   {
+    "item": "Полукомбинезон зимний мужской для защиты от механических воздействий и общих производственных загрязнений",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": 7973.42,
+    "cost_unit": 1225.0,
+    "group": "Полукомбинезон / брюки зимние",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 720; techno-avia.ru 2 828; spets.ru 1 019",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_zimnyaya/polukombinezon-vinter-zimnij-t-sinij/"
+    ]
+   },
+   {
+    "item": "Костюм летний мужской сигнальный флуоресцентный (ОПЗ)",
+    "qty": 4.0,
+    "unit": "Комплект",
+    "nmck_unit": 12267.73,
+    "cost_unit": 3711.9049999999997,
+    "group": "Костюм сигнальный летний",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 4 731; ivuniforma.ru 1 610; spets.ru 3 027",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/signalnaya-odezhda/",
+     "https://www.spets.ru/products/spetsodezhda/letnyaya/kostjum-reflekt-2-so-3-ij-klass-zaschity-fluorescentnyj-oranzhevyj-seryj/"
+    ]
+   },
+   {
+    "item": "Костюм зимний мужской сигнальный флуоресцентный (ОПЗ)",
+    "qty": 4.0,
+    "unit": "Комплект",
+    "nmck_unit": 15293.39,
+    "cost_unit": 6892.5,
+    "group": "Костюм сигнальный зимний",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 10 676; ivuniforma.ru 4 522; trakt.ru 5 368",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/signalnaya-odezhda/",
+     "https://www.trakt.ru/product/138232/"
+    ]
+   },
+   {
+    "item": "Костюм зимний женский для защиты от нефтепродуктов",
+    "qty": 8.0,
+    "unit": "Комплект",
+    "nmck_unit": 32058.76,
+    "cost_unit": 13867.85,
+    "group": "Костюм от нефтепродуктов зимний",
+    "src": "медиана опт/прайс 2026: trakt.ru 12 616; spets.ru 14 938",
+    "urls": [
+     "https://www.trakt.ru/product/16992/",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_spetsialnaya/odezhda_dlya_zashchity_ot_nefti_i_nefteproduktov/kostjum-petroleum-2-zimnij-t-sinij/"
+    ]
+   },
+   {
+    "item": "Костюм зимний мужской для защиты от нефтепродуктов",
+    "qty": 23.0,
+    "unit": "Комплект",
+    "nmck_unit": 32058.76,
+    "cost_unit": 13867.85,
+    "group": "Костюм от нефтепродуктов зимний",
+    "src": "медиана опт/прайс 2026: trakt.ru 12 616; spets.ru 14 938",
+    "urls": [
+     "https://www.trakt.ru/product/16992/",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_spetsialnaya/odezhda_dlya_zashchity_ot_nefti_i_nefteproduktov/kostjum-petroleum-2-zimnij-t-sinij/"
+    ]
+   },
+   {
+    "item": "Костюм летний женский для защиты от нефтепродуктов",
+    "qty": 15.0,
+    "unit": "Комплект",
+    "nmck_unit": 19177.56,
+    "cost_unit": 7846.889999999999,
+    "group": "Костюм от нефтепродуктов летний",
+    "src": "медиана опт/прайс 2026: trakt.ru 6 660; spets.ru 8 894",
+    "urls": [
+     "https://www.trakt.ru/product/16981/",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_spetsialnaya/odezhda_dlya_zashchity_ot_nefti_i_nefteproduktov/kostjum-petroleum-2-t-sinij/"
+    ]
+   },
+   {
+    "item": "Костюм летний мужской для защиты от нефтепродуктов",
+    "qty": 41.0,
+    "unit": "Комплект",
+    "nmck_unit": 19177.56,
+    "cost_unit": 7846.889999999999,
+    "group": "Костюм от нефтепродуктов летний",
+    "src": "медиана опт/прайс 2026: trakt.ru 6 660; spets.ru 8 894",
+    "urls": [
+     "https://www.trakt.ru/product/16981/",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_spetsialnaya/odezhda_dlya_zashchity_ot_nefti_i_nefteproduktov/kostjum-petroleum-2-t-sinij/"
+    ]
+   },
+   {
+    "item": "Плащ для защиты от воды",
+    "qty": 49.0,
+    "unit": "Штука",
+    "nmck_unit": 2764.97,
+    "cost_unit": 1040.0,
+    "group": "Плащ влагозащитный",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 1 239; fabrikant-textile.ru 1 365; trakt.ru 858",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://www.trakt.ru/product/11992/"
+    ]
+   },
+   {
+    "item": "Футболка красная",
+    "qty": 112.0,
+    "unit": "Штука",
+    "nmck_unit": 1379.88,
+    "cost_unit": 493.17,
+    "group": "Футболка",
+    "src": "медиана опт/прайс 2026: trakt.ru 484; techno-avia.ru 486; spets.ru 488",
+    "urls": [
+     "https://www.trakt.ru/product/12012/",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/prices/price_msk.xls"
+    ]
+   },
+   {
+    "item": "Халат белый мужской",
+    "qty": 39.0,
+    "unit": "Штука",
+    "nmck_unit": 2862.3,
+    "cost_unit": 969.1,
+    "group": "Халат рабочий",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 400; techno-avia.ru 3 277; ivuniforma.ru 609",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/letnyaya-spetsodezhda/khalati/"
+    ]
+   },
+   {
+    "item": "Халат белый женский",
+    "qty": 31.0,
+    "unit": "Штука",
+    "nmck_unit": 2862.3,
+    "cost_unit": 969.1,
+    "group": "Халат рабочий",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 400; techno-avia.ru 3 277; ivuniforma.ru 609",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/letnyaya-spetsodezhda/khalati/"
+    ]
+   },
+   {
+    "item": "Халат синий мужской",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": 3093.44,
+    "cost_unit": 969.1,
+    "group": "Халат рабочий",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 400; techno-avia.ru 3 277; ivuniforma.ru 609",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/letnyaya-spetsodezhda/khalati/"
+    ]
+   }
+  ],
+  "C": 1366955.49,
+  "m": 0.6242022339906012,
+  "pe": 1560296.041527485,
+  "be": 0.6087169747416499,
+  "nm": 3637476.36
+ },
+ "32616453117": {
+  "name": "Салаватводоканал, спецодежда",
+  "positions": [
+   {
+    "item": "Костюм женский для защиты от пониженных температур, в т.ч. Куртка и полукомбинезон",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 10645.0,
+    "cost_unit": 5091.0,
+    "group": "Костюм зимний рабочий (I–III пояс)",
+    "src": "ваша себестоимость; рынок 2026: fabrikant-textile.ru 1 845; techno-avia.ru 7 194; specteks37.ru 2 650",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/zimnyaya-spetsodezhda/"
+    ]
+   },
+   {
+    "item": "Куртка мужская для защиты от пониженных температур",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 4410.0,
+    "cost_unit": 2551.1,
+    "group": "Куртка утепленная",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 1 125; techno-avia.ru 4 567; specteks37.ru 1 200",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/zimnyaya-spetsodezhda/"
+    ]
+   },
+   {
+    "item": "Полукомбинезон мужской зимний",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 3723.33,
+    "cost_unit": 1225.0,
+    "group": "Полукомбинезон / брюки зимние",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 720; techno-avia.ru 2 828; spets.ru 1 019",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_zimnyaya/polukombinezon-vinter-zimnij-t-sinij/"
+    ]
+   },
+   {
+    "item": "Куртка мужская для защиты от пониженных температур",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 7856.33,
+    "cost_unit": 2551.1,
+    "group": "Куртка утепленная",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 1 125; techno-avia.ru 4 567; specteks37.ru 1 200",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/zimnyaya-spetsodezhda/"
+    ]
+   },
+   {
+    "item": "Брюки мужские от защиты от пониженных температур",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 5011.33,
+    "cost_unit": 1225.0,
+    "group": "Полукомбинезон / брюки зимние",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 720; techno-avia.ru 2 828; spets.ru 1 019",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_zimnyaya/polukombinezon-vinter-zimnij-t-sinij/"
+    ]
+   },
+   {
+    "item": "Куртка женская для защиты от пониженных температур",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 4727.67,
+    "cost_unit": 2551.1,
+    "group": "Куртка утепленная",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 1 125; techno-avia.ru 4 567; specteks37.ru 1 200",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/zimnyaya-spetsodezhda/"
+    ]
+   },
+   {
+    "item": "Брюки женские от защиты от пониженных температур",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 3020.0,
+    "cost_unit": 1225.0,
+    "group": "Полукомбинезон / брюки зимние",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 720; techno-avia.ru 2 828; spets.ru 1 019",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_zimnyaya/polukombinezon-vinter-zimnij-t-sinij/"
+    ]
+   },
+   {
+    "item": "Костюм мужской для защиты от кислот и щелочей, пониженных температур, от воздействия статического электричества",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 14527.0,
+    "cost_unit": 4783.4400000000005,
+    "group": "Костюм КЩС (кислоты/щелочи)",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 6 306; ivuniforma.ru 2 660; spets.ru 3 184",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/zashchitnaya-odezhda-/zashchita-ot-kislot-i-shchelochey/",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_spetsialnaya/odezhda_dlya_zashchity_ot_kislot_i_shchelochey/kostjum-kislotostojkij-t-sinij/"
+    ]
+   },
+   {
+    "item": "Костюм сварщика зимний комбинированный со спилком",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 12543.67,
+    "cost_unit": 5989.67,
+    "group": "Костюм сварщика",
+    "src": "медиана опт/прайс 2026: spets.ru 3 562; techno-avia.ru 3 801; trakt.ru 5 511",
+    "urls": [
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.trakt.ru/product/11982/"
+    ]
+   },
+   {
+    "item": "Костюм сигнальный для защиты от пониженных температур",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 9907.0,
+    "cost_unit": 6892.5,
+    "group": "Костюм сигнальный зимний",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 10 676; ivuniforma.ru 4 522; trakt.ru 5 368",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/signalnaya-odezhda/",
+     "https://www.trakt.ru/product/138232/"
+    ]
+   },
+   {
+    "item": "Жилет утепленный",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 2200.0,
+    "cost_unit": 1613.855,
+    "group": "Жилет утепленный",
+    "src": "медиана опт/прайс 2026: techno-avia.ru 1 313; ivuniforma.ru 875; trakt.ru 1 866",
+    "urls": [
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/zhilety-rabochie/",
+     "https://www.trakt.ru/product/12021/"
+    ]
+   }
+  ],
+  "C": 681522.7322739733,
+  "m": 0.5456515118173512,
+  "pe": 539980.3847748089,
+  "be": 0.5269294629781853,
+  "nm": 1500000
+ },
+ "32616452870": {
+  "name": "Салаватводоканал, 2-й лот",
+  "positions": [
+   {
+    "item": "Костюм от электродуги (летний)",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 20031.67,
+    "cost_unit": 17078.02,
+    "group": "Костюм от электродуги летний",
+    "src": "медиана опт/прайс 2026: trakt.ru 12 917; spets.ru 16 836; trakt.ru 17 008",
+    "urls": [
+     "https://www.trakt.ru/product/142253/",
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.trakt.ru/product/61040/"
+    ]
+   },
+   {
+    "item": "Термобельё",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 5235.0,
+    "cost_unit": 2906.01,
+    "group": "Термобельё (комплект)",
+    "src": "медиана опт/прайс 2026: spets.ru 1 525; trakt.ru 2 892; spets.ru 2 989",
+    "urls": [
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.trakt.ru/product/12922/",
+     "https://www.spets.ru/prices/price_msk.xls"
+    ]
+   },
+   {
+    "item": "Ботинки",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 5811.33,
+    "cost_unit": 2437.6800000000003,
+    "group": "Ботинки кожаные с МП (летние)",
+    "src": "медиана опт/прайс 2026: spets.ru 1 812; spets.ru 1 964; trakt.ru 2 034",
+    "urls": [
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.trakt.ru/product/12103/"
+    ]
+   },
+   {
+    "item": "Перчатки термостойкие",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 1346.33,
+    "cost_unit": 912.08,
+    "group": "Перчатки термостойкие/краги",
+    "src": "медиана опт/прайс 2026: trakt.ru 411; spets.ru 470; techno-avia.ru 801",
+    "urls": [
+     "https://www.trakt.ru/product/11812/",
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+    ]
+   },
+   {
+    "item": "Подшлемник",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 1778.0,
+    "cost_unit": 346.93,
+    "group": "Подшлемник",
+    "src": "медиана опт/прайс 2026: spets.ru 204; trakt.ru 259; techno-avia.ru 343",
+    "urls": [
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.trakt.ru/product/11708/",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+    ]
+   },
+   {
+    "item": "Каска",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 1833.33,
+    "cost_unit": 306.8,
+    "group": "Каска",
+    "src": "медиана опт/прайс 2026: trakt.ru 226; trakt.ru 293; spets.ru 293",
+    "urls": [
+     "https://www.trakt.ru/product/12792/",
+     "https://www.trakt.ru/product/12788/",
+     "https://www.spets.ru/prices/price_msk.xls"
+    ]
+   },
+   {
+    "item": "Щиток защитный",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 3468.67,
+    "cost_unit": 335.0,
+    "group": "Щиток защитный лицевой",
+    "src": "медиана опт/прайс 2026: trakt.ru 305; spets.ru 305; techno-avia.ru 321",
+    "urls": [
+     "https://www.trakt.ru/product/12770/",
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+    ]
+   },
+   {
+    "item": "Костюм от электродуги зимний",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 33762.67,
+    "cost_unit": 36312.16,
+    "group": "Костюм от электродуги зимний",
+    "src": "медиана опт/прайс 2026: trakt.ru 33 155; techno-avia.ru 36 207; spets.ru 53 070",
+    "urls": [
+     "https://www.trakt.ru/product/61043/",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/prices/price_msk.xls"
+    ]
+   },
+   {
+    "item": "Полусапоги",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 7592.75,
+    "cost_unit": 3890.91,
+    "group": "Полусапоги",
+    "src": "медиана опт/прайс 2026: spets.ru 2 458; spets.ru 3 509; trakt.ru 3 787",
+    "urls": [
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.trakt.ru/product/12925/"
+    ]
+   }
+  ],
+  "C": 558595.7537588233,
+  "m": 0.2020060660588239,
+  "pe": 40799.536186260506,
+  "be": 0.16912363815780102,
+  "nm": 700000
+ },
+ "32616443256": {
+  "name": "Якутия ГПС, форма (подача 15.10!)",
+  "positions": [
+   {
+    "item": "Костюм летний полевой",
+    "qty": 405.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 3644.0,
+    "group": "Костюм летний рабочий",
+    "src": "ваша себестоимость; рынок 2026: fabrikant-textile.ru 495; fabrikant-textile.ru 850; techno-avia.ru 2 359",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+    ]
+   },
+   {
+    "item": "Зимняя форменная одежда мужская",
+    "qty": 150.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 7013.57,
+    "group": "Костюм зимний северный (IV/особый пояс)",
+    "src": "медиана опт/прайс 2026: specteks37.ru 4 600; spets.ru 6 084; ivuniforma.ru 7 175",
+    "urls": [
+     "https://specteks37.ru/katalog/zimnyaya-spetsodezhda/kostyum-265-tkan-smesovaya-siniy/",
+     "https://www.spets.ru/products/spetsodezhda/odezhda_zimnyaya/kostjum-urengoj-zimnij-seryj-chernyj-4-kl-pojas/",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/kostyum-rabochiy-muzhskoy-art-r-02-73-or/"
+    ]
+   }
+  ],
+  "C": 2527855.5,
+  "m": 0.4943279526891953,
+  "pe": 1363565.9895621368,
+  "be": 0.4734910466301,
+  "nm": 4999001.85
+ },
+ "4634447": {
+  "name": "Биннофарм, пул поставщиков (корзина — оценка)",
+  "positions": [
+   {
+    "item": "Халат х/б (бязь)",
+    "qty": 300,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 959.1,
+    "group": "Халат рабочий",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 400; techno-avia.ru 3 277; ivuniforma.ru 609",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/letnyaya-spetsodezhda/khalati/"
+    ]
+   },
+   {
+    "item": "Костюм для защиты от общих загрязнений и мех. воздействий (антистатический, 2 класс)",
+    "qty": 200,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 3518.0,
+    "group": "Костюм летний рабочий",
+    "src": "ваша себестоимость; рынок 2026: fabrikant-textile.ru 495; fabrikant-textile.ru 850; techno-avia.ru 2 359",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+    ]
+   },
+   {
+    "item": "Футболка х/б",
+    "qty": 200,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 489.17,
+    "group": "Футболка",
+    "src": "медиана опт/прайс 2026: trakt.ru 484; techno-avia.ru 486; spets.ru 488",
+    "urls": [
+     "https://www.trakt.ru/product/12012/",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.spets.ru/prices/price_msk.xls"
+    ]
+   },
+   {
+    "item": "Ботинки кожаные с МП",
+    "qty": 50,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 2405.6800000000003,
+    "group": "Ботинки кожаные с МП (летние)",
+    "src": "медиана опт/прайс 2026: spets.ru 1 812; spets.ru 1 964; trakt.ru 2 034",
+    "urls": [
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.trakt.ru/product/12103/"
+    ]
+   }
+  ],
+  "C": 1209448.0,
+  "m": 0.25,
+  "pe": 202731.05358728752,
+  "be": 0.21909522757401684,
+  "nm": null
+ },
+ "372-446": {
+  "name": "Благо-Армавир (корзина — оценка)",
+  "positions": [
+   {
+    "item": "Костюм летний (куртка+брюки/п-к), смесовая ткань",
+    "qty": 80,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 3542.0,
+    "group": "Костюм летний рабочий",
+    "src": "ваша себестоимость; рынок 2026: fabrikant-textile.ru 495; fabrikant-textile.ru 850; techno-avia.ru 2 359",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+    ]
+   },
+   {
+    "item": "Костюм зимний утепленный (куртка+брюки/п-к), 2-3 класс",
+    "qty": 40,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 5091.0,
+    "group": "Костюм зимний рабочий (I–III пояс)",
+    "src": "ваша себестоимость; рынок 2026: fabrikant-textile.ru 1 845; techno-avia.ru 7 194; specteks37.ru 2 650",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://specteks37.ru/katalog/zimnyaya-spetsodezhda/"
+    ]
+   },
+   {
+    "item": "Ботинки кожаные с МП",
+    "qty": 80,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 2437.6800000000003,
+    "group": "Ботинки кожаные с МП (летние)",
+    "src": "медиана опт/прайс 2026: spets.ru 1 812; spets.ru 1 964; trakt.ru 2 034",
+    "urls": [
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.trakt.ru/product/12103/"
+    ]
+   },
+   {
+    "item": "Перчатки х/б с ПВХ (10 кл.)",
+    "qty": 1500,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 30.86,
+    "group": "Перчатки х/б с ПВХ (пара)",
+    "src": "медиана опт/прайс 2026: trakt.ru 17; spets.ru 20; spets.ru 24",
+    "urls": [
+     "https://www.trakt.ru/product/12433/",
+     "https://www.spets.ru/prices/price_msk.xls",
+     "https://www.spets.ru/prices/price_msk.xls"
+    ]
+   },
+   {
+    "item": "Халат х/б (бязь)",
+    "qty": 30,
+    "unit": "шт/пар/компл",
+    "nmck_unit": null,
+    "cost_unit": 969.1,
+    "group": "Халат рабочий",
+    "src": "медиана опт/прайс 2026: fabrikant-textile.ru 400; techno-avia.ru 3 277; ivuniforma.ru 609",
+    "urls": [
+     "https://fabrikant-textile.ru/images/%D0%9F%D1%80%D0%B0%D0%B9%D1%81%20%D0%A4%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%2007.10.2026..xls",
+     "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+     "https://www.ivuniforma.ru/catalog/rabochaya-odezhda/letnyaya-spetsodezhda/khalati/"
+    ]
+   }
+  ],
+  "C": 757377.4,
+  "m": 0.25,
+  "pe": 126953.71629470674,
+  "be": 0.2190952275740167,
+  "nm": null
+ },
+ "32616451106": {
+  "name": "ДГХ, Московская обл.",
+  "positions": [
+   {
+    "item": "Соль техническая",
+    "qty": 400,
+    "unit": "т",
+    "nmck_unit": 16810.0,
+    "cost_unit": 5400,
+    "group": "Соль",
+    "src": "МО: с доставкой 4 600–5 950 (perevalki.ru, Белкалий МКР) / 4 900–6 000 (mariva.ru); середина ≈5 400",
+    "urls": [
+     "https://perevalki.ru/catalog/sol-tehnicheskaya/",
+     "https://mariva.ru/product-category/antigololyodnye-reagenty/sol-tehnicheskaya/",
+     "https://nsmgr.ru/reagenty/tekhnicheskaya-sol/navalom"
+    ]
+   }
+  ],
+  "C": 2160000,
+  "m": 0.6787626412849495,
+  "pe": 2922863.6361643835,
+  "be": 0.6655256179971993,
+  "nm": 6724000
+ },
+ "0851300006226000106": {
+  "name": "Новосибирск, «Дзержинка»",
+  "positions": [
+   {
+    "item": "Соль техническая",
+    "qty": 400,
+    "unit": "т",
+    "nmck_unit": 11000.0,
+    "cost_unit": 8200,
+    "group": "Соль",
+    "src": "Новосибирск: 7 900 ₽/т от 69 т МКР (Полевской Мрамор, отгрузка с Урала) + местная доставка ~300",
+    "urls": [
+     "https://polevskoi-mramor.com/novosibirsk/sol-tekhnicheskaya-galit/dlya-dorog/",
+     "https://smola38.ru/promyshlennaya-khimiya/sol-tekhnicheskaya-mineralnyy-galit/"
+    ]
+   }
+  ],
+  "C": 3280000,
+  "m": 0.2545454545454545,
+  "pe": 273907.72602739726,
+  "be": 0.22382798377053784,
+  "nm": 4400000
+ },
+ "32616447519": {
+  "name": "Волоколамск, МО",
+  "positions": [
+   {
+    "item": "Соль техническая",
+    "qty": 130,
+    "unit": "т",
+    "nmck_unit": 12260.0,
+    "cost_unit": 5600,
+    "group": "Соль",
+    "src": "Волоколамск (~120 км): МО с доставкой ≈5 400 + плечо ~200",
+    "urls": [
+     "https://perevalki.ru/catalog/sol-tehnicheskaya/"
+    ]
+   }
+  ],
+  "C": 728000,
+  "m": 0.5432300163132137,
+  "pe": 503164.2264109589,
+  "be": 0.5244081864507334,
+  "nm": 1593800
+ },
+ "0318300065126000256": {
+  "name": "Абинск, Краснодарский край",
+  "positions": [
+   {
+    "item": "Соль техническая",
+    "qty": 150,
+    "unit": "т",
+    "nmck_unit": 9120.0,
+    "cost_unit": 7000,
+    "group": "Соль",
+    "src": "Краснодарский край: открытых цен 2026 нет — Москва/Центр 6 300–8 000 + доставка [оценка]",
+    "urls": [
+     "https://solnerud.ru/prajs-list/"
+    ]
+   }
+  ],
+  "C": 1050000,
+  "m": 0.2324561403508772,
+  "pe": 58630.494246575356,
+  "be": 0.2008284492716546,
+  "nm": 1368000
+ },
+ "0131300000626001316": {
+  "name": "Воронеж",
+  "positions": [
+   {
+    "item": "Соль техническая",
+    "qty": 461,
+    "unit": "т",
+    "nmck_unit": 7150.0,
+    "cost_unit": 6500,
+    "group": "Соль",
+    "src": "Воронеж: Центр 5 000–8 000 + доставка [оценка]",
+    "urls": [
+     "https://tehsalt.ru/mineralnyj-galit.html",
+     "https://solnerud.ru/prajs-list/"
+    ]
+   }
+  ],
+  "C": 2996500,
+  "m": 0.09090909090909091,
+  "pe": -315701.3884931507,
+  "be": 0.05344876069577792,
+  "nm": 3296150
+ },
+ "0128600006826000407": {
+  "name": "Струнино, Владимирская обл.",
+  "positions": [
+   {
+    "item": "Соль техническая",
+    "qty": 150,
+    "unit": "т",
+    "nmck_unit": 8950.0,
+    "cost_unit": 5800,
+    "group": "Соль",
+    "src": "Струнино (~100 км от МКАД): МО с доставкой ≈5 400 + удлинение плеча ~400; Владимир/Калуга 5 000–8 200",
+    "urls": [
+     "https://perevalki.ru/catalog/sol-tehnicheskaya/",
+     "https://tehsalt.ru/mineralnyj-galit.html",
+     "https://icemelt33.ru/texnicheskaya-sol/"
+    ]
+   }
+  ],
+  "C": 870000,
+  "m": 0.35195530726256985,
+  "pe": 198384.27123287672,
+  "be": 0.3252517422613478,
+  "nm": 1342500
+ },
+ "0142200001326018965": {
+  "name": "Самара (нужен опыт 24,2 млн)",
+  "positions": [
+   {
+    "item": "Соль техническая",
+    "qty": 11000,
+    "unit": "т",
+    "nmck_unit": 11000.0,
+    "cost_unit": 6500,
+    "group": "Соль",
+    "src": "Самара: Урал/ПУХК от 6 000 + доставка [оценка]",
+    "urls": [
+     "https://puhk.info/katalog/sol/kontsentrat-mineralnyy-galit/"
+    ]
+   }
+  ],
+  "C": 71500000,
+  "m": 0.4090909090909091,
+  "pe": 23950037.80821918,
+  "be": 0.3847416944522556,
+  "nm": 121000000
+ }
+}

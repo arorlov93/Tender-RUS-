@@ -1,5 +1,5 @@
 """Одна итоговая таблица: все лоты с подачей с 16.10 — себестоимость, маржа, прибыль."""
-import importlib.util, sys, io, openpyxl
+import importlib.util, sys, io, openpyxl, json
 from openpyxl.styles import Font, PatternFill, Border, Side
 spec=importlib.util.spec_from_file_location("ft","final_top_1610.py"); ft=importlib.util.module_from_spec(spec); o=sys.stdout; sys.stdout=io.StringIO(); spec.loader.exec_module(ft); sys.stdout=o
 E=ft.E
@@ -14,7 +14,8 @@ def fix(r):
     r=list(r)
     if r[1] in METH: r[3]=METH[r[1]]
     return tuple(r)
-EXTRA=[("Спецодежда","32616452870","ГУП «Салаватводоканал» (2-й лот)","223-ФЗ запрос котировок","21.10 09:00",700000,561222,.17,35517,.15,"не указано","Костюм от дуги, термобельё, обувь; договор по ед. расценкам","средняя")]
+_tv=json.load(open("data/tvc2026.json"))["32616452870"]
+EXTRA=[("Спецодежда","32616452870","ГУП «Салаватводоканал» (2-й лот)","223-ФЗ запрос котировок","21.10 09:00",700000,round(_tv["C"]),_tv["m"],round(_tv["pe"]),_tv["be"],"не указано","Костюм от дуги, термобельё, обувь; договор по ед. расценкам","средняя")]
 rows=[(fix(r),"обычные") for r in list(ft.MAIN)+EXTRA if not AUCTION.get(r[1])]+[(fix(r),"ЖЁСТКИЕ: "+r[11]) for r in ft.BIG if not AUCTION.get(r[1])]
 rows.sort(key=lambda x:(x[1]!="обычные",-x[0][8]))
 wb=openpyxl.Workbook(); ws=wb.active; ws.title="Итог"
