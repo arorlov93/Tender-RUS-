@@ -28,14 +28,19 @@ import sys
 ONLY=len(sys.argv)>1 and sys.argv[1]=="konkurs"
 OKM=re.compile(r"конкурс|котиров|запрос цен|запрос предложен|иного способа",re.I)
 FROM=dt.datetime(2026,10,16)
-salt=[];cl=[];seen=set()
+salt=[];cl=[];extra=[];seen=set()
 for x in d:
     n=x["name"]; key=(x["num"],n)
     if key in seen: continue
     if ONLY:
         e=end_dt(x["end"])
-        if not OKM.search(x["method"] or "") or e is None or e<FROM: continue
-        if re.search(r"спортивн",n,re.I): continue
+        if e is None or e<FROM or re.search(r"спортивн",n,re.I): continue
+        if re.search(r"^(Тендер|Малая закупка)$",x["method"] or ""):
+            if re.search(r"дерматолог|реактив|лаб\. посуд|Мебель для склада",n,re.I): continue
+            if x["cat"]=="Соль и сыпучие" or SALT.search(n): seen.add(key); extra.append((salt_type(n),x))
+            elif x["cat"] in("Одежда","СИЗ") or CL.search(n): seen.add(key); extra.append((cl_type(n),x))
+            continue
+        if not OKM.search(x["method"] or ""): continue
     if x["cat"]=="Соль и сыпучие" or SALT.search(n):
         if re.search(r"дерматолог|реактив|лаб\. посуд",n,re.I): continue
         seen.add(key); salt.append((salt_type(n),x))
@@ -75,9 +80,10 @@ def sheet(title,items):
     ws.freeze_panes="E2"; ws.auto_filter.ref=f"A1:R{ws.max_row}"
     return rows
 rs=sheet("Соль",salt); rc=sheet("Одежда",cl)
+if ONLY: rx=sheet("Тендеры и малые закупки",extra)
 wb.save("../SALT_CLOTHES_KONKURS_1210.xlsx" if ONLY else "../SALT_CLOTHES_1210.xlsx")
 import collections
-for nm,rows in(("Соль",rs),("Одежда",rc)):
+for nm,rows in(("Соль",rs),("Одежда",rc))+((("Тендеры/малые",rx),) if ONLY else ()):
     print(nm,len(rows),collections.Counter(status(e) for _,_,e in rows),collections.Counter(t for t,_,_ in rows))
     act=[x for t,x,e in rows if status(e) in("Актуален","Подача сегодня")]
     print(" актуальных с НМЦК:",sum(1 for x in act if x["nmck"]),"сумма",sum(x["nmck"] or 0 for x in act))
