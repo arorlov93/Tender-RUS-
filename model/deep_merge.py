@@ -3,9 +3,19 @@ import json, os, shutil, openpyxl
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 SRC="/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/deep"
 DST="data/deep"
-for f in ["out_clothes_nmck.json","out_clothes_comm.json","out_comm_arm.json","out_comm_other.json","out_fuel.json","bench_arm.json","bench_clothes.json","fuel_note.md"]:
+for f in ["out_clothes_comm.json","out_comm_arm.json","out_comm_other.json","out_fuel.json","bench_arm.json","bench_clothes.json","fuel_note.md"]:
     if os.path.exists(f"{SRC}/{f}"): shutil.copy(f"{SRC}/{f}",f"{DST}/{f}")
-def load(f): return json.load(open(f"{DST}/{f}")) if os.path.exists(f"{DST}/{f}") else []
+def load(f):
+    if os.path.exists(f"{DST}/{f}"): return json.load(open(f"{DST}/{f}"))
+    if f=="out_clothes_comm.json" and os.path.exists(f"{SRC}/clothes_comm.json"):
+        out=[]
+        for x in json.load(open(f"{SRC}/clothes_comm.json")):
+            exp=str(x.get("end",""))[:10]<"2026-10-14"
+            out.append(dict(num=x["num"],name=x["name"],cust=x["cust"],law=x["law"],method=x["method"],end=x["end"],nmck=None,
+                decision="Нет" if exp else "Запросить спецификацию",confidence="low",positions=[],
+                risks=("Срок подачи истёк. " if exp else "")+"Спецификация закрыта логином площадки. Ориентир для КП: себестоимость по правилу клиента (летний 3 500 / зимний 5 000) или по листу «Цены — одежда (рынок)» + наценка 25–40% → маржа 20–28%. В коммерческих закупках часто сравнивают цены без НДС — для УСН это минус ~18%."))
+        return out
+    return []
 def pct(v):
     if v is None or isinstance(v,str): return None
     return v/100 if abs(v)>1.5 else v
@@ -63,7 +73,7 @@ for p in allpos:
     ws.cell(r,9).number_format="0%"
 for i,w in enumerate([18,20,30,50,9,8,14,14,10,60],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws.freeze_panes="E2"; ws.auto_filter.ref=f"A1:J{ws.max_row}"
-for title,f in (("Цены — арматура","bench_arm.json"),("Цены — одежда","bench_clothes.json")):
+for title,f in (("Цены — одежда (рынок)","bench_clothes_market.json"),("Цены — арматура","bench_arm.json"),("Цены — одежда (тендеры)","bench_clothes.json")):
     b=load(f)
     if isinstance(b,dict): b=b.get('items') or next((v for v in b.values() if isinstance(v,list)),[])
     if not b: continue
