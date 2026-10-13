@@ -66,5 +66,8 @@ for i,(site,r) in enumerate(recs,1):
 for i,w in enumerate([4,10,30,14,20,26,22,52,10,34,34,12,13,20,24],1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width=w
 ws.freeze_panes="D4"; ws.auto_filter.ref=f"A3:O{ws.max_row}"
 from tidy import tidy; tidy(wb,row_h=60)
+for row in ws.iter_rows(min_row=4):
+    n=max((str(c.value).count("\n")+1) for c in row if c.value)
+    ws.row_dimensions[row[0].row].height=max(30,min(409,19*n+6))
 wb.save("../CALL_LIST_1510.xlsx")
 for i,(site,r) in enumerate(recs,1): print(i,site,r["phone"],r["email"],len(r["what"]),sorted(r["lots"]))
