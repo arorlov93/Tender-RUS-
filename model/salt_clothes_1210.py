@@ -24,10 +24,18 @@ def status(e):
     if e<TODAY: return "Срок прошёл"
     if e.date()==TODAY.date(): return "Подача сегодня"
     return "Актуален"
+import sys
+ONLY=len(sys.argv)>1 and sys.argv[1]=="konkurs"
+OKM=re.compile(r"конкурс|котиров|запрос цен|запрос предложен|иного способа",re.I)
+FROM=dt.datetime(2026,10,16)
 salt=[];cl=[];seen=set()
 for x in d:
     n=x["name"]; key=(x["num"],n)
     if key in seen: continue
+    if ONLY:
+        e=end_dt(x["end"])
+        if not OKM.search(x["method"] or "") or e is None or e<FROM: continue
+        if re.search(r"спортивн",n,re.I): continue
     if x["cat"]=="Соль и сыпучие" or SALT.search(n):
         if re.search(r"дерматолог|реактив|лаб\. посуд",n,re.I): continue
         seen.add(key); salt.append((salt_type(n),x))
@@ -48,8 +56,9 @@ def sheet(title,items):
     for i,(t,x,e) in enumerate(rows,1):
         st=status(e)
         note=[]
-        if not x["nmck"]: note.append("НМЦК не указана — коммерческая, цену запрашивать")
+        if not x["nmck"]: note.append("НМЦК не указана — цену запрашивать")
         if x["nmck"] and x["nmck"]>50e6: note.append("крупный лот >50 млн")
+        if re.search(r"иного способа",x["method"] or "",re.I): note.append("в ЕИС «иной способ» — уточнить в извещении (не аукцион)")
         link=x["link"] or ""
         ws.append([i,t,st,x["num"],x["name"],x["cust"],x["region"],x["law"],x["method"],x["etp"],x["nmck"],e,
                    x["smp"] or "",x["sec_app"] or "",x["sec_contr"] or "",x["advance"] if x["advance"] not in (None,"") else "",
@@ -66,7 +75,7 @@ def sheet(title,items):
     ws.freeze_panes="E2"; ws.auto_filter.ref=f"A1:R{ws.max_row}"
     return rows
 rs=sheet("Соль",salt); rc=sheet("Одежда",cl)
-wb.save("../SALT_CLOTHES_1210.xlsx")
+wb.save("../SALT_CLOTHES_KONKURS_1210.xlsx" if ONLY else "../SALT_CLOTHES_1210.xlsx")
 import collections
 for nm,rows in(("Соль",rs),("Одежда",rc)):
     print(nm,len(rows),collections.Counter(status(e) for _,_,e in rows),collections.Counter(t for t,_,_ in rows))
