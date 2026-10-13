@@ -1,0 +1,307 @@
+[
+ {
+  "item": "костюм летний",
+  "typical_tender_unit_price_range": "2497–5584 ₽ (медиана 4122), НМЦК за ед. в 44-ФЗ 2026, n=64 цен из 25 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 2497,
+  "tender_median": 4122,
+  "tender_p75": 5584,
+  "wholesale_cost_range": "2 320–3 500 ₽ (правило клиента 3 500; Техноавиа «Рабочий» 2 321, «Молоток» 3 065)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0345300084326000016",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0815500000526012001",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0267100002326000235",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301100000426000081",
+   "https://v2test.gosplan.info/fz44/purchases/0345300084326000016/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "костюм зимний",
+  "typical_tender_unit_price_range": "6354–12172 ₽ (медиана 7768), НМЦК за ед. в 44-ФЗ 2026, n=28 цен из 14 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 6354,
+  "tender_median": 7768,
+  "tender_p75": 12172,
+  "wholesale_cost_range": "5 000–8 262 ₽ (правило клиента 5 000; Техноавиа «Велес» 8 262, «Билд» 9 158)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0315100002526000026",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0366200035626006259",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0351100004326000111",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301300019426000247",
+   "https://v2test.gosplan.info/fz44/purchases/0315100002526000026/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "куртка утепленная",
+  "typical_tender_unit_price_range": "2956–4880 ₽ (медиана 4500), НМЦК за ед. в 44-ФЗ 2026, n=17 цен из 12 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 2956,
+  "tender_median": 4500,
+  "tender_p75": 4880,
+  "wholesale_cost_range": "2 500–4 670 ₽ (Техноавиа «Фридж-2» 2 501, «Молоток» 4 492, «Зима» 4 669)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=1055200000126000126",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0321200028126000017",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0311200027426000069",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200087626000023",
+   "https://v2test.gosplan.info/fz44/purchases/1055200000126000126/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "брюки",
+  "typical_tender_unit_price_range": "1115–3996 ₽ (медиана 1870), НМЦК за ед. в 44-ФЗ 2026, n=43 цен из 23 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 1115,
+  "tender_median": 1870,
+  "tender_p75": 3996,
+  "wholesale_cost_range": "1 760–2 350 ₽ летние (Техноавиа «Дельта» 1 761, «Универсал» 2 348); зимние «Фридж-2» 2 364–2 492",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0345200002526000084",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373200014226000547",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373200063126001084",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373100134626000467",
+   "https://v2test.gosplan.info/fz44/purchases/0345200002526000084/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "полукомбинезон",
+  "typical_tender_unit_price_range": "2843–4298 ₽ (медиана 4005), НМЦК за ед. в 44-ФЗ 2026, n=5 цен из 3 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 2843,
+  "tender_median": 4005,
+  "tender_p75": 4298,
+  "wholesale_cost_range": "2 160 ₽ летний («Лето») / 3 190–3 750 ₽ зимний («Зима», «Иртыш»)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0853500000326006756",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373200052726000764",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0573500000126000210",
+   "https://v2test.gosplan.info/fz44/purchases/0853500000326006756/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "ботинки кожаные с МП",
+  "typical_tender_unit_price_range": "2299–4944 ₽ (медиана 3308), НМЦК за ед. в 44-ФЗ 2026, n=111 цен из 46 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 2299,
+  "tender_median": 3308,
+  "tender_p75": 4944,
+  "wholesale_cost_range": "3 018–3 351 ₽ (Техноавиа «Билд» с МП 3 018; с МП+МС 3 351)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373100041426000039",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0341200012626000012",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0167200003426008289",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372500014126000208",
+   "https://v2test.gosplan.info/fz44/purchases/0373100041426000039/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "сапоги ПВХ",
+  "typical_tender_unit_price_range": "973–2016 ₽ (медиана 1415), НМЦК за ед. в 44-ФЗ 2026, n=23 цен из 20 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 973,
+  "tender_median": 1415,
+  "tender_p75": 2016,
+  "wholesale_cost_range": "620–1 184 ₽ (Техноавиа «Внедорожник» 733; «Премиум» с МП 1 184)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200160726000058",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373100041426000042",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0167200003426008289",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301400000326000119",
+   "https://v2test.gosplan.info/fz44/purchases/0372200160726000058/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "сапоги утепленные",
+  "typical_tender_unit_price_range": "3259–8725 ₽ (медиана 4485), НМЦК за ед. в 44-ФЗ 2026, n=12 цен из 11 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 3259,
+  "tender_median": 4485,
+  "tender_p75": 8725,
+  "wholesale_cost_range": "620–960 ₽ ПВХ утепл. («Классик» 619, «Внедорожник» с надставкой 960); 3 775 ₽ ботинки кожаные утепл. с МП «Билд»",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200160626000080",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0341200012626000012",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200160726000058",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373100001026000768",
+   "https://v2test.gosplan.info/fz44/purchases/0372200160626000080/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "перчатки х/б с ПВХ",
+  "typical_tender_unit_price_range": "31–204 ₽ (медиана 129), НМЦК за ед. в 44-ФЗ 2026, n=6 цен из 5 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 31,
+  "tender_median": 129,
+  "tender_p75": 204,
+  "wholesale_cost_range": "34–47 ₽ (Техноавиа «Гриф» 34, «Строй» 36, «Техно» 47); утепл. «Зима» 129 ₽",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200015126000183",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0400500001626000117",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0371300035826000030",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301400000326000116",
+   "https://v2test.gosplan.info/fz44/purchases/0372200015126000183/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "перчатки трикотажные",
+  "typical_tender_unit_price_range": "43–363 ₽ (медиана 93), НМЦК за ед. в 44-ФЗ 2026, n=35 цен из 21 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 43,
+  "tender_median": 93,
+  "tender_p75": 363,
+  "wholesale_cost_range": "32–40 ₽ (Техноавиа 10 кл. 32; 13 кл. 40)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372100000526000127",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373200014226000547",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0818500006726000059",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301400000326000119",
+   "https://v2test.gosplan.info/fz44/purchases/0372100000526000127/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "рукавицы",
+  "typical_tender_unit_price_range": "177–576 ₽ (медиана 328), НМЦК за ед. в 44-ФЗ 2026, n=14 цен из 11 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 177,
+  "tender_median": 328,
+  "tender_p75": 576,
+  "wholesale_cost_range": "88–149 ₽ (Техноавиа комбинир. 90, брезент 109–149); меховые 1 006",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372100027326000601",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0853500000326006756",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373200063126001084",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0362100008226000089",
+   "https://v2test.gosplan.info/fz44/purchases/0372100027326000601/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "термобелье",
+  "typical_tender_unit_price_range": "423–2950 ₽ (медиана 1632), НМЦК за ед. в 44-ФЗ 2026, n=25 цен из 15 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 423,
+  "tender_median": 1632,
+  "tender_p75": 2950,
+  "wholesale_cost_range": "[оценка] 1 200–2 000 ₽ за комплект (в прайсе Техноавиа нет; термостойкое «ВОЛЬТ» 9 420 за фуфайку)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0348200037226000025",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372100027326000601",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0119200000126017218",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200160726000058",
+   "https://v2test.gosplan.info/fz44/purchases/0348200037226000025/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "костюм от ЭДП",
+  "typical_tender_unit_price_range": "9490–22400 ₽ (медиана 14215), НМЦК за ед. в 44-ФЗ 2026, n=9 цен из 5 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 9490,
+  "tender_median": 14215,
+  "tender_p75": 22400,
+  "wholesale_cost_range": "[оценка] 9 000–14 000 ₽ эконом-отеч.; Техноавиа «ВОЛЬТ л» 24 195 ₽ (премиум)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372100027326000601",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301400000326000116",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301400000326000119",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0400500001626000117",
+   "https://v2test.gosplan.info/fz44/purchases/0372100027326000601/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "костюм сварщика",
+  "typical_tender_unit_price_range": "7955–14278 ₽ (медиана 10625), НМЦК за ед. в 44-ФЗ 2026, n=7 цен из 6 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 7955,
+  "tender_median": 10625,
+  "tender_p75": 14278,
+  "wholesale_cost_range": "3 801 ₽ брезент КС01; 7 020 ₽ комбинир. со спилком КС21 (Техноавиа)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200160726000058",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0334200034426000065",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0400500001626000117",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301100000426000081",
+   "https://v2test.gosplan.info/fz44/purchases/0372200160726000058/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "халат",
+  "typical_tender_unit_price_range": "294–1921 ₽ (медиана 1288), НМЦК за ед. в 44-ФЗ 2026, n=41 цен из 21 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 294,
+  "tender_median": 1288,
+  "tender_p75": 1921,
+  "wholesale_cost_range": "1 050–1 470 ₽ (Техноавиа бязь 1 051–1 092, ТС 1 466)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373100041426000039",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=1055200000126000126",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0334500003526000016",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0373100043226000181",
+   "https://v2test.gosplan.info/fz44/purchases/0373100041426000039/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "футболка",
+  "typical_tender_unit_price_range": "362–877 ₽ (медиана 562), НМЦК за ед. в 44-ФЗ 2026, n=52 цен из 29 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 362,
+  "tender_median": 562,
+  "tender_p75": 877,
+  "wholesale_cost_range": "478 ₽ (Техноавиа х/б)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0366200035626006336",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0870500031126000028",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0853500000326006756",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0151600003926000137",
+   "https://v2test.gosplan.info/fz44/purchases/0366200035626006336/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "жилет сигнальный",
+  "typical_tender_unit_price_range": "350–860 ₽ (медиана 664), НМЦК за ед. в 44-ФЗ 2026, n=5 цен из 5 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 350,
+  "tender_median": 664,
+  "tender_p75": 860,
+  "wholesale_cost_range": "390–753 ₽ (Техноавиа «Эконом» 390, «Габарит-4» 753)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200160726000058",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0853500000326006756",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0400500001626000117",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301400000326000116",
+   "https://v2test.gosplan.info/fz44/purchases/0372200160726000058/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ },
+ {
+  "item": "каска",
+  "typical_tender_unit_price_range": "549–1729 ₽ (медиана 964), НМЦК за ед. в 44-ФЗ 2026, n=12 цен из 9 закупок; победные цены обычно на 10–35% ниже",
+  "tender_p25": 549,
+  "tender_median": 964,
+  "tender_p75": 1729,
+  "wholesale_cost_range": "303 ₽ (Техноавиа СОМЗ-55 FavoriT)",
+  "sources": [
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2025_06_27_08_46_34.pdf",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0362100008226000089",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0301400000326000116",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372100027326000601",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0317600003626000019",
+   "https://v2test.gosplan.info/fz44/purchases/0362100008226000089/notification"
+  ],
+  "note": "цены прайса Техноавиа (Москва, 27.06.2025) — опт-розница с НДС; к 10.2026 вероятно +5–10%; у оптовых производителей (Иваново, Восток-Сервис дилеры) ниже на 10–25% при объёме"
+ }
+]
