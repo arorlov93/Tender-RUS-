@@ -75,7 +75,7 @@ for r,cond in it.rows:
     R=ws.max_row
     if len(ps)==1:
         U=urls(ps[0][5])
-        if U: ws.cell(R,19).value=re.sub(r"^https?://(www\.)?","",U[0]).split("/")[0]; ws.cell(R,19).hyperlink=U[0]; ws.cell(R,20).value="\n".join(U[1:])
+        if U: ws.cell(R,19).value=re.sub(r"^https?://(www\.)?","",U[0]).split("/")[0]; ws.cell(R,19).hyperlink=U[0]; ws.cell(R,20).value=", ".join(dict.fromkeys(re.sub(r"^https?://(www\.)?","",u).split("/")[0] for u in U[1:]))
         else: ws.cell(R,19).value="нет открытой цены — оценка"
     ws.cell(R,4).hyperlink=E(n); ws.cell(R,4).font=Font(color="0563C1",underline="single"); ws.cell(R,3).number_format="@"
     for cc in ws[R]: cc.fill=LOTF; cc.border=Border(top=thin,bottom=thin,left=thin,right=thin)
@@ -88,7 +88,7 @@ for r,cond in it.rows:
             ws.append(["","   "+it_,"","","","",q,u,nu,cu,(nu-cu)/nu if nu and cu else None,(nu*q if nu and q else None),(cu*q if cu and q else None),None,None,None,"",src])
             R=ws.max_row
             U=urls(src)
-            if U: ws.cell(R,19).value=re.sub(r"^https?://(www\.)?","",U[0]).split("/")[0]; ws.cell(R,19).hyperlink=U[0]; ws.cell(R,20).value="\n".join(U[1:])
+            if U: ws.cell(R,19).value=re.sub(r"^https?://(www\.)?","",U[0]).split("/")[0]; ws.cell(R,19).hyperlink=U[0]; ws.cell(R,20).value=", ".join(dict.fromkeys(re.sub(r"^https?://(www\.)?","",u).split("/")[0] for u in U[1:]))
             elif cu: ws.cell(R,19).value="нет открытой цены — оценка"
             for j in (9,10,12,13): ws.cell(R,j).number_format=MONEY
             ws.cell(R,11).number_format="0%"
