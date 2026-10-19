@@ -164,8 +164,12 @@ for x in sel:
     w = WEB.get(x["num"])
     if w and w.get("found"):
         for k, kk in [("advance", "adv"), ("payment", "pay"), ("delivery", "term"), ("sec_app", "app"), ("sec_contr", "contr"), ("warranty", "warr")]:
-            if w.get(k): r[kk] = w[k] + " [площадка]"
-        if w.get("other"): r["note"] = (r["note"] + " " + w["other"]).strip()
+            if w.get(k): r[kk] = short(w[k], 42) + " [пл.]"
+        r["note"] = "Подробно — лист «С площадок». " + r["note"]
+        sc = w.get("sec_contr") or ""
+        m = re.search(r"(\d+)%\s*НМЦ", sc); m2 = re.search(r"([\d ]+),\d\d\s*руб", sc)
+        if m and x["nmck"]: r["contr_rub"] = x["nmck"] * int(m.group(1)) / 100
+        elif m2: r["contr_rub"] = num(m2.group(1))
         r["src"] = w.get("source", "")
     if x["e"].year > 2026: r["note"] = ("Срок подачи в карточке " + x["e"].strftime("%d.%m.%Y") + " — проверить. " + r["note"]).strip()
     # деньги, которые замораживаем: заявка + контракт (обеспечение контракта считаем от НМЦК — верхняя оценка)
@@ -205,6 +209,20 @@ for r in [
 ]: lg.append(r)
 for i, w in enumerate([24, 30, 34, 26, 30, 50], 1): lg.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 tidy(wb, row_h=48)
+ws2 = wb.create_sheet("С площадок")
+ws2.append(["Номер", "Предмет", "Аванс", "Оплата", "Срок/место поставки", "Обеспечение заявки", "Обеспечение договора", "Гарантия", "Прочее", "Источник"])
+for c in ws2[1]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
+for x, r in rows:
+    w = WEB.get(x["num"])
+    if not (w and w.get("found")): continue
+    ws2.append([x["num"], short(x["name"], 90)] + [w.get(k) or "—" for k in ("advance", "payment", "delivery", "sec_app", "sec_contr", "warranty", "other", "source")])
+    ws2.cell(ws2.max_row, 1).number_format = "@"
+    ws2.row_dimensions[ws2.max_row].height = 200
+for i, wd in enumerate([20, 30, 34, 30, 38, 24, 30, 22, 34, 40], 1): ws2.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
+for row in ws2.iter_rows():
+    for c in row: c.alignment = Alignment(wrap_text=True, vertical="top"); c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
+ws2.row_dimensions[1].height = 30; ws2.freeze_panes = "C2"
+ws2.page_setup.orientation = "landscape"; ws2.page_setup.fitToWidth = 1; ws2.page_setup.fitToHeight = 0; ws2.sheet_properties.pageSetUpPr.fitToPage = True
 wb.save("../CONDITIONS_2510_1910.xlsx")
 json.dump([{**{k: x[k] for k in ("num", "name", "law", "method", "nmck", "cust")}, **{k: v for k, v in r.items()}} for x, r in rows], open("data/cond_2510.json", "w"), ensure_ascii=False, indent=1, default=str)
 print(len(rows), "лотов")
