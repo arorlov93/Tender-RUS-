@@ -26,7 +26,12 @@ for r in C:
     if b and r["C"] is None and b.get("cost_total"):
         r["C"] = b["cost_total"] + (b.get("logistics") or 0); r["gm"] = b.get("margin_pct"); r["net"] = b.get("net_expected")
         r["dec"] = "ОЦЕНКА: маржа ~{:.0%}, нужна спецификация".format(b["margin_pct"]) if b["decision"].startswith("Запрос") else r["dec"]
-C.sort(key=lambda r: (r["nmck"] is None, -(r["nmck"] or 0)))
+# коммерческие без НМЦК с оценкой объёма (КП): 4 000 пар берцев «Союзспецодежда»
+EST = {"386-076": (10_800_000, 9_600_000, "ОЦЕНКА КП ~10,8 млн: 4 000 пар × ~2 400 ₽ себес; маржа ~10%; снять спецификацию на Bidzaar")}
+for r in C:
+    if r["num"] in EST:
+        kp, cost, dec = EST[r["num"]]; r["est"] = kp; r["C"] = cost; r["gm"] = 1 - cost / kp; r["dec"] = dec
+C.sort(key=lambda r: (r["nmck"] is None and not r.get("est"), -(r["nmck"] or r.get("est") or 0)))
 thin = Side(style="thin", color="BFBFBF"); M = '#,##0" ₽"'
 FILL = {"АУКЦИОН": "F8CBAD", "ОЦЕНКА": "E2EFDA", "ПОДАЁМ": "C6EFCE", "Осторожно": "FFEB9C", "НЕТ": "FFC7CE", "КП": "DDEBF7", "Посчитать": "F2F2F2"}
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Одежда и СИЗ"
@@ -36,7 +41,7 @@ ws.append(["№", "НМЦК, ₽", "Подача до", "Номер", "Пред�
 for c in ws[3]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
 sh = lambda t, n: t if len(t) <= n else t[:n - 1] + "…"
 for i, r in enumerate(C, 1):
-    ws.append([i, r["nmck"], r["e"].strftime("%d.%m.%Y %H:%M"), r["num"], sh(r["name"], 110), sh(r["cust"], 60), f'{r["law"]} · {r["meth"]}', r["C"], r["gm"], r["net"], r["dec"], sh(r["cond"], 140)])
+    ws.append([i, r["nmck"] or r.get("est"), r["e"].strftime("%d.%m.%Y %H:%M"), r["num"], sh(r["name"], 110), sh(r["cust"], 60), f'{r["law"]} · {r["meth"]}', r["C"], r["gm"], r["net"], r["dec"], sh(r["cond"], 140)])
     R = ws.max_row
     for j in (2, 8, 10): ws.cell(R, j).number_format = M
     ws.cell(R, 9).number_format = "0%"; ws.cell(R, 3).number_format = "@"; ws.cell(R, 4).number_format = "@"
