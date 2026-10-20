@@ -10,6 +10,9 @@ NAMES = {1: "Тактический костюм (демисезонный)", 2:
          5: "Полуботинки (утепленные)", 6: "Жилет разгрузочный тактический", 7: "Тактические перчатки (зимние)", 8: "Тактический снуд"}
 DELIV = D["delivery"]["cost"]
 items = {x["n"]: x for x in D["items"]}
+VER = {x["n"]: x for x in json.load(open("data/tavrida/ver_tavrida.json"))}
+for n_, v_ in VER.items():
+    items[n_]["cur_cost"] = items[n_]["recommended_cost"]; items[n_]["recommended_cost"] = v_["rec_price"]
 C = sum(items[n]["recommended_cost"] * QTY[n] for n in QTY) + DELIV
 
 
@@ -61,12 +64,12 @@ box(m, 1)
 for i, w in enumerate([24, 18, 20, 14], 1): m.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 
 # цены для заявки: −10% от НМЦК, распределены пропорционально себестоимости, целые рубли, итог сходится
-BID = round(NMCK * 0.90)
+BID = round(NMCK * 0.95)  # после построчной проверки себес вырос — заявка −5%
 units = {n: round(items[n]["recommended_cost"] * BID / (C - DELIV)) for n in QTY}
 diff = BID - sum(units[n] * QTY[n] for n in QTY)
 units[1] += round(diff / QTY[1])
 sp = wb.create_sheet("Цены для заявки")
-sp.append(["Спецификация (Прил. 2) — наше предложение, ≈ −10% от НМЦК; доставка включена в цены"]); sp["A1"].font = Font(bold=True)
+sp.append(["Спецификация (Прил. 2) — наше предложение, ≈ −5% от НМЦК (после построчной проверки цен); доставка включена в цены"]); sp["A1"].font = Font(bold=True)
 sp.append(["№", "Перечень товаров", "Ед.", "Кол-во", "Цена за ед., руб.", "Сумма, руб."]); head(sp)
 for n in sorted(QTY):
     sp.append([n, NAMES[n], "шт.", QTY[n], units[n], units[n] * QTY[n]])
@@ -93,6 +96,21 @@ for r in [
     sup.append(list(r)); sup.cell(sup.max_row, 7).hyperlink = r[6]
 box(sup, 2)
 for i, w in enumerate([4, 18, 30, 52, 20, 20, 22, 34, 20, 14, 16], 1): sup.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+vs = wb.create_sheet("Построчная проверка")
+vs.append(["Построчная проверка 20.10.2026: каждая позиция сверена с ТЗ и с 3+ источниками 2026"]); vs["A1"].font = Font(bold=True)
+vs.append(["№", "Позиция", "Кол-во", "Было, ₽/ед.", "Медиана источников", "Итоговая цена, ₽/ед.", "Изменение суммы, ₽", "Вердикт", "Надёжность", "Соответствие ТЗ", "Производитель подтверждён", "Нацрежим", "Источники (компания — цена)", "Комментарий"]); head(vs)
+for n in sorted(QTY):
+    v = VER[n]
+    src = "; ".join(f'{x.get("company", "")[:40]} — {x.get("price")}' for x in v.get("sources", [])[:4])
+    vs.append([n, NAMES[n], QTY[n], v["cur_price"], v.get("median_price"), v["rec_price"], (v["rec_price"] - v["cur_price"]) * QTY[n], v["verdict"], v.get("confidence"),
+               str(v.get("spec_match") or "")[:120], str(v.get("manufacturer_confirmed") or "")[:60], str(v.get("pp1875") or "")[:50], src[:230], str(v.get("note") or "")[:200]])
+    for j in (4, 5, 6, 7): vs.cell(vs.max_row, j).number_format = M
+    vs.cell(vs.max_row, 8).fill = PatternFill("solid", fgColor="C6EFCE" if v["verdict"] == "ok" else "FCE4D6")
+vs.append(["", "ИТОГО товары", "", sum(VER[n]["cur_price"] * QTY[n] for n in QTY), "", sum(VER[n]["rec_price"] * QTY[n] for n in QTY), sum((VER[n]["rec_price"] - VER[n]["cur_price"]) * QTY[n] for n in QTY)])
+for j in (4, 6, 7): vs.cell(vs.max_row, j).number_format = M
+for c in vs[vs.max_row]: c.font = Font(bold=True)
+box(vs, 2)
+for i, w in enumerate([4, 30, 7, 11, 11, 12, 13, 12, 10, 40, 26, 22, 60, 60], 1): vs.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 sv = wb.create_sheet("Сводка", 0)
 sv.append(["АНО «Таврида.Арт» — форменная одежда службы безопасности. Всё по лоту на одной странице"]); sv["A1"].font = Font(bold=True, size=13)
 sv.append(["Параметр", "Значение"]); head(sv)
@@ -108,8 +126,8 @@ for k_, v_ in [
     ("Гарантия", "не менее 12 месяцев"),
     ("Состав", "8 позиций: 145 комплектов (костюм, кофта, куртка, шапка, полуботинки, жилет) + 170 перчаток + 170 снудов; размеры 50–54, обувь 42–45; цвет чёрный"),
     ("НМЦК", NMCK), ("Себестоимость с доставкой", C), ("Маржа при НМЦК", 1 - C / NMCK), ("Безубыточное снижение", be()),
-    ("Наша цена заявки (−10%)", tot), ("Прибыль после УСН при этой цене", NET),
-    ("Риски", "цены кофты, полуботинок, жилета, перчаток — розница/поиск, нужны КП; производство подтверждено только у Сплава и Урсуса; доставка в Крым — оценка 120 тыс., нужен расчёт ТК; проверки Росмолодёжи (субсидия)"),
+    ("Наша цена заявки (−5%)", tot), ("Прибыль после УСН при этой цене", NET),
+    ("Риски", "после построчной проверки себес вырос на ~0,5 млн; зимняя куртка по ТЗ (35/65, фольга, несъёмный капюшон) нигде не найдена — нужен пошив/КП; наличие на 10 дней подтверждено только у костюма и снуда (Урсус); полуботинки по формулировке ТЗ — вероятно импорт (Outventure); производство подтверждено только у Сплава и Урсуса; доставка в Крым — оценка 120 тыс., нужен расчёт ТК; проверки Росмолодёжи (субсидия)"),
     ("Что сделать", "1) запросить КП у Урсуса и Сплава (лист «Поставщики (КП)»); 2) расчёт доставки в Судак у ТК; 3) заполнить Прил. 2 ценами с листа «Цены для заявки»; 4) подать до 30.10 12:00"),
 ]:
     sv.append([k_, v_])
@@ -121,6 +139,7 @@ box(sv, 2)
 sv.column_dimensions["A"].width = 32; sv.column_dimensions["B"].width = 120
 for c_ in sv["B"]: c_.alignment = Alignment(wrap_text=True, vertical="center", horizontal="left")
 tidy(wb, row_h=34)
+for r in range(3, vs.max_row + 1): vs.row_dimensions[r].height = 80
 sv.row_dimensions[sv.max_row].height = 50; sv.row_dimensions[sv.max_row - 1].height = 50
 wb.save("../TAVRIDA_B1510261835045.xlsx")
 print("C", C, "margin", 1 - C / NMCK, "be", be(), "bid", tot, "net@bid", round(model(tot, C)), units)
