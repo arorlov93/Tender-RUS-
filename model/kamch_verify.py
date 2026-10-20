@@ -108,7 +108,57 @@ for r in sorted(rows, key=lambda r: -r["rec"] * r["qty"]):
 for row in kp.iter_rows(min_row=3):
     for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
 for i, w in enumerate([7, 5, 18, 50, 7, 14, 14, 12, 60], 1): kp.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+# --- цены для заявки (−15% от НМЦК), распределены пропорционально себестоимости позиции
+BID = NMCK * 0.85
+cp = {(r["t"], r["n"]): r["rec"] * (1 - TORG) + r["w"] * FREIGHT for r in rows}
+k_ = BID / sum(cp[(r["t"], r["n"])] * r["qty"] for r in rows)
+bp = wb.create_sheet("Цены для заявки")
+bp.append(["Цены для коммерческого предложения: −15% от НМЦК, распределены пропорционально себестоимости позиции (доставка включена). Округление — до рубля."]); bp["A1"].font = Font(bold=True)
+bp.append(["Таблица", "№", "Позиция", "Кол-во", "Себес за ед., ₽", "Цена за ед. в заявке, ₽", "Сумма, ₽", "Наценка"]); head(bp)
+tot = 0
+for r in rows:
+    c_ = cp[(r["t"], r["n"])]; u = round(c_ * k_); tot += u * r["qty"]
+    bp.append([r["t"], r["n"], sh(r["name"], 90), r["qty"], c_, u, u * r["qty"], u / c_ - 1 if c_ else None])
+    for j in (5, 6, 7): bp.cell(bp.max_row, j).number_format = M
+    bp.cell(bp.max_row, 8).number_format = PCT
+bp.append(["", "", "ИТОГО", "", "", "", tot, None]); bp.cell(bp.max_row, 7).number_format = M
+for c in bp[bp.max_row]: c.font = Font(bold=True)
+bp.append(["", "", f"Снижение от НМЦК {1 - tot / NMCK:.1%}; прибыль после УСН ≈ {model(tot, COST):,.0f} ₽".replace(",", " ")])
+for row in bp.iter_rows(min_row=3):
+    for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
+for i, w in enumerate([8, 5, 60, 7, 14, 16, 15, 9], 1): bp.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+bp.freeze_panes = "D3"
+# --- заводы для КП
+SUP = {x["group"]: x["suppliers"] for x in json.load(open("data/kamch/suppliers.json"))}
+zs = wb.create_sheet("Заводы (КП)")
+zs.append(["Группа", "Сумма после сверки, ₽", "Поставщик", "Телефон", "E-mail", "Сайт", "Что закрывает", "Звонок: результат", "Цена КП", "Срок", "Реестр МПТ №"]); head(zs)
+for g_, d in sorted(G.items(), key=lambda kv: -kv[1]["rec"]):
+    for i, sp in enumerate(SUP.get(g_, [])):
+        zs.append([g_ if i == 0 else "", d["rec"] if i == 0 else "", sp.get("company"), sp.get("phone"), sp.get("email"), sp.get("site"), str(sp.get("covers") or "")[:110], "", "", "", ""])
+        if i == 0: zs.cell(zs.max_row, 2).number_format = M
+for row in zs.iter_rows(min_row=2):
+    for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
+for i, w in enumerate([30, 15, 30, 22, 26, 20, 46, 20, 12, 12, 14], 1): zs.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+zs.freeze_panes = "C2"
+# --- условия
+us = wb.create_sheet("Условия")
+us.append(["Условие", "Что в документации"]); head(us)
+for a_, b_ in [("Закупка", "223-ФЗ 32616346943, конкурс в эл. форме, Росэлторг (секция РусГидро), лот 0200-РЕМ ПРОД-2027-КамчЭн"),
+               ("Ссылка ЕИС", "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616346943"),
+               ("Подача", "до 29.10.2026 10:00 МСК"), ("НМЦК", "101 102 908 ₽ с НДС"),
+               ("Поставка", "120 календарных дней с даты договора; Петропавловск-Камчатский (ул. Пограничная 75А, ул. Степная 50, пр. Победы 24), Елизовский р-н, пос. Светлый"),
+               ("Обеспечение заявки", "1 005 499,42 ₽ (БГ или деньги)"), ("Аванс", "есть; обеспечение возврата аванса — 100% суммы аванса (БГ)"),
+               ("Нацрежим", "ПП 1875 — ограничение и преимущество; номер записи в реестре Минпромторга/ЕАЭС по каждой позиции"),
+               ("Документы", "сертификаты/декларации ТР ТС 032/2013 и 010/2011 (схемы 1с/5Д) с протоколами испытаний; техпредложение по Прил. 1"),
+               ("Аккредитация", "аккредитация в РусГидро (Прил. 10)"), ("Лот", "неделимый; эквиваленты допускаются с обоснованием"),
+               ("Гарантия", "по заводу, не менее 12 мес.; товар изготовлен в год поставки или предыдущий"),
+               ("Импорт — заменить", "Ридан NVD (КНР), Regada (Словакия), ESBE (Швеция), Dungs (Германия), Zenova/КШХ, 10нж45фт (ТУ Украины) → российские аналоги из реестра")]:
+    us.append([a_, b_])
+us.cell(3, 2).hyperlink = "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616346943"
+for row in us.iter_rows(min_row=2):
+    for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
+us.column_dimensions["A"].width = 24; us.column_dimensions["B"].width = 130
 tidy(wb, row_h=40)
 wb.save("../KAMCHATKA_VERIFY_2010.xlsx")
-print("проверено", T("chk"), "из", T("pos"), "| рынок было", round(T("cur")), "стало", round(T("rec")), "| себес", round(COST), "маржа", round(1 - COST / NMCK, 3), "| безуб", round(lo, 3),
+print("заявка", round(tot), "прибыль@заявка", round(model(tot, COST)), "| проверено", T("chk"), "из", T("pos"), "| рынок было", round(T("cur")), "стало", round(T("rec")), "| себес", round(COST), "маржа", round(1 - COST / NMCK, 3), "| безуб", round(lo, 3),
       "| прибыль −15%", round(model(NMCK * 0.85, COST)))
