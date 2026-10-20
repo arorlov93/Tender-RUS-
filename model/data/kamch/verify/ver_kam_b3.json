@@ -1,0 +1,1461 @@
+[
+ {
+  "table": "1.1",
+  "n": 1,
+  "name": "Клапан предохранительный 17лс17нж Ду 200-300  Ру 16-6 полноподъемный пружинный фланцевый",
+  "qty": 1.0,
+  "cur_price": 477825.81,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/avangard/17ls17nzh/dn200-300",
+    "price": 477825.81,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, живая карточка, цена на 10.2026"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/klapana_predokhranitelnye_iz_legirovannoy_stali_09g2s/klapan_predokhranitelnyy_17ls13nzh_sppk_du_200_ru16/",
+    "price": 515000,
+    "vat": "с НДС (предп.)",
+    "type": "розница",
+    "evidence": "C: карточка 17лс13нж Ду200 Ру16 (ближайший аналог, корпус 20ГЛ), itemprop price 515000; дата не подтверждена"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/avangard/17s17nzh/dn200-300",
+    "price": 341304.15,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026 — справочно 17с17нж (корпус 25Л, не 20ГЛ)"
+   }
+  ],
+  "median_price": 496412.9,
+  "verdict": "ok",
+  "rec_price": 477825.81,
+  "confidence": "med",
+  "spec_match": "полное (17лс17нж Ду200-300 Ру16-6, 20ГЛ)",
+  "pp1875": "РФ (Авангард/Арма-Пром)",
+  "note": "Медиана по 20ГЛ-источникам ~496 тыс.; 17с17нж из 25Л дешевле (341 тыс.), но по ТЗ корпус 20ГЛ."
+ },
+ {
+  "table": "1.1",
+  "n": 22,
+  "name": "Затвор дисковый поворотный межфланцевый Stensel 31070-01 Ду 200 Ру 25",
+  "qty": 3.0,
+  "cur_price": 240000,
+  "sources": [
+   {
+    "company": "оценка исполнителя (НХИ трёхэксц. ×2 за нерж.)",
+    "url": "https://stensel.ru",
+    "price": 240000,
+    "vat": "с НДС",
+    "type": "оценка",
+    "evidence": "нет открытого прайса 2026; Stensel — цена по КП"
+   }
+  ],
+  "median_price": 240000,
+  "verdict": "нет данных",
+  "rec_price": 240000,
+  "confidence": "low",
+  "spec_match": "аналог: нерж. трёхэксцентриковый затвор DN200 PN25 под ISO F10 — равноценность по «металл-металл без графита» подтвердить КП",
+  "pp1875": "не проверено",
+  "note": "Открытых цен 2026 не найдено; нужен запрос КП Stensel/Армагус/Т-Армпром."
+ },
+ {
+  "table": "1.1",
+  "n": 23,
+  "name": "Затвор дисковый поворотный межфланцевый ПА954.450.10-05 Ду 450 Ру 10",
+  "qty": 1.0,
+  "cur_price": 680000,
+  "sources": [
+   {
+    "company": "НХИ (ориентир: ЗДП-ТЭ DN450 PN10 с редуктором, углерод. сталь)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/zatvory_diskovye_povorotnye/trehekstsentrikovye/",
+    "price": 376248.0,
+    "vat": "с НДС",
+    "type": "прайс поставщика",
+    "evidence": "B (из входных данных): 308 400 ₽ без НДС; корпус не CF8M — ×1,8 оценочно"
+   }
+  ],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 680000,
+  "confidence": "low",
+  "spec_match": "аналог/оценка: ПА954 (ПромАрм) CF8M — цена только по КП",
+  "pp1875": "РФ (ПромАрм) — проверить реестр",
+  "note": "Оценка = ориентир НХИ ×1,8 за CF8M; без КП ПромАрм не подтвердить."
+ },
+ {
+  "table": "1.1",
+  "n": 24,
+  "name": "Электропривод общепромышленный Н-В-02 У2",
+  "qty": 2.0,
+  "cur_price": 165000,
+  "sources": [
+   {
+    "company": "Петроснаб (petrosnab.net)",
+    "url": "https://petrosnab.net/catalogue/tulaelectroprivod_/",
+    "price": 98500,
+    "vat": "не указано (предп. с НДС)",
+    "type": "дилер",
+    "evidence": "C: © 2011-2026, таблица «Н-В-02 98500р»"
+   },
+   {
+    "company": "Сантехлогика (santehlogica.ru)",
+    "url": "https://santehlogica.ru/catalog/zapornaya-armatura-elektroprivody/elektroprivody-i-reduktory-dlya-armatury-zapornoy-1",
+    "price": 141254,
+    "vat": "с НДС",
+    "type": "дилер",
+    "evidence": "справочно, © 2010-2018 (не 2026): Н-В-12 У2 141 254 ₽, Н-В 11 У2 151 344 ₽ — Н-В-02 в линейке дешевле"
+   }
+  ],
+  "median_price": 119877,
+  "verdict": "завышена",
+  "rec_price": 130000,
+  "confidence": "low",
+  "spec_match": "полное (Н-В-02 У2, Тулаэлектропривод)",
+  "pp1875": "РФ",
+  "note": "Текущая 165 тыс. без источника. Петроснаб 98,5 тыс.; Н-В-11/12 у другого дилера 141–151 тыс. ⇒ Н-В-02 реально ~100–135 тыс. Запросить КП Тулаэлектропривод."
+ },
+ {
+  "table": "1.3",
+  "n": 1,
+  "name": "Клапан регулирующий 25с947нж Ду 50 Ру 25 с ЭИМ",
+  "qty": 1.0,
+  "cur_price": 101097.74,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/avangard/25s947nzh-ru25/dn50",
+    "price": 101097.74,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, Авангард КР 25с947нж Ду50 Ру25 с приводом ST 0, цена на 28.10.2026"
+   }
+  ],
+  "median_price": 101097.74,
+  "verdict": "ok",
+  "rec_price": 101097.74,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (клапан); привод Regada — Словакия, импорт → рос. ЭИМ (МЭП/ПЭП-САЗ)",
+  "note": "Второй источник для Ду50 Ру25 не найден (САЗ Авангард, kipia — по запросу); НХИ Ду25 PN16 90,8 тыс. с НДС подтверждает уровень цен."
+ },
+ {
+  "table": "1.3",
+  "n": 2,
+  "name": "Клапан регулирующий 25ч945п Ду 15 Ру 16 с ЭИМ",
+  "qty": 2.0,
+  "cur_price": 69709.58,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/teplosila/trv-tsl/dn15",
+    "price": 69709.58,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, TRV (25ч945нж/25ч945п) + TSL-1600 230В, цена на 10.2026"
+   }
+  ],
+  "median_price": 69709.58,
+  "verdict": "ok",
+  "rec_price": 69709.58,
+  "confidence": "med",
+  "spec_match": "аналог: Теплосила TRV с ЭИМ TSL — равноценен 25ч945п (чугун, фланец, PN16)",
+  "pp1875": "ЕАЭС/РФ (Теплосила) — проверить запись в реестре",
+  "note": "Второй источник 2026 не найден (teharmatura/lunda — карточки без цены по этому Ду; Satu — тенге)."
+ },
+ {
+  "table": "1.3",
+  "n": 3,
+  "name": "Клапан регулирующий 25ч945п Ду 25 Ру 16 с ЭИМ",
+  "qty": 1.0,
+  "cur_price": 76636.74,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/teplosila/trv-tsl/dn25",
+    "price": 76636.74,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, TRV (25ч945нж/25ч945п) + TSL-1600 230В, цена на 10.2026"
+   }
+  ],
+  "median_price": 76636.74,
+  "verdict": "ok",
+  "rec_price": 76636.74,
+  "confidence": "med",
+  "spec_match": "аналог: Теплосила TRV с ЭИМ TSL — равноценен 25ч945п (чугун, фланец, PN16)",
+  "pp1875": "ЕАЭС/РФ (Теплосила) — проверить запись в реестре",
+  "note": "Второй источник 2026 не найден (teharmatura/lunda — карточки без цены по этому Ду; Satu — тенге)."
+ },
+ {
+  "table": "1.3",
+  "n": 4,
+  "name": "Клапан регулирующий 25ч945п Ду 50 Ру 16 KV100 с ЭИМ",
+  "qty": 2.0,
+  "cur_price": 94264.52,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/teplosila/trv-tsl/dn50",
+    "price": 94264.52,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, TRV (25ч945нж/25ч945п) + TSL-1600 230В, цена на 10.2026"
+   }
+  ],
+  "median_price": 94264.52,
+  "verdict": "ok",
+  "rec_price": 94264.52,
+  "confidence": "med",
+  "spec_match": "аналог: Теплосила TRV с ЭИМ TSL — равноценен 25ч945п (чугун, фланец, PN16)",
+  "pp1875": "ЕАЭС/РФ (Теплосила) — проверить запись в реестре",
+  "note": "Второй источник 2026 не найден (teharmatura/lunda — карточки без цены по этому Ду; Satu — тенге)."
+ },
+ {
+  "table": "1.3",
+  "n": 5,
+  "name": "Клапан регулирующий 25ч945п Ду 80 Ру 16 с ЭИМ",
+  "qty": 8.0,
+  "cur_price": 159871.24,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/teplosila/trv-tsl-4-20ma-24v/dn80",
+    "price": 159871.24,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, TRV Ду80 + TSL-2200 24В аналог. 4-20мА"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/teplosila/trv-tsl/dn80",
+    "price": 142805.88,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, TRV Ду80 + TSL 230В 3-поз."
+   },
+   {
+    "company": "ТехАрматура (teharmatura.ru)",
+    "url": "https://teharmatura.ru/catalog/reguliruyushchaya-predokhranitelnaya-armatura-i-av/klapany-reguliruyushchie-elektroprivody-i-komplekt/klapany-reguliruyushchie-sedlovye-dvukhkhodovye/352801/",
+    "price": 137014,
+    "vat": "с НДС (предп.)",
+    "type": "розница",
+    "evidence": "C: © 2026, TRV-80-100-110 Kv100 эл/п TSL 230В, 137 014 руб/шт, «нет в наличии»"
+   }
+  ],
+  "median_price": 142805.88,
+  "verdict": "ok",
+  "rec_price": 142805.88,
+  "confidence": "med",
+  "spec_match": "аналог: TRV Ду80 + TSL; в ТЗ тип управления не задан — 230В 3-поз. достаточно, 24В 4-20мА дороже",
+  "pp1875": "ЕАЭС/РФ (Теплосила)",
+  "note": "Текущая (24В аналог.) +12% к медиане; если аналоговое управление не требуется — 142,8 тыс. (экономия ~137 тыс. на 8 шт)."
+ },
+ {
+  "table": "1.3",
+  "n": 6,
+  "name": "Регулирующий клапан Ридан VFG-2R Ду 100, Kvs 125, Ру 16",
+  "qty": 2.0,
+  "cur_price": 334724.08,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/ridan/vfg-2r/dn100-125-m3-h",
+    "price": 334724.08,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, VFG-2R Ду100 Ру25 Kv125"
+   },
+   {
+    "company": "Ридан (ridan.ru, производитель)",
+    "url": "https://ridan.ru/product/065B2396R",
+    "price": 468801.23,
+    "vat": "с НДС (×1,22 от цены без НДС)",
+    "type": "прайс завода",
+    "evidence": "B: офиц. магазин Ридан, 065B2396R = 384263.30 ₽ без НДС, проверено 20.10.2026 (VFG-2R DN100 Kvs125 PN16)"
+   }
+  ],
+  "median_price": 401762.66,
+  "verdict": "ok",
+  "rec_price": 334724.08,
+  "confidence": "med",
+  "spec_match": "аналог: Ру25 вместо Ру16 (перекрывает); у Ридан есть точный PN16 065B2396R",
+  "pp1875": "РФ (Ридан)",
+  "note": "Прайс Ридан (468,8 тыс. с НДС) выше dn.ru на 40%; по правилу ±15% — ниже медианы, но dn.ru — живая цена дилера. Риск: подтвердить цену dn.ru счётом."
+ },
+ {
+  "table": "1.3",
+  "n": 7,
+  "name": "Регулирующий клапан Ридан VFG-2R Ду 32, Kvs 16,  Ру 16",
+  "qty": 4.0,
+  "cur_price": 206414.85,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/ridan/vfg-2r/dn32-16-m3-h",
+    "price": 206414.85,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, VFG-2R Ду32 Ру16 Kv16 сталь"
+   },
+   {
+    "company": "Ридан (ridan.ru, производитель)",
+    "url": "https://ridan.ru/product/065B2391R1",
+    "price": 157688.78,
+    "vat": "с НДС (×1,22 от цены без НДС)",
+    "type": "прайс завода",
+    "evidence": "B: офиц. магазин Ридан, 065B2391R1 = 129253.10 ₽ без НДС, проверено 20.10.2026 (065B2391R PN16 снят с продажи; рекоменд. аналог 065B2391R1 PN25, корпус чугун)"
+   }
+  ],
+  "median_price": 182051.82,
+  "verdict": "ok",
+  "rec_price": 206414.85,
+  "confidence": "med",
+  "spec_match": "полное у dn.ru; у Ридан PN16 архив, замена PN25 чугун (по ТЗ WCB — не равноценна по материалу)",
+  "pp1875": "РФ (Ридан)",
+  "note": "Если чугун допустим — 157,7 тыс. (экономия ~195 тыс. на 4 шт)."
+ },
+ {
+  "table": "1.3",
+  "n": 8,
+  "name": "регулирующий клапан Ридан VFG-2R Ду 80, Kvs 80,  Ру 16",
+  "qty": 2.0,
+  "cur_price": 226123.95,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/ridan/vfg-2r/dn80-80-m3-h",
+    "price": 226123.95,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, VFG-2R Ду80 Ру16 Kv80"
+   },
+   {
+    "company": "Ридан (ridan.ru, производитель)",
+    "url": "https://ridan.ru/product/065B2395R",
+    "price": 316699.19,
+    "vat": "с НДС (×1,22 от цены без НДС)",
+    "type": "прайс завода",
+    "evidence": "B: офиц. магазин Ридан, 065B2395R = 259589.50 ₽ без НДС, проверено 20.10.2026 (VFG-2R DN80 Kvs80 PN16)"
+   }
+  ],
+  "median_price": 271411.57,
+  "verdict": "ok",
+  "rec_price": 226123.95,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Ридан)",
+  "note": "Прайс Ридан 316,7 тыс. с НДС — dn.ru на 29% дешевле; закупка у dn.ru реальна, но подтвердить счётом."
+ },
+ {
+  "table": "1.3",
+  "n": 9,
+  "name": "Регулятор давления РД-НО (Нормально открытый) Ду 25 Ру 16",
+  "qty": 2.0,
+  "cur_price": 58471.55,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/regulyator/reguliator-davleniia-posle-sebia/teplokontrol/rd-no-chugun/dn25",
+    "price": 58471.55,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, РД-НО чугун, цена на 19–20.10.2026"
+   }
+  ],
+  "median_price": 58471.55,
+  "verdict": "ok",
+  "rec_price": 58471.55,
+  "confidence": "med",
+  "spec_match": "полное (РД-НО чугун, Теплоконтроль)",
+  "pp1875": "РФ (Теплоконтроль)",
+  "note": "Второй открытый источник 2026 не найден (сайт Теплоконтроль недоступен)."
+ },
+ {
+  "table": "1.3",
+  "n": 10,
+  "name": "Регулятор давления РД-НО (Нормально открытый) Ду 32 Ру 16",
+  "qty": 1.0,
+  "cur_price": 54538.27,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/regulyator/reguliator-davleniia-posle-sebia/teplokontrol/rd-no-chugun/dn32",
+    "price": 54538.27,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, РД-НО чугун, цена на 19–20.10.2026"
+   }
+  ],
+  "median_price": 54538.27,
+  "verdict": "ok",
+  "rec_price": 54538.27,
+  "confidence": "med",
+  "spec_match": "полное (РД-НО чугун, Теплоконтроль)",
+  "pp1875": "РФ (Теплоконтроль)",
+  "note": "Второй открытый источник 2026 не найден (сайт Теплоконтроль недоступен)."
+ },
+ {
+  "table": "1.3",
+  "n": 11,
+  "name": "Регулятор давления РД-НО (Нормально открытый) Ду 50 Ру 16",
+  "qty": 3.0,
+  "cur_price": 79717.24,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/regulyator/reguliator-davleniia-posle-sebia/teplokontrol/rd-no-chugun/dn50",
+    "price": 79717.24,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, РД-НО чугун, цена на 19–20.10.2026"
+   }
+  ],
+  "median_price": 79717.24,
+  "verdict": "ok",
+  "rec_price": 79717.24,
+  "confidence": "med",
+  "spec_match": "полное (РД-НО чугун, Теплоконтроль)",
+  "pp1875": "РФ (Теплоконтроль)",
+  "note": "Второй открытый источник 2026 не найден (сайт Теплоконтроль недоступен)."
+ },
+ {
+  "table": "1.3",
+  "n": 12,
+  "name": "Регулятор давления РД-НО (Нормально открытый) Ду 80 Ру 16",
+  "qty": 3.0,
+  "cur_price": 101011.12,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/regulyator/reguliator-davleniia-posle-sebia/teplokontrol/rd-no-stal/dn80",
+    "price": 188573.57,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, РД-НО Ду80 Ру16 СТАЛЬНОЙ, цена на 20.10.2026"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/regulyator/reguliator-davleniia-posle-sebia/teplokontrol/rd-no-chugun/dn80",
+    "price": 101011.12,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026 — чугунное исп. (текущая цена, не по ТЗ)"
+   },
+   {
+    "company": "Кабель.РФ (cable.ru)",
+    "url": "https://cherepovets.cable.ru/pipeline/figure-regulyator_davleniya_rd_no_80_du80_ru16.php",
+    "price": 85003,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "C: из выдачи поиска «от 85 003 руб.», исполнение не указано (вероятно чугун)"
+   }
+  ],
+  "median_price": 188573.57,
+  "verdict": "не тот товар",
+  "rec_price": 188573.57,
+  "confidence": "med",
+  "spec_match": "не совпадает: текущая цена — чугунный РД-НО, в ТЗ корпус «Сталь марки 20»",
+  "pp1875": "РФ (Теплоконтроль)",
+  "note": "Стальное исполнение у того же продавца 188,6 тыс. → +262,7 тыс. на 3 шт."
+ },
+ {
+  "table": "1.3",
+  "n": 13,
+  "name": "Регулирующий блок после себя AFD Ду 15-250 с диапазоном настройки Ру 25",
+  "qty": 2.0,
+  "cur_price": 45000,
+  "sources": [
+   {
+    "company": "Ридан (ridan.ru, производитель)",
+    "url": "https://ridan.ru/product/003G1002R",
+    "price": 193866.54,
+    "vat": "с НДС (×1,22 от цены без НДС)",
+    "type": "прайс завода",
+    "evidence": "B: офиц. магазин Ридан, 003G1002R = 158907.00 ₽ без НДС, проверено 20.10.2026 (AFD-R PN25, 1–6 бар, 80 см², красная пружина)"
+   }
+  ],
+  "median_price": 193866.54,
+  "verdict": "занижена",
+  "rec_price": 193866.54,
+  "confidence": "med",
+  "spec_match": "полное: Ридан AFD-R 003G1002R (замена Danfoss AFD 003G1002)",
+  "pp1875": "РФ (Ридан)",
+  "note": "Текущая 45 тыс. — без источника; офиц. цена Ридан 158 907 без НДС = 193,9 тыс. с НДС (×4,3). Соседние блоки 003G1000R 205 тыс., 003G1001R 158,9 тыс. без НДС."
+ },
+ {
+  "table": "1.3",
+  "n": 32,
+  "name": "Клапан обратный фланцевый пружинный с аксиальным затвором NVD-402R Ду 100 Ру 16",
+  "qty": 2.0,
+  "cur_price": 42155,
+  "sources": [
+   {
+    "company": "Ридан (ridan.ru, производитель)",
+    "url": "https://ridan.ru/product/082X8474R",
+    "price": 42154.54,
+    "vat": "с НДС (×1,22 от цены без НДС)",
+    "type": "прайс завода",
+    "evidence": "B: офиц. магазин Ридан, 082X8474R = 34552.90 ₽ без НДС, проверено 20.10.2026"
+   }
+  ],
+  "median_price": 42154.54,
+  "verdict": "ok",
+  "rec_price": 42154.54,
+  "confidence": "high",
+  "spec_match": "полное (NVD-402R, чугун GJL250, EPDM)",
+  "pp1875": "РФ (Ридан)",
+  "note": "Цена производителя подтверждена повторно 20.10.2026; второй дилерский источник не найден (Danfoss NVD 402 — без цен)."
+ },
+ {
+  "table": "1.3",
+  "n": 33,
+  "name": "Клапан обратный фланцевый пружинный с аксиальным затвором NVD-402R Ду 150 Ру 16",
+  "qty": 5.0,
+  "cur_price": 72368,
+  "sources": [
+   {
+    "company": "Ридан (ridan.ru, производитель)",
+    "url": "https://ridan.ru/product/082X8476R",
+    "price": 72368.14,
+    "vat": "с НДС (×1,22 от цены без НДС)",
+    "type": "прайс завода",
+    "evidence": "B: офиц. магазин Ридан, 082X8476R = 59318.15 ₽ без НДС, проверено 20.10.2026"
+   }
+  ],
+  "median_price": 72368.14,
+  "verdict": "ok",
+  "rec_price": 72368.14,
+  "confidence": "high",
+  "spec_match": "полное (NVD-402R, чугун GJL250, EPDM)",
+  "pp1875": "РФ (Ридан)",
+  "note": "Цена производителя подтверждена повторно 20.10.2026; второй дилерский источник не найден (Danfoss NVD 402 — без цен)."
+ },
+ {
+  "table": "1.3",
+  "n": 34,
+  "name": "Клапан обратный фланцевый пружинный с аксиальным затвором NVD-402R Ду 200 Ру 16",
+  "qty": 4.0,
+  "cur_price": 119261,
+  "sources": [
+   {
+    "company": "Ридан (ridan.ru, производитель)",
+    "url": "https://ridan.ru/product/082X8477R",
+    "price": 119260.61,
+    "vat": "с НДС (×1,22 от цены без НДС)",
+    "type": "прайс завода",
+    "evidence": "B: офиц. магазин Ридан, 082X8477R = 97754.60 ₽ без НДС, проверено 20.10.2026"
+   }
+  ],
+  "median_price": 119260.61,
+  "verdict": "ok",
+  "rec_price": 119260.61,
+  "confidence": "high",
+  "spec_match": "полное (NVD-402R, чугун GJL250, EPDM)",
+  "pp1875": "РФ (Ридан)",
+  "note": "Цена производителя подтверждена повторно 20.10.2026; второй дилерский источник не найден (Danfoss NVD 402 — без цен)."
+ },
+ {
+  "table": "1.3",
+  "n": 36,
+  "name": "Предохранительный клапан ARI-SAFE 12.903 Ду 32/50 Ру 16",
+  "qty": 2.0,
+  "cur_price": 100164.44,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/pregran/kpp-496-01-16-on1/dn32-50",
+    "price": 100164.44,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, КПП 496-01-16-ОН1 Ду32×50"
+   },
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 75770.27,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, GS04D462923 КПП 496-01-ОН1 32×50 = 635.71 у.е.×119.19"
+   }
+  ],
+  "median_price": 87967.36,
+  "verdict": "ok",
+  "rec_price": 75770,
+  "confidence": "high",
+  "spec_match": "аналог: Прегран КПП 496-01-ОН1 (чугун, фланц., открытая пружина) ≈ ARI-SAFE 12.903",
+  "pp1875": "РФ (АДЛ) — ARI (Германия) импорт, замена корректна; проверить реестр",
+  "note": "Текущая +14% к медиане; у производителя АДЛ (складская позиция) 75,8 тыс. — экономия 24,4 тыс./шт."
+ },
+ {
+  "table": "1.3",
+  "n": 37,
+  "name": "Предохранительный клапан ARI-SAFE 12.903 Ду 25/40 Ру 16",
+  "qty": 2.0,
+  "cur_price": 81586.28,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/pregran/kpp-496-01-16-on1/dn25-40",
+    "price": 81586.28,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, КПП 496-01-16-ОН1 Ду25×40"
+   },
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 64814.33,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, GS04E465341 КПП 496-01-ОН 25×40 = 543.79 у.е.×119.19; ОН1 25×40 в прайсе без цены"
+   }
+  ],
+  "median_price": 73200.3,
+  "verdict": "ok",
+  "rec_price": 66000,
+  "confidence": "med",
+  "spec_match": "аналог: Прегран КПП 496-01-ОН1 Ду25×40 ≈ ARI-SAFE 12.903",
+  "pp1875": "РФ (АДЛ) — проверить реестр",
+  "note": "Текущая +11% к медиане; у АДЛ по аналогии (ОН1/ОН = 0,95) ~62–65 тыс."
+ },
+ {
+  "table": "1.3",
+  "n": 38,
+  "name": "Предохранительный клапан ARI-SAFE 12.903 Ду 25/40 Ру 16",
+  "qty": 2.0,
+  "cur_price": 81586.28,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/pregran/kpp-496-01-16-on1/dn25-40",
+    "price": 81586.28,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, КПП 496-01-16-ОН1 Ду25×40"
+   },
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 64814.33,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, GS04E465341 КПП 496-01-ОН 25×40 = 543.79 у.е.×119.19; ОН1 25×40 в прайсе без цены"
+   }
+  ],
+  "median_price": 73200.3,
+  "verdict": "ok",
+  "rec_price": 66000,
+  "confidence": "med",
+  "spec_match": "аналог: Прегран КПП 496-01-ОН1 Ду25×40 ≈ ARI-SAFE 12.903",
+  "pp1875": "РФ (АДЛ) — проверить реестр",
+  "note": "Текущая +11% к медиане; у АДЛ по аналогии (ОН1/ОН = 0,95) ~62–65 тыс."
+ },
+ {
+  "table": "1.3",
+  "n": 150,
+  "name": "Затвор 32нж910р Ду 1000 Ру 10 с эл.приводом",
+  "qty": 1.0,
+  "cur_price": 1200000,
+  "sources": [
+   {
+    "company": "оценка входных данных",
+    "url": "https://bkarm.ru/elektroprivodyi-prajs-list/",
+    "price": 1200000,
+    "vat": "с НДС",
+    "type": "оценка",
+    "evidence": "32с910р DN1000 с эл/п 544 650 ₽ (стальной) ×~3 + ГЗ-В.600 267 410 ₽"
+   },
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 3558531.87,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01A117868 ЗПВЛ-FLN(W)-5-1000-MDV-Е (справочно: чугун+диск CF8M, редуктор) = 29855.96 у.е.×119.19; 14–16 недель"
+   }
+  ],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 1500000,
+  "confidence": "low",
+  "spec_match": "аналог/оценка: полностью нерж. 08Х18Н10Т DN1000 PN10 + ГЗ-В.600 — только КП (БРАЗ/Тяжпромарматура)",
+  "pp1875": "РФ (ГЗ Электропривод — РФ)",
+  "note": "Ориентиры расходятся (АДЛ даже чугунный DN1000 с нерж. диском — 3,56 млн с НДС). Риск занижения; рекомендуем закладывать ≥1,5 млн до КП."
+ },
+ {
+  "table": "1.3",
+  "n": 151,
+  "name": "Затвор дисковый поворотный ЗДП-150-6,3-1-М-А-УХЛ1 (не под электропривод) Ду 150 Ру 6,3",
+  "qty": 3.0,
+  "cur_price": 9360,
+  "sources": [
+   {
+    "company": "ПанЭнергоМет (ktptm.ru)",
+    "url": "https://ktptm.ru/products/zatvor-diskovyj-povorotnyj-shiber-zdp-150-63-1-m-a-uhl1",
+    "price": 9360,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "C: © 2006-2026; цена на странице грузится скриптом, повторно не извлечена"
+   }
+  ],
+  "median_price": 9360,
+  "verdict": "нет данных",
+  "rec_price": 9360,
+  "confidence": "low",
+  "spec_match": "полное (ЗДП алюминиевый, трансформаторный)",
+  "pp1875": "РФ",
+  "note": "Открытых цен 2026 не найдено; оценка входных данных оставлена."
+ },
+ {
+  "table": "1.3",
+  "n": 152,
+  "name": "Затвор дисковый поворотный ЗДП-50-6,3-1-М-А-УХЛ1 Ду 50 Ру 6,3",
+  "qty": 10.0,
+  "cur_price": 4500,
+  "sources": [
+   {
+    "company": "ПанЭнергоМет (ktptm.ru)",
+    "url": "https://ktptm.ru/products/zatvor-diskovyj-povorotnyj-shiber-zdp-50-63-1-m-a-uhl1",
+    "price": 0,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "C: © 2006-2026; цена на странице грузится скриптом, повторно не извлечена; для этого Ду цены нет"
+   }
+  ],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 4500,
+  "confidence": "low",
+  "spec_match": "полное (ЗДП алюминиевый, трансформаторный)",
+  "pp1875": "РФ",
+  "note": "Открытых цен 2026 не найдено; оценка входных данных оставлена."
+ },
+ {
+  "table": "1.3",
+  "n": 153,
+  "name": "Затвор дисковый поворотный ЗДП-80-УХЛ1 Ду 80 Ру 6,3",
+  "qty": 3.0,
+  "cur_price": 6000,
+  "sources": [
+   {
+    "company": "ПанЭнергоМет (ktptm.ru)",
+    "url": "https://www.eesk.su/goods/98853439-zatvor_diskovy_povorotny_zdp_80_6_3_1_m_a_ukhl1",
+    "price": 0,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "C: © 2006-2026; цена на странице грузится скриптом, повторно не извлечена; для этого Ду цены нет"
+   }
+  ],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 6000,
+  "confidence": "low",
+  "spec_match": "полное (ЗДП алюминиевый, трансформаторный)",
+  "pp1875": "РФ",
+  "note": "Открытых цен 2026 не найдено; оценка входных данных оставлена."
+ },
+ {
+  "table": "1.3",
+  "n": 154,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) Тип /серия FL(w)-3-MR-E Ду 100 Ру 16",
+  "qty": 4.0,
+  "cur_price": 13640,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 13542.37,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01A12815 ЗПВЛ-100-MN = 113.62 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zpvl/dn100",
+    "price": 14351.47,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   },
+   {
+    "company": "PipePrice (pipeprice.ru)",
+    "url": "https://pipeprice.ru/product/zatvor-diskovyy-povorotnyy-zpvl-granvel-du-100-ru16-fln-w-5-100-mn-e/",
+    "price": 15049,
+    "vat": "с НДС (предп.)",
+    "type": "розница",
+    "evidence": "B: живая карточка, itemprop price, 20.10.2026"
+   }
+  ],
+  "median_price": 14351.47,
+  "verdict": "ok",
+  "rec_price": 13542.37,
+  "confidence": "high",
+  "spec_match": "полное: ЗПВЛ-FLN(W)-5-100-MN-Е (диск CF8M, EPDM)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 155,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) ЗП ТЛ Ду 100 Ру 16",
+  "qty": 16.0,
+  "cur_price": 13640,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 13542.37,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01M12806 ЗПТЛ-100-MN-HT = 113.62 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zptl/dn100",
+    "price": 21104.78,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 17323.58,
+  "verdict": "ok",
+  "rec_price": 13542.37,
+  "confidence": "high",
+  "spec_match": "полное: ЗПТЛ-FLN(W)-5-100-MN-HT (диск CF8M, EPDM HT)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 156,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) ЗП ТЛ Ду 150 Ру 16",
+  "qty": 20.0,
+  "cur_price": 27828,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 27628.24,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01M12808 ЗПТЛ-150-MN-HT = 231.80 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zptl/dn150",
+    "price": 43056.24,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 35342.24,
+  "verdict": "ok",
+  "rec_price": 27628.24,
+  "confidence": "high",
+  "spec_match": "полное: ЗПТЛ-FLN(W)-5-150-MN-HT (диск CF8M, EPDM HT)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 157,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) ЗП ТЛ Ду 200 Ру 16",
+  "qty": 16.0,
+  "cur_price": 40578,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 40286.22,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01M84597 ЗПТЛ-200-MRR-HT = 338.00 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zptl/dn200",
+    "price": 62781.81,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 51534.01,
+  "verdict": "ok",
+  "rec_price": 40286.22,
+  "confidence": "high",
+  "spec_match": "полное: ЗПТЛ-FLN(W)-5-200-MRR-HT (диск CF8M, EPDM HT)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 158,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) ЗП ТЛ Ду 80 Ру 16",
+  "qty": 9.0,
+  "cur_price": 11423,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 11340.93,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01M12805 ЗПТЛ-080-MN-HT = 95.15 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zptl/dn80",
+    "price": 17674.14,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 14507.53,
+  "verdict": "ok",
+  "rec_price": 11340.93,
+  "confidence": "high",
+  "spec_match": "полное: ЗПТЛ-FLN(W)-5-080-MN-HT (диск CF8M, EPDM HT)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 159,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) Тип /серия FL(w)-3-MR-E Ду 150 Ру 16",
+  "qty": 25.0,
+  "cur_price": 27828,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 27628.24,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01A12817 ЗПВЛ-150-MN = 231.80 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zpvl/dn150",
+    "price": 43056.24,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   },
+   {
+    "company": "PipePrice (pipeprice.ru)",
+    "url": "https://pipeprice.ru/product/zatvor-diskovyy-povorotnyy-zpvl-granvel-du-150-ru16-fln-w-5-150-mn-e/",
+    "price": 27231,
+    "vat": "с НДС (предп.)",
+    "type": "розница",
+    "evidence": "B: живая карточка, itemprop price, 20.10.2026"
+   },
+   {
+    "company": "Wattson (wattson.ru)",
+    "url": "https://www.wattson.ru/ENTER_ELEMENT/2061ccbf-90c2-11e0-9a1c-00155d01b300",
+    "price": 22637.8,
+    "vat": "с НДС (предп.)",
+    "type": "розница",
+    "evidence": "C: © 2026, ЗПВЛ Ду150"
+   }
+  ],
+  "median_price": 27429.62,
+  "verdict": "ok",
+  "rec_price": 27628.24,
+  "confidence": "high",
+  "spec_match": "полное: ЗПВЛ-FLN(W)-5-150-MN-Е (диск CF8M, EPDM)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 160,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) Тип /серия FL(w)-3-MR-E Ду 200 Ру 16",
+  "qty": 6.0,
+  "cur_price": 40976,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 40680.74,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01A12818 ЗПВЛ-200-MR = 341.31 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zpvl/dn200",
+    "price": 63396.69,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 52038.71,
+  "verdict": "ok",
+  "rec_price": 40680.74,
+  "confidence": "high",
+  "spec_match": "полное: ЗПВЛ-FLN(W)-5-200-MR-Е (диск CF8M, EPDM)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 161,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) Тип /серия FL(w)-3-MR-E Ду 80 Ру 16",
+  "qty": 2.0,
+  "cur_price": 11423,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 11340.93,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01A12814 ЗПВЛ-080-MN = 95.15 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zpvl/dn80",
+    "price": 12018.22,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   },
+   {
+    "company": "PipePrice (pipeprice.ru)",
+    "url": "https://pipeprice.ru/product/zatvor-diskovyy-povorotnyy-zpvl-granvel-du-80-ru16-fln-w-5-080-mn-e/",
+    "price": 13555,
+    "vat": "с НДС (предп.)",
+    "type": "розница",
+    "evidence": "B: живая карточка, itemprop price, 20.10.2026"
+   }
+  ],
+  "median_price": 12018.22,
+  "verdict": "ok",
+  "rec_price": 11340.93,
+  "confidence": "high",
+  "spec_match": "полное: ЗПВЛ-FLN(W)-5-080-MN-Е (диск CF8M, EPDM)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 162,
+  "name": "Затвор поворотный дисковый Ду 65 Ру 16 ГРАНВЭЛ тип ЗПВС",
+  "qty": 2.0,
+  "cur_price": 6003,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 5959.5,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01I12790 ЗПВС-065-MN-E = 50.00 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zpvs/dn65",
+    "price": 9287.25,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 7623.38,
+  "verdict": "ok",
+  "rec_price": 5959.5,
+  "confidence": "high",
+  "spec_match": "полное: ЗПВС-FL(W)-3-065-MN-E (корпус GG25, диск GGG40, EPDM)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.3",
+  "n": 163,
+  "name": "Электропривод прямоходный Regada SТ0 490.0-00TQV/00",
+  "qty": 1.0,
+  "cur_price": 90000,
+  "sources": [],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 90000,
+  "confidence": "low",
+  "spec_match": "аналог: рос. прямоходный ЭИМ (МЭП, 4,5 кН, ход 25 мм) вместо Regada ST0 — проверить усилие/ход по ТЗ",
+  "pp1875": "импорт (Словакия) — замена: МЭП АБС ЗЭиМ (РФ)",
+  "note": "Открытых цен 2026 в рублях не найдено; оставлена оценка входных данных — нужен запрос КП."
+ },
+ {
+  "table": "1.4",
+  "n": 1,
+  "name": "Рыбозащитное устройство с потокообразователем",
+  "qty": 1.0,
+  "cur_price": 450000,
+  "sources": [],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 450000,
+  "confidence": "low",
+  "spec_match": "аналог: изготовление по чертежу",
+  "pp1875": "РФ",
+  "note": "Открытых цен 2026 в рублях не найдено; оставлена оценка входных данных — нужен запрос КП."
+ },
+ {
+  "table": "1.6",
+  "n": 1,
+  "name": "Клапан регулирующий 25с947нж Ду 25 Ру 25 с ЭИМ",
+  "qty": 1.0,
+  "cur_price": 81720.48,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/avangard/25s947nzh-ru25/dn25",
+    "price": 81720.48,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, КР 25с947нж Ду25 Ру25 с приводом ST mini"
+   },
+   {
+    "company": "НефтеХимИнжиниринг (nhi-group.ru)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_regulirujuschie/i_klapan_regulirujuschij_odno~41/",
+    "price": 90768.0,
+    "vat": "с НДС (74 400 без НДС)",
+    "type": "прайс поставщика",
+    "evidence": "A: «Цена актуальная на 21-10-2026», 25с947нж DN25 PN16 с ЭИМ (PN16, не PN25)"
+   }
+  ],
+  "median_price": 86244.24,
+  "verdict": "ok",
+  "rec_price": 81720.48,
+  "confidence": "med",
+  "spec_match": "аналог: привод ST mini не взрывозащищённый — в ТЗ Ex-ЭИМ Regada ST",
+  "pp1875": "РФ (клапан); привод Regada — импорт → рос. Ex-ЭИМ",
+  "note": "Для Ex-исполнения цена выше, запросить КП."
+ },
+ {
+  "table": "1.6",
+  "n": 2,
+  "name": "Клапан регулирующий 25с947нж Ду 50 Ру 25 с ЭИМ",
+  "qty": 1.0,
+  "cur_price": 101097.74,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/avangard/25s947nzh-ru25/dn50",
+    "price": 101097.74,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, Авангард КР 25с947нж Ду50 Ру25 с приводом ST 0, цена на 28.10.2026"
+   }
+  ],
+  "median_price": 101097.74,
+  "verdict": "ok",
+  "rec_price": 101097.74,
+  "confidence": "med",
+  "spec_match": "аналог: привод ST 0 общепром.; в ТЗ «взрывозащищённый» ЭИМ Regada ST — нужен Ex-привод (дороже ~+30–50%)",
+  "pp1875": "РФ (клапан); привод Regada — Словакия, импорт → рос. ЭИМ (МЭП/ПЭП-САЗ)",
+  "note": "Второй источник для Ду50 Ру25 не найден (САЗ Авангард, kipia — по запросу); НХИ Ду25 PN16 90,8 тыс. с НДС подтверждает уровень цен. Риск: цена без Ex-исполнения."
+ },
+ {
+  "table": "1.6",
+  "n": 3,
+  "name": "Регулирующий клапан Ридан VFG-2R Ду 80, Kvs 80, Ру 16",
+  "qty": 1.0,
+  "cur_price": 226123.95,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/ridan/vfg-2r/dn80-80-m3-h",
+    "price": 226123.95,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, VFG-2R Ду80 Ру16 Kv80"
+   },
+   {
+    "company": "Ридан (ridan.ru, производитель)",
+    "url": "https://ridan.ru/product/065B2395R",
+    "price": 316699.19,
+    "vat": "с НДС (×1,22 от цены без НДС)",
+    "type": "прайс завода",
+    "evidence": "B: офиц. магазин Ридан, 065B2395R = 259589.50 ₽ без НДС, проверено 20.10.2026 (VFG-2R DN80 Kvs80 PN16)"
+   }
+  ],
+  "median_price": 271411.57,
+  "verdict": "ok",
+  "rec_price": 226123.95,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Ридан)",
+  "note": "Прайс Ридан 316,7 тыс. с НДС — dn.ru на 29% дешевле; закупка у dn.ru реальна, но подтвердить счётом."
+ },
+ {
+  "table": "1.6",
+  "n": 10,
+  "name": "Клапан предохранительный сбросный ПСК 50C/125 Ду 50",
+  "qty": 1.0,
+  "cur_price": 9000,
+  "sources": [],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 9000,
+  "confidence": "low",
+  "spec_match": "полное по марке (ПСК-50С/125)",
+  "pp1875": "РФ",
+  "note": "Открытых цен 2026 в рублях не найдено; оставлена оценка входных данных — нужен запрос КП."
+ },
+ {
+  "table": "1.6",
+  "n": 11,
+  "name": "Клапан предохранительный 17с11нж Ду 25 Ру 16",
+  "qty": 2.0,
+  "cur_price": 18000,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/avangard/17s28nzh/dn25-40",
+    "price": 20538.7,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026 — 17с28нж Ду25-40 (фланцевый; в ТЗ 17с11нж штуцерный — другой тип)"
+   }
+  ],
+  "median_price": 20538.7,
+  "verdict": "нет данных",
+  "rec_price": 18000,
+  "confidence": "low",
+  "spec_match": "полное по марке; цена — оценка по 17с28нж Ду25",
+  "pp1875": "РФ",
+  "note": "Открытых цен 2026 в рублях не найдено; оставлена оценка входных данных — нужен запрос КП."
+ },
+ {
+  "table": "1.6",
+  "n": 12,
+  "name": "Клапан предохранительный 17с28нж Ду 50 Ру16 (Рн 10-16)",
+  "qty": 3.0,
+  "cur_price": 22754.83,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/vbta/17s28nzh/dn50",
+    "price": 22754.83,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, ВБТА 17с28нж Ду50 Ру16"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/avangard/17s28nzh/dn50-80",
+    "price": 28309.49,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, Авангард 17с28нж Ду50-80 Ру16-6 (другой изготовитель)"
+   }
+  ],
+  "median_price": 25532.16,
+  "verdict": "ok",
+  "rec_price": 22754.83,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (ВБТА)",
+  "note": "Второй изготовитель у того же продавца +24%."
+ },
+ {
+  "table": "1.6",
+  "n": 13,
+  "name": "Клапан предохранительный 17с6нж Ду 50 Ру 16",
+  "qty": 2.0,
+  "cur_price": 36900.12,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/vbta/17s6nzh/dn50",
+    "price": 36900.12,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, ВБТА 17с6нж Ду50"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/avangard/17s6nzh/dn50-80",
+    "price": 42030.83,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, Авангард 17с6нж Ду50-80"
+   }
+  ],
+  "median_price": 39465.48,
+  "verdict": "ok",
+  "rec_price": 36900.12,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (ВБТА)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 14,
+  "name": "Клапан предохранительный 17с6нж Ду 80 Ру 16",
+  "qty": 1.0,
+  "cur_price": 54119.81,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/vbta/17s6nzh/dn80",
+    "price": 54119.81,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, ВБТА 17с6нж Ду80"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/klapan/klapan-predokhranitelnyi/flantcevyi/avangard/17s6nzh/dn80-100",
+    "price": 62429.23,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, Авангард 17с6нж Ду80-100"
+   }
+  ],
+  "median_price": 58274.52,
+  "verdict": "ok",
+  "rec_price": 54119.81,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (ВБТА)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 89,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) ЗП ТЛ Ду 100 Ру 16",
+  "qty": 2.0,
+  "cur_price": 13640,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 13542.37,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01M12806 ЗПТЛ-100-MN-HT = 113.62 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zptl/dn100",
+    "price": 21104.78,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 17323.58,
+  "verdict": "ok",
+  "rec_price": 13542.37,
+  "confidence": "high",
+  "spec_match": "полное: ЗПТЛ-FLN(W)-5-100-MN-HT (диск CF8M, EPDM HT)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.6",
+  "n": 90,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) ЗП ТЛ Ду 80 Ру 16",
+  "qty": 1.0,
+  "cur_price": 11423,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 11340.93,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01M12805 ЗПТЛ-080-MN-HT = 95.15 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zptl/dn80",
+    "price": 17674.14,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 14507.53,
+  "verdict": "ok",
+  "rec_price": 11340.93,
+  "confidence": "high",
+  "spec_match": "полное: ЗПТЛ-FLN(W)-5-080-MN-HT (диск CF8M, EPDM HT)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.6",
+  "n": 91,
+  "name": "Затвор дисковый поворотный(ГРЭНВЭЛ) Тип /серия FL(w)-3-MR-E Ду 80 Ру 16",
+  "qty": 1.0,
+  "cur_price": 6607,
+  "sources": [
+   {
+    "company": "АДЛ (прайс производителя)",
+    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
+    "price": 6559.03,
+    "vat": "с НДС (пересчёт из у.е. без НДС)",
+    "type": "прайс завода",
+    "evidence": "A: прайс АДЛ от 12.10.2026, BD01I12791 ЗПВС-080-MN-E = 55.03 у.е.×119.19"
+   },
+   {
+    "company": "ДН.ру (dn.ru)",
+    "url": "https://dn.ru/zatvor/zatvor-ruchnoi/granvel/zpvs/dn80",
+    "price": 10221.77,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: dn.ru © 2026, АДЛ Гранвэл, цена на 27.10.2026"
+   }
+  ],
+  "median_price": 8390.4,
+  "verdict": "ok",
+  "rec_price": 6559.03,
+  "confidence": "high",
+  "spec_match": "полное: ЗПВС-FL(W)-3-080-MN-E (корпус GG25, диск GGG40, EPDM)",
+  "pp1875": "РФ (АДЛ Гранвэл, произв. РФ) — проверить реестр",
+  "note": "Текущая = прайс производителя АДЛ (пересчёт по курсу 21.10.2026 даёт −0,7%). dn.ru на 50–60% дороже — не репрезентативна; медиана формально выше цены завода."
+ },
+ {
+  "table": "1.6",
+  "n": 93,
+  "name": "Электропривод Esbe 95 - 12051900",
+  "qty": 1.0,
+  "cur_price": 22000,
+  "sources": [],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 22000,
+  "confidence": "low",
+  "spec_match": "аналог: поворотный сервопривод 15 Нм 230В 3-поз. для 3-ход. клапанов ESBE",
+  "pp1875": "импорт (Швеция) — замена: рос. поворотный привод (напр. Теплосила TSL-R/ЭПР) — проверить совместимость",
+  "note": "Открытых цен 2026 в рублях не найдено; оставлена оценка входных данных — нужен запрос КП."
+ },
+ {
+  "table": "1.7",
+  "n": 1,
+  "name": "АРТ-85 Ду 50 Ру 16 \"после себя\"",
+  "qty": 1.0,
+  "cur_price": 45000,
+  "sources": [],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 45000,
+  "confidence": "low",
+  "spec_match": "аналог: регулятор «после себя» Ду50 PN16, 0,05–1,2 МПа",
+  "pp1875": "РФ (аналог)",
+  "note": "Открытых цен 2026 в рублях не найдено; оставлена оценка входных данных — нужен запрос КП."
+ }
+]

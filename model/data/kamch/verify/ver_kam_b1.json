@@ -1,0 +1,3594 @@
+[
+ {
+  "table": "1.1",
+  "n": 20,
+  "name": "Кран шаровой 11с67п Ду 150 Ру 25 цельносварной под приварку",
+  "qty": 2.0,
+  "cur_price": 14368,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn150",
+    "price": 14368,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.150/125.025.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 17415,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.150/125.025.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_150_125_ru25/",
+    "price": 12094,
+    "vat": "с НДС",
+    "type": "розница (опт 11250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду150 цельносварной ст.20"
+   }
+  ],
+  "median_price": 14368,
+  "verdict": "ok",
+  "rec_price": 14368,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.1",
+  "n": 21,
+  "name": "Кран шаровой 11с67п Ду 200 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 2.0,
+  "cur_price": 60208,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 60208,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду200 (kshtsf Ду200 Ру16)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 73424,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду200 Ру16/40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du200_ru_16_p_p/",
+    "price": 54388,
+    "vat": "с НДС",
+    "type": "розница (опт 50600)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦФ Ду200 Ру16 п/п"
+   }
+  ],
+  "median_price": 60208,
+  "verdict": "ok",
+  "rec_price": 60208,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.2",
+  "n": 1,
+  "name": "Кран шаровой 11с67п Ду 32 Ру 25 цельносварной под приварку",
+  "qty": 2.0,
+  "cur_price": 1713,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn32",
+    "price": 1713,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.032.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2076,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.032.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_32_ru40/",
+    "price": 1442,
+    "vat": "с НДС",
+    "type": "розница (опт 1340)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду32 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1713,
+  "verdict": "ok",
+  "rec_price": 1713,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.2",
+  "n": 2,
+  "name": "Кран шаровой 11с67п Ду 100 Ру 25 цельносварной под приварку",
+  "qty": 4.0,
+  "cur_price": 5590,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn100",
+    "price": 5590,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.100/080.025.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 6775,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.100/080.025.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_100_80_ru25/",
+    "price": 4705,
+    "vat": "с НДС",
+    "type": "розница (опт 4380)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду100 цельносварной ст.20"
+   }
+  ],
+  "median_price": 5590,
+  "verdict": "ok",
+  "rec_price": 5590,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.2",
+  "n": 3,
+  "name": "Кран шаровой 11с67п Ду 50 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 18.0,
+  "cur_price": 4107,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 4045,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду50 Ру40 L=180"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4978,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду50 Ру40"
+   }
+  ],
+  "median_price": 6464,
+  "verdict": "занижена",
+  "rec_price": 6464,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Текущая 4107 — со страницы П/П Ру16; для Ру25/40 dn.ru даёт 4045 (L=180); ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1952 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.2",
+  "n": 4,
+  "name": "Кран шаровой 11с67п Ду 80 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 4.0,
+  "cur_price": 8770,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 8770,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду80 Ру25"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 10793,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду80 Ру25"
+   }
+  ],
+  "median_price": 12800,
+  "verdict": "занижена",
+  "rec_price": 12800,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈3018 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.2",
+  "n": 5,
+  "name": "Кран шаровой 11с67п Ду 100 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 2.0,
+  "cur_price": 17788,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn100",
+    "price": 17788,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду100 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 21561,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду100 Ру16/40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du100_ru_16_p_p/",
+    "price": 14973,
+    "vat": "с НДС",
+    "type": "розница (опт 13930)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦФ Ду100 Ру16 п/п"
+   }
+  ],
+  "median_price": 17788,
+  "verdict": "ok",
+  "rec_price": 17788,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 106,
+  "name": "Кран шаровой фланцевый 11с22п Ду 50 Ру 16",
+  "qty": 7.0,
+  "cur_price": 3648,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn50",
+    "price": 3648,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду50 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4422,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду50 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du_50_ru40/",
+    "price": 3071,
+    "vat": "с НДС",
+    "type": "розница (опт 2860)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду50"
+   }
+  ],
+  "median_price": 3648,
+  "verdict": "ok",
+  "rec_price": 3648,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 107,
+  "name": "Кран шаровой фланцевый 11с22п Ду 80 Ру 16",
+  "qty": 8.0,
+  "cur_price": 6789,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn80",
+    "price": 6789,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду80 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 8228,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду80 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_80_70_ru_16/",
+    "price": 5714,
+    "vat": "с НДС",
+    "type": "розница (опт 5320)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду80"
+   }
+  ],
+  "median_price": 6789,
+  "verdict": "ok",
+  "rec_price": 6789,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 108,
+  "name": "Кран шаровой фланцевый 11с22п Ду 100 Ру 16",
+  "qty": 8.0,
+  "cur_price": 7989,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100",
+    "price": 7989,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду100 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 9683,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду100 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_100_80_ru_16/",
+    "price": 6724,
+    "vat": "с НДС",
+    "type": "розница (опт 6250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду100"
+   }
+  ],
+  "median_price": 7989,
+  "verdict": "ok",
+  "rec_price": 7989,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 109,
+  "name": "Кран шаровой 11С67П Ду 100 Ру 16",
+  "qty": 2.0,
+  "cur_price": 7989,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100",
+    "price": 7989,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду100 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 9683,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду100 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_100_80_ru_16/",
+    "price": 6724,
+    "vat": "с НДС",
+    "type": "розница (опт 6250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду100"
+   }
+  ],
+  "median_price": 7989,
+  "verdict": "ok",
+  "rec_price": 7989,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 110,
+  "name": "Кран шаровой 11С67П Ду 150 Ру 16",
+  "qty": 2.0,
+  "cur_price": 22652,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn150",
+    "price": 22652,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду150 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 27456,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду150 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_150_125_ru_16/",
+    "price": 19067,
+    "vat": "с НДС",
+    "type": "розница (опт 17740)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду150"
+   }
+  ],
+  "median_price": 22652,
+  "verdict": "ok",
+  "rec_price": 22652,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 111,
+  "name": "Кран шаровой 11С67П Ду 200 Ру 16",
+  "qty": 2.0,
+  "cur_price": 42510,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn200",
+    "price": 42510,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду200 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 48306,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду200 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_200_150_ru_16/",
+    "price": 35782,
+    "vat": "с НДС",
+    "type": "розница (опт 33280)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду200"
+   }
+  ],
+  "median_price": 42510,
+  "verdict": "ok",
+  "rec_price": 42510,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 112,
+  "name": "Кран шаровой 11С67П Ду 80 Ру 16",
+  "qty": 2.0,
+  "cur_price": 6789,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn80",
+    "price": 6789,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду80 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 8228,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду80 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_80_70_ru_16/",
+    "price": 5714,
+    "vat": "с НДС",
+    "type": "розница (опт 5320)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду80"
+   }
+  ],
+  "median_price": 6789,
+  "verdict": "ok",
+  "rec_price": 6789,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 113,
+  "name": "Кран шаровой 11с67п Ду 15 Ру 25 цельносварной под приварку",
+  "qty": 62.0,
+  "cur_price": 1505,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn15",
+    "price": 1505,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.015.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 1824,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.015.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_15_ru40/",
+    "price": 1267,
+    "vat": "с НДС",
+    "type": "розница (опт 1180)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду15 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1505,
+  "verdict": "ok",
+  "rec_price": 1505,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.3",
+  "n": 114,
+  "name": "Кран шаровой 11с67п Ду 25 Ру 25 цельносварной под приварку",
+  "qty": 48.0,
+  "cur_price": 1645,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn25",
+    "price": 1645,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.025.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 1993,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.025.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_25_ru40/",
+    "price": 1384,
+    "vat": "с НДС",
+    "type": "розница (опт 1290)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду25 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1645,
+  "verdict": "ok",
+  "rec_price": 1645,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.3",
+  "n": 115,
+  "name": "Кран шаровой 11с67п Ду 32 Ру 25 цельносварной под приварку",
+  "qty": 40.0,
+  "cur_price": 1713,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn32",
+    "price": 1713,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.032.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2076,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.032.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_32_ru40/",
+    "price": 1442,
+    "vat": "с НДС",
+    "type": "розница (опт 1340)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду32 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1713,
+  "verdict": "ok",
+  "rec_price": 1713,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.3",
+  "n": 116,
+  "name": "Кран шаровой 11с67п Ду 40 Ру 25 цельносварной под приварку",
+  "qty": 38.0,
+  "cur_price": 2219,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn40",
+    "price": 2219,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.040.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2690,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.040.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_40_ru40/",
+    "price": 1868,
+    "vat": "с НДС",
+    "type": "розница (опт 1740)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду40 цельносварной ст.20"
+   }
+  ],
+  "median_price": 2219,
+  "verdict": "ok",
+  "rec_price": 2219,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.3",
+  "n": 117,
+  "name": "Кран шаровой 11с67п Ду 50 Ру 25 цельносварной под приварку",
+  "qty": 44.0,
+  "cur_price": 2420,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn50",
+    "price": 2420,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.050.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2933,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.050.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_50_ru40/",
+    "price": 2037,
+    "vat": "с НДС",
+    "type": "розница (опт 1895)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду50 цельносварной ст.20"
+   }
+  ],
+  "median_price": 2420,
+  "verdict": "ok",
+  "rec_price": 2420,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.3",
+  "n": 118,
+  "name": "Кран шаровой 11с67п Ду 80 Ру 25 цельносварной под приварку",
+  "qty": 26.0,
+  "cur_price": 4549,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn80",
+    "price": 4549,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.080/070.025.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 5514,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.080/070.025.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_80_70_ru25/",
+    "price": 3829,
+    "vat": "с НДС",
+    "type": "розница (опт 3560)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду80 цельносварной ст.20"
+   }
+  ],
+  "median_price": 4549,
+  "verdict": "ok",
+  "rec_price": 4549,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 119,
+  "name": "Кран шаровой 11с67п Ду 100 Ру 25 цельносварной под приварку",
+  "qty": 24.0,
+  "cur_price": 5590,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn100",
+    "price": 5590,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.100/080.025.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 6775,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.100/080.025.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_100_80_ru25/",
+    "price": 4705,
+    "vat": "с НДС",
+    "type": "розница (опт 4380)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду100 цельносварной ст.20"
+   }
+  ],
+  "median_price": 5590,
+  "verdict": "ok",
+  "rec_price": 5590,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 120,
+  "name": "Кран шаровой 11с67п Ду 150 Ру 25 цельносварной под приварку",
+  "qty": 22.0,
+  "cur_price": 14368,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn150",
+    "price": 14368,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.150/125.025.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 17415,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.150/125.025.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_150_125_ru25/",
+    "price": 12094,
+    "vat": "с НДС",
+    "type": "розница (опт 11250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду150 цельносварной ст.20"
+   }
+  ],
+  "median_price": 14368,
+  "verdict": "ok",
+  "rec_price": 14368,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 121,
+  "name": "Кран шаровой 11с67п Ду 200 Ру 25 цельносварной под приварку",
+  "qty": 10.0,
+  "cur_price": 29221,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn200",
+    "price": 29221,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.200/150.025.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 35420,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.200/150.025.Н/П"
+   }
+  ],
+  "median_price": 32320,
+  "verdict": "ok",
+  "rec_price": 32320,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Specarmatura Ду200 — только П/П (41931), в расчёт не взят"
+ },
+ {
+  "table": "1.3",
+  "n": 122,
+  "name": "Кран шаровой 11с67п Ду 15 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 3.0,
+  "cur_price": 2400,
+  "sources": [
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2714,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду15 Ру40"
+   }
+  ],
+  "median_price": 3378,
+  "verdict": "занижена",
+  "rec_price": 3378,
+  "confidence": "low",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "На dn.ru позиции Ду15 П/П Ру25/40 нет — текущая цена 2400 не подтверждена источником; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈664 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 123,
+  "name": "Кран шаровой 11с67п Ду 25 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 6.0,
+  "cur_price": 2860,
+  "sources": [
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 3596,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду25 Ру40"
+   }
+  ],
+  "median_price": 4476,
+  "verdict": "занижена",
+  "rec_price": 4476,
+  "confidence": "low",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "На dn.ru позиции Ду25 П/П Ру25/40 нет — текущая цена 2860 не подтверждена источником; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈880 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 124,
+  "name": "Кран шаровой 11с67п Ду 32 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 10.0,
+  "cur_price": 3041,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 3041,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду32 Ру40"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 3743,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду32 Ру40"
+   }
+  ],
+  "median_price": 4734,
+  "verdict": "занижена",
+  "rec_price": 4734,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1342 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 125,
+  "name": "Кран шаровой 11с67п Ду 50 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 6.0,
+  "cur_price": 4107,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 4045,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду50 Ру40 L=180"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4978,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду50 Ру40"
+   }
+  ],
+  "median_price": 6464,
+  "verdict": "занижена",
+  "rec_price": 6464,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Текущая 4107 — со страницы П/П Ру16; для Ру25/40 dn.ru даёт 4045 (L=180); ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1952 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 126,
+  "name": "Кран шаровой 11с67п Ду 80 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 4.0,
+  "cur_price": 8770,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 8770,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду80 Ру25"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 10793,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду80 Ру25"
+   }
+  ],
+  "median_price": 12800,
+  "verdict": "занижена",
+  "rec_price": 12800,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈3018 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 127,
+  "name": "Кран шаровой 11с67п Ду 100 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 91.0,
+  "cur_price": 17788,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn100",
+    "price": 17788,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду100 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 21561,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду100 Ру16/40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du100_ru_16_p_p/",
+    "price": 14973,
+    "vat": "с НДС",
+    "type": "розница (опт 13930)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦФ Ду100 Ру16 п/п"
+   }
+  ],
+  "median_price": 17788,
+  "verdict": "ok",
+  "rec_price": 17788,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 128,
+  "name": "Кран шаровой 11с67п Ду 125 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 10.0,
+  "cur_price": 21707,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn125",
+    "price": 21707,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду125 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 26312,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду125 Ру16/40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du125_ru_16_p_p/",
+    "price": 18292,
+    "vat": "с НДС",
+    "type": "розница (опт 17100)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦФ Ду125 Ру16 п/п"
+   }
+  ],
+  "median_price": 21707,
+  "verdict": "ok",
+  "rec_price": 21707,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 129,
+  "name": "Кран шаровой 11с67п Ду 150 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 59.0,
+  "cur_price": 32770,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn150",
+    "price": 32770,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду150 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 39721,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду150 Ру16/40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du150_ru_16_p_p/",
+    "price": 27584,
+    "vat": "с НДС",
+    "type": "розница (опт 25660)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦФ Ду150 Ру16 п/п"
+   }
+  ],
+  "median_price": 32770,
+  "verdict": "ok",
+  "rec_price": 32770,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 130,
+  "name": "Кран шаровой 11с67п Ду 200 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 45.0,
+  "cur_price": 60208,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 60208,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду200 (kshtsf Ду200 Ру16)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 73424,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду200 Ру16/40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du200_ru_16_p_p/",
+    "price": 54388,
+    "vat": "с НДС",
+    "type": "розница (опт 50600)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦФ Ду200 Ру16 п/п"
+   }
+  ],
+  "median_price": 60208,
+  "verdict": "ok",
+  "rec_price": 60208,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 131,
+  "name": "Кран шаровой 11с67п Ду 40 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 8.0,
+  "cur_price": 4212,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn40",
+    "price": 4212,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду40 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4439,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду40 Ру16/40"
+   }
+  ],
+  "median_price": 4326,
+  "verdict": "ok",
+  "rec_price": 4326,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 132,
+  "name": "Кран шаровой 11с67п Ду 50 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 80.0,
+  "cur_price": 4107,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn50",
+    "price": 4107,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду50 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4978,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду50 Ру16/40"
+   }
+  ],
+  "median_price": 4542,
+  "verdict": "ok",
+  "rec_price": 4542,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 133,
+  "name": "Кран шаровой 11с67п Ду 65 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 6.0,
+  "cur_price": 6506,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn65",
+    "price": 6506,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду65 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 7885,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду65 Ру16/40"
+   }
+  ],
+  "median_price": 7196,
+  "verdict": "ok",
+  "rec_price": 7196,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 134,
+  "name": "Кран шаровой 11с67п Ду 80 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 92.0,
+  "cur_price": 8354,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn80",
+    "price": 8354,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду80 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 10126,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду80 Ру16/40"
+   }
+  ],
+  "median_price": 9240,
+  "verdict": "ok",
+  "rec_price": 9240,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.3",
+  "n": 136,
+  "name": "Кран шаровый LD неполнопроходной 11с67п КШЦФ Ду 200 Ру 16 с КОФ",
+  "qty": 14.0,
+  "cur_price": 42510,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn200",
+    "price": 42510,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду200 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 48306,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду200 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_200_150_ru_16/",
+    "price": 35782,
+    "vat": "с НДС",
+    "type": "розница (опт 33280)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду200"
+   }
+  ],
+  "median_price": 51324,
+  "verdict": "занижена",
+  "rec_price": 51324,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈8814 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 137,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 100 Ру 16 с КОФ",
+  "qty": 29.0,
+  "cur_price": 12375,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn100",
+    "price": 12375,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду100 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 24980,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду100"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_100_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 17347,
+    "vat": "с НДС",
+    "type": "розница (опт 16133)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду100 Ру16 П/П"
+   }
+  ],
+  "median_price": 21299,
+  "verdict": "занижена",
+  "rec_price": 21299,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈3952 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 138,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 125 Ру 16 с КОФ",
+  "qty": 6.0,
+  "cur_price": 25163,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn125",
+    "price": 25163,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду125 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 52910,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Р.Ф разборный П/П Ду125"
+   }
+  ],
+  "median_price": 43380,
+  "verdict": "занижена",
+  "rec_price": 43380,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈4344 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 139,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 150 Ру 16 с КОФ",
+  "qty": 31.0,
+  "cur_price": 27260,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn150",
+    "price": 27260,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду150 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 51585,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду150"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_150_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 38211,
+    "vat": "с НДС",
+    "type": "розница (опт 35537)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду150 Ру16 П/П"
+   }
+  ],
+  "median_price": 44351,
+  "verdict": "занижена",
+  "rec_price": 44351,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈6140 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 140,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 25 Ру 16 с КОФ",
+  "qty": 8.0,
+  "cur_price": 2297,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn25",
+    "price": 2297,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду25 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4386,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду25"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_25_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 3046,
+    "vat": "с НДС",
+    "type": "розница (опт 2835)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду25 Ру16 П/П"
+   }
+  ],
+  "median_price": 3912,
+  "verdict": "занижена",
+  "rec_price": 3912,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈866 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 141,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 32 Ру 16 с КОФ",
+  "qty": 8.0,
+  "cur_price": 2469,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn32",
+    "price": 2469,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду32 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4715,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду32"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_32_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 3274,
+    "vat": "с НДС",
+    "type": "розница (опт 3050)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду32 Ру16 П/П"
+   }
+  ],
+  "median_price": 4534,
+  "verdict": "занижена",
+  "rec_price": 4534,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1260 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 142,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 40 Ру 16 с КОФ",
+  "qty": 8.0,
+  "cur_price": 2989,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn40",
+    "price": 2989,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду40 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 5708,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_40_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 3964,
+    "vat": "с НДС",
+    "type": "розница (опт 3690)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду40 Ру16 П/П"
+   }
+  ],
+  "median_price": 5330,
+  "verdict": "занижена",
+  "rec_price": 5330,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1366 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 143,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 50 Ру 16 с КОФ",
+  "qty": 112.0,
+  "cur_price": 3120,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn50",
+    "price": 3120,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду50 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 5959,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду50"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_50_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 4138,
+    "vat": "с НДС",
+    "type": "розница (опт 3850)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду50 Ру16 П/П"
+   }
+  ],
+  "median_price": 5944,
+  "verdict": "занижена",
+  "rec_price": 5944,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1806 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 144,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 65 Ру 16 с КОФ",
+  "qty": 6.0,
+  "cur_price": 4912,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn65",
+    "price": 4912,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду65 Ру16 (разборный)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_65_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 5220,
+    "vat": "с НДС",
+    "type": "розница (опт 4860)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду65 Ру16 (065/50 Н/П)"
+   }
+  ],
+  "median_price": 7718,
+  "verdict": "занижена",
+  "rec_price": 7718,
+  "confidence": "med",
+  "spec_match": "аналог: у LD Ду65 КШРФ только 065/50 Н/П — проверить полнопроходность + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈2652 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 145,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 80 Ру 16 МПа с КОФ",
+  "qty": 58.0,
+  "cur_price": 5946,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn80",
+    "price": 5946,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду80 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 11356,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду80"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_80_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 7886,
+    "vat": "с НДС",
+    "type": "розница (опт 7350)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду80 Ру16 П/П"
+   }
+  ],
+  "median_price": 10736,
+  "verdict": "занижена",
+  "rec_price": 10736,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈2850 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 148,
+  "name": "Кран шаровый разборный полнопроходной 11с67п Ду 250 Ру 16 с КОФ",
+  "qty": 6.0,
+  "cur_price": 98000,
+  "sources": [
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 95874,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф 250/200.016 Н/П — НЕ полнопроходной, только для сравнения"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 202352,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.Р 250.016.П/П с редуктором (под приварку) — ближайший П/П Ду250"
+   }
+  ],
+  "median_price": 218904,
+  "verdict": "не тот товар",
+  "rec_price": 218904,
+  "confidence": "low",
+  "spec_match": "не совпадает: текущая цена 98000 ≈ LD Н/П 250/200; полнопроходной Ду250 у LD — только с редуктором (рукоятка по ТЗ невозможна по моменту) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Оценка П/П Ду250 Ру16 фланц. с редуктором ≈205 000 (по gremir КШ.Ц.П.Р 250.016.П/П 202 352); уточнить у ТЗ допустимость Н/П 250/200 (~76–96 тыс.) либо запросить КП ALSO/Маршал; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈13904 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.3",
+  "n": 149,
+  "name": "Кран шаровый цельносварной неполнопроходной 11с67п Ду 250/200 Ру 16 с КОФ",
+  "qty": 2.0,
+  "cur_price": 75932,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn250",
+    "price": 75932,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду250 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 95874,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду250 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_250_200_ru_16/",
+    "price": 63915,
+    "vat": "с НДС",
+    "type": "розница (опт 59440)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду250"
+   }
+  ],
+  "median_price": 89836,
+  "verdict": "занижена",
+  "rec_price": 89836,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П 250/200 + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈13904 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.5",
+  "n": 9,
+  "name": "Кран шаровой 11с22п Ду 50 Ру 16",
+  "qty": 4.0,
+  "cur_price": 3648,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn50",
+    "price": 3648,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду50 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4422,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду50 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du_50_ru40/",
+    "price": 3071,
+    "vat": "с НДС",
+    "type": "розница (опт 2860)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду50"
+   }
+  ],
+  "median_price": 3648,
+  "verdict": "ok",
+  "rec_price": 3648,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.5",
+  "n": 10,
+  "name": "Кран шаровой 11с22п Ду 80 Ру 16",
+  "qty": 4.0,
+  "cur_price": 6789,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn80",
+    "price": 6789,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду80 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 8228,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду80 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_80_70_ru_16/",
+    "price": 5714,
+    "vat": "с НДС",
+    "type": "розница (опт 5320)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду80"
+   }
+  ],
+  "median_price": 6789,
+  "verdict": "ok",
+  "rec_price": 6789,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.5",
+  "n": 11,
+  "name": "Кран шаровой 11с22п Ду 100 Ру 16",
+  "qty": 2.0,
+  "cur_price": 7989,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100",
+    "price": 7989,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду100 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 9683,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду100 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_100_80_ru_16/",
+    "price": 6724,
+    "vat": "с НДС",
+    "type": "розница (опт 6250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду100"
+   }
+  ],
+  "median_price": 7989,
+  "verdict": "ok",
+  "rec_price": 7989,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.5",
+  "n": 12,
+  "name": "Кран шаровой 11с67п Ду 15 Ру 25 цельносварной под приварку",
+  "qty": 25.0,
+  "cur_price": 1505,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn15",
+    "price": 1505,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.015.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 1824,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.015.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_15_ru40/",
+    "price": 1267,
+    "vat": "с НДС",
+    "type": "розница (опт 1180)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду15 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1505,
+  "verdict": "ok",
+  "rec_price": 1505,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.5",
+  "n": 13,
+  "name": "Кран шаровой 11с67п Ду 25 Ру 25 цельносварной под приварку",
+  "qty": 32.0,
+  "cur_price": 1645,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn25",
+    "price": 1645,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.025.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 1993,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.025.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_25_ru40/",
+    "price": 1384,
+    "vat": "с НДС",
+    "type": "розница (опт 1290)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду25 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1645,
+  "verdict": "ok",
+  "rec_price": 1645,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.5",
+  "n": 14,
+  "name": "Кран шаровой 11с67п Ду 32 Ру 25 цельносварной под приварку",
+  "qty": 15.0,
+  "cur_price": 1713,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn32",
+    "price": 1713,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.032.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2076,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.032.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_32_ru40/",
+    "price": 1442,
+    "vat": "с НДС",
+    "type": "розница (опт 1340)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду32 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1713,
+  "verdict": "ok",
+  "rec_price": 1713,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.5",
+  "n": 15,
+  "name": "Кран шаровой 11с67п Ду 40 Ру 25 цельносварной под приварку",
+  "qty": 26.0,
+  "cur_price": 2219,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn40",
+    "price": 2219,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.040.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2690,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.040.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_40_ru40/",
+    "price": 1868,
+    "vat": "с НДС",
+    "type": "розница (опт 1740)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду40 цельносварной ст.20"
+   }
+  ],
+  "median_price": 2219,
+  "verdict": "ok",
+  "rec_price": 2219,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.5",
+  "n": 16,
+  "name": "Кран шаровой 11с67п Ду 50 Ру 25 цельносварной под приварку",
+  "qty": 9.0,
+  "cur_price": 2420,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn50",
+    "price": 2420,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.050.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2933,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.050.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_50_ru40/",
+    "price": 2037,
+    "vat": "с НДС",
+    "type": "розница (опт 1895)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду50 цельносварной ст.20"
+   }
+  ],
+  "median_price": 2420,
+  "verdict": "ok",
+  "rec_price": 2420,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.5",
+  "n": 17,
+  "name": "Кран шаровой 11с67п Ду 100 Ру 25 цельносварной под приварку",
+  "qty": 4.0,
+  "cur_price": 5590,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn100",
+    "price": 5590,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.100/080.025.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 6775,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.100/080.025.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_100_80_ru25/",
+    "price": 4705,
+    "vat": "с НДС",
+    "type": "розница (опт 4380)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду100 цельносварной ст.20"
+   }
+  ],
+  "median_price": 5590,
+  "verdict": "ok",
+  "rec_price": 5590,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.5",
+  "n": 18,
+  "name": "Кран шаровой 11с67п Ду 150 Ру 25 цельносварной под приварку",
+  "qty": 2.0,
+  "cur_price": 14368,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn150",
+    "price": 14368,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.150/125.025.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 17415,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.150/125.025.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_150_125_ru25/",
+    "price": 12094,
+    "vat": "с НДС",
+    "type": "розница (опт 11250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду150 цельносварной ст.20"
+   }
+  ],
+  "median_price": 14368,
+  "verdict": "ok",
+  "rec_price": 14368,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 57,
+  "name": "Кран шаровой 11с22п Ду 32 Ру 16",
+  "qty": 55.0,
+  "cur_price": 2966,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn32",
+    "price": 2966,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду32 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 3596,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду32 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du_32_ru40/",
+    "price": 2497,
+    "vat": "с НДС",
+    "type": "розница (опт 2325)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду32"
+   }
+  ],
+  "median_price": 2966,
+  "verdict": "ok",
+  "rec_price": 2966,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 58,
+  "name": "Кран шаровой 11с22п Ду 50 Ру 16",
+  "qty": 35.0,
+  "cur_price": 3648,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn50",
+    "price": 3648,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду50 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4422,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду50 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du_50_ru40/",
+    "price": 3071,
+    "vat": "с НДС",
+    "type": "розница (опт 2860)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду50"
+   }
+  ],
+  "median_price": 3648,
+  "verdict": "ok",
+  "rec_price": 3648,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 59,
+  "name": "Кран шаровой 11с22п Ду 80 Ру 16",
+  "qty": 24.0,
+  "cur_price": 6789,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn80",
+    "price": 6789,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду80 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 8228,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду80 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_80_70_ru_16/",
+    "price": 5714,
+    "vat": "с НДС",
+    "type": "розница (опт 5320)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду80"
+   }
+  ],
+  "median_price": 6789,
+  "verdict": "ok",
+  "rec_price": 6789,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 60,
+  "name": "Кран шаровой 11с22п Ду 100 Ру 16",
+  "qty": 27.0,
+  "cur_price": 7989,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100",
+    "price": 7989,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду100 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 9683,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду100 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_100_80_ru_16/",
+    "price": 6724,
+    "vat": "с НДС",
+    "type": "розница (опт 6250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду100"
+   }
+  ],
+  "median_price": 7989,
+  "verdict": "ok",
+  "rec_price": 7989,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 61,
+  "name": "Кран шаровой 11с22п Ду 150 Ру 16",
+  "qty": 13.0,
+  "cur_price": 22652,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn150",
+    "price": 22652,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду150 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 27456,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду150 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_150_125_ru_16/",
+    "price": 19067,
+    "vat": "с НДС",
+    "type": "розница (опт 17740)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду150"
+   }
+  ],
+  "median_price": 22652,
+  "verdict": "ok",
+  "rec_price": 22652,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 62,
+  "name": "Кран шаровой 11с22п Ду 200 Ру 16",
+  "qty": 3.0,
+  "cur_price": 42510,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn200",
+    "price": 42510,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду200 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 48306,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду200 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_200_150_ru_16/",
+    "price": 35782,
+    "vat": "с НДС",
+    "type": "розница (опт 33280)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду200"
+   }
+  ],
+  "median_price": 42510,
+  "verdict": "ok",
+  "rec_price": 42510,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 63,
+  "name": "Кран запорный шаровой 11С67П Ду 100 Ру 16",
+  "qty": 25.0,
+  "cur_price": 7989,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100",
+    "price": 7989,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду100 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 9683,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду100 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_100_80_ru_16/",
+    "price": 6724,
+    "vat": "с НДС",
+    "type": "розница (опт 6250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду100"
+   }
+  ],
+  "median_price": 7989,
+  "verdict": "ok",
+  "rec_price": 7989,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 64,
+  "name": "Кран запорный шаровой 11С67П Ду 150 Ру 16",
+  "qty": 9.0,
+  "cur_price": 22652,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn150",
+    "price": 22652,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду150 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 27456,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду150 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_150_125_ru_16/",
+    "price": 19067,
+    "vat": "с НДС",
+    "type": "розница (опт 17740)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду150"
+   }
+  ],
+  "median_price": 22652,
+  "verdict": "ok",
+  "rec_price": 22652,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 65,
+  "name": "Кран запорный шаровой 11С67П Ду 200 Ру 16",
+  "qty": 2.0,
+  "cur_price": 42510,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn200",
+    "price": 42510,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду200 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 48306,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду200 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_200_150_ru_16/",
+    "price": 35782,
+    "vat": "с НДС",
+    "type": "розница (опт 33280)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду200"
+   }
+  ],
+  "median_price": 42510,
+  "verdict": "ok",
+  "rec_price": 42510,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 66,
+  "name": "Кран запорный шаровой 11С67П Ду 50 Ру 16",
+  "qty": 25.0,
+  "cur_price": 3648,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn50",
+    "price": 3648,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду50 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4422,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду50 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du_50_ru40/",
+    "price": 3071,
+    "vat": "с НДС",
+    "type": "розница (опт 2860)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду50"
+   }
+  ],
+  "median_price": 3648,
+  "verdict": "ok",
+  "rec_price": 3648,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 67,
+  "name": "Кран запорный шаровой 11С67П Ду 80 Ру 16",
+  "qty": 22.0,
+  "cur_price": 6789,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn80",
+    "price": 6789,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду80 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 8228,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду80 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_80_70_ru_16/",
+    "price": 5714,
+    "vat": "с НДС",
+    "type": "розница (опт 5320)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду80"
+   }
+  ],
+  "median_price": 6789,
+  "verdict": "ok",
+  "rec_price": 6789,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 68,
+  "name": "Кран шаровой 11с67п Ду 25 Ру 25 цельносварной под приварку",
+  "qty": 36.0,
+  "cur_price": 1645,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn25",
+    "price": 1645,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.025.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 1993,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.025.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_25_ru40/",
+    "price": 1384,
+    "vat": "с НДС",
+    "type": "розница (опт 1290)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду25 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1645,
+  "verdict": "ok",
+  "rec_price": 1645,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.6",
+  "n": 69,
+  "name": "Кран шаровой 11с67п Ду 32 Ру 25 цельносварной под приварку",
+  "qty": 6.0,
+  "cur_price": 1713,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn32",
+    "price": 1713,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.032.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2076,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.032.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_32_ru40/",
+    "price": 1442,
+    "vat": "с НДС",
+    "type": "розница (опт 1340)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду32 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1713,
+  "verdict": "ok",
+  "rec_price": 1713,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.6",
+  "n": 70,
+  "name": "Кран шаровой 11с67п Ду 40 Ру 25 цельносварной под приварку",
+  "qty": 10.0,
+  "cur_price": 2219,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn40",
+    "price": 2219,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.040.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2690,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.040.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_40_ru40/",
+    "price": 1868,
+    "vat": "с НДС",
+    "type": "розница (опт 1740)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду40 цельносварной ст.20"
+   }
+  ],
+  "median_price": 2219,
+  "verdict": "ok",
+  "rec_price": 2219,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.6",
+  "n": 71,
+  "name": "Кран шаровой 11с67п Ду 20 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 2.0,
+  "cur_price": 2686,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 2686,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду20 Ру40"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 3306,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду20 Ру40"
+   }
+  ],
+  "median_price": 3870,
+  "verdict": "занижена",
+  "rec_price": 3870,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈874 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 72,
+  "name": "Кран шаровой 11с67п Ду 25 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 9.0,
+  "cur_price": 2860,
+  "sources": [
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 3596,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду25 Ру40"
+   }
+  ],
+  "median_price": 4476,
+  "verdict": "занижена",
+  "rec_price": 4476,
+  "confidence": "low",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "На dn.ru позиции Ду25 П/П Ру25/40 нет — текущая цена 2860 не подтверждена источником; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈880 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 73,
+  "name": "Кран шаровой 11с67п Ду 32 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 10.0,
+  "cur_price": 3041,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 3041,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду32 Ру40"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 3743,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду32 Ру40"
+   }
+  ],
+  "median_price": 4734,
+  "verdict": "занижена",
+  "rec_price": 4734,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1342 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 74,
+  "name": "Кран шаровой 11с67п Ду 40 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 2.0,
+  "cur_price": 4212,
+  "sources": [
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4439,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду40 Ру40"
+   }
+  ],
+  "median_price": 5981,
+  "verdict": "занижена",
+  "rec_price": 5981,
+  "confidence": "low",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "На dn.ru позиции Ду40 П/П Ру25/40 нет — текущая цена 4212 не подтверждена источником (взята со страницы КШ.Ц.Ф П/П Ру16); ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1542 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 75,
+  "name": "Кран шаровой 11с67п Ду 50 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 9.0,
+  "cur_price": 4107,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 4045,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду50 Ру40 L=180"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4978,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду50 Ру40"
+   }
+  ],
+  "median_price": 6464,
+  "verdict": "занижена",
+  "rec_price": 6464,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Текущая 4107 — со страницы П/П Ру16; для Ру25/40 dn.ru даёт 4045 (L=180); ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1952 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 76,
+  "name": "Кран шаровой 11с67п Ду 80 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 9.0,
+  "cur_price": 8770,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 8770,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду80 Ру25"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 10793,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду80 Ру25"
+   }
+  ],
+  "median_price": 12800,
+  "verdict": "занижена",
+  "rec_price": 12800,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈3018 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 77,
+  "name": "Кран шаровой 11с67п Ду 100 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 4.0,
+  "cur_price": 17788,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn100",
+    "price": 17788,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду100 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 21561,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду100 Ру16/40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_ld_kshtsf_du100_ru_16_p_p/",
+    "price": 14973,
+    "vat": "с НДС",
+    "type": "розница (опт 13930)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦФ Ду100 Ру16 п/п"
+   }
+  ],
+  "median_price": 17788,
+  "verdict": "ok",
+  "rec_price": 17788,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 78,
+  "name": "Кран шаровой 11с67п Ду 32 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 1.0,
+  "cur_price": 3041,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 3041,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду32 (kshtsf (Ру40))"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 3743,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду32 Ру16/40"
+   }
+  ],
+  "median_price": 3392,
+  "verdict": "ok",
+  "rec_price": 3392,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Текущая 3041 — LD П/П Ду32 Ру40 (ок, Ру выше)"
+ },
+ {
+  "table": "1.6",
+  "n": 79,
+  "name": "Кран шаровой 11с67п Ду 40 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 1.0,
+  "cur_price": 4212,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn40",
+    "price": 4212,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду40 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4439,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду40 Ру16/40"
+   }
+  ],
+  "median_price": 4326,
+  "verdict": "ok",
+  "rec_price": 4326,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 80,
+  "name": "Кран шаровой 11с67п Ду 50 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 3.0,
+  "cur_price": 4107,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn50",
+    "price": 4107,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду50 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4978,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду50 Ру16/40"
+   }
+  ],
+  "median_price": 4542,
+  "verdict": "ok",
+  "rec_price": 4542,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 81,
+  "name": "Кран шаровой 11с67п Ду 80 Ру 16 ЦУФ.001 КШ укороченный полнопроходной фланцевый с рукояткой",
+  "qty": 6.0,
+  "cur_price": 8354,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/ksh-c-f/dn80",
+    "price": 8354,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду80 (ksh-c-f)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 10126,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду80 Ру16/40"
+   }
+  ],
+  "median_price": 9240,
+  "verdict": "ok",
+  "rec_price": 9240,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру16 ст.20 (ЦУФ.001 «укороченный» — проверить строительную длину L)",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.6",
+  "n": 82,
+  "name": "Кран шаровой TEMPER 28020025 муфтовый, Ду 25, Ру 40",
+  "qty": 2.0,
+  "cur_price": 1600,
+  "sources": [
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2568,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; аналог: LD КШ.Ц.М 025.040.П/П муфтовый ВР Ду25 Ру40 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2199,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; аналог: LD КШ.Ц.М 025.040.Н/П муфтовый Ду25 Ру40"
+   }
+  ],
+  "median_price": 2384,
+  "verdict": "нет данных",
+  "rec_price": 2400,
+  "confidence": "low",
+  "spec_match": "аналог: LD КШ.Ц.М Ду25 Ру40 муфтовый ст.20 (Temper 28020025 — рублёвых цен РФ 2026 не найдено)",
+  "pp1875": "РФ",
+  "note": "Текущая цена 1600 взята из узбекского объявления (glotr.uz, сум) — непригодна. Рублёвых цен Temper 28020025 в РФ не найдено; ориентир — LD КШ.Ц.М Ду25 Ру40 (gremir 2199–2568). Запросить КП у дилера Temper."
+ },
+ {
+  "table": "1.6",
+  "n": 83,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 100 Ру 16 с КОФ",
+  "qty": 3.0,
+  "cur_price": 12375,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn100",
+    "price": 12375,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду100 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 24980,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду100"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_100_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 17347,
+    "vat": "с НДС",
+    "type": "розница (опт 16133)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду100 Ру16 П/П"
+   }
+  ],
+  "median_price": 21299,
+  "verdict": "занижена",
+  "rec_price": 21299,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈3952 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 84,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 150 Ру 16 с КОФ",
+  "qty": 1.0,
+  "cur_price": 27260,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn150",
+    "price": 27260,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду150 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 51585,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду150"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_150_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 38211,
+    "vat": "с НДС",
+    "type": "розница (опт 35537)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду150 Ру16 П/П"
+   }
+  ],
+  "median_price": 44351,
+  "verdict": "занижена",
+  "rec_price": 44351,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈6140 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 85,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 25 Ру 16 с КОФ",
+  "qty": 2.0,
+  "cur_price": 2297,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn25",
+    "price": 2297,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду25 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4386,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду25"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_25_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 3046,
+    "vat": "с НДС",
+    "type": "розница (опт 2835)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду25 Ру16 П/П"
+   }
+  ],
+  "median_price": 3912,
+  "verdict": "занижена",
+  "rec_price": 3912,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈866 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 86,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 40 Ру 16 с КОФ",
+  "qty": 6.0,
+  "cur_price": 2989,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn40",
+    "price": 2989,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду40 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 5708,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду40"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_40_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 3964,
+    "vat": "с НДС",
+    "type": "розница (опт 3690)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду40 Ру16 П/П"
+   }
+  ],
+  "median_price": 5330,
+  "verdict": "занижена",
+  "rec_price": 5330,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1366 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 87,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 50 Ру 16 с КОФ",
+  "qty": 5.0,
+  "cur_price": 3120,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn50",
+    "price": 3120,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду50 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 5959,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду50"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_50_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 4138,
+    "vat": "с НДС",
+    "type": "розница (опт 3850)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду50 Ру16 П/П"
+   }
+  ],
+  "median_price": 5944,
+  "verdict": "занижена",
+  "rec_price": 5944,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1806 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.6",
+  "n": 88,
+  "name": "Кран шаровый LD полнопроходной 11с67п КШРФ Ду 80 Ру 16 с КОФ",
+  "qty": 6.0,
+  "cur_price": 5946,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshrf-stal-20/dn80",
+    "price": 5946,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Р.Ф П/П Ду80 Ру16 (разборный)"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 11356,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD 11с67п КШ.Р.Ф П/П Ду80"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_11s67p/11s67p_kran_sharovyy_du_80_stalnoy_flantsevyy_polnoprokhodnoy_/",
+    "price": 7886,
+    "vat": "с НДС",
+    "type": "розница (опт 7350)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; 11с67п LD КШРФ Ду80 Ру16 П/П"
+   }
+  ],
+  "median_price": 10736,
+  "verdict": "занижена",
+  "rec_price": 10736,
+  "confidence": "med",
+  "spec_match": "аналог: LD 11с67п КШ.Р.Ф П/П Ру16 (разборный) + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "dn.ru по линейке КШ.Р.Ф систематически на 25–50% ниже gremir и specarmatura — если dn.ru подтвердит наличие, закупка возможна дешевле rec; ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈2850 ₽ (2 фланца плоских ГОСТ 33259 Ру16 по dn.ru + прокладки + крепёж)"
+ },
+ {
+  "table": "1.7",
+  "n": 2,
+  "name": "Кран шаровой 11с67п Ду 25 Ру 25 цельносварной под приварку",
+  "qty": 12.0,
+  "cur_price": 1645,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn25",
+    "price": 1645,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.025.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 1993,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.025.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_25_ru40/",
+    "price": 1384,
+    "vat": "с НДС",
+    "type": "розница (опт 1290)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду25 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1645,
+  "verdict": "ok",
+  "rec_price": 1645,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.7",
+  "n": 3,
+  "name": "Кран шаровой 11с67п Ду 32 Ру 25 цельносварной под приварку",
+  "qty": 12.0,
+  "cur_price": 1713,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn32",
+    "price": 1713,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.032.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2076,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.032.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_32_ru40/",
+    "price": 1442,
+    "vat": "с НДС",
+    "type": "розница (опт 1340)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду32 цельносварной ст.20"
+   }
+  ],
+  "median_price": 1713,
+  "verdict": "ok",
+  "rec_price": 1713,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.7",
+  "n": 4,
+  "name": "Кран шаровой 11с67п Ду 40 Ру 25 цельносварной под приварку",
+  "qty": 10.0,
+  "cur_price": 2219,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/kran-pod-privarku/standartnyi/ld/st20/dn40",
+    "price": 2219,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.П.040.040.Н/П ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 2690,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.П.040.040.Н/П"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/krany_sharovye_stalnye_privarnye_kshtsp/kran_sharovyy_sharovoy_privarnoy_ld_kshtsp_tselnosvarnoy_iz_st_20_du_40_ru40/",
+    "price": 1868,
+    "vat": "с НДС",
+    "type": "розница (опт 1740)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШЦП Ду40 цельносварной ст.20"
+   }
+  ],
+  "median_price": 2219,
+  "verdict": "ok",
+  "rec_price": 2219,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "Ду≤50 — LD КШ.Ц.П исполнение Ру40 (≥Ру25 по ТЗ)"
+ },
+ {
+  "table": "1.8",
+  "n": 5,
+  "name": "Кран шаровой 11с22п Ду 80 Ру 16",
+  "qty": 2.0,
+  "cur_price": 6789,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn80",
+    "price": 6789,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду80 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 8228,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду80 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_80_70_ru_16/",
+    "price": 5714,
+    "vat": "с НДС",
+    "type": "розница (опт 5320)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду80"
+   }
+  ],
+  "median_price": 6789,
+  "verdict": "ok",
+  "rec_price": 6789,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.8",
+  "n": 6,
+  "name": "Кран шаровой 11с22п Ду 100 Ру 16",
+  "qty": 1.0,
+  "cur_price": 7989,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/standartnyi/ld/st20/dn100",
+    "price": 7989,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф Н/П Ду100 ст.20"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 9683,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф Н/П Ду100 (Ру16; Ду≤50 Ру40)"
+   },
+   {
+    "company": "Спецарматура (specarmatura.ru)",
+    "url": "https://www.specarmatura.ru/catalog/kran_sharovyy_kshtsf/kran_sharovyy_sharovoy_ld_kshtsf_du_100_80_ru_16/",
+    "price": 6724,
+    "vat": "с НДС",
+    "type": "розница (опт 6250)",
+    "evidence": "A: «Цена с НДС (без доставки) на 21.10.2026»; LD КШ.Ц.Ф Н/П Ду100"
+   }
+  ],
+  "median_price": 7989,
+  "verdict": "ok",
+  "rec_price": 7989,
+  "confidence": "high",
+  "spec_match": "аналог: LD КШ.Ц.Ф Н/П (стандартнопроходной) Ру16 ст.20; Ду≤50 — Ру40",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": ""
+ },
+ {
+  "table": "1.8",
+  "n": 7,
+  "name": "Кран шаровой 11с67п Ду 50 Ру 25 полнопрох. с КОФ (КЗШС41нж)",
+  "qty": 4.0,
+  "cur_price": 4107,
+  "sources": [
+   {
+    "company": "ДН.ру (dn.ru), дилер LD",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/flantcevyi-kran/polnoprohodnoi/ld/kshtsf/dn80-pn16-l-210",
+    "price": 4045,
+    "vat": "с НДС",
+    "type": "розница (дилер)",
+    "evidence": "B: живой магазин ©2026, цена на 20.10.2026; LD КШ.Ц.Ф П/П Ду50 Ру40 L=180"
+   },
+   {
+    "company": "Гремир (gremir.ru), поставщик LD",
+    "url": "https://gremir.ru/krany-sharovye/stalnye/ld/",
+    "price": 4978,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: каталог LD ©2009-2026, наличие/под заказ; LD КШ.Ц.Ф П/П Ду50 Ру40"
+   }
+  ],
+  "median_price": 6464,
+  "verdict": "занижена",
+  "rec_price": 6464,
+  "confidence": "med",
+  "spec_match": "аналог: LD КШ.Ц.Ф П/П Ру25/Ру40 ст.20 — равноценен по Ру/Ду/материалу + КОФ отдельно",
+  "pp1875": "РФ (LD, Челябинск; рег. запись ГИСП не проверялась)",
+  "note": "В поле dn=20, в наименовании Ду50 — принято Ду50 по наименованию (цена текущая тоже Ду50); Текущая 4107 — со страницы П/П Ру16; для Ру25/40 dn.ru даёт 4045 (L=180); ТЗ «с КОФ»: цены источников — без ответных фланцев; добавлено КОФ ≈1952 ₽ (2 фланца плоских ГОСТ 33259 Ру25 по dn.ru + прокладки + крепёж)"
+ }
+]

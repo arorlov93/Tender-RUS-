@@ -1,0 +1,4119 @@
+[
+ {
+  "table": "1.1",
+  "n": 2,
+  "name": "Клапан запорный 15нж65нж Ду 200 Ру 16",
+  "qty": 4.0,
+  "cur_price": 169700.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn150",
+    "price": 102852.71,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТГМ 15нж65нж Ду150 (Ду200 в линейке нет)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 81744,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; Ду150 (Ду200 нет)"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 98835,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», 15нж65нж Ду150 (макс. Ду в прайсе)"
+   }
+  ],
+  "median_price": 98835,
+  "verdict": "нет данных",
+  "rec_price": 150000,
+  "confidence": "low",
+  "spec_match": "аналог: прямых цен Ду200 нет — оценка ×1,65 от медианы Ду150",
+  "pp1875": "РФ",
+  "note": "Ду200 не найден ни у одного источника (ТГМ, СибЗТА, МСГ — до Ду150). Оценка = медиана Ду150 (~90,3 тыс.) ×1,65; нужен запрос КП ТехГидроМаш/СибЗТА."
+ },
+ {
+  "table": "1.1",
+  "n": 3,
+  "name": "Клапан запорный15нж65нж Ду 50 Ру 16",
+  "qty": 3.0,
+  "cur_price": 16371.18,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn50",
+    "price": 16371.18,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 16762,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 19260,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду50 ру16"
+   }
+  ],
+  "median_price": 16762,
+  "verdict": "ok",
+  "rec_price": 16762,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: -2%."
+ },
+ {
+  "table": "1.1",
+  "n": 4,
+  "name": "Клапан запорный15с52нж11 Ду 32 Ру 63 под приварку",
+  "qty": 12.0,
+  "cur_price": 11000.0,
+  "sources": [
+   {
+    "company": "Петроснаб (petrosnab.net)",
+    "url": "https://petrosnab.net/catalogue/steel_vaves/15s52nzh9/",
+    "price": 6600,
+    "vat": "не указано (принято с НДС)",
+    "type": "розница/опт",
+    "evidence": "C: © 2011-2026; таблица 15с52нж9/10/11 Ду32"
+   },
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/15s52nzh11/",
+    "price": 15518.4,
+    "vat": "пересчёт: 12720 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 15с52нж11 Ду32 Ру63 под приварку, 25Л"
+   }
+  ],
+  "median_price": 11059.2,
+  "verdict": "ok",
+  "rec_price": 11059,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Большой разброс (Петроснаб vs НХИ ×2–3); по выдаче поиска ещё 6,0–6,3 тыс. (АрмНефтеГаз, РосМаш-Тула) для Ду32. Отклонение cur от медианы: -1%."
+ },
+ {
+  "table": "1.1",
+  "n": 14,
+  "name": "Кран шаровой 11б27п1 Ду 15 Ру 16",
+  "qty": 35.0,
+  "cur_price": 302.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 301.95,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 294,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.15.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 297.98,
+  "verdict": "ok",
+  "rec_price": 298,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +1%."
+ },
+ {
+  "table": "1.1",
+  "n": 15,
+  "name": "Кран шаровой 11б27п1 Ду 20 Ру 16",
+  "qty": 35.0,
+  "cur_price": 402.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 401.99,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 456,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.20.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 429.0,
+  "verdict": "ok",
+  "rec_price": 429,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: -6%."
+ },
+ {
+  "table": "1.1",
+  "n": 16,
+  "name": "Кран шаровой 11б27п1 Ду 25 Ру 16",
+  "qty": 20.0,
+  "cur_price": 919.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 919.27,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 696,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.25.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 807.63,
+  "verdict": "ok",
+  "rec_price": 808,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +14%."
+ },
+ {
+  "table": "1.1",
+  "n": 17,
+  "name": "Кран шаровой 11б27п1 Ду 32 Ру 16",
+  "qty": 25.0,
+  "cur_price": 1495.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 1495.11,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 1422,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.32.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 1458.55,
+  "verdict": "ok",
+  "rec_price": 1459,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +2%."
+ },
+ {
+  "table": "1.1",
+  "n": 18,
+  "name": "Кран шаровой 11б27п1 Ду 40 Ру 16",
+  "qty": 8.0,
+  "cur_price": 2022.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 2343,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.40.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 2343,
+  "verdict": "ok",
+  "rec_price": 2343,
+  "confidence": "low",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: -14%."
+ },
+ {
+  "table": "1.1",
+  "n": 19,
+  "name": "Кран шаровой 11б27п1 Ду 50 Ру 16",
+  "qty": 8.0,
+  "cur_price": 3781.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 3780.78,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 2552,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.50.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 3166.39,
+  "verdict": "завышена",
+  "rec_price": 3166,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +19%."
+ },
+ {
+  "table": "1.3",
+  "n": 14,
+  "name": "Клапан обратный 19с53нж Ду 80 Ру 40",
+  "qty": 2.0,
+  "cur_price": 19411.42,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/povorotnyi/mzta/19s53nzh/dn80",
+    "price": 19411.42,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; МЗТА 19с53нж"
+   },
+   {
+    "company": "Петроснаб (petrosnab.net)",
+    "url": "https://petrosnab.net/catalogue/osteal/19nz53nz/",
+    "price": 12700,
+    "vat": "не указано (принято с НДС)",
+    "type": "розница/опт",
+    "evidence": "C: © 2011-2026; таблица 19с53нж Ду80"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/klapan-19s53nzh-du150-ru40",
+    "price": 13636,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026, «в наличии», 19с53нж Ду80 Ру40"
+   }
+  ],
+  "median_price": 13636,
+  "verdict": "завышена",
+  "rec_price": 13636,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "МЗТА на dn.ru — премиальная цена; рынок 19с53нж в 1,4–1,6 раза дешевле. Отклонение cur от медианы: +42%."
+ },
+ {
+  "table": "1.3",
+  "n": 15,
+  "name": "Клапан обратный 19с53нж Ду 150 Ру 40",
+  "qty": 2.0,
+  "cur_price": 51476.68,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/povorotnyi/mzta/19s53nzh/dn150",
+    "price": 51476.68,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; МЗТА 19с53нж"
+   },
+   {
+    "company": "Петроснаб (petrosnab.net)",
+    "url": "https://petrosnab.net/catalogue/osteal/19nz53nz/",
+    "price": 29300,
+    "vat": "не указано (принято с НДС)",
+    "type": "розница/опт",
+    "evidence": "C: © 2011-2026; таблица 19с53нж Ду150"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/klapan-19s53nzh-du150-ru40",
+    "price": 34487,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026, «в наличии», 19с53нж Ду150 Ру40"
+   }
+  ],
+  "median_price": 34487,
+  "verdict": "завышена",
+  "rec_price": 34487,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "МЗТА на dn.ru — премиальная цена; рынок 19с53нж в 1,4–1,6 раза дешевле. Отклонение cur от медианы: +49%."
+ },
+ {
+  "table": "1.3",
+  "n": 16,
+  "name": "Клапан обратный межфланцевый 19ч21бр Ду 100 Ру 16",
+  "qty": 4.0,
+  "cur_price": 4596.35,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/odnostvorchatyi/megastroy/19ch21br/dn100",
+    "price": 4596.35,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Мегастрой 19ч21бр"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=19ч21бр",
+    "price": 3017,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 19ч21бр Мегастрой исп. Г"
+   }
+  ],
+  "median_price": 3806.68,
+  "verdict": "завышена",
+  "rec_price": 3807,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Мегастрой)",
+  "note": "МСГ на тот же бренд на 30–35% дешевле. Отклонение cur от медианы: +21%."
+ },
+ {
+  "table": "1.3",
+  "n": 17,
+  "name": "Клапан обратный межфланцевый 19ч21бр Ду 50 Ру 16",
+  "qty": 6.0,
+  "cur_price": 2280.79,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/odnostvorchatyi/megastroy/19ch21br/dn50",
+    "price": 2280.79,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Мегастрой 19ч21бр"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=19ч21бр",
+    "price": 1540,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 19ч21бр Мегастрой исп. Г"
+   }
+  ],
+  "median_price": 1910.39,
+  "verdict": "завышена",
+  "rec_price": 1910,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Мегастрой)",
+  "note": "МСГ на тот же бренд на 30–35% дешевле. Отклонение cur от медианы: +19%."
+ },
+ {
+  "table": "1.3",
+  "n": 18,
+  "name": "Клапан обратный межфланцевый 19ч21бр Ду 80 Ру 16",
+  "qty": 7.0,
+  "cur_price": 3351.34,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/odnostvorchatyi/megastroy/19ch21br/dn80",
+    "price": 3351.34,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Мегастрой 19ч21бр"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=19ч21бр",
+    "price": 2316,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 19ч21бр Мегастрой исп. Г"
+   }
+  ],
+  "median_price": 2833.67,
+  "verdict": "завышена",
+  "rec_price": 2834,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Мегастрой)",
+  "note": "МСГ на тот же бренд на 30–35% дешевле. Отклонение cur от медианы: +18%."
+ },
+ {
+  "table": "1.3",
+  "n": 19,
+  "name": "Клапан обратный двухстворчатый DENDOR 010C Ду 100 Ру 16",
+  "qty": 5.0,
+  "cur_price": 10936.08,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/dvukhstvorchatyi/granlok/cv16/dn100",
+    "price": 10936.08,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; АДЛ Гранлок CV16"
+   },
+   {
+    "company": "АДЛ (оф. прайс-лист)",
+    "url": "https://www.adl.ru/ (прайс-лист XLSX «Трубопроводная арматура общепромышленного применения»)",
+    "price": 7115.43,
+    "vat": "59.7 у.е. без НДС ×(ЕЦБ 93,04+5%) ×1,22",
+    "type": "прайс производителя",
+    "evidence": "A: XLSX изменён 12.10.2026; СV16-100, складская позиция"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 7236,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Клапан обратный двухстворчатый ду100 ру16 створки нерж"
+   }
+  ],
+  "median_price": 7236,
+  "verdict": "завышена",
+  "rec_price": 7236,
+  "confidence": "high",
+  "spec_match": "аналог: АДЛ Гранлок CV16 (двухстворчатый межфланцевый, чугун, диск нерж.) вместо DENDOR 010C — равноценен",
+  "pp1875": "РФ (АДЛ)",
+  "note": "Отклонение cur от медианы: +51%."
+ },
+ {
+  "table": "1.3",
+  "n": 20,
+  "name": "Клапан обратный двухстворчатый DENDOR 010C Ду 200 Ру 16",
+  "qty": 5.0,
+  "cur_price": 29968.69,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/dvukhstvorchatyi/granlok/cv16/dn200",
+    "price": 29968.69,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; АДЛ Гранлок CV16"
+   },
+   {
+    "company": "АДЛ (оф. прайс-лист)",
+    "url": "https://www.adl.ru/ (прайс-лист XLSX «Трубопроводная арматура общепромышленного применения»)",
+    "price": 21634.72,
+    "vat": "181.52 у.е. без НДС ×(ЕЦБ 93,04+5%) ×1,22",
+    "type": "прайс производителя",
+    "evidence": "A: XLSX изменён 12.10.2026; СV16-200, складская позиция"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 18242,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Клапан обратный двухстворчатый ду200 ру16 створки нерж"
+   }
+  ],
+  "median_price": 21634.72,
+  "verdict": "завышена",
+  "rec_price": 21635,
+  "confidence": "high",
+  "spec_match": "аналог: АДЛ Гранлок CV16 (двухстворчатый межфланцевый, чугун, диск нерж.) вместо DENDOR 010C — равноценен",
+  "pp1875": "РФ (АДЛ)",
+  "note": "Отклонение cur от медианы: +39%."
+ },
+ {
+  "table": "1.3",
+  "n": 21,
+  "name": "Клапан обратный фланцевый Ду 50 Ру 40",
+  "qty": 1.0,
+  "cur_price": 15063.34,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/povorotnyi/mzta/19s53nzh/dn50",
+    "price": 15063.34,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; МЗТА 19с53нж"
+   },
+   {
+    "company": "Петроснаб (petrosnab.net)",
+    "url": "https://petrosnab.net/catalogue/osteal/19nz53nz/",
+    "price": 9200,
+    "vat": "не указано (принято с НДС)",
+    "type": "розница/опт",
+    "evidence": "C: © 2011-2026; таблица 19с53нж Ду50"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/klapan-19s53nzh-du150-ru40",
+    "price": 6736,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026, «в наличии», 19с53нж Ду50 Ру40"
+   }
+  ],
+  "median_price": 9200,
+  "verdict": "завышена",
+  "rec_price": 9200,
+  "confidence": "high",
+  "spec_match": "аналог: 19с53нж поворотный Ру40",
+  "pp1875": "РФ",
+  "note": "МЗТА на dn.ru — премиальная цена; рынок 19с53нж в 1,4–1,6 раза дешевле. Отклонение cur от медианы: +64%."
+ },
+ {
+  "table": "1.3",
+  "n": 22,
+  "name": "Обратный клапан «Гранлок» серии CV16 Ду 150 Ру 16",
+  "qty": 4.0,
+  "cur_price": 12109.11,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/dvukhstvorchatyi/granlok/cv16/dn150",
+    "price": 12109.11,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; АДЛ Гранлок CV16"
+   },
+   {
+    "company": "АДЛ (оф. прайс-лист)",
+    "url": "https://www.adl.ru/ (прайс-лист XLSX «Трубопроводная арматура общепромышленного применения»)",
+    "price": 12901.93,
+    "vat": "108.25 у.е. без НДС ×(ЕЦБ 93,04+5%) ×1,22",
+    "type": "прайс производителя",
+    "evidence": "A: XLSX изменён 12.10.2026; СV16-150, складская позиция"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 11620,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Клапан обратный двухстворчатый ду150 ру16 створки нерж"
+   }
+  ],
+  "median_price": 12109.11,
+  "verdict": "ok",
+  "rec_price": 12109,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ (АДЛ)",
+  "note": "Отклонение cur от медианы: +0%."
+ },
+ {
+  "table": "1.3",
+  "n": 23,
+  "name": "Клапан обратный 16нж10нж Ду 50 Ру 16",
+  "qty": 2.0,
+  "cur_price": 42016.8,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/podemnyi/pobeda30/16nj10nj/dn50",
+    "price": 42016.8,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Победа-30 16нж10нж"
+   },
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_obratnye/16nzh10nzh/",
+    "price": 23960.8,
+    "vat": "пересчёт: 19640 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 16нж10нж Ду50 Ру16, 12Х18Н9ТЛ"
+   },
+   {
+    "company": "Петроснаб (petrosnab.net)",
+    "url": "https://petrosnab.net/catalogue/osteal/16s10nz/",
+    "price": 6900,
+    "vat": "не указано",
+    "type": "розница/опт",
+    "evidence": "C: © 2011-2026; таблица «16с10нж / 16нж10нж Ду50»"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/klapan-16nzh10nzh-du50-ru16",
+    "price": 16088,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026, «в наличии от 16 088 руб.»"
+   }
+  ],
+  "median_price": 20024.4,
+  "verdict": "завышена",
+  "rec_price": 20024,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru (Победа-30) в 2 раза выше рынка. Отклонение cur от медианы: +110%."
+ },
+ {
+  "table": "1.3",
+  "n": 24,
+  "name": "Клапан обратный 16нж10нж Ду 32 Ру16",
+  "qty": 5.0,
+  "cur_price": 30012.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/podemnyi/pobeda30/16nj10nj/dn32",
+    "price": 30012,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Победа-30 16нж10нж"
+   },
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_obratnye/16nzh10nzh/",
+    "price": 14737.6,
+    "vat": "пересчёт: 12080 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 16нж10нж Ду32 Ру16, 12Х18Н9ТЛ"
+   },
+   {
+    "company": "Петроснаб (petrosnab.net)",
+    "url": "https://petrosnab.net/catalogue/osteal/16s10nz/",
+    "price": 5500,
+    "vat": "не указано",
+    "type": "розница/опт",
+    "evidence": "C: © 2011-2026; таблица «16с10нж / 16нж10нж Ду32»"
+   }
+  ],
+  "median_price": 14737.6,
+  "verdict": "завышена",
+  "rec_price": 14738,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru (Победа-30) в 2 раза выше рынка. Отклонение cur от медианы: +104%."
+ },
+ {
+  "table": "1.3",
+  "n": 25,
+  "name": "Клапан обратный 16ч42р Ду 100 Ру 2,5",
+  "qty": 3.0,
+  "cur_price": 7205.32,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/priemnye/luidor/16ch42r/du100",
+    "price": 7205.32,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Луидор 16ч42р Ду100"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=16ч42р",
+    "price": 5192,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 16ч42р Ду100 Луидор с сеткой"
+   }
+  ],
+  "median_price": 6198.66,
+  "verdict": "завышена",
+  "rec_price": 6199,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Луидор)",
+  "note": "Отклонение cur от медианы: +16%."
+ },
+ {
+  "table": "1.3",
+  "n": 26,
+  "name": "Клапан обратный 19нж76нж Ду 100 Ру 16",
+  "qty": 2.0,
+  "cur_price": 180072.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/povorotnyi/pobeda30/19nj76nj/dn100",
+    "price": 180072,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Победа-30 19нж76нж Ду100 (JSON price 180072)"
+   },
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_obratnye/19nzh76nzh/",
+    "price": 55083.0,
+    "vat": "пересчёт: 45150 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 19нж76нж Ду100 Ру16, 12Х18Н9ТЛ"
+   },
+   {
+    "company": "DN-PN (dn-pn.ru)",
+    "url": "https://dn-pn.ru/product/zapornaya-armatura/klapan-obratnyy/klapan-19nzh76nzh-du100-ru16-obratnyy-povorotnyy-flantsevyy-nerzhaveyushchiy/",
+    "price": 26780,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "B: © 2026, «Розничная цена 26780 ₽, в наличии»"
+   }
+  ],
+  "median_price": 55083.0,
+  "verdict": "завышена",
+  "rec_price": 55083,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "cur (dn.ru Победа-30) завышен ×3,3; на той же странице dn.ru 16нж10нж Ду100 — 101 290 ₽, т. е. цены Победа-30 у dn.ru нерыночные. Отклонение cur от медианы: +227%."
+ },
+ {
+  "table": "1.3",
+  "n": 27,
+  "name": "Клапан обратный 19с76нж Ду 80 Ру 16",
+  "qty": 1.0,
+  "cur_price": 16748.16,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/povorotnyi/mzta/19s76nzh/dn80",
+    "price": 16748.16,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; МЗТА 19с76нж"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/klapan-19s53nzh-du150-ru40",
+    "price": 10257,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026; блок «похожие товары»: 19с76нж Ду80 Ру16"
+   }
+  ],
+  "median_price": 13502.58,
+  "verdict": "завышена",
+  "rec_price": 13503,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Отклонение cur от медианы: +24%."
+ },
+ {
+  "table": "1.3",
+  "n": 28,
+  "name": "Клапан обратный 19с76нж Ду 100 Ру 16",
+  "qty": 2.0,
+  "cur_price": 21720.27,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/povorotnyi/mzta/19s76nzh/dn100",
+    "price": 21720.27,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; МЗТА 19с76нж"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/klapan-19s53nzh-du150-ru40",
+    "price": 11193,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026; блок «похожие товары»: 19с76нж Ду100 Ру16"
+   },
+   {
+    "company": "Лемана ПРО",
+    "url": "https://belgorod.lemanapro.ru/product/klapan-obratnyy-povorotnyy-19s76nzh-du100-ru16-stalnoy-flancevyy-91539097/",
+    "price": 13411,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "по выдаче поиска: 13 411 ₽"
+   }
+  ],
+  "median_price": 13411,
+  "verdict": "завышена",
+  "rec_price": 13411,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Отклонение cur от медианы: +62%."
+ },
+ {
+  "table": "1.3",
+  "n": 29,
+  "name": "Клапан обратный 19с76нж Ду 50 Ру 16",
+  "qty": 2.0,
+  "cur_price": 12705.69,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/povorotnyi/mzta/19s76nzh/dn50",
+    "price": 12705.69,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; МЗТА 19с76нж"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/klapan-19s53nzh-du150-ru40",
+    "price": 7215,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026; блок «похожие товары»: 19с76нж Ду50 Ру16"
+   }
+  ],
+  "median_price": 9960.35,
+  "verdict": "завышена",
+  "rec_price": 9960,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Отклонение cur от медианы: +28%."
+ },
+ {
+  "table": "1.3",
+  "n": 30,
+  "name": "Клапан обратный межфланцевый пружинный тарельчатый NVD-802R Ду 125 Ру 16",
+  "qty": 2.0,
+  "cur_price": 71182.73,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/pruzhinnyi/ridan/nvd-802r/dn125",
+    "price": 71182.73,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Ридан NVD-802R"
+   },
+   {
+    "company": "Ридан (официальный сайт)",
+    "url": "https://ridan.ru/product/082X8526R",
+    "price": 58155.75,
+    "vat": "47668.65 без НДС ×1,22",
+    "type": "прайс производителя (РРЦ)",
+    "evidence": "C/A: ridan.ru © 2009-2026, «Цена без НДС», регулярные поставки"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=NVD",
+    "price": 41280,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; NVD-802R 082X8526R"
+   }
+  ],
+  "median_price": 58155.75,
+  "verdict": "завышена",
+  "rec_price": 58156,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "импорт (КНР, бренд Ридан РФ) — замена: рос. пружинный межфланцевый (АДЛ Гранлок CVS16 / «Гусар»)",
+  "note": "dn.ru = РРЦ Ридана +22%; дилер МСГ ниже РРЦ. Отклонение cur от медианы: +22%."
+ },
+ {
+  "table": "1.3",
+  "n": 31,
+  "name": "Клапан обратный межфланцевый пружинный тарельчатый NVD-802R Ду 150 Ру 16",
+  "qty": 10.0,
+  "cur_price": 97307.81,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/pruzhinnyi/ridan/nvd-802r/dn150",
+    "price": 97307.81,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Ридан NVD-802R"
+   },
+   {
+    "company": "Ридан (официальный сайт)",
+    "url": "https://ridan.ru/product/082X8527R",
+    "price": 79499.59,
+    "vat": "65163.6 без НДС ×1,22",
+    "type": "прайс производителя (РРЦ)",
+    "evidence": "C/A: ridan.ru © 2009-2026, «Цена без НДС», регулярные поставки"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=NVD",
+    "price": 56431,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; NVD-802R 082X8527R"
+   }
+  ],
+  "median_price": 79499.59,
+  "verdict": "завышена",
+  "rec_price": 79500,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "импорт (КНР, бренд Ридан РФ) — замена: рос. пружинный межфланцевый (АДЛ Гранлок CVS16 / «Гусар»)",
+  "note": "dn.ru = РРЦ Ридана +22%; дилер МСГ ниже РРЦ. Отклонение cur от медианы: +22%."
+ },
+ {
+  "table": "1.3",
+  "n": 35,
+  "name": "Обратный клапан пружинный NVD-812R Ду 150 Ру 40",
+  "qty": 1.0,
+  "cur_price": 195004.8,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/pruzhinnyi/ridan/nvd-812r/dn150",
+    "price": 195004.8,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Ридан NVD-812R"
+   },
+   {
+    "company": "Ридан (официальный сайт)",
+    "url": "https://ridan.ru/product/082X8540R",
+    "price": 233407.29,
+    "vat": "191 317,45 без НДС ×1,22",
+    "type": "прайс производителя (РРЦ)",
+    "evidence": "C/A: ridan.ru © 2009-2026, «Цена без НДС»"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=NVD",
+    "price": 165676,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; NVD-812R Ду150 Ру40 082X8540R"
+   }
+  ],
+  "median_price": 195004.8,
+  "verdict": "ok",
+  "rec_price": 195005,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "импорт (КНР, бренд Ридан РФ) — замена: рос. нерж. обратный Ру40",
+  "note": "Отклонение cur от медианы: +0%."
+ },
+ {
+  "table": "1.3",
+  "n": 39,
+  "name": "Кран для манометра трехходовой Ду 15 Ру 16",
+  "qty": 34.0,
+  "cur_price": 420.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 201,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 11б18бк с рукояткой без фланца, Пензапромарматура"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 211,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ВИПРА КПТ 3.04.00-01 с рукояткой"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 275,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 11б18бк(ф)1 с рукояткой с фланцем"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 352,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ВИПРА КПТ 3.05.00-01А с рукояткой с фланцем"
+   }
+  ],
+  "median_price": 243.0,
+  "verdict": "завышена",
+  "rec_price": 243,
+  "confidence": "med",
+  "spec_match": "аналог: 11б18бк латунь ВР G1/2–М20×1,5 с рукояткой",
+  "pp1875": "РФ",
+  "note": "Шаровой 3-ходовой 11б27п(м) в открытых прайсах не найден; цена по пробковым 11б18бк. Отклонение cur от медианы: +73%."
+ },
+ {
+  "table": "1.3",
+  "n": 40,
+  "name": "Клапан 22б16п (15б34бк1) запорный вакуумный сильфонный Ду6 Ру16",
+  "qty": 2.0,
+  "cur_price": 4500.0,
+  "sources": [
+   {
+    "company": "Техстекло (techsteklo.ru)",
+    "url": "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/klapanyi-vakuumnyie/",
+    "price": 4500,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "C: © 2026; 22б16п Ду6–15 «4000–5000 руб.» (по выдаче поиска, середина диапазона)"
+   }
+  ],
+  "median_price": 4500,
+  "verdict": "ok",
+  "rec_price": 4500,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Один источник, диапазон. Отклонение cur от медианы: +0%."
+ },
+ {
+  "table": "1.3",
+  "n": 41,
+  "name": "Клапан ВДХ Ду 80 Ру 10",
+  "qty": 2.0,
+  "cur_price": 26000.0,
+  "sources": [
+   {
+    "company": "Техстекло (techsteklo.ru)",
+    "url": "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/klapanyi-futer/vdx-ventil-1784.html",
+    "price": 19800,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "C: © 2026; таблица ВДХ Ду80 Ру10-16 19800 руб. вкл. НДС"
+   }
+  ],
+  "median_price": 19800,
+  "verdict": "завышена",
+  "rec_price": 19800,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Один источник; второй (ФланАрмГрупп) — только диапазон 6,5–118 тыс. Отклонение cur от медианы: +31%."
+ },
+ {
+  "table": "1.3",
+  "n": 42,
+  "name": "Клапан диафрагменный химический ВДХ Ду 150 Ру 16",
+  "qty": 1.0,
+  "cur_price": 70000.0,
+  "sources": [
+   {
+    "company": "Техстекло (techsteklo.ru)",
+    "url": "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/klapanyi-futer/vdx-ventil-1784.html",
+    "price": 90000,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "C: © 2026; таблица ВДХ Ду150 90000 руб. вкл. НДС"
+   },
+   {
+    "company": "Климат Сервис (kompensator1.ru)",
+    "url": "https://kompensator1.ru/catalog/promarmatura/klapany/klapan-ventil-zapornyy-stalnoy-membrannyy-futerovannyy-vdkh/ventil-klapan-vdkh-dn-150-pn16-en-vdkh-f-150-16-01-02-fep-fep-enisey/",
+    "price": 93000,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "B: © 2026, «В наличии», ВДХ DN150 PN16 FEP+FEP ENISEY"
+   },
+   {
+    "company": "Альфаопт (alfaopt.com)",
+    "url": "https://alfaopt.com/catalog/santekhnicheskaya_i_truboprovodnaya_armatura/zapornaya_armatura/klapana/ventil_diafragmovyy_khimicheskiy_vdkh_du150/",
+    "price": 96000,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "по выдаче поиска: 96 000 руб./шт, 22 шт."
+   }
+  ],
+  "median_price": 93000,
+  "verdict": "занижена",
+  "rec_price": 93000,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Отклонение cur от медианы: -25%."
+ },
+ {
+  "table": "1.3",
+  "n": 43,
+  "name": "Клапан диафрагменный химический ВДХ Ду 50, Ру 16",
+  "qty": 1.0,
+  "cur_price": 16000.0,
+  "sources": [
+   {
+    "company": "Техстекло (techsteklo.ru)",
+    "url": "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/klapanyi-futer/vdx-ventil-1784.html",
+    "price": 13400,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "C: © 2026; таблица ВДХ Ду50 13400 руб. вкл. НДС"
+   }
+  ],
+  "median_price": 13400,
+  "verdict": "завышена",
+  "rec_price": 13400,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Один источник. Отклонение cur от медианы: +19%."
+ },
+ {
+  "table": "1.3",
+  "n": 44,
+  "name": "Клапан диафрагменный химический ВДХ Ду 80 Ру 16",
+  "qty": 3.0,
+  "cur_price": 26000.0,
+  "sources": [
+   {
+    "company": "Техстекло (techsteklo.ru)",
+    "url": "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/klapanyi-futer/vdx-ventil-1784.html",
+    "price": 19800,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "C: © 2026; таблица ВДХ Ду80 Ру10-16 19800 руб. вкл. НДС"
+   }
+  ],
+  "median_price": 19800,
+  "verdict": "завышена",
+  "rec_price": 19800,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Один источник; второй (ФланАрмГрупп) — только диапазон 6,5–118 тыс. Отклонение cur от медианы: +31%."
+ },
+ {
+  "table": "1.3",
+  "n": 45,
+  "name": "Клапан запорный 14нж17п Ду 15 Ру 10 цапковый",
+  "qty": 2.0,
+  "cur_price": 3500.0,
+  "sources": [
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/14nzh17p/",
+    "price": 18117.0,
+    "vat": "пересчёт: 14850 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 14нж17п сильфонный цапковый Ду15 Ру10, 12Х18Н10Т"
+   }
+  ],
+  "median_price": 18117.0,
+  "verdict": "занижена",
+  "rec_price": 18117,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Сильфонный нерж. клапан — cur (3,5–8 тыс.) занижен в 4–5 раз; второй открытый прайс не найден (по выдаче поиска: 14нж17п Ду25 п/прив. ~16,5 тыс.). Отклонение cur от медианы: -81%."
+ },
+ {
+  "table": "1.3",
+  "n": 46,
+  "name": "Клапан запорный 14нж17п Ду 25 Ру 10 цапковый",
+  "qty": 2.0,
+  "cur_price": 5500.0,
+  "sources": [
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/14nzh17p/",
+    "price": 29084.8,
+    "vat": "пересчёт: 23840 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 14нж17п сильфонный цапковый Ду25 Ру10, 12Х18Н10Т"
+   }
+  ],
+  "median_price": 29084.8,
+  "verdict": "занижена",
+  "rec_price": 29085,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Сильфонный нерж. клапан — cur (3,5–8 тыс.) занижен в 4–5 раз; второй открытый прайс не найден (по выдаче поиска: 14нж17п Ду25 п/прив. ~16,5 тыс.). Отклонение cur от медианы: -81%."
+ },
+ {
+  "table": "1.3",
+  "n": 47,
+  "name": "Клапан запорный 14нж17п Ду 32 Ру 10 цапковый",
+  "qty": 1.0,
+  "cur_price": 8000.0,
+  "sources": [
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/14nzh17p/",
+    "price": 44896.0,
+    "vat": "пересчёт: 36800 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 14нж17п сильфонный цапковый Ду32 Ру10, 12Х18Н10Т"
+   }
+  ],
+  "median_price": 44896.0,
+  "verdict": "занижена",
+  "rec_price": 44896,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Сильфонный нерж. клапан — cur (3,5–8 тыс.) занижен в 4–5 раз; второй открытый прайс не найден (по выдаче поиска: 14нж17п Ду25 п/прив. ~16,5 тыс.). Отклонение cur от медианы: -82%."
+ },
+ {
+  "table": "1.3",
+  "n": 48,
+  "name": "Клапан запорный 15б1п Ду 15 Ру16",
+  "qty": 45.0,
+  "cur_price": 496.54,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1p/dn15",
+    "price": 496.54,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 378,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 437.27,
+  "verdict": "ok",
+  "rec_price": 437,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +14%."
+ },
+ {
+  "table": "1.3",
+  "n": 49,
+  "name": "Клапан запорный 15б1п Ду 20 Ру16",
+  "qty": 15.0,
+  "cur_price": 653.31,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1p/dn20",
+    "price": 653.31,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 475,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 564.15,
+  "verdict": "завышена",
+  "rec_price": 564,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +16%."
+ },
+ {
+  "table": "1.3",
+  "n": 50,
+  "name": "Клапан запорный 15б1п Ду 25 Ру16",
+  "qty": 10.0,
+  "cur_price": 923.54,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1n-vr-vr/dn25",
+    "price": 923.54,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 682,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 802.77,
+  "verdict": "завышена",
+  "rec_price": 803,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +15%."
+ },
+ {
+  "table": "1.3",
+  "n": 51,
+  "name": "Клапан запорный 15б1п Ду 32 Ру16",
+  "qty": 10.0,
+  "cur_price": 1027.85,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1p/dn32",
+    "price": 1027.85,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 723,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 875.42,
+  "verdict": "завышена",
+  "rec_price": 875,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +17%."
+ },
+ {
+  "table": "1.3",
+  "n": 52,
+  "name": "Клапан запорный 15б1п Ду 40 Ру16",
+  "qty": 5.0,
+  "cur_price": 1731.18,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1p/dn40",
+    "price": 1731.18,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 1336,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 1533.59,
+  "verdict": "ok",
+  "rec_price": 1534,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +13%."
+ },
+ {
+  "table": "1.3",
+  "n": 53,
+  "name": "Клапан запорный 15б1п Ду 50 Ру16",
+  "qty": 7.0,
+  "cur_price": 2197.83,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1n-nr-vr/dn50",
+    "price": 2197.83,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 1900,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 2048.91,
+  "verdict": "ok",
+  "rec_price": 2049,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +7%."
+ },
+ {
+  "table": "1.3",
+  "n": 54,
+  "name": "Клапан запорны 15нж65нж Ду 80 Ру 16 фланцевый",
+  "qty": 2.0,
+  "cur_price": 38136.59,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn80",
+    "price": 38136.59,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh/dn80",
+    "price": 21808.11,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 08Х18Н10"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 26876,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 30883,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду80 ру16"
+   }
+  ],
+  "median_price": 28879.5,
+  "verdict": "завышена",
+  "rec_price": 28880,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: +32%."
+ },
+ {
+  "table": "1.3",
+  "n": 55,
+  "name": "Клапан запорны 15нж65нж Ду 100 Ру 16 фланцевый",
+  "qty": 9.0,
+  "cur_price": 43344.16,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn100",
+    "price": 43344.16,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh/dn100",
+    "price": 27871.51,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 08Х18Н10"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 34019,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 39089,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду100 ру16"
+   }
+  ],
+  "median_price": 36554.0,
+  "verdict": "завышена",
+  "rec_price": 36554,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: +19%."
+ },
+ {
+  "table": "1.3",
+  "n": 56,
+  "name": "Клапан запорны 15нж65нж Ду 125 Ру 16 фланцевый",
+  "qty": 1.0,
+  "cur_price": 77477.93,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn125",
+    "price": 77477.93,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 54660,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 75467,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду125 ру16"
+   }
+  ],
+  "median_price": 75467,
+  "verdict": "ok",
+  "rec_price": 75467,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: +3%."
+ },
+ {
+  "table": "1.3",
+  "n": 57,
+  "name": "Клапан запорны 15нж65нж Ду 150 Ру 16 фланцевый",
+  "qty": 3.0,
+  "cur_price": 102852.71,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn150",
+    "price": 102852.71,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh/dn150",
+    "price": 53381.71,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 08Х18Н10"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 81744,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 98835,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду150 ру16"
+   }
+  ],
+  "median_price": 90289.5,
+  "verdict": "ok",
+  "rec_price": 90290,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: +14%."
+ },
+ {
+  "table": "1.3",
+  "n": 58,
+  "name": "Клапан запорны 15нж65нж Ду 32 Ру 16 фланцевый",
+  "qty": 4.0,
+  "cur_price": 11899.88,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn32",
+    "price": 11899.88,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh/dn32",
+    "price": 8512.55,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 08Х18Н10"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 12455,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 14311,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду32 ру16"
+   }
+  ],
+  "median_price": 12177.44,
+  "verdict": "ok",
+  "rec_price": 12177,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: -2%."
+ },
+ {
+  "table": "1.3",
+  "n": 59,
+  "name": "Клапан запорны 15нж65нж Ду 50 Ру 16 фланцевый",
+  "qty": 4.0,
+  "cur_price": 16371.18,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn50",
+    "price": 16371.18,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 16762,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 19260,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду50 ру16"
+   }
+  ],
+  "median_price": 16762,
+  "verdict": "ok",
+  "rec_price": 16762,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: -2%."
+ },
+ {
+  "table": "1.3",
+  "n": 60,
+  "name": "Клапан запорный 15с22нж Ду 32 Ру 40",
+  "qty": 2.0,
+  "cur_price": 7500.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 5420,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; «Клапан запорный сталь 15с22нж» (без бренда)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 4717,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с22нж ТехГидроМаш"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 5287,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15с22нж ду32 ру40"
+   }
+  ],
+  "median_price": 5287,
+  "verdict": "завышена",
+  "rec_price": 5287,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru «Россия» дороже рынка на 30–60%; СибЗТА/ТГМ дешевле. Отклонение cur от медианы: +42%."
+ },
+ {
+  "table": "1.3",
+  "n": 61,
+  "name": "Клапан запорный 15с22нж Ду 50 Ру 40",
+  "qty": 9.0,
+  "cur_price": 10529.82,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/russia/15s22nzh/dn50",
+    "price": 10529.82,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; «Россия» 15с22нж"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 7194,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; «Клапан запорный сталь 15с22нж» (без бренда)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 6869,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с22нж ТехГидроМаш"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 8503,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15с22нж ду50 ру40"
+   }
+  ],
+  "median_price": 7848.5,
+  "verdict": "завышена",
+  "rec_price": 7848,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru «Россия» дороже рынка на 30–60%; СибЗТА/ТГМ дешевле. Отклонение cur от медианы: +34%."
+ },
+ {
+  "table": "1.3",
+  "n": 62,
+  "name": "Клапан запорный 15с22нж Ду 80 Ру 40",
+  "qty": 6.0,
+  "cur_price": 19907.96,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/russia/15s22nzh/dn80",
+    "price": 19907.96,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; «Россия» 15с22нж"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 10684,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; «Клапан запорный сталь 15с22нж» (без бренда)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 12622,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с22нж ТехГидроМаш"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 16601,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15с22нж ду80 ру40"
+   }
+  ],
+  "median_price": 14611.5,
+  "verdict": "завышена",
+  "rec_price": 14612,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru «Россия» дороже рынка на 30–60%; СибЗТА/ТГМ дешевле. Отклонение cur от медианы: +36%."
+ },
+ {
+  "table": "1.3",
+  "n": 63,
+  "name": "Клапан запорный 15с52нж11 Ду 20 Ру 63 под приварку",
+  "qty": 6.0,
+  "cur_price": 8000.0,
+  "sources": [
+   {
+    "company": "Петроснаб (petrosnab.net)",
+    "url": "https://petrosnab.net/catalogue/steel_vaves/15s52nzh9/",
+    "price": 3700,
+    "vat": "не указано (принято с НДС)",
+    "type": "розница/опт",
+    "evidence": "C: © 2011-2026; таблица 15с52нж9/10/11 Ду20"
+   },
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/15s52nzh11/",
+    "price": 12212.2,
+    "vat": "пересчёт: 10010 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 15с52нж11 Ду20 Ру63 под приварку, 25Л"
+   }
+  ],
+  "median_price": 7956.1,
+  "verdict": "ok",
+  "rec_price": 7956,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Большой разброс (Петроснаб vs НХИ ×2–3); по выдаче поиска ещё 6,0–6,3 тыс. (АрмНефтеГаз, РосМаш-Тула) для Ду32. Отклонение cur от медианы: +1%."
+ },
+ {
+  "table": "1.3",
+  "n": 64,
+  "name": "Клапан запорный 15ч75п2 Ду 25 Ру10",
+  "qty": 3.0,
+  "cur_price": 4500.0,
+  "sources": [
+   {
+    "company": "Техстекло (techsteklo.ru)",
+    "url": "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/klapanyi-futer/15ch75p2-1418.html",
+    "price": 4000,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "C: © 2026; таблица «Цена, руб. вкл. НДС» 15ч75п2 Ду25"
+   }
+  ],
+  "median_price": 4000,
+  "verdict": "ok",
+  "rec_price": 4000,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Один источник. Отклонение cur от медианы: +12%."
+ },
+ {
+  "table": "1.3",
+  "n": 65,
+  "name": "Клапан запорный 15ч75п2 Ду 50 Ру10",
+  "qty": 9.0,
+  "cur_price": 8000.0,
+  "sources": [
+   {
+    "company": "Техстекло (techsteklo.ru)",
+    "url": "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/klapanyi-futer/15ch75p2-1418.html",
+    "price": 20000,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "C: © 2026; таблица 15ч75п2 Ду50 20000 руб. вкл. НДС"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/ventil-15ch75p-du50-ru10",
+    "price": 21600,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026, «от 21 600 руб.» (15ч75п Ду50 Ру10, по выдаче поиска)"
+   }
+  ],
+  "median_price": 20800.0,
+  "verdict": "занижена",
+  "rec_price": 20800,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "cur 8000 сильно занижен. Отклонение cur от медианы: -62%."
+ },
+ {
+  "table": "1.3",
+  "n": 66,
+  "name": "Клапан запорный 15ч76п2 Ду 80 Ру 6,3",
+  "qty": 3.0,
+  "cur_price": 12000.0,
+  "sources": [
+   {
+    "company": "Техстекло (techsteklo.ru)",
+    "url": "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/klapanyi-futer/15ch76p2-557.html",
+    "price": 22000,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "C: © 2026; 15ч76п2 Ду80 22000 руб. вкл. НДС"
+   },
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/ventil-15ch93em-du20-ru16",
+    "price": 30550,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026; «Вентиль 15ч76п2м Ду80 Ру6,3 от 30 550 руб.» (блок похожих товаров)"
+   },
+   {
+    "company": "НХИ (tdnhi.ru)",
+    "url": "https://tdnhi.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/i_klapan_zapornyj_membrannyj_~22/",
+    "price": 46433.2,
+    "vat": "38 060 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A (по выдаче поиска): цена актуальна на 01-10-2026, 15ч76п2м Ду80"
+   }
+  ],
+  "median_price": 30550,
+  "verdict": "занижена",
+  "rec_price": 30550,
+  "confidence": "med",
+  "spec_match": "аналог: 15ч76п2м (модерн.) у двух из трёх источников",
+  "pp1875": "РФ",
+  "note": "Отклонение cur от медианы: -61%."
+ },
+ {
+  "table": "1.3",
+  "n": 67,
+  "name": "Клапан запорный 15ч93эм Ду 20 Ру 16",
+  "qty": 2.0,
+  "cur_price": 6000.0,
+  "sources": [
+   {
+    "company": "В-Комплект (СПб)",
+    "url": "https://vkomplekt.spb.ru/item/ventil-15ch93em-du20-ru16",
+    "price": 1668,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: © 2016-2026; «Вентиль 15ч93эм Ду20 Ру16 от 1 668 руб.», 3–5 раб. дней (Ду25 — 3 970)"
+   }
+  ],
+  "median_price": 1668,
+  "verdict": "завышена",
+  "rec_price": 1668,
+  "confidence": "low",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "Один источник; cur ×3,6 к рынку. Отклонение cur от медианы: +260%."
+ },
+ {
+  "table": "1.3",
+  "n": 100,
+  "name": "Кран 11б27п(м) Ду 15 Ру 16 3-х ходовой для манометров",
+  "qty": 4.0,
+  "cur_price": 420.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 201,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 11б18бк с рукояткой без фланца, Пензапромарматура"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 211,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ВИПРА КПТ 3.04.00-01 с рукояткой"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 275,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 11б18бк(ф)1 с рукояткой с фланцем"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 352,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ВИПРА КПТ 3.05.00-01А с рукояткой с фланцем"
+   }
+  ],
+  "median_price": 243.0,
+  "verdict": "завышена",
+  "rec_price": 243,
+  "confidence": "low",
+  "spec_match": "аналог: трёхходовой пробковый кран 11б18бк (латунь, G1/2–М20×1,5) вместо 11б27п(м) шарового",
+  "pp1875": "РФ",
+  "note": "Шаровой 3-ходовой 11б27п(м) в открытых прайсах не найден; цена по пробковым 11б18бк. Отклонение cur от медианы: +73%."
+ },
+ {
+  "table": "1.3",
+  "n": 101,
+  "name": "Кран шаровой 11б27п1 Ду 15 Ру 16",
+  "qty": 110.0,
+  "cur_price": 302.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 301.95,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 294,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.15.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 297.98,
+  "verdict": "ok",
+  "rec_price": 298,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +1%."
+ },
+ {
+  "table": "1.3",
+  "n": 102,
+  "name": "Кран шаровой 11б27п1 Ду 20 Ру 16",
+  "qty": 57.0,
+  "cur_price": 402.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 401.99,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 456,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.20.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 429.0,
+  "verdict": "ok",
+  "rec_price": 429,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: -6%."
+ },
+ {
+  "table": "1.3",
+  "n": 103,
+  "name": "Кран шаровой 11б27п1 Ду 25 Ру 16",
+  "qty": 29.0,
+  "cur_price": 919.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 919.27,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 696,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.25.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 807.63,
+  "verdict": "ok",
+  "rec_price": 808,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +14%."
+ },
+ {
+  "table": "1.3",
+  "n": 104,
+  "name": "Кран шаровой 11б27п1 Ду 32 Ру 16",
+  "qty": 47.0,
+  "cur_price": 1495.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 1495.11,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 1422,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.32.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 1458.55,
+  "verdict": "ok",
+  "rec_price": 1459,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +2%."
+ },
+ {
+  "table": "1.3",
+  "n": 105,
+  "name": "Кран шаровой 11б27п1 Ду 50 Ру 16",
+  "qty": 24.0,
+  "cur_price": 3781.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 3780.78,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 2552,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.50.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 3166.39,
+  "verdict": "завышена",
+  "rec_price": 3166,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +19%."
+ },
+ {
+  "table": "1.3",
+  "n": 135,
+  "name": "Кран шаровой нержавеющий G1/2\" муфтовый, полнопроходной, Ду 15 Ру 63",
+  "qty": 19.0,
+  "cur_price": 2200.0,
+  "sources": [
+   {
+    "company": "Ватервальве (shop-watervalve.ru)",
+    "url": "https://shop-watervalve.ru/57376/",
+    "price": 812,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "B: карточка HKG25015 DN15 G1/2 полнопроходной PN63 AISI316, цена 812 (JSON)"
+   },
+   {
+    "company": "АрмТехКомплект (armtechcom.ru)",
+    "url": "https://armtechcom.ru/krany-sharovye-i-konusnye/krany-sharovye-nerzhaveyushchie-bv-adl/",
+    "price": 824,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "по выдаче поиска: BV15.04.015.63 DN15 PN63 ВР-ВР AISI316 824 р."
+   },
+   {
+    "company": "Метеко-СПб",
+    "url": "https://www.meteko-spb.ru/catalog/kran-sharovyy-polnoprokhodnoy-vr-vr-nerzhaveyushchiy/Kran-sharovyy-polnoprokhodnoy-vr-vr-292/",
+    "price": 930,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "по выдаче поиска: DN15 AISI316 ВР/ВР 930 р., в наличии"
+   }
+  ],
+  "median_price": 824,
+  "verdict": "завышена",
+  "rec_price": 824,
+  "confidence": "med",
+  "spec_match": "полное (AISI316, полнопроходной, PN63)",
+  "pp1875": "импорт (КНР) — замена: нерж. кран рос. пр-ва (напр., «Тесла», LD нерж.)",
+  "note": "cur 2200 завышен ~2,7×. Отклонение cur от медианы: +167%."
+ },
+ {
+  "table": "1.3",
+  "n": 146,
+  "name": "Кран шаровый химический КШХ Ду 50 Ру 16",
+  "qty": 2.0,
+  "cur_price": 45000.0,
+  "sources": [
+   {
+    "company": "Зенова (zenova.ru)",
+    "url": "https://zenova.ru/category/himicheskaja-zapornaja-armatura/model/kshh-80-16-1-pfa",
+    "price": 20652,
+    "vat": "с НДС",
+    "type": "розница производителя",
+    "evidence": "C: карточка серии КШХ PFA, «КШХ 50/16.1 PFA — 20 652 ₽»"
+   },
+   {
+    "company": "Краны шаровые (krany-sharovye.ru)",
+    "url": "https://krany-sharovye.ru/catalog/krany-sharovye-khimicheskie/kran-sharovoy-khimicheskiy-kshkh-du50-ru16-flantsevyy/",
+    "price": 18640,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "C: 2026 ©; КШХ ду50 ру16 фланцевый KS1594 от 18 640 руб."
+   }
+  ],
+  "median_price": 19646.0,
+  "verdict": "завышена",
+  "rec_price": 19646,
+  "confidence": "med",
+  "spec_match": "аналог: КШХ с футеровкой PFA/FEP (Zenova/без бренда) — проверить FEP и L=200 мм",
+  "pp1875": "импорт? (Zenova — пр-во КНР, бренд РФ) — замена: КШХ рос. пр-ва (ФланАрмГрупп/Энерпром)",
+  "note": "cur 45 000 завышен ~2,3×. Отклонение cur от медианы: +129%."
+ },
+ {
+  "table": "1.3",
+  "n": 147,
+  "name": "Кран шаровый химический КШХ Ду 80 Ру 16",
+  "qty": 4.0,
+  "cur_price": 70000.0,
+  "sources": [
+   {
+    "company": "Зенова (zenova.ru)",
+    "url": "https://zenova.ru/category/himicheskaja-zapornaja-armatura/model/kshh-80-16-1-pfa",
+    "price": 32448,
+    "vat": "с НДС",
+    "type": "розница производителя",
+    "evidence": "C: «КШХ 80/16.1 PFA — 32 448 ₽»"
+   },
+   {
+    "company": "Краны шаровые (krany-sharovye.ru)",
+    "url": "https://krany-sharovye.ru/catalog/krany-sharovye-khimicheskie/kran-sharovoy-khimicheskiy-kshkh-du80-ru16-flantsevyy/",
+    "price": 33400,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "C: 2026 ©; КШХ ду80 ру16 фланцевый KS1595 33 400 ₽"
+   },
+   {
+    "company": "Стокинг (stoking.ru)",
+    "url": "https://stoking.ru/products/kran-sharovyy-himicheskiy-zenova-kshh-80-16-1",
+    "price": 31511,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: Zenova КШХ 80/16.1 31 511 ₽"
+   }
+  ],
+  "median_price": 32448,
+  "verdict": "завышена",
+  "rec_price": 32448,
+  "confidence": "med",
+  "spec_match": "аналог: КШХ футерованный (Zenova) — проверить FEP, корпус 25Л, L=230",
+  "pp1875": "импорт? (Zenova — пр-во КНР) — замена: КШХ рос. пр-ва",
+  "note": "cur 70 000 завышен ~2,2×. Отклонение cur от медианы: +116%."
+ },
+ {
+  "table": "1.5",
+  "n": 1,
+  "name": "Клапан запорный 15кч18п Ду 25 Ру 16",
+  "qty": 11.0,
+  "cur_price": 550.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/chugun/shturval/kitai/15kch18p1/dn25",
+    "price": 395.89,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; 15кч18п Китай Ду25"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15кч18п",
+    "price": 444,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15кч18п Ду25 ВР"
+   }
+  ],
+  "median_price": 419.94,
+  "verdict": "завышена",
+  "rec_price": 420,
+  "confidence": "med",
+  "spec_match": "аналог: исполнение КНР (рос. 15кч18п в открытых прайсах не найден)",
+  "pp1875": "импорт (КНР) — замена: 15кч18п рос. пр-ва (Гусар/Цветлит-аналог 15б1п ЕАЭС)",
+  "note": "cur — оценка «рос. исполнения»; рынок 400–450 ₽. Отклонение cur от медианы: +31%."
+ },
+ {
+  "table": "1.5",
+  "n": 4,
+  "name": "Кран шаровой 11б27п1 Ду 15 Ру 16",
+  "qty": 28.0,
+  "cur_price": 302.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 301.95,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 294,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.15.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 297.98,
+  "verdict": "ok",
+  "rec_price": 298,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +1%."
+ },
+ {
+  "table": "1.5",
+  "n": 5,
+  "name": "Кран шаровой 11б27п1 Ду 20 Ру 16",
+  "qty": 16.0,
+  "cur_price": 402.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 401.99,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 456,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.20.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 429.0,
+  "verdict": "ok",
+  "rec_price": 429,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: -6%."
+ },
+ {
+  "table": "1.5",
+  "n": 6,
+  "name": "Кран шаровой 11б27п1 Ду 25 Ру 16",
+  "qty": 16.0,
+  "cur_price": 919.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 919.27,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 696,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.25.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 807.63,
+  "verdict": "ok",
+  "rec_price": 808,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +14%."
+ },
+ {
+  "table": "1.5",
+  "n": 7,
+  "name": "Кран шаровой 11б27п1 Ду 32 Ру 16",
+  "qty": 6.0,
+  "cur_price": 1495.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 1495.11,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 1422,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.32.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 1458.55,
+  "verdict": "ok",
+  "rec_price": 1459,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +2%."
+ },
+ {
+  "table": "1.5",
+  "n": 8,
+  "name": "Кран шаровой 11б27п1 Ду 50 Ру 16",
+  "qty": 6.0,
+  "cur_price": 3781.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 3780.78,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 2552,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.50.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 3166.39,
+  "verdict": "завышена",
+  "rec_price": 3166,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +19%."
+ },
+ {
+  "table": "1.6",
+  "n": 4,
+  "name": "Клапан обратный межфланцевый 19ч21бр Ду 100 Ру 16",
+  "qty": 1.0,
+  "cur_price": 4596.35,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/odnostvorchatyi/megastroy/19ch21br/dn100",
+    "price": 4596.35,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Мегастрой 19ч21бр"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=19ч21бр",
+    "price": 3017,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 19ч21бр Мегастрой исп. Г"
+   }
+  ],
+  "median_price": 3806.68,
+  "verdict": "завышена",
+  "rec_price": 3807,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Мегастрой)",
+  "note": "МСГ на тот же бренд на 30–35% дешевле. Отклонение cur от медианы: +21%."
+ },
+ {
+  "table": "1.6",
+  "n": 5,
+  "name": "Клапан обратный межфланцевый 19ч21бр Ду 50 Ру 16",
+  "qty": 1.0,
+  "cur_price": 2280.79,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/odnostvorchatyi/megastroy/19ch21br/dn50",
+    "price": 2280.79,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Мегастрой 19ч21бр"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=19ч21бр",
+    "price": 1540,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 19ч21бр Мегастрой исп. Г"
+   }
+  ],
+  "median_price": 1910.39,
+  "verdict": "завышена",
+  "rec_price": 1910,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Мегастрой)",
+  "note": "МСГ на тот же бренд на 30–35% дешевле. Отклонение cur от медианы: +19%."
+ },
+ {
+  "table": "1.6",
+  "n": 6,
+  "name": "Клапан обратный межфланцевый 19ч21бр Ду 80 Ру 16",
+  "qty": 2.0,
+  "cur_price": 3351.34,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/odnostvorchatyi/megastroy/19ch21br/dn80",
+    "price": 3351.34,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Мегастрой 19ч21бр"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=19ч21бр",
+    "price": 2316,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 19ч21бр Мегастрой исп. Г"
+   }
+  ],
+  "median_price": 2833.67,
+  "verdict": "завышена",
+  "rec_price": 2834,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Мегастрой)",
+  "note": "МСГ на тот же бренд на 30–35% дешевле. Отклонение cur от медианы: +18%."
+ },
+ {
+  "table": "1.6",
+  "n": 7,
+  "name": "Клапан обратный двухстворчатый DENDOR 010C Ду 100 Ру 16 межфланцевый",
+  "qty": 1.0,
+  "cur_price": 10936.08,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/dvukhstvorchatyi/granlok/cv16/dn100",
+    "price": 10936.08,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; АДЛ Гранлок CV16"
+   },
+   {
+    "company": "АДЛ (оф. прайс-лист)",
+    "url": "https://www.adl.ru/ (прайс-лист XLSX «Трубопроводная арматура общепромышленного применения»)",
+    "price": 7115.43,
+    "vat": "59.7 у.е. без НДС ×(ЕЦБ 93,04+5%) ×1,22",
+    "type": "прайс производителя",
+    "evidence": "A: XLSX изменён 12.10.2026; СV16-100, складская позиция"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 7236,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Клапан обратный двухстворчатый ду100 ру16 створки нерж"
+   }
+  ],
+  "median_price": 7236,
+  "verdict": "завышена",
+  "rec_price": 7236,
+  "confidence": "high",
+  "spec_match": "аналог: АДЛ Гранлок CV16 (двухстворчатый межфланцевый, чугун, диск нерж.) вместо DENDOR 010C — равноценен",
+  "pp1875": "РФ (АДЛ)",
+  "note": "Отклонение cur от медианы: +51%."
+ },
+ {
+  "table": "1.6",
+  "n": 8,
+  "name": "Клапан обратный двухстворчатый DENDOR 010C Ду 150 Ру 16 межфланцевый",
+  "qty": 1.0,
+  "cur_price": 12109.11,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/dvukhstvorchatyi/granlok/cv16/dn150",
+    "price": 12109.11,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; АДЛ Гранлок CV16"
+   },
+   {
+    "company": "АДЛ (оф. прайс-лист)",
+    "url": "https://www.adl.ru/ (прайс-лист XLSX «Трубопроводная арматура общепромышленного применения»)",
+    "price": 12901.93,
+    "vat": "108.25 у.е. без НДС ×(ЕЦБ 93,04+5%) ×1,22",
+    "type": "прайс производителя",
+    "evidence": "A: XLSX изменён 12.10.2026; СV16-150, складская позиция"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 11620,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Клапан обратный двухстворчатый ду150 ру16 створки нерж"
+   }
+  ],
+  "median_price": 12109.11,
+  "verdict": "ok",
+  "rec_price": 12109,
+  "confidence": "high",
+  "spec_match": "аналог: АДЛ Гранлок CV16 (двухстворчатый межфланцевый, чугун, диск нерж.) вместо DENDOR 010C — равноценен",
+  "pp1875": "РФ (АДЛ)",
+  "note": "Отклонение cur от медианы: +0%."
+ },
+ {
+  "table": "1.6",
+  "n": 9,
+  "name": "Клапан обратный двухстворчатый DENDOR 010C Ду 200 Ру 16 межфланцевый",
+  "qty": 1.0,
+  "cur_price": 29968.69,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-obratnyi/mezhflantcevyi/dvukhstvorchatyi/granlok/cv16/dn200",
+    "price": 29968.69,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; АДЛ Гранлок CV16"
+   },
+   {
+    "company": "АДЛ (оф. прайс-лист)",
+    "url": "https://www.adl.ru/ (прайс-лист XLSX «Трубопроводная арматура общепромышленного применения»)",
+    "price": 21634.72,
+    "vat": "181.52 у.е. без НДС ×(ЕЦБ 93,04+5%) ×1,22",
+    "type": "прайс производителя",
+    "evidence": "A: XLSX изменён 12.10.2026; СV16-200, складская позиция"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 18242,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Клапан обратный двухстворчатый ду200 ру16 створки нерж"
+   }
+  ],
+  "median_price": 21634.72,
+  "verdict": "завышена",
+  "rec_price": 21635,
+  "confidence": "high",
+  "spec_match": "аналог: АДЛ Гранлок CV16 (двухстворчатый межфланцевый, чугун, диск нерж.) вместо DENDOR 010C — равноценен",
+  "pp1875": "РФ (АДЛ)",
+  "note": "Отклонение cur от медианы: +39%."
+ },
+ {
+  "table": "1.6",
+  "n": 15,
+  "name": "Клапан 15с18нж Ду 32, Ру 25",
+  "qty": 1.0,
+  "cur_price": 8500.0,
+  "sources": [
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/15s18nzh/",
+    "price": 9003.6,
+    "vat": "пересчёт: 7380 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 15с18нж Ду32 Ру25 корпус 25Л"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 5287,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», аналог 15с22нж ду32 ру40"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 4717,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; аналог 15с22нж Ду32 ТГМ"
+   }
+  ],
+  "median_price": 5287,
+  "verdict": "завышена",
+  "rec_price": 5287,
+  "confidence": "med",
+  "spec_match": "полное (по НХИ) / аналог 15с22нж Ру40 перекрывает Ру25",
+  "pp1875": "РФ",
+  "note": "Точная марка только у НХИ (9,0 тыс. с НДС); 15с22нж Ру40 дешевле — допустимость аналога сверить с ТЗ. Отклонение cur от медианы: +61%."
+ },
+ {
+  "table": "1.6",
+  "n": 16,
+  "name": "Кран для манометра трехходовой Ду 15 Ру 16",
+  "qty": 2.0,
+  "cur_price": 420.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 201,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 11б18бк с рукояткой без фланца, Пензапромарматура"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 211,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ВИПРА КПТ 3.04.00-01 с рукояткой"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 275,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 11б18бк(ф)1 с рукояткой с фланцем"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 352,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ВИПРА КПТ 3.05.00-01А с рукояткой с фланцем"
+   }
+  ],
+  "median_price": 243.0,
+  "verdict": "завышена",
+  "rec_price": 243,
+  "confidence": "med",
+  "spec_match": "аналог: 11б18бк латунь ВР G1/2–М20×1,5 с рукояткой",
+  "pp1875": "РФ",
+  "note": "Шаровой 3-ходовой 11б27п(м) в открытых прайсах не найден; цена по пробковым 11б18бк. Отклонение cur от медианы: +73%."
+ },
+ {
+  "table": "1.6",
+  "n": 17,
+  "name": "Клапан запорный муфтовый 15б1п Ду 15 Ру 16",
+  "qty": 8.0,
+  "cur_price": 496.54,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1p/dn15",
+    "price": 496.54,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 378,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 437.27,
+  "verdict": "ok",
+  "rec_price": 437,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +14%."
+ },
+ {
+  "table": "1.6",
+  "n": 18,
+  "name": "Клапан запорный муфтовый 15б1п Ду 20 Ру 16",
+  "qty": 14.0,
+  "cur_price": 653.31,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1p/dn20",
+    "price": 653.31,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 475,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 564.15,
+  "verdict": "завышена",
+  "rec_price": 564,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +16%."
+ },
+ {
+  "table": "1.6",
+  "n": 19,
+  "name": "Клапан запорный муфтовый 15б1п Ду 25 Ру 16",
+  "qty": 12.0,
+  "cur_price": 923.54,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/latun/shturval/tsvetlit/15b1n-vr-vr/dn25",
+    "price": 923.54,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Цветлит 15б1п"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15б1п",
+    "price": 682,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15б1п Цветлит ВР"
+   }
+  ],
+  "median_price": 802.77,
+  "verdict": "завышена",
+  "rec_price": 803,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "ЕАЭС (Беларусь, Цветлит)",
+  "note": "Два источника, оба Цветлит. Отклонение cur от медианы: +15%."
+ },
+ {
+  "table": "1.6",
+  "n": 20,
+  "name": "Клапан запорный 15кч12пМ Ду 25 Ру 25",
+  "qty": 1.0,
+  "cur_price": 6000.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15кч16п",
+    "price": 4587,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ориентир — 15кч16п Ду32 Ру25 Луидор (15кч12пМ не найден)"
+   }
+  ],
+  "median_price": 4587,
+  "verdict": "нет данных",
+  "rec_price": 6000,
+  "confidence": "low",
+  "spec_match": "аналог: прямых цен 15кч12пМ Ду25 нет",
+  "pp1875": "РФ",
+  "note": "15кч12пМ (ковкий чугун) в открытых прайсах 2026 не найден."
+ },
+ {
+  "table": "1.6",
+  "n": 21,
+  "name": "Клапан запорный 15кч16п1 Ду 32 Ру 25",
+  "qty": 7.0,
+  "cur_price": 5996.91,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/chugun/shturval/luidor/15kch16p1/dn32",
+    "price": 5996.91,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Луидор 15кч16п1"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15кч16п",
+    "price": 4587,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15кч16п Луидор"
+   }
+  ],
+  "median_price": 5291.95,
+  "verdict": "ok",
+  "rec_price": 5292,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Луидор)",
+  "note": "Отклонение cur от медианы: +13%."
+ },
+ {
+  "table": "1.6",
+  "n": 22,
+  "name": "Клапан запорный 15кч16п1 Ду 40 Ру 25",
+  "qty": 4.0,
+  "cur_price": 6700.85,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/chugun/shturval/luidor/15kch16p1/dn40",
+    "price": 6700.85,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Луидор 15кч16п1"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15кч16п",
+    "price": 5875,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15кч16п Луидор"
+   }
+  ],
+  "median_price": 6287.93,
+  "verdict": "ok",
+  "rec_price": 6288,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Луидор)",
+  "note": "Отклонение cur от медианы: +7%."
+ },
+ {
+  "table": "1.6",
+  "n": 23,
+  "name": "Клапан запорный 15кч16п1 Ду 50 Ру 25",
+  "qty": 5.0,
+  "cur_price": 8464.97,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/chugun/shturval/luidor/15kch16p1/dn50",
+    "price": 8464.97,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; Луидор 15кч16п1"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15кч16п",
+    "price": 6478,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15кч16п Луидор"
+   }
+  ],
+  "median_price": 7471.48,
+  "verdict": "ok",
+  "rec_price": 7471,
+  "confidence": "med",
+  "spec_match": "полное",
+  "pp1875": "РФ (Луидор)",
+  "note": "Отклонение cur от медианы: +13%."
+ },
+ {
+  "table": "1.6",
+  "n": 24,
+  "name": "Клапан запорный 15кч19п Ду 25 Ру 16",
+  "qty": 2.0,
+  "cur_price": 1190.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/chugun/shturval/kitai/15kch19p1/dn25",
+    "price": 847.9,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; 15кч19п1 Китай"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15кч19п",
+    "price": 849,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15кч19п фл"
+   }
+  ],
+  "median_price": 848.45,
+  "verdict": "завышена",
+  "rec_price": 848,
+  "confidence": "med",
+  "spec_match": "аналог: исполнение КНР",
+  "pp1875": "импорт (КНР) — замена: 15кч19п рос. пр-ва / 15с65нж ТГМ",
+  "note": "cur — оценка рос. исполнения; найденные цены — КНР. Отклонение cur от медианы: +40%."
+ },
+ {
+  "table": "1.6",
+  "n": 25,
+  "name": "Клапан запорный 15кч19п Ду 50 Ру 16",
+  "qty": 5.0,
+  "cur_price": 2810.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/chugun/shturval/kitai/15kch19p1/dn50",
+    "price": 2004.46,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; 15кч19п1 Китай"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15кч19п",
+    "price": 2207,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15кч19п фл"
+   }
+  ],
+  "median_price": 2105.73,
+  "verdict": "завышена",
+  "rec_price": 2106,
+  "confidence": "med",
+  "spec_match": "аналог: исполнение КНР",
+  "pp1875": "импорт (КНР) — замена: 15кч19п рос. пр-ва / 15с65нж ТГМ",
+  "note": "cur — оценка рос. исполнения; найденные цены — КНР. Отклонение cur от медианы: +33%."
+ },
+ {
+  "table": "1.6",
+  "n": 26,
+  "name": "Клапан запорный 15нж65нж Ду 80 Ру 16",
+  "qty": 1.0,
+  "cur_price": 21808.11,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn80",
+    "price": 38136.59,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh/dn80",
+    "price": 21808.11,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 08Х18Н10"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 26876,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 30883,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду80 ру16"
+   }
+  ],
+  "median_price": 28879.5,
+  "verdict": "занижена",
+  "rec_price": 28880,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: -24%."
+ },
+ {
+  "table": "1.6",
+  "n": 27,
+  "name": "Клапан запорный 15нж65нж Ду 100 Ру 16",
+  "qty": 1.0,
+  "cur_price": 27871.51,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn100",
+    "price": 43344.16,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh/dn100",
+    "price": 27871.51,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 08Х18Н10"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 34019,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 39089,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду100 ру16"
+   }
+  ],
+  "median_price": 36554.0,
+  "verdict": "занижена",
+  "rec_price": 36554,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: -24%."
+ },
+ {
+  "table": "1.6",
+  "n": 28,
+  "name": "Клапан запорный 15нж65нж Ду 32 Ру 16",
+  "qty": 1.0,
+  "cur_price": 8512.55,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh-12h18n9tl/dn32",
+    "price": 11899.88,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 12Х18Н9ТЛ"
+   },
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15nzh65nzh/dn32",
+    "price": 8512.55,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТехГидроМаш 15нж65нж корпус 08Х18Н10"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15нж65нж",
+    "price": 12455,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: металлсантехгрупп (ООО «Акварель») © 2026, поиск по каталогу 21.10.2026"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 14311,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15нж65нж ду32 ру16"
+   }
+  ],
+  "median_price": 12177.44,
+  "verdict": "занижена",
+  "rec_price": 12177,
+  "confidence": "high",
+  "spec_match": "аналог: корпус 12Х18Н9ТЛ/08Х18Н10 вместо 12Х18Н10Т (по ТЗ — 12Х18Н10Т; у СибЗТА — 12Х18Н10Т)",
+  "pp1875": "РФ",
+  "note": "Медиана по 3–4 предложениям (ТГМ 2 исполнения, МСГ, СибЗТА). Отклонение cur от медианы: -30%."
+ },
+ {
+  "table": "1.6",
+  "n": 29,
+  "name": "Клапан стальной запорный фланцевый 15с18нж Ду 32 Ру 16",
+  "qty": 2.0,
+  "cur_price": 7500.0,
+  "sources": [
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/15s18nzh/",
+    "price": 9003.6,
+    "vat": "пересчёт: 7380 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 15с18нж Ду32 Ру25 корпус 25Л"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 5287,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», аналог 15с22нж ду32 ру40"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 4717,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; аналог 15с22нж Ду32 ТГМ"
+   }
+  ],
+  "median_price": 5287,
+  "verdict": "завышена",
+  "rec_price": 5287,
+  "confidence": "med",
+  "spec_match": "полное (по НХИ) / аналог 15с22нж Ру40 перекрывает Ру25",
+  "pp1875": "РФ",
+  "note": "Точная марка только у НХИ (9,0 тыс. с НДС); 15с22нж Ру40 дешевле — допустимость аналога сверить с ТЗ. Отклонение cur от медианы: +42%."
+ },
+ {
+  "table": "1.6",
+  "n": 30,
+  "name": "Клапан запорный 15с18п Ду 80 Ру 25",
+  "qty": 1.0,
+  "cur_price": 19907.96,
+  "sources": [
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/15s18p/",
+    "price": 22106.4,
+    "vat": "пересчёт: 18120 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 15с18п Ду80 Ру25 корпус 25Л"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 16601,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», аналог 15с22нж ду80 ру40"
+   },
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/russia/15s22nzh/dn80",
+    "price": 19907.96,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; аналог «Россия» 15с22нж Ду80 Ру40"
+   }
+  ],
+  "median_price": 19907.96,
+  "verdict": "ok",
+  "rec_price": 19908,
+  "confidence": "med",
+  "spec_match": "полное (НХИ 15с18п) / аналог 15с22нж",
+  "pp1875": "РФ",
+  "note": "Аммиачное исполнение 15с18п — предпочтительно точная марка (НХИ). Отклонение cur от медианы: +0%."
+ },
+ {
+  "table": "1.6",
+  "n": 31,
+  "name": "Клапан запорный 15с18п Ду 100 Ру 25",
+  "qty": 1.0,
+  "cur_price": 25000.0,
+  "sources": [
+   {
+    "company": "НХИ / НефтеХимИнжиниринг (оф. дилер)",
+    "url": "https://nhi-group.ru/catalog/truboprovodnaya_armatura/klapany_zapornye/15s18p/",
+    "price": 27084.0,
+    "vat": "пересчёт: 22200 без НДС ×1,22",
+    "type": "опт дилер",
+    "evidence": "A: «Цена актуальная на 21-10-2026, без учёта НДС», 15с18п Ду100 Ру25 корпус 25Л"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 23129,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», аналог 15с22нж ду100 ру40"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 20957,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; аналог 15с22нж Ду100 Ру40"
+   }
+  ],
+  "median_price": 23129,
+  "verdict": "ok",
+  "rec_price": 23129,
+  "confidence": "med",
+  "spec_match": "полное (НХИ 15с18п) / аналог 15с22нж",
+  "pp1875": "РФ",
+  "note": "Аммиачное исполнение 15с18п — предпочтительно точная марка (НХИ). Отклонение cur от медианы: +8%."
+ },
+ {
+  "table": "1.6",
+  "n": 32,
+  "name": "Клапан запорный 15с22нж Ду 25 Ру 40",
+  "qty": 1.0,
+  "cur_price": 5500.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 4312,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; «Клапан запорный сталь 15с22нж» (без бренда)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 3398,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с22нж ТехГидроМаш"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 4492,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15с22нж ду25 ру40"
+   }
+  ],
+  "median_price": 4312,
+  "verdict": "завышена",
+  "rec_price": 4312,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru «Россия» дороже рынка на 30–60%; СибЗТА/ТГМ дешевле. Отклонение cur от медианы: +28%."
+ },
+ {
+  "table": "1.6",
+  "n": 33,
+  "name": "Клапан запорный 15с22нж Ду 32 Ру 40",
+  "qty": 5.0,
+  "cur_price": 7500.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 5420,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; «Клапан запорный сталь 15с22нж» (без бренда)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 4717,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с22нж ТехГидроМаш"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 5287,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15с22нж ду32 ру40"
+   }
+  ],
+  "median_price": 5287,
+  "verdict": "завышена",
+  "rec_price": 5287,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru «Россия» дороже рынка на 30–60%; СибЗТА/ТГМ дешевле. Отклонение cur от медианы: +42%."
+ },
+ {
+  "table": "1.6",
+  "n": 34,
+  "name": "Клапан запорный 15с22нж Ду 40 Ру 40",
+  "qty": 2.0,
+  "cur_price": 9180.5,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/russia/15s22nzh/dn40",
+    "price": 9180.5,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; «Россия» 15с22нж"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 6695,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; «Клапан запорный сталь 15с22нж» (без бренда)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 5916,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с22нж ТехГидроМаш"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 6929,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15с22нж ду40 ру40"
+   }
+  ],
+  "median_price": 6812.0,
+  "verdict": "завышена",
+  "rec_price": 6812,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru «Россия» дороже рынка на 30–60%; СибЗТА/ТГМ дешевле. Отклонение cur от медианы: +35%."
+ },
+ {
+  "table": "1.6",
+  "n": 35,
+  "name": "Клапан запорный 15с22нж Ду 50 Ру 40",
+  "qty": 4.0,
+  "cur_price": 10529.82,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/russia/15s22nzh/dn50",
+    "price": 10529.82,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; «Россия» 15с22нж"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 7194,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; «Клапан запорный сталь 15с22нж» (без бренда)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 6869,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с22нж ТехГидроМаш"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 8503,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15с22нж ду50 ру40"
+   }
+  ],
+  "median_price": 7848.5,
+  "verdict": "завышена",
+  "rec_price": 7848,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru «Россия» дороже рынка на 30–60%; СибЗТА/ТГМ дешевле. Отклонение cur от медианы: +34%."
+ },
+ {
+  "table": "1.6",
+  "n": 36,
+  "name": "Клапан запорный 15с22нж Ду 80 Ру 40",
+  "qty": 2.0,
+  "cur_price": 19907.96,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/russia/15s22nzh/dn80",
+    "price": 19907.96,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; «Россия» 15с22нж"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 10684,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; «Клапан запорный сталь 15с22нж» (без бренда)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с22нж",
+    "price": 12622,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с22нж ТехГидроМаш"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 16601,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль запорный 15с22нж ду80 ру40"
+   }
+  ],
+  "median_price": 14611.5,
+  "verdict": "завышена",
+  "rec_price": 14612,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "РФ",
+  "note": "dn.ru «Россия» дороже рынка на 30–60%; СибЗТА/ТГМ дешевле. Отклонение cur от медианы: +36%."
+ },
+ {
+  "table": "1.6",
+  "n": 37,
+  "name": "Клапан запорный 15с65нж Ду 100 Ру 16 с КОФ",
+  "qty": 1.0,
+  "cur_price": 16328.91,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15s65nzh/dn100",
+    "price": 12828.91,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТГМ 15с65нж (без КОФ)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с65нж",
+    "price": 14614,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с65нж ТехГидроМаш"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с65нж",
+    "price": 16073,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с65нж без бренда"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 18949,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль 15с65нж ду100 ру16"
+   }
+  ],
+  "median_price": 15343.5,
+  "verdict": "ok",
+  "rec_price": 18844,
+  "confidence": "med",
+  "spec_match": "полное + КОФ (ответные фланцы+прокладки+крепёж, оценка +3500 ₽)",
+  "pp1875": "РФ",
+  "note": "Цены источников — без КОФ; медиана клапана 15344 + КОФ 3500 ₽. dn.ru (ТГМ) — самый дешёвый, по нему можно закупать. Отклонение cur от медианы (+КОФ): -13%."
+ },
+ {
+  "table": "1.6",
+  "n": 38,
+  "name": "Клапан запорный 15с65нж Ду 25 Ру 16 с КОФ",
+  "qty": 1.0,
+  "cur_price": 3362.61,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15s65nzh/dn25",
+    "price": 2562.61,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТГМ 15с65нж (без КОФ)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с65нж",
+    "price": 3533,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с65нж ТехГидроМаш"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с65нж",
+    "price": 3524,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с65нж без бренда"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 3948,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль 15с65нж ду25 ру16"
+   }
+  ],
+  "median_price": 3528.5,
+  "verdict": "занижена",
+  "rec_price": 4328,
+  "confidence": "med",
+  "spec_match": "полное + КОФ (ответные фланцы+прокладки+крепёж, оценка +800 ₽)",
+  "pp1875": "РФ",
+  "note": "Цены источников — без КОФ; медиана клапана 3528 + КОФ 800 ₽. dn.ru (ТГМ) — самый дешёвый, по нему можно закупать. Отклонение cur от медианы (+КОФ): -22%."
+ },
+ {
+  "table": "1.6",
+  "n": 39,
+  "name": "Клапан запорный 15с65нж Ду 40 Ру 16 с КОФ",
+  "qty": 1.0,
+  "cur_price": 5349.83,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15s65nzh/dn40",
+    "price": 4149.83,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТГМ 15с65нж (без КОФ)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с65нж",
+    "price": 5316,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с65нж ТехГидроМаш"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с65нж",
+    "price": 5312,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с65нж без бренда"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 6117,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль 15с65нж ду40 ру16"
+   }
+  ],
+  "median_price": 5314.0,
+  "verdict": "занижена",
+  "rec_price": 6514,
+  "confidence": "med",
+  "spec_match": "полное + КОФ (ответные фланцы+прокладки+крепёж, оценка +1200 ₽)",
+  "pp1875": "РФ",
+  "note": "Цены источников — без КОФ; медиана клапана 5314 + КОФ 1200 ₽. dn.ru (ТГМ) — самый дешёвый, по нему можно закупать. Отклонение cur от медианы (+КОФ): -18%."
+ },
+ {
+  "table": "1.6",
+  "n": 40,
+  "name": "Клапан запорный 15с65нж Ду 50 Ру 16 с КОФ",
+  "qty": 2.0,
+  "cur_price": 6662.43,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/klapan/klapan-zapornyi/2hod/stalnoi/shturval/tekhgidromash/15s65nzh/dn50",
+    "price": 5162.43,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; ТГМ 15с65нж (без КОФ)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с65нж",
+    "price": 6697,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с65нж ТехГидроМаш"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=15с65нж",
+    "price": 6565,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 15с65нж без бренда"
+   },
+   {
+    "company": "СибЗТА (завод)",
+    "url": "https://sibzta.ru/price/",
+    "price": 7400,
+    "vat": "с НДС (розничный прайс)",
+    "type": "прайс завода",
+    "evidence": "A: «Прайс лист от 12.01.2026 (розничная цена)», Вентиль 15с65нж ду50 ру16"
+   }
+  ],
+  "median_price": 6631.0,
+  "verdict": "занижена",
+  "rec_price": 8131,
+  "confidence": "med",
+  "spec_match": "полное + КОФ (ответные фланцы+прокладки+крепёж, оценка +1500 ₽)",
+  "pp1875": "РФ",
+  "note": "Цены источников — без КОФ; медиана клапана 6631 + КОФ 1500 ₽. dn.ru (ТГМ) — самый дешёвый, по нему можно закупать. Отклонение cur от медианы (+КОФ): -18%."
+ },
+ {
+  "table": "1.6",
+  "n": 50,
+  "name": "Кран шаровой 11б27п(м) Ду 015 Ру16 3-х ходовой для манометров",
+  "qty": 132.0,
+  "cur_price": 420.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 201,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 11б18бк с рукояткой без фланца, Пензапромарматура"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 211,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ВИПРА КПТ 3.04.00-01 с рукояткой"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 275,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; 11б18бк(ф)1 с рукояткой с фланцем"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=11б18бк",
+    "price": 352,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; ВИПРА КПТ 3.05.00-01А с рукояткой с фланцем"
+   }
+  ],
+  "median_price": 243.0,
+  "verdict": "завышена",
+  "rec_price": 243,
+  "confidence": "low",
+  "spec_match": "аналог: трёхходовой пробковый кран 11б18бк (латунь, G1/2–М20×1,5) вместо 11б27п(м) шарового",
+  "pp1875": "РФ",
+  "note": "Шаровой 3-ходовой 11б27п(м) в открытых прайсах не найден; цена по пробковым 11б18бк. Отклонение cur от медианы: +73%."
+ },
+ {
+  "table": "1.6",
+  "n": 51,
+  "name": "Кран шаровой 11б27п1 Ду 15 Ру 16",
+  "qty": 47.0,
+  "cur_price": 302.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 301.95,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 294,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.15.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 297.98,
+  "verdict": "ok",
+  "rec_price": 298,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +1%."
+ },
+ {
+  "table": "1.6",
+  "n": 52,
+  "name": "Кран шаровой 11б27п1 Ду 20 Ру 16",
+  "qty": 63.0,
+  "cur_price": 402.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 401.99,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 456,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.20.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 429.0,
+  "verdict": "ok",
+  "rec_price": 429,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: -6%."
+ },
+ {
+  "table": "1.6",
+  "n": 53,
+  "name": "Кран шаровой 11б27п1 Ду 25 Ру 16",
+  "qty": 40.0,
+  "cur_price": 919.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 919.27,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 696,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.25.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 807.63,
+  "verdict": "ok",
+  "rec_price": 808,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +14%."
+ },
+ {
+  "table": "1.6",
+  "n": 54,
+  "name": "Кран шаровой 11б27п1 Ду 32 Ру 16",
+  "qty": 77.0,
+  "cur_price": 1495.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 1495.11,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 1422,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.32.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 1458.55,
+  "verdict": "ok",
+  "rec_price": 1459,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +2%."
+ },
+ {
+  "table": "1.6",
+  "n": 55,
+  "name": "Кран шаровой 11б27п1 Ду 40 Ру 16",
+  "qty": 2.0,
+  "cur_price": 2022.0,
+  "sources": [
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 2343,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.40.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 2343,
+  "verdict": "ok",
+  "rec_price": 2343,
+  "confidence": "low",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: -14%."
+ },
+ {
+  "table": "1.6",
+  "n": 56,
+  "name": "Кран шаровой 11б27п1 Ду 50 Ру 16",
+  "qty": 6.0,
+  "cur_price": 3781.0,
+  "sources": [
+   {
+    "company": "dn.ru (ООО «ДН.ру»)",
+    "url": "https://dn.ru/sharovyi-kran/teplosnabzhenie/rezbovye-kran/standartnyi/ld/pride-47-v-v-r/dn15",
+    "price": 3780.78,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: живой магазин © 2026, цена «на 2026-10/11», наличие; LD Pride 47.xx.В-В.Р (аналог 11б27п1)"
+   },
+   {
+    "company": "МеталлСантехГрупп (ООО «Акварель»)",
+    "url": "https://metallsantehgroup.ru/searchres?search=Pride",
+    "price": 2552,
+    "vat": "с НДС (розн.)",
+    "type": "розница/опт дилер",
+    "evidence": "B: © 2026; LD Pride 47.50.В-В.Р рычаг"
+   }
+  ],
+  "median_price": 3166.39,
+  "verdict": "завышена",
+  "rec_price": 3166,
+  "confidence": "med",
+  "spec_match": "аналог: LD Pride 47 (ЛС59-1 никель) — заявлен производителем как аналог 11б27п1",
+  "pp1875": "РФ (LD, Челябинск)",
+  "note": "Отклонение cur от медианы: +19%."
+ },
+ {
+  "table": "1.6",
+  "n": 92,
+  "name": "Газовый клапан Dungs LGV 507/5 230 V, 119271",
+  "qty": 2.0,
+  "cur_price": 45000.0,
+  "sources": [
+   {
+    "company": "Dungs-РФ (dungs-rf.ru)",
+    "url": "https://dungs-rf.ru/catalog/gazovye_klapany_dungs/elektromagnitnye_vypusknye_klapany_dungs_lgv/",
+    "price": 44118,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "C: «LGV 507/5, 119271 — 44 118 руб./шт, много»"
+   },
+   {
+    "company": "Энергия (energy-ek.ru)",
+    "url": "https://energy-ek.ru/gazovye-klapany/3363-dungs-lgv-5075-elektromagnitnyj-klapan.html",
+    "price": 45155,
+    "vat": "с НДС",
+    "type": "розница",
+    "evidence": "B: «45 155 руб, С НДС», центральный склад"
+   },
+   {
+    "company": "Анкас (ankas.ru)",
+    "url": "https://ankas.ru/gazovye-klapany/dungs-lgv-5075-16484",
+    "price": 50000,
+    "vat": "не указано",
+    "type": "розница",
+    "evidence": "C: © 2014-2026; арт. 119271 — 50 000 руб."
+   }
+  ],
+  "median_price": 45155,
+  "verdict": "ok",
+  "rec_price": 45155,
+  "confidence": "high",
+  "spec_match": "полное",
+  "pp1875": "импорт (Германия) — замена: ЕАЭС-аналог (Термобрест ВН3/4Н-0,5, Беларусь) при применимости ПП 1875",
+  "note": "Отклонение cur от медианы: -0%."
+ },
+ {
+  "table": "1.8",
+  "n": 2,
+  "name": "Кран шаровой 10нж45фт 2ЦФ Ду 20 Ру 16",
+  "qty": 2.0,
+  "cur_price": 11000.0,
+  "sources": [],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 11000,
+  "confidence": "low",
+  "spec_match": "аналог: LD КШ.Ц.Ф нерж. 12Х18Н10Т фланцевый (10нж45фт — укр. ТУ)",
+  "pp1875": "РФ (LD) — 10нж45фт укр. пр-ва не допускается",
+  "note": "Открытых цен нерж. фланцевых кранов Ду20–32 2026 не найдено (по выдаче: 11нж01пФ Ду25 ~7,4 тыс., не проверено). Нужен запрос КП LD."
+ },
+ {
+  "table": "1.8",
+  "n": 3,
+  "name": "Кран шаровой 10нж45фт 2ЦФ Ду 25 Ру 16",
+  "qty": 2.0,
+  "cur_price": 12500.0,
+  "sources": [],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 12500,
+  "confidence": "low",
+  "spec_match": "аналог: LD КШ.Ц.Ф нерж. 12Х18Н10Т фланцевый (10нж45фт — укр. ТУ)",
+  "pp1875": "РФ (LD) — 10нж45фт укр. пр-ва не допускается",
+  "note": "Открытых цен нерж. фланцевых кранов Ду20–32 2026 не найдено (по выдаче: 11нж01пФ Ду25 ~7,4 тыс., не проверено). Нужен запрос КП LD."
+ },
+ {
+  "table": "1.8",
+  "n": 4,
+  "name": "Кран шаровой 10нж45фт 2ЦФ Ду 32 Ру 16",
+  "qty": 2.0,
+  "cur_price": 15000.0,
+  "sources": [],
+  "median_price": 0,
+  "verdict": "нет данных",
+  "rec_price": 15000,
+  "confidence": "low",
+  "spec_match": "аналог: LD КШ.Ц.Ф нерж. 12Х18Н10Т фланцевый (10нж45фт — укр. ТУ)",
+  "pp1875": "РФ (LD) — 10нж45фт укр. пр-ва не допускается",
+  "note": "Открытых цен нерж. фланцевых кранов Ду20–32 2026 не найдено (по выдаче: 11нж01пФ Ду25 ~7,4 тыс., не проверено). Нужен запрос КП LD."
+ }
+]
