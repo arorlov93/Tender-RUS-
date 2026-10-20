@@ -1,0 +1,647 @@
+[
+ {
+  "num": "0171100002826000004",
+  "name": "Поставка оборудования для системы видеонаблюдения",
+  "cust": "Управление Министерства юстиции РФ по Ярославской обл.",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-23 09:00",
+  "nmck": 588408.7,
+  "positions": [
+   {
+    "item": "Жесткий диск 10ТБ CMR 7200 для видеонаблюдения",
+    "qty": 4,
+    "unit": "шт",
+    "nmck_unit": 49109.33,
+    "cost_unit": 50850,
+    "cost_src": "https://www.regard.ru/catalog?search=10 ТБ видеонаблюдения (Toshiba MG10ADA10TE-V 50 850; WD102PURP 55 130; Seagate ST10000VE001 52 640), 20.10.2026 [A]"
+   },
+   {
+    "item": "Камера IP 5 Мп PoE (TRASSIR TR-D4B5 v3, РФ)",
+    "qty": 21,
+    "unit": "шт",
+    "nmck_unit": 6059.67,
+    "cost_unit": 8470,
+    "cost_src": "https://www.regard.ru/catalog?search=IP камера 5 Мп, 20.10.2026 [A]"
+   },
+   {
+    "item": "Видеорегистратор NVR 32 кан 4K",
+    "qty": 1,
+    "unit": "шт",
+    "nmck_unit": 33018.33,
+    "cost_unit": 30110,
+    "cost_src": "https://www.regard.ru/catalog?search=видеорегистратор 32 канала (HiWatch DS-N332/4) [A]"
+   },
+   {
+    "item": "Коммутатор управляемый 16 PoE + 2 SFP",
+    "qty": 2,
+    "unit": "шт",
+    "nmck_unit": 10851,
+    "cost_unit": 34150,
+    "cost_src": "https://www.regard.ru/catalog?search=коммутатор 16 PoE управляемый (TP-Link TL-SG2218P; D-Link DGS-1100-18PV2 19 510 — неуправл.-smart) [A]"
+   },
+   {
+    "item": "ИБП стоечный ≥1200 Вт line-interactive",
+    "qty": 1,
+    "unit": "шт",
+    "nmck_unit": 15589,
+    "cost_unit": 13930,
+    "cost_src": "https://www.regard.ru/catalog?search=ИБП стоечный 1500 ВА (Powercom RPT-1500AP — не стоечный; стоечные от 10 850 ExeGate 3U) [A]"
+   },
+   {
+    "item": "ИБП стоечный ≤3U с дисплеем",
+    "qty": 1,
+    "unit": "шт",
+    "nmck_unit": 21507,
+    "cost_unit": 34340,
+    "cost_src": "https://www.regard.ru/catalog?search=ИБП стоечный 3000 ВА (ExeGate ULS-3000 2U) [A]"
+   },
+   {
+    "item": "Шкаф телеком. настенный 12U",
+    "qty": 2,
+    "unit": "шт",
+    "nmck_unit": 15799.67,
+    "cost_unit": 8970,
+    "cost_src": "https://www.regard.ru/catalog?search=шкаф настенный 12U (ЦМО ШРН-12.255-10) [A]"
+   },
+   {
+    "item": "Монтажная коробка для камер IP66",
+    "qty": 21,
+    "unit": "шт",
+    "nmck_unit": 1339.33,
+    "cost_unit": 700,
+    "cost_src": "[оценка]: типовая монтажная коробка для купольной камеры 500–900 ₽"
+   },
+   {
+    "item": "Труба гофр. ПНД (упак.)",
+    "qty": 10,
+    "unit": "упак",
+    "nmck_unit": 2955.67,
+    "cost_unit": 2000,
+    "cost_src": "[оценка]: бухта 100 м ПНД d20 ~1500–2500 ₽"
+   },
+   {
+    "item": "Кабель UTP 5e 4x2x0,52 Cu",
+    "qty": 1800,
+    "unit": "м",
+    "nmck_unit": 31,
+    "cost_unit": 22,
+    "cost_src": "[оценка]: бухта 305 м Cu UTP5e РФ ~6–7 тыс ₽"
+   },
+   {
+    "item": "Прочее (трансиверы, ВВГ, оптика, кросс, патч-корды, розетки)",
+    "qty": 1,
+    "unit": "компл",
+    "nmck_unit": 45343,
+    "cost_unit": 30000,
+    "cost_src": "[оценка] пропорционально"
+   }
+  ],
+  "cost_total": 650190,
+  "logistics": 8000,
+  "margin_pct": -11.9,
+  "net_at_nmck": -96128,
+  "exp_disc": 0.15,
+  "net_expected": -183683,
+  "breakeven_disc": 0.0,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "HDD 10ТБ подорожали: розница 50.9–55.1k ₽ > НМЦК 49.1k; коммутаторы 16PoE управляемые заложены по 10.8k при рынке 19.5–34k; камеры РФ (ПП 1875/реестр) дороже НМЦК. Убыток.",
+  "confidence": "med",
+  "sources": [
+   "https://www.regard.ru/catalog?search=10 ТБ видеонаблюдения",
+   "https://www.regard.ru/catalog?search=IP камера 5 Мп",
+   "https://www.regard.ru/catalog?search=коммутатор 16 PoE управляемый"
+  ]
+ },
+ {
+  "num": "COM16102600010",
+  "name": "Поставка комбинированных оптоволоконных кабелей",
+  "cust": "АНО «Ямал-Медиа»",
+  "law": "Коммерческие",
+  "method": "Запрос котировок",
+  "end": "2026-10-21 13:00",
+  "nmck": 2989628.66,
+  "positions": [
+   {
+    "item": "Кабель комбинированный оптоволоконный (гибрид SMPTE?) — позиции неизвестны",
+    "qty": null,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]: состав не раскрыт"
+   }
+  ],
+  "cost_total": 2511184,
+  "logistics": 30000,
+  "margin_pct": 15.0,
+  "net_at_nmck": 289834,
+  "exp_disc": 0.1,
+  "net_expected": 37749,
+  "breakeven_disc": 11.5,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Запросить спецификацию",
+  "risks": "Спецификация закрыта (Росэлторг недоступен). Для телеканала «комбинированный оптоволоконный кабель» — вероятно гибридный SMPTE 311 (оптика+медь, разъёмы LEMO 3K.93C/Neutrik opticalCON) — импорт, узкий круг дилеров, сроки поставки; маржа оценена по категории.",
+  "confidence": "low",
+  "sources": [
+   "https://www.roseltorg.ru (недоступно)"
+  ]
+ },
+ {
+  "num": "32616476170",
+  "name": "Запрос котировок среди субъектов малого и среднего предпринимательства в электронной форме №2996/ЗКТЭ-ЦДЗС/26 на право заключения договора поставки кабельно-проводниковой продукции и низковольтного оборудования",
+  "cust": "ОАО «Российские железные дороги»",
+  "law": "223-ФЗ",
+  "method": "Запрос котировок",
+  "end": "2026-10-22 16:00",
+  "nmck": 784243.42,
+  "positions": [
+   {
+    "item": "Кабельно-проводниковая продукция и НВО — позиции неизвестны",
+    "qty": null,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 651607,
+  "logistics": 15000,
+  "margin_pct": 15.0,
+  "net_at_nmck": 76030,
+  "exp_disc": 0.1,
+  "net_expected": 9902,
+  "breakeven_disc": 11.5,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "Нет данных в gosplan (документ не найден), РЖД ЗК СМП на РТС — высокая конкуренция, низкая маржа на кабеле и НВО; спецификация не получена.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616476170"
+  ]
+ },
+ {
+  "num": "0373200001226000884",
+  "name": "Электронный запрос котировок на поставку расходных материалов для электрофизиологических исследований (кабели) для нужд ГБУЗ «ГКБ им. И.В. Давыдовского ДЗМ» (183549)",
+  "cust": "ГБУЗ г. Москвы «Городская Клиническая Больница Имени И.В. Давыдовского Департамента Здравоохранения Города Москвы»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-22 10:00",
+  "nmck": 1666000.0,
+  "positions": [
+   {
+    "item": "Кабель соединительный для CARTO 3 (тип 1, ≥274 см)",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 639500,
+    "cost_unit": null,
+    "cost_src": "[оценка]: дилерская цена недоступна"
+   },
+   {
+    "item": "Кабель соединительный для CARTO 3 (тип 2)",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 193500,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 1461080,
+  "logistics": 5000,
+  "margin_pct": 12.0,
+  "net_at_nmck": 117633,
+  "exp_disc": 0.15,
+  "net_expected": -109509,
+  "breakeven_disc": 8.4,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Кабели соединительные для системы CARTO 3 (Biosense Webster/J&J) — проприетарные, импорт, поставка только через авторизованного дистрибьютора; количество не определено (цена за ед. 639 500 и 193 500 ₽); без дилерского статуса маржа ≤10–15%.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0373200001226000884/notification"
+  ]
+ },
+ {
+  "num": "0372100003426001170",
+  "name": "Поставка медицинских изделий для нейромониторинга лот 2 (Клиника ВМТ)",
+  "cust": "ФГБОУ Высшего Образования «СПБ Государственный Университет»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-23 08:00",
+  "nmck": 1500000.0,
+  "positions": [
+   {
+    "item": "Кабель для биполярных электродов (3 вида)",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 46750,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Кабель биполярный (вагус)",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 44000,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Электрод стимуляционный многоразовый",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 175000,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Электрод стимуляционный одноразовый (вагус)",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 40000,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 1270000,
+  "logistics": 5000,
+  "margin_pct": 15.0,
+  "net_at_nmck": 145420,
+  "exp_disc": 0.15,
+  "net_expected": -52118,
+  "breakeven_disc": 11.5,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Кабели/электроды нейромонитора (разъём Redel, touchproof, Дельта-электрод вагуса — экосистема inomed/Medtronic NIM), импорт, эксклюзивные дистрибьюторы; количество не определено (цена за ед.).",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0372100003426001170/notification"
+  ]
+ },
+ {
+  "num": "0348100043326000102",
+  "name": "Поставка медицинский изделий лот 2",
+  "cust": "Федеральное ГБУЗ «Медико-санитарная часть № 152 Федерального медико-биологического агентства»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-22 09:41",
+  "nmck": 1065306.62,
+  "positions": [
+   {
+    "item": "Набор для лапароскопич. процедур (зажимы/ножницы/троакары, 13 видов)",
+    "qty": 22,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]: endo.ru, elmed-kzn.ru — цены по запросу"
+   },
+   {
+    "item": "Электрод эндоскопический моно/биполярный",
+    "qty": 25,
+    "unit": "шт",
+    "nmck_unit": 15239.74,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Кабель соединительный ВЧ",
+    "qty": 1,
+    "unit": "шт",
+    "nmck_unit": 31218.11,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 793980,
+  "logistics": 5000,
+  "margin_pct": 25.0,
+  "net_at_nmck": 196806,
+  "exp_disc": 0.15,
+  "net_expected": 62066,
+  "breakeven_disc": 21.9,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "Многоразовые лапароскопические инструменты (КТРУ 32.50.50.190-00001361/-00000606/-00001030), нацрежим для МИ — нужен российский производитель (Эндомедиум, ЭлМед, МФС): открытых цен нет, только по запросу; при цене РФ-производителя ~25–35 тыс. за модульный зажим маржа ~20–30%. Запросить КП у Эндомедиум/ЭлМед до 22.10 09:41.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0348100043326000102/notification",
+   "https://endo.ru/product/laparoskopiya/shchiptsy-monopolyarnye/zazhim-kishechnyy-5-mm/",
+   "https://elmed-kzn.ru/product/laparoskopiya/zazhim-kishechnyj-fenistirovannyj-s-nasechkoj-5-mm/"
+  ]
+ },
+ {
+  "num": "32616475689",
+  "name": "Поставка кабеля АПвБШп (бульвар Зеленый)",
+  "cust": "АО «Чувашские Государственные Электрические Сети»",
+  "law": "223-ФЗ",
+  "method": "Закупка иного способа размещения",
+  "end": "2026-10-23 15:33",
+  "nmck": 1080184.7,
+  "positions": [
+   {
+    "item": "Кабель АПвБШп (сечение по ТЗ)",
+    "qty": 470,
+    "unit": "м",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "https://promcable.com/... (через поиск) [C]"
+   },
+   {
+    "item": "Кабель АПвБШп (сечение по ТЗ)",
+    "qty": 970,
+    "unit": "м",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "https://promcable.com/... [C]"
+   }
+  ],
+  "cost_total": 952166,
+  "logistics": 20000,
+  "margin_pct": 10.0,
+  "net_at_nmck": 57303,
+  "exp_disc": 0.1,
+  "net_expected": -39739,
+  "breakeven_disc": 6.3,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "1 440 м АПвБШп (470+970 м), средняя НМЦК ~750 ₽/м; рыночные (Промкабельсервис, без даты [C]): 4х95 554, 4х120 677, 4х150 812, 4х185 986, 4х240 1203 ₽/м; сечения не получены (ТЗ на zakupki недоступно) — маржа ~10%. Цена алюминия волатильна.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616475689",
+   "https://promcable.com/catalog/kabelnaya-produktsiya/kabeli-silovye-s-izolyatsiey-iz-sshitogo-polietilena/apvbshp/",
+   "https://xcabel.ru/products/cable-apvbbshp-4x95"
+  ]
+ },
+ {
+  "num": "32616472923",
+  "name": "Поставка осветительных электрических товаров, кабеля и регулятора жидкости.",
+  "cust": "СПБ государственное автономное Стационарное учреждение Социального Обслуживания Населения «Дом Социального Обслуживания «Иверский» Имени В.Г. Горденчука",
+  "law": "223-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-22 10:00",
+  "nmck": 914481.61,
+  "positions": [
+   {
+    "item": "Провод силовой",
+    "qty": 200,
+    "unit": "м",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Лампы светодиодные",
+    "qty": 1200,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Светильники LED",
+    "qty": 680,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Регулятор уровня жидкости",
+    "qty": 3,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 665861,
+  "logistics": 20000,
+  "margin_pct": 25.0,
+  "net_at_nmck": 168942,
+  "exp_disc": 0.1,
+  "net_expected": 91833,
+  "breakeven_disc": 21.9,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Запросить спецификацию",
+  "risks": "LED-лампы 1200 шт, светильники 680 шт, провод 200 м, 3 регулятора уровня жидкости; характеристики не получены (извещение на zakupki недоступно). Светотехника — категория с маржой 20–30% при закупке у оптовика/завода РФ.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616472923"
+  ]
+ },
+ {
+  "num": "32616479130",
+  "name": "Поставку товара «Кабель ЭКГ»",
+  "cust": "ГУЧ Здравоохранения «Саратовская Городская Клиническая Больница № 8»",
+  "law": "223-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-23 08:00",
+  "nmck": 177072.0,
+  "positions": [
+   {
+    "item": "Кабель ЭКГ (совместимость по ТЗ)",
+    "qty": 21,
+    "unit": "шт",
+    "nmck_unit": 8432,
+    "cost_unit": null,
+    "cost_src": "https://intech-med.ru/shop/list.php?cat=monitor ; https://steramed.ru/catalog/3"
+   }
+  ],
+  "cost_total": 138658,
+  "logistics": 3000,
+  "margin_pct": 20.0,
+  "net_at_nmck": 24939,
+  "exp_disc": 0.1,
+  "net_expected": 10009,
+  "breakeven_disc": 16.7,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Запросить спецификацию",
+  "risks": "21 кабель ЭКГ, НМЦК 8 432 ₽/шт; совместимость с монитором не известна (ТЗ .doc на zakupki недоступно). Розница intech-med 7 674–7 791 ₽ (цельный 5 отв.), steramed 3 040–4 450 ₽, nordtm Philips 4 800 ₽ — при совместимом кабеле с РУ маржа 20–45%.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616479130",
+   "https://intech-med.ru/shop/detail.php?type=100206utas",
+   "https://steramed.ru/catalog/3",
+   "https://www.nordtm.ru/catalog/kabeli_patsientov_ekg/2252/"
+  ]
+ },
+ {
+  "num": "32616476518",
+  "name": "Поставка электротоваров",
+  "cust": "Государственное автономное учреждение Калининградской обл. «Стадион «Калининград»",
+  "law": "223-ФЗ",
+  "method": "Иной способ (уточнить)",
+  "end": "2026-10-23 12:00",
+  "nmck": 698521.04,
+  "positions": [
+   {
+    "item": "Электротовары — позиции неизвестны",
+    "qty": null,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 529846,
+  "logistics": 15000,
+  "margin_pct": 22.0,
+  "net_at_nmck": 110648,
+  "exp_disc": 0.1,
+  "net_expected": 51748,
+  "breakeven_disc": 18.8,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Запросить спецификацию",
+  "risks": "Позиции в gosplan не опубликованы (только разъяснение); способ — «иной», не аукцион по данным скана. Оценка по категории электротоваров.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616476518"
+  ]
+ },
+ {
+  "num": "32616475156",
+  "name": "Поставка электротехнической продукции",
+  "cust": "АО «Коми Коммунальные Технологии»",
+  "law": "223-ФЗ",
+  "method": "Закупка иного способа размещения",
+  "end": "2026-10-23 10:00",
+  "nmck": 619411.46,
+  "positions": [
+   {
+    "item": "Электротехника, 10 наборов",
+    "qty": 10,
+    "unit": "набор",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 463141,
+  "logistics": 20000,
+  "margin_pct": 22.0,
+  "net_at_nmck": 98116,
+  "exp_disc": 0.1,
+  "net_expected": 45888,
+  "breakeven_disc": 18.8,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Запросить спецификацию",
+  "risks": "10 «наборов» (УЗО/автоматы, пакетники, LED-лампы, вольтметры, кабель Cu до 1 кВ, арматура, изол. трубки); детализация в xlsx-форме на zakupki (недоступно). Кабель — нацрежим РФ.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616475156"
+  ]
+ },
+ {
+  "num": "32616474044",
+  "name": "Поставка электротехнической продукции для нужд Улан-Удэнского центра ОВД филиала «ВостСибаэронавигация» ФГУП «Госкорпорация по ОрВД».",
+  "cust": "ФГУП «Государственная Корпорация по Организации Воздушного Движения в РФ»",
+  "law": "223-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-22 03:00",
+  "nmck": 239828.16,
+  "positions": [
+   {
+    "item": "Электротехника, 31 поз.",
+    "qty": null,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 175066,
+  "logistics": 12000,
+  "margin_pct": 22.0,
+  "net_at_nmck": 37989,
+  "exp_disc": 0.1,
+  "net_expected": 17767,
+  "breakeven_disc": 18.8,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "31 позиция: обогреватели, прожекторы, автоматы, хомуты, LED, батарейки, кабель Cu >1кВ 240 м; доставка Улан-Удэ; маленький лот.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616474044"
+  ]
+ },
+ {
+  "num": "32616475113",
+  "name": "поставка электротехнических товаров и расходных материалов к ним для нужд ГАПО СО «СОПК»",
+  "cust": "Государственное автономное Профессиональное Образовательное учреждение Свердловской обл. «Свердловский Областной Педагогический Колледж»",
+  "law": "223-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-22 03:00",
+  "nmck": 250000.0,
+  "positions": [
+   {
+    "item": "Электротовары, ~40 поз.",
+    "qty": null,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 187000,
+  "logistics": 8000,
+  "margin_pct": 22.0,
+  "net_at_nmck": 39601,
+  "exp_disc": 0.1,
+  "net_expected": 18521,
+  "breakeven_disc": 18.8,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "~40 позиций мелкой электрики (клеммы, розетки, лампы, крепёж), количество не в gosplan; маленький лот.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616475113"
+  ]
+ },
+ {
+  "num": "32616480586",
+  "name": "Поставка электротехнических товаров",
+  "cust": "СПБ государственное автономное Стационарное учреждение Социального Обслуживания Населения «Дом Социального Обслуживания «Иверский» Имени В.Г. Горденчука",
+  "law": "223-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-23 10:00",
+  "nmck": 180224.8,
+  "positions": [
+   {
+    "item": "Электротехника, 9 поз.",
+    "qty": null,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]"
+   }
+  ],
+  "cost_total": 134575,
+  "logistics": 6000,
+  "margin_pct": 22.0,
+  "net_at_nmck": 28548,
+  "exp_disc": 0.1,
+  "net_expected": 13352,
+  "breakeven_disc": 18.8,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "Арматура кабельная, соединители, реле, патроны, контакторы — маленький лот 180 тыс.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616480586"
+  ]
+ }
+]
