@@ -154,7 +154,35 @@ for row in st.iter_rows():
     for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
 for i, w in enumerate([9, 48, 10, 10, 12, 22], 1): st.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 
+# --- заводы для запроса КП по группам
+from kamch_groups import group as kgroup
+SUP = {x["group"]: x["suppliers"] for x in json.load(open("data/kamch/suppliers.json"))}
+GV = {}
+for x in S:
+    t = re.search(r"Таблица\s*(1\.\d)", x["spec"]).group(1); k = (t, x["n"]); g = kgroup(Q[k]["name"]); p = P.get(k, {})
+    d = GV.setdefault(g, dict(pos=[], val=0.0)); d["pos"].append((t, x["n"], Q[k]["name"], Q[k]["qty"])); d["val"] += (p.get("price") or 0) * (Q[k]["qty"] or 0)
+ks = wb.create_sheet("Заводы (КП)")
+ks.append(["Кому отправить запрос КП по группам. В запросе: номер записи в реестре Минпромторга (ПП 719) по каждой позиции, сертификаты ТР ТС 032/010, срок поставки до Петропавловска-Камчатского"]); ks["A1"].font = Font(bold=True)
+ks.append(["Группа", "Позиций", "Сумма по рынку, ₽", "Поставщик", "Город", "Телефон", "E-mail", "Сайт", "Что закрывает", "Реестр МПТ", "Срок / склад", "Примечание"]); head(ks, 2)
+for g, d in sorted(GV.items(), key=lambda kv: -kv[1]["val"]):
+    for i, sp in enumerate(SUP.get(g, [{}])):
+        ks.append([g if i == 0 else "", len(d["pos"]) if i == 0 else "", d["val"] if i == 0 else "", sp.get("company"), sp.get("city"), sp.get("phone"), sp.get("email"), sp.get("site"),
+                   str(sp.get("covers") or "")[:110], str(sp.get("registry") or "").split(";")[0].split("(")[0][:45], f'{sp.get("lead_time") or ""}; {sp.get("stock") or ""}'[:90], str(sp.get("note") or "")[:90]])
+        if i == 0: ks.cell(ks.max_row, 3).number_format = M
+for row in ks.iter_rows(min_row=3):
+    for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
+for i, w in enumerate([28, 7, 13, 28, 13, 20, 24, 18, 46, 22, 32, 32], 1): ks.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+ks.freeze_panes = "D3"
+kp = wb.create_sheet("Позиции по группам (для КП)")
+kp.append(["Группа", "Таблица", "№", "Позиция", "Кол-во"]); head(kp, 1)
+for g, d in sorted(GV.items(), key=lambda kv: -kv[1]["val"]):
+    for t, n, nm, q in d["pos"]: kp.append([g, t, n, nm, q])
+for row in kp.iter_rows(min_row=2):
+    for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)
+for i, w in enumerate([34, 8, 5, 70, 8], 1): kp.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+kp.auto_filter.ref = f"A1:E{kp.max_row}"
 tidy(wb, row_h=34)
+for r in range(3, ks.max_row + 1): ks.row_dimensions[r].height = 66
 for r in range(r0 - 1, r0 + 8):
     sv.merge_cells(start_row=r, start_column=3, end_row=r, end_column=9)
     sv.cell(r, 3).alignment = Alignment(wrap_text=True, vertical="center")
