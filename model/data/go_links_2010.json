@@ -121,5 +121,25 @@
   "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0345100011326000005",
   "etp": "РТС-тендер",
   "etp_url": "http://www.rts-tender.ru"
+ },
+ "0348100043326000102": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0348100043326000102",
+  "etp": "РТС-тендер",
+  "etp_url": "http://www.rts-tender.ru"
+ },
+ "32616472923": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616472923",
+  "etp": "АКЦИОНЕРНОЕ ОБЩЕСТВО «ЕДИНАЯ ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА»",
+  "etp_url": "https://corp.roseltorg.ru/#notice/836386"
+ },
+ "32616477523": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616477523",
+  "etp": "РТС-тендер",
+  "etp_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4065108"
+ },
+ "32616477173": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616477173",
+  "etp": "АКЦИОНЕРНОЕ ОБЩЕСТВО «СБЕРБАНК-АВТОМАТИЗИРОВАННАЯ СИСТЕМА ТОРГОВ»",
+  "etp_url": "http://utp.sberbank-ast.ru/Trade/NBT/PurchaseView/22/0/0/4259114"
  }
 }
