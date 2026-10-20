@@ -1,0 +1,259 @@
+{
+ "items": [
+  {
+   "n": 1,
+   "name": "Тактический костюм демисезонный рип-стоп 35/65 + съёмные наколенники/налокотники, чёрный",
+   "qty": 145,
+   "sources": [
+    {
+     "company": "Урсус (ursus.ru), производитель/опт",
+     "url": "https://www.ursus.ru/catalogue/product/kostyum_spetsnaz_2021/",
+     "price": 2875,
+     "vat": "с НДС (ООО, ОСН; уточнить в КП)",
+     "date_evidence": "B (живой складской остаток на 20.10.2026: 599 шт, 52-54 — 153 шт, 48-50 — 225 шт; © без года; декларация 2024-2029)",
+     "note": "Костюм СПЕЦНАЗ КОС501, рип-стоп 65/35 220 г/м2 ВО, чёрный, накладки локоть/колено; опт 2875, кр.опт 2645, розн 4456"
+    },
+    {
+     "company": "Урсус: наколенники+налокотники съёмные Блок-Х",
+     "url": "https://www.ursus.ru/catalogue/product/nakolenniki_semnyy_takticheskiy_blok_kh_nalokotniki/",
+     "price": 468,
+     "vat": "с НДС",
+     "date_evidence": "B (живая карточка)",
+     "note": "опт 468, кр.опт 431, розн 725 за комплект; докомплектация к костюму"
+    },
+    {
+     "company": "Сплав (splav.ru)",
+     "url": "https://www.splav.ru/search/?q=костюм+черный",
+     "price": 5500,
+     "vat": "с НДС, розница",
+     "date_evidence": "B (©2026, размеры в наличии)",
+     "note": "Костюм Охранник М11 чёрный 5500 розн (эконом 3000), тактический Полевой 7000 — верхний бенчмарк"
+    }
+   ],
+   "recommended_cost": 3350,
+   "weight_kg": 1.5
+  },
+  {
+   "n": 2,
+   "name": "Тактическая флисовая кофта с вставками, патчкорд под шевроны, чёрная",
+   "qty": 145,
+   "sources": [
+    {
+     "company": "Урсус",
+     "url": "https://www.ursus.ru/catalogue/product/kurtka_flisovaya_h23010_tsvet_chernyy/",
+     "price": 1500,
+     "vat": "с НДС",
+     "date_evidence": "B (живая карточка; остаток 48-54 = 0 — под заказ)",
+     "note": "Толстовка флисовая H23010 чёрная, опт 1500, розн 2325; без водоотталкивающих вставок"
+    },
+    {
+     "company": "Сплав — Кречет Pro тактическая флисовая куртка",
+     "url": "https://www.splav.ru/search/?q=флисовая+куртка+тактическая",
+     "price": 5103,
+     "vat": "с НДС, розница (скидка 30% от 7290)",
+     "date_evidence": "B (©2026)",
+     "note": "верхний бенчмарк; опт Сплава по запросу"
+    }
+   ],
+   "recommended_cost": 2300,
+   "weight_kg": 0.6
+  },
+  {
+   "n": 3,
+   "name": "Тактическая куртка зимняя, несъёмный капюшон, до -35, синтепон, фольга, 35/65, чёрная",
+   "qty": 145,
+   "sources": [
+    {
+     "company": "Урсус — Куртка Охрана зимняя чёрная (есть с капюшоном)",
+     "url": "https://www.ursus.ru/catalogue/product/kurtka_muzhskaya_okhrana_zimnyaya_chernaya/",
+     "price": 2650,
+     "vat": "с НДС",
+     "date_evidence": "B (живой остаток 2152 шт; 52-54 — 284 шт, 48-50 — 83; поступление 31.10.2026)",
+     "note": "оксфорд 100% ПЭ — не 35/65 и без фольги; кр.опт 2438, розн 4108; версия с капюшоном 1115 шт"
+    },
+    {
+     "company": "Форменный Патруль (patrul67.ru), опт/розница",
+     "url": "http://patrul67.ru/kurtka-politsija-zimnjaja-udlinennaja-prjamogo-silueta",
+     "price": 4000,
+     "vat": "не указано",
+     "date_evidence": "C/не подтверждено (дата цены не видна)",
+     "note": "Зимняя куртка рип-стоп, подкладка фольга, холлофайбер — ближайший аналог по ТЗ"
+    },
+    {
+     "company": "Сплав",
+     "url": "https://www.splav.ru/search/?q=куртка+зимняя+черная",
+     "price": 11500,
+     "vat": "с НДС, розница",
+     "date_evidence": "B (©2026)",
+     "note": "зимние тактические куртки 11500–37000 — верхняя граница"
+    }
+   ],
+   "recommended_cost": 3500,
+   "weight_kg": 1.6
+  },
+  {
+   "n": 4,
+   "name": "Тактическая шапка зимняя шерсть 70/акрил 30, флисовая подкладка",
+   "qty": 145,
+   "sources": [
+    {
+     "company": "Урсус — шапка трикотажная чёрная двойная вязка",
+     "url": "https://www.ursus.ru/catalogue/product/shapka_trikotazhnaya_chernaya_dvoynaya_vyazka_6_klass/",
+     "price": 151,
+     "vat": "с НДС",
+     "date_evidence": "B (живой остаток 2209 шт)",
+     "note": "100% ПАН — нижняя граница, не шерсть"
+    },
+    {
+     "company": "Урсус — шапка Nordkapp чёрная",
+     "url": "https://www.ursus.ru/catalogue/product/shapka_nordkapp_chernaya/",
+     "price": 597,
+     "vat": "с НДС",
+     "date_evidence": "B (остаток 134 шт)",
+     "note": "акрил 100%; кр.опт 549"
+    },
+    {
+     "company": "Сплав — шапка marhatter полушерсть",
+     "url": "https://www.splav.ru/search/?q=шапка+шерсть",
+     "price": 1050,
+     "vat": "с НДС, розница",
+     "date_evidence": "B (©2026)",
+     "note": "полушерстяная, розн 840–1050"
+    }
+   ],
+   "recommended_cost": 550,
+   "weight_kg": 0.12
+  },
+  {
+   "n": 5,
+   "name": "Полуботинки утеплённые текстиль+иск.кожа, флис, ЭВА/резина, чёрные",
+   "qty": 145,
+   "sources": [
+    {
+     "company": "Сплав — полуботинки тактические 10717",
+     "url": "https://www.splav.ru/catalog/military-tactics/novyj-obuv/",
+     "price": 3660,
+     "vat": "с НДС, розница",
+     "date_evidence": "B (©2026, раздел каталога; цена из поисковой выдачи)",
+     "note": "зимние тактические ботинки Сплав 4440–10070"
+    },
+    {
+     "company": "Garsing (garsingshop.ru) — полуботинки Путешественник флис",
+     "url": "https://garsingshop.ru/catalog/obuv/",
+     "price": 3530,
+     "vat": "не указано, розница (акция, старая 5430)",
+     "date_evidence": "C (цена из поисковой выдачи)",
+     "note": "флисовая подкладка, цвет/подошва уточнить"
+    }
+   ],
+   "recommended_cost": 2900,
+   "weight_kg": 1.2
+  },
+  {
+   "n": 6,
+   "name": "Жилет разгрузочный MOLLE, карманы под бронеплиты, универсальный, кордура, чёрный",
+   "qty": 145,
+   "sources": [
+    {
+     "company": "АРМИШОП (armishop.ru) — Plate Carrier Molle Black",
+     "url": "https://armishop.ru/shop/razgruzochnyy-zhilet-plate-carriere-molle-black",
+     "price": 5610,
+     "vat": "не указано, розница",
+     "date_evidence": "C (поисковая выдача: в наличии 99 шт; сайт не открылся)",
+     "note": "нейлон 500D, без бронеплит"
+    },
+    {
+     "company": "Pnevmat24 — жилет MOLLE Black VT021B",
+     "url": "https://pnevmat24.ru/zhilet-razgruzochnyy-molle-black/",
+     "price": 1890,
+     "vat": "не указано, розница",
+     "date_evidence": "B (©2013-2026)",
+     "note": "полиэстер, универсальный — без карманов под плиты, нижняя граница"
+    },
+    {
+     "company": "Полигон (24poligon.ru) — CIRAS Molle чёрный",
+     "url": "https://24poligon.ru/catalog/snaryazhenie/razgruzochnoe_snaryazhenie/razgruzochnyy_zhilet_ciras_molle_chernyy_/",
+     "price": 7999,
+     "vat": "не указано, розница",
+     "date_evidence": "C (поисковая выдача)",
+     "note": "карманы SAPI/ESAPI, быстрый сброс"
+    }
+   ],
+   "recommended_cost": 4500,
+   "weight_kg": 1.3
+  },
+  {
+   "n": 7,
+   "name": "Перчатки тактические зимние до -30 с защитными вставками",
+   "qty": 170,
+   "sources": [
+    {
+     "company": "Garsing — перчатки ТУЧИ чёрные GSG-54",
+     "url": "https://garsingshop.ru/catalog/odezhda_ash/perchatki_/takticheskie_/",
+     "price": 2890,
+     "vat": "не указано, розница",
+     "date_evidence": "B (живой каталог, «в наличии на складе»)",
+     "note": "там же «Тактические чёрные 7.62» 1075 ₽, «324 пластиковая защита» 500 ₽"
+    },
+    {
+     "company": "Урсус — перчатки тактические C3MP0201 чёрные",
+     "url": "https://www.ursus.ru/catalogue/product/perchatki_takticheskie_c3mp0201_bespalye_tsvet_chernyy/",
+     "price": 664,
+     "vat": "с НДС",
+     "date_evidence": "B (живая карточка)",
+     "note": "беспалые, не зимние — нижняя граница"
+    },
+    {
+     "company": "КМФ78 (kmf78.ru) — утеплённые с защитой костяшек, флис",
+     "url": "https://kmf78.ru/products/perchatki-takticheskie-uteplennye-s-zaschitoi-kostyashek-podkladka-flis-chernye",
+     "price": 603,
+     "vat": "не указано",
+     "date_evidence": "B (©2018-2026), но распродажа -80%, нет в наличии",
+     "note": "полная цена 3013 ₽"
+    }
+   ],
+   "recommended_cost": 1500,
+   "weight_kg": 0.2
+  },
+  {
+   "n": 8,
+   "name": "Снуд/бафф тактический полиэстер чёрный",
+   "qty": 170,
+   "sources": [
+    {
+     "company": "Урсус — бафф Nesse чёрный",
+     "url": "https://www.ursus.ru/catalogue/product/baff_nesse_chernyy/",
+     "price": 415,
+     "vat": "с НДС",
+     "date_evidence": "B (остаток 1905 шт)",
+     "note": "полиэстер 100% флис 300 г/м2; кр.опт 382, розн 480"
+    },
+    {
+     "company": "Урсус — бафф Хлопок-2 чёрный",
+     "url": "https://www.ursus.ru/catalogue/product/baff_khlopok_2_rmbkh0202_khlopok_laykra_tsvet_chernyy/",
+     "price": 400,
+     "vat": "с НДС",
+     "date_evidence": "B (остаток 902 шт)",
+     "note": "хлопок/лайкра"
+    },
+    {
+     "company": "Сплав — мультибандана",
+     "url": "https://www.splav.ru/search/?q=бафф",
+     "price": 760,
+     "vat": "с НДС, розница",
+     "date_evidence": "B (©2026)",
+     "note": "700–960 ₽ розн"
+    }
+   ],
+   "recommended_cost": 420,
+   "weight_kg": 0.08
+  }
+ ],
+ "total_goods": 2805900,
+ "delivery": {
+  "cost": 120000,
+  "note": "ОЦЕНКА, не котировка: ~145 мест, ~0.95 т (6.5 кг/комплект), ~7–8 м3. Сборный груз ДЛ/ПЭК/КИТ Москва→Симферополь + довоз до Судака ~70–100 тыс ₽; отдельная машина 5 т Москва→Судак (~1700 км) ~150–190 тыс ₽ (2–4 дня). Тарифы из Москвы выросли на ~38% г/г (retail.ru, 08.08.2026); тарифы в Крым растут из-за ограничений Крымского моста. Нужен расчёт в калькуляторах ТК.",
+  "url": "https://www.retail.ru/news/tarify-na-gruzoperevozki-iz-moskvy-vyrosli-na-38-za-god-8-avgusta-2026-280829/"
+ },
+ "grand_total": 2925900
+}
