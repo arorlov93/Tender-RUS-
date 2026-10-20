@@ -1,0 +1,90 @@
+{
+ "0338200002226000430": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0338200002226000430",
+  "etp": "РОСЭЛТОРГ (АО«ЕЭТП»)",
+  "etp_url": "http://roseltorg.ru",
+  "way": "Запрос котировок в электронной форме",
+  "end": "2026-10-23T01:00:00",
+  "nmck": 2221608.0
+ },
+ "0372200263426001564": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0372200263426001564",
+  "etp": "ЭТП Газпромбанк",
+  "etp_url": "https://etpgpb.ru/",
+  "way": "Запрос котировок в электронной форме",
+  "end": "2026-10-23T05:00:00",
+  "nmck": 863700.0
+ },
+ "0325300007726000124": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0325300007726000124",
+  "etp": "РОСЭЛТОРГ (АО«ЕЭТП»)",
+  "etp_url": "http://roseltorg.ru",
+  "way": "Запрос котировок в электронной форме",
+  "end": "2026-10-26T05:00:00",
+  "nmck": 496200.0
+ },
+ "0352500002526000085": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0352500002526000085",
+  "etp": "РТС-тендер",
+  "etp_url": "http://www.rts-tender.ru",
+  "way": "Запрос котировок в электронной форме",
+  "end": "2026-10-22T02:00:00",
+  "nmck": 498744.79
+ },
+ "0352500002526000089": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0352500002526000089",
+  "etp": "РТС-тендер",
+  "etp_url": "http://www.rts-tender.ru",
+  "way": "Запрос котировок в электронной форме",
+  "end": "2026-10-26T02:00:00",
+  "nmck": 498211.82
+ },
+ "32616453117": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616453117",
+  "etp": "АКЦИОНЕРНОЕ ОБЩЕСТВО «ЕДИНАЯ ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА»",
+  "etp_url": "https://corp.roseltorg.ru/#notice/835021",
+  "way": "Запрос предложений в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+  "end": "2026-10-21T11:00:00",
+  "nmck": 1500000.0
+ },
+ "32616452870": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616452870",
+  "etp": "АКЦИОНЕРНОЕ ОБЩЕСТВО «ЕДИНАЯ ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА»",
+  "etp_url": "https://corp.roseltorg.ru/#notice/836575",
+  "way": "Запрос котировок в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+  "end": "2026-10-21T11:00:00",
+  "nmck": 700000.0
+ },
+ "32616484297": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616484297",
+  "etp": "РТС-тендер",
+  "etp_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4067536",
+  "way": "Электронный магазин",
+  "end": "2026-10-22T07:00:00",
+  "nmck": 671066.0
+ },
+ "32616480814": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616480814",
+  "etp": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"АГЕНТСТВО ПО ГОСУДАРСТВЕННОМУ ЗАКАЗУ РЕСПУБЛИКИ ТАТАРСТАН\"",
+  "etp_url": "https://223etp.zakazrf.ru/NotificationEX/id/509007",
+  "way": "Конкурентный отбор",
+  "end": "2026-10-26T10:00:00",
+  "nmck": 3163250.24
+ },
+ "32616450774": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616450774",
+  "etp": "ООО «РЭСТ»",
+  "etp_url": "https://etp.r-est.ru/app/OfferCard/page?OfferCard.offerUUID=Scorebobgvmb580000q27nr7kub1j7074",
+  "way": "Запрос котировок в электронной форме",
+  "end": "2026-10-20T12:00:00",
+  "nmck": 639848.52
+ },
+ "32616346943": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616346943",
+  "etp": null,
+  "etp_url": null,
+  "way": null,
+  "end": "2026-10-29T19:00:00",
+  "nmck": 101102908.0
+ }
+}
