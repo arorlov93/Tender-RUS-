@@ -116,5 +116,10 @@
   "href": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616465624",
   "etp": "Система электронных торгов B2B-Center",
   "etp_url": "http://www.b2b-center.ru/market/postavka-zapornoi-armatury-dlia-nuzhd-ooo-uptzh-dlia-ppd/tender-4638856/"
+ },
+ "0345100011326000005": {
+  "href": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0345100011326000005",
+  "etp": "РТС-тендер",
+  "etp_url": "http://www.rts-tender.ru"
  }
 }
