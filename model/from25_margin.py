@@ -2,10 +2,10 @@
 import io, contextlib, json, os, re, sys, datetime as dt, openpyxl
 from openpyxl.styles import Font, PatternFill, Border, Side
 from tidy import tidy
+SP = sys.argv[1] if len(sys.argv) > 1 else ""  # до импорта: eval_all переписывает sys.argv
 with contextlib.redirect_stdout(io.StringIO()):
     import eval_all as e
 
-SP = sys.argv[1] if len(sys.argv) > 1 else ""
 EV = {r["num"]: r for r in e.rows}
 T = json.load(open("data/triage_1910.json"))
 L = json.load(open("data/go_links_2010.json"))
@@ -16,7 +16,7 @@ for fn in ("missed_out.json", "rest_out.json"):
         for x in json.load(open(p)): EXTRA[x["num"]] = x
 pct = lambda v: None if v is None else (v / 100 if v > 1 else v)
 WORK = re.compile(r"^(?!.*(поставк|закупк|приобрет)).*(работ|услуг|ремонт|монтаж)|выполнени\w+ работ|оказани\w+ услуг|реализаци|невостребован", re.I)
-NOTPROF = re.compile(r"канцеляр|стройматериал|компьютерн|монтажных нож|игруш|хозяйств", re.I)
+NOTPROF = re.compile(r"канцеляр|стройматериал|компьютерн|монтажных нож|игруш|хозяйственн\w* товар", re.I)
 CAT_M = {"Одежда/СИЗ": "25–35%", "Форма/снаряжение": "25–35%", "СИЗ (респираторы)": "20–30%", "Медрасходники (пробирки)": "30–50%",
          "Сантехника/арматура": "15–25%", "Кабель (ЭОМ)": "10–15%", "СС/видеонаблюдение": "15–20%", "Вентиляция/фильтры": "15–20%", "Соль": "20–40%"}
 SKIP = {"32616453117", "32616452870"}
