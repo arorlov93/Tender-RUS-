@@ -25,6 +25,11 @@ for x in T:
     if "аукцион" in (x["method"] or "").lower(): continue
     try: en = dt.datetime.strptime(x["end"], "%Y-%m-%d %H:%M")
     except Exception: continue
+    exe = str((EXTRA.get(x["num"]) or {}).get("end") or "")  # перенос срока по изменениям извещения
+    m_ = re.search(r"(\d{2})\.(\d{2})\.(\d{4})\D+(\d{1,2}):(\d{2})", exe) or re.search(r"(\d{4})-(\d{2})-(\d{2})\D+(\d{1,2}):(\d{2})", exe)
+    if m_:
+        g_ = m_.groups()
+        en = dt.datetime(int(g_[2]), int(g_[1]), int(g_[0]), int(g_[3]), int(g_[4])) if len(g_[0]) == 2 else dt.datetime(int(g_[0]), int(g_[1]), int(g_[2]), int(g_[3]), int(g_[4]))
     if en < dt.datetime(2026, 10, 25) or WORK.search(x["name"]) or "СМР" in x["num"] or x["num"] in SKIP: continue
     k = (x["name"][:60].lower(), (x["cust"] or "")[:30], x["nmck"])
     if k in seen: continue
