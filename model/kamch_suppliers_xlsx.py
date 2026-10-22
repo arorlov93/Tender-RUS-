@@ -30,7 +30,7 @@ a.append(["Что просить: КП на позиции группы (лис�
 a.append(["№", "Группа", "Позиций", "Сумма по рынку, ₽", "Поставщик", "Телефон", "E-mail", "Сайт", "Звонок: результат", "Цена КП, ₽", "Срок", "Реестр МПТ (№)"]); head(a)
 for i, g in enumerate(ORDER, 1):
     for j, s in enumerate(SUP.get(g, [])[:2]):
-        a.append([i if j == 0 else "", g if j == 0 else "", len(GV[g]["pos"]) if j == 0 else "", GV[g]["val"] if j == 0 else "", s.get("company"), s.get("phone"), s.get("email"), s.get("site"), "", "", "", ""])
+        a.append([i if j == 0 else "", g if j == 0 else "", len(GV[g]["pos"]) if j == 0 else "", GV[g]["val"] if j == 0 else "", s.get("company"), (s.get("phone") + (f"\n[{s['checked']}]" if s.get("checked") else "")), s.get("email"), s.get("site"), "", "", "", ""])
         if j == 0: a.cell(a.max_row, 4).number_format = M
 box(a, 4)
 for i, w in enumerate([4, 32, 8, 14, 32, 22, 26, 20, 22, 14, 12, 16], 1): a.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
@@ -40,7 +40,7 @@ ks = wb.create_sheet("Все поставщики")
 ks.append(["Группа", "Позиций", "Сумма по рынку, ₽", "Поставщик", "Город", "Телефон", "E-mail", "Сайт", "Что закрывает", "Реестр МПТ", "Срок / склад", "Примечание"]); head(ks)
 for g in ORDER:
     for i, sp in enumerate(SUP.get(g, [{}])):
-        ks.append([g if i == 0 else "", len(GV[g]["pos"]) if i == 0 else "", GV[g]["val"] if i == 0 else "", sp.get("company"), sp.get("city"), sp.get("phone"), sp.get("email"), sp.get("site"),
+        ks.append([g if i == 0 else "", len(GV[g]["pos"]) if i == 0 else "", GV[g]["val"] if i == 0 else "", sp.get("company"), sp.get("city"), (sp.get("phone") + (f"\n[{sp['checked']}]" if sp.get("checked") else "")), sp.get("email"), sp.get("site"),
                    str(sp.get("covers") or "")[:110], str(sp.get("registry") or "").split(";")[0].split("(")[0][:45], f'{sp.get("lead_time") or ""}; {sp.get("stock") or ""}'[:90], str(sp.get("note") or "")[:90]])
         if i == 0: ks.cell(ks.max_row, 3).number_format = M
 box(ks, 2)

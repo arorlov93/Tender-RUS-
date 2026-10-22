@@ -115,7 +115,7 @@ for sg, lst in SUP.items():
         SB.setdefault(BIG(sg), {}).setdefault(key, sp)
 for gname, d in sorted(G.items(), key=lambda kv: -(kv[1]["cost"] + kv[1]["est"])):
     for i, sp in enumerate(SB.get(gname, {}).values()):
-        zs.append([gname if i == 0 else "", (d["cost"] + d["est"]) if i == 0 else "", sp.get("company"), sp.get("phone"), sp.get("email"), sp.get("site"), str(sp.get("covers") or "")[:100], ""])
+        zs.append([gname if i == 0 else "", (d["cost"] + d["est"]) if i == 0 else "", sp.get("company"), (sp.get("phone") + (f"\n[{sp['checked']}]" if sp.get("checked") else "")), sp.get("email"), sp.get("site"), str(sp.get("covers") or "")[:100], ""])
         if i == 0: zs.cell(zs.max_row, 2).number_format = M
 for row in zs.iter_rows(min_row=2):
     for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)

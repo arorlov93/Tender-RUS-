@@ -134,7 +134,7 @@ zs = wb.create_sheet("Заводы (КП)")
 zs.append(["Группа", "Сумма после сверки, ₽", "Поставщик", "Телефон", "E-mail", "Сайт", "Что закрывает", "Звонок: результат", "Цена КП", "Срок", "Реестр МПТ №"]); head(zs)
 for g_, d in sorted(G.items(), key=lambda kv: -kv[1]["rec"]):
     for i, sp in enumerate(SUP.get(g_, [])):
-        zs.append([g_ if i == 0 else "", d["rec"] if i == 0 else "", sp.get("company"), sp.get("phone"), sp.get("email"), sp.get("site"), str(sp.get("covers") or "")[:110], "", "", "", ""])
+        zs.append([g_ if i == 0 else "", d["rec"] if i == 0 else "", sp.get("company"), (sp.get("phone") + (f"\n[{sp['checked']}]" if sp.get("checked") else "")), sp.get("email"), sp.get("site"), str(sp.get("covers") or "")[:110], "", "", "", ""])
         if i == 0: zs.cell(zs.max_row, 2).number_format = M
 for row in zs.iter_rows(min_row=2):
     for c in row: c.border = Border(top=thin, bottom=thin, left=thin, right=thin)

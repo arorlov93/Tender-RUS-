@@ -66,7 +66,7 @@ for g in order:
     ws.merge_cells(start_row=ws.max_row, start_column=3, end_row=ws.max_row, end_column=5); ws.merge_cells(start_row=ws.max_row, start_column=10, end_row=ws.max_row, end_column=11)
     r0 = ws.max_row
     for i, s in enumerate(SUP.get(g, []), 1):
-        ws.append([i, s.get("company"), sh(", ".join(s["subs"]) + ": " + str(s.get("covers") or ""), 140), "", "", s.get("phone"), f'{s.get("email") or ""}\n{s.get("site") or ""}', s.get("city"), sh(str(s.get("registry") or "").split(";")[0].split("(")[0], 30), "", ""])
+        ws.append([i, s.get("company"), sh(", ".join(s["subs"]) + ": " + str(s.get("covers") or ""), 140), "", "", (s.get("phone") + (f"\n[{s['checked']}]" if s.get("checked") else "")), f'{s.get("email") or ""}\n{s.get("site") or ""}', s.get("city"), sh(str(s.get("registry") or "").split(";")[0].split("(")[0], 30), "", ""])
         ws.merge_cells(start_row=ws.max_row, start_column=3, end_row=ws.max_row, end_column=5); ws.merge_cells(start_row=ws.max_row, start_column=10, end_row=ws.max_row, end_column=11)
     box(ws, r0, ws.max_row)
     ws.append([]); ws.append(["ПОЗИЦИИ ДЛЯ ЗАПРОСА"]); ws.cell(ws.max_row, 1).font = Font(bold=True)
