@@ -58,5 +58,22 @@ if not n: first.append(["", "поиск заводов идёт — лист з�
 for i, w in enumerate([4, 30, 14, 30, 36, 22, 24, 24, 16, 30, 30, 12, 16], 1): first.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 first.row_dimensions[3].height = 40; first.freeze_panes = "C4"
 first.page_setup.orientation = "landscape"; first.page_setup.fitToWidth = 1; first.page_setup.fitToHeight = 0; first.sheet_properties.pageSetUpPr.fitToPage = True
+# лист «Покрытие»: по каждой позиции — какие проверенные заводы её закрывают
+V = [x for f in src for x in json.load(open(f)) if x.get("verified")]
+cv = wb.create_sheet("Покрытие", 1)
+cv.append(["Таблица / № в ТЗ", "Позиция ТЗ", "Кол-во", "Проверенных заводов", "Какие заводы"]); head(cv, 1)
+NOTE = {"1.3/135": "не закрыта: у проверенных заводов нет нерж. муфтового Ду15 на Ру63 — искать дополнительно",
+        "1.3/32": "только частичный аналог (Гранлок RD16, не аксиальный) — согласовать эквивалент с заказчиком", "1.3/33": "только частичный аналог (Гранлок RD16) — согласовать",
+        "1.3/34": "только частичный аналог (Гранлок RD16) — согласовать", "1.6/93": "аналог ESBE — МЭОФ ЗЭиМ крупнее, проверить посадку на клапан",
+        "1.3/150": "точного аналога 32нж910р нет — исполнение (морская вода, КОФ, электропривод) согласовать с заводом"}
+for r in R:
+    tt = f'{r["table"]}/{r["n"]}'; t = T[(r["table"], r["n"])]
+    fs = [x["company"].split("(")[0].strip() for x in V if tt in (x.get("covers_tt") or [])]
+    cv.append([tt, t["Наименование"], t["qty"], len(fs), "; ".join(fs) + (f" — {NOTE[tt]}" if tt in NOTE else "")])
+    cv.cell(cv.max_row, 4).fill = PatternFill("solid", fgColor="F8CBAD" if not fs else "FFEB9C" if len(fs) == 1 or tt in NOTE else "C6EFCE")
+    for c in cv[cv.max_row]: c.border = BOX; c.alignment = Alignment(wrap_text=True, vertical="top")
+for i, w in enumerate([12, 50, 8, 12, 90], 1): cv.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+cv.freeze_panes = "C2"; cv.auto_filter.ref = f"A1:E{cv.max_row}"
+print("без заводов:", [c[0].value for c in cv.iter_rows(min_row=2) if c[3].value == 0])
 wb.save("../KAMCHATKA_REMAINING_ZAVODY_SPEC.xlsx")
 print("заводов", n, "| позиций", {g: sum(1 for r in R if r["group"] == g) for _, g in SHEETS})
