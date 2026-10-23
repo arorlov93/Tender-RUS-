@@ -50,12 +50,12 @@ for f in src:
     for x in json.load(open(f)):
         if not x.get("verified"): continue
         n += 1
-        first.append([n, x["company"], x.get("plant_city"), ", ".join(x.get("covers_tt") or [])[:300], str(x.get("covers_note") or "")[:200], str(x.get("gisp") or "")[:120],
+        first.append([n, x["company"], x.get("plant_city"), f'{len(x.get("covers_tt") or [])} поз. — список на листе «Покрытие»', str(x.get("covers_note") or "")[:200], str(x.get("gisp") or "")[:120],
                       x.get("phone"), x.get("email"), x.get("site"), str(x.get("contact_check") or "")[:160], (x.get("catalog_urls") or [""])[0], None, None])
         for c in first[first.max_row]: c.border = BOX; c.alignment = Alignment(wrap_text=True, vertical="top")
-        first.row_dimensions[first.max_row].height = 60
+        first.row_dimensions[first.max_row].height = 105
 if not n: first.append(["", "поиск заводов идёт — лист заполнится после проверки"])
-for i, w in enumerate([4, 30, 14, 30, 36, 22, 24, 24, 16, 30, 30, 12, 16], 1): first.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+for i, w in enumerate([4, 30, 14, 16, 44, 26, 24, 24, 16, 34, 34, 12, 16], 1): first.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 first.row_dimensions[3].height = 40; first.freeze_panes = "C4"
 first.page_setup.orientation = "landscape"; first.page_setup.fitToWidth = 1; first.page_setup.fitToHeight = 0; first.sheet_properties.pageSetUpPr.fitToPage = True
 # лист «Покрытие»: по каждой позиции — какие проверенные заводы её закрывают
