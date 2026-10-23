@@ -28,26 +28,26 @@ F.sort(key=lambda d: (-len(d["prices"]), d["kit"] or sum(d["prices"].values()), 
 wb = openpyxl.load_workbook("../PPU_UFA_SPEC_KP.xlsx")
 ws = wb.create_sheet("Заводы", 0); wb.active = 0
 ws.append(["Заводы-производители отводов ППУ-ПЭ — для запроса КП (поставка в г. Уфа)"]); ws["A1"].font = Font(bold=True, size=13)
-ws.append(["Цены — с сайтов заводов, октябрь 2026, с НДС, за 1 шт («от», не оферта). Пусто — цена только по запросу. Контакты — со страниц официальных сайтов, сверены в двух местах сайта."])
-H = ["№", "Завод", "Город", "До Уфы, км", "108×4,5 (3 шт), ₽/шт", "377×8 (2 шт), ₽/шт", "426×8 (3 шт), ₽/шт", "530×9 (1 шт), ₽/шт", "Комплект по сайту, ₽", "Телефон", "E-mail", "Сайт", "Где проверен контакт",
+ws.append(["Стоимость комплекта (9 шт: 108×3, 377×2, 426×3, 530×1) — по прайсам на сайтах заводов, октябрь 2026, с НДС, без доставки. Контакты — со страниц официальных сайтов, сверены в двух местах сайта."])
+H = ["№", "Завод", "Город", "До Уфы, км", "Стоимость комплекта, ₽", "Телефон", "E-mail", "Сайт", "Где проверен контакт",
      "Отправлен запрос (дата)", "Ответ / цена КП"]
 ws.append(H)
 for c in ws[3]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True, vertical="center", horizontal="center")
 for i, d in enumerate(F, 1):
     p = d["prices"]
     km = re.search(r"\d[\d\s]*", str(d["distance_to_ufa_km"] or "")); city = re.split(r"[(;,]", str(d["plant_city"] or ""))[0].strip()[:28]
-    ws.append([i, d["company"], city, int(km.group(0).replace(" ", "")) if km else None, p.get("108"), p.get("377"), p.get("426"), p.get("530"), d["kit"], d["phone"], d["email"], d["site"],
+    ws.append([i, d["company"], city, int(km.group(0).replace(" ", "")) if km else None, d["kit"] or "по запросу", d["phone"], d["email"], d["site"],
                str(d["contact_check"] or "")[:140], None, None])
-    for j in range(5, 10): ws.cell(ws.max_row, j).number_format = M
+    ws.cell(ws.max_row, 5).number_format = M
     for c in ws[ws.max_row]: c.border = BOX; c.alignment = Alignment(wrap_text=True, vertical="center")
     ws.row_dimensions[ws.max_row].height = 48
 ws.row_dimensions[3].height = 44
-for i, w in enumerate([4, 34, 16, 9, 12, 12, 12, 12, 14, 28, 26, 18, 36, 14, 18], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+for i, w in enumerate([4, 34, 16, 9, 16, 28, 26, 18, 36, 14, 18], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 ws.append([])
-for t in ["108: у НЗТИ и НИК на сайте только стенка 4,0 / 5,0 мм (в ТЗ 4,5) — цену не ставим, запросить 108×4,5. Комплект считается, только если есть цены на все 4 позиции.",
+for t in ["«По запросу» — на сайте нет цен на все 4 позиции (у НЗТИ и НИК нет 108×4,5 — в ТЗ стенка 4,5 мм).",
           "НЗТИ: на карточках «Отвод ППУ ГОСТ 10704» — в запросе требовать крутоизогнутый отвод по ГОСТ 17375/17380 (как в ТЗ).",
           "Спецификация для запроса — следующие листы: «Спецификация», «ТЗ дословно», «Документы к отгрузке»."]:
-    ws.append([t]); ws.merge_cells(start_row=ws.max_row, start_column=1, end_row=ws.max_row, end_column=15)
+    ws.append([t]); ws.merge_cells(start_row=ws.max_row, start_column=1, end_row=ws.max_row, end_column=11)
 ws.freeze_panes = "C4"
 ws.page_setup.orientation = "landscape"; ws.page_setup.fitToWidth = 1; ws.page_setup.fitToHeight = 0; ws.sheet_properties.pageSetUpPr.fitToPage = True
 wb.save("../PPU_UFA_ZAVODY_SPEC.xlsx")
