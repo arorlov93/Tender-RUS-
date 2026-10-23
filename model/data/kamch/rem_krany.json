@@ -945,5 +945,26 @@
   "contact_check": "не проверялось / не применимо",
   "price_note": "",
   "verified": false
+ },
+ {
+  "company": "ЗАО «Арматурная Компания «ФОБОС»",
+  "plant_city": "Рыбинск (Ярославская обл.)",
+  "site": "fobosarm.ru",
+  "is_manufacturer": "да",
+  "manufacturer_evidence_url": "https://fobosarm.ru/contacts/ (адрес производства: Рыбинск, ул. Сысоевская, 23; 2,5 га, своя лаборатория — fobosarm.ru/about/)",
+  "covers_tt": [
+   "1.3/135"
+  ],
+  "covers_note": "Кран шаровый муфтовый Ду6–50, Ру до 6,3 МПа; корпус 1.4408 (литьё, аналог CF8M/AISI 316 ≈ 08Х17Н13М2) или 12Х18Н9ТЛ/12Х18Н10Т; седло фторопласт Ф4; серии МОНО/ЭКОНОМ/РЕТРО. ВНИМАНИЕ: на сайте температура до +160 °С, в ТЗ до +180 °С; строительная длина в ТЗ 52 мм — уточнить у завода",
+  "catalog_urls": [
+   "https://fobosarm.ru/products/kran-sharovyy-muftovyy/"
+  ],
+  "gisp": "не найдено (запросить у завода)",
+  "phone": "8-800-700-62-60; отдел продаж +7 (4855) 21-77-88",
+  "email": "info@fobosarm.ru",
+  "contact_url": "https://fobosarm.ru/contacts/",
+  "contact_check": "8-800-700-62-60 и info@fobosarm.ru совпадают на главной, стр. «О компании», карточке крана и стр. «Контакты» (проверено 23.10.2026)",
+  "price_note": "по запросу",
+  "verified": true
  }
 ]
