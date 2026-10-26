@@ -1,0 +1,3188 @@
+[
+ {
+  "num": "32616501405",
+  "name": "Поставка труб ПЭ100 и ПП, фитингов в ассортименте",
+  "cust": "ООО «СМЭУ «Заневка»",
+  "law": "223-ФЗ",
+  "method": "Запрос предложений в электронной форме (ЭТП Торги-Онлайн) — не аукцион",
+  "end": "2026-11-05 12:00",
+  "nmck": 7019054.69,
+  "positions": [
+   {
+    "item": "Втулка под фланец Диам 225 мм",
+    "qty": 28.0,
+    "unit": "Штука",
+    "nmck_unit": 990.35,
+    "cost_unit": 1330.91,
+    "cost_src": "ПрофТехноПласт https://proftehnoplast.ru/product/vtulka-pod-flanets-litaya-d-225-pe100-sdr11-a-f/"
+   },
+   {
+    "item": "Втулка под фланец Диам 110 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 244.65,
+    "cost_unit": 291.47,
+    "cost_src": "ПрофТехноПласт https://proftehnoplast.ru/product/vtulka-pod-flanets-litaya-d-110-pe100-sdr11-a-f/"
+   },
+   {
+    "item": "Втулка под фланец Диам 63 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 139.38,
+    "cost_unit": 81.75,
+    "cost_src": "ПрофТехноПласт https://proftehnoplast.ru/product/vtulka-pod-flanets-litaya-d-63-pe100-sdr11-a-f/"
+   },
+   {
+    "item": "Фланец прижимной Диам 219 мм",
+    "qty": 28.0,
+    "unit": "Штука",
+    "nmck_unit": 6119.08,
+    "cost_unit": 5201.22,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Фланец прижимной Диам 108 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 2062.39,
+    "cost_unit": 1753.03,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Фланец прижимной  Диам 57 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 1102.28,
+    "cost_unit": 936.94,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Тройник равнопроходный Диам 225х225 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 3702.78,
+    "cost_unit": 3147.36,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Тройник неравнопроходный Диам 225х110 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 5715.19,
+    "cost_unit": 4857.91,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Тройник неравнопроходный Диам 225х63 мм",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": 6098.01,
+    "cost_unit": 5183.31,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Муфта электросварная Диам 225 мм",
+    "qty": 105.0,
+    "unit": "Штука",
+    "nmck_unit": 2503.83,
+    "cost_unit": 2418.02,
+    "cost_src": "ПрофТехноПласт муфта э/св 225 SDR11 https://proftehnoplast.ru/product/mufta-elektrosvarnaya-d-225-sdr11-pe100-a-f/"
+   },
+   {
+    "item": "Труба Диам 225 мм",
+    "qty": 2990.0,
+    "unit": "Метр",
+    "nmck_unit": 2044.46,
+    "cost_unit": 1543,
+    "cost_src": "ПрофТехноПласт: труба ПЭ100 225х13,4 SDR17 = 1 543 ₽/м (SDR13,6 = 1 881; SDR11 = 2 278 — выше НМЦК 2 044!) — SDR в ТЗ не виден, принят SDR17 https://proftehnoplast.ru/catalog/truby-pe-100-gost-18599-2001/?PAGEN_1=2"
+   },
+   {
+    "item": "Труба Диам 450 мм",
+    "qty": 42.0,
+    "unit": "Метр",
+    "nmck_unit": 6403.27,
+    "cost_unit": 5500,
+    "cost_src": "[оценка] 450 мм (вероятно ПП/ПЭ футляр SN8/SDR26): рынок 5–6 тыс. ₽/м; у ПрофТехноПласт диаметры только до 250"
+   },
+   {
+    "item": "Муфта защитная Диам 225 мм",
+    "qty": 40.0,
+    "unit": "Штука",
+    "nmck_unit": 1873.74,
+    "cost_unit": 1592.68,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Муфта защитная Диам 63 мм",
+    "qty": 3.0,
+    "unit": "Штука",
+    "nmck_unit": 331.02,
+    "cost_unit": 281.37,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Отвод сварной Диам 225 мм",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": 2929.77,
+    "cost_unit": 2490.3,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   },
+   {
+    "item": "Муфта защитная Диам 225 мм",
+    "qty": 1.0,
+    "unit": "Штука",
+    "nmck_unit": 2267.66,
+    "cost_unit": 1927.51,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "Втулка под фланец Диам 225 мм",
+    "qty": 28.0,
+    "unit": "Штука",
+    "nmck_unit": 990.35,
+    "cost_unit": 1330.91,
+    "cost_src": "ПрофТехноПласт https://proftehnoplast.ru/product/vtulka-pod-flanets-litaya-d-225-pe100-sdr11-a-f/",
+    "margin_unit_pct": -0.344
+   },
+   {
+    "item": "Втулка под фланец Диам 110 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 244.65,
+    "cost_unit": 291.47,
+    "cost_src": "ПрофТехноПласт https://proftehnoplast.ru/product/vtulka-pod-flanets-litaya-d-110-pe100-sdr11-a-f/",
+    "margin_unit_pct": -0.191
+   },
+   {
+    "item": "Втулка под фланец Диам 63 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 139.38,
+    "cost_unit": 81.75,
+    "cost_src": "ПрофТехноПласт https://proftehnoplast.ru/product/vtulka-pod-flanets-litaya-d-63-pe100-sdr11-a-f/",
+    "margin_unit_pct": 0.413
+   },
+   {
+    "item": "Фланец прижимной Диам 219 мм",
+    "qty": 28.0,
+    "unit": "Штука",
+    "nmck_unit": 6119.08,
+    "cost_unit": 5201.22,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Фланец прижимной Диам 108 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 2062.39,
+    "cost_unit": 1753.03,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Фланец прижимной  Диам 57 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 1102.28,
+    "cost_unit": 936.94,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Тройник равнопроходный Диам 225х225 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 3702.78,
+    "cost_unit": 3147.36,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Тройник неравнопроходный Диам 225х110 мм",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": 5715.19,
+    "cost_unit": 4857.91,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Тройник неравнопроходный Диам 225х63 мм",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": 6098.01,
+    "cost_unit": 5183.31,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Муфта электросварная Диам 225 мм",
+    "qty": 105.0,
+    "unit": "Штука",
+    "nmck_unit": 2503.83,
+    "cost_unit": 2418.02,
+    "cost_src": "ПрофТехноПласт муфта э/св 225 SDR11 https://proftehnoplast.ru/product/mufta-elektrosvarnaya-d-225-sdr11-pe100-a-f/",
+    "margin_unit_pct": 0.034
+   },
+   {
+    "item": "Труба Диам 225 мм",
+    "qty": 2990.0,
+    "unit": "Метр",
+    "nmck_unit": 2044.46,
+    "cost_unit": 1543,
+    "cost_src": "ПрофТехноПласт: труба ПЭ100 225х13,4 SDR17 = 1 543 ₽/м (SDR13,6 = 1 881; SDR11 = 2 278 — выше НМЦК 2 044!) — SDR в ТЗ не виден, принят SDR17 https://proftehnoplast.ru/catalog/truby-pe-100-gost-18599-2001/?PAGEN_1=2",
+    "margin_unit_pct": 0.245
+   },
+   {
+    "item": "Труба Диам 450 мм",
+    "qty": 42.0,
+    "unit": "Метр",
+    "nmck_unit": 6403.27,
+    "cost_unit": 5500,
+    "cost_src": "[оценка] 450 мм (вероятно ПП/ПЭ футляр SN8/SDR26): рынок 5–6 тыс. ₽/м; у ПрофТехноПласт диаметры только до 250",
+    "margin_unit_pct": 0.141
+   },
+   {
+    "item": "Муфта защитная Диам 225 мм",
+    "qty": 40.0,
+    "unit": "Штука",
+    "nmck_unit": 1873.74,
+    "cost_unit": 1592.68,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Муфта защитная Диам 63 мм",
+    "qty": 3.0,
+    "unit": "Штука",
+    "nmck_unit": 331.02,
+    "cost_unit": 281.37,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Отвод сварной Диам 225 мм",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": 2929.77,
+    "cost_unit": 2490.3,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   },
+   {
+    "item": "Муфта защитная Диам 225 мм",
+    "qty": 1.0,
+    "unit": "Штука",
+    "nmck_unit": 2267.66,
+    "cost_unit": 1927.51,
+    "cost_src": "[оценка] 85% от цены НМЦК за ед. (рыночных цен на эту позицию не нашли; фланцы стальные/тройники/защитные муфты)",
+    "margin_unit_pct": 0.15
+   }
+  ],
+  "cost_total": 5428195,
+  "logistics": 130000,
+  "margin_pct": 0.2081,
+  "net_at_nmck": 1038676,
+  "exp_disc": 0.1,
+  "net_expected": 446830,
+  "breakeven_disc": 0.1755,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "87% суммы — труба 225 мм (2 990 м по 2 044 ₽). SDR в ЕИС не указан (ТЗ в Прил.1 — zakupki.gov.ru недоступен): при SDR17 маржа ок, при SDR11 (2 278 ₽/м) себестоимость 7.63 млн ≈ НМЦК → убыток. Втулка 225 по рынку 1 331 > НМЦК 990. Нацрежим: ограничение (ПП 1875) по ПЭ-позициям — нужен российский производитель (ГИСП/реестр). Доставка в Тихвин ~27 т — 2 фуры [оценка 130 тыс.]. Цены ПрофТехноПласт — сайт, НДС не указан.",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616501405",
+   "https://proftehnoplast.ru/catalog/truby-pe-100-gost-18599-2001/?PAGEN_1=2",
+   "https://proftehnoplast.ru/catalog/mufty-elektrosvarnye/",
+   "https://proftehnoplast.ru/catalog/vtulki-pod-flanets/",
+   "https://etp.etptorgionline.ru/app/OfferCard/page?OfferCard.offerUUID=Scorebofs000080000q2pu0af9egppsrc"
+  ],
+  "prep": "Подача до 05.11.2026 12:00 (по ЕИС) на ЭТП Торги-Онлайн (https://etp.etptorgionline.ru/app/OfferCard/page?OfferCard.offerUUID=Scorebofs000080000q2pu0af9egppsrc), аккредитация на площадке, КЭП. Обеспечение заявки/договора в ЕИС не указано — проверить в документации (ЗП поставка трубы ПЭ100 и ПП.docx, Прил.2 проект договора). Форма заявки — Прил.5, критерии — Прил.4. Обязательно скачать Прил.1 ТЗ (SDR, ГОСТ 18599) и Прил.3 НМЦД.xlsx до расчёта цены. Документы о российском происхождении ПЭ-труб/фитингов (реестр промпродукции ГИСП) — ограничение ПП 1875. МСП-требований нет."
+ },
+ {
+  "num": "32616491901",
+  "name": "Фасонные изделия и элементы в ППУ изоляции для филиала «Свердловский» ПАО «Т Плюс» (242/27, 4644126)",
+  "cust": "ПАО «Т Плюс» (филиал «Свердловский»)",
+  "law": "223-ФЗ",
+  "method": "Запрос цен с ограниченным участием в эл. форме, закрытая процедура на ЭТП tender.tplusgroup.ru — не аукцион",
+  "end": "2026-10-30 12:00",
+  "nmck": 8772811.82,
+  "positions": [
+   {
+    "item": "ТРОЙНИК ШК.ВОЗ.820-57-1-ППУ-ОЦ ГОСТ3073",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 250000,
+    "cost_src": "[оценка] ЛТР тройник с шаровым краном воздушника 530/710 = 140 000 ₽ → 820 ×1,8 https://ppu.spb.ru/shaped-element/trojnik-s-sharovym-kranom-vozdushnika-v-ppu/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 219-ППУ2-ПЭ ГОСТ30732",
+    "qty": 22.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2494,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 219/.100 = 2267 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 108-ППУ2-ПЭ ГОСТ30732",
+    "qty": 112.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 969,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 108/.100 = 881 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ОТВОД 90 219Х6-09Г2С-ППУ2-ПЭ",
+    "qty": 16.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18924,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 219 ПЭ-1 L1000 = 17204 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 89-ППУ2-ПЭ ГОСТ30732",
+    "qty": 22.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 930,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 89/.100 = 845 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 76-ППУ2-ПЭ ГОСТ30732",
+    "qty": 82.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 930,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 76/.100 = 845 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ОТВОД 90 133Х5-09Г2С-ППУ2-ПЭ",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9476,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 133 ПЭ-1 L1000 = 8615 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 159-ППУ2-ПЭ ГОСТ30732",
+    "qty": 78.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1728,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 159/.100 = 1571 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.820-2-ППУПЭ С К/В ГОСТ30732",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 75000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 57-ППУ2-ОЦ ГОСТ30732",
+    "qty": 22.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 838,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 57/.100 = 762 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 108-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 24.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8052,
+    "cost_src": "ЛТР концевой элемент с КВ 108 = 7320 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 76-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6732,
+    "cost_src": "ЛТР концевой элемент с КВ 76 = 6120 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 89-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7700,
+    "cost_src": "ЛТР концевой элемент с КВ 89 = 7000 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 57-ППУ2-ПЭ ГОСТ30732",
+    "qty": 60.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 838,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 57/.100 = 762 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ.57-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6116,
+    "cost_src": "ЛТР концевой элемент с КВ 57 = 5560 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛ.КОНЦ.630-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 52000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ.219-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 15729,
+    "cost_src": "ЛТР концевой элемент с КВ 219 = 14299 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛ.КОНЦ.630Х9-1-ППУ-ПЭ ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 52000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 219Х6-09Г2С-ППУ2-ОЦ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 20035,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 219 ОЦ-1 L1000 = 18214 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 133-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8448,
+    "cost_src": "ЛТР концевой элемент с КВ 133 = 7680 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 133-ППУ2-ПЭ ГОСТ30732",
+    "qty": 76.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1327,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 133/.100 = 1206 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 219-ППУ2-ОЦ ГОСТ30732",
+    "qty": 22.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2494,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 219/.100 = 2267 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ЭЛ.КОНЦ.630-2-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 52000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 38-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5720,
+    "cost_src": "ЛТР концевой элемент с КВ 38 = 5200 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 159Х5 СТ09Г2С 2ППУ-ПЭ ГОСТ30732",
+    "qty": 16.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 10828,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 159 ПЭ-1 L1000 = 10828 ₽ https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 159-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9810,
+    "cost_src": "ЛТР концевой элемент с КВ 159 = 8918 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 89Х4-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5323,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 89 ПЭ-1 L1000 = 4839 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.57Х3.5-255-09Г2СППУ2ПЭ",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7371,
+    "cost_src": "СКТК опора неподв. ППУ 57 ПЭ L1500/2000 = 5361 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.108Х4-315-09Г2СППУ2ПЭ",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 12046,
+    "cost_src": "СКТК опора неподв. ППУ 108 ПЭ L1500/2000 = 8761 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.133Х5-340-09Г2СППУ2ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 16060,
+    "cost_src": "СКТК опора неподв. ППУ 133 ПЭ L1500/2000 = 11680 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.159Х5-400-09Г2СППУ2ПЭ",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 19865,
+    "cost_src": "СКТК опора неподв. ППУ 159 ПЭ L1500/2000 = 14447 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.219Х6-460-09Г2СППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 29134,
+    "cost_src": "СКТК опора неподв. ППУ 219 ОЦ L1500/2000 = 21188 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.219Х6-460-09Г2СППУ2ПЭ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 28916,
+    "cost_src": "СКТК опора неподв. ППУ 219 ПЭ L1500/2000 = 21030 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.45Х3.5-255-09Г2СППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7230,
+    "cost_src": "СКТК опора неподв. ППУ 45 ПЭ L1500/2000 = 5258 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.57Х3.5-255-09Г2СППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8788,
+    "cost_src": "СКТК опора неподв. ППУ 57 ОЦ L1500/2000 = 6391 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.76Х4-275-09Г2СППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 10264,
+    "cost_src": "СКТК опора неподв. ППУ 76 ОЦ L1500/2000 = 7465 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.76Х4-275-09Г2СППУ2ПЭ",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9120,
+    "cost_src": "СКТК опора неподв. ППУ 76 ПЭ L1500/2000 = 6633 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.89Х4-295-09Г2СППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 10348,
+    "cost_src": "СКТК опора неподв. ППУ 89 ПЭ L1500/2000 = 7526 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 38-ППУ2-ПЭ 30732",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 787,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 38/.100 = 715 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 45-ППУ2-ПЭ 30732",
+    "qty": 70.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 787,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 45/.100 = 715 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 76-ППУ2-ОЦ 30732",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 930,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 76/.100 = 845 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/"
+   },
+   {
+    "item": "ОТВОД 10 219Х6-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18924,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 219 ПЭ-1 L1000 = 17204 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 12 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 12 89Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5323,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 89 ПЭ-1 L1000 = 4839 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 15 45Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3145,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 45 ПЭ-1 L1000 = 2859 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 20 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 20 89Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5323,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 89 ПЭ-1 L1000 = 4839 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 25 76Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 4554,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 76 ПЭ-1 L1000 = 4140 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 37 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 45 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 45 219Х6-09Г2С-ППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 20035,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 219 ОЦ-1 L1000 = 18214 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 45 45Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3145,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 45 ПЭ-1 L1000 = 2859 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 45 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 45 76Х4-09Г2С-ППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7004,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 76 ОЦ-1 L1000 = 6367 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 60 45Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3145,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 45 ПЭ-1 L1000 = 2859 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 60 76Х4-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 4554,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 76 ПЭ-1 L1000 = 4140 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 70 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 70 76Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 4554,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 76 ПЭ-1 L1000 = 4140 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 73 133Х5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9476,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 133 ПЭ-1 L1000 = 8615 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 78 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 80 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 80 159Х5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 11911,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 159 ПЭ-1 L1000 = 10828 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 82 133Х5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9476,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 133 ПЭ-1 L1000 = 8615 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 82 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 85 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 42.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 45Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3145,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 45 ПЭ-1 L1000 = 2859 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 57Х3.5-09Г2С-ППУ2ОЦ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6081,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ОЦ-1 L1000 = 5528 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 76Х4-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 4554,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 76 ПЭ-1 L1000 = 4140 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ТРОЙНИК Ш 219Х6/32Х3-09Г2С ППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 33000,
+    "cost_src": "ЛТР тройник с краном воздушника 219/315 = 30 000 ₽ ×1,1 ОЦ/тип 2 https://ppu.spb.ru/shaped-element/trojnik-s-sharovym-kranom-vozdushnika-v-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.219Х6-09Г2С ППУ2-ОЦ К/В ЗМКТ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 15729,
+    "cost_src": "ЛТР концевой элемент с КВ 219 = 14299 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.45Х3.5-09Г2С ППУ2-ПЭ К/В ЗМКТ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5720,
+    "cost_src": "ЛТР концевой элемент с КВ 45 = 5200 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   }
+  ],
+  "lines": [
+   {
+    "item": "ТРОЙНИК ШК.ВОЗ.820-57-1-ППУ-ОЦ ГОСТ3073",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 250000,
+    "cost_src": "[оценка] ЛТР тройник с шаровым краном воздушника 530/710 = 140 000 ₽ → 820 ×1,8 https://ppu.spb.ru/shaped-element/trojnik-s-sharovym-kranom-vozdushnika-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 219Х6-09Г2С-ППУ2-ПЭ",
+    "qty": 16.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18924,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 219 ПЭ-1 L1000 = 17204 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.820-2-ППУПЭ С К/В ГОСТ30732",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 75000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 42.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.159Х5-400-09Г2СППУ2ПЭ",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 19865,
+    "cost_src": "СКТК опора неподв. ППУ 159 ПЭ L1500/2000 = 14447 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 108-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 24.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8052,
+    "cost_src": "ЛТР концевой элемент с КВ 108 = 7320 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 133Х5-09Г2С-ППУ2-ПЭ",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9476,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 133 ПЭ-1 L1000 = 8615 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.219Х6-460-09Г2СППУ2ПЭ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 28916,
+    "cost_src": "СКТК опора неподв. ППУ 219 ПЭ L1500/2000 = 21030 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 159Х5 СТ09Г2С 2ППУ-ПЭ ГОСТ30732",
+    "qty": 16.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 10828,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 159 ПЭ-1 L1000 = 10828 ₽ https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.108Х4-315-09Г2СППУ2ПЭ",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 12046,
+    "cost_src": "СКТК опора неподв. ППУ 108 ПЭ L1500/2000 = 8761 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 159-ППУ2-ПЭ ГОСТ30732",
+    "qty": 78.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1728,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 159/.100 = 1571 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 76-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6732,
+    "cost_src": "ЛТР концевой элемент с КВ 76 = 6120 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.133Х5-340-09Г2СППУ2ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 16060,
+    "cost_src": "СКТК опора неподв. ППУ 133 ПЭ L1500/2000 = 11680 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.76Х4-275-09Г2СППУ2ПЭ",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9120,
+    "cost_src": "СКТК опора неподв. ППУ 76 ПЭ L1500/2000 = 6633 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.219Х6-09Г2С ППУ2-ОЦ К/В ЗМКТ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 15729,
+    "cost_src": "ЛТР концевой элемент с КВ 219 = 14299 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 108-ППУ2-ПЭ ГОСТ30732",
+    "qty": 112.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 969,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 108/.100 = 881 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ.КОНЦ.630-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 52000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ.КОНЦ.630Х9-1-ППУ-ПЭ ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 52000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ.КОНЦ.630-2-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 52000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.57Х3.5-255-09Г2СППУ2ПЭ",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7371,
+    "cost_src": "СКТК опора неподв. ППУ 57 ПЭ L1500/2000 = 5361 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 133-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8448,
+    "cost_src": "ЛТР концевой элемент с КВ 133 = 7680 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 133-ППУ2-ПЭ ГОСТ30732",
+    "qty": 76.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1327,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 133/.100 = 1206 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ.57-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6116,
+    "cost_src": "ЛТР концевой элемент с КВ 57 = 5560 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 219Х6-09Г2С-ППУ2-ОЦ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 20035,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 219 ОЦ-1 L1000 = 18214 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 159-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9810,
+    "cost_src": "ЛТР концевой элемент с КВ 159 = 8918 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 76-ППУ2-ПЭ ГОСТ30732",
+    "qty": 82.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 930,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 76/.100 = 845 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ТРОЙНИК Ш 219Х6/32Х3-09Г2С ППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 33000,
+    "cost_src": "ЛТР тройник с краном воздушника 219/315 = 30 000 ₽ ×1,1 ОЦ/тип 2 https://ppu.spb.ru/shaped-element/trojnik-s-sharovym-kranom-vozdushnika-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ.219-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 15729,
+    "cost_src": "ЛТР концевой элемент с КВ 219 = 14299 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.219Х6-460-09Г2СППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 29134,
+    "cost_src": "СКТК опора неподв. ППУ 219 ОЦ L1500/2000 = 21188 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 45-ППУ2-ПЭ 30732",
+    "qty": 70.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 787,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 45/.100 = 715 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 219-ППУ2-ПЭ ГОСТ30732",
+    "qty": 22.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2494,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 219/.100 = 2267 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 219-ППУ2-ОЦ ГОСТ30732",
+    "qty": 22.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2494,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 219/.100 = 2267 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 57-ППУ2-ПЭ ГОСТ30732",
+    "qty": 60.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 838,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 57/.100 = 762 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМЕНТ КОНЦ. 89-2-ППУ-ПЭ-200 ЗМКТ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7700,
+    "cost_src": "ЛТР концевой элемент с КВ 89 = 7000 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.45Х3.5-09Г2С ППУ2-ПЭ К/В ЗМКТ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5720,
+    "cost_src": "ЛТР концевой элемент с КВ 45 = 5200 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 45 219Х6-09Г2С-ППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 20035,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 219 ОЦ-1 L1000 = 18214 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 10 219Х6-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18924,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 219 ПЭ-1 L1000 = 17204 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 45 45Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3145,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 45 ПЭ-1 L1000 = 2859 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 45Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3145,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 45 ПЭ-1 L1000 = 2859 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 57Х3.5-09Г2С-ППУ2ОЦ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6081,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ОЦ-1 L1000 = 5528 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 80 159Х5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 11911,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 159 ПЭ-1 L1000 = 10828 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 89Х4-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5323,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 89 ПЭ-1 L1000 = 4839 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.89Х4-295-09Г2СППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 10348,
+    "cost_src": "СКТК опора неподв. ППУ 89 ПЭ L1500/2000 = 7526 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.76Х4-275-09Г2СППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 10264,
+    "cost_src": "СКТК опора неподв. ППУ 76 ОЦ L1500/2000 = 7465 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 89-ППУ2-ПЭ ГОСТ30732",
+    "qty": 22.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 930,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 89/.100 = 845 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 73 133Х5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9476,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 133 ПЭ-1 L1000 = 8615 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 82 133Х5-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 9476,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 133 ПЭ-1 L1000 = 8615 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА СКОЛЬЗЯЩАЯ 57-ППУ2-ОЦ ГОСТ30732",
+    "qty": 22.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 838,
+    "cost_src": "ПКФ ТЕПЛО 2026 опора скользящая ГОСТ30732 57/.100 = 762 ₽ ×1,1 тип 2 https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 60 76Х4-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 4554,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 76 ПЭ-1 L1000 = 4140 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 76Х4-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 4554,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 76 ПЭ-1 L1000 = 4140 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.57Х3.5-255-09Г2СППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8788,
+    "cost_src": "СКТК опора неподв. ППУ 57 ОЦ L1500/2000 = 6391 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 45 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 85 57Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3654,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 57 ПЭ-1 L1000 = 3322 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.45Х3.5-255-09Г2СППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7230,
+    "cost_src": "СКТК опора неподв. ППУ 45 ПЭ L1500/2000 = 5258 ₽ ×1,25 индексация к 2026 ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 45 76Х4-09Г2С-ППУ2ОЦ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7004,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 76 ОЦ-1 L1000 = 6367 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 60 45Х3.5-09Г2С-ППУ2ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3145,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 45 ПЭ-1 L1000 = 2859 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 37 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 45 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 78 108Х4-09Г2С-ППУ2ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6120,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 108 ПЭ-1 L1000 = 5564 ₽ ×1,1 тип 2 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   }
+  ],
+  "lines_rest_aggregate": {
+   "count": 13,
+   "qty": 34.0,
+   "cost_sum": 109298,
+   "nmck_sum": null
+  },
+  "cost_total": 5254512,
+  "logistics": 105090,
+  "margin_pct": 0.3891,
+  "net_at_nmck": 2691798,
+  "exp_disc": 0.15,
+  "net_expected": 1582213,
+  "breakeven_disc": 0.3639,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "risks": "Цены за ед. НМЦК нет (только сумма), маржа оценена по себестоимости 73 позиций (2 058 шт). Источник основных цен — прайс СКТК (с НДС, сметные 2021/22 — на отводах совпадают с ПКФ ТЕПЛО 2026, опоры проиндексированы ×1,25), скользящие опоры — ПКФ ТЕПЛО 2026, концевые — ЛТР. Тип 2 (ППУ2) +10% [оценка]. В Екатеринбурге много заводов ППУ (Сайверхот, ТИК, Арамиль, Полевской, Первоуральск) — они участвуют напрямую, ожидаем снижение 15%. Закрытая процедура с ограниченным участием — без допуска не подать. Срок до подачи 4 дня — успеть получить КП завода.",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616491901",
+   "https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+   "https://ppu.spb.ru/shaped-element/trojnik-s-sharovym-kranom-vozdushnika-v-ppu/",
+   "https://ppu76.ru/oporyi-skolzyashhie-po-gost-30732/",
+   "https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+   "https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+  ],
+  "prep": "Подача до 30.10.2026 12:00 (по ЕИС) на ЭТП Т Плюс (B2B-Center): http://www.tender.tplusgroup.ru/market/zakrytaia-protsedura-34ee4ef1c2/tender-4644126/ — ЗАКРЫТАЯ процедура с ограниченным участием: нужна аккредитация на площадке Т Плюс и допуск (квалификация/приглашение) — проверить сегодня. Обеспечение в ЕИС не указано; документация — 242-27 Документация.zip (ЕИС). Нужны: сертификаты соответствия ГОСТ 30732-2020 от завода, письмо завода-производителя/дилерский договор, срок изготовления ППУ 3–5 нед. (поставка 2027 — уточнить график). Цены за ед. НМЦК в ЕИС нет — смотреть обоснование НМЦ в документации.",
+  "decision": "Участвовать",
+  "confidence": "med"
+ },
+ {
+  "num": "32616495280",
+  "name": "Фасонные изделия и элементы в ППУ изоляции для нужд АО «ЕТК» (244/27, 4651032)",
+  "cust": "АО «Екатеринбургская Теплосетевая Компания»",
+  "law": "223-ФЗ",
+  "method": "Закрытый запрос цен в эл. форме на B2B-Center — не аукцион",
+  "end": "2026-11-02 12:00",
+  "nmck": 46388455.4,
+  "positions": [
+   {
+    "item": "ОПОРА НЕП. 1020Х12-1400Х60-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 322500,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 258000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 530Х11-17Г1С-ППУ1-ПЭ",
+    "qty": 25.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 105000,
+    "cost_src": "530: ПКФ ТЕПЛО 530х9 91 103 ₽ (ppu76.ru 2026), СКТК 530х8 96 438, Сайверхот 530х7 17Г1С 107 397 → 105 000 для 530х11 17Г1С [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ОТВОД 90 530Х11-17Г1С-ППУ1-ПЭ",
+    "qty": 1.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 105000,
+    "cost_src": "530: ПКФ ТЕПЛО 530х9 91 103 ₽ (ppu76.ru 2026), СКТК 530х8 96 438, Сайверхот 530х7 17Г1С 107 397 → 105 000 для 530х11 17Г1С [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ОТВОД 56 530Х11-17Г1С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 105000,
+    "cost_src": "530: ПКФ ТЕПЛО 530х9 91 103 ₽ (ppu76.ru 2026), СКТК 530х8 96 438, Сайверхот 530х7 17Г1С 107 397 → 105 000 для 530х11 17Г1С [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ОТВОД 58 530Х11-17Г1С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 105000,
+    "cost_src": "530: ПКФ ТЕПЛО 530х9 91 103 ₽ (ppu76.ru 2026), СКТК 530х8 96 438, Сайверхот 530х7 17Г1С 107 397 → 105 000 для 530х11 17Г1С [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.530-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 46056,
+    "cost_src": "ЛТР концевой элемент с КВ 530 = 41869 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.530Х9-900Х32-20295-ППУ1ПЭ",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 120585,
+    "cost_src": "СКТК опора неподв. ППУ 530 ПЭ L1500/2000 = 96468 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 325Х10-09Г2С-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.325Х8-09Г2С ППУ1-ПЭ К/В ЗИМ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 22828,
+    "cost_src": "ЛТР концевой элемент с КВ 325 = 20753 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЗАГЛУШКА ИЗОЛЯЦИИ 325Х450-1-ППУ-ПЭ К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7614,
+    "cost_src": "ЛТР МЗИ 325 = 6091 ₽ ×1,25 (с к/в, большая оболочка) https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.820-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 75000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП. 820Х11-1300Х50-ППУ1ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 231250,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 185000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 820Х11-17Г1С-ППУ1-ПЭ",
+    "qty": 26.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 323115,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 820х9 17Г1С ППУ-ПЭ 345 578 ₽ ×1,1 стенка 11 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ТРОЙНИК 820Х11/219Х7-17Г1С ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 387739,
+    "cost_src": "[оценка] тройник 820х11/219 ≈ 1,2 × отвод 820 (Сайверхот) https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ЗАГЛУШКА СТ.820-17Г1С-ППУ1-ПЭ 30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 60000,
+    "cost_src": "[оценка] стальная заглушка 17Г1С (≈20–30 тыс.) + изоляция ППУ-ПЭ с ОДК; аналогов с ценой не найдено"
+   },
+   {
+    "item": "ОТВОД 90 426Х11-09Г2С-ППУ1-ПЭ",
+    "qty": 40.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.426-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 31178,
+    "cost_src": "ЛТР концевой элемент с КВ 426 = 28344 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.426Х9-750-09Г2СППУ1ПЭ",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 86754,
+    "cost_src": "СКТК опора неподв. ППУ 426 ПЭ L1500/2000 = 69403 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.720-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 63000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 720Х10-17Г1С-ППУ1-ПЭ",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 154396,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 720х8 17Г1С ППУ-ПЭ 165 129 ₽ ×1,1 стенка 10 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ОТВОД 45 720Х10-17Г1С-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 154396,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 720х8 17Г1С ППУ-ПЭ 165 129 ₽ ×1,1 стенка 10 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ОТВОД 1 720Х10-17Г1С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 154396,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 720х8 17Г1С ППУ-ПЭ 165 129 ₽ ×1,1 стенка 10 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ОПОРА НЕП.720X10-1100X50-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ЭЛЕМЕНТ Z-ОБ.108Х7-09Г2С 10704-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 25000,
+    "cost_src": "[оценка] Z-элемент 108: 2 отвода 108 ППУ (СКТК 5 564–6 451) + труба + работа https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП. 159Х6-400Х20-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18059,
+    "cost_src": "СКТК опора неподв. ППУ 159 ПЭ L1500/2000 = 14447 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОТВОД 85 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 1.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 85 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 1.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 85 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 85 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 87 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 88 273Х10-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 32483,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 273 ПЭ-1 L1000 = 28003 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 56 159Х8-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 13427,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 159 ПЭ-1 L1000 = 10828 ₽ ×1.24 стенка 8.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 78 159Х8-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 13427,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 159 ПЭ-1 L1000 = 10828 ₽ ×1.24 стенка 8.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ЗАГЛУШКА ИЗОЛЯЦИИ 325Х650-1-ППУ-ПЭ К/В",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7614,
+    "cost_src": "ЛТР МЗИ 325 = 6091 ₽ ×1,25 (с к/в, большая оболочка) https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/"
+   },
+   {
+    "item": "ЗАГЛУШКА ИЗОЛЯЦИИ 325Х450-1-ППУ-ПЭ К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7614,
+    "cost_src": "ЛТР МЗИ 325 = 6091 ₽ ×1,25 (с к/в, большая оболочка) https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/"
+   },
+   {
+    "item": "ЗАГЛУШКА ИЗОЛЯЦИИ 273-ППУ1-ПЭ С К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6620,
+    "cost_src": "ЛТР МЗИ 273 = 5296 ₽ ×1,25 (с к/в, большая оболочка) https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/"
+   },
+   {
+    "item": "ЗАГЛУШКА ИЗОЛЯЦИИ ППУ-ПЭ-159Х250 С К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5038,
+    "cost_src": "ЛТР МЗИ 159 = 4030 ₽ ×1,25 (с к/в, большая оболочка) https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/"
+   },
+   {
+    "item": "ОПОРА НЕП.325Х8-650-09Г2СППУ1ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 56382,
+    "cost_src": "СКТК опора неподв. ППУ 325 ПЭ L1500/2000 = 45106 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.273Х8-550-09Г2СППУ1ПЭ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41622,
+    "cost_src": "СКТК опора неподв. ППУ 273 ПЭ L1500/2000 = 33298 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП. 159Х6-400Х20-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18059,
+    "cost_src": "СКТК опора неподв. ППУ 159 ПЭ L1500/2000 = 14447 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 325Х10-09Г2С-ППУ1-ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ОТВОД 90 273Х10-09Г2С-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 32483,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 273 ПЭ-1 L1000 = 28003 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.273-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18539,
+    "cost_src": "ЛТР концевой элемент с КВ 273 = 16854 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.426-2-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 31178,
+    "cost_src": "ЛТР концевой элемент с КВ 426 = 28344 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЗАГЛУШКА ИЗОЛЯЦИИ 273Х400-1-ППУ-ПЭ К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6620,
+    "cost_src": "ЛТР МЗИ 273 = 5296 ₽ ×1,25 (с к/в, большая оболочка) https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/"
+   },
+   {
+    "item": "ОТВОД 90 720Х10-17Г1С-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 154396,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 720х8 17Г1С ППУ-ПЭ 165 129 ₽ ×1,1 стенка 10 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7"
+   },
+   {
+    "item": "ЭЛЕМ.ТР.720Х10-17Г1С ППУ2ПЭ К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 70000,
+    "cost_src": "[оценка] элемент трубы 720х10 ППУ2-ПЭ с кабелем вывода L≈2 м: труба 720 ППУ ≈25–30 тыс./м + вывод"
+   },
+   {
+    "item": "ЗАГЛУШКА СТ.720-17Г1С-ППУ2-ПЭ 30732",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 50000,
+    "cost_src": "[оценка] стальная заглушка 17Г1С (≈20–30 тыс.) + изоляция ППУ-ПЭ с ОДК; аналогов с ценой не найдено"
+   },
+   {
+    "item": "ОПОРА НЕП.720Х10-1100-17Г1СППУ2ПЭ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.720Х10-1100-17Г1СППУ2ПЭ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.720-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 63000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛ.КОНЦ.720-2-ППУПЭ С К/В ГОСТ30732",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 63000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   },
+   {
+    "item": "ЭЛЕМ.ТР.720Х10-17Г1С ППУ2ПЭ К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 70000,
+    "cost_src": "[оценка] элемент трубы 720х10 ППУ2-ПЭ с кабелем вывода L≈2 м: труба 720 ППУ ≈25–30 тыс./м + вывод"
+   },
+   {
+    "item": "ЗАГЛУШКА СТ.720-17Г1С-ППУ2-ПЭ 30732",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 50000,
+    "cost_src": "[оценка] стальная заглушка 17Г1С (≈20–30 тыс.) + изоляция ППУ-ПЭ с ОДК; аналогов с ценой не найдено"
+   },
+   {
+    "item": "ОПОРА НЕП.720Х10-1100-17Г1СППУ2ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ОПОРА НЕП.720Х10-1100-17Г1СППУ2ПЭ",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/"
+   },
+   {
+    "item": "ЭЛ. КОНЦ.159-1-ППУ-ПЭ ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8547,
+    "cost_src": "ЛТР концевой элемент с КВ 159 = 7770 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/"
+   }
+  ],
+  "lines": [
+   {
+    "item": "ОТВОД 90 820Х11-17Г1С-ППУ1-ПЭ",
+    "qty": 26.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 323115,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 820х9 17Г1С ППУ-ПЭ 345 578 ₽ ×1,1 стенка 11 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 426Х11-09Г2С-ППУ1-ПЭ",
+    "qty": 40.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 530Х11-17Г1С-ППУ1-ПЭ",
+    "qty": 25.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 105000,
+    "cost_src": "530: ПКФ ТЕПЛО 530х9 91 103 ₽ (ppu76.ru 2026), СКТК 530х8 96 438, Сайверхот 530х7 17Г1С 107 397 → 105 000 для 530х11 17Г1С [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.720Х10-1100-17Г1СППУ2ПЭ",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП. 820Х11-1300Х50-ППУ1ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 231250,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 185000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 720Х10-17Г1С-ППУ1-ПЭ",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 154396,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 720х8 17Г1С ППУ-ПЭ 165 129 ₽ ×1,1 стенка 10 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.720Х10-1100-17Г1СППУ2ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.530Х9-900Х32-20295-ППУ1ПЭ",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 120585,
+    "cost_src": "СКТК опора неподв. ППУ 530 ПЭ L1500/2000 = 96468 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.426Х9-750-09Г2СППУ1ПЭ",
+    "qty": 14.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 86754,
+    "cost_src": "СКТК опора неподв. ППУ 426 ПЭ L1500/2000 = 69403 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.720Х10-1100-17Г1СППУ2ПЭ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.720Х10-1100-17Г1СППУ2ПЭ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.820-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 75000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ТРОЙНИК 820Х11/219Х7-17Г1С ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 387739,
+    "cost_src": "[оценка] тройник 820х11/219 ≈ 1,2 × отвод 820 (Сайверхот) https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.720X10-1100X50-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 190000,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 152000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП. 1020Х12-1400Х60-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 322500,
+    "cost_src": "[оценка] экстраполяция СКТК (530х8 96 468 ₽, показатель 1,5 по D) = 258000 ×1,25 индексация 2021/22→2026 (ppu76 2026 на малых Ду в 1,2–1,5 раза выше СКТК); щит большого Ø https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 45 720Х10-17Г1С-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 154396,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 720х8 17Г1С ППУ-ПЭ 165 129 ₽ ×1,1 стенка 10 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 720Х10-17Г1С-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 154396,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 720х8 17Г1С ППУ-ПЭ 165 129 ₽ ×1,1 стенка 10 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЗАГЛУШКА СТ.720-17Г1С-ППУ2-ПЭ 30732",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 50000,
+    "cost_src": "[оценка] стальная заглушка 17Г1С (≈20–30 тыс.) + изоляция ППУ-ПЭ с ОДК; аналогов с ценой не найдено",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ.КОНЦ.720-2-ППУПЭ С К/В ГОСТ30732",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 63000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 325Х10-09Г2С-ППУ1-ПЭ",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 1 720Х10-17Г1С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 154396,
+    "cost_src": "Сайверхот 2026 (розн.) отвод 720х8 17Г1С ППУ-ПЭ 165 129 ₽ ×1,1 стенка 10 ×0,85 опт/торг [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.273Х8-550-09Г2СППУ1ПЭ",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41622,
+    "cost_src": "СКТК опора неподв. ППУ 273 ПЭ L1500/2000 = 33298 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.426-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 31178,
+    "cost_src": "ЛТР концевой элемент с КВ 426 = 28344 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП.325Х8-650-09Г2СППУ1ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 56382,
+    "cost_src": "СКТК опора неподв. ППУ 325 ПЭ L1500/2000 = 45106 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 56 530Х11-17Г1С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 105000,
+    "cost_src": "530: ПКФ ТЕПЛО 530х9 91 103 ₽ (ppu76.ru 2026), СКТК 530х8 96 438, Сайверхот 530х7 17Г1С 107 397 → 105 000 для 530х11 17Г1С [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 58 530Х11-17Г1С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 105000,
+    "cost_src": "530: ПКФ ТЕПЛО 530х9 91 103 ₽ (ppu76.ru 2026), СКТК 530х8 96 438, Сайверхот 530х7 17Г1С 107 397 → 105 000 для 530х11 17Г1С [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЗАГЛУШКА СТ.720-17Г1С-ППУ2-ПЭ 30732",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 50000,
+    "cost_src": "[оценка] стальная заглушка 17Г1С (≈20–30 тыс.) + изоляция ППУ-ПЭ с ОДК; аналогов с ценой не найдено",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 325Х10-09Г2С-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМ.ТР.720Х10-17Г1С ППУ2ПЭ К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 70000,
+    "cost_src": "[оценка] элемент трубы 720х10 ППУ2-ПЭ с кабелем вывода L≈2 м: труба 720 ППУ ≈25–30 тыс./м + вывод",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМ.ТР.720Х10-17Г1С ППУ2ПЭ К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 70000,
+    "cost_src": "[оценка] элемент трубы 720х10 ППУ2-ПЭ с кабелем вывода L≈2 м: труба 720 ППУ ≈25–30 тыс./м + вывод",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 89 426Х11-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 69431,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 426 ПЭ-1 L1000 = 55993 ₽ ×1.24 стенка 11.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 273Х10-09Г2С-ППУ1-ПЭ",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 32483,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 273 ПЭ-1 L1000 = 28003 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.720-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 63000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.720-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 63000,
+    "cost_src": "[оценка] экстраполяция ЛТР 530/710 с КВ 41 869 ₽ по Ø https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЗАГЛУШКА СТ.820-17Г1С-ППУ1-ПЭ 30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 60000,
+    "cost_src": "[оценка] стальная заглушка 17Г1С (≈20–30 тыс.) + изоляция ППУ-ПЭ с ОДК; аналогов с ценой не найдено",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 90 530Х11-17Г1С-ППУ1-ПЭ",
+    "qty": 1.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 105000,
+    "cost_src": "530: ПКФ ТЕПЛО 530х9 91 103 ₽ (ppu76.ru 2026), СКТК 530х8 96 438, Сайверхот 530х7 17Г1С 107 397 → 105 000 для 530х11 17Г1С [оценка] https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.530-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 46056,
+    "cost_src": "ЛТР концевой элемент с КВ 530 = 41869 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 85 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 85 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 87 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 88 273Х10-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 32483,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 273 ПЭ-1 L1000 = 28003 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.426-2-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 31178,
+    "cost_src": "ЛТР концевой элемент с КВ 426 = 28344 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛЕМЕНТ Z-ОБ.108Х7-09Г2С 10704-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 25000,
+    "cost_src": "[оценка] Z-элемент 108: 2 отвода 108 ППУ (СКТК 5 564–6 451) + труба + работа https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЗАГЛУШКА ИЗОЛЯЦИИ 325Х650-1-ППУ-ПЭ К/В",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7614,
+    "cost_src": "ЛТР МЗИ 325 = 6091 ₽ ×1,25 (с к/в, большая оболочка) https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.325Х8-09Г2С ППУ1-ПЭ К/В ЗИМ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 22828,
+    "cost_src": "ЛТР концевой элемент с КВ 325 = 20753 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 85 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 1.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 85 325Х10-09Г2С-ППУ1ПЭ",
+    "qty": 1.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 41149,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 325 ПЭ-1 L1000 = 35473 ₽ ×1.16 стенка 10.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.273-1-ППУПЭ С К/В ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18539,
+    "cost_src": "ЛТР концевой элемент с КВ 273 = 16854 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП. 159Х6-400Х20-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18059,
+    "cost_src": "СКТК опора неподв. ППУ 159 ПЭ L1500/2000 = 14447 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОПОРА НЕП. 159Х6-400Х20-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 18059,
+    "cost_src": "СКТК опора неподв. ППУ 159 ПЭ L1500/2000 = 14447 ₽ ×1,25 индексация к 2026 https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 56 159Х8-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 13427,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 159 ПЭ-1 L1000 = 10828 ₽ ×1.24 стенка 8.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ОТВОД 78 159Х8-09Г2С-ППУ1ПЭ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 13427,
+    "cost_src": "СКТК прайс отводов ППУ (с НДС) 159 ПЭ-1 L1000 = 10828 ₽ ×1.24 стенка 8.0 https://www.sktk-ppu.ru/production/ppu/otvod-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЭЛ. КОНЦ.159-1-ППУ-ПЭ ГОСТ30732",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8547,
+    "cost_src": "ЛТР концевой элемент с КВ 159 = 7770 ₽ ×1,1 (ppu76 2026 на 57–76 на 5–30% выше) https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "ЗАГЛУШКА ИЗОЛЯЦИИ 325Х450-1-ППУ-ПЭ К/В",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7614,
+    "cost_src": "ЛТР МЗИ 325 = 6091 ₽ ×1,25 (с к/в, большая оболочка) https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/",
+    "margin_unit_pct": null
+   }
+  ],
+  "lines_rest_aggregate": {
+   "count": 4,
+   "qty": 8.0,
+   "cost_sum": 51784,
+   "nmck_sum": null
+  },
+  "cost_total": 35734598,
+  "logistics": 714692,
+  "margin_pct": 0.2143,
+  "net_at_nmck": 7114266,
+  "exp_disc": 0.15,
+  "net_expected": 1247054,
+  "breakeven_disc": 0.1819,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "risks": "Цены за ед. НМЦК нет. 60% себестоимости — Ду 720–1020 (отводы 820х11 ×26, опоры 720 ×34, опоры 820/1020 со щитами): цены на них в открытых прайсах только у Сайверхот (розница: 720х8 165 тыс., 820х9 346 тыс.) — пересчитаны ×1,1 стенка ×0,85 [оценка]; неподвижные опоры 720–1020 — экстраполяция [оценка]. Погрешность себестоимости ±20%. Конкуренция — уральские заводы напрямую. Закрытая процедура — без приглашения не подать.",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616495280",
+   "https://ppu.spb.ru/shaped-element/konczevoj-element-v-ppu/",
+   "https://ppu.spb.ru/shaped-element/metallicheskaya-zaglushka-izolyaczii-mzi/",
+   "https://saverhot.ru/catalog/otvody_stalnye_ppu/pe/?PAGEN_1=7",
+   "https://www.sktk-ppu.ru/production/ppu/opora-nepodvizhnaya-ppu/",
+   "https://www.sktk-ppu.ru/production/ppu/otvod-ppu/"
+  ],
+  "prep": "Подача до 02.11.2026 12:00 (по ЕИС) на B2B-Center: http://www.b2b-center.ru/market/zakrytaia-protsedura-e563d346c8/tender-4651032/ — ЗАКРЫТЫЙ запрос цен (группа Т Плюс): нужна аккредитация на B2B-Center и приглашение/допуск заказчика — проверить сразу. Обеспечение в ЕИС не указано; документация 244-27 Документация.zip. Нужны КП заводов на крупные Ду (530–1020, 17Г1С, ППУ1/ППУ2, опоры со щитами 900–1400 мм), сертификаты ГОСТ 30732-2020, письма производителей. Сумма 46,4 млн — оценить оборотку (аванса нет в ЕИС).",
+  "decision": "Осторожно",
+  "confidence": "low"
+ },
+ {
+  "num": "32616358208",
+  "name": "Поставка арматуры высокого давления для АО «ДГК» (Лот 12016011-РЕМ ПРОД-2027-ДГК)",
+  "cust": "АО «Дальневосточная Генерирующая Компания»",
+  "law": "223-ФЗ",
+  "method": "Конкурс в электронной форме (ЭТП РусГидро / Росэлторг) — не аукцион",
+  "end": "2026-10-29 17:00",
+  "nmck": 373625078.67,
+  "positions": [
+   {
+    "item": "Арматура высокого давления (1 усл. ед.; спецификация в Прил.1 «Технические требования» .rar — zakupki.gov.ru недоступен)",
+    "qty": 1,
+    "unit": "усл. ед.",
+    "nmck_unit": 373625078.67,
+    "cost_unit": 392270223,
+    "cost_src": "[оценка] по аналогу — соседний лот ДГК 32616403815 (арматура среднего/низкого давления) посчитан построчно по 1467 позициям с ценами 2026: себестоимость с доставкой 204 млн при НМЦК 186,5 млн (×1,094). Принято то же соотношение (метод формирования НМЦК у ДГК один); доставка ~4% внутри. Файлы: /home/user/Tender-RUS-/model/data/dgk/, /home/user/Tender-RUS-/model/dgk_table.py"
+   }
+  ],
+  "lines": [],
+  "cost_total": 392270223,
+  "logistics": 16344593,
+  "margin_pct": -0.0936,
+  "net_at_nmck": -51412649,
+  "exp_disc": 0.1,
+  "net_expected": -88476257,
+  "breakeven_disc": 0.0,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Спецификация недоступна (ТТ в .rar на ЕИС). По аналогу лота 32616403815 НМЦК ДГК ниже рынка 2026 на ~9% → убыток уже при цене = НМЦК. Высокое давление (Ру 100–370, энергетическая арматура ЗЭО/ЧЗЭМ) — ещё и дефицит сроков изготовления, ПП 1875 ограничения по ЗРА. Обеспечение заявки 1,93 млн, БГ на возврат аванса 100%, поставка в 5 регионов ДФО. 5 переносов срока — заказчик не может собрать участников (сигнал низкой цены).",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616358208",
+   "/home/user/Tender-RUS-/model/data/dgk/dgk_positions.json",
+   "/home/user/Tender-RUS-/model/dgk_table.py"
+  ],
+  "prep": "Подача до 29.10.2026 17:00 (по ЕИС, ред. 5; в триаже 10:00 — сверить с площадкой) на ЭТП РусГидро (rushydro.roseltorg.ru), аккредитация у заказчика по Прил.10 (форма заявки на аккредитацию), Прил.11 форма данных. Обеспечение заявки 1 932 938,38 ₽ (БГ или деньги на площадку); аванс есть — БГ возврата аванса 100% суммы аванса. Ссылка: https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616358208"
+ },
+ {
+  "num": "32616420912",
+  "name": "КО №3664/КО — Трубопроводная общепромышленная арматура для ПАО «ТГК-1» (D27P100916)",
+  "cust": "ПАО «ТГК-1»",
+  "law": "223-ФЗ",
+  "method": "Открытый конкурентный отбор в эл. форме (ЭТП ГПБ) — не аукцион",
+  "end": "2026-10-30 10:00",
+  "nmck": 1226100000.0,
+  "positions": [
+   {
+    "item": "368 позиций ЗРА, в ЕИС у каждой qty=1 (реальные количества/единичные расценки — в ТЗ 3664_КО.rar)",
+    "qty": 368,
+    "unit": "поз.",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "корзина «по 1 шт каждой позиции» = 80.0 млн ₽ (351 позиция оценена; 144 — точное совпадение марки+Ду с проверенными ценами 2026 Камчатка/ДГК, 207 — медиана по типу и Ду [оценка]; 17 без оценки)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "Задвижка 30ч915бр DN1000 PN10, L=1200мм, класс герметичности \"В\", с электроприводом ГЗ в комплекте с КОФ, крепежом, прокладками,отв етные фланцы - тип 01, соединение фланцев \"В-В\" ГОСТ 33259-2015.",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 3513105.0,
+    "cost_src": "[оценка] медиана 4 цен 2026 того же типа (задвижка) и Ду1000 из сверок Камчатка/ДГК; +электропривод [оценка] 450000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка фланцевая с обрезиненным клином 30ч939р Ду1000 Ру10 с электроприводом Г 03 (Б 099.053М-03), 380В, 5,5кВт, част вращ. 50об/ мин, крут момент 800-1400",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 3513105.0,
+    "cost_src": "[оценка] медиана 4 цен 2026 того же типа (задвижка) и Ду1000 из сверок Камчатка/ДГК; +электропривод [оценка] 450000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая 30с947нж штампосварная с выдвижным шпинделем ,фланцевая,Ду 1000, РУ 4,электропривод - исп.II",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 3513105.0,
+    "cost_src": "[оценка] медиана 4 цен 2026 того же типа (задвижка) и Ду1000 из сверок Камчатка/ДГК; +электропривод [оценка] 450000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка 30ч925бр Ду1000 Ру0,25 МПa, L=550, в комплекте с КОФ (фланцы тип 11, соединение фланцев \"В-В\" ГОСТ 33259-2015),",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 3063105.0,
+    "cost_src": "[оценка] медиана 4 цен 2026 того же типа (задвижка) и Ду1000 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотный дисковый фланцевый 3-хэксцентриковый PALUR-3EX-DN1200-PN10-1N-FL-EL-U1-ST/ST-KR/M.KR.F DN1200 РN1,0 МПа, класс",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 2633705.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 1200",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка под приварку 30с927нж Ду800 Ру25 (2,5Мпа) с эл.приводом",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 2508463,
+    "cost_src": "ДГК-сверка СибЗТА (Москва), прайс от 12.01.2026: https://sibzta.ru/price/ | аналог: Задвижка 30с927нж Ду 800 Ру 25 или эквивалент; +электропривод [оценка] 450000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка фланцевая с невыдвижным шпинделем 30с927нж Ду 800 Ру 2,5 МПа с электроприводом, комплектом ответных фланцев с крепежоми пр окладками",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 2508463,
+    "cost_src": "ДГК-сверка СибЗТА (Москва), прайс от 12.01.2026: https://sibzta.ru/price/ | аналог: Задвижка 30с927нж Ду 800 Ру 25 или эквивалент; +электропривод [оценка] 450000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка фланцевая с невыдвижным шпинделем 30с927нж Ду 800 Ру 2,5 МПа с электроприводом, комплектом ответных фланцев с крепежом",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 2508463,
+    "cost_src": "ДГК-сверка СибЗТА (Москва), прайс от 12.01.2026: https://sibzta.ru/price/ | аналог: Задвижка 30с927нж Ду 800 Ру 25 или эквивалент; +электропривод [оценка] 450000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор дисковый фланцевый с резиновым уплотнением 32с910р DN800 PN1,0 МПа с электроприводом, без ответных фланцев, L-350,трубопрово д вертикальный",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 2158548.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 800; +электропривод [оценка] 450000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотно-дисковый ПТ 99052-800 DN800 PN1.0, L=350 мм, класс герм. \"В\", в комплекте с электроприводом \"Регада\" (или ГЗ) с",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 2158548.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 800; +электропривод [оценка] 450000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка 30с964нж Ду800 Ру25 клиновая с выдвижным шпинделем под электропривод стальная фланцевая",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 2081615,
+    "cost_src": "ДГК-сверка DN.ru (интернет-магазин, Москва): https://dn.ru/zadvijka/zadvijka-klinovaya/zadvizhki-stalnye/mzta/30s964nzh-s-gsh/dn800 | аналог: Задвижка 30с964нж DN 800 PN 25 или эквивалент; +электропривод [оценка] 450000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор фланцевый поворотный ЗД2.700.25 Ду700 Ру25 с электроприводом с комплектом ответных фланцев (фланцы, крепеж, прокладки).",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 1748548.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 700; +электропривод [оценка] 450000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотно-дисковый по типу ПТ99052-800 Ду800 Ру1,0 Мпа с э/пр типа ГЗ, кл. В, Т +100°С с комплектом ответных фланцев,крепежо м, прокладками и ЗИП на 1 год эксплуатации",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 1708548.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 800",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор РК110.800.00.Э, DN 800, РN 2,5МПа, L=430 мм, класс герметичности \"А\", с тройным эксцентриситетом, упл. металл по металлу,рег ул. уплотнение оси, в компл. с КОФ (фланцы 800-25-11-1-В-ст.20, соед. фланцев -\"В-В\"), креп., прокл., ЭП ПЭМ-Б6У",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 1708548.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 800",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка параллельная фланцевая с невыдвижным шпинделем 30ч930бр Ду600 Ру10 с электроприводом НВ 06, исп. У, 3 кВт, 380 В, 50об./ми н",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 1092401,
+    "cost_src": "[оценка] медиана 5 цен 2026 того же типа (задвижка) и Ду600 из сверок Камчатка/ДГК; +электропривод [оценка] 350000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка чугунная параллельная 30Ч915БР Ду500 Ру10 под электропривод, L-700",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 1039350.0,
+    "cost_src": "[оценка] медиана 6 цен 2026 того же типа (задвижка) и Ду500 из сверок Камчатка/ДГК; +электропривод [оценка] 350000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор запорный РК 11110.600.00-Э (DN 600, PN 2,5 МПа, t 200°С), фланцевый (630х10), с КОФ, корп. ст.20, с электроприводомПЭМ-В34М",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 1030000.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 600; +электропривод [оценка] 350000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотный дисковый 3-х эксц. под приварку ПТ99058-600 DN 600 PN 1.6МПа, без электропривода, класс А, газ",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 1030000.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 600; +электропривод [оценка] 350000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор фланцевый поворотный ЗД2.600.25.38.1111 М Ду600 Ру25 с электроприводом ЭП4Н-Б-500-45-М10.40-2-12111/РН16 с комплектомответны х фланцев (фланцы, крепеж, прокладки).",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 1030000.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 600; +электропривод [оценка] 350000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка 30с964нж Ду600 Ру2,5 МПа под приварку с эл/приводом.",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 962261,
+    "cost_src": "ДГК-сверка БК-Арматура (Щёлково): https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж DN 600 PN 25 или эквивалент; +электропривод [оценка] 350000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка 30с964нж Ду600 Ру25 PN 2,5 МПа клиновая с выдвижным шпинделем под электропривод стальная фланцевая",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 962261,
+    "cost_src": "ДГК-сверка БК-Арматура (Щёлково): https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж DN 600 PN 25 или эквивалент; +электропривод [оценка] 350000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка стальная фланцевая ЗКЛ2-25 30с964нж Ду600 Ру25 кл. герм. А с электроприводом ГЗ-Г.2500/24, КОФ, крепежом, вода",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 962261,
+    "cost_src": "ДГК-сверка БК-Арматура (Щёлково): https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж DN 600 PN 25 или эквивалент; +электропривод [оценка] 350000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор дисковый поворотный запорный приварной ЗД2-23С11-500-16-ЭП DN500 PN 1,6 МПа, без электропривода, газ",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 886223,
+    "cost_src": "[оценка] медиана 5 цен типа затвор Ду±30% от 500; +электропривод [оценка] 350000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка 30с964нж Ду500 Ру25 PN 2,5 МПа клиновая с выдвижным шпинделем под электропривод стальная фланцевая",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 753536,
+    "cost_src": "ДГК-сверка БК-Арматура (Щёлково): https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж DN 500 PN 25 или эквивалент; +электропривод [оценка] 350000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка фланцевая 30с964нж Ду 500 Ру 2,5 МПа с электроприводом",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 753536,
+    "cost_src": "ДГК-сверка БК-Арматура (Щёлково): https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж DN 500 PN 25 или эквивалент; +электропривод [оценка] 350000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка фланцевая с невыдв. шпинделем 30с927нж Ду600 Ру2,5 Мпа с",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 742401,
+    "cost_src": "[оценка] медиана 5 цен 2026 того же типа (задвижка) и Ду600 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая выд.шп. эл/приводная фланцевая 30С 964НЖ Ду400 Ру2,5Мпа без электропривода, L-600",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 733175.0,
+    "cost_src": "[оценка] медиана 8 цен 2026 того же типа (задвижка) и Ду400 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая фланцевая Ду400 Ру25 30с907нж с электроприводом",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 733175.0,
+    "cost_src": "[оценка] медиана 8 цен 2026 того же типа (задвижка) и Ду400 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка с невыдвижным шпинделем фланцевая 30с927нж Ду500 Ру2,5 МПа, L-700, класс герм. \"А\", раб.среда - вода, в комплекте сэлектро приводом типа ГЗ-Г.2500/24 (380В), КОФ (тип 11 исп. \"В-В\" по ГОСТ 33259-2015,), крепежом, прокладками",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 694980,
+    "cost_src": "ДГК-сверка СибЗТА (Москва), прайс от 12.01.2026: https://sibzta.ru/price/ | аналог: Задвижка 30с927нж DN 500 PN 25 или эквивалент",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая фланцевая 30нж527нж Ду500 Ру 2,5 Мпа, класс А, с невыдвижным шпинделем, ручной редуктор, (с ответными плоскимифла нцами под приварку из стали 12Х18Н10Т тип 01 в количестве 3 шт.)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 689350.0,
+    "cost_src": "[оценка] медиана 6 цен 2026 того же типа (задвижка) и Ду500 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клин. лит. с выдв.шпинделем 30с941нж DN500 PN1,6 Мпа L=700, с э/п ГЗ, раб.среда- ГАЗ, герм затв. кл.А ГОСТ 9544-93,УХЛ3 по  ГОСТ 15150-69 с КОФ по ГОСТ 33259-2015, исп. уплотнит.повер-й - В (выступ/выступ), с креп. и прокл)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 683720,
+    "cost_src": "Камчатка-сверка: https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка клиновая фланцевая 30с941нж Ду 500 Ру 16 с КОФ под ",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клин. лит. с выдв.шпинделем 30с941нж DN500 PN1,6 Мпа L=700, с э/п ГЗ, раб.среда- ГАЗ, герм затв. кл.А ГОСТ 9544-93",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 683720,
+    "cost_src": "Камчатка-сверка: https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка клиновая фланцевая 30с941нж Ду 500 Ру 16 с КОФ под ",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор запорный дисковый РК 110.600.00-Э DN600, PN2,5 МПа с патрубками п/приварку, присоед. к трубе d630х8 из ст.17ГС), cэл.приив. ПЭМ-В34 У2. класс герм. не хуже A-A по ГОСТ 9544-2015 в обе стороны, угл.сталь, У2, 1, вода, (шифр№441.103-040.014-082)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 680000.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 600",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор РК 110.600.00.Э с эл/пр ПЭМ-Б6У, фланц., DN 600 РN 2,5МПа, L=440мм, класс герм. \"А\", с тройным эксцентриситетом, упл-еметалл  по металлу, регулируемое уплотнение оси, с КОФ (фл. 600-25-11-1-В-ст.20, соед. фл. \"В-В\"), крепежом, прокладками",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 680000.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 600",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотный дисковый приварной LD ПДЗ.П.Р.600.025.02.ВТ.R Ду600 Ру2,5 МПа с редуктором, класс А, вода",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 680000.0,
+    "cost_src": "[оценка] медиана 2 цен типа затвор Ду±30% от 600",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая двухдисковая с выдвижным шпинделем 30с964нж Ду400 Ру25 с электроприводом НВ-19 У2",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 679660,
+    "cost_src": "Камчатка-сверка: https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж Ду 400 Ру 25; +электропривод [оценка] 250000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клин. выдв.шпинд. фланцевая 30с941нж Ду400 Ру 1,6Мпа под э/привод тип В",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 555776,
+    "cost_src": "ДГК-сверка БК-Арматура (Щёлково): https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с941нж DN 400 PN16 или эквивалент",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор дисковый приварной PALUR-ZD-3EX DN400 PN2,5МПа, T+325˚С, L=310, ст.20, класс гермет.\"А\", уплот. затвора-металл пометаллу, уп лот. по валу ТРГ, подшипники скольжения, под эл/привод AUMA SAR 07.6-CS 100.3-F14-N (Мвых=4000нм) (без э/привода)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 551239,
+    "cost_src": "[оценка] медиана 3 цен 2026 того же типа (затвор) и Ду400 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор дисковый запорно-регулирующий трехэксцентриковый Ду500 Ру25 серии Текон-920-050-16-1-2УУ",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 536223,
+    "cost_src": "[оценка] медиана 5 цен типа затвор Ду±30% от 500",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор обратный стяжной межфланцевый ЗТА-19.38 (типа 19с38нжМ) DN 500 мм PN1,6 Мпа",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 536223,
+    "cost_src": "[оценка] медиана 5 цен типа затвор Ду±30% от 500",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор дисковый поворотный приварной PALUR-ZD-3EX-DN500-PN16-2N-PR-G Ду 500 Ру 16, ГАЗ, УХЛ1",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 536223,
+    "cost_src": "[оценка] медиана 5 цен типа затвор Ду±30% от 500",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотный фланцевый ПТ99052-500 DN 500, PN 1.0 МПа, ст20,",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 536223,
+    "cost_src": "[оценка] медиана 5 цен типа затвор Ду±30% от 500",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка 30с964нж Ду300 Ру 25 (2,5Мпа) п/приварку с эл./приводом",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 515980,
+    "cost_src": "Камчатка-сверка: https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж Ду 300 Ру 25; +электропривод [оценка] 250000 ₽ (ЭП ГЗ/ТОМЗЭЛ, РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка стальная литая клиновая 30с564нж Ду400 Ру2,5 Мпа с редуктором класс герметичности \"А\" по ГОСТ 9544-2005 под приварку",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 490968,
+    "cost_src": "Камчатка-сверка: https://sibzta.ru/price/ | аналог: Задвижка 30с564нж Ду 400 Ру 25",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая с невыдвижным шпинделем фланцевая 30с927нж Ду400 Ру 2,5Мпа с э/приводом.",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 483175.0,
+    "cost_src": "[оценка] медиана 8 цен 2026 того же типа (задвижка) и Ду400 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая фланцевая 30нж527нж Ду400 Ру 2,5 Мпа, класс А, с невыдвижным шпинделем, ручной редуктор, (с ответными плоскимифла нцами под приварку из стали 12Х18Н10Т тип 01 в количестве 4 шт.)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 483175.0,
+    "cost_src": "[оценка] медиана 8 цен 2026 того же типа (задвижка) и Ду400 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка с обрезиненным клином DENDOR тип 47GV DN 400 PN 16 с маховиком, корпус — высокопрочный чугун ВЧ50 с КОФ",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 483175.0,
+    "cost_src": "[оценка] медиана 8 цен 2026 того же типа (задвижка) и Ду400 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка фланцевая 30ч6бр Ду400 Ру 10 (1,0 Мпа)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 483175.0,
+    "cost_src": "[оценка] медиана 8 цен 2026 того же типа (задвижка) и Ду400 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая с выдвижным шпинделем фланцевая 30с64нж DN400 PN25 L=600 T+425˚С, класс герм. \"А\" по ГОСТ 9544-2045 с КОФ (400-25-11-1-Есоединение \"E-F\" ГОСТ 33259-2015, крепеж, прокладки)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 478687,
+    "cost_src": "ДГК-сверка СибЗТА (Москва), прайс от 12.01.2026: https://sibzta.ru/price/ | аналог: Задвижка 30с64нж DN 400 PN 25 или эквивалент",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка чугунная 30ч939р ду300 Ру16 под эл.привод ГЗ Б.200/24 У1 (-45+60) (380В)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 472920,
+    "cost_src": "[оценка] медиана 11 цен 2026 того же типа (задвижка) и Ду300 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка под приварку 30с976нж Ду300 Ру6,3 МПа с электроприводом Н-Г-03 (с односторонней муфтой), У1",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 472920,
+    "cost_src": "[оценка] медиана 11 цен 2026 того же типа (задвижка) и Ду300 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка чугунная 30ч939р ду300 Ру16 под эл.привод ГЗ Б.200/24 У1 (-45+60) (380В)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 472920,
+    "cost_src": "[оценка] медиана 11 цен 2026 того же типа (задвижка) и Ду300 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор дисковый с гуммированным корпусом DN300 с ЭП 400В АГП.517.1433-УК (вода, до +100 С, PN 1,0 МПа, ДТР 032)",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 462836.5,
+    "cost_src": "[оценка] медиана 4 цен 2026 того же типа (затвор) и Ду300 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор дисковый СИТАЛ Ду300 Ру25, запорно-регулирующий, трехэксцентриковый, полнопроходной, фланцевый, с электроприводом Auma SA07. 6 (Т35-22-300-3, SA07.6) 20NDB14AA003",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 462836.5,
+    "cost_src": "[оценка] медиана 4 цен 2026 того же типа (затвор) и Ду300 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотный 3-х эксц. фланцевый РК110.300.00-Э DN300 PN2,5МПа класс герметичности \"АА\" по ГОСТ Р 54808-2011 сэлектроприводом ПЭМ-Б6У, КОФ тип 11 исполнение \"E-F\", крепежом, прокладками.",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 462836.5,
+    "cost_src": "[оценка] медиана 4 цен 2026 того же типа (затвор) и Ду300 из сверок Камчатка/ДГК; +электропривод [оценка] 250000",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка 30с964нж Ду 400 Ру 25",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 429660,
+    "cost_src": "Камчатка-сверка: https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж Ду 400 Ру 25",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клин.2-х диск.выд.шп.эл/пр.фл. Ру2,5 30с964нж Ду400 с э/приводом",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 429660,
+    "cost_src": "Камчатка-сверка: https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж Ду 400 Ру 25",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Задвижка клиновая стальная фланцевая 30с964нж: DN400 PN2,5МПа Т до +425°С, присоед тип \"Е-F\" тип 01 по ГОСТ 33259-2015, L=600мм,",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 429660,
+    "cost_src": "Камчатка-сверка: https://bkarm.ru/zadvizhka-pod-elektroprivod-prajs-list/ | аналог: Задвижка 30с964нж Ду 400 Ру 25",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотный 3-х эксц. РК110.1.400.00-Э DN400 PN4МПа, L=305мм, под приварку, класс герметичности \"IV\" по ГОСТ Р 54808-2011с эл ектроприводом ПЭМ-Б6У",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 301239,
+    "cost_src": "[оценка] медиана 3 цен 2026 того же типа (затвор) и Ду400 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Затвор поворотный дисковый фланцевый ЗПД-САЗ-3-400-25-Ф-9-С-3-НЖ Ду400 Ру25 с ЭИМ",
+    "qty": 1.0,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 301239,
+    "cost_src": "[оценка] медиана 3 цен 2026 того же типа (затвор) и Ду400 из сверок Камчатка/ДГК",
+    "margin_unit_pct": null
+   }
+  ],
+  "lines_rest_aggregate": {
+   "count": 308,
+   "qty": 308.0,
+   "cost_sum": 15100484,
+   "nmck_sum": null
+  },
+  "cost_total": null,
+  "logistics": null,
+  "margin_pct": null,
+  "net_at_nmck": null,
+  "exp_disc": 0.1,
+  "net_expected": null,
+  "breakeven_disc": null,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "basket_cost_qty1": 79977332,
+  "decision": "Запросить спецификацию",
+  "risks": "НМЦК 1 226 млн при корзине по 1 шт ≈ 80 млн (×15) — в ЕИС количества-заглушки (qty=1), реальные объёмы или рамочный характер договора (единичные расценки, лимит) — только в ТЗ (3664_КО.rar, 3664_КО_корр.zip) на zakupki.gov.ru, отсюда недоступен. Без количеств и цен за ед. маржу посчитать нельзя. Позиции 262–312 повторяют 4–136 (два филиала — дубли строк). 61 позиция с электроприводом (ЭП +120–450 тыс. [оценка]). Крупные Ду 600–800 Ру25 (30с964нж/30с927нж с ЭП 1,6–2,5 млн за шт). Категория закупки 29 (ОПО/критические объекты ТЭК) — вероятны требования к опыту/квалификации. Масштаб >1 млрд — БГ/оборотка вне возможностей без кредитной линии. 5 переносов срока.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616420912",
+   "https://etp.gpb.ru/#com/procedure/view/procedure/1294220",
+   "/home/user/Tender-RUS-/model/data/kamch/verify/",
+   "/home/user/Tender-RUS-/model/data/dgk/prices/"
+  ],
+  "prep": "Подача до 30.10.2026 10:00 (по ЕИС, ред. 5, перенос ДВ на 30.10) на ЭТП ГПБ: https://etp.gpb.ru/#com/procedure/view/procedure/1294220 — аккредитация на ЭТП ГПБ (несколько дней), КЭП. Срочно скачать из ЕИС 3664_КО.rar + 3664_КО_корр.zip + «О внесении изменений» (ТЗ, количества, НМЦ за ед., требования к участнику, обеспечение). Обеспечение и аванс в ЕИС не указаны. ЗРА: ограничения ПП 1875 — российское происхождение (реестр ГИСП/акт СТ-1), паспорта, разрешения ТР ТС 010/032."
+ }
+]
