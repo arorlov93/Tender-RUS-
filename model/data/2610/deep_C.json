@@ -1,0 +1,1423 @@
+[
+ {
+  "num": "0112200000826004798",
+  "name": "Поставка вакуумных пробирок (дополнительно)для нужд ГБУЗ РТ «Ресбольница №1» 2026 год",
+  "cust": "ГБУЗ Республики Тыва «Республиканская Больница № 1»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-11-03 02:00",
+  "nmck": 222200.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=75, V=4..4.9, Вариант исполнения=С завинчивающейся крышкой]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 22.22,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=75, V=4..4.9, Вариант исполнения=С завинчивающейся крышкой]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 22.22,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": 55.0
+   }
+  ],
+  "cost_total": 100000,
+  "logistics": 7200,
+  "logistics_detail": "доставка ТК ≈5700 ₽ [оценка: 1 отгр. × 3000 ₽ + 60 кг × 45 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": 51.8,
+  "net_at_nmck": 93243,
+  "exp_disc": 0.15,
+  "net_expected": 65139,
+  "breakeven_disc": 0.4977,
+  "net_expected_conservative": 47581,
+  "net_expected_minimed_list": 72865,
+  "breakeven_disc_minimed_list": 0.5389,
+  "cost_total_minimed_list": 91200,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Участвовать",
+  "risks": "ТЗ требует завинчивающуюся/поворотную крышку — у МиниМед тип крышки на сайте не указан, подтвердить у производителя до подачи; Требуются насечки на пробирке и крышке — подтвердить; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0112200000826004798/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-11-03 02:00",
+   "etp": "РТС-тендер",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "1111 ₽ (0.50 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0112200000826004798"
+  },
+  "region": "17 Республика Тыва",
+  "duplicate": null
+ },
+ {
+  "num": "0306300010226000181",
+  "name": "Поставка пробирок вакуумных для взятия образцов крови ИВД, с активатором свертывания",
+  "cust": "ГБУЗ Республики Карелия «Олонецкая центральная районная больница»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-28 08:00",
+  "nmck": 222600.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 11.71,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=16, H=90..100, V=9..9.5]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 10.55,
+    "cost_unit": 14.5,
+    "cost_src": "МиниМед активатор 9 мл 16×100 1405 ₽/уп.100 = 14,05 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=4) +0,45 буфер"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 11.71,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": 14.6
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=16, H=90..100, V=9..9.5]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 10.55,
+    "cost_unit": 14.5,
+    "cost_src": "МиниМед активатор 9 мл 16×100 1405 ₽/уп.100 = 14,05 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=4) +0,45 буфер",
+    "margin_unit_pct": -37.4
+   }
+  ],
+  "cost_total": 245000,
+  "logistics": 5600,
+  "logistics_detail": "доставка ТК ≈4100 ₽ [оценка: 1 отгр. × 1700 ₽ + 160 кг × 15 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": -12.6,
+  "net_at_nmck": -38020,
+  "exp_disc": 0.05,
+  "net_expected": -49061,
+  "breakeven_disc": -0.1722,
+  "net_expected_conservative": -69718,
+  "net_expected_minimed_list": -35323,
+  "breakeven_disc_minimed_list": -0.11,
+  "cost_total_minimed_list": 231700,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Убыточные строки (себес > НМЦК ед.): с активатором свертывания [Добавка=Активатор свертывания, D=; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0306300010226000181/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-28 08:00",
+   "etp": "Росэлторг (ЕЭТП)",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "2226 ₽ (1.00 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0306300010226000181"
+  },
+  "region": "10 Республика Карелия",
+  "duplicate": null
+ },
+ {
+  "num": "0322200001226001801",
+  "name": "Поставка пробирок вакуумных для взятия образцов крови ИВД, с K2ЭДТА",
+  "cust": "Краевое ГБУЗ «Краевая Клиническая Больница» Имени Профессора С.И. Сергеева Министерства Здравоохранения Хабаровского Края",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-29 17:00",
+  "nmck": 71330.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, H=75, V=4..4.9]",
+    "qty": 7000.0,
+    "unit": "шт",
+    "nmck_unit": 10.19,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, H=75, V=4..4.9]",
+    "qty": 7000.0,
+    "unit": "шт",
+    "nmck_unit": 10.19,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)",
+    "margin_unit_pct": 1.9
+   }
+  ],
+  "cost_total": 70000,
+  "logistics": 6600,
+  "logistics_detail": "доставка ТК ≈5100 ₽ [оценка: 1 отгр. × 3000 ₽ + 42 кг × 50 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": -7.4,
+  "net_at_nmck": -8359,
+  "exp_disc": 0.05,
+  "net_expected": -11897,
+  "breakeven_disc": -0.1181,
+  "net_expected_conservative": -11897,
+  "net_expected_minimed_list": -5534,
+  "breakeven_disc_minimed_list": -0.0282,
+  "cost_total_minimed_list": 63840,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "high",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0322200001226001801/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-29 17:00",
+   "etp": "РТС-тендер",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "3566 ₽ (5.00 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0322200001226001801"
+  },
+  "region": "27 Хабаровский край",
+  "duplicate": null
+ },
+ {
+  "num": "0322200005226000561",
+  "name": "Поставка пробирок вакуумных для взятия образцов крови ИВД",
+  "cust": "Краевое ГБУЗ «Краевая Клиническая Психиатрическая Больница» Имени Профессора И.Б. Галанта Министерства Здравоохранения Хабаровского Края",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-11-01 17:00",
+  "nmck": 484797.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания и разделительный гель, D=13, H=90..100, V=5..5.5]",
+    "qty": 17000.0,
+    "unit": "шт",
+    "nmck_unit": 17.57,
+    "cost_unit": 15.0,
+    "cost_src": "бриф (с активатором и гелем 15 ₽; МиниМед 13 мм 1375 ₽/уп.100 = 13,75 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2)"
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=75, V=2..2.9, Вариант исполнения=С внутренней резиновой пробкой и наружным защитным колпачком]",
+    "qty": 1500.0,
+    "unit": "шт",
+    "nmck_unit": 7.87,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)"
+   },
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, H=75, V=2..2.7]",
+    "qty": 14500.0,
+    "unit": "шт",
+    "nmck_unit": 11.14,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)"
+   },
+   {
+    "item": "с лития гепарином [Добавка=Лития гепарин, D=13, H=90..100, V=6..6.5]",
+    "qty": 100.0,
+    "unit": "шт",
+    "nmck_unit": 15.48,
+    "cost_unit": 13.5,
+    "cost_src": "бриф (гепарин 13,5 ₽; МиниМед 13 мм 1210 ₽/уп.100 = 12,10 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=8)"
+   },
+   {
+    "item": "с лития гепарином [Добавка=Лития гепарин, D=16, H=90..100, V=9..9.5]",
+    "qty": 400.0,
+    "unit": "шт",
+    "nmck_unit": 28.06,
+    "cost_unit": 21.75,
+    "cost_src": "МиниМед лития гепарин 9 мл 16×100 2125 ₽/уп.100 = 21,25 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=9) +0,5 буфер"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания и разделительный гель, D=13, H=90..100, V=5..5.5]",
+    "qty": 17000.0,
+    "unit": "шт",
+    "nmck_unit": 17.57,
+    "cost_unit": 15.0,
+    "cost_src": "бриф (с активатором и гелем 15 ₽; МиниМед 13 мм 1375 ₽/уп.100 = 13,75 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2)",
+    "margin_unit_pct": 14.6
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=75, V=2..2.9, Вариант исполнения=С внутренней резиновой пробкой и наружным защитным колпачком]",
+    "qty": 1500.0,
+    "unit": "шт",
+    "nmck_unit": 7.87,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)",
+    "margin_unit_pct": -27.1
+   },
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, H=75, V=2..2.7]",
+    "qty": 14500.0,
+    "unit": "шт",
+    "nmck_unit": 11.14,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)",
+    "margin_unit_pct": 10.2
+   },
+   {
+    "item": "с лития гепарином [Добавка=Лития гепарин, D=13, H=90..100, V=6..6.5]",
+    "qty": 100.0,
+    "unit": "шт",
+    "nmck_unit": 15.48,
+    "cost_unit": 13.5,
+    "cost_src": "бриф (гепарин 13,5 ₽; МиниМед 13 мм 1210 ₽/уп.100 = 12,10 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=8)",
+    "margin_unit_pct": 12.8
+   },
+   {
+    "item": "с лития гепарином [Добавка=Лития гепарин, D=16, H=90..100, V=9..9.5]",
+    "qty": 400.0,
+    "unit": "шт",
+    "nmck_unit": 28.06,
+    "cost_unit": 21.75,
+    "cost_src": "МиниМед лития гепарин 9 мл 16×100 2125 ₽/уп.100 = 21,25 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=9) +0,5 буфер",
+    "margin_unit_pct": 22.5
+   }
+  ],
+  "cost_total": 425050,
+  "logistics": 17630,
+  "logistics_detail": "доставка ТК ≈16130 ₽ [оценка: 2 отгр. × 3000 ₽ + 203 кг × 50 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": 8.7,
+  "net_at_nmck": 20132,
+  "exp_disc": 0.05,
+  "net_expected": -361,
+  "breakeven_disc": 0.0492,
+  "net_expected_conservative": -361,
+  "net_expected_minimed_list": 31009,
+  "breakeven_disc_minimed_list": 0.1259,
+  "cost_total_minimed_list": 389380,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "Убыточные строки (себес > НМЦК ед.): с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0322200005226000561/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-11-01 17:00",
+   "etp": "РТС-тендер",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "24240 ₽ (5.00 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0322200005226000561"
+  },
+  "region": "27 Хабаровский край",
+  "duplicate": "не дубль; тот же заказчик, что 0322200005226000562 (подача 01.11) — можно совместить отгрузки"
+ },
+ {
+  "num": "0322200005226000562",
+  "name": "Поставка пробирок вакуумных для взятия образцов крови ИВД, с активатором свертывания",
+  "cust": "Краевое ГБУЗ «Краевая Клиническая Психиатрическая Больница» Имени Профессора И.Б. Галанта Министерства Здравоохранения Хабаровского Края",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-11-01 17:00",
+  "nmck": 422090.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 25000.0,
+    "unit": "шт",
+    "nmck_unit": 11.37,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=9..9.5]",
+    "qty": 8000.0,
+    "unit": "шт",
+    "nmck_unit": 17.23,
+    "cost_unit": 14.5,
+    "cost_src": "[оценка]: аналог МиниМед 9 мл 16×100 1405 ₽/уп.100 (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=4) +0,45 ₽ буфер; но по ТЗ диаметр 13 мм"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 25000.0,
+    "unit": "шт",
+    "nmck_unit": 11.37,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": 12.0
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=9..9.5]",
+    "qty": 8000.0,
+    "unit": "шт",
+    "nmck_unit": 17.23,
+    "cost_unit": 14.5,
+    "cost_src": "[оценка]: аналог МиниМед 9 мл 16×100 1405 ₽/уп.100 (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=4) +0,45 ₽ буфер; но по ТЗ диаметр 13 мм",
+    "margin_unit_pct": 15.8
+   }
+  ],
+  "cost_total": 366000,
+  "logistics": 19000,
+  "logistics_detail": "доставка ТК ≈17500 ₽ [оценка: 2 отгр. × 3000 ₽ + 230 кг × 50 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": 8.8,
+  "net_at_nmck": 17897,
+  "exp_disc": 0.05,
+  "net_expected": 102,
+  "breakeven_disc": 0.0503,
+  "net_expected_conservative": -51524,
+  "net_expected_minimed_list": 22577,
+  "breakeven_disc_minimed_list": 0.1134,
+  "cost_total_minimed_list": 340400,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "13 мм на 9–9,5 мл не выпускается (МиниМед 13×100 макс. 7 мл; 9 мл — только 16×100) — характеристика неисполнима, нужен запрос разъяснений; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0322200005226000562/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-11-01 17:00",
+   "etp": "РТС-тендер",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "21104 ₽ (5.00 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0322200005226000562"
+  },
+  "region": "27 Хабаровский край",
+  "duplicate": "не дубль; тот же заказчик, что 0322200005226000561"
+ },
+ {
+  "num": "0333200019626000059",
+  "name": "Поставка пробирок вакуумных для взятия образцов крови ИВД, с активатором свертывания",
+  "cust": "Областное бюджетное учреждение здравоохранения «Центр по профилактике и борьбе со Спид и инфекционными заболеваниями»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-11-02 07:00",
+  "nmck": 313500.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5, Система снятия крышки=Двухступенчатая поворотная или Закручивающаяся крышка]",
+    "qty": 30000.0,
+    "unit": "шт",
+    "nmck_unit": 10.45,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5, Система снятия крышки=Двухступенчатая поворотная или Закручивающаяся крышка]",
+    "qty": 30000.0,
+    "unit": "шт",
+    "nmck_unit": 10.45,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": 4.3
+   }
+  ],
+  "cost_total": 300000,
+  "logistics": 3660,
+  "logistics_detail": "доставка ТК ≈3660 ₽ [оценка: 1 отгр. × 1500 ₽ + 180 кг × 12 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈0 ₽",
+  "margin_pct": 3.1,
+  "net_at_nmck": -2651,
+  "exp_disc": 0.05,
+  "net_expected": -18201,
+  "breakeven_disc": -0.0085,
+  "net_expected_conservative": -80174,
+  "net_expected_minimed_list": 7707,
+  "breakeven_disc_minimed_list": 0.0792,
+  "cost_total_minimed_list": 273600,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "ТЗ требует завинчивающуюся/поворотную крышку — у МиниМед тип крышки на сайте не указан, подтвердить у производителя до подачи; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0333200019626000059/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-11-02 07:00",
+   "etp": "Сбербанк-АСТ",
+   "smp": "нет ограничения СМП",
+   "app_security": "не требуется",
+   "contract_security": "не установлено",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0333200019626000059"
+  },
+  "region": "37 Ивановская область",
+  "duplicate": null
+ },
+ {
+  "num": "0334200012526000832",
+  "name": "Поставка пробирок",
+  "cust": "ГБУЗ Иркутская ордена «Знак Почета» областная клиническая больница",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-28 05:00",
+  "nmck": 253140.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=75, V=4..4.9]",
+    "qty": 5000.0,
+    "unit": "шт",
+    "nmck_unit": 11.43,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 7000.0,
+    "unit": "шт",
+    "nmck_unit": 11.67,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   },
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, H=75, V=4..4.9]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 11.43,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=75, V=4..4.9]",
+    "qty": 5000.0,
+    "unit": "шт",
+    "nmck_unit": 11.43,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": 12.5
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 7000.0,
+    "unit": "шт",
+    "nmck_unit": 11.67,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": 14.3
+   },
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, H=75, V=4..4.9]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 11.43,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)",
+    "margin_unit_pct": 12.5
+   }
+  ],
+  "cost_total": 220000,
+  "logistics": 8620,
+  "logistics_detail": "доставка ТК ≈7120 ₽ [оценка: 1 отгр. × 2500 ₽ + 132 кг × 35 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": 9.7,
+  "net_at_nmck": 12732,
+  "exp_disc": 0.05,
+  "net_expected": 2059,
+  "breakeven_disc": 0.0596,
+  "net_expected_conservative": -22366,
+  "net_expected_minimed_list": 19056,
+  "breakeven_disc_minimed_list": 0.1393,
+  "cost_total_minimed_list": 200640,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "high",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0334200012526000832/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-28 05:00",
+   "etp": "РТС-тендер",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "12657 ₽ (5.00 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0334200012526000832"
+  },
+  "region": "38 Иркутская область",
+  "duplicate": null
+ },
+ {
+  "num": "0334200040126000003",
+  "name": "Пробирка вакуумная для взятия образцов крови ИВД, с активатором свертывания",
+  "cust": "Областное ГБУ «Боханская станция по борьбе с болезнями животных»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-11-01 19:00",
+  "nmck": 103300.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=16, H=90..100, V=9..9.5]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 10.33,
+    "cost_unit": 14.5,
+    "cost_src": "МиниМед активатор 9 мл 16×100 1405 ₽/уп.100 = 14,05 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=4) +0,45 буфер"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=16, H=90..100, V=9..9.5]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 10.33,
+    "cost_unit": 14.5,
+    "cost_src": "МиниМед активатор 9 мл 16×100 1405 ₽/уп.100 = 14,05 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=4) +0,45 буфер",
+    "margin_unit_pct": -40.4
+   }
+  ],
+  "cost_total": 145000,
+  "logistics": 6000,
+  "logistics_detail": "доставка ТК ≈6000 ₽ [оценка: 1 отгр. × 2500 ₽ + 100 кг × 35 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈0 ₽",
+  "margin_pct": -46.2,
+  "net_at_nmck": -53491,
+  "exp_disc": 0.05,
+  "net_expected": -58614,
+  "breakeven_disc": -0.5,
+  "net_expected_conservative": -58614,
+  "net_expected_minimed_list": -53967,
+  "breakeven_disc_minimed_list": -0.4766,
+  "cost_total_minimed_list": 140500,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Убыточные строки (себес > НМЦК ед.): с активатором свертывания [Добавка=Активатор свертывания, D=; Заказчик — ветстанция (кровь животных); медизделие ИВД с РУ подходит; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0334200040126000003/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-11-01 19:00",
+   "etp": "РТС-тендер",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "не установлено",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0334200040126000003"
+  },
+  "region": "38 Иркутская область",
+  "duplicate": null
+ },
+ {
+  "num": "0360100000126000505",
+  "name": "Поставка пробирок вакуумных",
+  "cust": "ГУЧ здравоохранения «Областной клинический противотуберкулезный диспансер»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-28 07:00",
+  "nmck": 52750.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с K3ЭДТА [Добавка=K3ЭДТА, D=13, H=75, V=3..3.5, Исполнение=С закручивающейся крышкой]",
+    "qty": 5000.0,
+    "unit": "шт",
+    "nmck_unit": 10.55,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с K3ЭДТА [Добавка=K3ЭДТА, D=13, H=75, V=3..3.5, Исполнение=С закручивающейся крышкой]",
+    "qty": 5000.0,
+    "unit": "шт",
+    "nmck_unit": 10.55,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)",
+    "margin_unit_pct": 5.2
+   }
+  ],
+  "cost_total": 50000,
+  "logistics": 3420,
+  "logistics_detail": "доставка ТК ≈1920 ₽ [оценка: 1 отгр. × 1500 ₽ + 30 кг × 14 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": -1.3,
+  "net_at_nmck": -2848,
+  "exp_disc": 0.05,
+  "net_expected": -5465,
+  "breakeven_disc": -0.0544,
+  "net_expected_conservative": -5465,
+  "net_expected_minimed_list": -920,
+  "breakeven_disc_minimed_list": 0.0324,
+  "cost_total_minimed_list": 45600,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "ТЗ требует завинчивающуюся/поворотную крышку — у МиниМед тип крышки на сайте не указан, подтвердить у производителя до подачи; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0360100000126000505/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-28 07:00",
+   "etp": "РТС-тендер",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "2638 ₽ (5.00 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0360100000126000505"
+  },
+  "region": "64 Саратовская область",
+  "duplicate": "не дубль; Саратов, как 0860200000826008623 — общая отгрузка"
+ },
+ {
+  "num": "0361200015026004495",
+  "name": "Поставка пробирок",
+  "cust": "ГБУЗ Сахалинской обл. «Корсаковская центральная районная больница»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-30 01:00",
+  "nmck": 782820.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, H=75, V=2..2.7]",
+    "qty": 15500.0,
+    "unit": "шт",
+    "nmck_unit": 10.11,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)"
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 17100.0,
+    "unit": "шт",
+    "nmck_unit": 12.46,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=75, V=4..4.5]",
+    "qty": 8400.0,
+    "unit": "шт",
+    "nmck_unit": 10.97,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)"
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания и разделительный гель, D=16, H=90..100, V=8..8.5]",
+    "qty": 17700.0,
+    "unit": "шт",
+    "nmck_unit": 18.13,
+    "cost_unit": 24.0,
+    "cost_src": "МиниМед активатор+гель 8–8,5 мл 16×100 2352 ₽/уп.100 = 23,52 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2) +0,5 буфер"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, H=75, V=2..2.7]",
+    "qty": 15500.0,
+    "unit": "шт",
+    "nmck_unit": 10.11,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)",
+    "margin_unit_pct": 1.1
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 17100.0,
+    "unit": "шт",
+    "nmck_unit": 12.46,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": 19.7
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=75, V=4..4.5]",
+    "qty": 8400.0,
+    "unit": "шт",
+    "nmck_unit": 10.97,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)",
+    "margin_unit_pct": 8.8
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания и разделительный гель, D=16, H=90..100, V=8..8.5]",
+    "qty": 17700.0,
+    "unit": "шт",
+    "nmck_unit": 18.13,
+    "cost_unit": 24.0,
+    "cost_src": "МиниМед активатор+гель 8–8,5 мл 16×100 2352 ₽/уп.100 = 23,52 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2) +0,5 буфер",
+    "margin_unit_pct": -32.4
+   }
+  ],
+  "cost_total": 834800,
+  "logistics": 34610,
+  "logistics_detail": "доставка ТК ≈33110 ₽ [оценка: 1 отгр. × 3500 ₽ + 423 кг × 70 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": -11.1,
+  "net_at_nmck": -121436,
+  "exp_disc": 0.05,
+  "net_expected": -160264,
+  "breakeven_disc": -0.1564,
+  "net_expected_conservative": -195588,
+  "net_expected_minimed_list": -114222,
+  "breakeven_disc_minimed_list": -0.0971,
+  "cost_total_minimed_list": 790224,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Убыточные строки (себес > НМЦК ед.): с активатором свертывания [Добавка=Активатор свертывания и р; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0361200015026004495/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-30 01:00",
+   "etp": "РТС-тендер",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "39141 ₽ (5.00 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0361200015026004495"
+  },
+  "region": "65 Сахалинская область",
+  "duplicate": null
+ },
+ {
+  "num": "0372100001026000499",
+  "name": "Поставка медицинских изделий (пробирок вакуумных) на 2027 год",
+  "cust": "Федеральное ГБУЗ СПБ клиническая больница Российской академии наук",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-29 09:00",
+  "nmck": 1500000.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.2, D=13, H=75, V=1..1.8, Вариант исполнения=С внутренней резиновой пробкой и наружным защитным колпачком]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)"
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.84,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   },
+   {
+    "item": "с K3ЭДТА [Добавка=K3ЭДТА, D=13, H=75, V=3..3.5]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)"
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=75, V=4..4.5, Вариант исполнения=С внутренней резиновой пробкой и наружным защитным колпачком]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)"
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=75, V=4..4.9]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   },
+   {
+    "item": "с калия оксалатом и натрия фторидом тип 1 [D=13, H=75, V=1.5]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 15.0,
+    "cost_src": "[оценка]: пробирки с фторидом/оксалатом у МиниМед нет в каталоге (проверено 26.10.2026), российский производитель с ценой не найден; взято 15 ₽ как верх диапазона брифа"
+   },
+   {
+    "item": "с калия оксалатом и натрия фторидом тип 2 [D=13, H=75, V=2.5]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 15.0,
+    "cost_src": "[оценка]: пробирки с фторидом/оксалатом у МиниМед нет в каталоге (проверено 26.10.2026), российский производитель с ценой не найден; взято 15 ₽ как верх диапазона брифа"
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=90..100, V=5..5.8, Вариант исполнения=С внутренней резиновой пробкой и наружным защитным колпачком]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 16.8,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.2, D=13, H=75, V=1..1.8, Вариант исполнения=С внутренней резиновой пробкой и наружным защитным колпачком]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)",
+    "qty_est": 12336,
+    "margin_unit_pct": 34.2
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.84,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "qty_est": 11837,
+    "margin_unit_pct": 36.9
+   },
+   {
+    "item": "с K3ЭДТА [Добавка=K3ЭДТА, D=13, H=75, V=3..3.5]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)",
+    "qty_est": 12336,
+    "margin_unit_pct": 34.2
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=75, V=4..4.5, Вариант исполнения=С внутренней резиновой пробкой и наружным защитным колпачком]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)",
+    "qty_est": 12336,
+    "margin_unit_pct": 34.2
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=75, V=4..4.9]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "qty_est": 12336,
+    "margin_unit_pct": 34.2
+   },
+   {
+    "item": "с калия оксалатом и натрия фторидом тип 1 [D=13, H=75, V=1.5]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 15.0,
+    "cost_src": "[оценка]: пробирки с фторидом/оксалатом у МиниМед нет в каталоге (проверено 26.10.2026), российский производитель с ценой не найден; взято 15 ₽ как верх диапазона брифа",
+    "qty_est": 12336,
+    "margin_unit_pct": 1.3
+   },
+   {
+    "item": "с калия оксалатом и натрия фторидом тип 2 [D=13, H=75, V=2.5]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 15.2,
+    "cost_unit": 15.0,
+    "cost_src": "[оценка]: пробирки с фторидом/оксалатом у МиниМед нет в каталоге (проверено 26.10.2026), российский производитель с ценой не найден; взято 15 ₽ как верх диапазона брифа",
+    "qty_est": 12336,
+    "margin_unit_pct": 1.3
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.8, D=13, H=90..100, V=5..5.8, Вариант исполнения=С внутренней резиновой пробкой и наружным защитным колпачком]",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": 16.8,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)",
+    "qty_est": 11161,
+    "margin_unit_pct": 40.5
+   }
+  ],
+  "cost_total": 1093500,
+  "logistics": 22548,
+  "logistics_detail": "доставка ТК ≈15985 ₽ [оценка: 6 отгр. × 1500 ₽ + 582 кг × 12 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈6563 ₽",
+  "margin_pct": 25.6,
+  "net_at_nmck": 284971,
+  "exp_disc": 0.15,
+  "net_expected": 95251,
+  "breakeven_disc": 0.2253,
+  "net_expected_conservative": 52806,
+  "net_expected_minimed_list": 151142,
+  "breakeven_disc_minimed_list": 0.2695,
+  "cost_total_minimed_list": 1029839,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "Контракт с неопределённым объёмом (quantityUndefined): цены за ед. (сумма ед. цен 123,84 ₽), поставка по заявкам в 2027 г. до исчерпания 1,5 млн. Доли позиций неизвестны — для расчёта приняты равные доли стоимости.; нет подтверждённого российского аналога (запрет ПП 1875); Упаковка «в штативе из непористого пластика», этикетка без отрывного номера — подтвердить у МиниМед; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0372100001026000499/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-29 09:00",
+   "etp": "РТС-тендер",
+   "smp": "нет ограничения СМП",
+   "app_security": "15000 ₽ (1%) — спецсчёт или БГ",
+   "contract_security": "150000 ₽ (10%) — БГ ≈6563 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0372100001026000499"
+  },
+  "region": "78 Санкт-Петербург",
+  "duplicate": null
+ },
+ {
+  "num": "0387200006326000263",
+  "name": "Поставка изделий медицинского назначения на 2027 год",
+  "cust": "Казенное учреждение Ханты-Мансийского автономного округа - Югры «Сургутский клинический противотуберкулезный диспансер»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-29 06:00",
+  "nmck": 237020.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, V=4..4.9]",
+    "qty": 8000.0,
+    "unit": "шт",
+    "nmck_unit": 11.43,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)"
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=16, H=90..100, V=9..9.5]",
+    "qty": 8000.0,
+    "unit": "шт",
+    "nmck_unit": 15.34,
+    "cost_unit": 14.5,
+    "cost_src": "МиниМед активатор 9 мл 16×100 1405 ₽/уп.100 = 14,05 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=4) +0,45 буфер"
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.2, D=13, H=75, V=4..4.5]",
+    "qty": 2000.0,
+    "unit": "шт",
+    "nmck_unit": 11.43,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с K2ЭДТА [Вид добавки=K2ЭДТА, D=13, V=4..4.9]",
+    "qty": 8000.0,
+    "unit": "шт",
+    "nmck_unit": 11.43,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)",
+    "margin_unit_pct": 12.5
+   },
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=16, H=90..100, V=9..9.5]",
+    "qty": 8000.0,
+    "unit": "шт",
+    "nmck_unit": 15.34,
+    "cost_unit": 14.5,
+    "cost_src": "МиниМед активатор 9 мл 16×100 1405 ₽/уп.100 = 14,05 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=4) +0,45 буфер",
+    "margin_unit_pct": 5.5
+   },
+   {
+    "item": "с натрия цитратом [Концентрация цитрата натрия=3.2, D=13, H=75, V=4..4.5]",
+    "qty": 2000.0,
+    "unit": "шт",
+    "nmck_unit": 11.43,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)",
+    "margin_unit_pct": 12.5
+   }
+  ],
+  "cost_total": 216000,
+  "logistics": 5700,
+  "logistics_detail": "доставка ТК ≈5700 ₽ [оценка: 1 отгр. × 2200 ₽ + 140 кг × 25 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈0 ₽",
+  "margin_pct": 6.5,
+  "net_at_nmck": 5215,
+  "exp_disc": 0.05,
+  "net_expected": -5621,
+  "breakeven_disc": 0.0261,
+  "net_expected_conservative": -5621,
+  "net_expected_minimed_list": 6109,
+  "breakeven_disc_minimed_list": 0.0806,
+  "cost_total_minimed_list": 203600,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "high",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0387200006326000263/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-29 06:00",
+   "etp": "Росэлторг (ЕЭТП)",
+   "smp": "нет ограничения СМП",
+   "app_security": "не требуется",
+   "contract_security": "не установлено",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0387200006326000263"
+  },
+  "region": "86 Ханты-Мансийский АО (Югра)",
+  "duplicate": null
+ },
+ {
+  "num": "0813500000126020134",
+  "name": "зз-0014-46680 - 2026 Пробирки вакуумные (с активатором свертывания)",
+  "cust": "Бюджетное учреждение Здравоохранения Удмуртской Республики «Городская Клиническая Поликлиника г.Ижевска Министерства Здравоохранения Удмуртской Республики»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-11-02 08:00",
+  "nmck": 104160.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 12000.0,
+    "unit": "шт",
+    "nmck_unit": 8.68,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=90..100, V=6..6.5]",
+    "qty": 12000.0,
+    "unit": "шт",
+    "nmck_unit": 8.68,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": -15.2
+   }
+  ],
+  "cost_total": 120000,
+  "logistics": 4280,
+  "logistics_detail": "доставка ТК ≈2780 ₽ [оценка: 1 отгр. × 1700 ₽ + 72 кг × 15 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈1500 ₽",
+  "margin_pct": -19.3,
+  "net_at_nmck": -25039,
+  "exp_disc": 0.05,
+  "net_expected": -30206,
+  "breakeven_disc": -0.2423,
+  "net_expected_conservative": -54995,
+  "net_expected_minimed_list": -19298,
+  "breakeven_disc_minimed_list": -0.1368,
+  "cost_total_minimed_list": 109440,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Нет",
+  "risks": "Убыточные строки (себес > НМЦК ед.): с активатором свертывания [Добавка=Активатор свертывания, D=; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0813500000126020134/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-11-02 08:00",
+   "etp": "ZakazRF (АГЗРТ)",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "5208 ₽ (5.00 %) — БГ ≈1500 ₽ [оценка 3,5% годовых, мин. 1 500 ₽] или деньгами; СМП с опытом 3 контрактов без неустоек — освобождение (ч.8.1 ст.96 44-ФЗ)",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0813500000126020134"
+  },
+  "region": "18 Удмуртская республика",
+  "duplicate": null
+ },
+ {
+  "num": "0860200000826008623",
+  "name": "Поставка пробирок",
+  "cust": "ГУЧ Здравоохранения «Саратовская Городская Поликлиника № 9»",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-30 07:00",
+  "nmck": 126000.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=75, V=5..5.5]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 12.6,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "с активатором свертывания [Добавка=Активатор свертывания, D=13, H=75, V=5..5.5]",
+    "qty": 10000.0,
+    "unit": "шт",
+    "nmck_unit": 12.6,
+    "cost_unit": 10.0,
+    "cost_src": "МиниМед активатор 13 мм 912 ₽/уп.100 = 9,12 ₽ (https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3) +буфер до 10 ₽ (бриф: 12 ₽ [оценка] — см. сценарий conservative)",
+    "margin_unit_pct": 20.6
+   }
+  ],
+  "cost_total": 100000,
+  "logistics": 2340,
+  "logistics_detail": "доставка ТК ≈2340 ₽ [оценка: 1 отгр. × 1500 ₽ + 60 кг × 14 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈0 ₽",
+  "margin_pct": 18.8,
+  "net_at_nmck": 16394,
+  "exp_disc": 0.1,
+  "net_expected": 5770,
+  "breakeven_disc": 0.1543,
+  "net_expected_conservative": -13869,
+  "net_expected_minimed_list": 13496,
+  "breakeven_disc_minimed_list": 0.227,
+  "cost_total_minimed_list": 91200,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "high",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0860200000826008623/notification",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-30 07:00",
+   "etp": "Росэлторг (ЕЭТП)",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "не установлено",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0860200000826008623"
+  },
+  "region": "64 Саратовская область",
+  "duplicate": "не дубль; Саратов, как 0360100000126000505"
+ },
+ {
+  "num": "32616494976",
+  "name": "Поставка изделий медицинского назначения (пробирки вакуумные)",
+  "cust": "Государственное автономное учреждение Здравоохранения Свердловской обл. «Городская Поликлиника Город Нижний Тагил»",
+  "law": "223-ФЗ",
+  "method": "Запрос котировок в электронной форме",
+  "end": "2026-10-29 07:00",
+  "nmck": 390420.0,
+  "auction": false,
+  "positions": [
+   {
+    "item": "Пробирка вакуумная для взятия образцов крови ИВД с натрия цитратом",
+    "qty": 1500.0,
+    "unit": "шт",
+    "nmck_unit": 10.85,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)"
+   },
+   {
+    "item": "Пробирка вакуумная для взятия образцов крови ИВД с К2ЭДТА",
+    "qty": 12000.0,
+    "unit": "шт",
+    "nmck_unit": 10.85,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)"
+   },
+   {
+    "item": "Пробирка вакуумная для взятия образцов крови ИВД с активатором свертывания/разделительным гелем",
+    "qty": 15000.0,
+    "unit": "шт",
+    "nmck_unit": 16.27,
+    "cost_unit": 15.0,
+    "cost_src": "бриф (с активатором и гелем 15 ₽; МиниМед 13 мм 1375 ₽/уп.100 = 13,75 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2); ТЗ «активатор/гель» — если 16×100, себестоимость 23,5–24 ₽ (убыток)"
+   }
+  ],
+  "lines": [
+   {
+    "item": "Пробирка вакуумная для взятия образцов крови ИВД с натрия цитратом",
+    "qty": 1500.0,
+    "unit": "шт",
+    "nmck_unit": 10.85,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (цитрат 10 ₽; МиниМед 3,2%/3,8% 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=11)",
+    "nmck_src": "[оценка] НМЦК распределена пропорционально себестоимости (цен за ед. в извещении нет)",
+    "margin_unit_pct": 7.8
+   },
+   {
+    "item": "Пробирка вакуумная для взятия образцов крови ИВД с К2ЭДТА",
+    "qty": 12000.0,
+    "unit": "шт",
+    "nmck_unit": 10.85,
+    "cost_unit": 10.0,
+    "cost_src": "бриф (ЭДТА 10 ₽; МиниМед 912 ₽/уп.100 = 9,12 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=5)",
+    "nmck_src": "[оценка] НМЦК распределена пропорционально себестоимости (цен за ед. в извещении нет)",
+    "margin_unit_pct": 7.8
+   },
+   {
+    "item": "Пробирка вакуумная для взятия образцов крови ИВД с активатором свертывания/разделительным гелем",
+    "qty": 15000.0,
+    "unit": "шт",
+    "nmck_unit": 16.27,
+    "cost_unit": 15.0,
+    "cost_src": "бриф (с активатором и гелем 15 ₽; МиниМед 13 мм 1375 ₽/уп.100 = 13,75 ₽, https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2); ТЗ «активатор/гель» — если 16×100, себестоимость 23,5–24 ₽ (убыток)",
+    "nmck_src": "[оценка] НМЦК распределена пропорционально себестоимости (цен за ед. в извещении нет)",
+    "margin_unit_pct": 7.8
+   }
+  ],
+  "cost_total": 360000,
+  "logistics": 5420,
+  "logistics_detail": "доставка ТК ≈5420 ₽ [оценка: 1 отгр. × 2000 ₽ + 171 кг × 20 ₽/кг; ~0,6 кг/100 шт 13 мм, ~1 кг/100 шт 16×100] + обеспечение исполнения (БГ) ≈0 ₽",
+  "margin_pct": 6.4,
+  "net_at_nmck": 8383,
+  "exp_disc": 0.05,
+  "net_expected": -9502,
+  "breakeven_disc": 0.0255,
+  "net_expected_conservative": -9502,
+  "net_expected_minimed_list": 18815,
+  "breakeven_disc_minimed_list": 0.1072,
+  "cost_total_minimed_list": 329370,
+  "conservative_note": "conservative: активатор без геля 13 мм по 12 ₽ (оценка брифа) вместо 10 ₽; minimed_list: точные прайсовые цены МиниМед с сайта 26.10.2026 без буфера (912/1210/1375/1405/2125/2352 ₽ за уп.100), без оптовой скидки",
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "decision": "Осторожно",
+  "risks": "Характеристики (объём, размер, гель или без) в ТЗ закрыты (Извещение.zip, часть_II_измененная.docx — zakupki.gov.ru недоступен); среднее НМЦК 13,70 ₽/шт при 15 000 шт «активатор/гель» — если гель, маржа тонкая; ПП 1875: запрет иностранных — нужен российский товар (МиниМед, реестровая запись ПП 719/ГИСП), маркировка «Честный знак»",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616494976",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=3",
+   "https://minimed.ru/catalog/probirki_vakuumnye_sterilnye_prinadlezhnosti_dlya_zabora_krovi/probirki_vakuumnye_petf/?PAGEN_1=2",
+   "/home/user/Tender-RUS-/model/data/verify_tubes_gorka_2010.json",
+   "/home/user/Tender-RUS-/model/data/2610/BRIEF.md"
+  ],
+  "prep": {
+   "deadline_msk": "2026-10-29 07:00",
+   "etp": "ТЭК-Торг",
+   "smp": "Для СМП, СОНО",
+   "app_security": "не требуется",
+   "contract_security": "не установлено",
+   "advance": "нет",
+   "docs": "РУ Росздравнадзора на пробирки МиниМед, номер реестровой записи ПП 719 (ГИСП) / декларация о стране происхождения, декларация СМП (если СМП-лот), характеристики по каждой позиции (конкретные значения V/H); аккредитация на ТЭК-Торг (секция 223)",
+   "samples": "нет",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616494976",
+   "link_etp": "https://zakupki.tektorg.ru/#com/procedure/view/id/235264"
+  },
+  "region": "66 Свердловская область",
+  "duplicate": null
+ }
+]
