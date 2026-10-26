@@ -1,0 +1,2106 @@
+[
+ {
+  "num": "32616496435",
+  "name": "Поставка спецодежды с защитой от электродуги",
+  "cust": "ООО «Энергонефть Томск» (г. Стрежевой)",
+  "law": "223-ФЗ",
+  "method": "Открытый запрос котировок в эл. форме (ЭТП ГПБ)",
+  "end": "2026-11-02 14:00 МСК (18:00 местн.)",
+  "nmck": 77494934.25,
+  "positions": [
+   {
+    "item": "Белье нательное термостойкое",
+    "qty": 800,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 6099.39,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.4.451 «ВОЛЬТ л» 6 099 ₽ с НДС; Трак 5 669 (https://www.trakt.ru/product/12383/)"
+   },
+   {
+    "item": "Каска термостойкая с защитным экраном от дуги (желтая)",
+    "qty": 90,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 7898,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf каска СОМЗ-55 FavoriT Termo RAPID 1 621 ₽ + щиток КБТ ВИЗИОН ENERGO на каску (04207) 6 277 ₽"
+   },
+   {
+    "item": "Каска термостойкая с экраном от дуги (белая, ИТР)",
+    "qty": 70,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 7898,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf то же: 1 621 + 6 277 ₽"
+   },
+   {
+    "item": "Костюм летний противоэнцефалитный от термических рисков дуги",
+    "qty": 150,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 34448.53,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.4.311 «ВОЛЬТ б 220/2-33» противоэнцефалитный"
+   },
+   {
+    "item": "Костюм зимний от термических рисков дуги",
+    "qty": 100,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 36207.16,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.2.379 «ВОЛЬТ з 220-55» (Трак СП08-З 33 155; Спецобъединение 62,5 кал 53 070)"
+   },
+   {
+    "item": "Костюм летний от дуги (брюки)",
+    "qty": 130,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 19533.42,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.4.315 «ВОЛЬТ л 220-14» (если только брюки — дешевле) ; Трак СП02-Л 17 008"
+   },
+   {
+    "item": "Перчатки термостойкие",
+    "qty": 2000,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1309.67,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.8.421 «ВОЛЬТ л»"
+   },
+   {
+    "item": "Подшлемник летний огнестойкий",
+    "qty": 400,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1184.01,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.8.419"
+   },
+   {
+    "item": "Подшлемник зимний огнестойкий",
+    "qty": 400,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1550.01,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.8.420 (утепл. 8.429 — 2 773)"
+   },
+   {
+    "item": "Сапоги кожаные зимние от дуги на МБС подошве",
+    "qty": 120,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 8884.65,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.50.111 «Вольт» утепленные"
+   },
+   {
+    "item": "Сапоги кожаные от дуги на МБС подошве",
+    "qty": 240,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 6650.83,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.50.110 «Вольт»"
+   },
+   {
+    "item": "Белье нательное термостойкое утепленное",
+    "qty": 800,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 8500.35,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.4.453 «ВОЛЬТ з»"
+   }
+  ],
+  "lines": [
+   {
+    "item": "Белье нательное термостойкое",
+    "qty": 800,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 6099.39,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.4.451 «ВОЛЬТ л» 6 099 ₽ с НДС; Трак 5 669 (https://www.trakt.ru/product/12383/)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Каска термостойкая с защитным экраном от дуги (желтая)",
+    "qty": 90,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 7898,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf каска СОМЗ-55 FavoriT Termo RAPID 1 621 ₽ + щиток КБТ ВИЗИОН ENERGO на каску (04207) 6 277 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Каска термостойкая с экраном от дуги (белая, ИТР)",
+    "qty": 70,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 7898,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf то же: 1 621 + 6 277 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм летний противоэнцефалитный от термических рисков дуги",
+    "qty": 150,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 34448.53,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.4.311 «ВОЛЬТ б 220/2-33» противоэнцефалитный",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм зимний от термических рисков дуги",
+    "qty": 100,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 36207.16,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.2.379 «ВОЛЬТ з 220-55» (Трак СП08-З 33 155; Спецобъединение 62,5 кал 53 070)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм летний от дуги (брюки)",
+    "qty": 130,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 19533.42,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.4.315 «ВОЛЬТ л 220-14» (если только брюки — дешевле) ; Трак СП02-Л 17 008",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки термостойкие",
+    "qty": 2000,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1309.67,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.8.421 «ВОЛЬТ л»",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Подшлемник летний огнестойкий",
+    "qty": 400,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1184.01,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.8.419",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Подшлемник зимний огнестойкий",
+    "qty": 400,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1550.01,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.8.420 (утепл. 8.429 — 2 773)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Сапоги кожаные зимние от дуги на МБС подошве",
+    "qty": 120,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 8884.65,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.50.111 «Вольт» утепленные",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Сапоги кожаные от дуги на МБС подошве",
+    "qty": 240,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 6650.83,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.50.110 «Вольт»",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Белье нательное термостойкое утепленное",
+    "qty": 800,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 8500.35,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.4.453 «ВОЛЬТ з»",
+    "margin_unit_pct": null
+   }
+  ],
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Участвовать",
+  "risks": "Расчёт по прайсу Техноавиа (розн.-опт, с НДС) даёт себестоимость ~30,6 млн при НМЦК 77,5 млн — разрыв подозрительно большой: проверить в «Приложения_к_Извещению.rar» количество, срок (возможно, поставка на 2–3 года/по заявкам) и требуемый класс защиты (ATPV, кал/см²) — при 40–60 кал/см² зимние костюмы 53 тыс. (Спецобъединение). Запрет иностранного (prohibitionNationalRegime=true по всем позициям): только российский товар с записью в реестре ГИСП. Нужны сертификаты ТР ТС 019/2011 на каждую модель + протоколы испытаний на дугу. Логистика в Стрежевой (Север Томской обл., зимник). Конкуренты-производители (Энергоконтракт, Техноавиа, ФАРАДЕЙ, Спецобъединение) могут дать снижение 25–40%; безубыточно до ~53%. Работать через дилерский договор с производителем.",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616496435",
+   "https://etp.gpb.ru/#com/procedure/view/procedure/1301293",
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+   "https://www.trakt.ru/product/61040/",
+   "https://www.trakt.ru/product/61043/",
+   "https://www.spets.ru/prices/price_msk.xls"
+  ],
+  "prep": "ЭТП ГПБ (etp.gpb.ru, процедура 1301293) — аккредитация обязательна. Подача до 02.11.2026 14:00 МСК. Обеспечение заявки/договора и аванс — в «Извещение_о_запросе_котировок.docx» (zakupki.gov.ru недоступен, проверить на ЭТП). Документы: сертификаты/декларации ТР ТС 019/2011 на СИЗ от дуги, протоколы испытаний ATPV, выписки ГИСП (реестр российской промпродукции) — запрет иностранного; письмо-авторизация производителя. Ссылка: https://etp.gpb.ru/#com/procedure/view/procedure/1301293",
+  "cost_total": 30646117,
+  "logistics": 459692,
+  "margin_pct": 59.9,
+  "net_at_nmck": 38034533,
+  "exp_disc": 0.15,
+  "net_expected": 28232973,
+  "breakeven_disc": 0.5821
+ },
+ {
+  "num": "32616489407",
+  "name": "МИ №232: спецодежда, спецобувь, СИЗ и дерматологические СИЗ для АО «Уралтурбо»",
+  "cust": "АО «Уралтурбо» (организатор ООО «ГЭХ Закупки»)",
+  "law": "223-ФЗ",
+  "method": "Маркетинговые исследования (ЭТП ГПБ), только СМП",
+  "end": "2026-11-02 10:00 МСК (перенос; ДПИ 13.11.2026)",
+  "nmck": 14973624.91,
+  "positions": [
+   {
+    "item": "Каска защитная белая с храповиком",
+    "qty": 342,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 513,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf СОМЗ-55 FavoriT RAPID 513 ₽"
+   },
+   {
+    "item": "Каска оранжевая с храповиком и креплением для наушников/щитка",
+    "qty": 400,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 513,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf СОМЗ-55 FavoriT RAPID 513 ₽"
+   },
+   {
+    "item": "Каска от повышенных температур оранжевая",
+    "qty": 70,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1621,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf FavoriT Termo RAPID 1 621 ₽"
+   },
+   {
+    "item": "Подбородочный ремень",
+    "qty": 10,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 150,
+    "cost_src": "[оценка]: аксессуар РОСОМЗ 100–200 ₽"
+   },
+   {
+    "item": "Бандана",
+    "qty": 400,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 150,
+    "cost_src": "[оценка]: х/б бандана опт 100–200 ₽"
+   },
+   {
+    "item": "Шапка утепленная",
+    "qty": 32,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 400,
+    "cost_src": "[оценка]: Техноавиа шапки 300–850 ₽"
+   },
+   {
+    "item": "Подшлемник летний",
+    "qty": 26,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 259,
+    "cost_src": "https://www.trakt.ru/product/11708/"
+   },
+   {
+    "item": "Подшлемник термостойкий от дуги зимний",
+    "qty": 26,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1550,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.8.420"
+   },
+   {
+    "item": "Подшлемник от повышенных температур 2 кл",
+    "qty": 76,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1598,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Шап 335 Прометей"
+   },
+   {
+    "item": "Вкладыши противошумные на шнурке инд. упак.",
+    "qty": 4000,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 91,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf UVEX Икс-Фит со шнурком 91 ₽"
+   },
+   {
+    "item": "Наушники противошумные 2 кл",
+    "qty": 100,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 900,
+    "cost_src": "[оценка]: СОМЗ-3 / 3M 700–1100 ₽"
+   },
+   {
+    "item": "Наушники 2 кл с креплением на каску",
+    "qty": 50,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1200,
+    "cost_src": "[оценка]: 1 000–1 500 ₽"
+   },
+   {
+    "item": "Очки на очки открытые",
+    "qty": 300,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 400,
+    "cost_src": "[оценка]: РОСОМЗ О15/О45 350–500 ₽"
+   },
+   {
+    "item": "Очки открытые от мех. воздействий",
+    "qty": 700,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 354,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf О15 HAMMER ACTIVE 354 ₽"
+   },
+   {
+    "item": "Очки закрытые непрямая вентиляция",
+    "qty": 90,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 450,
+    "cost_src": "[оценка]: ЗН11 PANORAMA 400–550 ₽"
+   },
+   {
+    "item": "Очки от УФ/слепящей яркости (водитель)",
+    "qty": 30,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 600,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Очки от мех. и оптич. излучений",
+    "qty": 40,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 700,
+    "cost_src": "[оценка]: поз.17–18"
+   },
+   {
+    "item": "Очки открытые со светофильтром УФ",
+    "qty": 4,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 600,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Щиток сварочный",
+    "qty": 14,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 700,
+    "cost_src": "[оценка]: НН-С 500–900 ₽; поз.20–21"
+   },
+   {
+    "item": "Шлем сварщика с блоком подачи воздуха",
+    "qty": 2,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 120000,
+    "cost_src": "[оценка]: системы ПВС (Speedglas/РОСОМЗ/Ресвенто) 90–150 тыс."
+   },
+   {
+    "item": "Предфильтры/пластины защитные/фильтры для блока ПВС",
+    "qty": 58,
+    "unit": "уп/шт",
+    "nmck_unit": null,
+    "cost_unit": 2500,
+    "cost_src": "[оценка]: поз.23–31 расходники 1,5–5 тыс."
+   },
+   {
+    "item": "Щиток термостойкий от брызг металла",
+    "qty": 28,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 2500,
+    "cost_src": "[оценка]: КБТ Термо 2–3 тыс."
+   },
+   {
+    "item": "Щиток лицевой от электродуги",
+    "qty": 24,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 6277,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf КБТ ВИЗИОН ENERGO 04207"
+   },
+   {
+    "item": "Щиток защитный с креплением на каску",
+    "qty": 40,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 656,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf КБТ ВИЗИОН TITAN 04390"
+   },
+   {
+    "item": "Щиток защитный лицевой",
+    "qty": 40,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 321,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf НБТ1 ВИЗИОН"
+   },
+   {
+    "item": "Противоаэрозольная полумаска (поз.36–38)",
+    "qty": 24000,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 96,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf RK 5021 FFP2 с клапаном 96 ₽"
+   },
+   {
+    "item": "Противоаэрозольная полумаска (поз.39, FFP3)",
+    "qty": 1000,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 155,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf RK 5031 FFP3 с клапаном"
+   },
+   {
+    "item": "Полнолицевая маска",
+    "qty": 12,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 9000,
+    "cost_src": "[оценка]: UNIX 5100/МАГ 7–11 тыс."
+   },
+   {
+    "item": "Пленка для маски",
+    "qty": 10,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 300,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Фильтры/полумаски/держатели (поз.43–53)",
+    "qty": 182,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 900,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf фильтр UNIX 501 A1 739, 502 A2 880; полумаска многоразовая ~1 500 [оценка средняя 900]"
+   },
+   {
+    "item": "Жилет сигнальный оранжевый",
+    "qty": 120,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 300,
+    "cost_src": "[оценка]: 250–400 ₽"
+   },
+   {
+    "item": "Фартук от воды",
+    "qty": 4,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 582,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf Кемикал 581,94"
+   },
+   {
+    "item": "Фартук от нефтепродуктов",
+    "qty": 62,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 844,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf ПВХ ЩИТ-2"
+   },
+   {
+    "item": "Фартук от искр и брызг металла",
+    "qty": 70,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 738,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf Ф2 ТА 738,10"
+   },
+   {
+    "item": "Фартук брезентовый",
+    "qty": 1000,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 450,
+    "cost_src": "[оценка]: брезент 350–550 ₽"
+   },
+   {
+    "item": "Комбинезон от ОПЗ",
+    "qty": 58,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 2500,
+    "cost_src": "[оценка]: Трак/Техноавиа 2–3 тыс."
+   },
+   {
+    "item": "Костюм от искр и брызг металла 1 кл",
+    "qty": 4,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 3801,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf КС 01"
+   },
+   {
+    "item": "Костюм от искр и брызг металла 2 кл",
+    "qty": 18,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 5885,
+    "cost_src": "https://www.trakt.ru/product/16725/"
+   },
+   {
+    "item": "Перчатки латексные с хлопковым напылением",
+    "qty": 824,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 60,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Перчатки нитриловые полный облив (2 вида)",
+    "qty": 360,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 135,
+    "cost_src": "[оценка]: 110–160 ₽"
+   },
+   {
+    "item": "Перчатки с частичным покрытием",
+    "qty": 4000,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 45,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf Гриф/Строй точечное ПВХ 36–38 ₽ (нитрил частично ~50) [усреднено]"
+   },
+   {
+    "item": "Перчатки от конвективной теплоты",
+    "qty": 96,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1409,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls АРАМАКС"
+   },
+   {
+    "item": "Краги сварщика",
+    "qty": 312,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 470,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Пер 211"
+   },
+   {
+    "item": "Перчатки кольчужные",
+    "qty": 10,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 6000,
+    "cost_src": "[оценка]: MANULATEX 5–8 тыс."
+   },
+   {
+    "item": "Рукавицы защитные/с брезент. наладонником",
+    "qty": 868,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 71,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рук 008 71,37"
+   },
+   {
+    "item": "Рукавицы огнеупорные",
+    "qty": 100,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 400,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Перчатки термостойкие",
+    "qty": 182,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1310,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf ВОЛЬТ л"
+   },
+   {
+    "item": "Перчатки от мех. воздействий (поз.74–76)",
+    "qty": 7126,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 45,
+    "cost_src": "[оценка]: трикотаж с ПВХ 20–40 ₽, частично спилок 150 ₽"
+   },
+   {
+    "item": "Перчатки неопреновые",
+    "qty": 520,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 250,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Перчатки резиновые для пескоструя",
+    "qty": 24,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1500,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Перчатки морозостойкие с шерст. вкладышами",
+    "qty": 270,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 350,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Перчатки диэлектрические",
+    "qty": 32,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 350,
+    "cost_src": "[оценка]: латекс бесшовные 300–450 ₽"
+   },
+   {
+    "item": "Перчатки вибрационные",
+    "qty": 100,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2268,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf Vibe"
+   },
+   {
+    "item": "Нарукавники (4 вида)",
+    "qty": 234,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 210,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf ПВХ VS-020 223; ткань 197"
+   },
+   {
+    "item": "Боты диэлектрические",
+    "qty": 32,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1200,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Коврик диэлектрический",
+    "qty": 32,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 354,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 50×50 354,06"
+   },
+   {
+    "item": "Мыло жидкое (5 л)",
+    "qty": 1000,
+    "unit": "л",
+    "nmck_unit": null,
+    "cost_unit": 120,
+    "cost_src": "[оценка]: 500–700 ₽ за 5 л"
+   },
+   {
+    "item": "Дозаторы (2 вида)",
+    "qty": 182,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 900,
+    "cost_src": "[оценка]: Гарда Варио 700–1 200"
+   },
+   {
+    "item": "Дерматологические СИЗ (очищающие, регенерирующие, защитные, поз.92–97)",
+    "qty": 2276,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 350,
+    "cost_src": "[оценка]: Гарда/Venteil 100–200 мл 190–450 ₽"
+   },
+   {
+    "item": "Средства для промывания глаз (поз.98–101)",
+    "qty": 20,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 6000,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf PLUM 4650 7 595, 4789 8 087, 1 384–1 859 (усреднено)"
+   },
+   {
+    "item": "Логотип (нанесение)",
+    "qty": 812,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 150,
+    "cost_src": "[оценка]: термотрансфер 100–200 ₽"
+   }
+  ],
+  "lines": [
+   {
+    "item": "Каска защитная белая с храповиком",
+    "qty": 342,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 513,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf СОМЗ-55 FavoriT RAPID 513 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Каска оранжевая с храповиком и креплением для наушников/щитка",
+    "qty": 400,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 513,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf СОМЗ-55 FavoriT RAPID 513 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Каска от повышенных температур оранжевая",
+    "qty": 70,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1621,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf FavoriT Termo RAPID 1 621 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Подбородочный ремень",
+    "qty": 10,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 150,
+    "cost_src": "[оценка]: аксессуар РОСОМЗ 100–200 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Бандана",
+    "qty": 400,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 150,
+    "cost_src": "[оценка]: х/б бандана опт 100–200 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Шапка утепленная",
+    "qty": 32,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 400,
+    "cost_src": "[оценка]: Техноавиа шапки 300–850 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Подшлемник летний",
+    "qty": 26,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 259,
+    "cost_src": "https://www.trakt.ru/product/11708/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Подшлемник термостойкий от дуги зимний",
+    "qty": 26,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1550,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.8.420",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Подшлемник от повышенных температур 2 кл",
+    "qty": 76,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1598,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Шап 335 Прометей",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Вкладыши противошумные на шнурке инд. упак.",
+    "qty": 4000,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 91,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf UVEX Икс-Фит со шнурком 91 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Наушники противошумные 2 кл",
+    "qty": 100,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 900,
+    "cost_src": "[оценка]: СОМЗ-3 / 3M 700–1100 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Наушники 2 кл с креплением на каску",
+    "qty": 50,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 1200,
+    "cost_src": "[оценка]: 1 000–1 500 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Очки на очки открытые",
+    "qty": 300,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 400,
+    "cost_src": "[оценка]: РОСОМЗ О15/О45 350–500 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Очки открытые от мех. воздействий",
+    "qty": 700,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 354,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf О15 HAMMER ACTIVE 354 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Очки закрытые непрямая вентиляция",
+    "qty": 90,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 450,
+    "cost_src": "[оценка]: ЗН11 PANORAMA 400–550 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Очки от УФ/слепящей яркости (водитель)",
+    "qty": 30,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 600,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Очки от мех. и оптич. излучений",
+    "qty": 40,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 700,
+    "cost_src": "[оценка]: поз.17–18",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Очки открытые со светофильтром УФ",
+    "qty": 4,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 600,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Щиток сварочный",
+    "qty": 14,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 700,
+    "cost_src": "[оценка]: НН-С 500–900 ₽; поз.20–21",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Шлем сварщика с блоком подачи воздуха",
+    "qty": 2,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 120000,
+    "cost_src": "[оценка]: системы ПВС (Speedglas/РОСОМЗ/Ресвенто) 90–150 тыс.",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Предфильтры/пластины защитные/фильтры для блока ПВС",
+    "qty": 58,
+    "unit": "уп/шт",
+    "nmck_unit": null,
+    "cost_unit": 2500,
+    "cost_src": "[оценка]: поз.23–31 расходники 1,5–5 тыс.",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Щиток термостойкий от брызг металла",
+    "qty": 28,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 2500,
+    "cost_src": "[оценка]: КБТ Термо 2–3 тыс.",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Щиток лицевой от электродуги",
+    "qty": 24,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 6277,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf КБТ ВИЗИОН ENERGO 04207",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Щиток защитный с креплением на каску",
+    "qty": 40,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 656,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf КБТ ВИЗИОН TITAN 04390",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Щиток защитный лицевой",
+    "qty": 40,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 321,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf НБТ1 ВИЗИОН",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Противоаэрозольная полумаска (поз.36–38)",
+    "qty": 24000,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 96,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf RK 5021 FFP2 с клапаном 96 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Противоаэрозольная полумаска (поз.39, FFP3)",
+    "qty": 1000,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 155,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf RK 5031 FFP3 с клапаном",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Полнолицевая маска",
+    "qty": 12,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 9000,
+    "cost_src": "[оценка]: UNIX 5100/МАГ 7–11 тыс.",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Пленка для маски",
+    "qty": 10,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 300,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Фильтры/полумаски/держатели (поз.43–53)",
+    "qty": 182,
+    "unit": "шт/компл",
+    "nmck_unit": null,
+    "cost_unit": 900,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf фильтр UNIX 501 A1 739, 502 A2 880; полумаска многоразовая ~1 500 [оценка средняя 900]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Жилет сигнальный оранжевый",
+    "qty": 120,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 300,
+    "cost_src": "[оценка]: 250–400 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Фартук от воды",
+    "qty": 4,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 582,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf Кемикал 581,94",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Фартук от нефтепродуктов",
+    "qty": 62,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 844,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf ПВХ ЩИТ-2",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Фартук от искр и брызг металла",
+    "qty": 70,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 738,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf Ф2 ТА 738,10",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Фартук брезентовый",
+    "qty": 1000,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 450,
+    "cost_src": "[оценка]: брезент 350–550 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Комбинезон от ОПЗ",
+    "qty": 58,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 2500,
+    "cost_src": "[оценка]: Трак/Техноавиа 2–3 тыс.",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм от искр и брызг металла 1 кл",
+    "qty": 4,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 3801,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf КС 01",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм от искр и брызг металла 2 кл",
+    "qty": 18,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 5885,
+    "cost_src": "https://www.trakt.ru/product/16725/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки латексные с хлопковым напылением",
+    "qty": 824,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 60,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки нитриловые полный облив (2 вида)",
+    "qty": 360,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 135,
+    "cost_src": "[оценка]: 110–160 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки с частичным покрытием",
+    "qty": 4000,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 45,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf Гриф/Строй точечное ПВХ 36–38 ₽ (нитрил частично ~50) [усреднено]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки от конвективной теплоты",
+    "qty": 96,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1409,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls АРАМАКС",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Краги сварщика",
+    "qty": 312,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 470,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Пер 211",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки кольчужные",
+    "qty": 10,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 6000,
+    "cost_src": "[оценка]: MANULATEX 5–8 тыс.",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Рукавицы защитные/с брезент. наладонником",
+    "qty": 868,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 71,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рук 008 71,37",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Рукавицы огнеупорные",
+    "qty": 100,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 400,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки термостойкие",
+    "qty": 182,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1310,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf ВОЛЬТ л",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки от мех. воздействий (поз.74–76)",
+    "qty": 7126,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 45,
+    "cost_src": "[оценка]: трикотаж с ПВХ 20–40 ₽, частично спилок 150 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки неопреновые",
+    "qty": 520,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 250,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки резиновые для пескоструя",
+    "qty": 24,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1500,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки морозостойкие с шерст. вкладышами",
+    "qty": 270,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 350,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки диэлектрические",
+    "qty": 32,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 350,
+    "cost_src": "[оценка]: латекс бесшовные 300–450 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки вибрационные",
+    "qty": 100,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2268,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf Vibe",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Нарукавники (4 вида)",
+    "qty": 234,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 210,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf ПВХ VS-020 223; ткань 197",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Боты диэлектрические",
+    "qty": 32,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1200,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Коврик диэлектрический",
+    "qty": 32,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 354,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 50×50 354,06",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Мыло жидкое (5 л)",
+    "qty": 1000,
+    "unit": "л",
+    "nmck_unit": null,
+    "cost_unit": 120,
+    "cost_src": "[оценка]: 500–700 ₽ за 5 л",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Дозаторы (2 вида)",
+    "qty": 182,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 900,
+    "cost_src": "[оценка]: Гарда Варио 700–1 200",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Дерматологические СИЗ (очищающие, регенерирующие, защитные, поз.92–97)",
+    "qty": 2276,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 350,
+    "cost_src": "[оценка]: Гарда/Venteil 100–200 мл 190–450 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Средства для промывания глаз (поз.98–101)",
+    "qty": 20,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 6000,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf PLUM 4650 7 595, 4789 8 087, 1 384–1 859 (усреднено)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Логотип (нанесение)",
+    "qty": 812,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 150,
+    "cost_src": "[оценка]: термотрансфер 100–200 ₽",
+    "margin_unit_pct": null
+   }
+  ],
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Участвовать",
+  "risks": "102 позиции, цен за ед. в ЕИС нет (НМЦК делим условно); около 40% себестоимости — оценки без прайса (ПВС-шлемы, дерматология, перчатки). Самые денежные позиции: 25 000 полумасок, ~11 000 пар перчаток, 812 касок. Были разъяснения: заказчик дополнял ценовую форму, уточнял единицы измерения, НМЦ по мылу и количество логотипов — взять актуальную редакцию от 23.10. Мелкие позиции (кольчужные перчатки, ПВС) — риск срыва сроков. Перед подачей запросить КП у Техноавиа/Восток-Сервиса.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616489407",
+   "https://etp.gpb.ru/#com/procedure/view/procedure/1300627",
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+   "https://www.spets.ru/prices/price_msk.xls",
+   "https://www.trakt.ru/product/16725/"
+  ],
+  "prep": "ЭТП ГПБ, процедура 1300627 (ГЭХ Закупки) — аккредитация. Подача до 02.11.2026 10:00 МСК. Только СМП (выписка из реестра МСП). Заполнить ценовую форму из «232МИ_кор._от_23.10». Сертификаты/декларации ТР ТС 019 на все СИЗ, свидетельства ГИСП на одежду и обувь (ПП 1875). Обеспечение — по документации (на ЕИС недоступна).",
+  "cost_total": 9154606,
+  "logistics": 183092,
+  "margin_pct": 37.6,
+  "net_at_nmck": 4427773,
+  "exp_disc": 0.1,
+  "net_expected": 3165197,
+  "breakeven_disc": 0.3507
+ },
+ {
+  "num": "0372200087626000024",
+  "name": "Поставка кадетской формы в 2026 году",
+  "cust": "ГБОУ Школа № 380 Красносельского р-на СПб им. А.И. Спирина",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в эл. форме, СМП/СОНО",
+  "end": "2026-11-02 10:00 МСК",
+  "nmck": 2490692.0,
+  "positions": [
+   {
+    "item": "Ботинки с высокими берцами «Зубр»",
+    "qty": 212,
+    "unit": "пара",
+    "nmck_unit": 3700,
+    "cost_unit": 3000,
+    "cost_src": "[оценка]: юфтевые/хромовые на меху с высоким берцем: Спецобъединение СОЮЗ 3 509, Техноавиа Техногард-2 с высокими берцами 6 536; среднее у фабрик 2 700–3 200 ₽ (https://www.spets.ru/prices/price_msk.xls)"
+   },
+   {
+    "item": "Китель парадный муж./жен.",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 7030,
+    "cost_unit": 3500,
+    "cost_src": "Правило клиента: летний форменный комплект 3 500 ₽ — для кителя принято как потолок"
+   },
+   {
+    "item": "Берет кадетский",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 495.8,
+    "cost_unit": 300,
+    "cost_src": "[оценка]: береты опт 250–350 ₽"
+   },
+   {
+    "item": "Куртка зимняя с капюшоном",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 4810,
+    "cost_unit": 3500,
+    "cost_src": "[оценка]: куртки утепл. Техноавиа 2 501–4 669 ₽, Трак медиана 4 995 (deep/bench_clothes.json); правило клиента 5 000 — на полный зимний комплект"
+   },
+   {
+    "item": "Шапка зимняя кадетская",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 962,
+    "cost_unit": 500,
+    "cost_src": "[оценка]: 400–600 ₽"
+   },
+   {
+    "item": "Галстук кадетский «Регат»",
+    "qty": 61,
+    "unit": "шт",
+    "nmck_unit": 185,
+    "cost_unit": 100,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Галстук-бант женский",
+    "qty": 61,
+    "unit": "шт",
+    "nmck_unit": 185,
+    "cost_unit": 100,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Шарф-кашне",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 281.2,
+    "cost_unit": 150,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Перчатки белые парадные",
+    "qty": 122,
+    "unit": "пара",
+    "nmck_unit": 222,
+    "cost_unit": 90,
+    "cost_src": "[оценка]: х/б белые парадные 60–120 ₽"
+   }
+  ],
+  "lines": [
+   {
+    "item": "Ботинки с высокими берцами «Зубр»",
+    "qty": 212,
+    "unit": "пара",
+    "nmck_unit": 3700,
+    "cost_unit": 3000,
+    "cost_src": "[оценка]: юфтевые/хромовые на меху с высоким берцем: Спецобъединение СОЮЗ 3 509, Техноавиа Техногард-2 с высокими берцами 6 536; среднее у фабрик 2 700–3 200 ₽ (https://www.spets.ru/prices/price_msk.xls)",
+    "margin_unit_pct": 18.9
+   },
+   {
+    "item": "Китель парадный муж./жен.",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 7030,
+    "cost_unit": 3500,
+    "cost_src": "Правило клиента: летний форменный комплект 3 500 ₽ — для кителя принято как потолок",
+    "margin_unit_pct": 50.2
+   },
+   {
+    "item": "Берет кадетский",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 495.8,
+    "cost_unit": 300,
+    "cost_src": "[оценка]: береты опт 250–350 ₽",
+    "margin_unit_pct": 39.5
+   },
+   {
+    "item": "Куртка зимняя с капюшоном",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 4810,
+    "cost_unit": 3500,
+    "cost_src": "[оценка]: куртки утепл. Техноавиа 2 501–4 669 ₽, Трак медиана 4 995 (deep/bench_clothes.json); правило клиента 5 000 — на полный зимний комплект",
+    "margin_unit_pct": 27.2
+   },
+   {
+    "item": "Шапка зимняя кадетская",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 962,
+    "cost_unit": 500,
+    "cost_src": "[оценка]: 400–600 ₽",
+    "margin_unit_pct": 48.0
+   },
+   {
+    "item": "Галстук кадетский «Регат»",
+    "qty": 61,
+    "unit": "шт",
+    "nmck_unit": 185,
+    "cost_unit": 100,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": 45.9
+   },
+   {
+    "item": "Галстук-бант женский",
+    "qty": 61,
+    "unit": "шт",
+    "nmck_unit": 185,
+    "cost_unit": 100,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": 45.9
+   },
+   {
+    "item": "Шарф-кашне",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 281.2,
+    "cost_unit": 150,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": 46.7
+   },
+   {
+    "item": "Перчатки белые парадные",
+    "qty": 122,
+    "unit": "пара",
+    "nmck_unit": 222,
+    "cost_unit": 90,
+    "cost_src": "[оценка]: х/б белые парадные 60–120 ₽",
+    "margin_unit_pct": 59.5
+   }
+  ],
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Участвовать",
+  "risks": "Запрет иностранного (ПП 1875) по обуви и одежде: нужна запись в реестре ГИСП/ЕАЭС на каждую позицию. Ботинки названы «Зубр» — проверить, что допускается эквивалент. Размерная сетка по согласованию — пошив/подбор по размерам, срок поставки. Себестоимость кителя и куртки — по правилу клиента/оценке. Похожая закупка той же школы 0372200087626000023 уже была (см. bench_clothes).",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0372200087626000024/notification",
+   "https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber=0372200087626000024",
+   "https://www.spets.ru/prices/price_msk.xls",
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+  ],
+  "prep": "ЕИС + Росэлторг. Подача до 02.11.2026 10:00 МСК. Обеспечение заявки 24 906,92 ₽ (1%), исполнения 10% (~249 тыс., при снижении >25% — антидемпинг ×1,5). Документы: декларация СМП, номера реестровых записей ГИСП/евразийского реестра (запрет иностранного), характеристики по описанию. Аванса нет.",
+  "cost_total": 1629080,
+  "logistics": 30000,
+  "margin_pct": 33.4,
+  "net_at_nmck": 643570,
+  "exp_disc": 0.1,
+  "net_expected": 433555,
+  "breakeven_disc": 0.3064
+ },
+ {
+  "num": "32616497619",
+  "name": "Поставка спецодежды, спецобуви и средств индивидуальной и коллективной защиты",
+  "cust": "МУП «Водоканал» г. Белорецк",
+  "law": "223-ФЗ",
+  "method": "Конкурс в эл. форме, только СМП",
+  "end": "2026-11-03 09:00 МСК (11:00 местн.)",
+  "nmck": 1264480.67,
+  "positions": [
+   {
+    "item": "Костюм зимний утепленный с СОП мужской",
+    "qty": 91,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 5000,
+    "cost_src": "Правило клиента: зимний комплект 5 000 ₽"
+   },
+   {
+    "item": "Костюм зимний утепленный с СОП женский",
+    "qty": 12,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 5000,
+    "cost_src": "Правило клиента: зимний комплект 5 000 ₽"
+   },
+   {
+    "item": "Куртка женская утеплённая",
+    "qty": 1,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 3500,
+    "cost_src": "[оценка]: Техноавиа 2 501–4 669"
+   },
+   {
+    "item": "Костюм сварщика зимний",
+    "qty": 2,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 11035,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls 0015 спилок/брезент утепл."
+   },
+   {
+    "item": "Костюм рабочий ОПЗ женский",
+    "qty": 1,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 3500,
+    "cost_src": "Правило клиента: летний комплект 3 500 ₽"
+   },
+   {
+    "item": "Костюм утеплённый охранника",
+    "qty": 19,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 5000,
+    "cost_src": "Правило клиента: зимний комплект 5 000 ₽"
+   },
+   {
+    "item": "Костюм сигнальный 2 кл",
+    "qty": 3,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 4306,
+    "cost_src": "https://www.trakt.ru/product/143434/"
+   },
+   {
+    "item": "Сапоги мужские зимние",
+    "qty": 101,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2544,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Сап 061 МАСТЕР кожаные иск. мех (ЭВА 1 995)"
+   },
+   {
+    "item": "Сапоги женские зимние",
+    "qty": 19,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2500,
+    "cost_src": "[оценка]: по аналогии с мужскими"
+   },
+   {
+    "item": "Ботинки мужские",
+    "qty": 1,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1964,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Бот 052"
+   },
+   {
+    "item": "Сапоги мужские утеплённые",
+    "qty": 1,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2544,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Сап 061"
+   },
+   {
+    "item": "Ботинки женские",
+    "qty": 1,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2000,
+    "cost_src": "[оценка]"
+   },
+   {
+    "item": "Перчатки зимние трикотажные полушерстяные двухслойные",
+    "qty": 70,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 159,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.7.424 полушерстяные"
+   },
+   {
+    "item": "Перчатки утеплённые с нитриловым покрытием (полный облив)",
+    "qty": 60,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 250,
+    "cost_src": "[оценка]: 200–300 ₽"
+   },
+   {
+    "item": "Рукавицы утеплённые с брезентовым наладонником",
+    "qty": 150,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 163,
+    "cost_src": "https://www.trakt.ru/product/11783/"
+   }
+  ],
+  "lines": [
+   {
+    "item": "Костюм зимний утепленный с СОП мужской",
+    "qty": 91,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 5000,
+    "cost_src": "Правило клиента: зимний комплект 5 000 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм зимний утепленный с СОП женский",
+    "qty": 12,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 5000,
+    "cost_src": "Правило клиента: зимний комплект 5 000 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Куртка женская утеплённая",
+    "qty": 1,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": 3500,
+    "cost_src": "[оценка]: Техноавиа 2 501–4 669",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм сварщика зимний",
+    "qty": 2,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 11035,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls 0015 спилок/брезент утепл.",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм рабочий ОПЗ женский",
+    "qty": 1,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 3500,
+    "cost_src": "Правило клиента: летний комплект 3 500 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм утеплённый охранника",
+    "qty": 19,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 5000,
+    "cost_src": "Правило клиента: зимний комплект 5 000 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Костюм сигнальный 2 кл",
+    "qty": 3,
+    "unit": "компл",
+    "nmck_unit": null,
+    "cost_unit": 4306,
+    "cost_src": "https://www.trakt.ru/product/143434/",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Сапоги мужские зимние",
+    "qty": 101,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2544,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Сап 061 МАСТЕР кожаные иск. мех (ЭВА 1 995)",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Сапоги женские зимние",
+    "qty": 19,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2500,
+    "cost_src": "[оценка]: по аналогии с мужскими",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Ботинки мужские",
+    "qty": 1,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1964,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Бот 052",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Сапоги мужские утеплённые",
+    "qty": 1,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2544,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Сап 061",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Ботинки женские",
+    "qty": 1,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 2000,
+    "cost_src": "[оценка]",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки зимние трикотажные полушерстяные двухслойные",
+    "qty": 70,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 159,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf арт.7.424 полушерстяные",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Перчатки утеплённые с нитриловым покрытием (полный облив)",
+    "qty": 60,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 250,
+    "cost_src": "[оценка]: 200–300 ₽",
+    "margin_unit_pct": null
+   },
+   {
+    "item": "Рукавицы утеплённые с брезентовым наладонником",
+    "qty": 150,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 163,
+    "cost_src": "https://www.trakt.ru/product/11783/",
+    "margin_unit_pct": null
+   }
+  ],
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Осторожно",
+  "risks": "Тонко: безубыточное снижение ~14,5%, при снижении 12% net ~26 тыс. Подавать с ценой не ниже −5…−8% от НМЦК. Конкурс: кроме цены оцениваются критерии (опыт, квалификация — «Таблица оценочных критериев.xlsx»), без опыта шансы ниже. 82% себестоимости — зимние костюмы по правилу клиента 5 000 ₽; если в ТЗ высокий класс защиты (III–IV пояс, СОП), зимний костюм может стоить 6–9 тыс. Обоснование НМЦК и ТЗ на zakupki.gov.ru (оттуда не скачалось). Мелкие позиции по 1 шт.",
+  "confidence": "med",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616497619",
+   "https://www.spets.ru/prices/price_msk.xls",
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+   "https://www.trakt.ru/product/143434/"
+  ],
+  "prep": "Росэлторг (223, секция МСП). Подача до 03.11.2026 09:00 МСК. Конкурс в 2 частях: техпредложение по форме «6. Форма первой части заявки.xlsx», ценовое — отдельно. Обеспечение — по «1. Документация.docx» (для СМП обычно ≤2% или без обеспечения). Сертификаты ТР ТС 019, выписка МСП, подтверждение опыта (договоры/акты) под критерии.",
+  "cost_total": 1013520,
+  "logistics": 25000,
+  "margin_pct": 17.9,
+  "net_at_nmck": 154446,
+  "exp_disc": 0.12,
+  "net_expected": 26501,
+  "breakeven_disc": 0.1449
+ },
+ {
+  "num": "B2010261157408",
+  "name": "Поставка армейских палаток для филиалов АНО ДПО «ВОИН» (Амурская обл., ЕАО, Карелия, Приморье)",
+  "cust": "АНО ДПО «Центр развития военно-спортивной подготовки и патриотического воспитания молодёжи» («ВОИН»)",
+  "law": "Коммерческие",
+  "method": "Тендер (Росэлторг, коммерческая секция)",
+  "end": "2026-10-28 11:00 МСК",
+  "nmck": 2210933.36,
+  "positions": [
+   {
+    "item": "Палатки армейские (модель/количество неизвестны — в карточке не раскрыто)",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка]: армейские палатки УСБ-56 «от 150 000 ₽» (https://productcenter.ru/products/catalog-armieiskiie-palatki-2085), М-10/М-30 — 40–100 тыс.; себестоимость принята 75% НМЦК"
+   }
+  ],
+  "lines": [],
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Запросить спецификацию",
+  "risks": "Спецификация недоступна, модель и количество неизвестны. Доставка в 4 удалённых точки (Петрозаводск, Благовещенск, Владивосток, Хабаровск) — дорогая логистика, около 5% [оценка]. До подачи меньше 2 суток (28.10 11:00). Подавать, только если сегодня-завтра получим ТЗ и КП фабрики (ПК «Агролиз», ПневмоСибирь и др.).",
+  "confidence": "low",
+  "sources": [
+   "https://productcenter.ru/products/52999/palatka-armieiskaia-usb-56",
+   "https://productcenter.ru/products/catalog-armieiskiie-palatki-2085"
+  ],
+  "prep": "Росэлторг, коммерческие закупки (аккредитация в секции). Подача до 28.10.2026 11:00 МСК. Обеспечение — не указано. Нужны ТЗ (модели, ГОСТ/ТУ), КП производителя, расчёт доставки по 4 адресам.",
+  "cost_total": 1658200,
+  "logistics": 110547,
+  "margin_pct": 20.0,
+  "net_at_nmck": 311396,
+  "exp_disc": 0.1,
+  "net_expected": 124970,
+  "breakeven_disc": 0.167
+ },
+ {
+  "num": "0848300064126000376",
+  "name": "Поставка модуля пневмокаркасного комбинированного",
+  "cust": "МБУ «Центр по делам ГО и ЧС г.о. Балашиха» (совместная, несколько заказчиков)",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в эл. форме, СМП/СОНО",
+  "end": "2026-10-30 10:00 МСК",
+  "nmck": 1355166.67,
+  "positions": [
+   {
+    "item": "Модуль пневмокаркасный комбинированный ≥7,5×4,9×2,8 м, ПВХ ≥650 г/м², утеплитель, пол-секции, пневмодверь, отопительно-вентиляционный агрегат на дизеле ≥20 кВт, устройство наддува 220 В",
+    "qty": 1,
+    "unit": "шт",
+    "nmck_unit": 1355166.67,
+    "cost_unit": 850000,
+    "cost_src": "[оценка]: модуль 6×4,8 «от 250 000» без утепления и агрегата (https://productcenter.ru/products/85530/pnievmokarkasnyi-modul) + утепление/пол/двери ~150–250 тыс. + дизельный ОВ-агрегат 20 кВт ~250–350 тыс. → 750–950 тыс."
+   }
+  ],
+  "lines": [],
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Осторожно",
+  "risks": "Себестоимость — оценка без КП. Запрет иностранного (ПП 1875): модуль и, вероятно, агрегат должны быть российскими с записью в ГИСП. Набор характеристик похож на конкретного производителя модулей для МЧС (Номадика, Арктика, ПневмоСибирь и т.п.) — запросить КП у 2–3 фабрик. Срок изготовления 2–4 недели.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0848300064126000376/notification",
+   "https://productcenter.ru/products/85530/pnievmokarkasnyi-modul"
+  ],
+  "prep": "ЕИС + Росэлторг. Подача до 30.10.2026 10:00 МСК. Обеспечение заявки 13 551,67 ₽ (1%), исполнения 10% (~135 тыс.). Реестровая запись ГИСП на модуль (запрет иностранного), декларация СМП. Доставка: г. Балашиха, ул. Советская, 56.",
+  "cost_total": 850000,
+  "logistics": 15000,
+  "margin_pct": 36.2,
+  "net_at_nmck": 383254,
+  "exp_disc": 0.1,
+  "net_expected": 268986,
+  "breakeven_disc": 0.3354
+ },
+ {
+  "num": "0327300018526000001",
+  "name": "Поставка хоккейной экипировки",
+  "cust": "МБУ «ФОК» г. Новозыбкова (описание объекта — МБУДО СШ Стародубского МО)",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в эл. форме, СМП/СОНО",
+  "end": "2026-10-29 09:30 МСК",
+  "nmck": 2999795.9,
+  "positions": [
+   {
+    "item": "Коньки хоккейные (9 позиций)",
+    "qty": 32,
+    "unit": "пара",
+    "nmck_unit": 26991,
+    "cost_unit": null,
+    "cost_src": "[оценка]: НМЦК ≈ розничные цены брендов (Bauer/CCM Int/Sr); дилерская скидка 15–25% → себестоимость ≈78% НМЦК"
+   },
+   {
+    "item": "Шлемы игрока/вратаря",
+    "qty": 31,
+    "unit": "шт",
+    "nmck_unit": 11961,
+    "cost_unit": null,
+    "cost_src": "[оценка] то же"
+   },
+   {
+    "item": "Нагрудники, налокотники, наколенники, шорты, перчатки игроков",
+    "qty": null,
+    "unit": "шт/пара",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка] то же"
+   },
+   {
+    "item": "Вратарская экипировка (ловушка/блин, щитки, нагрудник, шорты, защита горла)",
+    "qty": null,
+    "unit": "шт",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "[оценка] то же"
+   }
+  ],
+  "lines": [],
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Осторожно",
+  "risks": "50 позиций, в основном импортные бренды. В закупке действует ограничение для иностранных товаров (isRestrictForeignPurchaseObjects): при одной заявке с российским товаром импортные отклоняются, а российских производителей экипировки мало. Маржа тонкая (≈20% до торга): НМЦК собран по рознице. Нужен прямой контакт с дистрибьютором. Подача уже 29.10.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0327300018526000001/notification"
+  ],
+  "prep": "ЕИС + Росэлторг. Подача до 29.10.2026 09:30 МСК. Обеспечение заявки 14 998,98 ₽ (0,5%), исполнения 1%. Документы: декларация СМП, страна происхождения по каждой позиции (ограничение ПП 1875), конкретные размеры и хват по описанию.",
+  "cost_total": 2339841,
+  "logistics": 30000,
+  "margin_pct": 21.0,
+  "net_at_nmck": 448838,
+  "exp_disc": 0.1,
+  "net_expected": 195895,
+  "breakeven_disc": 0.1774
+ },
+ {
+  "num": "32616489910",
+  "name": "МИ №308: поставка соли технической для Химкинского филиала ООО «ТСК Мосэнерго»",
+  "cust": "ООО «Теплоснабжающая компания Мосэнерго» (организатор ООО «ГЭХ Закупки»)",
+  "law": "223-ФЗ",
+  "method": "Маркетинговые исследования открытые (ЭТП ГПБ), только СМП",
+  "end": "2026-10-28 10:00 МСК",
+  "nmck": 44596673.0,
+  "positions": [
+   {
+    "item": "Соль техническая (навал)",
+    "qty": 3345,
+    "unit": "т [оценка: 85% НМЦК]",
+    "nmck_unit": 11333.34,
+    "cost_unit": 6500,
+    "cost_src": "НСМ групп: Уралкалий/Белкалий тип А 6 500 ₽/т, тип D 4 350 ₽/т навалом от 40 т (https://nsmgr.ru/reagenty/tekhnicheskaya-sol/big-begi, https://nsmgr.ru/reagenty/tekhnicheskaya-sol/navalom); для ХВО принят тип А 6 500. Казахстан по данным клиента 2 500 ₽/т (data/subg/salt.json), но тогда теряется приоритет российского товара"
+   },
+   {
+    "item": "Соль таблетированная (мешки 25 кг)",
+    "qty": 197,
+    "unit": "т [оценка: 15% НМЦК]",
+    "nmck_unit": 34000,
+    "cost_unit": 21200,
+    "cost_src": "МегаКровля: DIESALZ Лайт 98,9% — 640 ₽/мешок до 40 шт., 530 ₽ от 101 мешка → 21 200 ₽/т; Тульская 735 ₽ (https://www.masterkrowli.ru/tabletirovannaya-sol-dlya-vodopodgotovki)"
+   }
+  ],
+  "lines": [],
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Участвовать",
+  "risks": "Сколько навала и сколько таблеток — неизвестно (ТЗ в 308_МИ.rar, EIS недоступен): принято 85/15 по деньгам, т.е. ~3 345 т навала и ~197 т таблеток. Если ТЗ на ХВО требует NaCl ≥97–99% / ГОСТ Р 51574, навал дороже (8–11 тыс. ₽/т). Поставка по графику на 2027 год по фиксированной цене: риск роста цен и тарифов РЖД (+8,5% с 01.10.2026). Приоритет российского товара (superiorityNationalRegime=true): казахстанская соль клиента дешевле, но теряет преференцию. До подачи чуть больше суток.",
+  "confidence": "low",
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616489910",
+   "https://etp.gpb.ru/#com/procedure/view/procedure/1300697",
+   "https://nsmgr.ru/reagenty/tekhnicheskaya-sol/navalom",
+   "https://nsmgr.ru/reagenty/tekhnicheskaya-sol/big-begi",
+   "https://www.masterkrowli.ru/tabletirovannaya-sol-dlya-vodopodgotovki",
+   "https://perevalki.ru/catalog/sol-tehnicheskaya/"
+  ],
+  "prep": "ЭТП ГПБ, процедура 1300697 (ГЭХ Закупки) — аккредитация. Подача до 28.10.2026 10:00 МСК. Только СМП. Паспорта качества и сертификаты производителя (Уралкалий/Белкалий/Руссоль), письмо дилера. Объёмы/график — в 308_МИ.rar. Обеспечение — по документации.",
+  "cost_total": 25911966,
+  "logistics": 2479049,
+  "margin_pct": 36.3,
+  "net_at_nmck": 12678159,
+  "exp_disc": 0.1,
+  "net_expected": 8917768,
+  "breakeven_disc": 0.3371
+ },
+ {
+  "num": "387-812",
+  "name": "Обувь 2027 (ботинки, полуботинки, сабо кожаные летние)",
+  "cust": "АО «Архангельский ЦБК»",
+  "law": "Коммерческие",
+  "method": "Тендер (Bidzaar)",
+  "end": "2026-11-02 16:00 МСК",
+  "nmck": null,
+  "positions": [
+   {
+    "item": "Ботинки кожаные летние с МП",
+    "qty": null,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1964,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Бот 052 МАСТЕР 1 964 ₽; Трак МЕТАЛЛАН 2 034 (https://www.trakt.ru/product/12103/); рекомендуемая цена КП 2 450 ₽"
+   },
+   {
+    "item": "Полуботинки кожаные летние",
+    "qty": null,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1900,
+    "cost_src": "[оценка]: на 3–5% дешевле ботинок той же серии; КП 2 350 ₽"
+   },
+   {
+    "item": "Сабо кожаные летние",
+    "qty": null,
+    "unit": "пара",
+    "nmck_unit": null,
+    "cost_unit": 1600,
+    "cost_src": "[оценка]: кожаные сабо/туфли типа сабо опт 1 300–2 000 ₽; у Техноавиа «Нордман Шарк С» по распродаже 5 500 ₽ (https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf); КП 2 000 ₽"
+   }
+  ],
+  "lines": [],
+  "cost_total": null,
+  "logistics": null,
+  "margin_pct": null,
+  "net_at_nmck": null,
+  "exp_disc": null,
+  "net_expected": null,
+  "breakeven_disc": null,
+  "kp_price": null,
+  "kp_margin_pct": 19.8,
+  "auction": false,
+  "decision": "Запросить спецификацию",
+  "risks": "Количество и спецификация закрыты логином. Нужна обувь российского производства с сертификатом ТР ТС 019 (для частной компании не обязательно, но обычно требуют). Цена КП должна быть ниже прайсов Трак/Техноавиа для юрлиц — наценка 20–25% к цене фабрики даёт net-маржу около 12–15%. Доставка в Новодвинск.",
+  "confidence": "low",
+  "sources": [
+   "https://www.spets.ru/prices/price_msk.xls",
+   "https://www.trakt.ru/product/12103/",
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+  ],
+  "prep": "Bidzaar (bidzaar.com) — регистрация поставщика, спецификация открывается после входа. Подача до 2026-11-02 16:00 МСК. Место поставки: г. Новодвинск, ул. Мельникова, 1. Обычно нужны карточка компании, КП по форме заказчика, сертификаты/декларации ТР ТС 019, условия оплаты (отсрочка 30–60 дн. типична для агрохолдинга и ЦБК)."
+ },
+ {
+  "num": "387-155",
+  "name": "СИЗ годовая потребность 2027 (Алтайский край)",
+  "cust": "ООО «ТД «Доминант»",
+  "law": "Коммерческие",
+  "method": "Тендер (Bidzaar)",
+  "end": "2026-11-06 12:00 МСК",
+  "nmck": null,
+  "positions": [
+   {
+    "item": "Типовой пакет СИЗ агрохолдинга: костюмы летние/зимние, обувь, перчатки, рукавицы, СИЗОД, очки",
+    "qty": null,
+    "unit": "",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "Правило клиента: летний комплект 3 500, зимний 5 000; перчатки/обувь — прайсы Трак/Спецобъединение/Техноавиа (data/p2026/prices2026_ppe.json)"
+   }
+  ],
+  "lines": [],
+  "cost_total": null,
+  "logistics": null,
+  "margin_pct": null,
+  "net_at_nmck": null,
+  "exp_disc": null,
+  "net_expected": null,
+  "breakeven_disc": null,
+  "kp_price": null,
+  "kp_margin_pct": 18.6,
+  "auction": false,
+  "decision": "Запросить спецификацию",
+  "risks": "Объём и спецификация неизвестны. Годовая потребность с поставками по заявкам в несколько регионов (386-334 — 7 регионов): высокая логистика и оборотный капитал на год. Два лота одного заказчика с одним сроком — это не дубли, а разные регионы; подавать согласованно. Рекомендуемая цена КП: себестоимость +22–25% (летний комплект ~4 300 ₽, зимний ~6 200 ₽).",
+  "confidence": "low",
+  "sources": [
+   "https://www.trakt.ru/upload/uf/3fc/ffn2u6vo8kaqbtaiifl0pdy2d5kl9iyn/Moskva.xlsx",
+   "https://www.spets.ru/prices/price_msk.xls",
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+  ],
+  "prep": "Bidzaar (bidzaar.com) — регистрация поставщика, спецификация открывается после входа. Подача до 2026-11-06 12:00 МСК. Место поставки: Алтайский край. Обычно нужны карточка компании, КП по форме заказчика, сертификаты/декларации ТР ТС 019, условия оплаты (отсрочка 30–60 дн. типична для агрохолдинга и ЦБК)."
+ },
+ {
+  "num": "386-334",
+  "name": "СИЗ годовая потребность 2027 (ЦФО, ЮФО)",
+  "cust": "ООО «ТД «Доминант»",
+  "law": "Коммерческие",
+  "method": "Тендер (Bidzaar)",
+  "end": "2026-11-06 12:00 МСК",
+  "nmck": null,
+  "positions": [
+   {
+    "item": "Типовой пакет СИЗ агрохолдинга: костюмы летние/зимние, обувь, перчатки, рукавицы, СИЗОД, очки",
+    "qty": null,
+    "unit": "",
+    "nmck_unit": null,
+    "cost_unit": null,
+    "cost_src": "Правило клиента: летний комплект 3 500, зимний 5 000; перчатки/обувь — прайсы Трак/Спецобъединение/Техноавиа (data/p2026/prices2026_ppe.json)"
+   }
+  ],
+  "lines": [],
+  "cost_total": null,
+  "logistics": null,
+  "margin_pct": null,
+  "net_at_nmck": null,
+  "exp_disc": null,
+  "net_expected": null,
+  "breakeven_disc": null,
+  "kp_price": null,
+  "kp_margin_pct": 18.6,
+  "auction": false,
+  "decision": "Запросить спецификацию",
+  "risks": "Объём и спецификация неизвестны. Годовая потребность с поставками по заявкам в несколько регионов (386-334 — 7 регионов): высокая логистика и оборотный капитал на год. Два лота одного заказчика с одним сроком — это не дубли, а разные регионы; подавать согласованно. Рекомендуемая цена КП: себестоимость +22–25% (летний комплект ~4 300 ₽, зимний ~6 200 ₽).",
+  "confidence": "low",
+  "sources": [
+   "https://www.trakt.ru/upload/uf/3fc/ffn2u6vo8kaqbtaiifl0pdy2d5kl9iyn/Moskva.xlsx",
+   "https://www.spets.ru/prices/price_msk.xls",
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf"
+  ],
+  "prep": "Bidzaar (bidzaar.com) — регистрация поставщика, спецификация открывается после входа. Подача до 2026-11-06 12:00 МСК. Место поставки: Саратовская, Ростовская, Тульская, Липецкая, Воронежская, Тамбовская обл., Краснодарский край. Обычно нужны карточка компании, КП по форме заказчика, сертификаты/декларации ТР ТС 019, условия оплаты (отсрочка 30–60 дн. типична для агрохолдинга и ЦБК)."
+ }
+]
