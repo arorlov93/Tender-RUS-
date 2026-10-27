@@ -43,26 +43,39 @@ R += [dict(m=0.458, dec="Участвовать", end=dt.datetime(2026, 11, 2, 1
            note="ПЕРЕСЧИТАНО 27.10: все 83 позиции + доставка; 39% НМЦ — оценка (затворы АРМАТЭК АМ 2,4 млн — цены нет); 16 убыточных строк; при снижении >7% — минус", link="https://rushydro.roseltorg.ru"),
       dict(m=0.175, dec="Осторожно", end=dt.datetime(2026, 10, 30, 12, 0), grp="Одежда/СИЗ/соль", num="B1510261835045", name="Таврида.Арт: форменная одежда службы безопасности",
            cust="АНО «Таврида.Арт»", nmck=4169750, cost=3440900, net=319215, conf="high", re=False, note="построчно сверено (TAVRIDA_FINAL_2010); идти при подтверждённом наличии", link="")]
+# сроки договоров: 44-ФЗ — из извещений ЕИС (gosplan), 223-ФЗ — из планов-графиков (contractEndDate), РусГидро — из документации
+TERMS = {"0112200000826004798": "до 31.12.2026", "0848300064126000376": "49 кал. дн. с даты контракта", "0318300028426000179": "до 17.12.2026",
+         "0372100001026000499": "01.01–31.12.2027, по заявкам до исчерпания суммы", "0137100001526000235": "до 31.12.2026", "0327300018526000001": "до 30.11.2026",
+         "7600": "до 09.12.2026 (поставка 10 раб. дн.)", "8002": "до 31.12.2026", "0860200000826008623": "до 22.12.2026", "0829500001126007015": "до 31.12.2026",
+         "0334200012526000832": "до 31.12.2026", "0322200005226000561": "до 10.08.2027 (поставки этапами до 10.12.2026 и 15.02.2027)",
+         "0322200005226000562": "до 10.08.2027 (поставки этапами до 10.12.2026 и 15.02.2027)", "0372200087626000024": "до 31.12.2026",
+         "32616346943": "поставка 120 кал. дн. с даты договора", "11202-РЕМ ПРОД-2027-СЭ": "поставка 220 кал. дн. с даты договора", "11201-РЕМ ПРОД-2027-СЭ": "поставка 230 кал. дн. с даты договора", "B1510261835045": "поставка 10 кал. дн. с даты договора, оплата 30 дн. после приёмки"}
+if os.path.exists("data/2610/contract_ends.json"):
+    for n, v in json.load(open("data/2610/contract_ends.json")).items():
+        if v and v.get("end"):
+            yrs = [y for y, sm in v.get("years", []) if float(sm or 0) > 0]
+            TERMS[n] = f'договор до {dt.datetime.strptime(v["end"], "%Y-%m-%d"):%d.%m.%Y}' + (f' (оплата/поставка: {", ".join(yrs)} гг.)' if len(yrs) > 1 else (f" (весь объём в {yrs[0]} г.)" if yrs else "")) + " — план-график"
+for r in R: r["term"] = TERMS.get(r["num"], "в документации (ЕИС/площадка недоступны)")
 R.sort(key=lambda r: -r["m"])
 
 thin = Side(style="thin", color="BFBFBF"); BOX = Border(top=thin, bottom=thin, left=thin, right=thin); M = '#,##0" ₽"'
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = "По марже"
 ws.append([f"Открытые закупки без аукционов — по марже от большей к меньшей (на {NOW:%d.%m.%Y})"]); ws["A1"].font = Font(bold=True, size=13)
 ws.append(["Маржа = 1 − (себестоимость + логистика) / НМЦК. Прибыль — после УСН 15% при ожидаемом снижении. Надёжность: high — построчно по спецификации, med — частично, low — оценка."])
-H = ["№", "Маржа", "Решение", "Подача до (МСК)", "Группа", "Номер", "Предмет", "Заказчик", "НМЦК, ₽", "Себестоимость + логистика, ₽", "Ожидаемая прибыль, ₽", "Надёжность", "Пересчитано 27.10", "Комментарий", "Ссылка"]
+H = ["№", "Маржа", "Решение", "Подача до (МСК)", "Срок договора / поставки", "Группа", "Номер", "Предмет", "Заказчик", "НМЦК, ₽", "Себестоимость + логистика, ₽", "Ожидаемая прибыль, ₽", "Надёжность", "Пересчитано 27.10", "Комментарий", "Ссылка"]
 ws.append(H)
 for c in ws[3]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
 for i, r in enumerate(R, 1):
-    ws.append([i, r["m"], r["dec"], r["end"].strftime("%d.%m.%Y %H:%M") if r["end"] else "", r["grp"], r["num"], r["name"][:90], r["cust"][:50], r["nmck"], r["cost"], r["net"], r["conf"], "да" if r.get("re") else "", r["note"], r["link"]])
-    X = ws.max_row; ws.cell(X, 6).number_format = "@"; ws.cell(X, 2).number_format = "0%"
-    for j in (9, 10, 11): ws.cell(X, j).number_format = M
+    ws.append([i, r["m"], r["dec"], r["end"].strftime("%d.%m.%Y %H:%M") if r["end"] else "", r["term"], r["grp"], r["num"], r["name"][:90], r["cust"][:50], r["nmck"], r["cost"], r["net"], r["conf"], "да" if r.get("re") else "", r["note"], r["link"]])
+    X = ws.max_row; ws.cell(X, 7).number_format = "@"; ws.cell(X, 2).number_format = "0%"
+    for j in (10, 11, 12): ws.cell(X, j).number_format = M
     ws.cell(X, 2).fill = PatternFill("solid", fgColor="C6EFCE" if r["m"] >= 0.3 else "E2EFDA" if r["m"] >= 0.2 else "FFEB9C" if r["m"] >= 0.1 else "F8CBAD")
-    if r.get("re"): ws.cell(X, 13).fill = PatternFill("solid", fgColor="DDEBF7")
-    if str(r["conf"]) == "low": ws.cell(X, 12).fill = PatternFill("solid", fgColor="FCE4D6")
-    if r["link"]: ws.cell(X, 15).hyperlink = r["link"]; ws.cell(X, 15).font = Font(color="0563C1", underline="single")
+    if r.get("re"): ws.cell(X, 14).fill = PatternFill("solid", fgColor="DDEBF7")
+    if str(r["conf"]) == "low": ws.cell(X, 13).fill = PatternFill("solid", fgColor="FCE4D6")
+    if r["link"]: ws.cell(X, 16).hyperlink = r["link"]; ws.cell(X, 16).font = Font(color="0563C1", underline="single")
     for c in ws[X]: c.border = BOX
-for i, w in enumerate([4, 8, 18, 15, 16, 22, 44, 30, 15, 16, 15, 10, 10, 70, 30], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
-ws.freeze_panes = "G4"; ws.auto_filter.ref = f"A3:O{ws.max_row}"
+for i, w in enumerate([4, 8, 18, 15, 26, 16, 22, 44, 30, 15, 16, 15, 10, 10, 70, 30], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+ws.freeze_panes = "H4"; ws.auto_filter.ref = f"A3:P{ws.max_row}"
 tidy(wb, row_h=44)
 wb.save("../TOP_MARGIN_2710.xlsx")
 for r in R: print(f'{r["m"]:.0%}', r["end"], r["num"], r["dec"][:22], round(r["net"] or 0), r["conf"], r["name"][:50])
