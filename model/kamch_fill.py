@@ -8,6 +8,8 @@ from tidy import tidy
 
 with contextlib.redirect_stdout(io.StringIO()):
     rows = runpy.run_path("kamch_status.py")["rows"]; C = runpy.run_path("kamch_open.py")["C"]
+    KR = {o["tt"]: o for o in runpy.run_path("kamch_registry.py")["out"]}
+REGF = json.load(open("data/kamch/registry_found.json")) if os.path.exists("data/kamch/registry_found.json") else []
 TT = {f'{t["table"]}/{t["n_table"]}': t for t in json.load(open("data/kamch/tz_verbatim.json"))}
 SUPJ = {s["company"]: s for g in json.load(open("data/kamch/suppliers.json")) for s in g["suppliers"]}
 ph = lambda s: str(s or "").split(";")[0].split("\n")[0].strip()
@@ -65,22 +67,32 @@ for k, (key, L) in enumerate(sorted(A.items(), key=lambda x: -len(x[1])), 1):
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Заполнить"
     ws.append([f"Запрос КП — ООО «ГИДРОПАС» (ИНН 9729231965) для ПАО «Камчатскэнерго», закупка 32616346943. Получатель: {comp}"]); ws["A1"].font = Font(bold=True, size=12)
     ws.append(["Просим заполнить жёлтые графы по каждой позиции. Характеристики — дословно из технических требований заказчика; при отличии — указать в графе «Соответствие ТЗ»."])
+    ws.append(["Графы марка / производитель / страна / № записи частично ПРЕДЗАПОЛНЕНЫ нами по вашему КП и открытым данным — проверьте и исправьте, если не так."])
     ws.append(["Нацрежим ПП 1875 (ограничение): обязательны производитель, страна и ДЕЙСТВУЮЩИЙ номер реестровой записи ПП 719 (для ЕАЭС — евразийский реестр). Приложите выписку из ГИСП и сертификаты. Доставка — до Петропавловска-Камчатского (укажите вес)."])
     ws.append(["№", "Табл./№ ТЗ", *F, "Кол-во", "Ед.", *FILL])
-    for c in ws[4]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
-    for j in range(len(F) + 5, len(F) + 5 + len(FILL)): ws.cell(4, j).fill = PatternFill("solid", fgColor="BF8F00")
+    for c in ws[5]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
+    for j in range(len(F) + 5, len(F) + 5 + len(FILL)): ws.cell(5, j).fill = PatternFill("solid", fgColor="BF8F00")
+    comp_is_plant = any(c["company"] == comp and c["type"] == "завод" for c in C)
     for i, (d, _) in enumerate(L, 1):
         t = TT[d["tt"]]
-        ws.append([i, d["tt"], *[ILLEGAL_CHARACTERS_RE.sub("", str(t.get(f) or "")) for f in F], t["qty"], t.get("unit", "шт")] + [None] * len(FILL))
+        pre = [None] * len(FILL); kr = KR.get(d["tt"], {})
+        if d["sup"] and d["act"] != "Заказать у других" and kr.get("kind") in ("ok", "eaes", "done"):  # предзаполнение из КП: марка, завод, страна, номер (если найден в открытых источниках)
+            pre[0] = d["offer"][:120]; pre[1] = kr["man"]; pre[2] = kr["country"]
+        elif not d["sup"] and comp_is_plant: pre[1] = comp; pre[2] = "Россия"
+        m = pre[1] or comp
+        hit = next((r for r in REGF if r.get("reg_number") and r.get("confidence", "").startswith("номер") and str(r.get("manufacturer", ""))[:12].lower() in (m or "").lower()
+                    and any(a.lower() in (d["name"] + " " + d["offer"]).lower() for a in re.findall(r"[\wА-Яа-я-]{4,}", str(r.get("applies_to", "")))[:6])), None)
+        if hit: pre[3] = hit["reg_number"]; pre[4] = hit.get("valid_to")
+        ws.append([i, d["tt"], *[ILLEGAL_CHARACTERS_RE.sub("", str(t.get(f) or "")) for f in F], t["qty"], t.get("unit", "шт")] + pre)
         X = ws.max_row; ws.cell(X, len(F) + 12).value = f"={openpyxl.utils.get_column_letter(len(F) + 11)}{X}*{openpyxl.utils.get_column_letter(len(F) + 3)}{X}"
         for j in range(len(F) + 5, len(F) + 5 + len(FILL)): ws.cell(X, j).fill = Y
         for j in (len(F) + 11, len(F) + 12): ws.cell(X, j).number_format = '#,##0.00" ₽"'
         for c in ws[X]: c.border = BOX
     X = ws.max_row; L2 = openpyxl.utils.get_column_letter(len(F) + 12)
-    ws.append([""] * (len(F) + 11) + [f"=SUM({L2}5:{L2}{X})"]); ws.cell(ws.max_row, len(F) + 12).number_format = '#,##0.00" ₽"'; ws.cell(ws.max_row, len(F) + 11).value = "ИТОГО"
+    ws.append([""] * (len(F) + 11) + [f"=SUM({L2}6:{L2}{X})"]); ws.cell(ws.max_row, len(F) + 12).number_format = '#,##0.00" ₽"'; ws.cell(ws.max_row, len(F) + 11).value = "ИТОГО"
     for i, w in enumerate([4, 9, 34, 14, 7, 10, 9, 12, 14, 14, 10, 14, 14, 16, 10, 22, 12, 14, 7, 5] + [22, 24, 14, 26, 13, 24, 13, 14, 12, 14, 20], 1):
         ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
-    ws.freeze_panes = "D5"
+    ws.freeze_panes = "D6"
     tidy(wb, row_h=60)
     fn = f"{k:02d}_" + re.sub(r"[^\wА-Яа-яЁё-]+", "_", re.sub(r"[«»\"()]", "", comp.split("(")[0] if not comp.startswith("(") else comp))[:40].strip("_") + ".xlsx"
     wb.save(f"{OUT}/{fn}")
