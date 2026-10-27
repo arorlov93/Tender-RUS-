@@ -56,26 +56,28 @@ if os.path.exists("data/2610/contract_ends.json"):
             yrs = [y for y, sm in v.get("years", []) if float(sm or 0) > 0]
             TERMS[n] = f'договор до {dt.datetime.strptime(v["end"], "%Y-%m-%d"):%d.%m.%Y}' + (f' (оплата/поставка: {", ".join(yrs)} гг.)' if len(yrs) > 1 else (f" (весь объём в {yrs[0]} г.)" if yrs else "")) + " — план-график"
 for r in R: r["term"] = TERMS.get(r["num"], "в документации (ЕИС/площадка недоступны)")
+for r in R: r["gap"] = (r["nmck"] - r["cost"]) if r.get("nmck") and r.get("cost") else ((r["nmck"] or 0) * r["m"])
+R = [r for r in R if r["gap"] > 1_000_000]  # только где НМЦК − себестоимость > 1 млн ₽
 R.sort(key=lambda r: -r["m"])
 
 thin = Side(style="thin", color="BFBFBF"); BOX = Border(top=thin, bottom=thin, left=thin, right=thin); M = '#,##0" ₽"'
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = "По марже"
-ws.append([f"Открытые закупки без аукционов — по марже от большей к меньшей (на {NOW:%d.%m.%Y})"]); ws["A1"].font = Font(bold=True, size=13)
+ws.append([f"Открытые закупки без аукционов с разницей НМЦК − себестоимость больше 1 млн ₽ — по марже от большей к меньшей (на {NOW:%d.%m.%Y})"]); ws["A1"].font = Font(bold=True, size=13)
 ws.append(["Маржа = 1 − (себестоимость + логистика) / НМЦК. Прибыль — после УСН 15% при ожидаемом снижении. Надёжность: high — построчно по спецификации, med — частично, low — оценка."])
-H = ["№", "Маржа", "Решение", "Подача до (МСК)", "Срок договора / поставки", "Группа", "Номер", "Предмет", "Заказчик", "НМЦК, ₽", "Себестоимость + логистика, ₽", "Ожидаемая прибыль, ₽", "Надёжность", "Пересчитано 27.10", "Комментарий", "Ссылка"]
+H = ["№", "Маржа", "Решение", "Подача до (МСК)", "Срок договора / поставки", "Группа", "Номер", "Предмет", "Заказчик", "НМЦК, ₽", "Себестоимость + логистика, ₽", "Разница НМЦК − себестоимость, ₽", "Ожидаемая прибыль, ₽", "Надёжность", "Пересчитано 27.10", "Комментарий", "Ссылка"]
 ws.append(H)
 for c in ws[3]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
 for i, r in enumerate(R, 1):
-    ws.append([i, r["m"], r["dec"], r["end"].strftime("%d.%m.%Y %H:%M") if r["end"] else "", r["term"], r["grp"], r["num"], r["name"][:90], r["cust"][:50], r["nmck"], r["cost"], r["net"], r["conf"], "да" if r.get("re") else "", r["note"], r["link"]])
+    ws.append([i, r["m"], r["dec"], r["end"].strftime("%d.%m.%Y %H:%M") if r["end"] else "", r["term"], r["grp"], r["num"], r["name"][:90], r["cust"][:50], r["nmck"], r["cost"], r["gap"], r["net"], r["conf"], "да" if r.get("re") else "", r["note"], r["link"]])
     X = ws.max_row; ws.cell(X, 7).number_format = "@"; ws.cell(X, 2).number_format = "0%"
-    for j in (10, 11, 12): ws.cell(X, j).number_format = M
+    for j in (10, 11, 12, 13): ws.cell(X, j).number_format = M
     ws.cell(X, 2).fill = PatternFill("solid", fgColor="C6EFCE" if r["m"] >= 0.3 else "E2EFDA" if r["m"] >= 0.2 else "FFEB9C" if r["m"] >= 0.1 else "F8CBAD")
-    if r.get("re"): ws.cell(X, 14).fill = PatternFill("solid", fgColor="DDEBF7")
-    if str(r["conf"]) == "low": ws.cell(X, 13).fill = PatternFill("solid", fgColor="FCE4D6")
-    if r["link"]: ws.cell(X, 16).hyperlink = r["link"]; ws.cell(X, 16).font = Font(color="0563C1", underline="single")
+    if r.get("re"): ws.cell(X, 15).fill = PatternFill("solid", fgColor="DDEBF7")
+    if str(r["conf"]) == "low": ws.cell(X, 14).fill = PatternFill("solid", fgColor="FCE4D6")
+    if r["link"]: ws.cell(X, 17).hyperlink = r["link"]; ws.cell(X, 17).font = Font(color="0563C1", underline="single")
     for c in ws[X]: c.border = BOX
-for i, w in enumerate([4, 8, 18, 15, 26, 16, 22, 44, 30, 15, 16, 15, 10, 10, 70, 30], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
-ws.freeze_panes = "H4"; ws.auto_filter.ref = f"A3:P{ws.max_row}"
+for i, w in enumerate([4, 8, 18, 15, 26, 16, 22, 44, 30, 15, 16, 16, 15, 10, 10, 70, 30], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+ws.freeze_panes = "H4"; ws.auto_filter.ref = f"A3:Q{ws.max_row}"
 tidy(wb, row_h=44)
 wb.save("../TOP_MARGIN_2710.xlsx")
 for r in R: print(f'{r["m"]:.0%}', r["end"], r["num"], r["dec"][:22], round(r["net"] or 0), r["conf"], r["name"][:50])
