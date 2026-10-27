@@ -1,0 +1,2262 @@
+[
+ {
+  "num": "32616489407",
+  "name": "МИ №232: спецодежда, спецобувь, СИЗ и дерматологические СИЗ для АО «Уралтурбо»",
+  "cust": "АО «Уралтурбо» (организатор ООО «ГЭХ Закупки»)",
+  "law": "223-ФЗ",
+  "method": "Маркетинговые исследования (ЭТП ГПБ), только СМП",
+  "end": "2026-11-02 10:00 МСК (перенос; ДПИ 13.11.2026)",
+  "nmck": 14973624.91,
+  "positions": [
+   {
+    "item": "Каска защитная белая c храповиком",
+    "qty": 342.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 500.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Кас 012.75717 СОМЗ-55 FAVORIT RAPID белая 488 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.6xx СОМЗ-55 FavoriT RAPID 513 ₽"
+   },
+   {
+    "item": "Каска защитная от механических воздействий оранжевая с храповиком  с креплением для наушников, щитка",
+    "qty": 400.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 500.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Кас 012.75714 СОМЗ-55 FAVORIT RAPID оранжевая 488 ₽ (слоты под наушники/щиток); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 513 ₽"
+   },
+   {
+    "item": "Каска от повышенных температур  оранжевая",
+    "qty": 70.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1582.15,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Кас 010.76714 СОМЗ-55 FAVORIT TERMO RAPID оранж. 1 543,3 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.6xx FavoriT Termo RAPID 1 621 ₽"
+   },
+   {
+    "item": "Подбородочный ремень для каски",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 167.62,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Ком 1062.00682 ремни подбородочные 4-точ. (10 шт) 1 372,5 ₽ = 137,25 ₽/шт; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 9.279 Ремешок на каску 198 ₽"
+   },
+   {
+    "item": "Головной убор для защиты от общих производственных загрязнений  бандана",
+    "qty": 400.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 289.41,
+    "cost_src": "https://bvr-ivanovo.ru/catalog/bandana Бандана БВР крупный опт 150 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.244 Бандана «Лотос» 428,83 ₽"
+   },
+   {
+    "item": "Шапка утепленная",
+    "qty": 32.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 559.07,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Шап 004 Шапка утепленная ПШ 414,8 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.855 Шапка трикотажная от пониженных температур 703,33 ₽"
+   },
+   {
+    "item": "Подшлемник под каску, летний",
+    "qty": 26.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 301.34,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Шап 001 Подшлемник трикотажный 203,74 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.147 Подшлемник трикотажный х/б 398,94 ₽"
+   },
+   {
+    "item": "Подшлемник термостойкий  от электрической дуги , зимний",
+    "qty": 26.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1336.2,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Пшт 620 Подшлемник термостойкий WORKER Jersey 2 слоя 1 122,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.420 Подшлемник термостойкий «ВОЛЬТ з» 1 550,01 ₽"
+   },
+   {
+    "item": "Подшлемник от повышенных температур 2 класса защиты",
+    "qty": 76.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1505.18,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Шап 335 Подшлемник сварщика ПРОМЕТЕЙ 1 598,2 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.396 Шлем-подшлемник сварщика летний «Урал-Мастер» 1 412,15 ₽"
+   },
+   {
+    "item": "Вкладыши противошумные на шнурке в индивидуальной упаковке",
+    "qty": 4000.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 31.11,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Бер 049.02 Беруши одноразовые БЕР131101 со шнурком 28,06 ₽ (ГИСП 55903..); https://www.spets.ru/prices/price_msk.xls Бер 037.02 CONICCO200 с кордом 34,16 ₽"
+   },
+   {
+    "item": "Наушники противошумные  2 класса защиты",
+    "qty": 100.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 862.9,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нау 057.60900 СОМЗ-9 СТАЛЬНОЙ ГЕПАРД 28 дБ 841,8 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 12.166 СОМЗ-9 Стальной ГЕПАРД 884 ₽"
+   },
+   {
+    "item": "Наушники противошумные  2 класса защиты  с креплением на каску",
+    "qty": 50.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 862.9,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нау 056.60650 СОМЗ-65 СТАЛЬНОЙ ЛЕВ на каску 841,8 ₽ (ГИСП 2028513); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 11.502 884 ₽"
+   },
+   {
+    "item": "Очки на очки от механических воздействий открытые",
+    "qty": 300.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 211.06,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 003.13730 РОСОМЗ О37 UNIVERSAL TITAN super (для ношения поверх корригирующих очков) 211,06 ₽ (ГИСП 1799573)"
+   },
+   {
+    "item": "Очки от механических воздействий открытые",
+    "qty": 700.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 172.68,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 007.11530 О15 HAMMER ACTIVE super 168,36 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 9.441 О15 HAMMER ACTIVE super (11530) 177 ₽"
+   },
+   {
+    "item": "Закрытые очки с непрямой вентиляцией",
+    "qty": 90.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 350.3,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 202.21130 ЗН11 PANORAMA super 341,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 9.697 ЗН11 PANORAMA super (21130) 359 ₽"
+   },
+   {
+    "item": "Очки защитные от ультрафиолетового излучения, слепящей яркости  водитель",
+    "qty": 30.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 183.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 042.18823-5 О88 SURGUT super (5-2.5 солнцезащитный, от слепящей яркости) 183 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 9.807 O88 SURGUT super (18823) 177 ₽ (без 5-2.5)"
+   },
+   {
+    "item": "Очки для защиты от механических воздействий и оптических излучений",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 536.8,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 006.14534 О45 ВИЗИОН StrongGlass газосварочные (5) 536,8 ₽"
+   },
+   {
+    "item": "Очки для защиты от механических воздействий и оптических излучений",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 536.8,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 006.14534 О45 ВИЗИОН StrongGlass газосварочные (5) 536,8 ₽ (как поз.17)"
+   },
+   {
+    "item": "Очки защитные открытого типа со светофильтром от УФ-излучения для защиты от механических факторов",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 196.42,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 007.115537-5 О15 HAMMER ACTIVE АЛМАЗ (2С-1.2 УФ-фильтр) 196,42 ₽"
+   },
+   {
+    "item": "Щиток сварочный",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 563.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Мас 004.51366 НН10 PREMIER FAVORIT 549 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.374 НН10-С-6 Premier FavoriT 577 ₽"
+   },
+   {
+    "item": "Щиток сварочный",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 10004.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Мас 009.51275-2 НН12 CRYSTALINE UNIVERSAL (АСФ) 9 760 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 17.460 10 248 ₽ — допущение: 2-й щиток с АСФ"
+   },
+   {
+    "item": "Шлем сварщика, Соединительный шланг для шлема, Блок подачи воздуха",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 89620,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.193 Щиток сварщика Tecmen ADF-815S TM16 с PAPR (шлем+шланг+блок) 89 620 ₽; альтернатива РФ: https://www.spets.ru/prices/price_msk.xls Ппв 003.140215 блок Стальной БАРС 47 580 + Мас 018.01275 ННВ12 CRYSTALINE 19 251,6 ₽ (без шланга)"
+   },
+   {
+    "item": "Предфильтр для блока принудительной подачи воздуха",
+    "qty": 2.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 2128,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.258 Префильтр к PAPR TECMEN (уп. 5 шт) 2 128 ₽"
+   },
+   {
+    "item": "Пластина защитная наружная",
+    "qty": 4.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 947.5,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.079/19.080 Наружная защитная пластина PL-5004 856 ₽ / PL-5002 1 039 ₽ (аналог; система заказчика не известна)"
+   },
+   {
+    "item": "Пластина защитная внутренняя",
+    "qty": 4.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083 Внутренняя защитная пластина PL-5001 572 ₽"
+   },
+   {
+    "item": "Пластина защитная",
+    "qty": 4.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083/19.084 Защитная пластина PL-5001/5001R 572 ₽ (тип пластины в ТЗ не известен)"
+   },
+   {
+    "item": "Пластина защитная",
+    "qty": 4.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083/19.084 Защитная пластина PL-5001/5001R 572 ₽ (тип пластины в ТЗ не известен)"
+   },
+   {
+    "item": "Пластина защитная",
+    "qty": 8.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083/19.084 Защитная пластина PL-5001/5001R 572 ₽ (тип пластины в ТЗ не известен)"
+   },
+   {
+    "item": "Пластина защитная",
+    "qty": 8.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083/19.084 Защитная пластина PL-5001/5001R 572 ₽ (тип пластины в ТЗ не известен)"
+   },
+   {
+    "item": "Фильтр противогазовый для блока принудительной подачи",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 12778,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.486 Противогазовый фильтр A1B1E1K1 к PAPR TECMEN 12 778 ₽"
+   },
+   {
+    "item": "Фильтр противоаэрозольный для блока принудительной подачи",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2140,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.259 Основной фильтр P3 к PAPR TECMEN 2 140 ₽"
+   },
+   {
+    "item": "Щиток термостойкий  от брызг расплавленного металла, мет окалины",
+    "qty": 28.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 976.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Щит 038.427390 НБТ2/С ВИЗИОН TERMO TITAN 976 ₽ (ГИСП)"
+   },
+   {
+    "item": "Щиток защитный лицевой с термостойкой окантовкой  от электродуги",
+    "qty": 24.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6127.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Щит 023.04207 КБТ ВИЗИОН ENERGO (CA) 5 978 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.915 КБТ ВИЗИОН ENERGO (04207) 6 277 ₽"
+   },
+   {
+    "item": "Щиток защитный с креплением на каску",
+    "qty": 40.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 642.15,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Щит 016.04390 КБТ ВИЗИОН TITAN 628,3 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.911 656 ₽"
+   },
+   {
+    "item": "Щиток защитный лицевой",
+    "qty": 40.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 313.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Щит 002.413130 НБТ1 ВИЗИОН 305 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.343 НБТ1 ВИЗИОН 321 ₽"
+   },
+   {
+    "item": "Противоаэрозольная фильтрующая полумаска",
+    "qty": 10000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 96,
+    "cost_src": "FFP2 с клапаном: https://www.spets.ru/prices/price_msk.xls Рес 227 FR 3210 71,37 ₽; https://www.spets.ru/prices/price_msk.xls Рес 203 WALL CUP 95HК 97,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.501 RK 5021 96 ₽ — медиана"
+   },
+   {
+    "item": "Противоаэрозольная фильтрующая полумаска",
+    "qty": 10000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 96,
+    "cost_src": "FFP2 с клапаном: https://www.spets.ru/prices/price_msk.xls Рес 227 FR 3210 71,37 ₽; https://www.spets.ru/prices/price_msk.xls Рес 203 WALL CUP 95HК 97,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.501 RK 5021 96 ₽ — медиана"
+   },
+   {
+    "item": "Противоаэрозольная фильтрующая полумаска",
+    "qty": 4000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 96,
+    "cost_src": "FFP2 с клапаном: https://www.spets.ru/prices/price_msk.xls Рес 227 FR 3210 71,37 ₽; https://www.spets.ru/prices/price_msk.xls Рес 203 WALL CUP 95HК 97,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.501 RK 5021 96 ₽ — медиана"
+   },
+   {
+    "item": "Противоаэрозольная фильтрующая полумаска",
+    "qty": 1000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 131.15,
+    "cost_src": "FFP3 с клапаном: https://www.spets.ru/prices/price_msk.xls Рес 228 FR 3310 84,79 ₽; https://www.spets.ru/prices/price_msk.xls Рес 204 WALL CUP 99HК 131,15 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.502 RK 5031 155 ₽ — медиана"
+   },
+   {
+    "item": "Полнолицевая маска",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8222.9,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 121 Маска панорамная UNIX 5100 8 222,8 ₽ (ГИСП 5339859); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.950 8 223 ₽"
+   },
+   {
+    "item": "Полнолицевая маска",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6563.3,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 099 UNIX 5000 6 563,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.880 6 563 ₽"
+   },
+   {
+    "item": "Пленка защитная для маски полнолицевой",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1557,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.935 Пленка защитная для масок UNIX 5000/5100 1 557 ₽"
+   },
+   {
+    "item": "Противогазовый фильтр",
+    "qty": 8.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 2244.4,
+    "cost_src": "UNIX 531 A1B1E1K1: https://www.spets.ru/prices/price_msk.xls Рес 103 1 122,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.884 1 122 ₽; комплект = 2 шт"
+   },
+   {
+    "item": "Держатель предфильтра",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 329.4,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 110 Держатель предфильтра UNIX 164,7 ₽ ×2 (комплект)"
+   },
+   {
+    "item": "Полумаска",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 1699.95,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 100 Полумаска UNIX 1000 1 701,9 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.877 1 698 ₽"
+   },
+   {
+    "item": "Противогазовый фильтр для  защиты от паров органических веществ",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 1477.1,
+    "cost_src": "UNIX 501 A1: https://www.spets.ru/prices/price_msk.xls Рес 120 738,1 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.946 739 ₽; комплект=2 шт"
+   },
+   {
+    "item": "Противоаэрозольный предфильтр",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 658.8,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 108 Предфильтр UNIX P2 R 329,4 ₽ ×2"
+   },
+   {
+    "item": "Держатель предфильтра",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 329.4,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 110 Держатель предфильтра UNIX 164,7 ₽ ×2"
+   },
+   {
+    "item": "Противогазовый фильтр в металлическом корпусе",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2043,
+    "cost_src": "https://geosorb.ru/category/filtry-dlya-protivogazov/ ФК-5Б металл. корпус 1 756–2 043 ₽; https://www.spets.ru/prices/price_msk.xls Про 018.01 ДОТ-320 2 061,8 ₽ — медиана"
+   },
+   {
+    "item": "Противогазовый фильтр марки A2",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 879.2,
+    "cost_src": "UNIX 502 A2: https://www.spets.ru/prices/price_msk.xls Рес 101 878,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.881 880 ₽"
+   },
+   {
+    "item": "Адаптер",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 311.1,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 232 Держатель/адаптер МК52 для фильтров 311,1 ₽ (тип адаптера в ТЗ не известен)"
+   },
+   {
+    "item": "Фильтр ABE1",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 2071.0,
+    "cost_src": "UNIX 521 A1B1E1: https://www.spets.ru/prices/price_msk.xls Рес 102 1 037 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.883 1 034 ₽; комплект=2"
+   },
+   {
+    "item": "Фильтр ABEK1",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 2244.4,
+    "cost_src": "UNIX 531 A1B1E1K1: https://www.spets.ru/prices/price_msk.xls 1 122,4; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 1 122 ₽; комплект=2"
+   },
+   {
+    "item": "Жилет сигнальный оранжевый",
+    "qty": 120.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 393.45,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Жил 521 Жилет сигнальный оранжевый 390,4 ₽ (ГИСП 5605189); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.232 «Эконом» оранж. 396,5 ₽"
+   },
+   {
+    "item": "Фартук для защиты от воды",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 574.62,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Фар 001 Фартук ПВХ облегченный 567,3 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.060 Фартук влагозащитный ПВХ «Кемикал» 581,94 ₽"
+   },
+   {
+    "item": "Фартук для защиты от нефти и или нефтепродуктов",
+    "qty": 62.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 844,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Фар 140 КЩС тип А 536,8 ₽; https://www.spets.ru/prices/price_msk.xls Фар 010 ПВХ уплотненный КЩС 976 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 17.270 Фартук ПВХ ЩИТ-2 844 ₽ — медиана"
+   },
+   {
+    "item": "Фартук для защиты от искр, брызг расплавленного металла",
+    "qty": 70.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 738.1,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.921 Фартук брезентовый от искр, брызг металла Ф2 ТА 738,10 ₽ (альт. https://www.spets.ru/prices/price_msk.xls Фар 015 спилковый 1 661,64 ₽)"
+   },
+   {
+    "item": "Фартук для защиты от механических воздействий  истираний  и общих производственных загрязнений  брезентовый",
+    "qty": 1000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 382.5,
+    "cost_src": "https://www.avangard-sp.ru/catalog/specodezhda/letnyaya/fartuki_rabochie/fartuk_brezent_/ 380 ₽; https://zavodrim.ru/catalog/spetsodezhda/zashchitnaya_spetsodezhda/fartuk_brezentovyy_pl_550_gr/ 385 ₽; https://www.trakt.ru/catalog/specodezhda/fartuki-futbolki-rubashki-belyo/12017/ 746,64 ₽; https://leader-t.ru/catalog/fartuki-i-narukavniki/f-01-fartuk-brezentovyy-pl-400gr-s-karmanom-art-11235/ 117,8 ₽ — медиана"
+   },
+   {
+    "item": "Комбинезон от общих производственных загрязнений",
+    "qty": 58.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3714.9,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Ком 518 Комбинезон ПИЛОТ летний (ОПЗ) 3 714,9 ₽ (ГИСП 5324876)"
+   },
+   {
+    "item": "Костюм для защиты от искр и брызг расплавленного металла, 1 класс",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 4751.9,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.121 Костюм сварщика брезентовый КС 01 3 800,91 ₽; https://www.spets.ru/prices/price_msk.xls Кос 076 ПРОМЕТЕЙ-2 4 751,9 ₽; https://www.trakt.ru/product/16725/ СВАРОГ Кос217 (1 кл) 5 884,67 ₽ — медиана"
+   },
+   {
+    "item": "Костюм для защиты от искр и брызг расплавленного металла, 2 класс",
+    "qty": 18.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5551.31,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.121 КС 01 (2 класс) 3 800,91 ₽; https://www.spets.ru/prices/price_msk.xls 0001 Костюм сварщика спилок/брезент 2 кл 7 301,7 ₽ — медиана"
+   },
+   {
+    "item": "Перчатки латексные с хлопковым напылением",
+    "qty": 824.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 62.22,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Перчатки СПЕЦ-SB хозяйственные, латекс, хлопковое напыление 62,22 ₽"
+   },
+   {
+    "item": "Перчатки нитриловые с полным покрытием  узкая манжета",
+    "qty": 180.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 127.49,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls НИТРИЛОВЫЕ РП полный облив 127,49 ₽; https://www.spets.ru/prices/price_msk.xls MS Нитрил РП 183 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 79.100 «Дублин» полное нитрил 115 ₽ — медиана"
+   },
+   {
+    "item": "Перчатки нитриловые с полным покрытием  краги",
+    "qty": 180.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 213,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls НИТРИЛОВЫЕ КП (крага) 132,37 ₽; https://www.spets.ru/prices/price_msk.xls MS Нитрил КП 231,8 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.553 краги SKY WORKER 213 ₽ — медиана"
+   },
+   {
+    "item": "Перчатки с частичным покрытием",
+    "qty": 4000.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 106.75,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls НИТРИЛ ЛАЙТ интерлок 106,75 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.003 с латексным покрытием ладони 47 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.551 SKY WORKER частичное нитрил 193 ₽ — медиана (тип покрытия в ТЗ не известен)"
+   },
+   {
+    "item": "Перчатки для защиты от конвективной теплоты, теплового излучения и кратковременного воздействия открытого пламени",
+    "qty": 96.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 1385.05,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls АРАМАКС TG-601 до 250°C 1 409,1 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.390 HandPro С030 термостойкие 1 361 ₽"
+   },
+   {
+    "item": "Краги сварщика",
+    "qty": 40.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 640.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Краги СПИЛКОВЫЕ ЛЮКС 469,7; МЕТАЛЛУРГ 542,9; СИБИРЬ 738,1 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.412 SPLIT краги спилок 775 ₽ — медиана"
+   },
+   {
+    "item": "Краги сварщика",
+    "qty": 272.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 640.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Краги СПИЛКОВЫЕ ЛЮКС 469,7; МЕТАЛЛУРГ 542,9; СИБИРЬ 738,1 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.412 SPLIT краги спилок 775 ₽ — медиана"
+   },
+   {
+    "item": "Перчатки и защитные приспособления кольчужные",
+    "qty": 10.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 16576.4,
+    "cost_src": "кольчужная перчатка за шт: https://www.spets.ru/prices/price_msk.xls Пер 516.00 10 577,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 18.710 TECHNOGLOVES RTCMG-01 5 999 ₽ — медиана ×2 (пара)"
+   },
+   {
+    "item": "Рукавицы защитные",
+    "qty": 568.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 86.62,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рукавицы Х/Б с ПВХ наладонником 73,81; Х/Б 320 г/м² 86,62 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.091 с двойным наладонником 90 ₽ — медиана"
+   },
+   {
+    "item": "Рукавицы с брезентовым налодонником",
+    "qty": 300.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 71.37,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рук 008 Х/Б с брезентовым наладонником ГОСТ 71,37; Рук 007 66,49 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.091 90 ₽ — медиана"
+   },
+   {
+    "item": "Рукавицы огнеупорные",
+    "qty": 100.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 101.25,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рук 012 брезентовые ОП 530 г/м² ГОСТ 91,5 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.121 брезент 111 ₽ (если ТЗ требует спилок — https://www.spets.ru/prices/price_msk.xls Рукавицы СПИЛКОВЫЕ 305 ₽)"
+   },
+   {
+    "item": "Перчатки термостойкие",
+    "qty": 182.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 1280.09,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls ПЛАЗМА TG-603 (Nomex, от дуги) 1 250,5 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.421 Перчатки термостойкие «ВОЛЬТ л» 1 309,67 ₽"
+   },
+   {
+    "item": "Перчатки для защиты от механических воздействий",
+    "qty": 6000.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 36,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls СПЕЦ-SB PRO с ПВХ 29,28 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.028 «Гриф» 36; 7.002 «Строй» 38 ₽ — медиана"
+   },
+   {
+    "item": "Перчатки для защиты от механических воздействий",
+    "qty": 1000.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 122,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.003 трикотажные с латексом 47 ₽; https://www.spets.ru/prices/price_msk.xls MS Латекс 122; ЛАСОФТ 128,1 ₽ — медиана (тип в ТЗ не известен)"
+   },
+   {
+    "item": "Перчатки для защиты от механических воздействий",
+    "qty": 126.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 371.7,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls ДОКЕР спилок комбинированные 268,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.726 NAVY комбинированные со спилком 475 ₽"
+   },
+   {
+    "item": "Перчатки неопреновые",
+    "qty": 520.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 308,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls ХИМОПРЕН CG-973 неопрен 463,6; СОЮЗ латекс/неопрен 301,95 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.365 «Супер Неопрен» 308 ₽ — медиана"
+   },
+   {
+    "item": "Перчатки резиновые высокие для пескоструйных камер",
+    "qty": 24.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 4070,
+    "cost_src": "https://drobesfera.ru/collection/perchatki-peskostruyschika ЯРТ Т-2 620 мм от 4 070 ₽ (Россия); https://www.anticor-m.ru/catalog/sredstva-individualnoy-zashchity/perchatki-dlya-peskostruynykh-rabot/ RGS 600 мм 3 590 ₽; https://blastcor.com/oborudovanie/peskostruj/sredstva/perchatky/perchatki-kamernyie-rezin.html Т-2 680 мм 4 990 ₽ — медиана"
+   },
+   {
+    "item": "Перчатки с защитным покрытием морозостойкие с шерстянными вкладышами",
+    "qty": 270.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 635,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нордик КП + вкладыш Винтер Люкс (шерсть) 460,32 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.507 FREJUS морозост. 635; 8.506 BAIKAL 776 ₽ — медиана"
+   },
+   {
+    "item": "Перчатки диэлектрические",
+    "qty": 28.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 953.05,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Перчатки ДИЭЛЕКТРИЧЕСКИЕ бесшовные (АЗРИ) 1 008,09 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.441 АЗРИЭЛЕКТРО кл.0 898 ₽"
+   },
+   {
+    "item": "Перчатки диэлектрические",
+    "qty": 4.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 953.05,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Перчатки ДИЭЛЕКТРИЧЕСКИЕ бесшовные (АЗРИ) 1 008,09 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.441 АЗРИЭЛЕКТРО кл.0 898 ₽"
+   },
+   {
+    "item": "Перчатки вибрационные",
+    "qty": 100.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 2268,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.508 Vibe комбинированные 2 268 ₽; https://www.spets.ru/prices/price_msk.xls ВИБЛОК 2 684; ВИБРЕСТ 976 ₽ — медиана"
+   },
+   {
+    "item": "Нарукавники прорезиненный ПВХ, КЩС",
+    "qty": 42.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 224.35,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нарукавники ПВХ VS-020 225,7 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.268 223 ₽"
+   },
+   {
+    "item": "Нарукавники",
+    "qty": 48.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 196.82,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нарукавники ДИАГОНАЛЬ 147,62 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.381 смесовая 196,82; 6.172 х/б 235,87 ₽ — медиана"
+   },
+   {
+    "item": "Нарукавники для защиты от искр и брызг расплавленного металла",
+    "qty": 18.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 1281,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нарукавники ПРОМЕТЕЙ 1 069,94; СПИЛКОВЫЕ 1 281 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.520 сварщика спилковые 2 990 ₽ — медиана"
+   },
+   {
+    "item": "Нарукавники брезентовые",
+    "qty": 126.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 228.75,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нар 010 Нарукавники БРЕЗЕНТОВЫЕ 228,75 ₽"
+   },
+   {
+    "item": "Боты диэлектрические",
+    "qty": 32.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 1617.41,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Диэ 003 Боты диэлектрические 1 769 ₽ (ГИСП 3084470); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 5.171 Боты формовые 4101-ФТ 1 465,83 ₽"
+   },
+   {
+    "item": "Коврик диэлектрический",
+    "qty": 32.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 366.13,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Диэ 001 Коврик 500×500 378,2 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.151 354,06 ₽"
+   },
+   {
+    "item": "Мыло жидкое (5л)",
+    "qty": 1000.0,
+    "unit": "Литр; кубический дециметр",
+    "nmck_unit": null,
+    "cost_unit": 217.14,
+    "cost_src": "за литр: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.097 «Гарда-Стандарт Аква Клин» канистра 5 л 988 ₽ (197,6 ₽/л); https://www.spets.ru/prices/price_msk.xls Жидкое мыло АКВАМАРИН 5 л 1 183,4 ₽ (236,7 ₽/л)"
+   },
+   {
+    "item": "Дозатор наливного типа",
+    "qty": 42.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2616,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.157 «Гарда Варио» дозатор наливной для жидкого мыла 2 616 ₽"
+   },
+   {
+    "item": "Дозатор пластиковый для мягких бутылей",
+    "qty": 140.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3423,
+    "cost_src": "https://www.vostok.spb.ru/sredstva_zashhity/zashhita_koji/dozator_Safe_and_Care_plastikovyy_dlya_myagkih_butyley_137006202.php Восток-Сервис Safe and Care 137-0062-02 3 423 ₽ (с НДС); https://intekospb.ru/catalog/siz/siz/sredstva-zashchity/29006 опт 3 601,05 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.079 «Гарда Варио Эко» 3 414 ₽ — медиана"
+   },
+   {
+    "item": "Средство для очистки рук от устойчивых загрязнений",
+    "qty": 360.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 165,
+    "cost_src": "200 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.070 Гарда-Стандарт Натур Соло паста 165 ₽; https://www.spets.ru/prices/price_msk.xls ЛАЙМЕКС 200 мл 176,9 ₽; https://www.spets.ru/prices/price_msk.xls Паста ЭЛЕН 200 мл 101,26 ₽ — медиана"
+   },
+   {
+    "item": "Средство комбинированного действия",
+    "qty": 340.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 118,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.074 Гарда-Стандарт комбинированного действия 118 ₽; https://www.spets.ru/prices/price_msk.xls Д-12 универсальный 140,3; ЭЛЕН универсальный 57,34 ₽ — медиана"
+   },
+   {
+    "item": "Средство регенерирующего действия  восстанавливающее",
+    "qty": 480.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 118,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.071 Гарда-Стандарт регенерирующий 118 ₽; https://www.spets.ru/prices/price_msk.xls ВЕЛУМ 158,6; ЭЛЕН регенерирующий 57,34 ₽ — медиана"
+   },
+   {
+    "item": "Средство противогрибковое   фунгицидного действия",
+    "qty": 816.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 189,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.078 Гарда Премиум Свэт Стоп (противогрибк.) 189 ₽; https://www.spets.ru/prices/price_msk.xls АРМОФИТ спрей 201,3; ЭЛЕН для ног 113,46 ₽ — медиана"
+   },
+   {
+    "item": "Средство для защиты от негативного влияния окружающей среды  пониженных температур",
+    "qty": 80.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 141,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.075 Гарда-Стандарт Винтер Стоп 141 ₽; https://www.spets.ru/prices/price_msk.xls ВЕЛУМ ФРОСТ 195,2; ЭЛЕН от обморожения 68,32 ₽ — медиана"
+   },
+   {
+    "item": "Средство для защиты от негативного влияния окружающей среды  УФО",
+    "qty": 200.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 301,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.076 Гарда-Стандарт УФ Стоп SPF30 301 ₽; https://www.spets.ru/prices/price_msk.xls СВЕТОВИТ 402,6; ЭЛЕН защита от УФ 98,21 ₽ — медиана"
+   },
+   {
+    "item": "Средство увлажняющее офтальмологическое, комплект в боксе",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7595,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.425 Plum 4650 комплект в боксе (2×500 мл) 7 595 ₽"
+   },
+   {
+    "item": "Средство для промывки глаз от пыли и твердых веществ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1384,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.424 Plum 4604 Eyewash 500 мл 1 384 ₽"
+   },
+   {
+    "item": "Средство увлажняющее офтальмологическое, комплект в боксе",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8087,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.492 Plum 4789 комплект в боксе 8 087 ₽"
+   },
+   {
+    "item": "Средство для промывки глаз нейтрализующие кислоту и щелоч",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1859,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.427 Plum 4752 pH Neutral 200 мл 1 859 ₽"
+   },
+   {
+    "item": "Логотип",
+    "qty": 812.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 170,
+    "cost_src": "https://planeta-sirius.spb.ru/services/nanesenie-logotipa/shelkografiya/ от 77 ₽; https://profi.ru/raznoe/nanesenie-logotipa-na-specodezhdu/price/ от 170 ₽; https://ag-technologies.ru/blog/poleznaya-informatsiya/nanesenie-logotipa-na-spetsodezhdu/ термопечать 390 ₽ (31–50 шт) — медиана"
+   }
+  ],
+  "lines": [
+   {
+    "pos": 1,
+    "item": "Каска защитная белая c храповиком",
+    "qty": 342.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 500.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Кас 012.75717 СОМЗ-55 FAVORIT RAPID белая 488 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.6xx СОМЗ-55 FavoriT RAPID 513 ₽",
+    "supplier": "РОСОМЗ (Россия) СОМЗ-55 FavoriT RAPID 75717, ГИСП 2028549",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 2,
+    "item": "Каска защитная от механических воздействий оранжевая с храповиком  с креплением для наушников, щитка",
+    "qty": 400.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 500.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Кас 012.75714 СОМЗ-55 FAVORIT RAPID оранжевая 488 ₽ (слоты под наушники/щиток); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 513 ₽",
+    "supplier": "РОСОМЗ 75714, ГИСП 2028543",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 3,
+    "item": "Каска от повышенных температур  оранжевая",
+    "qty": 70.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1582.15,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Кас 010.76714 СОМЗ-55 FAVORIT TERMO RAPID оранж. 1 543,3 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.6xx FavoriT Termo RAPID 1 621 ₽",
+    "supplier": "РОСОМЗ 76714, ГИСП 2028651",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 4,
+    "item": "Подбородочный ремень для каски",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 167.62,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Ком 1062.00682 ремни подбородочные 4-точ. (10 шт) 1 372,5 ₽ = 137,25 ₽/шт; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 9.279 Ремешок на каску 198 ₽",
+    "supplier": "РОСОМЗ 00682",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 5,
+    "item": "Головной убор для защиты от общих производственных загрязнений  бандана",
+    "qty": 400.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 289.41,
+    "cost_src": "https://bvr-ivanovo.ru/catalog/bandana Бандана БВР крупный опт 150 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.244 Бандана «Лотос» 428,83 ₽",
+    "supplier": "БВР (Иваново) / Техноавиа (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 6,
+    "item": "Шапка утепленная",
+    "qty": 32.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 559.07,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Шап 004 Шапка утепленная ПШ 414,8 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.855 Шапка трикотажная от пониженных температур 703,33 ₽",
+    "supplier": "Спецобъединение/Техноавиа (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 7,
+    "item": "Подшлемник под каску, летний",
+    "qty": 26.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 301.34,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Шап 001 Подшлемник трикотажный 203,74 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.147 Подшлемник трикотажный х/б 398,94 ₽",
+    "supplier": "Спецобъединение/Техноавиа (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 8,
+    "item": "Подшлемник термостойкий  от электрической дуги , зимний",
+    "qty": 26.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1336.2,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Пшт 620 Подшлемник термостойкий WORKER Jersey 2 слоя 1 122,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.420 Подшлемник термостойкий «ВОЛЬТ з» 1 550,01 ₽",
+    "supplier": "Техноавиа ВОЛЬТ (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 9,
+    "item": "Подшлемник от повышенных температур 2 класса защиты",
+    "qty": 76.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1505.18,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Шап 335 Подшлемник сварщика ПРОМЕТЕЙ 1 598,2 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.396 Шлем-подшлемник сварщика летний «Урал-Мастер» 1 412,15 ₽",
+    "supplier": "Спецобъединение/Техноавиа (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 10,
+    "item": "Вкладыши противошумные на шнурке в индивидуальной упаковке",
+    "qty": 4000.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 31.11,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Бер 049.02 Беруши одноразовые БЕР131101 со шнурком 28,06 ₽ (ГИСП 55903..); https://www.spets.ru/prices/price_msk.xls Бер 037.02 CONICCO200 с кордом 34,16 ₽",
+    "supplier": "Спецобъединение (РФ, ГИСП)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 11,
+    "item": "Наушники противошумные  2 класса защиты",
+    "qty": 100.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 862.9,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нау 057.60900 СОМЗ-9 СТАЛЬНОЙ ГЕПАРД 28 дБ 841,8 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 12.166 СОМЗ-9 Стальной ГЕПАРД 884 ₽",
+    "supplier": "РОСОМЗ 60900",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 12,
+    "item": "Наушники противошумные  2 класса защиты  с креплением на каску",
+    "qty": 50.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 862.9,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нау 056.60650 СОМЗ-65 СТАЛЬНОЙ ЛЕВ на каску 841,8 ₽ (ГИСП 2028513); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 11.502 884 ₽",
+    "supplier": "РОСОМЗ 60650",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 13,
+    "item": "Очки на очки от механических воздействий открытые",
+    "qty": 300.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 211.06,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 003.13730 РОСОМЗ О37 UNIVERSAL TITAN super (для ношения поверх корригирующих очков) 211,06 ₽ (ГИСП 1799573)",
+    "supplier": "РОСОМЗ 13730",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 14,
+    "item": "Очки от механических воздействий открытые",
+    "qty": 700.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 172.68,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 007.11530 О15 HAMMER ACTIVE super 168,36 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 9.441 О15 HAMMER ACTIVE super (11530) 177 ₽",
+    "supplier": "РОСОМЗ 11530",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 15,
+    "item": "Закрытые очки с непрямой вентиляцией",
+    "qty": 90.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 350.3,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 202.21130 ЗН11 PANORAMA super 341,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 9.697 ЗН11 PANORAMA super (21130) 359 ₽",
+    "supplier": "РОСОМЗ 21130",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 16,
+    "item": "Очки защитные от ультрафиолетового излучения, слепящей яркости  водитель",
+    "qty": 30.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 183.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 042.18823-5 О88 SURGUT super (5-2.5 солнцезащитный, от слепящей яркости) 183 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 9.807 O88 SURGUT super (18823) 177 ₽ (без 5-2.5)",
+    "supplier": "РОСОМЗ 18823-5",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 17,
+    "item": "Очки для защиты от механических воздействий и оптических излучений",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 536.8,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 006.14534 О45 ВИЗИОН StrongGlass газосварочные (5) 536,8 ₽",
+    "supplier": "РОСОМЗ 14534",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 18,
+    "item": "Очки для защиты от механических воздействий и оптических излучений",
+    "qty": 20.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 536.8,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 006.14534 О45 ВИЗИОН StrongGlass газосварочные (5) 536,8 ₽ (как поз.17)",
+    "supplier": "РОСОМЗ 14534",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 19,
+    "item": "Очки защитные открытого типа со светофильтром от УФ-излучения для защиты от механических факторов",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 196.42,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Очк 007.115537-5 О15 HAMMER ACTIVE АЛМАЗ (2С-1.2 УФ-фильтр) 196,42 ₽",
+    "supplier": "РОСОМЗ 115537-5",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 20,
+    "item": "Щиток сварочный",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 563.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Мас 004.51366 НН10 PREMIER FAVORIT 549 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.374 НН10-С-6 Premier FavoriT 577 ₽",
+    "supplier": "РОСОМЗ 51366",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 21,
+    "item": "Щиток сварочный",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 10004.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Мас 009.51275-2 НН12 CRYSTALINE UNIVERSAL (АСФ) 9 760 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 17.460 10 248 ₽ — допущение: 2-й щиток с АСФ",
+    "supplier": "РОСОМЗ 51275-2, ГИСП",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 22,
+    "item": "Шлем сварщика, Соединительный шланг для шлема, Блок подачи воздуха",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 89620,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.193 Щиток сварщика Tecmen ADF-815S TM16 с PAPR (шлем+шланг+блок) 89 620 ₽; альтернатива РФ: https://www.spets.ru/prices/price_msk.xls Ппв 003.140215 блок Стальной БАРС 47 580 + Мас 018.01275 ННВ12 CRYSTALINE 19 251,6 ₽ (без шланга)",
+    "supplier": "Tecmen (КНР; нацрежим в 223 не установлен) / альт. РОСОМЗ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 23,
+    "item": "Предфильтр для блока принудительной подачи воздуха",
+    "qty": 2.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 2128,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.258 Префильтр к PAPR TECMEN (уп. 5 шт) 2 128 ₽",
+    "supplier": "Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 24,
+    "item": "Пластина защитная наружная",
+    "qty": 4.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 947.5,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.079/19.080 Наружная защитная пластина PL-5004 856 ₽ / PL-5002 1 039 ₽ (аналог; система заказчика не известна)",
+    "supplier": "Shine/Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 25,
+    "item": "Пластина защитная внутренняя",
+    "qty": 4.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083 Внутренняя защитная пластина PL-5001 572 ₽",
+    "supplier": "Shine/Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 26,
+    "item": "Пластина защитная",
+    "qty": 4.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083/19.084 Защитная пластина PL-5001/5001R 572 ₽ (тип пластины в ТЗ не известен)",
+    "supplier": "Shine/Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 27,
+    "item": "Пластина защитная",
+    "qty": 4.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083/19.084 Защитная пластина PL-5001/5001R 572 ₽ (тип пластины в ТЗ не известен)",
+    "supplier": "Shine/Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 28,
+    "item": "Пластина защитная",
+    "qty": 8.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083/19.084 Защитная пластина PL-5001/5001R 572 ₽ (тип пластины в ТЗ не известен)",
+    "supplier": "Shine/Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 29,
+    "item": "Пластина защитная",
+    "qty": 8.0,
+    "unit": "Упаковка",
+    "nmck_unit": null,
+    "cost_unit": 572,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 19.083/19.084 Защитная пластина PL-5001/5001R 572 ₽ (тип пластины в ТЗ не известен)",
+    "supplier": "Shine/Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 30,
+    "item": "Фильтр противогазовый для блока принудительной подачи",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 12778,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.486 Противогазовый фильтр A1B1E1K1 к PAPR TECMEN 12 778 ₽",
+    "supplier": "Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 31,
+    "item": "Фильтр противоаэрозольный для блока принудительной подачи",
+    "qty": 12.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2140,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.259 Основной фильтр P3 к PAPR TECMEN 2 140 ₽",
+    "supplier": "Tecmen",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 32,
+    "item": "Щиток термостойкий  от брызг расплавленного металла, мет окалины",
+    "qty": 28.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 976.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Щит 038.427390 НБТ2/С ВИЗИОН TERMO TITAN 976 ₽ (ГИСП)",
+    "supplier": "РОСОМЗ 427390",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 33,
+    "item": "Щиток защитный лицевой с термостойкой окантовкой  от электродуги",
+    "qty": 24.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6127.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Щит 023.04207 КБТ ВИЗИОН ENERGO (CA) 5 978 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.915 КБТ ВИЗИОН ENERGO (04207) 6 277 ₽",
+    "supplier": "РОСОМЗ 04207, ГИСП 2179866",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 34,
+    "item": "Щиток защитный с креплением на каску",
+    "qty": 40.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 642.15,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Щит 016.04390 КБТ ВИЗИОН TITAN 628,3 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.911 656 ₽",
+    "supplier": "РОСОМЗ 04390, ГИСП 2179834",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 35,
+    "item": "Щиток защитный лицевой",
+    "qty": 40.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 313.0,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Щит 002.413130 НБТ1 ВИЗИОН 305 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.343 НБТ1 ВИЗИОН 321 ₽",
+    "supplier": "РОСОМЗ 413130, ГИСП 2140702",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 36,
+    "item": "Противоаэрозольная фильтрующая полумаска",
+    "qty": 10000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 96,
+    "cost_src": "FFP2 с клапаном: https://www.spets.ru/prices/price_msk.xls Рес 227 FR 3210 71,37 ₽; https://www.spets.ru/prices/price_msk.xls Рес 203 WALL CUP 95HК 97,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.501 RK 5021 96 ₽ — медиана",
+    "supplier": "Россия (ГИСП у FR 3210/WALL CUP)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 37,
+    "item": "Противоаэрозольная фильтрующая полумаска",
+    "qty": 10000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 96,
+    "cost_src": "FFP2 с клапаном: https://www.spets.ru/prices/price_msk.xls Рес 227 FR 3210 71,37 ₽; https://www.spets.ru/prices/price_msk.xls Рес 203 WALL CUP 95HК 97,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.501 RK 5021 96 ₽ — медиана",
+    "supplier": "Россия (ГИСП у FR 3210/WALL CUP)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 38,
+    "item": "Противоаэрозольная фильтрующая полумаска",
+    "qty": 4000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 96,
+    "cost_src": "FFP2 с клапаном: https://www.spets.ru/prices/price_msk.xls Рес 227 FR 3210 71,37 ₽; https://www.spets.ru/prices/price_msk.xls Рес 203 WALL CUP 95HК 97,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.501 RK 5021 96 ₽ — медиана",
+    "supplier": "Россия (ГИСП у FR 3210/WALL CUP)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 39,
+    "item": "Противоаэрозольная фильтрующая полумаска",
+    "qty": 1000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 131.15,
+    "cost_src": "FFP3 с клапаном: https://www.spets.ru/prices/price_msk.xls Рес 228 FR 3310 84,79 ₽; https://www.spets.ru/prices/price_msk.xls Рес 204 WALL CUP 99HК 131,15 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.502 RK 5031 155 ₽ — медиана",
+    "supplier": "Россия",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 40,
+    "item": "Полнолицевая маска",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8222.9,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 121 Маска панорамная UNIX 5100 8 222,8 ₽ (ГИСП 5339859); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.950 8 223 ₽",
+    "supplier": "Сорбент (Россия)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 41,
+    "item": "Полнолицевая маска",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 6563.3,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 099 UNIX 5000 6 563,6 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.880 6 563 ₽",
+    "supplier": "Сорбент",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 42,
+    "item": "Пленка защитная для маски полнолицевой",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1557,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.935 Пленка защитная для масок UNIX 5000/5100 1 557 ₽",
+    "supplier": "Сорбент",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 43,
+    "item": "Противогазовый фильтр",
+    "qty": 8.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 2244.4,
+    "cost_src": "UNIX 531 A1B1E1K1: https://www.spets.ru/prices/price_msk.xls Рес 103 1 122,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.884 1 122 ₽; комплект = 2 шт",
+    "supplier": "Сорбент, ГИСП 5367137",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 44,
+    "item": "Держатель предфильтра",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 329.4,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 110 Держатель предфильтра UNIX 164,7 ₽ ×2 (комплект)",
+    "supplier": "Сорбент, ГИСП 2655204",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 45,
+    "item": "Полумаска",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 1699.95,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 100 Полумаска UNIX 1000 1 701,9 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.877 1 698 ₽",
+    "supplier": "Сорбент, ГИСП 5287528",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 46,
+    "item": "Противогазовый фильтр для  защиты от паров органических веществ",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 1477.1,
+    "cost_src": "UNIX 501 A1: https://www.spets.ru/prices/price_msk.xls Рес 120 738,1 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.946 739 ₽; комплект=2 шт",
+    "supplier": "Сорбент, ГИСП 5366178",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 47,
+    "item": "Противоаэрозольный предфильтр",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 658.8,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 108 Предфильтр UNIX P2 R 329,4 ₽ ×2",
+    "supplier": "Сорбент",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 48,
+    "item": "Держатель предфильтра",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 329.4,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 110 Держатель предфильтра UNIX 164,7 ₽ ×2",
+    "supplier": "Сорбент",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 49,
+    "item": "Противогазовый фильтр в металлическом корпусе",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2043,
+    "cost_src": "https://geosorb.ru/category/filtry-dlya-protivogazov/ ФК-5Б металл. корпус 1 756–2 043 ₽; https://www.spets.ru/prices/price_msk.xls Про 018.01 ДОТ-320 2 061,8 ₽ — медиана",
+    "supplier": "Геосорб/Тамбовмаш (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 50,
+    "item": "Противогазовый фильтр марки A2",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 879.2,
+    "cost_src": "UNIX 502 A2: https://www.spets.ru/prices/price_msk.xls Рес 101 878,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.881 880 ₽",
+    "supplier": "Сорбент, ГИСП 5366184",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 51,
+    "item": "Адаптер",
+    "qty": 8.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 311.1,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рес 232 Держатель/адаптер МК52 для фильтров 311,1 ₽ (тип адаптера в ТЗ не известен)",
+    "supplier": "Спецобъединение МК",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 52,
+    "item": "Фильтр ABE1",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 2071.0,
+    "cost_src": "UNIX 521 A1B1E1: https://www.spets.ru/prices/price_msk.xls Рес 102 1 037 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.883 1 034 ₽; комплект=2",
+    "supplier": "Сорбент, ГИСП 5366380",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 53,
+    "item": "Фильтр ABEK1",
+    "qty": 20.0,
+    "unit": "Комплект",
+    "nmck_unit": null,
+    "cost_unit": 2244.4,
+    "cost_src": "UNIX 531 A1B1E1K1: https://www.spets.ru/prices/price_msk.xls 1 122,4; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 1 122 ₽; комплект=2",
+    "supplier": "Сорбент",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 54,
+    "item": "Жилет сигнальный оранжевый",
+    "qty": 120.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 393.45,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Жил 521 Жилет сигнальный оранжевый 390,4 ₽ (ГИСП 5605189); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.232 «Эконом» оранж. 396,5 ₽",
+    "supplier": "Спецобъединение (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 55,
+    "item": "Фартук для защиты от воды",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 574.62,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Фар 001 Фартук ПВХ облегченный 567,3 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.060 Фартук влагозащитный ПВХ «Кемикал» 581,94 ₽",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 56,
+    "item": "Фартук для защиты от нефти и или нефтепродуктов",
+    "qty": 62.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 844,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Фар 140 КЩС тип А 536,8 ₽; https://www.spets.ru/prices/price_msk.xls Фар 010 ПВХ уплотненный КЩС 976 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 17.270 Фартук ПВХ ЩИТ-2 844 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 57,
+    "item": "Фартук для защиты от искр, брызг расплавленного металла",
+    "qty": 70.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 738.1,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 14.921 Фартук брезентовый от искр, брызг металла Ф2 ТА 738,10 ₽ (альт. https://www.spets.ru/prices/price_msk.xls Фар 015 спилковый 1 661,64 ₽)",
+    "supplier": "Техноавиа (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 58,
+    "item": "Фартук для защиты от механических воздействий  истираний  и общих производственных загрязнений  брезентовый",
+    "qty": 1000.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 382.5,
+    "cost_src": "https://www.avangard-sp.ru/catalog/specodezhda/letnyaya/fartuki_rabochie/fartuk_brezent_/ 380 ₽; https://zavodrim.ru/catalog/spetsodezhda/zashchitnaya_spetsodezhda/fartuk_brezentovyy_pl_550_gr/ 385 ₽; https://www.trakt.ru/catalog/specodezhda/fartuki-futbolki-rubashki-belyo/12017/ 746,64 ₽; https://leader-t.ru/catalog/fartuki-i-narukavniki/f-01-fartuk-brezentovyy-pl-400gr-s-karmanom-art-11235/ 117,8 ₽ — медиана",
+    "supplier": "Авангард/Завод РиМ/Трак/Лидер-Текс (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 59,
+    "item": "Комбинезон от общих производственных загрязнений",
+    "qty": 58.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3714.9,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Ком 518 Комбинезон ПИЛОТ летний (ОПЗ) 3 714,9 ₽ (ГИСП 5324876)",
+    "supplier": "Спецобъединение (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 60,
+    "item": "Костюм для защиты от искр и брызг расплавленного металла, 1 класс",
+    "qty": 4.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 4751.9,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.121 Костюм сварщика брезентовый КС 01 3 800,91 ₽; https://www.spets.ru/prices/price_msk.xls Кос 076 ПРОМЕТЕЙ-2 4 751,9 ₽; https://www.trakt.ru/product/16725/ СВАРОГ Кос217 (1 кл) 5 884,67 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 61,
+    "item": "Костюм для защиты от искр и брызг расплавленного металла, 2 класс",
+    "qty": 18.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 5551.31,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.121 КС 01 (2 класс) 3 800,91 ₽; https://www.spets.ru/prices/price_msk.xls 0001 Костюм сварщика спилок/брезент 2 кл 7 301,7 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 62,
+    "item": "Перчатки латексные с хлопковым напылением",
+    "qty": 824.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 62.22,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Перчатки СПЕЦ-SB хозяйственные, латекс, хлопковое напыление 62,22 ₽",
+    "supplier": "Спецобъединение",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 63,
+    "item": "Перчатки нитриловые с полным покрытием  узкая манжета",
+    "qty": 180.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 127.49,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls НИТРИЛОВЫЕ РП полный облив 127,49 ₽; https://www.spets.ru/prices/price_msk.xls MS Нитрил РП 183 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 79.100 «Дублин» полное нитрил 115 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 64,
+    "item": "Перчатки нитриловые с полным покрытием  краги",
+    "qty": 180.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 213,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls НИТРИЛОВЫЕ КП (крага) 132,37 ₽; https://www.spets.ru/prices/price_msk.xls MS Нитрил КП 231,8 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.553 краги SKY WORKER 213 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 65,
+    "item": "Перчатки с частичным покрытием",
+    "qty": 4000.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 106.75,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls НИТРИЛ ЛАЙТ интерлок 106,75 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.003 с латексным покрытием ладони 47 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.551 SKY WORKER частичное нитрил 193 ₽ — медиана (тип покрытия в ТЗ не известен)",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 66,
+    "item": "Перчатки для защиты от конвективной теплоты, теплового излучения и кратковременного воздействия открытого пламени",
+    "qty": 96.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 1385.05,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls АРАМАКС TG-601 до 250°C 1 409,1 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.390 HandPro С030 термостойкие 1 361 ₽",
+    "supplier": "Manipula/HandPro",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 67,
+    "item": "Краги сварщика",
+    "qty": 40.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 640.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Краги СПИЛКОВЫЕ ЛЮКС 469,7; МЕТАЛЛУРГ 542,9; СИБИРЬ 738,1 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.412 SPLIT краги спилок 775 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 68,
+    "item": "Краги сварщика",
+    "qty": 272.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 640.5,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Краги СПИЛКОВЫЕ ЛЮКС 469,7; МЕТАЛЛУРГ 542,9; СИБИРЬ 738,1 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.412 SPLIT краги спилок 775 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 69,
+    "item": "Перчатки и защитные приспособления кольчужные",
+    "qty": 10.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 16576.4,
+    "cost_src": "кольчужная перчатка за шт: https://www.spets.ru/prices/price_msk.xls Пер 516.00 10 577,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 18.710 TECHNOGLOVES RTCMG-01 5 999 ₽ — медиана ×2 (пара)",
+    "supplier": "—",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 70,
+    "item": "Рукавицы защитные",
+    "qty": 568.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 86.62,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рукавицы Х/Б с ПВХ наладонником 73,81; Х/Б 320 г/м² 86,62 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.091 с двойным наладонником 90 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 71,
+    "item": "Рукавицы с брезентовым налодонником",
+    "qty": 300.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 71.37,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рук 008 Х/Б с брезентовым наладонником ГОСТ 71,37; Рук 007 66,49 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.091 90 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 72,
+    "item": "Рукавицы огнеупорные",
+    "qty": 100.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 101.25,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Рук 012 брезентовые ОП 530 г/м² ГОСТ 91,5 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.121 брезент 111 ₽ (если ТЗ требует спилок — https://www.spets.ru/prices/price_msk.xls Рукавицы СПИЛКОВЫЕ 305 ₽)",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 73,
+    "item": "Перчатки термостойкие",
+    "qty": 182.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 1280.09,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls ПЛАЗМА TG-603 (Nomex, от дуги) 1 250,5 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.421 Перчатки термостойкие «ВОЛЬТ л» 1 309,67 ₽",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 74,
+    "item": "Перчатки для защиты от механических воздействий",
+    "qty": 6000.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 36,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls СПЕЦ-SB PRO с ПВХ 29,28 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.028 «Гриф» 36; 7.002 «Строй» 38 ₽ — медиана",
+    "supplier": "РФ (ГИСП 5457317)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 75,
+    "item": "Перчатки для защиты от механических воздействий",
+    "qty": 1000.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 122,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.003 трикотажные с латексом 47 ₽; https://www.spets.ru/prices/price_msk.xls MS Латекс 122; ЛАСОФТ 128,1 ₽ — медиана (тип в ТЗ не известен)",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 76,
+    "item": "Перчатки для защиты от механических воздействий",
+    "qty": 126.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 371.7,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls ДОКЕР спилок комбинированные 268,4 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.726 NAVY комбинированные со спилком 475 ₽",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 77,
+    "item": "Перчатки неопреновые",
+    "qty": 520.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 308,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls ХИМОПРЕН CG-973 неопрен 463,6; СОЮЗ латекс/неопрен 301,95 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.365 «Супер Неопрен» 308 ₽ — медиана",
+    "supplier": "—",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 78,
+    "item": "Перчатки резиновые высокие для пескоструйных камер",
+    "qty": 24.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 4070,
+    "cost_src": "https://drobesfera.ru/collection/perchatki-peskostruyschika ЯРТ Т-2 620 мм от 4 070 ₽ (Россия); https://www.anticor-m.ru/catalog/sredstva-individualnoy-zashchity/perchatki-dlya-peskostruynykh-rabot/ RGS 600 мм 3 590 ₽; https://blastcor.com/oborudovanie/peskostruj/sredstva/perchatky/perchatki-kamernyie-rezin.html Т-2 680 мм 4 990 ₽ — медиана",
+    "supplier": "ЯРТ (Россия)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 79,
+    "item": "Перчатки с защитным покрытием морозостойкие с шерстянными вкладышами",
+    "qty": 270.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 635,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нордик КП + вкладыш Винтер Люкс (шерсть) 460,32 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.507 FREJUS морозост. 635; 8.506 BAIKAL 776 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 80,
+    "item": "Перчатки диэлектрические",
+    "qty": 28.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 953.05,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Перчатки ДИЭЛЕКТРИЧЕСКИЕ бесшовные (АЗРИ) 1 008,09 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.441 АЗРИЭЛЕКТРО кл.0 898 ₽",
+    "supplier": "АЗРИ (Россия)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 81,
+    "item": "Перчатки диэлектрические",
+    "qty": 4.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 953.05,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Перчатки ДИЭЛЕКТРИЧЕСКИЕ бесшовные (АЗРИ) 1 008,09 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.441 АЗРИЭЛЕКТРО кл.0 898 ₽",
+    "supplier": "АЗРИ (Россия)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 82,
+    "item": "Перчатки вибрационные",
+    "qty": 100.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 2268,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.508 Vibe комбинированные 2 268 ₽; https://www.spets.ru/prices/price_msk.xls ВИБЛОК 2 684; ВИБРЕСТ 976 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 83,
+    "item": "Нарукавники прорезиненный ПВХ, КЩС",
+    "qty": 42.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 224.35,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нарукавники ПВХ VS-020 225,7 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 8.268 223 ₽",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 84,
+    "item": "Нарукавники",
+    "qty": 48.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 196.82,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нарукавники ДИАГОНАЛЬ 147,62 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 3.381 смесовая 196,82; 6.172 х/б 235,87 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 85,
+    "item": "Нарукавники для защиты от искр и брызг расплавленного металла",
+    "qty": 18.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 1281,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нарукавники ПРОМЕТЕЙ 1 069,94; СПИЛКОВЫЕ 1 281 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 7.520 сварщика спилковые 2 990 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 86,
+    "item": "Нарукавники брезентовые",
+    "qty": 126.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 228.75,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Нар 010 Нарукавники БРЕЗЕНТОВЫЕ 228,75 ₽",
+    "supplier": "Спецобъединение",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 87,
+    "item": "Боты диэлектрические",
+    "qty": 32.0,
+    "unit": "Пара (2 шт.)",
+    "nmck_unit": null,
+    "cost_unit": 1617.41,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Диэ 003 Боты диэлектрические 1 769 ₽ (ГИСП 3084470); https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 5.171 Боты формовые 4101-ФТ 1 465,83 ₽",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 88,
+    "item": "Коврик диэлектрический",
+    "qty": 32.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 366.13,
+    "cost_src": "https://www.spets.ru/prices/price_msk.xls Диэ 001 Коврик 500×500 378,2 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.151 354,06 ₽",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 89,
+    "item": "Мыло жидкое (5л)",
+    "qty": 1000.0,
+    "unit": "Литр; кубический дециметр",
+    "nmck_unit": null,
+    "cost_unit": 217.14,
+    "cost_src": "за литр: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.097 «Гарда-Стандарт Аква Клин» канистра 5 л 988 ₽ (197,6 ₽/л); https://www.spets.ru/prices/price_msk.xls Жидкое мыло АКВАМАРИН 5 л 1 183,4 ₽ (236,7 ₽/л)",
+    "supplier": "Гарда/Армакон (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 90,
+    "item": "Дозатор наливного типа",
+    "qty": 42.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 2616,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.157 «Гарда Варио» дозатор наливной для жидкого мыла 2 616 ₽",
+    "supplier": "Гарда (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 91,
+    "item": "Дозатор пластиковый для мягких бутылей",
+    "qty": 140.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 3423,
+    "cost_src": "https://www.vostok.spb.ru/sredstva_zashhity/zashhita_koji/dozator_Safe_and_Care_plastikovyy_dlya_myagkih_butyley_137006202.php Восток-Сервис Safe and Care 137-0062-02 3 423 ₽ (с НДС); https://intekospb.ru/catalog/siz/siz/sredstva-zashchity/29006 опт 3 601,05 ₽; https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.079 «Гарда Варио Эко» 3 414 ₽ — медиана",
+    "supplier": "Восток-Сервис Safe and Care (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 92,
+    "item": "Средство для очистки рук от устойчивых загрязнений",
+    "qty": 360.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 165,
+    "cost_src": "200 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.070 Гарда-Стандарт Натур Соло паста 165 ₽; https://www.spets.ru/prices/price_msk.xls ЛАЙМЕКС 200 мл 176,9 ₽; https://www.spets.ru/prices/price_msk.xls Паста ЭЛЕН 200 мл 101,26 ₽ — медиана",
+    "supplier": "Гарда/Армакон/Элен (РФ)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 93,
+    "item": "Средство комбинированного действия",
+    "qty": 340.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 118,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.074 Гарда-Стандарт комбинированного действия 118 ₽; https://www.spets.ru/prices/price_msk.xls Д-12 универсальный 140,3; ЭЛЕН универсальный 57,34 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 94,
+    "item": "Средство регенерирующего действия  восстанавливающее",
+    "qty": 480.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 118,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.071 Гарда-Стандарт регенерирующий 118 ₽; https://www.spets.ru/prices/price_msk.xls ВЕЛУМ 158,6; ЭЛЕН регенерирующий 57,34 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 95,
+    "item": "Средство противогрибковое   фунгицидного действия",
+    "qty": 816.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 189,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.078 Гарда Премиум Свэт Стоп (противогрибк.) 189 ₽; https://www.spets.ru/prices/price_msk.xls АРМОФИТ спрей 201,3; ЭЛЕН для ног 113,46 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 96,
+    "item": "Средство для защиты от негативного влияния окружающей среды  пониженных температур",
+    "qty": 80.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 141,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.075 Гарда-Стандарт Винтер Стоп 141 ₽; https://www.spets.ru/prices/price_msk.xls ВЕЛУМ ФРОСТ 195,2; ЭЛЕН от обморожения 68,32 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 97,
+    "item": "Средство для защиты от негативного влияния окружающей среды  УФО",
+    "qty": 200.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 301,
+    "cost_src": "100 мл: https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 10.076 Гарда-Стандарт УФ Стоп SPF30 301 ₽; https://www.spets.ru/prices/price_msk.xls СВЕТОВИТ 402,6; ЭЛЕН защита от УФ 98,21 ₽ — медиана",
+    "supplier": "РФ",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 98,
+    "item": "Средство увлажняющее офтальмологическое, комплект в боксе",
+    "qty": 10.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 7595,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.425 Plum 4650 комплект в боксе (2×500 мл) 7 595 ₽",
+    "supplier": "Plum (Дания; нацрежим не установлен)",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 99,
+    "item": "Средство для промывки глаз от пыли и твердых веществ",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1384,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.424 Plum 4604 Eyewash 500 мл 1 384 ₽",
+    "supplier": "Plum",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 100,
+    "item": "Средство увлажняющее офтальмологическое, комплект в боксе",
+    "qty": 6.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 8087,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.492 Plum 4789 комплект в боксе 8 087 ₽",
+    "supplier": "Plum",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 101,
+    "item": "Средство для промывки глаз нейтрализующие кислоту и щелоч",
+    "qty": 2.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 1859,
+    "cost_src": "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf 6.427 Plum 4752 pH Neutral 200 мл 1 859 ₽",
+    "supplier": "Plum",
+    "margin_unit_pct": null
+   },
+   {
+    "pos": 102,
+    "item": "Логотип",
+    "qty": 812.0,
+    "unit": "Штука",
+    "nmck_unit": null,
+    "cost_unit": 170,
+    "cost_src": "https://planeta-sirius.spb.ru/services/nanesenie-logotipa/shelkografiya/ от 77 ₽; https://profi.ru/raznoe/nanesenie-logotipa-na-specodezhdu/price/ от 170 ₽; https://ag-technologies.ru/blog/poleznaya-informatsiya/nanesenie-logotipa-na-spetsodezhdu/ термопечать 390 ₽ (31–50 шт) — медиана",
+    "supplier": "подрядчик нанесения",
+    "margin_unit_pct": null
+   }
+  ],
+  "cost_total": 9563399,
+  "logistics": 140000,
+  "margin_pct": 35.2,
+  "net_at_nmck": 4106708,
+  "exp_disc": 0.1,
+  "net_expected": 2844132,
+  "breakeven_disc": 0.3253,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Участвовать",
+  "risks": "102 позиции подтверждены gosplan (ред. 5 от 26.10.2026), но характеристики в ЕИС-JSON — только наименования; ТЗ/ценовая форма (232МИ_кор._от_23.10.zip) из среды недоступны (zakupki.gov.ru 000). Цен за ед. нет — НМЦК по позициям не разнесена, маржа считается по лоту. Крупнейшие строки: 24 000 FFP2 (2,30 млн), 140 дозаторов Safe and Care (0,48 млн), 4 000 пар перчаток с частичным покрытием (0,43 млн, тип покрытия неизвестен: 47–193 ₽), 1 000 брезентовых фартуков. Система ПВС (поз.22–31) подобрана как Tecmen ADF-815S PAPR — если ТЗ требует 3M Speedglas/Optrel, комплект 150–250 тыс. ₽ (+0,2–0,4 млн к себестоимости). Нацрежим в извещении не установлен (prohibition/constraint=false), но приоритет российских — берём РФ где возможно. Только СМП.",
+  "confidence": "med",
+  "missing": [
+   "ТЗ и ценовая форма из 232МИ_кор._от_23.10.zip (zakupki.gov.ru/223/filestore uid=AA9084275251441FB26B2EAABC4DDC40) — нужны марка/класс/объём по каждой позиции; из среды не скачивается (1 попытка, HTTP 000). Запросить у организатора (ssviatova@geh-zakupki.ru) или скачать с ЭТП ГПБ процедура 1300627.",
+   "НМЦ за единицу по позициям (в т.ч. уточнённая НМЦ мыла поз.89/91 из ответа 23.10) — без неё нельзя проверить убыточные строки.",
+   "Вопрос заказчику: под какую систему ПВС поз.22–31 (бренд шлема/блока) — от этого зависят пластины и фильтры (сейчас Tecmen/Shine).",
+   "Вопрос заказчику: «Комплект» в поз.43–53 = 1 или 2 фильтра/держателя (сейчас принято 2 шт).",
+   "Тип покрытия поз.65, 74–76 (ПВХ/латекс/нитрил/спилок) и щитков поз.20–21 (с АСФ или без) — приняты допущения.",
+   "Объём тары дерматологических средств поз.92–97 (принято 100–200 мл) и что именно за «адаптер» поз.51.",
+   "Позиции с одним прайсовым источником: 27 из 102 (подбирались по одной карточке, где второй крупный оптовик модель не держит).",
+   "Восток-Сервис (vostok.ru/Moskva.xlsx) скачать не удалось — использован только по дозатору (vostok.spb.ru); КП у Восток-Сервиса/Техноавиа перед подачей всё равно нужно (опт-скидка 5–12% от прайса не учтена)."
+  ],
+  "changes": [
+   "Все 102 позиции расписаны отдельно (было 61 агрегат) по извещению ред.5 gosplan; ни одной «[оценки]» — у каждой строки прайс 2026 с URL (Спецобъединение 27.10.2026, Техноавиа 09.10.2026, Трак, Восток-Сервис СПб, Авангард, завод РиМ, ЯРТ, Геосорб, БВР).",
+   "Себестоимость 9,15 → 9,56 млн (+0,41): дороже оказались дозаторы для мягких бутылей (3 423 vs 900 ₽, Safe and Care Восток-Сервис), перчатки частичного покрытия (106,75 vs 45), кольчужные (16,6 тыс./пара vs 6), фильтр PAPR A1B1E1K1 (12 778), комбинезон ОПЗ (3 715 vs 2 500); дешевле — каски (500 vs 513), фартук брезентовый (382 vs 450), дерматология (118–301 vs 350), ПВС-шлем (89,6 vs 120 тыс.), очки (168–211 vs 350–700).",
+   "Логистика 183 → 140 тыс.: расчёт ~3,5 т/~20 м³ Москва→Екатеринбург по тарифу Байкал Сервис 6 198–6 954 ₽/м³, 22,81–26,35 ₽/кг (с НДС) https://www.baikalsr.ru/business/prices/ + забор/доставка ~10 тыс.",
+   "Маржа 37,6% → 35,2%; net при НМЦК 4,43 → 4,11 млн; net при −10% 3,17 → 2,84 млн; безубыточное снижение 35,1% → 32,5%."
+  ],
+  "sources": [
+   "https://v2test.gosplan.info/fz223/purchases/32616489407",
+   "https://etp.gpb.ru/#com/procedure/view/procedure/1300627",
+   "https://www.spets.ru/prices/price_msk.xls",
+   "https://files.technoavia.ru/files/price/11/price_Technoavia_moscow_2026_10_09_17_01_01.pdf",
+   "https://www.trakt.ru/product/16725/",
+   "https://www.vostok.spb.ru/sredstva_zashhity/zashhita_koji/dozator_Safe_and_Care_plastikovyy_dlya_myagkih_butyley_137006202.php",
+   "https://bvr-ivanovo.ru/catalog/bandana",
+   "https://drobesfera.ru/collection/perchatki-peskostruyschika",
+   "https://geosorb.ru/category/filtry-dlya-protivogazov/",
+   "https://www.avangard-sp.ru/catalog/specodezhda/letnyaya/fartuki_rabochie/fartuk_brezent_/",
+   "https://zavodrim.ru/catalog/spetsodezhda/zashchitnaya_spetsodezhda/fartuk_brezentovyy_pl_550_gr/",
+   "https://www.baikalsr.ru/business/prices/"
+  ],
+  "prep": "ЭТП ГПБ, процедура 1300627 (ГЭХ Закупки) — аккредитация. Подача до 02.11.2026 10:00 МСК. Только СМП (выписка из реестра МСП). Заполнить ценовую форму из «232МИ_кор._от_23.10». Сертификаты/декларации ТР ТС 019 на все СИЗ, свидетельства ГИСП на одежду и обувь (ПП 1875). Обеспечение — по документации (на ЕИС недоступна).",
+  "logistics_src": "Байкал Сервис, тарифы Москва—Екатеринбург (с НДС): https://www.baikalsr.ru/business/prices/; вес/объём — расчёт по номенклатуре (респираторы ~0,3 т/4 м³, каски 0,37 т/6,5 м³, перчатки ~0,8 т, мыло 1,05 т, фартуки 0,5 т)",
+  "prev": {
+   "cost_total": 9154606,
+   "logistics": 183092,
+   "margin_pct": 37.6,
+   "net_at_nmck": 4427773,
+   "net_expected": 3165197,
+   "breakeven_disc": 0.3507,
+   "confidence": "low"
+  }
+ },
+ {
+  "num": "0372200087626000024",
+  "name": "Поставка кадетской формы в 2026 году",
+  "cust": "ГБОУ Школа № 380 Красносельского р-на СПб им. А.И. Спирина",
+  "law": "44-ФЗ",
+  "method": "Запрос котировок в эл. форме, СМП/СОНО",
+  "end": "2026-11-02 10:00 МСК",
+  "nmck": 2490692.0,
+  "positions": [
+   {
+    "item": "Ботинки с высокими берцами «Зубр»",
+    "qty": 212,
+    "unit": "пара",
+    "nmck_unit": 3700,
+    "cost_unit": 3090.0,
+    "cost_src": "https://zatekstilem.ru/products/kompaniya-spetsobuv/bertsy-zimnie-zubr/ «Берцы зимние Зубр» нат.кожа, ТЭП ±40°C, молния 1 740 ₽ (Спецобувь); https://bvr-ivanovo.ru/catalog/bercy Берцы ОМОН хром/натуральный мех крупный опт 2 400 ₽; https://novatorgk.ru/magazin/product/53319908 берцы иск.мех ТЭП арт.64М 3 780 ₽; https://www.ursus.ru/catalogue/product/botinki_s_vysokim_bertsem_trek_na_naturalnom_mekhu_i_podoshvoy_tep_art_830_u_chernye/ ТРЕК 830-У нат.мех ТЭП кр.опт 4 738 ₽ — медиана"
+   },
+   {
+    "item": "Китель парадный муж./жен. (с погонами, аксельбантом, ремнём, шевроном)",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 7030,
+    "cost_unit": 5348,
+    "cost_src": "Китель: правило клиента — летний форменный комплект 3 500 ₽. Аксессуары по реальным ценам: погоны КК 105 ₽ (http://xn--d1atac5a.xn--p1ai/catalog/group90/product439; https://kadet777.ru/kadetskie-pogony/falsh-efreitor/ 100; https://cornet.pro/kadetskaya_forma/pogony_shevrony_nashivki/pogony_falshpogony/ 200 — медиана 105); аксельбант солдатский жёлтый 720 ₽ (https://vuniforme.ru/aksessuary/akselbanty/akselbant-kadetskij-s-nakonechnikom-zheltyj 390 от 90 шт; https://1klac.ru/catalog/kadetskaya-forma-dlya-malchikov-i-devochek/akselbant_kadetskiy_zheltyy/ 720; https://armimarket.ru/product-category/akselbanty/ 730 — медиана); ремень под бляху чёрный 750 ₽ (https://cornet.pro/kadetskaya_forma/remni_i_blyahi/remni_i_trenchiki/remen_pod_blyahu_iskusstvennaya_kozha_chernyy_4_1_003); шеврон вышитый ~8 см 273 ₽ (https://v-sib.ru/catalog/avtomatizirovannaya-mashinnaya-vyshivka/nashivki-na-odezhdu/vyshityy-shevron-na-odezhdu/ 95 от 200 шт; https://vishivaem.ru/stripes/ ~160; https://inari.pro/catalog/group/shevrony-i-nashivki-1/498 386; https://www.i-maika.ru/shevrony/ 560 — медиана 273)"
+   },
+   {
+    "item": "Берет кадетский (суконный шовный, чёрный, с кокардой МВД)",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 495.8,
+    "cost_unit": 854,
+    "cost_src": "https://voenpro.ru/catalog/armejskie-berety «Шовный берет черного цвета» 599 ₽; https://cornet.pro/kadetskaya_forma/golovnye_ubory/berety/beret_sukonnyy_chernyy_2_4_001 суконный чёрный 750 ₽; https://www.voentorgmag.ru/catalogue/cat496/prod17561.html бесшовный чёрный 1 596 ₽; + кокарда МВД 104 ₽ (https://www.voentorgmag.ru/catalogue/cat537/prod17978.html) — медиана"
+   },
+   {
+    "item": "Куртка (полупальто) зимняя с капюшоном, с шевроном и фальш-погонами КК",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 4810,
+    "cost_unit": 5878,
+    "cost_src": "Полупальто: https://bvr-ivanovo.ru/price.xls «Куртка ЗИМА тк.Смесовая цв.Чёрный» крупный опт 3 850 ₽ (базовая модель, без мех. воротника); https://kadet777.ru/palto-kadeta/ пальто кадета 5 500 ₽; https://kadet777.ru/palto-kadetskoe/ бушлат кадетский 8 200 ₽ — медиана 5 500 + шеврон 273 + фальш-погоны 105. (Не комплект → правило 5 000 не применено; см. changes)"
+   },
+   {
+    "item": "Шапка зимняя кадетская (иск. мех, верх сукно, кокарда МВД)",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 962,
+    "cost_unit": 869,
+    "cost_src": "https://www.ursus.ru/catalogue/product/shapka_ushanka/ ушанка иск.мех кр.опт 637 ₽ + кокарда 104; https://profarmy.ru/catalog/shapki/shapka_s_kokardoy_iskusstvennyy_mekh/ шапка с кокардой иск.мех 869 ₽; https://cornet.pro/kadetskaya_forma/golovnye_ubory/shapki_zimnie_mehovye/ ушанка с суконным дном 900 ₽ + кокарда 104 — медиана"
+   },
+   {
+    "item": "Галстук кадетский «Регат»",
+    "qty": 61,
+    "unit": "шт",
+    "nmck_unit": 185,
+    "cost_unit": 231.0,
+    "cost_src": "https://formeks.ru/product/galstuk-dlya-voennosluzhashchikh-tip-a-tsv-chernyy/ ФОР-ГАЛ-307 220 ₽; https://profarmy.ru/catalog/galstuki/galstuk_regat/ 231 ₽; https://kazakdar.ru/product/galstuk-regat-detskij-chernyj/ 250 ₽ — медиана"
+   },
+   {
+    "item": "Галстук-бант женский (чёрный)",
+    "qty": 61,
+    "unit": "шт",
+    "nmck_unit": 185,
+    "cost_unit": 200.0,
+    "cost_src": "Формекс ФОР-ГАЛ-050 чёрный 200 ₽ / ФОР-ГАЛ-250 180 ₽ (https://formeks.ru/product/galstuk-bant-zhen-fsin-t-sin/); https://www.voentorgmag.ru/catalogue/cat521/cat1022/galstuki-bantyi-zhenskie/galstuk-bant-zhenskij-chernyij.html 515 ₽ — медиана 200"
+   },
+   {
+    "item": "Шарф-кашне 120×20, 30% шерсть/70% ПАН",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 281.2,
+    "cost_unit": 355.0,
+    "cost_src": "https://formeks.ru/catalog/tproduct/792349550832-kashne-psh-oliv ФОР-КАШ-120 п/ш 30% шерсть/70% ПАН 355 ₽ (чёрный ФОР-КАШ-122 330 ₽); https://kadet777.ru/sharf-kashne-chernyj/ 450 ₽; https://www.voentorgmag.ru/catalogue/cat900/prod45825.html 483 ₽ — медиана (330/355/450/483 → 355 по составу ТЗ)"
+   },
+   {
+    "item": "Перчатки белые парадные (100% х/б, «три луча»)",
+    "qty": 122,
+    "unit": "пара",
+    "nmck_unit": 222,
+    "cost_unit": 400.0,
+    "cost_src": "https://mirtrudmay.ru/trikotazh/perchatki-trikotazhnye/perchatki-paradnye-armeyskie-belye-hlopok/ опт от 200 шт 295 ₽ (95% хлопок); https://kadet777.ru/paradnaya-forma-kadet/perchatki-belye-paradnye/ 400 ₽; https://kazakdar.ru/product/perchatki-paradnye-belye/ 450 ₽ (100% х/б); описание ТЗ дословно совпадает с https://1klac.ru/catalog/formennaya_odezhda/perchatki_kadetskie_paradnye/ (от 560 ₽) — медиана 400"
+   }
+  ],
+  "lines": [
+   {
+    "item": "Ботинки с высокими берцами «Зубр»",
+    "qty": 212,
+    "unit": "пара",
+    "nmck_unit": 3700,
+    "cost_unit": 3090.0,
+    "cost_src": "https://zatekstilem.ru/products/kompaniya-spetsobuv/bertsy-zimnie-zubr/ «Берцы зимние Зубр» нат.кожа, ТЭП ±40°C, молния 1 740 ₽ (Спецобувь); https://bvr-ivanovo.ru/catalog/bercy Берцы ОМОН хром/натуральный мех крупный опт 2 400 ₽; https://novatorgk.ru/magazin/product/53319908 берцы иск.мех ТЭП арт.64М 3 780 ₽; https://www.ursus.ru/catalogue/product/botinki_s_vysokim_bertsem_trek_na_naturalnom_mekhu_i_podoshvoy_tep_art_830_u_chernye/ ТРЕК 830-У нат.мех ТЭП кр.опт 4 738 ₽ — медиана",
+    "supplier": "Россия: «Зубр»/Спецобувь, БВР (Иваново), Урсус",
+    "margin_unit_pct": 16.5
+   },
+   {
+    "item": "Китель парадный муж./жен. (с погонами, аксельбантом, ремнём, шевроном)",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 7030,
+    "cost_unit": 5348,
+    "cost_src": "Китель: правило клиента — летний форменный комплект 3 500 ₽. Аксессуары по реальным ценам: погоны КК 105 ₽ (http://xn--d1atac5a.xn--p1ai/catalog/group90/product439; https://kadet777.ru/kadetskie-pogony/falsh-efreitor/ 100; https://cornet.pro/kadetskaya_forma/pogony_shevrony_nashivki/pogony_falshpogony/ 200 — медиана 105); аксельбант солдатский жёлтый 720 ₽ (https://vuniforme.ru/aksessuary/akselbanty/akselbant-kadetskij-s-nakonechnikom-zheltyj 390 от 90 шт; https://1klac.ru/catalog/kadetskaya-forma-dlya-malchikov-i-devochek/akselbant_kadetskiy_zheltyy/ 720; https://armimarket.ru/product-category/akselbanty/ 730 — медиана); ремень под бляху чёрный 750 ₽ (https://cornet.pro/kadetskaya_forma/remni_i_blyahi/remni_i_trenchiki/remen_pod_blyahu_iskusstvennaya_kozha_chernyy_4_1_003); шеврон вышитый ~8 см 273 ₽ (https://v-sib.ru/catalog/avtomatizirovannaya-mashinnaya-vyshivka/nashivki-na-odezhdu/vyshityy-shevron-na-odezhdu/ 95 от 200 шт; https://vishivaem.ru/stripes/ ~160; https://inari.pro/catalog/group/shevrony-i-nashivki-1/498 386; https://www.i-maika.ru/shevrony/ 560 — медиана 273)",
+    "supplier": "Пошив — производство клиента; аксессуары — Корнет/1klac/vuniforme (РФ)",
+    "margin_unit_pct": 23.9
+   },
+   {
+    "item": "Берет кадетский (суконный шовный, чёрный, с кокардой МВД)",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 495.8,
+    "cost_unit": 854,
+    "cost_src": "https://voenpro.ru/catalog/armejskie-berety «Шовный берет черного цвета» 599 ₽; https://cornet.pro/kadetskaya_forma/golovnye_ubory/berety/beret_sukonnyy_chernyy_2_4_001 суконный чёрный 750 ₽; https://www.voentorgmag.ru/catalogue/cat496/prod17561.html бесшовный чёрный 1 596 ₽; + кокарда МВД 104 ₽ (https://www.voentorgmag.ru/catalogue/cat537/prod17978.html) — медиана",
+    "supplier": "Военпро/Корнет (РФ)",
+    "margin_unit_pct": -72.2
+   },
+   {
+    "item": "Куртка (полупальто) зимняя с капюшоном, с шевроном и фальш-погонами КК",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 4810,
+    "cost_unit": 5878,
+    "cost_src": "Полупальто: https://bvr-ivanovo.ru/price.xls «Куртка ЗИМА тк.Смесовая цв.Чёрный» крупный опт 3 850 ₽ (базовая модель, без мех. воротника); https://kadet777.ru/palto-kadeta/ пальто кадета 5 500 ₽; https://kadet777.ru/palto-kadetskoe/ бушлат кадетский 8 200 ₽ — медиана 5 500 + шеврон 273 + фальш-погоны 105. (Не комплект → правило 5 000 не применено; см. changes)",
+    "supplier": "kadet777 / БВР (РФ)",
+    "margin_unit_pct": -22.2
+   },
+   {
+    "item": "Шапка зимняя кадетская (иск. мех, верх сукно, кокарда МВД)",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 962,
+    "cost_unit": 869,
+    "cost_src": "https://www.ursus.ru/catalogue/product/shapka_ushanka/ ушанка иск.мех кр.опт 637 ₽ + кокарда 104; https://profarmy.ru/catalog/shapki/shapka_s_kokardoy_iskusstvennyy_mekh/ шапка с кокардой иск.мех 869 ₽; https://cornet.pro/kadetskaya_forma/golovnye_ubory/shapki_zimnie_mehovye/ ушанка с суконным дном 900 ₽ + кокарда 104 — медиана",
+    "supplier": "Урсус/Профармия/Корнет (РФ)",
+    "margin_unit_pct": 9.7
+   },
+   {
+    "item": "Галстук кадетский «Регат»",
+    "qty": 61,
+    "unit": "шт",
+    "nmck_unit": 185,
+    "cost_unit": 231.0,
+    "cost_src": "https://formeks.ru/product/galstuk-dlya-voennosluzhashchikh-tip-a-tsv-chernyy/ ФОР-ГАЛ-307 220 ₽; https://profarmy.ru/catalog/galstuki/galstuk_regat/ 231 ₽; https://kazakdar.ru/product/galstuk-regat-detskij-chernyj/ 250 ₽ — медиана",
+    "supplier": "Формекс/Профармия (РФ)",
+    "margin_unit_pct": -24.9
+   },
+   {
+    "item": "Галстук-бант женский (чёрный)",
+    "qty": 61,
+    "unit": "шт",
+    "nmck_unit": 185,
+    "cost_unit": 200.0,
+    "cost_src": "Формекс ФОР-ГАЛ-050 чёрный 200 ₽ / ФОР-ГАЛ-250 180 ₽ (https://formeks.ru/product/galstuk-bant-zhen-fsin-t-sin/); https://www.voentorgmag.ru/catalogue/cat521/cat1022/galstuki-bantyi-zhenskie/galstuk-bant-zhenskij-chernyij.html 515 ₽ — медиана 200",
+    "supplier": "Формекс (РФ)",
+    "margin_unit_pct": -8.1
+   },
+   {
+    "item": "Шарф-кашне 120×20, 30% шерсть/70% ПАН",
+    "qty": 122,
+    "unit": "шт",
+    "nmck_unit": 281.2,
+    "cost_unit": 355.0,
+    "cost_src": "https://formeks.ru/catalog/tproduct/792349550832-kashne-psh-oliv ФОР-КАШ-120 п/ш 30% шерсть/70% ПАН 355 ₽ (чёрный ФОР-КАШ-122 330 ₽); https://kadet777.ru/sharf-kashne-chernyj/ 450 ₽; https://www.voentorgmag.ru/catalogue/cat900/prod45825.html 483 ₽ — медиана (330/355/450/483 → 355 по составу ТЗ)",
+    "supplier": "Формекс (РФ)",
+    "margin_unit_pct": -26.2
+   },
+   {
+    "item": "Перчатки белые парадные (100% х/б, «три луча»)",
+    "qty": 122,
+    "unit": "пара",
+    "nmck_unit": 222,
+    "cost_unit": 400.0,
+    "cost_src": "https://mirtrudmay.ru/trikotazh/perchatki-trikotazhnye/perchatki-paradnye-armeyskie-belye-hlopok/ опт от 200 шт 295 ₽ (95% хлопок); https://kadet777.ru/paradnaya-forma-kadet/perchatki-belye-paradnye/ 400 ₽; https://kazakdar.ru/product/perchatki-paradnye-belye/ 450 ₽ (100% х/б); описание ТЗ дословно совпадает с https://1klac.ru/catalog/formennaya_odezhda/perchatki_kadetskie_paradnye/ (от 560 ₽) — медиана 400",
+    "supplier": "Мир Труд Май/kadet777 (РФ)",
+    "margin_unit_pct": -80.2
+   }
+  ],
+  "cost_total": 2353259,
+  "logistics": 42000,
+  "margin_pct": 3.8,
+  "net_at_nmck": -3241,
+  "exp_disc": 0.1,
+  "net_expected": -250317,
+  "breakeven_disc": 0.0,
+  "kp_price": null,
+  "kp_margin_pct": null,
+  "auction": false,
+  "decision": "Осторожно",
+  "risks": "При реальных прайсах на аксессуары лот около нуля: net при НМЦК −3 тыс., при −10% −250 тыс. Причина — НМЦК по мелочи ниже рынка (галстук 185 vs 200–231, кашне 281 vs 355, перчатки 222 vs 400, берет 496 vs 854) и зимняя куртка 4 810 при рынке 5 500–8 200. Участвовать только если клиент подтвердит: (а) китель 3 500 ₽ «под ключ» вместе с погонами/аксельбантом/ремнём/шевроном → net при −10% ≈ −17 тыс., безубыток 9,3%; (б) плюс зимнюю куртку своего пошива по 5 000 ₽ → net при −10% ≈ +79 тыс., безубыток 13,8%; тогда снижение не больше 5–8%. Запрет иностранного (ПП 1875, isProhibitionForeignPurchaseObjects=true по всем 9 позициям) — нужны реестровые записи ГИСП/ЕАЭС на каждую позицию. Обмер личного состава специалистом поставщика в СПб (выезд). Ботинки «Зубр» — описание дословно с карточки «Берцы зимние Зубр» (Спецобувь), высота 200±3 мм.",
+  "confidence": "med",
+  "missing": [
+   "Подтверждение клиента: правило 3 500 ₽ за китель включает погоны КК, аксельбант, ремень и шеврон или нет (разница 1 848 ₽/шт = 225 тыс. на лот).",
+   "Подтверждение клиента: шьёт ли он зимнее полупальто (мех. воротник, холлофайбер, съёмный утеплитель) по 5 000 ₽ — правило «зимний комплект» к одиночной куртке формально не применено.",
+   "Оптовые КП фабрик по берету/шапке/галстукам/кашне/перчаткам (Формекс, Корнет, Класс и К) — сейчас частично розничные цены сайтов; опт обычно на 15–30% ниже.",
+   "Номера реестровых записей ГИСП по каждой из 9 позиций (без них заявку отклонят по ПП 1875).",
+   "Файлы ЕИС «1._Описание.docx», «3._НМЦК_наименьшая_(1).xls», «4._Проект_контракта.docx» — с zakupki.gov.ru из среды не скачать; проверить требования к шеврону (макет школы), срокам и обмеру."
+  ],
+  "changes": [
+   "Состав 9 позиций и цены за ед. подтверждены gosplan (notification, НМЦК 2 490 692 ₽), описание позиций из characteristics.",
+   "Ботинки: 3 000 [оценка] → 3 090 ₽ (медиана 4 российских прайсов: Зубр 1 740, БВР ОМОН нат.мех 2 400, Новаторг 3 780, Урсус ТРЕК 4 738).",
+   "Китель: 3 500 → 5 348 ₽ (3 500 правило клиента + погоны 105 + аксельбант 720 + ремень 750 + шеврон 273 по реальным прайсам — по указанию «ремни, шевроны — реальные прайсы»).",
+   "Куртка зимняя: 3 500 [оценка] → 5 878 ₽ (медиана БВР 3 850 / kadet777 5 500 / 8 200 + шеврон и погоны); берет 300 → 854; шапка 500 → 869; галстук 100 → 231; бант 100 → 200; кашне 150 → 355; перчатки 90 → 400 — все с URL.",
+   "Логистика 30 → 42 тыс.: ~0,8 т/~5 м³ Москва→СПб по Байкал Сервис 4 111–4 563 ₽/м³ (https://www.baikalsr.ru/business/prices/) ≈ 22 тыс. + терминалы ~5 тыс. + выезд на обмер ~15 тыс.",
+   "Маржа 33,4% → 3,8%; net при НМЦК 644 → −3 тыс.; net при −10% 434 → −250 тыс.; решение «Участвовать» → «Осторожно»."
+  ],
+  "scenarios": {
+   "base": {
+    "cost_total": 2353259,
+    "logistics": 42000,
+    "margin_pct": 3.8,
+    "net_at_nmck": -3241,
+    "exp_disc": 0.1,
+    "net_expected": -250317,
+    "breakeven_disc": 0.0
+   },
+   "kitel_3500_all_in": {
+    "cost_total": 2127803,
+    "net_at_nmck": 195183,
+    "net_expected": -17449,
+    "breakeven_disc": 0.0929,
+    "margin_pct": 12.9
+   },
+   "kitel_3500_all_in_and_jacket_5000": {
+    "cost_total": 2020687,
+    "net_at_nmck": 289225,
+    "net_expected": 79210,
+    "breakeven_disc": 0.1377,
+    "margin_pct": 17.2
+   }
+  },
+  "sources": [
+   "https://v2test.gosplan.info/fz44/purchases/0372200087626000024/notification",
+   "https://zakupki.gov.ru/epz/order/notice/zk20/view/common-info.html?regNumber=0372200087626000024",
+   "https://zatekstilem.ru/products/kompaniya-spetsobuv/bertsy-zimnie-zubr/",
+   "https://bvr-ivanovo.ru/catalog/bercy",
+   "https://bvr-ivanovo.ru/price.xls",
+   "https://www.ursus.ru/brands/zubr/",
+   "https://cornet.pro/kadetskaya_forma/golovnye_ubory/berety/",
+   "https://voenpro.ru/catalog/armejskie-berety",
+   "https://formeks.ru/catalog/tproduct/792349550832-kashne-psh-oliv",
+   "https://profarmy.ru/catalog/galstuki/galstuk_regat/",
+   "https://kadet777.ru/zimnyaya-forma/",
+   "https://mirtrudmay.ru/trikotazh/perchatki-trikotazhnye/perchatki-paradnye-armeyskie-belye-hlopok/",
+   "https://www.voentorgmag.ru/catalogue/cat537/",
+   "https://www.baikalsr.ru/business/prices/"
+  ],
+  "prep": "ЕИС + Росэлторг. Подача до 02.11.2026 10:00 МСК. Обеспечение заявки 24 906,92 ₽ (1%), исполнения 10% (~249 тыс., при снижении >25% — антидемпинг ×1,5). Документы: декларация СМП, номера реестровых записей ГИСП/евразийского реестра (запрет иностранного), характеристики по описанию. Аванса нет.",
+  "logistics_src": "Байкал Сервис Москва—Санкт-Петербург 15,13–17,08 ₽/кг, 4 111–4 563 ₽/м³ с НДС: https://www.baikalsr.ru/business/prices/; + выезд на обмер (оценка по ж/д билетам и суткам 15 тыс.)",
+  "prev": {
+   "cost_total": 1629080,
+   "logistics": 30000,
+   "margin_pct": 33.4,
+   "net_at_nmck": 643570,
+   "net_expected": 433555,
+   "breakeven_disc": 0.3064,
+   "confidence": "med"
+  }
+ }
+]
