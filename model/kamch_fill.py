@@ -71,7 +71,7 @@ for k, (key, L) in enumerate(sorted(A.items(), key=lambda x: -len(x[1])), 1):
     for j in range(len(F) + 5, len(F) + 5 + len(FILL)): ws.cell(4, j).fill = PatternFill("solid", fgColor="BF8F00")
     for i, (d, _) in enumerate(L, 1):
         t = TT[d["tt"]]
-        ws.append([i, d["tt"], *[ILLEGAL_CHARACTERS_RE.sub("", str(t.get(f, ""))) for f in F], t["qty"], t.get("unit", "шт")] + [None] * len(FILL))
+        ws.append([i, d["tt"], *[ILLEGAL_CHARACTERS_RE.sub("", str(t.get(f) or "")) for f in F], t["qty"], t.get("unit", "шт")] + [None] * len(FILL))
         X = ws.max_row; ws.cell(X, len(F) + 12).value = f"={openpyxl.utils.get_column_letter(len(F) + 11)}{X}*{openpyxl.utils.get_column_letter(len(F) + 3)}{X}"
         for j in range(len(F) + 5, len(F) + 5 + len(FILL)): ws.cell(X, j).fill = Y
         for j in (len(F) + 11, len(F) + 12): ws.cell(X, j).number_format = '#,##0.00" ₽"'
