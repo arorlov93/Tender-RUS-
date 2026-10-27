@@ -78,6 +78,20 @@ for g in ("Краны", "Затворы", "Клапаны", "Задвижки", 
         for x in ws[X]: x.border = BOX
     for i, w in enumerate([4, 9, 36, 14, 7, 10, 9, 12, 14, 14, 10, 14, 14, 16, 10, 22, 12, 14, 7, 5, 50, 30], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
     ws.freeze_panes = "D2"; ws.auto_filter.ref = f"A1:V{ws.max_row}"
+pl = wb.create_sheet("Письма", 2)
+pl.append(["№", "Кому", "E-mail", "Тема", "Текст письма (позиции — во вложении: лист группы, отфильтровать по «Табл./№ ТЗ»)"]); head(pl)
+TT = {o["tt"]: o for o in O}
+for i, c in enumerate(C, 1):
+    lst = "\n".join(f'{t} — {TT[t]["name"]} — {TT[t]["q"]:g} {TT[t]["tz"].get("unit", "шт")}' for t in sorted(c["cov"], key=lambda t: (t.split("/")[0], int(t.split("/")[1]))))
+    txt = ("Добрый день!\n\nООО «ГИДРОПАС» (ИНН 9729231965) готовит заявку на поставку трубопроводной арматуры для АО «Камчатскэнерго» (закупка 32616346943). "
+           "Просим коммерческое предложение на позиции ниже — строго по техническим требованиям (полные характеристики — во вложении):\n\n" + lst +
+           "\n\nВ КП просим указать: цену за единицу с НДС, срок изготовления/отгрузки, условия оплаты, страну производства и номер реестровой записи Минпромторга (ПП 719), "
+           "наличие сертификатов/деклараций ТР ТС 010/2011 и 032/2013, вес и габариты для доставки до Петропавловска-Камчатского. "
+           "Если какая-то позиция выпускается в другом исполнении — укажите отличия от ТЗ.\n\nОтвет нужен до 30.10.2026.\n\nС уважением,\nООО «ГИДРОПАС»")
+    pl.append([i, c["company"], c["email"], f"Запрос КП: арматура для Камчатскэнерго, {len(c['cov'])} поз.", txt])
+    for x in pl[pl.max_row]: x.border = BOX
+for i, w in enumerate([4, 34, 26, 30, 120], 1): pl.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 tidy(wb, row_h=48)
+for r in range(2, pl.max_row + 1): pl.row_dimensions[r].height = min(409, 60 + 15 * len(C[r - 2]["cov"]))
 wb.save("../KAMCHATKA_OPEN_ZAPROS_2710.xlsx")
 print("позиций", len(O), "компаний", len({c["company"] for c in C}), "новых", len({c["company"] for c in C if c["src"].startswith("новый")}), "без поставщика", sum(1 for o in O if not by_tt[o["tt"]]))
