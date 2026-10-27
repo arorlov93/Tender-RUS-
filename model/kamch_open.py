@@ -16,14 +16,14 @@ ASKED = [("ДН.РУ", "счета 819892, 819896; подбирает клапа
          ("ООО «Пензапромарматура» (КИПИКА)", "краны для манометров 1.3/39, 1.3/100, 1.6/16, 1.6/50", "ответил, ждёт артикулы")]
 ASKED_RX = re.compile(r"ДН\.ру|DN\.ru|Рашворк|Тулаэлектропривод|Лидер-Энерго|Транс-Энерго|ЭПАС|ЭнергоПромАтомСервис|Пензапромарматура|ТД АДЛ|Торговый Дом АДЛ", re.I)
 open_tt = {o["tt"] for o in O}
-C = []
+C, U = [], []
 for f, src in (("data/kamch/rem_krany.json", "известный"), ("data/kamch/rem_zatvory.json", "известный"),
                ("data/kamch/new_sup_krany.json", "новый (исследование 27.10)"), ("data/kamch/new_sup_other.json", "новый (исследование 27.10)")):
     if not os.path.exists(f): continue
     for x in json.load(open(f)):
         cov = [t for t in (x.get("covers_tt") or []) if t in open_tt]
-        if not cov or not x.get("verified") or ASKED_RX.search(x["company"]): continue
-        C.append(dict(src=src, company=x["company"], type=x.get("type") or ("завод" if x.get("is_manufacturer") else ""), city=x.get("city") or x.get("plant_city") or "",
+        if not cov and not src.startswith("новый") or ASKED_RX.search(x["company"]): continue
+        (C if x.get("verified") and cov else U).append(dict(src=src, company=x["company"], type=x.get("type") or ("завод" if x.get("is_manufacturer") else ""), city=x.get("city") or x.get("plant_city") or "",
                       site=x.get("site") or "", phone=ph(x.get("phone")), email=ph(x.get("email")), cov=cov, note=str(x.get("covers_note") or "")[:200],
                       reg=str(x.get("registry_mpt") or x.get("gisp") or "")[:80], srcs=" ; ".join(x.get("sources") or [x.get("contact_url") or ""])[:200]))
 by_tt = defaultdict(list)
@@ -57,6 +57,13 @@ for i, c in enumerate(C, 1):
     for x in ks[ks.max_row]: x.border = BOX
 for i, w in enumerate([4, 36, 16, 11, 16, 20, 26, 24, 9, 40, 40, 20, 40], 1): ks.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 ks.freeze_panes = "C2"; ks.auto_filter.ref = f"A1:M{ks.max_row}"
+
+us = wb.create_sheet("Кандидаты без проверки")
+us.append(["№", "Компания", "Тип", "Город", "Телефон (не подтверждён в 2 источниках)", "E-mail", "Сайт", "Позиций", "Какие позиции", "Что именно / почему не подтверждено", "Источники"]); head(us)
+for i, c in enumerate(sorted(U, key=lambda c: -len(c["cov"])), 1):
+    us.append([i, c["company"], c["type"], c["city"], c["phone"], c["email"], c["site"], len(c["cov"]), ", ".join(c["cov"])[:300], c["note"], c["srcs"]])
+    for x in us[us.max_row]: x.border = BOX
+for i, w in enumerate([4, 36, 12, 18, 22, 26, 24, 8, 40, 50, 40], 1): us.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 
 F = ["Наименование", "ГОСТ/ТУ", "Ду, мм", "Проход", "Давление, МПа", "Температура, °С", "Среда", "Материал корпуса", "Климатическое исполнение", "Присоединение",
      "Приводное устройство: наименование", "Приводное устройство: технические характеристики", "Установочное положение", "Материал штока, шара, уплотнений", "Габариты", "Примечание"]
