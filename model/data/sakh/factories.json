@@ -1,0 +1,569 @@
+[
+ {
+  "key": "ADL",
+  "company": "ООО «Торговый Дом АДЛ» (бренды «Гранвэл», «Гранлок», «Гранар», «Гранвент»)",
+  "inn": null,
+  "type": "завод (собственное производство в Московской обл.)",
+  "city": "Москва (офис); Владивосток (филиал)",
+  "site": "https://adl.ru",
+  "phone": "+7 (495) 937-89-68; Владивосток +7 (984) 159-21-64",
+  "email": "info@adl.ru; granvel@adl.ru",
+  "sources": [
+   "https://adl.ru/contacts/",
+   "https://adl.ru/ (шапка каждой страницы)"
+  ],
+  "verified": true,
+  "reg_note": "На сайте: затворы «Гранвэл» — в числе продукции, внесённой в реестр Минпромторга по ПП 719 (https://adl.ru/news/04_2023/torgovyy-dom-adl-rasshiryaet-spisok-produktsii-vnesennoy-v-reestr-minpromtorga-podtverzhdayushchiy-o/); номер записи на сайте не найден. Гранлок/Гранар/Гранвент — не найдено.",
+  "note": null,
+  "origin": "kamch/rem_zatvory.json"
+ },
+ {
+  "key": "ALSO",
+  "company": "ООО «АЛСО» (завод стальных шаровых кранов ALSO)",
+  "inn": "7447196797",
+  "type": "завод",
+  "city": "Челябинск, ул. Складская, 1",
+  "site": "https://alsoarm.ru",
+  "phone": "8-800-444-74-74",
+  "email": "info@alsoarm.ru",
+  "sources": [
+   "https://alsoarm.ru/contacts/",
+   "https://alsoarm.ru/ (шапка/подвал)"
+  ],
+  "verified": true,
+  "reg_note": "Выписка из реестра российской промышленной продукции № 10647852 от 16.06.2025 (срок до 10.06.2028) — https://alsoarm.ru/documentation/certificates/ (из kamch/rem_krany.json)",
+  "note": null,
+  "origin": "kamch/rem_krany.json"
+ },
+ {
+  "key": "AQUAPLAST",
+  "company": "ООО «Аквапласт» (ТМ Aquaviva, НПВХ)",
+  "inn": "9102223901",
+  "type": "производитель (заявлено «Собственное производство»)",
+  "city": "Симферополь (юрадрес); представительства Москва и др.",
+  "site": "https://aquaplast.ru",
+  "phone": "+7 (495) 255-24-23",
+  "email": "info@aquaplast.ru",
+  "sources": [
+   "https://aquaplast.ru/contacts/",
+   "https://aquaplast.ru/",
+   "https://aquaplast.ru/products/zapornaya-armatura-npvkh/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено; страну изготовления кранов Aquaviva и выписку ПП 719 — запросить (иначе не проходит нацрежим)",
+  "note": null,
+  "origin": null
+ },
+ {
+  "key": "ARHIMED",
+  "company": "ООО «Архимед» (бренды «Архимед», «СЕВЕР»)",
+  "inn": "7702567315",
+  "type": "поставщик-брендодержатель (страна производства пневмоприводов «СЕВЕР» — Россия по карточке)",
+  "city": "Москва / Щёлково",
+  "site": "https://arhimed.tech",
+  "phone": "+7 (495) 105-70-77",
+  "email": "info@arhimed.tech",
+  "sources": [
+   "https://arhimed.tech/about/",
+   "https://arhimed.tech/contacts/",
+   "https://arhimed.tech/shop/pnevmoprivody/chetvert-oborotnye-pnevmoprivody/pnevmoprivody-sever/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено; запросить выписку ПП 719 на пневмоприводы «СЕВЕР» (без неё под нацрежим не брать)",
+  "note": null,
+  "origin": null
+ },
+ {
+  "key": "ARMATEK",
+  "company": "АО «АРМАТЭК»",
+  "inn": "7804039762",
+  "type": "завод",
+  "city": "Санкт-Петербург, ул. Стародеревенская, 11, корп. 3, лит. А",
+  "site": "https://armatek.ru",
+  "phone": "+7 (812) 611-03-77; 8-800-775-74-84",
+  "email": "zakaz@armatek.ru",
+  "sources": [
+   "https://armatek.ru/kontakty",
+   "https://armatek.ru/",
+   "https://armatek.ru/katalog/zatvory-diskovye/tip-upravleniya/s-pnevmoprivodom/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте. На стр. «Контакты»: «У нас нет дилеров… поставляем арматуру с нашего завода в Санкт-Петербурге» — запрашивать только напрямую.",
+  "note": "Держатель серии дисковых затворов «Эксклюзив-М» (АМ) — обозначения АМ6.71x, комплекты ЗИП к затворам серии АМ; ЭПР «АРМАТЭК» 5/2.",
+  "origin": null
+ },
+ {
+  "key": "BAZ",
+  "company": "АО «Благовещенский арматурный завод» (АО «БАЗ»)",
+  "inn": null,
+  "type": "завод",
+  "city": "Благовещенск, Республика Башкортостан",
+  "site": "https://bazrb.ru",
+  "phone": "+7 (34766) 2-99-10, 2-99-11",
+  "email": "baz@bazrb.ru",
+  "sources": [
+   "https://bazrb.ru/",
+   "https://bazrb.ru/contacts/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": "Собственное сталелитейное производство; ЗКЛ DN10–1400 PN1,6–40; затворы/клапаны обратные поворотные; фланцы ГОСТ 33259.",
+  "origin": null
+ },
+ {
+  "key": "BKZ",
+  "company": "ООО «Барнаульский котельный завод» (ООО «БКЗ»)",
+  "inn": "2224171768",
+  "type": "завод",
+  "city": "Барнаул, пр. Космонавтов, 6Э",
+  "site": "https://bkzn.ru",
+  "phone": "+7 (3852) 22-32-67 (отдел продаж); +7 (3852) 33-66-67",
+  "email": "bkz@bkzn.ru",
+  "sources": [
+   "https://bkzn.ru/contacts/",
+   "https://bkzn.ru/catalog/armatura-zapornaia/klapany-ventili-zapornye/1s-13-3ed/"
+  ],
+  "verified": true,
+  "reg_note": "ЕСТЬ: выписка из реестра российской промышленной продукции, реестровая запись № 10769412 от 12.02.2026 (до 11.02.2031), «Клапан запорный серия 1с: PN до 80,0 МПа, DN 6–80», ОКПД2 28.14.13.110 — https://bkzn.ru/upload/shop_3/2/8/8/item_28879/property_14064.pdf (ссылка «Реестровая запись МПТ» на карточке 1с-13-3ЭД); новость https://bkzn.ru/press-centr/novosti/reestr-gisp-postanovlenie-719/",
+  "note": null,
+  "origin": null
+ },
+ {
+  "key": "CHZTA",
+  "company": "ООО «Челябинский завод трубопроводной арматуры» (ООО «ЧЗТА»)",
+  "inn": "7447322240",
+  "type": "завод (заявлен; юрлицо рег. 09.06.2025, адрес цеха на сайте не указан)",
+  "city": "Челябинск",
+  "site": "https://chzta.ru",
+  "phone": "+7 (351) 215-53-33",
+  "email": "zakaz@chzta.ru",
+  "sources": [
+   "https://chzta.ru/contacts/",
+   "https://chzta.ru/upload/download/company_details.pdf"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/new_sup_other.json"
+ },
+ {
+  "key": "DOMINIK",
+  "company": "ООО «Компания Доминик» (техническое стекло и арматура, techsteklo.ru)",
+  "inn": null,
+  "type": "поставщик (частично собственное изготовление по сайту)",
+  "city": "Москва, ул. Новгородская, 1",
+  "site": "https://www.techsteklo.ru",
+  "phone": "+7 (495) 231-36-71; +7 (495) 772-36-36",
+  "email": "info@techsteklo.ru",
+  "sources": [
+   "https://www.techsteklo.ru/",
+   "https://www.techsteklo.ru/catalog/truboprovodnaya-armatura/ukazateli-urovnya/t-229b-932.html"
+  ],
+  "verified": true,
+  "reg_note": "не найдено (поставщик; запросить изготовителя и выписку ПП 719)",
+  "note": "Каталог: «Трубки водоуказательные из кварцевого стекла», указатель Т-229б, клапаны футерованные (15ч93эм).",
+  "origin": null
+ },
+ {
+  "key": "EMAGNIT",
+  "company": "ООО ПКФ «Электромагнит»",
+  "inn": "6686129493",
+  "type": "завод",
+  "city": "Екатеринбург",
+  "site": "https://electromagnit.ru",
+  "phone": "8 (800) 33-33-914",
+  "email": "mail@electromagnit.ru",
+  "sources": [
+   "https://electromagnit.ru/contacts/",
+   "https://electromagnit.ru/",
+   "https://electromagnit.ru/catalog/eu_1/eu-6gm1/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": "Производитель электромагнитов ЭУ-6ГМ1/ЭУ-6ГМ2 и электромагнитных клапанов КЭМ/КЭТ/КЭФ.",
+  "origin": null
+ },
+ {
+  "key": "ENKO",
+  "company": "ООО «ЭНКО Проф»",
+  "inn": null,
+  "type": "поставщик пожарного оборудования (на сайте заявлено «Собственное производство» по ряду изделий)",
+  "city": "Санкт-Петербург",
+  "site": "https://enkoprof.ru",
+  "phone": "8-800-101-51-64",
+  "email": "info@enkoprof.ru",
+  "sources": [
+   "https://enkoprof.ru/kontakty/",
+   "https://enkoprof.ru/catalog/pozharnye-krany/krany-uglovye/kpk-65/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено; запросить изготовителя КПК 65-1 и выписку ПП 719",
+  "note": null,
+  "origin": null
+ },
+ {
+  "key": "EPAS",
+  "company": "ООО «ЭнергоПромАтомСервис» (ООО «ЭПАС»)",
+  "inn": null,
+  "type": "завод",
+  "city": "Екатеринбург",
+  "site": "https://epasworld.com",
+  "phone": "+7 (343) 211-02-63",
+  "email": "epas-z@mail.ru",
+  "sources": [
+   "https://epasworld.com/contact/",
+   "https://epasworld.com/ (шапка)"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/rem_zatvory.json"
+ },
+ {
+  "key": "FOBOS",
+  "company": "ЗАО «Арматурная Компания «ФОБОС»",
+  "inn": null,
+  "type": "завод",
+  "city": "Рыбинск (Ярославская обл.)",
+  "site": "https://fobosarm.ru",
+  "phone": "8-800-700-62-60; +7 (4855) 21-77-88",
+  "email": "info@fobosarm.ru",
+  "sources": [
+   "https://fobosarm.ru/contacts/",
+   "https://fobosarm.ru/ (главная, «О компании»)"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/rem_krany.json"
+ },
+ {
+  "key": "GALLOP",
+  "company": "ООО «ГАЛЛОП» (Новосибирский арматурный завод)",
+  "inn": "5403200805",
+  "type": "завод",
+  "city": "Новосибирск",
+  "site": "https://gallop.ru",
+  "phone": "+7 (383) 355-10-00",
+  "email": "info@gallop.ru",
+  "sources": [
+   "https://gallop.ru/contacts/",
+   "https://gallop.ru/download/?file=Price.xls"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/new_sup_krany.json"
+ },
+ {
+  "key": "GIMALAI",
+  "company": "ООО «Гималаи» (Самара)",
+  "inn": "6312023678",
+  "type": "завод",
+  "city": "Самара, Заводское шоссе, 13Б",
+  "site": "https://www.gimalai.com",
+  "phone": "8-800-201-83-41; (846) 276-19-11",
+  "email": "gimalai@gimalai.com",
+  "sources": [
+   "https://www.gimalai.com/contacts/",
+   "https://www.gimalai.com/catalog/krany-sharovye/manometricheskie/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": "Краны шаровые манометрические КШ100Д/КШ250Д/КШ320Д (обозначения вида КШ250.8Д1-Н23Б…ГН), «Собственное производство». Юр. форма по реквизитам — уточнить.",
+  "origin": null
+ },
+ {
+  "key": "HIMARM",
+  "company": "«Химарматура» (Саратов, химарматура.рф)",
+  "inn": null,
+  "type": "поставщик / заявленный производитель (с 2016 г.)",
+  "city": "Саратов, ул. им. Зарубина В.С., 150",
+  "site": "https://химарматура.рф (xn--80aaa3aub1acrko.xn--p1ai)",
+  "phone": "+7 (908) 552-12-22",
+  "email": "info@himarm.com",
+  "sources": [
+   "https://xn--80aaa3aub1acrko.xn--p1ai/contact-us/",
+   "https://xn--80aaa3aub1acrko.xn--p1ai/vdh/",
+   "https://xn--80aaa3aub1acrko.xn--p1ai/himarmatura.html"
+  ],
+  "verified": true,
+  "reg_note": "не найдено; юрлицо/ИНН на сайте не указаны — запросить",
+  "note": null,
+  "origin": null
+ },
+ {
+  "key": "LD",
+  "company": "ООО «ЧелябинскСпецГражданСтрой» (завод LD / LD Pride; продажи — ООО «ТД «ЛД»)",
+  "inn": "7447276227",
+  "type": "завод",
+  "city": "Челябинск, ул. Енисейская, 56",
+  "site": "https://лд.рф (xn--d1an.xn--p1ai)",
+  "phone": "+7 (351) 730-47-47",
+  "email": "office@chsgs.ru",
+  "sources": [
+   "https://xn--d1an.xn--p1ai/contacts/",
+   "https://xn--d1an.xn--p1ai/ (подвал)",
+   "https://xn--d1an.xn--p1ai/catalog/flantsy/flantsy-ploskie/"
+  ],
+  "verified": true,
+  "reg_note": "Реестровые номера ПП 719 указаны на карточках товаров лд.рф: 10655491 (стальные КШЦФ/КШЦП/КШЦМ), 10714005 (11с67п КШРФ), 10826766 (латунные LD Pride) — пример: https://xn--d1an.xn--p1ai/products/1533--kran_sarovoj_ld_kscf_iz_stali_20_du100_ru1_6mpa_polnoprohodnoj/ (из kamch/rem_krany.json). Фланцы LD — номер не найден.",
+  "note": null,
+  "origin": "kamch/rem_krany.json"
+ },
+ {
+  "key": "LG",
+  "company": "ООО ПНФ «ЛГ автоматика»",
+  "inn": null,
+  "type": "завод",
+  "city": "Москва",
+  "site": "https://www.klapan.ru",
+  "phone": "+7 (495) 788-68-21",
+  "email": "info@klapan.ru",
+  "sources": [
+   "https://www.klapan.ru/",
+   "https://klapan.ru/contacts/",
+   "https://catalog.moscow-export.com/en/industrie/ooo-proizvodstvenno-nauchnaya-firma-lg-avtomatika/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": "Изготовитель клапанов КМР-Э/КМО-Э/КМРО-Э ЛГ («Разработано и сделано в России», >370 станков, 25 тыс. м²).",
+  "origin": null
+ },
+ {
+  "key": "LMZ",
+  "company": "ОАО «Литейно-механический завод» (г. Семёнов)",
+  "inn": "5228002156",
+  "type": "завод",
+  "city": "Семёнов, Нижегородская обл.",
+  "site": "https://www.semlmz.ru",
+  "phone": "+7 (83162) 5-70-90",
+  "email": "marketlmz@mail.ru",
+  "sources": [
+   "https://www.semlmz.ru/kontakty",
+   "https://www.semlmz.ru/ (шапка/подвал)"
+  ],
+  "verified": true,
+  "reg_note": "На сайте: «продукция нашего завода внесена в реестр Минпромторга» (https://www.semlmz.ru/novosti, новость 16.05.2025); номер записи не указан",
+  "note": null,
+  "origin": "kamch/rem_zatvory.json"
+ },
+ {
+  "key": "PEK",
+  "company": "ПЭК — «Поволжская Электротехническая Компания»",
+  "inn": null,
+  "type": "завод",
+  "city": "Чебоксары",
+  "site": "https://piek.ru",
+  "phone": "+7 (8352) 57-05-16",
+  "email": "info@piek.ru",
+  "sources": [
+   "https://piek.ru/contacts/",
+   "https://piek.ru/mechanisms-mep/2500/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/new_sup_other.json"
+ },
+ {
+  "key": "PPA",
+  "company": "ООО «Пензапромарматура» (ТМ КИПИКА)",
+  "inn": "5835036366",
+  "type": "завод",
+  "city": "Пенза, ул. Аустрина, 143А",
+  "site": "https://11b18bk.ru",
+  "phone": "+7 (8412) 909-200; 909-300",
+  "email": "b18bk@11b18bk.ru",
+  "sources": [
+   "https://11b18bk.ru/content/kontakty.html",
+   "https://11b18bk.ru/novinki/klapan-elektromagnitnyj-latunnyj-dvukhkhodovoj-normalno-zakrytyj-kemnz-du-15-ru-16.html"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/rem_krany.json"
+ },
+ {
+  "key": "PTPA",
+  "company": "АО «Пензтяжпромарматура» (АО «ПТПА»)",
+  "inn": null,
+  "type": "завод",
+  "city": "Пенза",
+  "site": "https://ptpa.ru",
+  "phone": "8 800 444-00-28",
+  "email": "sales@ptpa.ru",
+  "sources": [
+   "https://ptpa.ru/contacts/",
+   "https://ptpa.ru/ (шапка)"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/rem_zatvory.json"
+ },
+ {
+  "key": "PZTA",
+  "company": "АО «ПЗТА» (Пензенский завод трубопроводной арматуры, pzta.ru)",
+  "inn": null,
+  "type": "торгово-производственная (производство не подтверждено: юрадрес — кв. 49; на сайте есть раздел «Продукция других производителей»)",
+  "city": "Пенза, ул. Калинина, 108Г",
+  "site": "https://pzta.ru",
+  "phone": "+7 (8412) 351-000; +7 (495) 573-17-38",
+  "email": "sale@pzta.ru; info@pzta.ru",
+  "sources": [
+   "https://pzta.ru/contacts/",
+   "https://pzta.ru/product/truboprovodnaya_armatura/klapany_ventili_zapornye_1/chugun_2/15ch75p/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено; запросить фактического изготовителя и выписку ПП 719 по каждой позиции",
+  "note": null,
+  "origin": null
+ },
+ {
+  "key": "SAZ",
+  "company": "ООО «Арма-Пром» (Старооскольский арматурный завод, ГК «Авангард», ТМ САЗ)",
+  "inn": "3128039487",
+  "type": "завод",
+  "city": "Старый Оскол; офис продаж — Москва",
+  "site": "https://saz-avangard.ru",
+  "phone": "+7 (4725) 469-470 (завод); +7 (495) 348-46-92 (Москва)",
+  "email": "zavod@saz-avangard.ru; sales@saz-avangard.ru",
+  "sources": [
+   "https://saz-avangard.ru/contacts/",
+   "https://saz-avangard.ru/catalog/klapany-reg/odnosedelniy-chugunniy-eim/25ch945p/"
+  ],
+  "verified": true,
+  "reg_note": "Заключение Минпромторга по ПП 719 (заявление в ГИСП № 1331/2023 от 17.07.2023): клапаны регулирующие с ИМ, задвижки ЗКС DN50–1200, ЗЛЧ DN50–1600 — https://saz-avangard.ru/upload/iblock/8f1/i8qtd4llupat9fpta48v2vwrbz2fj2sn/Zaklyuchenie_Minpromtorga.pdf (из kamch/new_sup_other.json); номер реестровой записи — запросить",
+  "note": null,
+  "origin": "kamch/new_sup_other.json"
+ },
+ {
+  "key": "TKZ",
+  "company": "ООО «Таганрогский котельный завод» (ООО «ТКЗ»)",
+  "inn": "6154572383",
+  "type": "завод",
+  "city": "Таганрог, ул. Котлостроительная, 37-Е",
+  "site": "https://www.tena-tkz.ru",
+  "phone": "+7 (8634) 341-923",
+  "email": "info@tena-tkz.ru",
+  "sources": [
+   "https://www.tena-tkz.ru/kontakty.html",
+   "https://www.tena-tkz.ru/katalog/armatura-kontrolno-izmeritelnaya.html",
+   "https://productcenter.ru/products/26957/ukazatiel-urovnia-proizvodstva-tkz-t-29bm-t-228b-t-74bm-t-229b"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте. ЕКТРУ: «Указатель уровня Т-229б DN20 Рр16,5МПа», производитель ООО «ТКЗ», ТУ 28.14.13-006-92174297-2024 (https://ectru.ru/passport/1502994194067025) — номер записи ПП 719 запросить",
+  "note": "Т-229б в каталоге КИП-арматуры (Ду20, Рр 16,5 МПа); раздел «Запчасти» — прокладки, головки вентильные для Т-229Б.",
+  "origin": null
+ },
+ {
+  "key": "TRANSENERGO",
+  "company": "ООО «Транс-Энерго» / ООО «Лидер-Энерго»",
+  "inn": null,
+  "type": "завод (держатель ТУ 28.14.13-012-09338969-2019 на ЗПД)",
+  "city": "Тольятти",
+  "site": "https://lider-energo.ru",
+  "phone": "+7 (8482) 21-66-32",
+  "email": "trans-energo@bk.ru",
+  "sources": [
+   "https://lider-energo.ru/kontakty",
+   "https://lider-energo.ru/ (шапка)"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/rem_zatvory.json"
+ },
+ {
+  "key": "UNIHIM",
+  "company": "АО НПО «УНИХИМТЕК» (ТМ «Графлекс»)",
+  "inn": null,
+  "type": "завод",
+  "city": "Подольск, мкр. Климовск, ул. Заводская, 2",
+  "site": "https://graflex.ru",
+  "phone": "+7 (495) 580-38-98",
+  "email": "info@graflex.ru",
+  "sources": [
+   "https://graflex.ru/contacts/",
+   "https://graflex.ru/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": "СНП фланцевые (спирально-навитые прокладки), собственное производство ~32 000 м² в Климовске.",
+  "origin": null
+ },
+ {
+  "key": "UTK",
+  "company": "АО «УралТехКомплектация» (ТМ «MV»)",
+  "inn": null,
+  "type": "завод",
+  "city": "Озёрск, Челябинская обл.",
+  "site": "https://aoutk.ru",
+  "phone": "+7 (351) 307-71-09",
+  "email": "info@aoutk.ru",
+  "sources": [
+   "https://aoutk.ru/contacts",
+   "https://aoutk.ru/ (шапка)"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/rem_zatvory.json"
+ },
+ {
+  "key": "VFZ",
+  "company": "ООО «Инженерные системы» (ВФЗ — Владимирский фланцевый завод)",
+  "inn": "7716900083",
+  "type": "завод",
+  "city": "Владимир, ул. Производственная, 3 (производство); офис — Москва",
+  "site": "https://vfz.su",
+  "phone": "+7 (495) 232-01-67",
+  "email": "info@vfz.su",
+  "sources": [
+   "https://vfz.su/contacts/",
+   "https://vfz.su/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": "Фланцы плоские ГОСТ 33259-2015 тип 01 исп. B ст.20, в т.ч. PN6 (20…125-6-01-1-B), PN10, PN16.",
+  "origin": null
+ },
+ {
+  "key": "YARDOS",
+  "company": "«Ярдос» (завод шаровых кранов ЗАРД/ЗАРДП; юрадрес: Химки г.о., д. Брехово, Промплощадка, стр. 2)",
+  "inn": null,
+  "type": "завод",
+  "city": "Московская обл., Химки г.о., д. Брехово",
+  "site": "http://yardos.ru",
+  "phone": "+7 (495) 662-79-12",
+  "email": "yardos@yardos.ru (заявки: ko@yardos.ru)",
+  "sources": [
+   "http://yardos.ru/",
+   "http://yardos.ru/contacts/",
+   "http://yardos.ru/sizes/kran-sharovoy-shtutserno-nippelnyy/"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": "Держатель обозначений ЗАРД/ЗАРДП (напр. «ЗАРДП 010.016.30.P» штуцерно-ниппельный DN10). Юр. форма/ИНН на сайте не найдены — уточнить.",
+  "origin": null
+ },
+ {
+  "key": "ZEIM",
+  "company": "АО «АБС ЗЭиМ Автоматизация»",
+  "inn": null,
+  "type": "завод",
+  "city": "Чебоксары",
+  "site": "https://www.zeim.ru",
+  "phone": "+7 (8352) 30-51-48",
+  "email": "sales@zeim.ru",
+  "sources": [
+   "https://www.zeim.ru/contacts/",
+   "https://www.zeim.ru/ (подвал)"
+  ],
+  "verified": true,
+  "reg_note": "не найдено на сайте — запросить выписку из реестра ПП 719 (gisp.gov.ru) у изготовителя",
+  "note": null,
+  "origin": "kamch/rem_zatvory.json"
+ }
+]

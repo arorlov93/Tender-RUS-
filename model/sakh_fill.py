@@ -51,6 +51,15 @@ for k, (comp, L) in enumerate(sorted(A.items(), key=lambda x: -len(x[1])), 1):
     for Lt, p, x, role in L:
         pre = [None] * len(FILL)
         if role == "основной" and x.get("offer_mark"): pre[0] = x["offer_mark"]
+        if role == "основной":
+            nm = (p["name"] + " " + str(x.get("offer_mark") or "")).lower(); rg = None
+            if "ЧелябинскСпецГражданСтрой" in comp: rg = ("ООО «ЛД Прайд»", "10826766", "04.05.2031") if re.search(r"латун|11б27", nm) else (None, "10655491", "30.06.2028")
+            elif "АЛСО" in comp: rg = (None, "10647852", "")
+            elif "Барнаульский котельный" in comp: rg = (None, "10769412", "")
+            elif "АДЛ" in comp and re.search(r"гранвэл|зпвс|зптл", nm): rg = (None, "10837159", "13.07.2029")
+            elif "ЗЭиМ" in comp and re.search(r"пэм|привод", nm): rg = (None, "10382108", "14.07.2029")
+            if f.get("type") == "завод" or (f.get("is_manufacturer")) or rg: pre[1] = (rg and rg[0]) or comp; pre[2] = "Россия"
+            if rg: pre[3], pre[4] = rg[1], rg[2] or None
         ws.append([Lt, p["part"].replace("ПАРТИЯ ", ""), p["n"], ILLEGAL_CHARACTERS_RE.sub("", p["name"]), p["qty"], p["unit"]] + pre)
         X = ws.max_row; ws.cell(X, 14).value = f"=M{X}*E{X}"
         for j in range(7, 7 + len(FILL)): ws.cell(X, j).fill = Y
