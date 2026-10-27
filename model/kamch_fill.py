@@ -9,7 +9,6 @@ from tidy import tidy
 with contextlib.redirect_stdout(io.StringIO()):
     rows = runpy.run_path("kamch_status.py")["rows"]; C = runpy.run_path("kamch_open.py")["C"]
     KR = {o["tt"]: o for o in runpy.run_path("kamch_registry.py")["out"]}
-REGF = json.load(open("data/kamch/registry_found.json")) if os.path.exists("data/kamch/registry_found.json") else []
 TT = {f'{t["table"]}/{t["n_table"]}': t for t in json.load(open("data/kamch/tz_verbatim.json"))}
 SUPJ = {s["company"]: s for g in json.load(open("data/kamch/suppliers.json")) for s in g["suppliers"]}
 ph = lambda s: str(s or "").split(";")[0].split("\n")[0].strip()
@@ -51,6 +50,8 @@ for t, d in left.items(): A[supj("ООО «Ридан»")].append((d, "пров�
 
 F = ["Наименование", "ГОСТ/ТУ", "Ду, мм", "Проход", "Давление, МПа", "Температура, °С", "Среда", "Материал корпуса", "Климатическое исполнение", "Присоединение",
      "Приводное устройство: наименование", "Приводное устройство: технические характеристики", "Установочное положение", "Материал штока, шара, уплотнений", "Габариты", "Примечание"]
+json.dump({d["tt"]: dict(comp=key[0], why=w) for key, L in A.items() for d, w in L}, open("data/kamch/assign.json", "w"), ensure_ascii=False, indent=1)
+REG = json.load(open("data/kamch/registry.json")) if os.path.exists("data/kamch/registry.json") else {}
 FILL = ["Предлагаемая марка / обозначение", "Производитель (завод)", "Страна происхождения", "№ реестровой записи (ПП 719) или евразийского реестра", "Срок действия записи",
         "Соответствие ТЗ: «да» или отличия", "Цена за ед. с НДС, ₽", "Сумма с НДС, ₽", "Срок отгрузки", "Вес ед., кг / габариты", "Сертификат / декларация ТР ТС №"]
 thin = Side(style="thin", color="BFBFBF"); BOX = Border(top=thin, bottom=thin, left=thin, right=thin); Y = PatternFill("solid", fgColor="FFF2CC")
@@ -80,9 +81,8 @@ for k, (key, L) in enumerate(sorted(A.items(), key=lambda x: -len(x[1])), 1):
             pre[0] = d["offer"][:120]; pre[1] = kr["man"]; pre[2] = kr["country"]
         elif not d["sup"] and comp_is_plant: pre[1] = comp; pre[2] = "Россия"
         m = pre[1] or comp
-        hit = next((r for r in REGF if r.get("reg_number") and r.get("confidence", "").startswith("номер") and str(r.get("manufacturer", ""))[:12].lower() in (m or "").lower()
-                    and any(a.lower() in (d["name"] + " " + d["offer"]).lower() for a in re.findall(r"[\wА-Яа-я-]{4,}", str(r.get("applies_to", "")))[:6])), None)
-        if hit: pre[3] = hit["reg_number"]; pre[4] = hit.get("valid_to")
+        r = REG.get(d["tt"], {})
+        if r.get("num"): pre[1] = r["man"]; pre[2] = "Россия"; pre[3] = r["num"]; pre[4] = r["valid_to"]
         ws.append([i, d["tt"], *[ILLEGAL_CHARACTERS_RE.sub("", str(t.get(f) or "")) for f in F], t["qty"], t.get("unit", "шт")] + pre)
         X = ws.max_row; ws.cell(X, len(F) + 12).value = f"={openpyxl.utils.get_column_letter(len(F) + 11)}{X}*{openpyxl.utils.get_column_letter(len(F) + 3)}{X}"
         for j in range(len(F) + 5, len(F) + 5 + len(FILL)): ws.cell(X, j).fill = Y

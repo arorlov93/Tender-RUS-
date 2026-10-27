@@ -32,7 +32,8 @@ for d in sorted(rows, key=lambda d: (d["tt"].split("/")[0], int(d["tt"].split("/
         brand = re.search(r"DN\.ru|Dendor|SantechSystems|Луидор|ТехГидроМаш", d["offer"])
         o.update(man=m or (f"{brand.group(0)} — завод-изготовитель уточнить" if brand else "уточнить у поставщика"), country=c, kind=k, who=ASKMSG.get(d["sup"], d["sup"]))
     r = REG.get(d["tt"], {}); o.update(num=r.get("num", ""), valid=r.get("valid_to", ""), src=r.get("src", ""))
-    if o["num"]: o["kind"] = "done"
+    if o["num"]: o.update(kind="done", man=r["man"], country="Россия", who=f'{r.get("note", "")}; источник {r["src"]} — сверить с ГИСП')
+    elif r.get("note"): o["who"] = (o["who"] + " | " + r["note"]).strip(" |")
     out.append(o)
 ST = {"done": ("Номер есть", "C6EFCE"), "ok": ("Российский производитель — запросить номер", "E2EFDA"), "eaes": ("ЕАЭС — нужен № евразийского реестра", "FFF2CC"),
       "ask": ("Страна/завод неизвестны — уточнить", "FFEB9C"), "bad": ("Иностранный — заменить на российский", "F8CBAD"), "open": ("Поставщик не выбран", "DDEBF7")}
