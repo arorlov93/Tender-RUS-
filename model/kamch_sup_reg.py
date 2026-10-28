@@ -36,14 +36,25 @@ for name, f, contact in (("ТД АДЛ (Гранвэл)", "adl_utd112759", "+7 (
 FILL = ["Завод-изготовитель (как в реестре)", "ИНН изготовителя", "Страна происхождения", "№ реестровой записи ПП 719 / евразийского реестра", "Срок действия записи",
         "Наименование продукции в записи (из выписки ГИСП)", "Если записи нет: российская замена — марка, завод, № записи, цена с НДС"]
 thin = Side(style="thin", color="BFBFBF"); BOX = Border(top=thin, bottom=thin, left=thin, right=thin); Y = PatternFill("solid", fgColor="FFF2CC"); G = PatternFill("solid", fgColor="E2EFDA")
-OUT = "../KAMCHATKA_REESTR_POSTAVSHIKI"; shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
+import sys
+VYG = len(sys.argv) > 1 and sys.argv[1] == "vygodno"  # только выгодные позиции КП (решение «Брать» / «Брать при условии»)
+ACT = {d["tt"]: d for d in rows}
+TZF = {f'{t["table"]}/{t["n_table"]}': t for t in json.load(open("data/kamch/tz_verbatim.json"))}
+KF = ["ГОСТ/ТУ", "Ду, мм", "Проход", "Давление, МПа", "Температура, °С", "Среда", "Материал корпуса", "Климатическое исполнение", "Присоединение",
+      "Приводное устройство: наименование", "Приводное устройство: технические характеристики", "Установочное положение", "Материал штока, шара, уплотнений", "Габариты", "Примечание"]
+tzs = lambda tt: "; ".join(f"{k}: {TZF[tt].get(k)}" for k in KF if TZF.get(tt) and str(TZF[tt].get(k) or "").strip() not in ("", "-", "None"))[:900]
+if VYG:
+    FILL = FILL[:6] + ["ГОСТ/ТУ изделия", "Гарантийный срок", "Соответствие ТЗ: «да» или отличия по пунктам", FILL[6]]
+    SUP = [(n, s_, c, [x for x in L if ACT.get(x["tt"], {}).get("act") in ("Брать", "Брать при условии")]) for n, s_, c, L in SUP]
+    SUP = [x for x in SUP if x[3]]
+OUT = "../KAMCHATKA_KP_VYGODNO" if VYG else "../KAMCHATKA_REESTR_POSTAVSHIKI"; shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
 for k, (name, sup, contact, L) in enumerate(SUP, 1):
     wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Реестр по позициям"
     ws.append([f"ООО «ГИДРОПАС» → {sup}: подтверждение страны происхождения по вашему предложению (ПАО «Камчатскэнерго», закупка 32616346943)"]); ws["A1"].font = Font(bold=True, size=12)
     ws.append(["Заказчик применяет ограничение по ПП 1875: в заявке по каждой позиции указываются изготовитель, страна и ДЕЙСТВУЮЩИЙ номер реестровой записи ПП 719 (для ЕАЭС — евразийского реестра)."])
     ws.append(["Изготовитель должен совпадать с записью, иначе товар считается иностранным. Просим заполнить жёлтые графы и приложить выписки из ГИСП. Зелёным — уже найдено нами в открытом реестре, просим подтвердить."])
     ws.append(["Позиции иностранного производства или без записи в реестре — просим предложить российскую замену (последняя графа)."])
-    ws.append(["№", "Строка вашего счёта / КП", "Табл./№ ТЗ заказчика", "Позиция ТЗ заказчика", "Ваше предложение (как в счёте)", "Артикул", "Кол-во", "Цена за ед. с НДС (ваша), ₽", *FILL])
+    ws.append(["№", "Строка вашего счёта / КП", "Табл./№ ТЗ заказчика", "Позиция ТЗ заказчика", "Ваше предложение (как в счёте)", "Артикул", "Кол-во", "Цена за ед. с НДС (ваша), ₽", *FILL] + (["Характеристики по ТЗ заказчика (дословно) — подтвердить", "Что подтвердить дополнительно"] if VYG else []))
     for c in ws[5]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
     for j in range(9, 9 + len(FILL)): ws.cell(5, j).fill = PatternFill("solid", fgColor="BF8F00")
     for i, x in enumerate(L, 1):
@@ -55,13 +66,19 @@ for k, (name, sup, contact, L) in enumerate(SUP, 1):
         if r.get("num") and r.get("man"):
             inn = re.search(r"ИНН (\d+)", r["man"]); pre[0] = re.sub(r"\s*\(ИНН \d+\)", "", r["man"]); pre[1] = inn.group(1) if inn else None
             pre[2] = "Россия"; pre[3] = r["num"]; pre[4] = r["valid_to"]; pre[5] = r.get("note")
-        ws.append([i, x["line"], x["tt"], ILLEGAL_CHARACTERS_RE.sub("", x["tz"]), ILLEGAL_CHARACTERS_RE.sub("", x["offer"]), x["art"], x["q"], x["price"]] + pre)
+        if VYG:
+            pre = pre[:6] + [None, None, None, pre[6]]
+            cond = ACT[x["tt"]]["why"] if ACT[x["tt"]]["act"] == "Брать при условии" else ""
+            cond = re.sub(r"КНР/импорт — номер в реестре Минпромторга", "товар импортный/КНР — нужен российский изготовитель с записью ПП 719 или замена", cond)
+            extra = [ILLEGAL_CHARACTERS_RE.sub("", tzs(x["tt"])), cond]
+        else: extra = []
+        ws.append([i, x["line"], x["tt"], ILLEGAL_CHARACTERS_RE.sub("", x["tz"]), ILLEGAL_CHARACTERS_RE.sub("", x["offer"]), x["art"], x["q"], x["price"]] + pre + extra)
         X = ws.max_row; ws.cell(X, 8).number_format = '#,##0.00" ₽"'
         for j in range(9, 9 + len(FILL)): ws.cell(X, j).fill = G if pre[3] and j <= 14 else Y
         for c in ws[X]: c.border = BOX
-    for i, w in enumerate([4, 20, 9, 34, 44, 13, 7, 13, 30, 13, 13, 22, 12, 30, 40], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
-    ws.freeze_panes = "E6"; ws.auto_filter.ref = f"A5:O{ws.max_row}"
+    for i, w in enumerate([4, 20, 9, 34, 44, 13, 7, 13, 30, 13, 13, 22, 12, 30] + ([22, 18, 30, 40, 60, 40] if VYG else [40]), 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+    ws.freeze_panes = "E6"; ws.auto_filter.ref = f"A5:{openpyxl.utils.get_column_letter(ws.max_column)}{ws.max_row}"
     tidy(wb, row_h=52)
-    fn = f"{k:02d}_" + re.sub(r"[^\wА-Яа-яЁё-]+", "_", name)[:30].strip("_") + "_реестр.xlsx"
+    fn = f"{k:02d}_" + re.sub(r"[^\wА-Яа-яЁё-]+", "_", name)[:30].strip("_") + ("_КП_заполнить.xlsx" if VYG else "_реестр.xlsx")
     wb.save(f"{OUT}/{fn}")
     print(fn, len(L), "строк, предзаполнено", sum(1 for x in L if REG.get(x["tt"], {}).get("num")), "|", contact or sup)
