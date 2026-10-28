@@ -5,7 +5,8 @@ from tidy import tidy
 pct = lambda v: None if v is None else (v / 100 if abs(v) > 1.5 else v)
 D = []
 for f in sorted(glob.glob("data/goz2910/*.json")):
-    for x in json.load(open(f)): D.append(x)
+    d = json.load(open(f))
+    if isinstance(d, list): D += d  # tires_links.json — справочник ссылок, не лот
 D.sort(key=lambda x: -(x.get("net_10") or -1e9))
 thin = Side(style="thin", color="BFBFBF"); BOX = Border(top=thin, bottom=thin, left=thin, right=thin); M = '#,##0" ₽"'
 head = lambda ws: [setattr(c, "font", Font(bold=True, color="FFFFFF")) or setattr(c, "fill", PatternFill("solid", fgColor="305496")) for c in ws[ws.max_row] if c.value is not None]
