@@ -25,10 +25,13 @@ def fac(name):
 
 LOT = {"11201": "лот 1 № 11201-РЕМ ПРОД-2027-СЭ (ОП «Сахалинская ГРЭС»), поставка до 230 кал. дн.", "11202": "лот 2 № 11202-РЕМ ПРОД-2027-СЭ (ОП «Южно-Сахалинская ТЭЦ-1»), поставка до 220 кал. дн."}
 A = defaultdict(list); NONE = []
-for L in ("11201", "11202"):
+LOTS = ("11202",)  # 28.10: идём только на лот 2 (лот 1 в минусе)
+for L in LOTS:
     a = {(x["part"], x["n"]): x for x in AS[L]}
+    KP = {(str(y["part"]), y["n"]) for y in json.load(open("data/sakh/sakh_prices.json"))[L] if y.get("kp")}  # КП уже получено — не запрашиваем
     for p in P[L]:
         x = a.get((p["part"], p["n"]), {})
+        if (p["part"][-1], p["n"]) in KP: continue
         if x.get("main"): A[x["main"]].append((L, p, x, "основной"))
         else: NONE.append((L, p, x))
         if x.get("backup"): A[x["backup"]].append((L, p, x, "запасной"))
