@@ -1,0 +1,207 @@
+[
+ {
+  "company": "ООО «Пермский трубопроводный завод» (ООО «ПТЗ»)",
+  "inn": "5904173655",
+  "type": "завод",
+  "city": "Пермь, ул. Данщина, 5",
+  "site": "https://www.ptza.ru",
+  "phone": "+7 (342) 270-07-34",
+  "email": "sales@ptza.ru",
+  "sources": [
+   "https://www.ptza.ru/kontakty/",
+   "https://www.ptza.ru/zadvizhki/",
+   "https://www.ptza.ru/klapany/",
+   "https://torgs.ru/industrial-products/?search=5904173655"
+  ],
+  "verified": true,
+  "note": "Контакты — из new_sup_other.json (verified). В каталоге есть все марки задвижек/клапанов ТЗ (30с41нж, 30нж41нж, 30с64нж, 30с76нж, 30с99нж, 30с564нж, 30с576нж, 30с941нж, 30с964нж, 15с22нж, 15с65нж, 15нж65нж, 15с52нж11, 15с18п, 15с18нж, 15б1п, 19с53нж/19с76нж/19нж76нж, 19ч21бр, 16ч42р, 17с6нж), но реестровые записи есть только на задвижки клиновые литые, клапаны запорные, клапаны обратные подъёмные, краны."
+ },
+ {
+  "company": "АО «Благовещенский арматурный завод» (АО «БАЗ»)",
+  "inn": "0258001489",
+  "type": "завод",
+  "city": "Благовещенск, Республика Башкортостан",
+  "site": "https://bazrb.ru",
+  "phone": "+7 (34766) 2-99-10, 2-99-11",
+  "email": "baz@bazrb.ru",
+  "sources": [
+   "https://bazrb.ru/contacts/",
+   "https://bazrb.ru/",
+   "https://torgs.ru/industrial-products/?search=0258001489"
+  ],
+  "verified": true,
+  "note": "Контакты — из sakh/factories.json (verified)."
+ },
+ {
+  "company": "ОАО «Литейно-механический завод» (ОАО «ЛМЗ»)",
+  "inn": "5228002156",
+  "type": "завод",
+  "city": "Семёнов, Нижегородская обл., ул. Промышленная, 3",
+  "site": "https://www.semlmz.ru",
+  "phone": "+7 (83162) 5-70-90",
+  "email": "marketlmz@mail.ru",
+  "sources": [
+   "https://www.semlmz.ru/kontakty",
+   "https://www.semlmz.ru/",
+   "https://torgs.ru/industrial-products/?search=5228002156"
+  ],
+  "verified": true,
+  "note": "Контакты — из sakh/factories.json / rem_zatvory.json (verified)."
+ },
+ {
+  "company": "ООО «Торговый Дом АДЛ» (ТМ «Гранлок», «Прегран»)",
+  "inn": "7718625072",
+  "type": "завод (собственное производство в Московской обл.; держатель записей в реестре)",
+  "city": "Москва; производство — Московская обл.",
+  "site": "https://adl.ru",
+  "phone": "+7 (495) 937-89-68; Владивосток +7 (984) 159-21-64",
+  "email": "info@adl.ru; pregran@adl.ru",
+  "sources": [
+   "https://adl.ru/contacts/",
+   "https://adl.ru/search/?q=%D0%9F%D1%80%D0%B5%D0%B3%D1%80%D0%B0%D0%BD+496",
+   "https://adl.ru/search/?q=%D0%93%D1%80%D0%B0%D0%BD%D0%BB%D0%BE%D0%BA+CV16",
+   "https://torgs.ru/industrial-products/?search=7718625072"
+  ],
+  "verified": true,
+  "note": "Контакты — из sakh/factories.json (verified); pregran@adl.ru виден в шапке/подвале всех страниц adl.ru. Прегран КПП 496 — «предохр. клапан ф/ф DN25х40 / DN32х50 PN16, чугун, tmax 300 °C». Гранлок CV16 = тип ЗОП, межфланцевый поворотный, серый чугун, DN40–600, PN16, tmax 110 °C."
+ },
+ {
+  "company": "АО «Энергия» (производитель арматуры ДЕНДОР/DENDOR)",
+  "inn": "7805499441",
+  "type": "завод (полный цикл, собственное литьё; площадки Ропша/Тихвин/Тула по каталогу Dendor)",
+  "city": "Санкт-Петербург; Ленинградская обл., Ломоносовский р-н, 19-й км Красносельского ш.",
+  "site": "https://dendor.ru",
+  "phone": "8-800-333-40-30; +7 (812) 640-30-30",
+  "email": "zakaz@dendor.ru",
+  "sources": [
+   "https://dendor.ru/contacts/",
+   "https://dendor.ru/obratnye-klapany/",
+   "https://dendor.ru/obratnye-klapany/klapan-obratnyj-dvuxstvorchatyj-typ-010c-mezhflancevyj-chugun/",
+   "https://torgs.ru/industrial-products/466955/"
+  ],
+  "verified": true,
+  "note": "На dendor.ru: «АО «ЭНЕРГИЯ» — российский производитель трубопроводной арматуры ДЕНДОР… полный цикл производства в России, включая собственное литьё». Телефон 8-800-333-40-30 и zakaz@dendor.ru совпадают на /contacts/ и /obratnye-klapany/. ВАЖНО: DENDOR 010C (то, что котирует ДН.РУ) — это продукция АО «Энергия», и она ЕСТЬ в реестре (10743786); в документах изготовителем указывать АО «Энергия», ИНН 7805499441. 010C: чугун или углеродистая сталь, DN32–800, PN16, t до +90 °C с EPDM."
+ },
+ {
+  "company": "АО «Энерготехномаш»",
+  "inn": "0323085570",
+  "type": "завод (Улан-Удэ, на базе завода «Теплоприбор»)",
+  "city": "Улан-Удэ, Республика Бурятия",
+  "site": "https://energotehnomash.ru",
+  "phone": "+7 (3012) 55-32-29",
+  "email": "osb@etmu.ru",
+  "sources": [
+   "https://energotehnomash.ru/contacts/",
+   "https://energotehnomash.ru/",
+   "https://energotehnomash.ru/regulyatory-davleniya",
+   "https://energotehnomash.ru/reguliruyushhie-klapany",
+   "https://torgs.ru/industrial-products/?search=0323085570"
+  ],
+  "verified": true,
+  "note": "Телефон 8(3012)553-229 и osb@etmu.ru — в шапке всех страниц и на /contacts/ (там же ИНН 0323085570). Каталог: регуляторы УРРД® давления «после себя/до себя», перепада, расхода; РД-3М; клапаны РК 25с945нж/25ч945нж, ЗРК 25ч945п/25с945п с ЭИМ. ДН.РУ уже котирует УРРД-НО-РД Энерготехномаша на РД-НО и АРТ-85."
+ },
+ {
+  "company": "ООО «Транс-Энерго» (группа «Лидер-Энерго»)",
+  "inn": "6324029755",
+  "type": "завод (держатель ТУ 28.14.13-012-09338969-2019)",
+  "city": "Тольятти, ул. 40 лет Победы, 14",
+  "site": "https://lider-energo.ru",
+  "phone": "+7 (8482) 21-66-32",
+  "email": "trans-energo@bk.ru",
+  "sources": [
+   "https://lider-energo.ru/kontakty",
+   "https://lider-energo.ru/",
+   "https://torgs.ru/industrial-products/?search=6324029755"
+  ],
+  "verified": true,
+  "note": "Контакты — из sakh/factories.json / rem_zatvory.json (verified). Изготовитель в реестре — ООО «Транс-Энерго», не «Лидер-Энерго»."
+ },
+ {
+  "company": "ООО «ЛД Прайд» (латунные краны LD Pride, группа «ЛД»)",
+  "inn": "7449114775",
+  "type": "завод",
+  "city": "Челябинск, ул. Енисейская, 56",
+  "site": "https://лд.рф (xn--d1an.xn--p1ai)",
+  "phone": "+7 (351) 730-47-47",
+  "email": "office@chsgs.ru",
+  "sources": [
+   "https://xn--d1an.xn--p1ai/contacts/",
+   "https://xn--d1an.xn--p1ai/",
+   "https://torgs.ru/industrial-products/542786/"
+  ],
+  "verified": true,
+  "note": "Контакты группы ЛД — из rem_krany.json / sakh (verified). Изготовитель в реестре — ООО «ЛД Прайд», ИНН 7449114775."
+ },
+ {
+  "company": "ООО «Бологовский арматурный завод» (ТМ «БАЗ», латунная арматура)",
+  "inn": "6908017634",
+  "type": "завод",
+  "city": "Бологое, Тверская обл., ул. Горская, 88 (по паспорту изделия)",
+  "site": null,
+  "phone": null,
+  "email": null,
+  "sources": [
+   "https://torgs.ru/industrial-products/?search=6908017634",
+   "https://www.c-o-k.ru/library/instructions/baz/armatura-fitingi/28819/107046.pdf"
+  ],
+  "verified": false,
+  "note": "Официальный сайт не найден → контакты не подтверждены. Паспорт на латунные муфтовые клапаны (ТУ 3712-001-04606952-2011) указывает изготовителя и адрес. Не путать с Благовещенским АЗ (bazrb.ru)."
+ },
+ {
+  "company": "ООО ПКФ «Экс-Форма»",
+  "inn": "6455004320",
+  "type": "завод (газовая арматура)",
+  "city": "Саратов",
+  "site": null,
+  "phone": null,
+  "email": null,
+  "sources": [
+   "https://torgs.ru/industrial-products/276350/"
+  ],
+  "verified": false,
+  "note": "Сайт ex-forma.ru из среды не открылся (502) → контакты не подтверждены; модель «ПСК-50С/125» в каталоге не подтверждена."
+ },
+ {
+  "company": "ООО ПИК «АЛГРУПП»",
+  "inn": "3662288668",
+  "type": "производитель (по реестру)",
+  "city": "Воронеж (по ИНН 3662…)",
+  "site": null,
+  "phone": null,
+  "email": null,
+  "sources": [
+   "https://torgs.ru/industrial-products/?search=3662288668"
+  ],
+  "verified": false,
+  "note": "Только запасной: записи на задвижки чугунные параллельные, ЗКЛ, клапаны предохранительные КПП. Сайт/контакты не проверялись."
+ },
+ {
+  "company": "ООО «Восточная арматурная компания»",
+  "inn": "0275057393",
+  "type": "производитель (по реестру)",
+  "city": "Уфа (по ИНН 0275…)",
+  "site": null,
+  "phone": null,
+  "email": null,
+  "sources": [
+   "https://torgs.ru/industrial-products/?search=0275057393"
+  ],
+  "verified": false,
+  "note": "Только запасной: широкие записи (задвижки клиновые DN15–1000 PN0,6–40; клапаны запорные DN10–400 PN0,6–50; затворы обратные DN10–1400 PN0,6–50; клапаны предохранительные DN15–500). Сайт/контакты не проверялись."
+ },
+ {
+  "company": "АО «Пензенский завод трубопроводной арматуры» (АО «ПЗТА»)",
+  "inn": "5836681560",
+  "type": "торгово-производственная (производство на сайте не подтверждено; запись в реестре есть, документ СТ-1)",
+  "city": "Пенза, ул. Калинина, 108Г",
+  "site": "https://pzta.ru",
+  "phone": "+7 (8412) 351-000; +7 (495) 573-17-38",
+  "email": "sale@pzta.ru; info@pzta.ru",
+  "sources": [
+   "https://pzta.ru/contacts/",
+   "https://torgs.ru/industrial-products/?search=5836681560"
+  ],
+  "verified": true,
+  "note": "Контакты — из sakh/factories.json (verified=true). Записи без DN/PN в названии (ПЗТА.ЗО, ПЗТА.КО, ПЗТА.КП) — диапазон подтверждать по ТУ."
+ }
+]

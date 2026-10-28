@@ -8,6 +8,7 @@ from tidy import tidy
 
 with contextlib.redirect_stdout(io.StringIO()):
     rows = runpy.run_path("kamch_status.py")["rows"]; C = runpy.run_path("kamch_open.py")["C"]
+DA = {a["tt"]: a for a in json.load(open("data/kamch/dnru_assign.json"))} if os.path.exists("data/kamch/dnru_assign.json") else {}
 REG = json.load(open("data/kamch/registry.json")) if os.path.exists("data/kamch/registry.json") else {}
 # бренд в предложении → (производитель, страна, вывод)
 BR = [(r"СибЗТА", "ООО «Сибирский завод трубопроводной арматуры» (Новосибирск)", "Россия", "ok"),
@@ -34,6 +35,8 @@ for d in sorted(rows, key=lambda d: (d["tt"].split("/")[0], int(d["tt"].split("/
     r = REG.get(d["tt"], {}); o.update(num=r.get("num", ""), valid=r.get("valid_to", ""), src=r.get("src", ""))
     if o["num"]: o.update(kind="done", man=r["man"], country="Россия", who=f'{r.get("note", "")}; источник {r["src"]} — сверить с ГИСП')
     elif r.get("note"): o["who"] = (o["who"] + " | " + r["note"]).strip(" |")
+    a = DA.get(d["tt"], {})
+    o["alt"] = f'{re.sub(r"[(].*", "", a["main"]).strip()} — № {a["main_reg"]} до {a["main_reg_valid"]}' if a.get("main") else (("нет: " + a.get("why", ""))[:200] if a else "")
     out.append(o)
 ST = {"done": ("Номер есть", "C6EFCE"), "ok": ("Российский производитель — запросить номер", "E2EFDA"), "eaes": ("ЕАЭС — нужен № евразийского реестра", "FFF2CC"),
       "ask": ("Страна/завод неизвестны — уточнить", "FFEB9C"), "bad": ("Иностранный — заменить на российский", "F8CBAD"), "open": ("Поставщик не выбран", "DDEBF7")}
@@ -56,13 +59,13 @@ for i, w in enumerate([46, 10, 80], 1): sv.column_dimensions[openpyxl.utils.get_
 
 ws = wb.create_sheet("Все позиции (315)")
 ws.append(["№", "Табл./№ ТЗ", "Наименование по ТЗ", "Кол-во", "Предлагаемый товар (марка)", "Производитель", "Страна происхождения", "№ реестровой записи (ПП 719 / ЕАЭС)",
-           "Действует до", "Статус", "Где взять номер / кому писать", "Поставщик"]); head(ws)
+           "Действует до", "Статус", "Где взять номер / кому писать", "Поставщик", "Российский завод с действующей записью (замена)"]); head(ws)
 for i, o in enumerate(out, 1):
-    ws.append([i, o["tt"], o["name"], o["q"], o["offer"][:150], o["man"], o["country"], o["num"], o["valid"], ST[o["kind"]][0], o["who"][:300], o["sup"]])
+    ws.append([i, o["tt"], o["name"], o["q"], o["offer"][:150], o["man"], o["country"], o["num"], o["valid"], ST[o["kind"]][0], o["who"][:300], o["sup"], o["alt"]])
     X = ws.max_row; ws.cell(X, 10).fill = PatternFill("solid", fgColor=ST[o["kind"]][1]); ws.cell(X, 8).fill = PatternFill("solid", fgColor="FFF2CC")
     for c in ws[X]: c.border = BOX
-for i, w in enumerate([4, 9, 40, 7, 44, 32, 14, 22, 11, 26, 44, 16], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
-ws.freeze_panes = "D2"; ws.auto_filter.ref = f"A1:L{ws.max_row}"
+for i, w in enumerate([4, 9, 40, 7, 44, 32, 14, 22, 11, 26, 44, 16, 44], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+ws.freeze_panes = "D2"; ws.auto_filter.ref = f"A1:M{ws.max_row}"
 
 rq = wb.create_sheet("Запрос номеров")
 rq.append(["Кому", "Позиций", "Какие позиции (табл./№ ТЗ)", "Текст запроса"]); head(rq)

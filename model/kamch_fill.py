@@ -52,6 +52,14 @@ F = ["Наименование", "ГОСТ/ТУ", "Ду, мм", "Проход", 
      "Приводное устройство: наименование", "Приводное устройство: технические характеристики", "Установочное положение", "Материал штока, шара, уплотнений", "Габариты", "Примечание"]
 json.dump({d["tt"]: dict(comp=key[0], why=w) for key, L in A.items() for d, w in L}, open("data/kamch/assign.json", "w"), ensure_ascii=False, indent=1)
 REG = json.load(open("data/kamch/registry.json")) if os.path.exists("data/kamch/registry.json") else {}
+# 4) альтернатива позициям ДН.РУ: российский завод с действующей записью ПП 719 (data/kamch/dnru_assign.json) — параллельный запрос КП
+DA = {a["tt"]: a for a in json.load(open("data/kamch/dnru_assign.json"))} if os.path.exists("data/kamch/dnru_assign.json") else {}
+DF = {f["company"]: f for f in json.load(open("data/kamch/dnru_factories.json"))} if DA else {}
+RT = {d["tt"]: d for d in rows}
+for t, a in DA.items():
+    if a.get("main") and RT[t]["sup"] == "ДН.РУ":
+        f = DF.get(a["main"], {})
+        A[(a["main"], ph(f.get("phone")) or "контакт не проверен", ph(f.get("email")))].append((RT[t], f'альтернатива ДН.РУ: реестр {a["main_reg"]}'))
 FILL = ["Предлагаемая марка / обозначение", "Производитель (завод)", "Страна происхождения", "№ реестровой записи (ПП 719) или евразийского реестра", "Срок действия записи",
         "Соответствие ТЗ: «да» или отличия", "Цена за ед. с НДС, ₽", "Сумма с НДС, ₽", "Срок отгрузки", "Вес ед., кг / габариты", "Сертификат / декларация ТР ТС №"]
 thin = Side(style="thin", color="BFBFBF"); BOX = Border(top=thin, bottom=thin, left=thin, right=thin); Y = PatternFill("solid", fgColor="FFF2CC")
@@ -74,14 +82,16 @@ for k, (key, L) in enumerate(sorted(A.items(), key=lambda x: -len(x[1])), 1):
     for c in ws[5]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
     for j in range(len(F) + 5, len(F) + 5 + len(FILL)): ws.cell(5, j).fill = PatternFill("solid", fgColor="BF8F00")
     comp_is_plant = any(c["company"] == comp and c["type"] == "завод" for c in C)
-    for i, (d, _) in enumerate(L, 1):
+    for i, (d, w) in enumerate(L, 1):
         t = TT[d["tt"]]
         pre = [None] * len(FILL); kr = KR.get(d["tt"], {})
-        if d["sup"] and d["act"] != "Заказать у других" and kr.get("kind") in ("ok", "eaes", "done"):  # предзаполнение из КП: марка, завод, страна, номер (если найден в открытых источниках)
+        if w.startswith("альтернатива"):
+            a = DA[d["tt"]]; pre[1] = re.sub(r"\s*\(.*", "", a["main"]); pre[2] = "Россия"; pre[3] = a["main_reg"]; pre[4] = a["main_reg_valid"]
+        elif d["sup"] and d["act"] != "Заказать у других" and kr.get("kind") in ("ok", "eaes", "done"):  # предзаполнение из КП: марка, завод, страна, номер (если найден в открытых источниках)
             pre[0] = d["offer"][:120]; pre[1] = kr["man"]; pre[2] = kr["country"]
         elif not d["sup"] and comp_is_plant: pre[1] = comp; pre[2] = "Россия"
         m = pre[1] or comp
-        r = REG.get(d["tt"], {})
+        r = REG.get(d["tt"], {}) if not w.startswith("альтернатива") else {}
         if r.get("num"): pre[1] = r["man"]; pre[2] = "Россия"; pre[3] = r["num"]; pre[4] = r["valid_to"]
         ws.append([i, d["tt"], *[ILLEGAL_CHARACTERS_RE.sub("", str(t.get(f) or "")) for f in F], t["qty"], t.get("unit", "шт")] + pre)
         X = ws.max_row; ws.cell(X, len(F) + 12).value = f"={openpyxl.utils.get_column_letter(len(F) + 11)}{X}*{openpyxl.utils.get_column_letter(len(F) + 3)}{X}"
@@ -101,7 +111,7 @@ for k, (key, L) in enumerate(sorted(A.items(), key=lambda x: -len(x[1])), 1):
     summ.append([k, comp, phone, email, len(L), sum(TT[d["tt"]]["qty"] for d, _ in L), ", ".join(d["tt"] for d, _ in L)[:400], "; ".join(f"{a} — {b}" for a, b in why.items()), fn])
 
 wb = openpyxl.Workbook(); sv = wb.active; sv.title = "Кому что отправить"
-sv.append(["Камчатскэнерго 32616346943 — предполагаемые поставщики: каждой из 315 позиций назначен один поставщик; файл для заполнения — в папке KAMCHATKA_ZAPOLNENIE"]); sv["A1"].font = Font(bold=True, size=12)
+sv.append(["Камчатскэнерго 32616346943 — предполагаемые поставщики: каждой из 315 позиций назначен основной поставщик + по позициям ДН.РУ параллельный запрос российскому заводу с записью ПП 719 (основание «альтернатива ДН.РУ»); файлы — в папке KAMCHATKA_ZAPOLNENIE"]); sv["A1"].font = Font(bold=True, size=12)
 sv.append(["№", "Поставщик", "Телефон", "E-mail", "Позиций", "Шт", "Позиции (табл./№ ТЗ)", "Основание", "Файл"])
 for c in sv[2]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
 for r in summ:

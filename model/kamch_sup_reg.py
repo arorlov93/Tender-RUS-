@@ -10,6 +10,8 @@ with contextlib.redirect_stdout(io.StringIO()):
     S = runpy.run_path("kamch_status.py")
 rows = S["rows"]; INV = S["INV"]
 REG = json.load(open("data/kamch/registry.json"))
+DA = {a["tt"]: a for a in json.load(open("data/kamch/dnru_assign.json"))}
+BRAND = [(r"dendor", r"Энергия"), (r"УРРД", r"Энерготехномаш"), (r"Гранлок|CV16", r"АДЛ"), (r"ЗПД|ЗДП", r"Транс-Энерго")]
 kp = lambda f: json.load(open(f"data/kamch/kp/{f}.json"))
 by_z = {(d["grp"], d["z"]): d for d in rows}
 SUP = []
@@ -47,6 +49,9 @@ for k, (name, sup, contact, L) in enumerate(SUP, 1):
     for i, x in enumerate(L, 1):
         r = REG.get(x["tt"], {}) if not re.search(r"КОФ|комплект ответных", x["offer"], re.I) else {}
         pre = [None] * len(FILL)
+        a = DA.get(x["tt"], {})  # тот же товар, что в предложении, — у изготовителя есть запись (Dendor → АО «Энергия», УРРД → Энерготехномаш, Гранлок → АДЛ, ЗПД → Транс-Энерго)
+        if a.get("main_reg") and not re.search(r"КОФ|комплект ответных", x["offer"], re.I) and any(re.search(b, x["offer"], re.I) and re.search(m, a["main"]) for b, m in BRAND):
+            r = dict(num=a["main_reg"], valid_to=a["main_reg_valid"], man=re.sub(r"\s*\(.*", "", a["main"]) + f' (ИНН {a.get("main_inn")})', note=a.get("main_reg_product"))
         if r.get("num") and r.get("man"):
             inn = re.search(r"ИНН (\d+)", r["man"]); pre[0] = re.sub(r"\s*\(ИНН \d+\)", "", r["man"]); pre[1] = inn.group(1) if inn else None
             pre[2] = "Россия"; pre[3] = r["num"]; pre[4] = r["valid_to"]; pre[5] = r.get("note")

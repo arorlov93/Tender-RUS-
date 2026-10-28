@@ -49,6 +49,13 @@ for tt, d in rows.items():
     if k:
         n, v, m, u, c = R[k]; out[tt] = dict(num=n, valid_to=v, man=m, src=u, note=c)
     else: out[tt] = dict(num="", valid_to="", man="", src="", note=note)
+# тот же товар у текущего поставщика, изготовитель с записью (data/kamch/dnru_assign.json): Dendor → АО «Энергия», УРРД → Энерготехномаш, Гранлок → АДЛ, ЗПД → Транс-Энерго
+DA = {a["tt"]: a for a in json.load(open("data/kamch/dnru_assign.json"))}
+BRAND = [(r"dendor", r"Энергия"), (r"УРРД", r"Энерготехномаш"), (r"Гранлок|CV16", r"АДЛ"), (r"ЗПД|ЗДП", r"Транс-Энерго")]
+for tt, a in DA.items():
+    d = rows[tt]
+    if a.get("main_reg") and not out[tt]["num"] and d["act"] != "Заказать у других" and any(re.search(b, d["offer"], re.I) and re.search(m, a["main"]) for b, m in BRAND):
+        out[tt] = dict(num=a["main_reg"], valid_to=a["main_reg_valid"], man=re.sub(r"\s*\(.*", "", a["main"]) + f' (ИНН {a.get("main_inn")})', src=a["main_reg_url"], note=a.get("main_reg_product", "")[:150])
 json.dump(out, open("data/kamch/registry.json", "w"), ensure_ascii=False, indent=1)
 import collections
 print("с номером:", sum(1 for x in out.values() if x["num"]), collections.Counter(x["num"] for x in out.values() if x["num"]))
