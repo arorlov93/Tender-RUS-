@@ -1,0 +1,702 @@
+{
+ "tender": "0320100031626000249",
+ "customer": "Пограничное управление ФСБ России по Приморскому краю",
+ "nmck": 2681032.86,
+ "nmck_check_sum_lines": 2681032.86,
+ "prices_date": "28.10.2026 (выдача baza.drom.ru / vladivostok.shinservice.ru / 4tochki.ru)",
+ "lines": [
+  {
+   "n": 1,
+   "group": "легковые",
+   "nmck_unit": 9000,
+   "qty": 60,
+   "assumed_size": "225/75R16 (УАЗ Патриот/Хантер) всесезон/лето КАМА-219; альт. 245/70R16 Cordiant All-Terrain (Патриот 2015+)",
+   "offers": [
+    {
+     "brand_model": "КАМА-219 225/75R16 104Q",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/225-75r16-kama-nizhnekamskij-shinnyj-zavod-219-rossija-letnie-legkovye-shiny-rovl20-g18348465118.html",
+     "price": 9600,
+     "availability": "в наличии во Владивостоке",
+     "price_note": "карточка — неделимый комплект 4 шт за 38400 ₽; price = 38400/4"
+    },
+    {
+     "brand_model": "КАМА-219 225/75R16 104Q",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "ООО «ХТК» — Long March",
+     "city": "Хабаровск",
+     "url": "https://baza.drom.ru/khabarovsk/wheel/tire/avtoshina-225-75r16-104q-kama-219-nkshz-tl-g4245566144.html",
+     "price": 9000,
+     "availability": "в наличии в Хабаровске; доставка до ТК бесплатно"
+    },
+    {
+     "brand_model": "КАМА-219 225/75R16 104Q",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "ИнтерШины (офиц. дистрибьютор)",
+     "city": "Хабаровск",
+     "url": "https://baza.drom.ru/khabarovsk/wheel/tire/225-75-r16-kama-219-104q-kama-hit-prodazh-g5196763694.html",
+     "price": 9630,
+     "availability": "в наличии в Хабаровске (цена из выдачи drom)"
+    },
+    {
+     "brand_model": "Cordiant All-Terrain OA-1 245/70R16 111T",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Приморская шинная компания",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-245-70r16-111t-all-terrain-oa-1-cordiant-g18320588580.html",
+     "price": 9200,
+     "availability": "остаток 20 шт"
+    },
+    {
+     "brand_model": "Cordiant All-Terrain 245/70R16 111T",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Шинсервис (пункт выдачи Владивосток)",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/cordiant/summer/cordiant_all_terrain/245-70-R16/111T/?idx=694723",
+     "price": 9510,
+     "availability": "выдача 31.10, >20 шт"
+    },
+    {
+     "brand_model": "Cordiant Comfort 2 SUV 225/75R16 108T",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Шинсервис",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/cordiant/summer/comfort_2_suv/225-75-R16/108T/?idx=829625",
+     "price": 9830,
+     "availability": "сегодня 3 шт, 31.10 >20 шт"
+    }
+   ],
+   "cost_unit": 8740.0,
+   "cost_unit_opt10": 8280.0,
+   "margin": 0.029,
+   "line_nmck": 540000,
+   "line_cost": 524400.0,
+   "cost_basis_note": "cost_unit = мин. цена 9200 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 8280.0"
+  },
+  {
+   "n": 2,
+   "group": "легковые",
+   "nmck_unit": 10100,
+   "qty": 5,
+   "assumed_size": "235/75R15 (УАЗ Хантер/«буханка») Cordiant All-Terrain / Off Road 2",
+   "offers": [
+    {
+     "brand_model": "Cordiant All-Terrain 235/75R15 109S",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Шинсервис",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/cordiant/summer/cordiant_all_terrain/235-75-R15/109S/?idx=812532",
+     "price": 9420,
+     "availability": "выдача 31.10, >20 шт"
+    },
+    {
+     "brand_model": "Cordiant All-Terrain 235/75R15 109S",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "ИнтерШины",
+     "city": "Хабаровск",
+     "url": "https://baza.drom.ru/khabarovsk/wheel/tire/235-75-r15-cordiant-all-terrain-109s-cordiant-hit-prodazh-g14730595132.html",
+     "price": 10130,
+     "availability": "в наличии в Хабаровске"
+    },
+    {
+     "brand_model": "Cordiant Off Road 2 235/75R15 109Q",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Шинсервис",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/cordiant/summer/off-road-2/235-75-R15/109Q/?idx=1192428",
+     "price": 10630,
+     "availability": "выдача 31.10, 1 шт"
+    }
+   ],
+   "cost_unit": 8949.0,
+   "cost_unit_opt10": 8478.0,
+   "margin": 0.114,
+   "line_nmck": 50500,
+   "line_cost": 44745.0,
+   "cost_basis_note": "cost_unit = мин. цена 9420 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 8478.0"
+  },
+  {
+   "n": 3,
+   "group": "легковые",
+   "nmck_unit": 12066.66,
+   "qty": 4,
+   "assumed_size": "245/70R16 зимняя шип. Cordiant Snow Cross 2 SUV; альт. M/T Cordiant Off Road 2",
+   "offers": [
+    {
+     "brand_model": "Cordiant Off Road 2 245/70R16 111Q",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Приморская шинная компания",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-245-70r16-111q-off-road-2-cordiant-g18320588579.html",
+     "price": 11550,
+     "availability": "остаток 20 шт"
+    },
+    {
+     "brand_model": "Cordiant Snow Cross 2 SUV 245/70R16 111T (шип)",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Шинсервис",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/cordiant/winter/snow_cross2suv/245-70-R16/111T/?idx=864293",
+     "price": 12480,
+     "availability": "выдача 31.10, >20 шт"
+    },
+    {
+     "brand_model": "Cordiant Snow Cross 2 SUV 245/70R16 111T (шип)",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "ИнтерШины",
+     "city": "Хабаровск",
+     "url": "https://baza.drom.ru/khabarovsk/wheel/tire/245-70-r16-cordiant-snow-cross-2-suv-111t-cordiant-besplatnyj-shinomontazh-g18388808884.html",
+     "price": 13240,
+     "availability": "в наличии в Хабаровске"
+    }
+   ],
+   "cost_unit": 10972.5,
+   "cost_unit_opt10": 10395.0,
+   "margin": 0.091,
+   "line_nmck": 48266.64,
+   "line_cost": 43890.0,
+   "cost_basis_note": "cost_unit = мин. цена 11550 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 10395.0"
+  },
+  {
+   "n": 4,
+   "group": "легковые",
+   "nmck_unit": 16166.66,
+   "qty": 4,
+   "assumed_size": "265/65R17 зимняя (Toyota LC Prado / Hilux / Pajero Sport)",
+   "offers": [
+    {
+     "brand_model": "Cordiant Snow Cross 2 SUV 265/65R17 116T (шип)",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Шинсервис",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/cordiant/winter/snow_cross2suv/265-65-R17/116T/?idx=864297",
+     "price": 12570,
+     "availability": "31.10 — 2 шт, 02.11 — 3 шт"
+    },
+    {
+     "brand_model": "Ikon Character Ice 7 SUV 265/65R17 116T XL (шип)",
+     "maker": "ООО «Айкон Тайерс», Всеволожск (бывш. Nokian Tyres)",
+     "seller": "Шинсервис",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/ikon-tyres/winter/character-ice-7-suv/265-65-R17/116T/?idx=1954718",
+     "price": 14010,
+     "availability": "сегодня 8 шт, 31.10 >20 шт"
+    },
+    {
+     "brand_model": "Ikon Character Ice 8 SUV 265/65R17 116T XL (шип)",
+     "maker": "ООО «Айкон Тайерс», Всеволожск (бывш. Nokian Tyres)",
+     "seller": "Шинсервис",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/ikon-tyres/winter/character-ice-8-suv/265-65-R17/116T/?idx=1954690",
+     "price": 16280,
+     "availability": "31.10, >20 шт"
+    }
+   ],
+   "cost_unit": 11941.5,
+   "cost_unit_opt10": 11313.0,
+   "margin": 0.261,
+   "line_nmck": 64666.64,
+   "line_cost": 47766.0,
+   "cost_basis_note": "cost_unit = мин. цена 12570 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 11313.0"
+  },
+  {
+   "n": 5,
+   "group": "легковые",
+   "nmck_unit": 10466.66,
+   "qty": 26,
+   "assumed_size": "225/75R16C зимняя шип. КАМА Alga LT (УАЗ Профи/«буханка»); альт. 215/70R16 шип. (Viatti Bosco Nordico / Cordiant Snow Cross 2 SUV)",
+   "offers": [
+    {
+     "brand_model": "КАМА Alga LT НК-534 225/75R16C 121/120R (шип)",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "Автодонор",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-ship-kama-alga-lt-nk-534-225-75r16c-121-120r-nzhkm-1251004-g18384807651.html",
+     "price": 10322.5,
+     "availability": "в наличии во Владивостоке (2024 г.в.)",
+     "price_note": "карточка — неделимый комплект 4 шт за 41290 ₽; price = 41290/4"
+    },
+    {
+     "brand_model": "КАМА Alga LT НК-534 225/75R16C 121/120R (шип)",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/225-75r16lt-kama-nizhnekamskij-shinnyj-zavod-alga-nk-534-121-120r-rossija-zimnie-s-shipami-legkovye-shiny-itvl12-g18316785151.html",
+     "price": 11323,
+     "availability": "в наличии во Владивостоке",
+     "price_note": "карточка — неделимый комплект 4 шт за 45292 ₽; price = 45292/4"
+    },
+    {
+     "brand_model": "КАМА Alga LT НК-534 225/75R16C 121/120R (шип)",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "Shinapoint-Владивосток",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/ship-kama-alga-lt-nk-534-225-75r16c-121-120r-nzhkm-1251004-g18321383839.html",
+     "price": 11330,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "Viatti Bosco Nordico V-523 215/70R16 100T (шип)",
+     "maker": "Viatti — производство ПАО «Нижнекамскшина»",
+     "seller": "Shinapoint-Владивосток",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/ship-viatti-bosco-nordico-v-523-215-70r16-100t-nzhkm-3151035-g18275947670.html",
+     "price": 9180,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "Cordiant Snow Cross 2 SUV 215/70R16 104T (шип)",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Шинсервис",
+     "city": "Владивосток",
+     "url": "https://vladivostok.shinservice.ru/catalog/cordiant/winter/snow_cross2suv/215-70-R16/104T/?idx=864292",
+     "price": 10350,
+     "availability": "31.10, >20 шт"
+    }
+   ],
+   "cost_unit": 9806.38,
+   "cost_unit_opt10": 9290.25,
+   "margin": 0.063,
+   "line_nmck": 272133.16,
+   "line_cost": 254965.88,
+   "cost_basis_note": "cost_unit = мин. цена 10322.5 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 9290.25"
+  },
+  {
+   "n": 6,
+   "group": "автобусы (ГАЗель/Соболь)",
+   "nmck_unit": 6766.66,
+   "qty": 7,
+   "assumed_size": "185/75R16C всесезон/лето",
+   "offers": [
+    {
+     "brand_model": "Forward Professional 301 185/75R16C",
+     "maker": "АО «Алтайский шинный комбинат» (АШК), Барнаул",
+     "seller": "Приморская шинная компания",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-185-75r16c-tl-professional-301-forward-50091228.html",
+     "price": 4950,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "КАМА-365 LT НК-243 185/75R16C 104/102Q",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "Shinapoint-Владивосток",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/kama-365-lt-nk-243-185-75r16c-104-102q-nzhkm-1250003-g18275947636.html",
+     "price": 6020,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "Cordiant Business CA-2 185/75R16C 104/102Q",
+     "maker": "Cordiant (АО «Кордиант» / ЯШЗ, Ярославль)",
+     "seller": "Shinapoint-Владивосток",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/cordiant-business-ca-2-185-75r16c-104-102q-tl-732057633-g18418028442.html",
+     "price": 6340,
+     "availability": "в наличии во Владивостоке"
+    }
+   ],
+   "cost_unit": 4702.5,
+   "cost_unit_opt10": 4455.0,
+   "margin": 0.305,
+   "line_nmck": 47366.62,
+   "line_cost": 32917.5,
+   "cost_basis_note": "cost_unit = мин. цена 4950 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 4455.0"
+  },
+  {
+   "n": 7,
+   "group": "автобусы",
+   "nmck_unit": 7766.66,
+   "qty": 7,
+   "assumed_size": "185/75R16C зимняя шип. КАМА Alga LT",
+   "offers": [
+    {
+     "brand_model": "КАМА Alga LT НК-534 185/75R16C 104/102R (шип)",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "Автодонор",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-ship-kama-alga-lt-nk-534-185-75r16c-104-102r-nzhkm-1251003-g18384807650.html",
+     "price": 7460,
+     "availability": "в наличии во Владивостоке (2025 г.в.)",
+     "price_note": "карточка — неделимый комплект 4 шт за 29840 ₽; price = 29840/4"
+    },
+    {
+     "brand_model": "КАМА Alga LT НК-534 185/75R16C 104/102R (шип)",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "TireDynamix",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/ship-kama-alga-lt-nk-534-185-75r16c-104-102r-nzhkm-1251003-g18393357718.html",
+     "price": 7975,
+     "availability": "в наличии во Владивостоке",
+     "price_note": "карточка — неделимый комплект 4 шт за 31900 ₽; price = 31900/4"
+    },
+    {
+     "brand_model": "КАМА Alga LT НК-534 185/75R16C 104/102R (шип)",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "Shinapoint-Владивосток",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/ship-kama-alga-lt-nk-534-185-75r16c-104-102r-nzhkm-1251003-g18321383838.html",
+     "price": 8190,
+     "availability": "в наличии во Владивостоке"
+    }
+   ],
+   "cost_unit": 7087.0,
+   "cost_unit_opt10": 6714.0,
+   "margin": 0.088,
+   "line_nmck": 54366.62,
+   "line_cost": 49609.0,
+   "cost_basis_note": "cost_unit = мин. цена 7460 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 6714.0"
+  },
+  {
+   "n": 8,
+   "group": "автобусы",
+   "nmck_unit": 9433.33,
+   "qty": 7,
+   "assumed_size": "225/75R16C (ГАЗель Next / Соболь 4x4) лето/всесезон КАМА Trace НК-135",
+   "offers": [
+    {
+     "brand_model": "КАМА Trace НК-135 225/75R16C 121/120R",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/225-75r16lt-kama-nizhnekamskij-shinnyj-zavod-trace-nk-135-121-120r-rossija-letnie-legkovye-shiny-itvl8-g18106582521.html",
+     "price": 9170,
+     "availability": "в наличии во Владивостоке",
+     "price_note": "карточка — неделимый комплект 4 шт за 36680 ₽; price = 36680/4"
+    },
+    {
+     "brand_model": "КАМА Trace НК-135 225/75R16C 121/120R",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "Автодонор",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-kama-trace-nk-135-225-75r16c-121-120r-nzhkm-1210010-g18194320899.html",
+     "price": 9202.5,
+     "availability": "в наличии (2025 г.в.)",
+     "price_note": "карточка — неделимый комплект 4 шт за 36810 ₽; price = 36810/4"
+    },
+    {
+     "brand_model": "КАМА Trace НК-135 225/75R16C 121/120R",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "Shinapoint-Владивосток",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/kama-trace-nk-135-225-75r16c-121-120r-nzhkm-1210010-g18275946806.html",
+     "price": 9350,
+     "availability": "в наличии во Владивостоке"
+    }
+   ],
+   "cost_unit": 8711.5,
+   "cost_unit_opt10": 8253.0,
+   "margin": 0.077,
+   "line_nmck": 66033.31,
+   "line_cost": 60980.5,
+   "cost_basis_note": "cost_unit = мин. цена 9170 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 8253.0"
+  },
+  {
+   "n": 9,
+   "group": "автобусы",
+   "nmck_unit": 7766.66,
+   "qty": 7,
+   "assumed_size": "185/75R16C зимняя нешип. (Viatti Vettore Brina) — или та же Alga LT, что п.7",
+   "offers": [
+    {
+     "brand_model": "Viatti Vettore Brina V-525 185/75R16C 104/102R",
+     "maker": "Viatti — производство ПАО «Нижнекамскшина»",
+     "seller": "Shinapoint-Владивосток",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/viatti-vettore-brina-v-525-185-75r16c-104-102r-nzhkm-3250018-g18399043052.html",
+     "price": 7520,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "КАМА Alga LT НК-534 185/75R16C (шип)",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "Автодонор",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-ship-kama-alga-lt-nk-534-185-75r16c-104-102r-nzhkm-1251003-g18384807650.html",
+     "price": 7460,
+     "availability": "в наличии",
+     "price_note": "карточка — неделимый комплект 4 шт за 29840 ₽; price = 29840/4"
+    }
+   ],
+   "cost_unit": 7087.0,
+   "cost_unit_opt10": 6714.0,
+   "margin": 0.088,
+   "line_nmck": 54366.62,
+   "line_cost": 49609.0,
+   "cost_basis_note": "cost_unit = мин. цена 7460 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 6714.0"
+  },
+  {
+   "n": 10,
+   "group": "грузовые",
+   "nmck_unit": 41333.33,
+   "qty": 10,
+   "assumed_size": "14.00-20 ОИ-25 (Урал-4320/375); альт. 1300×530-533 ВИ-3 12PR",
+   "offers": [
+    {
+     "brand_model": "Алтайшина ОИ-25 14.00-20 (370-508) 14НС",
+     "maker": "АО «Алтайский шинный комбинат» (АШК), Барнаул",
+     "seller": "Приморская шинная компания",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-14.00-20-370-508-tt-14ns-oi-25-altajshina-g17008525428.html",
+     "price": 38950,
+     "availability": "остаток 50 шт"
+    },
+    {
+     "brand_model": "Омскшина ОИ-25 14.00-20 (370-508) 14НС",
+     "maker": "АО «Омскшина» (группа Cordiant), Омск",
+     "seller": "Приморская шинная компания",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-14.00-20-370-508-tt-14ns-oi-25-omskshina-g6988808464.html",
+     "price": 39350,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "Алтайшина ОИ-25 14.00-20 147G 14PR",
+     "maker": "АО «Алтайский шинный комбинат» (АШК), Барнаул",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/14-00-20-altajshina-oi-25-147g-14pr-tt-rossija-gruzovye-shiny-shkvl47-g17475093439.html",
+     "price": 40975,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "Алтайшина ОИ-25 14.00-20 н.с.14",
+     "maker": "АО «Алтайский шинный комбинат» (АШК), Барнаул",
+     "seller": "ООО «ХТК» — Long March",
+     "city": "Хабаровск",
+     "url": "https://baza.drom.ru/khabarovsk/wheel/tire/avtoshina-370-508-14.00-20-altajshina-oi-25-n-s-14-ashk-bez-o-l-g12120309846.html",
+     "price": 36300,
+     "availability": "в наличии в Хабаровске; до ТК бесплатно"
+    },
+    {
+     "brand_model": "Омскшина ВИ-3 1300×530-533 156F 12PR",
+     "maker": "АО «Омскшина» (группа Cordiant), Омск",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/1300x530-533-omskshina-vi-3-156f-12pr-tt-rossija-gruzovye-shiny-rivl3-g18594431958.html",
+     "price": 40320,
+     "availability": "в наличии во Владивостоке"
+    }
+   ],
+   "cost_unit": 37002.5,
+   "cost_unit_opt10": 35055.0,
+   "margin": 0.105,
+   "line_nmck": 413333.3,
+   "line_cost": 370025.0,
+   "cost_basis_note": "cost_unit = мин. цена 38950 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 35055.0"
+  },
+  {
+   "n": 11,
+   "group": "грузовые",
+   "nmck_unit": 37000,
+   "qty": 5,
+   "assumed_size": "1220×400-533 И-П184 (КАМАЗ-4310/43114); альт. 14.00-20 ОИ-25",
+   "offers": [
+    {
+     "brand_model": "Forward Traction И-П184 1220×400-533 142G 10PR",
+     "maker": "АО «Алтайский шинный комбинат» (АШК), Барнаул",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/1220x400-533-forward-ip-184-142g-10pr-tt-rossija-gruzovye-shiny-rivl1-g18594431950.html",
+     "price": 37140,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "Forward Traction И-П184 1220×400-533 10PR",
+     "maker": "АО «Алтайский шинный комбинат» (АШК), Барнаул",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Хабаровск",
+     "url": "https://baza.drom.ru/khabarovsk/wheel/tire/1220x400-533-forward-ip-184-10pr-rossija-gruzovye-shiny-muhb37-g18577889786.html",
+     "price": 35200,
+     "availability": "в наличии в Хабаровске"
+    },
+    {
+     "brand_model": "КАМА И-П184-1 1220×400-533 141G 10PR",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Хабаровск",
+     "url": "https://baza.drom.ru/khabarovsk/wheel/tire/1220x400-533-kama-nizhnekamskij-shinnyj-zavod-i-p184-1-10pr-rossija-gruzovye-shiny-urhb4-g18015299035.html",
+     "price": 39413,
+     "availability": "в наличии в Хабаровске"
+    },
+    {
+     "brand_model": "КАМА И-П184-1 1220×400-533 141G TT",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "4точки (интернет-магазин, склад Москва)",
+     "city": "Москва",
+     "url": "https://www.4tochki.ru/catalog/truck_tyres/kama/i-p184-1/kama-i-p184-1-1220x400-533400-80-21-141g-tt-gruz.html",
+     "price": 31800,
+     "availability": "наличие на сайте рендерится JS — не подтверждено; + доставка ТК до Владивостока"
+    },
+    {
+     "brand_model": "Forward Traction И-П184 1220×400-533 142G TT",
+     "maker": "АО «Алтайский шинный комбинат» (АШК), Барнаул",
+     "seller": "4точки",
+     "city": "Москва",
+     "url": "https://www.4tochki.ru/catalog/truck_tyres/forward/traction-i-p184/forward-traction-i-p184-1220x400-533-142g-tt.html",
+     "price": 31316,
+     "availability": "не подтверждено (JS); + ТК"
+    }
+   ],
+   "cost_unit": 33440.0,
+   "cost_unit_opt10": 31680.0,
+   "margin": 0.096,
+   "line_nmck": 185000,
+   "line_cost": 167200.0,
+   "cost_basis_note": "база — Хабаровск ГРУЗШИНА 35 200 (та же сеть UNITYRE, перемещение во Владивосток уточнить); Владивосток 37 140 > НМЦ; cost_unit = мин. цена 35200 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 31680.0"
+  },
+  {
+   "n": 12,
+   "group": "грузовые",
+   "nmck_unit": 70333.33,
+   "qty": 11,
+   "assumed_size": "1300×530-533 ВИ-3 16PR (Урал-4320-31, КАМАЗ-43118 «вездеход»); альт. 16.00R20 КАМА PRO NU 404",
+   "offers": [
+    {
+     "brand_model": "Омскшина ВИ-3 1300×530-533 173B 16PR",
+     "maker": "АО «Омскшина» (группа Cordiant), Омск",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/1300x530-533-omskshina-vi-3-173b-16pr-tt-rossija-gruzovye-shiny-rivl13-g18594431942.html",
+     "price": 67980,
+     "availability": "в наличии во Владивостоке"
+    },
+    {
+     "brand_model": "Омскшина ВИ-3 1300×530-533 12PR",
+     "maker": "АО «Омскшина» (группа Cordiant), Омск",
+     "seller": "ГРУЗШИНА (UNITYRE)",
+     "city": "Хабаровск",
+     "url": "https://baza.drom.ru/khabarovsk/wheel/tire/1300x530-533-omskshina-vi-3-12pr-rossija-gruzovye-shiny-muhb13-g18577889815.html",
+     "price": 45870,
+     "availability": "в наличии в Хабаровске (12PR — легче, чем 16PR; проверить по ТЗ)"
+    },
+    {
+     "brand_model": "КАМА PRO NU 404 16.00R20 173G TT",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "4точки",
+     "city": "Москва",
+     "url": "https://www.4tochki.ru/catalog/truck_tyres/kama/nu-404-pro/kama-pro-nu-404-1600r20-173g-tt.html",
+     "price": 70152,
+     "availability": "не подтверждено (JS); во Владивостоке 16.00R20 российского пр-ва не найдено"
+    }
+   ],
+   "cost_unit": 64581.0,
+   "cost_unit_opt10": 61182.0,
+   "margin": 0.082,
+   "line_nmck": 773666.63,
+   "line_cost": 710391.0,
+   "cost_basis_note": "cost_unit = мин. цена 67980 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 61182.0"
+  },
+  {
+   "n": 13,
+   "group": "грузовые",
+   "nmck_unit": 55666.66,
+   "qty": 2,
+   "assumed_size": "425/85R21 (КАМАЗ-4326/43118) КАМА-1260 / NorTec TR-1260 / TyRex",
+   "offers": [
+    {
+     "brand_model": "TyRex 425/85R21 20PR (2024 г.в.)",
+     "maker": "TyRex — АО «Омскшина»/«Волтайр-Пром» (группа Cordiant)",
+     "seller": "АвтоСитиДВ",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/tyrex-425-85r21-20pr-113592777.html",
+     "price": 45000,
+     "availability": "в наличии; модель в карточке не указана — уточнить (CRG O-184/VO-1260)"
+    },
+    {
+     "brand_model": "NorTec TR-1260 425/85R21 18НС",
+     "maker": "АО «Алтайский шинный комбинат» (АШК), Барнаул",
+     "seller": "Приморская шинная компания",
+     "city": "Владивосток",
+     "url": "https://baza.drom.ru/vladivostok/wheel/tire/avtoshina-425-85r21-tt-18ns-tr-1260-nortec-g1125121864.html",
+     "price": 57000,
+     "availability": "остаток 50 шт"
+    },
+    {
+     "brand_model": "КАМА-1260-2 425/85R21 нс18 156G",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "ShinaPoint, шинный центр",
+     "city": "Приморье, Михайловский р-н",
+     "url": "https://baza.drom.ru/mikhailovskii-r-n/wheel/tire/avtoshina-kama-1260-2-425-85r21-ns18-156g-tts-k-nzhkm-1340013-g16561086487.html",
+     "price": 57260,
+     "availability": "в наличии; доставка до ТК"
+    },
+    {
+     "brand_model": "КАМА-1260-2 425/85R21 156G TT",
+     "maker": "ПАО «Нижнекамскшина» (Татнефть), Нижнекамск",
+     "seller": "4точки",
+     "city": "Москва",
+     "url": "https://www.4tochki.ru/catalog/truck_tyres/kama/1260-2/kama-kama-1260-2-425-85r21-156g-tt-gruz-20944187.html",
+     "price": 56449,
+     "availability": "не подтверждено (JS)"
+    }
+   ],
+   "cost_unit": 42750.0,
+   "cost_unit_opt10": 40500.0,
+   "margin": 0.232,
+   "line_nmck": 111333.32,
+   "line_cost": 85500.0,
+   "cost_basis_note": "cost_unit = мин. цена 45000 ₽ (розница, с НДС) × 0.95 (опт −5%); при −10%: 40500.0"
+  }
+ ],
+ "logistics": {
+  "base_scenario": "закупка у продавцов во Владивостоке (ГРУЗШИНА/UNITYRE, Приморская шинная компания, Shinapoint, Автодонор, Шинсервис) + 2 позиции через Хабаровск (UNITYRE, п.11; ХТК)",
+  "local_delivery_rub": 30000,
+  "local_delivery_note": "ОЦЕНКА (не тариф): сбор с 5–6 складов по Владивостоку (часть продавцов — доставка по городу бесплатно, ПШК — 2 800 ₽, Shinapoint/Автодонор — 500–700 ₽) + аренда грузовика 5 т на 1 рейс до склада заказчика + перемещение Хабаровск→Владивосток 5 шт 1220×400 (≈350 кг). Адрес/график поставки по Приморскому краю в карточке не указан — при разнесении по погранотрядам (Находка, Пограничный, Хасан и т.д.) затраты вырастут.",
+  "central_scenario": "если везти всё из центра (Москва), 4 т / 25 м³: тариф «Байкал Сервис» (https://www.baikalsr.ru/business/prices/) Владивосток—Москва (обратного направления в таблице нет, берём как прокси): 44,41 ₽/кг от 3000 кг → 177 640 ₽; 12 395 ₽/м³ от 25 м³ → 309 875 ₽; к оплате — большее ≈ 310 000 ₽ (дата прайса на сайте не указана).",
+  "central_scenario_rub": 309875,
+  "lot_weight_estimate_kg": "≈4 200 (груз. ≈2 400: 10×~75 + 5×~70 + 11×~105 + 2×~90; легк. 99×~14; C 28×~13) — оценка"
+ },
+ "goods_cost": 2441998.88,
+ "cost_total": 2471998.88,
+ "margin": 0.078,
+ "margin_rub": 209033.98,
+ "net_10": {
+  "revenue": 2412929.57,
+  "profit_before_tax": -59069.31,
+  "usn15": 0.0,
+  "net": -59069.31
+ },
+ "net_20": {
+  "revenue": 2144826.29,
+  "profit_before_tax": -327172.59,
+  "usn15": 0.0,
+  "net": -327172.59
+ },
+ "breakeven": {
+  "reduction": 0.078,
+  "price": 2471998.88
+ },
+ "sensitivity": {
+  "scenario": "опт −10% от минимальной розницы",
+  "goods_cost": 2313472.5,
+  "cost_total": 2343472.5,
+  "net_10": {
+   "revenue": 2412929.57,
+   "profit_before_tax": 69457.07,
+   "usn15": 10418.56,
+   "net": 59038.51
+  },
+  "net_20": {
+   "revenue": 2144826.29,
+   "profit_before_tax": -198646.21,
+   "usn15": 0.0,
+   "net": -198646.21
+  },
+  "breakeven_reduction": 0.1259
+ },
+ "notes": [
+  "Размеры в карточке не указаны — assumed_size подобраны по уровню НМЦ и типовому парку; ДО подачи сверить с ТЗ/описанием объекта закупки. Риск: при других размерах себестоимость меняется.",
+  "Цены — розничные с НДС из карточек/выдачи на 28.10.2026; цена drom-карточки проверена по атрибуту data-bulletin-price (все карточки открылись, HTTP 200). Для ИнтерШины (Хабаровск) цена взята из выдачи поиска (атрибут в карточке отсутствует).",
+  "Карточки «компл=4» (неделимый комплект 4 шт) — цена за шт = цена комплекта / 4; кол-ва по позициям кратны/почти кратны 4 (7 шт потребуют 8 или поштучную карточку того же продавца).",
+  "4точки (Москва): наличие и сроки рендерятся JS — не подтверждены; использованы только как альтернатива/ориентир.",
+  "Шинсервис Владивосток: цена — карточка каталога, наличие — из JSON страницы (availability_short), выдача в ПВЗ во Владивостоке.",
+  "Нацрежим: шины 22.11 — вероятно ПП 1875 (ограничение). Все предложенные бренды — российского производства (Нижнекамскшина: КАМА, Viatti; Cordiant/ЯШЗ; Омскшина/TyRex; АШК: Алтайшина, Forward, NorTec; Ikon Tyres — Всеволожск). Наличие конкретных моделей в реестре российской промпродукции (ГИСП, ПП 719) НЕ проверялось — проверить номера реестровых записей до подачи.",
+  "NorTec — бренд Алтайского шинного комбината (в карточках «АШК»); Омскшина и TyRex — группа Cordiant.",
+  "Маржа тонкая: НМЦ близки к рознице Владивостока, у п.1 (225/75R16 КАМА-219) и п.11 (1220×400) розница во Владивостоке ≥ НМЦ — нужна оптовая цена дистрибьютора (UNITYRE/ГРУЗШИНА, ПШК, Shinapoint, ТД КАМА) с запросом КП.",
+  "Не учтены: стоимость БГ/обеспечения исполнения (268 103 ₽), обеспечение заявки 26 810 ₽, обслуживание отдельного счёта ГОЗ в уполномоченном банке, камеры/ободные ленты (если ТЗ требует комплектность для TT-шин).",
+  "УСН 15%: налог = 15% × (выручка − расходы); минимальный налог 1% выручки не применён (при убытке/малой прибыли проверить)."
+ ]
+}
