@@ -29,9 +29,15 @@ for a, b in [("НМЦК", N), ("Товар по КП и нашим ценам", 
              ("Прежний расчёт (до КП, 20.10)", 54810725), ("Изменение себестоимости", C - 54810725)]:
     s.append([a, b]); s.cell(s.max_row, 2).number_format = "0.0%" if "Маржа" in a else M
 box(s, r0); s.append([])
-s.append(["Снижение в заявке", "Цена заявки", "Прибыль после УСН (с заморозкой денег 120 дн.)"]); head(s); r0 = s.max_row
+CB = sum((d["inv"] if d["inv"] is not None else d["our"] * (1 - TORG)) * d["q"] for d in rows) + FREIGHT  # сценарий Б: дорогие позиции берём по КП
+def netc(Cx, dsc):
+    P = N * (1 - dsc); pre = P - Cx - 0.008 * P - Cx * 0.2 * 120 / 365; return pre - 0.15 * max(pre, 0)
+s.append(["Снижение в заявке", "Цена заявки", "А: дорогие позиции — на заводы по нашей цене", "Б: всё по КП, включая дорогие (+60 поз. по цене ДН.РУ/Тулы)"]); head(s); r0 = s.max_row
+s.append(["Себестоимость лота", None, C, CB]); s.cell(s.max_row, 3).number_format = M; s.cell(s.max_row, 4).number_format = M
+s.append(["Маржа при НМЦК", None, 1 - C / N, 1 - CB / N]); s.cell(s.max_row, 3).number_format = "0.0%"; s.cell(s.max_row, 4).number_format = "0.0%"
 for dsc in (0, 0.1, 0.2, 0.3, 0.4):
-    s.append([dsc, N * (1 - dsc), net(dsc)]); X = s.max_row; s.cell(X, 1).number_format = "0%"; s.cell(X, 2).number_format = M; s.cell(X, 3).number_format = M
+    s.append([dsc, N * (1 - dsc), netc(C, dsc), netc(CB, dsc)]); X = s.max_row; s.cell(X, 1).number_format = "0%"
+    for j in (2, 3, 4): s.cell(X, j).number_format = M
 box(s, r0); s.append([])
 s.append(["Статус позиции", "Позиций", "Сумма в себестоимости", "Наша цена", "Цена по КП", "Источник"]); head(s); r0 = s.max_row
 for a in ("Брать", "Брать при условии", "Торг: наш бюджет", "Заказать у других", "Не отработано"):
@@ -41,7 +47,7 @@ for a in ("Брать", "Брать при условии", "Торг: наш б
 s.append(["ИТОГО", len(rows), C - FREIGHT, sum(d["our"] * d["q"] for d in rows)]); [setattr(c, "font", Font(bold=True)) for c in s[s.max_row]]
 for j in (3, 4): s.cell(s.max_row, j).number_format = M
 box(s, r0)
-for i, w in enumerate([46, 18, 22, 18, 18, 22], 1): s.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+for i, w in enumerate([46, 18, 26, 30, 18, 22], 1): s.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 
 o = wb.create_sheet("Что осталось")
 o.append(["Что осталось получить до подачи", "Позиций", "Сумма, ₽", "Что сделать"]); head(o)
@@ -69,6 +75,20 @@ for sup in sorted({d["sup"] for d in rows if d["sup"]}):
 box(p, 1)
 for i, w in enumerate([30, 12, 12, 18, 20, 10], 1): p.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 
+e = wb.create_sheet("Дороже бюджета (КП есть)")
+e.append(["Табл./№", "Позиция ТЗ", "Кол-во", "Поставщик", "Что в счёте", "Цена КП, ₽/шт", "Наша цена, ₽/шт", "Переплата, ₽", "Отклонение", "Почему", "Альтернатива (завод с реестром)"]); head(e)
+for d in sorted([d for d in rows if d["act"] == "Заказать у других"], key=lambda d: -(d["inv"] - d["our"]) * d["q"]):
+    f = FIN.get(d["tt"], {})
+    e.append([d["tt"], d["name"], d["q"], d["sup"], d["offer"][:110], d["inv"], d["our"], (d["inv"] - d["our"] * (1 - TORG)) * d["q"], d["inv"] / d["our"] - 1, d["why"][:120], f.get("who", "")])
+    X = e.max_row
+    for j in (6, 7, 8): e.cell(X, j).number_format = M
+    e.cell(X, 9).number_format = "+0%;-0%"
+gx = [d for d in rows if d["act"] == "Заказать у других"]
+e.append(["", "ИТОГО", sum(d["q"] for d in gx), "", "", sum(d["inv"] * d["q"] for d in gx), sum(d["our"] * d["q"] for d in gx), sum((d["inv"] - d["our"] * (1 - TORG)) * d["q"] for d in gx)])
+for j in (6, 7, 8): e.cell(e.max_row, j).number_format = M
+for c in e[e.max_row]: c.font = Font(bold=True)
+box(e, 1)
+for i, w in enumerate([8, 36, 7, 18, 40, 14, 14, 14, 10, 30, 34], 1): e.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 a = wb.create_sheet("Все 315 позиций")
 a.append(["Табл./№", "Позиция ТЗ", "Кол-во", "Наша цена, ₽/шт", "Цена КП, ₽/шт", "В себестоимости, ₽/шт", "Сумма, ₽", "Источник", "Статус", "Поставщик (выбор)", "№ реестра ПП 719", "Проверка ТЗ / что уточнить"]); head(a)
 COL = {"Брать": "C6EFCE", "Брать при условии": "E2EFDA", "Торг: наш бюджет": "FFEB9C", "Заказать у других": "F8CBAD", "Не отработано": "DDEBF7"}
@@ -83,4 +103,4 @@ box(a, 1)
 for i, w in enumerate([8, 44, 7, 13, 13, 13, 14, 26, 16, 30, 12, 50], 1): a.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 a.freeze_panes = "C2"; a.auto_filter.ref = f"A1:L{a.max_row}"
 tidy(wb, row_h=30); wb.save("../KAMCHATKA_ITOG_2910.xlsx")
-print(round(C), round(1 - C / N, 3), round(net(0.1)), len(need), len(nonum), len(dn), len(nz))
+print(round(C), round(CB), round(1 - C / N, 3), round(net(0.1)), round(netc(CB, 0.1)), len(need), len(nonum), len(dn), len(nz))
