@@ -32,7 +32,7 @@ box(s, r0); s.append([])
 CB = sum((d["inv"] if d["inv"] is not None else d["our"] * (1 - TORG)) * d["q"] for d in rows) + FREIGHT  # сценарий Б: дорогие позиции берём по КП
 def netc(Cx, dsc):
     P = N * (1 - dsc); pre = P - Cx - 0.008 * P - Cx * 0.2 * 120 / 365; return pre - 0.15 * max(pre, 0)
-s.append(["Снижение в заявке", "Цена заявки", "А: дорогие позиции — на заводы по нашей цене", "Б: всё по КП, включая дорогие (+60 поз. по цене ДН.РУ/Тулы)"]); head(s); r0 = s.max_row
+s.append(["Снижение в заявке", "Цена заявки", "А: торг (31 поз.) по КП, 29 дорогих — на заводы по нашей цене", "Б: всё по КП, включая 29 поз. «заказать у других» по цене ДН.РУ/Тулы"]); head(s); r0 = s.max_row
 s.append(["Себестоимость лота", None, C, CB]); s.cell(s.max_row, 3).number_format = M; s.cell(s.max_row, 4).number_format = M
 s.append(["Маржа при НМЦК", None, 1 - C / N, 1 - CB / N]); s.cell(s.max_row, 3).number_format = "0.0%"; s.cell(s.max_row, 4).number_format = "0.0%"
 for dsc in (0, 0.1, 0.2, 0.3, 0.4):
