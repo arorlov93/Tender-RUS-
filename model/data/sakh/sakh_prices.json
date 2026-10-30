@@ -1842,14 +1842,16 @@
    "name": "ГРАНВЭЛ® Затвор Поворотный Дисковый ЗПВС - FL(w)-3-100-MN-Е, Ду100, Ру16, межфланцевый, рукоятка, корпус - GG25, диск - GGG40, седло - EPDM, Траб=-15...+95°С",
    "qty": 3.0,
    "nmc_unit": 9180.0,
-   "cost_unit": 7262.24,
-   "src": "прайс АДЛ BD01I12792 ЗПВС-FL(W)-3-100-MN-E = 67,7 у.е. × 119,19",
+   "cost_unit": 7789.24,
+   "src": "КП АДЛ УТД000114530 от 30.10.2026: ГРАНВЭЛ ЗПВС FL(w)-3-100-MN-Е Ду100",
    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
    "analog_ru": null,
    "margin_unit": 0.2089,
    "price_vat": 8069.16,
    "kof_vat": null,
-   "note": "dn.ru 12 575"
+   "note": "dn.ru 12 575",
+   "kp": true,
+   "kp_note": ""
   },
   {
    "n": 37,
@@ -1857,14 +1859,16 @@
    "name": "ГРАНВЭЛ® Затвор Поворотный Дисковый ЗПВС - FL(w)-3-150-MN-Е, Ду150, Ру16, межфланцевый, рукоятка, корпус - GG25, диск - GGG40, седло - EPDM, Траб=-15...+95С",
    "qty": 5.0,
    "nmc_unit": 13850.0,
-   "cost_unit": 10952.37,
-   "src": "прайс АДЛ BD01I12795 ЗПВС-FL(W)-3-150-MN-E = 102,1 у.е. × 119,19",
+   "cost_unit": 11747.14,
+   "src": "КП АДЛ УТД000114530 от 30.10.2026: ГРАНВЭЛ ЗПВС FL(w)-3-150-MN-Е Ду150",
    "url": "https://adl.ru/files/a7d1f80d-deeb-11e5-9f63-001f296a5bc2/Price_ADL_Valves_HVAC.XLSX",
    "analog_ru": null,
    "margin_unit": 0.2092,
    "price_vat": 12169.3,
    "kof_vat": null,
-   "note": "dn.ru 18 964,90"
+   "note": "dn.ru 18 964,90",
+   "kp": true,
+   "kp_note": ""
   },
   {
    "n": 38,
@@ -1917,14 +1921,16 @@
    "name": "Клапан обратный чугун шаровой фланцевый Ду 150 Ру16",
    "qty": 3.0,
    "nmc_unit": 39830.0,
-   "cost_unit": 27762.38,
-   "src": "dn.ru, Benarmo обратный шаровой Ду150 Ру16 чугун/сталь NBR, на 30.10.2026",
+   "cost_unit": 37289.39,
+   "src": "КП АДЛ УТД000114530 от 30.10.2026: ГРАНЛОК клапан обратный шаровой RD12.02.150.16.Ф/Ф DN150, Tмакс 70°С",
    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/sharovyi/benarmo/pn10-16-nbr/150",
    "analog_ru": null,
    "margin_unit": 0.303,
    "price_vat": 30847.09,
    "kof_vat": null,
-   "note": "Benarmo — реестр МПТ не проверен; СИБЗТА 35 075, ABRA 30 361"
+   "note": "Benarmo — реестр МПТ не проверен; СИБЗТА 35 075, ABRA 30 361",
+   "kp": true,
+   "kp_note": ""
   },
   {
    "n": 42,
@@ -1932,14 +1938,16 @@
    "name": "Клапан обратный чугун шаровой фланцевый Ду 100 Ру16",
    "qty": 3.0,
    "nmc_unit": 18920.0,
-   "cost_unit": 13974.25,
-   "src": "dn.ru, Benarmo обратный шаровой Ду100 Ру16, на 30.10.2026",
+   "cost_unit": 19260.24,
+   "src": "КП АДЛ УТД000114530 от 30.10.2026: ГРАНЛОК клапан обратный шаровой RD12.02.100.16.Ф/Ф DN100, Tмакс 70°С",
    "url": "https://dn.ru/klapan/klapan-obratnyi/flantcevyi/sharovyi/benarmo/pn10-16-nbr/100",
    "analog_ru": null,
    "margin_unit": 0.2614,
    "price_vat": 15526.94,
    "kof_vat": null,
-   "note": "СИБЗТА 19 137"
+   "note": "СИБЗТА 19 137",
+   "kp": true,
+   "kp_note": ""
   },
   {
    "n": 43,
