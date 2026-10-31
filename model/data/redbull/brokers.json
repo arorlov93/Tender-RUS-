@@ -1,0 +1,619 @@
+{
+  "meta": {
+    "task": "Брокеры и требования для ввоза Red Bull из Польши в РФ, покупатель ООО «ГИДРОПАС» (Москва, УСН)",
+    "date": "2026-10-31",
+    "verification_rule": "verified=true — телефон и e-mail взяты с официального сайта и совпадают минимум на 2 разных URL (см. contact_urls).",
+    "registry_note": "Реестр ФТС (customs.gov.ru) из этой среды недоступен (соединение сброшено) — номер взят с официального сайта компании; перед договором сверить на customs.gov.ru по ИНН."
+  },
+  "brokers": [
+    {
+      "name": "ООО «ТАНАИС Брокер»",
+      "brand": "TANAIS",
+      "inn": "7731309397",
+      "inn_source": "https://eu-tanais.com/company/requisites/",
+      "ogrn": "1167746200775",
+      "city": "Москва (офис: ул. Горбунова, 2с3, БЦ «Гранд Сетунь Плаза»); филиал Нижний Новгород",
+      "site": "https://eu-tanais.com/",
+      "phones": [
+        "+7 (495) 785-04-93",
+        "+7 (800) 600-25-90"
+      ],
+      "emails": [
+        "info@eu-tanais.com"
+      ],
+      "contact_urls": [
+        "https://eu-tanais.com/",
+        "https://eu-tanais.com/contacts/",
+        "https://eu-tanais.com/company/",
+        "https://eu-tanais.com/services/tamozhennoe-oformlenie/polsha/"
+      ],
+      "verified": true,
+      "customs_rep_registry_no": "1529",
+      "registry_date": "25.10.2022 (в подвале сайта); 26.10.2022 (раздел «Свидетельства») — расхождение даты на самом сайте",
+      "registry_urls": [
+        "https://eu-tanais.com/",
+        "https://eu-tanais.com/company/licenses/",
+        "https://eu-tanais.com/services/tamozhennoe-oformlenie/polsha/"
+      ],
+      "registry_verified_on_fts": false,
+      "services": [
+        "таможенный представитель (брокер)",
+        "международная логистика (авто/сборные из Европы, в т.ч. Польша, Беларусь)",
+        "консультации ВЭД"
+      ],
+      "food_drinks_eu_evidence": [
+        "Отдельная страница «Таможенное оформление из Польши» (доставка из Варшавы/Лодзи/Кракова/Вроцлава в Москву)",
+        "Статья «Таможенное оформление продуктов питания» (сертификация по ТР ЕАЭС, санкционные ограничения)"
+      ],
+      "evidence_urls": [
+        "https://eu-tanais.com/services/tamozhennoe-oformlenie/polsha/",
+        "https://eu-tanais.com/press/articles/tamozhennoe-oformlenie-produktov-pitaniya/"
+      ],
+      "chestny_znak": "на сайте явного кейса по маркировке напитков не найдено — уточнить",
+      "notes": "ИНН найден только на 1 странице (реквизиты)."
+    },
+    {
+      "name": "ООО «ВЛК» (бренд ВИКЛАЙН®)",
+      "brand": "VIKLINE",
+      "inn": "5028026270",
+      "inn_source": "https://vikline.ru/contacts/",
+      "ogrn": "1075028001509",
+      "city": "Москва (ул. Молодогвардейская, 8к1); СВХ и таможенный склад «ЛЦ «Западные ворота», Можайск (трасса М-1 — направление на Беларусь)",
+      "site": "https://vikline.ru/",
+      "phones": [
+        "+7 (495) 983-59-74",
+        "8 (800) 505-56-43"
+      ],
+      "emails": [
+        "hello@vikline.ru"
+      ],
+      "contact_urls": [
+        "https://vikline.ru/",
+        "https://vikline.ru/contacts/",
+        "https://vikline.ru/uslugi/oformlenie-produktov-pitaniya/",
+        "https://vikline.ru/otraslevyie-resheniya/produkty-pitaniya/"
+      ],
+      "verified": true,
+      "customs_rep_registry_no": "0932/01",
+      "registry_date": "15.11.2018",
+      "registry_urls": [
+        "https://vikline.ru/contacts/",
+        "https://vikline.ru/o-kompanii/",
+        "https://vikline.ru/uslugi/oformlenie-produktov-pitaniya/"
+      ],
+      "registry_verified_on_fts": false,
+      "services": [
+        "таможенный представитель",
+        "СВХ (свидетельство 10013/260214/10130/11 от 01.07.2025 — ЗАО «ЛЦ «Западные ворота»)",
+        "таможенный склад (10132/041/Г от 01.07.2025)",
+        "маркировка Честный ЗНАК/DataMatrix на таможенном складе",
+        "оформление акцизных товаров",
+        "транспорт, сертификация"
+      ],
+      "food_drinks_eu_evidence": [
+        "Раздел «Оформление продуктов питания» — с 2007 г., клиенты — сетевые ритейлеры (по словам сайта)",
+        "Раздел «Акцизные товары», специализированный СВХ для акцизных грузов (свид. 10009/200618/10057/1)",
+        "Маркировка товаров на таможенном складе в Можайске (Честный знак, DataMatrix)"
+      ],
+      "evidence_urls": [
+        "https://vikline.ru/uslugi/oformlenie-produktov-pitaniya/",
+        "https://vikline.ru/otraslevyie-resheniya/akciznye-tovary/",
+        "https://vikline.ru/otraslevyie-resheniya/produkty-pitaniya/"
+      ],
+      "chestny_znak": "да — нанесение кодов на собственном таможенном складе (заявлено на сайте)",
+      "notes": "Наиболее подходящий профиль под схему «ввоз без кодов → таможенный склад → стикеровка → выпуск». Склады принадлежат связанному ЗАО «ЛЦ «Западные ворота»."
+    },
+    {
+      "name": "ООО «ГЕНЕЗИС - ВЭД» (Genesis Group)",
+      "brand": "Genesis Group",
+      "inn": "9703100661",
+      "inn_source": "https://genesis-group.ru/o-kompanii/",
+      "ogrn": "1227700467862",
+      "city": "Москва (Краснопресненская наб., 12, ЦМТ); офисы Новороссийск, Санкт-Петербург",
+      "site": "https://genesis-group.ru/",
+      "phones": [
+        "+7 (800) 700-12-74"
+      ],
+      "emails": [
+        "info@genesis-group.ru"
+      ],
+      "contact_urls": [
+        "https://genesis-group.ru/",
+        "https://genesis-group.ru/kontakty/",
+        "https://genesis-group.ru/tamozhennoe-oformlenie-produktov-pitaniya"
+      ],
+      "verified": true,
+      "customs_rep_registry_no": "1774",
+      "registry_date": "14.05.2024",
+      "registry_urls": [
+        "https://genesis-group.ru/o-kompanii/",
+        "https://genesis-group.ru/tamozhennoe-oformlenie-produktov-pitaniya"
+      ],
+      "registry_verified_on_fts": false,
+      "services": [
+        "таможенный представитель",
+        "транспортный экспедитор (реестр GL-B044-00112-00/00005206 от 24.04.2026 — по данным сайта)",
+        "международные перевозки",
+        "таможенный склад/СВХ — сопровождение процедур"
+      ],
+      "food_drinks_eu_evidence": [
+        "Страница «Таможенное оформление продуктов питания»: по словам сайта ~3 500 ДТ/мес по скоропорту и 1 500 по сухим грузам",
+        "В списке стран-отправителей — Польша, Литва, Казахстан"
+      ],
+      "evidence_urls": [
+        "https://genesis-group.ru/tamozhennoe-oformlenie-produktov-pitaniya"
+      ],
+      "chestny_znak": "не указано явно — уточнить",
+      "notes": "Сайт сам ссылается на реестр ФТС «по состоянию на 02.10.2026». Компания молодая (ОГРН 2022)."
+    },
+    {
+      "name": "ЗАО «Терминал Зеленоград-М»",
+      "brand": "Терминал ЗМ",
+      "inn": "7730148612",
+      "inn_source": "https://terminalzm.ru/rekvizity/ ; https://terminalzm.ru/",
+      "ogrn": "1037739533677",
+      "city": "Москва, Зеленоград (2-й Западный пр-д, 3с1) — собственный СВХ",
+      "site": "https://terminalzm.ru/",
+      "phones": [
+        "+7 (495) 118-43-35"
+      ],
+      "emails": [
+        "partner@terminalzm.ru"
+      ],
+      "contact_urls": [
+        "https://terminalzm.ru/",
+        "https://terminalzm.ru/rastamojka/tovary/produktov-pitaniya/"
+      ],
+      "verified": true,
+      "customs_rep_registry_no": "0872/00",
+      "registry_date": "08.05.2018",
+      "registry_urls": [
+        "https://terminalzm.ru/about/"
+      ],
+      "registry_verified_on_fts": false,
+      "services": [
+        "таможенный представитель (без ограничений по видам транспорта/регионам — по сайту)",
+        "СВХ",
+        "растаможка продуктов питания, помощь с разрешительными документами",
+        "параллельный импорт (раздел на сайте)"
+      ],
+      "food_drinks_eu_evidence": [
+        "Страница «Растаможка продуктов питания»: ДТ с кодами Честный ЗНАК, упоминаются безалкогольные напитки; указано, что для напитков с тонизирующим действием требуется СГР (утверждение сайта — проверить)"
+      ],
+      "evidence_urls": [
+        "https://terminalzm.ru/rastamojka/tovary/produktov-pitaniya/"
+      ],
+      "chestny_znak": "да — оформление ДТ с кодами маркировки (заявлено)",
+      "notes": "Номер в реестре — только на 1 URL (about); на сайте также встречается опечатка e-mail partner@termilazm.ru."
+    },
+    {
+      "name": "ООО «СБ Карго»",
+      "brand": "SB Cargo",
+      "inn": "5009101757",
+      "inn_source": "https://sbcargo.ru/contacts/",
+      "ogrn": null,
+      "city": "Московская обл., г. Домодедово (мкр. Авиационный, ул. Ильюшина, 2А)",
+      "site": "https://sbcargo.ru/",
+      "phones": [
+        "+7 (499) 643-43-06"
+      ],
+      "emails": [
+        "sb@sbcargo.ru"
+      ],
+      "contact_urls": [
+        "https://sbcargo.ru/",
+        "https://sbcargo.ru/contacts/",
+        "https://sbcargo.ru/poleznaya-informatsiya/tamozhennoe-oformlenie-i-dostavka-gazirovannykh-i-energeticheskikh-napitkov/"
+      ],
+      "verified": true,
+      "customs_rep_registry_no": "0875/00",
+      "registry_date": null,
+      "registry_urls": [
+        "https://sbcargo.ru/company/",
+        "https://sbcargo.ru/poleznaya-informatsiya/tamozhennoe-oformlenie-i-dostavka-gazirovannykh-i-energeticheskikh-napitkov/",
+        "https://sbcargo.ru/poleznaya-informatsiya/markirovka-na-tamozhennom-sklade/"
+      ],
+      "registry_verified_on_fts": false,
+      "services": [
+        "таможенный представитель",
+        "маркировка DataMatrix на таможенном складе (печать этикеток, нанесение, отчёт)",
+        "разрешительные документы/сертификация",
+        "доставка (в т.ч. Россия–Беларусь)"
+      ],
+      "food_drinks_eu_evidence": [
+        "Отдельная страница «Растаможка безалкогольных напитков: газированных, негазированных, энергетических» (акциз на сахаросодержащие, Честный знак, документы)",
+        "Страница «Маркировка на таможенном складе» — пошаговая схема"
+      ],
+      "evidence_urls": [
+        "https://sbcargo.ru/poleznaya-informatsiya/tamozhennoe-oformlenie-i-dostavka-gazirovannykh-i-energeticheskikh-napitkov/",
+        "https://sbcargo.ru/poleznaya-informatsiya/markirovka-na-tamozhennom-sklade/"
+      ],
+      "chestny_znak": "да — маркировка на таможенном складе (заявлено)",
+      "notes": "Работают только с юрлицами. Профиль напитков описан прямо — хороший кандидат для первого запроса."
+    },
+    {
+      "name": "ООО «ТРАНСПОРТИР Групп»",
+      "brand": "Transportir",
+      "inn": "7723864870",
+      "inn_source": "https://transportir.ru/ (подвал всех страниц)",
+      "ogrn": "1137746187952",
+      "city": "Москва (ул. Трубная, 21); консолидационный терминал в Błonie (~20 км от Варшавы, TRANSPORTIR Limited Polska)",
+      "site": "https://transportir.ru/",
+      "phones": [
+        "+7 (495) 229-14-70"
+      ],
+      "emails": [
+        "russia@transportir.com"
+      ],
+      "contact_urls": [
+        "https://transportir.ru/",
+        "https://transportir.ru/about/",
+        "https://transportir.ru/services/dostavka-gruzov-polsha/"
+      ],
+      "verified": true,
+      "customs_rep_registry_no": "0917/00",
+      "registry_date": "2018 (год по сайту)",
+      "registry_urls": [
+        "https://transportir.ru/about/"
+      ],
+      "registry_verified_on_fts": false,
+      "services": [
+        "таможенный представитель",
+        "собственная логистика Польша→РФ/Казахстан (сборные и FTL)",
+        "склад в Польше",
+        "маркировка (Честный знак/EAC) на таможенном складе в ЕС",
+        "ВЭД-услуги"
+      ],
+      "food_drinks_eu_evidence": [
+        "Тарифы Варшава→Москва на сборные (обновлены I кв. 2026): 1 EP — 490 €, 10 EP — 2 060 €; срок ~5 дней с таможней",
+        "Категории «Пищевые грузы», «Грузы с маркировкой»"
+      ],
+      "evidence_urls": [
+        "https://transportir.ru/services/dostavka-gruzov-polsha/",
+        "https://transportir.ru/services/markirovka/",
+        "https://transportir.ru/services/gruzyi-trebuyushhie-markirovki/"
+      ],
+      "chestny_znak": "да — заявлена маркировка до ввоза на складе в ЕС",
+      "notes": "Единственный в списке с собственным складом в Польше. Номер в реестре — на 1 URL. Маркировка Red Bull на территории ЕС для ввоза в РФ может создавать вопросы у польской стороны — обсуждать отдельно."
+    },
+    {
+      "name": "ООО «Артмарин»",
+      "brand": "ArtMarine",
+      "inn": null,
+      "inn_source": null,
+      "ogrn": null,
+      "city": "Санкт-Петербург (ул. Новгородская, 23, оф. 248); офис Москва (ул. Раменки, 5к1)",
+      "site": "https://a-rt-marine.com/",
+      "phones": [
+        "+7 (812) 309-05-63",
+        "+7 (495) 108-05-63"
+      ],
+      "emails": [
+        "info@a-rt-marine.com",
+        "2dept@a-rt-marine.com"
+      ],
+      "contact_urls": [
+        "https://a-rt-marine.com/",
+        "https://a-rt-marine.com/kontakty"
+      ],
+      "verified": true,
+      "customs_rep_registry_no": "0914/00",
+      "registry_date": "новость от 08.08.2018",
+      "registry_urls": [
+        "https://a-rt-marine.com/novosti/artmarin-v-reestre-fts-rf"
+      ],
+      "registry_verified_on_fts": false,
+      "services": [
+        "таможенный представитель",
+        "международная логистика (Польша→РФ: авто и ж/д преимущественно через Беларусь; море через СПб)",
+        "оформление продуктов питания"
+      ],
+      "food_drinks_eu_evidence": [
+        "Страница «Доставка грузов из Польши в Россию» (маршруты через Беларусь)",
+        "Страница «Таможенное оформление продуктов питания»"
+      ],
+      "evidence_urls": [
+        "https://a-rt-marine.com/dostavka-gruzov-iz-polshi-v-rossiyu",
+        "https://a-rt-marine.com/tamozhennoe-oformlenie-produktov-pitaniya"
+      ],
+      "chestny_znak": "не указано — уточнить",
+      "notes": "ИНН на сайте в текстовом виде не найден (страница реквизитов пустая) — запросить. Номер в реестре — на 1 URL."
+    },
+    {
+      "name": "АО «Фирма «ГТК-Сервис» / ООО «Компания ГТК-С»",
+      "brand": "ГТК Сервис",
+      "inn": null,
+      "inn_source": null,
+      "ogrn": null,
+      "city": "Москва (пр-д Дежнёва, 1, БЦ «Дежнёв Плаза», оф. 312)",
+      "site": "https://www.gtk-s.ru/",
+      "phones": [
+        "+7 (495) 510-64-74",
+        "8 (800) 234-11-20"
+      ],
+      "emails": [
+        "info@gtk-s.ru"
+      ],
+      "contact_urls": [
+        "https://www.gtk-s.ru/",
+        "https://www.gtk-s.ru/contacts.html",
+        "https://www.gtk-s.ru/logisticheskie-uslugi/mezhdunarodnyie-perevozki/evropa/polsha/"
+      ],
+      "verified": true,
+      "customs_rep_registry_no": null,
+      "registry_date": null,
+      "registry_urls": [
+        "https://www.gtk-s.ru/about/"
+      ],
+      "registry_verified_on_fts": false,
+      "services": [
+        "таможенный представитель (на сайте — «Базовые свидетельства» о включении в реестр для обоих юрлиц, номер в тексте не указан)",
+        "логистика из Европы, в т.ч. Польша",
+        "сертификация/декларирование, СГР Роспотребнадзора",
+        "ввоз маркируемого товара"
+      ],
+      "food_drinks_eu_evidence": [
+        "Страница «Продукты питания»",
+        "Страница «Грузоперевозки из Польши в Москву»",
+        "Услуги по сертификации (декларации, СГР)"
+      ],
+      "evidence_urls": [
+        "https://www.gtk-s.ru/vidyi-tamozhennyix-gruzov/produktyi-pitaniya.html",
+        "https://www.gtk-s.ru/logisticheskie-uslugi/mezhdunarodnyie-perevozki/evropa/polsha/",
+        "https://www.gtk-s.ru/uslugi-po-sertifikaczii/"
+      ],
+      "chestny_znak": "раздел «Ввоз маркируемого товара» — без деталей по напиткам",
+      "notes": "Номер в реестре и ИНН не найдены в тексте сайта (вероятно, только сканы) — запросить и сверить по ФТС. Работают с 1995 г. (по сайту)."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "name": "Русская Брокерская Компания (rusbrokcom.ru)",
+      "reason": "номер в реестре 1381 от 29.09.2021 виден только в выдаче поисковика; у сайта просрочен SSL-сертификат, страницу открыть не удалось — не включено в основной список"
+    },
+    {
+      "name": "ООО «Универсальные Грузовые Решения» (ucsol.ru)",
+      "reason": "есть страницы о доставке из Польши и продуктах питания, но номера в реестре таможенных представителей и ИНН на сайте не найдено"
+    },
+    {
+      "name": "Wiegand Logistics (wiegand-logistics.ru)",
+      "reason": "логистика из Польши/Литвы, но номер в реестре таможенных представителей на сайте не найден"
+    },
+    {
+      "name": "ООО «Мэйджор Карго Сервис»",
+      "reason": "исторически в реестре (ИНН 7733147600, приказы ФТС 2011–2017), но актуальный статус и профиль под напитки не подтверждены"
+    }
+  ],
+  "guide": {
+    "summary_verdict": "Таможенно-технически ввоз реализуем (2202 не под санкционными запретами ЕС, пошлина 8%), НО главный юридический риск — товарный знак: Red Bull/2202 не найден в действующем перечне параллельного импорта (ред. с 27.05.2026), а Red Bull продолжает присутствие в РФ через ООО «Ред Булл (Рус)». Ввоз оригинала, купленного в Польше, без согласия Red Bull GmbH = нарушение исключительного права (ст. 1487, 1515 ГК РФ): риск приостановки выпуска по ТРОИС (10+10 раб. дней), изъятия и компенсации. Брокер это не «лечит». Законно — только при письменном согласии правообладателя/через официальный канал, либо если бренд будет включён в перечень Минпромторга.",
+    "hs_code": {
+      "recommended": "2202 10 000 0 — «воды, включая минеральные и газированные, содержащие добавки сахара или других подслащивающих или вкусо-ароматических веществ» (газированный энергетик Red Bull, включая Sugarfree)",
+      "alternative": "2202 99 180 0 — прочие безалкогольные напитки без молочных компонентов (если таможня сочтёт продукт не «водой»). Коды 2202 99 910/950/990 — для напитков с молочным жиром, к Red Bull не относятся.",
+      "duty_2202100000": "8%, но не менее 0,02 €/л",
+      "duty_2202991800": "8%, но не менее 0,03 €/л",
+      "advice": "Запросить предварительное классификационное решение ФТС или опираться на практику брокера; в белорусских ПКР энергетик в банке 269 мл отнесён к 2202 10 000 0.",
+      "sources": [
+        "https://www.ifcg.ru/kb/tnved/2202100000/",
+        "https://www.ifcg.ru/kb/tnved/2202991800/",
+        "https://www.tws.by/tws/tnved/classdecisions/1/3129"
+      ]
+    },
+    "eu_side": {
+      "annex_XVIII_luxury": "Ст. 3h Регл. 833/2014 запрещает продажу/экспорт в РФ товаров Прил. XVIII дороже 300 € за единицу. В главе 22 Прил. XVIII перечислены только ex 2203, 2204, 2205, 2206, 2207 10, 2208 (пиво, вино, спиртное). Код 2202 в Прил. XVIII (и, по сводной таблице, в Прил. XXI/XXIII) не значится; к тому же банка Red Bull многократно дешевле 300 €. Сверить с консолидированным текстом на EUR-Lex (из среды не открылся).",
+      "anti_circumvention": "Ст. 12 (запрет участия в обходе), ст. 12g «No Russia clause» обязательна для Прил. XI, XX, XXXV, CHPL и оружия — 2202 к ним не относится, но польские банки/таможня применяют усиленный KYC. Ст. 3l: перевозчикам, учреждённым в РФ/РБ, запрещено перевозить грузы по территории ЕС (в т.ч. транзит).",
+      "polish_seller_requirements": [
+        "экспортная декларация в Польше (EX), страна назначения — РФ; прозрачный контракт с конечным покупателем",
+        "скрининг покупателя/банков/перевозчика по спискам ЕС (Прил. I 269/2014 и др.), отсутствие госучастия по ст. 5aa",
+        "платёж через банк, принимающий такие операции (практически — главный барьер)",
+        "договор с Red Bull/дистрибьютором у польского продавца может запрещать продажу за пределы ЕЭЗ — это его договорный риск, а для покупателя — подтверждение отсутствия согласия правообладателя"
+      ],
+      "sources": [
+        "https://wiki.private.law/en/goods-under-eu-sanctions.md",
+        "https://finance.ec.europa.eu/system/files/2023-06/faqs-sanctions-russia-road-transport_en.pdf"
+      ]
+    },
+    "ru_side": {
+      "parallel_import": {
+        "status": "В действующей редакции перечня (приказ Минпромторга № 2701 от 21.07.2023, ред. с 27.05.2026) в группе 22 указан только код 2208; 2202 и товарные знаки Red Bull не упоминаются (проверено по зеркалу advokat-kk.ru; на официальном портале не проверено).",
+        "red_bull_presence": "Red Bull с марта 2022 приостановил маркетинг и инвестиции, но не ушёл: ООО «Ред Булл (Рус)» зарегистрировано и ведёт деятельность (leave-russia.org, обновление 30.04.2026).",
+        "troyis": "Знаки Red Bull GmbH вносились в ТРОИС ФТС (письма ФТС 2008–2012 гг., номера вида 02466/02148-001/ТЗ-230812, уполномоченный импортёр — ООО «Ред Булл (Рус)»); актуальность записи на 2026 не проверена — сверить в ТРОИС.",
+        "sources": [
+          "https://www.advokat-kk.ru/2022/04/parallelnyy-import.html",
+          "https://leave-russia.org/red-bull",
+          "https://pravo.ppt.ru/pismo/fts/n-14-42-43177-142480"
+        ]
+      },
+      "duty": "8% (не менее 0,02 €/л) по 2202 10 000 0; база — таможенная стоимость (инвойс + доставка до границы ЕАЭС + страховка).",
+      "vat": "22% с 2026 г. от (таможенная стоимость + пошлина + акциз). Платится на таможне всегда, независимо от УСН. Для ГИДРОПАС на УСН: если не плательщик НДС — ввозной НДС к вычету не принимается, становится расходом (при УСН «доходы минус расходы» учитывается в расходах, при «доходах» — нет); если плательщик НДС по ставке 5%/7% — вычет ввозного НДС невозможен; при выборе общей ставки 22% — вычет возможен. Проверить, превышен ли в 2026 порог дохода (с 2026 г. — 20 млн руб.) для обязанности платить НДС на УСН.",
+      "excise_sugar_drinks": "11 руб./л в 2026 г. (10 руб./л в 2025) для напитков с содержанием сахара (углеводов) более 5 г/100 мл. Red Bull классический (~11 г сахара/100 мл) — подакцизный; Red Bull Sugarfree (подсластители) — по составу, вероятно, нет (проверить). При импорте акциз уплачивает декларант на таможне.",
+      "excise_sources": [
+        "https://dairynews.today/kz/news/v-rossii-s-2026-goda-aktsiz-na-sakharosoderzhashchie-napitki-uvelichen-na-10-do-11-rub-za-litr.html",
+        "https://sbcargo.ru/poleznaya-informatsiya/tamozhennoe-oformlenie-i-dostavka-gazirovannykh-i-energeticheskikh-napitkov/"
+      ],
+      "technical_regulations": {
+        "TR_TS_021_2011": "безопасность пищевой продукции; для тонизирующих напитков кофеин не более 400 мг/дм³ (Red Bull ~320 мг/л — укладывается; таурин и пр. — сверить с регламентом). Подтверждение соответствия — декларация о соответствии (протоколы аккредитованной лаборатории); партия может декларироваться импортёром. СГР по ст. 24 нужна для специализированной продукции; отдельные брокеры пишут о СГР для тонизирующих напитков — уточнить у органа по сертификации.",
+        "TR_TS_022_2011": "маркировка на русском языке (допускается стикер импортёра): наименование, состав, пищевая ценность, срок годности, изготовитель/импортёр, знак ЕАС; для напитков с кофеином >150 мг/л — указание о повышенном содержании кофеина и о нерекомендовании детям, беременным и т.п. (точную формулировку сверить с п. 4.4 ТР ТС 022/2011).",
+        "TR_TS_029_2012": "требования к пищевым добавкам/ароматизаторам в составе (подсластители, красители, консерванты) — проверить состав по допустимым E-кодам и уровням.",
+        "TR_TS_005_2011": "упаковка (алюминиевая банка) — обычно покрывается документами изготовителя.",
+        "sources": [
+          "https://www.roskachestvo.gov.ru/about/competence/haccp/docs/TR_TS_021_2011.pdf",
+          "https://bobruisk.gov.by/sites/default/files/2026-01/razyasnenie-247-torgovlya.pdf",
+          "https://bazanasalova.ru/blog/markirovka-sertifikaciya-bezalkogolnyh-napitkov-ceshnyj-znak"
+        ]
+      },
+      "chestny_znak": {
+        "rule": "Безалкогольные напитки в алюминиевых банках — обязательная маркировка с 01.03.2024 (ПП РФ № 887 от 31.05.2023). При ввозе из третьих стран каждый товар должен быть промаркирован ДО помещения под выпуск для внутреннего потребления; коды указываются в гр. 31 ДТ; после выпуска — документ «Ввод в оборот → Импорт с ФТС» в ГИС МТ (УКЭП). С 2025 г. действует проверка наличия разрешительной документации (декларации соответствия) при вводе в оборот.",
+        "how_import_is_marked": [
+          "вариант A: нанесение DataMatrix-стикеров у отправителя/на складе в ЕС до отгрузки (Transportir заявляет такую услугу)",
+          "вариант B (типовой): ввоз без кодов → помещение под процедуру таможенного склада в РФ → печать и наклейка кодов + русской этикетки → отчёт о нанесении → ДТ на выпуск (ВЛК/«Западные ворота», СБ Карго)"
+        ],
+        "cost": "эмиссия кода ~0,50 руб. без НДС за единицу + печать/наклейка (у складов — по запросу; ориентир 2–6 руб./банка, оценка)",
+        "prereq": "регистрация ГИДРОПАС в Честном ЗНАКе и Национальном каталоге, договор с оператором, ЭДО, УКЭП",
+        "sources": [
+          "https://markirovka.ru/knowledge/tovarnye-gruppy/bezalcohol-napitki/vvoz-tovarov-s-territorii-stran-ne-yavlyayushchikhsya-chlenami-eaes-ba-napitki",
+          "https://markirovka.ru/knowledge/tovarnye-gruppy/bezalcohol-napitki/proverka-nalichiya-razreshitelnoy-dokumentatsii-pri-vvode-v-oborot-ba-napitki",
+          "https://sbcargo.ru/poleznaya-informatsiya/markirovka-na-tamozhennom-sklade/",
+          "https://getmark.ru/blog/o-markirovke/import-markirovannix-tovarov-iz-fts-kak-rabotaet-svyazka-s-chestnim-znakom/"
+        ]
+      },
+      "minors_and_ads": "Продажа тонизирующих напитков несовершеннолетним запрещена с 01.03.2025 (ФЗ № 304-ФЗ от 08.08.2024); с 01.03.2026 — ограничения рекламы энергетиков (ФЗ № 393-ФЗ от 27.10.2025). Регионы могут запрещать продажу в школах, больницах и т.п.",
+      "minors_sources": [
+        "https://harant.ru/blog/administrativnoe-pravo/v-rossii-s-1-marta-vstupili-v-silu-ogranicheniya-na-prodazhu-energetikov/",
+        "https://ppt.ru/obzory/vstupaet-v-silu/federalnyy-zakon-27-10-2025-393-fz"
+      ]
+    },
+    "logistics_2026": {
+      "constraints": [
+        "Перевозчикам, учреждённым в РФ/РБ, запрещено возить грузы по ЕС (ст. 3l Регл. 833/2014); грузовикам из ЕС закрыт въезд в РФ (ответная мера РФ с 10.10.2022, продлевалась; текущий срок не проверен) — поэтому полный рейс одной машиной Польша→Москва невозможен.",
+        "Очереди на польско-белорусской границе: на 19.10.2026 — более 940 фур в направлении Польши (Кукурыки–Козловичи, Бобровники–Берестовица); летом 2026 — 400–660 фур. Направление в Беларусь обычно короче, но учитывать риск внезапных закрытий (в сентябре 2025 Польша закрывала переходы).",
+        "Маршрут через Литву: Беларусь запрещает ввоз с территории Литвы ряда товаров, включая воды (в т.ч. с сахаром) 2202 — продлено до 31.12.2027 (ПСМ № 145 от 30.03.2026, по данным neg.by); применимость к транзиту в РФ уточнить — на практике маршрут LT→BY для 2202 рискованный.",
+        "Латвия (Терехова–Бурачки) — состояние перехода на 2026 не проверено."
+      ],
+      "typical_schemes": [
+        "Польский перевозчик → терминал у границы (Малашевиче/Тересполь) или белорусская пограничная зона → перецепка/перегруз на белорусский/российский транспорт → транзит через РБ (гарантия Белтаможсервиса) → таможня назначения в РФ (Московский регион/Смоленск) → СВХ/таможенный склад → маркировка → выпуск",
+        "Ж/д: перегруз Малашевиче–Брест (колея 1435/1520), далее ж/д до Москвы",
+        "Сборный груз через консолидатора (напр., терминал Transportir в Błonie)"
+      ],
+      "costs_and_time": {
+        "LTL_Warsaw_Moscow_Q1_2026": "1 EP — 490 €, 3 EP — 830 €, 5 EP — 1 180 €, 10 EP — 2 060 € (Transportir, обновлено I кв. 2026), ~5 дней с таможней",
+        "FTL_Poland_Moscow": "на сайтах: «от 2 200 €» (тент 82 м³, дата не указана), «от 2 900 €», до 5 800 € за машину; реалистичный ориентир для 20–22 т банок с перецепкой/перегрузом в 2026 г. — 3 500–6 500 € (оценка, требует котировки)",
+        "transit_time": "5–10 дней в зависимости от очереди на границе",
+        "sources": [
+          "https://transportir.ru/services/dostavka-gruzov-polsha/",
+          "https://www.dtod.ru/service/dostavka-gruzov-iz-polshi/",
+          "https://www.parity-log.ru/transportnye-uslugi/mezhdunarodnye-avtoperevozki/pol-sha/",
+          "https://www.tks.ru/logistics/2026/10/20/0005/ochered-gruzovikov-v-polshu-i-litvu-iz-belorussii-rezko-vyirosla-za-vyhodnye/",
+          "https://neg.by/novosti/otkrytj/zapret-na-vvoz-iz-litvy-alkogolya-shin-i-beushnykh-zapchastey-prodlili-do-kontsa-2027-goda/"
+        ]
+      }
+    },
+    "landed_cost_estimate": {
+      "assumptions": "Фура ~20 т ≈ 74 000 банок 250 мл (≈18 500 л), закупка ≈0,75 €/банка → инвойс ≈55 000 €; фрахт 5 000 € (≈9%); курс ≈92 руб./€; классический Red Bull (подакцизный). Все цифры — оценка, не котировка.",
+      "items_pct_of_invoice": {
+        "logistics_PL_to_Moscow": "6–12%",
+        "customs_duty_8pct_on_CV": "≈8,5% (стоимость с учётом доставки до границы)",
+        "excise_11_rub_per_l": "≈4% (≈203 тыс. руб.)",
+        "customs_fee": "≈0,5–1%",
+        "broker_SVH_customs_warehouse": "≈1–2%",
+        "marking_codes_and_russian_stickers": "≈3–8% (0,5 руб. код + печать/наклейка 2–6 руб./банка)",
+        "conformity_declaration_lab_tests": "≈1–2% на первую партию",
+        "import_VAT_22pct": "≈26% (22% от CV+пошлина+акциз)"
+      },
+      "total": "≈ +25–35% к инвойсу без НДС; ≈ +50–60% с ввозным НДС (для ГИДРОПАС на УСН без права вычета НДС — это реальная себестоимость). Не включает риск/издержки по претензиям правообладателя.",
+      "note": "Для Red Bull Sugarfree акциз, вероятно, не начисляется (−4 п.п.)."
+    },
+    "action_plan": [
+      "1. Юридически: запросить у Red Bull GmbH/ООО «Ред Булл (Рус)» или у польского дистрибьютора письменное согласие правообладателя на ввоз в РФ; без него — не ввозить (риск изъятия/компенсации). Проверить ТРОИС.",
+      "2. Получить от 2–3 брокеров из списка (ВЛК/Виклайн, СБ Карго, Transportir) расчёт: код ТН ВЭД, платежи, маркировка на таможенном складе, стикер на русском.",
+      "3. Зарегистрировать ГИДРОПАС в Честном ЗНАКе и Нацкаталоге, оформить декларацию о соответствии (ТР ТС 021/022/029) на партию.",
+      "4. Согласовать с польским продавцом экспортную декларацию, платёжный канал, перевозчика ЕС до границы и перецепку."
+    ]
+  },
+  "sources": [
+    {
+      "title": "Annex XVIII / XXI 833/2014 — сводная таблица (wiki.private.law)",
+      "url": "https://wiki.private.law/en/goods-under-eu-sanctions.md",
+      "date": "2025–2026"
+    },
+    {
+      "title": "EC FAQ road transport (art. 3l)",
+      "url": "https://finance.ec.europa.eu/system/files/2023-06/faqs-sanctions-russia-road-transport_en.pdf",
+      "date": "2023"
+    },
+    {
+      "title": "Перечень параллельного импорта, ред. с 27.05.2026 (зеркало)",
+      "url": "https://www.advokat-kk.ru/2022/04/parallelnyy-import.html",
+      "date": "2026"
+    },
+    {
+      "title": "Изменения перечня, приказ № 4769 от 26.09.2025",
+      "url": "https://www.glavbukh.ru/art/388238-parallelniy-import",
+      "date": "2025–2026"
+    },
+    {
+      "title": "Red Bull — статус в РФ",
+      "url": "https://leave-russia.org/red-bull",
+      "date": "30.04.2026"
+    },
+    {
+      "title": "Письмо ФТС о товарных знаках Red Bull (ТРОИС)",
+      "url": "https://pravo.ppt.ru/pismo/fts/n-14-42-43177-142480",
+      "date": "2012"
+    },
+    {
+      "title": "ТН ВЭД 2202 10 000 0 — ставки (ifcg)",
+      "url": "https://www.ifcg.ru/kb/tnved/2202100000/",
+      "date": "2026"
+    },
+    {
+      "title": "ТН ВЭД 2202 99 180 0 — ставки (ifcg)",
+      "url": "https://www.ifcg.ru/kb/tnved/2202991800/",
+      "date": "2026"
+    },
+    {
+      "title": "ПКР: энергетик в банке → 2202 10 000 0 (tws.by)",
+      "url": "https://www.tws.by/tws/tnved/classdecisions/1/3129",
+      "date": "n/a"
+    },
+    {
+      "title": "Акциз на сахаросодержащие напитки 11 руб./л с 2026",
+      "url": "https://dairynews.today/kz/news/v-rossii-s-2026-goda-aktsiz-na-sakharosoderzhashchie-napitki-uvelichen-na-10-do-11-rub-za-litr.html",
+      "date": "2025–2026"
+    },
+    {
+      "title": "Честный ЗНАК: ввоз БА-напитков из третьих стран",
+      "url": "https://markirovka.ru/knowledge/tovarnye-gruppy/bezalcohol-napitki/vvoz-tovarov-s-territorii-stran-ne-yavlyayushchikhsya-chlenami-eaes-ba-napitki",
+      "date": "2025–2026"
+    },
+    {
+      "title": "Честный ЗНАК: проверка разрешительной документации",
+      "url": "https://markirovka.ru/knowledge/tovarnye-gruppy/bezalcohol-napitki/proverka-nalichiya-razreshitelnoy-dokumentatsii-pri-vvode-v-oborot-ba-napitki",
+      "date": "2025"
+    },
+    {
+      "title": "Маркировка на таможенном складе (СБ Карго)",
+      "url": "https://sbcargo.ru/poleznaya-informatsiya/markirovka-na-tamozhennom-sklade/",
+      "date": "2026"
+    },
+    {
+      "title": "ТР ТС 021/2011 (текст)",
+      "url": "https://www.roskachestvo.gov.ru/about/competence/haccp/docs/TR_TS_021_2011.pdf",
+      "date": "—"
+    },
+    {
+      "title": "Запрет продажи энергетиков несовершеннолетним с 01.03.2025 (304-ФЗ)",
+      "url": "https://harant.ru/blog/administrativnoe-pravo/v-rossii-s-1-marta-vstupili-v-silu-ogranicheniya-na-prodazhu-energetikov/",
+      "date": "2025"
+    },
+    {
+      "title": "393-ФЗ о рекламе энергетиков с 01.03.2026",
+      "url": "https://ppt.ru/obzory/vstupaet-v-silu/federalnyy-zakon-27-10-2025-393-fz",
+      "date": "2025–2026"
+    },
+    {
+      "title": "Очереди на границе РБ–ПЛ, 19.10.2026",
+      "url": "https://www.tks.ru/logistics/2026/10/20/0005/ochered-gruzovikov-v-polshu-i-litvu-iz-belorussii-rezko-vyirosla-za-vyhodnye/",
+      "date": "20.10.2026"
+    },
+    {
+      "title": "Очереди фур, июнь 2026",
+      "url": "https://sputnik.by/20260630/ocheredi-fur-na-granitse-s-polshey-i-litvoy-prodolzhayut-rasti-1108642929.html",
+      "date": "30.06.2026"
+    },
+    {
+      "title": "Запрет РБ на ввоз из Литвы продлён до 31.12.2027",
+      "url": "https://neg.by/novosti/otkrytj/zapret-na-vvoz-iz-litvy-alkogolya-shin-i-beushnykh-zapchastey-prodlili-do-kontsa-2027-goda/",
+      "date": "2026"
+    },
+    {
+      "title": "Тарифы Польша→РФ (Transportir, I кв. 2026)",
+      "url": "https://transportir.ru/services/dostavka-gruzov-polsha/",
+      "date": "Q1 2026"
+    },
+    {
+      "title": "Тарифы Польша→Москва (DTOD)",
+      "url": "https://www.dtod.ru/service/dostavka-gruzov-iz-polshi/",
+      "date": "n/a"
+    }
+  ]
+}
