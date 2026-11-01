@@ -1,5 +1,5 @@
 """Камчатка: вписать в ОФИЦИАЛЬНУЮ форму КП заказчика (data/kamch/forms/kp_form_official.xlsx) зелёные столбцы 6–8:
-страна, наименование реестра и № реестровой записи ПП 719, производитель (data/kamch/forms/kp_form_map.json). Правка XML — форма заказчика
+страна, наименование реестра и № реестровой записи ПП 719, производитель; столбец 10 — цена единицы (НМЦ ед. × k под итог 84 518 812,74 ₽) (data/kamch/forms/kp_form_map.json). Правка XML — форма заказчика
 (проверки данных, форматы, формулы) не меняется. Позиции без записи остаются «…». → ../KAMCHATKA_ZAYAVKA/02a_КП_официальная_форма_заполнено.xlsx"""
 import json, zipfile
 from lxml import etree
@@ -8,6 +8,15 @@ FM = json.load(open("data/kamch/forms/kp_form_map.json"))
 z = zipfile.ZipFile("data/kamch/forms/kp_form_official.xlsx"); root = etree.fromstring(z.read("xl/worksheets/sheet1.xml"))
 rows = {int(r.get("r")): r for r in root.find(f"{{{NS}}}sheetData").findall(f"{{{NS}}}row")}
 cn = lambda ref: sum((ord(ch) - 64) * 26 ** i for i, ch in enumerate(reversed("".join(c for c in ref if c.isalpha()))))
+import os
+PR = json.load(open("data/kamch/forms/kp_prices_84518812.json")) if os.path.exists("data/kamch/forms/kp_prices_84518812.json") else {}
+def setnum(row, ref, val):
+    c = row.find(f'{{{NS}}}c[@r="{ref}"]')
+    for ch in list(c): c.remove(ch)
+    if "t" in c.attrib: del c.attrib["t"]
+    etree.SubElement(c, f"{{{NS}}}v").text = repr(round(val, 2))
+for tt, v in FM.items():
+    if tt in PR: setnum(rows[v["row"]], f'L{v["row"]}', PR[tt])
 n = 0
 for tt, v in FM.items():
     if not v["val"]: continue
