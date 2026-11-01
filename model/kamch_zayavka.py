@@ -31,6 +31,7 @@ Y = PatternFill("solid", fgColor="FFF2CC"); RD = PatternFill("solid", fgColor="F
 
 # ---------- цены: НМЦ единицы из официальной формы КП заказчика × (1 − DISC) — ни одна цена не выше НМЦ единицы
 FM = json.load(open("data/kamch/forms/kp_form_map.json"))
+CO = json.load(open("data/kamch/forms/country_only.json")) if os.path.exists("data/kamch/forms/country_only.json") else {}
 PRF = "data/kamch/forms/kp_prices_84518812.json"
 price = json.load(open(PRF)) if os.path.exists(PRF) and len(sys.argv) < 2 else {t: round(FM[t]["nmc"] * (1 - DISC), 2) for t in order}  # итог 84 518 812,74 ₽ — пропорционально НМЦ ед.
 TOTAL = round(sum(price[t] * rows[t]["q"] for t in order), 2)
@@ -60,7 +61,7 @@ for i, t in enumerate(order, 1):
     v = CHK.get(t, {}).get("verdict")
     if v and str(v).lower().startswith("не соотв"): cm.append("КП поставщика не соответствует ТЗ — нужна замена")
     if price[t] < rows[t]["our"] * 0.9 * 0.98: cm.append(f'цена ниже нашей себестоимости ({rows[t]["our"] * 0.9:,.0f})')
-    ws.append([i, t, z["Наименование"], "Ограничение (ПП РФ от 23.12.2024 № 1875, Прил. 2)", z.get("unit", "шт"), z["qty"], "Россия" if num else "", reg, man, FM[t]["nmc"], price[t], None, "; ".join(cm)])
+    ws.append([i, t, z["Наименование"], "Ограничение (ПП РФ от 23.12.2024 № 1875, Прил. 2)", z.get("unit", "шт"), z["qty"], "Россия" if num or t in CO else "", reg, man, FM[t]["nmc"], price[t], None, "; ".join(cm)])
     X = ws.max_row; ws.cell(X, 12).value = f"=ROUND(F{X}*K{X},2)"
     for j in (10, 11, 12): ws.cell(X, j).number_format = M
     ws.cell(X, 10).fill = Y

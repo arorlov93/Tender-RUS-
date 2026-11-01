@@ -31,6 +31,11 @@ for tt, v in FM.items():
         for ch in list(c): c.remove(ch)
         c.set("t", "inlineStr"); t = etree.SubElement(etree.SubElement(c, f"{{{NS}}}is"), f"{{{NS}}}t"); t.text = text
     n += 1
+CO = json.load(open("data/kamch/forms/country_only.json")) if os.path.exists("data/kamch/forms/country_only.json") else {}
+for tt, country in CO.items():  # режим «преимущество»: номер реестра не обязателен — только страна происхождения
+    row = rows[FM[tt]["row"]]; ref = f'H{FM[tt]["row"]}'; c = row.find(f'{{{NS}}}c[@r="{ref}"]')
+    for ch in list(c): c.remove(ch)
+    c.set("t", "inlineStr"); etree.SubElement(etree.SubElement(c, f"{{{NS}}}is"), f"{{{NS}}}t").text = country
 out = "../KAMCHATKA_ZAYAVKA/02a_КП_официальная_форма_заполнено.xlsx"
 with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as w:
     for it in z.infolist():
