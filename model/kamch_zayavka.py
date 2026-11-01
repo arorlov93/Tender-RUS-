@@ -29,11 +29,9 @@ OUT = "../KAMCHATKA_ZAYAVKA"; shutil.rmtree(OUT, ignore_errors=True); os.makedir
 thin = Side(style="thin", color="999999"); BOX = Border(top=thin, bottom=thin, left=thin, right=thin); M = '#,##0.00'
 Y = PatternFill("solid", fgColor="FFF2CC"); RD = PatternFill("solid", fgColor="F8CBAD"); G = PatternFill("solid", fgColor="E2EFDA")
 
-# ---------- цены: итог = НМЦК × (1 − DISC), распределение пропорционально нашей проверенной цене (НМЦ по позициям заказчиком не раскрыта)
-tot = N * (1 - DISC); base = sum(rows[t]["our"] * rows[t]["q"] for t in order); k = tot / base
-price = {t: round(rows[t]["our"] * k, 2) for t in order}
-diff = round(tot - sum(price[t] * rows[t]["q"] for t in order), 2)  # копейки — на позицию с qty=1
-fix = next(t for t in order if rows[t]["q"] == 1); price[fix] = round(price[fix] + diff, 2)
+# ---------- цены: НМЦ единицы из официальной формы КП заказчика × (1 − DISC) — ни одна цена не выше НМЦ единицы
+FM = json.load(open("data/kamch/forms/kp_form_map.json"))
+price = {t: round(FM[t]["nmc"] * (1 - DISC), 2) for t in order}
 TOTAL = round(sum(price[t] * rows[t]["q"] for t in order), 2)
 
 def rub(x): return f"{x:,.2f}".replace(",", " ").replace(".", ",")
@@ -59,7 +57,8 @@ for i, t in enumerate(order, 1):
     if not man: cm.append("производитель не подтверждён"); nok["man"] += 1
     v = CHK.get(t, {}).get("verdict")
     if v and str(v).lower().startswith("не соотв"): cm.append("КП поставщика не соответствует ТЗ — нужна замена")
-    ws.append([i, t, z["Наименование"], "Ограничение (ПП РФ от 23.12.2024 № 1875, Прил. 2)", z.get("unit", "шт"), z["qty"], "Россия" if num else "", reg, man, None, price[t], None, "; ".join(cm)])
+    if price[t] < rows[t]["our"] * 0.9 * 0.98: cm.append(f'цена ниже нашей себестоимости ({rows[t]["our"] * 0.9:,.0f})')
+    ws.append([i, t, z["Наименование"], "Ограничение (ПП РФ от 23.12.2024 № 1875, Прил. 2)", z.get("unit", "шт"), z["qty"], "Россия" if num else "", reg, man, FM[t]["nmc"], price[t], None, "; ".join(cm)])
     X = ws.max_row; ws.cell(X, 12).value = f"=ROUND(F{X}*K{X},2)"
     for j in (10, 11, 12): ws.cell(X, j).number_format = M
     ws.cell(X, 10).fill = Y
@@ -188,7 +187,7 @@ sign(d); d.save(f"{OUT}/06_Справка_об_опыте_(шаблон).docx")
 # ---------- 7. Опись + чек-лист
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Опись и чек-лист"
 ws.append(["Камчатскэнерго 32616346943 — заявка ООО «ГИДРОПАС»: состав и готовность (подача до 02.11.2026 10:00 МСК, конкурс в эл. форме, организатор АО «РусГидро Снабжение»)"]); ws["A1"].font = Font(bold=True, size=12)
-ws.append([f"Итоговая цена заявки: {rub(TOTAL)} руб. без НДС (снижение {DISC:.0%} от НМЦК {rub(N)} руб.). Цены по позициям — пропорционально рыночной себестоимости; проверить, что ни одна цена единицы не выше НМЦ единицы из формы КП заказчика (столбец 10)."])
+ws.append([f"Итоговая цена заявки: {rub(TOTAL)} руб. без НДС (снижение {DISC:.0%} от НМЦК {rub(N)} руб.). Цена каждой позиции = НМЦ единицы из официальной формы КП × (1 − снижение) — ни одна цена не выше НМЦ единицы. Номера реестра, страна и производитель внесены в официальную форму: 02a_КП_официальная_форма_заполнено.xlsx."])
 ws.append(["№", "Документ", "Файл", "Статус", "Что сделать до подачи"])
 for c in ws[3]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
 CH = [("Письмо о подаче оферты (форма 2)", "01_Письмо_о_подаче_оферты.docx", "готово — проверить", "дата/номер, вариант про аккредитацию РусГидро, ФИО и подпись руководителя, печать"),
