@@ -33,6 +33,7 @@ OLD = {"Задвижки": old_unit("data/kamch/kp/dnru_819892.json"), "Клап
 TULA = json.load(open("data/kamch/kp/tula_10-160.json")); LIDER = {x["tt"]: x for x in json.load(open("data/kamch/kp/lider-energo_2022.json"))["items"]}
 ADL = {x["tt"]: x for x in json.load(open("data/kamch/kp/adl_utd112759.json"))["items"]}
 KIP = {x["tt"]: x for x in json.load(open("data/kamch/kp/kipika_0110.json"))["items"]}
+_TG = json.load(open("data/kamch/kp/teplogrand_match.json")); TG = {x["tt"]: x for x in _TG["out"]}; TG.update(_TG["pdz"])  # Теплогранд, счёт УТ-3289 (LD), вариант 1
 # ДН.РУ: позиции «в работе» (письмо 26.10) и вопросы по Kvs
 PEND = {"Задвижки": {2: "ДН.РУ подбирает"}, "Клапаны": {4: "ДН.РУ подбирает", 9: "ДН.РУ подбирает", 10: "ДН.РУ подбирает", 11: "ДН.РУ подбирает", 20: "ДН.РУ подбирает",
         21: "ДН.РУ подбирает", 58: "ДН.РУ подбирает (Dungs — импорт, нужен рос. аналог)", 68: "ДН.РУ подбирает", 69: "ДН.РУ подбирает",
@@ -78,6 +79,10 @@ for g in ("Задвижки", "Клапаны", "Краны", "Затворы", 
             d.update(inv=float(ADL[d["tt"]]["unit_vat"]), sup="ТД АДЛ (Гранвэл)", offer=ADL[d["tt"]]["name"] + " — Россия, ЗПВС в реестре МПТ", srok="0–2 нед., 100% предоплата, самовывоз Лыткарино")
         elif d["tt"] in LIDER:
             d.update(inv=float(LIDER[d["tt"]]["unit_vat"]), sup="Лидер-Энерго", offer=LIDER[d["tt"]]["name"] + " (подтвердить полное обозначение по ТЗ)", srok="1–3 раб. дня, 100% предоплата")
+        elif d["tt"] in TG:
+            x = TG[d["tt"]]
+            d.update(inv=float(x["price"] + x["kof"]), sup="Теплогранд (LD)", offer=x["offer"] + (" + КОФ" if x["kof"] else ""), srok="склад, 100% предоплата, счёт 3 дня, самовывоз")
+            d["flags"] += [("BAD:" if x.get("bad") else "COND:") + f for f in x["flags"]]
         elif d["tt"] in KIP:
             d.update(inv=float(KIP[d["tt"]]["unit_vat"]), sup="КИПИКА (прайс 01.10)", offer=KIP[d["tt"]]["name"], srok="со склада, доставка ТК")
             d["flags"].append("COND:" + KIP[d["tt"]]["check"])
