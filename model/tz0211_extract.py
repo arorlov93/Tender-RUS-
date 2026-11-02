@@ -19,7 +19,7 @@ save("5044_GTE_MO_electro", [dict(n=int(r[0]), name=str(r[1]).strip(), spec=str(
 # 5036/КО Газпром теплоэнерго Киров — КИПиА
 R = rows(f"{X}/5d4e47e7/5036-КО/Ведомость поставки.xlsx")
 save("5036_GTE_Kirov_KIP", [dict(n=int(r[0]), name=str(r[1]).strip(), spec=str(r[8] or "")[:400], unit=r[3], qty=num(r[2]), nmc_unit=num(r[7]))
-                            for r in R[5:] if r[0] and str(r[0]).isdigit() and num(r[7])], eis="32616475914", title="Газпром теплоэнерго Киров — КИПиА (5036/КО)", deadline="06.11 (перенос)")
+                            for r in R[5:] if r[0] and str(r[0]).isdigit() and num(r[7])], eis="32616475914", title="Газпром теплоэнерго Киров — КИПиА (5036/КО)", deadline="06.11 (перенос)", nmc_total=4270000, note="НМЦ — прайс-лист единичных расценок; лимит договора 4,27 млн")
 # Т Плюс Кировский — канцтовары (ОЗП 50300-18-08/1224)
 R = rows(f"{X}/073bcdda/073bcdda-1.______________1/Приложение №5 - Сведения о НМЦ.xlsx")
 save("TPlus_Kirov_kanc", [dict(n=int(r[0]), name=str(r[1]).strip(), spec="", unit=r[2], qty=num(r[3]), nmc_unit=num(r[5]))
@@ -39,7 +39,7 @@ for r in R[8:]:
     if r[1] and str(r[1]).isdigit() and num(r[17]):
         src = [num(v) for v in r[7:11] if num(v) and not str(v).endswith("*")]
         it.append(dict(n=int(r[1]), name=str(r[2]).strip(), spec=str(r[3] or ""), unit=r[5], qty=num(r[6]), nmc_unit=num(r[17]), src_min=min(src) if src else None))
-save("MAZ_metro", it, eis="32616485509", title="Петербургский метрополитен — запчасти МАЗ", deadline="06.11 10:00")
+save("MAZ_metro", it, eis="32616485509", title="Петербургский метрополитен — запчасти МАЗ", deadline="06.11 10:00", nmc_total=11000000, note="НМЦ — прайс-лист; лимит договора 11,0 млн")
 # УПТЖ для ППД (Татнефть) — арматура, цен в ТЗ нет
 R = rows(f"{X}/260b616c/260b616c-3._________________________02.11.2026.xlsx")
 save("UPTZh_Tatneft_arm", [dict(n=int(r[0]), name=str(r[1]).strip(), spec="", unit=r[2], qty=num(r[3]), nmc_unit=None) for r in R[1:] if r[0] and str(r[0]).isdigit()],
