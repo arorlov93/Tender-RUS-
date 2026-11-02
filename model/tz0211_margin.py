@@ -35,7 +35,8 @@ for code, m in META.items():
     else:
         nm_c = nm; cov = nm / m["nmc_sum"] if m["nmc_sum"] else 0
     mg = (nm_c - mk) / nm_c if nm_c else None; mg10 = (nm_c * 0.9 - mk) / (nm_c * 0.9) if nm_c else None
-    verdict = "нет данных" if mg is None else "ИДЁМ (≥20 %)" if mg10 >= 0.2 else "на грани (0–20 %)" if mg10 >= 0 else "НЕ ИДЁМ (убыток)"
+    part = f"нет НМЦ ед.; рынок по {nf}/{len(L)} найденным = {mk/total:.0%} от общей НМЦ" if (mg is None and nf and total) else None
+    verdict = (part or "нет данных") if mg is None else "ИДЁМ (≥20 %)" if mg10 >= 0.2 else "на грани (0–20 %)" if mg10 >= 0 else "НЕ ИДЁМ (убыток)"
     res.append([m["title"], m.get("eis"), m.get("deadline"), total, len(L), nf, cov, nm_c, mk, mg, mg10, verdict])
 for r in sorted(res, key=lambda r: -(r[10] if r[10] is not None else -9)):
     sv.append(r); X = sv.max_row
