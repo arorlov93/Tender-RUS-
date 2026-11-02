@@ -24,7 +24,8 @@
     "url": "https://www.regtorg.ru/goods/sol_tehnicheskaya_galit.html"
    }
   ],
-  "blocked_sources": "pulscen.ru (403/503), iletsksol.ru (503/reset), araltuz.kz (503), galitsol.ru (DNS), ulsmason.ru и board.himtrade.ru (вне разрешённых доменов сессии), rusprofile (403), all.biz (403)"
+  "blocked_sources": "pulscen.ru (403/503), iletsksol.ru (503/reset), araltuz.kz (503), galitsol.ru (DNS), ulsmason.ru и board.himtrade.ru (вне разрешённых доменов сессии), rusprofile (403), all.biz (403)",
+  "status": "final"
  },
  "kaltan": {
   "eis": "32616528963",
@@ -157,7 +158,7 @@
     "margin_total": -16690,
     "usn6_t": 590
    },
-   "note": "маржа до налога УСН; при УСН «доходы» 6% ≈ 586 ₽/т съедает почти всю маржу варианта A"
+   "note": "Маржа до налога УСН. При −10% (9 769 ₽/т) склад трейдера в Новокузнецке (9 440–9 900 ₽/т) даёт от +330 до −130 ₽/т — фактически ноль; плюс только с полным вагоном Павлодара (~8 420 ₽/т, +1 340 ₽/т), но это закупка ~60–65 т под 30 т и риск срока 10 дней. УСН «доходы» 6% ≈ 590 ₽/т дополнительно."
   },
   "makers": [
    {
