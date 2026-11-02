@@ -63,10 +63,10 @@
   "unit_note": "руб/шт",
   "product": "точно: РП21(М)-004-УХЛ4(Б) ~220В (ЭТМ 1493.27)",
   "match": "точно: РП21(М)-004-УХЛ4(Б) ~220В (ЭТМ 1493.27)",
-  "source": "ЧИП и ДИП",
+  "source": "ЧИП и ДИП (prev, НЕ перепроверено)",
   "url": "https://www.chipdip.ru/product/rp21-m-004-uhl4-b-220v",
   "alt": [],
-  "prev_ok": "не перепроверено",
+  "prev_ok": "true по соответствию (РП21(М)-004 ~220В = РП21-004 220В); цена не перепроверена — ЧиД и ЭТМ блокируют доступ",
   "in_stock": null,
   "nmc_unit": 1473.0
  },
@@ -120,171 +120,268 @@
  },
  {
   "n": 62,
-  "price": 184.16,
-  "unit_note": "руб/шт",
-  "product": "эквивалент: ЭРА SPO-801-0-002-120 IP20 под 2 LED-лампы T8 G13 1200мм",
-  "match": "эквивалент: ЭРА SPO-801-0-002-120 IP20 под 2 LED-лампы T8 G13 1200мм",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/8682280",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 580,
+  "unit_note": "руб/шт с НДС (по поисковой выдаче; от 10 шт ~530)",
+  "product": "Navigator DPO-04-1200-IP20-2xT8-G13 (арт. 61299), под 2 LED-лампы T8 G13, 1230×115×50 мм",
+  "match": "эквивалент: габариты 1230×115×50 совпадают с ТЗ точно; маркировка ДПО (накладной потолочный)",
+  "source": "Престиж (prestig.ru) — цена из поисковой выдачи, страница не открылась",
+  "url": "https://www.prestig.ru/elektrika/svetilniki/Svetodiodnie_svetilniki_Armstrong_LED_paneli/navigator/90357_61299",
+  "alt": [
+   {
+    "price": 616.15,
+    "source": "ЭТМ (по выдаче поиска)",
+    "url": "https://www.etm.ru/cat/nn/1428448"
+   },
+   {
+    "price": 632,
+    "source": "Веллмарт (по выдаче)",
+    "url": "https://vellmart.net/product/0104005"
+   },
+   {
+    "price": 184.16,
+    "source": "prev: ЭРА SPO-801-0-002-120 ЭТМ — габариты ~1220×72×50 (eraworld/магазины), НЕ соответствует 1230×115×50",
+    "url": "https://www.etm.ru/cat/nn/8682280"
+   }
+  ],
+  "prev_ok": "false: ЭРА SPO-801-0-002-120 по габаритам (≈1220×72×50 / 1230×35×20 по разным карточкам) не совпадает с ТЗ 1230×115×50",
+  "in_stock": "не подтверждено",
   "nmc_unit": 869.0
  },
  {
   "n": 73,
-  "price": 262,
-  "unit_note": "руб/шт",
-  "product": "эквивалент: IN HOME LED-T8-М-PRO 30Вт G13 6500К 1200мм (матовая, не прозрачная; нет в наличии)",
-  "match": "эквивалент: IN HOME LED-T8-М-PRO 30Вт G13 6500К 1200мм (матовая, не прозрачная; нет в наличии)",
-  "source": "Всеинструменты",
-  "url": "https://www.vseinstrumenti.ru/electrika-i-svet/lampy/svetodiodnye/in-home/led-t8-m-pro-30vt-230v-g13-6500k-2440lm-1200mm-matovaya-4690612031026/",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 171,
+  "unit_note": "руб/шт с НДС",
+  "product": "IN HOME LED-T8-М-PRO 30Вт 230В G13 6500К 1200мм (4690612031026)",
+  "match": "частично: колба МАТОВАЯ (ТЗ — прозрачная), поток 2440–3000 лм (ТЗ 1800); прозрачной 30 Вт T8 1200 мм в продаже не найдено (есть только IN HOME LED-T8-П-PRO 20Вт 2000лм прозрачная)",
+  "source": "Stoking (stoking.ru), обновлено 02.11",
+  "url": "https://stoking.ru/products/svetodiodnaya-lampa-in-home-t8-30vt-l-1200mm-230v-6500k-g13",
+  "alt": [
+   {
+    "price": 262,
+    "source": "prev ВсеИнструменты (нет в наличии; сайт блок.)",
+    "url": "https://www.vseinstrumenti.ru/electrika-i-svet/lampy/svetodiodnye/in-home/led-t8-m-pro-30vt-230v-g13-6500k-2440lm-1200mm-matovaya-4690612031026/"
+   }
+  ],
+  "prev_ok": "частично: тот же товар (матовый — не по ТЗ), но цена ВИ 262 и нет в наличии; на Stoking 171 и 2381 шт",
+  "in_stock": "Stoking: Н.Новгород 2381 шт, Видное 1 шт",
   "nmc_unit": 191.0
  },
  {
   "n": 82,
-  "price": 104.24,
-  "unit_note": "руб/м (бухта 100м)",
-  "product": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
-  "match": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/9729228",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 56,
+  "unit_note": "руб/м с НДС (предварительная оптовая)",
+  "product": "ВВГнг(А)-LS 3х1,5(ож)-0,66",
+  "match": "точно",
+  "source": "N-Kabel (n-kabel.ru), «в наличии на складе»",
+  "url": "https://n-kabel.ru/position/vvgnga-ls-3x15ogh-066",
+  "alt": [
+   {
+    "price": 90.03,
+    "source": "kabel-s.ru «от», есть в наличии",
+    "url": "https://kabel-s.ru/catalog/vvgng-ls/vvgng-ls-3x1-5/"
+   },
+   {
+    "price": 104.24,
+    "source": "prev ЭТМ Конкорд — не перепроверено (ЭТМ блок.)",
+    "url": "https://www.etm.ru/cat/nn/9729228"
+   }
+  ],
+  "prev_ok": "true по соответствию; цена ЭТМ не перепроверена. 56 руб/м — «предварительная оптовая», подозрительно низко (близко к стоимости меди) — нужен КП",
+  "in_stock": "n-kabel, kabel-s: в наличии",
   "nmc_unit": 86.0
  },
  {
   "n": 83,
-  "price": 119.46,
-  "unit_note": "руб/м (бухта 100м)",
-  "product": "эквивалент: ПВС 3х2,5 РЭК/Prysmian",
-  "match": "эквивалент: ПВС 3х2,5 РЭК/Prysmian",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/4572826",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 134.32,
+  "unit_note": "руб/м с НДС «от»",
+  "product": "Провод ПВС 3х2,5",
+  "match": "точно",
+  "source": "kabel-s.ru",
+  "url": "https://kabel-s.ru/catalog/pvs/pvs-3x2-50/",
+  "alt": [
+   {
+    "price": 119.46,
+    "source": "prev ЭТМ РЭК/Prysmian — не перепроверено (ЭТМ блок.)",
+    "url": "https://www.etm.ru/cat/nn/4572826"
+   }
+  ],
+  "prev_ok": "true по соответствию; цена ЭТМ не перепроверена (если подтвердится — ниже)",
+  "in_stock": "kabel-s: есть в наличии",
   "nmc_unit": 134.0
  },
  {
   "n": 84,
   "price": 195,
-  "unit_note": "руб/м",
-  "product": "эквивалент: ПВС 4х4 (цена 'от', Москва); ВИ ~208 руб/м за бухту 100м",
-  "match": "эквивалент: ПВС 4х4 (цена 'от', Москва); ВИ ~208 руб/м за бухту 100м",
-  "source": "Кабель.РФ",
+  "unit_note": "руб/м «от» (Москва)",
+  "product": "Провод ПВС 4х4",
+  "match": "точно",
+  "source": "Кабель.РФ (prev) — НЕ перепроверено: сайт отдаёт 429",
   "url": "https://cable.ru/cable/marka-pvs_4x4.php",
   "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "prev_ok": "не перепроверено (cable.ru 429, ЭТМ/ВИ блок.; у kabel-s нет карточки ПВС 4х4)",
+  "in_stock": "не подтверждено",
   "nmc_unit": 328.0
  },
  {
   "n": 85,
-  "price": 372.34,
-  "unit_note": "руб/м",
-  "product": "эквивалент: ПВС 4х6 РЭК/Prysmian",
-  "match": "эквивалент: ПВС 4х6 РЭК/Prysmian",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/9716478",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 397.38,
+  "unit_note": "руб/м с НДС «от»",
+  "product": "Провод ПВС 4х6",
+  "match": "точно",
+  "source": "kabel-s.ru",
+  "url": "https://kabel-s.ru/catalog/pvs/pvs-4x6/",
+  "alt": [
+   {
+    "price": 372.34,
+    "source": "prev ЭТМ — не перепроверено",
+    "url": "https://www.etm.ru/cat/nn/9716478"
+   }
+  ],
+  "prev_ok": "true по соответствию; цена ЭТМ не перепроверена",
+  "in_stock": "kabel-s: есть в наличии",
   "nmc_unit": 473.0
  },
  {
   "n": 86,
-  "price": 310.69,
-  "unit_note": "руб/м (бухта 100м 31069 руб)",
-  "product": "эквивалент: iTOK КГтп-ХЛ 4х2,5",
-  "match": "эквивалент: iTOK КГтп-ХЛ 4х2,5",
-  "source": "xcom-shop",
-  "url": "https://www.xcom-shop.ru/itok_kgtp-hl_4h25_1248093.html",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 182.51,
+  "unit_note": "руб/м с НДС «от» (предв. оптовая)",
+  "product": "Кабель КГтп-ХЛ 4х2,5",
+  "match": "точно",
+  "source": "kabel-s.ru",
+  "url": "https://kabel-s.ru/catalog/kgtp-hl/kgtp-hl-4x2-5/",
+  "alt": [
+   {
+    "price": 310.69,
+    "source": "prev iTOK xcom-shop",
+    "url": "https://www.xcom-shop.ru/itok_kgtp-hl_4h25_1248093.html"
+   }
+  ],
+  "prev_ok": "true по соответствию; цена завышена (310,69 vs 182,51)",
+  "in_stock": "kabel-s: есть в наличии",
   "nmc_unit": 212.0
  },
  {
   "n": 87,
-  "price": 301.46,
-  "unit_note": "руб/м",
-  "product": "эквивалент: ПуГВнг(А)-LS 1х25 АЛЮР",
-  "match": "эквивалент: ПуГВнг(А)-LS 1х25 АЛЮР",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/108485",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 367.5,
+  "unit_note": "руб/м с НДС «от»",
+  "product": "Провод ПуГВнг(А)-LS 1х25 ж/з",
+  "match": "точно (ж/з)",
+  "source": "kabel-s.ru",
+  "url": "https://kabel-s.ru/catalog/pugvng-ls/pugvng-a-ls-1x25-zh-z/",
+  "alt": [
+   {
+    "price": 301.46,
+    "source": "prev ЭТМ АЛЮР (цвет не указан) — не перепроверено",
+    "url": "https://www.etm.ru/cat/nn/108485"
+   }
+  ],
+  "prev_ok": "частично: цвет ж/з в prev не подтверждён; цена ЭТМ не перепроверена",
+  "in_stock": "kabel-s: есть в наличии",
   "nmc_unit": 504.0
  },
  {
   "n": 88,
-  "price": 768.23,
-  "unit_note": "руб/м",
-  "product": "эквивалент: ПуГВнг(А)-LS 1х70 черный",
-  "match": "эквивалент: ПуГВнг(А)-LS 1х70 черный",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/7638910",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 931.77,
+  "unit_note": "руб/м с НДС «от»",
+  "product": "Провод ПуГВнг(А)-LS 1х70",
+  "match": "частично: цвет ж/з в карточке не указан — уточнить при заказе",
+  "source": "kabel-s.ru",
+  "url": "https://kabel-s.ru/catalog/pugvng-ls/pugvng-ls-1x70/",
+  "alt": [
+   {
+    "price": 768.23,
+    "source": "prev ЭТМ — ЧЁРНЫЙ (ТЗ: желто-зелёный) — не подходит, не перепроверено",
+    "url": "https://www.etm.ru/cat/nn/7638910"
+   }
+  ],
+  "prev_ok": "false: prev — чёрный провод, ТЗ требует желто-зелёный",
+  "in_stock": "kabel-s: есть в наличии",
   "nmc_unit": 1705.0
  },
  {
   "n": 89,
-  "price": 1336.13,
-  "unit_note": "руб/м",
-  "product": "эквивалент: КГТП-ХЛ 4х25(N) 380/660-2 Конкорд",
-  "match": "эквивалент: КГТП-ХЛ 4х25(N) 380/660-2 Конкорд",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/7308348",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 1684.21,
+  "unit_note": "руб/м с НДС «от»",
+  "product": "Кабель КГтп-ХЛ 4х25",
+  "match": "точно",
+  "source": "kabel-s.ru",
+  "url": "https://kabel-s.ru/catalog/kgtp-hl/kgtp-hl-4x25/",
+  "alt": [
+   {
+    "price": 1336.13,
+    "source": "prev ЭТМ КГТП-ХЛ 4х25(N) Конкорд — не перепроверено",
+    "url": "https://www.etm.ru/cat/nn/7308348"
+   }
+  ],
+  "prev_ok": "true по соответствию; цена ЭТМ не перепроверена",
+  "in_stock": "kabel-s: есть в наличии",
   "nmc_unit": 2137.0
  },
  {
   "n": 92,
-  "price": 104.24,
-  "unit_note": "руб/м (бухта 100м)",
-  "product": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
-  "match": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/9729228",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 56,
+  "unit_note": "руб/м с НДС (предварительная оптовая)",
+  "product": "ВВГнг(А)-LS 3х1,5(ож)-0,66",
+  "match": "точно",
+  "source": "N-Kabel (n-kabel.ru)",
+  "url": "https://n-kabel.ru/position/vvgnga-ls-3x15ogh-066",
+  "alt": [
+   {
+    "price": 90.03,
+    "source": "kabel-s.ru «от»",
+    "url": "https://kabel-s.ru/catalog/vvgng-ls/vvgng-ls-3x1-5/"
+   },
+   {
+    "price": 104.24,
+    "source": "prev ЭТМ — не перепроверено",
+    "url": "https://www.etm.ru/cat/nn/9729228"
+   }
+  ],
+  "prev_ok": "true по соответствию; цена не перепроверена (см. n82)",
+  "in_stock": "в наличии",
   "nmc_unit": 95.0
  },
  {
   "n": 96,
-  "price": 1539.71,
-  "unit_note": "руб/м",
-  "product": "эквивалент: ВВГнг(А)-LS 4х25(N)-0,66 АЛЮР (Кабель.РФ от 1012)",
-  "match": "эквивалент: ВВГнг(А)-LS 4х25(N)-0,66 АЛЮР (Кабель.РФ от 1012)",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/2541738",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 1647.19,
+  "unit_note": "руб/м с НДС «от»",
+  "product": "Кабель ВВГнг(А)-LS 4х25-0,66",
+  "match": "точно",
+  "source": "kabel-s.ru",
+  "url": "https://kabel-s.ru/catalog/vvgng-ls/vvgng-ls-4x25/",
+  "alt": [
+   {
+    "price": 1539.71,
+    "source": "prev ЭТМ АЛЮР — не перепроверено",
+    "url": "https://www.etm.ru/cat/nn/2541738"
+   }
+  ],
+  "prev_ok": "true по соответствию; цена ЭТМ не перепроверена",
+  "in_stock": "kabel-s: есть в наличии",
   "nmc_unit": 2162.0
  },
  {
   "n": 97,
-  "price": 1617.61,
-  "unit_note": "руб/м",
-  "product": "эквивалент: ВВГнг(А)-LS 4х35 мк(N)-0,66 Кабэкс",
-  "match": "эквивалент: ВВГнг(А)-LS 4х35 мк(N)-0,66 Кабэкс",
-  "source": "ЭТМ",
-  "url": "https://www.etm.ru/cat/nn/7503945/",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 1174.2,
+  "unit_note": "руб/м с НДС (предв. оптовая)",
+  "product": "Кабель ВВГнг(А)-LS 4х35-0,66 (без «ож» — многопроволочная, уточнить мк)",
+  "match": "эквивалент: конструкцию жилы (мк) уточнить у поставщика",
+  "source": "N-Kabel (n-kabel.ru), в наличии",
+  "url": "https://n-kabel.ru/position/vvgnga-ls-4x35-066",
+  "alt": [
+   {
+    "price": 1617.61,
+    "source": "prev ЭТМ Кабэкс 4х35 мк — не перепроверено",
+    "url": "https://www.etm.ru/cat/nn/7503945/"
+   },
+   {
+    "price": 2319.64,
+    "source": "kabel-s.ru «от»",
+    "url": "https://kabel-s.ru/catalog/vvgng-ls/vvgng-ls-4x35/"
+   }
+  ],
+  "prev_ok": "true по соответствию; цена ЭТМ не перепроверена",
+  "in_stock": "n-kabel: в наличии",
   "nmc_unit": 2637.0
  },
  {
@@ -318,54 +415,108 @@
  },
  {
   "n": 129,
-  "price": 1307,
-  "unit_note": "руб/шт",
-  "product": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (IEK ДСП1307 — 1453.60 Минимакс)",
-  "match": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (IEK ДСП1307 — 1453.60 Минимакс)",
-  "source": "EKFmarket",
-  "url": "https://market.ekfgroup.com/catalog/products/svetilnik-svetodiodnyj-pylevlagozashhishhennyj-dsp-1006-l-36vt-6500k-ip65-1200mm-ekf-proxima",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 1865,
+  "unit_note": "руб/шт с НДС (РРЦ)",
+  "product": "EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (3200 лм)",
+  "match": "точно (ДСП, 1200 мм, 36 Вт, IP65, 6500К)",
+  "source": "ekfgroup.com (РРЦ, в наличии)",
+  "url": "https://ekfgroup.com/ru/catalog/products/svetilnik-svetodiodnyj-pylevlagozashhishhennyj-dsp-1006-l-36vt-6500k-ip65-1200mm-ekf-proxima",
+  "alt": [
+   {
+    "price": 730.92,
+    "source": "e-kc.ru: FERON AL5090 32599 36Вт 6500К 3600лм IP65 (длина по карточке 1240 мм — не 1200), 157 шт",
+    "url": "https://e-kc.ru/cena/dsp-36vt-6500k3100lmip65analog-lsp-2h36feron-32599-al5090"
+   },
+   {
+    "price": 1263.44,
+    "source": "e-kc.ru: EKF ДСП-1004 36Вт 6500К IP65 (длина 1170 мм), 704 шт",
+    "url": "https://e-kc.ru/cena/svetilnik-svetodiodnyj-pylevlagozaschischennyj-dsp-1004-36vt-6500k-ip65-1200mm-ekf-proxima-tpl-1004-36-6500"
+   },
+   {
+    "price": 1761.87,
+    "source": "e-kc.ru: LEDVANCE DampProof Slim 1200 36Вт 6500К 3700лм (1227 мм)",
+    "url": "https://e-kc.ru/cena/dsp-36w-6500k3700lmip65dampproof-slim-1200-osram"
+   }
+  ],
+  "prev_ok": "частично: товар верный, но цена 1307 устарела — сейчас РРЦ EKF 1865 (базовая 2487)",
+  "in_stock": "EKF: в наличии",
   "nmc_unit": 1429.0
  },
  {
   "n": 130,
-  "price": 8444,
-  "unit_note": "руб/шт (РРЦ)",
-  "product": "эквивалент: EKF PROxima ДКУ-9004-Ш 150Вт 5000К IP65 15000лм (Wolta STL-150W/04 — 4515 ВИ)",
-  "match": "эквивалент: EKF PROxima ДКУ-9004-Ш 150Вт 5000К IP65 15000лм (Wolta STL-150W/04 — 4515 ВИ)",
-  "source": "ekfgroup.com",
+  "price": 8613,
+  "unit_note": "руб/шт с НДС (РРЦ)",
+  "product": "EKF PROxima ДКУ-9004-Ш 150Вт 5000К IP65 15000 лм",
+  "match": "эквивалент: 150 Вт, IP65, 15 000 лм — по ТЗ",
+  "source": "ekfgroup.com (РРЦ, в наличии)",
   "url": "https://ekfgroup.com/ru/catalog/products/svetilnik-svetodiodnyj-konsolnyj-dku-9004-150vt-5000k-ip65-ekf-proxima",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "alt": [
+   {
+    "price": 4515,
+    "source": "prev alt Wolta STL-150W/04 ВсеИнструменты — не перепроверено (сайт блок.), поток не проверен",
+    "url": "https://www.vseinstrumenti.ru/"
+   }
+  ],
+  "prev_ok": "true по соответствию; РРЦ выросла 8444→8613",
+  "in_stock": "EKF: в наличии",
   "nmc_unit": 11593.0
  },
  {
   "n": 139,
-  "price": 190,
-  "unit_note": "руб/шт",
-  "product": "эквивалент: IEK ECO T8 18Вт 6500К G13 LLE-T8-18-230-65-G13 (1198мм; 178 руб при уп.20)",
-  "match": "эквивалент: IEK ECO T8 18Вт 6500К G13 LLE-T8-18-230-65-G13 (1198мм; 178 руб при уп.20)",
-  "source": "Всеинструменты",
-  "url": "https://www.vseinstrumenti.ru/electrika-i-svet/lampy/svetodiodnye/iek/eco-t8-linejnaya-18vt-230v-6500k-g13-lle-t8-18-230-65-g13/",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 128,
+  "unit_note": "руб/шт (базовая цена)",
+  "product": "ASD LED-T8-standard 18Вт 160–260В G13 6500К 1600лм 1200мм, матовая",
+  "match": "эквивалент: 1600 лм, 6500К, G13, 18 Вт; длина номинал 1200 мм (ТЗ 1198 — стандартная длина колбы T8 1200), неповоротность не указана",
+  "source": "Светлый град (svetli-grad.ru)",
+  "url": "https://svetli-grad.ru/eshop/lampy/svetodiodnye_lampy_t8_s_tsokolem_g13/lampa_svetodiodnaya_led_t8_standard_18vt_160_260v_g13_6500k_1600lm_asd/",
+  "alt": [
+   {
+    "price": 105.53,
+    "source": "Гиперснаб: лампа LED T8 18Вт 6500К 1600лм 1200мм (бренд не указан)",
+    "url": "https://hypersnab.ru/product/lampa-svetodiodnaya-18vt-t8-g13-6500k-21505/"
+   },
+   {
+    "price": 281.01,
+    "source": "ELCN: IEK ECO T8 LLE-T8-18-230-65-G13 (1620 лм, 1198 мм)",
+    "url": "https://www.elcn.ru/catalog/product/57100/"
+   },
+   {
+    "price": 190,
+    "source": "prev ВИ IEK ECO — не перепроверено",
+    "url": "https://www.vseinstrumenti.ru/electrika-i-svet/lampy/svetodiodnye/iek/eco-t8-linejnaya-18vt-230v-6500k-g13-lle-t8-18-230-65-g13/"
+   }
+  ],
+  "prev_ok": "true по соответствию (IEK ECO 1620 лм, 1198 мм), но цена выше НМЦ 164; есть дешевле",
+  "in_stock": "не указано",
   "nmc_unit": 164.0
  },
  {
   "n": 142,
-  "price": 1307,
-  "unit_note": "руб/шт",
-  "product": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (длина 1200 вместо 1100)",
-  "match": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (длина 1200 вместо 1100)",
-  "source": "EKFmarket",
-  "url": "https://market.ekfgroup.com/catalog/products/svetilnik-svetodiodnyj-pylevlagozashhishhennyj-dsp-1006-l-36vt-6500k-ip65-1200mm-ekf-proxima",
-  "alt": [],
-  "prev_ok": "не перепроверено",
-  "in_stock": null,
+  "price": 2301.1,
+  "unit_note": "руб/шт с НДС",
+  "product": "EKF PROxima ДСП-1010 Айсберг-Э 36Вт 6500К IP65 3600 лм, 1200×66×66",
+  "match": "частично: 36 Вт/3600 лм/IP65/230 В — да; габариты 1200×66×66 (ТЗ 1100×85×70)",
+  "source": "ЭКС (e-kc.ru), 02.11.2026, 343 шт",
+  "url": "https://e-kc.ru/cena/svetilnik-svetodiodnyj-pylevlagozaschischennyj-dsp-1010-ajsberg-e-36vt-6500k-ip65-1200mm-ekf-proxima-tpl-1010-36-6500-a",
+  "alt": [
+   {
+    "price": 2697,
+    "source": "ekfgroup.com РРЦ ДСП-1010",
+    "url": "https://ekfgroup.com/ru/catalog/products/svetilnik-svetodiodnyj-pylevlagozashhishhennyj-dsp-1010-ajsberg-36vt-6500k-ip65-1200mm-ekf-proxima"
+   },
+   {
+    "price": 4450,
+    "source": "Darklum «Айсберг II 36Вт IP65» 1100×85×70 (точные габариты, 4100 лм) — по выдаче поиска, страница не разобрана",
+    "url": "https://darklum.ru/products/aysberg-ll-36vt/svetodiodnyiy-svetilnik-aysberg-ll-36vt-4000k-ip65"
+   },
+   {
+    "price": 730.92,
+    "source": "FERON AL5090 32599 3600лм IP65 (1240 мм), e-kc",
+    "url": "https://e-kc.ru/cena/dsp-36vt-6500k3100lmip65analog-lsp-2h36feron-32599-al5090"
+   }
+  ],
+  "prev_ok": "false: EKF ДСП-1006-L — 3200 лм (ТЗ 3600), 1200×63×35; к тому же РРЦ сейчас 1865, а не 1307",
+  "in_stock": "e-kc: 343 шт, от 1 дня",
   "nmc_unit": 2891.0
  },
  {
@@ -374,10 +525,10 @@
   "unit_note": "руб/шт",
   "product": "точно: КВТ 3СТп-10-150/240 (Б) (ВИ от 6909)",
   "match": "точно: КВТ 3СТп-10-150/240 (Б) (ВИ от 6909)",
-  "source": "ЭТМ",
+  "source": "ЭТМ (prev, НЕ перепроверено)",
   "url": "https://www.etm.ru/cat/nn/4491398",
   "alt": [],
-  "prev_ok": "не перепроверено",
+  "prev_ok": "не перепроверено: ЭТМ/КВТ недоступны; соответствие 3СТп-10-150/240 (Б) — по названию верно",
   "in_stock": null,
   "nmc_unit": 15262.0
  },
@@ -387,10 +538,10 @@
   "unit_note": "руб/шт",
   "product": "точно: IEK Стт(тп)-10 3х150/240 с гильзами (UZM-BIS10-VN3-150240SZ)",
   "match": "точно: IEK Стт(тп)-10 3х150/240 с гильзами (UZM-BIS10-VN3-150240SZ)",
-  "source": "ЭТМ",
+  "source": "ЭТМ (prev, НЕ перепроверено)",
   "url": "https://www.etm.ru/cat/nn/7290181",
   "alt": [],
-  "prev_ok": "не перепроверено",
+  "prev_ok": "не перепроверено: ЭТМ недоступен; IEK Стт(тп)-10 3х150/240 с гильзами — по названию соответствует",
   "in_stock": null,
   "nmc_unit": 12852.0
  },
@@ -400,10 +551,10 @@
   "unit_note": "руб/шт",
   "product": "эквивалент: КЭАЗ розетка 135-63А-6h-380AC-3P+PE+N IP67 (EKF 135 — РРЦ 4102)",
   "match": "эквивалент: КЭАЗ розетка 135-63А-6h-380AC-3P+PE+N IP67 (EKF 135 — РРЦ 4102)",
-  "source": "ЭТМ",
+  "source": "ЭТМ (prev, НЕ перепроверено)",
   "url": "https://www.etm.ru/cat/nn/2059473",
   "alt": [],
-  "prev_ok": "не перепроверено",
+  "prev_ok": "не перепроверено: ЭТМ недоступен, на keaz.ru поиск не дал карточку; по описанию (тип 135, 63А, 3P+PE+N, IP67) соответствует",
   "in_stock": null,
   "nmc_unit": 3755.0
  },
@@ -413,10 +564,10 @@
   "unit_note": "руб/шт",
   "product": "эквивалент: REXANT RX 120х120х38 220В 2700об/мин 72-6122 (IP55 и магниевая крыльчатка не подтверждены)",
   "match": "эквивалент: REXANT RX 120х120х38 220В 2700об/мин 72-6122 (IP55 и магниевая крыльчатка не подтверждены)",
-  "source": "Всеинструменты",
+  "source": "Всеинструменты (prev, НЕ перепроверено)",
   "url": "https://www.vseinstrumenti.ru/product/osevoj-ventilyator-dlya-ohlazhdeniya-rexant-rx-120h120h38-mm-220-v-72-6122-1862856/",
   "alt": [],
-  "prev_ok": "не перепроверено",
+  "prev_ok": "false/частично: IP55 и магниевая крыльчатка у REXANT RX 72-6122 не подтверждены (prev сам отметил); цена ВИ не перепроверена — сайт блокирует",
   "in_stock": null,
   "nmc_unit": 3578.0
  },
@@ -426,10 +577,10 @@
   "unit_note": "руб/шт",
   "product": "эквивалент: Belimo NM230A-S (цена Ozon, маркетплейс; NM230AX не найден)",
   "match": "эквивалент: Belimo NM230A-S (цена Ozon, маркетплейс; NM230AX не найден)",
-  "source": "Ozon",
+  "source": "Ozon (prev, НЕ перепроверено)",
   "url": "https://www.ozon.ru/brand/belimo-87334043/",
   "alt": [],
-  "prev_ok": "не перепроверено",
+  "prev_ok": "false/частично: NM230AX не найден (на belimo.ru поиск пуст); NM230A-S — другой исполнение (с доп. контактом), время поворота 45 с не подтверждено; ссылка prev — страница бренда Ozon, а не товар",
   "in_stock": null,
   "nmc_unit": 39882.0
  },
@@ -439,10 +590,10 @@
   "unit_note": "руб/шт",
   "product": "эквивалент: Belimo LM230A-S (с доп. контактом; Ozon 18647)",
   "match": "эквивалент: Belimo LM230A-S (с доп. контактом; Ozon 18647)",
-  "source": "ЧИП и ДИП",
+  "source": "ЧИП и ДИП (prev, НЕ перепроверено)",
   "url": "https://www.chipdip.ru/product/lm230a-s-belimo-automation-8033388775",
   "alt": [],
-  "prev_ok": "не перепроверено",
+  "prev_ok": "частично: LM230A-S — с доп. контактом (ТЗ LM230A); цена ЧиД не перепроверена (403)",
   "in_stock": null,
   "nmc_unit": 30171.0
  },

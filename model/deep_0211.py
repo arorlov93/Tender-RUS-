@@ -41,15 +41,28 @@ for x in SM:
 # ---------- Россети
 RO = J("rosseti.json", {}) or {}
 RQ = {int(r["n"]): r for r in RO.get("requirements", [])}
-RP = {}
+GI = {r["L"]: r["G"] for r in J("rosseti_gisp.json", [])}
+def rkey(t):
+    t = t.lower(); d = re.search(r"(90|110|160|200)", t)
+    return ("SN12" if "sn12" in t else ("гиб" if "гиб" in t else "жёст" if re.search("жёст|жест", t) else "?") + (d.group(1) if d else ""))
+RP = {}  # ПП 1875 «ограничение»: в реестре ПП 719 двустенные гофротрубы только у ООО «Нептун» (Промрукав) → себестоимость по Промрукаву
 for p in RO.get("prices", []):
-    for n in (p["n"] if isinstance(p["n"], list) else [p["n"]]):
-        if p.get("price") and (int(n) not in RP or p["price"] < RP[int(n)]["price"]): RP[int(n)] = p
+    if not p.get("price"): continue
+    k = rkey(str(p["n"])); ok = "Промрукав" in str(p.get("maker")) or k == "SN12"
+    if "усилен" in str(p.get("match")): continue
+    if ok and (k not in RP or p["price"] < RP[k]["price"]): RP[k] = p
+ALT = {}
+for p in RO.get("prices", []):
+    if p.get("price"):
+        k = rkey(str(p["n"]))
+        if k not in ALT or p["price"] < ALT[k]["price"]: ALT[k] = p
 ro_items = []
 for x in json.load(open("data/zakupki_0211/tz/items/43834_Rosseti_Ural_pipes.json")):
-    r = RQ.get(x["n"], {}); p = RP.get(x["n"], {})
-    ro_items.append(dict(n=x["n"], name=r.get("name_full") or x["name"], spec=r.get("reqs") or x.get("spec"), unit=x["unit"], qty=x["qty"], nmc=x["nmc_unit"], nmc_nv=r.get("nmc_unit_no_vat") or round(x["nmc_unit"] / 1.22, 2),
-                         price=p.get("price"), product=(p.get("product") or "") + (f' ({p.get("maker")})' if p.get("maker") else ""), match=p.get("match"), source=p.get("source"), url=p.get("url"), note=p.get("unit_note")))
+    r = RQ.get(x["n"], {}); k = rkey(x["name"]); p = RP.get(k, {}); a = ALT.get(k, {})
+    gnum = "; ".join(f"{g} ({l[:45]})" for l, g in GI.items() if (("гибк" in l) == k.startswith("гиб") and "двустен" in l and k != "SN12") or (k == "SN12" and "ТЕРМОПРОТЕКТ" in l))
+    ro_items.append(dict(n=x["n"], name=r.get("name_full") or x["name"], spec=r.get("reqs") or x.get("spec"), unit=x["unit"], qty=x["qty"], nmc=x["nmc_unit"],
+                         price=p.get("price"), product=(p.get("product") or "") + f' ({p.get("maker")})', match=p.get("match"), source=p.get("source"), url=p.get("url"),
+                         note=f'реестр ПП 719: {gnum or "нет"}; мин. на рынке (вне реестра): {a.get("price")} {a.get("maker")}'))
 
 # ---------- Чехов
 CH = J("chekhov.json", {}) or {}
@@ -127,7 +140,7 @@ for r in [["Рассылка запросов КП заводам — ГИДРО
 s0["A1"].font = Font(bold=True, size=12); s0.column_dimensions["A"].width = 120
 for t in T:
     k = t["key"]; ws = wr.create_sheet(f"{k} — кому что")
-    ws.append([f'{t["title"]} — ЕИС {t["eis"]}, подача {t["dl"]}, поставка: {t["term"]}']); ws["A1"].font = Font(bold=True, size=12)
+    ws.append([f'{t["title"]} — ЕИС {t["eis"]}, подача {t["dl"]}, поставка: {t["term"][:160]}']); ws["A1"].font = Font(bold=True, size=12)
     ws.append(["Категория", "Позиции ТЗ для запроса (№ — наименование — кол-во)", "Завод / поставщик", "ИНН", "Город", "Сайт", "Телефон", "E-mail", "Что выпускает", "Примечание", "Подтверждено в 2 источниках", "Источники контактов"]); HDR(ws, 2)
     for title, ns, makers in blocks[k]:
         pos = "\n".join(f'{n} — {ITEMS[k][n]["name"][:70]} — {ITEMS[k][n]["qty"]:g} {ITEMS[k][n]["unit"] or ""}' for n in ns if n in ITEMS[k])
@@ -135,9 +148,9 @@ for t in T:
         if not makers: row(ws, [title, pos, "— заводы не найдены —"]); continue
         for i, m in enumerate(makers):
             ra = m.get("rosseti_attest") or {}
-            note = (m.get("note") or "") + (f' Аттестация Россети: {"есть" if ra.get("has") else "нет" if ra.get("has") is False else "не выяснено"} {ra.get("number") or ""}' if k == "Россети" else "")
+            note = " ".join(z for z in re.split(r"(?<=[.;])\s+", m.get("note") or "") if not re.search(r"прайс|цен|дороже|дешевле|корзин|₽|руб\.|НМЦ|маржин", z, re.I)); _ = re.sub(r"[\d\s.,]+\s?(₽|руб\.?)[^;.]*", " (цена — по запросу)", m.get("note") or "") + (f' Аттестация Россети: {"есть" if ra.get("has") else "нет" if ra.get("has") is False else "не выяснено"} {ra.get("number") or ""}' if k == "Россети" else "")
             pp = m.get("positions") if k != "Смоленск" and m.get("positions") else None
-            row(ws, [title if i == 0 else "", (pos if i == 0 else "") if not pp else str(pp), m.get("name"), m.get("inn"), m.get("city"), m.get("site"), m.get("phone"), m.get("email"), m.get("products"), note.strip(),
+            row(ws, [title if i == 0 else "", (pos if i == 0 else "") if not pp else str(pp), m.get("name"), m.get("inn"), m.get("city"), m.get("site"), m.get("phone"), m.get("email"), re.sub(r"[\d\s.,]+\s?(₽|руб\.?)", "", str(m.get("products") or "")), note.strip() + (f' ПП 719: {m["gisp"]}' if m.get("gisp") and k == "Россети" else ""),
                      "да" if m.get("verified") else "нет", "\n".join(m.get("sources") or [])], fill=(11, "C6EFCE" if m.get("verified") else "FFF2CC"))
     widths(ws, [24, 50, 28, 12, 12, 20, 18, 24, 30, 30, 9, 34]); ws.freeze_panes = "C3"
     w2 = wr.create_sheet(f"{k} — позиции ТЗ"); w2.append(["№", "Наименование", "Требования ТЗ (дословно)", "Ед.", "Кол-во"]); HDR(w2, 1)
