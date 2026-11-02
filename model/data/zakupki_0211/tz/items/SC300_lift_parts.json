@@ -1,0 +1,34 @@
+[
+{
+"n": 1,
+"name": "Силовой кабель\nPower cable",
+"spec": "ZR-YCT 450/750V\n3*25+2*10+4*4 mm2",
+"unit": "м / m",
+"qty": 60.0,
+"nmc_unit": null
+},
+{
+"n": 2,
+"name": "Кабель подключения эл.двигателя\nElectric motor connection cable",
+"spec": "Q/SMT02-2019\n3*10+1*6",
+"unit": "м / m",
+"qty": 6.0,
+"nmc_unit": null
+},
+{
+"n": 3,
+"name": "Кабель подключения привода тормозов\nBrake actuator connection cable",
+"spec": "Q/SMT01-2019\n2*4",
+"unit": "м / m",
+"qty": 6.0,
+"nmc_unit": null
+},
+{
+"n": 4,
+"name": "Разъем электрический \nElectrical connector",
+"spec": "HK-004/2-M\n80A,830V/8Kw/3",
+"unit": "шт. / pcs",
+"qty": 2.0,
+"nmc_unit": null
+}
+]
