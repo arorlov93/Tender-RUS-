@@ -53,6 +53,22 @@ for d in D:
 for i, w in enumerate([16, 18, 26, 46, 15, 15, 18, 16, 60, 50], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 ws.freeze_panes = "C3"
 
+# ---- отбор до 100 млн, ожидаемая маржа > 20 % (оценка по категории товара, способу и заказчику; ТЗ не скачивались — ЕИС недоступен)
+MG = json.load(open("data/zakupki_0211/margin20.json"))
+w0 = wb.create_sheet("Маржа >20 % до 100 млн", 0)
+w0.append(["Отбор до 100 млн ₽ (кроме аукционов и услуг), где ожидаемая маржа выше 20 %. Маржа — оценка: (НМЦ − закупка с НДС) / НМЦ по опыту категории, без доставки и до торга"]); w0["A1"].font = Font(bold=True, size=12)
+w0.append(["Группа", "№ закупки", "Заказчик", "Предмет", "НМЦ, ₽", "Подача до", "Способ", "Площадка", "Ожидаемая маржа", "Почему маржа", "Риск / что проверить"]); hd(w0)
+grp = None
+for c, n, m, why, risk in MG:
+    r = rows[n]
+    w0.append([c, n, r["Заказчик"], r["Название"], r["nmc"], str(r["Окончание приема заявок"] or "")[:16], r["Способ отбора"], r["ЭТП"], m, why, risk])
+    X = w0.max_row; w0.cell(X, 5).number_format = "#,##0"; w0.cell(X, 9).fill = PatternFill("solid", fgColor="C6EFCE" if m.startswith(("25", "30")) else "FFF2CC")
+    for cc in w0[X]: cc.border = BOX; cc.alignment = Alignment(wrap_text=True, vertical="top")
+w0.append(["ИТОГО", len(MG), "", "", sum(rows[n]["nmc"] or 0 for _, n, *_ in MG)]); w0.cell(w0.max_row, 5).number_format = "#,##0"; [setattr(cc, "font", Font(bold=True)) for cc in w0[w0.max_row]]
+w0.append([]); w0.append(["Не взяли (маржа обычно ниже 20 %): кабель и провод (5–12 %), трубы и ППУ-фасонка (3–7 %), серверы/IT (8–15 %), техническая соль, лекарства (рег. цены), высоковольтные вводы (только напрямую с завода), продажи имущества (Хевел). ДГК 186 млн и ТГК-1 1,2 млрд — выше лимита 100 млн."])
+for i, wd in enumerate([22, 20, 28, 50, 14, 15, 16, 16, 11, 55, 40], 1): w0.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
+w0.freeze_panes = "C3"; wb.active = 0
+
 s2 = wb.create_sheet("Отсев — сводка")
 s2.append(["Категория", "Всего", "Аукционы (не идём)", "Услуги/работы (не идём)", "Товар, не аукцион", "НМЦ товара не аукцион, млн ₽", "из них с указанной НМЦ"]); hd(s2)
 agg = collections.defaultdict(lambda: [0, 0, 0, 0, 0.0, 0])
