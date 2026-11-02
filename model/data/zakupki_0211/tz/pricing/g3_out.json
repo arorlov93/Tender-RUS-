@@ -1,0 +1,356 @@
+{
+ "Smolensk_electro": [
+  {
+   "n": 98,
+   "price": 1232,
+   "unit_note": "руб/м",
+   "match": "эквивалент: АВБбШв 3х240-6 (цена 'от', Кабель.РФ; фактическая зависит от партии)",
+   "source": "Кабель.РФ",
+   "url": "https://cable.ru/cable/kabel-3-zhily_240-mm_v_group-avbbshv.php"
+  },
+  {
+   "n": 142,
+   "price": 1307,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (длина 1200 вместо 1100)",
+   "source": "EKFmarket",
+   "url": "https://market.ekfgroup.com/catalog/products/svetilnik-svetodiodnyj-pylevlagozashhishhennyj-dsp-1006-l-36vt-6500k-ip65-1200mm-ekf-proxima"
+  },
+  {
+   "n": 214,
+   "price": 63270,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART INPRIME-G7.5-4BF 7.5кВт 18А, 599Гц, торм.модуль, съёмная панель",
+   "source": "instart-info.ru (розница производителя)",
+   "url": "https://instart-info.ru/product/inprime-g7-5-4bf/"
+  },
+  {
+   "n": 66,
+   "price": null,
+   "unit_note": "шт",
+   "match": "не найдено: светильник серии ЛБА 20Вт с аварийным БП — аналог с ценой не найден",
+   "source": null,
+   "url": null
+  },
+  {
+   "n": 218,
+   "price": 24605,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART SBIM-37/74-04 (модульный, DIN, IP20, байпас)",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product/sbim-37-74-04/"
+  },
+  {
+   "n": 220,
+   "price": 45790,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART SNI-15/30-04 (графич. LCD, RTC, байпас)",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product-category/ustrojstva-plavnogo-puska/sni/"
+  },
+  {
+   "n": 88,
+   "price": 768.23,
+   "unit_note": "руб/м",
+   "match": "эквивалент: ПуГВнг(А)-LS 1х70 черный",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/7638910"
+  },
+  {
+   "n": 222,
+   "price": 145825,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART SBIP-185/370-04 (Modbus, байпас, 5 DI, PTC, AO)",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product/sbip-185-370-04/"
+  },
+  {
+   "n": 62,
+   "price": 184.16,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: ЭРА SPO-801-0-002-120 IP20 под 2 LED-лампы T8 G13 1200мм",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/8682280"
+  },
+  {
+   "n": 55,
+   "price": 101365,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: INSTART LCI-G30/P37-4 (30/37кВт, IP20, 220x410x228, Modbus RTU)",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product/lci-g30-p37-4/"
+  },
+  {
+   "n": 213,
+   "price": 29100,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: Schneider/Systeme Electric ATV212HU40N4 4кВт 9.1А IP21 480В",
+   "source": "ЧИП и ДИП",
+   "url": "https://www.chipdip.ru/product0/8000897979"
+  },
+  {
+   "n": 129,
+   "price": 1307,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (IEK ДСП1307 — 1453.60 Минимакс)",
+   "source": "EKFmarket",
+   "url": "https://market.ekfgroup.com/catalog/products/svetilnik-svetodiodnyj-pylevlagozashhishhennyj-dsp-1006-l-36vt-6500k-ip65-1200mm-ekf-proxima"
+  },
+  {
+   "n": 34,
+   "price": 16179.82,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: IEK КТИе-5250 250А 230В/АС3 KKTE50-250-230-10 (ВИ от 13817)",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/1303378"
+  },
+  {
+   "n": 219,
+   "price": 32205,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART SBIM-55/110-04",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product-category/ustrojstva-plavnogo-puska/sbim/"
+  },
+  {
+   "n": 210,
+   "price": 17786,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: Belimo NM230A-S (цена Ozon, маркетплейс; NM230AX не найден)",
+   "source": "Ozon",
+   "url": "https://www.ozon.ru/brand/belimo-87334043/"
+  },
+  {
+   "n": 84,
+   "price": 195,
+   "unit_note": "руб/м",
+   "match": "эквивалент: ПВС 4х4 (цена 'от', Москва); ВИ ~208 руб/м за бухту 100м",
+   "source": "Кабель.РФ",
+   "url": "https://cable.ru/cable/marka-pvs_4x4.php"
+  },
+  {
+   "n": 73,
+   "price": 262,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: IN HOME LED-T8-М-PRO 30Вт G13 6500К 1200мм (матовая, не прозрачная; нет в наличии)",
+   "source": "Всеинструменты",
+   "url": "https://www.vseinstrumenti.ru/electrika-i-svet/lampy/svetodiodnye/in-home/led-t8-m-pro-30vt-230v-g13-6500k-2440lm-1200mm-matovaya-4690612031026/"
+  },
+  {
+   "n": 96,
+   "price": 1539.71,
+   "unit_note": "руб/м",
+   "match": "эквивалент: ВВГнг(А)-LS 4х25(N)-0,66 АЛЮР (Кабель.РФ от 1012)",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/2541738"
+  },
+  {
+   "n": 86,
+   "price": 310.69,
+   "unit_note": "руб/м (бухта 100м 31069 руб)",
+   "match": "эквивалент: iTOK КГтп-ХЛ 4х2,5",
+   "source": "xcom-shop",
+   "url": "https://www.xcom-shop.ru/itok_kgtp-hl_4h25_1248093.html"
+  },
+  {
+   "n": 130,
+   "price": 8444,
+   "unit_note": "руб/шт (РРЦ)",
+   "match": "эквивалент: EKF PROxima ДКУ-9004-Ш 150Вт 5000К IP65 15000лм (Wolta STL-150W/04 — 4515 ВИ)",
+   "source": "ekfgroup.com",
+   "url": "https://ekfgroup.com/ru/catalog/products/svetilnik-svetodiodnyj-konsolnyj-dku-9004-150vt-5000k-ip65-ekf-proxima"
+  },
+  {
+   "n": 54,
+   "price": null,
+   "unit_note": "шт",
+   "match": "не найдено: ЭМП-К1 отсутствует в открытых прайсах",
+   "source": null,
+   "url": null
+  },
+  {
+   "n": 56,
+   "price": null,
+   "unit_note": "шт",
+   "match": "не найдено: блок защиты ЭД 100-200А с указанными уставками — модель не идентифицирована",
+   "source": null,
+   "url": null
+  },
+  {
+   "n": 162,
+   "price": 11886.9,
+   "unit_note": "руб/шт",
+   "match": "точно: КВТ 3СТп-10-150/240 (Б) (ВИ от 6909)",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/4491398"
+  },
+  {
+   "n": 211,
+   "price": 20560,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: Belimo LM230A-S (с доп. контактом; Ozon 18647)",
+   "source": "ЧИП и ДИП",
+   "url": "https://www.chipdip.ru/product/lm230a-s-belimo-automation-8033388775"
+  },
+  {
+   "n": 221,
+   "price": 80275,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART SNI-55/105-04",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product/sni-55-105-04/"
+  },
+  {
+   "n": 216,
+   "price": 12255,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART SBIM-3.0/7.2-04",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product-category/ustrojstva-plavnogo-puska/sbim/"
+  },
+  {
+   "n": 97,
+   "price": 1617.61,
+   "unit_note": "руб/м",
+   "match": "эквивалент: ВВГнг(А)-LS 4х35 мк(N)-0,66 Кабэкс",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/7503945/"
+  },
+  {
+   "n": 163,
+   "price": 9500.05,
+   "unit_note": "руб/шт",
+   "match": "точно: IEK Стт(тп)-10 3х150/240 с гильзами (UZM-BIS10-VN3-150240SZ)",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/7290181"
+  },
+  {
+   "n": 208,
+   "price": null,
+   "unit_note": "шт",
+   "match": "не найдено: артикул R2L15GBR в российских прайсах не найден",
+   "source": null,
+   "url": null
+  },
+  {
+   "n": 183,
+   "price": 2486.89,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: КЭАЗ розетка 135-63А-6h-380AC-3P+PE+N IP67 (EKF 135 — РРЦ 4102)",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/2059473"
+  },
+  {
+   "n": 89,
+   "price": 1336.13,
+   "unit_note": "руб/м",
+   "match": "эквивалент: КГТП-ХЛ 4х25(N) 380/660-2 Конкорд",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/7308348"
+  },
+  {
+   "n": 139,
+   "price": 190,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: IEK ECO T8 18Вт 6500К G13 LLE-T8-18-230-65-G13 (1198мм; 178 руб при уп.20)",
+   "source": "Всеинструменты",
+   "url": "https://www.vseinstrumenti.ru/electrika-i-svet/lampy/svetodiodnye/iek/eco-t8-linejnaya-18vt-230v-6500k-g13-lle-t8-18-230-65-g13/"
+  },
+  {
+   "n": 83,
+   "price": 119.46,
+   "unit_note": "руб/м (бухта 100м)",
+   "match": "эквивалент: ПВС 3х2,5 РЭК/Prysmian",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/4572826"
+  },
+  {
+   "n": 85,
+   "price": 372.34,
+   "unit_note": "руб/м",
+   "match": "эквивалент: ПВС 4х6 РЭК/Prysmian",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/9716478"
+  },
+  {
+   "n": 212,
+   "price": null,
+   "unit_note": "шт",
+   "match": "не найдено: Belimo P2800A — рублёвых цен нет (только США ~$97-126)",
+   "source": null,
+   "url": null
+  },
+  {
+   "n": 59,
+   "price": 18680.57,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: IEK КТИ-5150 150А катушка 400В KKT50-150-400-10 (125А нет в серии; ЭРА КТИ5150 PRO ~13413 ВИ)",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/9737161"
+  },
+  {
+   "n": 217,
+   "price": 23560,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART SBIM-30/60-04",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product-category/ustrojstva-plavnogo-puska/sbim/"
+  },
+  {
+   "n": 40,
+   "price": 1450,
+   "unit_note": "руб/шт",
+   "match": "точно: РП21(М)-004-УХЛ4(Б) ~220В (ЭТМ 1493.27)",
+   "source": "ЧИП и ДИП",
+   "url": "https://www.chipdip.ru/product/rp21-m-004-uhl4-b-220v"
+  },
+  {
+   "n": 205,
+   "price": 1084,
+   "unit_note": "руб/шт",
+   "match": "эквивалент: REXANT RX 120х120х38 220В 2700об/мин 72-6122 (IP55 и магниевая крыльчатка не подтверждены)",
+   "source": "Всеинструменты",
+   "url": "https://www.vseinstrumenti.ru/product/osevoj-ventilyator-dlya-ohlazhdeniya-rexant-rx-120h120h38-mm-220-v-72-6122-1862856/"
+  },
+  {
+   "n": 215,
+   "price": 54720,
+   "unit_note": "руб/шт",
+   "match": "точно (по характеристикам): INSTART INPRIME-G5.5-4BF 5.5кВт 14.8А",
+   "source": "instart-info.ru",
+   "url": "https://instart-info.ru/product/inprime-g5-5-4bf/"
+  },
+  {
+   "n": 87,
+   "price": 301.46,
+   "unit_note": "руб/м",
+   "match": "эквивалент: ПуГВнг(А)-LS 1х25 АЛЮР",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/108485"
+  },
+  {
+   "n": 1,
+   "price": 18297,
+   "unit_note": "руб/шт (РРЦ)",
+   "match": "эквивалент: EKF ВА-99М 400/400А 3P 42кА (Icu≥40кА@400В; IEK ВА88-37 35кА — 15259.52 ЭТМ не проходит по Icu; КЭАЗ OptiMat D400N 40кА — 84955.52 ЭТМ)",
+   "source": "ekfgroup.com",
+   "url": "https://ekfgroup.com/ru/catalog/products/vyklyuchatel-avtomaticheskij-va-99m-400-400a-3p-42ka-ekf-proxima"
+  },
+  {
+   "n": 82,
+   "price": 104.24,
+   "unit_note": "руб/м (бухта 100м)",
+   "match": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/9729228"
+  },
+  {
+   "n": 92,
+   "price": 104.24,
+   "unit_note": "руб/м (бухта 100м)",
+   "match": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
+   "source": "ЭТМ",
+   "url": "https://www.etm.ru/cat/nn/9729228"
+  }
+ ]
+}
