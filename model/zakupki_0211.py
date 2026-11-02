@@ -87,6 +87,37 @@ for v in order:
 for i, wd in enumerate([24, 20, 26, 46, 14, 15, 16, 10, 70, 42], 1): wv.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
 wv.freeze_panes = "C3"; wb.active = 0
 
+# ---- отводы ППУ-ПЭ: порядок цен по нашим КП (Уфа 32616450774, 27–29.10.2026) и сайтам заводов
+wo = wb.create_sheet("Отводы ППУ — цены", 1)
+wo.append(["Отводы 90° ППУ-ПЭ с ОДК (ГОСТ 30732-2020, отвод ГОСТ 17375), цена за 1 шт с НДС, ₽ — наши КП (Уфа) и сайты заводов"]); wo["A1"].font = Font(bold=True, size=12)
+wo.append(["Источник", "Тип", "108×4,5/180", "377×8/500", "426×8/560", "530×9/710"]); hd(wo)
+K = lambda f: json.load(open(f))
+tik = K("data/ppu_ufa/tik_15251.json"); nz = K("data/ppu_ufa/nzti_339.json"); ts = K("data/ppu_ufa/teploset_3770.json")
+OT = [("АО «ТИК» (Подольск), спец. 15251.01", "КП завода", *[round(x["price"] * 1.22) for x in tik["items"]]),
+      ("ООО «Теплосеть» (Киров), счёт 3770", "счёт завода", *[x["price_vat"] for x in ts["items"]]),
+      ("ООО «НЗТИ» (Н. Новгород), КП 339", "КП завода", *[round(x["price"] * 1.22) for x in nz["items"]])]
+for f in ("data/ppu_prices_1910.json", "data/ppu_ufa/ppu_center.json", "data/ppu_ufa/ppu_ural.json"):
+    by = {}
+    for x in K(f):
+        if isinstance(x.get("price"), (int, float)) and str(x.get("item")) in ("108", "377", "426", "530") and "ГОЛЫЙ" not in str(x.get("product")) and x.get("company"):
+            by.setdefault(x["company"], {})[str(x["item"])] = x["price"]
+    for c, d in by.items():
+        if len(d) >= 3: OT.append((c, "сайт", *[d.get(k) for k in ("108", "377", "426", "530")]))
+for r in OT:
+    wo.append(list(r))
+    for j in range(3, 7): wo.cell(wo.max_row, j).number_format = "#,##0"
+import statistics as st
+for lab, fn in (("Минимум по КП заводов (ТИК / Теплосеть / НЗТИ)", min), ("Медиана всех источников", st.median)):
+    rr = [lab, ""]
+    for j in range(2, 6):
+        vals = [r[j] for r in (OT[:3] if fn is min else OT) if isinstance(r[j], (int, float))]
+        rr.append(round(fn(vals)) if vals else None)
+    wo.append(rr); [setattr(c, "font", Font(bold=True)) for c in wo[wo.max_row]]
+    for j in range(3, 7): wo.cell(wo.max_row, j).number_format = "#,##0"
+wo.append(["НМЦ Уфы (МУП УИС) за шт, с НДС", "", 10370, 111268, 80064, 146012]); [setattr(c, "font", Font(italic=True)) for c in wo[wo.max_row]]
+wo.append([]); wo.append(["Порядок цен: отвод в ППУ стоит в 2,5–3,5 раза дороже голого отвода (голый 377×8 — 15 900 ₽, 530×9 — 20–31 тыс.). Очень низкие цены с сайтов (МЕТПРОК, ЛТР, Первоуральск: 108 — 2–3 тыс.) — без ОДК/стенки, не сравнимы."])
+for i, wd in enumerate([46, 12, 14, 14, 14, 14], 1): wo.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
+
 s2 = wb.create_sheet("Отсев — сводка")
 s2.append(["Категория", "Всего", "Аукционы (не идём)", "Услуги/работы (не идём)", "Товар, не аукцион", "НМЦ товара не аукцион, млн ₽", "из них с указанной НМЦ"]); hd(s2)
 agg = collections.defaultdict(lambda: [0, 0, 0, 0, 0.0, 0])
