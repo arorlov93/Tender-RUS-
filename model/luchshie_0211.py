@@ -74,5 +74,27 @@ for i, k, x, r, mg, term, verdict in top:
     for cc in s0[X]: cc.border = BOX; cc.alignment = Alignment(wrap_text=True, vertical="top")
 for j, w in enumerate([5, 18, 17, 14, 13, 28, 50, 10, 22, 24, 40], 1): s0.column_dimensions[openpyxl.utils.get_column_letter(j)].width = w
 s0.freeze_panes = "C3"
+
+# ---------- Аукционы (по просьбе: включить аукционы тоже)
+AR = {x["n"]: x for i in (1, 2) for x in json.load(open(f"{D}/auc_{i}.json"))}
+AO = [x for i in (1, 2) for x in json.load(open(f"{D}/auc_{i}_out.json"))]
+acl = lambda x: 1 if x["verdict"].startswith("ЛУЧШАЯ") else 2 if x["verdict"].startswith("ВЫГОДНО") else 3 if x["verdict"].startswith("ПОД") else 4
+AO.sort(key=lambda x: (acl(x), -lo(x["margin_est"]), -float(AR[x["n"]]["nmc"] or 0)))
+sa = wb.create_sheet("Аукционы", 2)
+sa.append(["Аукционы с подачей с 06.11 (товары, 206 шт.). Маржа — при ОЖИДАЕМОМ снижении на торгах по группе (не −10 %); оценка, кроме позиций, сверенных с рынком по карточке ЕИС."]); sa["A1"].font = Font(bold=True, size=11)
+sa.append(["Ранг", "Класс", "№ закупки", "Подача до", "НМЦ, ₽", "Способ", "Площадка", "Заказчик", "Регион", "Предмет", "Группа", "Ожидаемое снижение", "Маржа при снижении", "Чем подтверждена", "Срок поставки", "Что поставляется", "Риски", "Вывод", "Что делать", "Ссылка"])
+for c in sa[2]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="7030A0"); c.alignment = Alignment(wrap_text=True, vertical="top")
+for i, x in enumerate(AO, 1):
+    r = AR[x["n"]]; k = acl(x)
+    sa.append([i, CL[k][0].replace("ЛУЧШАЯ", "ЛУЧШАЯ (аукцион)"), x["n"], str(r["deadline"])[:16], float(r["nmc"] or 0) or "не указана", r["method"], r["etp"], r["customer"], r["region"], r["subject"], x.get("group"), x.get("expected_drop"), x.get("margin_est"),
+               "оценка: " + str(x.get("basis") or "")[:200], x.get("term"), str(x.get("items_hint") or "")[:500], str(x.get("risks") or "")[:300], x["verdict"], x.get("next_step"), x.get("url")])
+    X = sa.max_row; sa.cell(X, 2).fill = PatternFill("solid", fgColor=CL[k][1]); sa.cell(X, 5).number_format = "#,##0"
+    for cc in sa[X]: cc.border = BOX; cc.alignment = Alignment(wrap_text=True, vertical="top")
+    if k <= 2:
+        s0.append([f"А{i}", "АУКЦИОН — " + CL[k][0], x["n"], str(r["deadline"])[:16], float(r["nmc"] or 0) or "не указана", r["customer"], r["subject"], f'{x.get("margin_est")} (снижение {x.get("expected_drop")})', x.get("term"), x["verdict"], x.get("next_step")])
+        Y = s0.max_row; s0.cell(Y, 2).fill = PatternFill("solid", fgColor="D9C3E9"); s0.cell(Y, 5).number_format = "#,##0"
+        for cc in s0[Y]: cc.border = BOX; cc.alignment = Alignment(wrap_text=True, vertical="top")
+for j, w in enumerate([5, 18, 20, 14, 13, 16, 14, 26, 14, 44, 18, 10, 14, 30, 18, 40, 30, 24, 30, 30], 1): sa.column_dimensions[openpyxl.utils.get_column_letter(j)].width = w
+sa.freeze_panes = "D3"; sa.auto_filter.ref = f"A2:T{sa.max_row}"
 tidy(wb, row_h=30); wb.save("../LUCHSHIE_0211.xlsx")
 import collections; print(collections.Counter(cls(x) for x in OUT)); print(len(top))
