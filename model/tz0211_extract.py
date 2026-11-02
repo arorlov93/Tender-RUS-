@@ -73,5 +73,15 @@ save("Chekhov_spec", ch(), eis="32616539033", title="Чеховское ЖКХ �
 R = rows(f"{X}/e0b1be70/Приложение № 2/Приложение №2 Таблица А_0020.xlsx")
 save("Med_0020", [dict(n=int(r[0]), name=str(r[1]).strip(), spec=str(r[2] or "")[:300] + " | производитель: " + str(r[4] or ""), unit=r[8], qty=num(r[7]), nmc_unit=None) for r in R[1:] if r[0] and str(r[0]).isdigit()],
      eis="ГПК611061", title="Мед. частное учреждение — расходники для взятия биоматериала (0020/КО)", deadline="12.11 14:00", nmc_total=3614241.26)
+R = rows(glob.glob(f"{X}/e3389ece/*/ТЗ/Приложение №1 к ТЗ.xlsx")[0])
+save("TSK_Mosenergo_chug_arm", [dict(n=int(r[0]), name=str(r[1]).strip(), spec=str(r[2] or "")[:300], unit=r[3], qty=num(r[4]), nmc_unit=num(r[5])) for r in R[3:] if r[0] and str(r[0]).isdigit() and num(r[5])],
+     eis="1038631", title="ТСК Мосэнерго — запорная арматура (37-РП-ИП-2027)", deadline="13.11 09:00")
+def tav():
+    d = Document(glob.glob(f"{X}/da4fc84b/*.docx")[0]); out = []
+    for r in d.tables[0].rows[1:]:
+        c = [x.text.strip() for x in r.cells]
+        if c[0].strip(".").isdigit() and num(c[4]): out.append(dict(n=len(out) + 1, name=c[1], spec=c[2][:300], unit=c[3], qty=num(c[4]), nmc_unit=None))
+    return out
+save("Tavrida_1222", tav(), eis="B2910261728004", title="АНО «Таврида.Арт» — пожарно-спасательное и досмотровое оборудование (№1222)", deadline="13.11 12:00", nmc_total=8930645)
 json.dump(META, open(f"{OUT}/_meta.json", "w"), ensure_ascii=False, indent=1)
 for k, v in META.items(): print(f"{k:28} поз {v['n']:5}  НМЦ по позициям {v['nmc_sum']:>14,.0f}  {v.get('nmc_total') or ''}")

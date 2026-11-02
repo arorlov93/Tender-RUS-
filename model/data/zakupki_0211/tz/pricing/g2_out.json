@@ -1,0 +1,452 @@
+{
+ "5036_GTE_Kirov_KIP": [
+  {
+   "n": 239,
+   "price": 600790,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (каталог VGD, цена со скидкой; у ТД АЗТЭО 652 500)",
+   "url": "https://ankas.ru/gazovye-klapany-siemens-vgd"
+  },
+  {
+   "n": 235,
+   "price": 316855,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru",
+   "url": "https://ankas.ru/gazovye-klapany-siemens-vgd"
+  },
+  {
+   "n": 215,
+   "price": 146490,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "boilerparts.ru (розница, самовывоз Москва; siemens-rf 251 750, ankas 292 000)",
+   "url": "https://boilerparts.ru/honeywell-brahma-siemens-suntec/zapchasti-siemens/servoprivody-siemens/servoprivody-siemens-serii-sqm20-sqm21/servoprivod-siemens-sqm21-18502"
+  },
+  {
+   "n": 223,
+   "price": 291600,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ТД АЗТЭО (в наличии; ankas 299 000)",
+   "url": "https://www.tdazteo.ru/katalog-oborudovaniya/produktsiya-dungs/gazovyye-multibloki/gazovyy-multiblok-dungs-mb-vef-420-b01-s32-239077/"
+  },
+  {
+   "n": 237,
+   "price": 205750,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru",
+   "url": "https://ankas.ru/gazovye-klapany-siemens-vgd"
+  },
+  {
+   "n": 226,
+   "price": 224000,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (арт. 223143)",
+   "url": "https://ankas.ru/gazovyy-multiblok-dungs-mb-vef"
+  },
+  {
+   "n": 236,
+   "price": 157457.63,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "u2servis.ru (партнер Siemens; pulseelectro 166 112 с НДС, inzton 170 000)",
+   "url": "https://u2servis.ru/vgd40-050-art-dvoynoy-gazovyy-klapan-dn50-100-m-ch"
+  },
+  {
+   "n": 114,
+   "price": 253393,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "boilerparts.ru (розница; единственная найденная цена, исполнение /5 — уточнить длину кабеля)",
+   "url": "https://boilerparts.ru/ehlektrody-kotlov-i-kolonok/fotodatchiki/fotodatchiki-lamtec/fotodatchik-lamtec-ffs-06-659r3001t-5"
+  },
+  {
+   "n": 228,
+   "price": 150609,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (4-20 мбар, арт. 226803; alran 151 200 для 4-33 мбар)",
+   "url": "https://ankas.ru/gazovye-multibloki/dungs-mb-dle-420-b01-s20-16506"
+  },
+  {
+   "n": 243,
+   "price": 122765,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "эквивалент: W-MF SE507 C01 (S22, арт. 605320) — уточнить комплектацию реле",
+   "source": "weishaupt.shop (в наличии; teplo-energetika 143 800)",
+   "url": "https://weishaupt.shop/product/multiblok-tipa-w-mf-se507-s22-230-v-s-ustanovlennym-rele-davleniya-gaza-gw50-a5-1-dlya-gorelok-wg-10203040-34-wg-20-1/"
+  },
+  {
+   "n": 222,
+   "price": 118500,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "normatec.ru (арт. 226555; profitut 156 000, ankas 169 000)",
+   "url": "https://normatec.ru/catalog/iteminfo/dvuhstupenchatye-multibloki-dungs-tipa-mb-zrdle"
+  },
+  {
+   "n": 241,
+   "price": 123000,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "inzton.ru (СПб, в наличии; normatec 125 400, ankas 146 494)",
+   "url": "https://inzton.ru/catalog/dungs_mbc/3359/"
+  },
+  {
+   "n": 224,
+   "price": 79800,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ТД АЗТЭО (арт. 84766103, в наличии)",
+   "url": "https://www.tdazteo.ru/katalog-oborudovaniya/gazovoe-oborudovanie/klapanyi/gazovyy_elektromagnitnyy_klapan_kromschroder_cg15r03d1_50w6_84766103/"
+  },
+  {
+   "n": 211,
+   "price": 113400,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ТД АЗТЭО (в наличии; boilerparts 140 856)",
+   "url": "https://www.tdazteo.ru/katalog-oborudovaniya/produktsiya-siemens/privodyi/privod-dlya-gazovykh-klapanov-siemens-skp75-003e2/"
+  },
+  {
+   "n": 247,
+   "price": 105500,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "centr-teplo.ru (W-FM25 IB 230В, в наличии)",
+   "url": "https://www.centr-teplo.ru/products/menedzher-goreniya-w-fm25-ib-230v-vmesto-w-fm2024-dlya-rezhima-raboty-s-preryvaniem-kazhdye-24-chasa"
+  },
+  {
+   "n": 246,
+   "price": 146494,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (каталог Siemens, со скидкой; карточка 154 000)",
+   "url": "https://ankas.ru/servoprivody-i-zaslonki/siemens-sqm1016502-14510"
+  },
+  {
+   "n": 219,
+   "price": 77774,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (каталог MB-DLE, со скидкой)",
+   "url": "https://ankas.ru/gazovyy-multiblok-dungs-mb-dle"
+  },
+  {
+   "n": 221,
+   "price": 141300,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "эквивалент: Ecoflam MB-VEF 407 B01 S30 (тот же мультиблок Dungs под маркой Ecoflam); у ankas Dungs ~176 000",
+   "source": "alran.ru",
+   "url": "https://alran.ru/catalog/zapchasti-dlya-gorelok/gazovye-multibloki/ecoflam/"
+  },
+  {
+   "n": 245,
+   "price": 115900,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "siemens-rf.ru (boilerparts 123 342, ankas 134 000)",
+   "url": "https://siemens-rf.ru/catalog/privody_siemens/servoprivody_siemens/servoprivod_siemens_sqm50_381a2/"
+  },
+  {
+   "n": 212,
+   "price": 66500,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (L500; alran 38 500 под заказ)",
+   "url": "https://ankas.ru/servoprivody-i-zaslonki/schneider-electric-ste45-q3-516-r-14626"
+  },
+  {
+   "n": 213,
+   "price": 80500,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (в наличии; prom-elec 111 510, isk-ro 120 170)",
+   "url": "https://ankas.ru/servoprivody-i-zaslonki/schneider-electric-stm40-q15518-2n-l-pot-14623"
+  },
+  {
+   "n": 216,
+   "price": 127000,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru",
+   "url": "https://ankas.ru/servoprivody-i-zaslonki/siemens-sqm50480a2-25934"
+  },
+  {
+   "n": 234,
+   "price": 121804,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "эквивалент: SQM50.481A2 (базовое исполнение 220 В, без суффикса Z3/G3)",
+   "source": "ankas.ru (со скидкой)",
+   "url": "https://ankas.ru/servoprivody-i-zaslonki/siemens-sqm50481a2-14598"
+  },
+  {
+   "n": 242,
+   "price": 118800,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "alran.ru (арт. 24800A5; ankas 132 000–170 000)",
+   "url": "https://alran.ru/catalog/zapchasti-dlya-gorelok/servoprivod/servoprivod-cib-unigas-sqm40-2/"
+  },
+  {
+   "n": 122,
+   "price": 103550,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "siemens-rf.ru (ankas 128 000)",
+   "url": "https://siemens-rf.ru/catalog/kontrollery_siemens/universalnye_kontrollery_siemens/kontroller_rwf55_50a9/"
+  },
+  {
+   "n": 220,
+   "price": 101229,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (арт. 226563, со скидкой; alran 99 995)",
+   "url": "https://ankas.ru/gazovye-multibloki/dungs-mb-dle-412-b01-s20-16471"
+  },
+  {
+   "n": 121,
+   "price": 72630,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "security-master.ru (в наличии; встречаются 37–44 тыс. у asberg/promelsvet — вероятно устаревшие, под заказ)",
+   "url": "https://security-master.ru/catalog/elektronika_i_avtomatizatsiya/avtomatizatsiya_i_ethernet/kontrollery/43387/"
+  },
+  {
+   "n": 38,
+   "price": 133200,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду150 ГФ кл.D; teplocom-sale от 135 420)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 214,
+   "price": 162000,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (каталог; карточка 179 000)",
+   "url": "https://ankas.ru/servoprivody-i-zaslonki/siemens-sqm1016532-14639"
+  },
+  {
+   "n": 112,
+   "price": 86900,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ТД АЗТЭО (в наличии)",
+   "url": "https://www.tdazteo.ru/katalog-oborudovaniya/produktsiya-siemens/avtomatyi-goreniya/topochnyy-avtomat-siemens-lfl1-333/"
+  },
+  {
+   "n": 210,
+   "price": 92500,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (диапазон 87 000–116 062)",
+   "url": "https://ankas.ru/zapchasti-gazovyh-klapanov-dlya-gorelok/siemens-skp25003e2-16490"
+  },
+  {
+   "n": 204,
+   "price": 97820,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "Теремонлайн (СТВК 2 50/15 ДГ, Декаст)",
+   "url": "https://www.teremonline.ru/product/decast-10-50-464-decast-schetchik-kholodnoy-vody-kombinirovannyy-stvk-2-50-15-dg-100-10-l-imp/"
+  },
+  {
+   "n": 37,
+   "price": 71520,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду100 ГС кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 230,
+   "price": 57199,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru",
+   "url": "https://ankas.ru/gazovye-klapany-siemens-vgd"
+  },
+  {
+   "n": 232,
+   "price": 54900,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ООО МАРК dungs.rusmark.ru (арт. 219877; alran 61 700)",
+   "url": "https://dungs.rusmark.ru/bloki-kontrolja-germetichnosti-dungs/dungs-vps-504/vps-504-s02-0.html"
+  },
+  {
+   "n": 35,
+   "price": 85200,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду80 ГФ кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 209,
+   "price": 70873,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "boilerparts.ru (розница; ankas 66 500)",
+   "url": "https://boilerparts.ru/honeywell-brahma-siemens-suntec/zapchasti-siemens/privody-siemens-dlya-gazovyh-klapanov/privody-dlya-gazovyh-klapanov-siemens-serii-skp15/privod-dlya-gazovogo-klapana-siemens-skp15-000e2"
+  },
+  {
+   "n": 227,
+   "price": 69132,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (каталог, со скидкой)",
+   "url": "https://ankas.ru/servoprivody-dlya-vozdushnyh-zaslonok/siemens"
+  },
+  {
+   "n": 26,
+   "price": 79178,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "uralenergotel.ru (с НДС; прайс Логика 100 040)",
+   "url": "https://uralenergotel.ru/product/spt9612"
+  },
+  {
+   "n": 28,
+   "price": 58200,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду20 ГФ кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 248,
+   "price": 70875,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "gorelco.ru (в наличии)",
+   "url": "https://gorelco.ru/catalog/elektrodvigateli/elektrodvigatel_simel_xd_7_207_32_370_vt/"
+  },
+  {
+   "n": 225,
+   "price": 59000,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru",
+   "url": "https://ankas.ru/gazovye-klapany-siemens-vgd"
+  },
+  {
+   "n": 36,
+   "price": 99600,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду100 ГФ кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 23,
+   "price": 84648.48,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "dn.ru (Авангард 25ч945нж Ду32 Ру16 с Regada ST0)",
+   "url": "https://dn.ru/klapan/klapan-reguliruiushchii/2hod/avangard/25ch945nzh/dn32"
+  },
+  {
+   "n": 33,
+   "price": 69600,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду50 ГФ кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 31,
+   "price": 66000,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду40 ГФ кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 27,
+   "price": 43200,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду20 ГС кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 34,
+   "price": 66000,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду80 ГС кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 238,
+   "price": 56500,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru",
+   "url": "https://ankas.ru/gazovye-klapany-siemens-vgd"
+  },
+  {
+   "n": 244,
+   "price": 55500,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru (Weishaupt арт. 651101)",
+   "url": "https://ankas.ru/servoprivody-i-zaslonki/schneider-electric-ste45-b0366-01l-gas-14848"
+  },
+  {
+   "n": 30,
+   "price": 63600,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду32 ГФ кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 231,
+   "price": 29780,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "eleport.ru (alran 32 900)",
+   "url": "https://eleport.ru/catalog/avtomatika/oborudovanie-siemens/klapany-siemens/klapany-siemens-gazovye/klapany-siemens-gazovye-vgg/"
+  },
+  {
+   "n": 229,
+   "price": 53500,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ankas.ru",
+   "url": "https://ankas.ru/gazovye-klapany-siemens-vgd"
+  },
+  {
+   "n": 217,
+   "price": 37951,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "boilerparts.ru (розница; ankas: снят с производства)",
+   "url": "https://boilerparts.ru/honeywell-brahma-siemens-suntec/zapchasti-siemens/servoprivody-siemens/servoprivody-siemens-serii-sqn70-sqn71-sqn72-sqn74-sqn75/servoprivod-siemens-sqn75224a26"
+  },
+  {
+   "n": 32,
+   "price": 55200,
+   "unit_note": "за 1 шт.; прайс дилера 2026, НДС на странице не указан",
+   "match": "точно",
+   "source": "Сибэнерготех (прайс ПРЭМ, Ду50 ГС кл.D)",
+   "url": "https://www.set-nsk.ru/retail/watermeter-prem/"
+  },
+  {
+   "n": 218,
+   "price": 43200,
+   "unit_note": "за 1 шт., розничная цена с сайта (НДС включён, если не оговорено)",
+   "match": "точно",
+   "source": "ТД АЗТЭО (арт. 24800A4)",
+   "url": "https://www.tdazteo.ru/katalog-oborudovaniya/gorelki-zapchasti-k-gorelkam/gorelki-cib-unigas-zapchasti-k-gorelkam/servoprivody-i-zaslonki/servoprivod_siemens_sqn72_4a4a20bc_24800a4/"
+  }
+ ]
+}
