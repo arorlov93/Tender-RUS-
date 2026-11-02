@@ -30,11 +30,12 @@ CALC = {
 }
 if os.path.exists(f"{D}/calc_new.json"):
     for k, v in json.load(open(f"{D}/calc_new.json")).items(): CALC[k] = tuple(v)
+GAZ = lambda n: n in {"32616420912", "1038513", "1038631"} or (n != "ГПК611061" and bool(re.search(r"Газпром|ТГК-1|Петербургтеплоэнерго|Мосэнерго|ГЭХ", str((RAW.get(n) or [""] * 26)[25]) + str((RAW.get(n) or [""] * 3)[2]))))
 def cls(x):
     n = x["n"]
     if n in CALC:
         m10, v = CALC[n][1], CALC[n][3]
-        if m10 is not None and m10 >= 0.25 and "СРОК" not in v: return 0
+        if m10 is not None and m10 >= 0.25 and ("СРОК" not in v or GAZ(n)): return 0  # Газпром — берём и при договоре на 2027 г.
         if v.startswith(("МАРЖА ЕСТЬ", "ТОНКО", "НУЖНЫ")): return 2
         return 4
     v = x["verdict"]
@@ -96,5 +97,34 @@ for i, x in enumerate(AO, 1):
         for cc in s0[Y]: cc.border = BOX; cc.alignment = Alignment(wrap_text=True, vertical="top")
 for j, w in enumerate([5, 18, 20, 14, 13, 16, 14, 26, 14, 44, 18, 10, 14, 30, 18, 40, 30, 24, 30, 30], 1): sa.column_dimensions[openpyxl.utils.get_column_letter(j)].width = w
 sa.freeze_panes = "D3"; sa.auto_filter.ref = f"A2:T{sa.max_row}"
+
+# ---------- ИТОГ: что подаём (вкл. группу Газпром — ГЭХ, ТГК-1, Газпром теплоэнерго, ТСК Мосэнерго)
+si = wb.create_sheet("ИТОГ", 0)
+si.append(["ИТОГ по 9 выгрузкам (подача с 06.11): что подаём. Включая группу Газпром (договоры на 2027 г. берём). Сортировка — по сроку подачи. «Расчёт» — по ТЗ и рыночным ценам; «оценка» — нужен ТЗ/КП заводов до подачи."]); si["A1"].font = Font(bold=True, size=12)
+si.append(["Подача до", "№ закупки", "Тип", "Газпром", "Заказчик", "Предмет", "НМЦ, ₽", "Маржа", "Чем подтверждена", "Срок поставки", "Что делать до подачи", "Ссылка / площадка"])
+for c in si[2]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True, vertical="top")
+F = []
+for x in OUT:
+    n = x["n"]; r = RAW[n]; k = cls(x); c = CALC.get(n)
+    if k <= 1 or (GAZ(n) and k <= 2):
+        mg = (f"{c[1]:.0%} при −10 %" if c and c[1] is not None else x["margin_est"] + " при −10 %") if (c or x.get("margin_est")) else "—"
+        F.append([str(r[13])[:16], n, "конкурс / запрос КП" if not x.get("kp_request") else "запрос КП / цен", "да" if GAZ(n) else "", r[25], r[2], nmc(n) or "не указана", mg,
+                  "расчёт по ТЗ" if c else "оценка", (c[2] if c and c[2] else x.get("term")), (c[4] + "; " if c and c[4] else "") + str(x.get("next_step") or ""), x.get("url") or r[19], k])
+for x in AO:
+    if acl(x) == 1:
+        r = AR[x["n"]]
+        F.append([str(r["deadline"])[:16], x["n"], "АУКЦИОН", "да" if re.search("Газпром", str(r["customer"])) else "", r["customer"], r["subject"], float(r["nmc"] or 0) or "не указана", f'{x.get("margin_est")}', "оценка", x.get("term"), x.get("next_step"), x.get("url") or r["etp"], 1])
+F.sort(key=lambda z: z[0])
+for z in F:
+    si.append(z[:12]); X = si.max_row
+    si.cell(X, 7).number_format = "#,##0"
+    col = "63BE7B" if z[12] == 0 else "C6EFCE" if z[12] == 1 else "FFF2CC"
+    si.cell(X, 8).fill = PatternFill("solid", fgColor=col)
+    if z[3]: si.cell(X, 4).fill = PatternFill("solid", fgColor="BDD7EE")
+    if z[0] < "2026-11-07": si.cell(X, 1).fill = PatternFill("solid", fgColor="F8CBAD")
+    for cc in si[X]: cc.border = BOX; cc.alignment = Alignment(wrap_text=True, vertical="top")
+for j, w in enumerate([14, 18, 12, 8, 28, 48, 14, 20, 12, 22, 46, 30], 1): si.column_dimensions[openpyxl.utils.get_column_letter(j)].width = w
+si.freeze_panes = "C3"; si.auto_filter.ref = f"A2:L{si.max_row}"
+print("ИТОГ:", len(F))
 tidy(wb, row_h=30); wb.save("../LUCHSHIE_0211.xlsx")
 import collections; print(collections.Counter(cls(x) for x in OUT)); print(len(top))
