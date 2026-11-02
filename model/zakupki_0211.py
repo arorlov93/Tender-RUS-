@@ -69,6 +69,24 @@ w0.append([]); w0.append(["Не взяли (маржа обычно ниже 20 
 for i, wd in enumerate([22, 20, 28, 50, 14, 15, 16, 16, 11, 55, 40], 1): w0.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
 w0.freeze_panes = "C3"; wb.active = 0
 
+# ---- доскональная проверка: позиции и цены 44-ФЗ (извещения), карточки и прошлые договоры заказчиков 223-ФЗ, рынок
+V = json.load(open("data/zakupki_0211/verdict.json"))
+wv = wb.create_sheet("Проверка — выгодно или нет", 0)
+wv.append(["Проверка каждой закупки с потенциалом (до 100 млн): позиции и цены из извещений ЕИС (44-ФЗ), карточки и договоры заказчиков (223-ФЗ), рыночные цены. «РАСЧЁТ» — посчитано по позициям; «ОЦЕНКА» — ТЗ не скачан (zakupki.gov.ru недоступен), нужен файл ТЗ"]); wv["A1"].font = Font(bold=True, size=12)
+wv.append(["Вердикт", "№ закупки", "Заказчик", "Предмет", "НМЦ, ₽", "Подача до", "Площадка", "Маржа", "Расчёт / основание", "Что делать"]); hd(wv)
+VF = {"ВЫГОДНО — РАСЧЁТ": "C6EFCE", "ВЫГОДНО — ОЦЕНКА, НУЖЕН ТЗ": "E2EFDA", "НЕВЫГОДНО — РАСЧЁТ": "F8CBAD", "НЕВЫГОДНО — ОЦЕНКА": "FCE4D6", "НЕ УСПЕВАЕМ": "D9D9D9"}
+order = list(VF)
+for n, v, m, why, todo in sorted(V, key=lambda x: (order.index(x[1]), -(rows[x[0]]["nmc"] or 0))):
+    r = rows[n]
+    wv.append([v, n, r["Заказчик"], r["Название"], r["nmc"], str(r["Окончание приема заявок"] or "")[:16], r["ЭТП"], m, why, todo])
+    X = wv.max_row; wv.cell(X, 1).fill = PatternFill("solid", fgColor=VF[v]); wv.cell(X, 5).number_format = "#,##0"
+    for cc in wv[X]: cc.border = BOX; cc.alignment = Alignment(wrap_text=True, vertical="top")
+wv.append([])
+for v in order:
+    L = [x for x in V if x[1] == v]; wv.append([v, len(L), "", "", sum(rows[x[0]]["nmc"] or 0 for x in L)]); wv.cell(wv.max_row, 5).number_format = "#,##0"; wv.cell(wv.max_row, 1).font = Font(bold=True)
+for i, wd in enumerate([24, 20, 26, 46, 14, 15, 16, 10, 70, 42], 1): wv.column_dimensions[openpyxl.utils.get_column_letter(i)].width = wd
+wv.freeze_panes = "C3"; wb.active = 0
+
 s2 = wb.create_sheet("Отсев — сводка")
 s2.append(["Категория", "Всего", "Аукционы (не идём)", "Услуги/работы (не идём)", "Товар, не аукцион", "НМЦ товара не аукцион, млн ₽", "из них с указанной НМЦ"]); hd(s2)
 agg = collections.defaultdict(lambda: [0, 0, 0, 0, 0.0, 0])
