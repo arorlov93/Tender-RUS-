@@ -1,0 +1,626 @@
+{
+ "OrVD_spec_winter": [
+  {
+   "n": 1,
+   "price": 10676.22,
+   "unit_note": "за комплект (куртка+полукомбинезон)",
+   "match": "аналог: Костюм зимний сигнальный «Прожектор» флуоресц. оранжевый с серым, арт. 2.197; класс защиты по Тн не сверен",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/2197"
+  },
+  {
+   "n": 2,
+   "price": 7194.34,
+   "unit_note": "за комплект",
+   "match": "аналог: Костюм мужской зимний «Велес-2» арт. 2.368 (куртка+полукомбинезон, синтепон 150 г/м²; ТЗ — брюки; Ми/З есть, класс Тн и состав ткани не сверены)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/2368"
+  },
+  {
+   "n": 3,
+   "price": 7194.34,
+   "unit_note": "за комплект",
+   "match": "аналог: Костюм мужской зимний «Велес-2» арт. 2.368 (полукомбинезон вместо брюк)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/2368"
+  },
+  {
+   "n": 4,
+   "price": 9311.04,
+   "unit_note": "за комплект",
+   "match": "аналог: Костюм мужской зимний «Билд» арт. 2.167 (куртка+полукомбинезон, Филгуд 150 г/м²; полукомбинезон вместо брюк)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/2167"
+  },
+  {
+   "n": 5,
+   "price": 9810.02,
+   "unit_note": "за комплект = куртка 5984.71 + полукомбинезон 3825.31",
+   "match": "близко: Куртка мужская зимняя «Байкал-2» Тн 3(4) арт. 2.235 + Полукомбинезон мужской зимний «Байкал-2» Тн 3(4) арт. 2.236 (сумма двух позиций)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/2235"
+  },
+  {
+   "n": 6,
+   "price": 19638.34,
+   "unit_note": "за комплект",
+   "match": "с запасом по ТЗ: Костюм зимний сигнальный «Неостат» (антистатик) арт. 2.583 — сигнальный, функций больше, чем в ТЗ; несигнальный зимний антистатик в прайсе не найден, цена по верхней границе",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://cdn2.technoavia.ru/Technoavia/pdf/price-lists/pdf-price-list/a5b6a3e7aa9922b5783e5aa5f78b817a/6070230/price-list-56139.pdf"
+  },
+  {
+   "n": 7,
+   "price": 5984.71,
+   "unit_note": "за шт",
+   "match": "близко: Куртка мужская зимняя «Байкал-2», Тн 3(4) класс, арт. 2.235",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/2235"
+  },
+  {
+   "n": 8,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: в прайсе Техноавиа нет зимней антистатической куртки (есть только летние/флисовые «Оператор» и сигнальная ветровка «Неостат» без утепления); Восток-Сервис рендерится JS, цены не получены",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 9,
+   "price": 1312.72,
+   "unit_note": "за шт",
+   "match": "аналог: Жилет утепленный «Рабочий» темно-синий; состав ПА 65% / маслоотталкивающая отделка не сверены (дороже аналоги: «Иртыш» 3785.66, «Норд» 4402.37)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://cdn2.technoavia.ru/Technoavia/pdf/price-lists/pdf-price-list/a5b6a3e7aa9922b5783e5aa5f78b817a/6070230/price-list-56139.pdf"
+  },
+  {
+   "n": 10,
+   "price": 2889.48,
+   "unit_note": "за комплект (фуфайка+кальсоны)",
+   "match": "близко: Термобелье мужское «Беринг-Фрост» (кальсоны + фуфайка) арт. 4.106; состав не сверен",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/4106"
+  }
+ ],
+ "Chekhov_spec": [
+  {
+   "n": 1,
+   "price": 2359.48,
+   "unit_note": "за шт (костюм)",
+   "match": "аналог: Костюм мужской летний «Рабочий» арт. 3.136 (ОПЗ/Ми)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/3136"
+  },
+  {
+   "n": 2,
+   "price": 2757.2,
+   "unit_note": "за шт (костюм)",
+   "match": "аналог: Костюм мужской летний «Велес» арт. 3.140",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/3140"
+  },
+  {
+   "n": 3,
+   "price": 3800.91,
+   "unit_note": "за шт (костюм)",
+   "match": "близко: Костюм сварщика брезентовый (КС 01), 2 класс защиты, арт. 3.121",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/3121"
+  },
+  {
+   "n": 4,
+   "price": 3419.66,
+   "unit_note": "за шт (костюм)",
+   "match": "аналог: Костюм мужской летний «Велес-2» арт. 4.636 (куртка+полукомбинезон)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/4636"
+  },
+  {
+   "n": 5,
+   "price": 4747.02,
+   "unit_note": "за шт",
+   "match": "аналог: Куртка мужская зимняя «Зима» арт. 2.191",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/2191"
+  },
+  {
+   "n": 6,
+   "price": 11876.7,
+   "unit_note": "за шт (костюм)",
+   "match": "близко: Костюм сварщика комбинированный со спилком (зимний) со съемным утеплителем, арт. 3.123",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/3123"
+  },
+  {
+   "n": 7,
+   "price": 775.0,
+   "unit_note": "за пару",
+   "match": "близко: Перчатки SPLIT (Сплит) из спилка КРС с крагами арт. 7.412 (дороже: Рукавицы с крагами из спилка 1149)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://cdn2.technoavia.ru/Technoavia/pdf/price-lists/pdf-price-list/a5b6a3e7aa9922b5783e5aa5f78b817a/6070230/price-list-56139.pdf"
+  },
+  {
+   "n": 8,
+   "price": 3821.04,
+   "unit_note": "за шт (костюм)",
+   "match": "аналог: Костюм влагозащитный ПВХ «Фишермен» (Fisherman's WPL) арт. 3.219",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://www.technoavia.ru/product/3219"
+  },
+  {
+   "n": 9,
+   "price": 4351.13,
+   "unit_note": "за пару",
+   "match": "аналог: Сапоги «Билд» с комбинированным верхом утепленные, с металлическими защитными носками (подошва не сверена с ПУ/ТПУ)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://cdn2.technoavia.ru/Technoavia/pdf/price-lists/pdf-price-list/a5b6a3e7aa9922b5783e5aa5f78b817a/6070230/price-list-56139.pdf"
+  },
+  {
+   "n": 10,
+   "price": 7664.65,
+   "unit_note": "за пару",
+   "match": "близко: Сапоги мужские кожаные Неогард-2® для сварочных работ, композитный подносок (утепленный вариант 7985.51)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://cdn2.technoavia.ru/Technoavia/pdf/price-lists/pdf-price-list/a5b6a3e7aa9922b5783e5aa5f78b817a/6070230/price-list-56139.pdf"
+  },
+  {
+   "n": 11,
+   "price": 3344.63,
+   "unit_note": "за пару",
+   "match": "частично: Сапоги специальные из ЭВА с пластиковым защитным носком «Нордман Актив С»; утепление не подтверждено (утепленные ЭВА «Нордман Лайт С» без подноска — 2102.67)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://cdn2.technoavia.ru/Technoavia/pdf/price-lists/pdf-price-list/a5b6a3e7aa9922b5783e5aa5f78b817a/6070230/price-list-56139.pdf"
+  },
+  {
+   "n": 12,
+   "price": 3482.49,
+   "unit_note": "за пару",
+   "match": "аналог: Ботинки кожаные «Билд» утепленные (без защитных элементов)",
+   "source": "Техноавиа, прайс-лист Москва (цены с НДС, на 02.11.2026)",
+   "url": "https://cdn2.technoavia.ru/Technoavia/pdf/price-lists/pdf-price-list/a5b6a3e7aa9922b5783e5aa5f78b817a/6070230/price-list-56139.pdf"
+  }
+ ],
+ "VOIN_ognevaya": [
+  {
+   "n": 1,
+   "price": 11690,
+   "unit_note": "за шт",
+   "match": "точно: Страйкбольный пистолет KJW KP-17 Glock G17 Gas Black, металл. затвор",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=KJW%20KP-17"
+  },
+  {
+   "n": 2,
+   "price": 2790,
+   "unit_note": "за шт",
+   "match": "близко: Магазин газовый KJW/WE для Glock G18 GBB, 22 шара (совместим с G17); газовый магазин именно G17 в выдаче не найден (CO2 G17 — 3190)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20KJW%20Glock"
+  },
+  {
+   "n": 3,
+   "price": 22900,
+   "unit_note": "за шт",
+   "match": "точно: Страйкбольный автомат Cyma АК-74М, складной приклад (CM.040C)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=CM040"
+  },
+  {
+   "n": 4,
+   "price": 990,
+   "unit_note": "за шт",
+   "match": "точно: Магазин механический Cyma для АК-74, 150 шаров (C.72)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%90%D0%9A"
+  },
+  {
+   "n": 5,
+   "price": 46900,
+   "unit_note": "за шт",
+   "match": "аналог: Страйкбольный автомат KJW M4 Carbine V3 C8 Mag GBB (Black), форм-фактор M4, GBB Green Gas; скорость 110-120 м/с не сверена",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=GBB%20M4%20%D1%81%D1%82%D1%80%D0%B0%D0%B9%D0%BA%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82"
+  },
+  {
+   "n": 6,
+   "price": 5990,
+   "unit_note": "за шт",
+   "match": "к п.5: Магазин газовый KJW для M4 C8 GBB, 30 шаров",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20KJW%20M4%20GBB"
+  },
+  {
+   "n": 7,
+   "price": 10090,
+   "unit_note": "за шт",
+   "match": "точно: Пневматическая винтовка Baikal МР-512С-06 (пластик, 3 Дж) 4,5 мм",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%9C%D0%A0-512%D0%A1"
+  },
+  {
+   "n": 8,
+   "price": 11490,
+   "unit_note": "за шт",
+   "match": "точно: Пневматическая винтовка Baikal МР-61С (боковой взвод, 3 Дж) 4,5 мм (вариант с комбо-планкой — 11190)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=Baikal%20%D0%9C%D0%A0-61"
+  },
+  {
+   "n": 9,
+   "price": 5350,
+   "unit_note": "за шт",
+   "match": "близко: Коллиматор Vector Optics Maverick-II 1x22, точка 3 MOA, Weaver (Maverick-III 1x22 — 6820-7050)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=Vector%20Optics%20Maverick"
+  },
+  {
+   "n": 10,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: магнифер Vector Optics 3x в выдаче нет; есть только неименные аналоги — Увеличитель 3x на Weaver 4290, RealArm ZB3-1 3x 3490",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BC%D0%B0%D0%B3%D0%BD%D0%B8%D1%84%D0%B5%D1%80"
+  },
+  {
+   "n": 11,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: Dedal-180 HR(100) — российских рублёвых цен нет (pnevmat24/huntworld не продают, производитель — цена по запросу)",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 12,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: iRay Saim SCP19W — рублёвых цен в выдаче нет, только зарубежные магазины",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 13,
+   "price": 8890,
+   "unit_note": "за шт",
+   "match": "точно: Корректор мушки КМА",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BA%D0%BE%D1%80%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%BC%D1%83%D1%88%D0%BA%D0%B8"
+  },
+  {
+   "n": 14,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: ШХО-20 АКМ (2000х1000х500, S2) — в РФ цены не найдены (только казахстанский Satu, 854 000 в тенге)",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 15,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: ОШ-60 Кедр — у производителя «цена договорная», розничных цен нет",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 16,
+   "price": 116500,
+   "unit_note": "за комплект",
+   "match": "базовый комплект SCATT MX-W2 (CIS), арт. 101008, розница с НДС 5%; доп. комплектация из ТЗ (комплект доработки МР-512С, держатель LB-03, штатив) в цену НЕ входит",
+   "source": "SCATT, официальный прайс-лист 2026 (цена вкл. НДС 5%)",
+   "url": "https://www.scatt.ru/files/scatt_price_list_2026.pdf"
+  },
+  {
+   "n": 17,
+   "price": 1200,
+   "unit_note": "за комплект",
+   "match": "точно: Набор плакатов SCATT, арт. 303012",
+   "source": "SCATT, официальный прайс-лист 2026 (цена вкл. НДС 5%)",
+   "url": "https://www.scatt.ru/files/scatt_price_list_2026.pdf"
+  },
+  {
+   "n": 18,
+   "price": 1190,
+   "unit_note": "за шт",
+   "match": "аналог: Кобура полимерная FMA Kydex для Glock G17, на ремень (Black); крепление Tek Lok не подтверждено",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BA%D0%BE%D0%B1%D1%83%D1%80%D0%B0%20Glock%20%D0%BF%D0%BE%D0%BB%D0%B8%D0%BC%D0%B5%D1%80%D0%BD%D0%B0%D1%8F"
+  },
+  {
+   "n": 19,
+   "price": 690,
+   "unit_note": "за шт",
+   "match": "аналог: Подсумок LA-13 под 2 пистолетных магазина (тканевый, не пластик Tek Lok)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BF%D0%BE%D0%B4%D1%81%D1%83%D0%BC%D0%BE%D0%BA%20%D0%BF%D0%BE%D0%B4%202%20%D0%BF%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82%D0%BD%D1%8B%D1%85%20%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0"
+  },
+  {
+   "n": 20,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: паучер под 4 магазина с регулировкой наклона",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 21,
+   "price": 690,
+   "unit_note": "за шт",
+   "match": "близко: Ремень брючный Стикхант РЕМ-ТАК для разгрузочной системы, 50 мм (хаки)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%8C%2050%20%D0%BC%D0%BC"
+  },
+  {
+   "n": 22,
+   "price": 3290,
+   "unit_note": "за шт",
+   "match": "близко: Подсумок Wartech MP-106 под 4 магазина АК-серии (олива), MOLLE (бюджетный вариант: Phoenix двойной под 4 АК — 690)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BF%D0%BE%D0%B4%D1%81%D1%83%D0%BC%D0%BE%D0%BA%20%D0%90%D0%9A%204%20%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B0"
+  },
+  {
+   "n": 23,
+   "price": 1450,
+   "unit_note": "за шт",
+   "match": "близко: Подсумок Wartech MP-117 «Альфа» под 1 магазин АК, фастмаг (олива)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BF%D0%BE%D0%B4%D1%81%D1%83%D0%BC%D0%BE%D0%BA%20%D1%84%D0%B0%D1%81%D1%82%D0%BC%D0%B0%D0%B3%20%D0%90%D0%9A"
+  },
+  {
+   "n": 24,
+   "price": 1150,
+   "unit_note": "за шт",
+   "match": "близко: Подсумок Rusforce USMC Large для сброса магазинов (Green)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BF%D0%BE%D0%B4%D1%81%D1%83%D0%BC%D0%BE%D0%BA%20%D1%81%D0%B1%D1%80%D0%BE%D1%81%D0%B0"
+  },
+  {
+   "n": 25,
+   "price": 2790,
+   "unit_note": "за шт",
+   "match": "точно: Зарядное устройство BlueMAX 15W AEG Pro Smart для LiPo/LiFe/Li-Ion и NiMH",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%B7%D0%B0%D1%80%D1%8F%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20BlueMAX%2015W"
+  },
+  {
+   "n": 26,
+   "price": 1590,
+   "unit_note": "за шт",
+   "match": "близко: Аккумулятор BlueMAX Li-Po 7.4V 1650mAh 20C AK Stick (вариант 1200 mAh AK-type 7.4V не найден); разъём не сверен",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=BlueMAX%20AK"
+  },
+  {
+   "n": 27,
+   "price": 790,
+   "unit_note": "за шт",
+   "match": "близко: Лоадер Cyma большой на 470 шаров (C.127)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BB%D0%BE%D0%B0%D0%B4%D0%B5%D1%80%20%D1%88%D0%B0%D1%80%D0%BE%D0%B2"
+  },
+  {
+   "n": 28,
+   "price": 1150,
+   "unit_note": "за шт",
+   "match": "близко: Очки стрелковые PMX Initial G-4810ST Anti-fog, прозрачные (дешевле без антифога — 250)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BE%D1%87%D0%BA%D0%B8%20%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D1%8B%D0%B5"
+  },
+  {
+   "n": 29,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: ремень Концерн Калашников МКС-К.Сб8 (арт. 135700908011) в доступных магазинах; аналог тактический «Долг-М2» 1-2-3 точки — 2700 (pnevmat24)",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 30,
+   "price": 890,
+   "unit_note": "за шт",
+   "match": "близко: МП Ремень погонный брезентовый 35 мм (под заказ)",
+   "source": "huntworld.ru (розница, руб.)",
+   "url": "https://www.huntworld.ru/search/?q=%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D1%8C%20%D0%B1%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%D1%8B%D0%B9"
+  },
+  {
+   "n": 31,
+   "price": 790,
+   "unit_note": "за шт",
+   "match": "близко: Набор для чистки и разборки оружия АК-74 5,45 мм в металлическом пенале",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BF%D0%B5%D0%BD%D0%B0%D0%BB%20%D0%90%D0%9A"
+  },
+  {
+   "n": 32,
+   "price": 5651,
+   "unit_note": "за комплект = магазин 3531 + 40×53",
+   "match": "расчёт из реальных цен: Магазин КК АК-74 5,45 пласт. 30 (3531) + 40 учебных патронов 5,45х39 МП (53/шт); готовый комплект не найден",
+   "source": "huntworld.ru (розница, руб.)",
+   "url": "https://www.huntworld.ru/search/?q=%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9%20%D0%90%D0%9A-74"
+  },
+  {
+   "n": 33,
+   "price": 3531,
+   "unit_note": "за шт",
+   "match": "близко: Магазин КК (Концерн Калашников) АК-74 5,45х39 на 30, пластик «вафля» (под заказ)",
+   "source": "huntworld.ru (розница, руб.)",
+   "url": "https://www.huntworld.ru/search/?q=%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%20%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9%20%D0%90%D0%9A-74"
+  },
+  {
+   "n": 34,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: короб ПК на 100 патронов (сталь) — найден только тканевый подсумок под короб (T-ARMIS 2550)",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 35,
+   "price": 53,
+   "unit_note": "за шт",
+   "match": "точно: МП Учебный патрон 7,62х54 (под заказ)",
+   "source": "huntworld.ru (розница, руб.)",
+   "url": "https://www.huntworld.ru/search/?q=%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD%20%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9%207%2C62%D1%8554"
+  },
+  {
+   "n": 36,
+   "price": 878,
+   "unit_note": "за шт",
+   "match": "аналог: Кобура Tiger ПМ «Варан»; материал/цвет не сверены (нейлон, зелёный)",
+   "source": "huntworld.ru (розница, руб.)",
+   "url": "https://www.huntworld.ru/search/?q=%D0%BA%D0%BE%D0%B1%D1%83%D1%80%D0%B0%20%D0%9F%D0%9C%20%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B0%D1%8F"
+  },
+  {
+   "n": 37,
+   "price": 3999,
+   "unit_note": "за шт",
+   "match": "близко: Подсумок на 5 шт ВОГ-25 вер.2 (MOLLE), цвет Multicam вместо зелёного (под заказ)",
+   "source": "huntworld.ru (розница, руб.)",
+   "url": "https://www.huntworld.ru/search/?q=%D1%81%D1%83%D0%BC%D0%BA%D0%B0%20%D0%92%D0%9E%D0%93"
+  },
+  {
+   "n": 38,
+   "price": 2120,
+   "unit_note": "за шт",
+   "match": "аналог: Подсумок Wartech GP-104 «Гренадер» под 2 гранаты (олива), MOLLE",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BF%D0%BE%D0%B4%D1%81%D1%83%D0%BC%D0%BE%D0%BA%20%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82"
+  },
+  {
+   "n": 39,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: сумка для 2 выстрелов РПГ-7В",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 40,
+   "price": 790,
+   "unit_note": "за упаковку 500 шт",
+   "match": "точно: Пули Gamo Pro Match 4,5 мм 0,49 г (500 шт)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=Gamo%20Pro%20Match%204%2C5"
+  },
+  {
+   "n": 41,
+   "price": 3490,
+   "unit_note": "за шт",
+   "match": "аналог: Чехол оружейный Remington 113 см с оптикой (зелёный; ТЗ — чёрный полиэстер 110-120 см)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D1%87%D0%B5%D1%85%D0%BE%D0%BB%20%D0%BE%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9"
+  },
+  {
+   "n": 42,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: не искался (лимит вызовов; ВсеИнструменты недоступен — 403)",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 43,
+   "price": null,
+   "unit_note": "за упаковку",
+   "match": "не найдено: не искался (лимит вызовов; ВсеИнструменты недоступен — 403)",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 44,
+   "price": 238.75,
+   "unit_note": "за рулон 1000 шт (пересчёт: 955 руб / 4000 шт)",
+   "match": "пересчёт: Заклейки для IPSC мишеней коричневые, 4000 шт — 955 руб.",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%B7%D0%B0%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D0%B8"
+  },
+  {
+   "n": 45,
+   "price": 190,
+   "unit_note": "за упаковку 50 шт",
+   "match": "точно: Мишени для пневматики Pnevmat24 №8, 100x100 мм (50 шт)",
+   "source": "pnevmat24.ru (розница, руб.)",
+   "url": "https://pnevmat24.ru/index.php?route=product/search&search=%D0%BC%D0%B8%D1%88%D0%B5%D0%BD%D0%B8%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D0%BD%D0%B5%D0%B2%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B8%2050%20%D1%88%D1%82%D1%83%D0%BA"
+  },
+  {
+   "n": 46,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: мишенная установка биатлон 50/30 (сталь) — у производителей цена договорная; есть только бытовые минитиры «Биатлон» 2890-3590 (не соответствуют ТЗ)",
+   "source": "",
+   "url": ""
+  }
+ ],
+ "Med_0020": [
+  {
+   "n": 1,
+   "price": 8.5,
+   "unit_note": "за шт (уп. 500 шт)",
+   "match": "аналог: Контейнер полимерный КО0НЛПП-60 с ложкой, н/стер., ПЕРИНТ (ТУ из ТЗ не сверено; стерильный в инд. уп. — 9.30)",
+   "source": "Минимед (minimed.ru)",
+   "url": "https://minimed.ru/search/index.php?q=%D0%BB%D0%BE%D0%B6%D0%BA%D0%BE%D0%B9"
+  },
+  {
+   "n": 2,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: контейнер 120 мл со встроенным устройством для переноса мочи в вакуумную пробирку (ОДО Полиэфир) — в РФ цены не найдены; простые контейнеры 120 мл стоят 19-31 руб (Минимед), но это не тот товар",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 3,
+   "price": 14.4,
+   "unit_note": "за шт (уп. 100 шт = 1440 руб)",
+   "match": "близко: Пробирки вакуумные МиниМед для мочи 10 мл, 16×100, без добавок, ПЭТФ, уп. 100 (ТЗ 10,5 мл)",
+   "source": "Минимед (minimed.ru)",
+   "url": "https://minimed.ru/search/index.php?q=%D0%BF%D1%80%D0%BE%D0%B1%D0%B8%D1%80%D0%BA%D0%B0%20%D0%B2%D0%B0%D0%BA%D1%83%D1%83%D0%BC%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D1%87%D0%B8"
+  },
+  {
+   "n": 4,
+   "price": null,
+   "unit_note": "за упаковку",
+   "match": "не найдено: расходники для «Регистратора тромбодинамики» (Гематологическая корпорация) — цена только по запросу",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 5,
+   "price": 252.5,
+   "unit_note": "за упаковку 1000 шт",
+   "match": "аналог: Наконечник д/дозаторов универсальный 2-200 мкл, п/п, МиниМед, уп. 1000 шт (ТЗ — ряд объёмов 10 мкл-10 мл; цена зависит от объёма)",
+   "source": "Минимед (minimed.ru)",
+   "url": "https://minimed.ru/search/index.php?q=%D0%BD%D0%B0%D0%BA%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%B8%D0%BA%D0%B8%201000%20%D0%BC%D0%BA%D0%BB"
+  },
+  {
+   "n": 6,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено: сенсибилизатор для СВЧ-установки УОМО-01/150 «О-ЦНТ» — поставляет только производитель, цен в открытом доступе нет",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 7,
+   "price": 60,
+   "unit_note": "за шт",
+   "match": "точно: Набор для взятия проб на энтеробиоз по Рабиновичу — розница в аптеках Екатеринбурга 50-65 руб (июль 2026), взято среднее",
+   "source": "e1.ru — поиск лекарств в аптеках",
+   "url": "https://www.e1.ru/health/pharma/med-108503"
+  },
+  {
+   "n": 8,
+   "price": null,
+   "unit_note": "за упаковку (6 роллеров × 1000)",
+   "match": "не найдено: кюветы STAGO 11408038001 — российских цен нет, только у дистрибьютора по запросу",
+   "source": "",
+   "url": ""
+  },
+  {
+   "n": 9,
+   "price": null,
+   "unit_note": "за флакон (контейнер 60 мл)",
+   "match": "не найдено: ГистоПот 60 мл — российских цен нет; зарубежный аналог CellStor 60 мл: £18.70 за 25 шт (Avantor UK), для РФ не подходит",
+   "source": "",
+   "url": ""
+  }
+ ]
+}
