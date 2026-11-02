@@ -1,0 +1,644 @@
+[
+ {
+  "n": 1,
+  "price": 19111.3,
+  "unit_note": "руб/шт с НДС",
+  "product": "КЭАЗ ВА57-39-340010-400А-4000-690AC-УХЛ3 (арт. 109883)",
+  "match": "точно (ТЗ дословно совпадает с карточкой КЭАЗ: Ue 690 В, Icu 40 кА@400 В, 18 кА@690 В, Ii 4000 А, тепл.+эл.магн., УХЛ3, IP20)",
+  "source": "ЭКС (e-kc.ru), предложение от 02.11.2026, 100 шт",
+  "url": "https://e-kc.ru/cena/avtomaticheskij-vyklyuchatel-va-57-39-340010-400a-4000im-690ac-uhl3-keaz-109883",
+  "alt": [
+   {
+    "price": 36752.5,
+    "source": "keaz.ru базовая цена с НДС 22% (в наличии на складах КЭАЗ)",
+    "url": "https://keaz.ru/catalog/product/109883"
+   },
+   {
+    "price": 15022,
+    "source": "grand-climate.ru «для клиентов» (РРЦ 18 777), обновлено 12.02.2026 — устарело",
+    "url": "https://grand-climate.ru/product/elektrooborudovanie/vyklyuchatel_avtomaticheskiy_400a_4000im_va57_39_340010_ukhl3_690v_ac_keaz_109883/"
+   },
+   {
+    "price": 18297,
+    "source": "EKF ВА-99М 400/400А 42кА (prev, РРЦ ekfgroup.com) — Icu@690 В в карточке не указан, IP30, уставка нерегулир.",
+    "url": "https://ekfgroup.com/ru/catalog/products/vyklyuchatel-avtomaticheskij-va-99m-400-400a-3p-42ka-ekf-proxima"
+   }
+  ],
+  "prev_ok": "false/частично: EKF ВА-99М — Icu при 690 В (18 кА по ТЗ) и уставка 4000 А в карточке EKF не подтверждены; ТЗ списано с КЭАЗ ВА57-39 109883, взят точный товар (на 4,4% дороже EKF)",
+  "in_stock": "e-kc: 100 шт, от 1 дня",
+  "nmc_unit": 26132.0
+ },
+ {
+  "n": 34,
+  "price": 16179.82,
+  "unit_note": "руб/шт с НДС",
+  "product": "IEK КТИе-5250 250А 230В/АС3 KKTE50-250-230-10",
+  "match": "эквивалент: катушка 230 В (ТЗ 220 В — в допуске), 250 А, вспом. 1НО+1НЗ",
+  "source": "ЭТМ (цена из поисковой выдачи; сайт ЭТМ блокирует прямую проверку)",
+  "url": "https://www.etm.ru/cat/nn/1303378",
+  "alt": [
+   {
+    "price": 13817,
+    "source": "ВсеИнструменты (нет в наличии, по выдаче)",
+    "url": "https://www.vseinstrumenti.ru/electrika-i-svet/kommutatsionnoe-oborudovanie/kontaktory/iek/ktie-5250-250a-230v-as3-kkte50-250-230-10/"
+   },
+   {
+    "price": 20799,
+    "source": "elektro.ru (ЭКС), заказной",
+    "url": "https://www.elektro.ru/product/kontaktor_ktie-5250_250a_230v_as3_iek/"
+   },
+   {
+    "price": 13086.39,
+    "source": "dc-electro.ru (по выдаче, под заказ; страница не открылась)",
+    "url": "https://dc-electro.ru/catalog/products/kkte50-250-230-10/"
+   }
+  ],
+  "prev_ok": "true: соответствие ТЗ; цена ЭТМ подтверждена только выдачей поиска",
+  "in_stock": "ЭТМ — федеральный склад (по выдаче)",
+  "nmc_unit": 43878.0
+ },
+ {
+  "n": 40,
+  "price": 1450,
+  "unit_note": "руб/шт",
+  "product": "точно: РП21(М)-004-УХЛ4(Б) ~220В (ЭТМ 1493.27)",
+  "match": "точно: РП21(М)-004-УХЛ4(Б) ~220В (ЭТМ 1493.27)",
+  "source": "ЧИП и ДИП",
+  "url": "https://www.chipdip.ru/product/rp21-m-004-uhl4-b-220v",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 1473.0
+ },
+ {
+  "n": 55,
+  "price": 76023.75,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART LCI-G30/P37-4 (арт. 00091500), 30 кВт HD/37 кВт ND, IP20, Modbus RTU (RS-485), 0–600 Гц",
+  "match": "частично: по ТЗ HD-ток 60,0 А — у LCI-G30 58 А (ND 75 А совпадает); векторное с ОС — только с опциональной энкодерной платой; остальное соответствует",
+  "source": "ИнСАТ (insat.ru, дистрибьютор INSTART)",
+  "url": "https://insat.ru/instart/lci-g30-p37-4/",
+  "alt": [
+   {
+    "price": 101365,
+    "source": "instart-info.ru (РРЦ производителя)",
+    "url": "https://instart-info.ru/product/lci-g30-p37-4/"
+   },
+   {
+    "price": 91574,
+    "source": "Элком, ESQ-A3000-043-30K/37KF 60/73А (эквивалент дороже)",
+    "url": "https://www.elcomspb.ru/retail/invertors/frequency_converters/esq-a3000-043-30k/"
+   }
+  ],
+  "prev_ok": "частично: модель та же, но цена — розница производителя (101 365); у дистрибьютора ИнСАТ −25%. HD 58А<60А по ТЗ не отмечено",
+  "in_stock": "не указано (ИнСАТ — «Купить»)",
+  "nmc_unit": 104877.0
+ },
+ {
+  "n": 59,
+  "price": 23065.38,
+  "unit_note": "руб/шт с НДС 22% (базовая цена завода)",
+  "product": "КЭАЗ ПМ12-125100 УХЛ4 В, 380В, (1з+1р), арт. 315214 (замена снятого ПМ12-125100-125А-380AC)",
+  "match": "эквивалент: 125 А AC3, катушка 380 В AC, 1НО+1НЗ, Ui 660, Uimp 6, AC3@690 86 А, 30/55/80 кВт, AC1 200 А, AC4 52 А (≥40); габариты 167×171×171 (ТЗ 167×163×172)",
+  "source": "keaz.ru",
+  "url": "https://keaz.ru/catalog/product/315214",
+  "alt": [
+   {
+    "price": 28611.44,
+    "source": "КЭАЗ ПМЛ-5100-125А-380AC (112914), keaz.ru",
+    "url": "https://keaz.ru/catalog/product/112914"
+   },
+   {
+    "price": 18680.57,
+    "source": "prev: IEK КТИ-5150 150А кат.400В, ЭТМ — не перепроверено (ЭТМ блок.)",
+    "url": "https://www.etm.ru/cat/nn/9737161"
+   }
+  ],
+  "prev_ok": "false: IEK КТИ-5150 — 150 А и катушка 400 В вместо 125 А/380 В, иные габариты; ТЗ списано с КЭАЗ ПМ12-125 (Ithe 200, AC4 40). Цена дилеров на 315214 не найдена — взята базовая цена завода (выше НМЦ 17 765)",
+  "in_stock": "не указано",
+  "nmc_unit": 17765.0
+ },
+ {
+  "n": 62,
+  "price": 184.16,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: ЭРА SPO-801-0-002-120 IP20 под 2 LED-лампы T8 G13 1200мм",
+  "match": "эквивалент: ЭРА SPO-801-0-002-120 IP20 под 2 LED-лампы T8 G13 1200мм",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/8682280",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 869.0
+ },
+ {
+  "n": 73,
+  "price": 262,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: IN HOME LED-T8-М-PRO 30Вт G13 6500К 1200мм (матовая, не прозрачная; нет в наличии)",
+  "match": "эквивалент: IN HOME LED-T8-М-PRO 30Вт G13 6500К 1200мм (матовая, не прозрачная; нет в наличии)",
+  "source": "Всеинструменты",
+  "url": "https://www.vseinstrumenti.ru/electrika-i-svet/lampy/svetodiodnye/in-home/led-t8-m-pro-30vt-230v-g13-6500k-2440lm-1200mm-matovaya-4690612031026/",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 191.0
+ },
+ {
+  "n": 82,
+  "price": 104.24,
+  "unit_note": "руб/м (бухта 100м)",
+  "product": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
+  "match": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/9729228",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 86.0
+ },
+ {
+  "n": 83,
+  "price": 119.46,
+  "unit_note": "руб/м (бухта 100м)",
+  "product": "эквивалент: ПВС 3х2,5 РЭК/Prysmian",
+  "match": "эквивалент: ПВС 3х2,5 РЭК/Prysmian",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/4572826",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 134.0
+ },
+ {
+  "n": 84,
+  "price": 195,
+  "unit_note": "руб/м",
+  "product": "эквивалент: ПВС 4х4 (цена 'от', Москва); ВИ ~208 руб/м за бухту 100м",
+  "match": "эквивалент: ПВС 4х4 (цена 'от', Москва); ВИ ~208 руб/м за бухту 100м",
+  "source": "Кабель.РФ",
+  "url": "https://cable.ru/cable/marka-pvs_4x4.php",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 328.0
+ },
+ {
+  "n": 85,
+  "price": 372.34,
+  "unit_note": "руб/м",
+  "product": "эквивалент: ПВС 4х6 РЭК/Prysmian",
+  "match": "эквивалент: ПВС 4х6 РЭК/Prysmian",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/9716478",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 473.0
+ },
+ {
+  "n": 86,
+  "price": 310.69,
+  "unit_note": "руб/м (бухта 100м 31069 руб)",
+  "product": "эквивалент: iTOK КГтп-ХЛ 4х2,5",
+  "match": "эквивалент: iTOK КГтп-ХЛ 4х2,5",
+  "source": "xcom-shop",
+  "url": "https://www.xcom-shop.ru/itok_kgtp-hl_4h25_1248093.html",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 212.0
+ },
+ {
+  "n": 87,
+  "price": 301.46,
+  "unit_note": "руб/м",
+  "product": "эквивалент: ПуГВнг(А)-LS 1х25 АЛЮР",
+  "match": "эквивалент: ПуГВнг(А)-LS 1х25 АЛЮР",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/108485",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 504.0
+ },
+ {
+  "n": 88,
+  "price": 768.23,
+  "unit_note": "руб/м",
+  "product": "эквивалент: ПуГВнг(А)-LS 1х70 черный",
+  "match": "эквивалент: ПуГВнг(А)-LS 1х70 черный",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/7638910",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 1705.0
+ },
+ {
+  "n": 89,
+  "price": 1336.13,
+  "unit_note": "руб/м",
+  "product": "эквивалент: КГТП-ХЛ 4х25(N) 380/660-2 Конкорд",
+  "match": "эквивалент: КГТП-ХЛ 4х25(N) 380/660-2 Конкорд",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/7308348",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 2137.0
+ },
+ {
+  "n": 92,
+  "price": 104.24,
+  "unit_note": "руб/м (бухта 100м)",
+  "product": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
+  "match": "эквивалент: ВВГнг(А)-LS 3х1,5-0,66 Конкорд (розн. 110.45)",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/9729228",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 95.0
+ },
+ {
+  "n": 96,
+  "price": 1539.71,
+  "unit_note": "руб/м",
+  "product": "эквивалент: ВВГнг(А)-LS 4х25(N)-0,66 АЛЮР (Кабель.РФ от 1012)",
+  "match": "эквивалент: ВВГнг(А)-LS 4х25(N)-0,66 АЛЮР (Кабель.РФ от 1012)",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/2541738",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 2162.0
+ },
+ {
+  "n": 97,
+  "price": 1617.61,
+  "unit_note": "руб/м",
+  "product": "эквивалент: ВВГнг(А)-LS 4х35 мк(N)-0,66 Кабэкс",
+  "match": "эквивалент: ВВГнг(А)-LS 4х35 мк(N)-0,66 Кабэкс",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/7503945/",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 2637.0
+ },
+ {
+  "n": 98,
+  "price": 1229,
+  "unit_note": "руб/м с НДС (предварительная оптовая)",
+  "product": "Кабель АВБбШв (6 кВ) 3х240",
+  "match": "точно",
+  "source": "N-Kabel (n-kabel.ru) — «в наличии на складе», предварительная цена при опте",
+  "url": "https://n-kabel.ru/position/avbbshv_6_kv_3h240/",
+  "alt": [
+   {
+    "price": 724.7,
+    "source": "kabel-s.ru «от 724,70», есть в наличии — неправдоподобно низко (ниже себестоимости металла), требует КП",
+    "url": "https://kabel-s.ru/catalog/avbbshv-6-kv/avbbshv-6-kv-3x240/"
+   },
+   {
+    "price": 1851.78,
+    "source": "a-kabel.ru «от»",
+    "url": "https://www.a-kabel.ru/katalog/kabel/silovoy/alyuminievyy-bronirovannyy-s-pvkh-izolyatsiey/avbbshv-6-kv/avbbshv-6-kv-3kh240/"
+   },
+   {
+    "price": 2128,
+    "source": "Кабель.РФ — для 6 кВ «от 2128» (по выдаче; сайт отдаёт 429)",
+    "url": "https://cable.ru/cable/kabel-3-zhily_240-mm_v_group-avbbshv.php"
+   }
+  ],
+  "prev_ok": "false: 1232 на cable.ru — цена АВБбШв 3х240-1 (1 кВ), а не 6 кВ; для 6 кВ там от 2128. Реалистичный уровень 1229–1850 руб/м, нужен КП завода (Камкабель/Кольчугино/Севкабель публичных цен не дают)",
+  "in_stock": "n-kabel: в наличии; срок изготовления от 2 нед",
+  "nmc_unit": 2160.0
+ },
+ {
+  "n": 129,
+  "price": 1307,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (IEK ДСП1307 — 1453.60 Минимакс)",
+  "match": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (IEK ДСП1307 — 1453.60 Минимакс)",
+  "source": "EKFmarket",
+  "url": "https://market.ekfgroup.com/catalog/products/svetilnik-svetodiodnyj-pylevlagozashhishhennyj-dsp-1006-l-36vt-6500k-ip65-1200mm-ekf-proxima",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 1429.0
+ },
+ {
+  "n": 130,
+  "price": 8444,
+  "unit_note": "руб/шт (РРЦ)",
+  "product": "эквивалент: EKF PROxima ДКУ-9004-Ш 150Вт 5000К IP65 15000лм (Wolta STL-150W/04 — 4515 ВИ)",
+  "match": "эквивалент: EKF PROxima ДКУ-9004-Ш 150Вт 5000К IP65 15000лм (Wolta STL-150W/04 — 4515 ВИ)",
+  "source": "ekfgroup.com",
+  "url": "https://ekfgroup.com/ru/catalog/products/svetilnik-svetodiodnyj-konsolnyj-dku-9004-150vt-5000k-ip65-ekf-proxima",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 11593.0
+ },
+ {
+  "n": 139,
+  "price": 190,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: IEK ECO T8 18Вт 6500К G13 LLE-T8-18-230-65-G13 (1198мм; 178 руб при уп.20)",
+  "match": "эквивалент: IEK ECO T8 18Вт 6500К G13 LLE-T8-18-230-65-G13 (1198мм; 178 руб при уп.20)",
+  "source": "Всеинструменты",
+  "url": "https://www.vseinstrumenti.ru/electrika-i-svet/lampy/svetodiodnye/iek/eco-t8-linejnaya-18vt-230v-6500k-g13-lle-t8-18-230-65-g13/",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 164.0
+ },
+ {
+  "n": 142,
+  "price": 1307,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (длина 1200 вместо 1100)",
+  "match": "эквивалент: EKF PROxima ДСП-1006-L 36Вт 6500К IP65 1200мм (длина 1200 вместо 1100)",
+  "source": "EKFmarket",
+  "url": "https://market.ekfgroup.com/catalog/products/svetilnik-svetodiodnyj-pylevlagozashhishhennyj-dsp-1006-l-36vt-6500k-ip65-1200mm-ekf-proxima",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 2891.0
+ },
+ {
+  "n": 162,
+  "price": 11886.9,
+  "unit_note": "руб/шт",
+  "product": "точно: КВТ 3СТп-10-150/240 (Б) (ВИ от 6909)",
+  "match": "точно: КВТ 3СТп-10-150/240 (Б) (ВИ от 6909)",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/4491398",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 15262.0
+ },
+ {
+  "n": 163,
+  "price": 9500.05,
+  "unit_note": "руб/шт",
+  "product": "точно: IEK Стт(тп)-10 3х150/240 с гильзами (UZM-BIS10-VN3-150240SZ)",
+  "match": "точно: IEK Стт(тп)-10 3х150/240 с гильзами (UZM-BIS10-VN3-150240SZ)",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/7290181",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 12852.0
+ },
+ {
+  "n": 183,
+  "price": 2486.89,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: КЭАЗ розетка 135-63А-6h-380AC-3P+PE+N IP67 (EKF 135 — РРЦ 4102)",
+  "match": "эквивалент: КЭАЗ розетка 135-63А-6h-380AC-3P+PE+N IP67 (EKF 135 — РРЦ 4102)",
+  "source": "ЭТМ",
+  "url": "https://www.etm.ru/cat/nn/2059473",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 3755.0
+ },
+ {
+  "n": 205,
+  "price": 1084,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: REXANT RX 120х120х38 220В 2700об/мин 72-6122 (IP55 и магниевая крыльчатка не подтверждены)",
+  "match": "эквивалент: REXANT RX 120х120х38 220В 2700об/мин 72-6122 (IP55 и магниевая крыльчатка не подтверждены)",
+  "source": "Всеинструменты",
+  "url": "https://www.vseinstrumenti.ru/product/osevoj-ventilyator-dlya-ohlazhdeniya-rexant-rx-120h120h38-mm-220-v-72-6122-1862856/",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 3578.0
+ },
+ {
+  "n": 210,
+  "price": 17786,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: Belimo NM230A-S (цена Ozon, маркетплейс; NM230AX не найден)",
+  "match": "эквивалент: Belimo NM230A-S (цена Ozon, маркетплейс; NM230AX не найден)",
+  "source": "Ozon",
+  "url": "https://www.ozon.ru/brand/belimo-87334043/",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 39882.0
+ },
+ {
+  "n": 211,
+  "price": 20560,
+  "unit_note": "руб/шт",
+  "product": "эквивалент: Belimo LM230A-S (с доп. контактом; Ozon 18647)",
+  "match": "эквивалент: Belimo LM230A-S (с доп. контактом; Ozon 18647)",
+  "source": "ЧИП и ДИП",
+  "url": "https://www.chipdip.ru/product/lm230a-s-belimo-automation-8033388775",
+  "alt": [],
+  "prev_ok": "не перепроверено",
+  "in_stock": null,
+  "nmc_unit": 30171.0
+ },
+ {
+  "n": 213,
+  "price": 28184,
+  "unit_note": "руб/шт с НДС",
+  "product": "Schneider Electric Altivar 212 ATV212HU40N4, 4 кВт, 9,1 А, 380–480 В, 200 Гц, IP21",
+  "match": "точно",
+  "source": "ies-drives.ru (Москва)",
+  "url": "https://ies-drives.ru/equipment/freq/schneider-electric/altivar-212/2824/",
+  "alt": [
+   {
+    "price": 29100,
+    "source": "ЧИП и ДИП (prev; сайт блокирует проверку — не перепроверено)",
+    "url": "https://www.chipdip.ru/product0/8000897979"
+   }
+  ],
+  "prev_ok": "true: модель соответствует ТЗ; цена ЧиД не перепроверена (403), ies-drives 28 184 — с пометкой «товар под санкциями, уточняйте цену и наличие»",
+  "in_stock": "ies-drives: «на складе» (с оговоркой)",
+  "nmc_unit": 101608.0
+ },
+ {
+  "n": 214,
+  "price": 47452.5,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART INPRIME-G7.5-4BF (арт. 00080900), 7,5 кВт, 18 А, 0–599 Гц, встр. тормозной модуль, LCD, Modbus RTU, FOC с энкодером (опц. плата), осциллограф, RTC",
+  "match": "точно (ТЗ списано с INPRIME)",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/inprime-g7-5-4bf/",
+  "alt": [
+   {
+    "price": 59090,
+    "source": "Кубаньэлектропривод",
+    "url": "https://kub-privod.ru/magazin/product/preobrazovatel-chastoty-inprime-g5-5-4bf-1"
+   },
+   {
+    "price": 63270,
+    "source": "instart-info.ru (РРЦ)",
+    "url": "https://instart-info.ru/product/inprime-g7-5-4bf/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена — РРЦ 63 270; у дистрибьютора 47 452,50. Всё равно выше НМЦ 28 871 на 64%. Эквивалента ≤НМЦ со всеми функциями (FOC+энкодер, 599 Гц, LCD, осциллограф, 7DI/2AI/имп.) не найдено",
+  "in_stock": "не указано",
+  "nmc_unit": 28871.0
+ },
+ {
+  "n": 215,
+  "price": 41040,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART INPRIME-G5.5-4BF, 5,5 кВт, 14,8 А, 599 Гц, торм. модуль, LCD, Modbus RTU",
+  "match": "точно (ТЗ списано с INPRIME)",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/inprime-g5-5-4bf/",
+  "alt": [
+   {
+    "price": 54720,
+    "source": "instart-info.ru (РРЦ)",
+    "url": "https://instart-info.ru/product/inprime-g5-5-4bf/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена РРЦ; дистрибьютор −25%. Выше НМЦ 28 199 на 46%",
+  "in_stock": "не указано",
+  "nmc_unit": 28199.0
+ },
+ {
+  "n": 216,
+  "price": 10416.75,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART SBIM-3.0/7.2-04, 3 кВт, 7,2 А, IP20, байпас, DIN",
+  "match": "точно",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/sbim-3-0-7-2-04/",
+  "alt": [
+   {
+    "price": 12255,
+    "source": "instart-drives.ru / instart-info.ru (РРЦ)",
+    "url": "https://instart-drives.ru/collection/sbim/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена РРЦ; дистрибьютор −15%",
+  "in_stock": "instart-drives: под заказ",
+  "nmc_unit": 18140.0
+ },
+ {
+  "n": 217,
+  "price": 20026.0,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART SBIM-30/60-04, 30 кВт, 60 А, IP20, байпас",
+  "match": "точно",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/sbim-30-60-04/",
+  "alt": [
+   {
+    "price": 23560,
+    "source": "instart-drives.ru (РРЦ)",
+    "url": "https://instart-drives.ru/collection/sbim/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена РРЦ; дистрибьютор −15%",
+  "in_stock": "instart-drives: в наличии",
+  "nmc_unit": 30355.0
+ },
+ {
+  "n": 218,
+  "price": 20914.25,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART SBIM-37/74-04, 37 кВт, 74 А, IP20, байпас",
+  "match": "точно",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/sbim-37-74-04/",
+  "alt": [
+   {
+    "price": 24605,
+    "source": "instart-drives.ru / instart-info.ru (РРЦ)",
+    "url": "https://instart-drives.ru/collection/sbim/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена РРЦ; дистрибьютор −15%",
+  "in_stock": "instart-drives: в наличии",
+  "nmc_unit": 31595.0
+ },
+ {
+  "n": 219,
+  "price": 27374.25,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART SBIM-55/110-04, 55 кВт, 110 А, IP20, байпас",
+  "match": "точно",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/sbim-55-110-04/",
+  "alt": [
+   {
+    "price": 32205,
+    "source": "instart-drives.ru (РРЦ)",
+    "url": "https://instart-drives.ru/collection/sbim/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена РРЦ; дистрибьютор −15%",
+  "in_stock": "instart-drives: в наличии",
+  "nmc_unit": 40613.0
+ },
+ {
+  "n": 220,
+  "price": 38921.5,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART SNI-15/30-04, 15 кВт, 30 А, байпас, графический LCD, RTC, Modbus RTU",
+  "match": "точно",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/sni-15-30-04/",
+  "alt": [
+   {
+    "price": 45790,
+    "source": "instart-info.ru (РРЦ)",
+    "url": "https://instart-info.ru/product-category/ustrojstva-plavnogo-puska/sni/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена РРЦ (выше НМЦ 44 148); у дистрибьютора 38 921,50 — ниже НМЦ",
+  "in_stock": "не указано",
+  "nmc_unit": 44148.0
+ },
+ {
+  "n": 221,
+  "price": 68233.75,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART SNI-55/105-04, 55 кВт, 105 А, байпас, LCD, RTC, Modbus RTU",
+  "match": "точно",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/sni-55-105-04/",
+  "alt": [
+   {
+    "price": 80275,
+    "source": "instart-info.ru (РРЦ)",
+    "url": "https://instart-info.ru/product/sni-55-105-04/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена РРЦ; дистрибьютор −15%, но всё ещё выше НМЦ 60 154 на 13%",
+  "in_stock": "не указано",
+  "nmc_unit": 60154.0
+ },
+ {
+  "n": 222,
+  "price": 123951.25,
+  "unit_note": "руб/шт с НДС",
+  "product": "INSTART SBIP-185/370-04, 185 кВт, 370 А, байпас, Modbus RTU, съёмная панель, 5DI, PTC, AO",
+  "match": "точно",
+  "source": "ИнСАТ (insat.ru)",
+  "url": "https://insat.ru/instart/sbip-185-370-04/",
+  "alt": [
+   {
+    "price": 145825,
+    "source": "instart-info.ru (РРЦ)",
+    "url": "https://instart-info.ru/product/sbip-185-370-04/"
+   }
+  ],
+  "prev_ok": "частично: модель верная, цена РРЦ (выше НМЦ 143 578); у дистрибьютора 123 951,25 — ниже НМЦ",
+  "in_stock": "не указано",
+  "nmc_unit": 143578.0
+ }
+]

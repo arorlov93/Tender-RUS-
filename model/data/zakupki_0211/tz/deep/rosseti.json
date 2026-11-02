@@ -291,6 +291,197 @@
    "reqs": "Двустенная гофрированная ПНД, жёсткая (отрезки), с зондом (протяжкой). ТЗ/ТП/ЦП содержат только краткое наименование; характеристики (SN, длина, цвет, муфта, ГОСТ) в документации НЕ заданы, опросных листов нет (кроме поз.9). Нормативная база ПАО «Россети» для таких труб — СТО 34.01-2.3.3-038-2021. Подлежит аттестации ПАО «Россети»: ДА. ПП1875: ограничение. Срок изготовления не ранее 2026, гарантия ≥1 год, срок службы ≥30 лет."
   }
  ],
- "prices": [],
+ "prices": [
+  {
+   "n": "гиб 160 зонд",
+   "price": 425.12,
+   "unit_note": "21256 ₽ за бухту 50 м = 425,12 ₽/м (розница, xcom-shop, с НДС)",
+   "product": "DKC 121916 — двустенная гибкая ПНД 160 мм, SN6, с протяжкой, бухта 50 м (ТУ 2248-015-47022248-2006)",
+   "maker": "ДКС",
+   "match": "exact: гиб. 160 с зондом",
+   "source": "xcom-shop.ru",
+   "url": "https://xcom-shop.ru/dkc_121916_338318.html"
+  },
+  {
+   "n": "гиб 90 зонд",
+   "price": 285.58,
+   "unit_note": "14279 ₽ за бухту 50 м = 285,58 ₽/м (розница, xcom-shop, с НДС)",
+   "product": "DKC 121990 — двустенная гибкая ПНД 90 мм, SN8, с протяжкой, 50 м",
+   "maker": "ДКС",
+   "match": "exact: гиб. 90 с зондом",
+   "source": "xcom-shop.ru",
+   "url": "https://xcom-shop.ru/dkc_121990_338330.html"
+  },
+  {
+   "n": "гиб 110 зонд",
+   "price": 233.66,
+   "unit_note": "11683 ₽ за 50 м = 233,66 ₽/м — по выдаче поиска vseinstrumenti, 'нет в наличии' (страница 403 для прямой проверки)",
+   "product": "DKC 121911 — двустенная гибкая ПНД 110 мм, SN8, с протяжкой, 50 м",
+   "maker": "ДКС",
+   "match": "exact: гиб. 110 с зондом; цена НЕ перепроверена (403)",
+   "source": "vseinstrumenti.ru (через поиск)",
+   "url": "https://www.vseinstrumenti.ru/tag-page/truby-gofrirovannye-110-mm-10605/"
+  },
+  {
+   "n": "гиб 90 зонд",
+   "price": 302.52,
+   "unit_note": "базовая цена с НДС за м, прайс от 03.11.2026",
+   "product": "Промрукав PR15.0029 гибкая тип 450 SN12 с/з красная d90, бухта 50 м",
+   "maker": "Промрукав",
+   "match": "exact",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "гиб 110 зонд",
+   "price": 384.35,
+   "unit_note": "базовая цена с НДС за м, прайс от 03.11.2026",
+   "product": "Промрукав PR15.0033 гибкая тип 450 SN12 с/з красная d110, 50 м",
+   "maker": "Промрукав",
+   "match": "exact",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "гиб 160 зонд",
+   "price": 689.58,
+   "unit_note": "базовая с НДС/м",
+   "product": "Промрукав PR15.0165 гибкая тип 450 SN8 с/з красная d160, 50 м",
+   "maker": "Промрукав",
+   "match": "exact",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "гиб 200 зонд",
+   "price": 902.59,
+   "unit_note": "базовая с НДС/м",
+   "product": "Промрукав PR15.0166 гибкая тип 450 SN6 с/з красная d200, 35 м",
+   "maker": "Промрукав",
+   "match": "exact",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "гиб 200 зонд",
+   "price": 1356.04,
+   "unit_note": "базовая с НДС/м",
+   "product": "Промрукав PR15.0178 гибкая тип 750 SN8 с/з красная d200, 35 м",
+   "maker": "Промрукав",
+   "match": "exact (усиленная)",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "жёст 110 БЕЗ зонда",
+   "price": 497.93,
+   "unit_note": "базовая с НДС/м; зонда НЕТ",
+   "product": "Промрукав PR15.0069 жёсткая тип 450 SN12 красная d110 6 м",
+   "maker": "Промрукав",
+   "match": "partial: жёсткая без зонда",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "жёст 160 БЕЗ зонда",
+   "price": 833.11,
+   "unit_note": "базовая с НДС/м; зонда НЕТ",
+   "product": "Промрукав PR15.0185 жёсткая тип 450 SN8 красная d160 6 м",
+   "maker": "Промрукав",
+   "match": "partial: без зонда",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "жёст 200 БЕЗ зонда",
+   "price": 1186.39,
+   "unit_note": "базовая с НДС/м; зонда НЕТ",
+   "product": "Промрукав PR15.0188 жёсткая тип 750 SN8 красная d200 6 м",
+   "maker": "Промрукав",
+   "match": "partial: без зонда",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "жёст 200 БЕЗ зонда",
+   "price": 1290.18,
+   "unit_note": "базовая с НДС/м; зонда НЕТ",
+   "product": "Промрукав PR15.0186 жёсткая тип 450 SN6 красная d200 6 м",
+   "maker": "Промрукав",
+   "match": "partial: без зонда",
+   "source": "прайс Промрукав",
+   "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+  },
+  {
+   "n": "гиб 90 зонд",
+   "price": 176.61,
+   "unit_note": "базовая опт. цена с НДС/м (прайс: 'цены указаны с НДС', мин. сумма закупки 500 000 ₽); 2-я колонка прайса 132,46",
+   "product": "Рувинил Т2-КЛ0-090К(50) двустенная ПНД/ПВД 90/76 красная, муфта+2 кольца, с зондом",
+   "maker": "Рувинил",
+   "match": "exact (SN4–SN10 по сайту)",
+   "source": "прайс Рувинил + сайт",
+   "url": "https://ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+  },
+  {
+   "n": "гиб 110 зонд",
+   "price": 229.8,
+   "unit_note": "базовая с НДС/м; 2-я колонка 172,35",
+   "product": "Рувинил Т2-КЛ0-110К(50) 110/93,8 красная, с протяжкой (сайт: 'С протяжкой (зондом): Да')",
+   "maker": "Рувинил",
+   "match": "exact",
+   "source": "прайс Рувинил + сайт",
+   "url": "https://ruvinil.ru/catalog/truby-gibkie-gofrirovannye-dvustennye/truba-gibkaya-gofrirovannaya-dvustennaya-pnd-pvd-110-mm-krasnaya-50-m/"
+  },
+  {
+   "n": "гиб 160 зонд",
+   "price": 375.82,
+   "unit_note": "базовая с НДС/м; 2-я колонка 281,87",
+   "product": "Рувинил Т2-КЛ0-160К 160/140,2 красная, 50 м, с протяжкой (сайт)",
+   "maker": "Рувинил",
+   "match": "exact",
+   "source": "прайс Рувинил + сайт",
+   "url": "https://ruvinil.ru/catalog/truby-gibkie-gofrirovannye-dvustennye/?PAGEN_1=2"
+  },
+  {
+   "n": "гиб 200 зонд",
+   "price": 522.99,
+   "unit_note": "базовая с НДС/м; 2-я колонка 392,24",
+   "product": "Рувинил Т2-КЛ0-200К(40) 200/178,7 красная, 40 м, с зондом",
+   "maker": "Рувинил",
+   "match": "exact",
+   "source": "прайс Рувинил + сайт",
+   "url": "https://ruvinil.ru/catalog/truby-gibkie-gofrirovannye-dvustennye/?PAGEN_1=2"
+  },
+  {
+   "n": "жёст 110 БЕЗ зонда",
+   "price": 305.36,
+   "unit_note": "базовая с НДС/м; зонда нет",
+   "product": "Рувинил ТЖ-КЛ0-110К жёсткая ПНД/ПНД 110 красная 6 м, муфта+2 кольца",
+   "maker": "Рувинил",
+   "match": "partial: без зонда",
+   "source": "прайс Рувинил",
+   "url": "https://ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+  },
+  {
+   "n": "жёст 160 БЕЗ зонда",
+   "price": 549.1,
+   "unit_note": "базовая с НДС/м; зонда нет",
+   "product": "Рувинил ТЖ-КЛ0-160К жёсткая 160 красная 6 м",
+   "maker": "Рувинил",
+   "match": "partial: без зонда",
+   "source": "прайс Рувинил",
+   "url": "https://ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+  },
+  {
+   "n": "жёст 200 БЕЗ зонда",
+   "price": 811.99,
+   "unit_note": "базовая с НДС/м; зонда нет",
+   "product": "Рувинил ТЖ-КЛ0-200К жёсткая 200 красная 6 м",
+   "maker": "Рувинил",
+   "match": "partial: без зонда",
+   "source": "прайс Рувинил",
+   "url": "https://ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+  }
+ ],
  "makers": []
 }

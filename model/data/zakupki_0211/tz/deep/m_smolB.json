@@ -1,0 +1,1042 @@
+{
+ "B1": {
+  "title": "Электромонтажные изделия: коробки распаячные, клеммы, наконечники, шины нулевые, клеммные терминалы, зажимы СИП, DIN-рейки, кабель-канал",
+  "positions": "99–123, 177, 178",
+  "makers": [
+   {
+    "name": "Электротехнический завод «КВТ» (юрлицо по list-org — ООО ПКФ «Технакон», филиал в Калуге)",
+    "inn": "7720257683",
+    "city": "Калуга",
+    "site": "https://kvt.su",
+    "phone": "+7 (4842) 92-63-86 доб. 591 (заявки, kvt.su); +7 (4842) 92-65-69 (productcenter)",
+    "email": "samofatova.sa@kvt.su (по productcenter.ru; общий e-mail на kvt.su не получен)",
+    "products": "Наконечники медные луженые ТМЛ (ГОСТ 7386-80), ТМ, наборы НШВИ, клеммы, СИП-арматура",
+    "note": "Сайт kvt.su блокирует автоматический доступ (503); телефоны в двух источниках различаются, e-mail только в одном. ИНН по list-org (требует проверки ЕГРЮЛ). Профиль: наконечники ТМЛ/ТМ, НШВИ, гильзы, СИП-арматура, термоусадка ТТК/ТУТ, хомуты, инструмент и сумки монтажника.",
+    "sources": [
+     "https://kvt.su/kvt_production/history_kvt/",
+     "https://productcenter.ru/producers/11142/eliektrotiekhnichieskii-zavod-kvt",
+     "https://www.list-org.com/company/3020450"
+    ],
+    "verified": false
+   },
+   {
+    "name": "АО «ДКС» (Диэлектрические кабельные системы), бренд DKC",
+    "inn": "6905062011",
+    "city": "Тверь (завод, ул. Бочкина, 15); коммерческий офис Москва",
+    "site": "https://www.dkc.ru",
+    "phone": "+7 (4822) 777-980 (офис продаж Тверь); Москва +7 (495) 777-77-79; 8-800-250-52-63 (техподдержка)",
+    "email": "tver@dkc.ru; info@dkc.ru (Москва)",
+    "products": "Коробки распаячные IP44–IP55 (серии 53xxx/54xxx), кабель-каналы перфорированные, DIN-рейки, клеммы, шины N/PE",
+    "note": "Тел. +7(4822)777-980 = checko «+7 482 277-79-80»; tver@dkc.ru — на dkc.ru и в list-org/zachestnyibiznes/Вестнике госрегистрации. ИНН — rusprofile/checko/saby.",
+    "sources": [
+     "https://www.dkc.ru/ru/about/contact/",
+     "https://checko.ru/company/dks-1026900516390",
+     "https://www.list-org.com/company/59019"
+    ],
+    "verified": true
+   },
+   {
+    "name": "АО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+    "inn": "5074092485",
+    "city": "Подольск (юрадрес) / Москва (офис, Киевское ш. 22 км)",
+    "site": "https://www.iek.ru",
+    "phone": "+7 (495) 542-22-22",
+    "email": "info@iek.ru",
+    "products": "Коробки КМ/КЭМ, наконечники ТМЛ, НШВИ, клеммы КСВ, шины нулевые ШНИ на DIN-изоляторе, клеммники ТВ/ТС, СИП-зажимы, DIN-рейки, кабель-канал перфорированный",
+    "note": "С 09.01.2025 действует АО (ИНН 5074092485, правопреемник ООО ИНН 7724635872, реорганизация преобразованием). Тел. и info@iek.ru совпадают на iek.ru и в checko/list-org. Техподдержка +7(495)542-22-27, helptd@iek.ru.",
+    "sources": [
+     "https://www.iek.ru/contacts/",
+     "https://checko.ru/company/iehk-holding-1255000000034",
+     "https://www.list-org.com/company/5044923"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "Коробки распаячные, наконечники, клеммы, шины N, клеммные колодки, зажимы СИП, DIN-рейки, кабель-канал перфорированный",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «ТДМ» (бренд TDM ELECTRIC)",
+    "inn": "7724417909",
+    "city": "Москва (ул. Дорожная, 60Б)",
+    "site": "https://tdme.ru",
+    "phone": "+7 (495) 727-32-14; 8-800-700-63-26",
+    "email": "info@tdme.ru; project-sales@tdme.ru (проектные продажи)",
+    "products": "Коробки распаячные, НШВИ, ТМЛ, клеммы КСВ, шины N/PE, клеммники ТВ/ТС, СИП-зажимы ЗАБ/ЗОИ, DIN-рейки, кабель-канал",
+    "note": "Телефон +7(495)727-32-14 совпадает на tdme.ru и в checko (ИНН 7724417909). E-mail info@tdme.ru во втором источнике не найден (checko даёт info@tdomm.ru) — e-mail не подтверждён. Реквизиты-PDF на tdme.ru называют также ООО «Торговый дом Морозова» — сверить юрлицо при запросе.",
+    "sources": [
+     "https://tdme.ru/about/contacts",
+     "https://checko.ru/company/tdm-1177746881344"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «АРМАТЕХ» (бренд NILED — арматура СИП)",
+    "inn": "5036090504",
+    "city": "Подольск (ул. Станционная, 24)",
+    "site": "https://armatech.group (niled.ru перенаправляет)",
+    "phone": "8-800-222-26-68",
+    "email": "info@armatech.group",
+    "products": "Анкерные зажимы для СИП (аналоги ЗАБ), ответвительные зажимы прокалывающие (ЗОИ-аналоги), арматура СИП NILED",
+    "note": "Телефон 8-800-222-26-68 — сайт + checko; e-mail во втором источнике не найден (saby даёт домен vli-complekt.ru — прежнее имя ООО «ТД-ВЛИ-Комплект»). ",
+    "sources": [
+     "https://armatech.group/contacts/",
+     "https://checko.ru/company/armatekh-1085074005994",
+     "https://saby.ru/profile/5036090504-503601001"
+    ],
+    "verified": false
+   }
+  ]
+ },
+ "B2": {
+  "title": "Гофротруба ПНД с протяжкой/зондом и крепёж-клипсы",
+  "positions": "124–127",
+  "makers": [
+   {
+    "name": "ООО «Промрукав»",
+    "inn": "7722467171",
+    "city": "Москва (офис, Волгоградский пр-т, 35); производство и склад — Владимир",
+    "site": "https://www.promrukav.ru",
+    "phone": "+7 (495) 969-27-20 (поддержка продукции доб. 108, 300, 347, 242)",
+    "email": "info@promrukav.ru (только list-org; на сайте — форма обратной связи)",
+    "products": "Трубы гофрированные ПНД/ПВХ/ПЛЛ с протяжкой d16–d50, держатели-клипсы, кабель-каналы, металлорукав",
+    "note": "Телефон совпадает на сайте и в list-org/zachestnyibiznes; e-mail на сайте не опубликован — подтверждён одним источником. Производитель с 1999 г.",
+    "sources": [
+     "https://www.promrukav.ru/contacts/",
+     "https://www.list-org.com/company/11998365",
+     "https://checko.ru/company/promrukav-1187746824110"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ЗАО «Рувинил»",
+    "inn": "7728178377",
+    "city": "Москва (Старопетровский пр-д, 7а, стр. 25)",
+    "site": "https://www.ruvinil.ru",
+    "phone": "+7 (499) 754-10-22; +7 (495) 180-20-20; отдел продаж/дилерство +7 (495) 921-33-53",
+    "email": "info@ruvinil.ru",
+    "products": "Трубы гофрированные ПНД/ПВХ с зондом d16–d63, клипсы-держатели, кабель-каналы",
+    "note": "Тел. +7(499)754-10-22 и info@ruvinil.ru — на сайте и в zachestnyibiznes; ИНН — rusprofile/saby. Производственная площадка — вероятно ООО «ПО «Рувинил» (Протвино, ИНН 5037060686) — уточнить.",
+    "sources": [
+     "https://www.ruvinil.ru/contacts/",
+     "https://zachestnyibiznes.ru/company/ul/1027700003594_7728178377_ZAO-RUVINIL"
+    ],
+    "verified": true
+   },
+   {
+    "name": "АО «ДКС» (Диэлектрические кабельные системы), бренд DKC",
+    "inn": "6905062011",
+    "city": "Тверь (завод, ул. Бочкина, 15); коммерческий офис Москва",
+    "site": "https://www.dkc.ru",
+    "phone": "+7 (4822) 777-980 (офис продаж Тверь); Москва +7 (495) 777-77-79; 8-800-250-52-63 (техподдержка)",
+    "email": "tver@dkc.ru; info@dkc.ru (Москва)",
+    "products": "Трубы гофрированные ПНД серии 71xxx (с протяжкой), держатели-клипсы, трубы гладкие",
+    "note": "Тел. +7(4822)777-980 = checko «+7 482 277-79-80»; tver@dkc.ru — на dkc.ru и в list-org/zachestnyibiznes/Вестнике госрегистрации. ИНН — rusprofile/checko/saby.",
+    "sources": [
+     "https://www.dkc.ru/ru/about/contact/",
+     "https://checko.ru/company/dks-1026900516390",
+     "https://www.list-org.com/company/59019"
+    ],
+    "verified": true
+   },
+   {
+    "name": "АО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+    "inn": "5074092485",
+    "city": "Подольск (юрадрес) / Москва (офис, Киевское ш. 22 км)",
+    "site": "https://www.iek.ru",
+    "phone": "+7 (495) 542-22-22",
+    "email": "info@iek.ru",
+    "products": "Трубы гофрированные ПНД с зондом (d16, d20, d25…), держатели с защёлкой (клипсы)",
+    "note": "С 09.01.2025 действует АО (ИНН 5074092485, правопреемник ООО ИНН 7724635872, реорганизация преобразованием). Тел. и info@iek.ru совпадают на iek.ru и в checko/list-org. Техподдержка +7(495)542-22-27, helptd@iek.ru.",
+    "sources": [
+     "https://www.iek.ru/contacts/",
+     "https://checko.ru/company/iehk-holding-1255000000034",
+     "https://www.list-org.com/company/5044923"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "Трубы гофрированные ПНД с зондом, держатели-клипсы",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «ТДМ» (бренд TDM ELECTRIC)",
+    "inn": "7724417909",
+    "city": "Москва (ул. Дорожная, 60Б)",
+    "site": "https://tdme.ru",
+    "phone": "+7 (495) 727-32-14; 8-800-700-63-26",
+    "email": "info@tdme.ru; project-sales@tdme.ru (проектные продажи)",
+    "products": "Трубы гофрированные ПНД с зондом d16–d50, держатели-клипсы",
+    "note": "Телефон +7(495)727-32-14 совпадает на tdme.ru и в checko (ИНН 7724417909). E-mail info@tdme.ru во втором источнике не найден (checko даёт info@tdomm.ru) — e-mail не подтверждён. Реквизиты-PDF на tdme.ru называют также ООО «Торговый дом Морозова» — сверить юрлицо при запросе.",
+    "sources": [
+     "https://tdme.ru/about/contacts",
+     "https://checko.ru/company/tdm-1177746881344"
+    ],
+    "verified": false
+   }
+  ]
+ },
+ "B3": {
+  "title": "Хомуты нейлоновые, изолента ПВХ/ХБ, термоусадочные трубки (наборы, ТТК 52/13 клеевая)",
+  "positions": "146–161",
+  "makers": [
+   {
+    "name": "Электротехнический завод «КВТ» (юрлицо по list-org — ООО ПКФ «Технакон», филиал в Калуге)",
+    "inn": "7720257683",
+    "city": "Калуга",
+    "site": "https://kvt.su",
+    "phone": "+7 (4842) 92-63-86 доб. 591 (заявки, kvt.su); +7 (4842) 92-65-69 (productcenter)",
+    "email": "samofatova.sa@kvt.su (по productcenter.ru; общий e-mail на kvt.su не получен)",
+    "products": "Хомуты нейлоновые КСС/Fortisflex-аналоги, термоусаживаемые трубки ТУТ/ТТК (в т.ч. с клеем), изолента",
+    "note": "Сайт kvt.su блокирует автоматический доступ (503); телефоны в двух источниках различаются, e-mail только в одном. ИНН по list-org (требует проверки ЕГРЮЛ). Профиль: наконечники ТМЛ/ТМ, НШВИ, гильзы, СИП-арматура, термоусадка ТТК/ТУТ, хомуты, инструмент и сумки монтажника.",
+    "sources": [
+     "https://kvt.su/kvt_production/history_kvt/",
+     "https://productcenter.ru/producers/11142/eliektrotiekhnichieskii-zavod-kvt",
+     "https://www.list-org.com/company/3020450"
+    ],
+    "verified": false
+   },
+   {
+    "name": "АО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+    "inn": "5074092485",
+    "city": "Подольск (юрадрес) / Москва (офис, Киевское ш. 22 км)",
+    "site": "https://www.iek.ru",
+    "phone": "+7 (495) 542-22-22",
+    "email": "info@iek.ru",
+    "products": "Хомуты ХКН (2,5х150…4,8х200), изолента ПВХ 0,18х19 цветная, ХБ-изолента, термоусадка ТТУ/ТТК 4:1 с клеем (UMR-A3)",
+    "note": "С 09.01.2025 действует АО (ИНН 5074092485, правопреемник ООО ИНН 7724635872, реорганизация преобразованием). Тел. и info@iek.ru совпадают на iek.ru и в checko/list-org. Техподдержка +7(495)542-22-27, helptd@iek.ru.",
+    "sources": [
+     "https://www.iek.ru/contacts/",
+     "https://checko.ru/company/iehk-holding-1255000000034",
+     "https://www.list-org.com/company/5044923"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "Хомуты нейлоновые, изолента ПВХ, наборы термоусадки, ТТК с клеем",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «ТДМ» (бренд TDM ELECTRIC)",
+    "inn": "7724417909",
+    "city": "Москва (ул. Дорожная, 60Б)",
+    "site": "https://tdme.ru",
+    "phone": "+7 (495) 727-32-14; 8-800-700-63-26",
+    "email": "info@tdme.ru; project-sales@tdme.ru (проектные продажи)",
+    "products": "Хомуты нейлоновые, изолента ПВХ 0,18х19, ХБ-изолента, наборы ТУТ, ТТК с клеевым слоем",
+    "note": "Телефон +7(495)727-32-14 совпадает на tdme.ru и в checko (ИНН 7724417909). E-mail info@tdme.ru во втором источнике не найден (checko даёт info@tdomm.ru) — e-mail не подтверждён. Реквизиты-PDF на tdme.ru называют также ООО «Торговый дом Морозова» — сверить юрлицо при запросе.",
+    "sources": [
+     "https://tdme.ru/about/contacts",
+     "https://checko.ru/company/tdm-1177746881344"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «СДС» (бренд REXANT)",
+    "inn": "7734425377",
+    "city": "Москва (офис ул. Фабричная, 6, стр. 1)",
+    "site": "https://www.rexant.ru",
+    "phone": "+7 (495) 225-25-20",
+    "email": "info@rexant.ru",
+    "products": "Хомуты нейлоновые, изолента ПВХ/ХБ, наборы термоусадочных трубок, СТТК 4:1 с клеем",
+    "note": "Телефон совпадает (сайт + zachestnyibiznes); e-mail info@rexant.ru во втором источнике не найден. Брендодержатель/поставщик, производство в основном КНР — запросить страну происхождения.",
+    "sources": [
+     "https://www.rexant.ru/contacts/",
+     "https://zachestnyibiznes.ru/company/ul/1197746331045_7734425377_OOO-SDS"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «Союзпак» (ТМ UNIBOB; управляющая — ООО «Компания Нова Ролл»)",
+    "inn": "7743223257",
+    "city": "Пушкино (Московская обл.) / Москва",
+    "site": "https://www.unibob.ru",
+    "phone": "8-800-555-90-28 (сайт); +7 (495) 643-18-33 (list-org/zachestnyibiznes)",
+    "email": "info@unibob.ru",
+    "products": "Изоляционные ленты ПВХ (19 мм х 20/25 м, цвета), сигнальные/упаковочные ленты",
+    "note": "Телефоны на сайте и в агрегаторах разные; e-mail info@unibob.ru только на сайте (в list-org — другие ящики @unibob.ru). Ленты ПВХ-изоляционные, ХБ-изолента — уточнить наличие.",
+    "sources": [
+     "https://www.unibob.ru/contacts",
+     "https://www.list-org.com/company/9890684",
+     "https://checko.ru/company/soyuzpak-1177746906260"
+    ],
+    "verified": false
+   }
+  ]
+ },
+ "B4": {
+  "title": "Аккумуляторы для ИБП 12 В 4,5 / 7 / 9 А·ч (AGM VRLA)",
+  "positions": "143–145",
+  "makers": [
+   {
+    "name": "ЗАО «Бастион» (ТМ СКАТ / SKAT)",
+    "inn": "6163127276",
+    "city": "Ростов-на-Дону (ул. Красноводская, 8/7) — собственное производство ИБП/блоков питания",
+    "site": "https://bast.ru",
+    "phone": "+7 (863) 203-58-30; 8-800-200-58-30",
+    "email": "911@bast.ru; sales@bast.ru (отдел продаж); ops@bast.ru",
+    "products": "АКБ SKAT SB 1204.5/1207/1209 (AGM) — к собственным ИБП СКАТ",
+    "note": "+7(863)203-58-30 и 911@bast.ru — на bast.ru и в checko (тел. также zachestnyibiznes). sales@bast.ru — только сайт.",
+    "sources": [
+     "https://bast.ru/contacts/rostov-on-don",
+     "https://checko.ru/company/bastion-1136195000138",
+     "https://zachestnyibiznes.ru/company/ul/1136195000138_6163127276_ZAO-BASTION"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «СМАРТ БЭТТЕРИЗ» (ТМ DELTA Battery; сайт продаж Энергон)",
+    "inn": "7714450590",
+    "city": "Москва (Хорошёвское ш., 32А)",
+    "site": "https://www.delta-batt.com",
+    "phone": "8 (495) 185-13-55 (сайт); 8-800-775-61-66; +7 (495) 145-85-85 (list-org/checko)",
+    "email": "sales@energon.ru",
+    "products": "DELTA DT 1204.5/1207/1209, HR 12-xx, SF 1207 (AGM VRLA)",
+    "note": "E-mail sales@energon.ru и ИНН совпадают на сайте и в checko/list-org; телефон на сайте и в агрегаторах различается — телефон не подтверждён. Брендодержатель, производство — КНР.",
+    "sources": [
+     "https://www.delta-batt.com/contacts/",
+     "https://checko.ru/company/smart-behtteriz-1197746509234",
+     "https://www.list-org.com/company/12385905"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «ТехноЛайт» (дистрибьютор «Лайта», ТМ ВОСТОК)",
+    "inn": "6454107010",
+    "city": "Саратов (офис продаж — Москва, ул. Рябиновая, 45а)",
+    "site": "https://www.layta.ru",
+    "phone": "8-800-444-35-00 доб. 2",
+    "email": "zakaz@layta.ru",
+    "products": "АКБ ВОСТОК СК-1204.5/СК-1207/СК-1209 (AGM), а также дистрибуция других марок",
+    "note": "ИНН и связь с layta.ru подтверждены (zachestnyibiznes/checko: сайт layta.ru, e-mail bill@layta.ru), но телефон и zakaz@layta.ru во втором источнике не найдены.",
+    "sources": [
+     "https://www.layta.ru/contacts/",
+     "https://checko.ru/company/tekhnolayt-1166451061369",
+     "https://www.list-org.com/company/9108613"
+    ],
+    "verified": false
+   }
+  ],
+  "note": "Российских заводов малых AGM 12 В 4,5–9 А·ч не найдено; все бренды — брендодержатели/дистрибьюторы с производством в КНР. Найдено 3 поставщика с юрлицами; Security Force/Leoch/Ippon — официальных российских юрлиц-представителей не установлено."
+ },
+ "B5": {
+  "title": "Измерительные приборы (мультиметры, щупы, токовые клещи с поверкой, указатель чередования фаз, пирометр), фонари, элементы питания, сумка для инструмента",
+  "positions": "164–176",
+  "makers": [
+   {
+    "name": "МЕГЕОН (российская ТМ измерительных приборов; юрлицо на сайте не указано)",
+    "inn": null,
+    "city": "Москва",
+    "site": "https://megeon-pribor.ru",
+    "phone": "8 (495) 666-20-75",
+    "email": "info@megeon-pribor.ru",
+    "products": "Мультиметры (12710, 12725 TrueRMS), токовые клещи, указатели чередования фаз, пирометры, щупы — с утверждением типа СИ",
+    "note": "Контакты только с официального сайта; второй источник и ИНН не найдены (сайт: «Где купить» /gde-kupit). Модели внесены в Госреестр СИ (поверка) — важно для п.170 «клещи с поверкой».",
+    "sources": [
+     "https://megeon-pribor.ru/"
+    ],
+    "verified": false
+   },
+   {
+    "name": "АО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+    "inn": "5074092485",
+    "city": "Подольск (юрадрес) / Москва (офис, Киевское ш. 22 км)",
+    "site": "https://www.iek.ru",
+    "phone": "+7 (495) 542-22-22",
+    "email": "info@iek.ru",
+    "products": "Мультиметры Universal, клещи токовые, указатели напряжения, фонари, элементы питания",
+    "note": "С 09.01.2025 действует АО (ИНН 5074092485, правопреемник ООО ИНН 7724635872, реорганизация преобразованием). Тел. и info@iek.ru совпадают на iek.ru и в checko/list-org. Техподдержка +7(495)542-22-27, helptd@iek.ru.",
+    "sources": [
+     "https://www.iek.ru/contacts/",
+     "https://checko.ru/company/iehk-holding-1255000000034",
+     "https://www.list-org.com/company/5044923"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "Мультиметры и клещи EKF Expert, указатели чередования фаз, пирометры",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «СДС» (бренд REXANT)",
+    "inn": "7734425377",
+    "city": "Москва (офис ул. Фабричная, 6, стр. 1)",
+    "site": "https://www.rexant.ru",
+    "phone": "+7 (495) 225-25-20",
+    "email": "info@rexant.ru",
+    "products": "Мультиметры, клещи, щупы с крокодилами, пирометры, фонари налобные/кемпинговые, батарейки 9В/AAA, Li-ion AAA, сумки для инструмента",
+    "note": "Телефон совпадает (сайт + zachestnyibiznes); e-mail info@rexant.ru во втором источнике не найден. Брендодержатель/поставщик, производство в основном КНР — запросить страну происхождения.",
+    "sources": [
+     "https://www.rexant.ru/contacts/",
+     "https://zachestnyibiznes.ru/company/ul/1197746331045_7734425377_OOO-SDS"
+    ],
+    "verified": false
+   },
+   {
+    "name": "Электротехнический завод «КВТ» (юрлицо по list-org — ООО ПКФ «Технакон», филиал в Калуге)",
+    "inn": "7720257683",
+    "city": "Калуга",
+    "site": "https://kvt.su",
+    "phone": "+7 (4842) 92-63-86 доб. 591 (заявки, kvt.su); +7 (4842) 92-65-69 (productcenter)",
+    "email": "samofatova.sa@kvt.su (по productcenter.ru; общий e-mail на kvt.su не получен)",
+    "products": "Сумки и наборы инструмента монтажника (С-03, С-04, НИИ), указатели напряжения, клещи",
+    "note": "Сайт kvt.su блокирует автоматический доступ (503); телефоны в двух источниках различаются, e-mail только в одном. ИНН по list-org (требует проверки ЕГРЮЛ). Профиль: наконечники ТМЛ/ТМ, НШВИ, гильзы, СИП-арматура, термоусадка ТТК/ТУТ, хомуты, инструмент и сумки монтажника.",
+    "sources": [
+     "https://kvt.su/kvt_production/history_kvt/",
+     "https://productcenter.ru/producers/11142/eliektrotiekhnichieskii-zavod-kvt",
+     "https://www.list-org.com/company/3020450"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «Космос Электро» (ТМ КОСМОС)",
+    "inn": "7733308293",
+    "city": "Москва (3-й Самотёчный пер., 11, к. 1)",
+    "site": "https://kosmos.ru (по saby)",
+    "phone": null,
+    "email": null,
+    "products": "Фонари налобные/кемпинговые/прожекторы аккумуляторные, батарейки алкалиновые 9В(6LR61)/AAA, аккумуляторы AAA",
+    "note": "ИНН и адрес — saby (совпадает с индексом 127473 в инструкции к фонарю КОСМОС). Телефон/e-mail в открытых источниках скрыты — запросить через сайт. Бренд в портфеле дистрибьютора diHouse.",
+    "sources": [
+     "https://saby.ru/profile/7733308293-770701001",
+     "https://dn.ru/storage/certificates/elektrika/fonary/russkij-svet/ps-kosmos-h1wled.pdf"
+    ],
+    "verified": false
+   }
+  ],
+  "note": "Отечественного производства мультиметров/пирометров практически нет — бренды российские, производство КНР; требовать сведения о внесении в Госреестр СИ и первичную поверку для п.170."
+ },
+ "B6": {
+  "title": "Электроустановочные изделия: розетки (в т.ч. на DIN-рейку РАр10-3-ОП), розетки/выключатели ОУ IP44, вилки 16 А, промышленные розетки/вилки 63 А (тип 135/035)",
+  "positions": "179, 181–186, 188, 189",
+  "makers": [
+   {
+    "name": "АО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+    "inn": "5074092485",
+    "city": "Подольск (юрадрес) / Москва (офис, Киевское ш. 22 км)",
+    "site": "https://www.iek.ru",
+    "phone": "+7 (495) 542-22-22",
+    "email": "info@iek.ru",
+    "products": "Розетки РАр10-3-ОП на DIN (оригинальная маркировка ТЗ — IEK), ОУ серии ГРЕЗИНСКИЕ/Ультра IP44, вилки, промышленные ССИ-135/ССИ-035 63А 3P+N+PE",
+    "note": "С 09.01.2025 действует АО (ИНН 5074092485, правопреемник ООО ИНН 7724635872, реорганизация преобразованием). Тел. и info@iek.ru совпадают на iek.ru и в checko/list-org. Техподдержка +7(495)542-22-27, helptd@iek.ru.",
+    "sources": [
+     "https://www.iek.ru/contacts/",
+     "https://checko.ru/company/iehk-holding-1255000000034",
+     "https://www.list-org.com/company/5044923"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "Розетки на DIN-рейку, электроустановочные ОУ, вилки 16А, промышленные PROxima 63А",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   },
+   {
+    "name": "АО «ДКС» (Диэлектрические кабельные системы), бренд DKC",
+    "inn": "6905062011",
+    "city": "Тверь (завод, ул. Бочкина, 15); коммерческий офис Москва",
+    "site": "https://www.dkc.ru",
+    "phone": "+7 (4822) 777-980 (офис продаж Тверь); Москва +7 (495) 777-77-79; 8-800-250-52-63 (техподдержка)",
+    "email": "tver@dkc.ru; info@dkc.ru (Москва)",
+    "products": "Промышленные разъёмы QUADRO 63А IP44/IP67 (розетки стационарные, вилки переносные)",
+    "note": "Тел. +7(4822)777-980 = checko «+7 482 277-79-80»; tver@dkc.ru — на dkc.ru и в list-org/zachestnyibiznes/Вестнике госрегистрации. ИНН — rusprofile/checko/saby.",
+    "sources": [
+     "https://www.dkc.ru/ru/about/contact/",
+     "https://checko.ru/company/dks-1026900516390",
+     "https://www.list-org.com/company/59019"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «ТДМ» (бренд TDM ELECTRIC)",
+    "inn": "7724417909",
+    "city": "Москва (ул. Дорожная, 60Б)",
+    "site": "https://tdme.ru",
+    "phone": "+7 (495) 727-32-14; 8-800-700-63-26",
+    "email": "info@tdme.ru; project-sales@tdme.ru (проектные продажи)",
+    "products": "Розетки на DIN, ОУ IP44, вилки 16А, промышленные 63А тип 135/035",
+    "note": "Телефон +7(495)727-32-14 совпадает на tdme.ru и в checko (ИНН 7724417909). E-mail info@tdme.ru во втором источнике не найден (checko даёт info@tdomm.ru) — e-mail не подтверждён. Реквизиты-PDF на tdme.ru называют также ООО «Торговый дом Морозова» — сверить юрлицо при запросе.",
+    "sources": [
+     "https://tdme.ru/about/contacts",
+     "https://checko.ru/company/tdm-1177746881344"
+    ],
+    "verified": false
+   },
+   {
+    "name": "АО «СЭ» (Систэм Электрик / Systeme Electric)",
+    "inn": "7712092928",
+    "city": "Москва (ул. Двинцева, 12, к. 1); заводы — Козьмодемьянск, Казань и др.",
+    "site": "https://systeme.ru",
+    "phone": "+7 (495) 777-99-90; Центр поддержки 8-800-200-64-46",
+    "email": "support@systeme.ru",
+    "products": "Электроустановочные Atlas/Blanca/Этюд ОУ, промышленные разъёмы PratiKa 63А",
+    "note": "ИНН/адрес совпадают с ЕГРЮЛ-агрегаторами; телефоны/e-mail в агрегаторах — устаревшие (домены schneider-electric/se.com), совпадение не подтверждено.",
+    "sources": [
+     "https://systeme.ru/contacts",
+     "https://zachestnyibiznes.ru/company/ul/1027739393637_7712092928_AO-SISTEM-ELEKTRIK",
+     "https://checko.ru/company/seh-1027739393637"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «СДС» (бренд REXANT)",
+    "inn": "7734425377",
+    "city": "Москва (офис ул. Фабричная, 6, стр. 1)",
+    "site": "https://www.rexant.ru",
+    "phone": "+7 (495) 225-25-20",
+    "email": "info@rexant.ru",
+    "products": "Розетки/выключатели ОУ, вилки с кольцом и разборные 16А",
+    "note": "Телефон совпадает (сайт + zachestnyibiznes); e-mail info@rexant.ru во втором источнике не найден. Брендодержатель/поставщик, производство в основном КНР — запросить страну происхождения.",
+    "sources": [
+     "https://www.rexant.ru/contacts/",
+     "https://zachestnyibiznes.ru/company/ul/1197746331045_7734425377_OOO-SDS"
+    ],
+    "verified": false
+   }
+  ]
+ },
+ "B7": {
+  "title": "Щиты и корпуса металлические: ЩРН-П-6, ОЩВ-3-63-12-0, ЩМП-2-0/3-0/6.6.2-0, ЩМП 600х600х400 IP54 У2",
+  "positions": "191–196",
+  "makers": [
+   {
+    "name": "АО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+    "inn": "5074092485",
+    "city": "Подольск (юрадрес) / Москва (офис, Киевское ш. 22 км)",
+    "site": "https://www.iek.ru",
+    "phone": "+7 (495) 542-22-22",
+    "email": "info@iek.ru",
+    "products": "ЩРН-П, ОЩВ-3 (с автоматами), корпуса ЩМП-2-0/3-0/6.6.2-0/6.6.4-0 IP54 У2 (серия TITAN/ЩМП)",
+    "note": "С 09.01.2025 действует АО (ИНН 5074092485, правопреемник ООО ИНН 7724635872, реорганизация преобразованием). Тел. и info@iek.ru совпадают на iek.ru и в checko/list-org. Техподдержка +7(495)542-22-27, helptd@iek.ru.",
+    "sources": [
+     "https://www.iek.ru/contacts/",
+     "https://checko.ru/company/iehk-holding-1255000000034",
+     "https://www.list-org.com/company/5044923"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "ЩРН-П, ОЩВ-3 63А/12 (PROxima), ЩМП IP54",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   },
+   {
+    "name": "АО «ДКС» (Диэлектрические кабельные системы), бренд DKC",
+    "inn": "6905062011",
+    "city": "Тверь (завод, ул. Бочкина, 15); коммерческий офис Москва",
+    "site": "https://www.dkc.ru",
+    "phone": "+7 (4822) 777-980 (офис продаж Тверь); Москва +7 (495) 777-77-79; 8-800-250-52-63 (техподдержка)",
+    "email": "tver@dkc.ru; info@dkc.ru (Москва)",
+    "products": "Корпуса металлические ST/CE IP55/IP66 — аналоги ЩМП 500х400х220, 650х500х220, 600х600х250/400",
+    "note": "Тел. +7(4822)777-980 = checko «+7 482 277-79-80»; tver@dkc.ru — на dkc.ru и в list-org/zachestnyibiznes/Вестнике госрегистрации. ИНН — rusprofile/checko/saby.",
+    "sources": [
+     "https://www.dkc.ru/ru/about/contact/",
+     "https://checko.ru/company/dks-1026900516390",
+     "https://www.list-org.com/company/59019"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «ТДМ» (бренд TDM ELECTRIC)",
+    "inn": "7724417909",
+    "city": "Москва (ул. Дорожная, 60Б)",
+    "site": "https://tdme.ru",
+    "phone": "+7 (495) 727-32-14; 8-800-700-63-26",
+    "email": "info@tdme.ru; project-sales@tdme.ru (проектные продажи)",
+    "products": "ЩРН-П, ОЩВ-3-63-12-0, ЩМП-2-0/3-0/6.6.2-0 IP54 У2",
+    "note": "Телефон +7(495)727-32-14 совпадает на tdme.ru и в checko (ИНН 7724417909). E-mail info@tdme.ru во втором источнике не найден (checko даёт info@tdomm.ru) — e-mail не подтверждён. Реквизиты-PDF на tdme.ru называют также ООО «Торговый дом Морозова» — сверить юрлицо при запросе.",
+    "sources": [
+     "https://tdme.ru/about/contacts",
+     "https://checko.ru/company/tdm-1177746881344"
+    ],
+    "verified": false
+   },
+   {
+    "name": "АО «КЭАЗ» (Курский электроаппаратный завод)",
+    "inn": "4629003691",
+    "city": "Курск (ул. 2-я Рабочая, 23)",
+    "site": "https://keaz.ru",
+    "phone": "+7 (4712) 39-99-11; 8-800-777-94-62",
+    "email": "keaz@keaz.ru",
+    "products": "Корпуса и щиты OptiBox M (металлические ЩМП-аналоги), ЩРН, щиты освещения",
+    "note": "+7(4712)39-99-11 и keaz@keaz.ru — на keaz.ru и в rusprofile (АО ИНН 4629003691). Есть также ООО «КЭАЗ» ИНН 4632025039 — уточнить юрлицо-продавца.",
+    "sources": [
+     "https://keaz.ru/contacts",
+     "https://www.rusprofile.ru/id/1590409"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «ЭПМ» (щитовое оборудование)",
+    "inn": "5034067500",
+    "city": "Орехово-Зуево (Индустриальный парк Кабаново, д. 1)",
+    "site": "http://epm.mag1c.ru",
+    "phone": "+7 (903) 000-16-37",
+    "email": "info@ep-m.ru",
+    "products": "ЩРН-12…120, ЩМП, ЩРНМ, ЩУРН, ВРУ — собственное производство",
+    "note": "Контакты только из productcenter.ru (один источник); официальный сайт не проверен. ООО зарег. 18.12.2023 (ОГРН 1235000160922), заявляет выпуск металлокорпусов с 2011 г. — проверить надёжность.",
+    "sources": [
+     "https://productcenter.ru/producers/38230/epm-shchitovoie-oborudovaniie",
+     "https://productcenter.ru/products/123308/shchrn-12-shchrn-120-ip31-ip54"
+    ],
+    "verified": false
+   }
+  ]
+ },
+ "B8": {
+  "title": "Кнопки, посты кнопочные ПКЕ 222-2, переключатели ALCLR-22 (I-O-II), тумблеры ТП1-2, светосигнальная арматура AD-22DS",
+  "positions": "190, 197–203",
+  "makers": [
+   {
+    "name": "АО «КЭАЗ» (Курский электроаппаратный завод)",
+    "inn": "4629003691",
+    "city": "Курск (ул. 2-я Рабочая, 23)",
+    "site": "https://keaz.ru",
+    "phone": "+7 (4712) 39-99-11; 8-800-777-94-62",
+    "email": "keaz@keaz.ru",
+    "products": "Посты кнопочные ПКЕ 222-2-У2-IP54 (арт. 150756/150757, каталог files.keaz.ru/f/1984/catalog-pke.pdf), кнопки/переключатели/сигнальная арматура OptiSignal D22",
+    "note": "+7(4712)39-99-11 и keaz@keaz.ru — на keaz.ru и в rusprofile (АО ИНН 4629003691). Есть также ООО «КЭАЗ» ИНН 4632025039 — уточнить юрлицо-продавца.",
+    "sources": [
+     "https://keaz.ru/contacts",
+     "https://www.rusprofile.ru/id/1590409"
+    ],
+    "verified": true
+   },
+   {
+    "name": "АО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+    "inn": "5074092485",
+    "city": "Подольск (юрадрес) / Москва (офис, Киевское ш. 22 км)",
+    "site": "https://www.iek.ru",
+    "phone": "+7 (495) 542-22-22",
+    "email": "info@iek.ru",
+    "products": "Посты ПКЕ, кнопки LAY5/BW (аналог pbn-bw8465), переключатели ALCLR-22 3 положения (артикул из ТЗ — серия IEK), арматура AD-22DS (IEK)",
+    "note": "С 09.01.2025 действует АО (ИНН 5074092485, правопреемник ООО ИНН 7724635872, реорганизация преобразованием). Тел. и info@iek.ru совпадают на iek.ru и в checko/list-org. Техподдержка +7(495)542-22-27, helptd@iek.ru.",
+    "sources": [
+     "https://www.iek.ru/contacts/",
+     "https://checko.ru/company/iehk-holding-1255000000034",
+     "https://www.list-org.com/company/5044923"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "Посты ПКЕ 222, кнопки, переключатели 22 мм, арматура AD-22DS, тумблеры",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «ТДМ» (бренд TDM ELECTRIC)",
+    "inn": "7724417909",
+    "city": "Москва (ул. Дорожная, 60Б)",
+    "site": "https://tdme.ru",
+    "phone": "+7 (495) 727-32-14; 8-800-700-63-26",
+    "email": "info@tdme.ru; project-sales@tdme.ru (проектные продажи)",
+    "products": "Посты ПКЕ 222-2/222-3 IP54, кнопки, переключатели на 3 положения, AD-22DS",
+    "note": "Телефон +7(495)727-32-14 совпадает на tdme.ru и в checko (ИНН 7724417909). E-mail info@tdme.ru во втором источнике не найден (checko даёт info@tdomm.ru) — e-mail не подтверждён. Реквизиты-PDF на tdme.ru называют также ООО «Торговый дом Морозова» — сверить юрлицо при запросе.",
+    "sources": [
+     "https://tdme.ru/about/contacts",
+     "https://checko.ru/company/tdm-1177746881344"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «СДС» (бренд REXANT)",
+    "inn": "7734425377",
+    "city": "Москва (офис ул. Фабричная, 6, стр. 1)",
+    "site": "https://www.rexant.ru",
+    "phone": "+7 (495) 225-25-20",
+    "email": "info@rexant.ru",
+    "products": "Тумблеры ON-ON/ON-OFF-ON 1- и 2-полюсные 6А 250В (в т.ч. аналоги ТП1-2), кнопки",
+    "note": "Телефон совпадает (сайт + zachestnyibiznes); e-mail info@rexant.ru во втором источнике не найден. Брендодержатель/поставщик, производство в основном КНР — запросить страну происхождения.",
+    "sources": [
+     "https://www.rexant.ru/contacts/",
+     "https://zachestnyibiznes.ru/company/ul/1197746331045_7734425377_OOO-SDS"
+    ],
+    "verified": false
+   },
+   {
+    "name": "АО «СЭ» (Систэм Электрик / Systeme Electric)",
+    "inn": "7712092928",
+    "city": "Москва (ул. Двинцева, 12, к. 1); заводы — Козьмодемьянск, Казань и др.",
+    "site": "https://systeme.ru",
+    "phone": "+7 (495) 777-99-90; Центр поддержки 8-800-200-64-46",
+    "email": "support@systeme.ru",
+    "products": "Кнопки, переключатели и светосигнальная арматура 22 мм (серии Easy/XA2-аналоги)",
+    "note": "ИНН/адрес совпадают с ЕГРЮЛ-агрегаторами; телефоны/e-mail в агрегаторах — устаревшие (домены schneider-electric/se.com), совпадение не подтверждено.",
+    "sources": [
+     "https://systeme.ru/contacts",
+     "https://zachestnyibiznes.ru/company/ul/1027739393637_7712092928_AO-SISTEM-ELEKTRIK",
+     "https://checko.ru/company/seh-1027739393637"
+    ],
+    "verified": false
+   }
+  ],
+  "note": "Отечественное производство ПКЕ подтверждено каталогом КЭАЗ. ALCLR-22, AD-22DS — обозначения серий IEK, аналоги у EKF/TDM."
+ },
+ "B9": {
+  "title": "Диэлектрические перчатки бесшовные, ГОСТ 12.4.307-2016, толщина 1 мм",
+  "positions": "204",
+  "makers": [
+   {
+    "name": "АО «Ярославский завод РТИ»",
+    "inn": "7601000632",
+    "city": "Ярославль (ул. Советская, 81а)",
+    "site": "http://www.yarti.ru",
+    "phone": "(4852) 58-43-02; (4852) 58-43-22",
+    "email": "jurkina@rti.yaroslavl.ru (сайт); direct@rti.yaroslavl.ru (productcenter)",
+    "products": "Перчатки диэлектрические резиновые, боты/галоши (ГОСТ 13385-78), ковры диэлектрические",
+    "note": "Телефон (4852) 58-43-02 — на yarti.ru и productcenter; e-mail в источниках разный — не подтверждён. Перчатки по ТУ 38.305-05-257-89 (не ГОСТ 12.4.307-2016) — запросить соответствие ГОСТ 12.4.307 и бесшовное исполнение.",
+    "sources": [
+     "http://www.yarti.ru/?id=17",
+     "https://productcenter.ru/products/18227/pierchatki-dieliektrichieskiie-dlia-zashchity-ot-eliektrichieskogo-toka",
+     "https://www.list-org.com/company/3787"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ПВ ООО «Фирма «Техноавиа»",
+    "inn": "7724152603",
+    "city": "Москва (ул. Василия Петушкова, 7)",
+    "site": "https://www.technoavia.ru",
+    "phone": "+7 (495) 787-90-30",
+    "email": "inform@technoavia.ru",
+    "products": "Перчатки диэлектрические латексные бесшовные (кл. 0/1), СИЗ",
+    "note": "Реквизиты/контакты с сайта; list-org даёт ИНН и ящики @technoavia.ru (info@, chirkova@ и др.), совпадение тел./inform@ не подтверждено. Производитель/поставщик СИЗ, есть филиал/дилеры в регионах.",
+    "sources": [
+     "https://www.technoavia.ru/company/rekviziti",
+     "https://www.list-org.com/company/93275"
+    ],
+    "verified": false
+   },
+   {
+    "name": "«Восток-Сервис» (группа компаний, Москва)",
+    "inn": null,
+    "city": "Москва (2-й Грайвороновский пр-д, 34, стр. 2)",
+    "site": "https://vostok.ru",
+    "phone": "(495) 665-75-75; отдел сбыта (495) 665-76-65",
+    "email": "td@vostok.ru; beznal@vostok.ru (отдел сбыта)",
+    "products": "Перчатки диэлектрические латексные бесшовные, СИЗ электрозащиты",
+    "note": "Контакты только с официального сайта; юрлицо/ИНН продавца не установлены (в группе несколько ООО) — уточнить. Есть филиал в Смоленске (проверить на vostok.ru).",
+    "sources": [
+     "https://vostok.ru/contacts/5/3/"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "Перчатки диэлектрические (наличие в ассортименте EKF уточнить)",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   }
+  ],
+  "note": "Найдено 4 поставщика; российский завод-изготовитель бесшовных латексных перчаток по ГОСТ 12.4.307-2016 в открытых источниках однозначно не установлен — требовать декларацию ЕАЭС с указанием изготовителя."
+ },
+ "B10": {
+  "title": "Вентиляторы шкафные 120х120 и вентиляторы с фильтром 52 м³/ч (124х124) и 102 м³/ч (176х176) IP54",
+  "positions": "205–207",
+  "makers": [
+   {
+    "name": "АО «ДКС» (Диэлектрические кабельные системы), бренд DKC",
+    "inn": "6905062011",
+    "city": "Тверь (завод, ул. Бочкина, 15); коммерческий офис Москва",
+    "site": "https://www.dkc.ru",
+    "phone": "+7 (4822) 777-980 (офис продаж Тверь); Москва +7 (495) 777-77-79; 8-800-250-52-63 (техподдержка)",
+    "email": "tver@dkc.ru; info@dkc.ru (Москва)",
+    "products": "Вентиляторы с фильтром R5KV (серия RAM/R5KV, 124х124, 176х176 IP54), осевые 120х120",
+    "note": "Тел. +7(4822)777-980 = checko «+7 482 277-79-80»; tver@dkc.ru — на dkc.ru и в list-org/zachestnyibiznes/Вестнике госрегистрации. ИНН — rusprofile/checko/saby.",
+    "sources": [
+     "https://www.dkc.ru/ru/about/contact/",
+     "https://checko.ru/company/dks-1026900516390",
+     "https://www.list-org.com/company/59019"
+    ],
+    "verified": true
+   },
+   {
+    "name": "АО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+    "inn": "5074092485",
+    "city": "Подольск (юрадрес) / Москва (офис, Киевское ш. 22 км)",
+    "site": "https://www.iek.ru",
+    "phone": "+7 (495) 542-22-22",
+    "email": "info@iek.ru",
+    "products": "Вентиляторы с фильтром ВФИ (TITAN/ВФИ-52, ВФИ-102 и др.), решётки с фильтром",
+    "note": "С 09.01.2025 действует АО (ИНН 5074092485, правопреемник ООО ИНН 7724635872, реорганизация преобразованием). Тел. и info@iek.ru совпадают на iek.ru и в checko/list-org. Техподдержка +7(495)542-22-27, helptd@iek.ru.",
+    "sources": [
+     "https://www.iek.ru/contacts/",
+     "https://checko.ru/company/iehk-holding-1255000000034",
+     "https://www.list-org.com/company/5044923"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Электрорешения» (бренд EKF)",
+    "inn": "7721403552",
+    "city": "Москва (ул. Отрадная, 2Б, стр. 9); производство Александров (Владимирская обл.)",
+    "site": "https://ekfgroup.com",
+    "phone": "8-800-333-88-15",
+    "email": "info@ekf.su",
+    "products": "Вентиляторы шкафные с фильтром IP54 (серия FAN), осевые 120х120",
+    "note": "Телефон — ekfgroup.com + checko; e-mail info@ekf.su — ekfgroup.com + декларация ЕАЭС RU Д-RU.НХ37.В.12649/20 (заявитель ООО «Электрорешения»).",
+    "sources": [
+     "https://ekfgroup.com/ru/about/contacts",
+     "https://checko.ru/company/ehlektroresheniya-5157746188750",
+     "https://electric-spb.com/upload/rs-files/certificates/NX37_W12649.20.pdf"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «ТДМ» (бренд TDM ELECTRIC)",
+    "inn": "7724417909",
+    "city": "Москва (ул. Дорожная, 60Б)",
+    "site": "https://tdme.ru",
+    "phone": "+7 (495) 727-32-14; 8-800-700-63-26",
+    "email": "info@tdme.ru; project-sales@tdme.ru (проектные продажи)",
+    "products": "Вентиляторы с фильтром ВФ IP54 52/102 м³/ч, осевые 120х120",
+    "note": "Телефон +7(495)727-32-14 совпадает на tdme.ru и в checko (ИНН 7724417909). E-mail info@tdme.ru во втором источнике не найден (checko даёт info@tdomm.ru) — e-mail не подтверждён. Реквизиты-PDF на tdme.ru называют также ООО «Торговый дом Морозова» — сверить юрлицо при запросе.",
+    "sources": [
+     "https://tdme.ru/about/contacts",
+     "https://checko.ru/company/tdm-1177746881344"
+    ],
+    "verified": false
+   },
+   {
+    "name": "АО «СЭ» (Систэм Электрик / Systeme Electric)",
+    "inn": "7712092928",
+    "city": "Москва (ул. Двинцева, 12, к. 1); заводы — Козьмодемьянск, Казань и др.",
+    "site": "https://systeme.ru",
+    "phone": "+7 (495) 777-99-90; Центр поддержки 8-800-200-64-46",
+    "email": "support@systeme.ru",
+    "products": "ClimaSys — вентиляторы с фильтром IP54, осевые вентиляторы",
+    "note": "ИНН/адрес совпадают с ЕГРЮЛ-агрегаторами; телефоны/e-mail в агрегаторах — устаревшие (домены schneider-electric/se.com), совпадение не подтверждено.",
+    "sources": [
+     "https://systeme.ru/contacts",
+     "https://zachestnyibiznes.ru/company/ul/1027739393637_7712092928_AO-SISTEM-ELEKTRIK",
+     "https://checko.ru/company/seh-1027739393637"
+    ],
+    "verified": false
+   },
+   {
+    "name": "Производственная компания ЦМО (группа REMER)",
+    "inn": null,
+    "city": "Москва (ул. 7-я Кожуховская, 15, стр. 1)",
+    "site": "https://www.cmo.ru",
+    "phone": "8-800-222-93-33; +7 (495) 363-93-33",
+    "email": "cmo@cmo.ru",
+    "products": "Вентиляторные модули R-FAN, осевые вентиляторы 120х120 для шкафов",
+    "note": "Контакты только из материалов официального сайта (мини-каталог); юрлицо/ИНН не установлены — уточнить. Собственное производство шкафов и вентиляторных модулей R-FAN.",
+    "sources": [
+     "https://www.cmo.ru/upload/medialibrary/229/Mini_new_web.pdf",
+     "https://www.cmo.ru/promo/005/"
+    ],
+    "verified": false
+   }
+  ]
+ },
+ "B11": {
+  "title": "Клапаны соленоидные НЗ непрямого действия для пара до +180 °C, латунь/PTFE, Ду15 G½ (R2L15GBR) и Ду32 G1¼ (R2L32GBR) или эквиваленты",
+  "positions": "208, 209",
+  "makers": [
+   {
+    "name": "ООО «ДН.РУ» (ТМ DN.ru)",
+    "inn": "7724452117",
+    "city": "Москва (Востряковский пр-д, 10Б, стр. 3)",
+    "site": "https://dn.ru",
+    "phone": "+7 (495) 504-37-40; 8-800-777-95-16",
+    "email": "info@dn.ru",
+    "products": "Электромагнитные клапаны DN.ru пилотные латунь/PTFE до +180 °C (серии VS1000-PT-NC, DHP11), Ду15–Ду32, катушки 220 В",
+    "note": "Тел. +7(495)504-37-40 и info@dn.ru — на dn.ru и в агрегаторах. Брендодержатель/дистрибьютор (в карточках страна «Россия» — паспорт/ТУ запросить).",
+    "sources": [
+     "https://dn.ru/contacts/",
+     "https://zachestnyibiznes.ru/company/ul/1187746786182_7724452117_OOO-DNRU",
+     "https://www.list-org.com/company/11990939"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ЗАО «РОСМА»",
+    "inn": "4719015564",
+    "city": "Санкт-Петербург (пер. Каховского, 5)",
+    "site": "https://rosma.spb.ru",
+    "phone": "+7 (812) 325-90-51",
+    "email": "info@rosma.spb.ru",
+    "products": "Электромагнитные клапаны СК-11/СК-12/СК-21 (латунь) — применимость к пару уточнить",
+    "note": "Тел. и e-mail совпадают на сайте и в list-org. Российский производитель КИП и электромагнитных клапанов СК; пригодность СК для пара +180 °C/PTFE в источниках не подтверждена — запросить. Москва — дилер ООО «БИТРЕЙД» (rosma.spb.ru/contacts/moscow/).",
+    "sources": [
+     "https://rosma.spb.ru/contacts/",
+     "https://www.list-org.com/company/246162"
+    ],
+    "verified": true
+   },
+   {
+    "name": "ООО «Центр-Арм»",
+    "inn": "6679114489",
+    "city": "Екатеринбург (ул. Черняховского, 86, к. 2, оф. 313)",
+    "site": "https://centrarm.ru",
+    "phone": "+7 (343) 272-82-42",
+    "email": "centrarma@yandex.ru",
+    "products": "Клапаны электромагнитные для пара: SL5595 Ду15–Ду32 (латунь, до +185 °C), клапаны СК Росма, AR",
+    "note": "Контакты/реквизиты только с сайта (один источник). Дистрибьютор; есть паровой клапан Ду32 G1¼ SL55954 (−30…+185 °C) — https://centrarm.ru/solenoidvalve/brass/sl5595/klapan-elektromagnitnyy-du32-dlya-para-sl55954/",
+    "sources": [
+     "https://centrarm.ru/about/"
+    ],
+    "verified": false
+   }
+  ],
+  "note": "Производитель R2L15GBR/R2L32GBR по открытым источникам не идентифицирован (в т.ч. не найден у R2G Fluidics) — закупать эквивалент. Найдено 3 поставщика."
+ },
+ "B12": {
+  "title": "Электроприводы воздушных заслонок Belimo NM230AX (10 Нм), LM230A (5 Нм) и потенциометр обратной связи P2800A — оригинал или эквиваленты",
+  "positions": "210–212",
+  "makers": [
+   {
+    "name": "ООО «Сервоприводы Белимо Руссия» (представительство Belimo)",
+    "inn": "7719180203 (по list-org; в другой записи тот же ИНН у ООО «Аэрас Системс» — проверить в ЕГРЮЛ)",
+    "city": "Москва (16-я Парковая, 5, оф. 27)",
+    "site": "https://www.belimo.ru",
+    "phone": "+7 (495) 909-70-83 (сайт); +7 (495) 387-13-30 (list-org)",
+    "email": "info@belimo.ru",
+    "products": "Оригинальные Belimo NM230A(X), LM230A, потенциометр P2800A",
+    "note": "Телефоны на сайте и в list-org различаются; e-mail только на сайте. Оригиналы NM230AX, LM230A, P2800A — запросить наличие/сроки и легальность поставки.",
+    "sources": [
+     "https://www.belimo.ru/contacts/",
+     "https://www.list-org.com/company/562424"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «ЛУНДА» (дистрибьютор ОВиК, в т.ч. Belimo)",
+    "inn": "7705674361",
+    "city": "Москва (Саввинская наб., 15); филиалы по РФ",
+    "site": "https://www.lunda.ru",
+    "phone": "8-800-555-05-11; +7 (495) 123-00-00",
+    "email": "sales@lunda.ru",
+    "products": "Belimo LM230A, NM230A, NF230A и др. (склад/под заказ)",
+    "note": "8-800-555-05-11 и sales@lunda.ru — на lunda.ru и в checko; +7(495)123-00-00 — сайт и zachestnyibiznes. В каталоге — техописания Belimo LM230A, NF230A, LM230A-SR (cdn.lunda.ru).",
+    "sources": [
+     "https://www.lunda.ru/contacts/",
+     "https://checko.ru/company/lunda-1057747481110",
+     "https://zachestnyibiznes.ru/company/ul/1057747481110_7705674361_OOO-LUNDA"
+    ],
+    "verified": true
+   },
+   {
+    "name": "Lufberg (ООО «Люфберг» — локальное производство, Ленинградская обл.)",
+    "inn": null,
+    "city": "пос. Вырица, Гатчинский р-н, Ленинградская обл.",
+    "site": "https://lufberg.ru",
+    "phone": "8-800-555-61-96; +7 (81371) 9-18-48",
+    "email": "info@lufberg.ru",
+    "products": "Электроприводы Lufberg 5/10 Нм 230 В (аналоги LM230A/NM230A); потенциометр обратной связи — уточнить",
+    "note": "Контакты только с официального сайта (данные получены через поисковый сниппет, страница при прямом запросе — 403); ИНН не установлен (лимит поиска исчерпан). Приводы 2–32 Нм, 230 В, с пружиной и без — аналоги LM230A (5 Нм) / NM230A (10 Нм).",
+    "sources": [
+     "https://www.lufberg.ru/kontakty"
+    ],
+    "verified": false
+   },
+   {
+    "name": "ООО «Компания СУПЕРВЕНТ» (официальный дистрибьютор Lufberg в РФ)",
+    "inn": "7814481144",
+    "city": "Санкт-Петербург (юрадрес); офис Москва, ул. Щербаковская, 53, корп. 15",
+    "site": "https://supervent.ru",
+    "phone": "+7 (495) 616-00-20 (Москва)",
+    "email": "mos@supervent.ru",
+    "products": "Электроприводы Lufberg (дистрибуция)",
+    "note": "Данные с сайта lufberg.ru (один источник); второй источник не проверен — лимит поиска исчерпан.",
+    "sources": [
+     "http://www.lufberg.ru/kontakty/lyufberg-rossiya"
+    ],
+    "verified": false
+   }
+  ],
+  "note": "Эквиваленты в выдаче также: Siemens GDB/GLB (5/10 Нм), Dacond DAC-LF230, Nanotek BLF230 — российских юрлиц-поставщиков не проверяли. Аналог P2800A (2800 Ом, 95°) найти не удалось — запросить у Belimo/Лунда."
+ }
+}

@@ -1,0 +1,242 @@
+[
+ {
+  "n": 2,
+  "price": 3492.28,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА57-35 NM1-340010 100А 25кА, 3P, ~400/690В, отсечка 10In (=1000А), УХЛ3, IP20, арт. SAV-NM1-57-250100, Texenergo",
+  "match": "частично: Icu 25 кА (ТЗ: 30 кА; 15 кА при 690В — по карточке не подтверждено); остальное (3P, 100А, 690В, 1000А, УХЛ3, IP20) совпадает",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00445906",
+  "in_stock": true
+ },
+ {
+  "n": 3,
+  "price": 3123.89,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-100 3P 80А 10кА характеристика D, KARAT, арт. MVA40-3-080-D, IEK",
+  "match": "точно (3P, 80А, D, 10кА, 4,5 модуля, УХЛ3/4)",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00096571",
+  "in_stock": false
+ },
+ {
+  "n": 4,
+  "price": 7856.42,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА57-39 NM1-340010 250А 35кА габ.400, 3P, ~400/690В, отсечка 10In, наконечник ТМЛ до 120мм², УХЛ3, IP20, арт. SAV-NM1-57-400250, Texenergo",
+  "match": "эквивалент: 3P/250А/690В/10In/IP20/120мм² совпадают; Uimp и гарантия 5 лет в карточке не указаны",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00446432",
+  "in_stock": true
+ },
+ {
+  "n": 5,
+  "price": 7618.99,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА57-35-340010-160А-2000-690AC-УХЛ3, арт. 108592, КЭАЗ",
+  "match": "точно (3P, 160А, отсечка 2000А, 690В AC, УХЛ3); гарантия по паспорту КЭАЗ",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00111861",
+  "in_stock": false
+ },
+ {
+  "n": 6,
+  "price": 4737.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА88-33 3P 160А 35кА, арт. SVA20-3-0160, IEK",
+  "match": "точно по серии (3P, 160А, 35 кА, 400В); IP30/Ics на странице магазина не раскрыты",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22%",
+  "url": "https://xcom-shop.ru/iek_sva20-3-0160_467787.html",
+  "in_stock": true
+ },
+ {
+  "n": 7,
+  "price": 3354.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА 47-100 3P 125А (C) 10кА PROxima, арт. mcb47100-3-125C-pro, EKF",
+  "match": "точно (3P, 125А, C, DIN, до 35мм², гарантия 7 лет)",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22%",
+  "url": "https://xcom-shop.ru/ekf_mcb47100-3-125c-pro_713174.html",
+  "in_stock": true
+ },
+ {
+  "n": 8,
+  "price": 3749.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА 47-100 3P 125А (D) 10кА PROxima, арт. mcb47100-3-125D-pro, EKF",
+  "match": "точно (3P, 125А, D, DIN, до 35мм², гарантия 84 мес.)",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22%",
+  "url": "https://xcom-shop.ru/ekf_mcb47100-3-125d-pro_713167.html",
+  "in_stock": true
+ },
+ {
+  "n": 9,
+  "price": 2723.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА 47-100 3P 100А (D) 10кА PROxima, арт. mcb47100-3-100D-pro, EKF",
+  "match": "точно (3P, 100А, D, DIN, до 35мм², гарантия 7 лет)",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22%",
+  "url": "https://www.xcom-shop.ru/ekf_mcb47100-3-100d-pro_1224922.html",
+  "in_stock": true
+ },
+ {
+  "n": 10,
+  "price": 1999.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-100 3P 100А 10кА характеристика C, KARAT, арт. MVA40-3-100-C, IEK",
+  "match": "точно (3P, 100А, C, DIN, до 35мм²)",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22% (цена со скидкой, базовая 2346)",
+  "url": "https://www.xcom-shop.ru/iek_mva40-3-100-c_399328.html",
+  "in_stock": true
+ },
+ {
+  "n": 11,
+  "price": 2552.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА 47-100 3P 80А (D) 10кА PROxima, арт. mcb47100-3-80D-pro, EKF",
+  "match": "точно (3P, 80А, D, DIN, до 35мм²)",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22% (на момент проверки нет в наличии; альтернатива IEK MVA40-3-080-D 3123,89 ₽ Техэнерго под заказ)",
+  "url": "https://xcom-shop.ru/ekf_mcb47100-3-80d-pro_713166.html",
+  "in_stock": false
+ },
+ {
+  "n": 12,
+  "price": 3123.89,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-100 3P 63А 10кА характеристика D, KARAT, арт. MVA40-3-063-D, IEK",
+  "match": "точно (3P, 63А, D=10–20In, DIN, до 35мм²); диапазон t° -40…+50 (ТЗ до +60) — по паспорту IEK уточнить",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00095220",
+  "in_stock": false
+ },
+ {
+  "n": 13,
+  "price": 2038.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-100 3P 63А 10кА характеристика C, KARAT, арт. MVA40-3-063-C, IEK",
+  "match": "эквивалент: 3P, 63А, C (5–10In), до 35мм²; монтаж на DIN-рейку (на монтажную плату — через DIN-рейку)",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22% (цена со скидкой, базовая 2393)",
+  "url": "https://xcom-shop.ru/iek_mva40-3-063-c_464964.html",
+  "in_stock": true
+ },
+ {
+  "n": 14,
+  "price": 2155.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-100 3P 40А 10кА характеристика C, KARAT, арт. MVA40-3-040-C, IEK",
+  "match": "точно (модельный ряд ВА47-100, 3P, 40А, C, 10кА, IP20)",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22% (цена со скидкой, базовая 2501)",
+  "url": "https://xcom-shop.ru/iek_mva40-3-040-c_464962.html",
+  "in_stock": true
+ },
+ {
+  "n": 15,
+  "price": 2292.0,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-100 3P 32А 10кА характеристика C, KARAT, арт. MVA40-3-032-C, IEK",
+  "match": "точно (3P, 32А, C, DIN, до 35мм²)",
+  "source": "XCOM-SHOP (xcom-shop.ru), цена с НДС 22%",
+  "url": "https://www.xcom-shop.ru/iek_mva40-3-032-c_464960.html",
+  "in_stock": true
+ },
+ {
+  "n": 16,
+  "price": 386.07,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 3п 6А 6кА характеристика D, арт. TAM34D06-1, Texenergo",
+  "match": "эквивалент не хуже: ВА47-29, 3P, 6А, D, Icu 6 кА (ТЗ 4,5 кА), УХЛ4, IP20",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00137559",
+  "in_stock": true
+ },
+ {
+  "n": 17,
+  "price": 344.74,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 3п 16А 6кА характеристика D, арт. TAM34D16-1, Texenergo",
+  "match": "эквивалент не хуже: ВА47-29, 3P, 16А, D, Icu 6 кА (ТЗ 4,5 кА)",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00307540",
+  "in_stock": true
+ },
+ {
+  "n": 18,
+  "price": 360.41,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 3п 25А 6кА характеристика D, арт. TAM34D25-1, Texenergo",
+  "match": "эквивалент не хуже: ВА47-29, 3P, 25А, D, Icu 6 кА (ТЗ 4,5 кА)",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00307542",
+  "in_stock": true
+ },
+ {
+  "n": 19,
+  "price": 344.74,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 3п 25А 6кА характеристика C, арт. TAM34C25-1, Texenergo",
+  "match": "эквивалент: 3P, 25А, C(10In), до 25мм² (ТЗ ≥6мм²); модульный, монтаж на DIN-рейку (ТЗ — монтажная плата)",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00304244",
+  "in_stock": true
+ },
+ {
+  "n": 20,
+  "price": 344.74,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 3п 25А 6кА характеристика C, арт. TAM34C25-1, Texenergo",
+  "match": "точно (3P, 25А, C, DIN, до 25мм², IP20)",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00304244",
+  "in_stock": true
+ },
+ {
+  "n": 21,
+  "price": 329.33,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 3п 16А 6кА характеристика C, арт. TAM34C16-1, Texenergo",
+  "match": "эквивалент не хуже: ВА47-29, 3P, 16А, C, Icu 6 кА (ТЗ 4,5 кА)",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00304242",
+  "in_stock": true
+ },
+ {
+  "n": 22,
+  "price": 132.72,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 1п 6А 6кА характеристика C, арт. TAM14C06-1, Texenergo",
+  "match": "эквивалент не хуже: ВА47-29, 1P, 6А, C, Icu 6 кА (ТЗ 4,5 кА)",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00133138",
+  "in_stock": true
+ },
+ {
+  "n": 23,
+  "price": 109.68,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 1п 10А 6кА характеристика C, арт. TAM14C10-1, Texenergo",
+  "match": "эквивалент не хуже: ВА47-29, 1P, 10А, C, Icu 6 кА",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00141843",
+  "in_stock": true
+ },
+ {
+  "n": 24,
+  "price": 109.68,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 1п 16А 6кА характеристика C, арт. TAM14C16-1, Texenergo",
+  "match": "эквивалент не хуже: ВА47-29, 1P, 16А, C, Icu 6 кА",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00140479",
+  "in_stock": true
+ },
+ {
+  "n": 25,
+  "price": 114.82,
+  "unit_note": "шт.",
+  "product": "Автоматический выключатель ВА47-29 1п 25А 6кА характеристика C, арт. TAM14C25-1, Texenergo",
+  "match": "эквивалент не хуже: ВА47-29, 1P, 25А, C, Icu 6 кА",
+  "source": "Техэнерго (texenergo.ru), оптовая цена с НДС (для счетов от 20 тыс.₽)",
+  "url": "https://www.texenergo.ru/catalog/item.html/te00138848",
+  "in_stock": true
+ }
+]
