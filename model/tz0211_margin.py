@@ -14,9 +14,24 @@ for f in glob.glob(f"{D}/pricing/g*_out.json"):
 thin = Side(style="thin", color="BFBFBF"); BOX = Border(top=thin, bottom=thin, left=thin, right=thin); M = "#,##0"
 wb = openpyxl.Workbook(); sv = wb.active; sv.title = "Итог"
 sv.append(["ТЗ партии 02.11 — маржа по рыночным ценам (закупка с НДС; без доставки и торга, затем при −10 %)"]); sv["A1"].font = Font(bold=True, size=12)
-sv.append(["Закупка", "№", "Подача", "НМЦ, ₽", "Позиций в ТЗ", "Позиций с ценой рынка", "Доля НМЦ, проверенная ценами", "НМЦ проверенной части, ₽", "Рынок по ней, ₽", "Маржа", "Маржа при −10 %", "Вывод"])
+sv.append(["Закупка", "№", "Подача", "НМЦ, ₽", "Позиций в ТЗ", "Позиций с ценой рынка", "Доля НМЦ, проверенная ценами", "НМЦ проверенной части, ₽", "Рынок по ней, ₽", "Маржа", "Маржа при −10 %", "Вывод", "Комментарий"])
 for c in sv[2]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True)
 res = []
+NOTE = {"5044_GTE_MO_electro": "реалистично 40–50 % с учётом аналогов; ИДЁМ",
+ "5036_GTE_Kirov_KIP": "НМЦ — прайс единичных расценок, лимит 4,27 млн",
+ "Smolensk_electro": "частотники INSTART по рознице производителя дороже НМЦ (пп. 214–222) — запросить дистрибьютора; без 5 позиций",
+ "43834_Rosseti_Ural_pipes": "ИДЁМ при условии: ДКС с зондом не подтверждён — нужен КП ДКС на трубу с протяжкой",
+ "MAZ_metro": "мин. цена поставщика из обоснования НМЦ; лимит 11 млн",
+ "UPTZh_Tatneft_arm": "без 5 затворов FKM/PTFE и без ответных фланцев — маржа < 20 %, НЕ ИДЁМ",
+ "Sevteplo_KIP": "12 импортных позиций (Viessmann, Siemens, Dungs, Danfoss) — только по КП",
+ "Zvezda_sudovaya_arm": "арматура ОСТ5 с ОТК — только по запросу заводам",
+ "SC300_lift_parts": "кабели ZR-YCT, Q/SMT, разъём HK-004 — цен нет",
+ "OrVD_spec_winter": "9/10 позиций уже 75 % НМЦ — НЕ ИДЁМ",
+ "VOIN_ognevaya": "без ПНВ, тепловизора, 12 сейфов, 8 биатлонных установок уже 62 % — НЕ ИДЁМ",
+ "Chekhov_spec": "розница Техноавиа; при оптовой скидке ≥5 % — проходит",
+ "Med_0020": "5 дорогих позиций (тромбодинамика, STAGO и др.) только по КП",
+ "TSK_Mosenergo_chug_arm": "НЕ ИДЁМ (сумма мала, маржа 11 %)",
+ "Tavrida_1222": "21/22 уже 85 % НМЦ + фонари 50 шт — НЕ ИДЁМ"}
 for code, m in META.items():
     L = json.load(open(f"{D}/items/{code}.json"))
     ws = wb.create_sheet(code[:31]); ws.append(["№", "Позиция", "Ед.", "Кол-во", "НМЦ ед., ₽", "Рынок ед., ₽", "Маржа ед.", "Совпадение", "Источник", "Ссылка"])
@@ -37,14 +52,15 @@ for code, m in META.items():
     mg = (nm_c - mk) / nm_c if nm_c else None; mg10 = (nm_c * 0.9 - mk) / (nm_c * 0.9) if nm_c else None
     part = f"нет НМЦ ед.; рынок по {nf}/{len(L)} найденным = {mk/total:.0%} от общей НМЦ" if (mg is None and nf and total) else None
     verdict = (part or "нет данных") if mg is None else "ИДЁМ (≥20 %)" if mg10 >= 0.2 else "на грани (0–20 %)" if mg10 >= 0 else "НЕ ИДЁМ (убыток)"
-    res.append([m["title"], m.get("eis"), m.get("deadline"), total, len(L), nf, cov, nm_c, mk, mg, mg10, verdict])
+    res.append([m["title"], m.get("eis"), m.get("deadline"), total, len(L), nf, cov, nm_c, mk, mg, mg10, verdict, NOTE.get(code, "")])
 for r in sorted(res, key=lambda r: -(r[10] if r[10] is not None else -9)):
     sv.append(r); X = sv.max_row
     for j in (4, 8, 9): sv.cell(X, j).number_format = M
     for j in (7, 10, 11): sv.cell(X, j).number_format = "0%"
     sv.cell(X, 12).fill = PatternFill("solid", fgColor="C6EFCE" if r[11].startswith("ИДЁМ") else "FFF2CC" if r[11].startswith("на грани") else "F8CBAD" if r[11].startswith("НЕ") else "D9D9D9")
     for c in sv[X]: c.border = BOX; c.alignment = Alignment(wrap_text=True, vertical="top")
-sv.append([]); sv.append(["Ранее посчитано по извещениям ЕИС (позиции и цены): соль Усинск 69 т — 53 % при −10 %; соль МАУ ЖКХ 30 т — 55 %; труба кабельная (Москва) — 30–60 %; новогоднее оформление — 30–50 %."])
-for i, w in enumerate([46, 18, 14, 14, 9, 9, 10, 14, 14, 8, 9, 20], 1): sv.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+sv.append([]); sv.append(["Не считались: Донская дача 32616524586 и ВГСЧ термобельё — аукционы; СО ЕЭС телеком-шкафы — НМЦ 3 667 725 = мин. из 3 КП (3 406 680 без НДС) + дефлятор, маржа тонкая; ТСК 41 изолированные трубы — нет НМЦ; Салават спецодежда — пустой шаблон."])
+sv.append(["Ранее посчитано по извещениям ЕИС (позиции и цены): соль Усинск 69 т — 53 % при −10 %; соль МАУ ЖКХ 30 т — 55 %; труба кабельная (Москва) — 30–60 %; новогоднее оформление — 30–50 %."])
+for i, w in enumerate([46, 18, 14, 14, 9, 9, 10, 14, 14, 8, 9, 20, 50], 1): sv.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 tidy(wb, row_h=28); wb.save("../TZ_0211_MARGIN.xlsx")
 for r in res: print(f"{r[0][:50]:50} НМЦ {r[3]:>12,.0f} цен {r[5]}/{r[4]} покрытие {r[6]:.0%} маржа {r[9] if r[9] is None else round(r[9],3)} −10%: {r[10] if r[10] is None else round(r[10],3)} {r[11]}")

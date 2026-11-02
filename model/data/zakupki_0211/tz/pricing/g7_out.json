@@ -1,0 +1,32 @@
+{
+"TSK_Mosenergo_chug_arm": [
+{"n":1,"price":84776.58,"unit_note":"руб/шт с НДС, розница dn.ru, в наличии","match":"DN.ru 25ч945п Ду100 Ру16 Kvs100, СЧ20, PTFE, Tmax 150°С, электропривод DAV 2500 220В (VSR1-11P-LED-F), арт. D230-10322; альтернатива DN.ru VOD Kv=100 с LEA-4000 220В — 89 488,22","source":"dn.ru","url":"https://dn.ru/klapan/klapan-zaporno-reguliruiushchii/2hod/avtomaticheskii/dn-ru/25ch945p-dav-2500-220v/dn100-kvs-100"},
+{"n":2,"price":268341.44,"unit_note":"руб/шт с НДС, розница dn.ru","match":"DN.ru 25ч945п Ду150 Ру16 VOD Kv=160, GG25, PTFE, электропривод LEA-10000 220В (арт. D090-03116); альтернатива Энерготехномаш ЗРК 25ч945п Ду150 Kvy160 с Regada ST 0.1 — 264 936,42 (уплотнение EPDM, не фторопласт)","source":"dn.ru","url":"https://dn.ru/klapan/klapan-zaporno-reguliruiushchii/2hod/avtomaticheskii/dn-ru/25ch945p-vsr1-11p-led-f-lea-220v/dn150-kv-160"},
+{"n":3,"price":8256,"unit_note":"руб/шт с НДС","match":"Задвижка 30ч6бр Ду80 Ру16 (ДН.РУ)","source":"база ГИДРОПАС","url":""},
+{"n":4,"price":8224,"unit_note":"руб/шт с НДС (счёт ЛМЗ 6 741 без НДС); альтернатива ДН.РУ 11 440","match":"Задвижка 30ч6бр Ду100 Ру16 (ЛМЗ, Семёнов)","source":"база ГИДРОПАС","url":""}
+],
+"Tavrida_1222": [
+{"n":1,"price":115000,"unit_note":"руб/шт, розница (нет в наличии); nalabaze.ru 120 000 (нет в наличии)","match":"PARD TA32-19 (в карточке — цифровой прицел ночного видения PARD TA 32-19)","source":"tempgun.ru (ТЕМП)","url":"https://tempgun.ru/catalog/optika/pribory_i_pritsely_nochnogo_videniya/pritsely_nochnogo_videniya/tsifrovoy_pritsel_nochnogo_videniya_pard_ta_32_19/"},
+{"n":2,"price":null,"unit_note":"","match":"TrustFire MC5 — рублёвых цен у РФ-продавцов не найдено (только за рубежом: ~66 USD на trustfire.com)","source":"","url":""},
+{"n":3,"price":20490,"unit_note":"руб/шт, розница (из выдачи поиска, страница Ситилинка блокирует запросы); МТС 22 490","match":"Samsung Galaxy A26 5G 6/128 ГБ SM-A266B","source":"citilink.ru","url":"https://www.citilink.ru/product/smartfon-samsung-galaxy-a26-5g-sm-a266b-128gb-6gb-chernyi-3g-4g-6-7-10-2089292/"},
+{"n":4,"price":1020,"unit_note":"руб/шт с НДС","match":"Подшлемник летний термостойкий (тип Т); длина/цвет не подтверждены","source":"optimus-siz.ru","url":"https://optimus-siz.ru/podshlemnik-letniy-termostoykiy"},
+{"n":5,"price":7768,"unit_note":"руб/шт, розница (опт 7 260); magazin01 ШКПС белая с пелериной 9 245 с НДС","match":"Шлем-каска ШКПС бел/чёрн","source":"rusarsenal-spb.ru","url":"https://rusarsenal-spb.ru/product/shlem-kaska-pozharnogo-shkps-bel-cher/"},
+{"n":6,"price":11950,"unit_note":"руб/шт с НДС, розница (опт 10 843)","match":"Шлем пожарного ШПМ-С — цвет чёрный (красный в магазине не найден, цена обычно та же)","source":"magazin01.ru","url":"https://magazin01.ru/product/shlem-pozharnogo-shpm-s-chernyy/"},
+{"n":7,"price":12695,"unit_note":"руб/комплект, из выдачи поиска (страница сейчас 404); unfire01 12 320, gk-mik 10 432,5","match":"БОП-1 ТТОС тип У вид Т вид Б — чёрный цвет и ОСП не подтверждены","source":"rinova.ru","url":"https://rinova.ru/product/boevaya-odezhda-pozharnogo-bop-1/"},
+{"n":8,"price":2948,"unit_note":"руб/шт с НДС, розница (опт 2 621)","match":"Топор пожарного носимый ТПП-СТ (диэлектрическая ручка)","source":"magazin01.ru","url":"https://magazin01.ru/product/topor-pozharnogo-nosimyy-tpp-st-s-dielektricheskoy-ruchkoy/"},
+{"n":9,"price":6660,"unit_note":"руб/шт, розница","match":"ФОС-СА (светодиодный, матрица из 37 светодиодов)","source":"di01.ru (Дом-инвест)","url":"https://di01.ru/product/fos-sa-svyetodiodnyy-matritsa-iz-37-svyetodiodov/"},
+{"n":10,"price":1584,"unit_note":"руб/шт с НДС, розница (опт 1 402)","match":"Карабин пожарного (размеры не сверены)","source":"magazin01.ru","url":"https://magazin01.ru/product/karabin-pozharnyy/"},
+{"n":11,"price":2250,"unit_note":"руб/пара с НДС; товар СНЯТ С ПРОДАЖИ — ориентир","match":"Перчатки пятипалые с крагой, ткань ТТОС","source":"magazin01.ru","url":"https://magazin01.ru/product/perchatki-pyatipalye-s-kragoj-szrp-tkan-ttos/"},
+{"n":12,"price":3401,"unit_note":"руб/шт с НДС, розница (опт 3 134)","match":"УФМС ШАНС-Е, не менее 30 мин","source":"magazin01.ru","url":"https://magazin01.ru/product/universalnyy-filtruyuschiy-malogabaritnyy-samospasatel-shans-e-30-min--1/"},
+{"n":13,"price":3950,"unit_note":"руб/пара, из выдачи поиска (сайт за Cloudflare)","match":"Сапоги Фарадей Supernova (мод. 421)","source":"pirant-vostok.ru","url":"https://pirant-vostok.ru/shop/boevaya-odezhda-pozharnyih/sapogi-faradey-supernova/"},
+{"n":14,"price":4223,"unit_note":"руб/шт с НДС, розница (опт 3 821)","match":"Пояс пожарный спасательный ППС-А (наличие люверсов не подтверждено)","source":"magazin01.ru","url":"https://magazin01.ru/product/poyas-pozharnyy-spasatelnyy-pps-a-dvuhshtyrevoy-1/"},
+{"n":15,"price":30,"unit_note":"руб/шт = 3 000 руб за уп. 100 шт (красные); жёлтые 3 500/100","match":"Патроны монтажные HILTI 5,6/16","source":"lilmarkt.ru (из выдачи поиска)","url":"https://lilmarkt.ru/products/18139919"},
+{"n":16,"price":39435,"unit_note":"руб/шт, под заказ; radio-center.ru 39 999","match":"Hytera HP505 U(1) UHF 400-470","source":"gs-p.ru","url":"https://gs-p.ru/sredstva-svyazi/ratsii/ratsiya-hytera-hp505-u1/"},
+{"n":17,"price":8000,"unit_note":"руб/шт; radio-center.ru EAN21 — 7 653","match":"Гарнитура Hytera EAN21-P","source":"avtoshtorm.ru","url":"https://avtoshtorm.ru/shop/product/garnitura-hytera-ean21-p"},
+{"n":18,"price":4900,"unit_note":"руб/шт; radiosale.ru 6 405","match":"Аккумулятор Hytera BL1508 Li-ion 1500 мАч","source":"radio-center.ru","url":"https://www.radio-center.ru/hytera_bl1508"},
+{"n":19,"price":19800,"unit_note":"руб/шт, цена производителя (от)","match":"RIXET RX-27, 2 съёмные АКБ, GPS/Wi-Fi, SOS","source":"rixet.ru","url":"https://rixet.ru/shop/personalnye-registratory/personalnyj-videoregistrator-rixet-rx-27-syomnaya-akb/"},
+{"n":20,"price":5890,"unit_note":"руб/шт, наличие по запросу","match":"SPHINX ДУ-101 досмотровое зеркало","source":"us-plast.ru","url":"https://us-plast.ru/brands/sphinx/"},
+{"n":21,"price":11490,"unit_note":"руб/шт с НДС 22%","match":"Ручной металлодетектор СФИНКС ВМ-611 ВИХРЬ","source":"us-plast.ru","url":"https://us-plast.ru/brands/sphinx/"},
+{"n":22,"price":560000,"unit_note":"руб/шт, из выдачи поиска (detector-rus.ru: от 560 000)","match":"Металлодетектор разборный RADARPLUS Model R05","source":"alti-group.ru","url":"https://alti-group.ru/catalog/arochnye-metallodetektory/3865/"}
+]
+}
