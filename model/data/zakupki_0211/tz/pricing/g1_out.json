@@ -1,0 +1,396 @@
+{
+ "5044_GTE_MO_electro": [
+  {
+   "n": 103,
+   "price": 1649.3,
+   "unit_note": "за шт",
+   "match": "эквивалент: IEK ДСП 1312 48Вт 4000К 3840лм IP65 (LDSP0-1312-48-4000-K01), длина 1500мм вместо 1250, поток 3840 лм вместо 4000",
+   "source": "ЭТМ (выдача поиска), розн. 1736",
+   "url": "https://www.minimaks.ru/product/svetilnik-svetodiodnyy-dsp-1312-48vt-4000k-3840lm-ip65-1500mm-belyy-plastik-ldsp0-1312-48-4000-k01-i/"
+  },
+  {
+   "n": 105,
+   "price": 8549,
+   "unit_note": "за шт",
+   "match": "точно: Navigator DSP-AC-224-4K-IP65-LED-A1 (арт. 61493)",
+   "source": "xcom-shop.ru (Regard 9310)",
+   "url": "https://xcom-shop.ru/navigator_dsp-ac-224-4k-ip65-led-a1_966170.html"
+  },
+  {
+   "n": 106,
+   "price": 4562,
+   "unit_note": "за шт",
+   "match": "точно: Navigator NSF-PW6-120-5K-LED (арт. 14330)",
+   "source": "xcom-shop.ru (выдача поиска)",
+   "url": "https://xcom-shop.ru/navigator_nsf-pw6-120-5k-led_966137.html"
+  },
+  {
+   "n": 102,
+   "price": 1268.2,
+   "unit_note": "за шт (кратность упаковки 4)",
+   "match": "эквивалент: IEK ДВО 6575 40Вт 4000К 3000лм 595х595 (LDVO0-6575-40-4000-K01); Кп и t° -40 не подтверждены",
+   "source": "Минимакс (ЭТМ 1819.92)",
+   "url": "https://www.minimaks.ru/product/panel-led-dvo-6575-595kh595kh25mm-40vt-4000k-opal-iek/"
+  },
+  {
+   "n": 154,
+   "price": 1446.79,
+   "unit_note": "за м",
+   "match": "эквивалент: ПуГВнг(А)-LS 1х150 черный (АЛЮР); белый цвет — уточнить",
+   "source": "ЭТМ (выдача поиска)",
+   "url": "https://www.etm.ru/cat/nn/6456670/"
+  },
+  {
+   "n": 155,
+   "price": 713.0,
+   "unit_note": "за шт",
+   "match": "эквивалент: ковер диэлектрический МЕРИОН 1000х1000 ГОСТ 4997-75 (КОВ400); толщину 6мм уточнить. ЭТМ 1000х1000 — 1258",
+   "source": "Минимакс (выдача поиска)",
+   "url": "https://www.minimaks.ru/catalog/dielektricheskie-kovriki/"
+  },
+  {
+   "n": 40,
+   "price": 39390,
+   "unit_note": "за шт",
+   "match": "эквивалент: EKF КТЭ 400А 380В (ctr-b-400-380); КТ-6043 380В КЭАЗ на ЭТМ 'не поставляется'; EKF КТ-6043 400А 220В — 35899 на ЭТМ",
+   "source": "xcom-shop.ru (страница, в наличии)",
+   "url": "https://xcom-shop.ru/ekf_ctr-b-400-380_1131730.html"
+  },
+  {
+   "n": 39,
+   "price": 18845.51,
+   "unit_note": "за шт",
+   "match": "точно: КТ 6033 250А ~220В (ЭнергоТехКомплект); EKF КТ-6033 250А 220В — РРЦ 18303",
+   "source": "ЭТМ (выдача поиска), розн. 19837",
+   "url": "https://www.etm.ru/cat/nn/3260279"
+  },
+  {
+   "n": 4,
+   "price": 70690,
+   "unit_note": "за шт",
+   "match": "точно: EKF АВР ТСМ 225/250А 3р PROxima (ats-tsm-225-250A-3p-pro)",
+   "source": "xcom-shop.ru (выдача поиска)",
+   "url": "https://www.xcom-shop.ru/ekf_ats-tsm-225-250a-3p-pro_1143376.html"
+  },
+  {
+   "n": 90,
+   "price": 27650,
+   "unit_note": "за шт (нижняя граница 27650–30636)",
+   "match": "точно: ПМ12-160240 У3 В 220В с реле (КЗЭА); КЭАЗ ПМ12-160200 с РТТ-326 IP00 — 16023.10",
+   "source": "ЭТМ (выдача поиска)",
+   "url": "https://www.etm.ru/cat/nn/9875844/"
+  },
+  {
+   "n": 135,
+   "price": 1439,
+   "unit_note": "за м",
+   "match": "эквивалент: ВВГнг(А)-LS 4х35-0,66 Конкорд (LS вместо нг(А)); осн. карточка 1736",
+   "source": "Кабель.РФ Москва (выдача поиска)",
+   "url": "https://cable.ru/cable/kabel-4-zhily_35-mm_vvgng-a--ls-.php"
+  },
+  {
+   "n": 115,
+   "price": 26471,
+   "unit_note": "за шт",
+   "match": "эквивалент: ONI SFB-33-15-E-00 15кВт 30А 380В; напряжение управления исполнения E уточнить (в ТЗ 110-220В)",
+   "source": "xcom-shop.ru (выдача поиска)",
+   "url": "https://www.xcom-shop.ru/catalog/elektrika_i_sistemy_elektropitaniya/nizkovoltnoe_oborydovanie/ystroystva_plavnogo_pyska/"
+  },
+  {
+   "n": 85,
+   "price": 1590,
+   "unit_note": "за шт",
+   "match": "эквивалент: прожектор LED 60Вт IP65 (минимальная цена категории 60Вт на ВсеИнструменты, модель не конкретизирована); СДО 30-08-C-01 60Вт не найден",
+   "source": "ВсеИнструменты (выдача поиска)",
+   "url": "https://www.vseinstrumenti.ru/electrika-i-svet/svetilniki/prozhektory/svetodiodnye/60w/"
+  },
+  {
+   "n": 13,
+   "price": 790,
+   "unit_note": "за упаковку 10 роликов (79 руб/ролик ×10)",
+   "match": "эквивалент: IEK UIZ-20-10-K07 ПВХ 19мм×20м синяя; EKF SafeFlex 10шт — 1130/уп",
+   "source": "ВсеИнструменты (выдача поиска)",
+   "url": "https://www.vseinstrumenti.ru/tag-page/izolenta-dlinoj-20-mm-154105/"
+  },
+  {
+   "n": 20,
+   "price": 212,
+   "unit_note": "за м",
+   "match": "точно: КГ 4х4",
+   "source": "Кабель.РФ Москва (выдача поиска)",
+   "url": "https://cable.ru/cable/marka-kg_4x4_0_66.php"
+  },
+  {
+   "n": 59,
+   "price": 96.26,
+   "unit_note": "за шт",
+   "match": "эквивалент: OSRAM/LEDVANCE LED Value 12Вт E27 4000К 960лм (поток ниже 1100лм)",
+   "source": "ЭТМ (выдача поиска); Минимакс 88.75",
+   "url": "https://www.etm.ru/cat/nn/3637804"
+  },
+  {
+   "n": 92,
+   "price": 11224.67,
+   "unit_note": "за шт",
+   "match": "точно: КЭАЗ ВР32-39А70220 630А (арт. 103402)",
+   "source": "ЭТМ (выдача поиска), розн. 11815",
+   "url": "https://www.etm.ru/cat/nn/559035"
+  },
+  {
+   "n": 27,
+   "price": 1012,
+   "unit_note": "за м",
+   "match": "эквивалент: ВВГнг(А)-LS 4х25-0,66",
+   "source": "Кабель.РФ Москва (выдача поиска)",
+   "url": "https://cable.ru/cable/marka-vvgng_ls_4x25oj_0_66.php"
+  },
+  {
+   "n": 12,
+   "price": 790,
+   "unit_note": "за упаковку 10 роликов (79 руб/ролик ×10, цена синей того же артикула серии)",
+   "match": "эквивалент: IEK изолента ПВХ 19мм×20м красная (серия UIZ-20-10); цена взята по синей",
+   "source": "ВсеИнструменты (выдача поиска)",
+   "url": "https://www.vseinstrumenti.ru/tag-page/izolenta-dlinoj-20-mm-154105/"
+  },
+  {
+   "n": 5,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено",
+   "source": "Блок АВР 8-24кВт ПРОФ (63А) найден только на satu.kz (337056 тенге); рублевых цен нет. Аналоги Dekraft АВР-301/302 63А 4P — цены в выдаче не показаны",
+   "url": "https://satu.kz/Blok-avr.html"
+  },
+  {
+   "n": 29,
+   "price": 244,
+   "unit_note": "за м",
+   "match": "эквивалент: ВВГнг(А)-LS 4х6-0,66",
+   "source": "Кабель.РФ Москва (выдача поиска)",
+   "url": "https://cable.ru/cable/marka-vvgng_ls_4x6_0_66.php"
+  },
+  {
+   "n": 11,
+   "price": 790,
+   "unit_note": "за упаковку 10 роликов (79 руб/ролик ×10, цена синей того же артикула серии)",
+   "match": "эквивалент: IEK изолента ПВХ 19мм×20м зеленая; цена взята по синей",
+   "source": "ВсеИнструменты (выдача поиска)",
+   "url": "https://www.vseinstrumenti.ru/tag-page/izolenta-dlinoj-20-mm-154105/"
+  },
+  {
+   "n": 44,
+   "price": 2849,
+   "unit_note": "за шт",
+   "match": "точно: IEK КМИ-46512 65А 230В 1НО+1НЗ (KKM41-065-230-11)",
+   "source": "ВсеИнструменты (выдача поиска, со скидкой)",
+   "url": "https://www.vseinstrumenti.ru/product/kontaktor-iek-kmi-46512-65a-220v-1no-1nc-kkm41-065-230-11-1172025/"
+  },
+  {
+   "n": 38,
+   "price": 7231.87,
+   "unit_note": "за шт",
+   "match": "точно: КТ 6023Б 160А ~220В У3 2з+2р (Электротехник)",
+   "source": "ЭТМ (выдача поиска), розн. 12228",
+   "url": "https://www.etm.ru/catalog?searchValue=%D0%9A%D1%82+6023"
+  },
+  {
+   "n": 84,
+   "price": 5129,
+   "unit_note": "за шт",
+   "match": "эквивалент: STAYER Led-max 2×50Вт на штативе (ФВД 03 не найден)",
+   "source": "ВсеИнструменты (выдача поиска)",
+   "url": "https://www.vseinstrumenti.ru/tag-page/prozhektory-na-shtative-trenoge-2610/"
+  },
+  {
+   "n": 101,
+   "price": 266.9,
+   "unit_note": "за шт",
+   "match": "эквивалент: ДРВ 250Вт Е40 Bellight 14098955",
+   "source": "ЭТМ (выдача поиска); Минимакс 282.66",
+   "url": "https://www.minimaks.ru/product/lampa-rtutnaya-volframovaya-drv-250vt-e40-4000k-5500lm-matovaya-230v-14098955-bellight/"
+  },
+  {
+   "n": 19,
+   "price": 695,
+   "unit_note": "за м",
+   "match": "точно: КГ 4х16",
+   "source": "Кабель.РФ Москва (выдача поиска)",
+   "url": "https://cable.ru/cable/marka-kg_4x16_0_66.php"
+  },
+  {
+   "n": 47,
+   "price": 10984.39,
+   "unit_note": "за шт",
+   "match": "эквивалент: ПМ12-100200 УХЛ4 220В 2з+2р 100А с реле РТТ-325 (ЭТК)",
+   "source": "ЭТМ (выдача поиска), розн. 11562",
+   "url": "https://www.etm.ru/cat/nn/7340545/"
+  },
+  {
+   "n": 89,
+   "price": 7875.47,
+   "unit_note": "за шт",
+   "match": "эквивалент: ПМ12-063271 У3 В 220В с РТТ-231 63А; ПМ12-063220 КЭАЗ на ЭТМ — с катушкой 380В",
+   "source": "ЭТМ (выдача поиска), розн. 8290",
+   "url": "https://www.etm.ru/cat/nn/5222644"
+  },
+  {
+   "n": 56,
+   "price": 356.8,
+   "unit_note": "за шт",
+   "match": "точно: Philips HPL-N 250Вт E40",
+   "source": "ЭТМ (выдача поиска), розн. 376; Минимакс 442.70",
+   "url": "https://www.etm.ru/catalog/30200403_sdfrtutnye_lampy_drl"
+  },
+  {
+   "n": 24,
+   "price": 416,
+   "unit_note": "за м",
+   "match": "эквивалент: ВВГнг(А)-LS 4х10-0,66",
+   "source": "Кабель.РФ Москва (выдача поиска)",
+   "url": "https://cable.ru/cable/marka-vvgng_ls_4x10_0_66.php"
+  },
+  {
+   "n": 25,
+   "price": 607,
+   "unit_note": "за м",
+   "match": "эквивалент: ВВГнг(А)-LS 4х16-0,66 (ВВГнг(А) 4х16 — 667)",
+   "source": "Кабель.РФ Москва (выдача поиска)",
+   "url": "https://cable.ru/cable/marka-vvgng_ls_4x16_0_66.php"
+  },
+  {
+   "n": 36,
+   "price": 2232.5,
+   "unit_note": "за шт",
+   "match": "эквивалент: IEK КМИе-46512 65А 400В 1НО+1НЗ (KKME41-065-400-11); КМИ KKM41-065-400-11 — от 3779 (ВсеИнструменты)",
+   "source": "ЭТМ (выдача поиска)",
+   "url": "https://www.etm.ru/cat/nn/1651468"
+  },
+  {
+   "n": 60,
+   "price": 151.32,
+   "unit_note": "за шт",
+   "match": "эквивалент: GENERICA LED T8 1200мм 20Вт 6500К G13",
+   "source": "ЭТМ (выдача поиска), розн. 159",
+   "url": "https://www.etm.ru/cat/nn/1258207"
+  },
+  {
+   "n": 42,
+   "price": 1067.38,
+   "unit_note": "за шт",
+   "match": "точно: IEK КМИ-22510 25А 230В 1НО (KKM21-025-230-10)",
+   "source": "ЭТМ (выдача поиска); Минимакс 1495.19",
+   "url": "https://www.etm.ru/cat/nn/9732834"
+  },
+  {
+   "n": 107,
+   "price": 292.69,
+   "unit_note": "за шт",
+   "match": "эквивалент: IEK LLE-HP-30-230-65-E27 30Вт 6500К (колба цилиндр HP, не груша)",
+   "source": "ЭТМ (выдача поиска), розн. 308",
+   "url": "https://www.etm.ru/cat/nn/6808031"
+  },
+  {
+   "n": 127,
+   "price": 21679,
+   "unit_note": "за шт",
+   "match": "точно: ПМЛ-5560ДМ-100А-380AC-Б-УХЛ4 (КЭАЗ, реверсивный); цена со страницы 2023г — актуализировать",
+   "source": "ЭТМ (выдача поиска)",
+   "url": "https://www.etm.ru/catalog?searchValue=%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D0%BE%D1%80+100%D0%90"
+  },
+  {
+   "n": 58,
+   "price": 396.85,
+   "unit_note": "за шт",
+   "match": "эквивалент: FERON LB-65 40Вт E27/E40 6500К",
+   "source": "ЭТМ (выдача поиска), розн. 507",
+   "url": "https://www.etm.ru/cat/nn/5548426"
+  },
+  {
+   "n": 93,
+   "price": 1600.74,
+   "unit_note": "за шт",
+   "match": "эквивалент: реле контроля фаз ЕЛ-11М-15 АС400В УХЛ4 (Меандр); ЕЛ-11Е ЧЭАЗ — 2940.68",
+   "source": "ЭТМ (выдача поиска); Минимакс 1529.55",
+   "url": "https://www.etm.ru/cat/nn/9773956"
+  },
+  {
+   "n": 146,
+   "price": 44000.35,
+   "unit_note": "за шт",
+   "match": "точно: КВТ-1,14-4/400 У3 220В (ЭнергоТехКомплект); цена от 01.2024 — актуализировать",
+   "source": "ЭТМ (выдача поиска), розн. 46315",
+   "url": "https://www.etm.ru/catalog/501530_kontaktory_vakuumnye"
+  },
+  {
+   "n": 82,
+   "price": 195,
+   "unit_note": "за м",
+   "match": "точно: ПВС 4х4",
+   "source": "Кабель.РФ Москва (выдача поиска)",
+   "url": "https://cable.ru/cable/marka-pvs_4x4.php"
+  },
+  {
+   "n": 14,
+   "price": 1630,
+   "unit_note": "за упаковку 10 роликов (163 руб/шт ×10)",
+   "match": "эквивалент: изолента ХБ ЭРА 20мм 150г 350мкм черная",
+   "source": "ВсеИнструменты (выдача поиска); ЭТМ розн. 236/шт",
+   "url": "https://www.vseinstrumenti.ru/krepezh/montazhnye_lenty/izolenta/hb/"
+  },
+  {
+   "n": 88,
+   "price": 2091.34,
+   "unit_note": "за шт",
+   "match": "эквивалент: ПМ12-040200 УХЛ4 220В с РТТ-121 34А (КЗЭА, открытое исполнение); ПМ12-040240 в оболочке найден только 380В — 3403.87",
+   "source": "ЭТМ (выдача поиска), розн. 2201",
+   "url": "https://www.etm.ru/cat/nn/9690744/"
+  },
+  {
+   "n": 10,
+   "price": 790,
+   "unit_note": "за упаковку 10 роликов (79 руб/ролик ×10, цена синей того же артикула серии)",
+   "match": "эквивалент: IEK изолента ПВХ 19мм×20м желто-зеленая; цена взята по синей",
+   "source": "ВсеИнструменты (выдача поиска)",
+   "url": "https://www.vseinstrumenti.ru/tag-page/izolenta-dlinoj-20-mm-154105/"
+  },
+  {
+   "n": 149,
+   "price": null,
+   "unit_note": "за шт",
+   "match": "не найдено",
+   "source": "ПрофКиП ИДО-06/1 в выдаче не найден (есть только ТДО-06 ЭСКО без цены); нужен запрос КП у ЭСКО/ПрофКиП",
+   "url": "https://eskomp.ru"
+  },
+  {
+   "n": 28,
+   "price": 186,
+   "unit_note": "за м",
+   "match": "эквивалент: ВВГнг(А)-LS 4х4-0,66",
+   "source": "Кабель.РФ Москва (выдача поиска); ЭТМ ~194–210",
+   "url": "https://cable.ru/cable/marka-vvgng_ls_4x4_0_66.php"
+  },
+  {
+   "n": 54,
+   "price": 47.23,
+   "unit_note": "за шт",
+   "match": "точно по спецификации (18Вт/640 G13 600мм, в наименовании ЛД-36): OSRAM L18/640",
+   "source": "ЭТМ (выдача поиска); Минимакс 62",
+   "url": "https://www.etm.ru/cat/nn/9734601"
+  },
+  {
+   "n": 73,
+   "price": 1993.25,
+   "unit_note": "за шт",
+   "match": "точно: КЭАЗ ПН2-600-400А-У3 (арт. 110894)",
+   "source": "ЭТМ (выдача поиска), розн. 2098",
+   "url": "https://www.etm.ru/catalog/502410_plavkie_predohraniteli"
+  },
+  {
+   "n": 95,
+   "price": 2059.96,
+   "unit_note": "за шт",
+   "match": "эквивалент: КЭАЗ РТЛ-2063-2 63-80А (уставка 65А в диапазоне); IEK РТИ-3361 55-70А — 2096.57",
+   "source": "ЭТМ (выдача поиска), розн. 2575",
+   "url": "https://www.etm.ru/cat/nn/3307967"
+  }
+ ]
+}
