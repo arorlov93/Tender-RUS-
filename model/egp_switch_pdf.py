@@ -29,7 +29,7 @@ h1{font-size:17px;margin:0 0 4px}h2{font-size:13px;margin:16px 0 6px;border-bott
 table{border-collapse:collapse;width:100%;margin:4px 0 8px}th,td{border:1px solid #bbb;padding:3px 5px;vertical-align:top}
 th{background:#305496;color:#fff;text-align:left}td.n{text-align:right;white-space:nowrap}.ok{background:#c6efce}.bad{background:#f8cbad}.warn{background:#fff2cc}
 .small{font-size:9px;color:#444}.box{border:1px solid #305496;padding:6px 8px;background:#f3f6fb;margin:6px 0}"""
-h = [f"<html><head><meta charset='utf-8'><style>{css}</style></head><body>"]
+h = [f"<!DOCTYPE html><html><head><meta charset='utf-8'><style>{css}</style></head><body>"]
 h.append("<h1>ПАО «ЕГП» — поставка сетевого оборудования Eltex, № 32616504211</h1>")
 h.append("<div class='small'>ООО «ГИДРОПАС» (УСН). Расчёт на 04.11.2026. Цены — открытые источники, с НДС (где указано). Источники и ссылки — в разделе 6.</div>")
 h.append("<h2>1. Условия закупки</h2><table>")

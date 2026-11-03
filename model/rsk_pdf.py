@@ -26,11 +26,11 @@ for g, name in G.items():
     tot_n += sn; tot_m += sm; tot_all += sa; cnt_p += len(pr)
     rows_g.append((name, len(it), len(pr), sa, sn, sm, (sn - sm) / sn if sn else None, ""))
 mg = (tot_n - tot_m) / tot_n if tot_n else 0
-css = """body{font-family:'DejaVu Sans',Arial,sans-serif;font-size:10px;color:#111;margin:18px}h1{font-size:16px;margin:0 0 4px}
-h2{font-size:12.5px;margin:14px 0 5px;border-bottom:2px solid #305496;padding-bottom:2px}table{border-collapse:collapse;width:100%;margin:3px 0 8px}
-th,td{border:1px solid #bbb;padding:2px 4px;vertical-align:top}th{background:#305496;color:#fff;text-align:left}td.n{text-align:right;white-space:nowrap}
+css = """body{font-family:'DejaVu Sans',Arial,sans-serif;font-size:8.4px;color:#111;margin:18px}h1{font-size:16px;margin:0 0 4px}
+h2{font-size:12.5px;margin:7px 0 3px;border-bottom:2px solid #305496;padding-bottom:2px}table{border-collapse:collapse;width:100%;margin:3px 0 8px}
+th,td{border:1px solid #bbb;padding:1px 3px;vertical-align:top}th{background:#305496;color:#fff;text-align:left}td.n{text-align:right;white-space:nowrap}
 .ok{background:#c6efce}.bad{background:#f8cbad}.warn{background:#fff2cc}.small{font-size:8.5px;color:#444}.box{border:1px solid #305496;padding:6px 8px;background:#f3f6fb;margin:6px 0}"""
-h = [f"<html><head><meta charset='utf-8'><style>{css}</style></head><body>",
+h = [f"<!DOCTYPE html><html><head><meta charset='utf-8'><style>{css}</style></head><body>",
      "<h1>ПАО «Россети Северный Кавказ» — рамочный договор поставки линейной арматуры, № 32616499234</h1>",
      "<div class='small'>ООО «ГИДРОПАС» (УСН). Расчёт 03–04.11.2026 по прайсу заказчика (Приложение 1 к ТЗ, 927 позиций, предельные цены за ед. с НДС) и открытым ценам дилеров/заводов. Все цены рынка — с НДС, если не помечено «?». Подтверждения КП нет.</div>",
      "<h2>1. Условия</h2><table>"]
@@ -39,7 +39,7 @@ for k, v in [("Способ", "Конкурс в электронной форм
              ("Сумма единичных расценок заказчика (по 1 шт. каждой поз.)", "7 789 683,53 ₽ с НДС / 6 384 986,50 ₽ без НДС — по ней сравнивают цены участников"),
              ("Поставка", "по заявкам (уведомление за 30 дней), мин. партия 50 тыс. ₽, 6 филиалов: Махачкала, Назрань, Нальчик, Черкесск, Владикавказ, Пятигорск — доставка поставщиком"),
              ("Оплата", "7 рабочих дней (МСП), аванса нет"), ("Требования к товару", "ГОСТ Р 51177-2017, УХЛ1, гарантия 5 лет, срок службы 40 лет, эквиваленты допускаются"),
-             ("ПП 1875", "«преимущество» по всем 927 позициям (заявка только с российским товаром −15 % при оценке)")] + [(LBL.get(k2, k2), v2) for k2, v2 in TERMS.items() if isinstance(v2, str)]:
+             ("ПП 1875", "«преимущество» по всем 927 позициям (заявка только с российским товаром −15 % при оценке)")] + [("Оценка", "цена 70 % (сумма ед. расценок без НДС, Smin/Si); аттестация Россети на пневм. гасители 15 %; на натяжную/поддерживающую/сцепную арматуру 15 % (100/0)"), ("Переторжка", "обязательная, многократная, шаг 0,5 %; ед. расценки выше поданных — нельзя; снижение ≥25 % — доп. обеспечение")]:
     h.append(f"<tr><th style='width:20%'>{e(k)}</th><td>{e(v)}</td></tr>")
 h.append("</table><h2>2. Итог по группам (по позициям, где найдена цена рынка; п.349 исключён как ошибка НМЦ)</h2>"
          "<table><tr><th>Группа</th><th>Позиций</th><th>С ценой</th><th>Σ НМЦ ед. по группе</th><th>Σ НМЦ ед. (найденные)</th><th>Σ рынок (найденные)</th><th>Маржа</th><th>Примечание</th></tr>")
@@ -54,8 +54,6 @@ for drop in (0, 0.10, 0.15, 0.20, 0.25):
     cls = "ok" if m >= 0.25 else "warn" if m > 0.1 else "bad"
     h.append(f"<tr class='{cls}'><td>−{int(drop*100)} %{' (порог аномально низкой цены — доп. обеспечение)' if drop>=0.25 else ''}</td><td class=n>{pct(m)}</td><td class=n>{f(rev)}</td><td class=n>{f(gross)}</td><td class=n>{f(pre*0.85)}</td></tr>")
 h.append("</table><div class='small'>Важно: объём не гарантирован — заказчик выбирает по заявкам; расчёт «при выборке всей НМЦ» — верхняя граница. Маржа взята средневзвешенной по найденным позициям; ассортимент реальных заявок может сместить её.</div>")
-crit = TERMS.get("criteria")
-h.append("<div class='box'><b>Критерии и ключевые условия:</b> " + e(crit) + "</div>")
 ab = sorted({n for d in OUT.values() for n in (d.get("above_nmc") or [])})
 h.append("<h2>4. Позиции, где рынок дороже цены заказчика</h2><p>" + (", ".join(f"№{n} {e(ALL[n]['name'])}" for n in ab if n in ALL) or "нет") + "</p>")
 h.append("<h2>5. Изготовители и дилеры для КП</h2><table><tr><th>Группа</th><th>Компания</th><th>Телефон</th><th>E-mail</th><th>Сайт</th><th>ИНН</th><th>2 источника</th></tr>")
@@ -63,9 +61,9 @@ seen = set()
 for g, d in OUT.items():
     for m in d.get("makers", []):
         k = (m.get("name") or "")[:40]
-        if k in seen: continue
+        if k in seen or len(seen) >= 7: continue
         seen.add(k)
-        h.append(f"<tr><td>{g}</td><td>{e(m.get('name'))}</td><td>{e(m.get('phone'))}</td><td>{e(m.get('email'))}</td><td>{e(m.get('site'))}</td><td>{e(m.get('inn'))}</td><td>{'да' if m.get('verified') else 'нет'}</td></tr>")
+        h.append(f"<tr><td>{g}</td><td>{e(m.get('name'))}</td><td>{e(str(m.get("phone") or "").split(";")[0])}</td><td>{e(str(m.get("email") or "").split(",")[0])}</td><td>{e(m.get('site'))}</td><td>{e(m.get('inn'))}</td><td>{'да' if m.get('verified') else 'нет'}</td></tr>")
 h.append("</table><h2>6. Риски</h2><ul>")
 for r in ["Аттестация ПАО «Россети» на пневматические гасители и на натяжную/поддерживающую/сцепную арматуру — 30 % оценки (100/0 баллов). Нужны заключения изготовителей (МЗВА и др.) и письма о полномочиях.",
           "Обеспечение исполнения: в Информационной карте «не предусмотрено», в проекте договора п.4.4 — 5 % НМЦ (≈2,5 млн) — вопрос до 09.11 12:00.",
@@ -75,14 +73,52 @@ for r in ["Аттестация ПАО «Россети» на пневмати�
           "Позиция №349 МК-2 кл.2: НМЦ 203 894 ₽ — вероятная ошибка ×10 (кл.1 — 20 390 ₽); МК/МКЗ — монтажный инструмент, не линейная арматура.",
           "Цены рынка — розница дилеров и прайсы без даты; часть позиций без цены (по запросу у заводов). До подачи нужны КП МЗВА/Форэнерго-Трейд, ТАИЗ, ТЭМЗ, ЮАИЗ, ЭССП."]:
     h.append(f"<li>{e(r)}</li>")
-h.append("</ul><h2>7. Все 927 позиций</h2><table><tr><th>№</th><th>Гр.</th><th>Позиция</th><th>НМЦ ед. с НДС</th><th>Рынок</th><th>НДС</th><th>Маржа</th><th>Товар / изготовитель / совпадение</th><th>Ссылка</th></tr>")
-IT = {x["n"]: x for d in OUT.values() for x in d["items"]}
-for n in sorted(ALL):
-    x = IT.get(n, {}); a = ALL[n]; p = x.get("price")
-    m = (a["nmc_unit"] - p) / a["nmc_unit"] if p and a["nmc_unit"] else None
-    cls = "" if m is None else "ok" if m >= 0.3 else "warn" if m >= 0 else "bad"
-    h.append(f"<tr class='{cls}'><td>{n}</td><td>{GRP.get(n,'—')}</td><td>{e(a['name'])}</td><td class=n>{f(a['nmc_unit'])}</td><td class=n>{f(p)}</td><td>{e(x.get('vat'))}</td><td class=n>{pct(m)}</td><td class=small>{e((x.get('product') or '') + ' / ' + (x.get('maker') or '') + ' / ' + (x.get('match') or ''))[:260]}</td><td class=small>{e(x.get('url'))[:90]}</td></tr>")
-h.append("</table></body></html>")
+h.append("</ul>")
+h.append("<h2>7. По группам: крупнейшие позиции (по НМЦ ед.)</h2>")
+for g, name in G.items():
+    d = OUT.get(g)
+    if not d: continue
+    top = sorted(d["items"], key=lambda z: -(ALL.get(z["n"], {}).get("nmc_unit") or 0))[:6]
+    h.append(f"<b>{g}. {e(name)}</b><table><tr><th>№</th><th>Позиция</th><th>НМЦ ед.</th><th>Рынок</th><th>Маржа</th><th>Товар / изготовитель</th></tr>")
+    for x in top:
+        a = ALL[x["n"]]["nmc_unit"]; p = x.get("price"); m = (a - p) / a if p else None
+        cls = "" if m is None else "ok" if m >= 0.3 else "warn" if m >= 0 else "bad"
+        h.append(f"<tr class='{cls}'><td>{x['n']}</td><td>{e(ALL[x['n']]['name'])[:70]}</td><td class=n>{f(a)}</td><td class=n>{f(p)}</td><td class=n>{pct(m)}</td><td>{e((x.get('maker') or x.get('product') or x.get('match') or ''))[:90]}</td></tr>")
+    h.append("</table>")
+h.append("</body></html>")
 open("/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/rsk.html", "w").write("".join(h))
 html_to_pdf("/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/rsk.html", "../ROSSETI_SK_32616499234.pdf")
 print("групп", len(OUT), "с ценой", cnt_p, "НМЦ найд", f(tot_n), "рынок", f(tot_m), "маржа", pct(mg))
+
+import openpyxl
+from openpyxl.styles import Font, PatternFill, Alignment
+from tidy import tidy
+wb = openpyxl.Workbook(); s0 = wb.active; s0.title = "Итог"
+s0.append(["Россети СК 32616499234 — линейная арматура: итог по группам (рынок с НДС против предельной цены ед. заказчика с НДС)"]); s0["A1"].font = Font(bold=True, size=12)
+s0.append(["Группа", "Позиций", "С ценой рынка", "Σ НМЦ ед. по группе", "Σ НМЦ ед. (найденные)", "Σ рынок (найденные)", "Маржа", "Примечание"])
+for c in s0[2]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496")
+for r in rows_g: s0.append(list(r))
+s0.append(["ИТОГО", sum(r[1] for r in rows_g), cnt_p, tot_all, tot_n, tot_m, mg, "п.349 исключён (ошибка НМЦ ×10)"])
+for row in s0.iter_rows(min_row=3):
+    for j in (3, 4, 5): row[j].number_format = "#,##0"
+    row[6].number_format = "0.0%"
+for i, w in enumerate([44, 9, 11, 16, 16, 16, 9, 40], 1): s0.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+for g, name in G.items():
+    if g not in OUT: continue
+    ws = wb.create_sheet(f"{g} {name}"[:31])
+    ws.append(["№", "Позиция (прайс заказчика)", "НМЦ ед. с НДС", "Рынок ед.", "НДС в цене рынка", "Маржа ед.", "Товар (продавец)", "Изготовитель", "Совпадение / примечание", "Ссылка"])
+    for c in ws[1]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True)
+    for x in sorted(OUT[g]["items"], key=lambda z: z["n"]):
+        p = x.get("price"); a = ALL.get(x["n"], {}).get("nmc_unit", x.get("nmc_unit"))
+        m = (a - p) / a if p and a else None
+        ws.append([x["n"], ALL.get(x["n"], {}).get("name", x.get("name")), a, p, str(x.get("vat")), m, x.get("product"), x.get("maker"), x.get("match"), x.get("url")])
+        X = ws.max_row; ws.cell(X, 3).number_format = "#,##0.00"; ws.cell(X, 4).number_format = "#,##0.00"; ws.cell(X, 6).number_format = "0%"
+        if m is not None: ws.cell(X, 6).fill = PatternFill("solid", fgColor="C6EFCE" if m >= 0.3 else "FFF2CC" if m >= 0 else "F8CBAD")
+        if x.get("url"): ws.cell(X, 10).hyperlink = x["url"]
+    for i, w in enumerate([6, 46, 13, 12, 9, 8, 40, 26, 40, 36], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+    ws.freeze_panes = "C2"; ws.auto_filter.ref = f"A1:J{ws.max_row}"
+mk = wb.create_sheet("Изготовители")
+mk.append(["Группа", "Компания", "Телефон", "E-mail", "Сайт", "ИНН", "2 источника"])
+for g, d in OUT.items():
+    for m in d.get("makers", []): mk.append([g, m.get("name"), m.get("phone"), m.get("email"), m.get("site"), m.get("inn"), "да" if m.get("verified") else "нет"])
+tidy(wb, row_h=24); wb.save("../ROSSETI_SK_32616499234_POZICII.xlsx")

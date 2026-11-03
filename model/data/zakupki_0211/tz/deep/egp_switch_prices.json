@@ -1,0 +1,12 @@
+{"status":"interim 2026-11-03","notes":"collecting; see final version",
+"offers_raw":[
+{"model":"MES5332A rev.C","seller":"NetworkTelecom","price":680000,"vat":"с НДС (указано на сайте)","stock":"под заказ","url":"https://networktelecom.ru/cat/product5557/"},
+{"model":"MES5332A rev.C","seller":"NAV-IT (shop.nav-it.ru)","price":910710,"vat":"не указано","stock":"под заказ, дата актуальности 02.11.2026","url":"https://shop.nav-it.ru/catalogue/kommutatory/mes5332a_rev_c_ethernet_kommutator_mes5332a_rev_c_1x10_100_1000base_t_oov_32x10gbase_r_sfp_1000base_/"},
+{"model":"MES5332A","seller":"Telesyn","price":719929,"vat":"не указано","stock":"нет в наличии/предзаказ","url":"https://www.telesyn.tv/collection/aggregation-switch-100G/product/mes5332a-eltex"},
+{"model":"MES2448B AC","seller":"NWHT","price":132950,"vat":"без НДС; юрлицам с НДС 5% 139598","stock":"в наличии, предоплата 30%","url":"https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2448b_ac.html"},
+{"model":"MES2424 AC","seller":"NWHT","price":52500,"vat":"без НДС; юрлицам НДС 5% 55125","stock":"в наличии","url":"https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2424_ac.html"},
+{"model":"MES2424P AC","seller":"NWHT","price":179900,"vat":"без НДС; юрлицам НДС 5% 188895","stock":"в наличии","url":"https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2424p_ac.html"},
+{"model":"MES2428P","seller":"NWHT","price":95250,"vat":"без НДС; юрлицам НДС 5% 100013","stock":"в наличии","url":"https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2428p.html"},
+{"model":"MES2428P AC","seller":"Treolink","price":137000,"vat":"не указано","stock":"предзаказ","url":"https://treolink.ru/network-equipment/switches/eltex-mes2428p-ac/"},
+{"model":"PM160-220/12","seller":"NWHT","price":25900,"vat":"без НДС","stock":"?","url":"https://nwht.ru/search/?q=PM160-220"}
+]}
