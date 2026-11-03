@@ -135,13 +135,13 @@ NOT = lambda r18, r2: re.search(r"Мониторинг|Маркетинг", str(
 wb2 = openpyxl.load_workbook("../LUCHSHIE_0211.xlsx")
 if "МАРЖА ≥15 %" in wb2.sheetnames: del wb2["МАРЖА ≥15 %"]
 s15 = wb2.create_sheet("МАРЖА ≥15 %", 0)
-s15.append(["Закупки 9 выгрузок (подача с 04.11) с маржой ≥ 15 % при −10 % (у аукционов — при ожидаемом снижении). Без мониторингов цен и маркетинговых исследований. «расчёт» — по ТЗ и ценам; «оценка» — по нашему опыту, нужен ТЗ/КП."]); s15["A1"].font = Font(bold=True, size=11)
+s15.append(["Закупки 9 выгрузок (подача с 06.11) с маржой ≥ 15 % при −10 % (у аукционов — при ожидаемом снижении). Без мониторингов цен и маркетинговых исследований. «расчёт» — по ТЗ и ценам; «оценка» — по нашему опыту, нужен ТЗ/КП."]); s15["A1"].font = Font(bold=True, size=11)
 s15.append(["Подача до", "№ закупки", "Тип", "Заказчик", "Предмет", "НМЦ, ₽", "Маржа", "Основа", "Срок поставки", "Что делать", "Ссылка / площадка"])
 for c in s15[2]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True, vertical="top")
 F15 = []
 for x in OUT:
     n = x["n"]; r = RAW[n]
-    if NOT(r[18], r[2]) or str(r[13])[:10] < "2026-11-04": continue
+    if NOT(r[18], r[2]) or str(r[13])[:10] < "2026-11-06": continue
     c = CALC.get(n)
     if c:
         if c[1] is None or c[1] < 0.15: continue
@@ -154,7 +154,7 @@ for x in OUT:
 for x in AO:
     r = AR[x["n"]]; c = CALC.get(x["n"])
     if c and c[3].startswith("НЕ"): continue
-    if x["verdict"].startswith("НЕТ") or lo(x["margin_est"]) < 15 or str(r["deadline"])[:10] < "2026-11-04": continue
+    if x["verdict"].startswith("НЕТ") or lo(x["margin_est"]) < 15 or str(r["deadline"])[:10] < "2026-11-06": continue
     F15.append([str(r["deadline"])[:16], x["n"], "АУКЦИОН", r["customer"], r["subject"], float(r["nmc"] or 0) or "не указана", f'{x.get("margin_est")} (снижение {x.get("expected_drop")})', "оценка", x.get("term"), x.get("next_step"), x.get("url") or r["etp"]])
 F15.sort(key=lambda z: z[0])
 for z in F15:
