@@ -8,6 +8,15 @@ G = {"A": "Гасители вибрации", "B": "Зажимы (вкл. мо�
 ALL = {x["n"]: x for x in json.load(open(f"{D}/rsk_items.json"))}
 OUT = {g: json.load(open(f"{D}/rsk_{g}_out.json")) for g in G if os.path.exists(f"{D}/rsk_{g}_out.json")}
 TERMS = OUT.get("D", {}).get("terms", {})
+# добор цен по позициям, не найденным в первом проходе (точно / аналог типоразмера / оценка)
+for fn in ("rsk_miss_B_out.json", "rsk_miss_ACD_out.json"):
+    if not os.path.exists(f"{D}/{fn}"): continue
+    raw = json.load(open(f"{D}/{fn}")); add = {x["n"]: x for x in (raw if isinstance(raw, list) else raw.get("items", []))}
+    for d in OUT.values():
+        for x in d["items"]:
+            a = add.get(x["n"])
+            if a and a.get("price") and not x.get("price"):
+                x.update({k: a.get(k) for k in ("price", "vat", "product", "maker", "url")}); x["match"] = ("ОЦЕНКА: " if a.get("estimate") else "добор: ") + str(a.get("match") or "")
 LBL = {"criteria": "Критерии оценки", "price_formula": "Как считается цена заявки", "unit_price_rule": "Единичные расценки на переторжке", "anomaly_low": "Аномально низкая цена", "retender": "Переторжка", "participant_requirements": "Требования к участнику", "participant": "Требования к участнику", "security": "Обеспечение исполнения", "contract_security": "Обеспечение исполнения", "monitoring": "Мониторинг цен по договору", "penalties": "Неустойки", "termination": "Расторжение", "warranty": "Гарантия", "term": "Срок договора", "delivery": "Поставка", "volume": "Объём", "payment": "Оплата", "docs": "Документы в заявку"}
 NMC_NET, NMC = 40983606.56, 50000000.0
 EXCL = {349}  # ошибка НМЦ ×10 (МК-2 кл.2 — 203 894 при кл.1 20 390)
