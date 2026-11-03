@@ -1,0 +1,1598 @@
+{
+ "group": "О_крупн",
+ "items": [
+  {
+   "n": 221,
+   "name": "Отвод 90 градусов 820х10 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 2.0,
+   "unit_price": 87000,
+   "vat": "?",
+   "mass_kg": 251,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 820х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 87000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 95776,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 251 кг"
+    },
+    {
+     "price": 88550,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х10 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 174000.0,
+   "sum_prev": 194616.0,
+   "unit_price_prev": 97308.0
+  },
+  {
+   "n": 229,
+   "name": "Отвод 45 градусов 530х10 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 4.0,
+   "unit_price": 22500,
+   "vat": "?",
+   "mass_kg": 51.0,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "proxy 90°",
+   "product": "Отвод 45° 530х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 22500,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт 09Г2С ГОСТ 30753"
+    },
+    {
+     "price": 41055,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 45° 530х10 09Г2С ГОСТ 30753 — точная позиция, цена = цене 90°"
+    },
+    {
+     "price": 26200,
+     "url": "https://tehrus.com/magazin/product/2085162707",
+     "vat": "?",
+     "note": "Техрус: 530*10 90° 09Г2С ГОСТ 30753 (короткий)"
+    },
+    {
+     "price": 36066,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion: 90° 530х10 09Г2С ГОСТ 30753 1Ду, 102 кг, «* цена с НДС»"
+    },
+    {
+     "price": 41860,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир П90 530х10 09Г2С ГОСТ 30753"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); для 45° масса = 90°/2 по примеч. к табл.2; АрмЭкспорт/Гремир 45° — «по запросу»; принята цена 90° (отвод 45° режется из 90°, у Procion/Магистраль цена 45° = 90°). Первичный коэффициент 0,884 не подтверждён",
+   "sum": 90000.0,
+   "sum_prev": 113752.56,
+   "unit_price_prev": 28438.14
+  },
+  {
+   "n": 250,
+   "name": "Отвод 90 градусов 530х10 ст. 09Г2С ГОСТ 17375-2001",
+   "qty": 1.0,
+   "unit_price": 54428,
+   "vat": "incl",
+   "mass_kg": 153,
+   "product": "Отвод П90 530х10 09Г2С ГОСТ 17375-2001 (R=1,5DN)",
+   "maker": "Procion (дилер)",
+   "match": "exact",
+   "sources": [
+    {
+     "price": 54428,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 90° 530х10 09Г2С ГОСТ 17375, 153 кг, с НДС"
+    },
+    {
+     "price": 64400,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/otvody-09g2s-gost-17375/otvody-09g2s-90-gradusov/",
+     "vat": "?",
+     "note": "Гремир П90 530х10 09Г2С ГОСТ 17375"
+    }
+   ],
+   "note": "первичный расчёт ошибочно брал цену ГОСТ 30753 (R=1DN, 102 кг); ГОСТ 17375 R=1,5DN тяжелее в 1,5 раза",
+   "sum": 54428.0,
+   "sum_prev": 32180.0,
+   "unit_price_prev": 32180.0
+  },
+  {
+   "n": 289,
+   "name": "Отвод 90 градусов 530х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 1.0,
+   "unit_price": 28000,
+   "vat": "?",
+   "mass_kg": 122,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 530х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 28000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 40117,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 122 кг"
+    },
+    {
+     "price": 46690,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 28000.0,
+   "sum_prev": 44495.0,
+   "unit_price_prev": 44495.0
+  },
+  {
+   "n": 290,
+   "name": "Отвод 90 градусов 720х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 8.0,
+   "unit_price": 65000,
+   "vat": "?",
+   "mass_kg": 230,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 65000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 65664,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-720/",
+     "vat": "?",
+     "note": "УЗТА 720х12 1D — но по ОСТ 34-10-752-97 (сварной секторный), не ГОСТ 30753; аналог"
+    },
+    {
+     "price": 88550,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "расчёт: Procion 720х10 09Г2С ГОСТ 30753 74 322 ₽/193 кг = 385 ₽/кг × 230 кг; сама позиция 720х12 у Procion «по запросу»"
+    },
+    {
+     "price": 81297,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 720х12 ГОСТ 30753 — сталь Ст.20, не 09Г2С (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); самая массовая позиция (74 шт по 6 строкам): 2-го прямого источника на 09Г2С ГОСТ 30753 нет — Procion и Гремир «по запросу»/Ст.20; нужен КП",
+   "sum": 520000.0,
+   "sum_prev": 560776.0,
+   "unit_price_prev": 70097.0
+  },
+  {
+   "n": 441,
+   "name": "Отвод 90 градусов 530х10 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 1.0,
+   "unit_price": 22500,
+   "vat": "?",
+   "mass_kg": 102,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 530х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 22500,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт 09Г2С ГОСТ 30753"
+    },
+    {
+     "price": 26200,
+     "url": "https://tehrus.com/magazin/product/2085162707",
+     "vat": "?",
+     "note": "Техрус: 530*10 90° 09Г2С ГОСТ 30753 (короткий)"
+    },
+    {
+     "price": 36066,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion: 90° 530х10 09Г2С ГОСТ 30753 1Ду, 102 кг, «* цена с НДС»"
+    },
+    {
+     "price": 41860,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир П90 530х10 09Г2С ГОСТ 30753"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 22500.0,
+   "sum_prev": 32180.0,
+   "unit_price_prev": 32180.0
+  },
+  {
+   "n": 442,
+   "name": "Отвод 90 градусов 630х10 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 2.0,
+   "unit_price": 36500,
+   "vat": "?",
+   "mass_kg": 146,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 630х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 36500,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-630h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 55401,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 146 кг; Гремир 09Г2С — по запросу"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 73000.0,
+   "sum_prev": 93884.0,
+   "unit_price_prev": 46942.0
+  },
+  {
+   "n": 443,
+   "name": "Отвод 90 градусов 720х10 ст.09Г2С ГОСТ 30753-01",
+   "qty": 1.0,
+   "unit_price": 61000,
+   "vat": "?",
+   "mass_kg": 193,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 61000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 74322,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 193 кг"
+    },
+    {
+     "price": 209120,
+     "url": "https://bz66.ru/products/otvod-90-720kh10-st-09g2s-gost-30753",
+     "vat": "?",
+     "note": "Первоуральская металлобаза — выброс, не учитывается"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 61000.0,
+   "sum_prev": 80174.5,
+   "unit_price_prev": 80174.5
+  },
+  {
+   "n": 444,
+   "name": "Отвод 90 градусов 820х10 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 1.0,
+   "unit_price": 87000,
+   "vat": "?",
+   "mass_kg": 251,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 820х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 87000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 95776,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 251 кг"
+    },
+    {
+     "price": 88550,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х10 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 87000.0,
+   "sum_prev": 97308.0,
+   "unit_price_prev": 97308.0
+  },
+  {
+   "n": 445,
+   "name": "Отвод 90 градусов 1020х10 ст. 09Г2С ОСТ 34.10.752-97 R1",
+   "qty": 4.0,
+   "unit_price": 98200,
+   "vat": "?",
+   "mass_kg": 413,
+   "product": "Отвод сварной секторный 90° 1020х10 R=1DN 09Г2С ОСТ 34.10.752-97",
+   "maker": "ООО «Магистраль» (Челябинск) / УЗТА",
+   "match": "exact",
+   "note": "масса 413 кг — по карточке Procion (ОСТ 34.10.752); ₽/кг: 238–269",
+   "sources": [
+    {
+     "price": 98200,
+     "url": "https://magistral74.ru/otvody/ost-3410752-97/otvody-1020.html",
+     "vat": "?",
+     "note": "Магистраль 1020х10 R1 09Г2С"
+    },
+    {
+     "price": 105582,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-1020/",
+     "vat": "?",
+     "note": "УЗТА 1020х10 1D"
+    },
+    {
+     "price": 111013,
+     "url": "https://www.procion.ru/catalog/otvody_ost_34_10_752_97_stal_09g2s_90_gradusov/",
+     "vat": "incl",
+     "note": "Procion 1020х10-1,6 1Ду 09Г2С, 413 кг, с НДС"
+    }
+   ],
+   "sum": 392800.0,
+   "sum_prev": 407564.0,
+   "unit_price_prev": 101891.0
+  },
+  {
+   "n": 501,
+   "name": "Отвод 90 градусов 630х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 3.0,
+   "unit_price": 39500,
+   "vat": "?",
+   "mass_kg": 174,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 630х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 39500,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-630h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 72450,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир"
+    },
+    {
+     "price": 80412,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 174 кг"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 118500.0,
+   "sum_prev": 171879.0,
+   "unit_price_prev": 57293.0
+  },
+  {
+   "n": 634,
+   "name": "Отвод 90 градусов 530х10 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 5.0,
+   "unit_price": 22500,
+   "vat": "?",
+   "mass_kg": 102,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 530х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 22500,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт 09Г2С ГОСТ 30753"
+    },
+    {
+     "price": 26200,
+     "url": "https://tehrus.com/magazin/product/2085162707",
+     "vat": "?",
+     "note": "Техрус: 530*10 90° 09Г2С ГОСТ 30753 (короткий)"
+    },
+    {
+     "price": 36066,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion: 90° 530х10 09Г2С ГОСТ 30753 1Ду, 102 кг, «* цена с НДС»"
+    },
+    {
+     "price": 41860,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир П90 530х10 09Г2С ГОСТ 30753"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 112500.0,
+   "sum_prev": 160900.0,
+   "unit_price_prev": 32180.0
+  },
+  {
+   "n": 635,
+   "name": "Отвод 90 градусов 530х10 ст.09Г2С\\17Г1С-У ОСТ 102-56-81",
+   "qty": 1.0,
+   "unit_price": 22500,
+   "vat": "?",
+   "mass_kg": 102,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "analog",
+   "product": "Отвод 90° 530х10 09Г2С (вместо ОСТ 102-56-81 → ГОСТ 30753 / ТУ 102-488-05)",
+   "sources": [
+    {
+     "price": 22500,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт 09Г2С ГОСТ 30753"
+    },
+    {
+     "price": 26200,
+     "url": "https://tehrus.com/magazin/product/2085162707",
+     "vat": "?",
+     "note": "Техрус: 530*10 90° 09Г2С ГОСТ 30753 (короткий)"
+    },
+    {
+     "price": 36066,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion: 90° 530х10 09Г2С ГОСТ 30753 1Ду, 102 кг, «* цена с НДС»"
+    },
+    {
+     "price": 41860,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир П90 530х10 09Г2С ГОСТ 30753"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); ОСТ 102-56-81 (штампосварные отводы для магистральных трубопроводов) устарел; поставка по ГОСТ 30753 или ТУ 102-488-05 — согласовать как «стандарт, принятый в развитие» (п.3 ТТ)",
+   "sum": 22500.0,
+   "sum_prev": 32180.0,
+   "unit_price_prev": 32180.0
+  },
+  {
+   "n": 662,
+   "name": "Отвод 90 градусов 530х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 4.0,
+   "unit_price": 28000,
+   "vat": "?",
+   "mass_kg": 122,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 530х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 28000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 40117,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 122 кг"
+    },
+    {
+     "price": 46690,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 112000.0,
+   "sum_prev": 177980.0,
+   "unit_price_prev": 44495.0
+  },
+  {
+   "n": 663,
+   "name": "Отвод 90 градусов 720х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 2.0,
+   "unit_price": 65000,
+   "vat": "?",
+   "mass_kg": 230,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 65000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 65664,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-720/",
+     "vat": "?",
+     "note": "УЗТА 720х12 1D — но по ОСТ 34-10-752-97 (сварной секторный), не ГОСТ 30753; аналог"
+    },
+    {
+     "price": 88550,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "расчёт: Procion 720х10 09Г2С ГОСТ 30753 74 322 ₽/193 кг = 385 ₽/кг × 230 кг; сама позиция 720х12 у Procion «по запросу»"
+    },
+    {
+     "price": 81297,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 720х12 ГОСТ 30753 — сталь Ст.20, не 09Г2С (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); самая массовая позиция (74 шт по 6 строкам): 2-го прямого источника на 09Г2С ГОСТ 30753 нет — Procion и Гремир «по запросу»/Ст.20; нужен КП",
+   "sum": 130000.0,
+   "sum_prev": 140194.0,
+   "unit_price_prev": 70097.0
+  },
+  {
+   "n": 664,
+   "name": "Отвод 90 градусов 1020х14 ст. 09Г2С ОСТ 34.10.752-97, радиус гиба R=1",
+   "qty": 4.0,
+   "unit_price": 142574,
+   "vat": "?",
+   "mass_kg": 579,
+   "product": "Отвод сварной секторный 90° 1020х14 R=1DN 09Г2С ОСТ 34.10.752-97",
+   "maker": "УЗТА (Челябинск)",
+   "match": "exact",
+   "note": "масса 579 кг по карточке Procion; ₽/кг 246–272",
+   "sources": [
+    {
+     "price": 142574,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-1020/",
+     "vat": "?",
+     "note": "УЗТА 1020х14 1D"
+    },
+    {
+     "price": 155634,
+     "url": "https://www.procion.ru/catalog/otvody_ost_34_10_752_97_stal_09g2s_90_gradusov/otvod_svarnoy_sektsionnyy_90_gradusov_1020kh14_2_5_160_stal_09g2s_ost_34_10_752_97_1du/",
+     "vat": "incl",
+     "note": "Procion 1020х14-2,5 1Ду 09Г2С 579 кг, «цена с НДС»"
+    },
+    {
+     "price": 157500,
+     "url": "https://magistral74.ru/otvody/ost-3410752-97/otvody-1020.html",
+     "vat": "?",
+     "note": "Магистраль 1020х14 R1 09Г2С"
+    }
+   ],
+   "sum": 570296.0,
+   "sum_prev": 600148.0,
+   "unit_price_prev": 150037.0
+  },
+  {
+   "n": 722,
+   "name": "Отвод 90 градусов 820х10 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 2.0,
+   "unit_price": 87000,
+   "vat": "?",
+   "mass_kg": 251,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 820х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 87000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 95776,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 251 кг"
+    },
+    {
+     "price": 88550,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х10 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 174000.0,
+   "sum_prev": 194616.0,
+   "unit_price_prev": 97308.0
+  },
+  {
+   "n": 723,
+   "name": "Отвод 90 градусов 720х10 ст.09Г2С ГОСТ 30753-01",
+   "qty": 12.0,
+   "unit_price": 61000,
+   "vat": "?",
+   "mass_kg": 193,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 61000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 74322,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 193 кг"
+    },
+    {
+     "price": 209120,
+     "url": "https://bz66.ru/products/otvod-90-720kh10-st-09g2s-gost-30753",
+     "vat": "?",
+     "note": "Первоуральская металлобаза — выброс, не учитывается"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 732000.0,
+   "sum_prev": 962094.0,
+   "unit_price_prev": 80174.5
+  },
+  {
+   "n": 724,
+   "name": "Отвод 90 градусов 1020х14 ст. 09Г2С ОСТ 34.10.752-97, радиус гиба R=1,5",
+   "qty": 24.0,
+   "unit_price": 220932,
+   "vat": "?",
+   "mass_kg": 868,
+   "product": "Отвод сварной секторный 90° 1020х14 R=1,5DN 09Г2С ОСТ 34.10.752-97",
+   "maker": "УЗТА (Челябинск)",
+   "match": "exact",
+   "note": "масса ≈868 кг = 579×1,5 (расчёт; УЗТА указывает «до 862,5 кг»); ₽/кг ≈255. Ключевая позиция группы (40 шт) — нужен КП минимум от 3 заводов; если Магистраль подтвердит 157 500 — экономия ≈2,5 млн",
+   "sources": [
+    {
+     "price": 220932,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-1020/",
+     "vat": "?",
+     "note": "УЗТА 1020х14 1,5D (ОСТ 34-10-752-97)"
+    },
+    {
+     "price": 233451,
+     "url": "https://www.procion.ru/catalog/otvody_ost_34_10_752_97_stal_09g2s_90_gradusov/otvod_svarnoy_sektsionnyy_90_gradusov_1020kh14_2_5_160_stal_09g2s_ost_34_10_752_97_1du/",
+     "vat": "incl",
+     "note": "расчёт: Procion 1020х14 1Ду 155 634 ₽ с НДС × 1,5 (длина дуги/масса R1,5 = 1,5×R1); 1,5Ду у Procion нет"
+    },
+    {
+     "price": 206842,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-36-21-77/du-1020/",
+     "vat": "?",
+     "note": "УЗТА 1020х14 1,5D по ОСТ 36-21-77 — другой стандарт, справочно"
+    },
+    {
+     "price": 157500,
+     "url": "https://magistral74.ru/otvody/ost-3410752-97/otvody-1020.html",
+     "vat": "?",
+     "note": "Магистраль «R1.5» — та же цена, что R1 и 30°/45°/60°: заглушка, не принята"
+    }
+   ],
+   "sum": 5302368.0,
+   "sum_prev": 4541184.0,
+   "unit_price_prev": 189216.0
+  },
+  {
+   "n": 725,
+   "name": "Отвод 90 градусов 1020х14 ст. 09Г2С ОСТ 34.10.752-97, радиус гиба R=1,5",
+   "qty": 16.0,
+   "unit_price": 220932,
+   "vat": "?",
+   "mass_kg": 868,
+   "product": "Отвод сварной секторный 90° 1020х14 R=1,5DN 09Г2С ОСТ 34.10.752-97",
+   "maker": "УЗТА (Челябинск)",
+   "match": "exact",
+   "note": "масса ≈868 кг = 579×1,5 (расчёт; УЗТА указывает «до 862,5 кг»); ₽/кг ≈255. Ключевая позиция группы (40 шт) — нужен КП минимум от 3 заводов; если Магистраль подтвердит 157 500 — экономия ≈2,5 млн",
+   "sources": [
+    {
+     "price": 220932,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-1020/",
+     "vat": "?",
+     "note": "УЗТА 1020х14 1,5D (ОСТ 34-10-752-97)"
+    },
+    {
+     "price": 233451,
+     "url": "https://www.procion.ru/catalog/otvody_ost_34_10_752_97_stal_09g2s_90_gradusov/otvod_svarnoy_sektsionnyy_90_gradusov_1020kh14_2_5_160_stal_09g2s_ost_34_10_752_97_1du/",
+     "vat": "incl",
+     "note": "расчёт: Procion 1020х14 1Ду 155 634 ₽ с НДС × 1,5 (длина дуги/масса R1,5 = 1,5×R1); 1,5Ду у Procion нет"
+    },
+    {
+     "price": 206842,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-36-21-77/du-1020/",
+     "vat": "?",
+     "note": "УЗТА 1020х14 1,5D по ОСТ 36-21-77 — другой стандарт, справочно"
+    },
+    {
+     "price": 157500,
+     "url": "https://magistral74.ru/otvody/ost-3410752-97/otvody-1020.html",
+     "vat": "?",
+     "note": "Магистраль «R1.5» — та же цена, что R1 и 30°/45°/60°: заглушка, не принята"
+    }
+   ],
+   "sum": 3534912.0,
+   "sum_prev": 3027456.0,
+   "unit_price_prev": 189216.0
+  },
+  {
+   "n": 727,
+   "name": "Отвод 90 градусов 720х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 8.0,
+   "unit_price": 65000,
+   "vat": "?",
+   "mass_kg": 230,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 65000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 65664,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-720/",
+     "vat": "?",
+     "note": "УЗТА 720х12 1D — но по ОСТ 34-10-752-97 (сварной секторный), не ГОСТ 30753; аналог"
+    },
+    {
+     "price": 88550,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "расчёт: Procion 720х10 09Г2С ГОСТ 30753 74 322 ₽/193 кг = 385 ₽/кг × 230 кг; сама позиция 720х12 у Procion «по запросу»"
+    },
+    {
+     "price": 81297,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 720х12 ГОСТ 30753 — сталь Ст.20, не 09Г2С (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); самая массовая позиция (74 шт по 6 строкам): 2-го прямого источника на 09Г2С ГОСТ 30753 нет — Procion и Гремир «по запросу»/Ст.20; нужен КП",
+   "sum": 520000.0,
+   "sum_prev": 560776.0,
+   "unit_price_prev": 70097.0
+  },
+  {
+   "n": 728,
+   "name": "Отвод 90 градусов 820х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 8.0,
+   "unit_price": 99000,
+   "vat": "?",
+   "mass_kg": 301,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 820х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 99000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 301 кг"
+    },
+    {
+     "price": 114052,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х12 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 792000.0,
+   "sum_prev": 792000.0,
+   "unit_price_prev": 99000.0
+  },
+  {
+   "n": 732,
+   "name": "Отвод 60 градусов 720х10 ст.09Г2С ГОСТ 30753-01",
+   "qty": 2.0,
+   "unit_price": 61000,
+   "vat": "?",
+   "mass_kg": 128.7,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "proxy 90°",
+   "product": "Отвод 60° 720х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 61000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 74322,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 60° 720х10 09Г2С ГОСТ 30753 — точная позиция, цена = цене 90°"
+    },
+    {
+     "price": 74322,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 193 кг"
+    },
+    {
+     "price": 209120,
+     "url": "https://bz66.ru/products/otvod-90-720kh10-st-09g2s-gost-30753",
+     "vat": "?",
+     "note": "Первоуральская металлобаза — выброс, не учитывается"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); для 60° масса = 90°/1,5 по примеч. к табл.2; АрмЭкспорт/Гремир 60° — «по запросу»; принята цена 90° (отвод 60° режется из 90°, у Procion/Магистраль цена 60° = 90°). Первичный коэффициент 0,884 не подтверждён",
+   "sum": 122000.0,
+   "sum_prev": 160349.0,
+   "unit_price_prev": 80174.5
+  },
+  {
+   "n": 733,
+   "name": "Отвод 90 градусов 720х10 ст.09Г2С ГОСТ 30753-01",
+   "qty": 2.0,
+   "unit_price": 61000,
+   "vat": "?",
+   "mass_kg": 193,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 61000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 74322,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 193 кг"
+    },
+    {
+     "price": 209120,
+     "url": "https://bz66.ru/products/otvod-90-720kh10-st-09g2s-gost-30753",
+     "vat": "?",
+     "note": "Первоуральская металлобаза — выброс, не учитывается"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 122000.0,
+   "sum_prev": 160349.0,
+   "unit_price_prev": 80174.5
+  },
+  {
+   "n": 735,
+   "name": "Отвод 90 градусов 530х9 ГОСТ 30753-2001",
+   "qty": 16.0,
+   "unit_price": 22400,
+   "vat": "?",
+   "mass_kg": 92,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 530х9 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 22400,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h9-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт (ПКФ Элементы Трубопроводов, дилер, Челябинск), 09Г2С ГОСТ 30753"
+    },
+    {
+     "price": 32531,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "расчёт: Procion 530х10 09Г2С ГОСТ 30753 36 066 ₽ с НДС / 102 кг = 353,6 ₽/кг × 92 кг (масса ГОСТ 30753 табл.2); Гремир 530х9 09Г2С — по запросу"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); марка стали в ТТ не указана — принята 09Г2С (у АрмЭкспорт Ст.20 530х9 = 18 500 ₽); уточнить у заказчика/в табл.3",
+   "sum": 358400.0,
+   "sum_prev": 358400.0,
+   "unit_price_prev": 22400.0
+  },
+  {
+   "n": 738,
+   "name": "Отвод 90 градусов530х9 ГОСТ 30753-2001 ст. 17Г1С-У",
+   "qty": 4.0,
+   "unit_price": 22400,
+   "vat": "?",
+   "mass_kg": 92,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "analog (steel)",
+   "product": "Отвод 90° 530х9 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 22400,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h9-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт (ПКФ Элементы Трубопроводов, дилер, Челябинск), 09Г2С ГОСТ 30753"
+    },
+    {
+     "price": 32531,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "расчёт: Procion 530х10 09Г2С ГОСТ 30753 36 066 ₽ с НДС / 102 кг = 353,6 ₽/кг × 92 кг (масса ГОСТ 30753 табл.2); Гремир 530х9 09Г2С — по запросу"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); сталь 17Г1С-У в каталогах ГОСТ 30753 не найдена; цена — по 09Г2С. 17Г1С-У — трубная сталь магистральных трубопроводов: изготовление штампосваркой из листа/трубы 17Г1С-У под заказ, риск цены +10–20 % и срока",
+   "sum": 89600.0,
+   "sum_prev": 89600.0,
+   "unit_price_prev": 22400.0
+  },
+  {
+   "n": 739,
+   "name": "Отвод 90 градусов 630х10 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 16.0,
+   "unit_price": 36500,
+   "vat": "?",
+   "mass_kg": 146,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 630х10 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 36500,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-630h10-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 55401,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 146 кг; Гремир 09Г2С — по запросу"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 584000.0,
+   "sum_prev": 751072.0,
+   "unit_price_prev": 46942.0
+  },
+  {
+   "n": 740,
+   "name": "Отвод 90 градусов 820х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 2.0,
+   "unit_price": 99000,
+   "vat": "?",
+   "mass_kg": 301,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 820х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 99000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 301 кг"
+    },
+    {
+     "price": 114052,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х12 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 198000.0,
+   "sum_prev": 198000.0,
+   "unit_price_prev": 99000.0
+  },
+  {
+   "n": 741,
+   "name": "Отвод 45 градусов 820х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 2.0,
+   "unit_price": 99000,
+   "vat": "?",
+   "mass_kg": 150.5,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "proxy 90°",
+   "product": "Отвод 45° 820х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 99000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 45° 820х12 09Г2С ГОСТ 30753 — точная позиция, цена = цене 90°"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 301 кг"
+    },
+    {
+     "price": 114052,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х12 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); для 45° масса = 90°/2 по примеч. к табл.2; АрмЭкспорт/Гремир 45° — «по запросу»; принята цена 90° (отвод 45° режется из 90°, у Procion/Магистраль цена 45° = 90°). Первичный коэффициент 0,884 не подтверждён",
+   "sum": 198000.0,
+   "sum_prev": 174976.74,
+   "unit_price_prev": 87488.37
+  },
+  {
+   "n": 742,
+   "name": "Отвод 90 градусов 820х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 8.0,
+   "unit_price": 99000,
+   "vat": "?",
+   "mass_kg": 301,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 820х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 99000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 301 кг"
+    },
+    {
+     "price": 114052,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х12 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 792000.0,
+   "sum_prev": 792000.0,
+   "unit_price_prev": 99000.0
+  },
+  {
+   "n": 743,
+   "name": "Отвод 60 градусов 820х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 1.0,
+   "unit_price": 99000,
+   "vat": "?",
+   "mass_kg": 200.7,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "proxy 90°",
+   "product": "Отвод 60° 820х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 99000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 60° 820х12 09Г2С ГОСТ 30753 — точная позиция, цена = цене 90°"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 301 кг"
+    },
+    {
+     "price": 114052,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х12 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); для 60° масса = 90°/1,5 по примеч. к табл.2; АрмЭкспорт/Гремир 60° — «по запросу»; принята цена 90° (отвод 60° режется из 90°, у Procion/Магистраль цена 60° = 90°). Первичный коэффициент 0,884 не подтверждён",
+   "sum": 99000.0,
+   "sum_prev": 99000.0,
+   "unit_price_prev": 99000.0
+  },
+  {
+   "n": 747,
+   "name": "Отвод 90 градусов 720х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 8.0,
+   "unit_price": 65000,
+   "vat": "?",
+   "mass_kg": 230,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 65000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 65664,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-720/",
+     "vat": "?",
+     "note": "УЗТА 720х12 1D — но по ОСТ 34-10-752-97 (сварной секторный), не ГОСТ 30753; аналог"
+    },
+    {
+     "price": 88550,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "расчёт: Procion 720х10 09Г2С ГОСТ 30753 74 322 ₽/193 кг = 385 ₽/кг × 230 кг; сама позиция 720х12 у Procion «по запросу»"
+    },
+    {
+     "price": 81297,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 720х12 ГОСТ 30753 — сталь Ст.20, не 09Г2С (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); самая массовая позиция (74 шт по 6 строкам): 2-го прямого источника на 09Г2С ГОСТ 30753 нет — Procion и Гремир «по запросу»/Ст.20; нужен КП",
+   "sum": 520000.0,
+   "sum_prev": 560776.0,
+   "unit_price_prev": 70097.0
+  },
+  {
+   "n": 749,
+   "name": "Отвод 90 градусов 530х12 ст. 09Г2С ГОСТ 30753-2001",
+   "qty": 8.0,
+   "unit_price": 28000,
+   "vat": "?",
+   "mass_kg": 122,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 530х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 28000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-530h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 40117,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 122 кг"
+    },
+    {
+     "price": 46690,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 224000.0,
+   "sum_prev": 355960.0,
+   "unit_price_prev": 44495.0
+  },
+  {
+   "n": 753,
+   "name": "Отвод 90 градусов 820х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 8.0,
+   "unit_price": 99000,
+   "vat": "?",
+   "mass_kg": 301,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 820х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 99000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 301 кг"
+    },
+    {
+     "price": 114052,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х12 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 792000.0,
+   "sum_prev": 792000.0,
+   "unit_price_prev": 99000.0
+  },
+  {
+   "n": 754,
+   "name": "Отвод 90 градусов 720х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 16.0,
+   "unit_price": 65000,
+   "vat": "?",
+   "mass_kg": 230,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 65000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 65664,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-720/",
+     "vat": "?",
+     "note": "УЗТА 720х12 1D — но по ОСТ 34-10-752-97 (сварной секторный), не ГОСТ 30753; аналог"
+    },
+    {
+     "price": 88550,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "расчёт: Procion 720х10 09Г2С ГОСТ 30753 74 322 ₽/193 кг = 385 ₽/кг × 230 кг; сама позиция 720х12 у Procion «по запросу»"
+    },
+    {
+     "price": 81297,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 720х12 ГОСТ 30753 — сталь Ст.20, не 09Г2С (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); самая массовая позиция (74 шт по 6 строкам): 2-го прямого источника на 09Г2С ГОСТ 30753 нет — Procion и Гремир «по запросу»/Ст.20; нужен КП",
+   "sum": 1040000.0,
+   "sum_prev": 1121552.0,
+   "unit_price_prev": 70097.0
+  },
+  {
+   "n": 756,
+   "name": "Отвод 90 градусов 820х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 14.0,
+   "unit_price": 99000,
+   "vat": "?",
+   "mass_kg": 301,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 820х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 99000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-820h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 161715,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 301 кг"
+    },
+    {
+     "price": 114052,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 820х12 — Ст.20 (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 1386000.0,
+   "sum_prev": 1386000.0,
+   "unit_price_prev": 99000.0
+  },
+  {
+   "n": 757,
+   "name": "Отвод 90 градусов 630х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 4.0,
+   "unit_price": 39500,
+   "vat": "?",
+   "mass_kg": 174,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 630х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 39500,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-630h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 72450,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир"
+    },
+    {
+     "price": 80412,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "Procion 174 кг"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm)",
+   "sum": 158000.0,
+   "sum_prev": 229172.0,
+   "unit_price_prev": 57293.0
+  },
+  {
+   "n": 759,
+   "name": "Отвод 90 градусов 1020х14 ст. 09Г2С ОСТ 34.10.752-97 R=1",
+   "qty": 4.0,
+   "unit_price": 142574,
+   "vat": "?",
+   "mass_kg": 579,
+   "product": "Отвод сварной секторный 90° 1020х14 R=1DN 09Г2С ОСТ 34.10.752-97",
+   "maker": "УЗТА (Челябинск)",
+   "match": "exact",
+   "note": "масса 579 кг по карточке Procion; ₽/кг 246–272",
+   "sources": [
+    {
+     "price": 142574,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-1020/",
+     "vat": "?",
+     "note": "УЗТА 1020х14 1D"
+    },
+    {
+     "price": 155634,
+     "url": "https://www.procion.ru/catalog/otvody_ost_34_10_752_97_stal_09g2s_90_gradusov/otvod_svarnoy_sektsionnyy_90_gradusov_1020kh14_2_5_160_stal_09g2s_ost_34_10_752_97_1du/",
+     "vat": "incl",
+     "note": "Procion 1020х14-2,5 1Ду 09Г2С 579 кг, «цена с НДС»"
+    },
+    {
+     "price": 157500,
+     "url": "https://magistral74.ru/otvody/ost-3410752-97/otvody-1020.html",
+     "vat": "?",
+     "note": "Магистраль 1020х14 R1 09Г2С"
+    }
+   ],
+   "sum": 570296.0,
+   "sum_prev": 600148.0,
+   "unit_price_prev": 150037.0
+  },
+  {
+   "n": 763,
+   "name": "Отвод 90 градусов 1220х14 ст. 09Г2С ОСТ 34.10.752-97, R=1",
+   "qty": 4.0,
+   "unit_price": 221575,
+   "vat": "incl",
+   "mass_kg": 785,
+   "product": "Отвод сварной секторный 90° 1220х14 R=1DN 09Г2С ОСТ 34.10.752-97",
+   "maker": "Procion (Краснокамск) / УЗТА под заказ",
+   "match": "exact",
+   "note": "масса ≈785 кг — расчёт π·(D−S)·S·7850·(π/2)·R, R=1,2 м (формула сверена с табл.2 ГОСТ 30753: 820х12 → 300 vs 301 кг); ₽/кг ≈282",
+   "sources": [
+    {
+     "price": 221575,
+     "url": "https://www.procion.ru/catalog/otvody_ost_34_10_752_97_stal_09g2s_90_gradusov/",
+     "vat": "incl",
+     "note": "Procion 1220х14-2,5 1Ду 09Г2С, с НДС (масса в карточке 1 233,7 кг — явная ошибка)"
+    },
+    {
+     "price": 204475,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-1220/",
+     "vat": "?",
+     "note": "ОЦЕНКА: интерполяция УЗТА 1220х11 1D 160 500 и 1220х18 1D 263 109; 1220х14 на сайте нет"
+    }
+   ],
+   "sum": 886300.0,
+   "sum_prev": 817900.0,
+   "unit_price_prev": 204475.0
+  },
+  {
+   "n": 765,
+   "name": "Отвод 90 градусов 720х12 ст. 09Г2С ГОСТ 30753-01",
+   "qty": 32.0,
+   "unit_price": 65000,
+   "vat": "?",
+   "mass_kg": 230,
+   "maker": "АрмЭкспорт / ПКФ «Элементы Трубопроводов» (дилер, Челябинск)",
+   "match": "exact",
+   "product": "Отвод 90° 720х12 09Г2С ГОСТ 30753-2001 (R=1DN)",
+   "sources": [
+    {
+     "price": 65000,
+     "url": "https://www.armexport.ru/detali-truboprovodov/otvody/gost-30753-2001/90-720h12-st-09g2s.html",
+     "vat": "?",
+     "note": "АрмЭкспорт"
+    },
+    {
+     "price": 65664,
+     "url": "https://uzta74.ru/katalog/detali-truboprovoda/otvody-new/otvody/ost-34-10-752-97/du-720/",
+     "vat": "?",
+     "note": "УЗТА 720х12 1D — но по ОСТ 34-10-752-97 (сварной секторный), не ГОСТ 30753; аналог"
+    },
+    {
+     "price": 88550,
+     "url": "https://www.procion.ru/catalog/otvody_krutoizognutye_stal_09g2s/",
+     "vat": "incl",
+     "note": "расчёт: Procion 720х10 09Г2С ГОСТ 30753 74 322 ₽/193 кг = 385 ₽/кг × 230 кг; сама позиция 720х12 у Procion «по запросу»"
+    },
+    {
+     "price": 81297,
+     "url": "https://gremir.ru/otvody-krutoizognutye-gost-17375/gost-30753-2001/",
+     "vat": "?",
+     "note": "Гремир 720х12 ГОСТ 30753 — сталь Ст.20, не 09Г2С (справочно)"
+    }
+   ],
+   "note": "масса — ГОСТ 30753 табл.2 (https://files.stroyinf.ru/Data2/1/4294846/4294846100.htm); самая массовая позиция (74 шт по 6 строкам): 2-го прямого источника на 09Г2С ГОСТ 30753 нет — Procion и Гремир «по запросу»/Ст.20; нужен КП",
+   "sum": 2080000.0,
+   "sum_prev": 2243104.0,
+   "unit_price_prev": 70097.0
+  }
+ ],
+ "total": 23843400.0,
+ "total_if_unknown_net": 28881987.84,
+ "total_prev": 23908695.8,
+ "delta": -65295.8,
+ "makers": [
+  {
+   "name": "ООО «УЗТА» (Уральский завод трубопроводной арматуры)",
+   "city": "Челябинск, ул. Рылеева, 20",
+   "phone": "+7 (351) 210-20-86; +7 (351) 222-11-40",
+   "email": "uzta@mail.ru; zakaz@uzta74.ru",
+   "site": "https://uzta74.ru",
+   "inn": null,
+   "role": "изготовитель (сварные секторные ОСТ 34-10-752-97, ОСТ 36-21-77 до Ду1420)",
+   "docs": "на сайте раздел «Документация» (/sertifikaty/); ТР ТС 032 не проверен",
+   "lead_time": "не указан (на сайте «в наличии»/под заказ, КП за 1 час)",
+   "verified": false,
+   "verify_note": "контакты — сайт uzta74.ru (2 страницы); ИНН не найден, реестры (rusprofile/list-org) заблокированы"
+  },
+  {
+   "name": "ООО «Магистраль»",
+   "city": "454008, Челябинск, ул. Автодорожная 11, стр. 2",
+   "phone": "8-800-505-65-80; +7 (351) 239-55-99",
+   "email": "sale@magistral74.ru; zakaz@magistral74.ru",
+   "site": "https://magistral74.ru",
+   "inn": "7447152863",
+   "ogrn": "1097447006029",
+   "role": "изготовитель СДТ до Ду1420 (ОСТ 34.10.752, штампосварные)",
+   "docs": "не проверено",
+   "lead_time": "не указан",
+   "verified": false,
+   "verify_note": "ИНН/ОГРН — только с сайта magistral74.ru; 2-й источник (ЕГРЮЛ) недоступен из среды. Цены на сайте одинаковы для 30–90° и R1/R1,5 — шаблонные"
+  },
+  {
+   "name": "ООО «УралТрубоДеталь» (УТД)",
+   "city": "Челябинск",
+   "phone": "+7 (351) 220-44-26; 8 (800) 350-60-65",
+   "email": "info@utd74.ru",
+   "site": "https://uraltrubodetal.ru",
+   "inn": "7447127401",
+   "role": "изготовитель отводов ГОСТ 17375/30753, ТУ; продукция в реестре российской промпродукции (по сайту)",
+   "docs": "на сайте раздел «Декларации соответствия ЕАЭС»; конкретный номер ТР ТС 032 не проверен",
+   "lead_time": "не указан; цены на сайте «не являются корректными»",
+   "verified": true,
+   "verify_note": "ИНН 7447127401 — productcenter.ru (фото «ООО \"УТД\", ИНН 7447127401, uraltrubodetal.ru») + сайт; телефон/e-mail — uraltrubodetal.ru/contacts/"
+  },
+  {
+   "name": "ООО «УралПромРегион» (zavod-upr.ru)",
+   "city": "Челябинск (по коду тел.)",
+   "phone": "+7 (351) 217-39-29",
+   "email": "zakaz@zavod-upr.ru",
+   "site": "https://zavod-upr.ru/otvody/otvody-gost-30753/",
+   "inn": null,
+   "role": "заявлен как производство деталей трубопровода; ГОСТ 30753 до 820 мм, ГОСТ 17375 720",
+   "docs": "«сертификаты качества и соответствия, паспорта» — без ТР ТС 032",
+   "lead_time": "не указан",
+   "verified": false,
+   "verify_note": "один источник (сайт)"
+  },
+  {
+   "name": "ООО «Трубодеталь» (Группа ОМК)",
+   "city": "Челябинск",
+   "phone": "+7 (351) 280-09-41 (по ibprom.ru)",
+   "email": null,
+   "site": "https://трубодеталь.рф",
+   "inn": null,
+   "role": "крупнейший изготовитель СДТ, отводы ГОСТ 17375/30753, ОСТ 34.10.699, гнутые СТО",
+   "docs": "не проверено (сайт недоступен: TLS/503)",
+   "lead_time": "н/д",
+   "verified": false,
+   "verify_note": "только агрегатор ibprom.ru"
+  },
+  {
+   "name": "Procion (ООО «Проционь», производство в Краснокамске)",
+   "city": "Москва / Краснокамск",
+   "phone": "+7 (495) 160-19-61; 8 800 707-61-60",
+   "email": null,
+   "site": "https://www.procion.ru",
+   "inn": null,
+   "role": "поставщик/производитель арматуры; полный прайс ГОСТ 30753 и ОСТ 34.10.752 09Г2С с массами, цены С НДС",
+   "docs": "не проверено",
+   "lead_time": "н/д",
+   "verified": false,
+   "verify_note": "контакты — из заголовка карточки procion.ru"
+  },
+  {
+   "name": "ООО «ГРЕМИР»",
+   "city": "Москва, Дмитровское ш., 81",
+   "phone": "+7 (495) 236-72-05; 8 (800) 775-04-12",
+   "email": "zakaz@gremir.ru",
+   "site": "https://gremir.ru",
+   "inn": "7729445917",
+   "ogrn": "1157746078907",
+   "role": "дилер (склад), ГОСТ 17375/30753",
+   "docs": "н/д",
+   "lead_time": "склад",
+   "verified": false,
+   "verify_note": "ИНН — только с gremir.ru/contacts/"
+  },
+  {
+   "name": "ООО «ПКФ Элементы Трубопроводов» (armexport.ru)",
+   "city": "Челябинск, ул. Радонежская, 18, оф. 6",
+   "phone": "+7 (351) 777-04-90; +7 (908) 052-74-16",
+   "email": "armexport13@gmail.com",
+   "site": "https://www.armexport.ru",
+   "inn": null,
+   "role": "дилер; самые низкие цены ГОСТ 30753 09Г2С (220–330 ₽/кг), НДС не указан; 30/45/60° — по запросу",
+   "docs": "«сертификаты есть» (без деталей)",
+   "lead_time": "н/д",
+   "verified": false,
+   "verify_note": "один источник"
+  },
+  {
+   "name": "ЗСДТ, Энергопромдеталь, «СДТ-Завод», Сибирский завод СДТ, Курганский завод СДТ",
+   "verified": false,
+   "verify_note": "сайты/реквизиты не найдены (поиск и прямые домены — нет ответа); существование под такими названиями не подтверждено"
+  }
+ ],
+ "risks": [
+  "Позиции 724/725 (1020х14 R=1,5, 40 шт, 8,84 млн = 37 % группы): единственная точная цена УЗТА 220 932 ₽ (НДС не указан); при «без НДС» → 269 537 ₽, сумма +1,94 млн. Магистраль 157 500 — шаблонная. Обязательно КП УЗТА/Магистраль/Трубодеталь до 11.11.",
+  "Позиции 720х12 09Г2С ГОСТ 30753 (290,663,727,747,754,765 — 74 шт, 4,8 млн): одна прямая цена (АрмЭкспорт 65 000, НДС ?), Procion/Гремир по 09Г2С — «по запросу»; расчёт по ₽/кг Procion даёт 88,6 тыс. (+36 %).",
+  "НДС: дилерские цены АрмЭкспорт/Гремир/УЗТА/Магистраль без пометки НДС; только Procion явно «с НДС». Вариант «все ? без НДС» → сумма ×1,22 по этим строкам (см. total_if_unknown_net).",
+  "ГОСТ 30753-2001 — бесшовные отводы R=1DN (табл.2 до Дн 820); фактически Дн 720–820 часто делают штампосварными по ТУ — проверить, что в паспорте/сертификате будет ГОСТ 30753, а не ТУ, иначе несоответствие табл.3 ТТ.",
+  "ОСТ 34.10.752-97 = отводы СВАРНЫЕ СЕКТОРНЫЕ (не крутоизогнутые) — требуется УЗК/РК сварных швов (п.5.1–5.4 ТТ: заключения УЗК); проверить готовность завода дать заключения на каждую партию.",
+  "Поз. 738 (17Г1С-У) и 635 (ОСТ 102-56-81, отменён) — нет каталожного предложения; цена по аналогу 09Г2С; 17Г1С-У — под заказ.",
+  "Поз. 250 (ГОСТ 17375 530х10): первичный расчёт занижен (32 180 vs 54 428 с НДС) — ГОСТ 17375 R=1,5DN тяжелее.",
+  "Углы 45°/60° (229, 732, 741, 743): первичный коэфф. 0,884 для 45° не подтверждён — у Procion цена 45°/60° = 90°; принята цена 90°.",
+  "ТР ТС 032: сертификаты по реестру Росаккредитации (pub.fsa.gov.ru) не проверены — сервис недоступен из среды; запросить у завода номер сертификата/декларации на отводы ДУ500–1200 из 09Г2С.",
+  "Доставка крупногабарита (Дн 1020–1220, до 870 кг/шт) в Хабаровск/Комсомольск/Нерюнгри в расчёт группы не включена."
+ ],
+ "method": "unit_price = минимальная цена точного совпадения (стандарт+Дн×S+сталь+угол/радиус) из открытых источников; vat «?» = НДС на сайте не указан, total_if_unknown_net = такие строки ×1,22; масса — ГОСТ 30753 табл.2 / карточки Procion (ОСТ 34.10.752) / расчёт по формуле тора",
+ "date": "2026-11-03",
+ "total_vat_confirmed_only": 30345660.0,
+ "total_vat_confirmed_only_note": "по каждой позиции — мин. цена из источников с явным «с НДС» (Procion; где их нет — unit_price×1,22): "
+}
