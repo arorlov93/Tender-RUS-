@@ -391,11 +391,11 @@
    "name": "ПУСКАТЕЛЬ БЕСКОНТАКТНЫЙ РЕВЕРСИВНЫЙ ПБР-3А УХЛ4.2 СИНХР/АСИНХР.ДВИГ.",
    "qty": 10,
    "price": 12056.04,
-   "product": "ПБР-3А",
+   "product": "ПБР-3А (карточка ПБР-3А-02, та же цена 9 882)",
    "maker": "ЧЗЭА / ЗЭиМ",
    "match": "exact (УХЛ4.2 для синхр./асинхр. — уточнить)",
    "source": "ЧЗ Электроаппарат (elaparat.shop), цена сайта, НДС не указан -> ×1,22 (консервативно)",
-   "url": "https://elaparat.shop/catolog/product/puskatel-beskontaktnyj-reversivnyj-pbr-3a",
+   "url": "https://elaparat.shop/catolog/product/puskatel-pbr-3a-02",
    "site_price": 9882,
    "extras": [],
    "price_calc": "(цена сайта/КП + доп.комплекты) ×1,22 НДС",
@@ -421,11 +421,11 @@
    "name": "Тормоз для МЭО-630/25-0,25У-92К",
    "qty": 2,
    "price": 13097.92,
-   "product": "Тормоз механический для МЭО 630/25-0,25-92К",
+   "product": "Тормоз механический для МЭО 630/25-0,25-92К (карточка 630/25 перенаправляет на 630/63 — та же цена 10 736)",
    "maker": "ЧЗЭА",
    "match": "exact",
    "source": "ЧЗ Электроаппарат (elaparat.shop), цена сайта, НДС не указан -> ×1,22 (консервативно)",
-   "url": "https://elaparat.shop/catolog/product/tormoz-mehanicheskij-dlya-meo-630-25-0-25-92k",
+   "url": "https://elaparat.shop/catolog/product/tormoz-mehanicheskij-dlya-meo-630-63-0-25-92k",
    "site_price": 10736,
    "extras": [],
    "price_calc": "(цена сайта/КП + доп.комплекты) ×1,22 НДС",
@@ -440,7 +440,7 @@
    "maker": "ЧЗЭА",
    "match": "partial: тот же типоразмер 1600-92К, 63 с/КБ — уточнить",
    "source": "ЧЗ Электроаппарат (elaparat.shop), цена сайта, НДС не указан -> ×1,22 (консервативно)",
-   "url": "https://elaparat.shop/catolog/product/tormoz-mehanicheskij-dlya-meo-1600-25-0-25-92k",
+   "url": "https://elaparat.shop/tormoz-dlya-meo-1600",
    "site_price": 11529,
    "extras": [],
    "price_calc": "(цена сайта/КП + доп.комплекты) ×1,22 НДС",
@@ -470,7 +470,7 @@
    "maker": "АБС ЗЭиМ Автоматизация",
    "match": "not found",
    "source": "Отдельно не продаётся в открытых прайсах; верхняя граница — БД-10МА 11 590 (ЧЗЭА)",
-   "url": "https://elaparat.shop/catolog/product/blok-datchika-bd-10ma",
+   "url": "https://elaparat.shop/blok-datchika-bd-10ma",
    "null_reason": "публичной цены нет — нужен КП",
    "est_price": 7320,
    "est_note": "оценка ~6 000 без НДС (≈½ БД-10МА)"
@@ -484,7 +484,7 @@
    "maker": "ЧЗЭА",
    "match": "exact",
    "source": "ЧЗ Электроаппарат (elaparat.shop), цена сайта, НДС не указан -> ×1,22 (консервативно)",
-   "url": "https://elaparat.shop/motors",
+   "url": "https://elaparat.shop/catolog/product/elektrodvigatel-dlya-meo-3dstr-135-1-6-150-380v",
    "site_price": 23668,
    "extras": [],
    "price_calc": "(цена сайта/КП + доп.комплекты) ×1,22 НДС",
@@ -499,7 +499,7 @@
    "maker": "ЧЗЭА",
    "match": "exact (У2 уточнить)",
    "source": "ЧЗ Электроаппарат (elaparat.shop), цена сайта, НДС не указан -> ×1,22 (консервативно)",
-   "url": "https://elaparat.shop/motors",
+   "url": "https://elaparat.shop/elektrodvigatel-3dstr-135-4-0-150-380v",
    "site_price": 28487,
    "extras": [],
    "price_calc": "(цена сайта/КП + доп.комплекты) ×1,22 НДС",
@@ -514,7 +514,7 @@
    "maker": "ЧЗЭА",
    "match": "exact (220 В)",
    "source": "ЧЗ Электроаппарат (elaparat.shop), цена сайта, НДС не указан -> ×1,22 (консервативно)",
-   "url": "https://elaparat.shop/motors",
+   "url": "https://elaparat.shop/catolog/product/elektrodvigatel-dlya-meo-dsor-68-0-25-150",
    "site_price": 22448,
    "extras": [],
    "price_calc": "(цена сайта/КП + доп.комплекты) ×1,22 НДС",
@@ -548,5 +548,112 @@
   "profit": 8720163,
   "margin_pct": 55.8
  },
- "makers": []
+ "makers": [
+  {
+   "name": "АО «АБС ЗЭиМ Автоматизация» (ЗЭиМ)",
+   "role": "производитель МЭО/МЭОФ 92К/97К, БД-10АМ, БД-1, БРУ, ПБР, БУТ — оригинал обозначений ТЗ",
+   "site": "https://www.zeim.ru",
+   "phone": "+7 (8352) 30-51-48; продажи +7 (8352) 30-52-21; Москва +7 (495) 735-42-44 доб.1613",
+   "email": "sales@zeim.ru, adm@zeim.ru",
+   "inn": "2128006240",
+   "ogrn": "1022101130314",
+   "address": "428003, Чебоксары, пр-т И.Я. Яковлева, 1",
+   "sources": [
+    "https://www.zeim.ru/contacts/",
+    "https://digital.mchs.gov.ru/fgpn/declaration/21-08-2022-009443/pdf",
+    "https://www.tbank.ru/business/contractor/legal/1022101130314/"
+   ],
+   "verified": true,
+   "note": "контакты — с zeim.ru; ИНН — декларация МЧС + сервис проверки контрагента; публичного прайса нет"
+  },
+  {
+   "name": "ООО «Поволжская электротехническая компания» (ПЭК)",
+   "role": "производитель МЭО/МЭОФ; есть КП № П-8596 от 28.10.2026",
+   "site": "https://piek.ru",
+   "phone": "+7 (8352) 57-05-16; КП: 8 (499) 110-90-85",
+   "email": "info@piek.ru, sales@piek.ru, zlobin@piek.ru (менеджер КП)",
+   "inn": "2127006832",
+   "ogrn": "1042127015237",
+   "address": "Чебоксары, а/я 163; Москва, Измайловское ш., 28",
+   "sources": [
+    "https://piek.ru/contacts/",
+    "https://www.rusprofile.ru/id/1165776",
+    "https://saby.ru/profile/2127006832-771901001"
+   ],
+   "verified": true,
+   "note": "ИНН 2127006832 (КПП 771901001, Москва) совпадает в rusprofile и saby по наименованию; привязка к piek.ru — по московскому адресу, подтвердить в ЕГРЮЛ. На piek.ru и pek.nt-rt.ru цены «под заказ»"
+  },
+  {
+   "name": "ООО «ЧЗ Электроаппарат» (elaparat.shop)",
+   "role": "дилер/изготовитель ЧЗЭА: МЭО/МЭОФ, тормоза, двигатели ДСТР/ДСОР, БРУ, ПБР — основной источник цен",
+   "site": "https://elaparat.shop",
+   "phone": "+7 (835) 262-61-84, +7 (835) 220-33-77, +7 (958) 553-29-92",
+   "email": "elaparat.shop@gmail.com, chz@elaparat.shop",
+   "inn": "2130224936",
+   "ogrn": "1212100003125",
+   "address": "428009, Чебоксары, пр. М. Горького, 32/25-91",
+   "sources": [
+    "https://elaparat.shop/kontakty",
+    "https://elaparat.shop/oplata"
+   ],
+   "verified": false,
+   "note": "реквизиты только с собственного сайта (2 страницы); юрлицо 2021 г., адрес — квартира; НДС в ценах не указан — проверить в ЕГРЮЛ и запросить счёт"
+  },
+  {
+   "name": "АО «ПО «Тулаэлектропривод»",
+   "role": "производитель электроприводов (МЭОФ/многооборотные) — альтернатива по КП",
+   "site": "https://tulaprivod.ru",
+   "phone": "+7 (4872) 72-47-13",
+   "email": "market@tulaprivod.ru, td@tulaprivod.ru",
+   "inn": "7130025182",
+   "ogrn": "1047102961840",
+   "address": "301114, Тульская обл., Ленинский р-н, с. Плеханово, ул. Заводская, 1А",
+   "sources": [
+    "https://www.list-org.com/company/410036",
+    "https://saby.ru/profile/7130025182-713001001",
+    "https://www.tek-all.ru/companies/122/"
+   ],
+   "verified": true,
+   "note": "ИНН — в нескольких реестрах; телефон/e-mail — только tek-all.ru (сайт tulaprivod.ru не открылся через прокси)"
+  },
+  {
+   "name": "ГК «Теплоприбор» (теплоприбор.рф)",
+   "role": "дилер КИПиА: прайс МЭО/МЭОФ, БРУ, ПБР, БУТ-10, тяги (цены на 01.2020, без НДС)",
+   "site": "https://xn--90ahjlpcccjdm.xn--p1ai",
+   "phone": null,
+   "email": "kip@teplopribor.net, pribor-ms@ya.ru",
+   "inn": null,
+   "sources": [
+    "https://xn--90ahjlpcccjdm.xn--p1ai/catalog/price-list_meo_mekhanizm_ispolnitelnyj_cena/"
+   ],
+   "verified": false,
+   "note": "ИНН на странице не найден; прайс устаревший — только для сверки"
+  },
+  {
+   "name": "Бизнес-Центр «Лейрус» (Воронеж)",
+   "role": "дилер: БД-1-ОА-220 ЯЛБИ.426449.159-01 — 15 000 без НДС",
+   "site": "http://www.leyrus.ru",
+   "phone": null,
+   "email": null,
+   "inn": null,
+   "sources": [
+    "http://www.leyrus.ru/catalog/priborj_kip_1/blok_datchikov_bd1oa220_yalbi42644915901_dlya_ustanovki_v_meo250.html"
+   ],
+   "verified": false,
+   "note": "контакты/ИНН не сверены"
+  },
+  {
+   "name": "ООО «ПКП «Чебоксарыэлектропривод» (ЧЭП)",
+   "role": "производитель МЭО/МЭОФ (в т.ч. МЭО-10000/63-0,25У-97К, рекоменд. цена ~192 600 ₽ по каталогу)",
+   "site": "https://chep.nt-rt.ru",
+   "phone": null,
+   "email": null,
+   "inn": null,
+   "sources": [
+    "https://chep.nt-rt.ru/price/product/127815"
+   ],
+   "verified": false,
+   "note": "страница отдавала 502/404 при проверке; данные из сниппета поиска"
+  }
+ ]
 }
