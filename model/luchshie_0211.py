@@ -106,6 +106,7 @@ for c in si[2]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("
 F = []
 for x in OUT:
     n = x["n"]; r = RAW[n]; k = cls(x); c = CALC.get(n)
+    if re.search(r"Мониторинг|Маркетинг", str(r[18])) or re.search(r"МИ №|/МИ\b|мониторинг цен|маркетинговые исследования", str(r[2]), re.I): continue  # не закупка, а сбор КП — не идём
     if k <= 1 or (GAZ(n) and k <= 2):
         mg = (f"{c[1]:.0%} при −10 %" if c and c[1] is not None else x["margin_est"] + " при −10 %") if (c or x.get("margin_est")) else "—"
         F.append([str(r[13])[:16], n, "конкурс / запрос КП" if not x.get("kp_request") else "запрос КП / цен", "да" if GAZ(n) else "", r[25], r[2], nmc(n) or "не указана", mg,
