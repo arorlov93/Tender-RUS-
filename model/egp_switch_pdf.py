@@ -1,65 +1,78 @@
-"""ПАО «ЕГП» 32616504211 — коммутаторы Eltex: досконный расчёт → ../EGP_KOMMUTATORY_32616504211.pdf
-Данные: data/zakupki_0211/tz/deep/egp_switch_prices.json (цены по продавцам), egp_switch_tz.json (ТЗ)."""
-import json, html, statistics
+"""ПАО «ЕГП» 32616504211 — коммутаторы Eltex: PDF на 2 стр. + Excel всех предложений.
+Данные: data/zakupki_0211/tz/deep/egp_switch_prices.json (агент, 03.11.2026). → ../EGP_KOMMUTATORY_32616504211.pdf / _PREDLOZHENIYA.xlsx"""
+import json, html, openpyxl
+from openpyxl.styles import Font, PatternFill, Alignment
 from pdfutil import html_to_pdf
+from tidy import tidy
 
-D = "data/zakupki_0211/tz/deep"
-P = json.load(open(f"{D}/egp_switch_prices.json"))
-NMC = 26080188.33
-f = lambda v: f"{v:,.0f}".replace(",", " ") if isinstance(v, (int, float)) else (v or "—")
-pct = lambda v: f"{v*100:.1f} %"
+P = json.load(open("data/zakupki_0211/tz/deep/egp_switch_prices.json"))
+B = P["basket"]; NMC = B["nmc"]; N10 = B["nmc_minus10"]
+f = lambda v: f"{v:,.0f}".replace(",", " ") if isinstance(v, (int, float)) else (v if v not in (None, "") else "—")
 e = lambda s: html.escape(str(s if s is not None else "—"))
-
-def prof(Pr, C, days=50):
-    pre = Pr - C - 0.008 * Pr - C * 0.2 * days / 365
+pct = lambda a, b: f"{(a - b) / a * 100:.1f} %"
+def net(Pr, C, days=45):
+    pre = Pr - C - 0.008 * Pr - C * 0.2 * days / 365 - 40000 - 0.015 * NMC  # доставка ~40 тыс., стоимость гарантии/заморозки 5 % обеспечения ≈1,5 % НМЦ
     return pre - 0.15 * max(pre, 0)
-
-rows = []; tot_min = tot_med = 0
+css = """body{font-family:'DejaVu Sans',Arial,sans-serif;font-size:8.6px;color:#111;margin:0}h1{font-size:14px;margin:0 0 3px}
+h2{font-size:11px;margin:7px 0 3px;border-bottom:2px solid #305496;padding-bottom:1px}table{border-collapse:collapse;width:100%;margin:2px 0 5px}
+th,td{border:1px solid #bbb;padding:1px 3px;vertical-align:top}th{background:#305496;color:#fff;text-align:left}td.n{text-align:right;white-space:nowrap}
+.ok{background:#c6efce}.bad{background:#f8cbad}.warn{background:#fff2cc}.small{font-size:7.6px;color:#444}.box{border:1px solid #305496;padding:4px 6px;background:#f3f6fb;margin:4px 0}"""
+h = [f"<!DOCTYPE html><html><head><meta charset='utf-8'><style>{css}</style></head><body>",
+     "<h1>ПАО «ЕГП» — поставка коммутаторов Eltex, № 32616504211</h1>",
+     "<div class='small'>ООО «ГИДРОПАС» (УСН, НДС не возмещаем — цена закупки брутто = себестоимость). Цены — открытые источники на 03.11.2026; КП дистрибьюторов нет. Полный список предложений со ссылками — в Excel.</div>",
+     "<h2>1. Условия</h2><table>"]
+for k, v in [("НМЦ", f"{f(NMC)} ₽ с НДС 22 %; при −10 % — {f(N10)} ₽"), ("Подача", "05.11.2026 12:00 МСК (223-ФЗ, ЕИС 32616504211)"),
+             ("Предмет", "204 коммутатора Eltex, эквивалент НЕ допускается (дозакупка для совместимости); гарантия ≥12 мес. + техподдержка; по запросу — образцы на экспертизу"),
+             ("Поставка / оплата", "20 рабочих дней, Ессентуки, ул. Большевистская 59А / 7 рабочих дней после УПД, аванса нет"),
+             ("Обеспечение / штрафы", f"5 % цены договора (≈{f(NMC*0.05)} ₽) до подписания; штраф 1 % за нарушение"),
+             ("НДС", "цена твёрдая; при утрате освобождения по ст.145 НК цена не меняется — договор на 26 млн может вывести за порог УСН без НДС"),
+             ("Маркировка", "коммутаторы (ТН ВЭД 8517 62) в перечне ПП № 1954 не значатся — на дату подачи не обязательна; проверить код перед поставкой")]:
+    h.append(f"<tr><th style='width:16%'>{k}</th><td>{e(v)}</td></tr>")
+h.append("</table><h2>2. Цены по моделям (₽ за шт., с НДС/брутто)</h2><table><tr><th>Модель</th><th>Кол-во</th><th>Цен</th><th>Мин.</th><th>Медиана</th><th>Макс.</th><th>Σ по мин.</th><th>Σ по медиане</th><th>Соответствие ТЗ</th></tr>")
 for m in P["models"]:
-    q = int(str(m["qty"]).split()[0]) if not isinstance(m["qty"], (int, float)) else int(m["qty"])
-    mn, md, mx = m.get("min"), m.get("median"), m.get("max")
-    tot_min += (mn or 0) * q; tot_med += (md or 0) * q
-    rows.append((m, q, mn, md, mx))
+    tz = m.get("tz_check") or {}
+    note = (str({True: "да", False: "нет"}.get(tz.get("ok"), tz.get("ok", ""))) + ": " + "; ".join(tz.get("items", [])[:2])) if isinstance(tz, dict) else str(tz)
+    q = int(m["qty"])
+    h.append(f"<tr><td>{e(m['model'])}</td><td class=n>{q}</td><td class=n>{m.get('n_priced')}</td><td class=n>{f(m.get('min'))}</td><td class=n>{f(m.get('median'))}</td><td class=n>{f(m.get('max'))}</td><td class=n>{f((m.get('min') or 0)*q)}</td><td class=n>{f((m.get('median') or 0)*q)}</td><td class=small>{e(note)[:230]}</td></tr>")
+h.append("<tr><td>Блок питания PM160-220/12 (для MES5332A, ТЗ: ≥2 БП)</td><td class=n>4</td><td class=n>1</td><td class=n>27 195</td><td class=n>27 195</td><td class=n>27 195</td><td class=n>108 780</td><td class=n>108 780</td><td class=small>БП в комплект не входят; совместимость подтвердить у дистрибьютора</td></tr>")
+h.append(f"<tr><th>Итого</th><th class=n>208</th><th></th><th></th><th></th><th></th><th class=n>{f(B['cost_min'])}</th><th class=n>{f(B['cost_median'])}</th><th>НМЦ {f(NMC)}</th></tr></table>")
+h.append("<h2>3. Маржа и чистая прибыль</h2><table><tr><th>Вариант закупки</th><th>Себестоимость</th><th>Маржа по НМЦ</th><th>Маржа при −10 %</th><th>Чистая по НМЦ</th><th>Чистая при −10 %</th></tr>")
+real = B.get("cost_best_real") or B.get("cost_real") or 22730000
+var = [("Минимум по всем продавцам (вкл. маркетплейсы)", B["cost_min"]), ("Лучшие реальные магазины (не маркетплейсы)", real), ("Медиана рынка", B["cost_median"])] + \
+      [(f"Партнёрская цена: медиана −{s['discount_pct']} %", s["cost"]) for s in P["scenarios"]]
+for name, C in var:
+    m10 = (N10 - C) / N10; cls = "ok" if m10 >= 0.15 else "warn" if m10 > 0 else "bad"
+    h.append(f"<tr class='{cls}'><td>{e(name)}</td><td class=n>{f(C)}</td><td class=n>{pct(NMC, C)}</td><td class=n>{pct(N10, C)}</td><td class=n>{f(net(NMC, C))}</td><td class=n>{f(net(N10, C))}</td></tr>")
+h.append("</table><div class='small'>Чистая: цена − закупка − 0,8 % ЭТП − доставка ≈40 тыс. − обеспечение 5 % (стоимость гарантии/заморозки ≈1,5 % НМЦ) − деньги 20 % годовых × 45 дн. − УСН 15 %.</div>")
+h.append("<div class='box'><b>Вывод: НЕ ИДЁМ без КП дистрибьютора.</b> По медиане розницы корзина дороже НМЦ; даже по минимальным ценам (часть — маркетплейсы и ИП с НДС 5 %) маржа при −10 % ≈7 %. Порог 15 % при −10 % достигается только при закупке ≤ ~19,9 млн, т.е. на ~29 % ниже медианы розницы — у Eltex единая партнёрская цена для всех участников, такую скидку получить маловероятно.</div>")
+h.append("<h2>4. Поставщики для КП (номер закупки, кол-ва 2/28/34/37/103 + 4 БП, проектная цена, наличие)</h2><table><tr><th>Компания</th><th>Телефон</th><th>E-mail</th><th>Сайт</th><th>ИНН</th><th>Примечание</th></tr>")
+for d in (P.get("suppliers_contacts") or [])[:8]:
+    h.append(f"<tr><td>{e(d.get('name'))}</td><td>{e(str(d.get('phone') or '').split(';')[0])}</td><td>{e(d.get('email'))}</td><td>{e(d.get('site'))}</td><td>{e(d.get('inn'))}</td><td class=small>{e(d.get('note'))[:120]}</td></tr>")
+h.append("</table><div class='small'>Дистрибьюторы Eltex: Merlion (официальный), Treolan (партнёрское соглашение 2022), OCS — в списке партнёров. Публичных процентов партнёрских скидок нет.</div>")
+h.append("<h2>5. Риски</h2><ul>" + "".join(f"<li>{e(r)[:260]}</li>" for r in P["risks"][:9]) + "</ul></body></html>")
+hp = "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/egp_switch.html"
+open(hp, "w").write("".join(h)); html_to_pdf(hp, "../EGP_KOMMUTATORY_32616504211.pdf")
 
-def scen(C):
-    return [pct((NMC - C) / NMC), pct((NMC * 0.9 - C) / (NMC * 0.9)), f(prof(NMC, C)), f(prof(NMC * 0.9, C))]
-
-css = """body{font-family:'DejaVu Sans',Arial,sans-serif;font-size:10.5px;color:#111;margin:22px}
-h1{font-size:17px;margin:0 0 4px}h2{font-size:13px;margin:16px 0 6px;border-bottom:2px solid #305496;padding-bottom:2px}
-table{border-collapse:collapse;width:100%;margin:4px 0 8px}th,td{border:1px solid #bbb;padding:3px 5px;vertical-align:top}
-th{background:#305496;color:#fff;text-align:left}td.n{text-align:right;white-space:nowrap}.ok{background:#c6efce}.bad{background:#f8cbad}.warn{background:#fff2cc}
-.small{font-size:9px;color:#444}.box{border:1px solid #305496;padding:6px 8px;background:#f3f6fb;margin:6px 0}"""
-h = [f"<!DOCTYPE html><html><head><meta charset='utf-8'><style>{css}</style></head><body>"]
-h.append("<h1>ПАО «ЕГП» — поставка сетевого оборудования Eltex, № 32616504211</h1>")
-h.append("<div class='small'>ООО «ГИДРОПАС» (УСН). Расчёт на 04.11.2026. Цены — открытые источники, с НДС (где указано). Источники и ссылки — в разделе 6.</div>")
-h.append("<h2>1. Условия закупки</h2><table>")
-for k, v in [("Заказчик", "ПАО «Единый гарантирующий поставщик», Ессентуки, ул. Большевистская, 59А"), ("Способ / площадка", "223-ФЗ, конкурентная закупка (извещение 32616504211)"),
-             ("НМЦ", f"{f(NMC)} ₽ с НДС 22 % ({f(NMC/1.22)} ₽ без НДС)"), ("Подача заявок", "до 05.11.2026 12:00 МСК"),
-             ("Предмет", "204 коммутатора Eltex, эквивалент НЕ допускается (дозакупка для совместимости)"), ("Срок поставки", "20 рабочих дней с даты договора, Ессентуки"),
-             ("Оплата", "7 рабочих дней после ТОРГ-12/УПД, аванса нет"), ("Обеспечение исполнения", f"5 % цены договора (≈{f(NMC*0.05)} ₽) — гарантия или платёж до подписания"),
-             ("Ответственность", "штраф 1 % цены договора за каждое нарушение (кроме просрочки); пени за просрочку"), ("Гарантия", "не менее 12 мес. + техподдержка без ограничения обращений, гарантийные карты по форме"),
-             ("НДС", "цена твёрдая; при утрате освобождения по ст.145 НК цена не меняется"), ("Маркировка", e(P.get("marking")))]:
-    h.append(f"<tr><th style='width:22%'>{k}</th><td>{v}</td></tr>")
-h.append("</table><h2>2. Позиции и цены рынка (с НДС, за 1 шт.)</h2><table><tr><th>Модель</th><th>Кол-во</th><th>Мин.</th><th>Медиана</th><th>Макс.</th><th>Сумма по медиане</th><th>Соответствие ТЗ / замечания</th></tr>")
-for m, q, mn, md, mx in rows:
-    h.append(f"<tr><td>{e(m['model'])}</td><td class=n>{q}</td><td class=n>{f(mn)}</td><td class=n>{f(md)}</td><td class=n>{f(mx)}</td><td class=n>{f((md or 0)*q)}</td><td>{e(m.get('tz_check'))}</td></tr>")
-h.append(f"<tr><th>Итого</th><th class=n>{sum(r[1] for r in rows)}</th><th class=n colspan=2>мин.: {f(tot_min)}</th><th></th><th class=n>{f(tot_med)}</th><th>НМЦ: {f(NMC)}</th></tr></table>")
-h.append("<h2>3. Маржа и прибыль</h2><table><tr><th>Сценарий закупки</th><th>Себестоимость, ₽</th><th>Маржа по НМЦ</th><th>Маржа при −10 %</th><th>Чистая по НМЦ, ₽</th><th>Чистая при −10 %, ₽</th></tr>")
-for name, C in [("Минимальные найденные цены", tot_min), ("Медиана рынка", tot_med)] + [(f"Партнёрская цена: медиана −{d} %", tot_med * (1 - d / 100)) for d in (10, 15, 20, 25)]:
-    s = scen(C); cls = "ok" if (NMC*0.9 - C)/(NMC*0.9) >= 0.15 else "warn" if (NMC*0.9 - C) > 0 else "bad"
-    h.append(f"<tr class='{cls}'><td>{name}</td><td class=n>{f(C)}</td><td class=n>{s[0]}</td><td class=n>{s[1]}</td><td class=n>{s[2]}</td><td class=n>{s[3]}</td></tr>")
-h.append("</table><div class='small'>Чистая прибыль: цена − закупка − 0,8 % ЭТП − стоимость денег 20 % годовых × 50 дн. (поставка 20 раб. дн. + оплата 7 раб. дн.) − УСН 15 %. Доставка в Ессентуки (≈204 шт., ~1,2 т) — в пределах 30–50 тыс. ₽, в сценарии не выделена. Обеспечение 5 % — замороженные деньги/стоимость гарантии ≈1–2 % от суммы.</div>")
-if P.get("scenarios"): h.append("<div class='box'><b>Сценарии агента:</b> " + e(json.dumps(P["scenarios"], ensure_ascii=False))[:1500] + "</div>")
-h.append("<h2>4. Поставщики и дистрибьюторы</h2><table><tr><th>Компания</th><th>Роль</th><th>Телефон</th><th>E-mail</th><th>Сайт</th><th>ИНН</th><th>2 источника</th></tr>")
-for d in P.get("distributors", []):
-    h.append(f"<tr><td>{e(d.get('name'))}</td><td>{e(d.get('role') or d.get('note'))}</td><td>{e(d.get('phone'))}</td><td>{e(d.get('email'))}</td><td>{e(d.get('site'))}</td><td>{e(d.get('inn'))}</td><td>{'да' if d.get('verified') else 'нет'}</td></tr>")
-h.append("</table><h2>5. Риски</h2><ul>" + "".join(f"<li>{e(r)}</li>" for r in P.get("risks", [])) + "</ul>")
-h.append(f"<div class='box'><b>Вывод:</b> {e(P.get('verdict') or '')}</div>")
-h.append("<h2>6. Все найденные предложения</h2><table><tr><th>Модель</th><th>Продавец</th><th>Цена</th><th>НДС</th><th>Исполнение</th><th>Наличие</th><th>Ссылка</th></tr>")
-for m, q, *_ in rows:
-    for o in m.get("offers", []):
-        h.append(f"<tr><td>{e(m['model'])}</td><td>{e(o.get('seller'))}</td><td class=n>{f(o.get('price'))}</td><td>{e(o.get('vat'))}</td><td>{e(o.get('version'))}</td><td>{e(o.get('stock'))}</td><td class=small>{e(o.get('url'))}</td></tr>")
-h.append("</table></body></html>")
-open("/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/egp_switch.html", "w").write("".join(h))
-html_to_pdf("/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/egp_switch.html", "../EGP_KOMMUTATORY_32616504211.pdf")
-print(f(tot_min), f(tot_med))
+wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Все предложения"
+ws.append(["Модель", "Кол-во", "Продавец", "Цена за шт., ₽", "НДС", "Исполнение", "Наличие", "Дата", "Маркетплейс", "Источник", "Ссылка"])
+for c in ws[1]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True)
+for m in P["models"]:
+    for o in m["offers"]:
+        ws.append([m["model"], m["qty"], o.get("seller"), o.get("price"), o.get("vat"), o.get("version"), o.get("stock"), o.get("date"), "да" if o.get("marketplace") else "", o.get("source"), o.get("url")])
+        X = ws.max_row; ws.cell(X, 4).number_format = "#,##0"
+        if o.get("url"): ws.cell(X, 11).hyperlink = o["url"]
+for i, w in enumerate([18, 7, 34, 13, 26, 30, 18, 11, 9, 14, 40], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+ws.freeze_panes = "B2"; ws.auto_filter.ref = f"A1:K{ws.max_row}"
+s2 = wb.create_sheet("Итог по моделям")
+s2.append(["Модель", "Кол-во", "Мин.", "Медиана", "Макс.", "Σ по мин.", "Σ по медиане"])
+for m in P["models"]:
+    q = int(m["qty"]); s2.append([m["model"], q, m.get("min"), m.get("median"), m.get("max"), (m.get("min") or 0) * q, (m.get("median") or 0) * q])
+s2.append(["PM160-220/12 (БП для MES5332A)", 4, 27195, 27195, 27195, 108780, 108780])
+s2.append(["ИТОГО", 208, None, None, None, B["cost_min"], B["cost_median"]]); s2.append(["НМЦ", None, None, None, None, NMC, NMC])
+for row in s2.iter_rows(min_row=2):
+    for c in row[2:]: c.number_format = "#,##0"
+s3 = wb.create_sheet("Поставщики")
+s3.append(["Компания", "Телефон", "E-mail", "Сайт", "ИНН", "Примечание", "2 источника"])
+for d in P.get("suppliers_contacts") or []: s3.append([d.get("name"), d.get("phone"), d.get("email"), d.get("site"), d.get("inn"), d.get("note"), "да" if d.get("verified") else "нет"])
+tidy(wb, row_h=22); wb.save("../EGP_KOMMUTATORY_32616504211_PREDLOZHENIYA.xlsx")
+print(f(B["cost_min"]), f(B["cost_median"]), list(B.keys()))

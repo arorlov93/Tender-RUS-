@@ -1,12 +1,1038 @@
-{"status":"interim 2026-11-03","notes":"collecting; see final version",
-"offers_raw":[
-{"model":"MES5332A rev.C","seller":"NetworkTelecom","price":680000,"vat":"с НДС (указано на сайте)","stock":"под заказ","url":"https://networktelecom.ru/cat/product5557/"},
-{"model":"MES5332A rev.C","seller":"NAV-IT (shop.nav-it.ru)","price":910710,"vat":"не указано","stock":"под заказ, дата актуальности 02.11.2026","url":"https://shop.nav-it.ru/catalogue/kommutatory/mes5332a_rev_c_ethernet_kommutator_mes5332a_rev_c_1x10_100_1000base_t_oov_32x10gbase_r_sfp_1000base_/"},
-{"model":"MES5332A","seller":"Telesyn","price":719929,"vat":"не указано","stock":"нет в наличии/предзаказ","url":"https://www.telesyn.tv/collection/aggregation-switch-100G/product/mes5332a-eltex"},
-{"model":"MES2448B AC","seller":"NWHT","price":132950,"vat":"без НДС; юрлицам с НДС 5% 139598","stock":"в наличии, предоплата 30%","url":"https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2448b_ac.html"},
-{"model":"MES2424 AC","seller":"NWHT","price":52500,"vat":"без НДС; юрлицам НДС 5% 55125","stock":"в наличии","url":"https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2424_ac.html"},
-{"model":"MES2424P AC","seller":"NWHT","price":179900,"vat":"без НДС; юрлицам НДС 5% 188895","stock":"в наличии","url":"https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2424p_ac.html"},
-{"model":"MES2428P","seller":"NWHT","price":95250,"vat":"без НДС; юрлицам НДС 5% 100013","stock":"в наличии","url":"https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2428p.html"},
-{"model":"MES2428P AC","seller":"Treolink","price":137000,"vat":"не указано","stock":"предзаказ","url":"https://treolink.ru/network-equipment/switches/eltex-mes2428p-ac/"},
-{"model":"PM160-220/12","seller":"NWHT","price":25900,"vat":"без НДС","stock":"?","url":"https://nwht.ru/search/?q=PM160-220"}
-]}
+{
+ "meta": {
+  "tender": "ПАО «ЕГП» № 32616504211 «Поставка сетевого оборудования» (223-ФЗ)",
+  "nmc": 26080188.33,
+  "nmc_vat": "22%",
+  "deadline": "05.11.2026 12:00 МСК",
+  "equivalents": "не допускаются (Eltex)",
+  "bidder": "ООО «ГИДРОПАС» (УСН)",
+  "date": "2026-11-03",
+  "contract_terms": "поставка 20 раб. дн. с даты договора, Ессентуки ул. Большевистская 59А, за счёт поставщика; оплата 7 раб. дн. после ТОРГ-12/УПД (без аванса); обеспечение исполнения 5% цены до заключения; пени 1/300 ключевой ставки, штраф 1%; гарантия ≥12 мес. или гарантия производителя; заказчик вправе в 4 к.д. затребовать образцы по 1 ед. каждой позиции на экспертизу",
+  "method": "Цены открывались curl/WebFetch 03.11.2026; где сайт блокировал прокси (РТК rus-telcom.ru, Борн, deviceden, citilink, Яндекс Маркет-капча, radiotelefony, ritm-it) — цена взята из сниппета поиска и помечена source='search snippet'. Многие дистрибьюторы (РТК, Борн, XCOM, Telecom-Sales, iesoft, Оргтелеком, Karma, eltexcm) цену не публикуют — «по запросу»."
+ },
+ "models": [
+  {
+   "model": "MES5332A rev.C",
+   "qty": 2,
+   "offers": [
+    {
+     "seller": "NetworkTelecom (ООО «ТЕЛЕКОМ МИР»)",
+     "price": 680000,
+     "vat": "с НДС (на сайте: «Все цены указаны с учетом НДС»)",
+     "version": "MES5332A rev.C (в описании), без БП",
+     "stock": "под заказ",
+     "url": "https://networktelecom.ru/cat/product5557/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Telesyn",
+     "price": 719929,
+     "vat": "не указано",
+     "version": "MES5332A (ревизия не указана)",
+     "stock": "нет в наличии / предзаказ",
+     "url": "https://www.telesyn.tv/collection/aggregation-switch-100G/product/mes5332a-eltex",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "CT-company (СимплТех)",
+     "price": 740640,
+     "vat": "не указано",
+     "version": "MES5332A",
+     "stock": "цену уточнять; карточка называет модель снятой (вероятно старая ревизия)",
+     "url": "https://ct-company.ru/catalog/kommutatory/eltex/kommutatory-yadra-10g-40g-100g/mes5332a.html",
+     "date": "2026-11-03",
+     "source": "search snippet (сайт отдал 503)",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "NAV-IT (shop.nav-it.ru)",
+     "price": 910710,
+     "vat": "не указано",
+     "version": "MES5332A rev.C",
+     "stock": "под заказ; дата актуальности 02.11.2026",
+     "url": "https://shop.nav-it.ru/catalogue/kommutatory/mes5332a_rev_c_ethernet_kommutator_mes5332a_rev_c_1x10_100_1000base_t_oov_32x10gbase_r_sfp_1000base_/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Оргтелеком",
+     "price": null,
+     "vat": "-",
+     "version": "MES5332A rev.C, ТОРП",
+     "stock": "есть в наличии, цена по запросу",
+     "url": "https://orgtelecom.ru/product/kommutator-agregatsii-10g-eltex-mes5332a-rev-c/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    },
+    {
+     "seller": "Karma Group",
+     "price": null,
+     "vat": "-",
+     "version": "MES5332A rev.C",
+     "stock": "InStock (schema), цена по запросу",
+     "url": "https://www.karma-group.ru/catalog/eltex-aggregation-switches-10g/eltex-mes5332a-rev-c/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    },
+    {
+     "seller": "XCOM-Shop",
+     "price": null,
+     "vat": "-",
+     "version": "MES5332A rev.C",
+     "stock": "цена по запросу",
+     "url": "https://www.xcom-shop.ru/eltex_mes5332a_revc_1127561.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    },
+    {
+     "seller": "ROCCS / Элтекс Солюшенс (eltexsl.ru→roccs.ru)",
+     "price": null,
+     "vat": "-",
+     "version": "MES5332A rev.C (активная); MES5332A без rev — END OF SALE",
+     "stock": "наличие по запросу",
+     "url": "https://roccs.ru/product/mes5332a-rev-c/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    },
+    {
+     "seller": "ASA",
+     "price": 570148,
+     "vat": "не указано",
+     "version": "NBS-MES5332A REV.C-3Y — сервисный контракт NBS 3 года, НЕ коммутатор",
+     "stock": "под заказ",
+     "url": "https://asa.ru/catalog/kommutatory/367748/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": "не путать с коммутатором"
+    }
+   ],
+   "addon": {
+    "item": "Модуль питания PM160-220/12 (AC) — 2 шт. на коммутатор, ТЗ требует ≥2 БП; БП в базовый комплект не входят (rev.C: «2 слота для модулей питания»; ETM: «MES5332A … без БП»)",
+    "qty": 4,
+    "offers": [
+     {
+      "seller": "NWHT (ИП Афиногенов)",
+      "price": 25900,
+      "vat": "без НДС; юрлицам с НДС 5% = 27 195 (расчёт 25 900×1,05)",
+      "version": "PM160-220/12",
+      "stock": "в наличии",
+      "url": "https://nwht.ru/catalog/bloki_pitaniya_dlya_serverov/modul_pitaniya_eltex_pm160_220_12.html",
+      "date": "2026-11-03",
+      "source": "fetched",
+      "marketplace": false,
+      "in_stats": true,
+      "note": ""
+     }
+    ],
+    "price_used": 27195,
+    "verified": "1 источник; совместимость PM160-220/12 с MES53xxA — по справочнику БП Eltex (через поиск), подтвердить у дистрибьютора"
+   },
+   "tz_check": {
+    "ok": "условно",
+    "items": [
+     "rev.C в продаже (каталог Eltex 2026 содержит MES5332A; у дилеров rev.C — активная позиция). MES5332A без индекса ревизии (старая rev.B) — END OF SALE (eltexsl.ru/roccs.ru).",
+     "Отличие rev.C: ТЗ требует ОЗУ DDR3 ≥2048 МБ и RAW NAND ≥1024 МБ — это параметры rev.C по datasheet MES53xxA; у старой версии ОЗУ 1 ГБ (e2e4: «оперативной памяти 1 Гб») → старая ревизия ТЗ НЕ соответствует.",
+     "Питание: 2 слота, 1+1 горячая замена; БП в комплект не входят → обязательно докупить 2×PM160-220/12 на каждый (итого 4 шт.), иначе нарушение п. «Количество блоков питания ≥2» и «все кабели питания в комплекте».",
+     "Вентиляторы ≥4 — по сайтам не подтверждено, проверить по datasheet/у дистрибьютора."
+    ]
+   },
+   "n_priced": 4,
+   "min": 680000,
+   "median": 730284.5,
+   "max": 910710,
+   "price_basis": "руб./шт., брутто (с НДС, если указан; для NWHT — цена юрлицу с НДС 5%). Для УСН-закупщика входной НДС не возмещается → это и есть себестоимость."
+  },
+  {
+   "model": "MES2448B (AC)",
+   "qty": 28,
+   "offers": [
+    {
+     "seller": "NWHT (ИП Афиногенов)",
+     "price": 139598,
+     "vat": "юрлицам с НДС 5% (розница без НДС 132 950)",
+     "version": "MES2448B AC",
+     "stock": "есть в наличии, предоплата 30%",
+     "url": "https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2448b_ac.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "КП-Информ",
+     "price": 224000,
+     "vat": "НДС включен",
+     "version": "MES2448B",
+     "stock": "товар в наличии, 100% предоплата",
+     "url": "https://kp-inform.ru/catalog/setevye_moduli/124142_mes2448b/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "e2e4",
+     "price": 215000,
+     "vat": "не указано",
+     "version": "MES2448B",
+     "stock": "нет в продаже",
+     "url": "https://moscow.e2e4online.ru/catalog/item/kommutator-eltex-mes2448b-48x1-gbit-s-sfp-uplink-sfp-1184845/",
+     "date": "2026-11-03",
+     "source": "цена из заголовка поиска; страница: «Нет в продаже»",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "ТехноАйТи",
+     "price": 182156,
+     "vat": "не указано",
+     "version": "MES2448B",
+     "stock": "нет в наличии",
+     "url": "https://technoit.ru/mes2448b/",
+     "date": "2026-11-03",
+     "source": "search snippet",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "НИКС (Екатеринбург)",
+     "price": 371098,
+     "vat": "не указано (НИКС обычно без НДС)",
+     "version": "MES2448B rev.B AC",
+     "stock": "нет в наличии",
+     "url": "https://e-burg.nix.ru/autocatalog/networking_eltex/ELTEX-MES2448B-revB-AC_830100.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Салон 2116 (НИКС)",
+     "price": 383193,
+     "vat": "для организаций; сайт: цены без учёта НДС",
+     "version": "MES2448B rev.B AC",
+     "stock": "нет в продаже",
+     "url": "https://salon2116.ru/catalog/switches/1519759",
+     "date": "2026-11-03",
+     "source": "search snippet; страница подтверждает «Нет в продаже»",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Ритм-IT",
+     "price": 405915,
+     "vat": "не указано",
+     "version": "MES2448B",
+     "stock": "нет в наличии",
+     "url": "https://www.ritm-it.ru/switch/eltex/setevoe-oborudovanie-94597/kommutatori-111337/MES2448B-572321.htm",
+     "date": "2026-11-03",
+     "source": "search snippet (403)",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Оргтелеком / XCOM / Борн / eltex-msk / Atmcom / Ponway",
+     "price": null,
+     "vat": "-",
+     "version": "MES2448B",
+     "stock": "по запросу (Оргтелеком, Atmcom — в наличии)",
+     "url": "https://orgtelecom.ru/product/kommutator-dostupa-eltex-mes2448b/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    }
+   ],
+   "tz_check": {
+    "ok": true,
+    "items": [
+     "По каталогу Eltex 2026: MES2448B — питание AC (MES2448 без B — DC). ТЗ 100–240 В AC → соответствует. Встроенный БП (1 шт.) в комплекте, вход резервного 12 В DC.",
+     "4×SFP+, 48×1G, ≥2 вентиляторов — соответствует по описанию."
+    ]
+   },
+   "n_priced": 7,
+   "min": 139598,
+   "median": 224000,
+   "max": 405915,
+   "price_basis": "руб./шт., брутто (с НДС, если указан; для NWHT — цена юрлицу с НДС 5%). Для УСН-закупщика входной НДС не возмещается → это и есть себестоимость."
+  },
+  {
+   "model": "MES2424 (AC)",
+   "qty": 34,
+   "offers": [
+    {
+     "seller": "NWHT (ИП Афиногенов)",
+     "price": 55125,
+     "vat": "юрлицам с НДС 5% (розница без НДС 52 500)",
+     "version": "MES2424 AC",
+     "stock": "есть в наличии",
+     "url": "https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2424_ac.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Яндекс Маркет (продавец не установлен)",
+     "price": 51721,
+     "vat": "не указано",
+     "version": "MES2424 rev.B AC",
+     "stock": "н/д",
+     "url": "https://market.yandex.ru/category/kommutatory-eltex-mes2424",
+     "date": "2026-11-03",
+     "source": "search snippet (капча)",
+     "marketplace": true,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Яндекс Маркет (др. карточка)",
+     "price": 47604,
+     "vat": "не указано",
+     "version": "MES2424 (ревизия/исполнение не подтверждены)",
+     "stock": "н/д",
+     "url": "https://market.yandex.ru/category/kommutatory-eltex-mes2424",
+     "date": "2026-11-03",
+     "source": "search snippet (капча)",
+     "marketplace": true,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Борн (born-shop.ru)",
+     "price": 73577,
+     "vat": "не указано",
+     "version": "MES2424 (AC/DC не указано в заголовке)",
+     "stock": "н/д",
+     "url": "https://born-shop.ru/catalog/213000.html",
+     "date": "2026-11-03",
+     "source": "search snippet (сайт недоступен через прокси)",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "e2e4",
+     "price": 106900,
+     "vat": "не указано",
+     "version": "MES2424_AC",
+     "stock": "нет в продаже",
+     "url": "https://moscow.e2e4online.ru/catalog/item/kommutator-eltex-mes2424-ac-24x1-gbit-s-sfp-uplink-1392449/",
+     "date": "2026-11-03",
+     "source": "цена из заголовка поиска; страница «Нет в продаже»",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "XCOM-Shop",
+     "price": null,
+     "vat": "-",
+     "version": "MES2424_AC",
+     "stock": "по запросу",
+     "url": "https://www.xcom-shop.ru/eltex_mes2424_ac_1299990.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    },
+    {
+     "seller": "NWHT — MES2424B",
+     "price": 84450,
+     "vat": "без НДС",
+     "version": "MES2424B — ДРУГАЯ модель, не допускается",
+     "stock": "",
+     "url": "https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2424b.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    }
+   ],
+   "tz_check": {
+    "ok": true,
+    "items": [
+     "Есть исполнения MES2424 AC и MES2424 DC; ТЗ 100–240 В → поставлять MES2424_AC. MES2424B — отдельная модель (эквивалент), не предлагать.",
+     "БП встроенный, в комплекте."
+    ]
+   },
+   "n_priced": 5,
+   "min": 47604,
+   "median": 55125,
+   "max": 106900,
+   "price_basis": "руб./шт., брутто (с НДС, если указан; для NWHT — цена юрлицу с НДС 5%). Для УСН-закупщика входной НДС не возмещается → это и есть себестоимость."
+  },
+  {
+   "model": "MES2424P (AC)",
+   "qty": 37,
+   "offers": [
+    {
+     "seller": "Опт-Тел (opt-tel.ru)",
+     "price": 140000,
+     "vat": "с НДС",
+     "version": "MES2424P",
+     "stock": "есть в наличии; 100% предоплата",
+     "url": "https://opt-tel.ru/katalog/setevoe-oborudovanie/kommutatory/mes2424p-kommutator-24-porta-eltex/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Ozon (маркетплейс)",
+     "price": 137000,
+     "vat": "не указано",
+     "version": "MES2424P AC",
+     "stock": "OutOfStock",
+     "url": "https://www.ozon.ru/product/kommutator-eltex-mes2424p-ac-1652581045/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": true,
+     "in_stats": true,
+     "note": "в выдаче поиска ранее 100 445"
+    },
+    {
+     "seller": "Радиотелефоны (radiotelefony.ru)",
+     "price": 138645,
+     "vat": "не указано",
+     "version": "MES2424P",
+     "stock": "в наличии (по сниппету)",
+     "url": "https://radiotelefony.ru/eltex-mes2424p/",
+     "date": "2026-11-03",
+     "source": "search snippet (403)",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Яндекс Маркет",
+     "price": 152913,
+     "vat": "не указано",
+     "version": "MES2424P",
+     "stock": "н/д",
+     "url": "https://market.yandex.ru/category/kommutatory-eltex-mes2424p",
+     "date": "2026-11-03",
+     "source": "search snippet",
+     "marketplace": true,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "NWHT (ИП Афиногенов)",
+     "price": 188895,
+     "vat": "юрлицам с НДС 5% (розница без НДС 179 900)",
+     "version": "MES2424P AC",
+     "stock": "есть в наличии, предоплата 30%",
+     "url": "https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2424p_ac.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "ZVK",
+     "price": 209830,
+     "vat": "не указано (227 320 — др. вариант цены)",
+     "version": "ТКО-704/21 (MES2424P AC)",
+     "stock": "под заказ; сейчас «цена по запросу», цена «на последний момент наличия»",
+     "url": "https://zvk.ru/catalog/setevoe-oborudovanie/ethernet-kommutatory_razdel/kommutatory/kommutator-eltex-tko-704-21-mes2424p-ac/",
+     "date": "2026-11-03",
+     "source": "search snippet",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    },
+    {
+     "seller": "XCOM-Shop / Оргтелеком / Борн",
+     "price": null,
+     "vat": "-",
+     "version": "MES2424P AC",
+     "stock": "по запросу; XCOM: >100 шт. на складах (сниппет), Оргтелеком — в наличии",
+     "url": "https://www.xcom-shop.ru/eltex_mes2424p_ac_964135.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    }
+   ],
+   "tz_check": {
+    "ok": true,
+    "items": [
+     "Каталог Eltex 2026: MES2424P — питание только AC, PoE budget 370 W. ТЗ: бюджет PoE ≥370 Вт, 176–264 В → соответствует (на пределе: ровно 370).",
+     "Telecom-Sales/datasheet: 802.3af/at, 4×SFP+. БП встроенный."
+    ]
+   },
+   "n_priced": 5,
+   "min": 137000,
+   "median": 140000,
+   "max": 188895,
+   "price_basis": "руб./шт., брутто (с НДС, если указан; для NWHT — цена юрлицу с НДС 5%). Для УСН-закупщика входной НДС не возмещается → это и есть себестоимость."
+  },
+  {
+   "model": "MES2428P (AC)",
+   "qty": 103,
+   "offers": [
+    {
+     "seller": "NWHT (ИП Афиногенов)",
+     "price": 100013,
+     "vat": "юрлицам с НДС 5% (розница без НДС 95 250)",
+     "version": "MES2428P (AC/DC в карточке не указано — уточнить)",
+     "stock": "есть в наличии, предоплата 30%",
+     "url": "https://nwht.ru/catalog/marshrutizatory_i_kommutatory/kommutator_eltex_mes2428p.html",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": "в выдаче поиска ранее 113 350 — цена плавает"
+    },
+    {
+     "seller": "Wildberries (маркетплейс)",
+     "price": 95084,
+     "vat": "не указано",
+     "version": "MES2428P rev.A2 AC",
+     "stock": "склад продавца (сниппет)",
+     "url": "https://www.wildberries.ru/catalog/608877975/detail.aspx",
+     "date": "2026-11-03",
+     "source": "search snippet (498)",
+     "marketplace": true,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Ozon (маркетплейс)",
+     "price": 125000,
+     "vat": "не указано",
+     "version": "MES2428P AC",
+     "stock": "OutOfStock",
+     "url": "https://www.ozon.ru/product/eltex-kommutator-eltex-mes2428p-ac-belyy-1552169101/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": true,
+     "in_stats": true,
+     "note": "в выдаче поиска ранее 86 099"
+    },
+    {
+     "seller": "Яндекс Маркет",
+     "price": 128748,
+     "vat": "не указано",
+     "version": "MES2428P",
+     "stock": "н/д",
+     "url": "https://market.yandex.ru/search?text=MES2428P+AC",
+     "date": "2026-11-03",
+     "source": "search snippet",
+     "marketplace": true,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Treolink (ООО «Треолинк»)",
+     "price": 137000,
+     "vat": "не указано",
+     "version": "MES2428P AC",
+     "stock": "предзаказ, срок по запросу",
+     "url": "https://treolink.ru/network-equipment/switches/eltex-mes2428p-ac/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "Яндекс Маркет (др. предложение)",
+     "price": 164483,
+     "vat": "не указано",
+     "version": "MES2428P AC 24xGE PoE 4xCombo",
+     "stock": "осталась 1 шт.",
+     "url": "https://market.yandex.ru/category/kommutatory-eltex-mes2428",
+     "date": "2026-11-03",
+     "source": "search snippet",
+     "marketplace": true,
+     "in_stats": true,
+     "note": ""
+    },
+    {
+     "seller": "CT-company",
+     "price": 188800,
+     "vat": "не указано",
+     "version": "MES2428P_DC — DC, ТЗ не соответствует",
+     "stock": "распродан",
+     "url": "https://ct-company.ru/catalog/kommutatory/eltex/kommutatory-dostupa-poe/mes2428p-dc.html",
+     "date": "2026-11-03",
+     "source": "search snippet",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    },
+    {
+     "seller": "Telecom-Sales / iesoft / XCOM / Оргтелеком / Tinvest",
+     "price": null,
+     "vat": "-",
+     "version": "MES2428P / MES2428P_AC",
+     "stock": "под заказ / по запросу (iesoft: срок 10–15 дней, НДС включен; Оргтелеком: в наличии)",
+     "url": "https://telecom-sales.ru/product/eltex-mes2428p/",
+     "date": "2026-11-03",
+     "source": "fetched",
+     "marketplace": false,
+     "in_stats": false,
+     "note": ""
+    }
+   ],
+   "tz_check": {
+    "ok": true,
+    "items": [
+     "Каталог Eltex 2026: MES2428P — AC/DC исполнения, PoE budget 370 W (Telecom-Sales: «суммарный бюджет 370 Вт»). ТЗ ≥370 Вт, 176–264 В → поставлять строго MES2428P_AC (не _DC).",
+     "4 Combo-порта, БП встроенный."
+    ]
+   },
+   "n_priced": 6,
+   "min": 95084,
+   "median": 126874.0,
+   "max": 164483,
+   "price_basis": "руб./шт., брутто (с НДС, если указан; для NWHT — цена юрлицу с НДС 5%). Для УСН-закупщика входной НДС не возмещается → это и есть себестоимость."
+  }
+ ],
+ "basket": {
+  "nmc": 26080188.33,
+  "nmc_minus10": 23472169.5,
+  "cost_min": 21858712,
+  "cost_median": 27963621.0,
+  "cost_max": 40861284,
+  "lines_min": [
+   {
+    "model": "MES5332A rev.C",
+    "qty": 2,
+    "unit": 680000,
+    "sum": 1360000
+   },
+   {
+    "model": "MES2448B (AC)",
+    "qty": 28,
+    "unit": 139598,
+    "sum": 3908744
+   },
+   {
+    "model": "MES2424 (AC)",
+    "qty": 34,
+    "unit": 47604,
+    "sum": 1618536
+   },
+   {
+    "model": "MES2424P (AC)",
+    "qty": 37,
+    "unit": 137000,
+    "sum": 5069000
+   },
+   {
+    "model": "MES2428P (AC)",
+    "qty": 103,
+    "unit": 95084,
+    "sum": 9793652
+   },
+   {
+    "model": "PM160-220/12",
+    "qty": 4,
+    "unit": 27195,
+    "sum": 108780
+   }
+  ],
+  "lines_median": [
+   {
+    "model": "MES5332A rev.C",
+    "qty": 2,
+    "unit": 730284.5,
+    "sum": 1460569.0
+   },
+   {
+    "model": "MES2448B (AC)",
+    "qty": 28,
+    "unit": 224000,
+    "sum": 6272000
+   },
+   {
+    "model": "MES2424 (AC)",
+    "qty": 34,
+    "unit": 55125,
+    "sum": 1874250
+   },
+   {
+    "model": "MES2424P (AC)",
+    "qty": 37,
+    "unit": 140000,
+    "sum": 5180000
+   },
+   {
+    "model": "MES2428P (AC)",
+    "qty": 103,
+    "unit": 126874.0,
+    "sum": 13068022.0
+   },
+   {
+    "model": "PM160-220/12",
+    "qty": 4,
+    "unit": 27195,
+    "sum": 108780
+   }
+  ],
+  "margin_at_nmc": {
+   "min": {
+    "revenue": 26080188.33,
+    "cost": 21858712,
+    "profit": 4221476.33,
+    "margin_pct": 16.19
+   },
+   "median": {
+    "revenue": 26080188.33,
+    "cost": 27963621.0,
+    "profit": -1883432.67,
+    "margin_pct": -7.22
+   }
+  },
+  "margin_at_nmc_minus10": {
+   "min": {
+    "revenue": 23472169.5,
+    "cost": 21858712,
+    "profit": 1613457.5,
+    "margin_pct": 6.87
+   },
+   "median": {
+    "revenue": 23472169.5,
+    "cost": 27963621.0,
+    "profit": -4491451.5,
+    "margin_pct": -19.14
+   }
+  },
+  "note": "Без учёта логистики до Ессентуков (поставщик за свой счёт), обеспечения 5% (1,30 млн при НМЦ), банковской гарантии, налога УСН и возможной обязанности по НДС при превышении лимита доходов УСН (договор: цена неизменна, п. 4.2.1–4.2.2). Минимум собран из разных продавцов, часть цен — без наличия/маркетплейсы.",
+  "best_real_sellers": {
+   "note": "лучшие цены у реальных магазинов (не маркетплейсы, с наличием или под заказ), цены юрлицу брутто",
+   "lines": [
+    {
+     "model": "MES5332A rev.C",
+     "seller": "NetworkTelecom",
+     "qty": 2,
+     "unit": 680000,
+     "sum": 1360000
+    },
+    {
+     "model": "MES2448B",
+     "seller": "NWHT",
+     "qty": 28,
+     "unit": 139598,
+     "sum": 3908744
+    },
+    {
+     "model": "MES2424 AC",
+     "seller": "NWHT",
+     "qty": 34,
+     "unit": 55125,
+     "sum": 1874250
+    },
+    {
+     "model": "MES2424P AC",
+     "seller": "Опт-Тел",
+     "qty": 37,
+     "unit": 140000,
+     "sum": 5180000
+    },
+    {
+     "model": "MES2428P AC",
+     "seller": "NWHT",
+     "qty": 103,
+     "unit": 100013,
+     "sum": 10301339
+    },
+    {
+     "model": "PM160-220/12",
+     "seller": "NWHT",
+     "qty": 4,
+     "unit": 27195,
+     "sum": 108780
+    }
+   ],
+   "cost": 22733113,
+   "at_nmc": {
+    "revenue": 26080188.33,
+    "profit": 3347075.33,
+    "margin_pct": 12.83
+   },
+   "at_nmc_minus10": {
+    "revenue": 23472169.5,
+    "profit": 739056.5,
+    "margin_pct": 3.15
+   }
+  }
+ },
+ "scenarios": [
+  {
+   "discount_pct": 10,
+   "cost": 25167258.9,
+   "at_nmc": {
+    "revenue": 26080188.33,
+    "cost": 25167258.9,
+    "profit": 912929.43,
+    "margin_pct": 3.5
+   },
+   "at_nmc_minus10": {
+    "revenue": 23472169.5,
+    "cost": 25167258.9,
+    "profit": -1695089.4,
+    "margin_pct": -7.22
+   }
+  },
+  {
+   "discount_pct": 15,
+   "cost": 23769077.85,
+   "at_nmc": {
+    "revenue": 26080188.33,
+    "cost": 23769077.85,
+    "profit": 2311110.48,
+    "margin_pct": 8.86
+   },
+   "at_nmc_minus10": {
+    "revenue": 23472169.5,
+    "cost": 23769077.85,
+    "profit": -296908.35,
+    "margin_pct": -1.26
+   }
+  },
+  {
+   "discount_pct": 20,
+   "cost": 22370896.8,
+   "at_nmc": {
+    "revenue": 26080188.33,
+    "cost": 22370896.8,
+    "profit": 3709291.53,
+    "margin_pct": 14.22
+   },
+   "at_nmc_minus10": {
+    "revenue": 23472169.5,
+    "cost": 22370896.8,
+    "profit": 1101272.7,
+    "margin_pct": 4.69
+   }
+  },
+  {
+   "discount_pct": 25,
+   "cost": 20972715.75,
+   "at_nmc": {
+    "revenue": 26080188.33,
+    "cost": 20972715.75,
+    "profit": 5107472.58,
+    "margin_pct": 19.58
+   },
+   "at_nmc_minus10": {
+    "revenue": 23472169.5,
+    "cost": 20972715.75,
+    "profit": 2499453.75,
+    "margin_pct": 10.65
+   }
+  }
+ ],
+ "distributors": [
+  {
+   "name": "Merlion",
+   "role": "официальный дистрибьютор Eltex (вся линейка) — connect-wit.ru; указан в списке авторизованных партнёров eltex.ru (по выдаче поиска)",
+   "site": "https://www.merlion.com",
+   "phone": null,
+   "email": null,
+   "inn": null,
+   "verified": false,
+   "src": [
+    "https://www.connect-wit.ru/merlion-stal-ofitsialnym-distribyutorom-eltex.html",
+    "https://eltex.ru/partners/avtorizovannye-partnyory/"
+   ],
+   "note": "работает только с зарегистрированными партнёрами-реселлерами"
+  },
+  {
+   "name": "Treolan",
+   "role": "партнёрское (дистрибуционное) соглашение с Eltex от 08.07.2022; расширенная гарантия до 5 лет",
+   "site": "https://www.treolan.ru",
+   "phone": null,
+   "email": null,
+   "inn": null,
+   "verified": false,
+   "src": [
+    "https://www.treolan.ru/news/company_news/kompaniya-treolan-podpisala-partnerskoe-soglashenie-c-eltex",
+    "https://www.vedomosti.ru/press_releases/2022/07/08/kompaniya-treolan-podpisala-partnerskoe-soglashenie-c-eltex"
+   ]
+  },
+  {
+   "name": "OCS Distribution",
+   "role": "указан партнёром Eltex на eltex.ru (по выдаче поиска; страница рендерится JS, дата/условия не найдены)",
+   "site": "https://www.ocs.ru",
+   "phone": null,
+   "email": null,
+   "inn": null,
+   "verified": false,
+   "src": [
+    "https://eltex.ru/partners/avtorizovannye-partnyory/"
+   ]
+  },
+  {
+   "name": "Марвел-Дистрибуция",
+   "role": "статус дистрибьютора Eltex публично НЕ подтверждён",
+   "verified": false,
+   "src": []
+  },
+  {
+   "name": "ТД «Технологии»",
+   "role": "публичных сведений о дистрибуции Eltex не найдено",
+   "verified": false,
+   "src": []
+  },
+  {
+   "name": "Элтекс Солюшенс (eltexsl.ru → roccs.ru) / Eltex Central Market (eltexcm.ru)",
+   "role": "официальные дилеры: «работаем по ценам завода, скидки с первого заказа, сохраним объём и цены под проект» / «интеграторские цены с первого заказа»",
+   "site": "https://roccs.ru ; https://eltexcm.ru",
+   "verified": false,
+   "src": [
+    "search snippets"
+   ]
+  }
+ ],
+ "suppliers_contacts": [
+  {
+   "name": "ИП Афиногенов Никита Дмитриевич (NWHT)",
+   "site": "https://www.nwht.ru",
+   "phone": "+7 (499) 302-00-54; 8 (800) 707-03-54",
+   "email": "info@nwht.ru",
+   "inn": "773374188822",
+   "ogrnip": "315774600230625",
+   "note": "продаёт с НДС 5% (УСН); дешевле всех по 4 моделям; нет MES5332A",
+   "verified": false,
+   "src": [
+    "https://www.nwht.ru/contacts/ (реквизиты)",
+    "шапка сайта nwht.ru (тот же сайт)"
+   ]
+  },
+  {
+   "name": "ООО «ТЕЛЕКОМ МИР» (NetworkTelecom)",
+   "site": "https://networktelecom.ru",
+   "phone": "+7 (495) 146-86-86",
+   "email": "zakaz@networktelecom.ru",
+   "inn": "7751381426",
+   "ogrn": "1257700576935",
+   "note": "MES5332A rev.C 680 000 с НДС, под заказ; ОГРН 2025 г. — молодая компания, проверить",
+   "verified": false,
+   "src": [
+    "https://networktelecom.ru/contacts/"
+   ]
+  },
+  {
+   "name": "ООО «Треолинк»",
+   "site": "https://treolink.ru",
+   "phone": "+7 (495) 775-59-78",
+   "email": "info@treolink.ru",
+   "inn": "7730265041",
+   "note": "MES2428P AC 137 000, предзаказ",
+   "verified": false,
+   "src": [
+    "https://treolink.ru/customer/contacts/",
+    "emis.cn (Treolink OOO, рег. 26.05.2021, без ИНН)"
+   ]
+  },
+  {
+   "name": "ООО «СВЯЗЬСЕЙЛ» (Telecom-Sales)",
+   "site": "https://telecom-sales.ru",
+   "phone": "+7 (812) 448-39-55; 8 (800) 333-43-73",
+   "email": "sales@telecom-sales.ru",
+   "inn": "7840517894",
+   "note": "цены по запросу (КП на партию)",
+   "verified": false,
+   "src": [
+    "telecom-sales.ru (подвал/реквизиты)"
+   ]
+  },
+  {
+   "name": "КП-Информ",
+   "site": "https://kp-inform.ru",
+   "phone": "+7 (499) 346-06-45",
+   "email": "sales@kp-inform.ru",
+   "inn": "на странице контактов два ИНН: 7713475828 (ООО «СК-ИНЖИНИРИНГ»/«СМП-Проект»?) и 290406841487 — принадлежность не установлена",
+   "note": "MES2448B 224 000 с НДС, в наличии",
+   "verified": false,
+   "src": [
+    "https://kp-inform.ru/contacts/"
+   ]
+  },
+  {
+   "name": "Опт-Тел",
+   "site": "https://opt-tel.ru",
+   "phone": "+7 (343) 339-49-39",
+   "email": "info@opt-tel.ru",
+   "inn": null,
+   "note": "MES2424P 140 000 с НДС, в наличии (Екатеринбург)",
+   "verified": false,
+   "src": [
+    "https://opt-tel.ru/contacts/"
+   ]
+  },
+  {
+   "name": "NAV-IT",
+   "site": "https://shop.nav-it.ru",
+   "phone": "+7 (495) 988-64-74; +7 (812) 495-63-39",
+   "email": "shop@nav-it.ru",
+   "inn": null,
+   "note": "MES5332A rev.C 910 710, «работаем по 44/223/275-ФЗ»",
+   "verified": false,
+   "src": [
+    "shop.nav-it.ru"
+   ]
+  }
+ ],
+ "partner_program": "Публичных цифр скидок/регламента регистрации проектов Eltex не найдено. Дилеры декларируют: «цены завода», «интеграторские цены с первого заказа», «сохраним объём и цены под проект» (eltexsl/roccs, eltexcm). Проектная цена — только через КП дилера/дистрибьютора (Merlion/Treolan/OCS работают с зарегистрированными реселлерами). Рекомендуется до 05.11 запросить КП у 3–4 дилеров с указанием № закупки и количества (2/28/34/37/103 + 4 БП).",
+ "marking": "Обязательная маркировка радиоэлектроники введена ПП РФ от 28.11.2025 № 1954: регистрация участников с 01.03.2026, нанесение кодов производителями/импортёрами с 01.05.2026, запрет оборота немаркированной продукции, произведённой после старта, — с 01.12.2026 (остатки до 31.05.2027). Перечень по товарной позиции 8517 включает 8517 11/13/14/18 (телефоны, смартфоны, IP-телефоны); 8517 62 (коммутаторы, маршрутизаторы) в перечне НЕ указан (moysklad.ru, netlab.ru). Минпромторг рассматривает коммутаторы/маршрутизаторы для техсбора после эксперимента по маркировке — пока планы. Вывод: на 05.11.2026 маркировка «Честный знак» для MES-коммутаторов не обязательна; п. 5.7 ТЗ («при наличии») не создаёт обязанности. Проверить код ТН ВЭД в сервисе ЧЗ перед поставкой.",
+ "risks": [
+  "Узкая маржа: корзина по медиане ≈ на уровне/выше НМЦ; прибыль только при закупке по минимальным/проектным ценам (−15…−25% от медианы розницы). При снижении в торгах на 10% медиана розницы убыточна.",
+  "MES5332A: обязательно rev.C (ОЗУ 2 ГБ, NAND 1 ГБ по ТЗ); старая ревизия — END OF SALE и не соответствует. БП не входят — +4×PM160-220/12 (≈0,11 млн). Наличие только «под заказ» — срок 20 раб. дней под угрозой.",
+  "MES2428P ×103 — 40–55% суммы корзины; публичных складских остатков в таком объёме нет (часть продавцов — предзаказ/нет в наличии). Нужно подтверждение наличия у дистрибьютора до подачи.",
+  "Исполнение: MES2428P строго _AC (не _DC); MES2424 строго _AC (не DC, не MES2424B); MES2448B (AC). Ошибка = несоответствие, эквиваленты не допускаются.",
+  "PoE MES2424P/MES2428P = 370 Вт ровно по требованию ТЗ ≥370 — соответствует, без запаса.",
+  "НДС: ГИДРОПАС на УСН; договор 26 млн → доход может превысить порог освобождения от НДС для УСН (ст. 145 НК в ред. 2026) — тогда НДС (5/7/22%) платится из неизменной цены договора (п. 4.2.1–4.2.2). Учесть в расчёте маржи.",
+  "Обеспечение исполнения 5% (≈1,3 млн) + оплата по факту в 7 раб. дн. → кассовый разрыв на всю закупку (~24–27 млн) при предоплате дистрибьюторам 30–100%.",
+  "Экспертиза образцов (по 1 ед. каждой позиции в течение ≥3 к.д. по требованию) — нужен быстрый доступ к образцам всех 5 моделей.",
+  "Страна происхождения: у NWHT для MES2424/2424P/2428P указано «Китай» (производство), Россия — для MES2448B; в спецификации нужна реестровая запись (реестр РЭП/ТОРП) — уточнить у дилера номера записей для приоритета по ПП 1875.",
+  "Гарантия ≥12 мес. либо гарантия производителя (Eltex — обычно 12 мес.); техподдержка с сертифицированными специалистами производителя (п. 3.4 ТЗ) — нужен партнёрский статус или договор с авторизованным партнёром.",
+  "Цены маркетплейсов и сниппетов поиска нестабильны (Ozon MES2428P: 86 099 → 125 000), часть без наличия — использованы только как ориентир."
+ ]
+}
