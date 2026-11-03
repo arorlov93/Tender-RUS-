@@ -129,3 +129,38 @@ si.freeze_panes = "C3"; si.auto_filter.ref = f"A2:L{si.max_row}"
 print("ИТОГ:", len(F))
 tidy(wb, row_h=30); wb.save("../LUCHSHIE_0211.xlsx")
 import collections; print(collections.Counter(cls(x) for x in OUT)); print(len(top))
+
+# ---------- Маржа ≥ 15 % (по просьбе): расчёт при −10 % ≥ 15 % или оценка (нижняя граница) ≥ 15 %; без мониторингов/МИ
+NOT = lambda r18, r2: re.search(r"Мониторинг|Маркетинг", str(r18)) or re.search(r"МИ №|/МИ\b|мониторинг цен|маркетинговые исследования", str(r2), re.I)
+wb2 = openpyxl.load_workbook("../LUCHSHIE_0211.xlsx")
+if "МАРЖА ≥15 %" in wb2.sheetnames: del wb2["МАРЖА ≥15 %"]
+s15 = wb2.create_sheet("МАРЖА ≥15 %", 0)
+s15.append(["Закупки 9 выгрузок (подача с 04.11) с маржой ≥ 15 % при −10 % (у аукционов — при ожидаемом снижении). Без мониторингов цен и маркетинговых исследований. «расчёт» — по ТЗ и ценам; «оценка» — по нашему опыту, нужен ТЗ/КП."]); s15["A1"].font = Font(bold=True, size=11)
+s15.append(["Подача до", "№ закупки", "Тип", "Заказчик", "Предмет", "НМЦ, ₽", "Маржа", "Основа", "Срок поставки", "Что делать", "Ссылка / площадка"])
+for c in s15[2]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True, vertical="top")
+F15 = []
+for x in OUT:
+    n = x["n"]; r = RAW[n]
+    if NOT(r[18], r[2]) or str(r[13])[:10] < "2026-11-04": continue
+    c = CALC.get(n)
+    if c:
+        if c[1] is None or c[1] < 0.15: continue
+        mg, base = f"{c[1]:.0%} при −10 %", "расчёт: " + (c[4] or "")
+        term = c[2] or x.get("term")
+    else:
+        if x["verdict"].startswith("НЕТ") or lo(x["margin_est"]) < 15: continue
+        mg, base, term = x["margin_est"] + " при −10 %", "оценка", x.get("term")
+    F15.append([str(r[13])[:16], n, "запрос КП/цен" if x.get("kp_request") else "конкурс/запрос", r[25], r[2], nmc(n) or "не указана", mg, base, term, x.get("next_step"), x.get("url") or r[19]])
+for x in AO:
+    r = AR[x["n"]]; c = CALC.get(x["n"])
+    if c and c[3].startswith("НЕ"): continue
+    if x["verdict"].startswith("НЕТ") or lo(x["margin_est"]) < 15 or str(r["deadline"])[:10] < "2026-11-04": continue
+    F15.append([str(r["deadline"])[:16], x["n"], "АУКЦИОН", r["customer"], r["subject"], float(r["nmc"] or 0) or "не указана", f'{x.get("margin_est")} (снижение {x.get("expected_drop")})', "оценка", x.get("term"), x.get("next_step"), x.get("url") or r["etp"]])
+F15.sort(key=lambda z: z[0])
+for z in F15:
+    s15.append(z); X = s15.max_row; s15.cell(X, 6).number_format = "#,##0"
+    s15.cell(X, 8).fill = PatternFill("solid", fgColor="63BE7B" if str(z[7]).startswith("расчёт") else "FFF2CC")
+    for cc in s15[X]: cc.border = BOX; cc.alignment = Alignment(wrap_text=True, vertical="top")
+for j, wd in enumerate([14, 18, 13, 28, 46, 14, 22, 30, 22, 40, 30], 1): s15.column_dimensions[openpyxl.utils.get_column_letter(j)].width = wd
+s15.freeze_panes = "C3"; s15.auto_filter.ref = f"A2:K{s15.max_row}"
+wb2.save("../LUCHSHIE_0211.xlsx"); print("МАРЖА>=15:", len(F15))
