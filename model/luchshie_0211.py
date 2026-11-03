@@ -112,7 +112,7 @@ for x in OUT:
         F.append([str(r[13])[:16], n, "конкурс / запрос КП" if not x.get("kp_request") else "запрос КП / цен", "да" if GAZ(n) else "", r[25], r[2], nmc(n) or "не указана", mg,
                   "расчёт по ТЗ" if c else "оценка", (c[2] if c and c[2] else x.get("term")), (c[4] + "; " if c and c[4] else "") + str(x.get("next_step") or ""), x.get("url") or r[19], k])
 for x in AO:
-    if acl(x) == 1:
+    if acl(x) == 1 and not (x["n"] in CALC and CALC[x["n"]][3].startswith("НЕ")):
         r = AR[x["n"]]
         F.append([str(r["deadline"])[:16], x["n"], "АУКЦИОН", "да" if re.search("Газпром", str(r["customer"])) else "", r["customer"], r["subject"], float(r["nmc"] or 0) or "не указана", f'{x.get("margin_est")}', "оценка", x.get("term"), x.get("next_step"), x.get("url") or r["etp"], 1])
 F.sort(key=lambda z: z[0])
