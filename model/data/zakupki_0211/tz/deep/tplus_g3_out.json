@@ -1,0 +1,1744 @@
+{
+ "items": [
+  {
+   "n": 123,
+   "product": "IEK ФОРС РСб20-3-ФСр ERS12-K03-16-54-DC, 1-м ОП 16А IP54 с з/к, с крышкой, серая",
+   "unit_price": 449.14,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 449.14,
+     "url": "https://www.etm.ru/cat/nn/9800516"
+    },
+    {
+     "seller": "Рос-Электрик",
+     "price": 405.52,
+     "url": "https://www.ros-electric.ru/product/rsb20_3_fsr_rozetka_odnomestnaya_s_z_k_dlya_otkrytoy_ustanovki_ip54/"
+    },
+    {
+     "seller": "Русский Свет (rs24)",
+     "price": 345.6,
+     "url": "https://rs24.ru/product/72713"
+    },
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 544.0,
+     "url": "https://www.elektro.ru/product/rozetka_1-aya_o_p_s_zk_s_kryshkoy_rsb20-3-fsr_ip54_iek_fors/"
+    }
+   ],
+   "supplier_for_kp": "IEK (iek.ru) / ЭТМ",
+   "note": "Цена ЭТМ (медиана 4 предложений 346–544 ₽)."
+  },
+  {
+   "n": 124,
+   "product": "Кунцево-Электро РА16-660 (арт. 5906), 1-м ОП с з/к, с крышкой, IP44, белая",
+   "unit_price": 126.3,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 126.3,
+     "url": "https://www.etm.ru/cat/nn/8877929"
+    },
+    {
+     "seller": "e-kc.ru",
+     "price": 113.82,
+     "url": "https://e-kc.ru/cena/rozetka-1-m-op-ra16-660-s-zazemleniem-ip44-kuntsevo-5906"
+    },
+    {
+     "seller": "ЭТМ (аналог БелТИЗ РА16-214 Л)",
+     "price": 134.04,
+     "url": "https://www.etm.ru/cat/nn/73521232"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / Кунцево-Электро",
+   "note": "Наименование ТЗ обобщённое (РА16 16А 1М БР/ЗАЩ), бренд не задан."
+  },
+  {
+   "n": 125,
+   "product": "UNIVersal A101, вилка прямая с з/к 16А 250В IP20 белая",
+   "unit_price": 80.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Порядок.ру",
+     "price": 80.0,
+     "url": "https://poryadok.ru/catalog/vilki_elektricheskie/1567158/"
+    },
+    {
+     "seller": "e-kc.ru (TDM SQ1806-0003)",
+     "price": 78.71,
+     "url": "https://e-kc.ru/cena/vilka-pryamaya-sz-belaya-16a-250v-tdm-electric-sq1806-0003"
+    },
+    {
+     "seller": "Стройка у дома",
+     "price": 119.0,
+     "url": "https://stroykaydoma.ru/goods/92494"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / TDM Electric",
+   "note": "ТЗ 'ПВХ' — корпус у бытовых вилок обычно ПП/АБС; уточнить."
+  },
+  {
+   "n": 126,
+   "product": "Systeme Electric Этюд BA10-002B, выключатель 2-кл ОП 10А IP20 белый",
+   "unit_price": 233.0,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (розн.)",
+     "price": 233.0,
+     "url": "https://www.etm.ru/cat/nn/9723093"
+    },
+    {
+     "seller": "Systeme Electric (офиц.)",
+     "price": 281.21,
+     "url": "https://systeme.ru/product/BA10-002B"
+    },
+    {
+     "seller": "Тинко",
+     "price": 281.21,
+     "url": "https://www.tinko.ru/catalog/product/343709/"
+    },
+    {
+     "seller": "radetali.ru",
+     "price": 145.0,
+     "url": "https://www.radetali.ru/catalog/product/vyklyuchatel-2-kl-op-10a-belyj-etyud-va10-002b/"
+    }
+   ],
+   "supplier_for_kp": "Systeme Electric / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 127,
+   "product": "Systeme Electric Хит VA16-131-B, выключатель 1-кл ОП 6А IP20 белый",
+   "unit_price": 88.97,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (розн.)",
+     "price": 76.5,
+     "url": "https://www.etm.ru/cat/nn/9741132"
+    },
+    {
+     "seller": "ВамСвет",
+     "price": 97.0,
+     "url": "https://www.vamsvet.ru/catalog/product/vyklyuchatel_odnoklavishnyy_schneider_electric_khit_6a_250v_belyy_va16_131_b/"
+    },
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 88.97,
+     "url": "https://www.elektro.ru/"
+    },
+    {
+     "seller": "Минимакс",
+     "price": 89.46,
+     "url": "https://www.minimaks.ru/product/vyklyuchatel-odnoklavishnyy-otkrytoy-ustanovki-va16-131-va16-131-b-wessen-khit-schneider-electric/"
+    }
+   ],
+   "supplier_for_kp": "Systeme Electric / ЭТМ",
+   "note": "Внимание: ВА16-131 — 6А (не 16А как в характеристиках ТЗ). Модель в наименовании совпадает; 16А в серии Хит ОП 1-кл нет."
+  },
+  {
+   "n": 128,
+   "product": "Промрукав 40-0200 коробка распред. ОП 70х70х40 (HF), IP54/55; аналог Systeme Electric IMT350901",
+   "unit_price": 80.5,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Тинко (Промрукав 40-0200)",
+     "price": 80.5,
+     "url": "https://www.tinko.ru/catalog/product/235511/"
+    },
+    {
+     "seller": "ЭТМ (IMT350901)",
+     "price": 56.64,
+     "url": "https://www.etm.ru/cat/nn/5058650"
+    },
+    {
+     "seller": "Петрович (IMT350901)",
+     "price": 116.0,
+     "url": "https://petrovich.ru/product/128023/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / Промрукав",
+   "note": "В ТЗ 'монтаж скрытый' при IP54 и крышке на защёлках — противоречиво; коробки 70х70х40 IP54 выпускаются для открытого монтажа."
+  },
+  {
+   "n": 129,
+   "product": "IEK ФОРС РСб22-3-ФСр ERS22-K03-16-54-DC, 2-м ОП 16А IP54 с з/к, с крышкой",
+   "unit_price": 868.87,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ierus.ru (фирм. магазин IEK)",
+     "price": 1229.0,
+     "url": "https://ierus.ru/"
+    },
+    {
+     "seller": "e-kc.ru",
+     "price": 671.67,
+     "url": "https://e-kc.ru/cena/rozetka-2-m-op-fors-s-zazemleniem-krysh-ip54-rsb22-3-fsr-iek-ers22-k03-16-54-dc"
+    },
+    {
+     "seller": "Минимакс/ЭКС (по выдаче)",
+     "price": 868.87,
+     "url": "https://www.minimaks.ru/product/rozetka_dvuhmestnaja_rsb22-3-fsr_fors_ip54_s_zazemleniem__ou_(ers22-k03-16-54-dc)_iek"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": "Разброс 590–1229 ₽; принята типичная цена ~869 ₽. Продавец для 868.87 по выдаче поиска точно не атрибутирован — перепроверить."
+  },
+  {
+   "n": 130,
+   "product": "Systeme Electric (ex-Schneider) Этюд PA16-003B, 1-м ОП с з/к без шторок 16А IP20 белая",
+   "unit_price": 209.23,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Systeme Electric (офиц.)",
+     "price": 209.23,
+     "url": "https://systeme.ru/product/PA16-003B"
+    },
+    {
+     "seller": "e-kc.ru",
+     "price": 209.23,
+     "url": "https://e-kc.ru/cena/rozetka-1-m-op-etyud-16a-s-zazemleniem-bel-sche-pa16-003b"
+    },
+    {
+     "seller": "Сибэлком",
+     "price": 195.6,
+     "url": "https://sibelkom.ru/catalog/elektroustanovochnye_izdeliya/elektroustanovochnye_izdeliya_sistem_elektrik/seriya_etyud_otkrytaya_provodka/etyud_belyy_op/rozetka_1gn_o_p_s_z_k_etyud_ra16_003v_belyy_17_136/"
+    },
+    {
+     "seller": "Электрон b2b",
+     "price": 139.1,
+     "url": "https://b2b.el.ru/products/16605"
+    }
+   ],
+   "supplier_for_kp": "Systeme Electric / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 131,
+   "product": "Systeme Electric Хит RA16-234-B, 2-м ОП с з/к 16А IP20 белая",
+   "unit_price": 131.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "СОМ (som1.ru)",
+     "price": 131.0,
+     "url": "https://som1.ru/catalog/rozetki_nakladnye/rozetka_khit_ra16_234_b_16_a_dvukhmestnaya_naruzhnaya_s_z_k_tsvet_belyy/"
+    },
+    {
+     "seller": "Roomelectro (RA16-234-BI)",
+     "price": 194.22,
+     "url": "http://roomelectro.ru/639946/"
+    },
+    {
+     "seller": "Лазар dizar.ru",
+     "price": 61.05,
+     "url": "https://www.dizar.ru/product/rozetka-2-mest-ou-s-z-k-khit-ra-16-234/"
+    }
+   ],
+   "supplier_for_kp": "Systeme Electric / ЭТМ (арт. 9742429)",
+   "note": "ТЗ требует шторки — у RA16-234-B шторок нет (без шторок), со шторками в серии Хит — RA16-233-B без з/к. Риск несоответствия; модель задана в наименовании."
+  },
+  {
+   "n": 132,
+   "product": "IEK ФОРС РСб20-3-ФСр ERS12-K03-16-54-DC, 1-м ОП 16А IP54 с з/к, с крышкой, серая",
+   "unit_price": 449.14,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 449.14,
+     "url": "https://www.etm.ru/cat/nn/9800516"
+    },
+    {
+     "seller": "Рос-Электрик",
+     "price": 405.52,
+     "url": "https://www.ros-electric.ru/product/rsb20_3_fsr_rozetka_odnomestnaya_s_z_k_dlya_otkrytoy_ustanovki_ip54/"
+    },
+    {
+     "seller": "Русский Свет (rs24)",
+     "price": 345.6,
+     "url": "https://rs24.ru/product/72713"
+    },
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 544.0,
+     "url": "https://www.elektro.ru/product/rozetka_1-aya_o_p_s_zk_s_kryshkoy_rsb20-3-fsr_ip54_iek_fors/"
+    }
+   ],
+   "supplier_for_kp": "IEK (iek.ru) / ЭТМ",
+   "note": "Цена ЭТМ (медиана 4 предложений 346–544 ₽)."
+  },
+  {
+   "n": 133,
+   "product": "Systeme Electric Хит VA16-131-B, 1-кл ОП 6А белый",
+   "unit_price": 88.97,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (розн.)",
+     "price": 76.5,
+     "url": "https://www.etm.ru/cat/nn/9741132"
+    },
+    {
+     "seller": "ВамСвет",
+     "price": 97.0,
+     "url": "https://www.vamsvet.ru/catalog/product/vyklyuchatel_odnoklavishnyy_schneider_electric_khit_6a_250v_belyy_va16_131_b/"
+    },
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 88.97,
+     "url": "https://www.elektro.ru/"
+    },
+    {
+     "seller": "Минимакс",
+     "price": 89.46,
+     "url": "https://www.minimaks.ru/product/vyklyuchatel-odnoklavishnyy-otkrytoy-ustanovki-va16-131-va16-131-b-wessen-khit-schneider-electric/"
+    }
+   ],
+   "supplier_for_kp": "Systeme Electric / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 134,
+   "product": "Systeme Electric Хит VS56-234-B, выключатель 2-кл СП 6А IP20 белый",
+   "unit_price": 183.0,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "LEDPremium",
+     "price": 183.0,
+     "url": "https://ledpremium.ru/catalog/vyklyuchateli/vyklyuchatel_2_kl_sp_khit_6a_ip20_bel_sche_vs56_234_b_vs56_234_b_vs56_234_b/"
+    },
+    {
+     "seller": "schneiderstore.ru",
+     "price": 196.0,
+     "url": "https://schneiderstore.ru/2-klavishnyj-vykljuchatel-schneider-electric-xit-s-u-6a-250v-belyj-rossija"
+    },
+    {
+     "seller": "Toledo24",
+     "price": 216.0,
+     "url": "https://www.toledo24.pro/products/schneider-electric-khit-belyy-vyklyuchatel-2-klavishnyy-250v-6a-ip20-skrytaya-ustanovka-vs56-234-b-v/"
+    },
+    {
+     "seller": "shop220",
+     "price": 228.75,
+     "url": "https://shop220.ru/vs56-234-b-dvuhklavishnyy-vyklyuchatel-schneider-electric-hit-6a-250v-s-u-belyy.htm"
+    }
+   ],
+   "supplier_for_kp": "Systeme Electric",
+   "note": "Опт (упак. 96) ~83 ₽ (sibcable)."
+  },
+  {
+   "n": 135,
+   "product": "IEK ФОРС РСб20-3-ФСр ERS12-K03-16-54-DC, 1-м ОП 16А IP54 с з/к, с крышкой, серая",
+   "unit_price": 449.14,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 449.14,
+     "url": "https://www.etm.ru/cat/nn/9800516"
+    },
+    {
+     "seller": "Рос-Электрик",
+     "price": 405.52,
+     "url": "https://www.ros-electric.ru/product/rsb20_3_fsr_rozetka_odnomestnaya_s_z_k_dlya_otkrytoy_ustanovki_ip54/"
+    },
+    {
+     "seller": "Русский Свет (rs24)",
+     "price": 345.6,
+     "url": "https://rs24.ru/product/72713"
+    },
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 544.0,
+     "url": "https://www.elektro.ru/product/rozetka_1-aya_o_p_s_zk_s_kryshkoy_rsb20-3-fsr_ip54_iek_fors/"
+    }
+   ],
+   "supplier_for_kp": "IEK (iek.ru) / ЭТМ",
+   "note": "Цена ЭТМ (медиана 4 предложений 346–544 ₽). В ТЗ п.135 указано 'шторки нет' — у ФОРС есть шторки; модель задана жёстко в наименовании."
+  },
+  {
+   "n": 136,
+   "product": "Systeme Electric Этюд PA16-003B (наименование ТЗ); при скрытом монтаже — Этюд PC16-003B",
+   "unit_price": 209.23,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Systeme Electric (офиц.)",
+     "price": 209.23,
+     "url": "https://systeme.ru/product/PA16-003B"
+    },
+    {
+     "seller": "e-kc.ru",
+     "price": 209.23,
+     "url": "https://e-kc.ru/cena/rozetka-1-m-op-etyud-16a-s-zazemleniem-bel-sche-pa16-003b"
+    },
+    {
+     "seller": "Сибэлком",
+     "price": 195.6,
+     "url": "https://sibelkom.ru/catalog/elektroustanovochnye_izdeliya/elektroustanovochnye_izdeliya_sistem_elektrik/seriya_etyud_otkrytaya_provodka/etyud_belyy_op/rozetka_1gn_o_p_s_z_k_etyud_ra16_003v_belyy_17_136/"
+    },
+    {
+     "seller": "Электрон b2b",
+     "price": 139.1,
+     "url": "https://b2b.el.ru/products/16605"
+    },
+    {
+     "seller": "ЭТМ (PC16-003B скрытая)",
+     "price": 148.2,
+     "url": "https://www.etm.ru/cat/nn/9723073"
+    }
+   ],
+   "supplier_for_kp": "Systeme Electric",
+   "note": "Противоречие ТЗ: артикул PA16-003B — открытая установка, а в характеристиках 'встраиваемый (скрытый)'. Цена по PA16-003B; если нужен скрытый — PC16-003B ~148 ₽ (ЭТМ). Уточнить у заказчика."
+  },
+  {
+   "n": 137,
+   "product": "EKF Basic Минск ERR16-128-200, розетка 2-м СП с з/к со шторками 16А бежевая",
+   "unit_price": 212.0,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF (офиц., РРЦ)",
+     "price": 179.0,
+     "url": "https://ekfgroup.com/ru/catalog/products/minsk-rozetka-2-mestnaya-sp-s-zazemleniem-16a-belaya-s-zashh-shtor-ekf-basic"
+    },
+    {
+     "seller": "Энергосфера Хабаровск",
+     "price": 212.0,
+     "url": "https://khv.energosf.ru/catalog/elektricheskie-rozetki/rozetka-2-mestnaya-sp-s-zazemleniem-16a-bezhevyy-s-zashchitnoy-shtorkoy-minsk-ekf/"
+    },
+    {
+     "seller": "220.ru (SE AtlasDesign ATN000226 беж.)",
+     "price": 320.67,
+     "url": "https://www.220.ru/rozetki-i-vyklyuchateli/rozetki/dvojnye"
+    }
+   ],
+   "supplier_for_kp": "EKF / Энергосфера",
+   "note": "ТЗ: АБС-пластик — у Минск корпус ПК/АБС? уточнить."
+  },
+  {
+   "n": 138,
+   "product": "Systeme Electric Этюд PA16-244B, 2-м ОП с з/к, с крышкой, IP44, белая (со шторками)",
+   "unit_price": 492.6,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 492.6,
+     "url": "https://www.etm.ru/cat/nn/8830324"
+    },
+    {
+     "seller": "Русский Свет rs24",
+     "price": 652.7,
+     "url": "https://rs24.ru/product/143114"
+    },
+    {
+     "seller": "Престиж",
+     "price": 707.0,
+     "url": "https://www.prestig.ru/catalog/element/etyud-rozetka-dvoynaya-naruzhnaya-s-zazemleniem-so-shtorkami-ip44-belaya/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / Systeme Electric",
+   "note": "ТЗ: 'без шторок'; найденные 2-м IP44 с крышкой — со шторками (лучше, но формально отличие). Дешевле: EKF Минск 2-м IP44 (но СП, не ОП)."
+  },
+  {
+   "n": 139,
+   "product": "БелТИЗ РА16-214 Л, 1-м ОП с з/к, с крышкой, IP44, белая",
+   "unit_price": 134.04,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 134.04,
+     "url": "https://www.etm.ru/cat/nn/73521232"
+    },
+    {
+     "seller": "ЭТМ (аналог Кунцево РА16-660)",
+     "price": 126.3,
+     "url": "https://www.etm.ru/cat/nn/8877929"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / БелТИЗ (Беларусь)",
+   "note": "Только 1 прямая цена по РА16-214. Производство РБ."
+  },
+  {
+   "n": 140,
+   "product": "IEK Омега РБп13-1-0м PKR21-016-2-K02, розетка каучуковая переносная 2P+E 16А IP44 черная",
+   "unit_price": 296.19,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "shop220",
+     "price": 321.29,
+     "url": "https://shop220.ru/pkr21-016-2-k02-rozetka-kauchukovaya-iek-2pe-16a-250v-ip44-perenosnaya.htm"
+    },
+    {
+     "seller": "elektrika-shop.ru",
+     "price": 296.19,
+     "url": "https://elektrika-shop.ru/rozetka_kauchukovaya_perenosnaya_s_kryishkoy_2pe__16a__250v__ip44__chernaya__iek_omega__shtepselnaya-pkr21_016_2_k02.htm"
+    },
+    {
+     "seller": "roomelectro",
+     "price": 181.71,
+     "url": "http://roomelectro.ru/rozetka_kauchukovaya_iek_2pe_16a_250v_ip44_perenosnaya/"
+    },
+    {
+     "seller": "EKF RPS-012-16-230-44 (elcn.ru)",
+     "price": 217.65,
+     "url": "https://www.elcn.ru/catalog/product/29438/"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": "Противоречие ТЗ: наименование 'РОЗЕТКА 2P+PE 2Х16А', а в описании 'Тип: вилка'. Если нужна вилка каучуковая прямая — IEK ВБп ~100–150 ₽; если розетка на 2 поста — IEK РБп ... Уточнить."
+  },
+  {
+   "n": 141,
+   "product": "Feron EB52 (21524) ЭПРА 2х36 Вт T8/G13 230В (эквивалент); альт. Navigator NB-ETL-236-EA3 (94428)",
+   "unit_price": 476.0,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Силикатный (74.silsv.ru) Feron EB52",
+     "price": 476.0,
+     "url": "https://74.silsv.ru/catalog/epra-2-36w-feron-elektron-balast-t8-ev52-detail"
+    },
+    {
+     "seller": "ВсеИнструменты Feron EB52",
+     "price": 587.0,
+     "url": "https://www.vseinstrumenti.ru/product/elektronnyj-pra-feron-eb52-2h36w-t8-g13-230v-195h33h25mm-21524-1500889/"
+    },
+    {
+     "seller": "Feron офиц.",
+     "price": 756.0,
+     "url": "https://shop.feron.ru/catalog/puskoreguliruyushchie_apparaty_epra/apparat_puskoreguliruyushchiy_elektronnyy_ballast_2_36w_t8_g13_230v_eb52/"
+    },
+    {
+     "seller": "Toledo24 Navigator NB-ETL-236-EA3",
+     "price": 591.44,
+     "url": "https://ib2c.toledo24.pro/products/epra-navigator-nb-etl-236-ea3-2-36w-dlya-t8-94-428/"
+    }
+   ],
+   "supplier_for_kp": "Feron / Navigator / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 142,
+   "product": "REXANT 16-0001 зажим крокодил 5А 40мм в изоляторе (красный/черный)",
+   "unit_price": 10.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты (пара 15 ₽)",
+     "price": 7.5,
+     "url": "https://www.vseinstrumenti.ru/category/zazhimy-krokodily-4484/"
+    },
+    {
+     "seller": "Электроград (пара 20.50 ₽)",
+     "price": 10.25,
+     "url": "https://electrograd.pro/product/zazhim-krokodil-v-izolyatore-40mm-5a-bopp-2sht-paket-rexant/"
+    },
+    {
+     "seller": "Электроторг",
+     "price": 20.0,
+     "url": "https://samara.electrotorg.ru/product/zazhim-krokodil-5-a-40-mm-v-izolyatore-rexant.html"
+    }
+   ],
+   "supplier_for_kp": "REXANT (sds-group.ru)",
+   "note": "Цена за 1 шт; продаётся парами."
+  },
+  {
+   "n": 143,
+   "product": "REXANT 16-0013 зажим крокодил 15А 75мм в изоляторе",
+   "unit_price": 9.37,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "LEDPremium",
+     "price": 9.37,
+     "url": "https://ledpremium.ru/catalog/zazhimy_krokodil/zazhim_krokodil_15a_75mm_rexant/"
+    },
+    {
+     "seller": "Энергосфера",
+     "price": 8.7,
+     "url": "https://khv.energosf.ru/catalog/zazhim-krokodil/zazhim-krokodil-15a-75mm-rexant/"
+    },
+    {
+     "seller": "kwatt-oz",
+     "price": 15.0,
+     "url": "https://kwatt-oz.ru/katalog/kabelnesushchie-sistemy-i-aksessuary/zazhimy-wago-klemmnye-kolodki-skrutki-zazhimy-krokodil/zazhim-krokodil-rexant-15a-dlina-75-mm/"
+    }
+   ],
+   "supplier_for_kp": "REXANT",
+   "note": ""
+  },
+  {
+   "n": 144,
+   "product": "REXANT 16-0016 зажим крокодил 30А 75мм в изоляторе",
+   "unit_price": 31.24,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "СДС (sds-group)",
+     "price": 31.24,
+     "url": "https://www.sds-group.ru/product/zajim-krokodil-30-a-75-mm-v-izolyatore-rexant-2311/"
+    },
+    {
+     "seller": "Сатро-Паладин",
+     "price": 28.87,
+     "url": "https://satro-paladin.com/catalog/product/24621/"
+    },
+    {
+     "seller": "Электромастер",
+     "price": 28.0,
+     "url": "https://www.electro-master.ru/catalog/zazhim_krokodil/zazhim_krokodil_30a_dlina_75mm_rezinovaya_izolyatsiya_rexant/"
+    }
+   ],
+   "supplier_for_kp": "REXANT",
+   "note": ""
+  },
+  {
+   "n": 145,
+   "product": "TDM ЗВИ-10 SQ0510-0003, зажим винтовой 1,5-6 мм² 12 пар, полиэтилен",
+   "unit_price": 58.88,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "TDM Electric (офиц.)",
+     "price": 58.88,
+     "url": "https://tdmelectric.ru/collection/zazhimy-vintovye-klemmnye/product/zazhim-vintovoi-zvi-10-15-6mm2-12par-tdm"
+    },
+    {
+     "seller": "e-kc.ru",
+     "price": 47.82,
+     "url": "https://e-kc.ru/cena/zazhim-vintovoj-zvi-10-15-6mm2-12par-tdm-electric-sq0510-0003"
+    },
+    {
+     "seller": "ЭМА-ДВ",
+     "price": 56.0,
+     "url": "https://www.ema-dv.ru/catalog/montazhnye_izdeliya/zazhimy_vintovye_zvi_kki/"
+    }
+   ],
+   "supplier_for_kp": "TDM Electric",
+   "note": "В ТЗ в наименовании '12А', в описании 10А — у ЗВИ-10 ном. ток 10А."
+  },
+  {
+   "n": 146,
+   "product": "IEK ЗВИ-15 UZV1-015-06, колодка клеммная 4-10 мм² 12 пар",
+   "unit_price": 180.0,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Чип и Дип",
+     "price": 180.0,
+     "url": "https://www.chipdip.ru/product/kolodka-klemmnaya-zvi-15-4-10kv-mm-12-par-iek-8010440556"
+    },
+    {
+     "seller": "Мегаватт",
+     "price": 177.51,
+     "url": "https://shop.mwatt.ru/shop/odno_mnogopolyusnaya_klemmnaya_kolodka/"
+    },
+    {
+     "seller": "Сектор-СБ (Магнито-Контакт ЗВИ-15)",
+     "price": 136.0,
+     "url": "https://sector-sb.ru/catalog/kabel_krepezh/kommutatsionnye_izdeliya/zvi-15"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": "В наименовании '12А' — у ЗВИ-15 ном. ток 15А; количество пар не указано — принято 12."
+  },
+  {
+   "n": 147,
+   "product": "IEK ЗВИ-30 UZV1-030-10, колодка клеммная 6-16 мм² 12 пар",
+   "unit_price": 234.85,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Русский Свет rs24",
+     "price": 234.85,
+     "url": "https://rs24.ru/product/212855"
+    },
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 257.0,
+     "url": "https://www.elektro.ru/product/kolodka_klemmnaya_zvi-30_6-16mm2_12par_iek_uzv1-030-10/"
+    },
+    {
+     "seller": "Сатурн (ЗВИ-30 1,5-10)",
+     "price": 188.0,
+     "url": "https://ore.saturn.net/product/klemmnaya-kolodka-zvi-30-15-10-kvmm-12-sektsiy-380v-100os-ng/"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 148,
+   "product": "IEK ЗОИ 16-95/2,5-35 UZA-11-D02-D35, зажим ответвительный изолированный прокалывающий",
+   "unit_price": 252.94,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Лемана ПРО",
+     "price": 234.0,
+     "url": "https://lemanapro.ru/product/zazhim-otvetvitelnyy-izolirovannyy-iek-zoi-16-95-25-35-mm-12920066/"
+    },
+    {
+     "seller": "Электрон el.ru",
+     "price": 257.0,
+     "url": "https://www.el.ru/catalogue/cable-systems/45/311/"
+    },
+    {
+     "seller": "Viko Store",
+     "price": 252.94,
+     "url": "https://viko.store/zazhim-prokalyvayushchiy-izolirovannyy-iek-zoi-16-95-2-5-35-/"
+    },
+    {
+     "seller": "Минимакс",
+     "price": 136.0,
+     "url": "https://www.minimaks.ru/product/zazhim-otvetvitelnyy-izolirovannyy-zoi-16-95-2-5-35-p-645-p2x-95-sliw15-1-iek-uza-11-d02-d35/"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": "ТЗ: размер головки 10 мм, момент 13 Нм — у IEK указано 15 Нм (el.ru) / головка 13 мм? сверить по паспорту."
+  },
+  {
+   "n": 149,
+   "product": "IEK ЗОИ 16-95/2,5-35 UZA-11-D02-D35",
+   "unit_price": 252.94,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Лемана ПРО",
+     "price": 234.0,
+     "url": "https://lemanapro.ru/product/zazhim-otvetvitelnyy-izolirovannyy-iek-zoi-16-95-25-35-mm-12920066/"
+    },
+    {
+     "seller": "Электрон el.ru",
+     "price": 257.0,
+     "url": "https://www.el.ru/catalogue/cable-systems/45/311/"
+    },
+    {
+     "seller": "Viko Store",
+     "price": 252.94,
+     "url": "https://viko.store/zazhim-prokalyvayushchiy-izolirovannyy-iek-zoi-16-95-2-5-35-/"
+    },
+    {
+     "seller": "Минимакс",
+     "price": 136.0,
+     "url": "https://www.minimaks.ru/product/zazhim-otvetvitelnyy-izolirovannyy-zoi-16-95-2-5-35-p-645-p2x-95-sliw15-1-iek-uza-11-d02-d35/"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 150,
+   "product": "ЗЭТАРУС сальник PG29 пластик 18-25 мм IP68 серый (альт. Промрукав PG29 IP68 18-25 чёрный)",
+   "unit_price": 56.3,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Гофроматик/zkabel (ЗЭТАРУС)",
+     "price": 56.3,
+     "url": "https://www.zkabel.ru/catalog/kabelnye-vvody-i-komplektujushhie/kabelnye-vvody-plastikovye/kabelnye-vvody-s-rezboy-pg_1/salnik-pg-29-plastik-18-25mm-ip68-seryy-zetarus/"
+    },
+    {
+     "seller": "Промрукав (уп.10)",
+     "price": 126.12,
+     "url": "https://www.promrukav.ru/catalog/kabelnye-vvody-salniki/kabelnyy-vvod-salnik-pg-29-ip68-d-otverstiya-18-25-mm-chernyy-10-sht-up-promrukav/"
+    },
+    {
+     "seller": "Техэнерго (опт)",
+     "price": 30.17,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00101788"
+    }
+   ],
+   "supplier_for_kp": "ЗЭТА (zeta.ru) / Промрукав",
+   "note": "Диаметр установки 37 мм (резьба PG29) — соответствует."
+  },
+  {
+   "n": 151,
+   "product": "EKF PROxima plc-pg-25, сальник PG25 16-21 мм IP54",
+   "unit_price": 44.49,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 44.49,
+     "url": "https://www.etm.ru/cat/nn/9764845"
+    },
+    {
+     "seller": "Престиж",
+     "price": 39.0,
+     "url": "https://www.prestig.ru/catalog/element/salnik-pg-25-diametr-kabelya-16-21-ip54/"
+    },
+    {
+     "seller": "АВС-Электро",
+     "price": 40.28,
+     "url": "https://avselectro.ru/catalog/nizkovoltnoe-oborudovanie/shchitovoe-oborudovanie-i-nku/aksessuary-dlya-shchitov-i-shkafov/salniki-i-kabelnye-vvody/103985"
+    }
+   ],
+   "supplier_for_kp": "EKF / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 152,
+   "product": "EKF PROxima plc-mg-20, сальник MG20 9-14 мм IP68",
+   "unit_price": 54.56,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ekf-rus.ru",
+     "price": 54.56,
+     "url": "https://www.ekf-rus.ru/product/ekf_plc-mg-20/11926"
+    },
+    {
+     "seller": "Рос-Электрик",
+     "price": 51.96,
+     "url": "https://www.ros-electric.ru/product/salnik_mg20_ip68_d_otverstiya_20mm_d_provodnika_9_14mm_ekf/"
+    }
+   ],
+   "supplier_for_kp": "EKF",
+   "note": ""
+  },
+  {
+   "n": 153,
+   "product": "EKF PROxima plc-mg-25, сальник MG25 13-18 мм IP68",
+   "unit_price": 71.24,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF (РРЦ)",
+     "price": 85.0,
+     "url": "https://ekfgroup.com/ru/catalog/products/salnik-mg25-ip68-d-otverstiya-25mm-d-provodnika-13-18mm-ekf-proxima"
+    },
+    {
+     "seller": "shop220",
+     "price": 70.12,
+     "url": "https://shop220.ru/plc-mg-25-salnik-mg25-ip68-d-otverstiya-25mm-d-provodnika-13-18mm-ekf-proxima.htm"
+    },
+    {
+     "seller": "e-kc.ru",
+     "price": 71.24,
+     "url": "https://e-kc.ru/cena/salnik-mg25-ip68-ekf-plc-mg-25"
+    },
+    {
+     "seller": "ЭКС (IEK YSA10-18-25-68-K02)",
+     "price": 44.59,
+     "url": "https://www.elektro.ru/product/salnik_mg_25_diametr_provodnika_13-18mm_ip68_iek_ysa10-18-25-68-k02/"
+    }
+   ],
+   "supplier_for_kp": "EKF / IEK",
+   "note": ""
+  },
+  {
+   "n": 154,
+   "product": "ВЭТП «Свет» (Витебск) В16-001, вилка каучуковая прямая с з/к 16А 250В IP44",
+   "unit_price": 104.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Сима-ленд (опт)",
+     "price": 81.0,
+     "url": "https://www.sima-land.ru/4652074/vilka-perenosnaya-v16-001-16-a-250-v-ip44-s-z-k-kauchuk-sinyaya/"
+    },
+    {
+     "seller": "Аксиома (Свет Витебск)",
+     "price": 104.0,
+     "url": "https://myacsioma.ru/catalogue/elektroustanovochnye_i_montazhnye_izdeliya/vilki/prochie/vilka_pryamaya_kauchuk_v_16-001_16a_250v_svet_vitebsk.html"
+    },
+    {
+     "seller": "СПб-Элемент",
+     "price": 126.0,
+     "url": "https://www.spb-element.ru/b16-001-250v-16a-black-c.html"
+    },
+    {
+     "seller": "Лемана ПРО Челябинск",
+     "price": 168.0,
+     "url": "https://chelyabinsk.lemanapro.ru/product/vilka-shtepselnaya-v16-001-ip44-250-v-cvet-chernyy-82336756/"
+    }
+   ],
+   "supplier_for_kp": "ВЭТП Свет / дилеры",
+   "note": "Производство РБ."
+  },
+  {
+   "n": 155,
+   "product": "В16-301 вилка угловая с з/к 16А 250В белая с кембриком (Белая Церковь/УТОС) или EKF PROxima угловая с з/к",
+   "unit_price": 72.25,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Чипак71 (В16-301)",
+     "price": 60.0,
+     "url": "https://www.chipak71.ru/catalog/elektrika/udliniteli_komplektuyushchie/vilki_kolodki_troyniki/vilka_v16_301_16a_250v_belaya_tserkov_uglovaya_s_zazemleniem_belaya_kembrik/"
+    },
+    {
+     "seller": "Aladdin",
+     "price": 72.25,
+     "url": "https://aladdin-rus.com/8-elektrooborudovanie/vilka-uglovaya-s-zazemleniem-16a/"
+    },
+    {
+     "seller": "EKF РРЦ",
+     "price": 93.0,
+     "url": "https://ekfgroup.com/ru/catalog/products/vilka-uglovaya-s-z-bel-16a-250v-ekf-proxima"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / TDM / EKF",
+   "note": "Оригинал В16-301 — производство Украины (УТОС), поставки в РФ сомнительны; закладывать аналог РФ."
+  },
+  {
+   "n": 156,
+   "product": "ВЭТП «Свет» В16-001, вилка каучуковая прямая с з/к 16А 250В IP44",
+   "unit_price": 104.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Сима-ленд (опт)",
+     "price": 81.0,
+     "url": "https://www.sima-land.ru/4652074/vilka-perenosnaya-v16-001-16-a-250-v-ip44-s-z-k-kauchuk-sinyaya/"
+    },
+    {
+     "seller": "Аксиома (Свет Витебск)",
+     "price": 104.0,
+     "url": "https://myacsioma.ru/catalogue/elektroustanovochnye_i_montazhnye_izdeliya/vilki/prochie/vilka_pryamaya_kauchuk_v_16-001_16a_250v_svet_vitebsk.html"
+    },
+    {
+     "seller": "СПб-Элемент",
+     "price": 126.0,
+     "url": "https://www.spb-element.ru/b16-001-250v-16a-black-c.html"
+    },
+    {
+     "seller": "Лемана ПРО Челябинск",
+     "price": 168.0,
+     "url": "https://chelyabinsk.lemanapro.ru/product/vilka-shtepselnaya-v16-001-ip44-250-v-cvet-chernyy-82336756/"
+    }
+   ],
+   "supplier_for_kp": "ВЭТП Свет / дилеры",
+   "note": "Дубль п.154."
+  },
+  {
+   "n": 157,
+   "product": "Texenergo ВТФ-6А VTF-06 (te00430210), вставка плавкая 6А",
+   "unit_price": 22.94,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 22.94,
+     "url": "https://www.elektro.ru/product/vstavka_plavkaya_vtf-_6a_texenergo_vtf-06_1/"
+    },
+    {
+     "seller": "Texenergo (каталог)",
+     "price": 14.8,
+     "url": "https://www.texenergo.com/products/texenergo/VTF-06"
+    },
+    {
+     "seller": "МСКСНАБ (без НДС)",
+     "price": 17.0,
+     "url": "https://msksnab.ru/p48580696-plavkaya-vstavka-vtf.html"
+    }
+   ],
+   "supplier_for_kp": "Техэнерго",
+   "note": ""
+  },
+  {
+   "n": 158,
+   "product": "TDM ЗКИ 5А 46мм в изоляции SQ0541-0003 (красн.)/SQ0541-0004 (черн.), уп. 10 шт",
+   "unit_price": 82.0,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Чип и Дип",
+     "price": 83.0,
+     "url": "https://www.chipdip.ru/product/sq0541-0003"
+    },
+    {
+     "seller": "TDM (tdme.ru)",
+     "price": 81.0,
+     "url": "https://tdme.ru/category/Zaghimy_Krokodil"
+    },
+    {
+     "seller": "Доминго",
+     "price": 82.0,
+     "url": "https://domingo.su/product/zajim-krokodil-tdm-zki-5a-46mm-krasnyy-10sht-1520005/"
+    }
+   ],
+   "supplier_for_kp": "TDM Electric",
+   "note": "Цена за упаковку 10 шт (ед. ТЗ — УПК). TDM пакует одним цветом — для 50/50 брать красн.+черн. упаковки; ТЗ противоречит: 46 мм в наименовании, 52 мм в описании."
+  },
+  {
+   "n": 159,
+   "product": "IEK ЗВИ-3 UZV3-003-04, колодка клеммная 1-2,5 мм² 12 пар",
+   "unit_price": 55.0,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "IEK (shop.iek.ru)",
+     "price": 55.0,
+     "url": "https://shop.iek.ru/"
+    },
+    {
+     "seller": "Фаворит-Электро",
+     "price": 62.74,
+     "url": "https://favorit-el.ru/catalog/klemma-zvi-3-1-0-2-5mm2-vintovoy-zazhim-12par-uzv3-003-04.html"
+    },
+    {
+     "seller": "e-kc.ru",
+     "price": 42.46,
+     "url": "https://e-kc.ru/cena/kolodka-klemmnaja-zvi-3-12h2-5mm-pvh-iek-uzv3-003-04"
+    }
+   ],
+   "supplier_for_kp": "IEK",
+   "note": ""
+  },
+  {
+   "n": 160,
+   "product": "TDM У-614М IP54 SQ1406-0001, коробка клеммная металл., 10 зажимов, PG-сальники",
+   "unit_price": 2030.0,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Земи (zemi.ru)",
+     "price": 2030.0,
+     "url": "https://www.zemi.ru/catalog/korobki_i_yashchiki_montazhnye/korobki_klemmnye/korobka_u614/66296/"
+    },
+    {
+     "seller": "Светиток",
+     "price": 1490.0,
+     "url": "https://svetitok.ru/23687/41234/41706/50996"
+    },
+    {
+     "seller": "TDM (tdme.ru)",
+     "price": 2218.0,
+     "url": "https://tdme.ru/category/Korobki_klemmnye_metallicheskie"
+    }
+   ],
+   "supplier_for_kp": "TDM / ЗЭТА (Гофроматик) / Электротехник (Кашин)",
+   "note": "ТУ 3434-002-01395331-2006 в ТЗ — проверить, чей ТУ (вероятно ЭЛЕКТРОТЕХНИК/иной завод); у ЗЭТА У614А ~3014 ₽."
+  },
+  {
+   "n": 161,
+   "product": "TDM У-615М IP54 SQ1406-0002, коробка клеммная металл., 20 зажимов, PG-сальники",
+   "unit_price": 2155.0,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 2155.0,
+     "url": "https://www.elektro.ru/catalog/detail/korobka_klemmnaya_metallicheskaya_u-615m_ip54_tdm/"
+    },
+    {
+     "seller": "TDM (tdme.ru)",
+     "price": 2788.0,
+     "url": "https://tdme.ru/category/Korobki_klemmnye_metallicheskie"
+    },
+    {
+     "seller": "Электротехник ET003156 (У-615 IP54 PG)",
+     "price": 4267.75,
+     "url": "https://www.elektrotehnik.ru/catalog/korobki_klemmnye_s_nabornymi_zazhimami/u_615_u2_20_klemm_ip54_plastikovye_vvody_pg_korobka_klemmnaya_et/"
+    }
+   ],
+   "supplier_for_kp": "TDM / Электротехник",
+   "note": "Низкие цены 864–904 ₽ (zemi) сомнительны — не учтены."
+  },
+  {
+   "n": 162,
+   "product": "TDM СИЗ-5 5-20 мм² красный SQ0519-0005, уп. 100 шт",
+   "unit_price": 243.94,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "TDM Electric (офиц.)",
+     "price": 243.94,
+     "url": "https://tdmelectric.ru/collection/zazhimy/product/soiedinitielnyi-izoliruiushchii-zazhim-siz-5-20-mm2-krasnyi-100-sht-tdm"
+    },
+    {
+     "seller": "Техэнерго ZSI-5K04 (опт, уп.100)",
+     "price": 363.78,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00301675"
+    }
+   ],
+   "supplier_for_kp": "TDM / Техэнерго",
+   "note": "Цена за упаковку 100 шт."
+  },
+  {
+   "n": 163,
+   "product": "Texenergo КС-10/4/10 IP65 (MG20-2, MG25-2, БЗ26-4П25-10) te00124343, коробка соединительная сталь 25А",
+   "unit_price": 1242.0,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "elec.ru маркет",
+     "price": 1242.0,
+     "url": "https://www.elec.ru/market/korobka-soedinitelnaja-ks-10-ip65-4-salnika-14945531590.html"
+    },
+    {
+     "seller": "Техэнерго (опт)",
+     "price": 1300.0,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00124343"
+    },
+    {
+     "seller": "ВЗЭМИ КС-10 IP65 25А (MG20-2, MG25-1)",
+     "price": 1230.0,
+     "url": "https://xn--b1akdp8f.xn--p1ai/catalog/klemmnye-korobki-iz-metalla-i-plastika/korobki-soedinitedlnye-ks/ks-10-ip65-25a-s-salnikami-mg20-2sht-mg25-2sht/"
+    }
+   ],
+   "supplier_for_kp": "Техэнерго / ВЗЭМИ",
+   "note": "Габарит 170х200 по ТЗ — сверить."
+  },
+  {
+   "n": 164,
+   "product": "ЭРА KOR 65х65х40 IP54 серая, 4 гермоввода, ОП",
+   "unit_price": 46.62,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "DN.ru",
+     "price": 46.62,
+     "url": "https://dn.ru/elektrika/kabelenesushchie-sistemy/raspredelitelnye-i-montazhnye-korobki/raspredelitelnye-korobki/era/kor-raspayachnaya-dlya-otkrytoj-provodki-ip54/65x65x40-mm-seryj-s-germovvodami"
+    },
+    {
+     "seller": "Кристалл-Электро Киров (без бренда)",
+     "price": 28.47,
+     "url": "https://kristall43.ru/catalog/elektroustanovochnye_izdeliya/korobka_dlya_naruzhnogo_montazha/korobka_kvadrat_65_65_40_seryy_ip54_/"
+    }
+   ],
+   "supplier_for_kp": "ЭРА / Кристалл-Электро",
+   "note": ""
+  },
+  {
+   "n": 165,
+   "product": "IEK КМ41256 UKO31-100-100-050-K03-54, коробка распаячная ОП 100х100х50 IP54, 8 вводов, серая",
+   "unit_price": 78.79,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "e-kc.ru (IEK)",
+     "price": 78.79,
+     "url": "https://e-kc.ru/cena/korobka-raspayachnaya-op-100h100h50-ip54-km41256-otkid-kryshka-8-vvodov-7035-iek-uko31-100-100-050-k03-54-iek"
+    },
+    {
+     "seller": "МЕТР (UPLAST)",
+     "price": 101.0,
+     "url": "https://metrstroi.ru/catalog/korobki_montazhnye_i_raspredelitelnye/korobka_raspayachnaya_op_100kh100kh50_ip54_8_vvodov_uplast/"
+    },
+    {
+     "seller": "Гиперснаб",
+     "price": 54.3,
+     "url": "https://hypersnab.ru/product/korobka-raspredelitelnaya-100kh100kh50-otkrytoy-ustanovki-ip54-835/"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 166,
+   "product": "КЭАЗ ПН 01-10-У3 (арт. 310927), патрон предохранителя 10 кВ (D55, L212)",
+   "unit_price": 809.42,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 809.42,
+     "url": "https://www.etm.ru/cat/nn/4832920"
+    },
+    {
+     "seller": "ЭЛПРОМ",
+     "price": 939.0,
+     "url": "https://www.elprom-st.ru/predohraniteli-0-4-10-kv/vysokovoltnye-predohraniteli/patrony-pt-k-vysokovoltnym-predohranitelyam-plavkie-vstavki/"
+    },
+    {
+     "seller": "КЭАЗ (офиц., со скидкой)",
+     "price": 1604.0,
+     "url": "https://keaz.ru/catalog/product/310927"
+    }
+   ],
+   "supplier_for_kp": "КЭАЗ (keaz.ru) / ЭТМ",
+   "note": "ТЗ называет 'низковольтный', но параметры 10 кВ — это патрон ПН 01-10 (к ПКН 001-10). Номинальный ток патрона в ТЗ не указан — уточнить. Если нужен полный предохранитель ПКН 001-10 У3 — ЭТМ 3358 ₽."
+  },
+  {
+   "n": 167,
+   "product": "Feron LH01 (22327) / Navigator 71601, патрон E27 керамический подвесной",
+   "unit_price": 35.7,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (Feron LH01)",
+     "price": 35.7,
+     "url": "https://www.etm.ru/cat/nn/9828752"
+    },
+    {
+     "seller": "ЭТМ (Navigator 71601)",
+     "price": 26.44,
+     "url": "https://www.etm.ru/cat/nn/7745470"
+    },
+    {
+     "seller": "Сатурн",
+     "price": 31.0,
+     "url": "https://msk.saturn.net/product/patron-e27-keramicheskiy-podvesnoy-4a-230v-kontakti-med/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / Feron",
+   "note": "'LH' — обозначение Feron LH (LH01)."
+  },
+  {
+   "n": 168,
+   "product": "EKF PROxima РДЕ-47 RDE4716 (mdse-47-pro), розетка на DIN-рейку с з/к 16А",
+   "unit_price": 379.97,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Кристалл-Электро (Киров)",
+     "price": 379.97,
+     "url": "https://kristall43.ru/catalog/nizkovoltnoe_oborudovanie_schetchiki_molniezashchita_razemy_klemmniki/razemy_silovye/rozetka_shchitovaya/122200/"
+    },
+    {
+     "seller": "EKF Маркет",
+     "price": 381.0,
+     "url": "https://ekf.market/catalog/products/rde4716/"
+    },
+    {
+     "seller": "ekf-electric.ru",
+     "price": 297.03,
+     "url": "https://ekf-electric.ru/EKF/rozetka-rde-47-16a/"
+    },
+    {
+     "seller": "Электрон el.ru",
+     "price": 398.0,
+     "url": "https://www.el.ru/catalogue/switchboards/49/1135/"
+    }
+   ],
+   "supplier_for_kp": "EKF / Кристалл-Электро (Киров)",
+   "note": "Точное совпадение, эквивалент не требуется."
+  },
+  {
+   "n": 169,
+   "product": "Мастер-свет 80С-220-2 4-80 Вт, стартер одиночного подключения",
+   "unit_price": 10.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Метизавр (Мастер-свет)",
+     "price": 10.0,
+     "url": "https://metizavr.ru/products/starter-80s-220-2-4-80vt-odinochnoe-podklyuchenie-master-svet-00078-1sht-1053/"
+    },
+    {
+     "seller": "ЭТМ",
+     "price": 9.32,
+     "url": "https://www.etm.ru/cat/nn/72470000"
+    },
+    {
+     "seller": "Строймат (опт)",
+     "price": 7.33,
+     "url": "https://stroymat.msk.ru/product/starter-80s-220-2-4-80vt-odinochnoe-podklyuchenie"
+    }
+   ],
+   "supplier_for_kp": "Мастер-свет / ЭТМ",
+   "note": "ЭТМ отмечает 'не поставляется' — наличие 300 шт уточнить. Позиции 169–171 дублируются (по 100 шт)."
+  },
+  {
+   "n": 170,
+   "product": "Мастер-свет 80С-220-2 4-80 Вт, стартер одиночного подключения",
+   "unit_price": 10.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Метизавр (Мастер-свет)",
+     "price": 10.0,
+     "url": "https://metizavr.ru/products/starter-80s-220-2-4-80vt-odinochnoe-podklyuchenie-master-svet-00078-1sht-1053/"
+    },
+    {
+     "seller": "ЭТМ",
+     "price": 9.32,
+     "url": "https://www.etm.ru/cat/nn/72470000"
+    },
+    {
+     "seller": "Строймат (опт)",
+     "price": 7.33,
+     "url": "https://stroymat.msk.ru/product/starter-80s-220-2-4-80vt-odinochnoe-podklyuchenie"
+    }
+   ],
+   "supplier_for_kp": "Мастер-свет / ЭТМ",
+   "note": "ЭТМ отмечает 'не поставляется' — наличие 300 шт уточнить."
+  },
+  {
+   "n": 171,
+   "product": "Мастер-свет 80С-220-2 4-80 Вт, стартер одиночного подключения",
+   "unit_price": 10.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Метизавр (Мастер-свет)",
+     "price": 10.0,
+     "url": "https://metizavr.ru/products/starter-80s-220-2-4-80vt-odinochnoe-podklyuchenie-master-svet-00078-1sht-1053/"
+    },
+    {
+     "seller": "ЭТМ",
+     "price": 9.32,
+     "url": "https://www.etm.ru/cat/nn/72470000"
+    },
+    {
+     "seller": "Строймат (опт)",
+     "price": 7.33,
+     "url": "https://stroymat.msk.ru/product/starter-80s-220-2-4-80vt-odinochnoe-podklyuchenie"
+    }
+   ],
+   "supplier_for_kp": "Мастер-свет / ЭТМ",
+   "note": "ЭТМ отмечает 'не поставляется' — наличие 300 шт уточнить."
+  },
+  {
+   "n": 172,
+   "product": "КВТ СМК 222-412 (арт. 87632), клемма с рычажком 2 пров. 0,08-4 мм², 32А",
+   "unit_price": 12.42,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "KVT-RUS (офиц.)",
+     "price": 12.42,
+     "url": "https://www.kvt-rus.ru/category/stroitelnye-klemmy-smk/334"
+    },
+    {
+     "seller": "KVT-PRO",
+     "price": 12.1,
+     "url": "https://kvt-pro.ru/mufty-nakonechniki/izolirovannye-zazhimy-i-klemmy-wago/klemmy-wago/seriya-222/87632-222-412-miniatiurnye-klemmy-smk"
+    },
+    {
+     "seller": "Ремитек",
+     "price": 9.38,
+     "url": "https://remitek.ru/dir_wago.htm"
+    }
+   ],
+   "supplier_for_kp": "КВТ (Калуга)",
+   "note": "СМК 222-xxx — марка КВТ (аналог WAGO 222). Оригинал WAGO 222-412 ЭТМ 52,43 ₽."
+  },
+  {
+   "n": 173,
+   "product": "КВТ СМК 222-413 (арт. 87633), клемма с рычажком 3 пров.",
+   "unit_price": 18.06,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "KVT-RUS (офиц.)",
+     "price": 18.06,
+     "url": "https://www.kvt-rus.ru/category/stroitelnye-klemmy-smk/334"
+    },
+    {
+     "seller": "KVT-PRO",
+     "price": 17.52,
+     "url": "https://kvt-pro.ru/mufty-nakonechniki/izolirovannye-zazhimy-i-klemmy-wago/klemmy-wago/seriya-222/87633-222-413-miniatiurnye-klemmy-smk"
+    },
+    {
+     "seller": "Ремитек",
+     "price": 13.64,
+     "url": "https://remitek.ru/goods_klemma-universalnaya-smk-222-413-300764.htm"
+    }
+   ],
+   "supplier_for_kp": "КВТ",
+   "note": ""
+  },
+  {
+   "n": 174,
+   "product": "КВТ СМК 222-415 (арт. 87634), клемма с рычажком 5 пров.",
+   "unit_price": 24.72,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "KVT-RUS (офиц.)",
+     "price": 24.72,
+     "url": "https://www.kvt-rus.ru/category/stroitelnye-klemmy-smk/334"
+    },
+    {
+     "seller": "KVT-PRO",
+     "price": 24.61,
+     "url": "https://kvt-pro.ru/mufty-nakonechniki/izolirovannye-zazhimy-i-klemmy-wago/klemmy-wago/seriya-222/87634-222-415-miniatiurnye-klemmy-smk"
+    },
+    {
+     "seller": "Радиоэлементы",
+     "price": 24.77,
+     "url": "https://www.radioelementy.ru/catalog/importnye-radiokomponenty/c0067119/smk-222-415/"
+    }
+   ],
+   "supplier_for_kp": "КВТ",
+   "note": ""
+  },
+  {
+   "n": 175,
+   "product": "Эквивалент: МПП У1С-4-30, удлинитель на катушке 4 роз. с з/к, ПВС 3х2,5, 30 м, IP44 (Camelion SK 4x30-2.5 в продаже не найден)",
+   "unit_price": 3889.0,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты (МПП У1С-4-30)",
+     "price": 3889.0,
+     "url": "https://www.vseinstrumenti.ru/product/silovoj-udlinitel-mpp-udlinitel-chetyre-rozetki-na-katushke-s-zazemleniem-30-metrov-ip-44-u1s-4-30-4-roz-s-z-pvs-3-2-5-30-m-ip-44-220v-999000000001301-5329447/"
+    },
+    {
+     "seller": "vse-udliniteli.ru (Эксперт ПВС 3х2,5)",
+     "price": 4930.0,
+     "url": "https://vse-udliniteli.ru/product/udlinitel-na-katushke-30-m-4-rozetki-3-2-5-pvs-ekspert/"
+    },
+    {
+     "seller": "Материк-М (SVET УХз-16-4-30-КМ, КГ)",
+     "price": 5100.0,
+     "url": "https://www.materik-m.ru/shop/udlinitel_na_katushke_4_gnezda_30m_kg_3kh2_5_s_zazemleniem_i_kryshkami_ip44_16a_4000vt_svet_ukhz_16_/"
+    }
+   ],
+   "supplier_for_kp": "Camelion (camelion.ru) — запросить артикул SK 4x30-2.5; МПП",
+   "note": "Ближайший Camelion — SR-SL430 (30 м, 1850 ₽, osc-t.ru), но сечение не подтверждено — не принят."
+  },
+  {
+   "n": 176,
+   "product": "МПП У1С-4-30, удлинитель на катушке 4 роз. с з/к, ПВС 3х2,5, 30 м, IP44, 16А",
+   "unit_price": 3889.0,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты",
+     "price": 3889.0,
+     "url": "https://www.vseinstrumenti.ru/product/silovoj-udlinitel-mpp-udlinitel-chetyre-rozetki-na-katushke-s-zazemleniem-30-metrov-ip-44-u1s-4-30-4-roz-s-z-pvs-3-2-5-30-m-ip-44-220v-999000000001301-5329447/"
+    },
+    {
+     "seller": "vse-udliniteli.ru (Эксперт)",
+     "price": 4930.0,
+     "url": "https://vse-udliniteli.ru/product/udlinitel-na-katushke-30-m-4-rozetki-3-2-5-pvs-ekspert/"
+    }
+   ],
+   "supplier_for_kp": "МПП / ВсеИнструменты",
+   "note": "Цена ВсеИнструменты со скидкой 20% (база 4860 ₽)."
+  },
+  {
+   "n": 177,
+   "product": "КВТ СМК 222-414 (арт. 92364), клемма с рычажком 4 пров.",
+   "unit_price": 20.19,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "KVT-PRO",
+     "price": 20.19,
+     "url": "https://kvt-pro.ru/mufty-nakonechniki/izolirovannye-zazhimy-i-klemmy-wago/klemmy-wago/seriya-222/92364-klemma-universalnaia-smk-222-414"
+    },
+    {
+     "seller": "Ремитек",
+     "price": 16.93,
+     "url": "https://remitek.ru/dir_wago.htm"
+    }
+   ],
+   "supplier_for_kp": "КВТ",
+   "note": ""
+  },
+  {
+   "n": 178,
+   "product": "МЛЗ (Могилевлифтмаш) модуль кнопочный АК1-04 «Вентилятор» ВЯАЛ.6618.014(-01)",
+   "unit_price": 735.0,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЛифтКомплект",
+     "price": 735.0,
+     "url": "http://liftcomplete.ru/product/knopka-vyzovaprikaza-mlz-ventiljator-tip-ak1-04-armatura-kommutacionnaja/"
+    },
+    {
+     "seller": "LiftFormat",
+     "price": 950.0,
+     "url": "https://liftformat.ru/magazin/product/knopka-ak1-04-vyaal-6618-014"
+    },
+    {
+     "seller": "NewLiftProject",
+     "price": 994.0,
+     "url": "https://www.nlp-group.ru/catalog/lift/prikaznye-vyzyvnye-indikatory-ukazateli/moduli-knopochnye/39713/"
+    },
+    {
+     "seller": "СнабЛифт (с НДС)",
+     "price": 435.0,
+     "url": "https://snab-lift.ru/catalog/zapchasti-k-liftam/postyi-vyizyivnyie-i-moduli/knopki-dlya-liftov-mlz/knopochnyij-modul-ak1-04-ventilyator.html"
+    }
+   ],
+   "supplier_for_kp": "ОАО «Могилевлифтмаш» (РБ) / лифтовые дилеры",
+   "note": "Запчасть для лифтов МЛЗ; исполнение '-01' (выдавленные символы) соответствует ТЗ."
+  },
+  {
+   "n": 179,
+   "product": "ЧЭАЗ НКР-3 (арт. 5БК135007), накладка контактная разъёмная",
+   "unit_price": 738.0,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЧЭАЗ (офиц. магазин)",
+     "price": 738.0,
+     "url": "https://shop.cheaz.ru/catalog/309/38863/"
+    },
+    {
+     "seller": "Техноторг",
+     "price": 622.0,
+     "url": "https://tekhnotorg.com/catalog/rele/nakladka-nkr-3"
+    },
+    {
+     "seller": "Vivat-sales",
+     "price": 797.0,
+     "url": "https://vivat-sales.ru/product/nakladka-nkr-3"
+    },
+    {
+     "seller": "ЭТМ",
+     "price": 1285.6,
+     "url": "https://www.etm.ru/cat/nn/9761867"
+    }
+   ],
+   "supplier_for_kp": "АО «ЧЭАЗ» (Чебоксары)",
+   "note": ""
+  },
+  {
+   "n": 180,
+   "product": "КВТ Fortisflex ПМО 22х16 (арт. 63096), площадка монтажная под винт для стяжек, уп. 100 шт",
+   "unit_price": 1.6,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (160 ₽/100 шт)",
+     "price": 1.6,
+     "url": "https://www.etm.ru/cat/nn/1394019"
+    },
+    {
+     "seller": "KVT-PRO (138 ₽/100 шт)",
+     "price": 1.38,
+     "url": "https://kvt-pro.ru/mufty-nakonechniki/kabelnye-styazhki-i-aksessuary/dyubel-homuty-samokleyushiesya-ploshadki/pmo/ploshadka-montazhnaya-pmo-22h16cher"
+    },
+    {
+     "seller": "Тзе1 (152 ₽/100 шт)",
+     "price": 1.52,
+     "url": "https://tze1.ru/catalog/krepezh/spetsialnyy-krepezh/montazhnye-ploshchadki/ploshchadki-s-montazhnym-otverstiem-pmo-22h16-ch-fortisflex/"
+    }
+   ],
+   "supplier_for_kp": "КВТ",
+   "note": "Продаётся упаковкой 100 шт (~160 ₽). Ед. ТЗ 'ШТ', кол-во 4 — вероятно имелись в виду упаковки; если упаковки — 160 ₽/уп. Уточнить у заказчика."
+  },
+  {
+   "n": 181,
+   "product": "WAGO 221-413, клемма 3-проводная 0,2-4 мм² (оригинал)",
+   "unit_price": 53.87,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (кратн. 50)",
+     "price": 53.87,
+     "url": "https://www.etm.ru/cat/nn/8303827"
+    },
+    {
+     "seller": "KVT-PRO",
+     "price": 53.96,
+     "url": "https://kvt-pro.ru/mufty-nakonechniki/izolirovannye-zazhimy-i-klemmy-wago/klemmy-wago/seriya-221/87772-klemma-kompaktnaia-rychazhkovaia-universalnaia-wago-221-413-wago"
+    },
+    {
+     "seller": "ВсеИнструменты (уп.20 = 1033 ₽)",
+     "price": 51.65,
+     "url": "https://www.vseinstrumenti.ru/product/klemma-wago-221-413-20-sht-2546-843116/"
+    },
+    {
+     "seller": "Ультралампа",
+     "price": 44.0,
+     "url": "https://ultralampa.ru/catalog/klemmy_wago/221_413_3_32a_450v_wago_221_413/"
+    }
+   ],
+   "supplier_for_kp": "WAGO Контакт (дистрибьюторы ЭТМ/КВТ)",
+   "note": "Эквивалент дешевле: КВТ СМК 221-413 / EKF / IEK ~15–25 ₽."
+  },
+  {
+   "n": 182,
+   "product": "IEK Омега РБ32-1-0м PKR62-016-2-K02, розетка (колодка) 2-м каучуковая с крышками 2х2P+E 16А IP44",
+   "unit_price": 616.92,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "shop220",
+     "price": 616.92,
+     "url": "https://shop220.ru/pkr62-016-2-k02-rozetka-kauchukovaya-dvoynaya-s-kryshkami-2h2pe-16a-250v-ip44-chernaya-rb32-1-0m-omega-ip44.htm"
+    },
+    {
+     "seller": "LEDPremium",
+     "price": 722.24,
+     "url": "https://ledpremium.ru/catalog/kauchukovye-razemy/rozetka_kolodka_2_m_omega_rb32_1_0m_s_zashch_kryshkoy_ip44_kauchuk_iek_pkr62_016_2_k02/"
+    },
+    {
+     "seller": "ВамСвет",
+     "price": 886.0,
+     "url": "https://www.vamsvet.ru/catalog/product/rozetka_kolodka_2_mestnaya_rb32_1_0m_s_zashchitnymi_kryshkami_ip44_omega_kauchuk_iek_pkr62_016_2_k02/"
+    },
+    {
+     "seller": "Электролайт (от 20 тыс.)",
+     "price": 487.72,
+     "url": "https://www.elektrolight.ru/rozetki-i-vyklyuchateli/rozetka-dvukhmestnaya-kauchuk-rb32-1-0m-ip44-pkr62-016-2-k02/"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": ""
+  }
+ ],
+ "makers": [
+  {
+   "name": "ПАО «ИЭК ХОЛДИНГ» (IEK GROUP)",
+   "inn": "5074092485",
+   "city": "Подольск / Москва",
+   "site": "iek.ru",
+   "phone": "+7 (495) 542-22-22",
+   "email": "info@iek.ru (тех. поддержка helptd@iek.ru)",
+   "closes": "123,129,132,135,140,146,147,148,149,159,165,182",
+   "verified": true,
+   "note": "ИНН — Saby+RAEX; телефон — iek.ru/contacts + профиль ok.ru. Email info@iek.ru только с iek.ru."
+  },
+  {
+   "name": "АО «Систэм Электрик» (Systeme Electric, ex-Schneider Electric: Этюд, Хит)",
+   "inn": "7712092928",
+   "city": "Москва",
+   "site": "systeme.ru",
+   "phone": "8 800 200 64 46",
+   "email": "support@systeme.ru",
+   "closes": "126,127,130,131,133,134,136,138",
+   "verified": true,
+   "note": "ИНН — companies.rbc.ru + systeme.ru/contacts; телефон 8-800-200-64-46 — systeme.ru + 2ГИС (частично). Email только с сайта."
+  },
+  {
+   "name": "ООО «Электрорешения» (EKF)",
+   "inn": "7721403552 (не подтверждён)",
+   "city": "Москва",
+   "site": "ekfgroup.com",
+   "phone": "8 800 333-88-15",
+   "email": "911@ekf.su",
+   "closes": "137,151,152,153,168 (+аналоги 140,155)",
+   "verified": false,
+   "note": "Телефон и email только с ekfgroup.com/ru/contacts; ИНН по URL Saby, в тексте не подтверждён."
+  },
+  {
+   "name": "TDM ELECTRIC",
+   "inn": "",
+   "city": "Москва",
+   "site": "tdme.ru / tdmelectric.ru",
+   "phone": "+7 (800) 700-63-26; +7 (495) 640-32-14",
+   "email": "",
+   "closes": "145,158,160,161,162 (+125)",
+   "verified": false,
+   "note": "Контакты только с tdme.ru; ИНН не найден."
+  },
+  {
+   "name": "КВТ (Электротехнический завод, Калуга) / дилер kvt-rus.ru",
+   "inn": "9705198797 (дилер ООО на kvt-rus.ru)",
+   "city": "Калуга / Москва",
+   "site": "kvt.su; kvt-rus.ru",
+   "phone": "+7 (4842) 92-65-69 (завод, productcenter); +7 (495) 431-16-66 (kvt-rus.ru)",
+   "email": "info@kvt-rus.ru",
+   "closes": "172,173,174,177,180,181",
+   "verified": false,
+   "note": "Каждый контакт подтверждён одним источником; сайт kvt.su через прокси не открылся."
+  },
+  {
+   "name": "ЭТМ (ООО «ЭТМ», дистрибьютор, есть филиал в Кирове)",
+   "inn": "",
+   "city": "Санкт-Петербург / Киров",
+   "site": "etm.ru",
+   "phone": "8 (800) 775-17-71",
+   "email": "",
+   "closes": "почти все: 123,124,126,128,132,135,139,148,151,165,166,167,172–174,179,181 и др.",
+   "verified": false,
+   "note": "Телефон только с etm.ru; ИНН и адрес кировского филиала не подтверждены."
+  },
+  {
+   "name": "Кристалл-Электро (Киров)",
+   "inn": "",
+   "city": "Киров (ул. Щорса, 68г — по вакансии hh.ru)",
+   "site": "kristall43.ru",
+   "phone": "8 800 201-68-50",
+   "email": "help@kristall43.ru",
+   "closes": "164,168 + ассортимент IEK/EKF/TDM",
+   "verified": false,
+   "note": "Местный поставщик для поставки в Киров; телефон/email только с сайта, адрес — hh.ru."
+  },
+  {
+   "name": "АО «ЧЭАЗ» (Чебоксарский электроаппаратный завод)",
+   "inn": "",
+   "city": "Чебоксары",
+   "site": "cheaz.ru / shop.cheaz.ru",
+   "phone": "+7 (8352) 39-52-65",
+   "email": "shop@cheaz.ru",
+   "closes": "179 (также КЭАЗ, keaz.ru, 8-800-777-94-62 — поз.166)",
+   "verified": false,
+   "note": "Контакты только с сайтов завода."
+  }
+ ],
+ "risks": [
+  "Все цены — из выдачи поиска и витрин магазинов (ноябрь 2026); даты обновления части карточек неизвестны, часть цен для авторизованных юрлиц. Перед подачей перепроверить 10–15 крупнейших по сумме позиций (стартеры 300 шт, ЭПРА 30 шт, У-614/615, ЗОИ, удлинители, РСб20/22).",
+  "Противоречия в ТЗ: п.127 ВА16-131 — это 6А, а не 16А; п.136 PA16-003B — открытая установка, а в описании 'скрытый'; п.131 RA16-234 без шторок, а ТЗ требует шторки; п.135 'шторки нет' у ФОРС; п.140 наименование 'розетка', описание 'вилка'; п.158 46 мм vs 52 мм; п.166 'низковольтный', но параметры 10 кВ (патрон ПН 01-10). Нужен запрос разъяснений.",
+  "Ед. изм.: п.158, 162 — цена за упаковку (УПК); п.180 ПМО 22х16 продаётся упаковкой 100 шт — цена указана за 1 шт (1,60 ₽), при кол-ве 4 вероятно имелись в виду упаковки (160 ₽/уп).",
+  "п.175 Camelion SK 4x30-2.5 в рознице не найден — заложен эквивалент МПП У1С-4-30 (ПВС 3х2,5, 30 м, 4 роз., IP44).",
+  "Стартеры 80С-220-2 (п.169–171, 300 шт) — ЭТМ пишет 'не поставляется'; наличие у Мастер-свет нужно подтвердить. Позиции 169–171 и 148/149, 154/156, 123/132/135 — дубли.",
+  "Происхождение: БелТИЗ (п.139), ВЭТП Свет (п.154/156), МЛЗ (п.178) — Беларусь; В16-301 (п.155) — Украина (поставки затруднены) — закладывать российский аналог.",
+  "НДС: у ряда позиций (вилки, крокодилы REXANT, стартеры, РА16-234, АК1-04, ЭРА KOR) НДС в источнике не указан (vat='неизвестно').",
+  "Контакты производителей: двумя источниками подтверждены только IEK и Систэм Электрик; остальным нужна проверка по ЕГРЮЛ."
+ ]
+}
