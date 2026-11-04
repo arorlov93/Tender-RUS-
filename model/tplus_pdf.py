@@ -115,7 +115,12 @@ h.append("</table><h2>6. Риски</h2><ul>" + "".join(f"<li>{e(r)[:230]}</li>"
 
 m_base10 = (NMC_NV * 0.9 - C_base - DELIV) / (NMC_NV * 0.9)
 m_pess10 = (NMC_NV * 0.9 - C_pess - DELIV) / (NMC_NV * 0.9)
-VERD = os.environ.get("VERDICT") or (f"<b>Вывод:</b> база — маржа при −10 % {m_base10*100:.0f} %, пессимизм — {m_pess10*100:.0f} %.")
+disc = lambda d: (NMC_NV * 0.9 - C_base * (1 - d) - DELIV) / (NMC_NV * 0.9) * 100
+VERD = (f"<b>Вывод: НЕ ИДЁМ по розничным ценам.</b> Найдено {len(pri)} из {len(rows)} позиций; рынок с НДС = {k_pr*100:.0f} % НМЦ без НДС. "
+        f"Себестоимость ≈{f(C_base + DELIV)} против {f(NMC_NV)} без НДС: маржа по НМЦ {(NMC_NV - C_base - DELIV) / NMC_NV * 100:.0f} %, при −10 % — {m_base10*100:.0f} % (чистая {f(net(NMC_NV*.9, C_base))}). "
+        f"Порог 15 % при −10 % — только если дистрибьюторы (ЭТМ, Техэнерго, ЧЭАЗ, ЧЗПК) дадут ≥20 % скидки от розницы на всю корзину (скидка 10 % → {disc(.1):.0f} %, 15 % → {disc(.15):.0f} %, 20 % → {disc(.2):.0f} %). "
+        f"Чистая даже по НМЦ ≈{f(net(NMC_NV, C_base))} ₽ при 182 SKU, 4 адресах, поставках весь 2027 г. и пенях 0,1 %/день. "
+        "10 противоречий в ТЗ (поз. 10, 35, 59, 70, 116, 119, 127, 131, 135, 140) — нужен запрос разъяснений до 10.11.")
 S = "".join(h).replace("<!--VERDICT-->", f"<div class='box'>{VERD}</div>")
 hp = "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tplus.html"
 open(hp, "w").write(S); html_to_pdf(hp, "../TPLUS_KIROV_32616484848.pdf")
