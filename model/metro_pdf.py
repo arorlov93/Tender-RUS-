@@ -9,7 +9,7 @@ from tidy import tidy
 D = "data/zakupki_0211/tz/deep/"
 IT = json.load(open(D + "metro_items.json"))
 O = {}; SUP = []; RISK = []
-for fn in ("metro_out.json", "metro_out2.json"):
+for fn in ("metro_out.json", "metro_out2.json", "metro_out3.json"):
     if not os.path.exists(D + fn): continue
     d = json.load(open(D + fn))
     for x in d["items"]:
