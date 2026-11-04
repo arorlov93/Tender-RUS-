@@ -1,0 +1,52 @@
+{
+ "items": [
+  {
+   "n": 5,
+   "product": "в работе",
+   "registry": "10549453 (ООО «Фотон+», серия LED T E40) — единственная действующая запись на LED-лампу E40",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "в работе",
+   "sources": [],
+   "note": ""
+  },
+  {
+   "n": 9,
+   "product": "в работе",
+   "registry": null,
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "в работе",
+   "sources": [],
+   "note": ""
+  },
+  {
+   "n": 10,
+   "product": "в работе",
+   "registry": null,
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "в работе",
+   "sources": [],
+   "note": ""
+  },
+  {
+   "n": 11,
+   "product": "Сборка: вилка Filum FL-PLUG-EU-IP44-BK (2P+PE, 16 А, IP44, прямая, чёрная, ТЭП) + провод ПВС 3×2,5 ГОСТ 7399 длиной 3,2 м",
+   "registry": "не требуется (ПП 1875 к поз. 11 не применяется)",
+   "unit_price": null,
+   "vat": "с НДС 22% (xcom-shop)",
+   "match": "в работе",
+   "sources": [
+    {
+     "seller": "xcom-shop.ru — вилка Filum FL-PLUG-EU-IP44-BK",
+     "price": 125.0,
+     "url": "https://www.xcom-shop.ru/filum_fl-plug-eu-ip44-bk_1186586.html"
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "suppliers": [],
+ "risks": []
+}
