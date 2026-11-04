@@ -1,0 +1,1236 @@
+{
+ "items": [
+  {
+   "n": 1,
+   "product": "Пакетный выключатель ПВ 2-10 У3 исп.1 (TEXENERGO, арт. PV2-010F)",
+   "unit_price": 192.94,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 192.94,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00308705"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Альтернатива — ПВ2-10 Электротехник (Кашин). Опт. цена Техэнерго действует от 20 тыс. руб., розница +10%."
+  },
+  {
+   "n": 2,
+   "product": "Пакетный выключатель ПВ 3-16 У1 IP56 пластик (TEXENERGO, PV3-016P)",
+   "unit_price": 577.52,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 577.52,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00016998"
+    },
+    {
+     "seller": "ВсеИнструменты (EKF ПВ 3-16 М1 пл. IP56 pv-3-16-4, по выдаче поиска)",
+     "price": 1145,
+     "url": "https://www.vseinstrumenti.ru/tag-page/pv-3-16-1-1916920/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Цена ВсеИнструменты взята из поисковой выдачи (сайт закрыт для прямой проверки)."
+  },
+  {
+   "n": 3,
+   "product": "Выключатель концевой ВК-300-БР-11-67У2-21 IP67 IEK (KV-1-300-1) / Электротехник",
+   "unit_price": 1344.4,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "e-kc.ru (IEK KV-1-300-1, 68 шт., 04.11.2026)",
+     "price": 1344.4,
+     "url": "https://e-kc.ru/cena/vk-300-br-11-67u2-21-ip67-iek-kv-1-300-1"
+    },
+    {
+     "seller": "e-kc.ru (ВК-300-БР-11-67У2-21 Электротехник, 84 шт.)",
+     "price": 1198.99,
+     "url": "https://e-kc.ru/cena/vk-300-br-11-67u2-21-ip67-iek-kv-1-300-1"
+    },
+    {
+     "seller": "Электроконтактор (Челябинск), с НДС",
+     "price": 1510.2,
+     "url": "https://www.elektrokontaktor.ru/catalog/vyklyuchateli-koncevye-vk/koncevoy-vyklyuchatel-vk-300-br-11-67-u2-21"
+    },
+    {
+     "seller": "Техэнерго (ВК-300-БР-11-67У2 «универсальный», суффикс -21 не указан)",
+     "price": 907.86,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00000931"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "ТЗ: корпус алюминиевый сплав, ролик, 1з+1р — у IEK KV-1-300-1 совпадает."
+  },
+  {
+   "n": 4,
+   "product": "Датчик тока ДТУ-03М (Сибэнергодиагностика, для анализатора УКТ-03М)",
+   "unit_price": 21255,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "КИП-Кр (kipkr.ru), «цена с НДС (20%)»",
+     "price": 21255,
+     "url": "https://www.kipkr.ru/catalog/pribory_kontrolya_sostoyaniya_izolyatorov/dtu_03m/"
+    },
+    {
+     "seller": "ПроПриборы — цена по запросу",
+     "price": null,
+     "url": "https://propribory.ru/product/158753?c=219"
+    }
+   ],
+   "supplier_for_kp": "ООО «Сибэнергодиагностика» / НПО «Промавтоматика» (Екатеринбург), СамараПрибор, ПроПриборы",
+   "note": "Единственная открытая цена; на странице указан НДС 20% (страница, вероятно, не обновлена после перехода на 22%). ЭТМ: «не поставляется». Запросить КП."
+  },
+  {
+   "n": 5,
+   "product": "Блок-контакт КСА-10 исп.3.1.0-90 УХЛ3 (ЗПК Чебоксары / Прогрессэнерго / НЭМЗ)",
+   "unit_price": 2904,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Завод промышленных компонентов (zpk21.ru), прайс КСА-10 базовое/с крышкой 2904/3043",
+     "price": 2904,
+     "url": "https://zpk21.ru/catalog/blok-kontakty-ksa-2-4-6-8-10-12/"
+    },
+    {
+     "seller": "РИЗЭМО (rizemo.ru)",
+     "price": 2000,
+     "url": "https://rizemo.ru/pag7/komplektuyuschie-k-vysokovoltnomu-oborudovaniyu/page3"
+    }
+   ],
+   "supplier_for_kp": "ЗПК (Чебоксары), ООО «Прогрессэнерго» (Чебоксары, +7 8352 756-065), ООО «НЭМЗ» (Новочебоксарск)",
+   "note": "Цены — за базовое исполнение, конкретное исп.3.1.0-90 подтвердить у завода."
+  },
+  {
+   "n": 6,
+   "product": "Блок-контакт КСА-4 исп.3.1.0-90 УХЛ3 (ЗПК Чебоксары / Прогрессэнерго)",
+   "unit_price": 2088,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Завод промышленных компонентов (zpk21.ru), КСА-4 2088/2186 (с крышкой)",
+     "price": 2088,
+     "url": "https://zpk21.ru/catalog/blok-kontakty-ksa-2-4-6-8-10-12/"
+    },
+    {
+     "seller": "РИЗЭМО (rizemo.ru)",
+     "price": 1450,
+     "url": "https://rizemo.ru/pag7/komplektuyuschie-k-vysokovoltnomu-oborudovaniyu/page3"
+    }
+   ],
+   "supplier_for_kp": "ЗПК (Чебоксары), Прогрессэнерго, НЭМЗ",
+   "note": "Исполнение уточнить при заказе."
+  },
+  {
+   "n": 7,
+   "product": "Вилка каучуковая прямая 2P+PE 16А 220В IP44 (TEXENERGO VKP16-001) / IEK ВБп3-1-0м ОМЕГА",
+   "unit_price": 79.38,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 79.38,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00322647"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "У Техэнерго статус «ожидается поступление»."
+  },
+  {
+   "n": 8,
+   "product": "Розетка РА16-214 1-м о/у с з/к с крышкой IP44 белая (Bylectrica «Пралеска Аква»)",
+   "unit_price": 135.5,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 135.5,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00010477"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Точная марка из ТЗ."
+  },
+  {
+   "n": 9,
+   "product": "Вилка каучуковая прямая 2P+PE 16А IP44 (TEXENERGO VKP16-001)",
+   "unit_price": 79.38,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 79.38,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00322647"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 10,
+   "product": "Вилка 025 переносная 3P+PE+N 32А 380В IP44 (TEXENERGO SE025-032Q)",
+   "unit_price": 269.29,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 269.29,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00012985"
+    },
+    {
+     "seller": "Техэнерго — вариант 024 3P+PE (если подразумевалась 4-полюсная)",
+     "price": 209.81,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00010148"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "В ТЗ противоречие: в наименовании 3P+PE, в характеристиках 3P+PE+N. Взята 5-полюсная (025)."
+  },
+  {
+   "n": 11,
+   "product": "Колодка (розетка) 2-местная РБ32-1-0м ОМЕГА с защитными крышками IP44 каучук IEK (PKR62-016-2-K02)",
+   "unit_price": 530,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "XCOM-SHOP (НДС 22% включён)",
+     "price": 530,
+     "url": "https://www.xcom-shop.ru/iek_pkr62-016-2-k02_860097.html"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 12,
+   "product": "Колодка (розетка) 4-местная РБ34-1-0м ОМЕГА с защитными крышками IP44 каучук IEK (PKR64-016-2-K02)",
+   "unit_price": 923,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "СПК-Электрик (spk-electric.ru), «с учётом НДС 22%», в наличии",
+     "price": 923,
+     "url": "https://spk-electric.ru/catalog/rozetka-kolodka-4-mestnaya-rb34-1-0m-s-zashchitnymi-kryshkami-ip44-omega-iek/"
+    },
+    {
+     "seller": "ТИНКО (tinko.ru), розничная",
+     "price": 1153.49,
+     "url": "https://www.tinko.ru/catalog/product/289296/"
+    },
+    {
+     "seller": "Минимакс (по выдаче поиска, не проверено)",
+     "price": 565.8,
+     "url": "https://www.minimaks.ru/product/rb34-1-0m_rozetka_(kolodka)_chetirehmestnaja_s_zaschitnimi_krishkami_omega_ip44"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Разброс 566–1153 руб.; взята проверенная цена СПК-Электрик."
+  },
+  {
+   "n": 13,
+   "product": "Вилка (вставка) кабельная сварочная TSB 35-50 мм² (BKS/СКР 35-50, 200-300А), эквивалент ВЕПРЬ",
+   "unit_price": 165,
+   "vat": "неизвестно",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Сварнов (kazan.svarnov.ru), «от 165 руб.»",
+     "price": 165,
+     "url": "https://kazan.svarnov.ru/product/kabelnaya-vilka-tsb-35-50-vstavka"
+    },
+    {
+     "seller": "NEON-сварка (комплект 2 шт. = 400 руб.)",
+     "price": 200,
+     "url": "https://neon-svarka.ru/vilka-svarochnaya-tsb-35-50/"
+    }
+   ],
+   "supplier_for_kp": "ВЕПРЬ (vepr.ru) — для брендового исполнения",
+   "note": "Карточки бренда ВЕПРЬ не найдено, предложен типовой эквивалент TSB 35-50. У NEON цена указана за комплект из 2 шт., пересчитано на 1 шт."
+  },
+  {
+   "n": 14,
+   "product": "Вилка 015 переносная 3P+PE+N 16А 380В IP44 (TEXENERGO SE015-016Q)",
+   "unit_price": 194.63,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 194.63,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00009982"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 15,
+   "product": "Вилка каучуковая угловая 2P+PE 16А 220В IP44 (TEXENERGO VKP16-002)",
+   "unit_price": 86.77,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 86.77,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00419527"
+    }
+   ],
+   "supplier_for_kp": "Производитель обозначения В16-005 не установлен (вероятно, Bylectrica/Росэлектропласт)",
+   "note": "Точная марка В16-005 не найдена; эквивалент — угловая каучуковая вилка с з/к. Наличие кольца извлечения и чёрного цвета проверить. Статус — ожидается поступление."
+  },
+  {
+   "n": 16,
+   "product": "Розетка РА16-214 1-м о/у с з/к с крышкой IP44 белая (Bylectrica «Пралеска Аква»)",
+   "unit_price": 135.5,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 135.5,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00010477"
+    },
+    {
+     "seller": "Техэнерго — РА16-297 (аналог)",
+     "price": 138.83,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00136705"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 17,
+   "product": "Розетка щитовая РАр10-3-ОП с заземлением на DIN-рейку IEK (MRD10-16)",
+   "unit_price": 500,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "XCOM-SHOP",
+     "price": 273,
+     "url": "https://www.xcom-shop.ru/iek_mrd10-16_302415.html"
+    },
+    {
+     "seller": "Регард (в наличии)",
+     "price": 500,
+     "url": "https://www.regard.ru/product/1019248/elektriceskaia-rozetka-iek-rar10-3-op"
+    },
+    {
+     "seller": "Техэнерго (под заказ)",
+     "price": 335,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00013226"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Разброс 273–500 руб.; взята верхняя цена из наличия."
+  },
+  {
+   "n": 18,
+   "product": "Выключатель 1-клав. о/у IP54 4А А14-100 белый (Bylectrica «Пралеска Аква»)",
+   "unit_price": 113.43,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 113.43,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00011780"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 19,
+   "product": "Розетка 2-м о/у с з/к с крышкой IP54 16А белая (Bylectrica РА16-213 «Пралеска Аква»)",
+   "unit_price": 224.75,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 224.75,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00456033"
+    },
+    {
+     "seller": "Техэнерго — РА16-303",
+     "price": 239.67,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00136707"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Степень защиты IP54 ≥ IP44 из ТЗ."
+  },
+  {
+   "n": 20,
+   "product": "Розетка 2-м о/у с з/к с крышкой IP54 16А белая (Bylectrica РА16-213)",
+   "unit_price": 224.75,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 224.75,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00456033"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Дубль поз. 19."
+  },
+  {
+   "n": 21,
+   "product": "Розетка РА16-214 1-м о/у с з/к с крышкой IP44 (Bylectrica)",
+   "unit_price": 135.5,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 135.5,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00010477"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Дубль поз. 16."
+  },
+  {
+   "n": 22,
+   "product": "Розетка щитовая РАр10-3-ОП на DIN-рейку IEK (MRD10-16)",
+   "unit_price": 500,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Регард",
+     "price": 500,
+     "url": "https://www.regard.ru/product/1019248/elektriceskaia-rozetka-iek-rar10-3-op"
+    },
+    {
+     "seller": "XCOM-SHOP",
+     "price": 273,
+     "url": "https://www.xcom-shop.ru/iek_mrd10-16_302415.html"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Дубль поз. 17."
+  },
+  {
+   "n": 23,
+   "product": "Выключатель 1-клав. о/у IP54 4А А14-100 (Bylectrica)",
+   "unit_price": 113.43,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 113.43,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00011780"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 24,
+   "product": "Колодка (розетка) Finder 95.05SPA для реле 40.51/40.52/40.61",
+   "unit_price": 1145,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ТМ Электроникс (tmelectronics.ru), 2940 шт., 1 шт.=1223 / от 10 шт.=1145",
+     "price": 1145,
+     "url": "https://tmelectronics.ru/product/95.05SPA/"
+    },
+    {
+     "seller": "21vek-220v.ru",
+     "price": 425.48,
+     "url": "https://www.21vek-220v.ru/cat/rozetka-finder-9505-s-vintovymi-klemmami-dlya-rele-4051-4052-4061-4452-4462-s-zazhimnoy-kletyu-1"
+    }
+   ],
+   "supplier_for_kp": "Finder Россия (finder-relay.ru), ЭТМ",
+   "note": "Большой разброс (425–1223 руб.); наличие у 21vek не подтверждено. Эквивалент допускается (например, колодки на DIN для реле 40-й серии)."
+  },
+  {
+   "n": 25,
+   "product": "Вилка переносная 024 3P+PE 32А 380В IP44 (IEK ССИ-024 PSR02-032-4)",
+   "unit_price": 396,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "XCOM-SHOP (IEK PSR02-032-4)",
+     "price": 396,
+     "url": "https://xcom-shop.ru/iek_psr02-032-4_1086810.html"
+    },
+    {
+     "seller": "Техэнерго — эквивалент SE024-032Q",
+     "price": 209.81,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00010148"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 26,
+   "product": "Патрон Е27 подвесной (TEXENERGO Н12П-01) / Е27 керамический",
+   "unit_price": 19.4,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Техэнерго — Патрон Е27 Н12П-01 подвесной",
+     "price": 19.4,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00001205"
+    },
+    {
+     "seller": "Техэнерго — Патрон Е-27 керамический (тип крепления не указан)",
+     "price": 9.87,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00012391"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Подвесной керамический Е27 с медными контактами в открытом прайсе не найден; материал Н12П-01 (вероятно, карболит/пластик) — уточнить. Риск несоответствия."
+  },
+  {
+   "n": 27,
+   "product": "Розетка 1-м о/у 16А без заземления IP20 белая (Bylectrica РА16-255 «Пралеска»)",
+   "unit_price": 69.29,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 69.29,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00136695"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 28,
+   "product": "Розетка 2-м о/у с з/к с крышкой IP54 16А (Bylectrica РА16-213)",
+   "unit_price": 224.75,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 224.75,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00456033"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Дубль поз. 19."
+  },
+  {
+   "n": 29,
+   "product": "Выключатель 1-клав. о/у IP54 4А А14-100 (Bylectrica)",
+   "unit_price": 113.43,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 113.43,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00011780"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "В ТЗ IP44, изделие IP54 — выше требования."
+  },
+  {
+   "n": 30,
+   "product": "Розетка переносная 224 3P+PE 32А 380В IP44 (IEK ССИ-224 PSR22-032-4 / эквивалент TEXENERGO SE224-032Q)",
+   "unit_price": 235.36,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Техэнерго — SE224-032Q (ожидается поступление)",
+     "price": 235.36,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00010149"
+    },
+    {
+     "seller": "Регард — IEK MAGNUM PSN22-032-4 (аналог)",
+     "price": 1440,
+     "url": "https://www.regard.ru/product/1051534/elektriceskaia-rozetka-iek-magnum-psn22-032-4"
+    }
+   ],
+   "supplier_for_kp": "Дистрибьюторы IEK",
+   "note": "Рублёвой цены именно IEK PSR22-032-4 не найдено; эквивалент допускается ТЗ."
+  },
+  {
+   "n": 31,
+   "product": "Ремкомплект для трансформатора ТМ, ТМФ 1000 кВА (НПО «ЭнергоКомплект», код RK005EI)",
+   "unit_price": 2550,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "НПО «ЭнергоКомплект» (npoenergo.ru), Чебоксары",
+     "price": 2550,
+     "url": "https://npoenergo.ru/zip-trans/remkomplekt/tm-1000kva/"
+    }
+   ],
+   "supplier_for_kp": "НПО «ЭнергоКомплект» (Чебоксары), ЭТК «Прогресс»",
+   "note": "Состав комплекта на сайте дословно совпадает с ТЗ."
+  },
+  {
+   "n": 32,
+   "product": "Ремкомплект для трансформатора ТМ, ТМФ 400 кВА (НПО «ЭнергоКомплект», код RK003EI)",
+   "unit_price": 1650,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "НПО «ЭнергоКомплект» (npoenergo.ru)",
+     "price": 1650,
+     "url": "https://npoenergo.ru/zip-trans/remkomplekt/tm-400kva/"
+    }
+   ],
+   "supplier_for_kp": "НПО «ЭнергоКомплект»",
+   "note": ""
+  },
+  {
+   "n": 33,
+   "product": "Ремкомплект для трансформатора ТМ, ТМФ 630 кВА (НПО «ЭнергоКомплект», код RK004EI)",
+   "unit_price": 1950,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "НПО «ЭнергоКомплект» (npoenergo.ru)",
+     "price": 1950,
+     "url": "https://npoenergo.ru/zip-trans/remkomplekt/tm-630kva/"
+    }
+   ],
+   "supplier_for_kp": "НПО «ЭнергоКомплект»",
+   "note": ""
+  },
+  {
+   "n": 34,
+   "product": "Плавкая вставка НПН2-60 У3 25А (TEXENERGO NPN2-25)",
+   "unit_price": 208,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 208,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00430219"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 35,
+   "product": "Плавкая вставка ПН2 100/31,5А (TEXENERGO PN2-100-31.5)",
+   "unit_price": 115.87,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 115.87,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00005157"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Номинал 30А в ряду ПН-2 отсутствует (стандарт 31,5А). В ТЗ описание «в стеклянном корпусе» противоречит типу ПН-2 (керамика) — уточнить у заказчика."
+  },
+  {
+   "n": 36,
+   "product": "Плавкая вставка ПН2 100/40А (TEXENERGO PN2-100-40)",
+   "unit_price": 115.87,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 115.87,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00005159"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 37,
+   "product": "Плавкая вставка ПН2 100/50А (TEXENERGO PN2-100-50)",
+   "unit_price": 115.87,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 115.87,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00005160"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 38,
+   "product": "Плавкая вставка ПН2 100/63А (TEXENERGO PN2-100-63)",
+   "unit_price": 115.87,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 115.87,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00005158"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 39,
+   "product": "Плавкая вставка ПН2 100А медь (TEXENERGO PN2-100-100)",
+   "unit_price": 228.26,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 228.26,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00308499"
+    },
+    {
+     "seller": "Техэнерго — ПН2 100А (без указания «медь»)",
+     "price": 115.87,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00116347"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "ТЗ требует медные выводы — взята медная версия."
+  },
+  {
+   "n": 40,
+   "product": "Плавкая вставка ПН2 250/100А (TEXENERGO PN2-250-100)",
+   "unit_price": 154.04,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 154.04,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00005105"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 41,
+   "product": "Пост кнопочный ПКЕ 222-2 У2 IP54 (TEXENERGO PKE2222-P)",
+   "unit_price": 213.99,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 213.99,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00369006"
+    },
+    {
+     "seller": "Техэнерго — ПКЕ 222-2 У2 красный гриб",
+     "price": 176.35,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00001156"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Основание карболит — уточнить (Техэнерго не указывает материал)."
+  },
+  {
+   "n": 42,
+   "product": "Пост кнопочный ПКЕ 122-2 У2 IP54 (TEXENERGO PKE1222)",
+   "unit_price": 195.18,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 195.18,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00000656"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 43,
+   "product": "Пост кнопочный ПКЕ 222-2 У2 IP54 (TEXENERGO PKE2222-P)",
+   "unit_price": 213.99,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 213.99,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00369006"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 44,
+   "product": "Пульт (пост) кнопочный ПКТ-62 на 4 кнопки IP54 IEK (BPU10-4)",
+   "unit_price": 743.92,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "e-kc.ru (IEK BPU10-4, 29 шт., 03.11.2026)",
+     "price": 743.92,
+     "url": "https://e-kc.ru/cena/post-knopochnyj-pkt-62-iek-bpu10-4"
+    },
+    {
+     "seller": "Энергосфера (energosf.ru) — EKF PROxima pkt-62, в наличии",
+     "price": 1667.7,
+     "url": "https://energosf.ru/catalog/knopochnye-posty/pult-knopochnyy-pkt-62-na-4-knopki-ip54-ekf-proxima/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Параметры ТЗ (4 кнопки ↑↓←→, мех. блокировка, Ithe 5А, класс II) соответствуют серии ПКТ-62 IEK/EKF/TDM."
+  },
+  {
+   "n": 45,
+   "product": "Коробка распределительная о/у 85х85х40 IP55 серая (HEGEL КР2603)",
+   "unit_price": 71,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "XCOM-SHOP (HEGEL КР2603)",
+     "price": 71,
+     "url": "https://www.xcom-shop.ru/hegel_kr2603_1248659.html"
+    },
+    {
+     "seller": "Техэнерго — 85х85х40 6 вводов, но IP44 (не подходит по IP)",
+     "price": 52.17,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00101312"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Количество вводов (6) и сечение 20 мм² у HEGEL КР2603 проверить по паспорту."
+  },
+  {
+   "n": 46,
+   "product": "Кронштейн КР-3 для консольных светильников (TEXENERGO арт.00011, D40 мм)",
+   "unit_price": 284.91,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), с НДС",
+     "price": 284.91,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00127822"
+    },
+    {
+     "seller": "XCOM-SHOP — IEK LT-DKU0D-CR-60-50-22-K03 (D60, аналог)",
+     "price": 2033,
+     "url": "https://www.xcom-shop.ru/iek_lt-dku0d-cr-60-50-22-k03_1166381.html"
+    }
+   ],
+   "supplier_for_kp": "Производители кронштейнов (ЭЛЕТЕХ, TDM, Владасвет)",
+   "note": "ТЗ: D60 мм, вылет 250, длина 250 — у Техэнерго КР-3 D40/D45. Если D60 обязателен — ориентир IEK LT-DKU0D-CR-60 (~2 033 руб.), размеры вылета не подтверждены. Риск."
+  },
+  {
+   "n": 47,
+   "product": "Коробка распределительная о/у 100х100х50 8 вводов IP54 (TEXENERGO GE41256)",
+   "unit_price": 54.17,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 54.17,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00432245"
+    },
+    {
+     "seller": "Техэнерго — КО-53017100-060 8 вводов IP54",
+     "price": 54.12,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00378442"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 48,
+   "product": "Плавкая вставка НПН2-60 У3 40А (TEXENERGO NPN2-40)",
+   "unit_price": 208,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 208,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00430221"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 49,
+   "product": "Ламель заземляющих ножей КЛ8.572.006 (ВИЛЕ.745482.003) для РНДЗ-110/РДЗ-110",
+   "unit_price": 350,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Чебоксарский завод промышленных компонентов (zpk21.ru)",
+     "price": 350,
+     "url": "https://zpk21.ru/catalog/lamel-zazemlyayushhih-nozhej-kl8-572-006/"
+    }
+   ],
+   "supplier_for_kp": "ЗПК (Чебоксары, zakaz@zpk21.ru), АртельЭнерго (Екатеринбург), ЭТЗ «Силектра»",
+   "note": "Толщину 4 мм подтвердить по чертежу."
+  },
+  {
+   "n": 50,
+   "product": "Зажим аппаратный прессуемый А4А-185-Т (ГОСТ 9.307/ТУ, произв. РФ)",
+   "unit_price": 500,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "БИНАБИ (proenergotorg.ru), «руб с НДС»",
+     "price": 458,
+     "url": "https://proenergotorg.ru/apparatnyy_zazhim_a4a_185.html"
+    },
+    {
+     "seller": "Люмторг (lumtorg.ru), в наличии",
+     "price": 500,
+     "url": "https://lumtorg.ru/catalog/armatura/armatura_vl/apparatnyy-zazhim/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "В ТЗ обозначение с «-2»/«-2Т» (диаметр провода 18,8–20 мм); у продавцов — А4А-185-Т. Взята большая из двух цен."
+  },
+  {
+   "n": 51,
+   "product": "Зажим аппаратный прессуемый А4А-240-Т (ГОСТ 9.307/ТУ, произв. РФ)",
+   "unit_price": 548.1,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "БИНАБИ (proenergotorg.ru), «руб с НДС»",
+     "price": 522,
+     "url": "https://proenergotorg.ru/apparatnyy_zazhim_a4a_240.html"
+    },
+    {
+     "seller": "Люмторг (lumtorg.ru), в наличии",
+     "price": 548.1,
+     "url": "https://lumtorg.ru/catalog/armatura/armatura_vl/apparatnyy-zazhim/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "В ТЗ обозначение с «-2»/«-2Т» (диаметр провода 21,6–22,4 мм); у продавцов — А4А-240-Т. Взята большая из двух цен."
+  },
+  {
+   "n": 52,
+   "product": "Зажим аппаратный прессуемый А2А-240-Т (ГОСТ 9.307/ТУ, произв. РФ)",
+   "unit_price": 352,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "БИНАБИ (proenergotorg.ru), «руб с НДС»",
+     "price": 308,
+     "url": "https://proenergotorg.ru/apparatnyy_zazhim_a2a_240.html"
+    },
+    {
+     "seller": "Люмторг (lumtorg.ru), в наличии",
+     "price": 352,
+     "url": "https://lumtorg.ru/catalog/armatura/armatura_vl/apparatnyy-zazhim/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "В ТЗ обозначение с «-2»/«-2Т» (диаметр провода 21,6–22,4 мм); у продавцов — А2А-240-Т. Взята большая из двух цен."
+  },
+  {
+   "n": 53,
+   "product": "Зажим аппаратный прессуемый А2А-185-Т (ГОСТ 9.307/ТУ, произв. РФ)",
+   "unit_price": 268,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "БИНАБИ (proenergotorg.ru), «руб с НДС»",
+     "price": 268,
+     "url": "https://proenergotorg.ru/apparatnyy_zazhim_a2a_185.html"
+    },
+    {
+     "seller": "Люмторг (lumtorg.ru), в наличии",
+     "price": 232.1,
+     "url": "https://lumtorg.ru/catalog/armatura/armatura_vl/apparatnyy-zazhim/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "В ТЗ обозначение с «-2»/«-2Т» (диаметр провода 18,8–20,0 мм); у продавцов — А2А-185-Т. Взята большая из двух цен."
+  },
+  {
+   "n": 54,
+   "product": "Зажим аппаратный прессуемый А2А-70-Т (ГОСТ 9.307/ТУ, произв. РФ)",
+   "unit_price": 161.7,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "БИНАБИ (proenergotorg.ru), «руб с НДС»",
+     "price": 137,
+     "url": "https://proenergotorg.ru/apparatnyy_zazhim_a2a_70.html"
+    },
+    {
+     "seller": "Люмторг (lumtorg.ru), в наличии",
+     "price": 161.7,
+     "url": "https://lumtorg.ru/catalog/armatura/armatura_vl/apparatnyy-zazhim/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "В ТЗ обозначение с «-2»/«-2Т» (диаметр провода 10,7–11,4 мм); у продавцов — А2А-70-Т. Взята большая из двух цен."
+  },
+  {
+   "n": 55,
+   "product": "Зажим аппаратный прессуемый А2А-95-Т (ГОСТ 9.307/ТУ, произв. РФ)",
+   "unit_price": 146,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "БИНАБИ (proenergotorg.ru), «руб с НДС»",
+     "price": 146,
+     "url": "https://proenergotorg.ru/apparatnyy_zazhim_a2a_95.html"
+    },
+    {
+     "seller": "Люмторг (lumtorg.ru), в наличии",
+     "price": 130.24,
+     "url": "https://lumtorg.ru/catalog/armatura/armatura_vl/apparatnyy-zazhim/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "В ТЗ обозначение с «-2»/«-2Т» (диаметр провода 12,3–13,5 мм); у продавцов — А2А-95-Т. Взята большая из двух цен."
+  },
+  {
+   "n": 56,
+   "product": "Клемма WAGO 221-613 3-проводная 0,5–6 мм² с рычагами (упак. 30 шт., цена пересчитана на 1 шт.)",
+   "unit_price": 110,
+   "vat": "неизвестно",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "ЭЛКН (elcn.ru), 110 ₽/шт (ожидается)",
+     "price": 110,
+     "url": "https://www.elcn.ru/catalog/product/62727/"
+    },
+    {
+     "seller": "Фаворит-Эл (favorit-el.ru), 2517,90 руб./30 шт. (обновл. 13.10.2026)",
+     "price": 83.93,
+     "url": "https://favorit-el.ru/catalog/klemma_na_3_pr_s_rychagami_2x0_5_6mm_221_613_upak_30sht.html"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "«С размыкателем» в ТЗ трактуется как рычажный зажим (221-й серии). Если заказчик имел в виду клемму с разъединителем (TOPJOB S 2002-1671 и т.п.) — нужна другая позиция. Продаётся упаковками по 30 шт."
+  },
+  {
+   "n": 57,
+   "product": "Переключатель универсальный УП 5404-С29 (в корпусе, 4 секции, 16А) — изготовление под заказ",
+   "unit_price": 5300,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ООО «Прогрессэнерго» (Чебоксары), прайс УП 5404 — 5300 руб. с НДС",
+     "price": 5300,
+     "url": "https://xn----7sbbh1btbu.xn--p1ai/deystvuyuschie-aktcii-i-skidki/pereklyuchateli-up"
+    },
+    {
+     "seller": "Активэнерго (aktivenergo.ru) — УП 5404-И43/Л25/С45 (другие диаграммы), 4220 руб.",
+     "price": 4220,
+     "url": "https://aktivenergo.ru/catalog/part/118/pereklyuchateli_up?pg=1"
+    }
+   ],
+   "supplier_for_kp": "Прогрессэнерго (Чебоксары), Контактор-М, Электроконтактор (Челябинск), Электротехник (Кашин)",
+   "note": "Цена за серию УП 5404 без привязки к диаграмме С29; исполнение С29 подтвердить в КП. В ТЗ указан УХЛ4/У4 — уточнить."
+  },
+  {
+   "n": 58,
+   "product": "Зажим наборный измерительный ЗН24-4И25 В/В У3 универсальный (TEXENERGO ZN24-I252-04)",
+   "unit_price": 114.2,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 114.2,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00127632"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": ""
+  },
+  {
+   "n": 59,
+   "product": "Зажим наборный измерительный ЗН27-4И32 (ВНИИР-Промэлектро / НЭМЗ)",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "ООО «ВНИИР-Промэлектро» (Чебоксары), ООО «НЭМЗ» (Новочебоксарск, nemz@inbox.ru), ООО «Электроавтоматика» (Чебоксары)",
+   "note": "Открытой проверяемой цены нет. В поисковом индексе — прайс ВНИИР-Промэлектро 09.2025: ЗН27-4И32-Д/ДУ3 тип 1 — 171 руб. (документ сейчас недоступен, НДС не указан) — только ориентир. В ТЗ параметры (40 А, 0,5–10 мм², 55×48×8 мм) не совпадают с каталожными ЗН27-4И32 (32 А, 0,5–4 мм², 80×70,8×8) — уточнить у заказчика."
+  },
+  {
+   "n": 60,
+   "product": "Тумблер ТВ1-2 5А 220В (TEXENERGO арт. ТВ1-2)",
+   "unit_price": 202.05,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (texenergo.ru), оптовая цена с НДС",
+     "price": 202.05,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00004981"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Содержание драгметаллов (серебро) из ТЗ — по паспорту изготовителя."
+  },
+  {
+   "n": 61,
+   "product": "Комплект для соединения RSN EKF PROxima (для кабелей ESR/HSR)",
+   "unit_price": 1530,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF (ekfgroup.com), рекомендованная розничная",
+     "price": 1224,
+     "url": "https://ekfgroup.com/ru/catalog/products/komplekt-dlya-soedineniya-rsn-ekf-proxima"
+    },
+    {
+     "seller": "ЭКС (elektro.ru), по выдаче поиска",
+     "price": 1436,
+     "url": "https://www.elektro.ru/product/komplekt_dlya_soedineniya_rsn/"
+    },
+    {
+     "seller": "МосОбогрев, «от 1530 руб. с НДС 22%» (по выдаче поиска)",
+     "price": 1530,
+     "url": "https://mosobogrev.ru/catalog/components-accessories/acc-complect-ekf-rsn-rsv/"
+    }
+   ],
+   "supplier_for_kp": "",
+   "note": "Совместимость с маркой греющего кабеля заказчика проверить (RSN — для ESR/HSR EKF)."
+  }
+ ],
+ "makers": [
+  {
+   "name": "ООО «МФК ТЕХЭНЕРГО» (Техэнерго, дистрибьютор + собственная марка TEXENERGO)",
+   "inn": "7715215141",
+   "city": "Московская обл., г.о. Химки, д. Чёрная Грязь, 65",
+   "site": "https://www.texenergo.ru",
+   "phone": "+7 (495) 651-99-99",
+   "email": "",
+   "closes": "1,2,7,8,9,10,14,15,16,18-21,23,26-29,34-43,45-48,58,60 (≈40 позиций)",
+   "verified": true
+  },
+  {
+   "name": "ООО «Чебоксарский завод промышленных компонентов» (ЧЗПК)",
+   "inn": "2130198267",
+   "city": "Чебоксары, Кабельный пр., 3, пом. 2",
+   "site": "https://zpk21.ru",
+   "phone": "+7 (8352) 49-09-79",
+   "email": "zakaz@zpk21.ru",
+   "closes": "5,6,49",
+   "verified": true
+  },
+  {
+   "name": "ООО НПО «ЭнергоКомплект»",
+   "inn": "2130132259",
+   "city": "Чебоксары, Кабельный проезд, 1А, стр.3",
+   "site": "https://npoenergo.ru",
+   "phone": "+7 (8352) 37-91-22",
+   "email": "energokom21@mail.ru",
+   "closes": "31,32,33",
+   "verified": true
+  },
+  {
+   "name": "ООО «Прогрессэнерго» (изготовитель КСА, УП)",
+   "inn": "",
+   "city": "Чебоксары",
+   "site": "https://прогрессэнерго.рф",
+   "phone": "+7 (8352) 756-085; +7 (8352) 756-065",
+   "email": "106@progenerg.ru; progenerg@mail.ru",
+   "closes": "5,6,57",
+   "verified": false
+  },
+  {
+   "name": "IEK GROUP (ПАО «ИЭК ХОЛДИНГ»)",
+   "inn": "5074092485",
+   "city": "Московская обл., г. Подольск",
+   "site": "https://www.iek.ru",
+   "phone": "",
+   "email": "helptd@iek.ru (техподдержка)",
+   "closes": "3,11,12,17,22,25,30,44 (через дистрибьюторов)",
+   "verified": false
+  },
+  {
+   "name": "БИНАБИ (proenergotorg.ru) — арматура ЛЭП",
+   "inn": "",
+   "city": "Москва, ул. Дорожная, 60Б",
+   "site": "https://proenergotorg.ru",
+   "phone": "8 (495) 215-27-79",
+   "email": "info@proenergotorg.ru",
+   "closes": "50-55",
+   "verified": false
+  },
+  {
+   "name": "EKF (ООО «Электрорешения»)",
+   "inn": "",
+   "city": "Москва",
+   "site": "https://ekfgroup.com",
+   "phone": "",
+   "email": "",
+   "closes": "2 (аналог),44 (аналог),61",
+   "verified": false
+  }
+ ],
+ "risks": [
+  "Цены Техэнерго — оптовые (счёт от 20 000 руб.), розница на 10% выше; часть позиций со статусом «ожидается поступление» (7, 9, 15, 30).",
+  "С 01.01.2026 НДС 22%: у части продавцов (kipkr — поз. 4) на странице указан НДС 20% — цена может быть устаревшей.",
+  "Противоречия в ТЗ: поз. 10 (3P+PE в названии / 3P+PE+N в характеристиках), поз. 35 (ПН-2 100/30А — номинала 30А нет, стандарт 31,5А; «стеклянный корпус» не для ПН-2), поз. 59 (параметры не совпадают с каталожным ЗН27-4И32), поз. 56 («с размыкателем»).",
+  "Позиции без точного совпадения марки: 13 (ВЕПРЬ TSB35-50 → типовая TSB 35-50), 15 (В16-005), 26 (керамический подвесной патрон), 46 (КР-3 D60) — риск отклонения заявки по соответствию.",
+  "Позиции без «или эквивалент» (кроме 11–13, 24, 25, 30, 56, 61) — поставлять строго указанные марки; эквиваленты по 15, 26, 35, 46, 56 могут быть отклонены.",
+  "Изделия под заказ у заводов (КСА исп.3.1.0-90, УП 5404-С29, ламель КЛ8.572.006, ДТУ-03М) — сроки изготовления и актуальные цены подтвердить КП; ДТУ-03М — единственная открытая цена (21 255 руб.), ЭТМ — «не поставляется».",
+  "Зажимы аппаратные (50–55): в ТЗ «-2»/«-2Т», у продавцов «-Т»; цены БИНАБИ могут быть устаревшими (прайс-лист).",
+  "Поставка в 2027 г. — к ценам ноября 2026 г. стоит заложить индексацию 5–10%."
+ ]
+}

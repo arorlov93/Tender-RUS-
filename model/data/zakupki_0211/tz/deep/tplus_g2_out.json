@@ -514,6 +514,351 @@
    "note": "Дубль позиции 81."
   },
   {
+   "n": 83,
+   "product": "EKF кабельный ввод BM-x5S для нагревательного кабеля, арт. cgp25x1.5",
+   "unit_price": 315.78,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 315.78,
+     "url": "https://www.etm.ru/cat/nn/5234632"
+    },
+    {
+     "seller": "EKF (ekfgroup.com), РРЦ",
+     "price": 459,
+     "url": "https://ekfgroup.com/ru/catalog/products/kabelnyj-vvod-bm-x5s"
+    },
+    {
+     "seller": "ООО «ВЕК Электро» (ekf-electro.ru), опт",
+     "price": 372,
+     "url": "https://ekf-electro.ru/product/cgp25x1-5"
+    },
+    {
+     "seller": "Олми-Коннект",
+     "price": 310.96,
+     "url": "https://olmi-connect.ru/shop/otoplenie-i-klimat/kabelnie_nagrevatelnie_sistemi/montazhnie_a"
+    }
+   ],
+   "supplier_for_kp": "EKF / ЭТМ",
+   "note": "ВсеИнструменты продаёт упаковкой (11250 за 25 шт = 450/шт)."
+  },
+  {
+   "n": 84,
+   "product": "IEK контакт состояния КСВ47 на DIN-рейку (для ВА47-29/100), арт. MVA01D-AK-1",
+   "unit_price": 893,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Энергосфера (nkh.energosf.ru)",
+     "price": 893,
+     "url": "https://nkh.energosf.ru/catalog/dopolnitelnye-ustroystva-modulnoy-serii/kontakt-sostoyaniya-ksv47-nov"
+    },
+    {
+     "seller": "Светопроф",
+     "price": 908,
+     "url": "https://svetoprof.ru/catalog/modulnoe_oborudovanie/dopolnitelnye_modulnye_ustroystva/kontakt_sostoyan"
+    },
+    {
+     "seller": "ie-store.ru",
+     "price": 991.75,
+     "url": "https://ie-store.ru/modulnoe-oborudovanie/MVA01D-AK-1/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ (etm.ru/cat/nn/8539457) / IEK",
+   "note": ""
+  },
+  {
+   "n": 85,
+   "product": "Крышка (карболит/фенопласт) изолятора токопровода, черт. ЭТ-675.01.00.005",
+   "unit_price": 4200,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ООО «ЧебЭнерго-21» (Чебоксары)",
+     "price": 4200,
+     "url": "https://www.chebenergo-21.ru/goods/267813303-kryshka_tokoprovoda_et675_01_00_005_20_"
+    }
+   ],
+   "supplier_for_kp": "ООО «ЧебЭнерго» (Чебоксары, чебэнерго.рф), ООО «Альянс Энерго» (alyans-energos.ru), ЭТИ (eti.su)",
+   "note": "Цена взята из поискового сниппета: сайт отдаёт 403. Продавец указывает её для «ЭТ675.01.00.005 20» (вариант исполнения), учтён ли НДС — неизвестно. Нужно КП."
+  },
+  {
+   "n": 86,
+   "product": "Крышка изолятора токопровода, черт. ЭТ-675.01.00.005",
+   "unit_price": 4200,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ООО «ЧебЭнерго-21»",
+     "price": 4200,
+     "url": "https://www.chebenergo-21.ru/goods/267813303-kryshka_tokoprovoda_et675_01_00_005_20_"
+    }
+   ],
+   "supplier_for_kp": "ЧебЭнерго, Альянс Энерго, ЭТИ",
+   "note": "Дубль позиции 85."
+  },
+  {
+   "n": 87,
+   "product": "Прерыватель питания бесконтактный ППБР-1 ~220В УХЛ4",
+   "unit_price": 4535.96,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "РЕОН (reon.ru): 3718 без НДС, +22% = 4535,96",
+     "price": 4535.96,
+     "url": "https://reon.ru/catalog/ppbr_1/"
+    },
+    {
+     "seller": "Пульс цен, Волжский (ППБР-1М на DIN-рейку)",
+     "price": 4000,
+     "url": "https://volzhsky.pulscen.ru/products/preryvatel_pitaniya_beskontaktny_ppbr_1m_220v_50_gt"
+    }
+   ],
+   "supplier_for_kp": "РЕОН (reon.ru); ЧЭАЗ / ЗЭТО (zeto21.ru, Чебоксары); ТПС21МАГ (Чебоксары)",
+   "note": "НДС принят 22% (ставка с 2026 г.)."
+  },
+  {
+   "n": 88,
+   "product": "Прерыватель питания бесконтактный ППБР-1 ~220В УХЛ4",
+   "unit_price": 4535.96,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "РЕОН (reon.ru): 3718 без НДС",
+     "price": 4535.96,
+     "url": "https://reon.ru/catalog/ppbr_1/"
+    }
+   ],
+   "supplier_for_kp": "РЕОН, ЗЭТО (zeto21.ru)",
+   "note": "Дубль позиции 87."
+  },
+  {
+   "n": 89,
+   "product": "Прерыватель питания бесконтактный ППБР-2М =110В УХЛ4",
+   "unit_price": 4067.48,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "РЕОН (reon.ru): 3334 без НДС, +22% = 4067,48",
+     "price": 4067.48,
+     "url": "https://reon.ru/catalog/ppbr_2m/"
+    }
+   ],
+   "supplier_for_kp": "РЕОН; ТД Автоматика (td-automatika.ru); ЗЭТО (zeto21.ru)",
+   "note": "Есть только один источник с ценой. fkrs.ru продаёт ППБР-2М за 2800, но это исполнение 220В — к ТЗ не подходит. Исполнение =110В указывать явно."
+  },
+  {
+   "n": 90,
+   "product": "Прерыватель питания бесконтактный ППБР-2М =110В УХЛ4",
+   "unit_price": 4067.48,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "РЕОН (reon.ru)",
+     "price": 4067.48,
+     "url": "https://reon.ru/catalog/ppbr_2m/"
+    }
+   ],
+   "supplier_for_kp": "РЕОН, ТД Автоматика",
+   "note": "Дубль позиции 89."
+  },
+  {
+   "n": 91,
+   "product": "Переключатель ПМОФ-45-777777/I-Д51 У3 (Электротехник, г. Кашин, ET052080)",
+   "unit_price": 3978,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (оптовая цена; розница +10% = 4375,8)",
+     "price": 3978,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00125365"
+    }
+   ],
+   "supplier_for_kp": "ООО «Электротехник» (Кашин), Олми-Коннект, Энергокомплект (e-kc.ru)",
+   "note": "Нашли только один источник с ценой."
+  },
+  {
+   "n": 92,
+   "product": "Табло световое сигнальное ТСС-66М (лампы РН-110-8)",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "ООО «КОЭМЗ» (по объявлению stanok-trading.ru), ИЗПК (izpk.ru), Лизантан (lizantan.com)",
+   "note": "В продаже в основном светодиодный ТСС-66: v-kip.com 4200, lizantan 6700. Ламповое исполнение ТСС-66М под РН-110 8 Вт с ценой не нашли. Если заказчик допустит светодиодную версию, ориентир 4200–6700."
+  },
+  {
+   "n": 93,
+   "product": "Накладка НКР-3 (ЧЭАЗ, арт. 5БК135007)",
+   "unit_price": 1080,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "АО «ЧЭАЗ» (shop.cheaz.ru)",
+     "price": 1080,
+     "url": "https://shop.cheaz.ru/catalog/370/54485/"
+    },
+    {
+     "seller": "Energylong (НКР-3 ТУ 16-538.013-77)",
+     "price": 707.19,
+     "url": "https://www.energylong.ru/product/nakladka-kontaktnaya-nkr-3-tu-16-538013-77-80h52h83"
+    },
+    {
+     "seller": "ИЗПК (izpk.ru)",
+     "price": 2500,
+     "url": "https://izpk.ru/nakladka-nkr-3"
+    }
+   ],
+   "supplier_for_kp": "АО «ЧЭАЗ», ЭТМ (etm.ru/cat/nn/9761867)",
+   "note": "На сайте ЧЭАЗ указано «цены актуальны до 31.12.2025» — к 2027 г. возможна индексация."
+  },
+  {
+   "n": 94,
+   "product": "Кнопка КЕ-011 исп.2, красная, 1НО+1НЗ",
+   "unit_price": 98.71,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 98.71,
+     "url": "https://www.etm.ru/cat/nn/9201112"
+    },
+    {
+     "seller": "МСКснаб",
+     "price": 110,
+     "url": "https://msksnab.ru/p48580564-knopka-011-isp2.html"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, Электротехник (Кашин), Электродеталь (Воронеж)",
+   "note": ""
+  },
+  {
+   "n": 95,
+   "product": "Кнопка КЕ-011 исп.2, чёрная, 1НО+1НЗ",
+   "unit_price": 100.37,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (Инженерсервис)",
+     "price": 100.37,
+     "url": "https://www.etm.ru/cat/nn/9201122"
+    },
+    {
+     "seller": "ЭТМ (Электротехник ET502424)",
+     "price": 131.78,
+     "url": "https://www.etm.ru/cat/nn/9815049"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, Электротехник (Кашин)",
+   "note": ""
+  },
+  {
+   "n": 96,
+   "product": "Индикатор 8041AS (4 разряда, 0,8\", красный, общий катод)",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "ЧИП и ДИП (chipdip.ru), Платан (platan.ru), Элитан, Промэлектроника",
+   "note": "Российских продавцов с ценой не нашли, есть только Alibaba/AliExpress. Сайт chipdip закрыт DDoS-защитой — нужен ручной запрос."
+  },
+  {
+   "n": 97,
+   "product": "Пружина контактная КЛ8.281.001 (ВИЛЕ.753513.001) для РНДЗ-110",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "ООО «Завод промышленных компонентов» (zpk21.ru, Чебоксары), СоюзЭнергоКомплект (souz-ek.ru), ООО «Альянс Энерго» (alyans-energos.ru), siz-profi.com",
+   "note": "Изделие в каталогах есть (zpk21: ЗИП для РНДЗ-110/220), цена по запросу. Цену 63,13 из распродажи неликвидов (etp-aktiv) не учитывали."
+  },
+  {
+   "n": 98,
+   "product": "Bylectrica А14-100 выключатель 1-кл. ОП 4А IP44/IP54 белый",
+   "unit_price": 103.69,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Торид (torid.ru)",
+     "price": 103.69,
+     "url": "https://torid.ru/catalog/a14-100-detail/"
+    },
+    {
+     "seller": "ТД Мастерсвет",
+     "price": 83.18,
+     "url": "https://tdmastersvet.ru/product/vyklyuchatel-1-kl-op-4a-ip54-bel-bylectrica-a14-100/"
+    },
+    {
+     "seller": "Техэнерго (texenergo.com)",
+     "price": 113.43,
+     "url": "https://www.texenergo.com/products/belotserkovskoe-upp-utos/%D0%9014-100"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ (etm.ru/cat/nn/9684426), Bylectrica",
+   "note": "Большинство продавцов указывают IP44, ТД Мастерсвет — IP54. Степень защиты подтвердить."
+  },
+  {
+   "n": 99,
+   "product": "IEK ОКТАВА выключатель 2-клавишный для открытой установки 10А IP20, ВС20-2-0-ОБ (эквивалент: Systeme Electric Этюд BA10-002B)",
+   "unit_price": 97.11,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (IEK Oktava ВС20-2-0-ОБ)",
+     "price": 97.11,
+     "url": "https://www.etm.ru/cat/nn/4206242"
+    },
+    {
+     "seller": "Systeme Electric (systeme.ru), Этюд BA10-002B, ОП, белый",
+     "price": 281.21,
+     "url": "https://systeme.ru/product/BA10-002B"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": "В ТЗ цвет «молочный, глянцевый», а Oktava ОБ — белый. Если нужен именно молочный, выбирать серию с цветом «слоновая кость/кремовый»."
+  },
+  {
+   "n": 100,
+   "product": "FERON LB007 трансформатор электронный (драйвер) для светодиодной ленты 150W 12V IP67",
+   "unit_price": 3667,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Feron (msk.shop.feron.ru), официальный магазин",
+     "price": 3667,
+     "url": "https://msk.shop.feron.ru/catalog/bloki-pitaniya-dlya-lent-12v/"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 3775,
+     "url": "https://www.vseinstrumenti.ru/product/elektronnyj-transformator-dlya-svetodiodnoj"
+    },
+    {
+     "seller": "Rulight (возможно устаревшая цена)",
+     "price": 1663,
+     "url": "https://rulight.ru/product/transformator-ehlektronnyj-dlya-svetodiodn-24/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ (etm.ru/cat/nn/315530), Feron",
+   "note": "Напряжение (12 или 24 В) в ТЗ не указано: у Feron есть LB007 150W и на 12V, и на 24V. Уточнить у заказчика."
+  },
+  {
    "n": 101,
    "product": "Эквивалент: Ruvinil (TYCO) 67040, 85х85х40 IP54",
    "unit_price": 71.33,
@@ -533,6 +878,409 @@
    ],
    "supplier_for_kp": "ЭТМ",
    "note": "Дубль позиции 81."
+  },
+  {
+   "n": 102,
+   "product": "FERON LH01 патрон керамический E27 250V, арт. 22327",
+   "unit_price": 38,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Feron (shop.feron.ru), 760 ₽ за 20 шт = 38/шт",
+     "price": 38,
+     "url": "https://shop.feron.ru/search/?q=22327"
+    },
+    {
+     "seller": "Электротехника (electrical.ru)",
+     "price": 33.9,
+     "url": "https://electrical.ru/product/64251-patron-e27-keramicheskiy-9828752"
+    },
+    {
+     "seller": "ЭТМ (EKF LHCe-E27-h, с держателем)",
+     "price": 41.39,
+     "url": "https://www.etm.ru/cat/nn/493166"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ (etm.ru/cat/nn/9828752)",
+   "note": ""
+  },
+  {
+   "n": 103,
+   "product": "EKF PROxima пакетный переключатель ПП 2-16/Н2 М2 пл. IP56, арт. pp-2-16-4",
+   "unit_price": 1360.69,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 1360.69,
+     "url": "https://www.etm.ru/cat/nn/1485259"
+    },
+    {
+     "seller": "Электротехника (electrical.ru)",
+     "price": 1399,
+     "url": "https://electrical.ru/product/176301-pereklyuchatel-paketnyy-pp-2-16n2-m2-pl-ip56-proxima-pp-2-16-4"
+    },
+    {
+     "seller": "Рос-Электрик",
+     "price": 1160.69,
+     "url": "https://www.ros-electric.ru/product/paketnyy_pereklyuchatel_pp_2_16_n2_m2_pl_ip56_proxim"
+    },
+    {
+     "seller": "ВсеИнструменты (Электротехник ПП 2-16/Н2 М2 пл. IP56)",
+     "price": 959,
+     "url": "https://www.vseinstrumenti.ru/product/paketnyj-pereklyuchatel-elektrotehnik-pp-2-16-n2-"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, EKF, Электротехник (Кашин)",
+   "note": ""
+  },
+  {
+   "n": 104,
+   "product": "Кронштейн КР-3 настенный для консольного светильника, L=250 мм (TDM КР-3.1 / КРСТ КР-3)",
+   "unit_price": 398.5,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "shop220 (КРСТ КР-3, 250 мм, d45)",
+     "price": 398.5,
+     "url": "https://shop220.ru/krst-kr-3-kronshteyn-nastennyy-dlya-konsolnyh-svetilnikov-250"
+    },
+    {
+     "seller": "Новый Век (КР-3, d42, вылет 250)",
+     "price": 384,
+     "url": "https://novo-vek.ru/kronshteyn-kr-3"
+    },
+    {
+     "seller": "ЭТМ (IEK КР-3 d48 L250)",
+     "price": 1086.02,
+     "url": "https://www.etm.ru/cat/nn/6307565"
+    }
+   ],
+   "supplier_for_kp": "Новый Век (novo-vek.ru), IEK, завод «Ленсвет» (zavod-lensvet.ru)",
+   "note": "Кронштейн КР-3 с трубой d60 мм не нашли: у всех найденных d42–48 мм. Вероятно, d60 в ТЗ — диаметр под опору или ошибка. Согласовать."
+  },
+  {
+   "n": 105,
+   "product": "IEK KREPTA 3 бокс КМПн 2/4 IP30, арт. MKP42-N-04-30-12",
+   "unit_price": 287.63,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 287.63,
+     "url": "https://www.etm.ru/cat/nn/583934"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 250,
+     "url": "https://www.vseinstrumenti.ru/product/boks-iek-op-kmpn-2-4-na-4-modulya-ip30-iek-mkp42-n-04-30-12-1114237/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / IEK",
+   "note": "Дубль позиции 72."
+  },
+  {
+   "n": 106,
+   "product": "IEK ОКТАВА выключатель 2-клавишный ОП 10А IP20 белый, ВС20-2-0-ОБ",
+   "unit_price": 97.11,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 97.11,
+     "url": "https://www.etm.ru/cat/nn/4206242"
+    },
+    {
+     "seller": "Systeme Electric, Этюд BA10-002B",
+     "price": 281.21,
+     "url": "https://systeme.ru/product/BA10-002B"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 107,
+   "product": "Makel выключатель 1-кл. ОП 10А IP55 серый, арт. 36064101",
+   "unit_price": 251.4,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Энергокомплект (e-kc.ru)",
+     "price": 251.4,
+     "url": "https://e-kc.ru/cena/vyklyuchatel-1-kl-ou-ip55-seryj-10a250v-makel-makel-ip55-ser-vyklyuchatel-1-kl-pruzhzazh-36064101"
+    },
+    {
+     "seller": "ЭраЭлектро",
+     "price": 253,
+     "url": "https://eraelektro.ru/shop/goods/vyiklyuchatel_1_kl_op_10a_IP55_ser_Makel_36064101-72329"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 349,
+     "url": "https://www.vseinstrumenti.ru/product/1-klavishnyj-vyklyuchatel-makel-op-10a-ip55-seryj-360641"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ (etm.ru/cat/nn/6668082, 244,57), Makel",
+   "note": "«ОП-1 Makel» трактуем как 1-клавишный ОП серии IP55. ЭТМ продаёт аналог за 244,57."
+  },
+  {
+   "n": 108,
+   "product": "Makel выключатель 2-кл. ОП 10А IP55 серый, арт. 36064103",
+   "unit_price": 315.23,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 315.23,
+     "url": "https://www.etm.ru/cat/nn/6392406"
+    },
+    {
+     "seller": "Энергокомплект (e-kc.ru)",
+     "price": 318.17,
+     "url": "https://e-kc.ru/cena/vyklyuchatel-2-kl-ou-ip55-seryj-10a250v-makel-makel-ip55-ser-vyklyuchatel-2-kl-pruzhzazh-36064103"
+    },
+    {
+     "seller": "Energy-Express",
+     "price": 291.95,
+     "url": "https://energy-express.ru/catalog/elektroustanovochnye_izdeliya/vyklyuchateli_pereklyuchateli_i"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, Makel",
+   "note": ""
+  },
+  {
+   "n": 109,
+   "product": "Прокладка 8ЭГ.155.001 (черт. ВКИА 305 243 006СБ) для турбогенератора ТФ-125-2",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "ПАО «НПО «ЭЛСИБ» (Новосибирск, elsib.ru) — изготовитель ТФ-125-2; ремонтные организации по турбогенераторам",
+   "note": "Запчасть по чертежу. Публичных цен нет, нужно КП завода."
+  },
+  {
+   "n": 110,
+   "product": "Гибкая связь заземляющих ножей КЛ8.505.128 (РНДЗ-110)",
+   "unit_price": 1700,
+   "vat": "неизвестно",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "bizorg.su (объявление, Екатеринбург)",
+     "price": 1700,
+     "url": "https://bizorg.su/razaediniteli-r/p3200579-gibkaya-svyazy-zazemlyayushtih-nozhey-kl8-505-128"
+    }
+   ],
+   "supplier_for_kp": "ООО «Завод промышленных компонентов» (zpk21.ru, Чебоксары, код 752151), СоюзЭнергоКомплект (souz-ek.ru), siz-profi.com",
+   "note": "Единственная цена — из объявления, учтён ли НДС — неизвестно. Нужно КП."
+  },
+  {
+   "n": 111,
+   "product": "Гибкая связь КЛ8.505.009",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "ООО «Завод промышленных компонентов» (zpk21.ru, код 752147), Чувашия — doska.elec.ru/item/1238531754",
+   "note": "По каталогу zpk21 КЛ8.505.009 — гибкая связь ГЛАВНЫХ ножей, ЗИП для РНДЗ-35. В ТЗ — заземляющие ножи РНДЗ-110. Расхождение уточнить у заказчика."
+  },
+  {
+   "n": 112,
+   "product": "Systeme Electric Этюд выключатель 2-клавишный СУ 10АХ белый, BC10-002B",
+   "unit_price": 297.68,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Systeme Electric (systeme.ru)",
+     "price": 297.68,
+     "url": "https://systeme.ru/product/BC10-002B"
+    },
+    {
+     "seller": "Kollinger Eclipse (матовый белый)",
+     "price": 856,
+     "url": "https://kollinger.ru/product/vyklyuchatel-2-klavishnyy-10a-250v-belyy-matovyy-kol"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, Systeme Electric",
+   "note": "В ТЗ поверхность матовая; у «Этюд» её проверить. Как матовый вариант подходит ЭРА Arktik или Kollinger."
+  },
+  {
+   "n": 113,
+   "product": "Systeme Electric Этюд выключатель 1-клавишный СУ 10АХ белый, BC10-001B",
+   "unit_price": 215.33,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Systeme Electric (systeme.ru)",
+     "price": 215.33,
+     "url": "https://systeme.ru/product/BC10-001B"
+    },
+    {
+     "seller": "EKF (ekfgroup.com), Минск 1-кл. СП 10А белый, РРЦ",
+     "price": 131,
+     "url": "https://ekfgroup.com/ru/catalog/products/minsk-vyklyuchatel-1-klavishnyj-sp-10a-belyj-ekf-basic"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 114,
+   "product": "IN HOME вилка прямая с заземлением, каучук, 16А IP44, 9210 (эквивалент: ЭРА V8-B-IP44 Б0044540)",
+   "unit_price": 104,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты",
+     "price": 104,
+     "url": "https://www.vseinstrumenti.ru/product/pryamaya-vilka-s-zazemleniem-in-home-kauchuk-16a-ip44-chernaya-9210-4690612010236-1279253/"
+    },
+    {
+     "seller": "ВсеИнструменты (подборка, от)",
+     "price": 98,
+     "url": "https://www.vseinstrumenti.ru/tag-page/vilki-kauchukovye-s-zazemleniem-16a-ip44-26"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ (etm.ru/cat/nn/4999482; ЭРА — etm.ru/cat/nn/5595761)",
+   "note": "Цену ЭТМ из сниппета получить не удалось."
+  },
+  {
+   "n": 115,
+   "product": "Systeme Electric Этюд розетка с заземлением без шторок СУ 16А белая, PC16-003B",
+   "unit_price": 211.67,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Systeme Electric (systeme.ru)",
+     "price": 211.67,
+     "url": "https://systeme.ru/product/PC16-003B"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": "Как аналог подходит Blanca BLNRS001011 (ЭТМ)."
+  },
+  {
+   "n": 116,
+   "product": "Systeme Electric Этюд розетка с заземлением без шторок ОУ 16А белая, PA16-003B",
+   "unit_price": 209.23,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Systeme Electric (systeme.ru)",
+     "price": 209.23,
+     "url": "https://systeme.ru/product/PA16-003B"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": "Противоречие в ТЗ: в наименовании «О/П» (открытая), в описании «скрытый». Взята открытая по наименованию. Скрытая — PC16-003B, 211,67."
+  },
+  {
+   "n": 117,
+   "product": "Systeme Electric Этюд розетка с заземлением IP44 ОУ 16А белая (с крышкой), PA16-044B",
+   "unit_price": 390.4,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Systeme Electric (systeme.ru)",
+     "price": 390.4,
+     "url": "https://systeme.ru/product/PA16-044B"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": "Модель со шторками. ТЗ шторки не запрещает."
+  },
+  {
+   "n": 118,
+   "product": "Systeme Electric Этюд розетка двойная с заземлением без шторок СУ 16А белая, PC16-007B",
+   "unit_price": 362.34,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Элевел (k.elevel.ru)",
+     "price": 362.34,
+     "url": "https://k.elevel.ru/shop/rozetki-vyklyuchateli/rozetki/se-etyud-bel-rozetka-2-aya-s-z/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ (etm.ru/cat/nn/9723082)",
+   "note": ""
+  },
+  {
+   "n": 119,
+   "product": "Коробка распаячная ОП ~85х43х35 IP54, пластик",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "ЭТМ, TDM (tdme.ru), Рувинил",
+   "note": "Коробку размером 85(80)х43х35 IP54 в каталогах не нашли. Размеры в ТЗ противоречат друг другу (43х80х35 в названии, 85 в описании). Ближайшая по типу — TDM 65х65х50 IP54 SQ1401-0102 (57,82, tdme.ru), но размер не совпадает."
+  },
+  {
+   "n": 120,
+   "product": "EKF PROxima вилка переносная 013 2Р+РЕ 16А 220В IP44 (эквивалент: IEK ВП-013 PSR01-016-3)",
+   "unit_price": 316,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF (ekfgroup.com), РРЦ",
+     "price": 316,
+     "url": "https://ekfgroup.com/ru/catalog/products/vilka-perenosnaya-013-2r-re-16a-220v-ip44-ekf-proxima"
+    },
+    {
+     "seller": "Румэлектро (IEK PSR01-016-3)",
+     "price": 143.09,
+     "url": "https://roomelectro.ru/vilka_013_2rre_16a_220v_ip44_iek/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, EKF, IEK",
+   "note": "Вилка стандарта CEE 013 с сальником."
+  },
+  {
+   "n": 121,
+   "product": "IN HOME вилка прямая с заземлением, каучук, 16А IP44, 9210",
+   "unit_price": 104,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты",
+     "price": 104,
+     "url": "https://www.vseinstrumenti.ru/product/pryamaya-vilka-s-zazemleniem-in-home-kauchuk-16a-ip44-chernaya-9210-4690612010236-1279253/"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": "Если «наличие сальника» в ТЗ понимать как кабельный ввод с уплотнением, нужна вилка CEE 013 (как в поз. 120)."
+  },
+  {
+   "n": 122,
+   "product": "Systeme Electric Этюд розетка двойная с заземлением без шторок ОУ 16А белая, PA16-007B",
+   "unit_price": 336.72,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Systeme Electric (systeme.ru)",
+     "price": 336.72,
+     "url": "https://systeme.ru/product/PA16-007B"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": ""
   }
  ],
  "makers": [],
