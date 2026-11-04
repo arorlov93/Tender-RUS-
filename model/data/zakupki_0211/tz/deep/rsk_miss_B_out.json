@@ -3,13 +3,15 @@
   "n": 347,
   "name": "Зажим 2-х клиновой для стального каната15,5-18,5",
   "nmc_unit": 49190.4,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
-  "estimate": false,
-  "url": null
+  "price": 9809.7,
+  "vat": true,
+  "product": "Зажим 2-клиновой для стального каната диаметром 15,5 - 18,5 мм",
+  "maker": "?",
+  "match": "оценка по ФСБЦ",
+  "estimate": true,
+  "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
+  "method": "ФСБЦ-2022 20.1.01.15-0001 5895.89 руб/шт без НДС × 1.66 (отношение цены taigaelectric.ru с НДС к ФСБЦ, общая медиана по 51 парам)",
+  "note": "монтажный инструмент (зажим 2-клиновой для каната 15,5–18,5), оценка по ФСБЦ"
  },
  {
   "n": 361,
@@ -21,8 +23,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_montajnyiy_mp_1-324091",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_montajnyiy_mp_1-324091"
  },
  {
   "n": 362,
@@ -34,8 +35,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a2a_300_1t-323253",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a2a_300_1t-323253"
  },
  {
   "n": 363,
@@ -47,8 +47,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a2a_500_1t-323255",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a2a_500_1t-323255"
  },
  {
   "n": 364,
@@ -60,8 +59,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a4a_300_3t-323257",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a4a_300_3t-323257"
  },
  {
   "n": 365,
@@ -73,8 +71,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a4a_300_4t-323259",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a4a_300_4t-323259"
  },
  {
   "n": 366,
@@ -86,8 +83,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a4a_500_3t-323261",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a4a_500_3t-323261"
  },
  {
   "n": 367,
@@ -99,8 +95,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a4a_500_4t-323263",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a4a_500_4t-323263"
  },
  {
   "n": 368,
@@ -112,8 +107,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_300_3t-323265",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_300_3t-323265"
  },
  {
   "n": 369,
@@ -125,8 +119,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_300_4t-323267",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_300_4t-323267"
  },
  {
   "n": 370,
@@ -138,8 +131,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_500_3t-323269",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_500_3t-323269"
  },
  {
   "n": 371,
@@ -151,8 +143,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_500_4t-323271",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_500_4t-323271"
  },
  {
   "n": 372,
@@ -164,8 +155,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_600_3t-323273",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_600_3t-323273"
  },
  {
   "n": 373,
@@ -177,8 +167,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_600_4t-323275",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6a_600_4t-323275"
  },
  {
   "n": 374,
@@ -190,8 +179,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6ap_500_3t-323277",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6ap_500_3t-323277"
  },
  {
   "n": 375,
@@ -203,8 +191,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6ap_500_4t-323279",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6ap_500_4t-323279"
  },
  {
   "n": 376,
@@ -216,21 +203,20 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6ap_640_1bt-323281",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_2a6ap_640_1bt-323281"
  },
  {
   "n": 377,
   "name": "Зажим аппаратный 2А6АП-640-2Т",
   "nmc_unit": 38119.51,
-  "price": 16797.93,
+  "price": 16332.88,
   "vat": true,
   "product": "Зажимы аппаратные прессуемые 2А6АП-640-2Т",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.02-0018 10018.18 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.02-0018 10018.18 руб/шт без НДС × 1.63 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.02 (24 пар))"
  },
  {
   "n": 378,
@@ -242,8 +228,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a2a_500_3t-323283",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a2a_500_3t-323283"
  },
  {
   "n": 379,
@@ -255,8 +240,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a2a_500_4at-323285",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a2a_500_4at-323285"
  },
  {
   "n": 380,
@@ -268,8 +252,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a2a_500_4t-323287",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a2a_500_4t-323287"
  },
  {
   "n": 381,
@@ -281,34 +264,33 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a2a_600_3t-323289",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a2a_600_3t-323289"
  },
  {
   "n": 382,
   "name": "Зажим аппаратный прессуемый алюминиевый 3А2А 600-4АТ",
   "nmc_unit": 17247.14,
-  "price": 8211.17,
+  "price": 7983.85,
   "vat": true,
   "product": "Зажимы аппаратные прессуемые 3А2А-600-4АТ",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.02-0024 4897.09 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.02-0024 4897.09 руб/шт без НДС × 1.63 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.02 (24 пар))"
  },
  {
   "n": 383,
   "name": "Зажим аппаратный прессуемый 3А2АП-500-3Т",
   "nmc_unit": 40006.85,
-  "price": 26146.26,
+  "price": 25422.39,
   "vat": true,
   "product": "Зажимы аппаратные прессуемые 3А2АП-500-3Т",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.02-0025 15593.47 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.02-0025 15593.47 руб/шт без НДС × 1.63 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.02 (24 пар))"
  },
  {
   "n": 384,
@@ -320,13 +302,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a4a_300_2t-323291",
-  "alt": [
-   [
-    15051.0,
-    "taigaelectric.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a4a_300_2t-323291"
  },
  {
   "n": 386,
@@ -338,13 +314,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a4a_400_2t-323295",
-  "alt": [
-   [
-    16385.0,
-    "taigaelectric.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a4a_400_2t-323295"
  },
  {
   "n": 387,
@@ -356,26 +326,20 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a4a_400_3t-323297",
-  "alt": [
-   [
-    16576.0,
-    "taigaelectric.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a4a_400_3t-323297"
  },
  {
   "n": 388,
   "name": "Зажим аппаратный прессуемый алюминиевый 3А4А 600-2Т",
   "nmc_unit": 25593.16,
-  "price": 11246.22,
+  "price": 10934.87,
   "vat": true,
   "product": "Зажимы аппаратные прессуемые 3А4А-600-2Т",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.02-0031 6707.18 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.02-0031 6707.18 руб/шт без НДС × 1.63 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.02 (24 пар))"
  },
  {
   "n": 389,
@@ -387,13 +351,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a4a_600_3t-323299",
-  "alt": [
-   [
-    17719.0,
-    "taigaelectric.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_3a4a_600_3t-323299"
  },
  {
   "n": 390,
@@ -405,32 +363,31 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_opornyie_3aap_500_1t-323571",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_opornyie_3aap_500_1t-323571"
  },
  {
   "n": 392,
   "name": "Зажим аппаратный прессуемые алюминиевый А1А-25Т",
   "nmc_unit": 300.73,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 206.0,
+  "vat": true,
+  "product": "Зажим аппаратный  А1А-25-3Т",
+  "maker": "?",
+  "match": "аналог типоразмера: А1А-25-3Т вместо А1А-25Т (то же сечение, др. исполнение контакта)",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_a1a_25_3t-323305"
  },
  {
   "n": 399,
   "name": "Зажим аппаратный прессуемый алюминиевый А2А-16Т",
   "nmc_unit": 326.96,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 224.0,
+  "vat": true,
+  "product": "Зажим аппаратный  А2А-16-3Т",
+  "maker": "?",
+  "match": "аналог типоразмера: А2А-16-3Т вместо А2А-16Т (то же сечение, др. исполнение)",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajim_apparatnyiy_a2a_16_3t-323329"
  },
  {
   "n": 419,
@@ -442,46 +399,47 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "А4АБ-205-240 (аппаратный болтовой) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 428,
   "name": "Зажим клыковой КС-100-1",
   "nmc_unit": 1005.28,
-  "price": 533.54,
+  "price": 529.43,
   "vat": true,
   "product": "Зажим клыковой КС-100-1",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.06-0001 318.20 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.06-0001 318.20 руб/шт без НДС × 1.66 (отношение цены taigaelectric.ru с НДС к ФСБЦ, общая медиана по 51 парам)"
  },
  {
   "n": 429,
   "name": "Зажим клыковой КС-120-1",
   "nmc_unit": 1693.97,
-  "price": 868.55,
+  "price": 861.86,
   "vat": true,
   "product": "Зажим клыковой КС-120-1",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.06-0002 518.00 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.06-0002 518.00 руб/шт без НДС × 1.66 (отношение цены taigaelectric.ru с НДС к ФСБЦ, общая медиана по 51 парам)"
  },
  {
   "n": 430,
   "name": "Зажим клыковой КС-185-1",
   "nmc_unit": 1771.44,
-  "price": 955.41,
+  "price": 948.04,
   "vat": true,
   "product": "Зажим клыковой КС-185-1",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.06-0003 569.80 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.06-0003 569.80 руб/шт без НДС × 1.66 (отношение цены taigaelectric.ru с НДС к ФСБЦ, общая медиана по 51 парам)"
  },
  {
   "n": 444,
@@ -493,44 +451,43 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_klinosochlen_nnyiy_nk_160_266_277-323543",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_klinosochlen_nnyiy_nk_160_266_277-323543"
  },
  {
   "n": 445,
   "name": "Зажим натяжной клиновый НК-210/28,8-30,6",
   "nmc_unit": 43414.31,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 13375.0,
+  "vat": true,
+  "product": "Зажим клиносочленённый НК-160/26,6-27,7",
+  "maker": "?",
+  "match": "аналог типоразмера: НК-160/26,6-27,7 вместо НК-210/28,8-30,6 (меньший типоразмер — цена ЗАНИЖЕНА, НК-210 существенно тяжелее)",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajim_klinosochlen_nnyiy_nk_160_266_277-323543"
  },
  {
   "n": 448,
   "name": "Зажим натяжной прессуемый НАС-120-1Б",
   "nmc_unit": 3052.44,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 2069.0,
+  "vat": true,
+  "product": "Зажимы натяжные прессуемые НАС-120-1Б",
+  "maker": "?",
+  "match": "точно",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_120_1b-323463"
  },
  {
   "n": 449,
   "name": "Зажим натяжной прессуемый НАС-150-1Б",
   "nmc_unit": 6379.99,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 4370.0,
+  "vat": true,
+  "product": "Зажимы натяжные прессуемые НАС-150-1Б",
+  "maker": "?",
+  "match": "точно",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_150_1b-323467"
  },
  {
   "n": 450,
@@ -542,20 +499,19 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_150_1v-323469",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_150_1v-323469"
  },
  {
   "n": 451,
   "name": "Зажим натяжной прессуемый НАС-150-2Б",
   "nmc_unit": 5385.69,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 4370.0,
+  "vat": true,
+  "product": "Зажимы натяжные прессуемые НАС-150-1Б",
+  "maker": "?",
+  "match": "аналог типоразмера: НАС-150-1Б вместо НАС-150-2Б (то же сечение, др. исполнение)",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_150_1b-323467"
  },
  {
   "n": 453,
@@ -567,8 +523,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_240_1b-323473",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_240_1b-323473"
  },
  {
   "n": 454,
@@ -580,32 +535,31 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_240_1v-323475",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_240_1v-323475"
  },
  {
   "n": 456,
   "name": "Зажим натяжной прессуемый НАС-240-2Б",
   "nmc_unit": 4029.05,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 3416.0,
+  "vat": true,
+  "product": "Зажимы натяжные прессуемые НАС-240-2",
+  "maker": "?",
+  "match": "аналог типоразмера: НАС-240-2 вместо НАС-240-2Б",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_240_2-323477"
  },
  {
   "n": 458,
   "name": "Зажим натяжной прессуемый НАС-300-1Б",
   "nmc_unit": 5014.2,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 3435.0,
+  "vat": true,
+  "product": "Зажимы натяжные прессуемые НАС-300-1Б",
+  "maker": "?",
+  "match": "точно",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_300_1b-323483"
  },
  {
   "n": 460,
@@ -617,8 +571,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_330_1b-323489",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_330_1b-323489"
  },
  {
   "n": 461,
@@ -630,20 +583,19 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_330_2-323493",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_330_2-323493"
  },
  {
   "n": 462,
   "name": "Зажим натяжной прессуемый НАС-330-2Б",
   "nmc_unit": 4421.28,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 3460.0,
+  "vat": true,
+  "product": "Зажимы натяжные прессуемые НАС-330-2",
+  "maker": "?",
+  "match": "аналог типоразмера: НАС-330-2 вместо НАС-330-2Б",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_330_2-323493"
  },
  {
   "n": 463,
@@ -655,20 +607,19 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_330_3b-323495",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_330_3b-323495"
  },
  {
   "n": 465,
   "name": "Зажим натяжной прессуемый НАС-400-1Б",
   "nmc_unit": 5059.95,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 3364.0,
+  "vat": true,
+  "product": "Зажимы натяжные прессуемые НАС-400-1Б",
+  "maker": "?",
+  "match": "точно",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_400_1b-323499"
  },
  {
   "n": 467,
@@ -680,8 +631,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_450_1b-323503",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_450_1b-323503"
  },
  {
   "n": 470,
@@ -693,34 +643,31 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_600_1b-323511",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_600_1b-323511"
  },
  {
   "n": 471,
   "name": "Зажим натяжной прессуемый НС-100-3",
   "nmc_unit": 2651.06,
-  "price": 1707.16,
+  "price": 1630.0,
   "vat": true,
-  "product": "Зажим натяжной НС-100-3",
+  "product": "Зажимы натяжные прессуемые НС-100-3",
   "maker": "?",
-  "match": "оценка по ФСБЦ",
-  "estimate": true,
-  "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.5.04.04-0022 1018.14 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "match": "точно",
+  "estimate": false,
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_ns_100_3-323549"
  },
  {
   "n": 472,
   "name": "Зажим натяжной прессуемый НС-120-3",
   "nmc_unit": 3251.91,
-  "price": 2052.0,
+  "price": 2227.0,
   "vat": true,
-  "product": "Зажим натяжной НС-120-3",
+  "product": "Зажимы натяжные прессуемые НС-120-3",
   "maker": "?",
-  "match": "оценка по ФСБЦ",
-  "estimate": true,
-  "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.5.04.04-0024 1223.80 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "match": "точно",
+  "estimate": false,
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_ns_120_3-323551"
  },
  {
   "n": 473,
@@ -732,8 +679,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_ns_140_3-323553",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_ns_140_3-323553"
  },
  {
   "n": 476,
@@ -745,7 +691,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "ОАБ (ответвительный болтовой) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 477,
@@ -757,7 +704,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "ОАБ — открытых цен и ФСБЦ нет"
  },
  {
   "n": 478,
@@ -769,7 +717,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "ОАБ — открытых цен и ФСБЦ нет"
  },
  {
   "n": 480,
@@ -781,8 +730,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_pressuemyiy_roa_240_1-323457",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_pressuemyiy_roa_240_1-323457"
  },
  {
   "n": 481,
@@ -794,8 +742,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_pressuemyiy_roa_300_1-323459",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_pressuemyiy_roa_300_1-323459"
  },
  {
   "n": 492,
@@ -807,8 +754,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_oa_300_2t-323423",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_oa_300_2t-323423"
  },
  {
   "n": 498,
@@ -820,8 +766,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_oa_600_2t-323435",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_oa_600_2t-323435"
  },
  {
   "n": 501,
@@ -833,8 +778,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_oa_95_1-323441",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_otvetvitelnyiy_oa_95_1-323441"
  },
  {
   "n": 503,
@@ -846,8 +790,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pas_120_2t-323701",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pas_120_2t-323701"
  },
  {
   "n": 504,
@@ -859,8 +802,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pas_240_2t-323703",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pas_240_2t-323703"
  },
  {
   "n": 505,
@@ -872,8 +814,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pas_300_2t-323705",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pas_300_2t-323705"
  },
  {
   "n": 506,
@@ -885,21 +826,20 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pas_400_2t-323707",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pas_400_2t-323707"
  },
  {
   "n": 507,
   "name": "Зажим соединительный переходной ПАС-600-2Т",
   "nmc_unit": 3293.39,
-  "price": 2595.77,
+  "price": 2256.11,
   "vat": true,
   "product": "Зажим соединительный переходной ПАС-600-2Т",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.10-0006 1548.10 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.10-0006 1548.10 руб/шт без НДС × 1.46 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.10 (4 пар))"
  },
  {
   "n": 508,
@@ -911,8 +851,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_perehodnoy_pp_21t-323445",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_perehodnoy_pp_21t-323445"
  },
  {
   "n": 509,
@@ -924,21 +863,20 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pp_24t-323447",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pp_24t-323447"
  },
  {
   "n": 510,
   "name": "Зажим переходной петлевой ПП-33Т",
   "nmc_unit": 3745.4,
-  "price": 2012.09,
+  "price": 2686.0,
   "vat": true,
   "product": "Зажим переходной петлевой ПП-33Т",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.09-0012 1200.00 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.09-0012 1200.00 руб/шт без НДС × 2.24 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.09 (7 пар))"
  },
  {
   "n": 511,
@@ -950,21 +888,20 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pp_44t-323449",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pp_44t-323449"
  },
  {
   "n": 512,
   "name": "Зажим переходной петлевой ПП-47Т",
   "nmc_unit": 5648.6,
-  "price": 3169.05,
+  "price": 4230.45,
   "vat": true,
   "product": "Зажим переходной петлевой ПП-47Т",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.09-0020 1890.00 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.09-0020 1890.00 руб/шт без НДС × 2.24 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.09 (7 пар))"
  },
  {
   "n": 513,
@@ -976,21 +913,21 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pp_51t-323451",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_pp_51t-323451"
  },
  {
   "n": 514,
   "name": "Зажим переходной петлевой ПП-69Т",
   "nmc_unit": 37432.65,
-  "price": 3169.05,
+  "price": 4230.45,
   "vat": true,
   "product": "Зажим переходной петлевой ПП-69Т",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.09-0034 1890.00 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.09-0034 1890.00 руб/шт без НДС × 2.24 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.09 (7 пар))",
+  "note": "НИЗКАЯ достоверность: ФСБЦ даёт единую цену на группу, а предельная цена заказчика в 3–9 раз выше — вероятно, изделие тяжелее; уточнить у производителя"
  },
  {
   "n": 515,
@@ -1002,8 +939,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_ppr_3t-323709",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_ppr_3t-323709"
  },
  {
   "n": 516,
@@ -1015,8 +951,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_ppr_6t-323711",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_ppr_6t-323711"
  },
  {
   "n": 517,
@@ -1028,21 +963,21 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_ppr_8t-323453",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_perehodnyie_ppr_8t-323453"
  },
  {
   "n": 518,
   "name": "Зажим переходной петлевой ППТ-3Т",
   "nmc_unit": 12758.76,
-  "price": 2099.28,
+  "price": 2802.39,
   "vat": true,
   "product": "Зажим переходной петлевой ППТ-3Т",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.09-0050 1252.00 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.09-0050 1252.00 руб/шт без НДС × 2.24 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.09 (7 пар))",
+  "note": "НИЗКАЯ достоверность: ФСБЦ даёт единую цену на группу, а предельная цена заказчика в 3–9 раз выше — вероятно, изделие тяжелее; уточнить у производителя"
  },
  {
   "n": 530,
@@ -1054,8 +989,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_plashechnyiy_ps_2_1a-323935",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_plashechnyiy_ps_2_1a-323935"
  },
  {
   "n": 532,
@@ -1067,8 +1001,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_plashechnyiy_ezk-323793",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_plashechnyiy_ezk-323793"
  },
  {
   "n": 533,
@@ -1080,8 +1013,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_2pgn_5_10-323565",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_2pgn_5_10-323565"
  },
  {
   "n": 536,
@@ -1093,8 +1025,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_3pgn_5_1m-323575",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_3pgn_5_1m-323575"
  },
  {
   "n": 537,
@@ -1106,8 +1037,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_3pgn_5_12-323573",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_3pgn_5_12-323573"
  },
  {
   "n": 538,
@@ -1119,17 +1049,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_3pgn_5_7-323577",
-  "alt": [
-   [
-    36158.4,
-    "energopostavkabel.ru"
-   ],
-   [
-    52731.0,
-    "energopostavkabel.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_3pgn_5_7-323577"
  },
  {
   "n": 548,
@@ -1141,20 +1061,19 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pg_30_18_28p-323609",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pg_30_18_28p-323609"
  },
  {
   "n": 549,
   "name": "Поддерживающий зажим ПГ-30/18-28Р",
   "nmc_unit": 1507.92,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 1057.0,
+  "vat": true,
+  "product": "Зажим поддерживающий ПГ-30/18-28П",
+  "maker": "?",
+  "match": "аналог типоразмера: ПГ-30/18-28П вместо ПГ-30/18-28Р (тот же типоразмер, др. исполнение)",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pg_30_18_28p-323609"
  },
  {
   "n": 550,
@@ -1166,8 +1085,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pg_60_13_29r-323613",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pg_60_13_29r-323613"
  },
  {
   "n": 556,
@@ -1179,13 +1097,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pgg_30_12_20a-323623",
-  "alt": [
-   [
-    349.0,
-    "lumtorg.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pgg_30_12_20a-323623"
  },
  {
   "n": 562,
@@ -1197,13 +1109,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pgn_5_4-323643",
-  "alt": [
-   [
-    32816.0,
-    "taigaelectric.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pgn_5_4-323643"
  },
  {
   "n": 563,
@@ -1215,21 +1121,20 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pgn_5_6-323647",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pgn_5_6-323647"
  },
  {
   "n": 564,
   "name": "Зажим поддерживающий глухой ПГН-5-7",
   "nmc_unit": 7417.6,
-  "price": 4257.02,
+  "price": 4660.27,
   "vat": true,
   "product": "Зажим поддерживающий глухой ПГН-5-7",
   "maker": "?",
   "match": "оценка по ФСБЦ",
   "estimate": true,
   "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.1.01.12-0019 2538.86 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "method": "ФСБЦ-2022 20.1.01.12-0019 2538.86 руб/шт без НДС × 1.84 (отношение цены taigaelectric.ru с НДС к ФСБЦ, медиана по группе ФСБЦ 20.1.01.12 (5 пар))"
  },
  {
   "n": 565,
@@ -1241,8 +1146,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pgn_6_5-323649",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pgn_6_5-323649"
  },
  {
   "n": 575,
@@ -1254,8 +1158,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_remontnyie_ras_150_4a-323717",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_remontnyie_ras_150_4a-323717"
  },
  {
   "n": 579,
@@ -1267,8 +1170,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_240_1b-323725",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_240_1b-323725"
  },
  {
   "n": 581,
@@ -1280,8 +1182,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_240_2b-323729",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_240_2b-323729"
  },
  {
   "n": 583,
@@ -1293,13 +1194,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_240_3b-323733",
-  "alt": [
-   [
-    6529.5,
-    "energopostavkabel.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_240_3b-323733"
  },
  {
   "n": 585,
@@ -1311,8 +1206,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_300_1b-323737",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_300_1b-323737"
  },
  {
   "n": 587,
@@ -1324,8 +1218,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_330_1b-323741",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_330_1b-323741"
  },
  {
   "n": 588,
@@ -1337,8 +1230,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_330_2b-323743",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_330_2b-323743"
  },
  {
   "n": 589,
@@ -1350,8 +1242,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_330_3b-323745",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_330_3b-323745"
  },
  {
   "n": 591,
@@ -1363,8 +1254,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_400_1b-323749",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_400_1b-323749"
  },
  {
   "n": 593,
@@ -1376,8 +1266,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_400_2b-323753",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_400_2b-323753"
  },
  {
   "n": 594,
@@ -1389,8 +1278,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_400_3b-323755",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_400_3b-323755"
  },
  {
   "n": 596,
@@ -1402,8 +1290,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_500_1b-323759",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_500_1b-323759"
  },
  {
   "n": 599,
@@ -1415,8 +1302,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_500_3b-323765",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_sas_500_3b-323765"
  },
  {
   "n": 601,
@@ -1428,8 +1314,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_svs_50_3-323769",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_svs_50_3-323769"
  },
  {
   "n": 603,
@@ -1441,8 +1326,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_ovalnyiy_soa_120_1-323773",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_ovalnyiy_soa_120_1-323773"
  },
  {
   "n": 604,
@@ -1454,8 +1338,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_ovalnyiy_soa_150_1-323775",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_ovalnyiy_soa_150_1-323775"
  },
  {
   "n": 605,
@@ -1467,8 +1350,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_soa_185_1-323777",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_soa_185_1-323777"
  },
  {
   "n": 610,
@@ -1480,8 +1362,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_soas_35_3-323785",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_soedinitelnyiy_soas_35_3-323785"
  },
  {
   "n": 614,
@@ -1493,7 +1374,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "СОМ-120-1 (медный овальный) — нигде нет; алюминиевый СОА-120-1 (349 р.) не аналог по цене"
  },
  {
   "n": 876,
@@ -1505,20 +1387,19 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_450_1v-323505",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_450_1v-323505"
  },
  {
   "n": 877,
   "name": "Зажим натяжной прессуемый НАС-95-1В",
   "nmc_unit": 5328.35,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 3650.0,
+  "vat": true,
+  "product": "Зажимы натяжные прессуемые НАС-95-1В",
+  "maker": "?",
+  "match": "точно",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_nas_95_1v-323513"
  },
  {
   "n": 878,
@@ -1530,8 +1411,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_120-324739",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_120-324739"
  },
  {
   "n": 879,
@@ -1543,8 +1423,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_150-324741",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_150-324741"
  },
  {
   "n": 880,
@@ -1556,8 +1435,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_185-324743",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_185-324743"
  },
  {
   "n": 881,
@@ -1569,8 +1447,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_240-324745",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_240-324745"
  },
  {
   "n": 882,
@@ -1582,8 +1459,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_70-324747",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_70-324747"
  },
  {
   "n": 883,
@@ -1595,8 +1471,7 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_95-324749",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajim_natyajnoy_spiralnyiy_ns_95-324749"
  },
  {
   "n": 884,
@@ -1608,26 +1483,19 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pg_60_13_29-323611",
-  "alt": [
-   [
-    2174.0,
-    "taigaelectric.ru"
-   ]
-  ]
+  "url": "https://taigaelectric.ru/shop/goods/zajim_podderjivayuschiy_pg_60_13_29-323611"
  },
  {
   "n": 885,
   "name": "Зажим натяжной прессуемый НС-150-3",
   "nmc_unit": 4003.43,
-  "price": 2672.41,
+  "price": 2583.0,
   "vat": true,
-  "product": "Зажим натяжной НС-150-3",
+  "product": "Зажимы натяжные прессуемые НС-150-3",
   "maker": "?",
-  "match": "оценка по ФСБЦ",
-  "estimate": true,
-  "url": "https://meganorm.ru/mega_doc/norm/prikaz/1/fsbts-2022_fsbts_81-01-2022_federalnye_smetnye_tseny_na_662.html",
-  "method": "ФСБЦ-2022 20.5.04.04-0026 1593.81 руб/шт без НДС × 1.68 (медиана отношения цены taigaelectric.ru с НДС к ФСБЦ по 48 позициям этой же группы)"
+  "match": "точно",
+  "estimate": false,
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_ns_150_3-323555"
  },
  {
   "n": 886,
@@ -1639,56 +1507,55 @@
   "maker": "?",
   "match": "точно",
   "estimate": false,
-  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_ns_170_3-323557",
-  "alt": []
+  "url": "https://taigaelectric.ru/shop/goods/zajimyi_natyajnyie_pressuemyie_ns_170_3-323557"
  },
  {
   "n": 908,
   "name": "Зажим автоматический соединительный цанговый АСЦ 63",
   "nmc_unit": 6126.23,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 4196.0,
+  "vat": true,
+  "product": "Автоматический соединительный цанговый зажим АСЦ 66-20",
+  "maker": "?",
+  "match": "аналог типоразмера: АСЦ 66-20 вместо АСЦ 63 (соседний типоразмер, 63 меньше — цена скорее завышена)",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/avtomaticheskiy_soedinitelnyiy_tsangovyiy_zajim_asts_66_20-321007"
  },
  {
   "n": 909,
   "name": "Зажим автоматический соединительный цанговый АСЦ 64",
   "nmc_unit": 4877.56,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 4196.0,
+  "vat": true,
+  "product": "Автоматический соединительный цанговый зажим АСЦ 66-20",
+  "maker": "?",
+  "match": "аналог типоразмера: АСЦ 66-20 вместо АСЦ 64 (соседний типоразмер)",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/avtomaticheskiy_soedinitelnyiy_tsangovyiy_zajim_asts_66_20-321007"
  },
  {
   "n": 910,
   "name": "Зажим автоматический соединительный цанговый АСЦ 65",
   "nmc_unit": 8479.61,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 5499.0,
+  "vat": true,
+  "product": "Автоматический соединительный цанговый зажим АСЦ 66-35",
+  "maker": "?",
+  "match": "аналог типоразмера: АСЦ 66-35 вместо АСЦ 65 (соседний типоразмер)",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/avtomaticheskiy_soedinitelnyiy_tsangovyiy_zajim_asts_66_35-321009"
  },
  {
   "n": 911,
   "name": "Зажим автоматический соединительный цанговый АСЦ 66",
   "nmc_unit": 8028.82,
-  "price": null,
-  "vat": "?",
-  "product": null,
-  "maker": null,
-  "match": null,
+  "price": 5499.0,
+  "vat": true,
+  "product": "Автоматический соединительный цанговый зажим АСЦ 66-35",
+  "maker": "?",
+  "match": "аналог типоразмера: АСЦ 66 — у taiga исполнения 66-20 (4196) и 66-35 (5499); взято 66-35",
   "estimate": false,
-  "url": null
+  "url": "https://taigaelectric.ru/shop/goods/avtomaticheskiy_soedinitelnyiy_tsangovyiy_zajim_asts_66_35-321009"
  },
  {
   "n": 914,
@@ -1700,7 +1567,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "АСЦ 72 — у дилеров только АСЦ 66…69; 72 — существенно крупнее, аналог не применим"
  },
  {
   "n": 915,
@@ -1712,7 +1580,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 916,
@@ -1724,7 +1593,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 917,
@@ -1736,7 +1606,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 918,
@@ -1748,7 +1619,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 919,
@@ -1760,7 +1632,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 920,
@@ -1772,7 +1645,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 921,
@@ -1784,7 +1658,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 922,
@@ -1796,7 +1671,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 923,
@@ -1808,7 +1684,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 924,
@@ -1820,7 +1697,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСТ (соединительный для грозотроса) — открытых цен и ФСБЦ нет"
  },
  {
   "n": 925,
@@ -1832,7 +1710,8 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСк2у (для провода АСк2у) — открытых цен нет, ФСБЦ нет"
  },
  {
   "n": 926,
@@ -1844,6 +1723,7 @@
   "maker": null,
   "match": null,
   "estimate": false,
-  "url": null
+  "url": null,
+  "reason": "САСк2у (для провода АСк2у) — открытых цен нет, ФСБЦ нет"
  }
 ]
