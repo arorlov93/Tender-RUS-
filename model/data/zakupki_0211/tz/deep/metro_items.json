@@ -1,0 +1,101 @@
+[
+ {
+  "n": 1,
+  "name": "арматура СКЛ-16.3Б-К-2-24",
+  "nmc_unit": 165.34,
+  "okpd": "27.33.13.190",
+  "prohib": "false",
+  "constr": "false",
+  "sup": null
+ },
+ {
+  "n": 2,
+  "name": "арматура СКЛ-16.3Б-Л-2-24",
+  "nmc_unit": 165.34,
+  "okpd": "27.33.13.190",
+  "prohib": "false",
+  "constr": "false",
+  "sup": null
+ },
+ {
+  "n": 3,
+  "name": "арматура СКЛ-16.ЗА-К-2-220",
+  "nmc_unit": 180.37,
+  "okpd": "27.33.13.190",
+  "prohib": "false",
+  "constr": "false",
+  "sup": null
+ },
+ {
+  "n": 4,
+  "name": "лампа инд с/д ком зеленая 220В гибк",
+  "nmc_unit": 178.93,
+  "okpd": "27.40.42.290",
+  "prohib": "false",
+  "constr": "true",
+  "sup": null
+ },
+ {
+  "n": 5,
+  "name": "лампа светодиодная 80Вт Е40",
+  "nmc_unit": 5780.91,
+  "okpd": "27.40.25.129",
+  "prohib": "false",
+  "constr": "true",
+  "sup": null
+ },
+ {
+  "n": 6,
+  "name": "розетка двойн открыт устан б/заземления",
+  "nmc_unit": 339.49,
+  "okpd": "27.33.13.110",
+  "prohib": "false",
+  "constr": "false",
+  "sup": null
+ },
+ {
+  "n": 7,
+  "name": "розетка для каб канала тип 2",
+  "nmc_unit": 671.7,
+  "okpd": "27.33.13.110",
+  "prohib": "false",
+  "constr": "false",
+  "sup": null
+ },
+ {
+  "n": 8,
+  "name": "розетка кабельная 63А 3Р PE",
+  "nmc_unit": 3830.69,
+  "okpd": "27.33.13.110",
+  "prohib": "false",
+  "constr": "false",
+  "sup": null
+ },
+ {
+  "n": 9,
+  "name": "светильник с/д точечный большой",
+  "nmc_unit": 7357.43,
+  "okpd": "27.40.25.129",
+  "prohib": "false",
+  "constr": "true",
+  "sup": null
+ },
+ {
+  "n": 10,
+  "name": "светильник светодиодный 13600 Лм",
+  "nmc_unit": 17592.93,
+  "okpd": "27.40.25.123",
+  "prohib": "false",
+  "constr": "true",
+  "sup": null
+ },
+ {
+  "n": 11,
+  "name": "шнур сетевой с евровилкой",
+  "nmc_unit": 1135.0,
+  "okpd": "27.51.30.000",
+  "prohib": "false",
+  "constr": "false",
+  "sup": null
+ }
+]
