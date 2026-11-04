@@ -1,0 +1,540 @@
+{
+ "items": [
+  {
+   "n": 62,
+   "product": "EKF PROxima Heat box 120 T, арт. HB120T (коробка соединительная взрывозащищ. для саморег. кабеля)",
+   "unit_price": 9180,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF (ekfgroup.com), рекоменд. розничная цена",
+     "price": 9180,
+     "url": "https://ekfgroup.com/ru/catalog/products/korobka-soedinitelnaya-heat-box-120-t-ekf-proxima"
+    },
+    {
+     "seller": "Теплокабель-М",
+     "price": 10000,
+     "url": "https://teplokabel.ru/product/soedinitelnye-korobki/korobka-soedinitelnaya-heat-box-120-t/"
+    },
+    {
+     "seller": "Элевел",
+     "price": 10560,
+     "url": "https://elevel.ru/shop/instrumenty-i-montazhnye-materialy/montazhnye-materialy/montazhnye-korobki-i-aksessuary/hb120t/"
+    },
+    {
+     "seller": "ЭКС (elektro.ru)",
+     "price": 10760,
+     "url": "https://www.elektro.ru/product/korobka_soedinitelnaya_heat_box_120_t_hb120t/"
+    }
+   ],
+   "supplier_for_kp": "EKF / ЭТМ (etm.ru/cat/nn/4454929)",
+   "note": "Heat box — бренд EKF. Медиана розницы ~10 000; energy-express показывал 6409.92 (вероятно устаревшая цена, не учтена)."
+  },
+  {
+   "n": 63,
+   "product": "EKF PROxima Heat box 160 S, арт. HB160S",
+   "unit_price": 15300,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF (ekfgroup.com), рекоменд. розничная цена",
+     "price": 15300,
+     "url": "https://ekfgroup.com/ru/catalog/products/korobka-soedinitelnaya-heat-box-160-s-ekf-proxima"
+    },
+    {
+     "seller": "Энергокомплект (e-kc.ru), 03.11.2026",
+     "price": 13056,
+     "url": "https://e-kc.ru/cena/korobka-soedinitelnaya-heat-box-160-s-dlya-greyushchego-kabelya-hb160s-ekf"
+    },
+    {
+     "seller": "Технокам (ekfparts.ru), с доставкой",
+     "price": 17186.67,
+     "url": "https://www.ekfparts.ru/catalog/ekf/kabelno-provodnikovaya-produktsiya-i-izdeliya-dlya-prokladki-kabelya/1097656-korobka-soedinitelnaia-heat-box-160-s-hb160s"
+    }
+   ],
+   "supplier_for_kp": "EKF / ЭТМ",
+   "note": "Теплокабель-М: 18 000 (розница)."
+  },
+  {
+   "n": 64,
+   "product": "EKF Комплект для соединения STN, арт. STN",
+   "unit_price": 765,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF (ekfgroup.com), РРЦ",
+     "price": 765,
+     "url": "https://ekfgroup.com/ru/catalog/products/komplekt-dlya-soedineniya-stn-ekf-proxima"
+    },
+    {
+     "seller": "ЭТМ",
+     "price": 706.75,
+     "url": "https://www.etm.ru/cat/nn/2501076"
+    },
+    {
+     "seller": "Русский Свет (rs24.ru)",
+     "price": 755.79,
+     "url": "https://rs24.ru/product/3209655"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 793,
+     "url": "https://www.vseinstrumenti.ru/product/komplekt-dlya-soedineniya-ekf-stn-9579572/"
+    }
+   ],
+   "supplier_for_kp": "EKF / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 65,
+   "product": "EKF PROxima кнопка APBB-22N «Пуск-Стоп» овальная 220В NO+NC с лампой, арт. pbn-apbb-o",
+   "unit_price": 578.72,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 578.72,
+     "url": "https://www.etm.ru/cat/nn/9861116"
+    },
+    {
+     "seller": "EKF (ekfgroup.com), РРЦ",
+     "price": 621,
+     "url": "https://ekfgroup.com/ru/catalog/products/knopka-apbb-22n-pusk-stop-ovalnaya-220v-no-nc-ekf-proxima"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 505,
+     "url": "https://www.vseinstrumenti.ru/product/knopka-ekf-apbb-22n-pusk-stop-ovalnaya-220v-pbn-apbb-o-9861116-913060/"
+    },
+    {
+     "seller": "ЭТМ (IEK/Generica BBD11-APBB-K51)",
+     "price": 665.38,
+     "url": "https://www.etm.ru/cat/nn/9714182"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, EKF, IEK",
+   "note": "Эквивалент IEK BBD11-APBB-K51 (ЭТМ 665.38). Эквивалент не разрешён, но APBB-22N — типовое обозначение, выпускают EKF, IEK, ЭРА."
+  },
+  {
+   "n": 66,
+   "product": "IEK ЗВИ-10 2,5-6 мм2 12 пар, полиэтилен, арт. UZV3-010-06",
+   "unit_price": 129.21,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 129.21,
+     "url": "https://www.etm.ru/cat/nn/9724109"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 114,
+     "url": "https://www.vseinstrumenti.ru/product/klemmnaya-kolodka-iek-zvi-10-12x6mm-pvh-iek-uzv3-010-06-1327827/"
+    },
+    {
+     "seller": "Магкреп (аналог ЗВИ-10А 1,5-6)",
+     "price": 120,
+     "url": "https://www.magkrep.ru/product/klemmn-kolodka-p-e-12-6mm/"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 67,
+   "product": "IEK ЗВИ-15 4-10 мм2 12 пар, полиэтилен, арт. UZV1-015-06",
+   "unit_price": 177.46,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 177.46,
+     "url": "https://www.etm.ru/cat/nn/9728850"
+    },
+    {
+     "seller": "Электрокомплектсервис (elec.ru)",
+     "price": 157.18,
+     "url": "https://www.elec.ru/market/kolodka-klemmnaja-zvi-15-4-10mm2-12par-uzv1-015-06-14975308655.html"
+    },
+    {
+     "seller": "ЭКС (elektro.ru)",
+     "price": 193.76,
+     "url": "https://www.elektro.ru/product/kolodka_klemmnaya_zvi-15_4-10mm2_12par_iek_uzv1-015-06/"
+    }
+   ],
+   "supplier_for_kp": "IEK / ЭТМ",
+   "note": ""
+  },
+  {
+   "n": 68,
+   "product": "ЭРА ЗВИ-3 0,5-4 мм2 12 пар, арт. Б0051360 (полипропилен)",
+   "unit_price": 46.17,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "ЭТМ (ЭРА Б0051360, 0,5-4 мм2)",
+     "price": 46.17,
+     "url": "https://www.etm.ru/cat/nn/1695582"
+    },
+    {
+     "seller": "Гиперснаб (ЗВИ-3 4 кв.мм 12пар, 1,5-4 мм2)",
+     "price": 34.77,
+     "url": "https://hypersnab.ru/product/zazhim-vintovoy-zvi-3-4kv-mm-12par-6554/"
+    },
+    {
+     "seller": "Техэнерго (ЗВИ-3 1,0-2,5 мм2, опт)",
+     "price": 27.56,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00013012"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, IEK, ЭРА",
+   "note": "У IEK ЗВИ-3 (UZV3-003-04) сечение 1,0-2,5 мм2 — не соответствует ТЗ (0,5-4). ЭРА Б0051360 по сечению соответствует, но корпус из полипропилена (в ТЗ полиэтилен). Эквивалент ТЗ не разрешён — согласовать."
+  },
+  {
+   "n": 69,
+   "product": "IEK КМ41245 коробка распаячная ОП 190х140х120 IP44, 10 гермовводов, арт. UKO10-190-140-120-K41-44",
+   "unit_price": 355.98,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 355.98,
+     "url": "https://www.etm.ru/cat/nn/120110"
+    },
+    {
+     "seller": "Электротехника (electrical.ru)",
+     "price": 413.69,
+     "url": "https://electrical.ru/product/10108-korobka-klemmnaya-km41245-190kh140kh120mm-ip44-uko10-190-140.html"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 485,
+     "url": "https://www.vseinstrumenti.ru/product/klemmnaya-korobka-iek-190x140x120mm-ip44-km41245-iek-uko10-190"
+    },
+    {
+     "seller": "shop220",
+     "price": 366.67,
+     "url": "https://shop220.ru/uko10-190-140-120-k41-44-korobka-raspayachnaya-km41245-dlya-otkritoy-provodki-190h140h120mm-ip44-10-germovvodov-iek-seraya.htm"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / IEK",
+   "note": ""
+  },
+  {
+   "n": 70,
+   "product": "Коробка протяжная металлическая У-994 IP54 (грунт, с уплотнителем)",
+   "unit_price": 242.39,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (У-994 У2 IP54 грунт)",
+     "price": 242.39,
+     "url": "https://www.etm.ru/cat/nn/2102351"
+    },
+    {
+     "seller": "ЭТМ (У994 У2 окрашенная, завод-изготовитель)",
+     "price": 552.5,
+     "url": "https://www.etm.ru/cat/nn/9736251"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ, IEK, ЗАО «Технолог» (zao-tehnolog.ru), Кузнецкий ЗЭМИ (kzemi.ru)",
+   "note": "Типовой У-994 по ТУ — 100х100х80 мм (у отдельных изготовителей 110х110х81). Размер 100х100х100 из ТЗ надо подтвердить у изготовителя. Исполнение У3 — у продавцов обычно указано У2."
+  },
+  {
+   "n": 71,
+   "product": "IEK коробка протяжная металлическая У-995 150х150х100 IP54, грунт, с уплотнителем",
+   "unit_price": 411.76,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 411.76,
+     "url": "https://www.etm.ru/cat/nn/4833497"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 445,
+     "url": "https://www.vseinstrumenti.ru/product/protyazhnaya-metallicheskaya-korobka-iek-u-995-150x150x100-ip54-s-uplot"
+    },
+    {
+     "seller": "Энергосфера (nkh.energosf.ru)",
+     "price": 566.17,
+     "url": "https://nkh.energosf.ru/catalog/korobki-raspredelitelnye/korobka-u-995-150kh150kh100-protyazhnaya-me"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / IEK",
+   "note": "В ТЗ указано У2, совпадает."
+  },
+  {
+   "n": 72,
+   "product": "IEK KREPTA 3 бокс КМПн 2/4 IP30, арт. MKP42-N-04-30-12",
+   "unit_price": 287.63,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 287.63,
+     "url": "https://www.etm.ru/cat/nn/583934"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 250,
+     "url": "https://www.vseinstrumenti.ru/product/boks-iek-op-kmpn-2-4-na-4-modulya-ip30-iek-mkp42-n-04-30-12-1114237/"
+    },
+    {
+     "seller": "ВсеИнструменты (с прозрачной крышкой)",
+     "price": 318,
+     "url": "https://www.vseinstrumenti.ru/product/boks-iek-s-prozrachnoj-kryshkoj-kmpn-2-4-dlya-4-h-avtomaticheskih-vykl"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / IEK",
+   "note": "Возможность опломбировки у КМПн 2/4 нужно подтвердить по паспорту IEK."
+  },
+  {
+   "n": 73,
+   "product": "IEK KREPTA 3 бокс КМПн 2/6 IP30, арт. MKP42-N-06-30-09",
+   "unit_price": 373.67,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 373.67,
+     "url": "https://www.etm.ru/cat/nn/9732528"
+    },
+    {
+     "seller": "ЭТМ (с прозрачной крышкой)",
+     "price": 394.43,
+     "url": "https://www.etm.ru/cat/nn/2224227"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 329,
+     "url": "https://www.vseinstrumenti.ru/product/boks-op-kmpn-2-6-na-1-ryad-6-modulej-ip30-iek-mk"
+    },
+    {
+     "seller": "shop220",
+     "price": 318.85,
+     "url": "https://shop220.ru/mkp42-n-06-30-09-boks-kmpn-2-6-na-6-moduley-nakladnoy-plastikovyy-s-prozrachnoy-dverkoy-ie"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ / IEK",
+   "note": "Опломбировка — уточнить."
+  },
+  {
+   "n": 74,
+   "product": "Зажим аппаратный прессуемый А2А-300-2 (МЗВА / ТАИЗ)",
+   "unit_price": 698.45,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Русский Свет (rs24.ru), А2А-300 МЗВА",
+     "price": 698.45,
+     "url": "https://rs24.ru/product/25211"
+    },
+    {
+     "seller": "Люмторг (А2А-300-Т)",
+     "price": 447.49,
+     "url": "https://lumtorg.ru/catalog/armatura/armatura_vl/apparatnyy-zazhim/524/"
+    },
+    {
+     "seller": "БИНАБИ (proenergotorg.ru), А2А-300",
+     "price": 563,
+     "url": "https://proenergotorg.ru/apparatnyy_zazhim_a2a_300.html"
+    }
+   ],
+   "supplier_for_kp": "ТАИЗ (taiz.ru), МЗВА (mzva.ru), ЭТМ (etm.ru/cat/nn/8044945)",
+   "note": "Исполнение «-2» (с двумя отверстиями в лапке, D=24,0-26,6) подтвердить в КП. Цены за А2А-300 у продавцов могут относиться к исполнению -1. Цена rs24 взята из поискового сниппета: сайт недоступен для автоматического чтения."
+  },
+  {
+   "n": 75,
+   "product": "Зажим наборный измерительный ЗН27-6И40-Д/ДУ3 тип 2 (ВНИИР А8120-80096240) / УПП-5 ЗН27-6И40 Д/Д",
+   "unit_price": 259.77,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ББ Комплект (ВНИИР, тип 2)",
+     "price": 259.77,
+     "url": "https://bbkomplekt.ru/zazhim-nabornyy-zn27-6i40-d-du3-tip-2-s-birkoy-tip-3-vniir-a8120"
+    },
+    {
+     "seller": "УПП-5 (upp5.ru), завод-изготовитель",
+     "price": 235,
+     "url": "https://upp5.ru/internet-magazin/folder/zn-27-i/"
+    },
+    {
+     "seller": "ВсеИнструменты (УПП-5, 99921299)",
+     "price": 195,
+     "url": "https://www.vseinstrumenti.ru/product/nabornyj-zazhim-spb-upp-5-zn27-6i40-d-d-99921299-1933211/"
+    },
+    {
+     "seller": "ВсеИнструменты (уп. 10 шт за 2228 = 222,8/шт)",
+     "price": 222.8,
+     "url": "https://www.vseinstrumenti.ru/product/zazhim-nabornyj-spb-upp-5-zn27-6i40-d-d-upakovka-10-sht-099928207-227"
+    }
+   ],
+   "supplier_for_kp": "ВНИИР (Чебоксары), СПб УПП-5, НЭМЗ (nemz.ru)",
+   "note": "Наличие в комплекте крышки КТ9 и прижима КП1 уточнить: они могут продаваться отдельно."
+  },
+  {
+   "n": 76,
+   "product": "Арматура жёсткой ошиновки ЖОС-102-44 (зажим Т-образный болтовой)",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "АО «АИЗ» (insulators.ru), ООО «Иприм Энергия» (изоляторыполимерные.рф), ООО «Русский изолятор» (Тула, rusizolyator.ru, info@rusizolyator.ru), ТАИЗ (taiz.ru)",
+   "note": "Изделие в номенклатуре производителей есть, но цену публикуют только по запросу."
+  },
+  {
+   "n": 77,
+   "product": "ЖОС-102-22",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "АО «АИЗ», «Русский изолятор», «Иприм Энергия», ТАИЗ",
+   "note": "Изделие в номенклатуре «Русского изолятора» есть, цена по запросу."
+  },
+  {
+   "n": 78,
+   "product": "ЖОС-102-11",
+   "unit_price": null,
+   "vat": "неизвестно",
+   "match": "не найдено",
+   "sources": [],
+   "supplier_for_kp": "АО «АИЗ», «Русский изолятор», «Иприм Энергия», ТАИЗ",
+   "note": "Изделие в номенклатуре «Русского изолятора» есть, цена по запросу."
+  },
+  {
+   "n": 79,
+   "product": "Ruvinil (TYCO) коробка распределительная ОП 100х100х50 IP65, двухкомпонентная, 7 вводов, арт. 67250",
+   "unit_price": 103,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Энергокомплект (e-kc.ru)",
+     "price": 100.68,
+     "url": "https://e-kc.ru/cena/korobka-raspredelitelnaya-op-100h100h50mm-dvuhkomponentnaya-7-vvodov-"
+    },
+    {
+     "seller": "Этро-Электро",
+     "price": 103,
+     "url": "https://etro-electro.ru/product/korobka-raspredelitelnaya-op-100h100h50mm-dvuhkomp"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 125,
+     "url": "https://www.vseinstrumenti.ru/product/raspredelitelnaya-korobka-ruvinil-op-100x10"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ (etm.ru/cat/nn/4483270), Рувинил",
+   "note": "Материал корпуса (полипропилен) подтвердить по паспорту."
+  },
+  {
+   "n": 80,
+   "product": "Коробка соединительная КС-10 IP65 (4 сальника), стальная, с наборными зажимами",
+   "unit_price": 1300,
+   "vat": "с НДС",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Техэнерго (оптовая цена; розница +10% = 1430)",
+     "price": 1300,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00124343"
+    },
+    {
+     "seller": "ЭТМ (КС-10 УХЛ1,5 IP65, латунный ввод — дороже, другое исполнение)",
+     "price": 4975.75,
+     "url": "https://www.etm.ru/cat/nn/2904509"
+    }
+   ],
+   "supplier_for_kp": "ЗЭТА / Nzeta (nzeta.ru), Завод кабельных изделий (zkabel.ru), Русский Свет (rs24.ru/product/3043029: КС-10 У2 IP65 с вводами MG20х2/MG25х2 — точное соответствие)",
+   "note": "Состав по ТЗ: зажимы БЗ26-4П25-10, сальники MG20 2 шт + MG25 2 шт, габарит 170х200. Комплектацию подтвердить в КП."
+  },
+  {
+   "n": 81,
+   "product": "Эквивалент: Ruvinil (TYCO) коробка распределительная ОП 85х85х40 IP54, арт. 67040",
+   "unit_price": 71.33,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 71.33,
+     "url": "https://www.etm.ru/cat/nn/9696831"
+    },
+    {
+     "seller": "ВсеИнструменты (Рувинил ОП 85х85х45)",
+     "price": 70,
+     "url": "https://www.vseinstrumenti.ru/product/raspredelitelnaya-korobka-ruvinil-op-85h85h45"
+    },
+    {
+     "seller": "ЭКС (PlastElectro PE 120008 85х85х40 IP54)",
+     "price": 105.76,
+     "url": "https://www.elektro.ru/product/korobka_raspr_otkr_pr_pe_120008_85kh85kh40_ip54_6_"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": "Марку JBR в продаже в РФ не нашли. Параметры (IP, глубина, число вводов) в ТЗ не заданы — взят эквивалент 85х85 IP54."
+  },
+  {
+   "n": 82,
+   "product": "Эквивалент: Ruvinil (TYCO) 67040, 85х85х40 IP54",
+   "unit_price": 71.33,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 71.33,
+     "url": "https://www.etm.ru/cat/nn/9696831"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 70,
+     "url": "https://www.vseinstrumenti.ru/product/raspredelitelnaya-korobka-ruvinil-op-85h85h45"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": "Дубль позиции 81."
+  },
+  {
+   "n": 101,
+   "product": "Эквивалент: Ruvinil (TYCO) 67040, 85х85х40 IP54",
+   "unit_price": 71.33,
+   "vat": "с НДС",
+   "match": "эквивалент",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 71.33,
+     "url": "https://www.etm.ru/cat/nn/9696831"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 70,
+     "url": "https://www.vseinstrumenti.ru/product/raspredelitelnaya-korobka-ruvinil-op-85h85h45"
+    }
+   ],
+   "supplier_for_kp": "ЭТМ",
+   "note": "Дубль позиции 81."
+  }
+ ],
+ "makers": [],
+ "risks": []
+}
