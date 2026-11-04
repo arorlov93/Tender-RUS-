@@ -1,0 +1,332 @@
+{
+ "items": [
+  {
+   "n": 1,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 2,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 3,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 4,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 5,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 6,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 7,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 8,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 9,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 10,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 11,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 12,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 13,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 14,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 15,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 16,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 17,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 18,
+   "product": "Антенна 4G.M3 (4G/3G/2G, 3 дБи, кабель 3 м, SMA-M, магнитное основание), ООО «ИЦ «Энергосервис»",
+   "unit_price": 488.0,
+   "vat": "с НДС 22% (400 без НДС)",
+   "origin": "Россия (поставщик ИЦ «Энергосервис»; страна изготовления антенны не указана)",
+   "registry": null,
+   "match": "точно (артикул 4G.M3 из прайса Энергосервис, аксессуар к ЭНКС-3м); сомнения: ТЗ требует «угловой» коннектор — в прайсе SMA-M без указания угла",
+   "sources": [
+    {
+     "seller": "ООО «ИЦ «Энергосервис» — прайс 01.10–31.12.2026, стр. 26",
+     "price": "400 без НДС / 488 с НДС",
+     "url": "https://enip2.ru/ENIP2ru_price.pdf"
+    }
+   ],
+   "note": "Ед. изм. в ТЗ «уп.» — считаем 1 уп. = 1 антенна. Режим «Ограничение» — запись ПП 719 на антенну в выгрузке ГИСП не найдена; для антенн (принадлежность) проверить применимость."
+  },
+  {
+   "n": 19,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 20,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 21,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 22,
+   "product": "ЭНКС-3м-24-2G (интерфейсы вар.2: 8×RS-485, 2×RS-232, 2×100Base-TX; питание 18…36 В=; модуль сотовой связи G), ООО «ИЦ «Энергосервис», Архангельск",
+   "unit_price": 87596.0,
+   "vat": "с НДС 22% (71 800 без НДС: база 59 900 + опция G 11 900)",
+   "origin": "Россия",
+   "registry": "ГИСП/ПП 719 № 10790658 «Устройства сбора данных ЭНКС-3м модификации 2», ООО «ИЦ «Энергосервис» ИНН 7722330113, ТУ 4035-000-53329198-2014, ОКПД2 26.51.44.000, действ. 26.02.2026–25.02.2029",
+   "match": "точно (оригинал по ТЗ)",
+   "sources": [
+    {
+     "seller": "ООО «ИЦ «Энергосервис» — официальный прайс-лист (действует 01.10–31.12.2026, ред. 03.11.2026), стр. 20",
+     "price": "71 800 без НДС / 87 596 с НДС",
+     "url": "https://enip2.ru/ENIP2ru_price.pdf"
+    }
+   ],
+   "note": "Прайс производителя = цены интернет-магазина enip2.ru/shop. НМЦ 93 340 без НДС на 30% выше прайса — запас под дилерскую наценку/доставку. Срок изготовления/наличие уточнять в sales@ens.ru, +7 8182 65-75-65. Опция M0 (МЭК 61850) не требуется по ТЗ."
+  },
+  {
+   "n": 23,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 24,
+   "product": "ЭНМВ-1-16(24)/18-24-A1 P (16 DI 24 В=, 18 DO SSR, питание 18…36 В=, 1×RS-485, разъёмные клеммы), ООО «ИЦ «Энергосервис»",
+   "unit_price": 29158.0,
+   "vat": "с НДС 22% (23 900 без НДС: 22 900 + опция P 1 000)",
+   "origin": "Россия",
+   "registry": "ГИСП/ПП 719 № 10734238 «Модуль ввода/вывода ЭНМВ-1», ИНН 7722330113, ТУ 4217-006-53329198-09, ОКПД2 26.51.43.117, действ. до 21.10.2028",
+   "match": "точно (оригинал по ТЗ)",
+   "sources": [
+    {
+     "seller": "ООО «ИЦ «Энергосервис» — официальный прайс-лист 01.10–31.12.2026, стр. 15 (ЭНМВ-1 с одним интерфейсом)",
+     "price": "23 900 без НДС / 29 158 с НДС",
+     "url": "https://enip2.ru/ENIP2ru_price.pdf"
+    }
+   ],
+   "note": "НМЦ 31 070 без НДС на 30% выше прайса. Напряжение входов (24) без доплаты, питание 24 без доплаты."
+  },
+  {
+   "n": 25,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 26,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 27,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  },
+  {
+   "n": 28,
+   "product": null,
+   "unit_price": null,
+   "vat": null,
+   "origin": null,
+   "registry": null,
+   "match": null,
+   "sources": [],
+   "note": "в работе"
+  }
+ ],
+ "suppliers": [],
+ "risks": []
+}
