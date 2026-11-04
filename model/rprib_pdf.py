@@ -8,6 +8,21 @@ from tidy import tidy
 D = "data/zakupki_0211/tz/deep/"
 IT = {x["n"]: x for x in json.load(open(D + "rprib_items.json"))}
 O = json.load(open(D + "rprib_out.json"))
+import os
+for fn in ("rprib_out2.json", "rprib_out3.json"):   # добор: заменяем товар целиком, если в доборе есть цена
+    if not os.path.exists(D + fn): continue
+    d2 = json.load(open(D + fn))
+    for q in d2.get("products", []):
+        if not isinstance(q.get("unit_price"), (int, float)): continue
+        qs = set(q.get("positions") or [])
+        hit = [p for p in O["products"] if set(p["positions"]) & qs]
+        if hit:
+            for p in hit:
+                keep = sorted(set(p["positions"]) - qs)
+                if keep: O["products"].append(dict(p, positions=keep))
+                O["products"].remove(p)
+        O["products"].append(dict(q, positions=sorted(qs), product=(q.get("product") or "") + (f" [{q['price_type']}]" if q.get("price_type") else "")))
+    O["risks"] += d2.get("risks", []); O["suppliers"] += d2.get("suppliers", [])
 NMC = sum(x["nmc_sum"] for x in IT.values()); NMC_NV = sum(x["sum_nv"] for x in IT.values())
 BAN = {7}; LIM = set([1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 14, 15, 19, 20, 21, 22, 24, 25, 26, 27, 28, 29, 31, 33, 34] + list(range(38, 47)) + list(range(53, 60)))
 f = lambda v: f"{v:,.0f}".replace(",", " ") if isinstance(v, (int, float)) else "—"
