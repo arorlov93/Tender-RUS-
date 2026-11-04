@@ -1,0 +1,2304 @@
+{
+ "purchase": "32616505169 ПАО «Россети Центр и Приволжье» — «Тулэнерго», электроизоляционные материалы (конкурс МСП, единичные расценки)",
+ "as_of": "2026-11-04",
+ "summary": {
+  "sum_market_unit_prices": 31827.67,
+  "items_priced": 70,
+  "items_missing": [],
+  "sum_nmc_unit": 47367,
+  "sum_ref_unit": 32801.0,
+  "sum_nmc_on_priced": 47367,
+  "sum_ref_on_priced": 32801.0,
+  "market_vs_nmc_pct": -32.8,
+  "market_vs_ref_pct": -3.0,
+  "note": "Сумма цен за единицу (не взвешена по количествам — объёмы в ТЗ договора по единичным расценкам не даны). НДС 22% (2026)."
+ },
+ "items": [
+  {
+   "n": 1,
+   "name_tz": "Изолента ПВХ",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 150,
+   "ref_unit": 19.42,
+   "product": "IEK UIZ-13-10-10M (ПВХ 0,13х15мм, 10м, ГОСТ 16214-86) — размер в ТЗ не указан, принят 15мм/10м по справочной цене 19,42",
+   "unit": "шт (рулон)",
+   "unit_price": 28,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK (Россия), производство — импорт (Китай), не подтверждено",
+   "registry": null,
+   "match": "сомнения: в ТЗ нет размеров/цвета — нужна конкретизация в заявке",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты (UIZ-13-10-10M-K01 белая)",
+     "price": 28,
+     "url": "https://www.vseinstrumenti.ru/krepezh/montazhnye-lenty/izolenta/pvh/iek/0-13h15-mm-belaya-10-metrov-uiz-13-10-10m-k01/"
+    },
+    {
+     "seller": "Русский Свет rs24 (UIZ-13-10-10M-K02 черная)",
+     "price": 24,
+     "url": "https://rs24.ru/product/389890"
+    },
+    {
+     "seller": "ВсеИнструменты (СИБРТЕХ 88790 15х10)",
+     "price": 29,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-pvh-sibrteh-15-mmh10-m-130-mkm-zheltaya-88790-779716/"
+    }
+   ],
+   "note": "Если заказчик подразумевает 19мм/20м — цена ~79 руб."
+  },
+  {
+   "n": 2,
+   "name_tz": "Изолента ПВХ 0,13х19ммх20м синяя",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 150,
+   "ref_unit": 82.44,
+   "product": "IEK UIZ-20-10-K07 ПВХ 0,18х19мм 20м синяя (0,13х19 у IEK нет — толщина 0,18 ≥ ТЗ)",
+   "unit": "шт",
+   "unit_price": 78.8,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK, импорт (не подтверждено)",
+   "registry": null,
+   "match": "эквивалент: толщина 0,18 вместо 0,13 мм",
+   "sources": [
+    {
+     "seller": "ЭТМ (розн.)",
+     "price": 78.8,
+     "url": "https://www.etm.ru/cat/nn/9820859"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 81,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-pvh-19mm-20m-sinyaya-iek-iek-uiz-20-10-k07-805140/"
+    },
+    {
+     "seller": "Русский Свет rs24",
+     "price": 106.14,
+     "url": "https://rs24.ru/product/46337"
+    }
+   ],
+   "note": "Справочник заказчика 82,44 — рыночно."
+  },
+  {
+   "n": 3,
+   "name_tz": "Изолента ПВХ 0,2ммх19ммх25м синяя",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 84.51,
+   "product": "ПВХ 19мм×25м синяя; толщина 0,2мм в каталогах ЭТМ/ВИ не найдена — ближайшая Safeline 9374 (0,15мм)",
+   "unit": "шт",
+   "unit_price": 151,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), производство не подтверждено",
+   "registry": null,
+   "match": "сомнения: толщина 0,15 вместо 0,2 мм; нужен товар 0,2мм (Kranz/Aviora — не проверено)",
+   "sources": [
+    {
+     "seller": "ЭТМ (розн. 151, опт 143,53)",
+     "price": 151,
+     "url": "https://www.etm.ru/cat/nn/3539977"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 162,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-safeline-19-25-sinij-9374-1191959/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 4,
+   "name_tz": "Изолента ПВХ 0,2х19ммх20м красная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 66.03,
+   "product": "ПВХ 0,2х19мм×20м красная — 0,2мм не найдено; ближайшая Промрукав PR08.28982 0,15х19х20 красная",
+   "unit": "шт",
+   "unit_price": 123.05,
+   "vat": "с НДС 22%",
+   "origin": "Промрукав (Москва) — страна изготовления ленты не подтверждена",
+   "registry": null,
+   "match": "сомнения: толщина 0,15 вместо 0,2",
+   "sources": [
+    {
+     "seller": "Промрукав, прайс 04.11.2026 (базовая с НДС)",
+     "price": 123.05,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    },
+    {
+     "seller": "ЭТМ, Safeline 9368 19/20 красная (по аналогии)",
+     "price": null,
+     "url": "https://www.etm.ru/brand/839_safeline"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 5,
+   "name_tz": "Изолента ПВХ 15ммх10м желтая",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 20.19,
+   "product": "IEK UIZ-13-10-10M-K05 ПВХ 0,13х15мм 10м желтая",
+   "unit": "шт",
+   "unit_price": 30,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK, импорт (не подтверждено)",
+   "registry": null,
+   "match": "точно (по размеру/цвету)",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты (IEK 0,13х15 10м, белая K01)",
+     "price": 28,
+     "url": "https://www.vseinstrumenti.ru/krepezh/montazhnye-lenty/izolenta/pvh/iek/0-13h15-mm-belaya-10-metrov-uiz-13-10-10m-k01/"
+    },
+    {
+     "seller": "Русский Свет rs24 (K02)",
+     "price": 24,
+     "url": "https://rs24.ru/product/389890"
+    },
+    {
+     "seller": "ВсеИнструменты (СИБРТЕХ 88790 желтая 15х10)",
+     "price": 29,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-pvh-sibrteh-15-mmh10-m-130-mkm-zheltaya-88790-779716/"
+    }
+   ],
+   "note": "Цена цвета желтая принята по однотипным артикулам серии."
+  },
+  {
+   "n": 6,
+   "name_tz": "Изолента ПВХ 15ммх10м зеленая",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 20.19,
+   "product": "IEK UIZ-13-10-10M-K06 ПВХ 0,13х15мм 10м зеленая",
+   "unit": "шт",
+   "unit_price": 30,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK, импорт (не подтверждено)",
+   "registry": null,
+   "match": "точно (по размеру/цвету)",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты (IEK 0,13х15 10м, белая K01)",
+     "price": 28,
+     "url": "https://www.vseinstrumenti.ru/krepezh/montazhnye-lenty/izolenta/pvh/iek/0-13h15-mm-belaya-10-metrov-uiz-13-10-10m-k01/"
+    },
+    {
+     "seller": "Русский Свет rs24 (K02)",
+     "price": 24,
+     "url": "https://rs24.ru/product/389890"
+    },
+    {
+     "seller": "ВсеИнструменты (СИБРТЕХ 88790 желтая 15х10)",
+     "price": 29,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-pvh-sibrteh-15-mmh10-m-130-mkm-zheltaya-88790-779716/"
+    }
+   ],
+   "note": "Цена цвета зеленая принята по однотипным артикулам серии."
+  },
+  {
+   "n": 7,
+   "name_tz": "Изолента ПВХ 15ммх20м красная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 20.86,
+   "product": "IEK UIZ-13-10-K04 ПВХ 0,13х15мм 20м красная",
+   "unit": "шт",
+   "unit_price": 48.7,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK, импорт (не подтверждено)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (UIZ-13-10-K07 синяя, розн.)",
+     "price": 48.7,
+     "url": "https://www.etm.ru/cat/nn/9820852"
+    },
+    {
+     "seller": "Русский Свет rs24 (K07)",
+     "price": 43.8,
+     "url": "https://rs24.ru/product/46330"
+    },
+    {
+     "seller": "Промрукав 0,15х15х20 (PR08.28981/28985)",
+     "price": 85.65,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": "Цена по однотипному артикулу серии (синяя K07)."
+  },
+  {
+   "n": 8,
+   "name_tz": "Изолента ПВХ 15ммх20м черная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 20.86,
+   "product": "IEK UIZ-13-10-K02 ПВХ 0,13х15мм 20м черная",
+   "unit": "шт",
+   "unit_price": 48.7,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK, импорт (не подтверждено)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (UIZ-13-10-K07 синяя, розн.)",
+     "price": 48.7,
+     "url": "https://www.etm.ru/cat/nn/9820852"
+    },
+    {
+     "seller": "Русский Свет rs24 (K07)",
+     "price": 43.8,
+     "url": "https://rs24.ru/product/46330"
+    },
+    {
+     "seller": "Промрукав 0,15х15х20 (PR08.28981/28985)",
+     "price": 85.65,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": "Цена по однотипному артикулу серии (синяя K07)."
+  },
+  {
+   "n": 9,
+   "name_tz": "Изолента ПВХ 19ммх20м синяя",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 106.76,
+   "product": "IEK UIZ-20-10-K07 ПВХ 0,18х19мм 20м синяя",
+   "unit": "шт",
+   "unit_price": 78.8,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK, импорт (не подтверждено)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (розн.)",
+     "price": 78.8,
+     "url": "https://www.etm.ru/cat/nn/9820859"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 81,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-pvh-19mm-20m-sinyaya-iek-iek-uiz-20-10-k07-805140/"
+    },
+    {
+     "seller": "Русский Свет rs24",
+     "price": 106.14,
+     "url": "https://rs24.ru/product/46337"
+    }
+   ],
+   "note": "Справочник 106,76."
+  },
+  {
+   "n": 10,
+   "name_tz": "Изолента ПВХ 19ммх25м черная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 126.47,
+   "product": "Safeline 9372 ПВХ 19мм×25м черная (0,15мм)",
+   "unit": "шт",
+   "unit_price": 137,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), производство не подтверждено",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты (акция; обычн. 177)",
+     "price": 137,
+     "url": "https://www.vseinstrumenti.ru/category/pvh-izolenta-6532/safeline-13663/"
+    },
+    {
+     "seller": "ЭТМ (розн.)",
+     "price": 184.91,
+     "url": "https://www.etm.ru/catalog?searchValue=%D0%B8%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0+Safeline"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 11,
+   "name_tz": "Изолента ПВХ EKF 19ммх20м белая",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 147.3,
+   "product": "EKF plc-iz-a-w Изолента класс А 0,18х19мм 20м белая",
+   "unit": "шт",
+   "unit_price": 110,
+   "vat": "с НДС 22%",
+   "origin": "страна на сайте EKF не указана; бренд EKF (ООО «Электрорешения», Москва), изолента — импорт (вероятно Китай)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF, РРЦ (базовая 147)",
+     "price": 110,
+     "url": "https://ekfgroup.com/ru/catalog/products/izolenta-klass-a-0-18-19mm-20m-belaya-ekf-basic"
+    },
+    {
+     "seller": "ВсеИнструменты (plc-iz-a-b, уп.10 = 914)",
+     "price": 91.4,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-ekf-klass-a-profession-0-18x19mm-20m-chernaya-10-sht-plc-iz-a-b-1164106/"
+    },
+    {
+     "seller": "ЭТМ (plc-iz-a-b, опт 99,16, розн. 104,37)",
+     "price": 104.37,
+     "url": "https://www.etm.ru/cat/nn/6938336"
+    }
+   ],
+   "note": "Справочник заказчика ≈ базовая цена EKF (147). Кратность упаковки 10 шт."
+  },
+  {
+   "n": 12,
+   "name_tz": "Изолента ПВХ EKF 19ммх20м желтая",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 147.3,
+   "product": "EKF plc-iz-a-y Изолента класс А 0,18х19мм 20м желтая",
+   "unit": "шт",
+   "unit_price": 108,
+   "vat": "с НДС 22%",
+   "origin": "страна на сайте EKF не указана; бренд EKF (ООО «Электрорешения», Москва), изолента — импорт (вероятно Китай)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF, РРЦ (базовая 147)",
+     "price": 108,
+     "url": "https://ekfgroup.com/ru/catalog/products/izolenta-klass-a-0-18-19mm-20m-zheltaya-ekf-basic"
+    },
+    {
+     "seller": "ВсеИнструменты (plc-iz-a-b, уп.10 = 914)",
+     "price": 91.4,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-ekf-klass-a-profession-0-18x19mm-20m-chernaya-10-sht-plc-iz-a-b-1164106/"
+    },
+    {
+     "seller": "ЭТМ (plc-iz-a-b, опт 99,16, розн. 104,37)",
+     "price": 104.37,
+     "url": "https://www.etm.ru/cat/nn/6938336"
+    }
+   ],
+   "note": "Справочник заказчика ≈ базовая цена EKF (147). Кратность упаковки 10 шт."
+  },
+  {
+   "n": 13,
+   "name_tz": "Изолента ПВХ EKF 19ммх20м зеленая",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 153.04,
+   "product": "EKF plc-iz-a-g Изолента класс А 0,18х19мм 20м зеленая",
+   "unit": "шт",
+   "unit_price": 108,
+   "vat": "с НДС 22%",
+   "origin": "страна на сайте EKF не указана; бренд EKF (ООО «Электрорешения», Москва), изолента — импорт (вероятно Китай)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF, РРЦ (базовая 147)",
+     "price": 108,
+     "url": "https://ekfgroup.com/ru/catalog/products/izolenta-klass-a-0-18-19mm-20m-zelenaya-ekf-basic"
+    },
+    {
+     "seller": "ВсеИнструменты (plc-iz-a-b, уп.10 = 914)",
+     "price": 91.4,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-ekf-klass-a-profession-0-18x19mm-20m-chernaya-10-sht-plc-iz-a-b-1164106/"
+    },
+    {
+     "seller": "ЭТМ (plc-iz-a-b, опт 99,16, розн. 104,37)",
+     "price": 104.37,
+     "url": "https://www.etm.ru/cat/nn/6938336"
+    }
+   ],
+   "note": "Справочник заказчика ≈ базовая цена EKF (147). Кратность упаковки 10 шт."
+  },
+  {
+   "n": 14,
+   "name_tz": "Изолента ПВХ EKF 19ммх20м красная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 115.25,
+   "product": "EKF plc-iz-a-r Изолента класс А 0,18х19мм 20м красная",
+   "unit": "шт",
+   "unit_price": 107,
+   "vat": "с НДС 22%",
+   "origin": "страна на сайте EKF не указана; бренд EKF (ООО «Электрорешения», Москва), изолента — импорт (вероятно Китай)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "EKF, РРЦ (базовая 147)",
+     "price": 107,
+     "url": "https://ekfgroup.com/ru/catalog/products/izolenta-klass-a-0-18-19mm-20m-krasnaya-ekf-basic"
+    },
+    {
+     "seller": "ВсеИнструменты (plc-iz-a-b, уп.10 = 914)",
+     "price": 91.4,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-ekf-klass-a-profession-0-18x19mm-20m-chernaya-10-sht-plc-iz-a-b-1164106/"
+    },
+    {
+     "seller": "ЭТМ (plc-iz-a-b, опт 99,16, розн. 104,37)",
+     "price": 104.37,
+     "url": "https://www.etm.ru/cat/nn/6938336"
+    }
+   ],
+   "note": "Справочник заказчика ≈ базовая цена EKF (147). Кратность упаковки 10 шт."
+  },
+  {
+   "n": 15,
+   "name_tz": "Изолента ПВХ Matequs 19ммх25м черная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 387.01,
+   "product": "Matequs ПВХ 0,13(0,135)х19мм×25м черная (арт. 11.42403; Matequs и Neomatec — одна марка/товар)",
+   "unit": "шт",
+   "unit_price": 169,
+   "vat": "с НДС 22%",
+   "origin": "не подтверждено (импорт)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "OZON, Neomatec 19мм 25м 10шт = 1685",
+     "price": 168.5,
+     "url": "https://www.ozon.ru/brand/neomatec-100381624/"
+    },
+    {
+     "seller": "Яндекс Маркет, NEOMATEC 0,135х19х25 уп.10 = 1832",
+     "price": 183.2,
+     "url": "https://market.yandex.ru/search?text=%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0+NEOMATEC+19%D0%BC%D0%BC+%D1%85+25%D0%BC+%D1%87%D0%B5%D1%80%D0%BD%D0%B0%D1%8F"
+    },
+    {
+     "seller": "lanland.ru Neomatec (Matequs), ед. не ясна",
+     "price": 845,
+     "url": "https://lanland.ru/izolenta-neomatec-matequs.html"
+    }
+   ],
+   "note": "Справочник по Matequs 387 руб. завышен в 2+ раза. Мелкие сайты показывают 53–98 руб/шт оптом (не проверено)."
+  },
+  {
+   "n": 16,
+   "name_tz": "Изолента ПВХ Neomatec 19ммх25м черная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 93.96,
+   "product": "Neomatec ПВХ 0,13(0,135)х19мм×25м черная (арт. 11.42403; Matequs и Neomatec — одна марка/товар)",
+   "unit": "шт",
+   "unit_price": 169,
+   "vat": "с НДС 22%",
+   "origin": "не подтверждено (импорт)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "OZON, Neomatec 19мм 25м 10шт = 1685",
+     "price": 168.5,
+     "url": "https://www.ozon.ru/brand/neomatec-100381624/"
+    },
+    {
+     "seller": "Яндекс Маркет, NEOMATEC 0,135х19х25 уп.10 = 1832",
+     "price": 183.2,
+     "url": "https://market.yandex.ru/search?text=%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0+NEOMATEC+19%D0%BC%D0%BC+%D1%85+25%D0%BC+%D1%87%D0%B5%D1%80%D0%BD%D0%B0%D1%8F"
+    },
+    {
+     "seller": "lanland.ru Neomatec (Matequs), ед. не ясна",
+     "price": 845,
+     "url": "https://lanland.ru/izolenta-neomatec-matequs.html"
+    }
+   ],
+   "note": "Справочник по Matequs 387 руб. завышен в 2+ раза. Мелкие сайты показывают 53–98 руб/шт оптом (не проверено)."
+  },
+  {
+   "n": 17,
+   "name_tz": "Изолента ПВХ Safeline 19ммх20м зеленая",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 110.92,
+   "product": "Safeline ПВХ 19/20 зеленая (0,15мм)",
+   "unit": "шт",
+   "unit_price": 89.6,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), страна изготовления не подтверждена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 85.14,
+     "url": "https://www.etm.ru/cat/nn/9784741"
+    },
+    {
+     "seller": "ЭТМ, розн.",
+     "price": 89.6,
+     "url": "https://www.etm.ru/cat/nn/9784741"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 18,
+   "name_tz": "Изолента ПВХ Safeline 19ммх20м синяя",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 96.05,
+   "product": "Safeline ПВХ 19/20 синяя 9371 (0,15мм)",
+   "unit": "шт",
+   "unit_price": 127,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), страна изготовления не подтверждена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 127,
+     "url": "https://www.etm.ru/cat/nn/9784744"
+    },
+    {
+     "seller": "Яндекс Маркет",
+     "price": 125,
+     "url": "https://market.yandex.ru/card/safeline-izolenta-safeline-19kh20-sinyaya/102140050261"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 19,
+   "name_tz": "Изолента ПВХ Safeline 19ммх20м черная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 140.52,
+   "product": "Safeline ПВХ 19/20 черная 9366 (0,15мм)",
+   "unit": "шт",
+   "unit_price": 137,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), страна изготовления не подтверждена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 122,
+     "url": "https://www.etm.ru/cat/nn/9784745"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 141,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-safeline-19-20-chernyj-9366-1191958/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 20,
+   "name_tz": "Изолента ПВХ Safeline 19ммх25м красная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 127.21,
+   "product": "Safeline ПВХ 19/25 красная 12125 (0,15мм)",
+   "unit": "шт",
+   "unit_price": 165,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), страна изготовления не подтверждена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ВсеИнструменты",
+     "price": 174,
+     "url": "https://www.vseinstrumenti.ru/category/pvh-izolenta-6532/safeline-13663/"
+    },
+    {
+     "seller": "Яндекс Маркет",
+     "price": 157,
+     "url": "https://market.yandex.ru/card/izolenta-safeline-1925-krasnyy-12125/4447698735"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 21,
+   "name_tz": "Изолента ПВХ Safeline 19ммх25м синяя",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 118.34,
+   "product": "Safeline ПВХ 19/25 синяя 9374 (0,15мм)",
+   "unit": "шт",
+   "unit_price": 151,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), страна изготовления не подтверждена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 151,
+     "url": "https://www.etm.ru/cat/nn/3539977"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 162,
+     "url": "https://www.vseinstrumenti.ru/product/izolenta-safeline-19-25-sinij-9374-1191959/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 22,
+   "name_tz": "Изолента ПВХ Safeline 19ммх25м черная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 145.91,
+   "product": "Safeline ПВХ 19/25 черная 9372 (0,15мм)",
+   "unit": "шт",
+   "unit_price": 160,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), страна изготовления не подтверждена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 184.91,
+     "url": "https://www.etm.ru/catalog?searchValue=%D0%B8%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0+Safeline"
+    },
+    {
+     "seller": "ВсеИнструменты (акция)",
+     "price": 137,
+     "url": "https://www.vseinstrumenti.ru/category/pvh-izolenta-6532/safeline-13663/"
+    }
+   ],
+   "note": "ЭТМ по части Safeline 19/25 показывает «не поставляется» — проверить наличие."
+  },
+  {
+   "n": 23,
+   "name_tz": "Изолента ПВХ Safeline19ммх25м желто-зел.",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 155,
+   "ref_unit": 114.62,
+   "product": "Safeline ПВХ 19/25 желто-зеленая 9375 (0,15мм)",
+   "unit": "шт",
+   "unit_price": 145,
+   "vat": "с НДС 22%",
+   "origin": "бренд Safeline (Россия), страна изготовления не подтверждена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 138,
+     "url": "https://www.etm.ru/catalog?searchValue=%D0%B8%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0+Safeline"
+    },
+    {
+     "seller": "ВсеИнструменты",
+     "price": 152,
+     "url": "https://www.vseinstrumenti.ru/category/pvh-izolenta-6532/safeline-13663/"
+    }
+   ],
+   "note": "ЭТМ по части Safeline 19/25 показывает «не поставляется» — проверить наличие."
+  },
+  {
+   "n": 24,
+   "name_tz": "Изолятор шинный SM30",
+   "regime": "Преимущество",
+   "unit_tz": "ШТ",
+   "nmc_unit": 140,
+   "ref_unit": 78.57,
+   "product": "Изолятор шинный SM30 М8 (IEK YIS11-30-08 / EKF plc-sm-30)",
+   "unit": "шт",
+   "unit_price": 53.4,
+   "vat": "с НДС 22%",
+   "origin": "бренды IEK/EKF (Россия), производство — Китай (не подтверждено); российского аналога с ценой не найдено",
+   "registry": null,
+   "match": "сомнения: ТЗ D=32 мм, у IEK SM30 D=27 мм — сверить",
+   "sources": [
+    {
+     "seller": "ЭТМ, IEK YIS11-30-08 (розн.)",
+     "price": 53.4,
+     "url": "https://www.etm.ru/cat/nn/9716484"
+    },
+    {
+     "seller": "Элевел, IEK YIS11-30-08",
+     "price": 53.44,
+     "url": "https://elevel.ru/shop/-sistemy-sbornykh-shin/iek-izolyator-sm30-m8-silovoy/"
+    },
+    {
+     "seller": "ЭТМ, EKF plc-sm-30 (розн.)",
+     "price": 58.2,
+     "url": "https://www.etm.ru/catalog?searchValue=SM-30"
+    }
+   ],
+   "note": "С болтом (YIS11-30-08-B) — 74–100 руб."
+  },
+  {
+   "n": 25,
+   "name_tz": "Изолятор шинный SM51",
+   "regime": "Преимущество",
+   "unit_tz": "ШТ",
+   "nmc_unit": 170,
+   "ref_unit": 120.71,
+   "product": "Изолятор шинный SM51 М8 (EKF plc-sm-51-wb / IEK YIS11-51-15)",
+   "unit": "шт",
+   "unit_price": 83.8,
+   "vat": "с НДС 22%",
+   "origin": "бренды EKF/IEK, производство — Китай (не подтверждено)",
+   "registry": null,
+   "match": "точно по типоразмеру; D (35 у IEK vs 36 в ТЗ) — сверить",
+   "sources": [
+    {
+     "seller": "ЭТМ, EKF plc-sm-51 (розн.)",
+     "price": 83.8,
+     "url": "https://www.etm.ru/cat/nn/9765074"
+    },
+    {
+     "seller": "Элевел, IEK YIS11-51-15 (итог 87,30)",
+     "price": 74.51,
+     "url": "https://www.elevel.ru/shop/-sistemy-sbornykh-shin/iek-izolyator-sm51-m8-silovoy/"
+    },
+    {
+     "seller": "ЭТМ, IEK YIS11-51-15-B с болтом",
+     "price": 120,
+     "url": "https://www.etm.ru/cat/nn/8666471"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 26,
+   "name_tz": "Лента герметизирующая SCT-20",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 1480,
+   "ref_unit": 1757.87,
+   "product": "NILED SCT 20 — лента герметизирующая (мастичная) для СИП, 19мм×9,15м (по др. данным 22мм×10м, 0,75мм)",
+   "unit": "шт (рулон)",
+   "unit_price": 818,
+   "vat": "с НДС 22% (Люмторг — с НДС; АктивЭнерго — уточнить)",
+   "origin": "бренд NILED (Россия, ООО «Нилед»); страна изготовления ленты не подтверждена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "АктивЭнерго (Екатеринбург)",
+     "price": 818,
+     "url": "https://activenergo.ru/store/armatura-niled-dlya-sip/krepezhnye-izdeliya-niled/germetiziruyuschaya-lenta-sct20-lenta-izolyacionnaya-insulati/"
+    },
+    {
+     "seller": "Люмторг, с НДС без скидок",
+     "price": 1148.1,
+     "url": "https://lumtorg.ru/catalog/armatura/armatura_niled/lineynaya-armatura-dlya-sip-na-vli-0-4-kv/3586/"
+    },
+    {
+     "seller": "ЭЛПРОМ (НПК), цена по запросу",
+     "price": null,
+     "url": "https://www.elprom-st.ru/oborudovanie-dlya-vozdushnyh-i-kabelnyh-linij/zazhimy-i-linejnaya-armatura-dlya-podveski-sip-na-vli-0-4-kv/sct-20-germetiziruyuschaya-lenta/germetiziruyuschaya_lenta_izolyatsionnaya_sct20-/"
+    }
+   ],
+   "note": "Режим «Ограничение»: в реестре ПП 719 записи на SCT 20/NILED не найдено. Справочник 1757,87 и НМЦ 1480 выше рынка."
+  },
+  {
+   "n": 27,
+   "name_tz": "Лента для восстановления изоляции ТЕХ 72",
+   "regime": "Ограничение",
+   "unit_tz": "М",
+   "nmc_unit": 970,
+   "ref_unit": 2212.88,
+   "product": "«ТЕХ 72» как марка не найдена; эквивалент — EKF PROxima no-72 лента самоспекающаяся для восстановления изоляции 19мм×9м (EPR)",
+   "unit": "М (в ТЗ) — по логике товара рулон; цена дана за рулон 9 м",
+   "unit_price": 703,
+   "vat": "с НДС 22%",
+   "origin": "EKF (импорт)",
+   "registry": null,
+   "match": "сомнения: марка ТЕХ 72 не идентифицирована; ед. «М» при НМЦ 970 и справочнике 2212,88 ≈ цена рулона, а не метра",
+   "sources": [
+    {
+     "seller": "EKF, РРЦ за шт (базовая 938)",
+     "price": 703,
+     "url": "https://ekfgroup.com/ru/catalog/lenta-dlya-vosstanovleniya-izolyacii"
+    },
+    {
+     "seller": "Русский Свет rs24, EKF no-72",
+     "price": null,
+     "url": "https://rs24.ru/product/702656"
+    },
+    {
+     "seller": "Cellpack No.72 (аналог ремонтной ленты 50мм×10м, Великобритания)",
+     "price": null,
+     "url": "https://www.cellpack.com/product-catalog/components/tapes/other-tapes/no-72/"
+    }
+   ],
+   "note": "Если ед. действительно метр: 703/9 = 78 руб/м. Требуется разъяснение заказчика. Возможно, имелась в виду 3M/Cellpack №72 (ремонт оболочки)."
+  },
+  {
+   "n": 28,
+   "name_tz": "Лента ЛЭТСАР КФ-0,5",
+   "regime": "Ограничение",
+   "unit_tz": "КГ",
+   "nmc_unit": 3800,
+   "ref_unit": 1301.4,
+   "product": "Лента ЛЭТСАР КФ-0,5 ТУ 38.103171-80 (АО «Казанский завод СК»)",
+   "unit": "кг",
+   "unit_price": 2513,
+   "vat": "с НДС 22% (2060 без НДС ×1,22)",
+   "origin": "Россия — АО «Казанский завод синтетического каучука» (ИНН 7608030523)",
+   "registry": "10921301 (ГИСП: ЛЭТСАР, ТУ 38.103171-80, ОКПД2 22.19.20.120, до 20.09.2031)",
+   "match": "точно; внимание: ОКПД2 в реестре 22.19.20.120, в закупке 22.29.21.000",
+   "sources": [
+    {
+     "seller": "Урал-Изолит (Москва), без НДС",
+     "price": 2060,
+     "url": "https://ural-izolit.ru/lenty-letsar/product-lenta-letsar-kf"
+    },
+    {
+     "seller": "ЗАО «Технолог», руб/кг",
+     "price": 1200,
+     "url": "https://zao-tehnolog.ru/page210456"
+    },
+    {
+     "seller": "Яндекс Маркет, рулон 25м/0,5кг = 3126 (≈6250/кг)",
+     "price": 6252,
+     "url": "https://market.yandex.ru/category/letsar"
+    }
+   ],
+   "note": "Разброс 1200–2550 руб/кг (Новосибирск 1820–2550, есть китайские подделки «ЛЭТСАР (Китай)» — td-polimer54). Требовать производство КЗСК."
+  },
+  {
+   "n": 29,
+   "name_tz": "Лента термоусадочная ABBT-2 5м желтая",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 1500,
+   "ref_unit": 1845.53,
+   "product": "ACS ABBT-2 лента термоусаживаемая трекингостойкая 50мм×5м (1,0мм после усадки, до 36кВ), желтая",
+   "unit": "шт (рулон 5м)",
+   "unit_price": 950,
+   "vat": "с НДС 22%",
+   "origin": "марка ACS (поставщик Кросс-Контакт, Москва); страна изготовления не подтверждена — вероятно импорт",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Кросс-Контакт, руб/рулон с НДС",
+     "price": 950,
+     "url": "https://kross-kontakt.ru/termousazhivaemye-izdeliya/lenty-termousazhivaemye/termousazhivaemaya-lenta-abbt"
+    },
+    {
+     "seller": "Диэлектрика (цена по запросу)",
+     "price": null,
+     "url": "https://dielectrica.ru/termousazhivaemye-izdeliya/lenty-termousazhivaemye/abbt"
+    },
+    {
+     "seller": "КВТ ТЛК 50мм (лента с клеем, аналог класса)",
+     "price": null,
+     "url": "https://kvt.su/prod/cable_kits_acs/tlk/"
+    }
+   ],
+   "note": "Найден один источник с ценой. «Ограничение»: записи в реестре ПП 719 нет — риск недопуска."
+  },
+  {
+   "n": 30,
+   "name_tz": "Лента термоусадочная ABBT-2 5м зеленая",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 1500,
+   "ref_unit": 1845.53,
+   "product": "ACS ABBT-2 лента термоусаживаемая трекингостойкая 50мм×5м (1,0мм после усадки, до 36кВ), зеленая",
+   "unit": "шт (рулон 5м)",
+   "unit_price": 950,
+   "vat": "с НДС 22%",
+   "origin": "марка ACS (поставщик Кросс-Контакт, Москва); страна изготовления не подтверждена — вероятно импорт",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Кросс-Контакт, руб/рулон с НДС",
+     "price": 950,
+     "url": "https://kross-kontakt.ru/termousazhivaemye-izdeliya/lenty-termousazhivaemye/termousazhivaemaya-lenta-abbt"
+    },
+    {
+     "seller": "Диэлектрика (цена по запросу)",
+     "price": null,
+     "url": "https://dielectrica.ru/termousazhivaemye-izdeliya/lenty-termousazhivaemye/abbt"
+    },
+    {
+     "seller": "КВТ ТЛК 50мм (лента с клеем, аналог класса)",
+     "price": null,
+     "url": "https://kvt.su/prod/cable_kits_acs/tlk/"
+    }
+   ],
+   "note": "Найден один источник с ценой. «Ограничение»: записи в реестре ПП 719 нет — риск недопуска."
+  },
+  {
+   "n": 31,
+   "name_tz": "Лента термоусадочная ABBT-2 5м красная",
+   "regime": "Ограничение",
+   "unit_tz": "ШТ",
+   "nmc_unit": 1500,
+   "ref_unit": 1845.53,
+   "product": "ACS ABBT-2 лента термоусаживаемая трекингостойкая 50мм×5м (1,0мм после усадки, до 36кВ), красная",
+   "unit": "шт (рулон 5м)",
+   "unit_price": 950,
+   "vat": "с НДС 22%",
+   "origin": "марка ACS (поставщик Кросс-Контакт, Москва); страна изготовления не подтверждена — вероятно импорт",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Кросс-Контакт, руб/рулон с НДС",
+     "price": 950,
+     "url": "https://kross-kontakt.ru/termousazhivaemye-izdeliya/lenty-termousazhivaemye/termousazhivaemaya-lenta-abbt"
+    },
+    {
+     "seller": "Диэлектрика (цена по запросу)",
+     "price": null,
+     "url": "https://dielectrica.ru/termousazhivaemye-izdeliya/lenty-termousazhivaemye/abbt"
+    },
+    {
+     "seller": "КВТ ТЛК 50мм (лента с клеем, аналог класса)",
+     "price": null,
+     "url": "https://kvt.su/prod/cable_kits_acs/tlk/"
+    }
+   ],
+   "note": "Найден один источник с ценой. «Ограничение»: записи в реестре ПП 719 нет — риск недопуска."
+  },
+  {
+   "n": 32,
+   "name_tz": "Металлорукав МРПИ d50",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 200,
+   "ref_unit": 453.18,
+   "product": "ЗЭТАРУС МРПИ НГ 50 zeta42217 (бухта 20м, черный) — исполнение «нг» (в ТЗ ТУ 3449-013-99856433-2012 без «нг»)",
+   "unit": "м",
+   "unit_price": 310.81,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «Завод электротехнической арматуры» (ЗЭТА/ZETARUS, Новосибирск, ИНН 5405340660); ТУ ...-99856433 — ТУ этого завода",
+   "registry": "10793970 (ГИСП: «Металлорукав типа МРПИ нг», ТУ 25.99.29.190-030-99856433-2025, до 03.03.2029) — для «Преимущества»",
+   "match": "эквивалент/точно (новая ТУ того же завода)",
+   "sources": [
+    {
+     "seller": "ЭТМ, zeta42217, за м",
+     "price": 310.81,
+     "url": "https://www.etm.ru/cat/nn/3536854"
+    },
+    {
+     "seller": "ЭКС elektro.ru, zeta44410 МРПИ нг 50 с протяжкой, за м",
+     "price": 191.97,
+     "url": "https://www.elektro.ru/catalog/detail/metallorukav_v_pvkh_izolyatsii_50_ng_mrpi_20_m_up_chernyy_s_protyazhkoy/"
+    },
+    {
+     "seller": "Рувинил прайс (опт), Р3-Ц-ПВХ-50",
+     "price": 331.53,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    }
+   ],
+   "note": "Пересчёт из бухты: ЭТМ указывает цену за метр. Справочник 453,18; НМЦ 200 — НИЖЕ рынка (убыточно)."
+  },
+  {
+   "n": 33,
+   "name_tz": "Металлорукав МРПИ НГ d25",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 170,
+   "ref_unit": 78.59,
+   "product": "ЗЭТАРУС МРПИ НГ 25 zeta42214 (бухта 50м, черный) ТУ 27.33.13.130-030-99856433-2018",
+   "unit": "м",
+   "unit_price": 116.42,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «Завод электротехнической арматуры» (ЗЭТА/ZETARUS, Новосибирск, ИНН 5405340660); ТУ ...-99856433 — ТУ этого завода",
+   "registry": "10793970 (ГИСП: МРПИ нг, ЗЭТА, до 03.03.2029)",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (5821 за 50м)",
+     "price": 116.42,
+     "url": "https://www.etm.ru/cat/nn/3883118"
+    },
+    {
+     "seller": "Русский Свет rs24 (4740 за 50м)",
+     "price": 94.8,
+     "url": "https://rs24.ru/product/544186"
+    },
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 119.97,
+     "url": "https://www.elektro.ru/product/metallorukav_v_pvkh_izolyatsii_25_ng_mrpi_r3-tspng_shem_50_m_up_20_m_up_2/"
+    }
+   ],
+   "note": "Справочник 78,59 — ниже рынка."
+  },
+  {
+   "n": 34,
+   "name_tz": "Металлорукав Р3-ЦП-НГ-20",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 301,
+   "ref_unit": 182.37,
+   "product": "Промрукав Р3-ЦП-НГ-20 PR.08203 (бухта 50м, черный) ТУ 25.99.29-002-52715257-2017",
+   "unit": "м",
+   "unit_price": 134.03,
+   "vat": "с НДС 22%",
+   "origin": "Россия — Промрукав (производственная компания ООО «Нептун», ИНН 7707377597; ТУ ...-52715257 — их ТУ)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЭТМ (6701,50 за 50м)",
+     "price": 134.03,
+     "url": "https://www.etm.ru/cat/nn/8173548"
+    },
+    {
+     "seller": "Минимакс, кратно 50м",
+     "price": 123.53,
+     "url": "https://www.minimaks.ru/product/metallorukav_v_pvh_obolochke_r3-tsp-ng-20_cherniy_08203_promrukav/"
+    },
+    {
+     "seller": "Промрукав, базовый прайс 04.11.2026",
+     "price": 177.02,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": "Металлорукав Нептуна в выгрузке ГИСП не найден (у Нептуна в реестре — лотки и двустенные трубы). Альтернатива с реестром — ЗЭТА Р3-ЦП нг (10793961)."
+  },
+  {
+   "n": 35,
+   "name_tz": "Металлорукав Р3-ЦХ d15",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 210,
+   "ref_unit": 73.54,
+   "product": "IEK CM10-15-100 Металлорукав Р3-ЦХ-15 (бухта 100м)",
+   "unit": "м",
+   "unit_price": 47.86,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK; для «Преимущества» — КВТ (Россия) или ЗЭТА Р3-ЦХ (в реестре)",
+   "registry": null,
+   "match": "точно по типоразмеру; ТУ 4833-001-97341529-2007 — производитель не идентифицирован",
+   "sources": [
+    {
+     "seller": "ЭТМ, за м",
+     "price": 47.86,
+     "url": "https://www.etm.ru/cat/nn/9800131"
+    },
+    {
+     "seller": "Элевел (итог 5324/100м)",
+     "price": 53.24,
+     "url": "https://www.elevel.ru/shop/truby-dlya-kabelya/metallorukav/iek-metallorukav-r3-tskh-15-100-m/"
+    },
+    {
+     "seller": "Промрукав Р3-ЦХ-15 PR.03151 базовый",
+     "price": 102.91,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": "Российские с реестром: КЭЗ КВТ Р3-ЦХ (10898746, ИНН 7720652073), ЗЭТА Р3-ЦХ (10793962)."
+  },
+  {
+   "n": 36,
+   "name_tz": "Набор трубок терм.Супер Максимум 23шт",
+   "regime": "Преимущество",
+   "unit_tz": "ШТ",
+   "nmc_unit": 590,
+   "ref_unit": 302.5,
+   "product": "Raychman «Супер-Максимум» набор термоусадочной трубки, 23 отрезка (ТСТ/PBF 2,0–10(13) мм)",
+   "unit": "шт (набор)",
+   "unit_price": 650,
+   "vat": "с НДС 22%",
+   "origin": "бренд Raychman (позиционируется как российский/белорусский — raychman.ru / raychman.by); у части продавцов страна — Китай. Происхождение не подтверждено",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЧИП и ДИП (Москва)",
+     "price": 650,
+     "url": "https://www.chipdip.ru/product/super-maksimum"
+    },
+    {
+     "seller": "Платан, от 1 шт, в наличии 80",
+     "price": 800,
+     "url": "https://www.platan.ru/cgi-bin/qwery.pl/id=2010056875"
+    },
+    {
+     "seller": "НПФ Атлас (нет в наличии)",
+     "price": 130,
+     "url": "https://www.npfatlas.ru/catalog/5151/57766/"
+    }
+   ],
+   "note": "Справочник 302,5; НМЦ 590 — ниже ЧИП и ДИП/Платан."
+  },
+  {
+   "n": 37,
+   "name_tz": "Набор трубок термоусадочных Колор 16",
+   "regime": "Преимущество",
+   "unit_tz": "ШТ",
+   "nmc_unit": 330,
+   "ref_unit": 106.12,
+   "product": "Raychman «Колор №16» набор термоусадочной трубки RBF 1,6/0,8 мм, 20 отрезков ×100 мм (5 цветов)",
+   "unit": "шт (набор)",
+   "unit_price": 210,
+   "vat": "с НДС 22%",
+   "origin": "бренд Raychman (позиционируется как российский/белорусский — raychman.ru / raychman.by); у части продавцов страна — Китай. Происхождение не подтверждено; Лайт-Троник указывает Китай",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "ЧИП и ДИП (от 15 шт — 150)",
+     "price": 210,
+     "url": "https://www.chipdip.ru/product/kolor-16"
+    },
+    {
+     "seller": "Лайт-Троник (Новосибирск), нет в наличии",
+     "price": 75.4,
+     "url": "https://www.light-tronic.ru/nabor-trub-tusad-kolor-16/"
+    },
+    {
+     "seller": "Mettatron (опт от 3000 руб.)",
+     "price": null,
+     "url": "https://www.mettatron.ru/produktsiya/kolor-16"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 38,
+   "name_tz": "Набор трубок термоусадочных Электро 30шт",
+   "regime": "Преимущество",
+   "unit_tz": "ШТ",
+   "nmc_unit": 210,
+   "ref_unit": 179.58,
+   "product": "Набор «Электро» 15 шт L80 (2,4–12,7 мм) — точный набор не найден; эквивалент Raychman/Woer «Универсал-Электро» (21 отрезок RBF 3,2–9,5 мм ×100)",
+   "unit": "шт (набор)",
+   "unit_price": 200,
+   "vat": "с НДС 22%",
+   "origin": "не подтверждено (Woer — Китай)",
+   "registry": null,
+   "match": "сомнения: в названии 30 шт, в ТЗ 15 шт с размерами 2,4–12,7; в «Универсал-Электро» нет 2,4 и 12,7 мм",
+   "sources": [
+    {
+     "seller": "Платан, с НДС (наличие на 05.05.2025)",
+     "price": 200,
+     "url": "https://www.platan.ru/cgi-bin/qwery.pl/id=2010056876"
+    },
+    {
+     "seller": "ЧИП и ДИП",
+     "price": 650,
+     "url": "https://www.chipdip.ru/product/universal-elektro-nabor-termousadochnoy-trubki-woer-9000244051"
+    },
+    {
+     "seller": "ВсеИнструменты, VOLTON набор №2 15 шт 4–12 мм (аналог класса)",
+     "price": 54,
+     "url": "https://www.vseinstrumenti.ru/product/termousadochnaya-trubka-volton-nabor-2-15-sht-f-4-2-6-3-8-4-10-5-12-6-po-3-sht-vlt250042-3097988/"
+    }
+   ],
+   "note": "Можно собрать набор из отрезков трубки ТУТ/RBF под ГОСТ 17675-87 — запрос КП."
+  },
+  {
+   "n": 39,
+   "name_tz": "Паста гидрофобная Силотерм ЭП-КПД",
+   "regime": "Преимущество",
+   "unit_tz": "КГ",
+   "nmc_unit": 11200,
+   "ref_unit": 3593.29,
+   "product": "Силотерм ЭП-КПД паста диэлектрическая гидрофобная кремнийорганическая",
+   "unit": "кг (ед. со скана подтверждается: НМЦ/справочник за кг; фасовка 1 кг / ведро 20 кг)",
+   "unit_price": 6800,
+   "vat": "с НДС 22% (АКЗ — розничная)",
+   "origin": "Россия — ООО «Силотерм»/группа «Энергомаш» (ОСТЕК), Москва — по ТУ производителя; запись в реестре ПП 719 в выгрузке ГИСП не найдена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "АКЗ-Огнезащита, розница",
+     "price": 6800,
+     "url": "https://akz-ognezaschita.ru/catalog/siloterm_ep_kpd/"
+    },
+    {
+     "seller": "ТСБ/RegTorg, ведро 20 кг = 179000",
+     "price": 8950,
+     "url": "https://tcb.regtorg.ru/catalog/dielektricheskaya_pasta_siloterm_epkpd_20_kg-607235.htm"
+    },
+    {
+     "seller": "AWAN, ведро 20 кг, руб/кг",
+     "price": 1430,
+     "url": "https://awan.pro/catalog/gidroizolyatsiya_i_zashchita/ognezashchitnye_sostavy/"
+    }
+   ],
+   "note": "Разброс 816–8950 руб/кг (часть дешёвых предложений — обычная КПД, не Силотерм). Справочник 3593,29; НМЦ 11200."
+  },
+  {
+   "n": 40,
+   "name_tz": "Паста диэлектрическая КПД",
+   "regime": "Преимущество",
+   "unit_tz": "КГ",
+   "nmc_unit": 1520,
+   "ref_unit": 3324.61,
+   "product": "Паста кремнийорганическая диэлектрическая КПД ТУ 6-02-5-009-92",
+   "unit": "кг (ед. подтверждается)",
+   "unit_price": 1220,
+   "vat": "уточнить (Силан — розничная)",
+   "origin": "Россия (ООО «Силан», Москва, и др. производители КПД)",
+   "registry": null,
+   "match": "точно (Силан также предлагает аналог по ТУ 20.14.51-024-44216037-2022 — не брать, нужна ТУ 6-02-5-009-92)",
+   "sources": [
+    {
+     "seller": "Силан (розн.; опт от 976)",
+     "price": 1220,
+     "url": "https://silan.su/pasta-dielektricheskaya-kpd"
+    },
+    {
+     "seller": "Химлогистик, от 100 кг",
+     "price": 996,
+     "url": "https://himlogistik.com/kremnijorganicheskaya-dielektricheskaya-pasta-kpd-tu-6-02-5-009-92-c-izm.-1"
+    },
+    {
+     "seller": "ТК Баррель, 10 кг = 25000",
+     "price": 2500,
+     "url": "https://tk-barrel.ru/shop/technolog/dielektricheskaya-pasta-kpd-tu-6-02-5-009-92/"
+    }
+   ],
+   "note": "Справочник 3324,61 и НМЦ 1520 — рынок ближе к НМЦ."
+  },
+  {
+   "n": 41,
+   "name_tz": "Прокладка под проходной изолятор ИПУ-10 (Овал)",
+   "regime": "Преимущество",
+   "unit_tz": "ШТ",
+   "nmc_unit": 920,
+   "ref_unit": 852.51,
+   "product": "Прокладка резиновая к изолятору ИПУ-10/630 (овальный фланец), толщ. 6 мм (8ЕС.151.002)",
+   "unit": "шт (ед. подтверждается)",
+   "unit_price": 348,
+   "vat": "с НДС 22%",
+   "origin": "Россия (Электрофарфор, Москва; РТИ-производители)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Электрофарфор (Москва)",
+     "price": 348,
+     "url": "https://elektrofarfor.com/p422072873-prokladka-dlya-izolyatorov.html"
+    },
+    {
+     "seller": "ТЕХЭНЕРГО te00432193",
+     "price": 349.54,
+     "url": "https://www.texenergo.ru/catalog/item.html/te00432193"
+    },
+    {
+     "seller": "ТехноТочка (Екатеринбург), с НДС",
+     "price": 120,
+     "url": "https://ttochka.com/catalog/prokladka-pod-prokhodnoy-izolyator-ipu-10-oval-prokladka-8es-151-002-/"
+    }
+   ],
+   "note": "Справочник 852,51; НМЦ 920 — завышены ~2,5×."
+  },
+  {
+   "n": 42,
+   "name_tz": "Состав огнезащитный Силотерм ЭП-6К",
+   "regime": "Преимущество",
+   "unit_tz": "КГ",
+   "nmc_unit": 420,
+   "ref_unit": 4829.49,
+   "product": "Силотерм ЭП-6К покрытие огнезащитное для кабелей, серый, ведро 15 кг",
+   "unit": "кг (ед. подтверждается; ведро 15 кг)",
+   "unit_price": 3600,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ООО «Силотерм»/группа «Энергомаш» (ОСТЕК), Москва — по ТУ производителя; запись в реестре ПП 719 в выгрузке ГИСП не найдена",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "АКЗ-Огнезащита, розница за кг",
+     "price": 3600,
+     "url": "https://akz-ognezaschita.ru/catalog/siloterm_ep_6k/"
+    },
+    {
+     "seller": "SCS-online (3900 розн., от 10 т.р. 3600, от 50 т.р. 3450)",
+     "price": 3900,
+     "url": "https://www.scs-online.ru/katalog/100193.html"
+    },
+    {
+     "seller": "EKF, ведро 15 кг = 57614 (≈3841/кг; снят с производства в EKF)",
+     "price": 3841,
+     "url": "https://ekfgroup.com/ru/catalog/products/siloterm-ep-6k-pokrytie-ognezashhitnoe-dlya-kabelej-cvet-bazovyj-seryj-plastik-vedro-15-kg"
+    }
+   ],
+   "note": "КРИТИЧНО: НМЦ 420 руб/кг в ~8,6 раза ниже рынка (справочник 4829 — рыночный). Вероятна ошибка НМЦ/единицы — запрос разъяснений; при объёме — крупный убыток."
+  },
+  {
+   "n": 43,
+   "name_tz": "Стеклотекстолит СТЭФ 5мм",
+   "regime": "Преимущество",
+   "unit_tz": "КГ",
+   "nmc_unit": 690,
+   "ref_unit": 1097.43,
+   "product": "Стеклотекстолит СТЭФ 5 мм ГОСТ 12652-74 (лист)",
+   "unit": "кг (проверено: цены рынка и НМЦ 690/справочник 1097 — за кг)",
+   "unit_price": 451,
+   "vat": "370 руб/кг без НДС ×1,22",
+   "origin": "Россия — АО «Электроизолит» (Хотьково, ИНН 5042000530) или др.",
+   "registry": "10921348 (ГИСП: АО «Электроизолит», СТЭФ ГОСТ 12652-74, до 20.09.2031) — если поставлять Электроизолит",
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Кирелис (Москва), розн. руб/кг",
+     "price": 370,
+     "url": "https://www.kirelis.ru/catalog/steklotekstolit/id_40803/"
+    },
+    {
+     "seller": "Промресурс, в наличии руб/кг",
+     "price": 274.5,
+     "url": "https://www.promresurs.ru/catalog/polimernye-izdeliya/tekstolit-steklotekstolit-steklotkan/steklotekstolit/steklotekstolit-stef-5-mm-prs/"
+    },
+    {
+     "seller": "Урал-Изолит СТЭФ 5мм руб/кг (без НДС)",
+     "price": 225,
+     "url": "https://ural-izolit.ru/steklotekstolit-listovoy/steklotekstolit-stef"
+    },
+    {
+     "seller": "СеллТЭК, розн.",
+     "price": 1190,
+     "url": "https://www.selltec.ru/catalogue/materialy/steklotekstolit/stef/steklotekstolit-stef_3056.html"
+    }
+   ],
+   "note": "Масса 1 м² листа 5 мм ≈ 9,5 кг. Разброс 225–1190 руб/кг."
+  },
+  {
+   "n": 44,
+   "name_tz": "Текстолит ПТ 10мм",
+   "regime": "Преимущество",
+   "unit_tz": "М2",
+   "nmc_unit": 9920,
+   "ref_unit": 663.16,
+   "product": "Текстолит ПТ 10 мм ГОСТ 5-78 (лист 1000×2000, ≈30,5 кг = 15,25 кг/м²)",
+   "unit": "м² (пересчёт из руб/кг: 15,25 кг/м²)",
+   "unit_price": 5395,
+   "vat": "290 руб/кг без НДС ×1,22 ×15,25",
+   "origin": "Россия — АО «Электроизолит» (ИНН 5042000530) и др.",
+   "registry": "10921351 (ГИСП: АО «Электроизолит», Текстолит ПТ ГОСТ 5-78, до 20.09.2031)",
+   "match": "сомнения по единице: справочник 663,16 похож на цену за кг, НМЦ 9920 — за м²",
+   "sources": [
+    {
+     "seller": "Урал-Изолит, ПТ 1000×2000 10мм, руб/кг без НДС",
+     "price": 290,
+     "url": "https://ural-izolit.ru/tekstolit/tekstolit-pt"
+    },
+    {
+     "seller": "Изолит-Урал, текстолит ГОСТ 5-78, руб/кг",
+     "price": 1054,
+     "url": "https://izolitural.ru/listovoy-tekstolit/podelochniy/"
+    },
+    {
+     "seller": "Satu.kz: вес листа ПТ-10 1000×2000 ≈30,5 кг",
+     "price": null,
+     "url": "https://satu.kz/Tekstolit-10.html"
+    }
+   ],
+   "note": "По Изолит-Урал (1054 руб/кг) было бы ≈16 074 руб/м². Уточнить единицу у заказчика; при «кг» рынок 354–1054 руб/кг."
+  },
+  {
+   "n": 45,
+   "name_tz": "Труба гоф. двустен. ПНД/ПВД d50 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 210,
+   "ref_unit": 157.15,
+   "product": "Рувинил Т2-КЛ0-050 труба двухстенная ПНД/ПВД 50/39,5 мм с зондом (бухта 100 м)",
+   "unit": "м",
+   "unit_price": 94.68,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "точно по наименованию «ПНД/ПВД с зондом»; ТУ 2248-01-59369841-2003 — производитель не подтверждён (вероятно Рувинил)",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 94.68,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав PR15.0021 двустенная ПНД 450Н d50 с/з (базовая)",
+     "price": 156.01,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    },
+    {
+     "seller": "ЭТМ, DKC 121950 d50 с протяжкой",
+     "price": 147.7,
+     "url": "https://www.etm.ru/cat/nn/9741793"
+    }
+   ],
+   "note": "Вариант с реестром ПП 719: Промрукав (ООО «Нептун») двустенная ПНД гибкая тип 450 — запись 10806498."
+  },
+  {
+   "n": 46,
+   "name_tz": "Труба гофрированная d63 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 280,
+   "ref_unit": 138.8,
+   "product": "DKC 121963 труба двустенная ПНД гибкая d63 с протяжкой, SN13, с муфтой (бухта 50 м) — ТУ 2248-015-47022248-2006 = ДКС",
+   "unit": "м",
+   "unit_price": 134,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «ДКС» (Тверь, ИНН 6905062011); ТУ ...-47022248 — ТУ ДКС; гофротрубы ДКС в выгрузке ГИСП не найдены",
+   "registry": null,
+   "match": "точно (ТУ ДКС)",
+   "sources": [
+    {
+     "seller": "ЭТМ (6700 за 50м)",
+     "price": 134,
+     "url": "https://www.etm.ru/cat/nn/9741794"
+    },
+    {
+     "seller": "Элевел",
+     "price": 135.49,
+     "url": "https://www.elevel.ru/shop/kabelenesushchie-sistemy/truby-rukava-dlya-prokladki-kabelya/121963/"
+    },
+    {
+     "seller": "XCOM-shop (6342 за 50м, НДС 22%)",
+     "price": 126.84,
+     "url": "https://www.xcom-shop.ru/dkc_121963_338324.html"
+    },
+    {
+     "seller": "ЭКС elektro.ru (8850 за 50м)",
+     "price": 177,
+     "url": "https://www.elektro.ru/product/truba_dvustennaya_s_provodkoy_soed_mufta_63mm_121963/"
+    }
+   ],
+   "note": "Поз. 46 и 47 — по ТУ одна и та же двустенная труба ДКС."
+  },
+  {
+   "n": 47,
+   "name_tz": "Труба гофрированная двуст. d63 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 360,
+   "ref_unit": 193.57,
+   "product": "DKC 121963 труба двустенная ПНД гибкая d63 с протяжкой, SN13, с муфтой (бухта 50 м) — ТУ 2248-015-47022248-2006 = ДКС",
+   "unit": "м",
+   "unit_price": 134,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «ДКС» (Тверь, ИНН 6905062011); ТУ ...-47022248 — ТУ ДКС; гофротрубы ДКС в выгрузке ГИСП не найдены",
+   "registry": null,
+   "match": "точно (ТУ ДКС)",
+   "sources": [
+    {
+     "seller": "ЭТМ (6700 за 50м)",
+     "price": 134,
+     "url": "https://www.etm.ru/cat/nn/9741794"
+    },
+    {
+     "seller": "Элевел",
+     "price": 135.49,
+     "url": "https://www.elevel.ru/shop/kabelenesushchie-sistemy/truby-rukava-dlya-prokladki-kabelya/121963/"
+    },
+    {
+     "seller": "XCOM-shop (6342 за 50м, НДС 22%)",
+     "price": 126.84,
+     "url": "https://www.xcom-shop.ru/dkc_121963_338324.html"
+    },
+    {
+     "seller": "ЭКС elektro.ru (8850 за 50м)",
+     "price": 177,
+     "url": "https://www.elektro.ru/product/truba_dvustennaya_s_provodkoy_soed_mufta_63mm_121963/"
+    }
+   ],
+   "note": "Рувинил Т2-КЛ0-063 — 109,81 (опт); Промрукав PR15.0025 — 186,21 (реестр 10806498)."
+  },
+  {
+   "n": 48,
+   "name_tz": "Труба гофрированная двустенная d40",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 170,
+   "ref_unit": 151.61,
+   "product": "DKC 121940 труба двустенная ПНД гибкая d40 с протяжкой SN18 (бухта 50 м)",
+   "unit": "м",
+   "unit_price": 142.39,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «ДКС» (Тверь, ИНН 6905062011); ТУ ...-47022248 — ТУ ДКС; гофротрубы ДКС в выгрузке ГИСП не найдены",
+   "registry": null,
+   "match": "точно (ТУ ДКС)",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 142.39,
+     "url": "https://www.etm.ru/catalog?searchValue=%D1%82%D1%80%D1%83%D0%B1%D0%B0+%D0%B4%D0%B2%D1%83%D1%81%D1%82%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F"
+    },
+    {
+     "seller": "ЭКС elektro.ru (6950 за 50м)",
+     "price": 139,
+     "url": "https://www.elektro.ru/product/dvustennaya_truba_pnd_gibkaya_dlya_kabelnoy_kanalizatsii_d_40mm_s_protyazhkoy_sn18_500n_v_bukhte_50m_121940/"
+    },
+    {
+     "seller": "Промрукав PR15.0252 d40 (базовая)",
+     "price": 146.52,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 49,
+   "name_tz": "Труба гофрированная двустенная d50",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 198,
+   "ref_unit": 155.5,
+   "product": "DKC 121950 труба двустенная ПНД гибкая d50 с протяжкой SN13 (бухта 100 м)",
+   "unit": "м",
+   "unit_price": 147.7,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «ДКС» (Тверь, ИНН 6905062011); ТУ ...-47022248 — ТУ ДКС; гофротрубы ДКС в выгрузке ГИСП не найдены",
+   "registry": null,
+   "match": "точно (ТУ ДКС)",
+   "sources": [
+    {
+     "seller": "ЭТМ (розн. 160,14)",
+     "price": 147.7,
+     "url": "https://www.etm.ru/cat/nn/9741793"
+    },
+    {
+     "seller": "ВсеИнструменты (13836 за 100м)",
+     "price": 138.36,
+     "url": "https://www.vseinstrumenti.ru/product/truba-pnd-dkc-s-protyazhkoj-dvustennaya-50mm-100m-121950-703402/"
+    },
+    {
+     "seller": "XCOM-shop (14771 за 100м)",
+     "price": 147.71,
+     "url": "https://www.xcom-shop.ru/dkc_121950_338320.html"
+    }
+   ],
+   "note": "Элевел показывал 81,86 руб/м — проверить."
+  },
+  {
+   "n": 50,
+   "name_tz": "Труба гофрированная ПВХ d16",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 19,
+   "ref_unit": 16.36,
+   "product": "DKC 91916 труба гофрированная ПВХ d16 лёгкая с протяжкой, серая (бухта 100 м) — ТУ 2247-008-47022248-2002 указана в карточке ДКС",
+   "unit": "м",
+   "unit_price": 20.33,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «ДКС» (Тверь, ИНН 6905062011); ТУ ...-47022248 — ТУ ДКС; гофротрубы ДКС в выгрузке ГИСП не найдены",
+   "registry": null,
+   "match": "точно (ТУ ДКС)",
+   "sources": [
+    {
+     "seller": "ЭТМ (для юрлиц)",
+     "price": 20.33,
+     "url": "https://www.etm.ru/catalog?searchValue=%D0%B3%D0%BE%D1%84%D1%80%D0%B0+16%D0%BC%D0%BC+%D1%81+%D0%BF%D1%80%D0%BE%D1%82%D1%8F%D0%B6%D0%BA%D0%BE%D0%B9"
+    },
+    {
+     "seller": "ЭКС elektro.ru",
+     "price": 25,
+     "url": "https://www.elektro.ru/product/truba_pvkh_d16_gibkaya_lyogkaya_s_protyazhkoy_100m_dks/"
+    },
+    {
+     "seller": "XCOM-shop (2416 за 100м)",
+     "price": 24.16,
+     "url": "https://www.xcom-shop.ru/dkc_91916_220591.html"
+    },
+    {
+     "seller": "Минимакс",
+     "price": 14.78,
+     "url": "https://www.minimaks.ru/product/truba-gofrirovannaya-pvkh-gibkaya-diametr-16mm-legkaya-s-protyazhkoy-tsvet-seryy-91916-dkc/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 51,
+   "name_tz": "Труба гофрированная ПВХ d20",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 22,
+   "ref_unit": 26.43,
+   "product": "DKC 91920 труба гофрированная ПВХ d20 лёгкая с протяжкой, серая (бухта 100 м)",
+   "unit": "м",
+   "unit_price": 28.26,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «ДКС» (Тверь, ИНН 6905062011); ТУ ...-47022248 — ТУ ДКС; гофротрубы ДКС в выгрузке ГИСП не найдены",
+   "registry": null,
+   "match": "точно (ТУ ДКС)",
+   "sources": [
+    {
+     "seller": "ЭТМ",
+     "price": 28.26,
+     "url": "https://www.etm.ru/cat/nn/87860020"
+    },
+    {
+     "seller": "Элевел",
+     "price": 19.26,
+     "url": "https://elevel.ru/shop/truby-dlya-kabelya/truba-gofrirovannaya/dkc-truba-pvkh-gibkaya-gofrirovannaya-legkaya-s-protyazhkoy-d-20mm-100m-seraya-seriya-9/"
+    },
+    {
+     "seller": "ЭКС elektro.ru (розн. 32)",
+     "price": 29,
+     "url": "https://www.elektro.ru/product/truba_pvkh_d20_gibkaya_lyogkaya_s_protyazhkoy_100m_dks_tsvet_seryy_91920/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 52,
+   "name_tz": "Труба гофрированная ПВХ d32 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 49,
+   "ref_unit": 211.08,
+   "product": "DKC 91932 труба гофрированная ПВХ d32 лёгкая с протяжкой, серая (бухта 25 м)",
+   "unit": "м",
+   "unit_price": 68,
+   "vat": "с НДС 22%",
+   "origin": "Россия — АО «ДКС» (Тверь, ИНН 6905062011); ТУ ...-47022248 — ТУ ДКС; гофротрубы ДКС в выгрузке ГИСП не найдены",
+   "registry": null,
+   "match": "точно (ТУ ДКС)",
+   "sources": [
+    {
+     "seller": "ЭКС elektro.ru (розн. 71)",
+     "price": 68,
+     "url": "https://www.elektro.ru/product/truba_pvkh_d32_gibkaya_lyogkaya_s_protyazhkoy_25_m_dks_tsvet_seryy_91932/"
+    },
+    {
+     "seller": "Минимакс",
+     "price": 36.29,
+     "url": "https://www.minimaks.ru/product/truba_pvh_gibkaja_gofr_d32mm,_lyogkaja_s_protjajkoy,_25m,_tsvet_seriy_kod_91932_dkc/"
+    },
+    {
+     "seller": "Рувинил 13201 d32 с зондом (опт)",
+     "price": 51.78,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    }
+   ],
+   "note": "Справочник 211,08 — завышен ~3×; НМЦ 49 — ниже розницы ЭКС."
+  },
+  {
+   "n": 53,
+   "name_tz": "Труба гофрированная ПВХ d63",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 230,
+   "ref_unit": 190.36,
+   "product": "Рувинил 16301 труба гофрированная ПВХ d63 с зондом лёгкая, серая (бухта 15 м)",
+   "unit": "м",
+   "unit_price": 166.04,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "эквивалент: ТУ 2247-001-75351071-2006 — производитель не идентифицирован; в ТЗ не указано «с зондом»",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 166.04,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав PR.016331 ПВХ d63 350Н с/з (базовая)",
+     "price": 243.96,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 54,
+   "name_tz": "Труба гофрированная ПНД d20 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 22,
+   "ref_unit": 38.55,
+   "product": "Рувинил 22001 труба гофрированная ПНД d20 черная с зондом лёгкая",
+   "unit": "м",
+   "unit_price": 26.84,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "эквивалент: ТУ в ТЗ — 2248-001-59369841-2003 (вероятно Рувинил)",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 26.84,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав 161557 ПНД 350Н HF УФ-стойкая чёрная с/з d20 (базовая)",
+     "price": 39.84,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 55,
+   "name_tz": "Труба гофрированная ПНД d25 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 59,
+   "ref_unit": 50.45,
+   "product": "Рувинил 22501 труба гофрированная ПНД d25 черная с зондом лёгкая",
+   "unit": "м",
+   "unit_price": 31.33,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "эквивалент: ТУ в ТЗ — 2248-001-59369841-2003 (вероятно Рувинил)",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 31.33,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав 161558 ПНД 350Н HF УФ-стойкая чёрная с/з d25 (базовая)",
+     "price": 52.17,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 56,
+   "name_tz": "Труба гофрированная ПНД d32 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 97,
+   "ref_unit": 75.77,
+   "product": "Рувинил 23201 труба гофрированная ПНД d32 черная с зондом лёгкая",
+   "unit": "м",
+   "unit_price": 52.67,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "эквивалент: ТУ в ТЗ — 2248-001-59369841-2003 (вероятно Рувинил)",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 52.67,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав 161559 ПНД 350Н HF УФ-стойкая чёрная с/з d32 (базовая)",
+     "price": 78.3,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 57,
+   "name_tz": "Труба гофрированная ПНД d40 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 97,
+   "ref_unit": 124.4,
+   "product": "Рувинил 24001 труба гофрированная ПНД d40 черная с зондом лёгкая",
+   "unit": "м",
+   "unit_price": 67.74,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "эквивалент: ТУ в ТЗ — 2248-001-09801575-2010 — не идентифицирован",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 67.74,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав 161560 ПНД 350Н HF УФ-стойкая чёрная с/з d40 (базовая)",
+     "price": 123.62,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 58,
+   "name_tz": "Труба гофрированная ПНД d50",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 140,
+   "ref_unit": 162.33,
+   "product": "Рувинил 25000 труба гофрированная ПНД d50 черная без зонда лёгкая",
+   "unit": "м",
+   "unit_price": 84.79,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "эквивалент: ТУ 2248-002-18461115-2010 — не идентифицирован; зонд в ТЗ не указан",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 84.79,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав 161561 ПНД d50 с/з (базовая)",
+     "price": 171.52,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 59,
+   "name_tz": "Труба гофрированная ПНД d50 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 160,
+   "ref_unit": 130.25,
+   "product": "Рувинил 25001 труба гофрированная ПНД d50 черная с зондом лёгкая",
+   "unit": "м",
+   "unit_price": 85.3,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "эквивалент: ТУ в ТЗ — 22248-001-09801575-2010 (опечатка в ТЗ) — не идентифицирован",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 85.3,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав 161561 ПНД 350Н HF УФ-стойкая чёрная с/з d50 (базовая)",
+     "price": 171.52,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 60,
+   "name_tz": "Труба гофрированная ПНД d63 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 230,
+   "ref_unit": 108.82,
+   "product": "Рувинил 26301 труба гофрированная ПНД d63 черная с зондом лёгкая",
+   "unit": "м",
+   "unit_price": 124.92,
+   "vat": "с НДС 22%",
+   "origin": "Россия — ЗАО «Рувинил» (Москва); запись ГИСП не найдена",
+   "registry": null,
+   "match": "эквивалент: ТУ в ТЗ — не указаны",
+   "sources": [
+    {
+     "seller": "Рувинил — оптовый прайс с НДС (мин. закупка 500 тыс. руб.; через дилеров дороже)",
+     "price": 124.92,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    },
+    {
+     "seller": "Промрукав 161562 ПНД 350Н HF УФ-стойкая чёрная с/з d63 (базовая)",
+     "price": 246.01,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 61,
+   "name_tz": "Труба гофрированная ПНД-UF d25 с зондом",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 59,
+   "ref_unit": 35.6,
+   "product": "Промрукав 161558 труба гофрированная ПНД d25 стойкая к УФ (UF→UV?), чёрная, с зондом, 350Н HF",
+   "unit": "м",
+   "unit_price": 52.17,
+   "vat": "с НДС 22%",
+   "origin": "Россия — Промрукав (ООО «Нептун», ИНН 7707377597)",
+   "registry": null,
+   "match": "сомнения: «ПНД-UF» трактовано как УФ-стойкая; ГОСТ 50827-95 — общий на электромонтажные изделия",
+   "sources": [
+    {
+     "seller": "Промрукав, прайс 04.11.2026 (базовая)",
+     "price": 52.17,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    },
+    {
+     "seller": "Рувинил 22501 ПНД d25 с зондом (УФ-стойкость не заявлена)",
+     "price": 31.33,
+     "url": "https://www.ruvinil.ru/upload/uw_price_list/price_list.xlsx"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 62,
+   "name_tz": "Трубка ПВХ d4 белая",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 60,
+   "ref_unit": 5.34,
+   "product": "Промрукав PR08.2562 трубка ТВ-40 ПВХ 4 мм «кембрик» (150 м) ГОСТ 19034-82",
+   "unit": "м",
+   "unit_price": 11.06,
+   "vat": "с НДС 22%",
+   "origin": "Россия — Промрукав (ООО «Нептун»)",
+   "registry": null,
+   "match": "точно; цвет «белая» — уточнить (у Промрукав натуральный/чёрный)",
+   "sources": [
+    {
+     "seller": "Промрукав, прайс 04.11.2026 (базовая)",
+     "price": 11.06,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    },
+    {
+     "seller": "Урал-Изолит ТВ-40 4 мм, 206 руб/кг",
+     "price": null,
+     "url": "https://ural-izolit.ru/trubki-elektroizolyacionnye/trubki-kembrik-pvh/trubki-pvh-tv-40"
+    }
+   ],
+   "note": "Справочник 5,34; НМЦ 60 завышена."
+  },
+  {
+   "n": 63,
+   "name_tz": "Трубка ПВХ d6 белая",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 81,
+   "ref_unit": 16.95,
+   "product": "Промрукав PR08.2564 трубка ТВ-40 ПВХ 6 мм «кембрик» (150 м) ГОСТ 19034-82",
+   "unit": "м",
+   "unit_price": 15.23,
+   "vat": "с НДС 22%",
+   "origin": "Россия — Промрукав (ООО «Нептун»)",
+   "registry": null,
+   "match": "точно; цвет «белая» — уточнить",
+   "sources": [
+    {
+     "seller": "Промрукав, прайс 04.11.2026 (базовая)",
+     "price": 15.23,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    },
+    {
+     "seller": "Урал-Изолит ТВ-40 6 мм, 206 руб/кг",
+     "price": null,
+     "url": "https://ural-izolit.ru/trubki-elektroizolyacionnye/trubki-kembrik-pvh/trubki-pvh-tv-40"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 64,
+   "name_tz": "Трубка ПВХ MarkTube IB4020 d4 белая",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 35,
+   "ref_unit": 60.07,
+   "product": "MarkTube (Mark Series) IB4020 трубка ПВХ маркировочная Ø4 мм белая, рулон 200 м",
+   "unit": "м (пересчёт из рулона 200 м)",
+   "unit_price": 21.54,
+   "vat": "с НДС 22%",
+   "origin": "импорт (Сингапур/Малайзия по данным дистрибьютора Сафетин)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Aveza (4308 за 200 м)",
+     "price": 21.54,
+     "url": "https://aveza.ru/pvx-trubka-kembrik-v-rulone-5-mm-200-metrov-belaja-zamena-ib5020"
+    },
+    {
+     "seller": "Индатек (цена на сайте динамическая)",
+     "price": null,
+     "url": "https://indatech.ru/product/mark-series-ib4020"
+    }
+   ],
+   "note": "Справочник 60,07 завышен."
+  },
+  {
+   "n": 65,
+   "name_tz": "Трубка ПВХ MarkTube IB5020 d5 белая",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 47,
+   "ref_unit": 34.21,
+   "product": "MarkTube (Mark Series) IB5020 трубка ПВХ маркировочная Ø5 мм белая, рулон 200 м",
+   "unit": "м (пересчёт из рулона 200 м)",
+   "unit_price": 20.75,
+   "vat": "с НДС 22%",
+   "origin": "импорт (Сингапур/Малайзия)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Aveza (4149 за 200 м; со скидкой 3526,65)",
+     "price": 20.75,
+     "url": "https://aveza.ru/catalog/markirovochnoe_oborudovanie/markirovka_kabelya_i_provoda/kembrik_dlya_provodov_pvkh_trubka/trubka_pvkh_kembrik_ib5020_dlya_pechati_na_printere_5_mm_belaya_v_rulone_200_metrov/"
+    },
+    {
+     "seller": "Сафетин (cablemark.ru), по запросу",
+     "price": null,
+     "url": "https://cablemark.ru/62-?sid=c930407dc1d56fe20e5ecb856844a8ea"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 66,
+   "name_tz": "Трубка ТВ-40 d6",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 25,
+   "ref_unit": 49.91,
+   "product": "Трубка ТВ-40 ПВХ 6 мм ГОСТ 19034-82 (Промрукав PR08.2564, 150 м)",
+   "unit": "м",
+   "unit_price": 15.23,
+   "vat": "с НДС 22%",
+   "origin": "Россия — Промрукав (ООО «Нептун»)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "Промрукав, прайс 04.11.2026",
+     "price": 15.23,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    },
+    {
+     "seller": "Промрукав, отрезок 5 м (129,79/уп)",
+     "price": 25.96,
+     "url": "https://b2b.promrukav.ru/get-full-pricelist/"
+    }
+   ],
+   "note": ""
+  },
+  {
+   "n": 67,
+   "name_tz": "Трубка термоусадочная ТТК 51/16",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 1401,
+   "ref_unit": 907.57,
+   "product": "IEK UMR-A3-51-16-41-K02 трубка термоусаживаемая ТТК 51/16 4:1 черная с клеем (1 м)",
+   "unit": "м",
+   "unit_price": 683.34,
+   "vat": "с НДС 22%",
+   "origin": "бренд IEK, производство — импорт (не подтверждено)",
+   "registry": null,
+   "match": "точно по типоразмеру",
+   "sources": [
+    {
+     "seller": "ЭТМ (розн. 719)",
+     "price": 683.34,
+     "url": "https://www.etm.ru/cat/nn/2703121/"
+    },
+    {
+     "seller": "ЭКС elektro.ru (4376 за 4 м)",
+     "price": 1094,
+     "url": "https://www.elektro.ru/product/termousazhivaemaya_trubka_ttk_51_16_4_1_chernaya_s_kleem_1_m/"
+    }
+   ],
+   "note": "Для «Преимущества» — КВТ ТТК/НТТК (Калуга) ближайшего размера."
+  },
+  {
+   "n": 68,
+   "name_tz": "Трубка термоусадочная ТУТ 40/12",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 1200,
+   "ref_unit": 197.2,
+   "product": "КВТ СТТК(3:1)-40/12 среднестенная термоусадочная трубка (отрезок 1,22 м) — ТУТ 40/12 с усадкой 2:1 не выпускается",
+   "unit": "м (394,80 руб за 1,22 м)",
+   "unit_price": 323.6,
+   "vat": "с НДС 22%",
+   "origin": "Россия — КВТ (ООО «КЭЗ КВТ», Калуга, ИНН 7720652073)",
+   "registry": null,
+   "match": "эквивалент: 40/12 возможно только 3:1 (СТТК/НТТК); ГОСТ 17675-87 — проверить",
+   "sources": [
+    {
+     "seller": "КВТ-Рус, СТТК(3:1)-40/12 1,22 м = 394,80",
+     "price": 323.6,
+     "url": "https://www.kvt-rus.ru/search?q=40%2F12"
+    },
+    {
+     "seller": "КВТ-Рус, НТТК-40/12 4:1 = 418,58 (за 1,22 м)",
+     "price": 343.1,
+     "url": "https://www.kvt-rus.ru/search?q=40%2F12"
+    }
+   ],
+   "note": "Справочник 197,2; НМЦ 1200."
+  },
+  {
+   "n": 69,
+   "name_tz": "Трубка термоусадочная ТУТ 40/20",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 400,
+   "ref_unit": 21.92,
+   "product": "КВТ ТУТ(HF)-40/20 черная термоусадочная трубка 2:1",
+   "unit": "м",
+   "unit_price": 114.41,
+   "vat": "с НДС 22%",
+   "origin": "Россия — КВТ (ООО «КЭЗ КВТ», Калуга, ИНН 7720652073)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "КВТ-Рус",
+     "price": 114.41,
+     "url": "https://www.kvt-rus.ru/search?q=40%2F20"
+    },
+    {
+     "seller": "Урал-Изолит ТУТ 40/20",
+     "price": 109,
+     "url": "https://ural-izolit.ru/termousadochnye-trubki/termousadochnaya-trubka-tut"
+    },
+    {
+     "seller": "КВТ-Рус ТУТнг-40/20 черная",
+     "price": 125.3,
+     "url": "https://www.kvt-rus.ru/search?q=40%2F20"
+    }
+   ],
+   "note": "Справочник 21,92 — явно ошибочен."
+  },
+  {
+   "n": 70,
+   "name_tz": "Трубка термоусадочная ТУТ 50/25",
+   "regime": "Преимущество",
+   "unit_tz": "М",
+   "nmc_unit": 420,
+   "ref_unit": 331.25,
+   "product": "КВТ ТУТ(HF)-50/25 черная термоусадочная трубка 2:1",
+   "unit": "м",
+   "unit_price": 157.38,
+   "vat": "с НДС 22%",
+   "origin": "Россия — КВТ (ООО «КЭЗ КВТ», Калуга, ИНН 7720652073)",
+   "registry": null,
+   "match": "точно",
+   "sources": [
+    {
+     "seller": "КВТ-Рус",
+     "price": 157.38,
+     "url": "https://www.kvt-rus.ru/search?q=50%2F25"
+    },
+    {
+     "seller": "Урал-Изолит ТУТ 50/25",
+     "price": 134,
+     "url": "https://ural-izolit.ru/termousadochnye-trubki/termousadochnaya-trubka-tut"
+    },
+    {
+     "seller": "КВТ-Рус ТУТнг-50/25 черная",
+     "price": 172.38,
+     "url": "https://www.kvt-rus.ru/search?q=50%2F25"
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "suppliers": [
+  {
+   "name": "Промрукав (ООО «Промрукав»; производство — ООО «Нептун», ИНН 7707377597)",
+   "inn": "7722467171",
+   "city": "Москва (Волгоградский пр-т, 35, оф. 510)",
+   "site": "https://www.promrukav.ru",
+   "phone": "+7 (495) 969-27-20",
+   "email": null,
+   "closes": "4, 7–8 (аналоги изоленты), 34, 45 (альт. с реестром 10806498), 53–63, 66 (кембрик ТВ-40), металлорукав",
+   "verified": "телефон — страница контактов и шапка прайс-листа 04.11.2026; ИНН/ОГРН 1187746824110 — страница контактов; e-mail не найден"
+  },
+  {
+   "name": "ЗАО «Рувинил»",
+   "inn": null,
+   "city": "Москва (Старопетровский пр-д, 7а, стр. 25)",
+   "site": "https://www.ruvinil.ru",
+   "phone": "+7 (495) 180-20-20",
+   "email": "info@ruvinil.ru",
+   "closes": "45, 53–60 (гофротрубы ПВХ/ПНД, двустенные ПНД/ПВД с зондом), металлорукав Р3-Ц-ПВХ",
+   "verified": "телефон и e-mail — страница контактов и шапка прайс-листа (price_list.xlsx); ИНН не подтверждён; мин. закупка 500 тыс. руб."
+  },
+  {
+   "name": "EKF (ООО «Электрорешения»)",
+   "inn": null,
+   "city": "Москва (ул. Отрадная, 2Б, стр. 9)",
+   "site": "https://ekfgroup.com",
+   "phone": "8 800 333-88-15",
+   "email": "911.help@ekf.su",
+   "closes": "11–14 (изолента класс А), 24–25 (SM30/SM51), 27 (no-72), 42 (Силотерм ЭП-6К — снят у EKF)",
+   "verified": "телефон/адрес — страница контактов и карточки товаров ekfgroup.com"
+  },
+  {
+   "name": "АО «Электроизолит»",
+   "inn": "5042000530",
+   "city": "Хотьково, Московская обл. (ул. Заводская, 1)",
+   "site": "https://electroizolit.ru",
+   "phone": "+7 (495) 241-01-55",
+   "email": "tender@electroizolit.ru; info@electroizolit.ru",
+   "closes": "43 (СТЭФ, реестр 10921348), 44 (текстолит ПТ, реестр 10921351)",
+   "verified": "контакты — страница контактов сайта; ИНН — сайт и выгрузка ГИСП (совпадают)"
+  },
+  {
+   "name": "АКЗ-Огнезащита (поставщик Силотерм)",
+   "inn": null,
+   "city": "Москва (Волгоградский пр-т, 42, корп. 23)",
+   "site": "https://akz-ognezaschita.ru",
+   "phone": "8-800-505-23-15",
+   "email": "info@akz-ognezaschita.ru",
+   "closes": "39 (Силотерм ЭП-КПД), 42 (Силотерм ЭП-6К)",
+   "verified": "телефон/e-mail — карточки товаров и страница контактов"
+  },
+  {
+   "name": "КВТ-Рус (уполномоченный интернет-магазин КВТ; производитель ООО «КЭЗ КВТ», ИНН 7720652073, Калуга)",
+   "inn": "7720652073 (производитель)",
+   "city": "Москва / Калуга",
+   "site": "https://www.kvt-rus.ru",
+   "phone": "+7 (495) 431-16-66",
+   "email": "info@kvt-rus.ru",
+   "closes": "68–70 (ТУТ/СТТК), альтернатива 35 (Р3-ЦХ КВТ, реестр 10898746) и 33 (МРПИнг КВТ, реестр 10898748)",
+   "verified": "контакты — страница контактов и все страницы каталога; ИНН производителя — ГИСП"
+  },
+  {
+   "name": "АО «Завод электротехнической арматуры» (ЗЭТА / ZETARUS)",
+   "inn": "5405340660",
+   "city": "Новосибирск",
+   "site": null,
+   "phone": null,
+   "email": null,
+   "closes": "32–33 (МРПИ НГ, реестр 10793970), альтернатива 34–35 (Р3-ЦП нг, Р3-ЦХ в реестре)",
+   "verified": "только ИНН/реестр (ГИСП); контакты не подтверждены — закупать через ЭТМ/Русский Свет"
+  }
+ ],
+ "risks": [
+  "НАЦРЕЖИМ «Ограничение» (поз. 1–23, 26–31): в выгрузке реестра ПП 719 (ГИСП, full.bin, 1,1 млн строк, данные до 30.10.2026) НЕТ ни одной ПВХ-изоленты, ленты SCT-20, ТЕХ 72, ABBT-2. В реестре есть только ЛЭТСАР (АО «КЗСК», № 10921301, ОКПД2 22.19.20.120 — не совпадает с 22.29.21.000 закупки). Поставка EKF/Safeline/IEK/Neomatec — импорт; при строгом применении ограничения заявки с ними могут быть отклонены/признаны несоответствующими → возможен признание закупки несостоявшейся по этим позициям. Нужен запрос разъяснений: как заказчик применяет ограничение к брендовым позициям (EKF, Safeline и т.д.), где российского аналога в реестре нет.",
+  "КРИТИЧНО — поз. 42 (Силотерм ЭП-6К): НМЦ 420 руб/кг при рынке 3450–3900 руб/кг (справочник 4829). Вероятна ошибка НМЦ/единицы; при единичных расценках — прямой убыток ~3200 руб на каждый кг.",
+  "Поз. 32 (МРПИ d50): НМЦ 200 руб/м при рынке ~310 руб/м — убыточна. Поз. 52 (ПВХ d32 с зондом): НМЦ 49 руб/м — на грани/ниже розницы (68), но выше опта Рувинил (51,78). Поз. 50–51, 54 (ПВХ d16/d20, ПНД d20): НМЦ 19–22 руб/м — близко к рознице.",
+  "Поз. 27 «ТЕХ 72»: марка не идентифицирована; ед. «М» при НМЦ 970/справочнике 2213 похожа на цену рулона. Без разъяснения возможен неверный товар/единица.",
+  "Поз. 44 (текстолит ПТ 10 мм): единица М2, но справочник 663 руб похож на цену за кг. Разброс рынка 290–1054 руб/кг (×15,25 кг/м²) → 4,4–16 тыс. руб/м².",
+  "Поз. 39–44: единицы прочитаны со скана; по логике товара подтверждаются КГ (39, 40, 42, 43), ШТ (41), М2 (44 — с сомнением).",
+  "Поз. 3–4 (изолента 0,2 мм): толщина 0,2 мм в каталогах ЭТМ/ВИ не найдена; предложены 0,15 мм — риск несоответствия ТЗ.",
+  "Поз. 38: название «Электро 30шт» противоречит spec «15шт» с размерами 2,4–12,7 — точного набора нет.",
+  "Поз. 15–16: Matequs и Neomatec — фактически один товар (арт. 11.42403); справочник 387 руб по Matequs завышен.",
+  "Многие ТУ в ТЗ — ТУ конкретных заводов (ДКС 47022248, ЗЭТА 99856433, Промрукав/Нептун 52715257, вероятно Рувинил 59369841). Поставка аналога по иной ТУ может трактоваться как несоответствие — указывать в заявке «эквивалент» с характеристиками.",
+  "Цены собраны 04.11.2026 по выдаче поиска и сайтам (ЭТМ/ВсеИнструменты — по сниппетам, т.к. прямой доступ заблокирован); прайс Промрукав — «базовая» (дилерская скидка не учтена), прайс Рувинил — опт от 500 тыс. руб. Доставка в Тулу не включена: Москва → Тула ТК ~1–2 % стоимости или бесплатно у ЭТМ/Русский Свет (есть филиалы в Туле — не проверено).",
+  "НДС в 2026 г. — 22 %; ряд продавцов (Урал-Изолит, Кирелис) указывают цены без НДС — пересчитано ×1,22 там, где отмечено."
+ ]
+}
