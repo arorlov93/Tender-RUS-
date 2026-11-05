@@ -224,11 +224,441 @@
    "law": "44-ФЗ",
    "number": "1770641334819000111 (извещение 0545100000319000057, договор 139КМ1/35-31)",
    "url": "https://zakupki.gov.ru/epz/contract/contractCard/common-info.html?reestrNumber=1770641334819000111",
-   "note": "исполнен (стадия EC), оплачено 2 589 627,70 (07.2019) + 6 042 464,63 (07.2020); федеральный бюджет. Единственный контракт по данным Госзатрат."
+   "note": "исполнен (стадия EC), оплачено 2 589 627,70 (07.2019) + 6 042 464,63 (07.2020); федеральный бюджет. Единственный контракт по данным Госзатрат.",
+   "competitors": "не установлены (протокол 0545100000319000057 недоступен: zakupki.gov.ru закрыт из сессии, gosplan хранит данные с 2024)"
+  },
+  {
+   "customer": "ПАО «ЛУКОЙЛ» (компании группы), ООО «КИНЕФ», ОАО «Ямал СПГ», «Демфис» и др.",
+   "inn": null,
+   "subject": "Перепродажа импортной продукции (катализаторы/адсорбенты/спецхимия) от Evonik, Zhejiang Fenghong, UOP CH, Johnson Matthey, Chevron Lummus — контракты 2016–2018",
+   "amount": null,
+   "date": "2016–2019",
+   "law": "коммерческие (не 44/223)",
+   "number": null,
+   "url": "https://www.kontur-extern.ru/info/normativ/document/7/448073-postanovlenie-arbitrazhnogo-suda-szo-ot-20-04-2023-n-f07-276-2023-po-delu-n-a56-108236",
+   "note": "Названия покупателей и поставщиков — из текста постановления АС СЗО; суммы по контрагентам не раскрыты"
   }
  ],
- "target_customers": [],
- "current_tenders": [],
+ "target_customers": [
+  {
+   "name": "Госкорпорация «Росатом» и организации отрасли",
+   "inn": "7706413348",
+   "industry": "атомная",
+   "why": "Повторный: единственный госзаказчик компании (контракт 2019, исполнен). Закупает импортное лабораторно-технологическое оборудование и спецматериалы.",
+   "example_purchases": [
+    "1770641334819000111 — микрокомпрессоры двухроторные, 8,63 млн, 2019"
+   ],
+   "platform": "zakupki.rosatom.ru / ЕИС (223-ФЗ, 44-ФЗ)"
+  },
+  {
+   "name": "ПАО «ЛУКОЙЛ» (НПЗ, ЛЛК-Интернешнл)",
+   "inn": null,
+   "industry": "нефтепереработка, масла/смазки",
+   "why": "Повторный (покупатель БПО в 2016–2018 по делу А56-108236/2019); органоглины Fenghong — загустители смазок",
+   "example_purchases": [
+    "64894603 (rostender) ЛУКОЙЛ-Волгограднефтепереработка — сопровождение перезагрузки катализаторов, 2022"
+   ],
+   "platform": "tender.lukoil.com (коммерческие, не ЕИС); ИНН не проверялся"
+  },
+  {
+   "name": "ООО «КИНЕФ» (Сургутнефтегаз, Кириши)",
+   "inn": null,
+   "industry": "нефтепереработка",
+   "why": "Повторный (покупатель БПО по делу А56-108236/2019), близко к СПб",
+   "example_purchases": [
+    "в открытых агрегаторах закупки не найдены"
+   ],
+   "platform": "собственные процедуры Сургутнефтегаза; ИНН не проверялся"
+  },
+  {
+   "name": "ОАО «Ямал СПГ» / ПАО «Новатэк»",
+   "inn": null,
+   "industry": "СПГ, газопереработка",
+   "why": "Повторный (покупатель БПО); потребность в адсорбентах осушки и демеркуризации",
+   "example_purchases": [
+    "342308811 (bicotender) ООО «Новатэк-Усть-Луга» — реализация отработанных катализаторов, до 02.11.2026"
+   ],
+   "platform": "корпоративные площадки Новатэка; ИНН не проверялся"
+  },
+  {
+   "name": "ООО СК «Русвьетпетро» (Зарубежнефть)",
+   "inn": "7701791321",
+   "industry": "нефтедобыча",
+   "why": "Регулярно закупает противотурбулентную присадку и химреагенты (импортозависимая спецхимия) — 3 закупки ПТП за 2026",
+   "example_purchases": [
+    "32615715935 ПТП, 26,65 млн (03.2026)",
+    "32616111778 ПТП, 29,57 млн (06.2026)",
+    "32616450230 химреагенты, 40,08 млн (10.2026)",
+    "32616533115 ПТП на 2027, 54,56 млн (открыта до 12.11.2026)"
+   ],
+   "platform": "ТЭК-Торг (zakupki.tektorg.ru) + ЕИС 223-ФЗ"
+  },
+  {
+   "name": "ПАО «Форвард Энерго»",
+   "inn": "7203162698",
+   "industry": "энергетика (ТЭЦ, Урал/Сибирь)",
+   "why": "Покупает импортные адсорбенты и молекулярные сита по брендам (Shirasagi, Sorbeo AA) и реагенты ВХР; закупки только для МСП",
+   "example_purchases": [
+    "32514849004 молекулярное сито Shirasagi, ЧТЭЦ-4, 5,81 млн (2025)",
+    "32615700647 адсорбент Sorbeo AA, ТТЭЦ-2, 1,26 млн (2026)",
+    "32616534213 ингибитор солеотложений 2027, 8,39 млн (открыта)"
+   ],
+   "platform": "fabrikant.ru, ТЭК-Торг, ЕИС 223-ФЗ"
+  },
+  {
+   "name": "АО «Башкирская содовая компания»",
+   "inn": "0268008010",
+   "industry": "химия (ПВХ, сода)",
+   "why": "Закупает импортные катализаторы (оксихлорирование этилена) у единственного поставщика — крупный чек",
+   "example_purchases": [
+    "32514552751 катализатор оксихлорирования этилена, 28,66 млн (02.2025, ед. поставщик)"
+   ],
+   "platform": "223etp.zakazrf.ru, ЕИС"
+  },
+  {
+   "name": "ПАО «Т Плюс»",
+   "inn": "6315376946",
+   "industry": "энергетика",
+   "why": "Массовые закупки ингибиторов коррозии/накипи, силикагеля на 2027 год",
+   "example_purchases": [
+    "32616519970 ингибитор коррозии медных сплавов, 7,0 млн (открыта)",
+    "32616536202 ингибитор, Ульяновск, 3,85 млн (открыта)",
+    "343382371 (bicotender) силикагель 2027, Пенза"
+   ],
+   "platform": "tender.tplusgroup.ru / b2b-center, ЕИС"
+  },
+  {
+   "name": "ПАО «Россети» и ДЗО (Московский регион, Янтарь, МЭС)",
+   "inn": "4716016979",
+   "industry": "электросети",
+   "why": "Регулярные закупки силикагеля, цеолита, сорбентов для трансформаторного масла",
+   "example_purchases": [
+    "32616480418 Россети Московский регион — силикагель и цеолит (с фторсиликоновыми пластинами), 20,14 млн (11.2026, ИНН 5036065113)",
+    "32515520129 Россети МР силикагель/цеолит, 9,48 млн (12.2025)",
+    "32515478193 сорбенты Средне-Волжского ПМЭС, 1,88 млн",
+    "32616543796 Россети Янтарь силикагель, 1,04 млн (открыта, ИНН 3903007130)"
+   ],
+   "platform": "lot-online.ru, roseltorg.ru, ЕИС"
+  },
+  {
+   "name": "АО «Интер РАО – Электрогенерация» / АО «ДГК» (РусГидро)",
+   "inn": "7704784450 / 1434031363",
+   "industry": "энергетика",
+   "why": "Запчасти к импортным компрессорам/ГТУ — профиль «импортные запчасти»",
+   "example_purchases": [
+    "32616478071 ЗЧ газодожимных компрессоров Сочинской ТЭС, 6,05 млн (открыта)",
+    "32616517088 ЗЧ компрессоров ДГК, 10,98 млн (открыта)"
+   ],
+   "platform": "irao.tektorg.ru, roseltorg.ru"
+  },
+  {
+   "name": "Водоканалы (Омск, Оренбург, Казань, Новосибирск)",
+   "inn": "5504097128; 5610077370; 1653006666; 5411100875",
+   "industry": "ЖКХ",
+   "why": "Каталитические загрузки и катализаторы окисления запахов, керамика RTO — нишевая импортная химия",
+   "example_purchases": [
+    "32514545336 Оренбург Водоканал — гомогенный катализатор окисления, 11,05 млн (2025)",
+    "32616390737 Омскводоканал — реагенты окисления, 4,3 млн (2026)",
+    "32616179463 Горводоканал Новосибирск — каталитическая загрузка, 11,73 млн (2026)",
+    "32615747926 Водоканал Казань — керамические блоки RTO, 3,96 млн (2026)"
+   ],
+   "platform": "ЕИС 223-ФЗ; etp.gpb.ru, rts-tender, zakazrf"
+  },
+  {
+   "name": "ПАО «ММК»",
+   "inn": null,
+   "industry": "металлургия",
+   "why": "Годовая закупка адсорбентов/катализаторов/цеолитов (NaX, РС-400 «аналог UOP/BASF», НТК, катализатор диссоциации аммиака, капсулы ELTRA)",
+   "example_purchases": [
+    "344072257 (bicotender) адсорбенты, катализаторы, цеолиты на 2027, до 11.11.2026"
+   ],
+   "platform": "собственная ЭТП ММК; ИНН не проверялся"
+  },
+  {
+   "name": "ПАО «Нижнекамскнефтехим» (СИБУР)",
+   "inn": null,
+   "industry": "нефтехимия",
+   "why": "Закупает китайские катализаторы под бренд (Sinopec) — нужен импортёр",
+   "example_purchases": [
+    "344298134 (bicotender) Sinopec DQC-602, 400 кг, 16,61 млн, до 19.11.2026"
+   ],
+   "platform": "ЭТП СИБУР/ТАИФ; ИНН не проверялся"
+  },
+  {
+   "name": "НПЗ Роснефти (АО «РНПК», АО «Новокуйбышевский НПЗ», АНХК, Башнефть, Ачинский НПЗ)",
+   "inn": null,
+   "industry": "нефтепереработка",
+   "why": "Ежегодные запросы ТКП на катализаторы гидроочистки и защитного слоя. Риск: Роснефть переводит НПЗ на свои катализаторы (РН-Кат)",
+   "example_purchases": [
+    "343596859 РНПК — катализаторы гидроочистки 2027, до 11.11.2026",
+    "343692653 НК НПЗ — катализаторы защитного слоя, до 12.11.2026",
+    "93695003 Саратовский НПЗ — катализатор Л-24-6 (04.2026)",
+    "95278821 АНХК — катализатор гидроочистки бензина КК (07.2026)"
+   ],
+   "platform": "ТЭК-Торг (секция Роснефть); ИНН не проверялись"
+  },
+  {
+   "name": "АО «Газпромнефть-ОНПЗ» / Газпром нефть",
+   "inn": null,
+   "industry": "нефтепереработка",
+   "why": "Закупает оригинальные адсорбенты Linde и Sinocata для КЦА — импорт по брендам",
+   "example_purchases": [
+    "342879031–342879044 (bicotender) адсорбенты Linde LA20/LA714/LAC N20/LS GB163/LMS/LAC и PuriSorb Z10P, до 14.11.2026"
+   ],
+   "platform": "ЭТП ГПБ (gpn.supply); ИНН не проверялся"
+  },
+  {
+   "name": "ПАО «Славнефть-ЯНОС»",
+   "inn": null,
+   "industry": "нефтепереработка",
+   "why": "Адсорбенты КЦА, катализаторы гидроочистки (ЛЧ-24/7, ГОДТ)",
+   "example_purchases": [
+    "341775111 (bicotender) адсорбент для блока КЦА УПА, до 30.10.2026",
+    "поставка катализаторов ЛЧ-24/7 и ГОДТ (rostender, 04.2026)"
+   ],
+   "platform": "собственная площадка Славнефти; ИНН не проверялся"
+  },
+  {
+   "name": "Азотно-химические холдинги (ФосАгро/Апатит, Уралхим/КЧХК, Невинномысский Азот, ТОАЗ, Метафракс, Щекиноазот)",
+   "inn": null,
+   "industry": "химия, удобрения",
+   "why": "Импортные катализаторы аммиака/метанола/формальдегида/сотовые катализаторы — бывший профиль JM KATALCO",
+   "example_purchases": [
+    "343832037 ФосАгро — катализатор сотовый для «Апатит» (11.2026)",
+    "341945041 Уралхим КЧХК — катализатор АК-72 (11.2026)",
+    "343621150 Невинномысский Азот — катализатор гидрирования (11.2026)",
+    "saby 244992165 Метафракс — катализатор формальдегида, 130,13 млн (07.2026)"
+   ],
+   "platform": "корпоративные ЭТП; ИНН не проверялись"
+  }
+ ],
+ "current_tenders": [
+  {
+   "number": "32616533115",
+   "customer": "ООО СК «Русвьетпетро» (ИНН 7701791321)",
+   "subject": "Противотурбулентная присадка под программу 2027 г.",
+   "nmc": 54561503.71,
+   "deadline": "2026-11-12 15:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616533115",
+   "fit": "высокий — импортозависимая спецхимия, повторяющийся заказчик; площадка ТЭК-Торг"
+  },
+  {
+   "number": "344298134 (bicotender)",
+   "customer": "ПАО «Нижнекамскнефтехим»",
+   "subject": "Катализатор Sinopec DQC-602, 400 кг",
+   "nmc": 16614940.88,
+   "deadline": "2026-11-19 12:00",
+   "url": "https://bicotender.ru/ximiia/katalizator-sinopec-dqc-katalizator-sinopec-dqc-niznekamsk-tender344298134.html",
+   "fit": "высокий — брендовый китайский катализатор, нужен импорт"
+  },
+  {
+   "number": "344072257 (bicotender)",
+   "customer": "ПАО «ММК»",
+   "subject": "Адсорбенты, катализаторы, цеолиты на 2027 (NaX, силикагель КСМГ, Al2O3 РС-400, НТК и др.)",
+   "nmc": null,
+   "deadline": "2026-11-11 15:00",
+   "url": "https://bicotender.ru/ximiia/adsorbenty-katalizatory-ceolity-g-magnitogorsk-tender344072257.html",
+   "fit": "высокий — профильная номенклатура, часть позиций — аналоги UOP/BASF и ELTRA (Германия)"
+  },
+  {
+   "number": "343596859 (bicotender)",
+   "customer": "АО «РНПК» (Роснефть)",
+   "subject": "Катализаторы гидроочистки на 2027 г. (запрос ТКП, аванс 10%)",
+   "nmc": null,
+   "deadline": "2026-11-11 17:30",
+   "url": "https://bicotender.ru/ximiia/postavka-katalizatorov-gidroocistki-dlia-ao-rnpk-v-g-riazan-tender343596859.html",
+   "fit": "высокий по профилю, но конкуренция с РН-Кат"
+  },
+  {
+   "number": "343692653 (bicotender)",
+   "customer": "АО «Новокуйбышевский НПЗ» (Роснефть)",
+   "subject": "Катализаторы защитного слоя для блоков гидроочистки (Парекс, Л-35-11/300)",
+   "nmc": null,
+   "deadline": "2026-11-12 21:00",
+   "url": "https://bicotender.ru/ximiia/katalizatory-zashhitnogo-sloia-dlia-katalizatora-na-blokax-gidroocistki-ustanovkax-pareks-novokuibysevsk-tender343692653.html",
+   "fit": "высокий"
+  },
+  {
+   "number": "342879037 и др. (bicotender, 6 лотов)",
+   "customer": "АО «Газпромнефть-ОНПЗ»",
+   "subject": "Адсорбенты КЦА Linde LA20, LA714, LAC N20, LS GB163, LMS KT, LAC KT; PuriSorb Z10P Sinocata",
+   "nmc": null,
+   "deadline": "2026-11-14",
+   "url": "https://bicotender.ru/masinostroenie/adsorbent-kca-la-linde-omskaia-oblast-tender342879037.html",
+   "fit": "высокий — оригинальные импортные адсорбенты. НМЦ по bicotender 17,9–52,1 тыс. руб. на лот (вероятно, цена за единицу) — уточнить"
+  },
+  {
+   "number": "329552175 (bicotender, з.Cu00-002533)",
+   "customer": "АО «Уралэлектромедь» (УГМК)",
+   "subject": "Катализатор CA-C (ТУ 113-03-394-88), 25 кг",
+   "nmc": null,
+   "deadline": "2026-11-30 12:00",
+   "url": "https://bicotender.ru/ximiia/katalizator-ca-c-tu-zcu-verxniaia-pysma-tender329552175.html",
+   "fit": "средний — малый объём"
+  },
+  {
+   "number": "343866004 (bicotender)",
+   "customer": "не раскрыт (Атырау, Казахстан — вероятно Атырауский НПЗ)",
+   "subject": "Адсорбент Tonsil для осушки сырья нефтепереработки, 110 т",
+   "nmc": "361 628 700 KZT",
+   "deadline": "2026-11-10 03:00",
+   "url": "https://bicotender.ru/ximiia/adsorbent-tonsil-atyrau-tender343866004.html",
+   "fit": "средний — бренд Clariant, экспорт в СНГ (заявлен на сайте)"
+  },
+  {
+   "number": "32616534213",
+   "customer": "ПАО «Форвард Энерго» (ИНН 7203162698)",
+   "subject": "Ингибитор солеотложений на 2027 г. (только МСП)",
+   "nmc": 8386738.71,
+   "deadline": "2026-11-17 12:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616534213",
+   "fit": "средний — заказчик покупает импортные сорбенты; нужен статус МСП"
+  },
+  {
+   "number": "32616534438",
+   "customer": "ПАО «Форвард Энерго» (ИНН 7203162698)",
+   "subject": "Ингибитор коррозии на 2027 г. (только МСП)",
+   "nmc": 2268000.0,
+   "deadline": "2026-11-18 12:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616534438",
+   "fit": "средний"
+  },
+  {
+   "number": "32616499529",
+   "customer": "ПАО «Сахалинэнерго» (ИНН 6500000024)",
+   "subject": "Материалы для водно-химической очистки (Южно-Сахалинская ТЭЦ-1, Сахалинская ГРЭС)",
+   "nmc": 7590560.72,
+   "deadline": "2026-11-11 18:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616499529",
+   "fit": "средний"
+  },
+  {
+   "number": "32616519970",
+   "customer": "ПАО «Т Плюс», филиал «Самарский» (ИНН 6315376946)",
+   "subject": "Ингибитор коррозии медных сплавов на 2027 г.",
+   "nmc": 7007034.56,
+   "deadline": "2026-11-09 13:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616519970",
+   "fit": "средний"
+  },
+  {
+   "number": "32616536202",
+   "customer": "ПАО «Т Плюс», филиал «Ульяновский»",
+   "subject": "Ингибитор коррозии/накипеобразования для оборотного охлаждения ТЭЦ-2",
+   "nmc": 3847860.48,
+   "deadline": "2026-11-10 11:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616536202",
+   "fit": "средний"
+  },
+  {
+   "number": "32616520525",
+   "customer": "ПАО «Т Плюс», филиал «Самарский»",
+   "subject": "Ингибитор коррозии пароконденсата СИНАЛАБ 5711",
+   "nmc": 1660580.06,
+   "deadline": "2026-11-09 13:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616520525",
+   "fit": "низкий — указан конкретный отечественный бренд"
+  },
+  {
+   "number": "32616543796",
+   "customer": "АО «Россети Янтарь» (ИНН 3903007130)",
+   "subject": "Силикагель технический и индикаторный (только МСП)",
+   "nmc": 1039110.6,
+   "deadline": "2026-11-11 14:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616543796",
+   "fit": "низкий-средний — товар массовый"
+  },
+  {
+   "number": "32616478071",
+   "customer": "АО «Интер РАО – Электрогенерация», Сочинская ТЭС (ИНН 7704784450)",
+   "subject": "Запасные части для газодожимных компрессоров",
+   "nmc": 6048327.99,
+   "deadline": "2026-11-10 12:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616478071",
+   "fit": "средний-высокий — импортное оборудование, ЗИП под заказ"
+  },
+  {
+   "number": "32616517088",
+   "customer": "АО «ДГК» (ИНН 1434031363)",
+   "subject": "Запасные части для компрессоров (Хабаровский, Приморский края и др.), только МСП",
+   "nmc": 10984114.0,
+   "deadline": "2026-11-20 16:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616517088",
+   "fit": "средний"
+  },
+  {
+   "number": "32616513122",
+   "customer": "ООО «КАМАЗ-Энерго» (ИНН 1650157635)",
+   "subject": "Запчасти к компрессорам Atlas Copco (только МСП)",
+   "nmc": 4327148.69,
+   "deadline": "2026-11-09 07:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616513122",
+   "fit": "средний — параллельный импорт ЗИП"
+  },
+  {
+   "number": "32616524361",
+   "customer": "ГУП ЧР «Биологические очистные сооружения» (ИНН 2124014112)",
+   "subject": "Запчасти для когенерационных установок с газовым двигателем MAN",
+   "nmc": 2833072.14,
+   "deadline": "2026-11-09 09:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616524361",
+   "fit": "средний — импортный ЗИП"
+  },
+  {
+   "number": "32616531513",
+   "customer": "АО «Гидроремонт-ВКК» (ИНН 6345012488)",
+   "subject": "ЗИП для компрессоров ВШВ",
+   "nmc": 1962296.0,
+   "deadline": "2026-11-10 12:00",
+   "url": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616531513",
+   "fit": "низкий — отечественные компрессоры"
+  },
+  {
+   "number": "344012884 (bicotender)",
+   "customer": "АО «Русский Алюминий Менеджмент»",
+   "subject": "Силикагель для заводов Алюминиевого дивизиона на 2027 (2-й этап)",
+   "nmc": null,
+   "deadline": "2026-11-06",
+   "url": "https://bicotender.ru/ximiia/otbor-na-postavku-silikagelia-dlia-obespeceniia-potrebnosti-zavodov-aliuminievogo-diviziona-moskovskaia-oblast-tender344012884.html",
+   "fit": "низкий-средний; срок — в день начала окна"
+  },
+  {
+   "number": "342718317 (bicotender)",
+   "customer": "ООО ТД «Щекиноазот»",
+   "subject": "Силикагель для очистки и осушки CO2, 3100 кг",
+   "nmc": null,
+   "deadline": "2026-11-06",
+   "url": "https://bicotender.ru/ximiia/silikagel-dlia-ocistki-i-osuski-uglekislogo-gaza-x-mm-obieem-postavki-kg-podtverzdenie-shhekino-tender342718317.html",
+   "fit": "низкий-средний"
+  },
+  {
+   "number": "341822469 (bicotender)",
+   "customer": "не раскрыт (Москва)",
+   "subject": "Реализация отработанных катализаторов и сорбентов (7-Р-2026-РИ) — покупка вторсырья",
+   "nmc": null,
+   "deadline": "2026-11-16",
+   "url": "https://bicotender.ru/ximiia/katalizator-konversii-oksida-ugleroda-sk-vygruzennyi-smes-katalizatorov-tk-tk-g-moskva-tender341822469.html",
+   "fit": "низкий — обратная сделка; требует регистрации в ДМДК при наличии драгметаллов"
+  },
+  {
+   "number": "343815294 (bicotender)",
+   "customer": "АО «Омский каучук»",
+   "subject": "Реализация катализаторов, содержащих палладий",
+   "nmc": null,
+   "deadline": "2026-11-12",
+   "url": "https://bicotender.ru/ximiia/realizaciia-katalizatorov-soderzashhix-palladii-omskaia-oblast-tender343815294.html",
+   "fit": "низкий — нужна регистрация в ДМДК"
+  },
+  {
+   "number": "96251108 (rostender)",
+   "customer": "не раскрыт (Рязань, вероятно АО «РНПК»)",
+   "subject": "Перезагрузка катализаторов (2027) — услуги",
+   "nmc": null,
+   "deadline": "2026-11-19 17:30",
+   "url": "https://rostender.info/category/tendery-perezagruzka-katalizatora",
+   "fit": "низкий — услуги, но точка входа к поставке"
+  }
+ ],
  "sources": [
   "http://47news.ru/articles/134058/",
   "http://eurasiasnab.ru/ (сниппеты поисковой выдачи)",
@@ -237,11 +667,23 @@
   "https://openapi.clearspending.ru/restapi/v3/contracts/search/?supplierinn=7838031803",
   "https://openapi.clearspending.ru/restapi/v3/suppliers/search/?inn=7838031803",
   "https://probpalata.gov.ru/uchastniki-rynka-ne-pereregistrirovavshiesya-v-reestre-specialnogo-ucheta-v-giis-dmdk-posle-1-sentyabrya-2021-goda/",
+  "https://product.statnano.com/product/9843 (Zhejiang Fenghong)",
+  "https://rostender.info/category/tendery-perezagruzka-katalizatora",
   "https://saby.ru/contragents/7838031803/781401001",
   "https://saby.ru/contragents/7838031803/783801001",
+  "https://saby.ru/tenders/card/244992165",
+  "https://v2test.gosplan.info/fz223/purchases?object_info=...&classifier=... (выгрузки 05.11.2026)",
   "https://v2test.gosplan.info/fz44/contracts?supplier=7838031803 (пусто — нет контрактов 44-ФЗ с 2024)",
+  "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2361506-rosneft-perevodit-npz-na-sobstvennye-katalizatory",
+  "https://www.bicotender.ru/tags/tendery-na-adsorbenty.html",
+  "https://www.bicotender.ru/tags/tendery-na-katalizatory.html",
+  "https://www.bicotender.ru/tags/tendery-na-seroochistku.html",
+  "https://www.bicotender.ru/tags/tendery-na-silikagel.html",
+  "https://www.bicotender.ru/tags/tendery-po-gidroochistke.html",
   "https://www.conventions.ru/firms/persons/781698596126/",
   "https://www.dp.ru/a/2017/03/13/Nominalnoe_chtivo",
+  "https://www.interfax.ru/russia/954313 (импортозамещение катализаторов с 2026)",
+  "https://www.kommersant.ru/doc/6162659 (уход Johnson Matthey из РФ)",
   "https://www.kontur-extern.ru/info/normativ/document/7/448073-postanovlenie-arbitrazhnogo-suda-szo-ot-20-04-2023-n-f07-276-2023-po-delu-n-a56-108236",
   "файл model/data/companies/c1.txt (карточка предприятия)"
  ],
@@ -255,5 +697,6 @@
   "Регистрация в ГИИС ДМДК (нужна для катализаторов с Pt/Pd/Rh) — проверить",
   "Собственный склад: платит налог на имущество и землю, но адрес и характеристики объекта не найдены",
   "Аккредитация на ЭТП ВИНК (ТЭК-Торг/Роснефть, ЭТП ГПБ/Газпром нефть, tender.lukoil.com, Сибур, Татнефть) — не проверено"
- ]
+ ],
+ "track_record_summary": "По Госзатратам (clearspending) за 2010–2026 — 1 контракт 44-ФЗ на 8,63 млн (Росатом, 2019). gosplan: контрактов 44-ФЗ с 2024 нет (фильтр supplier проверен на другом ИНН). По 223-ФЗ поставщики в gosplan не заполняются — проверить нельзя; saby.ru: участие в 3 торгах, 1 победа (Росатом), снижение ~6%. Проигранные торги (2) не идентифицированы."
 }
