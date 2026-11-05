@@ -1,0 +1,1168 @@
+{
+ "meta": {
+  "generated": "2026-11-05",
+  "purpose": "Иностранные производители (КНР, Индия, ЕАЭС и др.) для дилерских/дистрибьюторских договоров новой московской компании-оптовика (ООО, ОСНО, МСП) под тендеры энергетики и нефтегаза РФ.",
+  "method": "WebSearch/WebFetch; сайты производителей (curl); OpenSanctions (веб-поиск, без API-ключа); Евразийский реестр промтоваров ЕРПТ через публичный API goszakupki.eaeunion.org/spd2 (4 149 записей ОКПД2 20.*/19.2*, 05.11.2026); выгрузка ГИСП 01.11.2026; выборка 223-ФЗ из прошлых сессий; OEC, RBC Marketing, BusinesStat (по сниппетам). Volza/ImportGenius — данные по РФ в выдаче недоступны (платные).",
+  "caveats": "«works_with_russia» = только найденные факты; «Не подтверждено» означает отсутствие публичного подтверждения, а не отказ. Цены FOB почти нигде не публикуются — нужен RFQ. Данные OpenSanctions — по веб-поиску на транслитерацию; перед договором проверить юрлицо по OFAC SDN/EU/UK.",
+  "market_facts": [
+   "Иониты: импорт РФ 2023 $43,3 млн, Китай $32,2 млн, Индия $3,89 млн, Казахстан $3,09 млн (OEC).",
+   "Активированный уголь: импорт РФ 2022 $62,4 млн, Китай $27,4 млн, Индия $7,91 млн, Германия $7,62 млн, Турция $3,66 млн, Малайзия $2,56 млн (OEC); импорт в т вырос с 15 до 30 тыс. т в 2020–2024 (BusinesStat).",
+   "Флокулянты: Китай >96% импорта 2024, лидер SNF (China) Flocculant (RBC).",
+   "Ксантан: Китай >96% импорта 2024, лидер Meihua Group Intl Trading (HK) (RBC).",
+   "Катализаторы: импорт ~$450 млн (2021) → ~$20 млн (2024), почти только Китай (The Insider).",
+   "Гидразин-гидрат: 0 записей ГИСП; производные гидразина — импорт РФ 2022 $17,1 млн, из Китая $11,1 млн (OEC)."
+  ]
+ },
+ "manufacturers": [
+  {
+   "segment": "1. Ионообменные смолы",
+   "name": "Sunresin New Materials Co., Ltd. (бренд Seplite)",
+   "country": "Китай",
+   "city": "Сиань, пров. Шэньси",
+   "products": "Иониты для водоподготовки ТЭС/АЭС (катиониты/аниониты гелевые и макропористые, ФСД, конденсатоочистка), хелатные и специальные смолы, адсорбенты; заявлено ~100 тыс. т/год. Листинг: Шэньчжэньская биржа ChiNext 300487.SZ.",
+   "works_with_russia": "ДА (подтверждено): ООО «Интерхим Ком» (Москва, ИНН 7724940700) на сайте прямо: «ПРЕДСТАВИТЕЛЬ SUNRESIN В РОССИИ», продаёт Seplite; у Sunresin есть русскоязычный сайт ru.seplite.com; RBC Marketing называет SUNRESIN среди импортных брендов ионитов в РФ. В целом Китай — главный поставщик ионитов в РФ: импорт 2023 $43,3 млн, из них Китай $32,2 млн (OEC).",
+   "ru_distributor": "ООО «Интерхим Ком» — официальный представитель (Москва, ул. Промышленная 11А стр.21; +7 (499) 130-22-33; info@inter-him.com). Эксклюзивность из открытых источников не следует. Путь: (а) субдилер Интерхим Ком под тендеры энергетики; (б) прямой запрос в Sunresin на дилерство по сегменту «энергетика/тендеры» с согласованием с Интерхим Ком.",
+   "contacts": {
+    "site": "https://www.seplite.com ; https://ru.seplite.com",
+    "email": "seplite@sunresin.com ; seplite_europe@sunresin.com ; ecom@sunresin.com",
+    "phone": "+86-29-89182091",
+    "wechat": "не найдено (запросить у менеджера)"
+   },
+   "sanctions": "OpenSanctions (веб-поиск 05.11.2026): совпадений не найдено (Sunresin). Риск низкий; компания публичная — возможен комплаенс-отказ по продукции ядерного класса (АЭС/Росатом).",
+   "price_fob": "Не найдено в открытых источниках — запросить КП (ориентир: китайские катиониты стандартные — уточнять)",
+   "priority": "A",
+   "why": "Подтверждённый канал в РФ, русский сайт, крупнейший листинговый производитель КНР. Иониты (20.16.59.320) — в прил.2 ПП 1875 (ограничение): российский ТОКЕМ имеет 29 активных записей ГИСП, поэтому в лотах с ограничением заявка с Seplite проиграет «второму лишнему»; ниша — лоты без ограничения/по эквивалентам импортных марок (Lewatit/Amberlite/Purolite в ТЗ).",
+   "sources": [
+    "https://www.inter-him.com/",
+    "https://ru.seplite.com/exh_detail.php?id=25",
+    "https://www.seplite.com/",
+    "https://marketing.rbc.ru/research/44795/",
+    "https://oec.world/en/profile/bilateral-product/polymer-ion-exchangers/reporter/rus",
+    "Постановление Правительства РФ от 23.12.2024 №1875 (ред. от 25.09.2026 №1236), приложение 2 — текст в consultant.ru/document/cons_doc_LAW_494013 (локальная копия в сессии)",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)"
+   ]
+  },
+  {
+   "segment": "1. Ионообменные смолы",
+   "name": "Jiangsu Suqing Water Treatment Engineering Group Co., Ltd.",
+   "country": "Китай",
+   "city": "Цзянъинь / Ляньюньган, пров. Цзянсу",
+   "products": "Полный ряд ионитов (гелевые/макропористые катиониты и аниониты, для ТЭС), ~48 тыс. т/год (по профилю Aquatech).",
+   "works_with_russia": "Не подтверждено: в открытой выдаче нет российского дистрибьютора и выставок в РФ; отчёт НИИТЭХИМ упоминает Suqing Group как игрока рынка (содержание закрыто).",
+   "ru_distributor": "Не найден — потенциально свободна территория.",
+   "contacts": {
+    "site": "http://www.suqing.com",
+    "email": "dominic@suqing.com (с главной страницы сайта)",
+    "phone": "не найдено",
+    "wechat": "не найдено"
+   },
+   "sanctions": "OpenSanctions — не проверялось отдельно по полному названию; публичных санкций не найдено в выдаче.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Второй по масштабу китайский производитель без явного представителя в РФ — шанс на эксклюзив; нужно подтвердить готовность работать с РФ и банковский канал.",
+   "sources": [
+    "https://www.aquatechtrade.com/water-tech-index/jiangsu-suqing-water-treatment-engineering-group-co-ltd",
+    "http://www.suqing.com/"
+   ]
+  },
+  {
+   "segment": "1. Ионообменные смолы",
+   "name": "Thermax Ltd — Chemical Division (бренд Tulsion)",
+   "country": "Индия",
+   "city": "Пуна",
+   "products": "Иониты Tulsion (T-42, A-23, CXO-12 MP, A-2X MP и др.), химия водоподготовки. Листинг: NSE/BSE (THERMAX).",
+   "works_with_russia": "Частично: в техпаспортах Tulsion из тендерной документации указан московский офис Thermax (ул. 26 Бакинских Комиссаров, оф.139; 8 (495) 434-30-41; office@thermax-moscow.ru), но домен thermax-moscow.ru на 05.11.2026 не резолвится — актуальность офиса не подтверждена. Индия — №2 поставщик ионитов в РФ ($3,89 млн в 2023, OEC).",
+   "ru_distributor": "Не установлен (офис, вероятно, неактивен).",
+   "contacts": {
+    "site": "https://chemicalnp.thermaxglobal.com/what-we-offer/tulsion-ion-exchange-resins",
+    "email": "office@thermax-moscow.ru (историч., не отвечает домен) — использовать форму на сайте",
+    "phone": "+7 (495) 434-30-41 (историч.)",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions (веб-поиск 05.11.2026): совпадений не найдено (Thermax). Индийская публичная компания — возможна осторожность из-за вторичных санкций США.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Известный бренд в ТЗ энергетики; если московский офис закрыт — шанс стать дистрибьютором. Проверить через форму на сайте.",
+   "sources": [
+    "https://docs.google.com/document/d/14VDlSBAl53hV2DZWWR8_5TOX5eNxAFfs/export?format=pdf",
+    "https://chemicalnp.thermaxglobal.com/what-we-offer/tulsion-ion-exchange-resins",
+    "https://oec.world/en/profile/bilateral-product/polymer-ion-exchangers/reporter/rus"
+   ]
+  },
+  {
+   "segment": "1. Ионообменные смолы",
+   "name": "Ion Exchange (India) Ltd (бренд INDION)",
+   "country": "Индия",
+   "city": "Мумбаи",
+   "products": "Иониты INDION, химия котловой/оборотной воды, мембранная химия, присадки к топливу. Листинг NSE/BSE (IONEXCHANG).",
+   "works_with_russia": "Частично: продаётся в РФ через интернет-реселлеров (waterhim.ru, zeolitewater.ru); официального представителя не установлено; в перечне международных офисов РФ нет (Бангладеш, Индонезия, Саудовская Аравия, ОАЭ).",
+   "ru_distributor": "Официального нет (по выдаче).",
+   "contacts": {
+    "site": "https://ionexchangeglobal.com",
+    "email": "ieil@ionexchange.co.in",
+    "phone": "+91-22-6610-0678",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions (веб-поиск 05.11.2026): совпадений не найдено (Ion Exchange India).",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Широкая линейка (смолы + реагенты ТЭЦ), бренд знаком энергетикам; можно предложить официальное дистрибьюторство.",
+   "sources": [
+    "https://waterhim.ru/indion-smol",
+    "https://zeolitewater.ru/brand/indion/",
+    "https://ionexchangeglobal.com/int/wp-content/uploads/2024/10/Indion-Speciality-Chemical-Treatment-Programmes-3.pdf"
+   ]
+  },
+  {
+   "segment": "1. Ионообменные смолы",
+   "name": "Samyang Corporation (бренд TRILITE)",
+   "country": "Южная Корея",
+   "city": "Сеул",
+   "products": "Иониты TRILITE (SM300 ФСД, KH-70, MC-10H, MA-10, WCA10L и др.).",
+   "works_with_russia": "Косвенно: русскоязычные паспорта TRILITE публикует ecovita.ru (РФ); прямой статус дилера не подтверждён. Южная Корея с 2023–2024 расширяла перечни товаров, запрещённых/лицензируемых к экспорту в РФ (798 → ~1 159 → +243 позиции, вкл. химпродукцию) — нужна проверка HS 3914.",
+   "ru_distributor": "Не подтверждён (ecovita.ru — продавец).",
+   "contacts": {
+    "site": "https://www.samyangtrilite.com (проверить)",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions (веб-поиск 05.11.2026): совпадений не найдено (Samyang). Экспортный контроль Республики Корея — главный риск.",
+   "price_fob": "Не найдено",
+   "priority": "C",
+   "why": "Качество хорошее, но корейский экспортный контроль и комплаенс делают дилерство маловероятным.",
+   "sources": [
+    "https://ecovita.ru/upload/iblock/8f1/Pasport-TRILITE-SM300.pdf",
+    "https://www.koreatimes.co.kr/amp/southkorea/society/20240905/korea-expands-export-ban-list-against-russia-and-belarus",
+    "https://ukrinform.net/rubric-economy/3804965-south-korea-expands-list-of-goods-prohibited-for-export-to-russia-belarus.html"
+   ]
+  },
+  {
+   "segment": "1. Ионообменные смолы",
+   "name": "Pure Resin Co., Ltd. / Ningbo Zhengguang / Zibo Dongda (вторая волна КНР)",
+   "country": "Китай",
+   "city": "Чжэцзян / Шаньдун",
+   "products": "Иониты общего назначения; Pure Resin заявляет 50 000 м3/год.",
+   "works_with_russia": "Не подтверждено (поиск без результатов по РФ).",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.dongdachem.com (Dongda); Pure Resin — профиль Aquatech",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не проверялось по каждому; публичных сведений о санкциях не найдено.",
+   "price_fob": "Не найдено",
+   "priority": "C",
+   "why": "Резерв на случай отказа Sunresin/Suqing; проверять через Alibaba Verified и заводской аудит.",
+   "sources": [
+    "https://www.aquatechtrade.com/amsterdam/exhibitors/pure-resin-company-limited",
+    "https://www.dongdachem.com/"
+   ]
+  },
+  {
+   "segment": "2. Активированные угли",
+   "name": "Ningxia Huahui Environmental Technology Co., Ltd. (ранее Ningxia Huahui Activated Carbon)",
+   "country": "Китай",
+   "city": "Шицзуйшань, Нинся",
+   "products": "Каменноугольные гранулированные/дроблёные/порошковые угли (водоподготовка, газоочистка), ISO 9001/14001; экспортно-ориентирован.",
+   "works_with_russia": "Косвенно: Китай — №1 поставщик АУ в РФ ($27,4 млн из $62,4 млн в 2022, OEC); импорт АУ в РФ вырос с 15 до 30 тыс. т за 2020–2024, главные страны — Китай и Индия (BusinesStat). Профиль Huahui присутствует на русскоязычном портале поставщиков turboavia.com. Конкретный российский дистрибьютор не найден.",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "http://www.huahui-carbon.com ; https://nxhhcarbon.en.alibaba.com",
+    "email": "info@huahui-carbon.com",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не найдено в выдаче.",
+   "price_fob": "Не найдено (типично для каменноугольных GAC КНР — уточнять)",
+   "priority": "B",
+   "why": "Крупный экспортёр каменноугольных углей — замена АГ-3/АГ-5/импортных Norit/Calgon в ТЗ ТЭЦ. В ГИСП активированных углей много (Сорбент, Сорбис, ЭХЗ) — в лотах с ограничением ПП 1875 конкуренция с российскими.",
+   "sources": [
+    "https://turboavia.com/postavshhiki/himicheskie-tovary/tovary-himicheskie/ningxia-huahui-activated-carbon-company-limited",
+    "https://nxhhcarbon.en.alibaba.com",
+    "https://oec.world/profile/bilateral-product/activated-carbon/reporter/rus",
+    "https://businesstat.ru/news/activated_carbon/"
+   ]
+  },
+  {
+   "segment": "2. Активированные угли",
+   "name": "Haycarb PLC (группа Hayleys)",
+   "country": "Шри-Ланка (заводы также в Индонезии и Таиланде)",
+   "city": "Коломбо",
+   "products": "Кокосовые активированные угли (GAC/PAC, импрегнированные), >15% мировых продаж кокосового угля; листинг CSE (HAYC).",
+   "works_with_russia": "Косвенно: RBC Marketing называет Haycarb PLC среди игроков российского рынка АУ (вместе с Indo German Carbon и Effigen). Офисы маркетинга — США, Великобритания, Австралия; российского дистрибьютора в выдаче нет.",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.haycarb.com",
+    "email": "через форму сайта",
+    "phone": "+94 11 262 7000",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions (веб-поиск 05.11.2026): совпадений не найдено (Haycarb). Головной холдинг — листинговая группа Hayleys; комплаенс-риск средний.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Эталон кокосового угля (питьевая вода, конденсатоочистка, золото) — сильный бренд для тендеров с «кокосовым» ТЗ.",
+   "sources": [
+    "https://marketing.rbc.ru/research/45523/",
+    "https://www.haycarb.com/activated-carbon-company/",
+    "https://srilankabusiness.com/exporters-directory/company-profiles/haycarb-plc"
+   ]
+  },
+  {
+   "segment": "2. Активированные угли",
+   "name": "Effigen Carbon Sdn Bhd (Affigen)",
+   "country": "Малайзия",
+   "city": "—",
+   "products": "Кокосовые активированные угли, ~4 000 т/год (4 вращающиеся печи).",
+   "works_with_russia": "ДА (заявление компании): в профиле — «main export market are Taiwan, Japan, Europe, USA, Singapore, Australia, Russia»; RBC Marketing упоминает Effigen среди игроков рынка АУ в РФ.",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.effigen.com",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не найдено.",
+   "price_fob": "Не найдено",
+   "priority": "A",
+   "why": "Небольшой производитель, уже декларирует Россию как рынок — высокая вероятность согласия на эксклюзив по энергетике/водоканалам.",
+   "sources": [
+    "https://www.environmental-expert.com/companies/affigen-sdn-bhd-effigen-carbon-sdn-bhd-56036",
+    "https://marketing.rbc.ru/research/45523/"
+   ]
+  },
+  {
+   "segment": "2. Активированные угли",
+   "name": "Indo German Carbons Ltd (IGCL)",
+   "country": "Индия",
+   "city": "Кочи, Керала",
+   "products": "Кокосовые активированные угли.",
+   "works_with_russia": "Косвенно: RBC Marketing называет IGCL среди игроков рынка АУ в РФ; Индия — №2 поставщик АУ в РФ ($7,91 млн в 2022, OEC).",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.indogermancarbon.com (не открылся из сессии)",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не проверено.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Индийский кокосовый уголь дешевле ланкийского; рупия-рублёвые расчёты возможны через банки-агенты.",
+   "sources": [
+    "https://marketing.rbc.ru/research/45523/",
+    "https://oec.world/profile/bilateral-product/activated-carbon/reporter/rus"
+   ]
+  },
+  {
+   "segment": "2. Активированные угли",
+   "name": "Кокосовые угли Вьетнама/Индонезии (Tra Bac и др.)",
+   "country": "Вьетнам / Индонезия",
+   "city": "—",
+   "products": "Кокосовый GAC.",
+   "works_with_russia": "Слабо: по BusinesStat Вьетнам в 2023 сократил поставки АУ в РФ на 62% (нехватка сырья). Конкретные заводы с работой в РФ не подтверждены.",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "—",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "—",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "Вторичный вариант; предпочтительнее Effigen/Haycarb/IGCL.",
+   "sources": [
+    "https://businesstat.ru/news/activated_carbon/"
+   ]
+  },
+  {
+   "segment": "3. Реагенты ТЭЦ — гидразин-гидрат",
+   "name": "Yibin Tianyuan Group Co., Ltd. (宜宾天原)",
+   "country": "Китай",
+   "city": "Ибинь, Сычуань",
+   "products": "Хлор-щелочное производство, гидразин-гидрат (по данным 2011 г. — мощность 15 тыс. т/год 80%). Листинг SZSE 002386.",
+   "works_with_russia": "Не подтверждено на уровне компании. Рыночный факт: OEC — РФ импортирует производные гидразина в основном из Китая ($11,1 млн из $17,1 млн, 2022); на guidechem 27–29.10.2026 котировки гидразин-гидрата 80% по Китаю: Ningxia 14 000–15 000, Shandong 12 000, Ningxia Meibang 12 500, Yibin 12 000 CNY/т (внутр. цены).",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.ybty.com",
+    "email": "ybty@ybty.com",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не найдено в выдаче (OpenSanctions — нет совпадений по «Yibin Tianyuan»).",
+   "price_fob": "Ориентир: внутр. КНР 12 000 CNY/т (80%, Yibin, guidechem 27.10.2026) ≈ $1 650–1 700/т; FOB с упаковкой/ДГ-сбором — запросить",
+   "priority": "A",
+   "why": "Гидразин-гидрат: в ГИСП 0 записей (выгрузка 01.11.2026) → «второй лишний» по ПП 1875 (20.13.25 в прил.2) не сработает против импорта; спрос: в выборке 223-ФЗ 93 закупки с «гидразин» в предмете 10.2024–10.2026 (большинство — сам гидразин-гидрат, несколько — узлы дозирования): Т Плюс (ИНН 6315376946) 25 закупок, Форвард Энерго 5, ДГК (группа РусГидро) 4, Татэнерго 4, ТГК-2 2, Нижнекамская ТЭЦ и др.. Опасный груз (UN 2030/3293 в зависимости от концентрации) — нужна ДГ-логистика.",
+   "sources": [
+    "https://www.guidechem.com/price/ru/79785-97-0.html",
+    "https://ccr.com.cn/c/2007-07-04/631862.shtml",
+    "https://oec.world/profile/bilateral-product/hydrazine-or-hydroxylamine-derivatives/reporter/rus",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)",
+    "Выборка договоров 223-ФЗ генкомпаний/НК 2024–2026 (gosplan, 3 828 записей) — сессия",
+    "Постановление Правительства РФ от 23.12.2024 №1875 (ред. от 25.09.2026 №1236), приложение 2 — текст в consultant.ru/document/cons_doc_LAW_494013 (локальная копия в сессии)",
+    "https://www.opensanctions.org/search/?q=Yibin+Tianyuan"
+   ]
+  },
+  {
+   "segment": "3. Реагенты ТЭЦ — гидразин-гидрат",
+   "name": "Weifang Yaxing Chemical Co., Ltd. (潍坊亚星)",
+   "country": "Китай",
+   "city": "Вэйфан, Шаньдун",
+   "products": "Гидразин-гидрат (в т.ч. 64%), ХПЭ; бывшее СП LANXESS Yaxing — в 12.2009 LANXESS продал 55% доли партнёру, завод эксплуатирует Weifang Yaxing. Листинг SSE 600319.",
+   "works_with_russia": "Не подтверждено на уровне компании (рыночный факт по Китаю — см. Yibin Tianyuan).",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.chinayaxing.com (из сессии — сброс соединения)",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений («Weifang Yaxing»). Lanxess (ушла из РФ) в капитале с 2009 не участвует.",
+   "price_fob": "Ориентир Shandong 80% — 12 000 CNY/т (guidechem 27.10.2026)",
+   "priority": "A",
+   "why": "Технология Bayer/Lanxess (кетазиновый процесс), марки 64% и 80% — прямой аналог импортного гидразин-гидрата в ТЗ.",
+   "sources": [
+    "https://www.chemeurope.com/en/news/110949/lanxess-streamlines-global-production-network.html",
+    "https://www.outsourcing-pharma.com/Article/2004/09/30/Lanxess-inks-Chinese-joint-venture-deal",
+    "https://www.guidechem.com/price/ru/79785-97-0.html",
+    "https://www.opensanctions.org/search/?q=Weifang+Yaxing"
+   ]
+  },
+  {
+   "segment": "3. Реагенты ТЭЦ — гидразин-гидрат",
+   "name": "Gujarat Alkalies and Chemicals Ltd (GACL)",
+   "country": "Индия",
+   "city": "Вадодара / Дахедж, Гуджарат",
+   "products": "Гидразин-гидрат 80%: завод 10 000 т/год в Дахедже, первая отгрузка 08.07.2023 (импортозамещение для Индии). Госкомпания штата Гуджарат, листинг NSE/BSE (GUJALKALI).",
+   "works_with_russia": "Не подтверждено (экспорт гидразина отдельно не раскрывается).",
+   "ru_distributor": "Нет.",
+   "contacts": {
+    "site": "https://gacl.com",
+    "email": "через сайт",
+    "phone": "+91 265 6111000 ; +91 2641 613200 (Дахедж)",
+    "wechat": "—"
+   },
+   "sanctions": "Не найдено. Госкомпания — вероятна осторожность с РФ.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Альтернативный (не китайский) источник гидразин-гидрата — снижает зависимость от одного канала.",
+   "sources": [
+    "https://www.prnewswire.com/in/news-releases/gujarat-alkalies-and-chemicals-limited-gacl-flags-off-the-first-dispatch-of-import-substitute-hydrazine-hydrate-and-purified-phosphoric-acid-301872736.html",
+    "https://rsdebate.nic.in/bitstream/123456789/757507/1/PQ_267_13032025_U1722_p1200_p1200.pdf"
+   ]
+  },
+  {
+   "segment": "3. Реагенты ТЭЦ — ОЭДФ/фосфонаты, ингибиторы",
+   "name": "Shandong Taihe Technologies Co., Ltd. (泰和科技) / Henan Qingshuiyuan Technology (清水源)",
+   "country": "Китай",
+   "city": "Цзаочжуан, Шаньдун / Цзиюань, Хэнань",
+   "products": "ОЭДФ (HEDP), АТМФ, ПБТК (PBTC), полиакрилаты, ингибиторы накипи/коррозии для оборотных систем; листинги SZSE 300801 (Taihe), 300437 (Qingshuiyuan).",
+   "works_with_russia": "Не подтверждено (в выдаче — только украинские/узбекские маркетплейсы с китайской ОЭДФ). Рынок: в ГИСП всего 4 активные записи по ОЭДФ (Экоэнерго, НИЦ «Новые водные технологии») — российского предложения мало; в выборке 223-ФЗ 29 закупок ОЭДФ/цинк-ОЭДФ.",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "http://www.qingshuiyuan.com.cn (Qingshuiyuan); сайт Taihe — уточнить (taihewater.com — припаркованный домен)",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений по «Shandong Taihe Water Treatment», «Qingshuiyuan».",
+   "price_fob": "Не найдено (ОЭДФ 60%/90% — запросить КП)",
+   "priority": "B",
+   "why": "Сырьё/готовые фосфонаты для ТЭЦ; можно продавать как ОЭДФ ГОСТ-эквивалент либо давать российским рецептурщикам. 20.14/20.59.59 — в прил.2 ПП 1875, но реестровых российских ОЭДФ мало.",
+   "sources": [
+    "https://productcenter.ru/products/115358/oksietilidiendifosfonovaia-kislota-oedfk-hedp",
+    "https://prom.ua/Oedf.html",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)",
+    "Выборка договоров 223-ФЗ генкомпаний/НК 2024–2026 (gosplan, 3 828 записей) — сессия",
+    "https://www.opensanctions.org/search/?q=Shandong+Taihe+Water+Treatment"
+   ]
+  },
+  {
+   "segment": "3. Реагенты ТЭЦ — полиакриламид",
+   "name": "SNF (China) Flocculant Co., Ltd. (группа SNF Floerger, Франция)",
+   "country": "Китай (материнская — Франция)",
+   "city": "Тайсин, Цзянсу",
+   "products": "Полиакриламиды FLOPAM (катионные/анионные/неионные), для водоподготовки, ПНП/ГРП, ПТП-сырьё.",
+   "works_with_russia": "ДА (по аналитике): RBC Marketing — в 2023–2024 Китай >93–96% импорта флокулянтов в РФ, ведущий поставщик — SNF (CHINA) FLOCCULANT CO., LTD. Российский официальный представитель в выдаче не найден. Потребление ПАА в РФ ~42 тыс. т (2024) при производстве ~10 тыс. т.",
+   "ru_distributor": "Не найден (возможно, работа через трейдеров).",
+   "contacts": {
+    "site": "https://www.snf.com (группа)",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений. Риск: материнская компания из ЕС — дилерство с РФ может быть заблокировано комплаенсом группы.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Фактический лидер импорта; если прямой договор невозможен — работать через их китайских дистрибьюторов. ПАА в ГИСП — 2 активные записи (Саратовский химзавод акриловых полимеров, Прогресс-2) → «второй лишний» срабатывает редко.",
+   "sources": [
+    "https://marketing.rbc.ru/research/issue/79541/",
+    "https://rupec.ru/upload/iblock/85e/f5ow8iad1vtao4ebf8hkxwcr7oavgix6.pdf",
+    "https://snf.com/?p=79913",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)"
+   ]
+  },
+  {
+   "segment": "3. Реагенты ТЭЦ — полиакриламид",
+   "name": "Китайские ПАА без западного капитала (Beijing Hengju, Shandong Polymer Bio-chemicals, Anhui Jucheng и др.)",
+   "country": "Китай",
+   "city": "Пекин / Шаньдун / Аньхой",
+   "products": "ПАА всех типов.",
+   "works_with_russia": "Не подтверждено по конкретным заводам.",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "Проверять на Made-in-China/Alibaba (Audited Supplier)",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не проверялось по каждому.",
+   "price_fob": "Не найдено",
+   "priority": "C",
+   "why": "Резерв к SNF China.",
+   "sources": [
+    "https://www.sostav.ru/blogs/59877/53551"
+   ]
+  },
+  {
+   "segment": "3. Реагенты ТЭЦ — амины (морфолин, коррекционная обработка), МДЭА",
+   "name": "Amines & Plasticizers Ltd",
+   "country": "Индия",
+   "city": "Мумбаи (завод Патальганга)",
+   "products": "Морфолин и алкилморфолины (летучие амины для пароводяного тракта), МДЭА и растворители газоочистки, алканоламины; держит права Dow на поставку MDEA-специальностей в Индии. Листинг BSE 506248.",
+   "works_with_russia": "Не подтверждено. Рыночный факт: морфолин/циклогексиламин/коррекционные амины — 0 активных записей в ГИСП; МДЭА в РФ выпускает Химсорбент (Синтез ОКА), ~45% на экспорт.",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.amines.com",
+    "email": "через сайт",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions (веб-поиск 05.11.2026): совпадений не найдено (Amines and Plasticizers). Риск: лицензионные связи с Dow (ушла из РФ) — возможен запрет на Dow-специальности; базовый морфолин — собственная технология.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Морфолин — импортная ниша для коррекционной обработки ТЭС/АЭС; МДЭА в РФ есть своё — низкий приоритет.",
+   "sources": [
+    "https://www.screener.in/company/AMNPLST/",
+    "https://files.sintez-oka.ru/eng/himsorbent",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)",
+    "https://www.opensanctions.org/search/?q=Amines+and+Plasticizers"
+   ]
+  },
+  {
+   "segment": "4. Молекулярные сита / цеолиты",
+   "name": "Luoyang Jalon Micro-nano New Materials Co., Ltd. (ранее Luoyang Jianlong Chemical)",
+   "country": "Китай",
+   "city": "Лоян, Хэнань (+завод в Таиланде)",
+   "products": "Молекулярные сита 3A/4A/5A/13X (осушка природного газа, этилена, PSA/VPSA-кислород, ВРУ), активный оксид алюминия; листинг STAR 688357.SH.",
+   "works_with_russia": "Не подтверждено прямо: сайт имеет русскую языковую версию (ru_RU в переключателе), но российский дистрибьютор/поставки в выдаче не найдены. В ГИСП по цеолитам/ситам всего 2 активные записи (ПО из Белгородской обл., ИНН 3123418058) — российское предложение узкое.",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.jalonzeolite.com",
+    "email": "info@jalonzeolite.com",
+    "phone": "+86-379-67758777 ; +86-186 3889 5089",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений («Jalon Micro-nano»).",
+   "price_fob": "Не найдено",
+   "priority": "A",
+   "why": "Листинговый лидер сит КНР; осушка газа на ГПЗ/УКПГ и НПЗ — постоянный спрос; KNT Group и др. в РФ продают 4A без указания производителя — есть место для бренда.",
+   "sources": [
+    "https://www.jalonzeolite.com/",
+    "https://www.sse.com.cn/star/en/marketdata/snapshot/c/5481440.shtml",
+    "https://tiche.org/wp-content/uploads/2025/06/D_22nd_14.40_Jalon-Thai_TNCHE_20250516-Edited-version__PB_compressed.pdf",
+    "https://kntgroup.ru/en/products/adsorbents/molecular-sieve-4a",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)"
+   ]
+  },
+  {
+   "segment": "4. Молекулярные сита / цеолиты",
+   "name": "Shanghai Hengye Molecular Sieve Co., Ltd.",
+   "country": "Китай",
+   "city": "Шанхай",
+   "products": "Молекулярные сита, адсорбенты.",
+   "works_with_russia": "Не подтверждено.",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "https://hengyeinc.com",
+    "email": "info@hengyeinc.com ; service@hengyeinc.com",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не найдено.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Альтернатива Jalon.",
+   "sources": [
+    "https://hengyeinc.com/"
+   ]
+  },
+  {
+   "segment": "4. Керамические шары / насадки",
+   "name": "Pingxiang Chemshun Ceramics Co., Ltd. (и кластер Пинсян: Xingfeng, Naike, Nanxiang)",
+   "country": "Китай",
+   "city": "Пинсян, Цзянси",
+   "products": "Инертные фарфоровые шары Al2O3 17–99% (поддерживающий слой реакторов гидроочистки/риформинга, Клаус), насадки, молекулярные сита (Naike).",
+   "works_with_russia": "Не подтверждено по конкретным заводам. Рынок: в ГИСП 0 активных записей по керамическим/инертным шарам → ограничение ПП 1875 не выбивает импорт.",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://www.chemshun.com",
+    "email": "office@chemshun.com",
+    "phone": "+86-799-6790781 ; +86-799-6790785",
+    "wechat": "—"
+   },
+   "sanctions": "Не найдено.",
+   "price_fob": "Не найдено (запросить; типовой код ТН ВЭД 6909/6914)",
+   "priority": "A",
+   "why": "Простой товар, нет российской реестровой конкуренции, постоянный спрос НПЗ при перегрузке катализаторов; Пинсян — мировой кластер, легко найти завод под эксклюзив.",
+   "sources": [
+    "https://directindustry.com/prod/pingxiang-chemshun-ceramics-co-ltd/product-116827-2290570.html",
+    "https://www.chemshun.com/",
+    "https://kitairu.net/ru/business-services/agency-services/chemical-product-agents/915622.html",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)"
+   ]
+  },
+  {
+   "segment": "4. Силикагель / оксид алюминия",
+   "name": "Qingdao Makall Group (силикагели) и др. Циндао",
+   "country": "Китай",
+   "city": "Циндао, Шаньдун",
+   "products": "Силикагели (КСМГ/КСКГ-аналоги, индикаторные), осушители.",
+   "works_with_russia": "Не подтверждено. В ГИСП 10 активных записей по силикагелю (Руссилика — 7, Уфахимкомплект, Сорбис) — в лотах с ограничением российские есть.",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "http://www.makall.com",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не найдено.",
+   "price_fob": "Не найдено",
+   "priority": "C",
+   "why": "Силикагель индикаторный/КСМГ для трансформаторов — частые мелкие лоты (Россети, генкомпании), но есть российские реестровые производители.",
+   "sources": [
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)",
+    "Выборка договоров 223-ФЗ генкомпаний/НК 2024–2026 (gosplan, 3 828 записей) — сессия"
+   ]
+  },
+  {
+   "segment": "5. Катализаторы НПЗ/азот/метанол",
+   "name": "Китайские производители катализаторов (Sinopec Catalyst Co., KNT-аналоги КНР, Sichuan Shutai и др.)",
+   "country": "Китай",
+   "city": "—",
+   "products": "Гидроочистка, риформинг, изомеризация, Клаус, водород, азот/метанол.",
+   "works_with_russia": "Факт рынка: импорт катализаторов в РФ упал с ~$450 млн (2021) до ~$20 млн (2024), импортёры и производители «почти исключительно китайские» (The Insider по таможенным данным, 10.12.2025); также фигурирует Prolab Industries F.Z.C. (ОАЭ) как «производитель» без собственных мощностей (вероятно, реэкспорт). Минпромторг заявлял о закрытии потребности отечественными катализаторами с 2026 г.; Роснефть переводит НПЗ на собственные катализаторы (РН-Кат).",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "—",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Высокий: катализаторы нефтепереработки — в санкционных перечнях ЕС; в 2025 ЕС ввёл санкции против структур CNPC; Sinopec-структуры осторожны. Посредники ОАЭ/Киргизии/Турции — фигуранты расследований.",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "Для новой компании без референсов и лицензиаров — не рекомендуется: закупки НПЗ закрытые, допуск по ОПИ, 20.59.56 — в прил.2 ПП 1875, домашние производители (Газпромнефть-КС, РН-Кат, KNT, СКАТЗ) в ГИСП. Рациональнее — вспомогательные материалы (шары, сита, оксид алюминия).",
+   "sources": [
+    "https://theins.org/en/inv/287606",
+    "https://www.interfax.ru/russia/954313",
+    "https://www.argusmedia.com/en/news-and-insights/latest-market-news/2361506-rosneft-perevodit-npz-na-sobstvennye-katalizatory",
+    "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/refined-products/102425-eu-sanctions-on-cnpc-units-may-not-hit-flows-but-warn-china-on-russian-crude",
+    "Постановление Правительства РФ от 23.12.2024 №1875 (ред. от 25.09.2026 №1236), приложение 2 — текст в consultant.ru/document/cons_doc_LAW_494013 (локальная копия в сессии)"
+   ]
+  },
+  {
+   "segment": "6. Нефтедобыча — ксантан (буровые растворы)",
+   "name": "Meihua Holdings Group (梅花生物) / Meihua Group International Trading (HK)",
+   "country": "Китай",
+   "city": "Тунляо (Внутр. Монголия) / Ланфан, Хэбэй; торговая — Гонконг",
+   "products": "Ксантановая камедь (в т.ч. буровая), аминокислоты; листинг SSE 600873.",
+   "works_with_russia": "ДА (по аналитике): RBC Marketing — Китай >96% импорта ксантана в РФ в 2024, ведущий поставщик — MEIHUA GROUP INTERNATIONAL TRADING (HONG KONG), LTD. Ксантан/гуар — 0 активных записей в ГИСП.",
+   "ru_distributor": "Не найден в выдаче (поставки идут, но канал не публичен).",
+   "contacts": {
+    "site": "https://www.meihua.group",
+    "email": "meihua@meihuagrp.com",
+    "phone": "+86 316-2359999",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений («Meihua Group»).",
+   "price_fob": "Не найдено",
+   "priority": "A",
+   "why": "Лидер импорта ксантана в РФ, российского производства нет — для буровых тендеров НК (Газпром бурение, РН-Бурение, сервисные компании) ниша чистая.",
+   "sources": [
+    "https://marketing.rbc.ru/research/53264/",
+    "https://marketing.rbc.ru/research/issue/80265/",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)",
+    "https://www.opensanctions.org/search/?q=Meihua+Group"
+   ]
+  },
+  {
+   "segment": "6. Нефтедобыча — ксантан",
+   "name": "Fufeng Group (阜丰) / Deosen Biochemical (Ordos)",
+   "country": "Китай",
+   "city": "Цзинань / Ордос",
+   "products": "Ксантановая камедь (пищевая/техническая/буровая). Fufeng — HKEX 0546.",
+   "works_with_russia": "Частично: техпаспорт FUFENG-200 Xanthan Gum размещён у российского дистрибьютора utsrus.com (пищевой сорт); по КНИТУ (2024) ксантан Deosen/Fufeng соответствует требованиям НК (из ранее собранного досье partners_oil.json).",
+   "ru_distributor": "UTS (utsrus.com) — пищевой ксантан Fufeng; бурового дистрибьютора не найдено.",
+   "contacts": {
+    "site": "http://www.fufeng-group.com ; https://www.deosen.com",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions: по «Fufeng» найдено только постороннее лицо (Zhongke Xinliang, export controlled) — к Fufeng Group не относится; «Deosen» — нет совпадений.",
+   "price_fob": "Не найдено",
+   "priority": "B",
+   "why": "Второй/третий источник ксантана; полезно для конкурентной цены.",
+   "sources": [
+    "https://utsrus.com/data/ETS_WWW/files/0cd9ae7c-0435-11e9-8129-c58096cfb4ac/FUFENG-200 - Xantham Gum.pdf",
+    "https://kpfu.ru//staff_files/F1127423972/elibrary_50820633_56982705.pdf",
+    "https://www.opensanctions.org/search/?q=Fufeng"
+   ]
+  },
+  {
+   "segment": "6. Нефтедобыча — гуар (ГРП)",
+   "name": "Vikas WSP Ltd / Hindustan Gum & Chemicals / Lucid Colloids",
+   "country": "Индия",
+   "city": "Шри-Ганганагар (Vikas) / Бхивани (Hindustan Gum) / Джодхпур (Lucid)",
+   "products": "Гуаровая камедь и производные (КМГ, гидроксипропилгуар) для ГРП.",
+   "works_with_russia": "Частично: Индия — исторически ~91% импорта гуара в РФ (обзор 2015); свежие обзоры называют Россию среди ключевых направлений экспорта индийского гуара. Конкретные российские дистрибьюторы этих заводов не найдены. Гуар — 0 записей ГИСП.",
+   "ru_distributor": "Не найден.",
+   "contacts": {
+    "site": "https://vikaswspltd.in",
+    "email": "exportmkt@vikaswspltd.in ; csvikaswspltd@gmail.com",
+    "phone": "+91 154 2494512 ; +91 154 2494552",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений («Vikas WSP», «Hindustan Gum»).",
+   "price_fob": "Не найдено (цены гуара волатильны — commodity-board)",
+   "priority": "B",
+   "why": "Импортная ниша без российской конкуренции, но потребители — сервисные компании ГРП с жёстким ОПИ; начинать с поставок под конкретную рецептуру.",
+   "sources": [
+    "https://nature.asu.edu.ru/files/3(12)/52-58.pdf",
+    "https://agrogums.com/product/guar-gum-global-market",
+    "https://vikaswspltd.in/contact-us/",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)"
+   ]
+  },
+  {
+   "segment": "6. Нефтедобыча — деэмульгаторы, ингибиторы, ПАЦ, ПТП-сырьё",
+   "name": "Китайская промысловая химия (Sino Oil King Shine Chemical/KSCC — CNPC, Shengli Oilfield Huabin Chemical, Shanghai Everest Fine Chemical (ПАЦ), Weifang Haizhiyuan)",
+   "country": "Китай",
+   "city": "—",
+   "products": "Полиамины/имидазолины, ЧАС, ПАО (сырьё ПТП), ПАЦ, НТФ/ОЭДФ, готовые деэмульгаторы/ингибиторы.",
+   "works_with_russia": "ДА: перечислены в публикациях КНИТУ/ГЦСС «Нефтепромхим» как поставляющие в РФ; KSCC — эксклюзив у Транснефть-Логистики (3 года с 2023, Интерфакс). ПАЦ/КМЦ, бактерициды — 0 активных записей ГИСП.",
+   "ru_distributor": "KSCC — Транснефть-Логистика (эксклюзив, субдилерство маловероятно); по остальным — не найдено.",
+   "contacts": {
+    "site": "Через выставки Нефтегаз/CIPPE и Made-in-China",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "KSCC — структура CNPC: в 2025 ЕС ввёл санкции против ряда единиц CNPC — проверять конкретное юрлицо.",
+   "price_fob": "—",
+   "priority": "B",
+   "why": "Ключевой барьер — ОПИ и допуск в каждой НК, а не цена; сначала — ПАЦ/ксантан/ПАА (товарные позиции), потом рецептуры.",
+   "sources": [
+    "https://kpfu.ru//staff_files/F_1272217807/elibrary_67327409_89226205.pdf",
+    "https://interfax.com/newsroom/top-stories/91113/",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)",
+    "https://www.spglobal.com/commodity-insights/en/news-research/latest-news/refined-products/102425-eu-sanctions-on-cnpc-units-may-not-hit-flows-but-warn-china-on-russian-crude"
+   ]
+  },
+  {
+   "segment": "7. Метанол, гликоли, МЭА/МДЭА",
+   "name": "Иранские и саудовские производители (NPC-группа Ирана, SABIC)",
+   "country": "Иран / Саудовская Аравия",
+   "city": "—",
+   "products": "Метанол, МЭГ/ДЭГ.",
+   "works_with_russia": "Не подтверждено как целесообразное: РФ — нетто-экспортёр метанола (Метафракс, Щекиноазот, Тольяттиазот), гликоли выпускают СИБУР-Нефтехим, Нижнекамскнефтехим, Химпром (Кемерово) — все с записями ГИСП; Иран — павильон на «Химии-2025».",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "—",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Иран: нефтехимия Ирана под санкциями США (SDN/EO 13846) — платежи и страхование почти невозможны; SABIC — риск комплаенса.",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "Не рекомендуется: отечественное предложение избыточно и реестровое (вытеснит по ПП 1875). Исключение — пропиленгликоль фарм/пищевой — проверить отдельно.",
+   "sources": [
+    "https://www.chemistry-expo.ru/en/media/news/index.php?id4=20352",
+    "https://files.sintez-oka.ru/eng/himsorbent",
+    "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)"
+   ]
+  },
+  {
+   "segment": "8. Присадки к топливам и маслам",
+   "name": "Китайские производители присадок (Jinzhou Kangtai Lubricant Additives, Xinxiang Richful Lube Additive, Wuxi South Petroleum Additives, Sinopec Lubricant)",
+   "country": "Китай",
+   "city": "Цзиньчжоу / Синьсян / Уси",
+   "products": "Пакеты присадок к моторным/индустриальным маслам, депрессорные/цетаноповышающие, антиокислительные.",
+   "works_with_russia": "ДА (рынок): после ухода американских/европейских поставщиков присадки для российских масел «в основном из Китая» (За рулём, интервью ГК «Квалитет»); «Квалитет» предлагает пошлины против китайских присадок. B4Ukraine: Россия зависит от одного несанкционного китайского поставщика химии для промышленных смазок (имя не раскрыто). Конкретные дистрибьюторы указанных заводов не найдены.",
+   "ru_distributor": "Не найдено.",
+   "contacts": {
+    "site": "Через ChinaPlas/CIPPE, сайты заводов",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не проверено по каждому; Sinopec-структуры — повышенный комплаенс-риск.",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "Покупатели — блендеры (Лукойл, Газпромнефть-СМ, Роснефть) напрямую; 20.59.42 — в прил.2 ПП 1875, российские производители (Квалитет и др.) есть. Для тендерного перепродавца — низкий приоритет.",
+   "sources": [
+    "https://www.zr.ru/content/articles/951132-kitajskie-prisadki-dlya-masel/",
+    "https://www.zr.ru/content/articles/971860-glava-kvaliteta-predlozhil-zashchitit-rynok/",
+    "https://b4ukraine.org/whats-new/vulnerabilities-russian-chemical-industry",
+    "Постановление Правительства РФ от 23.12.2024 №1875 (ред. от 25.09.2026 №1236), приложение 2 — текст в consultant.ru/document/cons_doc_LAW_494013 (локальная копия в сессии)"
+   ]
+  }
+ ],
+ "eaeu": [
+  {
+   "segment": "3. Реагенты ТЭЦ (ингибиторы, антискаланты, деоксиданты, флокулянты)",
+   "name": "ООО «ТехноХимРеагентБел» (бренды PUROFLOCK®, PuroTech)",
+   "country": "Беларусь",
+   "city": "Гродно, ул. Дзержинского 116а (УНП 590831274)",
+   "products": "Ингибиторы коррозии и накипеобразования, антискаланты RO, деоксиданты (Oxscav), дисперсанты, биодисперсанты, кислотные/щелочные промывки мембран, регуляторы пены, подщелачиватели, катионные флокулянты ПАА (PUROFLOCK 890/940).",
+   "works_with_russia": "ДА: реагенты PuroTech закупаются энергетиками РФ (в 223-ФЗ — «PuroTech 22» у Т Плюс, 1,63 млн ₽ — ранее собранное досье partners_energy.json); участвует в тендерах Молдовы (PUROFLOCK 940).",
+   "ru_distributor": "Не установлен — запросить у производителя.",
+   "contacts": {
+    "site": "не найден",
+    "email": "—",
+    "phone": "+375 152 554054 (из SDS PUROFLOCK 890)",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений («TechnoChimReagentBel»).",
+   "price_fob": "—",
+   "priority": "A",
+   "why": "Единственный найденный производитель реагентов водоподготовки ТЭЦ в Беларуси с ЕРПТ — в лотах с ограничением ПП 1875 его товар приравнивается к российскому. Брендовое сходство PuroTech/Purolite может вызывать вопросы заказчиков — иметь письмо производителя.",
+   "eaeu_registry": "ДА: 265 записей в Евразийском реестре промтоваров (ЕРПТ, goszakupki.eaeunion.org/erpt), из них 167 со сроком экспертизы до 2027 (публикация 30.01.2026; напр. реестровые № 000080211–000080215), ОКПД2 20.59.59.900.",
+   "sources": [
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/ (API spd2/find, collection erpt.v_goodscollection_prod_public, запрос 05.11.2026)",
+    "https://storage.mtender.gov.md/get/cc525299-0942-45b1-8d1c-a7584f9cd57b-1680110983894",
+    "https://storage.mtender.gov.md/get/4b08adb2-5576-4f6f-89b8-9a33f18904b0-1756995910779"
+   ]
+  },
+  {
+   "segment": "3. Коагулянт — сульфат алюминия",
+   "name": "ООО «Ксант-Инвест»",
+   "country": "Беларусь",
+   "city": "Гомель, ул. Химзаводская 5, пом.3 (УНП 490986338)",
+   "products": "Сульфат алюминия технический очищенный (высший/1/2 сорт, ГОСТ 12966-85), сульфат алюминия-раствор марок А/Б (ТУ BY 490986338.001-2017), сульфат алюминия активный.",
+   "works_with_russia": "Не подтверждено (сайт и поставки в РФ в выдаче не найдены).",
+   "ru_distributor": "Не установлен.",
+   "contacts": {
+    "site": "не найден",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "Не проверено (малая компания; адрес рядом с ОАО «Гомельский химзавод»).",
+   "price_fob": "—",
+   "priority": "B",
+   "why": "ЕРПТ даёт статус «как российский» для коагулянта ОКПД2 20.13.41 (в прил.2 ПП 1875). Но сульфат алюминия — дешёвый массовый товар, логистика из Гомеля оправдана для ЦФО/СЗФО.",
+   "eaeu_registry": "ДА: 12 записей ЕРПТ, 6 действующих (публикация 10.06.2026, срок до 2027-06-08; реестровые № 000085270–000085275), ОКПД2 20.13.41.130.",
+   "sources": [
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/ (запрос по name~Ксант, 05.11.2026)"
+   ]
+  },
+  {
+   "segment": "7. Метанол, аммиак водный",
+   "name": "ОАО «Гродно Азот»",
+   "country": "Беларусь",
+   "city": "Гродно",
+   "products": "Аммиак, карбамид, капролактам, метанол, сульфат аммония, аммиачная вода.",
+   "works_with_russia": "ДА (общеизвестный экспортёр в РФ), но для тендеров РФ без ЕРПТ.",
+   "ru_distributor": "Сбыт через собственную сеть/БНК.",
+   "contacts": {
+    "site": "https://azot.by",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "ДА: OpenSanctions — «GRODNO AZOT OAO — Sanctioned» (США SDN с 2021, ЕС/др.). Расчёты возможны только в рублях через российские банки без западных связей.",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "Нет записей в ЕРПТ (0 по запросу «Гродно Азот») → в лотах с ограничением ПП 1875 не приравнивается к российскому; плюс санкции и российский метанол избыточен.",
+   "eaeu_registry": "НЕТ: 0 записей ЕРПТ (запрос 05.11.2026).",
+   "sources": [
+    "https://www.opensanctions.org/entities/NK-oL8TkNAUYVNdTZgaH6EQbT/",
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/",
+    "https://azot.by/en/about/mission/"
+   ]
+  },
+  {
+   "segment": "7/8. Нефтепродукты, нефтехимия",
+   "name": "ОАО «Нафтан» (вкл. завод «Полимир»)",
+   "country": "Беларусь",
+   "city": "Новополоцк",
+   "products": "Топлива, масла, нефтехимия (Полимир: полиэтилен, акрилонитрил, волокно «нитрон»).",
+   "works_with_russia": "ДА (общеизвестно), но вне ЕРПТ.",
+   "ru_distributor": "БНК/собственный сбыт.",
+   "contacts": {
+    "site": "https://www.naftan.by",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "ДА: OpenSanctions — «NAFTAN OAO — Sanctioned» (США/ЕС).",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "Нет ЕРПТ по ОКПД2 19/20 (0 записей по «Нафтан», «Полимир»); санкции; ассортимент нерелевантен реагентному оптовику.",
+   "eaeu_registry": "НЕТ: 0 записей ЕРПТ.",
+   "sources": [
+    "https://www.opensanctions.org/entities/NK-YgD4iuj5m8MF8P886JC4jA/",
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/"
+   ]
+  },
+  {
+   "segment": "—",
+   "name": "ОАО «Беларуськалий»",
+   "country": "Беларусь",
+   "city": "Солигорск",
+   "products": "Калий хлористый.",
+   "works_with_russia": "Нерелевантно для реагентов ТЭЦ/нефтегаза.",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "https://kali.by",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "ДА: санкции США (SDN с 12.2021) и ЕС — по OpenSanctions выдача содержит записи по компании и её руководству.",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "Не профиль; ЕРПТ — 0.",
+   "eaeu_registry": "НЕТ: 0 записей ЕРПТ.",
+   "sources": [
+    "https://www.opensanctions.org/search/?q=Belaruskali+OAO",
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/"
+   ]
+  },
+  {
+   "segment": "—",
+   "name": "ОАО «СветлогорскХимволокно»",
+   "country": "Беларусь",
+   "city": "Светлогорск",
+   "products": "Вискозные/углеродные волокна, медицинские перчатки.",
+   "works_with_russia": "ДА (перчатки в ЕРПТ).",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "https://www.sohim.by",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "ДА: OpenSanctions — «OJSC SVETLOGORSK KHIMVOLOKNO — Sanctioned».",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "В ЕРПТ только перчатки (149 записей, сроки до 2026-02-26 — истекли); реагентов нет. «Светлогорский ЗИВ» как производитель реагентов не подтверждён.",
+   "eaeu_registry": "Только ОКПД2 22.19.60 (перчатки), сроки истекли 26.02.2026; химреагентов — нет.",
+   "sources": [
+    "https://www.opensanctions.org/entities/NK-BfQ2jnRxHWPSMLd5yHfgnh/",
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/"
+   ]
+  },
+  {
+   "segment": "—",
+   "name": "ОАО «Могилёвхимволокно»",
+   "country": "Беларусь",
+   "city": "Могилёв",
+   "products": "ПЭТФ, полиэфирные волокна.",
+   "works_with_russia": "Нерелевантно.",
+   "ru_distributor": "—",
+   "contacts": {
+    "site": "https://www.mogilevhimvolokno.by",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений по транслитерации «Mogilevkhimvolokno»/«Mogilev Khimvolokno» (проверить кириллицей).",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "Не профиль; ЕРПТ — 0.",
+   "eaeu_registry": "НЕТ: 0 записей ЕРПТ.",
+   "sources": [
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/"
+   ]
+  },
+  {
+   "segment": "3. Гипохлорит натрия, соляная кислота, каустик",
+   "name": "АО «Каустик» (Павлодар)",
+   "country": "Казахстан",
+   "city": "Павлодар",
+   "products": "Каустическая сода (~30 тыс. т/год), гипохлорит натрия (~9,1 тыс. т), соляная кислота (~45 тыс. т).",
+   "works_with_russia": "ДА: «реализует свою продукцию в Казахстане и Российской Федерации» (inbusiness.kz).",
+   "ru_distributor": "Не установлен.",
+   "contacts": {
+    "site": "—",
+    "email": "—",
+    "phone": "—",
+    "wechat": "—"
+   },
+   "sanctions": "OpenSanctions — нет совпадений («Kaustik Pavlodar»).",
+   "price_fob": "—",
+   "priority": "C",
+   "why": "ЕРПТ — 0 записей → в лотах с ограничением не приравнивается к российскому; товары дешёвые, логистика дорогая; российские аналоги (Каустик Волгоград, Саянскхимпласт и др.) реестровые.",
+   "eaeu_registry": "НЕТ: 0 записей ЕРПТ по «Каустик» (запрос 05.11.2026).",
+   "sources": [
+    "https://inbusiness.kz/ru/last/pavlodarskoe-ao-kaustik-ne-mozhet-rasshiryatsya-iz-za-otsut",
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/"
+   ]
+  },
+  {
+   "segment": "Сводка ЕРПТ по химии",
+   "name": "Сводка: кто из ЕАЭС вообще есть в ЕРПТ по ОКПД2 20.*/19.2*",
+   "country": "Беларусь/Казахстан",
+   "city": "—",
+   "products": "Всего 4 149 записей ЕРПТ по ОКПД2 20.*/19.2* (05.11.2026): Беларусь 3 838, Казахстан 267, прочие 44. Лидеры — бытовая химия/косметика/ЛКМ (Бархим 904, СП «...» 966, ХИММЕДСИНТЕЗ 367, «СОНЦА», Заславский ЛКЗ, Лакокраска Лида, Диском, ГДхемикс), Казахстан — дезсредства (Аврора, МедиДез, СТиМ-Азия). Для энергетики/нефтегаза релевантны только ТехноХимРеагентБел и Ксант-Инвест.",
+   "works_with_russia": "—",
+   "ru_distributor": "—",
+   "contacts": {},
+   "sanctions": "—",
+   "price_fob": "—",
+   "priority": "—",
+   "why": "Вывод: «ЕАЭС как российский» в реагентах ТЭЦ сегодня дают фактически два белорусских производителя; крупная белорусская химия (Гродно Азот, Нафтан, Беларуськалий) ЕРПТ не имеет и под санкциями.",
+   "eaeu_registry": "см. products",
+   "sources": [
+    "https://goszakupki.eaeunion.org/erpt/ru/registers/products/",
+    "https://eec.eaeunion.org/news/eek-prodlila-srok-deystviya-ekspertizy-dlya-promyshlennykh-tovarov-v-evraziyskom-reestre/"
+   ]
+  }
+ ],
+ "left": [
+  {
+   "brand": "Lanxess (Lewatit)",
+   "status": "Ушла: 2023 — продажа ООО «Ланксесс Липецк» российскому владельцу. Lewatit всё ещё в ТЗ (ТГК-2 26.05.2026, 8,25 млн ₽) — параллельный импорт.",
+   "source": "https://leave-russia.org/lanxess ; https://madeinrussia.ru/ru/news/23230"
+  },
+  {
+   "brand": "DuPont (Amberlite/AmberLite, ex-Dow)",
+   "status": "Приостановила операции в РФ и РБ 15.03.2022; Amberlite в закупках 2026 (Татэнерго 18,2 млн ₽; Форвард Энерго 9,15 млн ₽) — трейдеры.",
+   "source": "https://www.dupont.com/news/dupont-statement-on-suspending-business-operations-in-russia-and-belarus.html"
+  },
+  {
+   "brand": "Purolite (Ecolab)",
+   "status": "Ecolab сократил бизнес в РФ до «необходимого для жизни»; российская структура ребрендирована в CINALAB (ООО «Компания Налко»).",
+   "source": "https://www.sec.gov/Archives/edgar/data/31462/000155837023013204/ecl-20230630x10q.htm ; https://cinalab.ru/contacts"
+  },
+  {
+   "brand": "Nalco / Ecolab",
+   "status": "Сокращение деятельности (leave-russia: Reducing activities); бренд СИНАЛАБ®, ~40 позиций в ГИСП с 28.10.2026 — дилерство маловероятно.",
+   "source": "https://leave-russia.org/nalco-water-ecolab"
+  },
+  {
+   "brand": "Kemira",
+   "status": "Ушла: поставки в РФ/РБ остановлены с 01.03.2022, 06.05.2022 объявлен выход с рынка РФ и закрытие операций (продажа менеджменту не подтверждена).",
+   "source": "https://kemira.com/company/media/newsroom/releases/kemira-to-exit-russian-market ; https://interfax.com/newsroom/top-stories/78979/"
+  },
+  {
+   "brand": "Clariant (Oil Services, катализаторы Süd-Chemie)",
+   "status": "03.2022 приостановлен весь бизнес в РФ; 04.2023 разрешена ликвидация ООО «Клариант (РУС)».",
+   "source": "https://www.clariant.com/en/Corporate/News/2022/03/Clariant-suspends-all-business-with-Russia"
+  },
+  {
+   "brand": "BASF",
+   "status": "Ушла (кроме Wintershall Dea, вышедшей отдельно); поставки химии в РФ прекращены в 2022–2023.",
+   "source": "Заявление BASF 27.04.2022 о сворачивании бизнеса в РФ/РБ — ссылку в этой сессии не перепроверял"
+  },
+  {
+   "brand": "Baker Hughes",
+   "status": "Ушла: 08.2022 — выкуп российского OFS-бизнеса менеджментом (OFS Technologies).",
+   "source": "https://worldoil.com/news/2022/8/1/baker-hughes-sells-russian-oil-field-services-business-to-local-management-team/"
+  },
+  {
+   "brand": "Johnson Matthey",
+   "status": "Ушла: закрыт офис в Москве, прекращена новая деятельность, завод в Красноярске передан российскому менеджменту (ООО «Катализаторы и технологии», 08.2022).",
+   "source": "https://interfax.com/newsroom/top-stories/93691/"
+  },
+  {
+   "brand": "Honeywell (вкл. UOP)",
+   "status": "Приостановила «substantially all» продажи, дистрибуцию и сервис в РФ/РБ (03.2022); рос. дочка признана банкротом (08.2023, leave-russia).",
+   "source": "https://www.honeywell.com/us/en/press/2022/03/statement-about-our-business-in-russia-and-belarus ; https://leave-russia.org/honeywell"
+  },
+  {
+   "brand": "Evonik",
+   "status": "Остановила развитие нового бизнеса в РФ; выручка в РФ 2024 −97% к 2023 (leave-russia).",
+   "source": "https://leave-russia.org/evonik-industries"
+  },
+  {
+   "brand": "Topsoe (Haldor Topsoe)",
+   "status": "Ушла: закрытие операций в РФ и РБ, включая офис в Москве, добровольная ликвидация.",
+   "source": "https://topsoe.com/press-releases/topsoe-exiting-russia-belarus"
+  },
+  {
+   "brand": "Albemarle (катализаторы гидроочистки/FCC, ныне Ketjen)",
+   "status": "До 2022 — ключевой поставщик НПЗ РФ; в 2024 в лидерах рынка РФ западных компаний нет.",
+   "source": "https://www.bonafideresearch.com/product/6607985625/russia-refinery-catalysts-market ; https://theins.org/en/inv/287606"
+  },
+  {
+   "brand": "Lubrizol / Infineum / Chevron Oronite / Afton (присадки)",
+   "status": "Поставки американских и европейских присадок в РФ прекращены; рынок перешёл на Китай.",
+   "source": "https://www.zr.ru/content/articles/951132-kitajskie-prisadki-dlya-masel/"
+  },
+  {
+   "brand": "Dow (MDEA/UCARSOL, гликоли, Dowex)",
+   "status": "НЕ подтверждено в этой сессии (поиск не дал источника); считать недоступным до проверки.",
+   "source": "—"
+  },
+  {
+   "brand": "Cabot Norit / Calgon Carbon (Kuraray) / Jacobi (Osaka Gas)",
+   "status": "Статус в РФ НЕ подтверждён поиском (публичных заявлений о уходе не найдено); Norit GCN 1240 продаётся через utsrus.com. Не предлагать до проверки.",
+   "source": "https://utsrus.com/data/ETS_WWW/files/6ed0efe3-0435-11e9-8129-c58096cfb4ac/TDS Norit GCN 1240 PLUS.pdf"
+  }
+ ],
+ "how_to": {
+  "contract": "1) Форма: Distribution Agreement (англ./кит./рус., право — КНР/РФ или МКАС при ТПП РФ / CIETAC, Инкотермс 2020 FCA/CPT/DAP). Ключевые пункты: территория (РФ или «тендеры энергетики/нефтегаза РФ»), эксклюзив/неэксклюзив, минимальный годовой объём (у китайских заводов обычно ставится план; на старт просить «soft exclusivity» на 12 мес. с привязкой к объёму или эксклюзив по конкретным заказчикам), цены/пересмотр, защита клиентов (customer registration — завод не продаёт напрямую зарегистрированным вами заказчикам), маркировка, техподдержка, документы (CoA, SDS, ТУ/спецификации на рус.). 2) Authorization Letter (Manufacturer's Authorization Form) под конкретный тендер: номер закупки, заказчик, продукция, срок — подписывает уполномоченное лицо, печать; при требовании заказчика — нотариальное заверение + апостиль МИД КНР (Китай — участник Конвенции 1961 г. с 07.11.2023; Россия — участник давно, поэтому апостиль заменяет консульскую легализацию) + нотариальный перевод на русский. 3) Проверка контрагента: Business License (统一社会信用代码) через gsxt.gov.cn/Qichacha, экспортная лицензия/право ВЭД, адрес завода (не трейдер), ISO, заводской аудит (видео/инспекция SGS/BV), OpenSanctions/OFAC. 4) Для ТЗ энергетики часто требуется «статус официального дилера производителя» — именно поэтому нужен Distribution Agreement + письмо.",
+  "contract_sources": [
+   "https://www.ifcg.ru/news/2023-11-09/s-7-noabra-2023-goda-v-kitae-vstupila-v-silu-gaagskaa-konvencia-ob-apostile/",
+   "https://www.hlc.com/en/publications/cutting-red-tape-china-joins-apostille-convention-simplifying-recognition-of-foreign-documents",
+   "https://www.unipro.energy/files/9353/ (ТЗ энергокомпании: требование статуса официального дилера при поставке импортных смол)"
+  ],
+  "payments": "Юань (CNY) — основной; прямые платежи 2024–2025 сильно затруднены: китайские банки усилили проверки, часть банков возвращает платежи, неформально делят юань на «чистый/грязный» (Ведомости через anhor.uz); SWIFT дороже/медленнее. Рабочие варианты: (а) российский банк с корсчетами в региональных банках КНР (запросить у своего банка список банков-получателей, с которыми проходят платежи); (б) платёжные агенты (агентский договор, комиссия ~1–3% — уточнять; риск — проверять агента и закрывающие документы для валютного контроля); (в) расчёты через юрлицо-посредника в Гонконге/ОАЭ — повышенный санкционный риск. В контракте указывать валюту CNY, банк получателя заранее согласовать с поставщиком, предусмотреть продление сроков оплаты при возврате платежа. Паспорт сделки упразднён, но контракт ставится на учёт в уполномоченном банке при сумме ≥3 млн ₽ (импорт).",
+  "payments_sources": [
+   "https://www.sostav.ru/blogs/282800/63700",
+   "https://anhor.uz/ru/novosti/chinese-banks",
+   "https://incrussia.ru/understand/yuan-ili-nichego-kak-rasschitatsya-s-kitajskimi-postavshhikami-i-ne-narvatsya-na-nepriyatnosti/",
+   "https://journals.rudn.ru/in-econ/article/download/48800/26325"
+  ],
+  "logistics": "Китай→Москва: (1) ж/д контейнер через Забайкальск/Наушки/Достык (Казахстан) — 18–30 дней; (2) море до Владивостока + ж/д до Москвы — 30–45 дней (опасные грузы удобнее морем: гидразин-гидрат — класс 8/6.1, UN 2030/3293 в зависимости от концентрации, нужна ДГ-декларация IMDG, тара UN, согласования ОАО «РЖД» для перевозки по сети); (3) авто через Забайкальск/Маньчжурию или через Казахстан (Хоргос) — 12–20 дней, для неопасных сорбентов/шаров. СПб — для морских поставок из Индии/Шри-Ланки/Малайзии (через Новороссийск/СПб, часто с перевалкой в Турции/ОАЭ). Индия — коридор «Север–Юг» (Бендер-Аббас – Астрахань/ж/д через Иран/Азербайджан). Сроки — практика рынка, без единого источника; уточнять у экспедиторов.",
+  "logistics_sources": [
+   "https://m.chemicalbook.com/chemicalproductproperty_ru_cb5110461.htm (классификация гидразин-гидрата: токсичен/коррозионен, UN 3293, кл.6.1)",
+   "https://dnaop.com/html/73770/doc-%D0%93%D0%9E%D0%A1%D0%A2_19503-88 (ГОСТ 19503-88 гидразин-гидрат)"
+  ],
+  "certification": "(1) Таможня: декларация соответствия ЕАЭС — только если товар подпадает под ТР ТС/ЕАЭС (для большинства промышленных реагентов ТР нет; ТР ЕАЭС 041/2017 «О безопасности химической продукции» ещё не вступил в силу полностью — документы второго уровня приняты 01.08.2025, ожидается не ранее конца 2026). (2) СГР (свидетельство о госрегистрации, Роспотребнадзор) по Решению КТС №299 от 28.05.2010 — обязательно для реагентов и материалов, контактирующих с питьевой водой (коагулянты, флокулянты, иониты и угли для питьевой воды); для энерго-реагентов пароводяного тракта — обычно не нужно, но заказчики требуют экспертное заключение/СГР «при наличии». (3) Паспорт безопасности (SDS) на русском по ГОСТ 30333-2022, маркировка на русском, ТУ/спецификация, сертификат качества (CoA) на партию; для гидразина — паспорт опасного груза. (4) Для нефтяных реагентов — испытания на хлорорганику (ГЦСС «Нефтепромхим») и ОПИ у каждой НК. (5) Для нацрежима: иностранный товар не получает ГИСП; при ограничении ПП 1875 с иностранцем выигрывают только если нет реестровой российской/ЕАЭС-заявки — поэтому выбирать товары с 0 записей в ГИСП (гидразин, ксантан/гуар, ПАЦ, морфолин, керамические шары).",
+  "certification_sources": [
+   "https://www.normacs.info/news/75389",
+   "https://eec.eaeunion.org/news/sovet-eek-utverdil-poryadok-formirovaniya-i-vedeniya-reestra-khimicheskikh-veshchestv-i-smesey-eaes-/",
+   "https://www.consultant.ru/document/cons_doc_LAW_122892/",
+   "https://www.tws.by/tws/repository/1257",
+   "Постановление Правительства РФ от 23.12.2024 №1875 (ред. от 25.09.2026 №1236), приложение 2 — текст в consultant.ru/document/cons_doc_LAW_494013 (локальная копия в сессии)",
+   "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)"
+  ],
+  "where_to_meet": "(1) «Химия» (Экспоцентр, Москва; 2025 — 10–13.11.2025 в Тимирязев Центре, национальные павильоны Беларуси, Китая, Индии, Ирана; 498–516 экспонентов из 8–13 стран; индийский павильон CHEMEXCIL) — следующая: уточнить даты 2026 на chemistry-expo.ru. Shandong Pulisi Chemical анонсировала участие в «Химии-2025». (2) «Нефтегаз» (Экспоцентр) и MIOGE/Russia Energy — китайские павильоны промысловой химии. (3) «ЭКВАТЭК» (Москва) — водоподготовка, сюда ездят китайские производители ионитов/мембран. (4) В Китае: Кантонская ярмарка (Гуанчжоу, апрель/октябрь), ChinaPlas (полимеры/ПАА), CPHI China (Шанхай, тонкая химия), CIPPE (Пекин, нефтегаз), ICIF China (Шанхай, химия), Aquatech China (вода). (5) Индия: CHEMEXCIL/Chemexpo India; India Chem. (6) Онлайн: Alibaba (фильтр Verified Supplier/Trade Assurance, проверка через сторонний аудит TÜV/SGS), Made-in-China (Audited Supplier), 1688.com (внутренние цены), guidechem/chemicalbook (котировки). Обязательно: проверка, что это завод (а не трейдер) — по Business License и адресу производства; запрос видео с линии; образцы.",
+  "where_to_meet_sources": [
+   "https://www.chemistry-expo.ru/en/media/news/index.php?id4=20352",
+   "https://www.chemistry-expo.ru/en/media/news/index.php?id4=20376",
+   "https://www.pulisichem.com/news/11040"
+  ],
+  "key_rules": "ПП 1875 (ред. 25.09.2026): в прил.2 (ограничение, «второй лишний») входят 20.12.1, 20.13.2–20.13.5 (вкл. гидразин 20.13.25, коагулянты 20.13.41), 20.14.13/14/19, 20.14.2–6, 20.16.59.170 (полиакрилаты), 20.16.59.320 (иониты), 20.41.2 (ПАВ), 20.59.42 (присадки), 20.59.56 (катализаторы), 20.59.59 (прочая химия — ингибиторы, деэмульгаторы). Товар ЕАЭС приравнивается к российскому только с записью в ЕРПТ (п.4 «б» ПП 1875). Поэтому иностранный товар выигрывает там, где у РФ/ЕАЭС нет реестровых записей.",
+  "key_rules_sources": [
+   "Постановление Правительства РФ от 23.12.2024 №1875 (ред. от 25.09.2026 №1236), приложение 2 — текст в consultant.ru/document/cons_doc_LAW_494013 (локальная копия в сессии)",
+   "Выгрузка ГИСП (реестр промпродукции РФ, ПП 719) от 01.11.2026, фильтр ОКПД2 20.1*/20.5*/19.2* — 17 203 записи; поиск по наименованиям (сессия)",
+   "https://goszakupki.eaeunion.org/erpt/ru/registers/products/"
+  ]
+ },
+ "top15": [
+  {
+   "rank": 1,
+   "name": "Yibin Tianyuan Group (гидразин-гидрат)",
+   "segment": "3. гидразин-гидрат",
+   "contact": "ybty@ybty.com ; www.ybty.com",
+   "why": "0 записей ГИСП, ~90 закупок у генкомпаний за 2 года, цена в КНР ~12 000 CNY/т — самая чистая импортная ниша."
+  },
+  {
+   "rank": 2,
+   "name": "Weifang Yaxing Chemical (гидразин-гидрат 64/80%)",
+   "segment": "3. гидразин-гидрат",
+   "contact": "www.chinayaxing.com (через Made-in-China/Alibaba)",
+   "why": "Технология Bayer/Lanxess, марки под ТЗ ТЭЦ; второй источник для конкуренции цен."
+  },
+  {
+   "rank": 3,
+   "name": "Sunresin / Seplite (иониты)",
+   "segment": "1. иониты",
+   "contact": "seplite@sunresin.com, +86-29-89182091; РФ: Интерхим Ком +7 499 130-22-33",
+   "why": "Подтверждён канал в РФ — быстрый старт как субдилер, затем свой статус по энергетике."
+  },
+  {
+   "rank": 4,
+   "name": "ООО «ТехноХимРеагентБел» (PUROFLOCK/PuroTech)",
+   "segment": "3. реагенты ТЭЦ (ЕАЭС)",
+   "contact": "+375 152 554054, Гродно",
+   "why": "167 действующих записей ЕРПТ — товар «как российский» в лотах с ограничением; уже закупается Т Плюс."
+  },
+  {
+   "rank": 5,
+   "name": "Meihua Group (ксантан)",
+   "segment": "6. буровые реагенты",
+   "contact": "meihua@meihuagrp.com, +86 316-2359999",
+   "why": "Лидер импорта ксантана в РФ (RBC), российского производства нет."
+  },
+  {
+   "rank": 6,
+   "name": "Luoyang Jalon (молекулярные сита)",
+   "segment": "4. сита",
+   "contact": "info@jalonzeolite.com, +86-379-67758777",
+   "why": "Листинговый лидер, русская версия сайта, в ГИСП по ситам всего 2 записи."
+  },
+  {
+   "rank": 7,
+   "name": "Pingxiang Chemshun Ceramics (инертные шары)",
+   "segment": "4. керамические шары",
+   "contact": "office@chemshun.com, +86-799-6790781",
+   "why": "0 записей ГИСП, постоянный спрос НПЗ, простой товар для эксклюзива."
+  },
+  {
+   "rank": 8,
+   "name": "Effigen Carbon (кокосовый уголь)",
+   "segment": "2. угли",
+   "contact": "www.effigen.com",
+   "why": "Сам называет Россию экспортным рынком; малый завод — реален эксклюзив."
+  },
+  {
+   "rank": 9,
+   "name": "SNF (China) Flocculant (ПАА)",
+   "segment": "3. ПАА",
+   "contact": "через www.snf.com / китайских дистрибьюторов",
+   "why": "Лидер импорта флокулянтов в РФ; если комплаенс группы не пустит — китайские ПАА без западного капитала."
+  },
+  {
+   "rank": 10,
+   "name": "Jiangsu Suqing (иониты)",
+   "segment": "1. иониты",
+   "contact": "dominic@suqing.com",
+   "why": "Крупный производитель без найденного представителя в РФ — шанс на эксклюзив."
+  },
+  {
+   "rank": 11,
+   "name": "Haycarb PLC (кокосовый уголь)",
+   "segment": "2. угли",
+   "contact": "+94 11 262 7000, www.haycarb.com",
+   "why": "Эталон кокосового угля, упомянут в обзорах рынка РФ."
+  },
+  {
+   "rank": 12,
+   "name": "Vikas WSP (гуар)",
+   "segment": "6. ГРП",
+   "contact": "exportmkt@vikaswspltd.in, +91 154 2494512",
+   "why": "Импортная ниша (0 ГИСП), Индия — основной источник гуара для РФ."
+  },
+  {
+   "rank": 13,
+   "name": "Thermax Tulsion (иониты)",
+   "segment": "1. иониты",
+   "contact": "форма на chemicalnp.thermaxglobal.com",
+   "why": "Бренд в ТЗ; московский офис, вероятно, закрыт — место дистрибьютора свободно."
+  },
+  {
+   "rank": 14,
+   "name": "Shandong Taihe / Henan Qingshuiyuan (ОЭДФ/фосфонаты)",
+   "segment": "3. ОЭДФ",
+   "contact": "www.qingshuiyuan.com.cn",
+   "why": "Мало российских реестровых ОЭДФ (4), стабильные закупки ТЭЦ/ТГК."
+  },
+  {
+   "rank": 15,
+   "name": "Amines & Plasticizers (морфолин)",
+   "segment": "3. амины",
+   "contact": "www.amines.com",
+   "why": "Морфолин/коррекционные амины — 0 записей ГИСП; индийский независимый источник."
+  }
+ ]
+}
