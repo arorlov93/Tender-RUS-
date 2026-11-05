@@ -96,7 +96,737 @@
    "date": "05.11.2026"
   }
  ],
- "where_to_get": [],
- "how_to_request": [],
- "sources": []
+ "where_to_get": [
+  {
+   "segment": "катализаторы + адсорбенты (цеолиты/молекулярные сита, гидроочистка, гидрокрекинг, Клаус)",
+   "manufacturer": "KNT Group (ООО «Ишимбайский специализированный химический завод катализаторов» + Стерлитамакский завод катализаторов)",
+   "country": "РФ (Башкортостан)",
+   "inn": "не установлен в открытой выдаче (проверить в ЕГРЮЛ)",
+   "dealer_program": "неизвестно; на агрегаторе productcenter.ru карточки KNT предлагают обсудить «сотрудничество с дилерами и оптовыми заказчиками» через представителя завода (слабый источник). Официальной дилерской программы на kntgroup.ru нет.",
+   "contacts": {
+    "site": "https://kntgroup.ru",
+    "phone": "+7 (34794) 6-34-20 (Ишимбай, ул. Левый берег, 6 — шапка сайта); +7 (3473) 303-184 (Стерлитамак — страницы продукции)",
+    "email": "info@kntgroup.ru"
+   },
+   "verified": true,
+   "fits": "обе (СПб НХК — гидроочистка/цеолиты; БПО — адсорбенты для СПГ/газопереработки)",
+   "why": "Крупнейший независимый (не ВИНК) производитель цеолитов и катализаторов гидроочистки; участник конференции «Катализаторы 2025» (KNT-Group). Независимость от ВИНК повышает шанс получить дилерское/агентское письмо под конкретную закупку (у РН-Кат/ГПН-КС сбыт идёт в первую очередь на свои НПЗ).",
+   "sources": [
+    "https://kntgroup.ru/en/about",
+    "https://kntgroup.ru/en/products",
+    "https://productcenter.ru/products/1081/corbient-tsieolity-adsorbient",
+    "https://enleader.ru/kat2026"
+   ]
+  },
+  {
+   "segment": "адсорбенты, катализаторы, носители (цеолиты, силикагель, Al2O3, адсорбенты КЦА водорода/азота, демеркуризация УВ)",
+   "manufacturer": "ООО «Салаватский катализаторный завод» (СКАТЗ)",
+   "country": "РФ (Салават)",
+   "inn": "0266032970",
+   "dealer_program": "неизвестно; на сайте опубликованы «Общие условия реализации (к ЕТФ 9)» и антикоррупционные приложения — работа по типовым договорам поставки; про дилеров ничего. Есть отдельный тендерный отдел.",
+   "contacts": {
+    "site": "https://skatz.ru",
+    "phone": "отдел сбыта +7 (3476) 39-20-30, 39-20-44; тендерный отдел +7 (3476) 39-33-78, 39-21-79; маркетинг +7 (3476) 39-26-07",
+    "email": "mail@skatz.ru"
+   },
+   "verified": true,
+   "fits": "обе (БПО — СПГ/демеркуризация; СПб НХК — адсорбенты)",
+   "why": "Широкая линейка адсорбентов, в т.ч. для удаления ртути из УВ-потоков и КЦА — прямо под профиль БПО (СПГ). Сам закупает цеолиты (32615680183, 93,5 млн) — можно предложить встречные поставки китайского сырья.",
+   "sources": [
+    "https://skatz.ru/contacts/",
+    "https://skatz.ru/usloviya/"
+   ]
+  },
+  {
+   "segment": "катализаторы (гидроочистка, риформинг, водород, дегидрирование), адсорбенты/осушители, цеолиты",
+   "manufacturer": "АО «Ангарский завод катализаторов и органического синтеза» (АЗКиОС, группа «Роснефть», через АО «ННК»)",
+   "country": "РФ (Ангарск)",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "неизвестно/маловероятно: катализаторы «Роснефти» в первую очередь идут на НПЗ компании; «Роснефть» заявляла готовность увеличивать продажи сторонним покупателям (Интерфакс по выдаче) — т.е. путь — прямой договор, а не дилерство.",
+   "contacts": {
+    "site": "kataliz.ru (сайт за антибот-проверкой, из сессии не открылся)",
+    "phone": "+7 (3955) 57-79-32, 52-75-45 (справочник ibprom.ru, может устареть)",
+    "email": "не найден"
+   },
+   "verified": false,
+   "fits": "СПб НХК (как субпоставщик/агент для сторонних НПЗ)",
+   "why": "Импортозамещённая номенклатура «Роснефти»; заказчики вне «Роснефти» иногда указывают марки АЗКиОС «без эквивалента».",
+   "sources": [
+    "https://ibprom.ru/azkios",
+    "https://fedpress.ru/news/38/industry/3088103",
+    "https://www.rosneft.ru/business/Downstream/catalystplants/"
+   ]
+  },
+  {
+   "segment": "катализаторы гидроочистки/гидрокрекинга, реактивация",
+   "manufacturer": "ООО «РН-Кат» (Стерлитамак, «Роснефть»/«Башнефть») и ООО «Новокуйбышевский завод катализаторов» (НЗК, «Роснефть»)",
+   "country": "РФ",
+   "inn": "не установлены в выдаче",
+   "dealer_program": "не найдено. По «Роснефти»: мощность РН-Кат позволяет заместить импорт и на НПЗ сторонних компаний, экспорт в Nayara Energy >600 т; из ~4 тыс. т/год часть предназначена для продажи (АиФ). Канал — прямые переговоры через блок нефтехимии «Роснефти»/АО «ННК».",
+   "contacts": {
+    "site": "https://www.rosneft.ru/business/Downstream/catalystplants/ (503 из сессии)",
+    "phone": "не найден",
+    "email": "не найден"
+   },
+   "verified": false,
+   "fits": "СПб НХК",
+   "why": "Закрывает «эквивалент не допускается» в лотах, где указаны марки РН-Кат/НЗК; плюс РН-Кат сам закупает носители и флокулянт (rostender 96131997, 96126449 — из досье) — можно стать поставщиком сырья.",
+   "sources": [
+    "https://www.rosneft.ru/press/news/item/212239/",
+    "https://aif.ru/money/company/isklyuchit_zavisimost_rosneft_proizvodit_sobstvennye_katalizatory",
+    "https://www.kommersant.ru/doc/4039978"
+   ]
+  },
+  {
+   "segment": "катализаторы гидроочистки, гидрокрекинга, каткрекинга (бренд «Селектум»), олигомеризации",
+   "manufacturer": "ООО «Газпромнефть – Каталитические системы» (Омск)",
+   "country": "РФ",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "не найдено. Компания заявляла приоритет — российские НПЗ, затем СНГ и экспорт (интервью замгендиректора А. Зайцева, RUPEC 17.01.2022). Контакты отдела продаж в выдаче не найдены; страница gazprom-neft.ru/company/catalysts из сессии — 503.",
+   "contacts": {
+    "site": "https://www.gazprom-neft.ru/company/catalysts/",
+    "phone": "не найден",
+    "email": "не найден"
+   },
+   "verified": false,
+   "fits": "СПб НХК",
+   "why": "Крупнейший новый производитель (21 тыс. т/год) — ориентир для лотов НПЗ вне ГПН; реально — только прямой договор/агентский договор.",
+   "sources": [
+    "https://rupec.ru/news/48384/",
+    "https://www.interfax.ru/russia/954313",
+    "https://neftegaz.ru/news/neftechim/750132-gazprom-neft-obespechila-sebya-katalizatorami-gidroochistki/"
+   ]
+  },
+  {
+   "segment": "катализаторы и адсорбенты для нефтехимии/нефтепереработки, очистка мономеров",
+   "manufacturer": "UCT (United Catalyst Technologies)",
+   "country": "РФ (Нижнекамск)",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "неизвестно; позиционирует себя как «российский производитель катализаторов и адсорбентов» с собственным сервисом; спонсор конференции «Катализаторы 2026».",
+   "contacts": {
+    "site": "https://united-catalyst.com",
+    "phone": "8-495-532-99-77",
+    "email": "info@united-catalyst.com"
+   },
+   "verified": true,
+   "fits": "обе",
+   "why": "Независимый игрок, активно продаёт сторонним; адрес: 423570 Нижнекамск, ул. Баки Урманче, 6, а/я 32.",
+   "sources": [
+    "https://united-catalyst.com/ru/company/contact",
+    "https://enleader.ru/kat2026"
+   ]
+  },
+  {
+   "segment": "катализаторы (паровая конверсия, аммиак, метанол, водород, сероочистка)",
+   "manufacturer": "ООО «НИАП-КАТАЛИЗАТОР» (Новомосковск)",
+   "country": "РФ",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "https://niap-kt.ru",
+    "phone": "отдел продаж +7 (48762) 7-16-20, +7-910-701-30-02; приёмная +7 (48762) 7-18-18",
+    "email": "mkt@niap-kt.ru (продажи), zakaz@niap-kt.ru"
+   },
+   "verified": true,
+   "fits": "БПО (замена JM KATALCO в водородных/аммиачных установках)",
+   "why": "Прямой отечественный аналог линейки JM KATALCO, которую БПО раньше возила; в досье БПО ОКПД 20.13.25.119 «напр. НИАП».",
+   "sources": [
+    "https://niap-kt.ru/kontakty/"
+   ]
+  },
+  {
+   "segment": "катализаторы, адсорбенты, осушители (спецпродукция, экспорт)",
+   "manufacturer": "АО «СКТБ «Катализатор» (Новосибирск)",
+   "country": "РФ",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "неизвестно; в реестре добросовестных экспортёров, >60 потребителей",
+   "contacts": {
+    "site": "https://katcom.ru",
+    "phone": "+7 (383) 363-69-09",
+    "email": "info@katcom.ru"
+   },
+   "verified": true,
+   "fits": "обе",
+   "why": "Это и есть «Катализатор (Новосибирск)» из списка; есть вакансии на hh.ru (employer 169864) — компания реальная, ищет менеджеров по продажам.",
+   "sources": [
+    "https://katcom.ru/",
+    "https://hh.ru/employer/169864"
+   ]
+  },
+  {
+   "segment": "активированные угли, сорбенты для водоподготовки, реагенты",
+   "manufacturer": "АО «Сорбент» (Пермь, группа «Зелинский»)",
+   "country": "РФ",
+   "inn": "5908001417",
+   "dealer_program": "неизвестно; у группы есть сеть представителей по СИЗ (protivogaz.ru/contacts/representative) — по углям/водоподготовке отдельной дилерской страницы нет",
+   "contacts": {
+    "site": "https://sorbent.su",
+    "phone": "+7 (800) 707-00-76; угли +7 (342) 258-61-74, 258-61-45; реагенты +7 (342) 258-62-91; водоподготовка +7 (342) 283-64-49",
+    "email": "carbon.sorbent@zelinskygroup.com; reagent.sorbent@zelinskygroup.com; water.sorbent@zelinskygroup.com"
+   },
+   "verified": true,
+   "fits": "СПб НХК (активированный уголь в каталоге; Мосводоканал — ПАУ/ГАУ на 3,3 млрд)",
+   "why": "Отечественный производитель активированного угля — под лоты водоканалов/энергетики, где требуют письмо производителя.",
+   "sources": [
+    "https://sorbent.su/contacts/"
+   ]
+  },
+  {
+   "segment": "адсорбенты (цеолиты/молекулярные сита) — «Нижегородские сорбенты»",
+   "manufacturer": "ООО «Нижегородские сорбенты»",
+   "country": "РФ",
+   "inn": "не найден",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "не найден",
+    "phone": "не найден",
+    "email": "не найден"
+   },
+   "verified": false,
+   "fits": "—",
+   "why": "В открытой выдаче компания с таким названием не найдена (ближайшее — ЗАО «Химсорбент», Дзержинск, профиль МДЭА — не то). Нужен ИНН от заказчика.",
+   "sources": [
+    "https://ibprom.ru/khimsorbent"
+   ]
+  },
+  {
+   "segment": "«ГК ЭКАТ», «Технологии каталитических систем»",
+   "manufacturer": "—",
+   "country": "РФ",
+   "inn": "не найден",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "не найден",
+    "phone": "",
+    "email": ""
+   },
+   "verified": false,
+   "fits": "—",
+   "why": "В выдаче не найдены — не включать без ИНН.",
+   "sources": []
+  },
+  {
+   "segment": "дистрибьюторы-конкуренты (для понимания рынка, не производители)",
+   "manufacturer": "ООО «Оптимлайн» (катализаторный сервис, ТМ MaxOL, катализаторы Клауса); ООО «АВК» (катализаторы, присадки, реагенты; работает с российскими и китайскими поставщиками)",
+   "country": "РФ (Москва)",
+   "inn": "не установлены",
+   "dealer_program": "—",
+   "contacts": {
+    "site": "https://optimline.com ; https://avkavk.ru",
+    "phone": "+7 (495) 660-07-44 ; +7 (495) 540-59-02",
+    "email": "info@optimline.com ; info@avkavk.ru"
+   },
+   "verified": true,
+   "fits": "—",
+   "why": "Прямые конкуренты СПб НХК по модели «китайский/российский катализатор + сервис загрузки»; АВК заявляет 34 контракта и 6 тыс. т в 2025. Возможны субдилерские схемы.",
+   "sources": [
+    "https://optimline.com/",
+    "https://avkavk.ru/napravleniya-produkczii/katalizatory-neftepererabotki/"
+   ]
+  },
+  {
+   "segment": "катализаторы нефтепереработки (гидроочистка, гидрокрекинг, FCC, риформинг)",
+   "manufacturer": "Sinopec Catalyst Co., Ltd. (SCC, 100% Sinopec)",
+   "country": "КНР",
+   "inn": "—",
+   "dealer_program": "неизвестно; по Baidu — 4 зарубежных представительства (страны не названы); российский офис/дистрибьютор не найден. На конференции «Катализаторы 2025» Sinopec рассказывал о внедрении на рынке РФ/СНГ. Связаться можно через ООО «Синопек Интернешнл Компани Рус» (торговая «дочка», не катализаторная).",
+   "contacts": {
+    "site": "http://scc.sinopec.com/",
+    "phone": "не найден",
+    "email": "не найден"
+   },
+   "verified": false,
+   "fits": "СПб НХК",
+   "why": "Главный китайский источник катализаторов гидропроцессов; авторизация SCC — сильнейший аргумент в лотах «эквивалент не допускается» на китайские марки.",
+   "sources": [
+    "https://baike.baidu.com/en/item/Sinopec%20Catalyst%20Co.,%20Ltd./658222",
+    "https://intl.sinopec.com/",
+    "https://enleader.ru/kat2026"
+   ]
+  },
+  {
+   "segment": "катализаторы и молекулярные сита (MTO, FCC, TS-1, изомеризация бутенов)",
+   "manufacturer": "China Catalyst Holding Co., Ltd. (中触媒, SHA:688267), Далянь",
+   "country": "КНР",
+   "inn": "—",
+   "dealer_program": "неизвестно; на сайте прямо указано, что сбытовая сеть охватывает США, Японию, Корею, Россию, Индию",
+   "contacts": {
+    "site": "https://www.china-catalyst.com/",
+    "phone": "+86 411 6239 5757 (коммутатор); продажи +86 411 6239 5758 / 6239 5757-8021",
+    "email": "ccg-official@china-catalyst.com"
+   },
+   "verified": true,
+   "fits": "обе",
+   "why": "Публичная компания с заявленным российским рынком — реалистично получить Authorization Letter под конкретную закупку.",
+   "sources": [
+    "https://www.china-catalyst.com/",
+    "https://stockanalysis.com/quote/sha/688267/company"
+   ]
+  },
+  {
+   "segment": "молекулярные сита/цеолиты (3A/4A/5A/13X, КЦА, осушка газа)",
+   "manufacturer": "Luoyang Jalon Micro-nano New Materials Co., Ltd. (SSE:688357)",
+   "country": "КНР (Лоян)",
+   "inn": "—",
+   "dealer_program": "неизвестно; российский дистрибьютор не найден; есть дочка в Таиланде",
+   "contacts": {
+    "site": "https://www.jalonzeolite.com/",
+    "phone": "не найден",
+    "email": "info@jalonzeolite.com"
+   },
+   "verified": true,
+   "fits": "обе (БПО — СПГ/осушка; СПб НХК — адсорбенты)",
+   "why": "Крупнейший листинговый производитель молекулярных сит КНР; замена UOP-ситам.",
+   "sources": [
+    "https://www.jalonzeolite.com/",
+    "https://www.environmental-expert.com/companies/luoyang-jalon-micro-nano-new-materials-co-ltd-142207"
+   ]
+  },
+  {
+   "segment": "адсорбенты, осушители, инертные керамические шары, массообменные насадки",
+   "manufacturer": "Pingxiang Gophin Chemical Co., Ltd. (Пинсян)",
+   "country": "КНР",
+   "inn": "—",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "https://www.gophinchem.com/",
+    "phone": "не найден",
+    "email": "sales@gophinchem.com"
+   },
+   "verified": false,
+   "fits": "СПб НХК",
+   "why": "Типичный пинсянский поставщик керамических шаров/насадок (инертные материалы для загрузки реакторов).",
+   "sources": [
+    "https://www.gophinchem.com/"
+   ]
+  },
+  {
+   "segment": "катализаторы/адсорбенты/поддерживающие материалы (трейдер)",
+   "manufacturer": "Sinocata (Гонконг) — торговая компания, не производитель",
+   "country": "КНР (Гонконг)",
+   "inn": "—",
+   "dealer_program": "—",
+   "contacts": {
+    "site": "https://www.sinocata.com/",
+    "phone": "+852-30501908",
+    "email": "sales@sinocata.com"
+   },
+   "verified": true,
+   "fits": "—",
+   "why": "Внимание: адрес — офис в Монгкоке (Гонконг); письмо от трейдера НЕ является письмом производителя — заказчик может не принять.",
+   "sources": [
+    "https://www.sinocata.com/"
+   ]
+  },
+  {
+   "segment": "углеродные молекулярные сита Shirasagi (CMS, генераторы азота)",
+   "manufacturer": "Osaka Gas Chemicals (Япония); эксклюзивный дистрибьютор для Европы, Ближнего Востока, СНГ и Индии — CarboTech AC GmbH (Германия)",
+   "country": "Япония / Германия",
+   "inn": "—",
+   "dealer_program": "есть, но эксклюзив у CarboTech (немецкая компания под санкциями ЕС) — получить письмо для РФ практически невозможно",
+   "contacts": {
+    "site": "https://www.gasworld.com/story/osaka-gas-chemicals-and-carbotech-ac-gmbh-continue-partnership-for-distribution-of-cms-products/2085644.article/",
+    "phone": "",
+    "email": ""
+   },
+   "verified": true,
+   "fits": "БПО",
+   "why": "Форвард Энерго закупает «молекулярное сито Shirasagi» (32514849004, 5,81 млн) — под такие лоты письмо производителя не получить; стратегия — запрос разъяснений/жалоба на «эквивалент не допускается».",
+   "sources": [
+    "https://www.gasworld.com/story/osaka-gas-chemicals-and-carbotech-ac-gmbh-continue-partnership-for-distribution-of-cms-products/2085644.article/"
+   ]
+  },
+  {
+   "segment": "органобентониты/реологические добавки",
+   "manufacturer": "Zhejiang Fenghong New Material Co., Ltd. (Аньцзи)",
+   "country": "КНР",
+   "inn": "—",
+   "dealer_program": "неизвестно; российский дистрибьютор в выдаче не найден",
+   "contacts": {
+    "site": "https://fenghong.en.alibaba.com/ (оф. сайт zjfenghong.com — не проверен)",
+    "phone": "",
+    "email": ""
+   },
+   "verified": false,
+   "fits": "БПО",
+   "why": "Бывший контрагент БПО (2016–2018) — проще всего восстановить и оформить эксклюзив на РФ.",
+   "sources": [
+    "https://product.statnano.com/product/9843"
+   ]
+  },
+  {
+   "segment": "реагенты нефтедобычи и НПЗ (деэмульгаторы, ингибиторы, поглотители H2S), водоподготовка",
+   "manufacturer": "ГК «Миррико» (управляющая ООО, Казань; завод в Альметьевске)",
+   "country": "РФ",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "неизвестно; сама Миррико поставляет реагенты собственного производства И сторонних производителей — т.е. скорее конкурент/интегратор, чем дилерский поставщик",
+   "contacts": {
+    "site": "https://mirrico.ru / https://mirrico.com",
+    "phone": "+7 (843) 537-23-93",
+    "email": "info@mirrico.com"
+   },
+   "verified": true,
+   "fits": "СПб НХК",
+   "why": "Крупнейший независимый российский производитель нефтепромысловой химии (~20 собственных реагентов); адрес 420107 Казань, ул. Островского, 84.",
+   "sources": [
+    "https://mirrico.ru/",
+    "https://mirrico.com/services-products/products/supply-of-oilfield-chemistry/"
+   ]
+  },
+  {
+   "segment": "реагенты для бурения, ГРП, нефтепромысловые реагенты, противотурбулентные присадки (ПТП)",
+   "manufacturer": "ООО «Ника-Петротэк» (Екатеринбург; производство — Камбарка)",
+   "country": "РФ",
+   "inn": "7734720936 (по Cbonds; сверить с ЕГРЮЛ)",
+   "dealer_program": "неизвестно; официальный сайт в выдаче не найден",
+   "contacts": {
+    "site": "не найден",
+    "phone": "не найден",
+    "email": "не найден"
+   },
+   "verified": false,
+   "fits": "обе (Русвьетпетро закупает ПТП 26–55 млн)",
+   "why": "Отечественная ПТП — прямо под регулярные лоты Русвьетпетро.",
+   "sources": [
+    "https://www.emis.cn/php/company-profile/RU/Nika-Petrotek_OOO__Ника-Петротэк_ООО__en_4618434.html",
+    "https://cbonds.es/company/240611/"
+   ]
+  },
+  {
+   "segment": "хлор-щелочная химия (каустик, кальций хлористый для буровых растворов и др.)",
+   "manufacturer": "АО «Каустик» (Волгоград)",
+   "country": "РФ",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "неизвестно; на сайте раздел «Партнёрам» и управление реализации",
+   "contacts": {
+    "site": "https://www.kaustik.ru",
+    "phone": "управление реализации +7 (8442) 40-61-03; коммерческий директор +7 (8442) 40-68-80",
+    "email": "sbyt-ur@kaustik.ru; salova@kaustik.ru"
+   },
+   "verified": true,
+   "fits": "СПб НХК (смежно)",
+   "why": "Базовая химия — не «реагенты нефтедобычи» в узком смысле; полезна для комплектных лотов.",
+   "sources": [
+    "https://www.kaustik.ru/ru/"
+   ]
+  },
+  {
+   "segment": "реагенты водоподготовки, химреактивы",
+   "manufacturer": "АО «ЭКОС-1» (Москва; производство — Старая Купавна)",
+   "country": "РФ",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "есть: по каталогу Moscow Export дилерская сеть в 14 городах РФ (список не получен; сайт ekos-1.ru из сессии не открылся)",
+   "contacts": {
+    "site": "https://www.ekos-1.ru",
+    "phone": "+7 (495) 983-59-98 (сторонний каталог)",
+    "email": "не найден"
+   },
+   "verified": false,
+   "fits": "СПб НХК (водоподготовка)",
+   "why": "Единственный из списка с подтверждённой (хотя бы косвенно) дилерской сетью.",
+   "sources": [
+    "https://catalog.moscow-export.com/de/industrie/ao-ekos-1/",
+    "https://www.ekos-1.ru/en/"
+   ]
+  },
+  {
+   "segment": "коагулянты (водоподготовка), соединения драгметаллов",
+   "manufacturer": "«Аурат» (Москва)",
+   "country": "РФ",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "https://aurat.ru",
+    "phone": "коагулянты (499) 553-91-67; секретарь (499) 153-97-72",
+    "email": "не найден"
+   },
+   "verified": false,
+   "fits": "СПб НХК",
+   "why": "Альтернатива «Аквахим» (по «Аквахим» производитель в выдаче не найден).",
+   "sources": [
+    "https://aurat.ru/",
+    "https://www.sostav.ru/blogs/59877/53551"
+   ]
+  },
+  {
+   "segment": "«Химпром», «Полиэкс», «Синтез ПКЖ», «Аквахим», «Акватех», «НПО Нефтехимпром», «Татнефть-реагенты»",
+   "manufacturer": "—",
+   "country": "РФ",
+   "inn": "—",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "",
+    "phone": "",
+    "email": ""
+   },
+   "verified": false,
+   "fits": "—",
+   "why": "ПАО «Химпром» (Новочебоксарск, himprom.com — 403) — по Википедии нефтепромысловых деэмульгаторов/ингибиторов в линейке нет (органические силикаты для бурения). АО «Полиэкс» (Пермь) — реагенты для ПНП/КРС, планировал производство (ФРП Пермского края); сайт не найден. «Синтез ПКЖ», «Аквахим», «Акватех», «НПО Нефтехимпром» — в выдаче не найдены, нужны ИНН.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Khimprom_Novocheboksarsk",
+    "https://www.normacs.info/news/64201"
+   ]
+  },
+  {
+   "segment": "реагенты/водоподготовка — западные",
+   "manufacturer": "Kemira (Финляндия)",
+   "country": "Финляндия",
+   "inn": "—",
+   "dealer_program": "нет — ушла из РФ",
+   "contacts": {
+    "site": "https://kemira.com",
+    "phone": "",
+    "email": ""
+   },
+   "verified": true,
+   "fits": "—",
+   "why": "Поставки в РФ/Беларусь прекращены 01.03.2022; 06.05.2022 объявлен уход и закрытие локальных операций — авторизацию не получить.",
+   "sources": [
+    "https://kemira.com/company/media/newsroom/releases/kemira-to-exit-russian-market",
+    "https://interfax.com/newsroom/top-stories/78979/"
+   ]
+  },
+  {
+   "segment": "реагенты/водоподготовка — западные",
+   "manufacturer": "Ecolab / Nalco Water (США)",
+   "country": "США",
+   "inn": "—",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "",
+    "phone": "",
+    "email": ""
+   },
+   "verified": false,
+   "fits": "—",
+   "why": "Публичного заявления о продаже российского бизнеса не найдено; трекер leave-russia.org (заявление 20.03.2022): «Reducing activities», «по-видимому, продолжает работу в РФ (офис Nalco и R&D)». Статус «ушла» — не подтверждён; перед запросом письма проверить действующее российское юрлицо.",
+   "sources": [
+    "https://leave-russia.org/nalco-water-ecolab"
+   ]
+  },
+  {
+   "segment": "массообменное оборудование (внутренние устройства колонн, реакторов, статические смесители; бывший Sulzer Chemtech)",
+   "manufacturer": "ООО «Сплитекс» (до 10.2023 — ООО «Зульцер Хемтех»), Серпухов",
+   "country": "РФ",
+   "inn": "5043032704",
+   "dealer_program": "неизвестно; на сайте раздела дилеров/представителей нет; есть свой офис в СПб (Торфяная дорога, 7Ф, оф. 1325) и услуги шефмонтажа",
+   "contacts": {
+    "site": "https://spliteks.ru",
+    "phone": "+7 (4967) 76-06-00",
+    "email": "inbox@spliteks.ru (гендиректор И.Г. Кузьмин — igor.kuzmin@spliteks.ru)"
+   },
+   "verified": true,
+   "fits": "СПб НХК (обязательно: переоформить статус «представителя Зульцер Хемтех» на письмо от ООО «Сплитекс»)",
+   "why": "Единственный легальный правопреемник Sulzer Chemtech в РФ; лоты НПЗ на внутренние устройства/запчасти «Зульцер» закрываются только письмом Сплитекс.",
+   "sources": [
+    "https://spliteks.ru/company/",
+    "https://spliteks.ru/contacts/",
+    "https://www.rbc.ru/companies/id/1075043004101-ooo-zultser-hemteh/"
+   ]
+  },
+  {
+   "segment": "массообменное оборудование (насадки «Инжехим», реконструкция колонн под ключ)",
+   "manufacturer": "ООО ИВЦ «Инжехим» (Казань)",
+   "country": "РФ",
+   "inn": "не установлен в выдаче",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "https://www.ingehim.ru",
+    "phone": "+7 (843) 570-23-18, 570-23-28",
+    "email": "info@ingehim.ru; ingehim@kstu.ru"
+   },
+   "verified": true,
+   "fits": "СПб НХК",
+   "why": "Российская альтернатива Sulzer/Koch по нерегулярным насадкам; e-mail подтверждён сайтом и научной публикацией (fundamental-research.ru 2018).",
+   "sources": [
+    "https://www.ingehim.ru/contacts/",
+    "https://s.fundamental-research.ru/pdf/2018/3/42097.pdf"
+   ]
+  },
+  {
+   "segment": "инжиниринг/оборудование для НПЗ (вкл. массообмен — не подтверждено)",
+   "manufacturer": "ПЕТОН (Уфа)",
+   "country": "РФ",
+   "inn": "не установлен",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "https://peton.ru",
+    "phone": "+7 (347) 246-87-01, 246-87-09; Москва +7 (495) 980-27-18",
+    "email": "peton@peton.ru"
+   },
+   "verified": false,
+   "fits": "СПб НХК",
+   "why": "Инжиниринговый холдинг; собственное производство внутренних устройств на сайте не подтвердил (текст страниц в основном рендерится JS).",
+   "sources": [
+    "https://www.peton.ru/ru/contacts"
+   ]
+  },
+  {
+   "segment": "массообмен — прочие из списка",
+   "manufacturer": "«Ленниихиммаш», «Димитровградхиммаш», «НефтеХимКомплект», «Техэкспертиза»",
+   "country": "РФ",
+   "inn": "—",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "lenniihimmash.ru / dhm.ru — из сессии не открылись",
+    "phone": "",
+    "email": ""
+   },
+   "verified": false,
+   "fits": "—",
+   "why": "Сайты недоступны из сессии, в выдаче профильных данных не найдено; не включать в запросы без проверки ИНН.",
+   "sources": []
+  },
+  {
+   "segment": "массообмен — западные",
+   "manufacturer": "Koch-Glitsch (Koch Engineered Solutions, США)",
+   "country": "США",
+   "inn": "—",
+   "dealer_program": "неизвестно",
+   "contacts": {
+    "site": "https://www.koch-glitsch.com/",
+    "phone": "",
+    "email": ""
+   },
+   "verified": false,
+   "fits": "—",
+   "why": "Koch Industries в 07.2022 продал Guardian Glass в РФ и заявил, что других операционных активов в РФ нет; в 2022 сообщалось о московском офисе продаж Koch Engineered Solutions (Popular Information). Явного заявления Koch-Glitsch об уходе нет — статус «ушёл» не подтверждён; американский бренд — письмо для РФ не реалистично.",
+   "sources": [
+    "https://www.kwch.com/2022/07/28/koch-industries-sells-operations-russia",
+    "https://popular.info/p/koch-industries-continues-doing-business"
+   ]
+  },
+  {
+   "segment": "массообмен/катализаторы — Sulzer, Honeywell UOP, JM, Evonik",
+   "manufacturer": "см. verify",
+   "country": "",
+   "inn": "",
+   "dealer_program": "нет (ушли)",
+   "contacts": {
+    "site": "",
+    "phone": "",
+    "email": ""
+   },
+   "verified": true,
+   "fits": "—",
+   "why": "См. раздел verify.",
+   "sources": []
+  }
+ ],
+ "how_to_request": [
+  "1. У СПб НХК запросить (до подачи в любой лот с «полномочиями»): (а) копию документа о статусе в отношении Sulzer — дата, подписант; так как ООО «Зульцер Хемтех» с 10.2023 = ООО «Сплитекс», а Sulzer AG вышел из РФ, документ от «Зульцер Хемтех» до 10.2023 в тендере использовать нельзя (риск недостоверных сведений) — нужно новое письмо/дилерский договор от ООО «Сплитекс» (ИНН 5043032704); (б) копию договора с Napco National и Authorization Letter (на сайте одновременно «авторизованный» и «эксклюзивный» — уточнить, что именно подписано, территория, срок); (в) список «крупнейших китайских производителей» с копиями писем/сертификатов (название юрлица на китайском и английском, USCC-код, срок действия, продуктовые линейки).",
+  "2. У БПО Евразия-Снаб запросить: действующие договоры с производителями за 2024–2026 (выручка 2025 — 689 млн: кто поставщики?), референс-лист покупателей, статус в ГИИС ДМДК (нужен для Pt/Pd-катализаторов), доступность сайта (eurasiasnab.ru лежит с 2022 — для тендеров нужен рабочий сайт/почта). Действующих писем от JM, UOP/Honeywell, Evonik, CLG быть не может — эти бренды для РФ закрыты; Zhejiang Fenghong — восстановить контакт и оформить дистрибьюцию на РФ.",
+  "3. Российским производителям (КНТ Групп, СКАТЗ, НИАП-КАТАЛИЗАТОР, СКТБ «Катализатор», UCT, Сорбент, Инжехим, Сплитекс) — письмо на e-mail отдела сбыта + звонок: «Просим рассмотреть ООО «___» (ИНН ___) в качестве официального дилера/агента по продукции ___ для участия в закупках заказчиков ___ (223-ФЗ). Просим сообщить условия дилерского договора (объём, скидка, территория) и порядок выдачи писем-подтверждений под конкретные закупки (номер извещения в ЕИС)». Приложить карточку компании, выписку ЕГРЮЛ, референсы, перечень целевых закупок с номерами и НМЦ — производителю проще дать письмо под конкретный лот, чем общий дилерский статус.",
+  "4. Письмо под закупку: просить формулировку «Настоящим [производитель] подтверждает, что ООО «___» уполномочено предлагать и поставлять продукцию [марки/артикулы] производства [производитель] по закупке № ___ (заказчик ___), производитель гарантирует поставку в сроки ___ и распространение фирменной гарантии». На бланке, с подписью уполномоченного лица и печатью, дата не ранее 30–60 дней до окончания подачи (типичное требование — сверять с документацией), срок действия ≥ срока договора.",
+  "5. Китайские производители (China Catalyst Holding, Jalon, Sinopec Catalyst, пинсянские производители керамики/сит): просить Authorization Letter (на английском + китайском) от производителя, а не от трейдера (Sinocata — гонконгский трейдер, не производитель); с номером закупки и наименованием заказчика; апостиль (КНР в конвенции с 07.11.2023) и нотариальный перевод на русский — если требует документация; приложить бизнес-лицензию производителя. Срок — 2–4 недели с учётом апостиля, поэтому запрашивать сразу после публикации извещения или заранее «рамочное» письмо на год.",
+  "6. Заказчикам — при требовании «эквивалент не допускается» по ушедшим брендам (Shirasagi, UOP, JM, Sulzer) направлять запрос разъяснений: просить допустить эквивалент или указать, принимается ли письмо правопреемника (для Sulzer — ООО «Сплитекс»); при отказе — основание для жалобы в ФАС (решение 223ФЗ-999/17 — зависимость участника от третьих лиц).",
+  "7. Сроки: российские заводы — ответ на дилерский запрос 1–3 недели, письмо под закупку — 2–5 рабочих дней при действующем договоре; без договора рассчитывать на письмо в окне подачи (обычно 7–15 дней) нереально — начинать с 2–3 ключевых производителей заранее (КНТ, СКАТЗ, Сплитекс для СПб НХК; НИАП-КТ, СКАТЗ, Jalon для БПО)."
+ ],
+ "sources": [
+  "http://archive.org/wayback/available?url=eurasiasnab.ru",
+  "http://eurasiasnab.ru/",
+  "https://aif.ru/money/company/isklyuchit_zavisimost_rosneft_proizvodit_sobstvennye_katalizatory",
+  "https://aurat.ru/",
+  "https://avkavk.ru/napravleniya-produkczii/katalizatory-neftepererabotki/",
+  "https://baike.baidu.com/en/item/Sinopec%20Catalyst%20Co.,%20Ltd./658222",
+  "https://catalog.moscow-export.com/de/industrie/ao-ekos-1/",
+  "https://cbonds.es/company/240611/",
+  "https://en.wikipedia.org/wiki/Khimprom_Novocheboksarsk",
+  "https://enleader.ru/kat2026",
+  "https://fedpress.ru/news/38/industry/3088103",
+  "https://fenghong.en.alibaba.com/",
+  "https://grace.com/newsroom/press-releases/2025-press-releases/grace-acquires-art-hydroprocessing/",
+  "https://hh.ru/employer/169864",
+  "https://ibprom.ru/azkios",
+  "https://ibprom.ru/khimsorbent",
+  "https://interfax.com/newsroom/top-stories/78979/",
+  "https://interfax.com/newsroom/top-stories/79447/",
+  "https://intl.sinopec.com/",
+  "https://katcom.ru/",
+  "https://kemira.com/company/media/newsroom/releases/kemira-to-exit-russian-market",
+  "https://kntgroup.ru/en/about",
+  "https://kntgroup.ru/en/products",
+  "https://kompra.kz/organization/180140023255",
+  "https://leave-russia.org/evonik-industries",
+  "https://leave-russia.org/lummus-technology",
+  "https://leave-russia.org/nalco-water-ecolab",
+  "https://leave-russia.org/sulzer",
+  "https://matthey.com/media/2026/ct-honeywell-completion",
+  "https://mirrico.com/services-products/products/supply-of-oilfield-chemistry/",
+  "https://mirrico.ru/",
+  "https://neftegaz.ru/news/neftechim/750132-gazprom-neft-obespechila-sebya-katalizatorami-gidroochistki/",
+  "https://news.napconational.com/?s=russia",
+  "https://niap-kt.ru/kontakty/",
+  "https://optimline.com/",
+  "https://pavlyshen.ru/cases/spbnhk-razrabotka-korporativnogo-sayta-wordpress/",
+  "https://popular.info/p/koch-industries-continues-doing-business",
+  "https://product.statnano.com/product/9843",
+  "https://productcenter.ru/products/1081/corbient-tsieolity-adsorbient",
+  "https://report.sulzer.com/ar23/de/category/note_group_de",
+  "https://rupec.ru/news/48384/",
+  "https://s.fundamental-research.ru/pdf/2018/3/42097.pdf",
+  "https://skatz.ru/contacts/",
+  "https://skatz.ru/usloviya/",
+  "https://sorbent.su/contacts/",
+  "https://spbnhk.ru/partners",
+  "https://spbnhk.ru/products/upakovochnye-materialy-napco",
+  "https://spliteks.ru/company/",
+  "https://spliteks.ru/contacts/",
+  "https://stockanalysis.com/quote/sha/688267/company",
+  "https://uk.finance.yahoo.com/news/evonik-invest-8-billion-eur-094741980.html",
+  "https://united-catalyst.com/ru/company/contact",
+  "https://www.china-catalyst.com/",
+  "https://www.ekos-1.ru/en/",
+  "https://www.emis.cn/php/company-profile/RU/Nika-Petrotek_OOO__Ника-Петротэк_ООО__en_4618434.html",
+  "https://www.environmental-expert.com/companies/luoyang-jalon-micro-nano-new-materials-co-ltd-142207",
+  "https://www.gasworld.com/story/osaka-gas-chemicals-and-carbotech-ac-gmbh-continue-partnership-for-distribution-of-cms-products/2085644.article/",
+  "https://www.gophinchem.com/",
+  "https://www.hcch.net/en/news-archive/details/?varevent=947",
+  "https://www.ingehim.ru/contacts/",
+  "https://www.interfax.ru/russia/954313",
+  "https://www.jalonzeolite.com/",
+  "https://www.kaustik.ru/ru/",
+  "https://www.kommersant.ru/doc/4039978",
+  "https://www.kommersant.ru/doc/5367249",
+  "https://www.kommersant.ru/doc/6162659",
+  "https://www.kommersant.ru/doc/8740772",
+  "https://www.kwch.com/2022/07/28/koch-industries-sells-operations-russia",
+  "https://www.legislation.gov.uk/uksi/2019/855/schedule/2D/data.pdf",
+  "https://www.napconational.com/contact-us/",
+  "https://www.normacs.info/news/64201",
+  "https://www.peton.ru/ru/contacts",
+  "https://www.rbc.ru/companies/id/1075043004101-ooo-zultser-hemteh/",
+  "https://www.rosneft.ru/business/Downstream/catalystplants/",
+  "https://www.rosneft.ru/press/news/item/212239/",
+  "https://www.sec.gov/Archives/edgar/data/773840/000077384023000013/hon-20221231.htm",
+  "https://www.sinocata.com/",
+  "https://www.sostav.ru/blogs/59877/53551",
+  "https://zakupki-portal.ru/novosti/novosti-dlya-zakazchikov/zakazchiki-po-zakonu-n-223-fz-ne-vprave-trebovat-chtoby-tovar-postavil-proizvoditel-ili-diler/"
+ ],
+ "tender_value": [
+  {
+   "point": "Критерий «полномочия от производителей (дилерские письма)» — Россети Урал, трубы ПНД 32616531898: цена 70 %, дилерские письма 10 %, аттестация Россети 20 % (по нашему разбору ТЗ; в задаче назван 15 % — в локальном файле 10 %, возможно другая закупка)",
+   "source": "model/data/zakupki_0211/tz/deep/rosseti.json (поле regime)"
+  },
+  {
+   "point": "Россети Северный Кавказ 32616499234: требование «наличие полномочий на поставку и подтверждение фирменных гарантий производителя» подтверждается «свидетельством-подтверждением от производителя»",
+   "source": "model/data/zakupki_0211/tz/deep/rsk_D_out.json"
+  },
+  {
+   "point": "Т Плюс — статус «производитель/посредник» в заявке: в локальных данных и открытой выдаче формулировку не нашёл — проверить по документации конкретной закупки",
+   "source": "не подтверждено"
+  },
+  {
+   "point": "ФАС (решение от 06.12.2017 № 223ФЗ-999/17, закупка РЖД): требование к участнику быть производителем или иметь право поставки от производителя как условие ДОПУСКА противоречит п. 2 ч. 1 ст. 3 223-ФЗ — ставит участника в зависимость от третьих лиц. Как критерий ОЦЕНКИ письма обычно допустимы. ⇒ при отсутствии письма — жалоба/запрос разъяснений на допуск; при наличии — баллы в оценке.",
+   "source": "https://zakupki-portal.ru/novosti/novosti-dlya-zakazchikov/zakazchiki-po-zakonu-n-223-fz-ne-vprave-trebovat-chtoby-tovar-postavil-proizvoditel-ili-diler/"
+  },
+  {
+   "point": "Национальный режим (ПП 1875): заявка только с российским товаром оценивается со снижением цены на 15 % — дилерство российского производителя (КНТ, СКАТЗ, НИАП-КТ, Сорбент, Сплитекс) даёт и письмо, и 15 % приоритета; китайский товар теряет это преимущество",
+   "source": "model/data/zakupki_0211/tz/deep/rsk_D_out.json (п.1.7 документации)"
+  },
+  {
+   "point": "Китай присоединился к Апостильной конвенции с 07.11.2023 — письма/сертификаты китайских производителей можно апостилировать вместо консульской легализации",
+   "source": "https://www.hcch.net/en/news-archive/details/?varevent=947"
+  }
+ ]
 }
