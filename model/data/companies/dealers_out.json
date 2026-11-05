@@ -1,0 +1,102 @@
+{
+ "meta": {
+  "generated": "2026-11-05",
+  "method": "Открытые источники: сайты компаний/производителей (curl/WebFetch), поисковая выдача (WebSearch), СМИ, трекеры ухода из РФ. web.archive.org из сессии заблокирован (403), торговые базы (volza/importgenius/panjiva) по названиям компаний в выдаче не дали записей.",
+  "note": "Статусы: подтверждено — есть независимое (не самозаявление) подтверждение; не подтверждено — только самозаявление/нет данных; опровергнуто — бренд/юрлицо ушло из РФ или заявленный партнёр не существует в заявленном виде."
+ },
+ "verify": [
+  {
+   "company": "СПб НХК",
+   "partner": "Sulzer Chemtech / ООО «Зульцер Хемтех» (Серпухов) — «авторизованный представитель», шеф-монтаж внутренних устройств колонн",
+   "claimed_by": "сайт spbnhk.ru/partners и spbnhk.ru/services (на 05.11.2026, © 2026); на spbnhk.ru/products/promyshlennoe-oborudovanie упоминаний Sulzer нет",
+   "status": "опровергнуто (в заявленном виде) / представительство преемника не подтверждено",
+   "evidence": "Sulzer объявил уход из РФ 24.05.2022 (Коммерсант 5367249; в списке юрлиц — ООО «Зульцер Хемтех»). По годовому отчёту Sulzer 2023 договор продажи российского бизнеса подписан 03.02.2023, продажа завершена во 2-м полугодии 2023 «местному третьему лицу». В 10.2023 Sulzer AG выбыл из ЕГРЮЛ, новый участник — GARDINER RESOURCES INVESTMENTS CO. LLC (leave-russia.org/sulzer). ООО «Зульцер Хемтех» в 10.2023 переименовано в ООО «Сплитекс» (ИНН 5043032704), которое называет себя «прямым и единственным наследником ООО «Зульцер Хемтех»» (spliteks.ru/company). Т.е. представлять Sulzer Chemtech (бренд) в РФ с 2023 г. невозможно; на сайтах spliteks.ru (главная, /company/) список дилеров/представителей не опубликован, СПБ НХК не упоминается; у Сплитекс собственный офис в СПб (Торфяная дорога, 7Ф). Статус СПБ НХК как представителя Сплитекс независимо не подтверждён. Поиск по sulzer.com/выдаче — упоминаний СПБ НХК нет.",
+   "source": "https://spbnhk.ru/partners ; https://www.kommersant.ru/doc/5367249 ; https://report.sulzer.com/ar23/de/category/note_group_de ; https://leave-russia.org/sulzer ; https://spliteks.ru/company/ ; https://www.rbc.ru/companies/id/1075043004101-ooo-zultser-hemteh/",
+   "date": "уход объявлен 24.05.2022; продажа завершена 2П 2023; переименование 10.2023; проверка сайтов 05.11.2026"
+  },
+  {
+   "company": "СПб НХК",
+   "partner": "Napco National (Даммам, Саудовская Аравия) — FFS/стретч-худ плёнки, мешки",
+   "claimed_by": "сайт spbnhk.ru: /partners — «эксклюзивный авторизованный партнёр… с 2025 года»; главная и /products/upakovochnye-materialy-napco — «авторизованный партнёр» (без слова «эксклюзивный») — формулировки на сайте расходятся",
+   "status": "не подтверждено",
+   "evidence": "На napconational.com (главная, /contact-us) и в поиске по news.napconational.com (запросы russia/russian/SPB/saint petersburg) упоминаний России или СПБ НХК нет; в СМИ/выдаче упоминаний партнёрства нет. Napco National — реальный производитель FFS-плёнок/мешков для нефтехимии (news.napconational.com, packaging-gateway). Требуется копия дистрибьюторского договора/Authorization letter.",
+   "source": "https://spbnhk.ru/partners ; https://spbnhk.ru/products/upakovochnye-materialy-napco ; https://www.napconational.com/contact-us/ ; https://news.napconational.com/?s=russia",
+   "date": "2025 (заявлено); проверка 05.11.2026"
+  },
+  {
+   "company": "СПб НХК",
+   "partner": "«Крупнейшие китайские производители» катализаторов, реагентов водоподготовки и висбрекинга, химреагентов, присадок к ДТ (названия не раскрыты)",
+   "claimed_by": "сайт spbnhk.ru/partners",
+   "status": "не подтверждено",
+   "evidence": "Производители не названы. Поиск «СПБ НХК»/«SPB NHK»/«Saint-Petersburg Petrochemical Company» вместе с Sinopec Catalyst, Sinocata и др. — совпадений нет; в торговых базах (volza, importgenius, panjiva, marketinsidedata) по названию записей в выдаче не найдено; на конференции «Катализаторы 2025/2026» (enleader.ru) компания не значится (китайские участники 2025 — Хэхуа и Sinopec). Единственный внешний след — кейс веб-студии по сайту (pavlyshen.ru) и карточки реестров.",
+   "source": "https://spbnhk.ru/partners ; https://enleader.ru/kat2026 ; https://pavlyshen.ru/cases/spbnhk-razrabotka-korporativnogo-sayta-wordpress/",
+   "date": "проверка 05.11.2026"
+  },
+  {
+   "company": "БПО Евразия-Снаб",
+   "partner": "Johnson Matthey (KATALCO/PURASPEC — линейка процессных катализаторов/поглотителей)",
+   "claimed_by": "Контракты 2016–2018 гг. (не дилерство) — постановление АС СЗО Ф07-276/2023 по делу А56-108236/2019 (досье eurasia_out.json)",
+   "status": "опровергнуто (как действующий канал)",
+   "evidence": "JM вышла из РФ: красноярский завод в 06.2023 перешёл российским топ-менеджерам (ООО «Катализаторы и технологии», переименовано в «Экотехсис») — Коммерсант 18.08.2023. Сам бизнес JM Catalyst Technologies (KATALCO, PURASPEC, лицензирование) продан Honeywell 17.07.2026 (пресс-релиз JM). Honeywell с 03.2022 приостановил практически все продажи/сервис в РФ и в 06.2022 утвердил план сворачивания бизнеса (10-K FY2022). Получить авторизацию JM/Honeywell для поставок в РФ — нереально; поставки возможны только как параллельный импорт без писем производителя.",
+   "source": "https://www.kommersant.ru/doc/6162659 ; https://matthey.com/media/2026/ct-honeywell-completion ; https://www.sec.gov/Archives/edgar/data/773840/000077384023000013/hon-20221231.htm",
+   "date": "06–08.2023 (уход JM); 17.07.2026 (продажа CT Honeywell)"
+  },
+  {
+   "company": "БПО Евразия-Снаб",
+   "partner": "Honeywell UOP (UOP CH) — катализаторы, молекулярные сита/адсорбенты",
+   "claimed_by": "Контракты 2016–2018 гг. (не дилерство) — постановление АС СЗО Ф07-276/2023 по делу А56-108236/2019 (досье eurasia_out.json)",
+   "status": "опровергнуто (как действующий канал)",
+   "evidence": "Honeywell: в 03.2022 приостановил «substantially all» продажи, дистрибуцию и сервис в РФ и Беларуси, в 06.2022 — план сворачивания (wind down), одно российское юрлицо продано в 3кв2022, два — в добровольной ликвидации; наибольшее влияние — на сегмент Performance Materials and Technologies (куда входил UOP) — 10-K FY2022.",
+   "source": "https://www.sec.gov/Archives/edgar/data/773840/000077384023000013/hon-20221231.htm",
+   "date": "03.2022 / 06.2022"
+  },
+  {
+   "company": "БПО Евразия-Снаб",
+   "partner": "Evonik (спецхимия, вероятно катализаторы/присадки)",
+   "claimed_by": "Контракты 2016–2018 гг. (не дилерство) — постановление АС СЗО Ф07-276/2023 по делу А56-108236/2019 (досье eurasia_out.json)",
+   "status": "опровергнуто (фактически свёрнуто)",
+   "evidence": "CEO Evonik К. Кульманн (2022): бизнес в России «сознательно сворачиваем» (Yahoo Finance). Трекер leave-russia.org: заявление Evonik от 16.06.2024 — «прекращено новое развитие бизнеса в РФ», выручка 2024 к 2023 −97%; ООО «Эвоник Химия» ИНН 7729527750. Формально не все поставки запрещены, но рассчитывать на авторизационные письма для тендеров нельзя.",
+   "source": "https://uk.finance.yahoo.com/news/evonik-invest-8-billion-eur-094741980.html ; https://leave-russia.org/evonik-industries",
+   "date": "2022; 16.06.2024"
+  },
+  {
+   "company": "БПО Евразия-Снаб",
+   "partner": "Chevron Lummus Global (CLG) — катализаторы гидрокрекинга (производит ART)",
+   "claimed_by": "Контракты 2016–2018 гг. (не дилерство) — постановление АС СЗО Ф07-276/2023 по делу А56-108236/2019 (досье eurasia_out.json)",
+   "status": "не подтверждено (действующих связей нет данных; канал де-факто закрыт санкциями)",
+   "evidence": "Публичного заявления CLG об уходе из РФ не найдено. Lummus Technology — «сокращает деятельность» (leave-russia.org, заявление 13.03.2024). Катализаторы CLG производит Advanced Refining Technologies; с 11.2025 ART полностью принадлежит W.R. Grace (пресс-релиз Grace 2025). Катализаторы для гидроочистки/гидрокрекинга/риформинга/FCC внесены в санкционные списки Великобритании (Schedule 2D, Russia (Sanctions) (EU Exit) Regs 2019); по сообщениям СМИ ЕС также запретил поставки катализаторов для переработки нефти (Upstream) — точную строку Annex XXIII не проверял. Американский поставщик — дилерское письмо в РФ невозможно.",
+   "source": "https://leave-russia.org/lummus-technology ; https://grace.com/newsroom/press-releases/2025-press-releases/grace-acquires-art-hydroprocessing/ ; https://www.legislation.gov.uk/uksi/2019/855/schedule/2D/data.pdf",
+   "date": "проверка 05.11.2026"
+  },
+  {
+   "company": "БПО Евразия-Снаб",
+   "partner": "Zhejiang Fenghong New Material (Аньцзи, КНР) — органобентониты/реологические добавки",
+   "claimed_by": "Контракты 2016–2018 гг. (не дилерство) — постановление АС СЗО Ф07-276/2023 по делу А56-108236/2019 (досье eurasia_out.json)",
+   "status": "не подтверждено (производитель действует, санкционных препятствий нет; действующий договор с БПО в открытых источниках не найден)",
+   "evidence": "Fenghong — действующий производитель (ulprospector, statnano, fenghong.en.alibaba.com). Упоминаний «Eurasia-Snab»/«Евразия-Снаб» на ресурсах производителя и в торговых базах в выдаче нет; российский дистрибьютор Fenghong в выдаче не найден — ниша для получения дистрибьюции открыта (надо запросить у самой компании).",
+   "source": "https://product.statnano.com/product/9843 ; https://fenghong.en.alibaba.com/",
+   "date": "проверка 05.11.2026"
+  },
+  {
+   "company": "БПО Евразия-Снаб",
+   "partner": "Сайт eurasiasnab.ru (перечень брендов/партнёров)",
+   "claimed_by": "сайт компании",
+   "status": "не подтверждено",
+   "evidence": "05.11.2026: http://eurasiasnab.ru — 503/timeout. Последний снимок в Wayback — 05.10.2022 (archive.org/wayback/available), более ранний — 07.11.2018; сам web.archive.org из сессии недоступен (403). Сниппет выдачи: «Евразия Снаб» — поставки импортного оборудования, запчастей, редкоземельных металлов и химии для машиностроения, атомной, металлургической и нефтяной отрасли; office@eurasiasnab.ru. Конкретных брендов/дилерств в сниппете нет. Альтернативные домены (евразияснаб.рф) — не отвечают. ТОО «EurAsiaSnab» (Казахстан, БИН 180140023255) — другое юрлицо, связь не установлена.",
+   "source": "http://archive.org/wayback/available?url=eurasiasnab.ru ; http://eurasiasnab.ru/ ; https://kompra.kz/organization/180140023255",
+   "date": "05.11.2026"
+  },
+  {
+   "company": "БПО Евразия-Снаб",
+   "partner": "Упоминания «Eurasia-Snab»/«BPO Eurasia» у производителей, на выставках, в торговых базах",
+   "claimed_by": "проверка",
+   "status": "не подтверждено",
+   "evidence": "Поиск по volza/importgenius/panjiva/seair и общей выдаче — записей по названию нет; на конференции «Катализаторы 2025/2026» компания не значится.",
+   "source": "https://enleader.ru/kat2026",
+   "date": "05.11.2026"
+  }
+ ],
+ "where_to_get": [],
+ "how_to_request": [],
+ "sources": []
+}
