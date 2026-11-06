@@ -75,12 +75,15 @@ C = []  # pr, lot, close, company, role, email, phone, person, ask, file, verifi
 for r in S.iter_rows(min_row=2, values_only=True):
     if r[0] in GO:
         l = next(x for x in LOTS if x["n"] == r[0])
-        C.append([l["pr"], r[0], l["close"], r[1], "производитель / дилер", r[3], r[4], r[6], ASK.get(r[0], ""), r[9], r[8]])
+        C.append([l["pr"], r[0], l["close"], r[1], "производитель / дилер", r[3], r[4], r[6], ASK.get(r[0], ""), r[9], r[8], "kp_contacts.json (проверка 06.11)"])
 
+def st(x):
+    if x.get("verified"): return "да"
+    return "частично" if re.search(r"2 источника|2\+|2 сторонних", x.get("sources") or "") else "нет"
 def v(key, name, email, phone, site, person=None):
     x = VER.get(key)
     if x:
-        return (x.get("name") or name, x.get("email") or email, x.get("phone") or phone, x.get("person") or person, "да" if x.get("verified") else "нет", x.get("sources") or "")
+        return (x.get("name") or name, x.get("email"), x.get("phone"), x.get("person"), st(x), ((x.get("sources") or "") + ("; " + x["note"] if x.get("note") else "")))
     return (name, email, phone, person, "нет", "")
 
 # Россети СК — спецификация без цен + письма
@@ -130,7 +133,7 @@ for k, name, em, ph, gr in RM:
            "Добрый день!\n\nООО «ГИДРОПАС» — поставщик МТР для электросетевых компаний — готовит заявку на рамочную поставку линейной арматуры для ПАО «Россети Северный Кавказ» (ЕИС 32616499234): поставки по заявкам в течение года, 6 филиалов (Махачкала, Назрань, Нальчик, Черкесск, Владикавказ, Пятигорск), ГОСТ Р 51177-2017, УХЛ1, гарантия 5 лет.\n\n"
            f"Просим коммерческое предложение по позициям групп: {', '.join(GN[g] for g in gr)} — всего {cnt} позиций (вложение SPEC_ROSSETI_SK_927.xlsx, листы {', '.join(gr)}). Заполните, пожалуйста, цену за единицу с НДС, марку/производителя и срок отгрузки. "
            "Если какую-то позицию не производите — оставьте пустой. Также просим указать условия доставки до Пятигорска/Нальчика и наличие аттестации ПАО «Россети».")
-    C.append([2, "32616499234", "12.11 12:00", nm, "завод / дилер линейной арматуры", em, ph, person, f"Цены по {cnt} поз. (группы {gr}), доставка СКФО, аттестация Россети; вложить SPEC_ROSSETI_SK_927.xlsx", fn, ok])
+    C.append([2, "32616499234", "12.11 12:00", nm, "завод / дилер линейной арматуры", em, ph, person, f"Цены по {cnt} поз. (группы {gr}), доставка СКФО, аттестация Россети; вложить SPEC_ROSSETI_SK_927.xlsx", fn, ok, src])
 
 def nums(s):
     out = []
@@ -146,16 +149,17 @@ for k, s in zip(TK, TS):
     letter(fn, nm, em, ph, "Запрос КП — электроизоляционные материалы (Тулэнерго) — СРОЧНО",
            "Добрый день!\n\nООО «ГИДРОПАС» готовит заявку на поставку электроизоляционных материалов для филиала «Тулэнерго» ПАО «Россети Центр и Приволжье» (ЕИС 32616505169): поставки по заявкам до 31.12.2027, 10 дней с заявки, склады Тула, Новомосковск, Суворов, Ефремов. Просим цену за единицу с НДС с доставкой по позициям:",
            ["№", "Наименование", "Требование ТЗ", "Ед."], [(n, TULA_IT[n]["name"], TULA_IT[n].get("spec") or "", TULA_IT[n].get("unit")) for n in ps])
-    C.append([5, "32616505169", "09.11 10:00", nm, "производитель / дилер", em, ph, person, f"Цены по поз. {', '.join(map(str, ps)) or s.get('closes')}; № ПП 719 для изолент", fn, ok])
+    C.append([5, "32616505169", "09.11 10:00", nm, "производитель / дилер", em, ph, person, f"Цены по поз. {', '.join(map(str, ps)) or s.get('closes')}; № ПП 719 для изолент", fn, ok, src])
 
-for k, nm0 in (("18", "ООО «ХТТ» (Екатеринбург) — теплоносители на ПГ"),):
+x = VER.get("18")
+if x:
+    for c in C:
+        if c[1] == "32616523325" and "ХТТ" in str(c[3]):
+            c[3], c[5], c[6], c[7], c[10], c[11] = x["name"], x.get("email"), x.get("phone"), x.get("person"), st(x), (x.get("sources") or "") + "; " + (x.get("note") or "")
+for k in ("19a", "19b"):
     x = VER.get(k)
-    if x:
-        for c in C:
-            if c[1] == "32616523325" and "ХТТ" in str(c[3]): c[3], c[5], c[6], c[7], c[10] = x.get("name") or c[3], x.get("email"), x.get("phone"), x.get("person"), "да" if x.get("verified") else "нет"
-x = VER.get("19")
-C.append([6, "32616548412", "13.11 09:00", (x or {}).get("name") or "Дилер «Мозырьсоль» в Краснодаре («Автохимия 93», «АкваСоль»)", "дилер", (x or {}).get("email"), (x or {}).get("phone"), None,
-          "Цена таблетированной соли 16 т с доставкой по Краснодару — после прочтения ТЗ", "— (письмо после ТЗ)", "да" if (x or {}).get("verified") else "нет"])
+    if x: C.append([6, "32616548412", "13.11 09:00", x["name"], "продавец соли", x.get("email"), x.get("phone"), x.get("person"),
+                    "Цена таблетированной соли 16 т с доставкой по Краснодару — после прочтения ТЗ", "— (письмо после ТЗ)", st(x), (x.get("sources") or "") + "; " + (x.get("note") or "")])
 C.sort(key=lambda c: (c[0], c[3]))
 
 # ── 3. Excel ──
@@ -166,11 +170,11 @@ for l in LOTS:
     ws.append([l["pr"], l["dec"], l["n"], l["cust"], l["subj"], l["close"], l["nmc"], l["usn"], l["osno"], l["deliv"], l["terms"], l["sec"], l["pay"], l["todo"]])
     ws.cell(ws.max_row, 2).fill = PatternFill("solid", fgColor="c6efce" if l["dec"] == "ИДЁМ" else "e2efda" if l["dec"].startswith("ИДЁМ") else "fff2cc")
 for i, w in enumerate([8, 14, 13, 30, 34, 11, 20, 10, 10, 45, 55, 40, 25, 45], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
-s2 = wb.create_sheet("Кому писать"); s2.append(["Приоритет", "№ ЕИС", "Подача до", "Компания", "Роль", "E-mail", "Телефон", "Контактное лицо", "Что запросить", "Файл письма (ZAPROSY_KP_PROIZVODITELI/)", "Контакт подтверждён (2 источника)"])
+s2 = wb.create_sheet("Кому писать"); s2.append(["Приоритет", "№ ЕИС", "Подача до", "Компания", "Роль", "E-mail", "Телефон", "Контактное лицо", "Что запросить", "Файл письма (ZAPROSY_KP_PROIZVODITELI/)", "Контакт подтверждён (2 источника)", "Источники / примечание"])
 for c in C:
     s2.append(c)
-    if c[10] != "да": s2.cell(s2.max_row, 11).fill = PatternFill("solid", fgColor="fff2cc")
-for i, w in enumerate([8, 13, 11, 40, 22, 38, 30, 28, 55, 50, 12], 1): s2.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+    s2.cell(s2.max_row, 11).fill = PatternFill("solid", fgColor={"да": "c6efce", "частично": "fff2cc"}.get(c[10], "f8cbad"))
+for i, w in enumerate([8, 13, 11, 40, 22, 38, 30, 28, 55, 50, 12, 60], 1): s2.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 for s in wb:
     for c in s[1]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True)
 tidy(wb, row_h=75); wb.save("../KONTAKTY_ZAPROSY_MARZHA_0611.xlsx")
@@ -178,7 +182,7 @@ tidy(wb, row_h=75); wb.save("../KONTAKTY_ZAPROSY_MARZHA_0611.xlsx")
 # ── 4. PDF (2 стр.) ──
 e = lambda s: html.escape(str(s if s not in (None, "") else "—"))
 css = """@page{size:A4 landscape;margin:7mm}body{font-family:'DejaVu Sans',Arial,sans-serif;font-size:7px;color:#111;margin:0}h1{font-size:12px;margin:0 0 3px}h2{font-size:10px;margin:4px 0 2px}table{border-collapse:collapse;width:100%}
-th,td{border:1px solid #bbb;padding:1px 3px;vertical-align:top}th{background:#305496;color:#fff;text-align:left}.ok{background:#c6efce}.ok2{background:#e2efda}.warn{background:#fff2cc}.pb{page-break-before:always}"""
+th,td{border:1px solid #bbb;padding:1px 3px;vertical-align:top}th{background:#305496;color:#fff;text-align:left}.ok{background:#c6efce}.ok2{background:#e2efda}.warn{background:#fff2cc}.pb{page-break-before:always}.bad{background:#f8cbad}"""
 h = [f"<!DOCTYPE html><html><head><meta charset='utf-8'><style>{css}</style></head><body><h1>Маржинальные лоты: закупка, поставка, обеспечение, оплата (06.11.2026)</h1>",
      "<table><tr><th>№</th><th>Решение / лот</th><th>Подача</th><th>НМЦ</th><th>УСН / ОСНО −10 %</th><th>Поставка</th><th>Условия договора</th><th>Обеспечение</th><th>Оплата</th></tr>"]
 for l in LOTS:
@@ -187,7 +191,7 @@ for l in LOTS:
              f"<td>{e(l['deliv'])}</td><td>{e(l['terms'])}</td><td>{e(l['sec'])}</td><td>{e(l['pay'])}</td></tr>")
 h.append("</table><h2 class=pb>Кому писать (письма — папка ZAPROSY_KP_PROIZVODITELI)</h2><table><tr><th>Пр.</th><th>Лот / подача</th><th>Компания</th><th>E-mail</th><th>Телефон</th><th>Что запросить</th><th>2 ист.</th></tr>")
 for c in C:
-    h.append(f"<tr><td>{c[0]}</td><td>{c[1]}<br>{e(c[2])}</td><td>{e(str(c[3])[:70])}</td><td>{e(str(c[5] or '')[:60])}</td><td>{e(str(c[6] or '')[:40])}</td><td>{e(str(c[8])[:110])}</td><td class={'ok' if c[10]=='да' else 'warn'}>{e(c[10])}</td></tr>")
+    h.append(f"<tr><td>{c[0]}</td><td>{c[1]}<br>{e(c[2])}</td><td>{e(str(c[3])[:70])}</td><td>{e(str(c[5] or '')[:60])}</td><td>{e(str(c[6] or '')[:40])}</td><td>{e(str(c[8])[:110])}</td><td class={'ok' if c[10]=='да' else 'warn' if c[10]=='частично' else 'bad'}>{e(c[10])}</td></tr>")
 h.append("</table></body></html>")
 hp = "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/kontakty.html"
 open(hp, "w").write("".join(h)); html_to_pdf(hp, "../KONTAKTY_ZAPROSY_MARZHA_0611.pdf")
