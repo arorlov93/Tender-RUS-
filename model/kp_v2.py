@@ -49,4 +49,30 @@ for x in L:
     d.add_paragraph("\n" + x["ask"])
     d.add_paragraph("Также просим указать: условия оплаты (возможна ли отсрочка 30–60 дней после поставки), срок действия КП (не менее 60 дней), минимальную партию, возможность выдать письмо-авторизацию производителя под конкретную закупку.\n\nС уважением,\n[ФИО, должность]\nООО «ГИДРОПАС», info@gidropas.ru, [телефон]")
     d.add_paragraph(f"Закупка: № {x['lot']}").runs[0].italic = True
-d.save("../ZAPROSY_KP_TZ_0611.docx"); print("ok")
+d.save("../ZAPROSY_KP_TZ_0611.docx")
+# ── отдельное письмо каждому производителю ──
+import json, os, re
+CT = json.load(open("data/companies/kp_contacts.json")) if os.path.exists("data/companies/kp_contacts.json") else {}
+os.makedirs("../ZAPROSY_KP_PROIZVODITELI", exist_ok=True)
+idx = []
+for x in L:
+    for who in x["to"]:
+        name = who.split(" — ")[0].split(" (")[0].strip()
+        c = CT.get(name, {})
+        p = docx.Document(); p.styles["Normal"].font.name = "Calibri"; p.styles["Normal"].font.size = Pt(11)
+        p.add_paragraph(f"Кому: {who}\nE-mail: {c.get('email','[уточнить]')}   Тел.: {c.get('phone','[уточнить]')}")
+        p.add_paragraph(f"Тема: Запрос КП — {x['t'].split(' — ')[0]} — ответ до 11.11.2026").runs[0].bold = True
+        p.add_paragraph(f"Добрый день!\n\nООО «ГИДРОПАС» [ИНН ___] — поставщик материально-технических ресурсов для предприятий энергетики и ЖКХ — просит {name} направить коммерческое предложение на поставку продукции для участия в закупке. Требования к продукции:")
+        p.add_paragraph(x["spec"])
+        t = p.add_table(rows=1, cols=3); t.style = "Light Grid Accent 1"
+        for i, cc in enumerate(["Адрес поставки", "Количество", "Срок поставки"]): t.rows[0].cells[i].text = cc
+        for a, b, cc in x["rows"]:
+            r = t.add_row().cells; r[0].text = a; r[1].text = b; r[2].text = cc
+        p.add_paragraph("\n" + x["ask"])
+        p.add_paragraph("Также просим указать: условия оплаты (возможна ли отсрочка 30–60 дней после поставки), срок действия КП (не менее 60 дней), минимальную партию, возможность выдать письмо-авторизацию производителя под конкретную закупку.\n\nС уважением,\n[ФИО, должность]\nООО «ГИДРОПАС», info@gidropas.ru, [телефон]")
+        fn = re.sub(r"[^\w\-]+", "_", f"{x['lot'][:11]}_{name}")[:80] + ".docx"
+        p.save("../ZAPROSY_KP_PROIZVODITELI/" + fn); idx.append((x["lot"][:11], name, c.get("email", ""), c.get("phone", ""), fn))
+import openpyxl
+wb = openpyxl.Workbook(); ws = wb.active; ws.append(["Лот", "Производитель", "E-mail", "Телефон", "Файл письма"]); [ws.append(list(i)) for i in idx]
+for col, w in zip("ABCDE", (14, 50, 36, 26, 60)): ws.column_dimensions[col].width = w
+wb.save("../ZAPROSY_KP_PROIZVODITELI/_SPISOK.xlsx"); print("ok", len(idx))
