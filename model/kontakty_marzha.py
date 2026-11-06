@@ -161,6 +161,39 @@ for k in ("19a", "19b"):
     if x: C.append([6, "32616548412", "13.11 09:00", x["name"], "продавец соли", x.get("email"), x.get("phone"), x.get("person"),
                     "Цена таблетированной соли 16 т с доставкой по Краснодару — после прочтения ТЗ", "— (письмо после ТЗ)", st(x), (x.get("sources") or "") + "; " + (x.get("note") or "")])
 C.sort(key=lambda c: (c[0], c[3]))
+# ── тема и текст письма под каждый контакт (из docx писем) ──
+from docx.oxml.ns import qn
+def letter_text(fn):
+    if not fn or not str(fn).endswith(".docx") or not os.path.exists(OUT + fn): return None, None
+    d = docx.Document(OUT + fn); parts = []
+    for el in d.element.body:
+        if el.tag == qn("w:p"):
+            parts.append("".join((x.text or "") if x.tag == qn("w:t") else "\n" for x in el.iter(qn("w:t"), qn("w:br"))))
+        elif el.tag == qn("w:tbl"):
+            for i, tr in enumerate(el.iter(qn("w:tr"))):
+                cells = ["".join(t.text or "" for t in tc.iter(qn("w:t"))) for tc in tr.iter(qn("w:tc"))]
+                parts.append(("" if i == 0 else "• ") + " — ".join(c for c in cells if c))
+    txt = "\n".join(parts); subj = None; body = []
+    for line in txt.split("\n"):
+        if line.startswith("Тема:") and subj is None: subj = line[5:].strip(); continue
+        if subj is not None: body.append(line)
+    return subj, "\n".join(body).strip()
+SALT = ("Запрос цены — соль таблетированная 16 т с доставкой по Краснодару",
+        "Добрый день!\n\nООО «ГИДРОПАС» готовит заявку на аукцион ООО «Водоканал Восток» (Краснодар, ЕИС 32616548412, подача 13.11.2026): соль таблетированная для водоподготовки, 16 000 кг. "
+        "Просим сообщить цену за кг (с НДС / без НДС) с доставкой по Краснодару одной партией, производителя (Мозырьсоль или иное), фасовку (мешки 25 кг), наличие на складе и срок отгрузки, сертификат/декларацию соответствия, условия оплаты (возможна ли отсрочка). "
+        "Если вы официальный дилер ОАО «Мозырьсоль» — просим подтвердить дилерским письмом.\n\nС уважением,\nООО «ГИДРОПАС» [ИНН ___]\ninfo@gidropas.ru, [телефон]")
+EN = ("RFQ — Coconut shell granular activated carbon, 6 t, delivery to Russia (Nyagan) — reply by 11.11.2026",
+      "Dear Sirs,\n\nGIDROPAS LLC (Russia) is preparing a bid for a power plant tender (Forward Energo, Nyagan GRES; delivery by 11.05.2027) and requests your quotation for coconut shell granular activated carbon:\n"
+      "• Quantity: 6,000 kg (one shipment)\n• Particle size 1.2–2.5 mm (≈8×16 mesh), not less than 90 %\n• Iodine number ≥ 1050 mg/g\n• BET surface area ≥ 1100 m²/g\n• Apparent (bulk) density 480 ± 25 kg/m³\n• Moisture and ash ≤ 5 %\n• Application: polishing of condensate / water treatment\n\n"
+      "Please provide: price per kg (FOB China port and, if possible, DAP Moscow or CIF St. Petersburg / via rail to Russia), grade name, certificate of analysis (COA) of a recent batch showing iodine number, BET and bulk density, packaging (25 kg bags / big bags), lead time, minimum order, payment terms (in CNY/USD), and whether you can issue an authorization letter for this tender.\n\n"
+      "Best regards,\nGIDROPAS LLC\ninfo@gidropas.ru, [phone]")
+for c in C:
+    sj, bd = letter_text(c[9])
+    if bd: bd = re.sub(r"просит .{0,120}? направить", "просит Вас направить", bd, count=1)
+    if any(k in str(c[3]) for k in ("Fujian", "Xiamen")): sj, bd = EN
+    if c[1] == "32616548412": sj, bd = SALT
+    c += [sj or "", bd or ""]
+
 
 # ── 3. Excel ──
 wb = openpyxl.Workbook(); ws = wb.active; ws.title = "Лоты (8)"
@@ -170,14 +203,28 @@ for l in LOTS:
     ws.append([l["pr"], l["dec"], l["n"], l["cust"], l["subj"], l["close"], l["nmc"], l["usn"], l["osno"], l["deliv"], l["terms"], l["sec"], l["pay"], l["todo"]])
     ws.cell(ws.max_row, 2).fill = PatternFill("solid", fgColor="c6efce" if l["dec"] == "ИДЁМ" else "e2efda" if l["dec"].startswith("ИДЁМ") else "fff2cc")
 for i, w in enumerate([8, 14, 13, 30, 34, 11, 20, 10, 10, 45, 55, 40, 25, 45], 1): ws.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
-s2 = wb.create_sheet("Кому писать"); s2.append(["Приоритет", "№ ЕИС", "Подача до", "Компания", "Роль", "E-mail", "Телефон", "Контактное лицо", "Что запросить", "Файл письма (ZAPROSY_KP_PROIZVODITELI/)", "Контакт подтверждён (2 источника)", "Источники / примечание"])
+s2 = wb.create_sheet("Кому писать"); s2.append(["Приоритет", "№ ЕИС", "Подача до", "Компания", "Роль", "E-mail", "Телефон", "Контактное лицо", "Что запросить", "Файл письма (ZAPROSY_KP_PROIZVODITELI/)", "Контакт подтверждён (2 источника)", "Источники / примечание", "Тема письма", "Текст письма (копировать в e-mail)"])
 for c in C:
     s2.append(c)
     s2.cell(s2.max_row, 11).fill = PatternFill("solid", fgColor={"да": "c6efce", "частично": "fff2cc"}.get(c[10], "f8cbad"))
-for i, w in enumerate([8, 13, 11, 40, 22, 38, 30, 28, 55, 50, 12, 60], 1): s2.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
+for i, w in enumerate([8, 13, 11, 40, 22, 38, 30, 28, 55, 50, 12, 60, 50, 110], 1): s2.column_dimensions[openpyxl.utils.get_column_letter(i)].width = w
 for s in wb:
     for c in s[1]: c.font = Font(bold=True, color="FFFFFF"); c.fill = PatternFill("solid", fgColor="305496"); c.alignment = Alignment(wrap_text=True)
-tidy(wb, row_h=75); wb.save("../KONTAKTY_ZAPROSY_MARZHA_0611.xlsx")
+tidy(wb, row_h=75)
+for row in s2.iter_rows(min_row=2):
+    row[13].alignment = Alignment(wrap_text=True, vertical="top")
+    s2.row_dimensions[row[0].row].height = 300
+wb.save("../KONTAKTY_ZAPROSY_MARZHA_0611.xlsx")
+P = docx.Document(); P.styles["Normal"].font.name = "Calibri"; P.styles["Normal"].font.size = Pt(10.5)
+P.add_heading("Письма-запросы КП по маржинальным лотам — под каждый контакт (06.11.2026)", 0)
+P.add_paragraph("Отправлять с info@gidropas.ru. Реквизиты в [ ] заполнить. Контакт «нет»/«частично» — перед отправкой при возможности позвонить.")
+for c in C:
+    P.add_page_break(); P.add_heading(f"{c[3]}", 1)
+    P.add_paragraph(f"Лот {c[1]} (подача {c[2]}) · подтверждение контакта: {c[10]}")
+    P.add_paragraph(f"Кому (e-mail): {c[5] or '— e-mail не найден, звонить'}\nТелефон: {c[6] or '—'}" + (f"\nКонтактное лицо: {c[7]}" if c[7] else ""))
+    P.add_paragraph("Тема: " + c[12]).runs[0].bold = True
+    P.add_paragraph(c[13])
+P.save("../PISMA_KP_MARZHA_0611.docx")
 
 # ── 4. PDF (2 стр.) ──
 e = lambda s: html.escape(str(s if s not in (None, "") else "—"))
@@ -189,9 +236,9 @@ for l in LOTS:
     c = "ok" if l["dec"] == "ИДЁМ" else "ok2" if l["dec"].startswith("ИДЁМ") else "warn"
     h.append(f"<tr><td>{l['pr']}</td><td class={c}><b>{e(l['dec'])}</b><br>{e(l['subj'])}<br><i>{e(l['cust'])}</i><br>{l['n']}</td><td>{e(l['close'])}</td><td>{e(l['nmc'])}</td><td><b>{e(l['usn'])}</b> / {e(l['osno'])}</td>"
              f"<td>{e(l['deliv'])}</td><td>{e(l['terms'])}</td><td>{e(l['sec'])}</td><td>{e(l['pay'])}</td></tr>")
-h.append("</table><h2 class=pb>Кому писать (письма — папка ZAPROSY_KP_PROIZVODITELI)</h2><table><tr><th>Пр.</th><th>Лот / подача</th><th>Компания</th><th>E-mail</th><th>Телефон</th><th>Что запросить</th><th>2 ист.</th></tr>")
+h.append("</table><h2 class=pb>Кому писать (письма — папка ZAPROSY_KP_PROIZVODITELI)</h2><table><tr><th>Пр.</th><th>Лот / подача</th><th>Компания</th><th>E-mail</th><th>Телефон</th><th>Тема письма</th><th>2 ист.</th></tr>")
 for c in C:
-    h.append(f"<tr><td>{c[0]}</td><td>{c[1]}<br>{e(c[2])}</td><td>{e(str(c[3])[:70])}</td><td>{e(str(c[5] or '')[:60])}</td><td>{e(str(c[6] or '')[:40])}</td><td>{e(str(c[8])[:110])}</td><td class={'ok' if c[10]=='да' else 'warn' if c[10]=='частично' else 'bad'}>{e(c[10])}</td></tr>")
+    h.append(f"<tr><td>{c[0]}</td><td>{c[1]}<br>{e(c[2])}</td><td>{e(str(c[3])[:70])}</td><td>{e(str(c[5] or '')[:60])}</td><td>{e(str(c[6] or '')[:40])}</td><td>{e(str(c[12])[:120])}</td><td class={'ok' if c[10]=='да' else 'warn' if c[10]=='частично' else 'bad'}>{e(c[10])}</td></tr>")
 h.append("</table></body></html>")
 hp = "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/kontakty.html"
 open(hp, "w").write("".join(h)); html_to_pdf(hp, "../KONTAKTY_ZAPROSY_MARZHA_0611.pdf")
