@@ -32,9 +32,11 @@ G = {
 }
 EN = {"ntf": ("ATMP (amino trimethylene phosphonic acid) 95 % powder", [("Vladimir region, Russia", "14 t", "2027, 25 kg bags")])}
 # компания (номер в списке агента) → товары
-MAP = {"1": ["soda", "natr"], "2": ["soda"], "3": ["soda", "natr", "tio"], "4": ["natr", "gipo"], "5": ["natr", "gipo"], "6": ["natr"], "7": ["natr"], "8": ["gipo"], "9": ["gipo", "ntf", "sa"],
+MAP = {"1": ["soda", "natr"], "2": ["soda"], "3": ["soda", "natr", "tio"], "4": ["natr", "gipo"], "5": ["natr", "gipo"], "6": ["natr"], "7": ["natr"], "8": ["gipo"], "9": ["gipo", "ntf", "sa", "tio"],
        "10": ["tio"], "11": ["ntf"], "12": ["sa"], "13": ["tnf"]}
+SKIP = {"10a", "12b", "13a"}  # 10a — дубль Аквахим (key 9); БИАКР и Ветлужский ХЗ — контакты не найдены (ТНФ — через ТД «Химспециализация»)
 def prods(c):
+    if str(c.get("key")) in SKIP: return []
     k = re.match(r"\d+", str(c.get("key")) or "")
     return MAP.get(k.group(0) if k else "", [])
 
