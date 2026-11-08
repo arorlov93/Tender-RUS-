@@ -44,8 +44,8 @@ d.add_paragraph("\nDate: ____________        Signature: ____________        Stam
 d.save("../ISP_GROUP_COMPANY_PROFILE.docx")
 
 e = html.escape
-css = """body{font-family:'DejaVu Sans',Arial,sans-serif;font-size:11px;color:#111;margin:20px 30px}h1{font-size:18px;color:#1f3864;margin:0 0 4px}.sub{color:#555;margin-bottom:12px}
-table{border-collapse:collapse;width:100%}td{border:1px solid #c9d3e6;padding:6px 8px;vertical-align:top}td.k{width:32%;background:#f3f6fb;font-weight:bold}tr.s td{background:#305496;color:#fff;font-weight:bold}.ph{color:#c00000}.sig{margin-top:28px}"""
+css = """body{font-family:'DejaVu Sans',Arial,sans-serif;font-size:10px;color:#111;margin:10px 20px}h1{font-size:18px;color:#1f3864;margin:0 0 4px}.sub{color:#555;margin-bottom:12px}
+table{border-collapse:collapse;width:100%}td{border:1px solid #c9d3e6;padding:4px 6px;vertical-align:top}td.k{width:32%;background:#f3f6fb;font-weight:bold}tr.s td{background:#305496;color:#fff;font-weight:bold}.ph{color:#c00000}.sig{margin-top:28px}"""
 rows = []
 for k, v in ROWS:
     if v is None: rows.append(f"<tr class=s><td colspan=2>{e(k)}</td></tr>")
