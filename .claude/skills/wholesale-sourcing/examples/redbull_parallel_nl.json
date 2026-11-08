@@ -1,0 +1,46 @@
+{
+ "title": "Red Bull 250 мл, Parallelbroker €0,91/банка EXW Horst NL",
+ "supplier": "Parallelbroker, лучшее из 12 предложений, MOQ 33 паллеты, EXW Horst (NL), эскроу Parallel B.V.",
+ "note": "Фрахт, брокер, агент, стикеровка — оценка. Акциз РБ заложен как невозвратный. Ставки сверять с брокером.",
+ "route": "BY",
+ "fx": {
+  "EUR": 92.1924,
+  "BYN": 27.4518,
+  "_source": "ЦБ РФ 07.11.2026"
+ },
+ "items": [
+  {
+   "name": "Red Bull 250 мл Classic (4-pack) €0,91",
+   "cases": 3564,
+   "units_per_case": 24,
+   "price_eur_per_case": 21.84,
+   "litres_per_unit": 0.25,
+   "rf_excise": true,
+   "by_excise": true
+  }
+ ],
+ "rates": {
+  "bank_agent": 0.04,
+  "duty": 0.08,
+  "duty_min_eur_per_l": 0.03,
+  "by_excise_byn_per_l": 0.5,
+  "by_vat": 0.2,
+  "by_importer": 0.03,
+  "rf_excise_rub_per_l": 11,
+  "rf_vat": 0.22,
+  "sticker": 1.2,
+  "marking_code": 0.73,
+  "warehouse": 0.5,
+  "_sources": "пошлина 2202 99 180 0 — tws.by (8 %, не менее 0,03 €/л); акциз РБ на энергетики 0,5 BYN/л с 2026 — myfin.by; акциз РФ на сахаросодержащие 11 ₽/л с 2026 — dairynews (сверить со ст. 193 НК); «Честный знак» 0,60 ₽ + НДС"
+ },
+ "freight": {
+  "to_eaeu_eur": 3000,
+  "to_moscow_rub": 100000,
+  "_note": "одна тяжёлая фура ≈24 т, оценка"
+ },
+ "fixed": {
+  "by_rub": 63143,
+  "rf_rub": 68530,
+  "_note": "РБ: сбор 100 + брокер 400 + СВХ 300 + декларация 1500 BYN; РФ: брокер + таможенный сбор"
+ }
+}
