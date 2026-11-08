@@ -77,7 +77,8 @@ def text(ps):
 rows = []
 for k, ps, cc in TO:
     c = CT[k]
-    subj = "Запрос КП — " + "; ".join(sorted({POS[p][0].split(",")[0].replace(" техническ", "").split(" марки")[0].split(" марка")[0] for p in ps})) + " — ООО «ГИДРОПАС»"
+    SH = {"natr": "натр едкий РД", "sa": "сульфат алюминия высший сорт", "soda_vte": "сода кальцинированная", "soda_nov": "сода кальцинированная", "soda_ufa": "сода кальцинированная", "gipo": "гипохлорит натрия марки А"}
+    subj = "Запрос КП — " + ", ".join(sorted({SH[p] for p in ps})) + " — ООО «ГИДРОПАС»"
     if "natr" in ps: subj = "СРОЧНО: " + subj
     body = text(ps)
     d = docx.Document(); d.styles["Normal"].font.name = "Calibri"; d.styles["Normal"].font.size = Pt(11)
