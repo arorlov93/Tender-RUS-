@@ -1,0 +1,26 @@
+{
+ "checked": "OFAC SDN list (treasury.gov/ofac/downloads/sdn.csv), 2026-11-09",
+ "results": {
+  "TAIHE": "no match",
+  "KAIRUI": "no match",
+  "XINTAI": "no match",
+  "AIERFUKE": "no match",
+  "GUJARAT ALKALIES": "no match",
+  "NAVOIYAZOT": "no match",
+  "WE SODA": "no match",
+  "ETI SODA": "no match",
+  "SNF": "false positive (substring)",
+  "SUQING": "no match",
+  "SUNRESIN": "no match",
+  "ION EXCHANGE": "false positives (other names)",
+  "HAYCARB": "no match",
+  "SHIDA SHINGHWA": "no match",
+  "INDIA GLYCOLS": "no match",
+  "CHEMTEX": "no match",
+  "FINEOTEX": "no match",
+  "RIMPRO": "no match",
+  "JIANLONG": "no match",
+  "HENGYE": "name-similar entry HENGYE TECH LIMITED (HK, RUSSIA-EO14024, est. 2021) — different company from Shanghai Hengye Molecular Sieve / HengYe Inc. (Houston); verify legal entity",
+  "HENGFENG": "no match"
+ }
+}
