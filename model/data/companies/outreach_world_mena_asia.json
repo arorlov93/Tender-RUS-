@@ -1,0 +1,658 @@
+[
+ {
+  "company": "Bimaks Kimya ve Gida Dis Ticaret A.S. (BIMAKS Chemical)",
+  "country": "Turkey",
+  "city": "Istanbul (Umraniye)",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://www.bimakskimya.com.tr/en/contact",
+  "procurement_email": "info@bimakskimya.com",
+  "other_emails": "export@bimakskimya.com.tr",
+  "phone": "+90 850 522 71 04",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.bimakskimya.com.tr/en/contact",
+   "https://www.bimakskimya.com.tr",
+   "https://water-equipment-registry.pages.dev/manufacturer/bimaks-kimya-ve-gida-dis-ticaretanonim-sirketi/"
+  ],
+  "verified": true,
+  "note": "Own-brand formulator of RO antiscalants (MAKS series, NSF-listed), boiler/cooling and geothermal scale inhibitors; sells via export dealer network -> buys ATMP/HEDP/PBTC/DTPMPA as raw material. Registry listing shows same email and phone +90-850-522-71-04; registry is a third-party aggregator (pages.dev) - treat as secondary. Do not confuse with bimaks.com.tr (machinery maker, unrelated). OFAC SDN check: no match (an unrelated machine-tool firm BIMAKSAN is listed - different company)."
+ },
+ {
+  "company": "SUWELL Su Teknolojileri Muhendislik San. Tic. Ltd. Sti.",
+  "country": "Turkey",
+  "city": "Bandirma / Balikesir",
+  "buyer_type": "EPC/O&M",
+  "products": "both",
+  "proof_url": "https://members.isib.org.tr/product/suwell-su-teknolojileri-muhendislik-sanayi-ticaret-ltd-sti-water-treatment-chemicals-2656",
+  "procurement_email": "mehmetbilek@suwell.com.tr",
+  "other_emails": "info@suwell.com.tr (own site)",
+  "phone": "+90 545 965 5800",
+  "contact_person": "Mehmet Bilek (per ISIB member profile e-mail)",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://members.isib.org.tr/company/suwell-su-teknolojileri-muhendislik-sanayi-ticaret-ltd-sti",
+   "https://members.isib.org.tr/product/suwell-su-teknolojileri-muhendislik-sanayi-ticaret-ltd-sti-softening-resin-2665",
+   "https://www.suwell.com.tr/"
+  ],
+  "verified": false,
+  "note": "Exporting member of ISIB (Turkish HVAC-R exporters' association): RO/UF/EDI plants, softening resin, RO chemicals and antiscalants, WWTPs. Different e-mails on ISIB vs own site (same domain), so not double-verified."
+ },
+ {
+  "company": "DESER Kimya (DESER Ltd)",
+  "country": "Turkey",
+  "city": "Ankara",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://www.deserchemistry.com/",
+  "procurement_email": "ankara@deserkimya.com",
+  "other_emails": "i.ortakci@deserkimya.com (ISIB profile)",
+  "phone": "+90 312 287 53 55",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.deserchemistry.com/",
+   "https://members.isib.org.tr/company/deser"
+  ],
+  "verified": false,
+  "note": "Produces and imports water treatment chemicals (heating/cooling system inhibitors, dosing equipment; BASF antifreeze/corrosion-inhibitor distributor). ISIB profile lists a different mailbox and phone +90 310 287 5355 (likely a typo of the Ankara 312 number). Phosphonate buyer for inhibitor blends."
+ },
+ {
+  "company": "Arabian Water FZE",
+  "country": "UAE",
+  "city": "Ras Al Khaimah",
+  "buyer_type": "EPC/O&M",
+  "products": "both",
+  "proof_url": "https://arabianwater.ae/products/",
+  "procurement_email": "awtreat@eim.ae",
+  "other_emails": "",
+  "phone": "+971 7 244 4094",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.arabianwater.ae",
+   "https://www.yellowpages-uae.com/uae/water-treatment-chemicals"
+  ],
+  "verified": true,
+  "note": "Manufacturer of water treatment plants, deionizers and softeners plus water treatment chemicals (listed under Water Treatment Chemicals in UAE Yellow Pages) -> consumes cation/anion resins and antiscalants. Same email and phone in both sources."
+ },
+ {
+  "company": "HydroGuard Enviro Solutions FZ LLC (HydroGuardME)",
+  "country": "UAE",
+  "city": "Ras Al Khaimah",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://hydroguardme.com/chemical-treatment/cooling-water-treatment/",
+  "procurement_email": "info@hydroguardme.com",
+  "other_emails": "sales1@hydroguardme.com",
+  "phone": "+971 7 235 6100",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://hydroguardme.com",
+   "https://www.yellowpages-uae.com/uae/water-treatment-chemicals"
+  ],
+  "verified": true,
+  "note": "Water treatment chemical supplier/service company (boiler, cooling, chilled-water, RO programs) in UAE with an Oman affiliate (Hydroguard Environmental Solutions LLC, Muscat). Likely buys HEDP/ATMP/PBTC for blending cooling and boiler programs. info@ confirmed in both sources; phone only on own site."
+ },
+ {
+  "company": "Al Khowahir Chemicals Materials Trading LLC",
+  "country": "UAE",
+  "city": "Sharjah",
+  "buyer_type": "distributor",
+  "products": "phosphonates",
+  "proof_url": "https://www.khowahir.com",
+  "procurement_email": "info@khowahir.com",
+  "other_emails": "",
+  "phone": "+971 6 542 4116",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.khowahir.com",
+   "https://www.yellowpages-uae.com/uae/water-treatment-chemicals"
+  ],
+  "verified": true,
+  "note": "Chemical trader listing 'Water Treatment Chemicals' as a product group (site also lists polyester/epoxy resins - not IX). Approach as phosphonate distributor. Email and phone (06-5424116) match in both sources."
+ },
+ {
+  "company": "Corodex Trading Company LLC (Concorde-Corodex Group)",
+  "country": "UAE",
+  "city": "Dubai (Al Quoz Industrial Area 3)",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://www.concordetrading.com",
+  "procurement_email": "sales@corodex.com",
+  "other_emails": "a.sabbah@corodex.com (Yellow Pages UAE); sales@concordeuae.com (Concorde Trading, Abu Dhabi)",
+  "phone": "+971 4 347 2900",
+  "contact_person": "A. Sabbah (per Yellow Pages UAE email handle; full name not published)",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.concordetrading.com/contact-us",
+   "https://www.yellowpages-uae.com/uae/purolite-industrial-chemical-products"
+  ],
+  "verified": false,
+  "note": "Listed in UAE Yellow Pages as Purolite ion exchange resin distributor; group's Water Treatment Chemicals Division supplies chiller/boiler/cooling chemicals. Phone 04-3472900 confirmed in both sources, but each source shows a different e-mail, so e-mail not double-verified. Ideal for a second-source resin offer (001x7/201x7/D301)."
+ },
+ {
+  "company": "Dutco Tennant LLC",
+  "country": "UAE",
+  "city": "Dubai",
+  "buyer_type": "distributor",
+  "products": "phosphonates",
+  "proof_url": "https://www.dutcotennant.com/antiscalants-chemicals",
+  "procurement_email": "info@dutcotennant.com",
+  "other_emails": "",
+  "phone": "+971 4 2236193",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.dutcotennant.com/antiscalants-chemicals",
+   "https://www.dutcotennant.com/contact-us"
+  ],
+  "verified": false,
+  "note": "Industrial distributor with Water Treatment Chemicals division (RO antiscalants, polyelectrolytes, performance chemicals; NSF-certified lines). Buys finished antiscalants and possibly HEDP/ATMP for re-sale. Only own-site source found."
+ },
+ {
+  "company": "Dubi Chem Marine International",
+  "country": "UAE",
+  "city": "Fujairah / Dubai",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://dubichem.com",
+  "procurement_email": "dubichemical@gmail.com",
+  "other_emails": "",
+  "phone": "+971 9 223 5488",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://dubichem.com/contact-us"
+  ],
+  "verified": false,
+  "note": "Marine/industrial chemical manufacturer doing toll blending; sells scale inhibitors, corrosion & scale inhibitors for cooling towers, RO antiscalant. Uses a Gmail address (customer support) - low-trust; only own-site source."
+ },
+ {
+  "company": "SHAS Water Technology (Shas Water)",
+  "country": "Saudi Arabia",
+  "city": "Riyadh",
+  "buyer_type": "EPC/O&M",
+  "products": "both",
+  "proof_url": "https://shaswatertech.com",
+  "procurement_email": "info@shaswatertech.com",
+  "other_emails": "",
+  "phone": "+966 11 4150824",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://shaswatertech.com/contact-us",
+   "https://aquaenergyexpo.com/storage/images/companies/pdfs/20240923231905_Shas%20profile.pdf"
+  ],
+  "verified": true,
+  "note": "Contractor (design, supply, O&M/AMC) for BWRO/SWRO, ion-exchange demineralizers and softeners; exhibitor profile lists antiscalant, ion exchange resin, softener resins as products supplied. Buys resins and antiscalants for O&M contracts. P.O. Box 65748 Riyadh 11566."
+ },
+ {
+  "company": "Al-Jazira Water Treatment Chemicals (AHQ Group)",
+  "country": "Saudi Arabia",
+  "city": "Dammam (Dammam-Jubail highway)",
+  "buyer_type": "formulator",
+  "products": "both",
+  "proof_url": "https://aquaenergyexpo.com/storage/images/companies/pdfs/20240825205448_Al%20Jazira%20Water%20Treatment%20Chemicals%20Profile.pdf",
+  "procurement_email": "info@al-jazirachemicals.com",
+  "other_emails": "info@aljazira.com (shown on parent AHQ group page)",
+  "phone": "+966 13 856 2573",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://aquaenergyexpo.com/storage/images/companies/pdfs/20240825205448_Al%20Jazira%20Water%20Treatment%20Chemicals%20Profile.pdf",
+   "https://ahqsons.com/al-jazira-water-treatment-chemicals/"
+  ],
+  "verified": false,
+  "note": "Saudi manufacturer (since 1985) of NSF-approved antiscalant blends, boiler/cooling chemicals; profile also lists ion exchange and chelating resins. Strong phosphonate raw-material buyer. Email differs between the two sources (own site al-jazirachemicals.com is 'coming soon'), so not verified - call first."
+ },
+ {
+  "company": "Ion Exchange Arabia for Water (Arab Ion Exchange for Water)",
+  "country": "Saudi Arabia",
+  "city": "Dammam",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://sa.ionexchangeglobal.com/",
+  "procurement_email": "sales@ionexchangeglobal.com",
+  "other_emails": "",
+  "phone": "+966 505879164",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://sa.ionexchangeglobal.com/",
+   "https://sa.ionexchangeglobal.com/contact-us/"
+  ],
+  "verified": false,
+  "note": "Has a chemical blending facility in Dammam (antiscalants, specialty chemicals) -> phosphonate buyer. Part of Ion Exchange (India) group which makes its own INDION resins, so not a resin prospect. Email only on group sites (one source)."
+ },
+ {
+  "company": "ACWA Power",
+  "country": "Saudi Arabia",
+  "city": "Riyadh",
+  "buyer_type": "end user",
+  "products": "both",
+  "proof_url": "https://eprocurement.acwapower.com/web/login.html",
+  "procurement_email": "",
+  "other_emails": "",
+  "phone": "",
+  "contact_person": "",
+  "supplier_registration_url": "https://eprocurement.acwapower.com/web/login.html",
+  "sources": [
+   "https://eprocurement.acwapower.com/web/login.html"
+  ],
+  "verified": false,
+  "note": "Developer/operator of large IWP/IWPP desalination and power plants across GCC, Egypt, Morocco, South Africa, Uzbekistan; consumes antiscalants and IX resins (via O&M arm NOMAC). Register on the eProcurement portal; no procurement e-mail published."
+ },
+ {
+  "company": "Green Water Treatment Services (Green WTS)",
+  "country": "Oman",
+  "city": "Muscat",
+  "buyer_type": "formulator",
+  "products": "both",
+  "proof_url": "https://www.greenwts.com/",
+  "procurement_email": "info@greenwts.com",
+  "other_emails": "",
+  "phone": "+968 9741 0753 (OmanYP) / +968 9552 6718 (own site)",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.greenwts.com/",
+   "https://omanyp.com/company/16136/Green_Water_Treatment_Services"
+  ],
+  "verified": false,
+  "note": "Supplies industrial water treatment chemicals incl. RO antiscalant, RO plants, cooling-tower treatment across Oman/UAE/Qatar. Directory confirms company and website but lists a different phone and no e-mail -> unverified."
+ },
+ {
+  "company": "Chemtech Trading & Contracting WLL",
+  "country": "Qatar",
+  "city": "Doha (St 420, Bldg 94, Zone 55, Al Azizia)",
+  "buyer_type": "distributor",
+  "products": "phosphonates",
+  "proof_url": "https://www.qataroilandgasdirectory.com/blogs/water-treatment-chemicals-in-doha-qatar",
+  "procurement_email": "",
+  "other_emails": "",
+  "phone": "+974 4465 1234",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.qataroilandgasdirectory.com/company/chemtech-trading-contg-wll",
+   "https://www.qataroilandgasdirectory.com/blogs/water-treatment-chemicals-in-doha-qatar"
+  ],
+  "verified": false,
+  "note": "Listed by Qatar Oil & Gas Directory among Water Treatment Chemicals suppliers in Doha (also industrial cleaning chemicals). No website or e-mail found; phone only. Weak lead - call first."
+ },
+ {
+  "company": "Pyramid Oilfield Supply Co. (POSCO) - Water Treatment Section / Pyramid Water Solutions",
+  "country": "Egypt",
+  "city": "Cairo (6A Sakhawi St., Manshiet El-Bakry)",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://www.aquaenergyexpo.com/storage/images/companies/pdfs/20250501130731_PyramidWaterSolutions.pdf",
+  "procurement_email": "Posco@pyramid.com.eg",
+  "other_emails": "",
+  "phone": "+20 2 2574830; +20 2 24531137/38/39",
+  "contact_person": "Hany Harby (Purolite requests, per a LinkedIn post - not opened, unconfirmed)",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://aquaenergyexpo.com/storage/images/companies/pdfs/20221204050453_POSCO%20Profile%202022.pdf",
+   "https://www.aquaenergyexpo.com/storage/images/companies/pdfs/20250501130731_PyramidWaterSolutions.pdf"
+  ],
+  "verified": false,
+  "note": "Official Purolite resin distributor in Egypt (strong/weak acid cation & anion, mixed bed, chelating) and supplier of RO antiscalants/biocides; also does resin regeneration. Email appears in two company profiles (2022, 2025) but both on the same expo platform; official site pyramid.com.eg not reachable - treat as unverified."
+ },
+ {
+  "company": "Chimi Art",
+  "country": "Egypt",
+  "city": "Cairo",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://www.chimiart.com/en/products",
+  "procurement_email": "sales@chimiart.com",
+  "other_emails": "chimiart@chimiart.com; info@chimiart.com (Aqua Energy Expo profile)",
+  "phone": "+20 2 2528 6322",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.chimiart.com/contact-us",
+   "https://aquaenergyexpo.com/server.php/view_company/264/CHIMI%20ART"
+  ],
+  "verified": false,
+  "note": "Egyptian manufacturer of water treatment chemicals since 1977 (ferric chloride, PAC, corrosion inhibitors, cooling-water & boiler programs) -> phosphonate raw-material buyer. Phone confirmed in both sources; e-mails differ between sources (same domain)."
+ },
+ {
+  "company": "VADEC",
+  "country": "Morocco",
+  "city": "Casablanca (Sidi Othman)",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://www.telecontact.ma/annonceur/vadec/9060892/casablanca.php",
+  "procurement_email": "info@vadec.ma",
+  "other_emails": "",
+  "phone": "+212 522 899801",
+  "contact_person": "Zouhair Chakir (SMAGUA 2025 B2B profile)",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.vadec.ma",
+   "https://www.telecontact.ma/annonceur/vadec/9060892/casablanca.php",
+   "https://www.b2match.com/e/smagua-2025/participants/2784835"
+  ],
+  "verified": false,
+  "note": "Water treatment equipment + chemicals company; Telecontact lists sale of coagulants, flocculants, antiscalants, biocides. At SMAGUA 2025 it stated 'We look for water treatment chemicals and products partners and manufacturers' - actively sourcing. Phone confirmed in 2 sources; e-mail only on own site."
+ },
+ {
+  "company": "TOP NEGOCE S.A.R.L.",
+  "country": "Morocco",
+  "city": "Casablanca",
+  "buyer_type": "distributor",
+  "products": "phosphonates",
+  "proof_url": "https://topnegoce.com/en/contact",
+  "procurement_email": "contact@topnegoce.com",
+  "other_emails": "info@topnegoce.com (other page of same site)",
+  "phone": "+212 522 67 29 96",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://topnegoce.com/en/contact"
+  ],
+  "verified": false,
+  "note": "Chemical distributor for all industries (mining, leather, water treatment chemicals, raw materials). Importer profile fits HEDP/ATMP bulk offers. Only own-site source."
+ },
+ {
+  "company": "Fumman Nigeria Limited (Fumman Chemicals)",
+  "country": "Nigeria",
+  "city": "Lagos (Ikeja)",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://www.fumman.com",
+  "procurement_email": "sales@fummannigeria.com",
+  "other_emails": "headoffice@fummannigeria.com; sales@fummanghana.com (Ghana)",
+  "phone": "+234 90 9876 1967",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.fumman.com",
+   "https://www.finelib.com/listing/Fumman-Chemicals/37786/"
+  ],
+  "verified": true,
+  "note": "Established 1981; manufactures industrial water treatment chemicals (scale/corrosion/fouling control for boilers and cooling systems), descalants, acids. Local blender = phosphonate (HEDP/ATMP/PBTC) buyer. Also operates in Ghana."
+ },
+ {
+  "company": "GZ Industrial Supplies Nigeria",
+  "country": "Nigeria",
+  "city": "Lagos",
+  "buyer_type": "distributor",
+  "products": "resins",
+  "proof_url": "https://www.gz-supplies.com/ion-exchange-resin-purolite",
+  "procurement_email": "sales@gz-supplies.com",
+  "other_emails": "info@gz-ind.com",
+  "phone": "+234 805 339 0129",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.gz-supplies.com/contact-us"
+  ],
+  "verified": false,
+  "note": "Describes itself as distributor of Purolite ion exchange resin in Nigeria; MRO/OEM supplier with 20+ branch sales offices. Also sells boiler chemicals. Only own-site source for e-mail."
+ },
+ {
+  "company": "Morven Industrial Ltd",
+  "country": "Nigeria",
+  "city": "Lagos",
+  "buyer_type": "distributor",
+  "products": "phosphonates",
+  "proof_url": "https://morvenindustrial.org/contact-us/",
+  "procurement_email": "info@morvenindustrial.org",
+  "other_emails": "",
+  "phone": "",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://morvenindustrial.org/contact-us/"
+  ],
+  "verified": false,
+  "note": "Describes itself as a Nalco cooling and boiler water treatment chemicals distributor in Nigeria (claim seen in its own pages via search; contact page opened). May want a cheaper generic phosphonate/antiscalant line. Single source."
+ },
+ {
+  "company": "Davis & Shirtliff Ltd (Dayliff)",
+  "country": "Kenya",
+  "city": "Nairobi (Dundori Road, Industrial Area)",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://www.dayliff.com/media/com_hikashop/upload/safe/dayiff_water_treatment_chemicals-chemicals.pdf",
+  "procurement_email": "ContactCenter@dayliff.com",
+  "other_emails": "",
+  "phone": "+254 711 079 000",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.davisandshirtliff.com/contact-us",
+   "https://www.dayliff.com/media/com_hikashop/upload/safe/dayiff_water_treatment_chemicals-chemicals.pdf"
+  ],
+  "verified": false,
+  "note": "Largest East African water-equipment distributor (branches across Kenya, Uganda, Tanzania, Rwanda, Zambia etc.); its Dayliff water-treatment chemicals catalogue lists softening resin (Amberlite IRA402 Cl) and regenerant salt; site has a Water Treatment Chemicals category. Large-volume resin buyer for softeners/demin. E-mail only on own site."
+ },
+ {
+  "company": "Allmech (Pty) Ltd",
+  "country": "South Africa",
+  "city": "Morehill, Benoni (Gauteng)",
+  "buyer_type": "EPC/O&M",
+  "products": "both",
+  "proof_url": "https://www.allmech.co.za",
+  "procurement_email": "lionelm@allmech.co.za",
+  "other_emails": "",
+  "phone": "+27 11 849 2733",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.allmech.co.za"
+  ],
+  "verified": false,
+  "note": "Builds demineralisation (demin) plants, water softeners, RO plants (Runxin valves agent) and runs industrial water treatment programmes/monthly services -> buys cation/anion resins and antiscalants. Mailbox name suggests a person 'Lionel M.' but full name not published - not recorded as contact. Single source."
+ },
+ {
+  "company": "PROXA Water (PROXA (Pty) Ltd)",
+  "country": "South Africa",
+  "city": "Johannesburg (head office; also UAE, Australia, Belgium)",
+  "buyer_type": "EPC/O&M",
+  "products": "both",
+  "proof_url": "https://www.proxawater.com",
+  "procurement_email": "enquiries@proxawater.com",
+  "other_emails": "enquiries@proxawater.ae (UAE office)",
+  "phone": "+27 11 656 3321",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.proxawater.com/contact-us"
+  ],
+  "verified": false,
+  "note": "Water/wastewater EPC with operations & maintenance contracts, desalination and mine-water treatment in Africa and Middle East -> consumes antiscalants and IX resins on O&M sites. Single source."
+ },
+ {
+  "company": "Chemical Kinetics",
+  "country": "Pakistan",
+  "city": "Lahore (offices also Karachi, Islamabad, Faisalabad, Multan)",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://www.chemicalkinetics.com.pk",
+  "procurement_email": "info@chemicalkinetics.co",
+  "other_emails": "",
+  "phone": "+92 42 111 222 221",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.chemicalkinetics.com.pk/contact"
+  ],
+  "verified": false,
+  "note": "Water treatment company selling RO chemicals (antiscalants & cleaners), boiler/cooling chemicals, DuPont FilmTec membranes and ion-exchange resins. Note e-mail domain is .co while site is .com.pk (as published). Single source."
+ },
+ {
+  "company": "Radiant Chemical (Pvt) Ltd",
+  "country": "Pakistan",
+  "city": "Karachi (RSM Square, KCHS, Shaheed-e-Millat Road); Lahore branch",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://www.radiantchemical.com",
+  "procurement_email": "info@radiantchemical.com",
+  "other_emails": "",
+  "phone": "+92 21 34540218",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://radiantchemical.com/contact-us",
+   "https://www.ecohubmap.com/company/business/radiant-chemical-pvt.-ltd./l1p1n1cb"
+  ],
+  "verified": false,
+  "note": "Water treatment chemicals and equipment for boilers, cooling towers, chillers; RO systems and ion exchange resins (Ion Exchange Resins section on site). E-mail appears only in the EcoHubMap directory (site uses a contact form); phone from official site."
+ },
+ {
+  "company": "Aquafit Technology",
+  "country": "Bangladesh",
+  "city": "Dhaka",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://aquafitbd.com",
+  "procurement_email": "info@aquafitbd.com",
+  "other_emails": "",
+  "phone": "+880 1728-262625",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://aquafitbd.com"
+  ],
+  "verified": false,
+  "note": "Sells cation resins (incl. Thermax-make resin), Genesys antiscalants, softener/DM plant valves and builds DM/RO systems for pharma and industry -> buys resins and antiscalants. Single source."
+ },
+ {
+  "company": "Green Dot Ltd",
+  "country": "Bangladesh",
+  "city": "Dhaka",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://greendotbd.com/contact-us",
+  "procurement_email": "",
+  "other_emails": "",
+  "phone": "+880 9644 800800; +880 1795 888111",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://greendotbd.com/contact-us"
+  ],
+  "verified": false,
+  "note": "Sells ion exchange resin (cation resin of China origin), RO chemicals, filtration media - already imports Chinese resin. No e-mail published; use phone/web form."
+ },
+ {
+  "company": "CWI Viet Nam JSC (Xu Ly Nuoc CWI)",
+  "country": "Vietnam",
+  "city": "Hanoi",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://cwi.vn/san-pham/hat-trao-doi-ion",
+  "procurement_email": "hi@cwi.vn",
+  "other_emails": "",
+  "phone": "+84 896 036 999",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://cwi.vn"
+  ],
+  "verified": false,
+  "note": "Water treatment solutions, equipment and treatment chemicals; product categories for ion exchange resin (hat trao doi ion) and chemicals (hoa chat). Yellowpages.vn listing (pdetail/1187992878) exists but could not be opened from here. Single opened source."
+ },
+ {
+  "company": "LVT Viet Nam Investment Trading and Technical JSC (LVT Intratech)",
+  "country": "Vietnam",
+  "city": "Hanoi (HCM office: 58/7 Nguyen Tuyen St., District 2)",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://www.yellowpages.com.vn/listings/1188004299/lvt-viet-nam-investment-trading-and-technical-joint-stock-company.html",
+  "procurement_email": "infor@lvtintratech.com",
+  "other_emails": "",
+  "phone": "+84 24 3636 9512",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.yellowpages.com.vn/listings/1188004299/lvt-viet-nam-investment-trading-and-technical-joint-stock-company.html"
+  ],
+  "verified": false,
+  "note": "Distributor of cation/anion resins (Lanxess Lewatit S108, Purolite C100, Amberlite, Thermax, Dow) and water/wastewater treatment chemicals. E-mail spelled 'infor@' exactly as listed. Own site lvtintratech.com not working; lvt.com.vn is an unrelated bank - single source."
+ },
+ {
+  "company": "PT Watermart Perkasa (Mighty Watermart)",
+  "country": "Indonesia",
+  "city": "Jakarta (Grand Slipi Tower, West Jakarta; warehouse Cikupa, Tangerang)",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://water.co.id/en/kontak-kami",
+  "procurement_email": "info@water.co.id",
+  "other_emails": "sales.admin@watermart.co.id; sales@water.co.id (mirror site)",
+  "phone": "+62 21 3161671",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://water.co.id/en/kontak-kami",
+   "https://www.water.co.id",
+   "https://water-co-id.pages.dev/en/kontak-kami"
+  ],
+  "verified": false,
+  "note": "Authorised distributor of RO membranes, ion exchange resins (Purolite, Trilite, Dionix), filter media and water treatment chemicals incl. antiscalants across Indonesia; says it corresponds in English. Both pages are the company's own (main site + mirror), so not two independent sources."
+ },
+ {
+  "company": "PT Inti Chem Selaras (Intichem)",
+  "country": "Indonesia",
+  "city": "Bogor (West Java)",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://www.intichem.co.id",
+  "procurement_email": "ics@intichem.co.id",
+  "other_emails": "",
+  "phone": "+62 811-1188-182",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.intichem.co.id",
+   "https://en.indotrading.com/intichemselaras"
+  ],
+  "verified": false,
+  "note": "Water treatment chemicals & services (boiler scale control, corrosion inhibitors, cooling-water scale/corrosion inhibitors); a directory summary also mentions ion exchange resin among pretreatment products (not confirmed on a page read in full). E-mail single-source."
+ },
+ {
+  "company": "Mactan Rock Industries, Inc.",
+  "country": "Philippines",
+  "city": "Lapu-Lapu City, Cebu (Manila sales office)",
+  "buyer_type": "formulator",
+  "products": "phosphonates",
+  "proof_url": "https://mactanrock.com",
+  "procurement_email": "sales@mactanrock.com",
+  "other_emails": "info@mactanrock.com; manila.sales@mactanrock.com",
+  "phone": "+63 32 414 1761",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://mactanrock.com/contact-us/",
+   "https://mactanrock.com"
+  ],
+  "verified": false,
+  "note": "Industrial chemical manufacturer specialising in water treatment chemicals and preventive-maintenance chemicals (since 1983) -> phosphonate raw-material buyer; also sells softener/demin equipment (resin need to confirm). E-mail found only on own site."
+ },
+ {
+  "company": "Aquasolv Philippines Inc.",
+  "country": "Philippines",
+  "city": "Makati City (branch: Davao City)",
+  "buyer_type": "distributor",
+  "products": "both",
+  "proof_url": "https://filbuild.com/b2b/aquasolv",
+  "procurement_email": "",
+  "other_emails": "",
+  "phone": "+63 2 330 1127; +63 2 330 1128",
+  "contact_person": "",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://filbuild.com/b2b/aquasolv"
+  ],
+  "verified": false,
+  "note": "Importer/supplier of industrial water & wastewater treatment chemicals 'imported from leading manufacturers' incl. cation resin for softeners (Dowex), plus WWTP design/build. No e-mail found (own site aquasolv.com.ph has an expired TLS certificate)."
+ }
+]
