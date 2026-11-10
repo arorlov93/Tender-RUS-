@@ -1,17 +1,423 @@
 [
-{"factory":"Shandong Taihe Technologies Co., Ltd. (山东泰和科技股份有限公司; Shandong Taihe Water Treatment Technologies)","country_city":"China, Zaozhuang (Shandong)","website":"http://www.thwater.net/","email":"info@thwater.net","phone":"+86-632-5112055; +86-632-5113066","products":[{"name":"HEDP","product_url":"http://www.thwater.net/01-HEDP.htm"},{"name":"ATMP","product_url":"http://www.thwater.net/01-ATMP.htm"},{"name":"PBTC (PBTCA)","product_url":"http://www.thwater.net/01-PBTCA.htm"},{"name":"DTPMPA","product_url":"http://www.thwater.net/01-DTPMPA.htm"}],"capacity":"On the site (news): HEDP project 40,000 t/yr; PBTCA 30,000 t/yr. No total figure found","certs":"REACH and NSF pages on the site; member of AWT","cis_export":"not mentioned on the site","scale":"Listed on SZSE (300801); describes itself as 'one of the world's leading manufacturers of water treatment chemicals'","risk":"low","notes":"Producer of the full phosphonate line. Named in the US AD/CVD cases on HEDP from China (2016–2019). Not a problem for delivery to the EAEU, but keep the payer (ISP Group, US) in mind. Check the e-mail is the export department's (info@ is a general address)."},
-{"factory":"Shandong Kairui Chemistry Co., Ltd. / Zaozhuang Kairui Water Treatment (山东凯瑞化学 / 枣庄凯瑞水处理)","country_city":"China, Zaozhuang (Shandong)","website":"https://krwater.com/","email":"export@krchemical.com","phone":"+86-632-3671188","products":[{"name":"ATMP","product_url":"https://krwater.com/01-ATMP.htm"},{"name":"HEDP","product_url":"https://krwater.com/01-HEDP.htm"},{"name":"PBTC (PBTCA)","product_url":"https://krwater.com/01-PBTCA.htm"},{"name":"DTPMPA","product_url":"https://krwater.com/01-DTPMPA.htm"},{"name":"RO antiscalant KR-0100","product_url":"https://krwater.com/"}],"capacity":"280,000 t/yr (per the site, 5 workshops: phosphonates, polycarboxylates, biocides)","certs":"REACH and NSF pages on the site, plus a Certificate section","cis_export":"Exports to 70+ countries (Russia/CIS not named)","scale":"Large private producer, DCS-controlled continuous production","risk":"low","notes":"The export e-mail is on a different domain (krchemical.com) from the site. That is normal for this group, but confirm it on a call. The KR-0100 antiscalant is listed only in the home page menu, with no separate page."},
-{"factory":"Shandong Xintai Water Treatment Technology Co., Ltd. (山东鑫泰水处理技术股份有限公司)","country_city":"China, Zaozhuang (Shandong)","website":"http://www.xintaiwater.com/en/","email":"sales1@xintaiwater.com","phone":"0086-632-3461077; 0086-632-3461088","products":[{"name":"HEDP","product_url":"http://www.xintaiwater.com/en/product/showp-70.html"},{"name":"ATMP","product_url":"http://www.xintaiwater.com/en/product/showp-71.html"},{"name":"DTPMPA","product_url":"http://www.xintaiwater.com/en/product/showp-73.html"},{"name":"PBTCA","product_url":"http://www.xintaiwater.com/en/product/showp-75.html"}],"capacity":"40,000 t/yr of water treatment chemicals (per the site)","certs":"ISO9001, ISO14001, OHSAS18001, US FDA (per the Chinese version of the site)","cis_export":"'sold all over the world', no specifics","scale":"Joint-stock company (股份有限公司); co-drafted national standards","risk":"low","notes":"Smaller than Taihe and Kairui, but a genuine producer with its own product pages. The site also lists the oxygen scavenger carbohydrazide (Chinese site, showp-128)."},
-{"factory":"Henan Aierfuke Chemicals Co., Ltd. (河南爱尔福克化学)","country_city":"China, Jiaozuo (Henan); sales office in Shanghai","website":"https://www.aierfuke.com/","email":"info@aierfuke.com; aefk@aefkchem.com","phone":"+86-21-5988 3902; +86-15803910375","products":[{"name":"PAC industrial grade (liquid)","product_url":"https://www.aierfuke.com/industrial-grade-polyaluminium-chloride-product/"},{"name":"PAC drinking-water grade (solid)","product_url":"https://www.aierfuke.com/drinking-water-grade-polyaluminium-chloride-solid-product/"},{"name":"PAC industrial grade (other variants)","product_url":"https://www.aierfuke.com/industrial-grade-polyaluminum-chloride-product/"},{"name":"Polyaluminum ferric chloride (PAFC)","product_url":"https://www.aierfuke.com/polyaluminumferric-chloride/"}],"capacity":"PAC: 400,000 t/yr liquid + 100,000 t/yr solid; PFS: 1,000,000 t/yr liquid + 200,000 t/yr solid (per the site)","certs":"GB/T22627-2022 (industrial PAC); co-drafted national PAC standards; '50 certificates' (no list)","cis_export":"Exports to SE Asia, Europe, Americas, Middle East, Africa; Russia not named (the site has a Russian version)","scale":"Founded 2004, 167 employees, 60,380 m² site","risk":"medium","notes":"The contacts (Shanghai, Aierfuke Shanghai Technology Service) are the sales company, not the plant. Check at the first contact that the contract and invoice are with the plant's legal entity. The Al2O3 % for the solid grade must be checked in the TDS (the site gives only the GB standard). No aluminium sulphate or FeCl3 on the site."},
-{"factory":"Gujarat Alkalies and Chemicals Ltd (GACL)","country_city":"India, Vadodara / Dahej (Gujarat)","website":"https://gacl.com/","email":"export@gacl.co.in","phone":"+91 265 6111000","products":[{"name":"Caustic soda flakes 99.5% min (also prills)","product_url":"https://gacl.com/caustic-soda-group/"},{"name":"Poly Aluminium Chloride PAC 10/14/18 liquid, PAC 30 powder (Al2O3 29±1%)","product_url":"https://gacl.com/water-treatment-group/"},{"name":"Hydrazine hydrate 80% w/w min","product_url":"https://gacl.com/hydrazine-hydrate/"}],"capacity":"not given on the product pages; news on the site about a new PAC-30 powder plant at the Coelho complex","certs":"PAC to IS 15573:2018; 'Our Certificates' section on the site; MSDS and leaflet for each product","cis_export":"not mentioned; there is an export portal (gaclportal.gacl.co.in/ePortal/export/)","scale":"Gujarat state-owned company, listed on NSE/BSE (GUJALKALI); one of India's largest chlor-alkali producers","risk":"low","notes":"Covers three groups at once: caustic flakes, PAC 30 powder and hydrazine hydrate. Hydrazine hydrate is dual-use and a hazardous cargo, so expect export controls and end-user checks."},
-{"factory":"Navoiyazot JSC (АО «Навоийазот» / «Navoiyazot» AJ)","country_city":"Uzbekistan, Navoi","website":"https://www.navoiyazot.uz/","email":"sale@navoiyazot.uz; office@navoiyazot.uz","phone":"+998 (79) 229-22-36; +998 (79) 223-28-11","products":[{"name":"Technical caustic soda, solid (GOST 2263-79)","product_url":"https://www.navoiyazot.uz/uz/product/texnikaviy-oyuvchi-natriy-qattiq-korinishda"},{"name":"Technical caustic soda, liquid","product_url":"https://www.navoiyazot.uz/uz/product/texnikaviy-oyuvchi-natriy"},{"name":"Coagulant 'Fersuloxy'","product_url":"https://www.navoiyazot.uz/uz/product/koagulyant-fersuloxy"}],"capacity":"not given on the site","certs":"GOST 2263-79 (product page)","cis_export":"Uzbek producer; GOST product within the EAEU/CIS area (export to Russia is not stated on the site)","scale":"Large state-owned joint-stock chemical company (fertilisers, PVC, chlor-alkali)","risk":"medium","notes":"The page does not say whether the solid caustic is flaked and 99%. Ask for the form (flakes, scales or fused) and a COA. Before the deal, check OFAC SDN/SSI and the EU lists (the company is not known to be listed, but it is a large state-owned company). Composition of Fersuloxy is unknown (not FeCl3 per se)."},
-{"factory":"WE Soda Ltd (Kazan Soda Elektrik / Eti Soda; Ciner Group)","country_city":"Türkiye, Kazan and Beypazarı (Ankara); HQ in London","website":"https://www.wesoda.com/","email":"marketing@wesoda.com; contact.kazan@wesoda.com; contact@wesoda.com","phone":"+90 (312) 969 98 01 (Kazan); +90 312 763 38 01 (Eti); +90 216 531 24 00 (Istanbul)","products":[{"name":"Soda ash dense (Grade 260/160) and light (Grade 100)","product_url":"https://www.wesoda.com/our-products/soda-ash"}],"capacity":"not given on the product page (natural trona soda ash: plants in Türkiye and the USA)","certs":"has a REACH Only Representative (reach@wesoda.com)","cis_export":"not mentioned","scale":"World's largest producer of natural soda ash; plants in Türkiye and the US (Westvaco, Granger)","risk":"low","notes":"Packing: bulk, containers, big bags, 25 kg. A large corporation with its own compliance department, so a Russian end-user may be refused. Clarify before sending an RFQ."},
-{"factory":"GHCL Limited","country_city":"India, Sutrapada (Gujarat); HQ in Noida","website":"https://ghcl.co.in/","email":"","phone":"+91-120-4939900; +91-0278-2200300","products":[{"name":"Soda Ash Light / Soda Ash Dense (brand LION)","product_url":"https://ghcl.co.in/chemicals"}],"capacity":"1.2 MTPA soda ash (per the site), utilisation >95%","certs":"'Credentials & Certifications' section on the site","cis_export":"not mentioned; mainly the domestic market (~26% of India's demand)","scale":"Listed on NSE/BSE; one of India's largest soda ash producers","risk":"low","notes":"No e-mail on the site (only phones and a form). Not on the mailing list until a phone call. Low export potential, as India is a net importer of soda ash."},
-{"factory":"SNF (China) Flocculant Co., Ltd. (爱森（中国）絮凝剂有限公司), SNF Group","country_city":"China, Taixing (Jiangsu)","website":"https://www.snf.com/","email":"CN-QA@snf.com","phone":"+86 523 767 6300","products":[{"name":"FLOPAM cationic/anionic polyacrylamides for water treatment","product_url":"https://www.snf.com/industry/municipal-water-treatment/"},{"name":"FLOPAM for industrial water treatment","product_url":"https://www.snf.com/industry/industrial-water-treatment/"}],"capacity":"not given on the site","certs":"certification section on snf.com (snf_fr_certificate)","cis_export":"The SNF group has an SNF Kazakhstan entity (listed in the site's locations)","scale":"World's No. 1 producer of polyacrylamide; 9,400 employees, 130 countries (per the site)","risk":"low","notes":"The product_url is the water-treatment industry page with the FLOPAM line; there is no separate page for a grade. Address No. 6 North Binjiang Road, Taixing. CN-QA@ is a quality address; ask it for a sales contact. Supply to Russia through SNF may be limited by group policy. Also consider SNF Kazakhstan."},
-{"factory":"Suqing Group Co., Ltd. (Jiangsu Suqing; 苏青集团)","country_city":"China, Jiangyin (Jiangsu); plants in Jiangyin, Bengbu, Jining","website":"http://www.suqing.com/index_en.html","email":"sqsales@suqing.com; dominic@suqing.com","phone":"International Trade +86-510-86339038; Sales +86-510-86337020","products":[{"name":"Gel strong acid cation resin (St-DVB), KU-2-8 equivalent","product_url":"http://www.suqing.com/Uploads/6510e3478e433.jpg"},{"name":"Gel strong base anion resin (St-DVB), AV-17-8 equivalent","product_url":"http://www.suqing.com/Uploads/6510e36fd8efb.jpg"},{"name":"Macroporous weak base anion resin, AN-31 type","product_url":"http://www.suqing.com/Uploads/6510e38b58647.jpg"},{"name":"Product catalogue (all series)","product_url":"http://www.suqing.com/products_en.html"}],"capacity":"Gel SAC 10,000 m³/yr; gel SBA 20,000 m³/yr; macroporous SAC 10,000 m³/yr; macroporous SBA 10,000 m³/yr; acrylic 5,000 m³/yr (page scnl_en.html)","certs":"ISO9001, ISO14001, ISO45001, GB/T29490","cis_export":"not mentioned","scale":"Founded 1970, private joint-stock since 2001; provincial engineering centre for ion exchange resins","risk":"low","notes":"The product cards on the site are spec images (jpg). Ask for a TDS by grade (001×7, 201×7, D301). AN-31 is a condensation resin, so check the equivalent separately."},
-{"factory":"Sunresin New Materials Co., Ltd. (西安蓝晓科技新材料股份有限公司), brand SEPLITE","country_city":"China, Xi'an (Shaanxi)","website":"https://www.seplite.com/","email":"seplite@sunresin.com","phone":"+86-29-89182091","products":[{"name":"SEPLITE SC130NS gel strong acid cation resin (softening/DI)","product_url":"https://www.seplite.com/strong-acid-cation-exchange-resin-sc130ns/"},{"name":"Ion exchange resins (full range, incl. anion)","product_url":"https://www.seplite.com/ion-exchange-resin/"},{"name":"Mixed bed resin","product_url":"https://www.seplite.com/mixed-bed-ion-exchange-resin/"}],"capacity":"not given on the pages checked","certs":"Kosher, Halal, FDA, WQA Gold Seal, REACH (per the SEPLITE pages)","cis_export":"not mentioned (has a European office, seplite_europe@sunresin.com)","scale":"Listed on SZSE (300487); market leader in adsorption resins","risk":"low","notes":"The main sunresin.com site is Chinese-only. SEPLITE is the export brand. Pricing is above the Chinese mass market; for standard KU-2-8/AV-17-8 grades it is usually more expensive than Suqing."},
-{"factory":"Ion Exchange (India) Ltd, INDION resins","country_city":"India, Mumbai; resin plant in Ankleshwar (Gujarat)","website":"https://ionexchangeglobal.com/","email":"sales@ionexchangeglobal.com; ieil@ionexchange.co.in","phone":"+91-22-6610-0678; +91-22-6231-2000","products":[{"name":"INDION resins (149 grades: SAC INDION 220/222/225 Na, anion and others)","product_url":"https://ionexchangeglobal.com/indion-resins/"},{"name":"INDION non-solvent cation resins (PDF)","product_url":"https://ionexchangeglobal.com/app/uploads/2025/07/INDION-NON-SOLVENT-CATION-RESINS.pdf"}],"capacity":"not given","certs":"not checked","cis_export":"not mentioned","scale":"Listed on NSE/BSE (IONEXCHANG); one of India's largest water treatment companies","risk":"low","notes":"Producer of its own resins. Indian alternative to the Chinese suppliers. Ask for a TDS for the KU-2-8 / AV-17-8 / AN-31 equivalents."},
-{"factory":"Haycarb PLC (Hayleys Group)","country_city":"Sri Lanka, Colombo (plants in Sri Lanka, Thailand, Indonesia and elsewhere)","website":"https://www.haycarb.com/","email":"inquiries@haycarb.com","phone":"+94 11 262 7000","products":[{"name":"Coconut shell activated carbon for drinking water treatment (GAC)","product_url":"https://www.haycarb.com/activated-carbon-solutions/water/drinking-water-treatment/"}],"capacity":"over 58,500 t/yr (per the site)","certs":"'Certifications & Memberships' section on the site","cis_export":"not mentioned","scale":"Publicly listed company (CSE), founded 1973; world leader in coconut-shell carbon","risk":"low","notes":"The country is outside the priority list (Sri Lanka), but this is the largest coconut-carbon producer. Ask for a grade with iodine ≥1000 mg/g and its TDS (no grade with an iodine number was found on the pages). No verified Chinese or Indian coconut-carbon producer was found: Huahui is coal-based, and Zhulin/Fakhri are B2B listings only."},
-{"factory":"Shida Shinghwa Advanced Material Group Co., Ltd. (石大胜华新材料集团; ex-Shandong Shida Shenghua)","country_city":"China, Dongying (Shandong)","website":"http://en1.sinodmc.com/","email":"karl@sinodmc.com (International Trade: PG, EG); shidashenghua@sinodmc.com","phone":"+86 546 2169337 (international trade); +86 546 2169028","products":[{"name":"Propylene glycol (PG)","product_url":"http://en1.sinodmc.com/finechemicalss/488.html"},{"name":"Ethylene glycol (EG)","product_url":"http://en1.sinodmc.com/finechemicalss/489.html"}],"capacity":"not given on the product pages","certs":"not checked","cis_export":"not mentioned","scale":"Listed on SSE (603026); major Chinese producer of carbonates and propylene glycol","risk":"low","notes":"The international trade department handles exports of PG and EG (per the Contact page). Check the PG grade (industrial or USP) for heat-transfer fluids."},
-{"factory":"India Glycols Ltd","country_city":"India, Kashipur (Uttarakhand); HQ in Noida","website":"https://www.indiaglycols.com/","email":"mktgchem@indiaglycols.com","phone":"+91 (120) 6860000","products":[{"name":"Bio-MEG (monoethylene glycol, 99.5% min; antifreeze/coolants)","product_url":"https://www.indiaglycols.com/bio-glycols-2/"}],"capacity":"175,000 t/yr bio-MEG/DEG/TEG (per the site)","certs":"'Certification' page on the site","cis_export":"not mentioned","scale":"Listed on NSE/BSE (INDIAGLYCO)","risk":"low","notes":"MEG only; no propylene glycol found on the site."}
+{
+"factory": "Shandong Taihe Technologies Co., Ltd. (山东泰和科技股份有限公司; Shandong Taihe Water Treatment Technologies)",
+"country_city": "China, Zaozhuang (Shandong)",
+"website": "http://www.thwater.net/",
+"email": "info@thwater.net",
+"phone": "+86-632-5112055; +86-632-5113066",
+"products": [
+{
+"name": "HEDP",
+"product_url": "http://www.thwater.net/01-HEDP.htm"
+},
+{
+"name": "ATMP",
+"product_url": "http://www.thwater.net/01-ATMP.htm"
+},
+{
+"name": "PBTC (PBTCA)",
+"product_url": "http://www.thwater.net/01-PBTCA.htm"
+},
+{
+"name": "DTPMPA",
+"product_url": "http://www.thwater.net/01-DTPMPA.htm"
+}
+],
+"capacity": "On the site (news): HEDP project 40,000 t/yr; PBTCA 30,000 t/yr. No total figure found",
+"certs": "REACH and NSF pages on the site; member of AWT",
+"cis_export": "not mentioned on the site",
+"scale": "Listed on SZSE (300801); describes itself as 'one of the world's leading manufacturers of water treatment chemicals'",
+"risk": "low",
+"notes": "Producer of the full phosphonate line. Named in the US AD/CVD cases on HEDP from China (2016–2019). Not a problem for delivery to the EAEU, but keep the payer (ISP Group, US) in mind. Check the e-mail is the export department's (info@ is a general address)."
+},
+{
+"factory": "Shandong Kairui Chemistry Co., Ltd. / Zaozhuang Kairui Water Treatment (山东凯瑞化学 / 枣庄凯瑞水处理)",
+"country_city": "China, Zaozhuang (Shandong)",
+"website": "https://krwater.com/",
+"email": "export@krchemical.com",
+"phone": "+86-632-3671188",
+"products": [
+{
+"name": "ATMP",
+"product_url": "https://krwater.com/01-ATMP.htm"
+},
+{
+"name": "HEDP",
+"product_url": "https://krwater.com/01-HEDP.htm"
+},
+{
+"name": "PBTC (PBTCA)",
+"product_url": "https://krwater.com/01-PBTCA.htm"
+},
+{
+"name": "DTPMPA",
+"product_url": "https://krwater.com/01-DTPMPA.htm"
+},
+{
+"name": "RO antiscalant KR-0100",
+"product_url": "https://krwater.com/"
+}
+],
+"capacity": "280,000 t/yr (per the site, 5 workshops: phosphonates, polycarboxylates, biocides)",
+"certs": "REACH and NSF pages on the site, plus a Certificate section",
+"cis_export": "Exports to 70+ countries (Russia/CIS not named)",
+"scale": "Large private producer, DCS-controlled continuous production",
+"risk": "low",
+"notes": "The export e-mail is on a different domain (krchemical.com) from the site. That is normal for this group, but confirm it on a call. The KR-0100 antiscalant is listed only in the home page menu, with no separate page.",
+"contact_person": "Vincent Yang, Sales Manager",
+"quote_2026_11_10": {
+"basis": "FOB Qingdao, FCL 20 t",
+"prices_usd_t": {
+"ATMP 50%": 1230,
+"ATMP 95% solid": 2440,
+"HEDP 60%": 1350,
+"HEDP 90% solid": 2060,
+"PBTCA 50%": 1410,
+"DTPMPA 50%": 1300,
+"RO antiscalant KR-0100": 1050
+},
+"packing": "liquid 250 kg drum or 1250 kg IBC; solid 25 kg bag on pallet; KR-0100 1000 kg IBC",
+"payment": "100% T/T against copy of BL, no deposit",
+"validity": "5 days",
+"docs": "TDS, COA, SDS attached to the e-mail",
+"fit": "НТФ РМ Нанотех (32616541289): landed ≈305–310 ₽/кг vs НМЦ 321 — не идём; ОЭДФ (32616541285) требует 98 %, у них 90 % — не идём. Держать для фосфонатов от 20 т."
+}
+},
+{
+"factory": "Shandong Xintai Water Treatment Technology Co., Ltd. (山东鑫泰水处理技术股份有限公司)",
+"country_city": "China, Zaozhuang (Shandong)",
+"website": "http://www.xintaiwater.com/en/",
+"email": "sales1@xintaiwater.com",
+"phone": "0086-632-3461077; 0086-632-3461088",
+"products": [
+{
+"name": "HEDP",
+"product_url": "http://www.xintaiwater.com/en/product/showp-70.html"
+},
+{
+"name": "ATMP",
+"product_url": "http://www.xintaiwater.com/en/product/showp-71.html"
+},
+{
+"name": "DTPMPA",
+"product_url": "http://www.xintaiwater.com/en/product/showp-73.html"
+},
+{
+"name": "PBTCA",
+"product_url": "http://www.xintaiwater.com/en/product/showp-75.html"
+}
+],
+"capacity": "40,000 t/yr of water treatment chemicals (per the site)",
+"certs": "ISO9001, ISO14001, OHSAS18001, US FDA (per the Chinese version of the site)",
+"cis_export": "'sold all over the world', no specifics",
+"scale": "Joint-stock company (股份有限公司); co-drafted national standards",
+"risk": "low",
+"notes": "Smaller than Taihe and Kairui, but a genuine producer with its own product pages. The site also lists the oxygen scavenger carbohydrazide (Chinese site, showp-128)."
+},
+{
+"factory": "Henan Aierfuke Chemicals Co., Ltd. (河南爱尔福克化学)",
+"country_city": "China, Jiaozuo (Henan); sales office in Shanghai",
+"website": "https://www.aierfuke.com/",
+"email": "info@aierfuke.com; aefk@aefkchem.com",
+"phone": "+86-21-5988 3902; +86-15803910375",
+"products": [
+{
+"name": "PAC industrial grade (liquid)",
+"product_url": "https://www.aierfuke.com/industrial-grade-polyaluminium-chloride-product/"
+},
+{
+"name": "PAC drinking-water grade (solid)",
+"product_url": "https://www.aierfuke.com/drinking-water-grade-polyaluminium-chloride-solid-product/"
+},
+{
+"name": "PAC industrial grade (other variants)",
+"product_url": "https://www.aierfuke.com/industrial-grade-polyaluminum-chloride-product/"
+},
+{
+"name": "Polyaluminum ferric chloride (PAFC)",
+"product_url": "https://www.aierfuke.com/polyaluminumferric-chloride/"
+}
+],
+"capacity": "PAC: 400,000 t/yr liquid + 100,000 t/yr solid; PFS: 1,000,000 t/yr liquid + 200,000 t/yr solid (per the site)",
+"certs": "GB/T22627-2022 (industrial PAC); co-drafted national PAC standards; '50 certificates' (no list)",
+"cis_export": "Exports to SE Asia, Europe, Americas, Middle East, Africa; Russia not named (the site has a Russian version)",
+"scale": "Founded 2004, 167 employees, 60,380 m² site",
+"risk": "medium",
+"notes": "The contacts (Shanghai, Aierfuke Shanghai Technology Service) are the sales company, not the plant. Check at the first contact that the contract and invoice are with the plant's legal entity. The Al2O3 % for the solid grade must be checked in the TDS (the site gives only the GB standard). No aluminium sulphate or FeCl3 on the site."
+},
+{
+"factory": "Gujarat Alkalies and Chemicals Ltd (GACL)",
+"country_city": "India, Vadodara / Dahej (Gujarat)",
+"website": "https://gacl.com/",
+"email": "export@gacl.co.in",
+"phone": "+91 265 6111000",
+"products": [
+{
+"name": "Caustic soda flakes 99.5% min (also prills)",
+"product_url": "https://gacl.com/caustic-soda-group/"
+},
+{
+"name": "Poly Aluminium Chloride PAC 10/14/18 liquid, PAC 30 powder (Al2O3 29±1%)",
+"product_url": "https://gacl.com/water-treatment-group/"
+},
+{
+"name": "Hydrazine hydrate 80% w/w min",
+"product_url": "https://gacl.com/hydrazine-hydrate/"
+}
+],
+"capacity": "not given on the product pages; news on the site about a new PAC-30 powder plant at the Coelho complex",
+"certs": "PAC to IS 15573:2018; 'Our Certificates' section on the site; MSDS and leaflet for each product",
+"cis_export": "not mentioned; there is an export portal (gaclportal.gacl.co.in/ePortal/export/)",
+"scale": "Gujarat state-owned company, listed on NSE/BSE (GUJALKALI); one of India's largest chlor-alkali producers",
+"risk": "low",
+"notes": "Covers three groups at once: caustic flakes, PAC 30 powder and hydrazine hydrate. Hydrazine hydrate is dual-use and a hazardous cargo, so expect export controls and end-user checks."
+},
+{
+"factory": "Navoiyazot JSC (АО «Навоийазот» / «Navoiyazot» AJ)",
+"country_city": "Uzbekistan, Navoi",
+"website": "https://www.navoiyazot.uz/",
+"email": "sale@navoiyazot.uz; office@navoiyazot.uz",
+"phone": "+998 (79) 229-22-36; +998 (79) 223-28-11",
+"products": [
+{
+"name": "Technical caustic soda, solid (GOST 2263-79)",
+"product_url": "https://www.navoiyazot.uz/uz/product/texnikaviy-oyuvchi-natriy-qattiq-korinishda"
+},
+{
+"name": "Technical caustic soda, liquid",
+"product_url": "https://www.navoiyazot.uz/uz/product/texnikaviy-oyuvchi-natriy"
+},
+{
+"name": "Coagulant 'Fersuloxy'",
+"product_url": "https://www.navoiyazot.uz/uz/product/koagulyant-fersuloxy"
+}
+],
+"capacity": "not given on the site",
+"certs": "GOST 2263-79 (product page)",
+"cis_export": "Uzbek producer; GOST product within the EAEU/CIS area (export to Russia is not stated on the site)",
+"scale": "Large state-owned joint-stock chemical company (fertilisers, PVC, chlor-alkali)",
+"risk": "medium",
+"notes": "The page does not say whether the solid caustic is flaked and 99%. Ask for the form (flakes, scales or fused) and a COA. Before the deal, check OFAC SDN/SSI and the EU lists (the company is not known to be listed, but it is a large state-owned company). Composition of Fersuloxy is unknown (not FeCl3 per se)."
+},
+{
+"factory": "WE Soda Ltd (Kazan Soda Elektrik / Eti Soda; Ciner Group)",
+"country_city": "Türkiye, Kazan and Beypazarı (Ankara); HQ in London",
+"website": "https://www.wesoda.com/",
+"email": "marketing@wesoda.com; contact.kazan@wesoda.com; contact@wesoda.com",
+"phone": "+90 (312) 969 98 01 (Kazan); +90 312 763 38 01 (Eti); +90 216 531 24 00 (Istanbul)",
+"products": [
+{
+"name": "Soda ash dense (Grade 260/160) and light (Grade 100)",
+"product_url": "https://www.wesoda.com/our-products/soda-ash"
+}
+],
+"capacity": "not given on the product page (natural trona soda ash: plants in Türkiye and the USA)",
+"certs": "has a REACH Only Representative (reach@wesoda.com)",
+"cis_export": "not mentioned",
+"scale": "World's largest producer of natural soda ash; plants in Türkiye and the US (Westvaco, Granger)",
+"risk": "low",
+"notes": "Packing: bulk, containers, big bags, 25 kg. A large corporation with its own compliance department, so a Russian end-user may be refused. Clarify before sending an RFQ."
+},
+{
+"factory": "GHCL Limited",
+"country_city": "India, Sutrapada (Gujarat); HQ in Noida",
+"website": "https://ghcl.co.in/",
+"email": "",
+"phone": "+91-120-4939900; +91-0278-2200300",
+"products": [
+{
+"name": "Soda Ash Light / Soda Ash Dense (brand LION)",
+"product_url": "https://ghcl.co.in/chemicals"
+}
+],
+"capacity": "1.2 MTPA soda ash (per the site), utilisation >95%",
+"certs": "'Credentials & Certifications' section on the site",
+"cis_export": "not mentioned; mainly the domestic market (~26% of India's demand)",
+"scale": "Listed on NSE/BSE; one of India's largest soda ash producers",
+"risk": "low",
+"notes": "No e-mail on the site (only phones and a form). Not on the mailing list until a phone call. Low export potential, as India is a net importer of soda ash."
+},
+{
+"factory": "SNF (China) Flocculant Co., Ltd. (爱森（中国）絮凝剂有限公司), SNF Group",
+"country_city": "China, Taixing (Jiangsu)",
+"website": "https://www.snf.com/",
+"email": "CN-QA@snf.com",
+"phone": "+86 523 767 6300",
+"products": [
+{
+"name": "FLOPAM cationic/anionic polyacrylamides for water treatment",
+"product_url": "https://www.snf.com/industry/municipal-water-treatment/"
+},
+{
+"name": "FLOPAM for industrial water treatment",
+"product_url": "https://www.snf.com/industry/industrial-water-treatment/"
+}
+],
+"capacity": "not given on the site",
+"certs": "certification section on snf.com (snf_fr_certificate)",
+"cis_export": "The SNF group has an SNF Kazakhstan entity (listed in the site's locations)",
+"scale": "World's No. 1 producer of polyacrylamide; 9,400 employees, 130 countries (per the site)",
+"risk": "low",
+"notes": "The product_url is the water-treatment industry page with the FLOPAM line; there is no separate page for a grade. Address No. 6 North Binjiang Road, Taixing. CN-QA@ is a quality address; ask it for a sales contact. Supply to Russia through SNF may be limited by group policy. Also consider SNF Kazakhstan."
+},
+{
+"factory": "Suqing Group Co., Ltd. (Jiangsu Suqing; 苏青集团)",
+"country_city": "China, Jiangyin (Jiangsu); plants in Jiangyin, Bengbu, Jining",
+"website": "http://www.suqing.com/index_en.html",
+"email": "sqsales@suqing.com; dominic@suqing.com",
+"phone": "International Trade +86-510-86339038; Sales +86-510-86337020",
+"products": [
+{
+"name": "Gel strong acid cation resin (St-DVB), KU-2-8 equivalent",
+"product_url": "http://www.suqing.com/Uploads/6510e3478e433.jpg"
+},
+{
+"name": "Gel strong base anion resin (St-DVB), AV-17-8 equivalent",
+"product_url": "http://www.suqing.com/Uploads/6510e36fd8efb.jpg"
+},
+{
+"name": "Macroporous weak base anion resin, AN-31 type",
+"product_url": "http://www.suqing.com/Uploads/6510e38b58647.jpg"
+},
+{
+"name": "Product catalogue (all series)",
+"product_url": "http://www.suqing.com/products_en.html"
+}
+],
+"capacity": "Gel SAC 10,000 m³/yr; gel SBA 20,000 m³/yr; macroporous SAC 10,000 m³/yr; macroporous SBA 10,000 m³/yr; acrylic 5,000 m³/yr (page scnl_en.html)",
+"certs": "ISO9001, ISO14001, ISO45001, GB/T29490",
+"cis_export": "not mentioned",
+"scale": "Founded 1970, private joint-stock since 2001; provincial engineering centre for ion exchange resins",
+"risk": "low",
+"notes": "The product cards on the site are spec images (jpg). Ask for a TDS by grade (001×7, 201×7, D301). AN-31 is a condensation resin, so check the equivalent separately.",
+"contact_person": "Haiyan Cha (Mrs.), International Department",
+"quote_2026_11_10": {
+"basis": "FOB Shanghai",
+"prices_usd_m3": {
+"001x7 H (KU-2-8 equiv.)": 840,
+"001x7 Na (KU-2-8 equiv.)": 860,
+"201x7 Cl (AV-17-8 equiv.)": 2090,
+"D301-III (AN-31 type, weak base)": 2100
+},
+"moq": "3000 L per item",
+"packing": "25 L bag, 40/42/48 bags per pallet, 20 pallets per 20ft",
+"lead_time": "20–30 days after order confirmation",
+"validity": "30 days",
+"payment": "sea: 30% deposit, 70% against copy of shipping docs; rail/road: 30% deposit, 70% before shipping",
+"docs": "TDS, MSDS, sample COA, ISO certificates attached",
+"cis_export": "already ship to CIS / Central Asia; open to a distributor agreement at volume",
+"fit": "АН-31 Т Плюс (32616548235): эквиваленты запрещены + ПП 1875 — не подходит. КУ-2-8 Саратов (32616542934): ≈145–160 тыс. ₽/т с НДС vs НМЦ 190,9 — проверить ТЗ на эквиваленты."
+}
+},
+{
+"factory": "Sunresin New Materials Co., Ltd. (西安蓝晓科技新材料股份有限公司), brand SEPLITE",
+"country_city": "China, Xi'an (Shaanxi)",
+"website": "https://www.seplite.com/",
+"email": "seplite@sunresin.com",
+"phone": "+86-29-89182091",
+"products": [
+{
+"name": "SEPLITE SC130NS gel strong acid cation resin (softening/DI)",
+"product_url": "https://www.seplite.com/strong-acid-cation-exchange-resin-sc130ns/"
+},
+{
+"name": "Ion exchange resins (full range, incl. anion)",
+"product_url": "https://www.seplite.com/ion-exchange-resin/"
+},
+{
+"name": "Mixed bed resin",
+"product_url": "https://www.seplite.com/mixed-bed-ion-exchange-resin/"
+}
+],
+"capacity": "not given on the pages checked",
+"certs": "Kosher, Halal, FDA, WQA Gold Seal, REACH (per the SEPLITE pages)",
+"cis_export": "not mentioned (has a European office, seplite_europe@sunresin.com)",
+"scale": "Listed on SZSE (300487); market leader in adsorption resins",
+"risk": "low",
+"notes": "The main sunresin.com site is Chinese-only. SEPLITE is the export brand. Pricing is above the Chinese mass market; for standard KU-2-8/AV-17-8 grades it is usually more expensive than Suqing."
+},
+{
+"factory": "Ion Exchange (India) Ltd, INDION resins",
+"country_city": "India, Mumbai; resin plant in Ankleshwar (Gujarat)",
+"website": "https://ionexchangeglobal.com/",
+"email": "sales@ionexchangeglobal.com; ieil@ionexchange.co.in",
+"phone": "+91-22-6610-0678; +91-22-6231-2000",
+"products": [
+{
+"name": "INDION resins (149 grades: SAC INDION 220/222/225 Na, anion and others)",
+"product_url": "https://ionexchangeglobal.com/indion-resins/"
+},
+{
+"name": "INDION non-solvent cation resins (PDF)",
+"product_url": "https://ionexchangeglobal.com/app/uploads/2025/07/INDION-NON-SOLVENT-CATION-RESINS.pdf"
+}
+],
+"capacity": "not given",
+"certs": "not checked",
+"cis_export": "not mentioned",
+"scale": "Listed on NSE/BSE (IONEXCHANG); one of India's largest water treatment companies",
+"risk": "low",
+"notes": "Producer of its own resins. Indian alternative to the Chinese suppliers. Ask for a TDS for the KU-2-8 / AV-17-8 / AN-31 equivalents."
+},
+{
+"factory": "Haycarb PLC (Hayleys Group)",
+"country_city": "Sri Lanka, Colombo (plants in Sri Lanka, Thailand, Indonesia and elsewhere)",
+"website": "https://www.haycarb.com/",
+"email": "inquiries@haycarb.com",
+"phone": "+94 11 262 7000",
+"products": [
+{
+"name": "Coconut shell activated carbon for drinking water treatment (GAC)",
+"product_url": "https://www.haycarb.com/activated-carbon-solutions/water/drinking-water-treatment/"
+}
+],
+"capacity": "over 58,500 t/yr (per the site)",
+"certs": "'Certifications & Memberships' section on the site",
+"cis_export": "not mentioned",
+"scale": "Publicly listed company (CSE), founded 1973; world leader in coconut-shell carbon",
+"risk": "low",
+"notes": "The country is outside the priority list (Sri Lanka), but this is the largest coconut-carbon producer. Ask for a grade with iodine ≥1000 mg/g and its TDS (no grade with an iodine number was found on the pages). No verified Chinese or Indian coconut-carbon producer was found: Huahui is coal-based, and Zhulin/Fakhri are B2B listings only."
+},
+{
+"factory": "Shida Shinghwa Advanced Material Group Co., Ltd. (石大胜华新材料集团; ex-Shandong Shida Shenghua)",
+"country_city": "China, Dongying (Shandong)",
+"website": "http://en1.sinodmc.com/",
+"email": "karl@sinodmc.com (International Trade: PG, EG); shidashenghua@sinodmc.com",
+"phone": "+86 546 2169337 (international trade); +86 546 2169028",
+"products": [
+{
+"name": "Propylene glycol (PG)",
+"product_url": "http://en1.sinodmc.com/finechemicalss/488.html"
+},
+{
+"name": "Ethylene glycol (EG)",
+"product_url": "http://en1.sinodmc.com/finechemicalss/489.html"
+}
+],
+"capacity": "not given on the product pages",
+"certs": "not checked",
+"cis_export": "not mentioned",
+"scale": "Listed on SSE (603026); major Chinese producer of carbonates and propylene glycol",
+"risk": "low",
+"notes": "The international trade department handles exports of PG and EG (per the Contact page). Check the PG grade (industrial or USP) for heat-transfer fluids."
+},
+{
+"factory": "India Glycols Ltd",
+"country_city": "India, Kashipur (Uttarakhand); HQ in Noida",
+"website": "https://www.indiaglycols.com/",
+"email": "mktgchem@indiaglycols.com",
+"phone": "+91 (120) 6860000",
+"products": [
+{
+"name": "Bio-MEG (monoethylene glycol, 99.5% min; antifreeze/coolants)",
+"product_url": "https://www.indiaglycols.com/bio-glycols-2/"
+}
+],
+"capacity": "175,000 t/yr bio-MEG/DEG/TEG (per the site)",
+"certs": "'Certification' page on the site",
+"cis_export": "not mentioned",
+"scale": "Listed on NSE/BSE (INDIAGLYCO)",
+"risk": "low",
+"notes": "MEG only; no propylene glycol found on the site."
+}
 ]
