@@ -1,0 +1,315 @@
+[
+  {
+    "company": "ООО «ТРАНСПОРТИР Групп» (Transportir)",
+    "city": "Москва (ул. Трубная, 21)",
+    "inn": "7723864870",
+    "site": "https://transportir.ru",
+    "phones": [
+      "+7 (495) 229-14-70"
+    ],
+    "email": "russia@transportir.com",
+    "proof_url": "https://transportir.ru/services/dostavka-gruzov-polsha/",
+    "scheme": "Сборные и FTL из Польши в РФ/РБ. Партнёрский терминал (таможенный склад) в Блони, в 20 км от Варшавы: кросс-докинг, открытие EX-1 за поставщика. Далее перецепка или перегруз в Беларуси на приграничных ПТО/ТЛЦ на машины ЕАЭС. В Беларуси перецепка 120 BYN (~50 €) за заезд, ~2 часа; перегруз FTL на 33 EP ~250 €. Два своих СВХ в РФ (Московская и Смоленская обл.), таможенное оформление в РФ. Не возит акцизные товары, наливные и насыпные грузы.",
+    "transit_and_price": "До СВХ Московской обл. «за 5 дней с таможней». FTL Варшава → СВХ МО: 2900 € (22,5 т / 34 EPL), цены I кв. 2026. Сборные Варшава → Москва: 1 EP 490 €, 10 EP 2060 €. Из Блони 1 EP 410 €.",
+    "sources": [
+      "https://transportir.ru/services/dostavka-gruzov-polsha/",
+      "https://transportir.ru/services/dostavka-gruzov-evropa/",
+      "https://transportir.ru/industry-news/peretsepka-v-belarusi-pri-gruzoperevozkah-iz-evropy/",
+      "https://www.orgpage.ru/moskva/transportir-forvarding-5732232.html",
+      "https://www.find-org.net/search/phone/?val=4952291470"
+    ],
+    "verified": true,
+    "note": "Телефон совпадает на сайте, в OrgPage («Транспортир Форвардинг», Трубная 21, многоканальный) и в find-org (по номеру находится ООО «ТРАНСПОРТИР ГРУПП»). Единственная компания, которая публикует FTL-ставку ровно под 33–34 паллеты. ВАЖНО: акцизные товары (алкоголь) не возят, поэтому уточнить, если напитки алкогольные."
+  },
+  {
+    "company": "ООО «ТРАСКО» (TRASKO)",
+    "city": "Красногорск, Московская обл. (пос. Архангельское)",
+    "inn": "5024028131",
+    "site": "https://trasko.ru",
+    "phones": [
+      "+7 (495) 564-87-14"
+    ],
+    "email": "info@trasko.ru",
+    "proof_url": "https://trasko.ru/geo/poland/",
+    "scheme": "Перегруз на собственном складе консолидации в Блони (Польша), затем доставка до приграничного таможенного логистического центра. Там груз перегружают или перецепляют на машину с допуском в ТС; маршрут через Беларусь. Сборные и FTL (отдельная машина), таможенное сопровождение. Собственный парк более 400 автопоездов.",
+    "transit_and_price": "В среднем 10–14 дней из Польши до Москвы, если на границе нет очередей. Цены на странице не опубликованы.",
+    "sources": [
+      "https://trasko.ru/geo/poland/",
+      "https://trasko.ru/contacts/",
+      "https://www.find-org.net/search/phone/?val=4955648714"
+    ],
+    "verified": true,
+    "note": "ИНН взят из find-org: поиск по номеру 4955648714 выдал ООО «ТРАСКО», ОГРН 1025002866470. Крупный перевозчик с 1995 г., склад в Польше указан на сайте."
+  },
+  {
+    "company": "Patix Trans Group (юрлицо по реквизитам на сайте: ООО «ВЭД Сервис»)",
+    "city": "Красногорск, Московская обл.; офис в СПб",
+    "inn": "5024134919",
+    "site": "https://www.patixgroup.ru",
+    "phones": [
+      "+7 (495) 285-05-67",
+      "+7 (495) 275-85-85",
+      "+7 (812) 309-57-71"
+    ],
+    "email": "info@patixgroup.ru",
+    "proof_url": "https://www.patixgroup.ru/perevozka_gruzov/mezhdunarodnye-perevozki-sbornyh-gruzov/poland/",
+    "scheme": "FTL идёт по двум маршрутам: основной Польша → Беларусь → Россия, резервный Польша → Латвия → Россия (на случай очередей или нестабильности в РБ). Сборные: Варшава → склад консолидации в Вильнюсе → таможенный пост в Москве. Таможенное оформление в Москве, СВХ.",
+    "transit_and_price": "FTL через Беларусь: 1900 €, 4–5 дней, плюс таможенное оформление 370 € и СВХ 110 €, итого 2380 €. Через Латвию 2000 € за 5–6 дней. Сборные из Вильнюса: 1 EP итого ~710 €. Цены похожи на устаревшие (дата не указана).",
+    "sources": [
+      "https://www.patixgroup.ru/perevozka_gruzov/mezhdunarodnye-perevozki-sbornyh-gruzov/poland/",
+      "https://www.patixgroup.ru/contacts/",
+      "https://www.patixgroup.ru/clients/forpages/rekvizity.docx",
+      "https://solnechnogorsk.spravker.ru/perevozka-gruzov-vodnyim-transportom/patix-trans-group.htm",
+      "https://www.yell.ru/moscow/top/logisticheskie-kompanii/gorod_krasnogorsk/"
+    ],
+    "verified": true,
+    "note": "+7 (495) 285-05-67 подтверждён в Spravker (Patix Trans Group, Жуковского 6, Красногорск). Остальные номера есть только на сайте. ИНН взят из файла реквизитов на сайте, документ может быть старым. Опубликованные ставки FTL низкие для 2026 г., их нужно перепроверить."
+  },
+  {
+    "company": "Альберани Логистикс (Alberani)",
+    "city": "Москва (Ступинский пр., 1)",
+    "inn": null,
+    "site": "https://www.alberani.ru",
+    "phones": [
+      "+7 (903) 790-39-79",
+      "+7 (495) 133-86-15"
+    ],
+    "email": "info@alberani.ru",
+    "proof_url": "https://www.alberani.ru/geo/dostavka-gruzov-iz-polshi/",
+    "scheme": "Автодоставка из Польши через погранпереход Брест (Беларусь). Сборные со складов консолидации, машины уходят еженедельно по расписанию; полная фура (тенты 82–92 м³). Таможенное оформление в РФ, СВХ, ответственное хранение после выпуска. Есть и ж/д через РБ.",
+    "transit_and_price": "Фура: 5–7 дней (в другом блоке страницы 7–12 дней, 1233 км, погранпереход Брест). Сборные: 5–7 дней. Сборные Польша → Россия: ориентировочная сетка от 200 € (до 250 кг) до 1100 € (до 1500 кг).",
+    "sources": [
+      "https://www.alberani.ru/geo/dostavka-gruzov-iz-polshi/",
+      "https://www.alberani.ru/kontakty/",
+      "https://zoon.ru/msk/business/transportnaya_kompaniya_alberani_logistiks/",
+      "https://www.yell.ru/moscow/com/alberani-logistiks_11898942/"
+    ],
+    "verified": true,
+    "note": "+7 (903) 790-39-79 подтверждён в Zoon и Yell (Yell: 25 отзывов, 4.8). +7 (495) 133-86-15 есть на сайте и в tel-ссылках Zoon, find-org по нему ничего не нашёл. ИНН на сайте не указан."
+  },
+  {
+    "company": "ООО «Интер-фрейт Восток» (Inter-Freight)",
+    "city": "Москва (ул. Большая Татарская, 35с3)",
+    "inn": null,
+    "site": "https://inter-freight.ru",
+    "phones": [
+      "+7 (495) 266-67-33 (сайт)",
+      "+7 (499) 322-74-25 (Zoon)"
+    ],
+    "email": "info@inter-vostok.ru",
+    "proof_url": "https://inter-freight.ru/directions/europe/polsha",
+    "scheme": "FTL: забор у поставщика в Польше и доставка без перегрузок на склад в РФ (схему прохождения границы при запрете для ЕС-перевозчиков нужно уточнить). Сборные: консолидация на складе, отправки 1–3 раза в неделю, таможенное оформление на СВХ/ПТО. Ответственность экспедитора застрахована на 750 000 €.",
+    "transit_and_price": "Польша → Москва около 5–6 дней. Цены не опубликованы.",
+    "sources": [
+      "https://inter-freight.ru/directions/europe/polsha",
+      "https://inter-freight.ru/contacts",
+      "https://zoon.ru/msk/utility_service/kompaniya_inter-frejt_vostok/"
+    ],
+    "verified": false,
+    "note": "Номер с сайта (495) 266-67-33 не подтверждён: find-org выдаёт по нему недействующее ЗАО. В Zoon карточка с сайтом inter-freight.ru, но с другим номером, +7 (499) 322-74-25. Звонить по обоим. Формулировка «без перегрузок» требует уточнения."
+  },
+  {
+    "company": "ООО «Лоджистик Сервис Групп» (Logistic Service)",
+    "city": "Москва",
+    "inn": "7715399770",
+    "site": "https://logistic-service.ru",
+    "phones": [
+      "+7 (495) 252-62-22"
+    ],
+    "email": "sales@logistic-service.ru",
+    "proof_url": "https://logistic-service.ru/services/mezhdunarodnye-perevozki/polsha-rossiya/",
+    "scheme": "Сборные: забор у отправителя, склад консолидации в Вильнюсе, загрузка в сборный автомобиль, доставка в РФ, вывоз с СВХ после таможенной очистки. Компания сама является таможенным брокером. Доступна отдельная машина (20 т тент).",
+    "transit_and_price": "Польша → Москва 12–14 дней. Целая машина (20 т тент) из Польши: 1800 €; сборка 205 € за паллету до их склада в Москве. Дата цен не указана.",
+    "sources": [
+      "https://logistic-service.ru/services/mezhdunarodnye-perevozki/polsha-rossiya/",
+      "https://logistic-service.ru/requisites/"
+    ],
+    "verified": false,
+    "note": "Телефон только на сайте. Find-org по номеру 4952526222 ничего не нашёл. Карточка «Лоджистик Сервис Групп» в Zoon относится к другому сайту (logistic-service.biz) и не подходит."
+  },
+  {
+    "company": "Мультимодал Лайн (Multimodal Line)",
+    "city": "Химки, Московская обл. (аэропорт Шереметьево, вл. 5)",
+    "inn": null,
+    "site": "https://www.multimodal.su",
+    "phones": [
+      "+7 (925) 786-06-41",
+      "+7 (499) 398-87-30"
+    ],
+    "email": "info@multimodal.su",
+    "proof_url": "https://www.multimodal.su/napravlenija/evropa/polsha",
+    "scheme": "Своя доставка из Польши в РФ. Собственный склад консолидации в Вильнюсе. Комплектные (тент 82 м³) и сборные отправки, таможенное сопровождение и брокер. В списке возимых грузов есть продукты питания: молочные, мясо, овощи, фрукты, кондитерка.",
+    "transit_and_price": "Автоперевозка тент 82 м³: от 2150 €. Сборные: от 125 €. Авто 3–5 дней (по тексту страницы).",
+    "sources": [
+      "https://www.multimodal.su/napravlenija/evropa/polsha",
+      "https://www.multimodal.su/kontakty",
+      "https://zoon.ru/msk/business/transportno-ekspeditorskaya_kompaniya_multimodal_line/"
+    ],
+    "verified": true,
+    "note": "+7 (925) 786-06-41 подтверждён в Zoon. Номер (499) 398-87-30 тоже есть в tel-ссылках карточки Zoon. Маршрут идёт через Литву."
+  },
+  {
+    "company": "ООО «Паритет Логистик» (Parity Logistic)",
+    "city": "Москва (Рязанский пр-т, 32 к3)",
+    "inn": null,
+    "site": "https://www.parity-log.ru",
+    "phones": [
+      "+7 (499) 995-23-31"
+    ],
+    "email": "info@parity-log.com",
+    "proof_url": "https://www.parity-log.ru/transportnye-uslugi/mezhdunarodnaya-dostavka-sbornyh-gruzov/poland/",
+    "scheme": "Сборные из Польши. По заявлению компании, есть складские комплексы в Польше и соседних странах ЕС. Доставка до Москвы и Смоленска (СВХ), есть таможенное оформление.",
+    "transit_and_price": "Варшава → Москва 4 дня, Варшава → Смоленск 2 дня, Гданьск → Москва 5 дней (без учёта таможни). Партия от 100 €, обработка 55 € за партию, хранение первые 10 дней бесплатно.",
+    "sources": [
+      "https://www.parity-log.ru/transportnye-uslugi/mezhdunarodnaya-dostavka-sbornyh-gruzov/poland/",
+      "https://www.parity-log.ru/contacts/",
+      "https://zoon.ru/msk/business/logisticheskaya_kompaniya_paritet_logistik/",
+      "https://msk.spravker.ru/logistika/metro-vyihino/"
+    ],
+    "verified": true,
+    "note": "Телефон совпадает в Zoon и Spravker. На странице нет описания схемы прохождения границы, её надо спросить. Рейтинг в Zoon 2.0."
+  },
+  {
+    "company": "ООО «Микаргус» (Micargus)",
+    "city": "Санкт-Петербург (Ленинский пр., 160, БЦ «Меридиан»)",
+    "inn": "7810398590",
+    "site": "https://micargus.ru",
+    "phones": [
+      "+7 (812) 309-89-82",
+      "8 (800) 777-84-59"
+    ],
+    "email": "info@micargus.ru",
+    "proof_url": "https://micargus.ru/import/dostavka-gruzov-iz-polshi/v-moskvu/",
+    "scheme": "Доставка из Польши в Москву фурой или микроавтобусом, плюс таможенное оформление. Всегда закрывают экспортную декларацию, чтобы груз шёл без европейского НДС. Подбор складов временного размещения. Конкретная схема на границе на странице не описана.",
+    "transit_and_price": "Авто Варшава → Москва с таможней 9–12 дней. Калькулятор: LCL 1 м³ 242 $, 10 м³/5 т 1681 $; FTL 92 м³/22 т по запросу.",
+    "sources": [
+      "https://micargus.ru/import/dostavka-gruzov-iz-polshi/v-moskvu/",
+      "https://micargus.ru/contact-us/",
+      "https://www.orgpage.ru/kompanii-2610786-2611043/"
+    ],
+    "verified": true,
+    "note": "+7 (812) 309-89-82 подтверждён в OrgPage (Микаргус, Ленинский пр. 160). Компания из Санкт-Петербурга, доставляет в Москву."
+  },
+  {
+    "company": "Инвест Технолоджи Брокер (ITBRK)",
+    "city": "Москва (ул. Маломосковская, 16 стр. 1)",
+    "inn": null,
+    "site": "https://itbrk.com",
+    "phones": [
+      "+7 (495) 215-54-06",
+      "+7 (977) 777-54-06 (Max)"
+    ],
+    "email": null,
+    "proof_url": "https://itbrk.com/napravleniya/avtoperevozki-iz-evropy/dostavit-gruz-iz-polshi-vy-po-adresu",
+    "scheme": "Маршруты через Калининградскую обл., Прибалтику и Беларусь. Иностранные перевозчики не могут ехать по РБ/РФ, поэтому на границе груз перегружают или перецепляют полуприцеп к российскому тягачу под таможенным контролем на приграничных складах. FTL и LTL, компания является таможенным брокером.",
+    "transit_and_price": "Не опубликованы.",
+    "sources": [
+      "https://itbrk.com/napravleniya/avtoperevozki-iz-evropy/dostavit-gruz-iz-polshi-vy-po-adresu",
+      "https://itbrk.com/contacts",
+      "https://zoon.ru/msk/utility_service/gruppa_kompanij_invest_tehnolodzhi_broker/"
+    ],
+    "verified": true,
+    "note": "+7 (495) 215-54-06 подтверждён в Zoon (карточка с сайтом itbrk.com). E-mail на сайте скрыт от ботов."
+  },
+  {
+    "company": "Глобал-Альянс Логистик (Global-Alians)",
+    "city": "Москва (ул. Вавилова, 69/75)",
+    "inn": null,
+    "site": "https://global-alians.com",
+    "phones": [
+      "+7 (495) 109-79-13"
+    ],
+    "email": "info@global-alians.com",
+    "proof_url": "https://global-alians.com/napravleniya/dostavka-iz-polshi/",
+    "scheme": "Забор у поставщика в ЕС, консолидация в Вильнюсе, Москва (таможня и выдача). Проверка товара и комплаенс до отгрузки.",
+    "transit_and_price": "Ставка индивидуальная. Кейсы на сайте: 12–14 дней (Германия → Вильнюс → МО).",
+    "sources": [
+      "https://global-alians.com/napravleniya/dostavka-iz-polshi/",
+      "https://global-alians.com/kontakty/",
+      "https://zoon.ru/msk/utility_service/kompaniya_po_dostavke_gruzov_iz_kitaya_global-alyans_logistik_na_ulitse_vavilova/"
+    ],
+    "verified": true,
+    "note": "Телефон подтверждён в Zoon. Основной профиль компании — Китай, Европа ей второстепенна. Маршрут через Литву, не через Брест."
+  },
+  {
+    "company": "Транссертико (ООО «Брок-Инвест»)",
+    "city": "Москва (ул. Ленинская Слобода, 26)",
+    "inn": null,
+    "site": "https://www.dtod.ru",
+    "phones": [
+      "+7 (495) 617-61-16",
+      "8 (800) 700-61-17"
+    ],
+    "email": "info@dtod.ru",
+    "proof_url": "https://www.dtod.ru/service/dostavka-gruzov-iz-polshi/",
+    "scheme": "Забор из любого города Польши, консолидация, доставка «без перегруза на всём пути» (это надо уточнить с учётом запрета для ЕС-перевозчиков в РБ/РФ). Таможенное оформление, сертификация, оплата поставщику через дружественные юрисдикции. Есть опция «скоропортящийся груз».",
+    "transit_and_price": "Сборные из Европы по LDM: 0,4 LDM/300 кг 350 €, 1 LDM/1,5 т 500 €, 5,2 LDM/7,5 т 1700 €, 7,2 LDM 2400 €. Из Польши от 210 € за м³ (300 кг). Доставка по Москве от 5500 ₽.",
+    "sources": [
+      "https://www.dtod.ru/service/dostavka-gruzov-iz-polshi/",
+      "https://www.dtod.ru/contacts/",
+      "https://www.yell.ru/moscow/com/transsertiko_10849516/",
+      "https://msk.spravker.ru/logistika/metro-avtozavodskaya/"
+    ],
+    "verified": true,
+    "note": "+7 (495) 617-61-16 подтверждён в Yell (29 отзывов, 4.8) и Spravker. 8-800-700-61-17 есть только в Spravker."
+  },
+  {
+    "company": "ООО «Балт Бизнес Брокер» (BaltBusinessBroker)",
+    "city": "Санкт-Петербург; есть московский номер",
+    "inn": null,
+    "site": "https://baltbusinessbroker.ru",
+    "phones": [
+      "+7 (812) 424-78-71",
+      "+7 (495) 204-35-71"
+    ],
+    "email": "info@bbbroker.ru",
+    "proof_url": "https://baltbusinessbroker.ru/gruzoperevozki-po-stranam/evropa/polsha/",
+    "scheme": "Консолидация (LCL) на своём складе в Варшаве, открытие таможенного транзита (ТТ) в ЕС, мультимодальная перевалка: перегрузка с европейского транспорта на машины, идущие в РФ. Компания является таможенным представителем и работает с постами ЦЭД Москвы.",
+    "transit_and_price": "Прямое авто 3–7 дней (до Москвы 5–10 дней), сборные 7–14 дней. Цены не опубликованы.",
+    "sources": [
+      "https://baltbusinessbroker.ru/gruzoperevozki-po-stranam/evropa/polsha/",
+      "https://www.orgpage.ru/sankt-peterburg/balt-biznes-broker-5683431.html"
+    ],
+    "verified": true,
+    "note": "+7 (812) 424-78-71 подтверждён в OrgPage. Московский (495) 204-35-71 есть только на сайте. На сайте упоминается «легальный выкуп санкционных товаров через альтернативные маршруты» — для еды не нужно, но учитывать репутационный риск."
+  },
+  {
+    "company": "LTL Cargo (ООО «Надежная доставка», Беларусь)",
+    "city": "Минский р-н, д. Боровляны (РБ)",
+    "inn": "УНП 192005877 (РБ)",
+    "site": "https://ltl.by",
+    "phones": [
+      "+7 (499) 409-27-35 (московский номер на сайте)",
+      "+375 (44) 7777-219",
+      "+375 (29) 7777-619"
+    ],
+    "email": "order@ltl.by",
+    "proof_url": "https://ltl.by/directions/from-europe/poland/to-russia/moscow",
+    "scheme": "Собственный автопарк и консолидационные склады в Польше. Сборные из Польши в Москву (на таможенные склады в Москве, СПб, Смоленске или до двери), таможенное оформление, страхование. Белорусское юрлицо, удобно для перецепки или перегруза в РБ.",
+    "transit_and_price": "Варшава → Москва: 1 EP/0,5 т 270 €, 5 EP/2,5 т 570 €, 8 EP/4 т 820 €, 5–10 дней. Белосток, Краков, Лодзь → Москва: 4–8 дней.",
+    "sources": [
+      "https://ltl.by/directions/from-europe/poland/to-russia/moscow",
+      "https://ltl.by/about/contacts"
+    ],
+    "verified": false,
+    "note": "Телефоны только на сайте, в доступных справочниках не найдены. Не российское юрлицо. Подходит как запасной вариант для сборных или как белорусский партнёр."
+  },
+  {
+    "company": "ГК «Терминал» (rterminal.ru)",
+    "city": "Россия (федеральный номер)",
+    "inn": null,
+    "site": "https://rterminal.ru",
+    "phones": [
+      "8 (800) 500-73-53"
+    ],
+    "email": "info@rterminal.ru",
+    "proof_url": "https://rterminal.ru/services/transportnaya_logistika/evropa/dostavka_gruzov_iz_polshi/",
+    "scheme": "Доставка из Польши под ключ: проверка товара до оплаты, чтобы закрыть EX-1; транзит через третьи страны; перегруз или перецепка на приграничных терминалах с соблюдением правил контроля. FTL и LTL, таможенное оформление и сертификация.",
+    "transit_and_price": "Не опубликованы.",
+    "sources": [
+      "https://rterminal.ru/services/transportnaya_logistika/evropa/dostavka_gruzov_iz_polshi/"
+    ],
+    "verified": false,
+    "note": "Номер 8-800 есть только на сайте, в справочниках не найден. Юрлицо и ИНН на просмотренной странице не указаны."
+  }
+]
