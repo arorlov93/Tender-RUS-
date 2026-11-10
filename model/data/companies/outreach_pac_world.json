@@ -1,0 +1,609 @@
+[
+  {
+    "company": "Bangladesh Power Development Board (BPDB) - Directorate of Purchase",
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "buyer_type": "industrial",
+    "proof_url": "https://bangla.bppa.gov.bd/advertisement-goods/details-84349.html",
+    "procurement_email": "dir.purchase@bpdb.gov.bd",
+    "other_emails": [],
+    "phone": "+88 02 223383081",
+    "contact_person": "MD Abu Sayed, Director, Directorate of Purchase (per 2024 PAC tender notice)",
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://bangla.bppa.gov.bd/advertisement-goods/details-84349.html",
+      "https://www.bppa.gov.bd/advertisement-goods/details-84688.html",
+      "https://www.adb.org/node/1156206"
+    ],
+    "verified": true,
+    "note": "Open international e-GP tender for Poly Aluminium Chloride for Chattogram Power Station (pkg GR-13, FY2023-24, closed 16/04/2024); 'tenderers from all countries'. Bidding is through Bangladesh e-GP, which needs e-GP registration (portal URL not opened). Email appears on the BPPA PAC notice, another BPPA notice and an ADB-hosted BPDB bidding notice. Office address differs between notices (WAPDA Bldg Motijheel vs Bidyut Bhaban). OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Electricity Generation Company of Bangladesh (EGCB) - Haripur 412 MW CCPP",
+    "country": "Bangladesh",
+    "city": "Haripur, Narayanganj",
+    "buyer_type": "industrial",
+    "proof_url": "https://www.bppa.gov.bd/advertisement-goods/details-95775.html",
+    "procurement_email": "am.hr412@egcb.com.bd",
+    "other_emails": [],
+    "phone": "+880 2 55138668",
+    "contact_person": "Touhidur Rahman Khan, Sub Divisional Engineer (official inviting tender)",
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.bppa.gov.bd/advertisement-goods/details-95775.html",
+      "https://bppa.gov.bd/advertisement-goods/details-90330.html",
+      "https://www.bppa.gov.bd/advertisement-goods/details-81129.html",
+      "https://bppa.gov.bd/noa-award-details/noa-awards-4061.html"
+    ],
+    "verified": false,
+    "note": "Repeat buyer: e-GP tenders for water (pre-)treatment chemicals 'Poly Aluminium Chloride etc.' (OPN_GR03, OPN-GR-04, OPN-CHM-GR04 published 20/11/2025). Last award (11/01/2026) went to Noorjahan Chemical Suppliers. Email only on BPPA notices, not on the EGCB site, so only one source. Bids go via e-GP; usually a local bidder is needed, so the Bangladeshi winners are the better route. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Noorjahan Chemical Suppliers",
+    "country": "Bangladesh",
+    "city": "Dhaka (Purana Paltan)",
+    "buyer_type": "distributor",
+    "proof_url": "https://bppa.gov.bd/noa-award-details/noa-awards-4061.html",
+    "procurement_email": null,
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://bppa.gov.bd/noa-award-details/noa-awards-4061.html"
+    ],
+    "verified": false,
+    "note": "Local supplier that won EGCB Haripur 412 MW PAC tender (NOA 11/01/2026). Address: 162 Shahid Syed Nazrul Islam Sharoni, Suleman Plaza (4th floor) Room 505, Purana Paltan, Dhaka-1000. No e-mail or website found; contact by post/phone after lookup. Strong importer lead. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Paranthan Chemicals Company Limited (PCCL)",
+    "country": "Sri Lanka",
+    "city": "Ratmalana (Colombo)",
+    "buyer_type": "industrial",
+    "proof_url": "https://www.industry.gov.lk/web/wp-content/uploads/2022/08/Offer-Sheet-PAC.pdf",
+    "procurement_email": "info@pccl.lk",
+    "other_emails": [],
+    "phone": "+94 11 2437831; +94 11 2437556",
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://pccl.lk",
+      "https://pccl.lk/contact-us",
+      "https://www.parliament.lk/uploads/businessdocs/english/23022_english_2026-01-08.pdf",
+      "https://www.industry.gov.lk/web/wp-content/uploads/2022/08/Offer-Sheet-PAC.pdf"
+    ],
+    "verified": true,
+    "note": "State-owned chemical company; issued an import tender (FOB/C&F/CIF offer sheet) for 50 MT Poly Aluminium Chloride (closed 24/08/2022) and resells to water users. The annual report notes it depends on chemical imports. Its about-us page says PCCL plans its own PAC plant, which could cut future import demand. E-mail is on pccl.lk and in the annual report tabled in Parliament (Jan 2026). OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Water Lanka Services (Pvt) Ltd",
+    "country": "Sri Lanka",
+    "city": "Gampaha",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.waterlanka.com",
+    "procurement_email": "info@waterlanka.com",
+    "other_emails": [],
+    "phone": "+94 11 4758810; +94 76 459 1234",
+    "contact_person": "Chathura Darshana (company manager, per LankaYP)",
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.waterlanka.com",
+      "https://www.lankayp.com/product/2093/Water_Treatment_Chemicals",
+      "https://www.lankayp.com/company/26489/Water_Lanka_Services_Pvt_Ltd"
+    ],
+    "verified": false,
+    "note": "Site lists 'Poly Aluminum Chloride (PAC)' among treatment chemicals supplied; LankaYP listing also names PAC. Small firm (1-5 staff, est. 2022). E-mail not visible in LankaYP, so only one source. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Wigmore Trading Ltd",
+    "country": "Nigeria",
+    "city": "Lagos (Ikoyi)",
+    "buyer_type": "distributor",
+    "proof_url": "https://wigmoretrading.com/enhancing-water-quality-in-nigeria-an-overview-of-wigmore-tradings-water-treatment-chemicals",
+    "procurement_email": "sales@wigmoretrading.com",
+    "other_emails": [
+      "advisory@wigmoretrading.com"
+    ],
+    "phone": "+234 1 2934174; +234 815 906 2455",
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://wigmoretrading.com/enhancing-water-quality-in-nigeria-an-overview-of-wigmore-tradings-water-treatment-chemicals",
+      "https://wigmoretrading.com/contact-us"
+    ],
+    "verified": false,
+    "note": "Says it supplies alum, PAC and chlorine for water treatment in Nigeria. A general trader with very broad content (also metals, crude), so check it is a real chemicals importer before quoting. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Manuchar Trading House International Ltd (Manuchar Nigeria)",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.manuchar.com/ng/en/chemical-distribution/industries/other-industries",
+    "procurement_email": "sales.nigeria@manuchar.com",
+    "other_emails": [
+      "nigeria@manuchar.com"
+    ],
+    "phone": null,
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.manuchar.com/ng/en/chemical-distribution/industries/other-industries",
+      "https://www.manuchar.com/contact-us"
+    ],
+    "verified": false,
+    "note": "Filtration & Water Treatment page lists 'Poly Aluminium Chloride (PAC)'. Belgian-owned bulk distributor that already sources commodity chemicals from China. Both e-mails are on manuchar.com only. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Manuchar Kenya Limited",
+    "country": "Kenya",
+    "city": "Nairobi",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.manuchar.com/ke/en/chemical-distribution/industries/other-industries",
+    "procurement_email": "kenya.contact@manuchar.com",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.manuchar.com/ke/en/chemical-distribution/industries/other-industries"
+    ],
+    "verified": false,
+    "note": "Kenya page lists 'Poly Aluminium Chloride (PAC)' under water treatment. A good East African hub buyer (Mombasa port). E-mail is on manuchar.com only. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Manuchar South Africa",
+    "country": "South Africa",
+    "city": null,
+    "buyer_type": "distributor",
+    "proof_url": "https://www.manuchar.com/za/en/chemical-distribution/industries/other-industries",
+    "procurement_email": "tyralee.meyer@manuchar.com",
+    "other_emails": [
+      "contact@manuchar.com"
+    ],
+    "phone": null,
+    "contact_person": "Tyralee Meyer (recipient of the SA contact form on the page)",
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.manuchar.com/za/en/chemical-distribution/industries/other-industries"
+    ],
+    "verified": false,
+    "note": "SA page lists 'Poly Aluminium Chloride (PAC)'. The personal address comes from the page's contact-form recipient field (page source), not printed text; contact@manuchar.com is the group fallback. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Manuchar Chile S.A.",
+    "country": "Chile",
+    "city": null,
+    "buyer_type": "distributor",
+    "proof_url": "https://www.manuchar.com/cl/en/chemical-distribution/industries/other-industries",
+    "procurement_email": "chile.contact@manuchar.com",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.manuchar.com/cl/en/chemical-distribution/industries/other-industries",
+      "https://www.manuchar.com/contact-us"
+    ],
+    "verified": false,
+    "note": "Chile water-treatment portfolio: 'Aluminium Sulphate, Poly Aluminium Chloride (PAC), Sodium Bicarbonate'. Mining and water demand. E-mail is on manuchar.com only. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Manuchar Mexico",
+    "country": "Mexico",
+    "city": null,
+    "buyer_type": "distributor",
+    "proof_url": "https://www.manuchar.com/mx/en/chemical-distribution/industries/other-industries",
+    "procurement_email": "Info@manuchar.com.mx",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.manuchar.com/mx/en/chemical-distribution/industries/other-industries"
+    ],
+    "verified": false,
+    "note": "Mexico page lists Poly Aluminium Chloride under water treatment. E-mail is the page's contact-form recipient (page source). OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "HART Chemicals",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.2merkato.com/directory/41373-hart-chemicals",
+    "procurement_email": "HARTchemicals@gmail.com",
+    "other_emails": [],
+    "phone": "+251 901 818282",
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.2merkato.com/directory/41373-hart-chemicals"
+    ],
+    "verified": false,
+    "note": "2merkato directory lists 'Poly Aluminium Chloride (PAC)' in its water treatment range (with alum, hydrated lime). No own website found, so only one source. Ethiopia has tight FX, so expect LC/CAD terms. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Wehib Chemicals Trading",
+    "country": "Ethiopia",
+    "city": "Addis Ababa",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.2merkato.com/banners/click413",
+    "procurement_email": null,
+    "other_emails": [],
+    "phone": "+251 112 73 47 83; +251 112 73 31 23; +251 911 65 42 04",
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.2merkato.com/banners/click413"
+    ],
+    "verified": false,
+    "note": "2merkato listing shows 'Poly aluminum chloride' in its product list. No e-mail published; phone only. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "National Water and Sewerage Corporation (NWSC)",
+    "country": "Uganda",
+    "city": "Kampala",
+    "buyer_type": "utility",
+    "proof_url": "https://www.nwsc.co.ug/wp-content/uploads/2025/09/BID-NOTICE-FOR-POLYMERS-FOR-WATER-TREATMENT-AND-ORGANIC-POLYMERS.docx",
+    "procurement_email": "nwscbid@nwscic.co.ug",
+    "other_emails": [
+      "info@nwsc.co.ug"
+    ],
+    "phone": "+256 313 315484; +256 313 315801",
+    "contact_person": "Senior Manager Procurement",
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.nwsc.co.ug",
+      "https://www.nwsc.co.ug/wp-content/uploads/2025/09/BID-NOTICE-FOR-POLYMERS-FOR-WATER-TREATMENT-AND-ORGANIC-POLYMERS.docx",
+      "https://www.nwsc.co.ug/wp-content/uploads/2026/01/BID-NOTICE-FOR-ALUM-TENDER-181463.docx"
+    ],
+    "verified": false,
+    "note": "Runs open international bidding for coagulants under 18-month framework contracts: polymers for water treatment (NWSC-HQ/SUPLS/25-26/181306, closed 30/10/2025) and aluminium sulphate for 5 works (bid notice 17/11/2025). PAC is not named, so pitch it as an alum/polymer alternative. Both notices are on nwsc.co.ug, so only one source. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Aris Industrial S.A. (Aris Químicos)",
+    "country": "Peru",
+    "city": "Lima",
+    "buyer_type": "distributor",
+    "proof_url": "https://quimicos.aris.com.pe/",
+    "procurement_email": "vquimicos@aris.com.pe",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://quimicos.aris.com.pe/"
+    ],
+    "verified": false,
+    "note": "Site menu has a 'Policloruro PAC' category (PAC Pantera brands) plus alum and polymers. Formulator/distributor, so it may buy powder PAC to blend. E-mail is on its own site and PDFs only. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Pochteca Perú",
+    "country": "Peru",
+    "city": null,
+    "buyer_type": "distributor",
+    "proof_url": "https://peru.pochteca.net/wp-content/uploads/2023/05/ficha-mineria.pdf",
+    "procurement_email": "contacto.peru@pochteca.net",
+    "other_emails": [],
+    "phone": "+51 980 481 848",
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://peru.pochteca.net/",
+      "https://peru.pochteca.net/wp-content/uploads/2023/05/ficha-mineria.pdf"
+    ],
+    "verified": false,
+    "note": "Mining segment sheet lists 'POLICLORURO DE ALUMINIO'. Part of Grupo Pochteca (Mexico-listed chemical distributor). OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Alcotrade",
+    "country": "Mexico",
+    "city": "Ciudad de México (CP 06700)",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.cosmos.com.mx/empresa/alcotrade-fhb1.html",
+    "procurement_email": "info@alcotrade.mx",
+    "other_emails": [
+      "contacto@alcotrademx.com"
+    ],
+    "phone": "+52 55 5511 4660; +52 55 8582 4123",
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.cosmos.com.mx/empresa/alcotrade-fhb1.html",
+      "https://alcotrade.mx/contacto",
+      "https://alcotrade.mx/productos/"
+    ],
+    "verified": false,
+    "note": "Cosmos directory profile lists 'Pac (coagulante inorganico)'; its own catalogue has 8 coagulant items. The e-mail is not shown on Cosmos, so only one source. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Aquasitra",
+    "country": "Mexico",
+    "city": "Estado de México (CP 54050)",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.aquasitra.com/productos-y-servicios",
+    "procurement_email": "info@aquasitra.com",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.aquasitra.com/productos-y-servicios",
+      "https://www.aquasitra.com/contacto",
+      "https://www.cosmos.com.mx/empresa/aquasitra-h44h.html"
+    ],
+    "verified": false,
+    "note": "Own site: 'Coagulantes, floculantes y deshidratadores'. Cosmos profile: 'Policloruro de aluminio', 'nuestro favorito es el PAC'. Producer-distributor. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Corporativo Integral del Ambiente (BLEFLOC)",
+    "country": "Mexico",
+    "city": "Puebla (CP 72595)",
+    "buyer_type": "distributor",
+    "proof_url": "https://corpintegraldelambiente.com.mx",
+    "procurement_email": "cservice@corpintegraldelambiente.com.mx",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://corpintegraldelambiente.com.mx",
+      "https://corpintegraldelambiente.com.mx/contacto",
+      "https://www.cosmos.com.mx/empresa/corporativo-integral-del-ambiente-g7fz.html"
+    ],
+    "verified": false,
+    "note": "Sells BLEFLOC PAC (solid), BLEFLOC PAC 51 and ACH. It is a manufacturer/formulator, so it could buy powder PAC as raw material but may also compete. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Ingeniería Liquid Technologies de Monterrey (Floculantes en México)",
+    "country": "Mexico",
+    "city": "Apodaca, N.L.",
+    "buyer_type": "distributor",
+    "proof_url": "https://floculantesenmexico.com.mx",
+    "procurement_email": "ventas@floculantesenmexico.com.mx",
+    "other_emails": [
+      "asesorared@gmail.com"
+    ],
+    "phone": null,
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://floculantesenmexico.com.mx",
+      "https://floculantesenmexico.com.mx/contacto",
+      "https://www.cosmos.com.mx/empresa/ingenieria-liquid-technologies-de-monterrey-f8yd.html"
+    ],
+    "verified": false,
+    "note": "Own site covers coagulants including policloruro de aluminio; Cosmos profile: 'Policloruro de Aluminio. Somos distribuidores...'. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Ampex Chemicals",
+    "country": "Mexico",
+    "city": "García, N.L.",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.cosmos.com.mx/empresa/ampex-chemicals-h4rg.html",
+    "procurement_email": "ampexchemicals@yahoo.com.mx",
+    "other_emails": [
+      "ampexchemicals2019@gmail.com"
+    ],
+    "phone": null,
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.cosmos.com.mx/empresa/ampex-chemicals-h4rg.html",
+      "https://www.ampex-chemicals.com.mx/contacto"
+    ],
+    "verified": false,
+    "note": "Cosmos profile lists 'Policloruro de aluminio (pac)'. PAC is not confirmed on its own site. Free-mail addresses. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Antvol Chemicals de México",
+    "country": "Mexico",
+    "city": "Zapopan, Jal.",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.cosmos.com.mx/empresa/antvol-chemicals-de-mexico-gbyf.html",
+    "procurement_email": "david.paramo@antvol.com",
+    "other_emails": [],
+    "phone": "+52 33 3682 1212; +52 33 1639 7381",
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.cosmos.com.mx/empresa/antvol-chemicals-de-mexico-gbyf.html",
+      "https://antvol.com/contacto"
+    ],
+    "verified": false,
+    "note": "Cosmos profile lists 'Pac (coagulante inorganico)'. The e-mail is a personal mailbox on the antvol.com contact page. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Especialidades PDV",
+    "country": "Mexico",
+    "city": "Estado de México",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.cosmos.com.mx/empresa/especialidades-pdv-b7h8.html",
+    "procurement_email": "web@espdv.com.mx",
+    "other_emails": [],
+    "phone": "+52 55 5273 8282; +52 55 5273 8290",
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.cosmos.com.mx/empresa/especialidades-pdv-b7h8.html",
+      "https://www.espdv.com.mx/contacto"
+    ],
+    "verified": false,
+    "note": "Cosmos profile lists 'Pac (coagulante inorganico)'. PAC is not confirmed on its own site. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Mexochem Corporativo",
+    "country": "Mexico",
+    "city": "Tenango del Valle, Edo. de Méx.",
+    "buyer_type": "distributor",
+    "proof_url": "https://www.cosmos.com.mx/empresa/mexochem-corporativo-b1q4.html",
+    "procurement_email": "ventas@mexochem.com",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.cosmos.com.mx/empresa/mexochem-corporativo-b1q4.html",
+      "https://www.mexochem.com"
+    ],
+    "verified": false,
+    "note": "Cosmos profile lists 'Pac (coagulante inorganico)'. PAC is not confirmed on its own site. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Ecoquimicos S.A.S.",
+    "country": "Colombia",
+    "city": "Bogotá",
+    "buyer_type": "distributor",
+    "proof_url": "http://www.ecoquimicos.com/productos.html",
+    "procurement_email": "servicioalcliente@ecoquimicos.com",
+    "other_emails": [],
+    "phone": "+57 1 310 8033; +57 310 280 4499",
+    "contact_person": null,
+    "language": "es",
+    "supplier_registration_url": null,
+    "sources": [
+      "http://www.ecoquimicos.com/productos.html",
+      "http://www.ecoquimicos.com/contacto.html",
+      "https://www.cosmos.com.mx/empresa/ecoquimicos-ltda-fm37.html"
+    ],
+    "verified": false,
+    "note": "Product list includes 'Policloruro de Aluminio'; Cosmos also lists 'Policloruro de aluminio (pac)'. Address: Carrera 29A No. 71C-57. The e-mail is on its own site only. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "PT Makro Chemindo",
+    "country": "Indonesia",
+    "city": null,
+    "buyer_type": "distributor",
+    "proof_url": "https://makrochemindo.com",
+    "procurement_email": "makrochm@dnet.net.id",
+    "other_emails": [],
+    "phone": "+62 878 5984 7625 (WhatsApp link on site)",
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://makrochemindo.com",
+      "https://makrochemindo.com/contact-2/"
+    ],
+    "verified": false,
+    "note": "Homepage lists 'PAC China Drinking (Poly Aluminium Chloride)', so it already sells Chinese drinking-grade PAC and fits our drinking grade. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "PT Sinarkimia Utama",
+    "country": "Indonesia",
+    "city": "Jakarta",
+    "buyer_type": "distributor",
+    "proof_url": null,
+    "procurement_email": "info@sinarkimia.com",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.sinarkimia.com"
+    ],
+    "verified": false,
+    "note": "LOW CONFIDENCE: PAC 31% (China origin) is said to be on its IndoTrading listing, but that page was blocked (403) and PAC was not confirmed on sinarkimia.com. Confirm before mailing. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Oman Chem (Muscat & Barka Business Trading, MBBT)",
+    "country": "Oman",
+    "city": "Barka",
+    "buyer_type": "distributor",
+    "proof_url": "https://omanchem.rxmarine.org/node/8663",
+    "procurement_email": "chemicals@omanchem.com",
+    "other_emails": [
+      "omanchem.com@gmail.com"
+    ],
+    "phone": "+968 7733 3599",
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://omanchem.rxmarine.org/node/8663",
+      "https://www.omanchem.com"
+    ],
+    "verified": false,
+    "note": "Catalogue names 'Poly Aluminum Chloride PAC' and PAC as a coagulant for DAF. Office and warehouse in Barka; linked to the RXSOL group (SEO-heavy catalogue). The two e-mails come from different pages of the same business. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Zamboanga City Water District (ZCWD) - Bids & Awards Committee",
+    "country": "Philippines",
+    "city": "Zamboanga City",
+    "buyer_type": "utility",
+    "proof_url": "https://zcwd.gov.ph/?p=8692",
+    "procurement_email": "bac@zcwd.gov.ph",
+    "other_emails": [],
+    "phone": "+63 62 991 6185",
+    "contact_person": "Chairperson, Bids & Awards Committee",
+    "language": "en",
+    "supplier_registration_url": "https://www.philgeps.gov.ph",
+    "sources": [
+      "https://zcwd.gov.ph/?p=8692",
+      "https://zcwd.gov.ph/wp-content/uploads/2021/02/PR-No.-21-0021_PBD-6th-Ed_rev-1.pdf"
+    ],
+    "verified": false,
+    "note": "Public bid PR No. 21-0021 for 1,500 drums of liquid PAC (200 L/drum). Bidders need PhilGEPS Platinum registration, so in practice this means a local partner. It buys liquid PAC, so pitch powder for local dilution or work through a PH importer. Both sources are ZCWD documents. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Astana Su Arnasy (GKP 'Астана су арнасы')",
+    "country": "Kazakhstan",
+    "city": "Astana",
+    "buyer_type": "utility",
+    "proof_url": null,
+    "procurement_email": "info@astanasu.kz",
+    "other_emails": [],
+    "phone": "+7 778 003 70 70",
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://astanasu.kz"
+    ],
+    "verified": false,
+    "note": "LOW CONFIDENCE: city water utility; a PAC (полиоксихлорид алюминия) purchase was not confirmed on any opened page. Procurement is via goszakup.gov.kz (not opened). Write in Russian/English. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  },
+  {
+    "company": "Ulaanbaatar Water Supply and Sewerage Authority (USUG)",
+    "country": "Mongolia",
+    "city": "Ulaanbaatar",
+    "buyer_type": "utility",
+    "proof_url": null,
+    "procurement_email": "usug1959@gmail.com",
+    "other_emails": [],
+    "phone": null,
+    "contact_person": null,
+    "language": "en",
+    "supplier_registration_url": null,
+    "sources": [
+      "https://www.usug.ub.gov.mn/contact"
+    ],
+    "verified": false,
+    "note": "LOW CONFIDENCE: city water utility; coagulant/PAC purchases not confirmed on an opened page. Only a free-mail address is published. OFAC SDN screen 2026-11-10 (SDN.CSV downloaded from sanctionslistservice.ofac.treas.gov): no match."
+  }
+]
