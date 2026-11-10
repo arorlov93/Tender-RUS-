@@ -1,0 +1,835 @@
+[
+ {
+  "company": "Carbotecnia S.A. de C.V.",
+  "country": "Mexico",
+  "city": "Zapopan, Jalisco",
+  "buyer_type": "distributor",
+  "products": "several (resins, RO antiscalants, phosphonate-based scale control)",
+  "proof_url": "https://www.carbotecnia.info/categoria-producto/todos-los-productos/equipo-para-tratamiento-de-aguas/resinas-de-intercambio-ionico-anionicas-y-cationicas/resinas-cationicas/",
+  "procurement_email": "ventas@carbotecnia.com.mx",
+  "other_emails": [],
+  "phone": "(33) 3834 0906",
+  "contact_person": "",
+  "language": "es",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.carbotecnia.info/",
+   "https://www.carbotecnia.info/PDF/Catalogo_Carbotecnia_2024.pdf",
+   "https://www.cosmos.com.mx/empresa/carbotecnia-bwhp/catalogo/"
+  ],
+  "verified": false,
+  "note": "Sells cationic/anionic/mixed-bed resins and RO membrane antiscalants (own category pages). E-mail appears in multiple official PDFs (catalog 2024, webinars) but not confirmed on an independent site; Cosmos directory lists the company and its resin range but hides e-mail."
+ },
+ {
+  "company": "Grupo Comercializador Hidroagua S.A. de C.V.",
+  "country": "Mexico",
+  "city": "Guadalajara, Jalisco",
+  "buyer_type": "EPC/O&M",
+  "products": "several (resins, RO antiscalants, boiler/cooling tower chemicals)",
+  "proof_url": "https://www.hidroagua.com.mx/",
+  "procurement_email": "ventas@hidroagua.com.mx",
+  "other_emails": [],
+  "phone": "33 3810 0580; 33 3808 0930; 33 1955 0895",
+  "contact_person": "",
+  "language": "es",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.hidroagua.com.mx/contacto",
+   "https://www.cosmos.com.mx/empresa/grupo-hidroagua-cqg8.html",
+   "https://www.directindustry.com/soc/grupo-comercializador-hidroagua-sa-de-cv-4604452.html"
+  ],
+  "verified": false,
+  "note": "Water treatment integrator (ion exchange, RO, anti-scale, cooling towers, boilers). Address Calz. Independencia Sur 1279, Col. La Aurora. Address matches Cosmos directory; e-mail only seen on official site."
+ },
+ {
+  "company": "GeoPark Colombia S.A.S. (GeoPark Ltd)",
+  "country": "Colombia",
+  "city": "Bogota",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (demulsifiers, corrosion inhibitors, scale inhibitors)",
+  "proof_url": "https://www.geo-park.com/suppliers/",
+  "procurement_email": "compras@geo-park.com",
+  "other_emails": [
+   "co.abastecimiento@geo-park.com",
+   "co.gestioncontractual@geopark.com"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "es",
+  "supplier_registration_url": "https://www.geo-park.com/suppliers/",
+  "sources": [
+   "https://www.geo-park.com/contact/",
+   "https://www.geo-park.com/news/a-warning-of-fraud-in-our-name/",
+   "https://www.geo-park.com/suppliers/"
+  ],
+  "verified": false,
+  "note": "Independent E&P (Llanos 34 etc.). Contact page lists compras@ for Suppliers; fraud notice lists co.abastecimiento@ as official procurement channel. Buys only via SAP Ariba: register through 'ARIBA Supplier Registration Request' form first. Both sources are GeoPark's own site, so not independently verified."
+ },
+ {
+  "company": "SERTECPET S.A.",
+  "country": "Ecuador",
+  "city": "Quito",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (demulsifiers, corrosion inhibitors for production/early production facilities)",
+  "proof_url": "https://en.sertecpet.com/servicios-petroleros/facilidades-tempranas-de-produccion",
+  "procurement_email": "info@sertecpet.net",
+  "other_emails": [
+   "info@sertecpet.com"
+  ],
+  "phone": "+593 2395 4900",
+  "contact_person": "",
+  "language": "es",
+  "supplier_registration_url": "https://www.sertecpet.com/trabaja-con-nosotros",
+  "sources": [
+   "https://www.sertecpet.com/",
+   "https://en.sertecpet.com/lineas-de-negocio",
+   "https://unglobalcompact.org/what-is-gc/participants/56311-Sertecpet-S-A-Peru-"
+  ],
+  "verified": false,
+  "note": "Ecuadorian oilfield service company (artificial lift, early production facilities, also Peru/Colombia/UAE office Abu Dhabi +971 2546 8818). General inbox only; second independent source for e-mail not found."
+ },
+ {
+  "company": "Pluspetrol S.A. (Peru / Argentina)",
+  "country": "Peru",
+  "city": "Lima",
+  "buyer_type": "oil&gas",
+  "products": "several (sieves for Camisea/Malvinas gas plant dehydration, oilfield chemicals)",
+  "proof_url": "https://www.pluspetrol.net/es/proveedores",
+  "procurement_email": "gestiondeproveedorespluspetrol@pluspetrol.net",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "es",
+  "supplier_registration_url": "https://www.pluspetrol.net/es/proveedores",
+  "sources": [
+   "https://www.pluspetrol.net/es/proveedores",
+   "https://www.pluspetrol.net/es/contacto"
+  ],
+  "verified": false,
+  "note": "Operator of Camisea gas (Malvinas gas processing plant) and Argentine fields. Supplier page: 'Quiero ser Proveedor' registration + SAP Ariba tenders; mailbox is for product/service offers and portal support. Only official source."
+ },
+ {
+  "company": "Petroleos del Peru - PETROPERU S.A.",
+  "country": "Peru",
+  "city": "Lima / Talara",
+  "buyer_type": "oil&gas",
+  "products": "several (resins for refinery water plant, corrosion inhibitors, molecular sieves/alumina for Talara refinery)",
+  "proof_url": "https://www.petroperu.com.pe/proveedores/registro-proveedor-calificado/",
+  "procurement_email": "",
+  "other_emails": [
+   "mesadepartesvirtual@petroperu.com.pe",
+   "help.peru@achilles.com"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "es",
+  "supplier_registration_url": "https://www.petroperu.com.pe/proveedores/registro-proveedor-calificado/",
+  "sources": [
+   "https://www.petroperu.com.pe/",
+   "https://www.petroperu.com.pe/proveedores/registro-proveedor-calificado/"
+  ],
+  "verified": false,
+  "note": "State refiner (New Talara Refinery). Must register in Base de Datos de Proveedores Calificados (BDPC) to bid; site keyword hits include 'inhibidores de corrosion'. No dedicated procurement inbox confirmed; help.peru@achilles.com shown on site for registration support."
+ },
+ {
+  "company": "Tecpetrol S.A.",
+  "country": "Argentina",
+  "city": "Buenos Aires / Neuquen",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (demulsifiers, corrosion inhibitors - Vaca Muerta)",
+  "proof_url": "https://www.tecpetrol.com/es/proveedores",
+  "procurement_email": "",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "es",
+  "supplier_registration_url": "https://www.tecpetrol.com/es/proveedores",
+  "sources": [
+   "https://www.tecpetrol.com/es/proveedores"
+  ],
+  "verified": false,
+  "note": "Techint group E&P (Fortin de Piedra, also Colombia/Mexico/Peru). Supplier page offers 'Quiero ser proveedor' and 'Como calificar' + supplier portal; no e-mail published - register via portal."
+ },
+ {
+  "company": "Transportadora de Gas del Sur S.A. (TGS)",
+  "country": "Argentina",
+  "city": "Buenos Aires (Cerri complex, Bahia Blanca)",
+  "buyer_type": "oil&gas",
+  "products": "sieves (molecular sieves/activated alumina for Gral. Cerri NGL plant and Tratayen conditioning plant)",
+  "proof_url": "https://www.tgs.com.ar/",
+  "procurement_email": "info@tgs.com.ar",
+  "other_emails": [],
+  "phone": "+54 11 3751 5100",
+  "contact_person": "",
+  "language": "es",
+  "supplier_registration_url": "https://www.tgs.com.ar/contacto/",
+  "sources": [
+   "https://www.tgs.com.ar/contacto/"
+  ],
+  "verified": false,
+  "note": "Gas transporter and NGL processor (Cerri complex, Vaca Muerta midstream). Contact form has a 'Proveedores' subject; e-mail single-source. Proof is company/plant profile, no specific sieve tender seen."
+ },
+ {
+  "company": "Permution Ltda.",
+  "country": "Brazil",
+  "city": "Curitiba, PR",
+  "buyer_type": "EPC/O&M",
+  "products": "resins (softeners/demineralizers, regeneration services), RO antiscalants",
+  "proof_url": "https://permution.com.br/product-category/industrial/",
+  "procurement_email": "permution@permution.com.br",
+  "other_emails": [],
+  "phone": "(41) 99949-2526",
+  "contact_person": "",
+  "language": "pt",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.permution.com.br/",
+   "https://www.permution.com.br/contato",
+   "https://www.zoominfo.com/c/permution/430037607"
+  ],
+  "verified": false,
+  "note": "58+ year Brazilian water-treatment company: ion-exchange softeners, demineralizers, RO, resin regeneration. ZoomInfo confirms address (Rua Rodolpho Hatschbach, Curitiba) and phone +55 41 2117 2300 but not e-mail."
+ },
+ {
+  "company": "SNatural Ambiente (Sintese Natural)",
+  "country": "Brazil",
+  "city": "Sao Paulo, SP",
+  "buyer_type": "distributor",
+  "products": "several (ion exchange resins, activated alumina, zeolite, water treatment chemicals)",
+  "proof_url": "https://www.snatural.com.br/produtos-quimicos-tratamento-agua/",
+  "procurement_email": "snatural@snatural.com.br",
+  "other_emails": [
+   "joao.gabriel@snatural.com.br"
+  ],
+  "phone": "+55 (11) 5072-5452; (11) 5562-1669",
+  "contact_person": "",
+  "language": "pt",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.snatural.com.br/",
+   "https://www.snatural.com.br/contato/",
+   "https://b2brazil.com/hotsite/sintesenatural"
+  ],
+  "verified": false,
+  "note": "States it keeps local stock of chemicals, resins and filter media incl. 'Alumina Ativada' and 'Resinas Troca Ionica'. Good fit for resins + activated alumina. E-mail not confirmed in an independent page."
+ },
+ {
+  "company": "Phoenix Park Gas Processors Limited (PPGPL)",
+  "country": "Trinidad and Tobago",
+  "city": "Point Lisas, Couva",
+  "buyer_type": "oil&gas",
+  "products": "sieves (3A molecular sieve dehydration of NGL plant feed gas)",
+  "proof_url": "https://www.ogj.com/home/article/17238887/major-caribbean-gas-processing-plant-starts-up",
+  "procurement_email": "",
+  "other_emails": [
+   "communications@ppgpl.com"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://secure.ppgpl1.com/signup",
+  "sources": [
+   "https://ppgpl.com/procurement/",
+   "https://ppgpl.com/wp-content/uploads/2026/07/Edited-Prequalification-Invitation-July-2026.pdf",
+   "https://ppgpl.com/wp-content/uploads/2025/12/Annual-Schedule-of-Planned-Procurement-Activities-2026-Published.pdf"
+  ],
+  "verified": false,
+  "note": "NGL extraction plant; OGJ describes feed dehydration with 3A molecular sieve. Under T&T Public Procurement Act all vendors must be registered/prequalified in PPGPL Procurement Depository (signup link in July-2026 invitation). communications@ is a general/media inbox, not procurement."
+ },
+ {
+  "company": "Kemipol Sp. z o.o.",
+  "country": "Poland",
+  "city": "",
+  "buyer_type": "distributor",
+  "products": "several (water-treatment chemicals; candidate for antiscalants/phosphonates)",
+  "proof_url": "https://www.kemipol.com.pl/",
+  "procurement_email": "info@kemipol.com.pl",
+  "other_emails": [
+   "zamowienia@kemipol.com.pl"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.kemipol.com.pl/",
+   "https://www.kemipol.com.pl/kontakt/"
+  ],
+  "verified": false,
+  "note": "Site title 'Uzdatnianie wody, koagulanty' - coagulant producer/water treatment supplier linked with Kemira (kemira.com staff e-mails on contact page). Weaker fit (phosphonate buyer unconfirmed); city not confirmed on page read."
+ },
+ {
+  "company": "SNGN Romgaz S.A.",
+  "country": "Romania",
+  "city": "Medias, Sibiu",
+  "buyer_type": "oil&gas",
+  "products": "sieves (gas dehydration/conditioning, Depogaz storage), corrosion inhibitors",
+  "proof_url": "https://www.romgaz.ro/productie-gaze-naturale",
+  "procurement_email": "secretariat@romgaz.ro",
+  "other_emails": [
+   "secretariat.medias@romgaz.ro",
+   "secretariat@depogazploiesti.ro"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.romgaz.ro/contact",
+   "https://bvb.ro/infocont/infocont26/SNG_20260813174843_Convocare-AGOA-si-AGEA-14-15-septembrie-2026.pdf"
+  ],
+  "verified": true,
+  "note": "Largest Romanian gas producer (+ Iernut power plant, Depogaz storage). Public buyer - tenders on SEAP/e-licitatie.ro. E-mail confirmed on official site and BVB filing (bvb.ro); general secretariat, ask to forward to procurement (Achizitii)."
+ },
+ {
+  "company": "Deren Kimya A.S.",
+  "country": "Turkey",
+  "city": "Sekerpinar - Cayirova, Kocaeli",
+  "buyer_type": "formulator",
+  "products": "phosphonates (raw material for boiler, cooling and RO/NF membrane chemicals)",
+  "proof_url": "https://www.derenkimya.com/",
+  "procurement_email": "info@derenkimya.com.tr",
+  "other_emails": [],
+  "phone": "+90 216 449 67 67",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.derenkimya.com/iletisim",
+   "https://www.emis.cn/php/company-profile/TR/Deren_Kimya_AS_en_3737386.html",
+   "https://www.kariyer.net/firma-profil/deren-kimya-5470-30353"
+  ],
+  "verified": false,
+  "note": "Since 1984 formulator of industrial water conditioning chemicals (steam boilers, cooling, closed loops, RO/NF membrane chemicals); branches Bursa, Corlu, Izmir. EMIS and Kariyer confirm company/website but not the e-mail."
+ },
+ {
+  "company": "NeoWater Kimya",
+  "country": "Turkey",
+  "city": "",
+  "buyer_type": "formulator",
+  "products": "phosphonates (antiscalant formulation), RO antiscalants",
+  "proof_url": "https://www.neowater.com.tr/",
+  "procurement_email": "info@neowater.com.tr",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.neowater.com.tr/",
+   "https://www.europages.co.uk/companies/turkey/ion-exchange-resins.html"
+  ],
+  "verified": false,
+  "note": "Turkish supplier of antiscalants (own ROCALC antiscalant dosing tool), boiler and cooling conditioning chemicals; listed on Europages under ion exchange resins. City/phone not readable (contact page JS)."
+ },
+ {
+  "company": "PJSC Ukrnafta",
+  "country": "Ukraine",
+  "city": "Kyiv",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (demulsifiers, corrosion inhibitors, scale inhibitors)",
+  "proof_url": "https://prozorro.gov.ua/tender/UA-2026-10-26-007503-a",
+  "procurement_email": "",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://prozorro.gov.ua/",
+  "sources": [
+   "https://prozorro.gov.ua/api/search/tenders",
+   "https://www.ukrnafta.com/"
+  ],
+  "verified": false,
+  "note": "Prozorro: open tender UA-2026-10-26-007503-a 'corrosion inhibitor for highly mineralised formation water' UAH 2,793,000, bids due 2026-11-26; demulsifier tenders 2025-2026 (e.g. UA-2026-06-24-001535-a Dissolvan-type 6.5 M UAH). ~UAH 270 M of demulsifier+CI tenders since 2019. Foreign suppliers can bid on Prozorro; buyer contact e-mail is inside tender card (not retrievable here - site Cloudflare-blocked)."
+ },
+ {
+  "company": "JSC Ukrgasvydobuvannya (UGV, Naftogaz group)",
+  "country": "Ukraine",
+  "city": "Kyiv / Shebelynka / Poltava",
+  "buyer_type": "oil&gas",
+  "products": "several (molecular sieves Zeochem-type Z4, demulsifiers, specialized chemicals)",
+  "proof_url": "https://prozorro.gov.ua/tender/UA-2018-06-13-002987-a",
+  "procurement_email": "",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://prozorro.gov.ua/",
+  "sources": [
+   "https://prozorro.gov.ua/api/search/tenders",
+   "https://ugv.com.ua/en/page/zakupivli-2"
+  ],
+  "verified": false,
+  "note": "Prozorro: molecular sieves (zeolites) ZEOCHEM Type Z4 tender UAH 6.43 M (UA-2018-06-13-002987-a); gas-processing branch UPGGK buys specialized chemicals/demulsifiers yearly; UA-2025-09-11-012365-a specialized chemical UAH 1.98 M. Largest Ukrainian gas producer. No e-mail captured (site blocked to fetch)."
+ },
+ {
+  "company": "JSC Kryvorizka Teplotsentral",
+  "country": "Ukraine",
+  "city": "Kryvyi Rih",
+  "buyer_type": "end user",
+  "products": "phosphonates (antiscalant + corrosion inhibitor for heating network)",
+  "proof_url": "https://prozorro.gov.ua/tender/UA-2024-08-23-007942-a",
+  "procurement_email": "",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://prozorro.gov.ua/",
+  "sources": [
+   "https://prozorro.gov.ua/api/search/tenders"
+  ],
+  "verified": false,
+  "note": "Prozorro tender 'Zasib protynakypnyi ta inhibitor korozii' (antiscalant and corrosion inhibitor) UAH 16.1 M, 2024 - typical HEDP/ATMP-based product. Contact via tender card only."
+ },
+ {
+  "company": "KP Kharkivski Teplovi Merezhi",
+  "country": "Ukraine",
+  "city": "Kharkiv",
+  "buyer_type": "end user",
+  "products": "phosphonates / water-treatment reagents",
+  "proof_url": "https://prozorro.gov.ua/tender/UA-2026-03-10-013720-a",
+  "procurement_email": "",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://prozorro.gov.ua/",
+  "sources": [
+   "https://prozorro.gov.ua/api/search/tenders"
+  ],
+  "verified": false,
+  "note": "Municipal district-heating utility; 'Reagenty dlia obrobky vody' tenders UAH 6.8 M (2026) and 6.5 M (2025). Contact via tender card."
+ },
+ {
+  "company": "Rivne NPP, Branch of NNEGC Energoatom",
+  "country": "Ukraine",
+  "city": "Varash",
+  "buyer_type": "end user",
+  "products": "several (corrosion inhibitors; NPP is also a large resin user)",
+  "proof_url": "https://prozorro.gov.ua/tender/UA-2026-09-24-010955-a",
+  "procurement_email": "",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://prozorro.gov.ua/",
+  "sources": [
+   "https://prozorro.gov.ua/api/search/tenders"
+  ],
+  "verified": false,
+  "note": "Prozorro corrosion inhibitor tenders UA-2026-09-24-010955-a (UAH 3.02 M, active.awarded) and UA-2026-05-27-012214-a (3.26 M); Khmelnytskyi NPP had two unsuccessful CI tenders in 2026 (re-tender likely). Nuclear-grade requirements apply."
+ },
+ {
+  "company": "Sonatrach",
+  "country": "Algeria",
+  "city": "Algiers (Hydra)",
+  "buyer_type": "oil&gas",
+  "products": "several (oilfield chemicals, molecular sieves for gas plants/LNG, resins)",
+  "proof_url": "https://sonatrach.com/sonatrach-oilfield-services-holding/",
+  "procurement_email": "",
+  "other_emails": [
+   "sonatrach@sonatrach.dz"
+  ],
+  "phone": "023 48 31 31",
+  "contact_person": "",
+  "language": "fr",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://sonatrach.com/en/contact-us/",
+   "https://sonatrach.com/"
+  ],
+  "verified": false,
+  "note": "National oil & gas company; procurement per division/subsidiary (tenders published in BAOSEM). Only a general inbox published; supplier registration portal not confirmed on pages read."
+ },
+ {
+  "company": "Mellitah Oil & Gas B.V. (Libyan Branch)",
+  "country": "Libya",
+  "city": "Tripoli",
+  "buyer_type": "oil&gas",
+  "products": "several (sieves for Mellitah/Wafa gas plants, oilfield chemicals)",
+  "proof_url": "https://mellitahog.ly/en/tenders/",
+  "procurement_email": "",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://mellitahog.ly/en/tenders/",
+  "sources": [
+   "https://mellitahog.ly/en/tenders/",
+   "https://www.mellitahog.ly/"
+  ],
+  "verified": false,
+  "note": "NOC/Eni JV operating Mellitah gas complex. Tenders page has 'Vendor Registration' section; pre-qualification e-mails are tender-specific (not captured). Screen counterparties carefully (Libya)."
+ },
+ {
+  "company": "Ghana National Petroleum Corporation (GNPC)",
+  "country": "Ghana",
+  "city": "Tema / Accra",
+  "buyer_type": "oil&gas",
+  "products": "several (oilfield chemicals; Ghana Gas Atuabo plant sieves via group)",
+  "proof_url": "https://www.gnpcghana.com/about-us/overview",
+  "procurement_email": "",
+  "other_emails": [
+   "info@gnpcghana.com"
+  ],
+  "phone": "+233 303 206020",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.gnpcghana.com/",
+   "https://www.gnpcghana.com/careers/how-to-apply",
+   "https://s3.amazonaws.com/rgi-documents/9b89129de61716d482d7cfce39ea1158121b7e98.pdf"
+  ],
+  "verified": true,
+  "note": "State NOC; info@ confirmed on official site and NRGI document (s3 rgi-documents). General inbox - ask for procurement unit. Phone from older listing."
+ },
+ {
+  "company": "Egyptian Natural Gas Company (GASCO)",
+  "country": "Egypt",
+  "city": "Cairo",
+  "buyer_type": "oil&gas",
+  "products": "sieves (gas processing plants WDGC, Amerya LPG)",
+  "proof_url": "https://www.gasco.com.eg/index.php/services/",
+  "procurement_email": "",
+  "other_emails": [
+   "info@gasco.com.eg"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.gasco.com.eg/",
+   "https://www.gasco.com.eg/index.php/contact-us-2/"
+  ],
+  "verified": false,
+  "note": "Operates gas processing (WDGC, Amerya LPG) - molecular sieve/alumina dehydration beds. General inbox only; second source not found."
+ },
+ {
+  "company": "ENPPI (Engineering for the Petroleum & Process Industries)",
+  "country": "Egypt",
+  "city": "Cairo",
+  "buyer_type": "EPC/O&M",
+  "products": "several (sieves, resins, chemicals for EPC projects)",
+  "proof_url": "https://www.enppi.com/sectors_categories/petrochemicals-chemicals/",
+  "procurement_email": "",
+  "other_emails": [
+   "info@enppi.com",
+   "enppi-iraq@enppi.com"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://enppisuppliers.enppi.com/supplier_registration/",
+  "sources": [
+   "https://www.enppi.com/",
+   "https://enppisuppliers.enppi.com/supplier_registration/"
+  ],
+  "verified": false,
+  "note": "State EPC contractor (also Iraq, KSA, UAE branches). Online supplier registration portal - best entry point to be added to vendor list for gas-plant first fills."
+ },
+ {
+  "company": "Tanzania Petroleum Development Corporation (TPDC)",
+  "country": "Tanzania",
+  "city": "Dar es Salaam",
+  "buyer_type": "oil&gas",
+  "products": "sieves (gas processing / natural gas supply chain)",
+  "proof_url": "https://www.tpdc.co.tz/services/sell-natural-gas",
+  "procurement_email": "",
+  "other_emails": [
+   "tpdcmd@tpdc.co.tz"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.tpdc.co.tz/"
+  ],
+  "verified": false,
+  "note": "NOC; procures via NeST (Tanzania national e-procurement). Only MD office e-mail published; low-volume buyer."
+ },
+ {
+  "company": "Chembond Chemicals Ltd (Chembond Water Technologies / Chembond Distribution)",
+  "country": "India",
+  "city": "Navi Mumbai",
+  "buyer_type": "formulator",
+  "products": "several (phosphonates HEDP/ATMP/PBTC as raw material, resins for distribution)",
+  "proof_url": "https://www.chembondindia.com/",
+  "procurement_email": "info@chembondindia.com",
+  "other_emails": [
+   "cs@chembondindia.com"
+  ],
+  "phone": "+91 22 6264 3000",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.chembondindia.com/contact-us",
+   "https://www.bseindia.com/xml-data/corpfiling/Attachhis/e4a6554f-1fc2-4c68-b00d-a4c2c888b21a.pdf"
+  ],
+  "verified": true,
+  "note": "Listed specialty chemicals group with Water Technologies (cooling/boiler formulations) and a chemical distribution arm. E-mail confirmed on official site and BSE filing."
+ },
+ {
+  "company": "VA Tech WABAG Ltd",
+  "country": "India",
+  "city": "Chennai",
+  "buyer_type": "EPC/O&M",
+  "products": "several (resins, RO antiscalants for desalination/industrial plants)",
+  "proof_url": "https://www.wabag.com/",
+  "procurement_email": "wabag@wabag.in",
+  "other_emails": [
+   "contact@wabag.in",
+   "contact@wabag.com"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.wabag.com/"
+  ],
+  "verified": false,
+  "note": "Global water/desal EPC & O&M (India, MENA, Europe). Addresses seen on homepage only; vendor registration page not confirmed - request vendor form."
+ },
+ {
+  "company": "Deleum Berhad (Integrated Corrosion Solutions / oilfield services)",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (corrosion inhibitors, demulsifiers, production chemicals)",
+  "proof_url": "https://www.deleum.com/",
+  "procurement_email": "info@deleum.com",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.deleum.com/contact-us/",
+   "https://2024.otcasia.org/exhibitors/deleum-berhad"
+  ],
+  "verified": false,
+  "note": "Bursa-listed O&G services group, segments incl. Oilfield Services and Integrated Corrosion Solutions; OTC Asia 2024 exhibitor (exhibitor page could not be rendered, so e-mail unconfirmed there)."
+ },
+ {
+  "company": "Nero Chemical Sdn Bhd",
+  "country": "Malaysia",
+  "city": "Miri / Kuching, Sarawak",
+  "buyer_type": "formulator",
+  "products": "several (ion exchange resin, scale & corrosion control programs - phosphonates)",
+  "proof_url": "https://www.nerochemical.com/",
+  "procurement_email": "customer-service@nerochemical.com",
+  "other_emails": [],
+  "phone": "+60 14-681 7745 (WhatsApp)",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.nerochemical.com/",
+   "https://www.newpages.com.my/v2/en/company/824502/index.html"
+  ],
+  "verified": false,
+  "note": "Sarawak water-treatment chemical supplier (boiler, cooling, RO, ion exchange resin). NEWPAGES directory confirms company/addresses (Miri main office, Kuching branch) but shows no e-mail."
+ },
+ {
+  "company": "Ranhill Utilities Berhad",
+  "country": "Malaysia",
+  "city": "Kuala Lumpur / Johor Bahru",
+  "buyer_type": "EPC/O&M",
+  "products": "several (resins, RO antiscalants, water treatment chemicals)",
+  "proof_url": "https://www.ranhill.com.my/",
+  "procurement_email": "info@ranhill.com.my",
+  "other_emails": [],
+  "phone": "+603 2716 5600",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.ranhill.com.my/contact-us/"
+  ],
+  "verified": false,
+  "note": "Water utility/EPC (Ranhill SAJ Johor, industrial water & power). General inbox; procurement registration not confirmed."
+ },
+ {
+  "company": "ANP Quality Supply",
+  "country": "Thailand",
+  "city": "Samut Prakan",
+  "buyer_type": "formulator",
+  "products": "several (RO antiscalant, cooling/boiler chemicals, resins/filter media)",
+  "proof_url": "https://anpquality-website.pages.dev/service.html",
+  "procurement_email": "anp.chemicalservice@gmail.com",
+  "other_emails": [],
+  "phone": "080-430-6253; 083-537-1735",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://anpquality-website.pages.dev/contact.html"
+  ],
+  "verified": false,
+  "note": "Small Thai service/formulation company (cooling, boiler, chiller, RO chemicals, filter media). Gmail address, single source - low priority."
+ },
+ {
+  "company": "PT Starborn Chemical",
+  "country": "Indonesia",
+  "city": "Cikarang - Bekasi",
+  "buyer_type": "formulator",
+  "products": "oilfield (production chemicals, corrosion), water treatment",
+  "proof_url": "https://www.starbornchemical.com/",
+  "procurement_email": "customerservice@starbornchemical.com",
+  "other_emails": [],
+  "phone": "+62 21 8984 1119",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.starbornchemical.com/contacts"
+  ],
+  "verified": false,
+  "note": "Indonesian specialty chemical company for oil & gas and water treatment (Jababeka II Industrial Park); appears in Pertamina upstream supplier context. Single source."
+ },
+ {
+  "company": "Petrovietnam Chemical and Services Corporation (PVChem)",
+  "country": "Vietnam",
+  "city": "Hanoi",
+  "buyer_type": "distributor",
+  "products": "oilfield (drilling/production chemicals, demulsifiers, corrosion inhibitors, water treatment)",
+  "proof_url": "https://www.pvchem.com.vn/en",
+  "procurement_email": "mail@pvchem.com.vn",
+  "other_emails": [],
+  "phone": "+84 24 3856 2861",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.pvchem.com.vn/en/contact",
+   "https://stockanalysis.com/quote/hnx/PVC/company/"
+  ],
+  "verified": false,
+  "note": "PetroVietnam's chemical supply arm (products: chemicals for drilling fluids, oil exploration, refinery, water treatment). Phone confirmed by stockanalysis; e-mail only on official site."
+ },
+ {
+  "company": "PetroVietnam Gas JSC (PV GAS)",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City",
+  "buyer_type": "oil&gas",
+  "products": "sieves (Dinh Co / Nam Con Son gas processing plants)",
+  "proof_url": "https://www.pvgas.com.vn/introduction/contacts",
+  "procurement_email": "pvgas@pvgas.com.vn",
+  "other_emails": [],
+  "phone": "+84 28 3781 6777",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.pvgas.com.vn/",
+   "https://www.pvgas.com.vn/introduction/contacts"
+  ],
+  "verified": false,
+  "note": "Operates gas processing (PV GAS Vung Tau processing company). Both sources official; independent confirmation not found."
+ },
+ {
+  "company": "Gulf Keystone Petroleum Ltd (Shaikan field)",
+  "country": "Iraq (Kurdistan Region)",
+  "city": "Erbil",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (demulsifiers, corrosion inhibitors for Shaikan PF-1/PF-2)",
+  "proof_url": "https://www.gulfkeystone.com/",
+  "procurement_email": "info@gulfkeystone.com",
+  "other_emails": [],
+  "phone": "+964 750 755 3111",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://asc.gov.krd/registration",
+  "sources": [
+   "https://www.gulfkeystone.com/contact/"
+  ],
+  "verified": false,
+  "note": "Operator of Shaikan production facilities. KRG requires supplier approval (Approved Supplier Center / MNR vendor list). General inbox; no procurement address published."
+ },
+ {
+  "company": "Genel Energy plc",
+  "country": "Iraq (Kurdistan Region)",
+  "city": "Erbil / London",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (demulsifiers, corrosion inhibitors - Tawke/Sarta)",
+  "proof_url": "https://genelenergy.com/",
+  "procurement_email": "info@genelenergy.com",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://genelenergy.com/contact-us/",
+   "https://genelenergy.com/accessibility/"
+  ],
+  "verified": false,
+  "note": "KRI producer; info@ shown on official site only. Prefer KRG MNR vendor registration."
+ },
+ {
+  "company": "Daleel Petroleum LLC",
+  "country": "Oman",
+  "city": "Muscat",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (demulsifiers, corrosion & scale inhibitors - Block 5)",
+  "proof_url": "https://www.daleelpetroleum.com/business-with-us/supplier-registration-jsrs",
+  "procurement_email": "daleel@dapeco.com.om",
+  "other_emails": [],
+  "phone": "+968 2439 4200",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://www.daleelpetroleum.com/business-with-us/supplier-registration-jsrs",
+  "sources": [
+   "https://www.daleelpetroleum.com/contact-us",
+   "https://www.scribd.com/document/342795019/Daleel-Tendering-System"
+  ],
+  "verified": false,
+  "note": "Oman Block 5 operator. JSRS certification mandatory; online tendering system. Scribd 2015 notice appears to show same address (OCR garbled) - treated as unverified."
+ },
+ {
+  "company": "ARA Petroleum LLC",
+  "country": "Oman",
+  "city": "Muscat (Azaiba North)",
+  "buyer_type": "oil&gas",
+  "products": "oilfield (demulsifiers, corrosion inhibitors)",
+  "proof_url": "https://arapetroleum.com/about-us/",
+  "procurement_email": "info@arapetroleum.com",
+  "other_emails": [],
+  "phone": "+968 2250 4100",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "",
+  "sources": [
+   "https://www.arapetroleum.com/",
+   "https://arapetroleum.com/contact-us/"
+  ],
+  "verified": false,
+  "note": "Oman E&P (Blocks 31, 44, 52 etc.). JSRS certification applies for Oman O&G vendors. Single-source e-mail."
+ },
+ {
+  "company": "OQ SAOC",
+  "country": "Oman",
+  "city": "Muscat",
+  "buyer_type": "oil&gas",
+  "products": "several (sieves for gas processing/NGL, resins and chemicals for Sohar refinery/aromatics)",
+  "proof_url": "https://www.oq.com/en/vendors",
+  "procurement_email": "",
+  "other_emails": [
+   "business.center@oq.com"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "supplier_registration_url": "https://www.oq.com/en/vendors",
+  "sources": [
+   "https://www.oq.com/",
+   "https://www.oq.com/en/vendors"
+  ],
+  "verified": false,
+  "note": "Integrated energy company; vendors page: Project Vendor Registration for capital projects, Tawreed e-tendering portal, NGLE project prequalification. Register on Tawreed/JSRS."
+ }
+]
