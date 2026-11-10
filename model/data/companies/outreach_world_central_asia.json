@@ -1,0 +1,773 @@
+[
+ {
+  "company": "JSC National Atomic Company Kazatomprom",
+  "country": "Kazakhstan",
+  "city": "Astana",
+  "buyer_type": "uranium ISR miner (group HQ, procures for subsidiaries/JVs)",
+  "products": "resins",
+  "procurement_email": "nac@kazatomprom.kz",
+  "other_emails": [
+   "ir@kazatomprom.kz",
+   "pr@kazatomprom.kz"
+  ],
+  "phone": "+7 (7172) 45-81-80",
+  "contact_person": null,
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://www.kazatomprom.kz/ru/contacts",
+   "https://www.kazatomprom.kz/ru/purchase",
+   "https://kase.kz/en/issuers/KZAP"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Biggest single SBA resin (AV-17-8 / 201x7 type) consumer in the region. Own site states all procurement (plans, announcements, results) is published only on zakup.sk.kz. nac@ is the general office e-mail (no public procurement mailbox); confirmed on company contacts page and KASE issuer card. Subsidiary sites (Inkai, Semizbay-U, Appak, Budenovskoye, Ortalyk, Karatau, Akbastau) were unreachable from this session, so they are not listed separately; they buy via the same Samruk-Kazyna portal."
+ },
+ {
+  "company": "KATCO JV LLP (Orano 51% / Kazatomprom 49%)",
+  "country": "Kazakhstan",
+  "city": "Astana (mines in Turkestan region)",
+  "buyer_type": "uranium ISR miner",
+  "products": "resins",
+  "procurement_email": "katco_general@orano.group",
+  "other_emails": [],
+  "phone": "+7 7172 69 21 20; +7 7172 69 21 21",
+  "contact_person": null,
+  "tender_portal": "https://reestr.nadloc.kz",
+  "supplier_registration_url": "https://reestr.nadloc.kz (register on the subsoil-use goods/works/services registry)",
+  "sources": [
+   "https://www.katco.kz/",
+   "https://www.katco.kz/ru/purchasing-2"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Purchasing page says all procurement info is on reestr.nadloc.kz (subsoil-use registry) and requires registration. E-mail found only on katco.kz (not confirmed in a second independent source)."
+ },
+ {
+  "company": "State Enterprise Navoiyuran",
+  "country": "Uzbekistan",
+  "city": "Navoi",
+  "buyer_type": "uranium ISR miner",
+  "products": "resins",
+  "procurement_email": "info@navoiyuran.uz",
+  "other_emails": [],
+  "phone": "+998 (79) 507-02-04; +998 (79) 507-01-80",
+  "contact_person": null,
+  "tender_portal": "https://xt-xarid.uz/procedure/tender?queryText=201204514",
+  "supplier_registration_url": "https://xt-xarid.uz (supplier registration on the Uzbek cooperative/state procurement portal; TIN of buyer 201204514)",
+  "sources": [
+   "https://navoiyuran.uz/uz/kontaktlar/",
+   "https://navoiyuran.uz/uz/tanlov-va-tenderlar-otkazilishi-togrisidagi-elonlar/",
+   "https://orginfo.uz/en/organization/05ee043673f9/"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Spun off from Navoi MMC in 2022; ISR uranium producer. Tenders page links to xt-xarid.uz with the company TIN. E-mail confirmed on official site and orginfo.uz registry card (TIN 201204514)."
+ },
+ {
+  "company": "JSC Samruk-Energy",
+  "country": "Kazakhstan",
+  "city": "Astana",
+  "buyer_type": "power & CHP holding (procurement centre for GRES-1, AlES, Moinak, Shardara etc.)",
+  "products": "both",
+  "procurement_email": "info@samruk-energy.kz",
+  "other_emails": [
+   "m.moldagaliyev@samruk-energy.kz",
+   "a.turlubekova@samruk-energy.kz"
+  ],
+  "phone": "+7 (7172) 55-30-20",
+  "contact_person": "Moldagaliyev Mirlan A. - Director, Procurement Management Department (tel. 8-7172-55-31-16)",
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://samruk-energy.kz/ru/company/contact-information",
+   "https://samruk-energy.kz/ru/otvetstvennye-litsa-po-zakupkam",
+   "https://samruk-energy.kz/images/zakupku/otvets_lica_zakupki_se.xls",
+   "https://kase.kz/en/issuers/SNRG",
+   "https://ar2020.samruk-energy.kz/en/042-contact.php"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "info@ confirmed on KASE issuer card and Annual Report 2020 contact page. Named procurement staff e-mails come from the official 'responsible persons for procurement' list (single source). Runs category procurement for all subsidiaries via zakup.sk.kz."
+ },
+ {
+  "company": "Ekibastuz GRES-1 named after Bulat Nurzhanov LLP",
+  "country": "Kazakhstan",
+  "city": "Ekibastuz",
+  "buyer_type": "power plant (coal, 4,000 MW)",
+  "products": "both",
+  "procurement_email": "gres1@ekibastuz-gres1.kz",
+  "other_emails": [
+   "daniyar.ramazanov@Ekibastuz-gres1.kz",
+   "tashenov.nursultan@Ekibastuz-gres1.kz"
+  ],
+  "phone": "+7 (7187) 29 83 59",
+  "contact_person": "Ramazanov Daniyar K. - Head of Procurement Organisation Dept (+7 7187 282, ext. 193); Tashenov Nursultan Zh. - Managing Director, Commercial",
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://gres1.kz/page.php?slug=contact-us",
+   "https://kase.kz/en/issuers/EKGS",
+   "https://samruk-energy.kz/images/zakupku/otvets_lica_zakupki_se.xls"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "General e-mail confirmed on official site and KASE. Personal procurement e-mails from Samruk-Energy procurement contacts list (single source). Site also has supplier ESG questionnaire (page.php?slug=purchase-anketa)."
+ },
+ {
+  "company": "JSC Station Ekibastuzskaya GRES-2",
+  "country": "Kazakhstan",
+  "city": "Ekibastuz",
+  "buyer_type": "power plant (coal)",
+  "products": "both",
+  "procurement_email": "gres2kz@gres2.kz",
+  "other_emails": [
+   "AJumabaev@gres2.kz",
+   "AOspanova@gres2.kz"
+  ],
+  "phone": "+7 (7187) 76-22-00",
+  "contact_person": "Zhumabaev Anvar S. - Head of Procurement Organisation Dept (8-771-93-74-237)",
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://gres2.kz/kontakty/",
+   "https://kase.kz/en/issuers/SEGR",
+   "https://samruk-energy.kz/images/zakupku/otvets_lica_zakupki_se.xls"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "General e-mail on official site and KASE issuer card. Procurement head e-mail from Samruk-Energy list (single source). Procurement announcements at gres2.kz/category/obyavleniya-o-zakupkah/."
+ },
+ {
+  "company": "JSC Almaty Power Plants (AlES)",
+  "country": "Kazakhstan",
+  "city": "Almaty",
+  "buyer_type": "CHP plants (TPP-1, TPP-2, TPP-3)",
+  "products": "both",
+  "procurement_email": "kancel@ales.kz",
+  "other_emails": [
+   "shtumabaeva@ales.kz",
+   "77_01_00_P14@ales.kz"
+  ],
+  "phone": "8-727-254-04-12 (procurement MD)",
+  "contact_person": "Kerimbaev Almas A. - Managing Director, Supply; Tumabaeva Shynar M. - Head of Goods & Services Procurement (8-727-254-03-69)",
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://kase.kz/en/issuers/ALES",
+   "https://samruk-energy.kz/images/zakupku/otvets_lica_zakupki_se.xls"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Official site ales.kz could not be opened (TLS error), so kancel@ is confirmed only on KASE; procurement e-mails only in Samruk-Energy list. Treat as unverified."
+ },
+ {
+  "company": "JSC Central-Asian Electric Power Corporation (CAEPCO)",
+  "country": "Kazakhstan",
+  "city": "Astana (plants in Pavlodar, Petropavlovsk, Akmola)",
+  "buyer_type": "power & CHP holding",
+  "products": "both",
+  "procurement_email": "info@energy.kz",
+  "other_emails": [
+   "info@caepco.kz"
+  ],
+  "phone": "+7 (7172) 64-57-77",
+  "contact_person": null,
+  "tender_portal": "Own e-procurement (see subsidiaries' 'Закупки' pages, e.g. sevkazenergo.kz)",
+  "supplier_registration_url": "https://www.caepco.kz/contacts",
+  "sources": [
+   "https://www.caepco.kz/",
+   "https://kase.kz/en/issuers/CAEP"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Private group owning Pavlodarenergo and SevKazEnergo CHPs. info@energy.kz confirmed on caepco.kz and KASE."
+ },
+ {
+  "company": "JSC SevKazEnergo (CAEPCO group)",
+  "country": "Kazakhstan",
+  "city": "Petropavlovsk",
+  "buyer_type": "CHP plant (Petropavlovsk CHP-2)",
+  "products": "both",
+  "procurement_email": "info@sevkazenergo.kz",
+  "other_emails": [],
+  "phone": "+7 (715) 231 42 71",
+  "contact_person": null,
+  "tender_portal": "https://www.sevkazenergo.kz/ru/o-kompanii/zakupki/status-procedur-zakupok-na-etp.html",
+  "supplier_registration_url": "https://www.sevkazenergo.kz/ru/o-kompanii/zakupki.html",
+  "sources": [
+   "https://www.sevkazenergo.kz/",
+   "https://kase.kz/en/issuers/SKEN"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Procurement announcements and plans published on own site; status of procedures on an electronic trading platform (ETP)."
+ },
+ {
+  "company": "JSC Thermal Power Plants (Issiqlik Elektr Stansiyalari)",
+  "country": "Uzbekistan",
+  "city": "Tashkent",
+  "buyer_type": "state thermal power generator (Tashkent, Navoi, Angren, Syrdarya etc. TPPs)",
+  "products": "both",
+  "procurement_email": "info@tpp.uz",
+  "other_emails": [
+   "info@nies.uz (Navoi TPP JSC, registry only)",
+   "info@toshkenties.uz (Tashkent TPP JSC, registry only)"
+  ],
+  "phone": null,
+  "contact_person": null,
+  "tender_portal": "https://xarid.uzex.uz ; https://etender.uzex.uz",
+  "supplier_registration_url": "https://xarid.uzex.uz (supplier registration on UZEX state procurement portal)",
+  "sources": [
+   "https://openinfo.uz/en/announce/to_pdf/14132/",
+   "https://orginfo.uz/en/organization/b80e29a5c5ae/",
+   "https://orginfo.uz/en/organization/c07313244adb/"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Official site tpp.uz is a JS app with no readable contacts; info@tpp.uz confirmed in the company's own disclosure on openinfo.uz and orginfo.uz registry (TIN 306349304). Subsidiary plant e-mails appear only in the registry (unverified)."
+ },
+ {
+  "company": "Azerenerji OJSC",
+  "country": "Azerbaijan",
+  "city": "Baku",
+  "buyer_type": "state power generator",
+  "products": "both",
+  "procurement_email": "info@azerenerji.gov.az",
+  "other_emails": [],
+  "phone": null,
+  "contact_person": null,
+  "tender_portal": "https://azerenerji.gov.az/tender-elanlari",
+  "supplier_registration_url": "https://azerenerji.gov.az/tender-elanlari",
+  "sources": [
+   "https://azerenerji.gov.az/",
+   "https://azerenerji.gov.az/tender-elanlari"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Operates the large thermal plants (Azerbaijan TPP Mingachevir, Shimal, Janub etc.). Tender announcements on own site. E-mail only on official site."
+ },
+ {
+  "company": "JSC Georgian Oil and Gas Corporation (owner of Gardabani TPPs)",
+  "country": "Georgia",
+  "city": "Tbilisi",
+  "buyer_type": "state energy company; owner of Gardabani CCGT power plants",
+  "products": "both",
+  "procurement_email": "public@gogc.ge",
+  "other_emails": [],
+  "phone": "+995 32 2244040",
+  "contact_person": null,
+  "tender_portal": "https://www.gogc.ge/en/tenders",
+  "supplier_registration_url": "https://www.gogc.ge/en/tenders",
+  "sources": [
+   "https://www.gogc.ge/en/contact",
+   "https://www.gogc.ge/uploads/files/633ec5496ea9b.pdf"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Gardabani TPP 1/2 (and planned 3) are GOGC/Partnership Fund subsidiaries. E-mail appears only on GOGC's own domain (contact page + own PDF), so not independently confirmed. Telasi (Tbilisi distribution, Inter RAO-controlled) deliberately excluded."
+ },
+ {
+  "company": "Thermal Power Plant No.4 JSC (Ulaanbaatar CHP-4)",
+  "country": "Mongolia",
+  "city": "Ulaanbaatar",
+  "buyer_type": "CHP plant (largest in Mongolia)",
+  "products": "both",
+  "procurement_email": "info@tpp4.mn",
+  "other_emails": [],
+  "phone": null,
+  "contact_person": null,
+  "tender_portal": "https://www.tender.gov.mn/mn/client/detail/1453535504970",
+  "supplier_registration_url": "https://www.tender.gov.mn (supplier registration on Mongolian state e-procurement)",
+  "sources": [
+   "https://tpp4.mn",
+   "https://tpp4.mn/contact"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Listed on Mongolian Stock Exchange (DSD). Search snippets show info@tpp4.mn on mse.mn, but that page returned 404 when opened, so only the official site counts."
+ },
+ {
+  "company": "OJSC Electric Stations (Elektricheskie Stantsii) - Bishkek CHP",
+  "country": "Kyrgyzstan",
+  "city": "Bishkek",
+  "buyer_type": "state generator; Bishkek CHP-1/CHP-2",
+  "products": "both",
+  "procurement_email": "otdelzakupki@mail.ru",
+  "other_emails": [
+   "es@es.energo.kg"
+  ],
+  "phone": "+996 (312) 67-02-70",
+  "contact_person": null,
+  "tender_portal": "https://zakupki.okmot.kg",
+  "supplier_registration_url": "https://zakupki.okmot.kg (Kyrgyz state e-procurement registration)",
+  "sources": [
+   "https://www.energo-es.kg/contacts/",
+   "https://www.energo-es.kg/procurement/",
+   "https://economist.kg/enierghietika/2026/08/21/bishkekskaia-tets-zakupit-68-tonn-reagenta-protiv-nakipi-za-15-3-mln-somov"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Contacts page: otdelzakupki@mail.ru 'for commercial offers', es@es.energo.kg for letters. Live demand: Bishkek CHP tender for 68 t of scale inhibitor IOMS-1 (25%), 15.3 m KGS, bids until 2 Sep 2026 via zakupki.okmot.kg. E-mails single-source."
+ },
+ {
+  "company": "JSC National Company KazMunayGas",
+  "country": "Kazakhstan",
+  "city": "Astana",
+  "buyer_type": "oil & gas national company (upstream subsidiaries + Atyrau/Pavlodar/Shymkent refineries)",
+  "products": "phosphonates",
+  "procurement_email": "astana@kmg.kz",
+  "other_emails": [
+   "ir@kmg.kz"
+  ],
+  "phone": "+7 (7172) 78 61 01",
+  "contact_person": null,
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://www.kmg.kz/ru/contacts/",
+   "https://kase.kz/en/issuers/KMGZ"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Group procurement goes through zakup.sk.kz (site links there under /ru/procurements/). KASE card writes the address with a Cyrillic 'а' (аstana@kmg.kz) - same mailbox; use Latin astana@kmg.kz."
+ },
+ {
+  "company": "JSC Mangistaumunaigas",
+  "country": "Kazakhstan",
+  "city": "Aktau",
+  "buyer_type": "oil producer (KMG 50% / CNPC 50%)",
+  "products": "phosphonates",
+  "procurement_email": "info@mmg.kz",
+  "other_emails": [],
+  "phone": "+7 (7292) 21-55-17",
+  "contact_person": null,
+  "tender_portal": "Own tenders / KMG-CNPC procedures (check mmg.kz)",
+  "supplier_registration_url": "https://www.mmg.kz",
+  "sources": [
+   "https://www.mmg.kz",
+   "https://kase.kz/en/issuers/MMGZ"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Waterflooded mature fields - scale-inhibitor (ATMP/HEDP/DTPMPA blends) demand."
+ },
+ {
+  "company": "Tengizchevroil LLP",
+  "country": "Kazakhstan",
+  "city": "Atyrau",
+  "buyer_type": "oil producer (Chevron 50%, ExxonMobil 25%, KMG 20%, LukArco 5%)",
+  "products": "phosphonates",
+  "procurement_email": "tcoinfo@tengizchevroil.com",
+  "other_emails": [
+   "kcdsearch@tengizchevroil.com"
+  ],
+  "phone": "+7 712 227 1212; +7 712 302 6000",
+  "contact_person": null,
+  "tender_portal": "TCO supplier qualification (Kazakhstani content programme)",
+  "supplier_registration_url": "https://www.tengizchevroil.com/kazakhstani-content",
+  "sources": [
+   "https://www.tengizchevroil.com/contact-us",
+   "https://www.tengizchevroil.com/kazakhstani-content"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "kcdsearch@ is the mailbox given for prospective local suppliers. E-mails only on TCO's own site. Note: LUKOIL (5% via LukArco) has been on the OFAC SDN list since Oct 2025; TCO itself is not sanctioned (<50% rule), but run compliance screening."
+ },
+ {
+  "company": "Karachaganak Petroleum Operating B.V. (KPO)",
+  "country": "Kazakhstan",
+  "city": "Aksai",
+  "buyer_type": "gas-condensate producer (Shell, Eni, Chevron, KMG, LUKOIL 13.5%)",
+  "products": "phosphonates",
+  "procurement_email": "eprocsupport@kpo.kz",
+  "other_emails": [
+   "kpo@kpo.kz",
+   "informkpo@kpo.kz"
+  ],
+  "phone": "+7 71133 62155",
+  "contact_person": null,
+  "tender_portal": "SAP Business Network (Ariba) - KPO e-procurement",
+  "supplier_registration_url": "https://www.kpo.kz/en/suppliers/registration-in-the-kpo-database-for-potential-suppliers",
+  "sources": [
+   "https://www.kpo.kz/en/suppliers/registration-in-the-kpo-database-for-potential-suppliers",
+   "https://www.kpo.kz/en/contacts"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Suppliers must register in SAP Business Network; MIVQ@kpo.kz is no longer accepted. eprocsupport@ is technical support for the portal. LUKOIL (SDN-listed since Oct 2025) holds a minority stake - compliance check advised."
+ },
+ {
+  "company": "JSC Atyrau Oil Refinery",
+  "country": "Kazakhstan",
+  "city": "Atyrau",
+  "buyer_type": "refinery (KMG group)",
+  "products": "both",
+  "procurement_email": "ref@anpz.kz",
+  "other_emails": [],
+  "phone": "+7 (7122) 25-90-13",
+  "contact_person": null,
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://www.anpz.kz/contacts/",
+   "https://www.anpz.kz/zakup/info/"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Procurement section anpz.kz/zakup (plans, announcements, Samruk-Kazyna prequalification). E-mail only on own site."
+ },
+ {
+  "company": "JSC Pavlodar Oil Chemistry Refinery (POCR / PNHZ)",
+  "country": "Kazakhstan",
+  "city": "Pavlodar",
+  "buyer_type": "refinery (KMG group)",
+  "products": "both",
+  "procurement_email": "kanc@pnhz.kz",
+  "other_emails": [],
+  "phone": null,
+  "contact_person": null,
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://kase.kz/en/issuers/PNHZ",
+   "https://www.anpz.kz/contacts/"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "pnhz.kz was unreachable from this session; e-mail confirmed on KASE issuer card and on the KMG refineries contact list hosted at anpz.kz."
+ },
+ {
+  "company": "PetroKazakhstan Oil Products LLP (Shymkent refinery)",
+  "country": "Kazakhstan",
+  "city": "Shymkent",
+  "buyer_type": "refinery (KMG 50% / CNPC 50%)",
+  "products": "both",
+  "procurement_email": "Makhabbat.dzhailganova@petrokazakhstan.com",
+  "other_emails": [],
+  "phone": null,
+  "contact_person": "Makhabbat Dzhailganova (contact listed for PKOP)",
+  "tender_portal": "https://zakup.sk.kz/#/ext",
+  "supplier_registration_url": "https://zakup.sk.kz/#/ext (registration as potential supplier on the Samruk-Kazyna e-procurement portal)",
+  "sources": [
+   "https://www.anpz.kz/contacts/"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "pkop.kz unreachable; only contact found is the person listed on the KMG refineries contact page. Unverified."
+ },
+ {
+  "company": "State Oil Company of Azerbaijan Republic (SOCAR)",
+  "country": "Azerbaijan",
+  "city": "Baku",
+  "buyer_type": "national oil & gas company / refinery",
+  "products": "phosphonates",
+  "procurement_email": "prequalification@socar.az",
+  "other_emails": [
+   "e-tender.support@socar.az"
+  ],
+  "phone": "+994 50 841 53 39; (012) 310 86 77 (portal support)",
+  "contact_person": null,
+  "tender_portal": "https://e-tender.socar.az/",
+  "supplier_registration_url": "https://e-tender.socar.az/register",
+  "sources": [
+   "https://www.socar.az/en/page/pre-qualification",
+   "https://socar.jobs/en/page/pre-qualification"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Must register on e-tender.socar.az and pass pre-qualification. Both pages are SOCAR-owned domains (not independent). Not on OFAC lists."
+ },
+ {
+  "company": "Kazakhmys Corporation LLP",
+  "country": "Kazakhstan",
+  "city": "Zhezkazgan / Karaganda",
+  "buyer_type": "copper miner & smelter",
+  "products": "both",
+  "procurement_email": "registration@kazakhmys.kz",
+  "other_emails": [
+   "office@kazakhmys.kz",
+   "Daniyar.Kosbaev@kazakhmys.kz",
+   "Marina.Lazareva@kazakhmys.kz",
+   "purchase@kazakhmys.com"
+  ],
+  "phone": "+7 (721) 295-21-95; 8 (7212) 95-28-46 (supplier registration)",
+  "contact_person": "Kosbaev Daniyar M. - Head of Technological Raw Materials Dept (8 7212 95-72-68); Lazareva Marina A. - Head of Materials Directorate",
+  "tender_portal": "https://umts.kazakhmys.kz (Kazakhmys e-trading system); lots at https://www.kazakhmys.kz/purchases/lots",
+  "supplier_registration_url": "https://umts.kazakhmys.kz/contacts.aspx?param=0",
+  "sources": [
+   "https://www.kazakhmys.kz/purchases/contacts",
+   "https://umts.kazakhmys.kz/contacts.aspx?param=0",
+   "https://umts.kazakhmys.kz/contacts.aspx?param=6",
+   "https://kase.kz/en/issuers/KZMS"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "registration@ handles supplier registration/certificates on the e-trading system. KASE card gives purchase@kazakhmys.com (different mailbox). None of the e-mails confirmed in two independent sources."
+ },
+ {
+  "company": "KAZ Minerals (Aktogay, Bozshakol)",
+  "country": "Kazakhstan",
+  "city": "Almaty / East Kazakhstan / Pavlodar",
+  "buyer_type": "copper miner & concentrator",
+  "products": "both",
+  "procurement_email": "procurement@kazminerals.com",
+  "other_emails": [
+   "supplier.registration@kazminerals.com",
+   "info@kazminerals.com"
+  ],
+  "phone": "+7 727 244 03 53",
+  "contact_person": null,
+  "tender_portal": "https://suppliers.kazminerals.com (Oracle iSupplier)",
+  "supplier_registration_url": "https://suppliers.kazminerals.com/OA_HTML/jsp/pos/suppreg/SupplierRegister.jsp?ouid=C978373F89498127",
+  "sources": [
+   "https://www.kazminerals.com/contacts/",
+   "https://www.kazminerals.com/suppliers/general-information/",
+   "https://www.kazminerals.com/app/uploads/2026/07/Supplier-Registration.docx"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Register in Oracle supplier portal and e-mail document package to supplier.registration@. E-mails only on own site."
+ },
+ {
+  "company": "JSC Kazzinc (Glencore 69.6%)",
+  "country": "Kazakhstan",
+  "city": "Ust-Kamenogorsk",
+  "buyer_type": "zinc/lead/copper/gold miner & metallurgical complex",
+  "products": "both",
+  "procurement_email": "kazzinc@kazzinc.com",
+  "other_emails": [
+   "uk_office@kazzinc.com"
+  ],
+  "phone": "+7 (7232) 291 001",
+  "contact_person": null,
+  "tender_portal": "Own supplier procedures (see kazzinc.com)",
+  "supplier_registration_url": "https://www.kazzinc.com/rus/kontakty",
+  "sources": [
+   "https://www.kazzinc.com/rus/kontakty",
+   "https://kase.kz/en/issuers/KZZN"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Site lists kazzinc@kazzinc.com; KASE card lists uk_office@kazzinc.com - each address single-source."
+ },
+ {
+  "company": "JSC Almalyk Mining and Metallurgical Combine (AGMK / Olmaliq KMK)",
+  "country": "Uzbekistan",
+  "city": "Almalyk",
+  "buyer_type": "copper/gold/zinc miner & smelter",
+  "products": "both",
+  "procurement_email": "info@agmk.uz",
+  "other_emails": [
+   "priem_kom_dir@agmk.uz (commercial director's office)"
+  ],
+  "phone": "+998 71 619 23 33; +998 71 619 50 30",
+  "contact_person": null,
+  "tender_portal": "https://agmk.uz/ru/tenders (own tenders) ; https://xarid.uzex.uz",
+  "supplier_registration_url": "https://agmk.uz/oz/menu/kontakty-dlja-postavschikov",
+  "sources": [
+   "https://agmk.uz/ru/contacts",
+   "https://agmk.uz/ru/menu/kontakty-dlja-postavschikov",
+   "https://orginfo.uz/en/organization/015090613db7/"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Large expansion (Yoshlik). Supplier contacts page gives commercial director's office e-mail (single source). Has 'request for commercial offers' tender section."
+ },
+ {
+  "company": "JSC Navoi Mining and Metallurgical Combine (NMMC / NGMK)",
+  "country": "Uzbekistan",
+  "city": "Navoi",
+  "buyer_type": "gold miner (resin-in-pulp / heap leach)",
+  "products": "both",
+  "procurement_email": "info@ngmk.uz",
+  "other_emails": [
+   "investor@ngmk.uz"
+  ],
+  "phone": "+998 79 227-71-54",
+  "contact_person": null,
+  "tender_portal": "https://xarid.uzex.uz ; https://xt-xarid.uz",
+  "supplier_registration_url": "https://xarid.uzex.uz",
+  "sources": [
+   "https://www.ngmk.uz/uz/contacts/",
+   "https://orginfo.uz/en/organization/7e6d8446ca46/"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Uses anion-exchange resins in RIP gold recovery plus large water-treatment needs. E-mail on official site and orginfo.uz (TIN 308425864)."
+ },
+ {
+  "company": "Oyu Tolgoi LLC (Rio Tinto 66% / Govt of Mongolia 34%)",
+  "country": "Mongolia",
+  "city": "Ulaanbaatar / Khanbogd",
+  "buyer_type": "copper-gold miner",
+  "products": "both",
+  "procurement_email": "procurement@ot.mn",
+  "other_emails": [
+   "online@ot.mn"
+  ],
+  "phone": null,
+  "contact_person": null,
+  "tender_portal": "https://www.ot.mn/en/procurement/eoi (EOIs) ; OT supplier database 'Oyu'/OASIS",
+  "supplier_registration_url": "https://admin.ot.mn/en/auction/procurement-process2",
+  "sources": [
+   "https://www.ot.mn/mn/procurement",
+   "https://www.ot.mn/en/procurement/eoi/supply-of-weighbridge-verification-and-maintenance-service"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "procurement@ot.mn shown on procurement page and in published EOI procurement notices. Suppliers must register in the OT supplier database to receive tenders. Large process-water/RO needs (Gobi)."
+ },
+ {
+  "company": "Erdenet Mining Corporation SOE",
+  "country": "Mongolia",
+  "city": "Erdenet",
+  "buyer_type": "copper-molybdenum miner & concentrator",
+  "products": "both",
+  "procurement_email": "info@erdenetmc.mn",
+  "other_emails": [
+   "investdepartment@erdenetmc.mn"
+  ],
+  "phone": "+976 (0) 11 312039; 757-72109",
+  "contact_person": null,
+  "tender_portal": "https://www.tender.gov.mn/",
+  "supplier_registration_url": "https://www.tender.gov.mn",
+  "sources": [
+   "https://www.erdenetmc.mn/contact",
+   "https://www.erdenetmc.mn/procurement"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "State-owned; procurement via Mongolian state e-procurement tender.gov.mn. E-mail only on own site."
+ },
+ {
+  "company": "Zangezur Copper Molybdenum Combine CJSC (ZCMC)",
+  "country": "Armenia",
+  "city": "Kajaran",
+  "buyer_type": "copper-molybdenum miner & concentrator",
+  "products": "both",
+  "procurement_email": "info@zcmc.am",
+  "other_emails": [
+   "procurement@zcmc.am",
+   "Hayk.Akarmazyan@zcmc.am"
+  ],
+  "phone": "+374-285-33131",
+  "contact_person": null,
+  "tender_portal": "https://www.zcmc.am/en/for-suppliers/ (online tenders section)",
+  "supplier_registration_url": "https://www.zcmc.am/en/for-suppliers/",
+  "sources": [
+   "https://www.zcmc.am/en/for-suppliers/",
+   "https://www.zcmc.am/en/news/for-industrial-renewable-energy-projects-24-02-2025/"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "info@zcmc.am is listed under 'procurement-related contacts' on the suppliers page and cc'd in a ZCMC procurement notice (verified); procurement@zcmc.am appears only on the suppliers page. Ownership has changed in recent years - re-check beneficial owners before contracting."
+ },
+ {
+  "company": "JSC KazAzot",
+  "country": "Kazakhstan",
+  "city": "Aktau",
+  "buyer_type": "nitrogen fertilizer plant (own power/water treatment)",
+  "products": "both",
+  "procurement_email": "kazazot@kazazot.kz",
+  "other_emails": [],
+  "phone": "+7 (7292) 579-814",
+  "contact_person": null,
+  "tender_portal": "Own procurement (see kazazot.kz)",
+  "supplier_registration_url": "https://www.kazazot.kz/contacts/",
+  "sources": [
+   "https://www.kazazot.kz",
+   "https://kase.kz/en/issuers/KZAZ"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Ammonia/ammonium nitrate plant with demineralisation and cooling water systems."
+ },
+ {
+  "company": "JSC Maxam-Chirchiq",
+  "country": "Uzbekistan",
+  "city": "Chirchiq",
+  "buyer_type": "nitrogen/chemical plant",
+  "products": "both",
+  "procurement_email": "info@maxam-chirchiq.uz",
+  "other_emails": [],
+  "phone": "+998 71 715-15-75",
+  "contact_person": null,
+  "tender_portal": "https://maxam-chirchiq.uz/ru/tenders/current/",
+  "supplier_registration_url": "https://maxam-chirchiq.uz/ru/tenders/",
+  "sources": [
+   "https://maxam-chirchiq.uz/ru/contact/",
+   "https://maxam-chirchiq.uz/ru/tenders/informatsiya-po-zakupkam/",
+   "https://orginfo.uz/en/organization/02aa52eaa188/"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Publishes current tenders and purchase lists on own site."
+ },
+ {
+  "company": "Uzbekistan GTL LLC",
+  "country": "Uzbekistan",
+  "city": "Tashkent (plant in Kashkadarya, Shurtan)",
+  "buyer_type": "gas-to-liquids plant (Uzbekneftegaz)",
+  "products": "both",
+  "procurement_email": "info@uzgtl.com",
+  "other_emails": [],
+  "phone": null,
+  "contact_person": null,
+  "tender_portal": "https://xarid.uzex.uz",
+  "supplier_registration_url": "https://xarid.uzex.uz",
+  "sources": [
+   "https://orginfo.uz/en/organization/2637d3fac630/",
+   "https://teletype.in/@uzbekistangtl/+news"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Search results show a 2022 GTL procurement notice for strong cation and strong anion resins for condensate polishing (document not openable from this session). uzgtl.com is a JS app; e-mail confirmed on orginfo.uz registry (TIN 207041936) and the company's own channel."
+ },
+ {
+  "company": "ATEK KZ LLP (brand AWT)",
+  "country": "Kazakhstan",
+  "city": "Almaty",
+  "buyer_type": "distributor / water-treatment integrator",
+  "products": "both",
+  "procurement_email": "sale@awt.kz",
+  "other_emails": [],
+  "phone": "+7 (727) 346-13-47; +7 (775) 006-16-01",
+  "contact_person": null,
+  "tender_portal": null,
+  "supplier_registration_url": null,
+  "sources": [
+   "https://awt.kz",
+   "https://awt.kz/contacts",
+   "https://aquatherm-almaty.kz/en/press-centre/news/news-blog/1534-water-treatment-expert-atek-kz-company"
+  ],
+  "verified": false,
+  "russian_owned": false,
+  "note": "Own site lists ion-exchange units, filter media and reagent dosing (water-treatment reagents). Top seller of KU-2-8 on satu.kz. Aquatherm Almaty article confirms awt.kz = ATEK KZ but has no e-mail, so sale@ is single-source."
+ },
+ {
+  "company": "TOPAN LLP",
+  "country": "Kazakhstan",
+  "city": "Uralsk (offices Almaty, Atyrau, Aktau, Aksai)",
+  "buyer_type": "distributor of technical/oilfield chemicals and water-treatment reagents",
+  "products": "both",
+  "procurement_email": "info@topan.kz",
+  "other_emails": [
+   "reagent@topan.kz",
+   "almaty@topan.kz",
+   "atyrau@topan.kz"
+  ],
+  "phone": "+7 (7112) 28-41-42; +7 777 000 9966",
+  "contact_person": null,
+  "tender_portal": null,
+  "supplier_registration_url": null,
+  "sources": [
+   "https://topan.kz",
+   "https://topan.kz/ru/contacts",
+   "https://ecoportal.kz/Rubric/RubService/LoadFile/1242"
+  ],
+  "verified": true,
+  "russian_owned": false,
+  "note": "Own site lists water-treatment reagents (coagulants) and oilfield chemicals; well placed for scale inhibitors to West-Kazakhstan oil fields. info@ confirmed in a state environmental (ecoportal.kz) filing."
+ }
+]
