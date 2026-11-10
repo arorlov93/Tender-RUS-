@@ -92,7 +92,8 @@ if BLANK:
                     f"--print-to-pdf={body}", "file://" + hp2], check=True, capture_output=True, timeout=180)
     r = pypdf.PdfReader(BLANK); pg = r.pages[0]
     raw = pg.get_contents().get_data().decode("latin-1")
-    head = raw[:raw.index("Q\n") + 2]                      # первый блок q…Q: шапка + линия + подвал; поля Date/To/Subject и текст бланка убираем
+    head = raw[:raw.index("Q\n") + 2]
+    head = head.replace("BT 1 0 0 1 472.2 735 Tm (Construction Services) Tj", "BT 1 0 0 1 485.544 735 Tm (Global Commerce) Tj")  # как на ispgroupgc.com                      # первый блок q…Q: шапка + линия + подвал; поля Date/To/Subject и текст бланка убираем
     from pypdf.generic import DecodedStreamObject, NameObject
     st_ = DecodedStreamObject(); st_.set_data(head.encode("latin-1")); pg[NameObject("/Contents")] = r._writer_add_obj(st_) if hasattr(r, "_writer_add_obj") else st_
     w = pypdf.PdfWriter(); w.add_page(pg)
