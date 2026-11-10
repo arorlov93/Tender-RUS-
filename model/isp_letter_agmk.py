@@ -79,4 +79,23 @@ hp = "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/
 open(hp, "w").write(h)
 subprocess.run(["/opt/pw-browsers/chromium", "--headless", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer",
                 f"--print-to-pdf={os.path.abspath('../ISP_PISMO_AGMK_1011.pdf')}", "file://" + hp], check=True, capture_output=True, timeout=180)
+
+# ---- на фирменном бланке ISP Group (Letter): шапка и подвал из бланка, тело письма поверх ----
+import sys, re, pypdf
+BLANK = sys.argv[1] if len(sys.argv) > 1 else None
+if BLANK:
+    css2 = css.replace("@page{size:A4 portrait;margin:15mm 17mm}", "@page{size:Letter portrait;margin:40mm 22mm 17mm 16mm}").replace("font-size:12.5px", "font-size:12px")
+    h2 = re.sub(r"<div class=h>.*?</div><div class=rq>.*?</div>", "", h.replace(css, css2), flags=re.S)
+    hp2 = hp.replace(".html", "_body.html"); open(hp2, "w").write(h2)
+    body = hp2.replace(".html", ".pdf")
+    subprocess.run(["/opt/pw-browsers/chromium", "--headless", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer",
+                    f"--print-to-pdf={body}", "file://" + hp2], check=True, capture_output=True, timeout=180)
+    r = pypdf.PdfReader(BLANK); pg = r.pages[0]
+    raw = pg.get_contents().get_data().decode("latin-1")
+    head = raw[:raw.index("Q\n") + 2]                      # первый блок q…Q: шапка + линия + подвал; поля Date/To/Subject и текст бланка убираем
+    from pypdf.generic import DecodedStreamObject, NameObject
+    st_ = DecodedStreamObject(); st_.set_data(head.encode("latin-1")); pg[NameObject("/Contents")] = r._writer_add_obj(st_) if hasattr(r, "_writer_add_obj") else st_
+    w = pypdf.PdfWriter(); w.add_page(pg)
+    bp = pypdf.PdfReader(body).pages[0]; w.pages[0].merge_page(bp)
+    w.write("../ISP_PISMO_AGMK_1011_BLANK.pdf")
 print("ok")
