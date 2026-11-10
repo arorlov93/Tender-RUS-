@@ -1,0 +1,40 @@
+{
+ "date": "2026-11-10",
+ "from": "info@ispgroupgc.com",
+ "sent": [
+  {
+   "to": "odum@turkmengaz.gov.tm",
+   "cc": "info@turkmengaz.gov.tm",
+   "lang": "ru"
+  },
+  {
+   "to": "fer@turkmennebit.gov.tm",
+   "lang": "ru"
+  },
+  {
+   "to": "tdk@tmgeology.gov.tm",
+   "cc": "marketing@tmgeology.gov.tm",
+   "lang": "ru"
+  },
+  {
+   "to": "contact@turkmenhimiya.gov.tm",
+   "lang": "ru"
+  },
+  {
+   "to": "aleksey.butenko@eni.com",
+   "cc": "mekan.allaberdyev@eni.com",
+   "lang": "en"
+  },
+  {
+   "to": "tender_secretarytkm2@petronas.com.my",
+   "cc": "tendersecretarytkm23@petronas.com.my",
+   "lang": "en"
+  }
+ ],
+ "loa_requests": [
+  "sqsales@suqing.com",
+  "vincent@krchemical.com (cc export@)",
+  "govindpatel@rimpro-india.com (cc info@)"
+ ],
+ "held": "Консорциум «Хазар» (mitromos.com) — проверить собственность Mitro International; Минэнерго, CNPC, Dragon Oil, Туркменбаши НПЗ — один источник/нет e-mail"
+}
