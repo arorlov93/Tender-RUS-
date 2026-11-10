@@ -60,5 +60,14 @@
   "bac@zcwd.gov.ph",
   "info@astanasu.kz",
   "usug1959@gmail.com"
- ]
+ ],
+ "bounced": {
+  "info@sinarkimia.com": "550 нет адреса",
+  "web@espdv.com.mx": "550 нет адреса",
+  "nwscbid@nwscic.co.ug": "домен не существует",
+  "wabag@wabag.in": "заблокировано антиспамом Barracuda",
+  "info@tgs.com.ar": "550 5.4.1 Access denied (Microsoft, внешние письма не принимаются)",
+  "vquimicos@aris.com.pe": "переадресация на adonayre@aris.com.pe отклонена (нет прав отправки)"
+ },
+ "paused": "Рассылка остановлена по просьбе пользователя 10.11.2026"
 }
