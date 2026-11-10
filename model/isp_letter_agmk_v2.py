@@ -5,7 +5,7 @@ from isp_letter_agmk import NUM, TO, SUBJ, P1, ROWS, TERMS, ASK
 e = html.escape
 rows = "".join(f"<tr><td class=g>{e(a)}</td><td>{e(b).replace(chr(10), '<br>')}</td><td>{e(c)}</td></tr>" for a, b, c in ROWS)
 body = f"""<div class=meta><div class=ref><b>{e(NUM.split(' от ')[0].replace('Исх. ', 'Исх. '))}</b><br>от {e(NUM.split(' от ')[1])}</div>
-<div class=to><div class=l>Кому</div>{'<br>'.join(e(x) for x in TO[:3])}<br><span style='color:#6B7280'>{e(TO[3])}</span></div></div>
+<div class=to><div class=l>Кому</div>{'<br>'.join(e(x) for x in TO[:3])}<br><b>{e(TO[3])}</b></div></div>
 <h1>{e(SUBJ)}</h1>
 <p class=greet>{e(P1[0])}</p><p>{e(P1[1])}</p>
 <table><tr><th style='width:21%'>Группа</th><th>Продукция</th><th style='width:28%'>Завод-изготовитель</th></tr>{rows}</table>
