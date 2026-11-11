@@ -183,69 +183,79 @@
    "email": "info@primechemicalscorp.com",
    "lang": "en",
    "batch": 2
-  }
- ],
- "queue": [
+  },
   {
    "company": "Horizon Chemical for Special Chemicals (Horizon Water Solutions)",
    "country": "Egypt",
    "email": "info@horizon-chemical.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "Water Valley",
    "country": "Egypt",
    "email": "info@water-valley.net",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "Alfa (Alpha) for Chemicals and Water Solutions",
    "country": "Egypt",
    "email": "info@alphaawater.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "Aqua Components LLC",
    "country": "Saudi Arabia",
    "email": "sales@aquacomponents.sa",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "Advanced Line Chemical Trading (ADV)",
    "country": "Saudi Arabia",
    "email": "info@adv-line.net",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "AquaChemie",
    "country": "UAE",
    "email": "sales@aquachemie.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "Applied Aquaproducts Services (Pvt) Ltd (AAPS)",
    "country": "Pakistan",
    "email": "aps@applied-inside.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "Aqua Regia (Pvt) Ltd",
    "country": "Pakistan",
    "email": "info@aquaregiapk.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "Aqua Cheme Co., Ltd.",
    "country": "Thailand",
    "email": "info@aquacheme.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 3
   },
   {
    "company": "Novaquímica Colombia S.A.",
    "country": "Colombia",
    "email": "comercial@novaquimica.com.co",
-   "lang": "en"
-  },
+   "lang": "en",
+   "batch": 3
+  }
+ ],
+ "queue": [
   {
    "company": "Watericon",
    "country": "South Africa",
@@ -373,6 +383,16 @@
    "date": "2026-11-11",
    "ask": "официальное письмо с исх. номером, датой, подписью на имя Председателя Правления Нукежанова Р.А.",
    "action": "ISP_PISMO_KARABATAN_1111.pdf подготовлено, ждёт подписи"
+  },
+  {
+   "from": "vincent@krchemical.com",
+   "date": "2026-11-11",
+   "note": "agreement v2 OK, GM to sign on return; refuses India targets (13% export rebate on ATMP/HEDP cancelled 1 Apr); PBTCA 50% FOB Qingdao $1,345, CIF Nhava Sheva $1,520, valid 5 days"
+  },
+  {
+   "from": "pctsb_registration@petronas.com",
+   "date": "2026-11-11",
+   "note": "answers to our 2 questions: 1. Confirmed 2. Acceptable"
   }
  ],
  "bounces": []
