@@ -1,0 +1,852 @@
+{
+ "meta": {
+  "generated": "2026-11-11",
+  "window": "contracts published 2024-10-01..2026-10-31 (25 months); per-year = x12/25",
+  "method": "Position-level tonnes from contract positions; units kg/t/g converted, litres & m3 at density 1.0 (assumption); conditional units (876), pieces (796) etc. dropped; implied price outside 15-5000 RUB/kg dropped as unit errors; descalers/cleaning acids excluded; oxygen scavengers/amines (Аминат, Эктоскейл-деокси) counted as corrosion_inhibitor. Customer types by name regex + INN overrides. Contracts can be multi-year; tonnes counted at contract date.",
+  "dropped_positions": {
+   "no_qty": 20,
+   "price_outlier": 8,
+   "descaler_excluded": 31,
+   "unit_876_conditional": 42,
+   "unit_796_pieces": 21,
+   "other_units": 19
+  },
+  "coverage_caveat": "EIS covers only 223-FZ/44-FZ customers that put the product in the contract title; oil majors (Rosneft, Lukoil, Surgutneftegas, Gazprom Neft upstream) and Gazprom dobycha are essentially absent -> procurement gives a floor for power/heat/water, nothing for upstream."
+ },
+ "contracts_summary": [
+  {
+   "product_class": "scale_phosphonate",
+   "customer_type": "power_chp",
+   "tonnes_2024-10_2026-10": 584.7,
+   "tonnes_per_year_avg": 280.6,
+   "positions": 106,
+   "contracts": 90,
+   "median_rub_per_kg_incl_vat_as_contracted": 437.1
+  },
+  {
+   "product_class": "scale_phosphonate",
+   "customer_type": "heat_utility",
+   "tonnes_2024-10_2026-10": 253.9,
+   "tonnes_per_year_avg": 121.9,
+   "positions": 121,
+   "contracts": 113,
+   "median_rub_per_kg_incl_vat_as_contracted": 444.7
+  },
+  {
+   "product_class": "corrosion_inhibitor",
+   "customer_type": "power_chp",
+   "tonnes_2024-10_2026-10": 187.4,
+   "tonnes_per_year_avg": 89.9,
+   "positions": 38,
+   "contracts": 34,
+   "median_rub_per_kg_incl_vat_as_contracted": 681.8
+  },
+  {
+   "product_class": "corrosion_inhibitor",
+   "customer_type": "heat_utility",
+   "tonnes_2024-10_2026-10": 155.9,
+   "tonnes_per_year_avg": 74.9,
+   "positions": 22,
+   "contracts": 19,
+   "median_rub_per_kg_incl_vat_as_contracted": 393.0
+  },
+  {
+   "product_class": "corrosion_inhibitor",
+   "customer_type": "oil_terminal_fuel_additive",
+   "tonnes_2024-10_2026-10": 85.3,
+   "tonnes_per_year_avg": 41.0,
+   "positions": 1,
+   "contracts": 1,
+   "median_rub_per_kg_incl_vat_as_contracted": 130.0
+  },
+  {
+   "product_class": "scale_phosphonate",
+   "customer_type": "water_utility",
+   "tonnes_2024-10_2026-10": 79.4,
+   "tonnes_per_year_avg": 38.1,
+   "positions": 15,
+   "contracts": 14,
+   "median_rub_per_kg_incl_vat_as_contracted": 320.9
+  },
+  {
+   "product_class": "scale_phosphonate",
+   "customer_type": "other",
+   "tonnes_2024-10_2026-10": 57.6,
+   "tonnes_per_year_avg": 27.7,
+   "positions": 47,
+   "contracts": 45,
+   "median_rub_per_kg_incl_vat_as_contracted": 295.4
+  },
+  {
+   "product_class": "corrosion_inhibitor",
+   "customer_type": "other",
+   "tonnes_2024-10_2026-10": 19.3,
+   "tonnes_per_year_avg": 9.2,
+   "positions": 12,
+   "contracts": 9,
+   "median_rub_per_kg_incl_vat_as_contracted": 364.8
+  },
+  {
+   "product_class": "corrosion_inhibitor",
+   "customer_type": "oil",
+   "tonnes_2024-10_2026-10": 5.5,
+   "tonnes_per_year_avg": 2.6,
+   "positions": 2,
+   "contracts": 2,
+   "median_rub_per_kg_incl_vat_as_contracted": 244.0
+  },
+  {
+   "product_class": "corrosion_inhibitor",
+   "customer_type": "water_utility",
+   "tonnes_2024-10_2026-10": 4.3,
+   "tonnes_per_year_avg": 2.1,
+   "positions": 4,
+   "contracts": 2,
+   "median_rub_per_kg_incl_vat_as_contracted": 242.6
+  },
+  {
+   "product_class": "TOTAL",
+   "customer_type": "all",
+   "tonnes_2024-10_2026-10": {
+    "scale_phosphonate": 975.7,
+    "corrosion_inhibitor": 457.7
+   },
+   "tonnes_per_year_avg": {
+    "scale_phosphonate": 468.3,
+    "corrosion_inhibitor": 219.7
+   }
+  }
+ ],
+ "top_customers": [
+  {
+   "inn": "6315376946",
+   "customer": "ПАО \"Т ПЛЮС\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 207.0,
+   "t_corrosion_inhibitor_25m": 84.3,
+   "t_total_per_year_avg": 139.8,
+   "contracts": 56,
+   "median_rub_per_kg": 403.5,
+   "example_contracts": [
+    "fz223:56315376946230048990000",
+    "fz223:56315376946230072040000",
+    "fz223:56315376946240033360000",
+    "fz223:56315376946240038910000",
+    "fz223:56315376946240041650000"
+   ]
+  },
+  {
+   "inn": "7203162698",
+   "customer": "ПАО \"ФОРВАРД ЭНЕРГО\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 57.5,
+   "t_corrosion_inhibitor_25m": 66.6,
+   "t_total_per_year_avg": 59.6,
+   "contracts": 6,
+   "median_rub_per_kg": 321.0,
+   "example_contracts": [
+    "fz223:57203162698240002840000",
+    "fz223:57203162698250001800000",
+    "fz223:57203162698250002210000",
+    "fz223:57203162698250003520000",
+    "fz223:57203162698250005530000"
+   ]
+  },
+  {
+   "inn": "4704101901",
+   "customer": "ООО \"РПК-ВЫСОЦК \"ЛУКОЙЛ-II\"",
+   "customer_type": "oil_terminal_fuel_additive",
+   "t_scale_phosphonate_25m": 0.0,
+   "t_corrosion_inhibitor_25m": 85.3,
+   "t_total_per_year_avg": 41.0,
+   "contracts": 1,
+   "median_rub_per_kg": 130.0,
+   "example_contracts": [
+    "fz223:54704101901250000510000"
+   ]
+  },
+  {
+   "inn": "3444259579",
+   "customer": "ООО \"КОНЦЕССИИ ТЕПЛОСНАБЖЕНИЯ\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 0.0,
+   "t_corrosion_inhibitor_25m": 82.3,
+   "t_total_per_year_avg": 39.5,
+   "contracts": 1,
+   "median_rub_per_kg": 274.5,
+   "example_contracts": [
+    "fz223:53444259579260000130000"
+   ]
+  },
+  {
+   "inn": "1500002618",
+   "customer": "ГУП \"РПВВ\"",
+   "customer_type": "water_utility",
+   "t_scale_phosphonate_25m": 65.0,
+   "t_corrosion_inhibitor_25m": 2.0,
+   "t_total_per_year_avg": 32.2,
+   "contracts": 3,
+   "median_rub_per_kg": 249.8,
+   "example_contracts": [
+    "fz223:51500002618240003010000",
+    "fz223:51500002618250003750000",
+    "fz223:51500002618250003770000"
+   ]
+  },
+  {
+   "inn": "5406323202",
+   "customer": "АО \"ТГК-11\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 65.6,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 31.5,
+   "contracts": 2,
+   "median_rub_per_kg": 135.5,
+   "example_contracts": [
+    "fz223:55406323202250002760000",
+    "fz223:55406323202260002900000"
+   ]
+  },
+  {
+   "inn": "7606053324",
+   "customer": "ПАО \"ТГК-2\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 48.6,
+   "t_corrosion_inhibitor_25m": 16.6,
+   "t_total_per_year_avg": 31.3,
+   "contracts": 8,
+   "median_rub_per_kg": 311.4,
+   "example_contracts": [
+    "fz223:57606053324240006770000",
+    "fz223:57606053324240007240000",
+    "fz223:57606053324250004480000",
+    "fz223:57606053324250007110000",
+    "fz223:57606053324250007290000"
+   ]
+  },
+  {
+   "inn": "6829012680",
+   "customer": "АО \"РИР ЭНЕРГО\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 52.5,
+   "t_corrosion_inhibitor_25m": 6.9,
+   "t_total_per_year_avg": 28.5,
+   "contracts": 15,
+   "median_rub_per_kg": 630.0,
+   "example_contracts": [
+    "fz223:56829012680240014680000",
+    "fz223:56829012680240015730000",
+    "fz223:56829012680250001190000",
+    "fz223:56829012680250003800000",
+    "fz223:56829012680250005640000"
+   ]
+  },
+  {
+   "inn": "0277077282",
+   "customer": "ООО \"БГК\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 41.8,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 20.1,
+   "contracts": 3,
+   "median_rub_per_kg": 325.7,
+   "example_contracts": [
+    "fz223:50277077282240006250000",
+    "fz223:50277077282250006610000",
+    "fz223:50277077282260000660000"
+   ]
+  },
+  {
+   "inn": "6671156423",
+   "customer": "ПАО \"ЭЛ5-ЭНЕРГО\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 30.0,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 14.4,
+   "contracts": 2,
+   "median_rub_per_kg": 604.4,
+   "example_contracts": [
+    "fz223:56671156423250001350000",
+    "fz223:56671156423260003000000"
+   ]
+  },
+  {
+   "inn": "3329062260",
+   "customer": "АО \"РМ НАНОТЕХ\"",
+   "customer_type": "other",
+   "t_scale_phosphonate_25m": 29.7,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 14.3,
+   "contracts": 7,
+   "median_rub_per_kg": 258.0,
+   "example_contracts": [
+    "fz223:53329062260250001660000",
+    "fz223:53329062260260000510000",
+    "fz223:53329062260260000770000",
+    "fz223:53329062260260000840000",
+    "fz223:53329062260260000930000"
+   ]
+  },
+  {
+   "inn": "7107516834",
+   "customer": "ООО \"ККС\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 23.9,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 11.5,
+   "contracts": 11,
+   "median_rub_per_kg": 377.0,
+   "example_contracts": [
+    "fz223:57107516834250000220000",
+    "fz223:57107516834250000480000",
+    "fz223:57107516834250000600000",
+    "fz223:57107516834250001120000",
+    "fz223:57107516834250001250000"
+   ]
+  },
+  {
+   "inn": "1660252694",
+   "customer": "ООО \"ЭНЕРГОРЕСУРС\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 0.0,
+   "t_corrosion_inhibitor_25m": 23.8,
+   "t_total_per_year_avg": 11.4,
+   "contracts": 1,
+   "median_rub_per_kg": 344.0,
+   "example_contracts": [
+    "fz223:51660252694250000130000"
+   ]
+  },
+  {
+   "inn": "1651057954",
+   "customer": "ООО \"НИЖНЕКАМСКАЯ ТЭЦ\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 18.6,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 8.9,
+   "contracts": 2,
+   "median_rub_per_kg": 922.7,
+   "example_contracts": [
+    "fz223:51651057954240000200000",
+    "fz223:51651057954250001000000"
+   ]
+  },
+  {
+   "inn": "8904057830",
+   "customer": "АО \"УТГ-1\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 17.9,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 8.6,
+   "contracts": 2,
+   "median_rub_per_kg": 982.4,
+   "example_contracts": [
+    "fz223:58904057830250000560000",
+    "fz223:58904057830260000340000"
+   ]
+  },
+  {
+   "inn": "9731034918",
+   "customer": "ООО \"САМОЛЕТ-РЕСУРС\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 17.4,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 8.4,
+   "contracts": 1,
+   "median_rub_per_kg": 311.6,
+   "example_contracts": [
+    "fz223:59731034918260000030000"
+   ]
+  },
+  {
+   "inn": "4501122913",
+   "customer": "ПАО \"КГК\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 7.0,
+   "t_corrosion_inhibitor_25m": 9.9,
+   "t_total_per_year_avg": 8.1,
+   "contracts": 5,
+   "median_rub_per_kg": 870.0,
+   "example_contracts": [
+    "fz223:54501122913250003110000",
+    "fz223:54501122913250004340000",
+    "fz223:54501122913250004350000",
+    "fz223:54501122913260000860000",
+    "fz223:54501122913260001350000"
+   ]
+  },
+  {
+   "inn": "2628057299",
+   "customer": "ООО \"ТЕПЛОЭНЕРГО КИСЛОВОДСК\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 16.2,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 7.8,
+   "contracts": 3,
+   "median_rub_per_kg": 198.8,
+   "example_contracts": [
+    "fz223:52628057299250000080000",
+    "fz223:52628057299250000570000",
+    "fz223:52628057299260000010000"
+   ]
+  },
+  {
+   "inn": "2460087269",
+   "customer": "АО \"КРАСЭКО\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 16.1,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 7.8,
+   "contracts": 3,
+   "median_rub_per_kg": 403.6,
+   "example_contracts": [
+    "fz223:52460087269250000430000",
+    "fz223:52460087269250003760000",
+    "fz223:52460087269260000550000"
+   ]
+  },
+  {
+   "inn": "5603006523",
+   "customer": "МУП ЖКХ Г. БУЗУЛУКА",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 15.3,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 7.3,
+   "contracts": 4,
+   "median_rub_per_kg": 150.1,
+   "example_contracts": [
+    "fz223:55603006523250000550000",
+    "fz223:55603006523260000070000",
+    "fz223:55603006523260000430000",
+    "fz223:55603006523260001110000"
+   ]
+  },
+  {
+   "inn": "7453320202",
+   "customer": "АО \"УСТЭК-ЧЕЛЯБИНСК\"",
+   "customer_type": "power_chp",
+   "t_scale_phosphonate_25m": 14.9,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 7.2,
+   "contracts": 2,
+   "median_rub_per_kg": 464.9,
+   "example_contracts": [
+    "fz223:57453320202250000800000",
+    "fz223:57453320202260000720000"
+   ]
+  },
+  {
+   "inn": "7111017926",
+   "customer": "ООО \"АТЭК\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 14.2,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 6.8,
+   "contracts": 4,
+   "median_rub_per_kg": 408.4,
+   "example_contracts": [
+    "fz223:57111017926250000270000",
+    "fz223:57111017926250000390000",
+    "fz223:57111017926260000260000",
+    "fz223:57111017926260000270000"
+   ]
+  },
+  {
+   "inn": "4223117458",
+   "customer": "ООО \"ТЭР\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 13.0,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 6.2,
+   "contracts": 2,
+   "median_rub_per_kg": 298.0,
+   "example_contracts": [
+    "fz223:54223117458240001410000",
+    "fz223:54223117458260001960000"
+   ]
+  },
+  {
+   "inn": "4703145938",
+   "customer": "МУП \"ВТ СЕТИ\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 0.0,
+   "t_corrosion_inhibitor_25m": 12.5,
+   "t_total_per_year_avg": 6.0,
+   "contracts": 1,
+   "median_rub_per_kg": 296.0,
+   "example_contracts": [
+    "fz223:54703145938260000130000"
+   ]
+  },
+  {
+   "inn": "5012091227",
+   "customer": "МУП \"БКС\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 12.0,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 5.8,
+   "contracts": 1,
+   "median_rub_per_kg": 175.1,
+   "example_contracts": [
+    "fz223:55012091227250000330000"
+   ]
+  },
+  {
+   "inn": "5012039114",
+   "customer": "ООО \"РКС\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 12.0,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 5.8,
+   "contracts": 1,
+   "median_rub_per_kg": 204.1,
+   "example_contracts": [
+    "fz223:55012039114260001180000"
+   ]
+  },
+  {
+   "inn": "4703096470",
+   "customer": "ОАО \"ВТ СЕТИ\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 0.0,
+   "t_corrosion_inhibitor_25m": 12.0,
+   "t_total_per_year_avg": 5.8,
+   "contracts": 1,
+   "median_rub_per_kg": 296.0,
+   "example_contracts": [
+    "fz223:54703096470260000020000"
+   ]
+  },
+  {
+   "inn": "3310003494",
+   "customer": "ООО \"ВЛАДИМИРТЕПЛОГАЗ\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 11.0,
+   "t_corrosion_inhibitor_25m": 0.2,
+   "t_total_per_year_avg": 5.4,
+   "contracts": 5,
+   "median_rub_per_kg": 402.0,
+   "example_contracts": [
+    "fz223:53310003494240002820000",
+    "fz223:53310003494250001750000",
+    "fz223:53310003494250001960000",
+    "fz223:53310003494260001790000",
+    "fz223:53310003494260001930000"
+   ]
+  },
+  {
+   "inn": "7802853013",
+   "customer": "ООО \"ТЕПЛОЭНЕРГО\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 10.1,
+   "t_corrosion_inhibitor_25m": 0.0,
+   "t_total_per_year_avg": 4.8,
+   "contracts": 3,
+   "median_rub_per_kg": 612.0,
+   "example_contracts": [
+    "fz223:57802853013250000240000",
+    "fz223:57802853013250001890000",
+    "fz223:57802853013260001020000"
+   ]
+  },
+  {
+   "inn": "6382079233",
+   "customer": "ООО \"САМРЭК-ТЕПЛО ЖИГУЛЕВСК\"",
+   "customer_type": "heat_utility",
+   "t_scale_phosphonate_25m": 0.0,
+   "t_corrosion_inhibitor_25m": 10.0,
+   "t_total_per_year_avg": 4.8,
+   "contracts": 4,
+   "median_rub_per_kg": 377.0,
+   "example_contracts": [
+    "fz223:56382079233250000020000",
+    "fz223:56382079233250000500000",
+    "fz223:56382079233260000350000",
+    "fz223:56382079233260000600000"
+   ]
+  }
+ ],
+ "dosing_literature": [
+  {
+   "application": "oilfield scale inhibitor, continuous injection",
+   "value": "5-50 ppm continuous injection (phosphonate/polymer blend product page)",
+   "type": "vendor product page",
+   "source": "https://chemzip.com/es/products/production-chemical-scale-removal (opened 2026-11-11)",
+   "confidence": "low-medium (vendor); scenarios use 5/15/30 g/m3 inside this range"
+  },
+  {
+   "application": "oilfield scale inhibitor, Russian field practice",
+   "value": "40 g/m3 specific dosage, SONSOL 2001/2002, 11 problem wells, Kirskoye & Kottynskoye fields (W. Siberia); MTBF +60 d to 252 d",
+   "type": "conference paper (TPU 2018)",
+   "source": "https://earchive.tpu.ru/jspui/bitstream/11683/51340/1/conference_tpu-2018-C11_V2_p165-166.pdf (opened 2026-11-11, pdftotext)",
+   "confidence": "medium (single case, problem wells)"
+  },
+  {
+   "application": "oilfield corrosion inhibitor",
+   "value": "15-70 g/t of liquid in textbook exercises (typ. 30 g/t, shock 140-300 g/t); squeeze 30 mg/l",
+   "type": "university textbook exercises (KNITU 2023, 'Ингибиторы коррозии')",
+   "source": "https://kpfu.ru//staff_files/F500869071/Lestev_Ingibitory_korrozii_2023.pdf (opened 2026-11-11)",
+   "confidence": "low (illustrative)"
+  },
+  {
+   "application": "power cooling water (recirculating, towers) - OEDF",
+   "value": "0.25-2.0 mg/kg OEDF in circulating water depending on carbonate hardness (up to 7.5 mg-eq/kg); OEDF consumption 5-10x less than polyphosphates, 100-200x less than H2SO4",
+   "type": "Russian industry guideline RD 34.22.503-88 (VTI)",
+   "source": "https://energyland.info/files/library/1b0709af1f3242c2e12a6764f15914d7.doc (opened 2026-11-11)",
+   "confidence": "high (normative)"
+  },
+  {
+   "application": "district heating make-up / network water",
+   "value": "IOMS effective 1.8-2 mg/dm3 (85 C, CI=19.4); Zn-OEDF 7.5-8 mg/dm3",
+   "type": "journal article (Kharchenko, Interactive Plus)",
+   "source": "https://interactive-plus.ru/e-articles/146/Action146-11211.pdf (opened 2026-11-11)",
+   "confidence": "medium"
+  },
+  {
+   "application": "CCGT water use (denominator for cooling chemistry)",
+   "value": "NGCC tower: withdrawal median 255 gal/MWh (150-283), consumption 205 gal/MWh (130-300); dry CC 2 gal/MWh",
+   "type": "peer-reviewed review (Macknick et al., ERL 7 (2012) 045802)",
+   "source": "https://openei.org/datasets/files/969/pub/1748-9326_7_4_045802.pdf (opened 2026-11-11)",
+   "confidence": "high"
+  },
+  {
+   "application": "RO antiscalant",
+   "value": "3-5 ppm recommended (max 20 ppm drinking water)",
+   "type": "product TDS (WTRD320)",
+   "source": "https://www.rakiro.net/docs/tds/WTRD320.pdf (opened 2026-11-11)",
+   "confidence": "medium"
+  },
+  {
+   "application": "RO antiscalant",
+   "value": "typically 5-20 ppm; W(kg)=Q(m3/h) x S(g/t) x H",
+   "type": "vendor blog (Netsol Water)",
+   "source": "https://netsolwater.com/calculations-of-ro-antiscalant-chemical-to-dose-in-ro-plants.php?blog=4983 (opened 2026-11-11)",
+   "confidence": "low-medium"
+  },
+  {
+   "application": "water cut context",
+   "value": "RU mature fields: liquid in wells >90% water; wells uneconomic when oil <10-15% of lifted mixture. Turkmenistan: Goturdepe/Barsagelmez 'increase in formation water influx' (no %)",
+   "type": "news",
+   "source": "https://www1.ru/news/2026/06/03/starye-skvaziny-tonut-minenergo-gotovit-mery-dlia-spaseniia-vyrabotannyx-mestorozdenii.html ; https://oilgas.gov.tm/en/posts/news/17011/turkmenistan-is-improving-technologies-to-increase-the-productivity-of-oil-wells (both opened 2026-11-11)",
+   "confidence": "qualitative"
+  }
+ ],
+ "ratios": [
+  {
+   "ratio": "scale inhibitor, t per Mt oil",
+   "low": 2.65,
+   "base": 26.47,
+   "high": 160.0,
+   "basis": "ESTIMATE from literature doses x assumed water cut/treated share (inputs in detail)",
+   "detail": {
+    "low": {
+     "dose_g_m3": 5,
+     "water_cut": 0.6,
+     "water_m3_per_t_oil": 1.76,
+     "share_water_treated": 0.3,
+     "t_per_Mt_oil": 2.65
+    },
+    "base": {
+     "dose_g_m3": 15,
+     "water_cut": 0.75,
+     "water_m3_per_t_oil": 3.53,
+     "share_water_treated": 0.5,
+     "t_per_Mt_oil": 26.47
+    },
+    "high": {
+     "dose_g_m3": 30,
+     "water_cut": 0.85,
+     "water_m3_per_t_oil": 6.67,
+     "share_water_treated": 0.8,
+     "t_per_Mt_oil": 160.0
+    }
+   },
+   "note": "Russian EIS procurement cannot calibrate this: upstream oil chemistry is bought on corporate ETPs/closed or under generic lot names; only 2 small oil contracts found (Оренбургнефтеотдача, 5.5 t CI)."
+  },
+  {
+   "ratio": "corrosion inhibitor, t per Mt oil",
+   "low": 12.44,
+   "base": 67.94,
+   "high": 306.67,
+   "basis": "ESTIMATE (textbook doses x assumed water cut/share)",
+   "detail": {
+    "low": {
+     "dose_g_per_t_liquid": 15,
+     "water_cut": 0.6,
+     "t_liquid_per_t_oil": 2.76,
+     "share_treated": 0.3,
+     "t_per_Mt_oil": 12.44
+    },
+    "base": {
+     "dose_g_per_t_liquid": 30,
+     "water_cut": 0.75,
+     "t_liquid_per_t_oil": 4.53,
+     "share_treated": 0.5,
+     "t_per_Mt_oil": 67.94
+    },
+    "high": {
+     "dose_g_per_t_liquid": 50,
+     "water_cut": 0.85,
+     "t_liquid_per_t_oil": 7.67,
+     "share_treated": 0.8,
+     "t_per_Mt_oil": 306.67
+    }
+   }
+  },
+  {
+   "ratio": "t per bcm gas",
+   "low": null,
+   "base": null,
+   "high": null,
+   "basis": "NOT DETERMINED: no gas-producer purchases of these products found in EIS for 2024-10..2026-10 (Gazprom dobycha subsidiaries absent from results); no open source with g/1000 m3 dosing for corrosion/scale inhibitor found. Excluded from totals."
+  },
+  {
+   "ratio": "t per GW thermal capacity per year",
+   "low": 0.19,
+   "base": 2.98,
+   "high": 8.63,
+   "basis": "low/base: ESTIMATE from RD 34.22.503-88 OEDF conc. x Macknick blowdown x CF 0.45 (assumed), product 50% active (assumed); high: PROCUREMENT benchmark T Plus (16.2 GW, Kommersant) 2024-10..2026-10 EIS contracts, scale+corrosion, includes heat networks",
+   "tplus_benchmark": {
+    "scale_t_y": 99.4,
+    "corr_t_y": 40.5,
+    "scale_t_per_GW_y": 6.13,
+    "total_t_per_GW_y": 8.63
+   }
+  },
+  {
+   "ratio": "RO antiscalant, t/yr per 10k m3/day permeate",
+   "low": 12.17,
+   "base": 25.55,
+   "high": 45.62,
+   "basis": "ESTIMATE: dose 2-5 ppm (vendor TDS) on feed; recovery 40-60% ASSUMED (not sourced for Turkmen plants)",
+   "detail": {
+    "low": {
+     "dose_ppm_product_basis": 2,
+     "recovery": 0.6,
+     "feed_m3_day_per_10k_permeate": 16667,
+     "t_per_year_per_10k_m3_day": 12.17
+    },
+    "base": {
+     "dose_ppm_product_basis": 3.5,
+     "recovery": 0.5,
+     "feed_m3_day_per_10k_permeate": 20000,
+     "t_per_year_per_10k_m3_day": 25.55
+    },
+    "high": {
+     "dose_ppm_product_basis": 5,
+     "recovery": 0.4,
+     "feed_m3_day_per_10k_permeate": 25000,
+     "t_per_year_per_10k_m3_day": 45.62
+    }
+   }
+  }
+ ],
+ "turkmenistan_projection": {
+  "inputs": {
+   "oil_Mt": 8.4,
+   "gas_bcm": 76.5,
+   "thermal_GW": 6.5,
+   "ro_m3_day": 85000
+  },
+  "low": {
+   "oil_scale_inhibitor_t": 22.26,
+   "oil_corrosion_inhibitor_t": 104.5,
+   "gas_t": null,
+   "power_t": 1.24,
+   "ro_antiscalant_t": 103.44,
+   "phosphonate_scale_total_t_excl_gas": 126.94,
+   "all_incl_corrosion_inhibitor_excl_gas_t": 231.44
+  },
+  "base": {
+   "oil_scale_inhibitor_t": 222.35,
+   "oil_corrosion_inhibitor_t": 570.7,
+   "gas_t": null,
+   "power_t": 19.37,
+   "ro_antiscalant_t": 217.18,
+   "phosphonate_scale_total_t_excl_gas": 458.9,
+   "all_incl_corrosion_inhibitor_excl_gas_t": 1029.6
+  },
+  "high": {
+   "oil_scale_inhibitor_t": 1344.0,
+   "oil_corrosion_inhibitor_t": 2576.03,
+   "gas_t": null,
+   "power_t": 56.1,
+   "ro_antiscalant_t": 387.77,
+   "phosphonate_scale_total_t_excl_gas": 1787.87,
+   "all_incl_corrosion_inhibitor_excl_gas_t": 4363.9
+  },
+  "arithmetic": "OIL scale inhibitor: t/Mt = dose(g/m3) x water(m3/t oil) x share treated; water = (1/0.85) x wc/(1-wc). low 5x1.76x0.3=2.65; base 15x3.53x0.5=26.47; high 30x6.67x0.8=160.0 t/Mt; x8.4 Mt. OIL corrosion inhibitor: t/Mt = dose(g/t liquid) x (1+water) x share; low 15x2.76x0.3=12.44; base 30x4.53x0.5=67.94; high 50x7.67x0.8=306.67 t/Mt; x8.4. POWER: blowdown = (255-205 gal/MWh)x0.003785 = 0.19 m3/MWh; MWh/GW/yr = 8760x0.45x1000 = 3942000; OEDF 0.25-2.0 g/m3 active /0.5 active share -> 0.37-2.98 t product/GW/yr (CCGT wet tower). low = 0.37x0.5 (half of fleet wet-cooled) = 0.19; base = 2.98 (literature upper bound, whole fleet); high = T Plus all-in procurement benchmark 8.63 t/GW/yr ((99.4+40.5) t/yr / 16.2 GW, includes heat-network make-up). x6.5 GW. RO: t/yr per 10k m3/day permeate = ppm x (10000/recovery) x 365 / 1e6; low 2ppm/60% = 12.17; base 3.5ppm/50% = 25.55; high 5ppm/40% = 45.62; x8.5. GAS: no verified ratio (see ratios) -> not included in totals.",
+  "labels": "ALL projection figures are ESTIMATES (t/yr commercial product). Gas excluded (no ratio)."
+ },
+ "sources": [
+  {
+   "what": "gosplan API search",
+   "endpoint": "GET https://v2test.gosplan.info/{fz223|fz44}/contracts?subject=<kw>&published_after&published_before (30-day windows 2024-10-01..2026-11-01, limit 100, skip<=1000)",
+   "keywords": [
+    "ОЭДФ",
+    "НТФ",
+    "оксиэтилидендифосфоновой",
+    "комплексонат",
+    "антискалант",
+    "ингибитор",
+    "подпитки",
+    "антинакипин",
+    "комплексон",
+    "химреагентов",
+    "Оптион",
+    "ИОМС",
+    "Аминат",
+    "Эктоскейл",
+    "солеотложений"
+   ],
+   "accessed": "2026-11-11",
+   "result": "2188 unique contracts found; 706 passed subject filter; detail fetched"
+  },
+  {
+   "what": "gosplan contract detail",
+   "endpoint": "GET https://v2test.gosplan.info/{law}/contracts/{reg_num}/contract (223: source.contractPositions.contractPosition; 44: source.products.product)",
+   "accessed": "2026-11-11"
+  },
+  {
+   "what": "T Plus capacity 16.2 GW el (15.4 GW CHP), 58.2k Gcal/h, 61 plants",
+   "url": "https://www.kommersant.ru/top-100/t-plyus",
+   "accessed": "2026-11-11"
+  },
+  {
+   "what": "oilfield scale inhibitor, continuous injection",
+   "url": "https://chemzip.com/es/products/production-chemical-scale-removal (opened 2026-11-11)"
+  },
+  {
+   "what": "oilfield scale inhibitor, Russian field practice",
+   "url": "https://earchive.tpu.ru/jspui/bitstream/11683/51340/1/conference_tpu-2018-C11_V2_p165-166.pdf (opened 2026-11-11, pdftotext)"
+  },
+  {
+   "what": "oilfield corrosion inhibitor",
+   "url": "https://kpfu.ru//staff_files/F500869071/Lestev_Ingibitory_korrozii_2023.pdf (opened 2026-11-11)"
+  },
+  {
+   "what": "power cooling water (recirculating, towers) - OEDF",
+   "url": "https://energyland.info/files/library/1b0709af1f3242c2e12a6764f15914d7.doc (opened 2026-11-11)"
+  },
+  {
+   "what": "district heating make-up / network water",
+   "url": "https://interactive-plus.ru/e-articles/146/Action146-11211.pdf (opened 2026-11-11)"
+  },
+  {
+   "what": "CCGT water use (denominator for cooling chemistry)",
+   "url": "https://openei.org/datasets/files/969/pub/1748-9326_7_4_045802.pdf (opened 2026-11-11)"
+  },
+  {
+   "what": "RO antiscalant",
+   "url": "https://www.rakiro.net/docs/tds/WTRD320.pdf (opened 2026-11-11)"
+  },
+  {
+   "what": "RO antiscalant",
+   "url": "https://netsolwater.com/calculations-of-ro-antiscalant-chemical-to-dose-in-ro-plants.php?blog=4983 (opened 2026-11-11)"
+  },
+  {
+   "what": "water cut context",
+   "url": "https://www1.ru/news/2026/06/03/starye-skvaziny-tonut-minenergo-gotovit-mery-dlia-spaseniia-vyrabotannyx-mestorozdenii.html ; https://oilgas.gov.tm/en/posts/news/17011/turkmenistan-is-improving-technologies-to-increase-the-productivity-of-oil-wells (both opened 2026-11-11)"
+  }
+ ]
+}
