@@ -1,0 +1,360 @@
+{
+ "date": "2026-11-11",
+ "daily_limit": 50,
+ "suppliers_sent": [
+  {
+   "to": "vincent@krchemical.com",
+   "what": "agreement v2 (TM excl, KZ non-excl, 200 t) + India target prices"
+  },
+  {
+   "to": "sales1@xintaiwater.com",
+   "what": "follow-up price request HEDP/PBTCA/ATMP CIF Nhava Sheva"
+  },
+  {
+   "to": "info@thwater.net",
+   "what": "same"
+  },
+  {
+   "to": "webmaster@chinatongde.com",
+   "what": "price request (Jiangsu Yao's, verified)"
+  },
+  {
+   "to": "kw@kwchem.com, Lydia@kwchem.com, cc kw@keweichem.com",
+   "what": "price request Koye (1 source, user consent 11.11)"
+  },
+  {
+   "to": "sales@qywt.com.cn, qysales@qywt.com.cn",
+   "what": "price request Qingshuiyuan (user consent)"
+  },
+  {
+   "to": "aona@jialuchem.com",
+   "what": "Jialu (user consent)"
+  },
+  {
+   "to": "info@irowater.com",
+   "what": "IRO (user consent)"
+  },
+  {
+   "to": "sales@guiquanchem.com",
+   "what": "Guiquan (user consent)"
+  },
+  {
+   "to": "chem@yuanlianchem.com",
+   "what": "Yuanlian HEDP (user consent)"
+  }
+ ],
+ "outreach_sent": [
+  {
+   "company": "АО \"Каражанбасмунай\" (Karazhanbasmunai JSC)",
+   "country": "Kazakhstan",
+   "email": "kbm@kbm.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "ТОО \"Karabatan Utility Solutions\"",
+   "country": "Kazakhstan",
+   "email": "info@kus.com.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "ТОО \"Казахтуркмунай\" (Kazakhturkmunai LLP)",
+   "country": "Kazakhstan",
+   "email": "aktm@ktm.kmg.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "ТОО \"Казахский газоперерабатывающий завод\" (KazGPZ)",
+   "country": "Kazakhstan",
+   "email": "axo@kazgpz.kmg.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "ТОО \"Казахойл Актобе\" (Kazakhoil Aktobe LLP)",
+   "country": "Kazakhstan",
+   "email": "info@koa.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "ТОО \"Урихтау Оперейтинг\" (Urikhtau Operating LLP)",
+   "country": "Kazakhstan",
+   "email": "info@uo.kmg.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "ТОО \"СП CASPI BITUM\"",
+   "country": "Kazakhstan",
+   "email": "info@caspibitum.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "ТОО \"Тау-Кен Алтын\" (Tau-Ken Altyn LLP)",
+   "country": "Kazakhstan",
+   "email": "info@taukenaltyn.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "АО \"Ульбинский металлургический завод\" (Ulba Metallurgical Plant)",
+   "country": "Kazakhstan",
+   "email": "mail@ulba.kz",
+   "lang": "ru",
+   "batch": 1
+  },
+  {
+   "company": "ТОО \"Energy Solutions Center\"",
+   "country": "Kazakhstan",
+   "email": "info@e-s-center.kz",
+   "lang": "ru",
+   "batch": 1
+  }
+ ],
+ "queue": [
+  {
+   "company": "ТОО \"SSAP\" (Степногорский сернокислотный завод)",
+   "country": "Kazakhstan",
+   "email": "info@ssap.kz",
+   "lang": "ru"
+  },
+  {
+   "company": "ТОО \"Аппак\" (Appak LLP)",
+   "country": "Kazakhstan",
+   "email": "secretary@appak.kazatomprom.kz",
+   "lang": "ru"
+  },
+  {
+   "company": "ООО \"Buxoro neftni qayta ishlash zavodi\" (Бухарский НПЗ)",
+   "country": "Uzbekistan",
+   "email": "info@bnpz.uz",
+   "lang": "ru"
+  },
+  {
+   "company": "ООО \"Shurtan Gaz Kimyo Majmuasi\" (Шуртанский ГХК)",
+   "country": "Uzbekistan",
+   "email": "sgcc@sgcc.uz",
+   "lang": "ru"
+  },
+  {
+   "company": "СП ООО \"Uz-Kor Gas Chemical\"",
+   "country": "Uzbekistan",
+   "email": "a.kasimov@uz-kor.com",
+   "lang": "ru"
+  },
+  {
+   "company": "АО \"Navoiyazot\"",
+   "country": "Uzbekistan",
+   "email": "office@navoiyazot.uz",
+   "lang": "ru"
+  },
+  {
+   "company": "АО \"O'zbekiston metallurgiya kombinati\" (Uzmetkombinat)",
+   "country": "Uzbekistan",
+   "email": "info@uzbeksteel.uz",
+   "lang": "ru"
+  },
+  {
+   "company": "АО \"Talimarjon IES\" (Talimarjan TPP)",
+   "country": "Uzbekistan",
+   "email": "taltes@tpp.uz",
+   "lang": "ru"
+  },
+  {
+   "company": "АО \"O'zsuvta'minot\" (Uzsuvtaminot)",
+   "country": "Uzbekistan",
+   "email": "info@uzsuv.uz",
+   "lang": "ru"
+  },
+  {
+   "company": "Prime Chemicals Corporation (Aquaprime)",
+   "country": "Pakistan",
+   "email": "info@primechemicalscorp.com",
+   "lang": "en"
+  },
+  {
+   "company": "Horizon Chemical for Special Chemicals (Horizon Water Solutions)",
+   "country": "Egypt",
+   "email": "info@horizon-chemical.com",
+   "lang": "en"
+  },
+  {
+   "company": "Water Valley",
+   "country": "Egypt",
+   "email": "info@water-valley.net",
+   "lang": "en"
+  },
+  {
+   "company": "Alfa (Alpha) for Chemicals and Water Solutions",
+   "country": "Egypt",
+   "email": "info@alphaawater.com",
+   "lang": "en"
+  },
+  {
+   "company": "Aqua Components LLC",
+   "country": "Saudi Arabia",
+   "email": "sales@aquacomponents.sa",
+   "lang": "en"
+  },
+  {
+   "company": "Advanced Line Chemical Trading (ADV)",
+   "country": "Saudi Arabia",
+   "email": "info@adv-line.net",
+   "lang": "en"
+  },
+  {
+   "company": "AquaChemie",
+   "country": "UAE",
+   "email": "sales@aquachemie.com",
+   "lang": "en"
+  },
+  {
+   "company": "Applied Aquaproducts Services (Pvt) Ltd (AAPS)",
+   "country": "Pakistan",
+   "email": "aps@applied-inside.com",
+   "lang": "en"
+  },
+  {
+   "company": "Aqua Regia (Pvt) Ltd",
+   "country": "Pakistan",
+   "email": "info@aquaregiapk.com",
+   "lang": "en"
+  },
+  {
+   "company": "Aqua Cheme Co., Ltd.",
+   "country": "Thailand",
+   "email": "info@aquacheme.com",
+   "lang": "en"
+  },
+  {
+   "company": "Novaquímica Colombia S.A.",
+   "country": "Colombia",
+   "email": "comercial@novaquimica.com.co",
+   "lang": "en"
+  },
+  {
+   "company": "Watericon",
+   "country": "South Africa",
+   "email": "info@watericon.co.za",
+   "lang": "en"
+  },
+  {
+   "company": "Safechem (K) Ltd",
+   "country": "Kenya",
+   "email": "info@safechem.co.ke",
+   "lang": "en"
+  },
+  {
+   "company": "Organo (Thailand) Co., Ltd.",
+   "country": "Thailand",
+   "email": "organo_t@organothailand.com",
+   "lang": "en"
+  },
+  {
+   "company": "ChemTreat Mexico S. de R.L. de C.V.",
+   "country": "Mexico",
+   "email": "cs_orders@chemtreat.com",
+   "lang": "en"
+  },
+  {
+   "company": "Thermax Ltd - Chemical Division",
+   "country": "India",
+   "email": "enquiry@thermaxglobal.com",
+   "lang": "en"
+  },
+  {
+   "company": "SISCO",
+   "country": "Egypt",
+   "email": "info@sisco-eg.com",
+   "lang": "en"
+  },
+  {
+   "company": "System Technique",
+   "country": "Egypt",
+   "email": "info@systemtechnique.com",
+   "lang": "en"
+  },
+  {
+   "company": "WETCO (Water & Environmental Technology Co.)",
+   "country": "Egypt",
+   "email": "info@wetco-eg.com",
+   "lang": "en"
+  },
+  {
+   "company": "Gulf Water Treatment (GWT)",
+   "country": "UAE",
+   "email": "info@gulfwatertreatment.com",
+   "lang": "en"
+  },
+  {
+   "company": "Granimex Sp. z o.o.",
+   "country": "Poland",
+   "email": "info@granimex.com.pl",
+   "lang": "en"
+  },
+  {
+   "company": "Kontec Trading LLC",
+   "country": "UAE",
+   "email": "info@kontec.ae",
+   "lang": "en"
+  },
+  {
+   "company": "Process Water Technologies (Pty) Ltd (PWTSA)",
+   "country": "South Africa",
+   "email": "info@pwtsa.com",
+   "lang": "en"
+  },
+  {
+   "company": "Water 2000, Inc.",
+   "country": "Pakistan",
+   "email": "info@water2000.com.pk",
+   "lang": "en"
+  }
+ ],
+ "held_for_tomorrow": [
+  {
+   "company": "Aquamat SA (Pty) Ltd",
+   "country": "South Africa",
+   "email": "info@aquamat.co.za",
+   "lang": "en"
+  },
+  {
+   "company": "PuriChem",
+   "country": "Egypt",
+   "email": "info@purichem-eg.com",
+   "lang": "en"
+  },
+  {
+   "company": "Adiquímica S.A.",
+   "country": "Spain",
+   "email": "adiquimica@adiquimica.com",
+   "lang": "en"
+  },
+  {
+   "company": "LSP Siam Inter Trade Co., Ltd.",
+   "country": "Thailand",
+   "email": "pornpen@lspsiam.com",
+   "lang": "en"
+  },
+  {
+   "company": "Goshu Kohsan Co., Ltd.",
+   "country": "Thailand",
+   "email": "cservice@goshukohsan.com",
+   "lang": "en"
+  }
+ ],
+ "excluded": [
+  {
+   "company": "KPI Inc.",
+   "reason": "ownership not verified (possible SIBUR stake)"
+  },
+  {
+   "company": "Innovative Water Technology & Solution",
+   "reason": "likely channel of Chinese phosphonate makers (competitor)"
+  }
+ ]
+}
