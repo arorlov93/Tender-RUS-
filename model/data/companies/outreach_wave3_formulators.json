@@ -1,0 +1,771 @@
+[
+ {
+  "company": "Prime Chemicals Corporation (Aquaprime)",
+  "country": "Pakistan",
+  "city": "Karachi (branch: Lahore)",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://primechemicalscorp.com/aqua-prime",
+  "email": "info@primechemicalscorp.com",
+  "other_emails": [],
+  "phone": "+92-21-34556313; +92-21-34559696; +92-42-35444927",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://primechemicalscorp.com/",
+   "https://aquaenergyexpo.com/view_company/1338/Prime%20Chemicals%20Corporation"
+  ],
+  "verified": true,
+  "note": "Manufactures/supplies water treatment chemicals under the Aquaprime brand: boiler, cooling tower (scale & corrosion), antiscalant, chiller and RO programmes. Typical HEDP/PBTC/ATMP blender profile. E-mail on official site and on Aqua Energy Expo exhibitor profile."
+ },
+ {
+  "company": "Horizon Chemical for Special Chemicals (Horizon Water Solutions)",
+  "country": "Egypt",
+  "city": "Alexandria",
+  "buyer_type": "distributor",
+  "products_needed": "several",
+  "proof_url": "https://horizon-chemical.com/categories/water-treatment/",
+  "email": "info@horizon-chemical.com",
+  "other_emails": [],
+  "phone": "+20 3 5436517; +20 3 5436518",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://horizon-chemical.com/",
+   "https://aquaenergyexpo.com/view_company/311/Horizon%20Chemical%20For%20Special%20Chemicals"
+  ],
+  "verified": true,
+  "note": "Trading/manufacturing/consultancy firm; water-treatment range lists RO antiscalants, scale inhibitors, corrosion inhibitors, copper inhibitor for cooling towers, oxygen scavengers. Also detergents and oil & gas categories."
+ },
+ {
+  "company": "Water Valley",
+  "country": "Egypt",
+  "city": "",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://water-valley.net/",
+  "email": "info@water-valley.net",
+  "other_emails": [],
+  "phone": "+20 111 107 8946",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://water-valley.net/",
+   "https://aquaenergyexpo.com/view_company/889/Water%20Valley"
+  ],
+  "verified": true,
+  "note": "Manufacturer/supplier of water treatment chemicals (scale inhibitors, corrosion inhibitors, boiler & cooling water) plus ion-exchange resins and softeners."
+ },
+ {
+  "company": "Alfa (Alpha) for Chemicals and Water Solutions",
+  "country": "Egypt",
+  "city": "El Mahalla El Kubra (Gharbia)",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://alphaawater.com/projects/ro-chemicals-treatment/",
+  "email": "info@alphaawater.com",
+  "other_emails": [],
+  "phone": "+20 109 009 2632",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://alphaawater.com/",
+   "https://aquaenergyexpo.com/view_company/1284/Alfa%20for%20Chemicals%20and%20Water%20Solutions"
+  ],
+  "verified": true,
+  "note": "Water-chemistry company; product pages for RO antiscalant and ion-exchange resin (https://alphaawater.com/projects/ionexchange-resin/)."
+ },
+ {
+  "company": "Aqua Components LLC",
+  "country": "Saudi Arabia",
+  "city": "Riyadh",
+  "buyer_type": "distributor",
+  "products_needed": "several",
+  "proof_url": "https://aquacomponents.sa/product-category/ro-chemicals/",
+  "email": "sales@aquacomponents.sa",
+  "other_emails": [],
+  "phone": "+966-11-518-3699; +966-11-234-4661",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://aquacomponents.sa/",
+   "https://aquaenergyexpo.com/view_company/1300/Aqua%20Components%20LLC"
+  ],
+  "verified": true,
+  "note": "Sells RO chemicals (antiscalants, cleaners) and filtration media & ion-exchange resin (https://aquacomponents.sa/product-category/filtration-media-and-resin/). Linked to Pure Aqua; reseller rather than blender."
+ },
+ {
+  "company": "Advanced Line Chemical Trading (ADV)",
+  "country": "Saudi Arabia",
+  "city": "Riyadh",
+  "buyer_type": "distributor",
+  "products_needed": "several",
+  "proof_url": "https://adv-line.net/wp-content/themes/advlinenet/resources/portfolio-2024.pdf",
+  "email": "info@adv-line.net",
+  "other_emails": [],
+  "phone": "+966 536821055",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://adv-line.net/",
+   "https://aquaenergyexpo.com/view_company/900/Advanced%20Line%20Chemical%20Trading"
+  ],
+  "verified": true,
+  "note": "Riyadh trader of chemical raw materials (portfolio PDF includes water-treatment items); possible resale channel for HEDP/ATMP/PAC in KSA."
+ },
+ {
+  "company": "AquaChemie",
+  "country": "UAE",
+  "city": "Dubai (Jebel Ali)",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://aquachemie.com/products/kurita-specialty-chemicals/",
+  "email": "sales@aquachemie.com",
+  "other_emails": [],
+  "phone": "+971 4 880 7701",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://aquachemie.com/",
+   "https://aquaenergyexpo.com/view_company/751/AquaChemie"
+  ],
+  "verified": true,
+  "note": "Founded 2008 in Dubai; chemical manufacturing, distribution and a chemical storage terminal at Jebel Ali; markets Kurita specialty water-treatment chemicals and corrosion inhibitors across GCC."
+ },
+ {
+  "company": "Applied Aquaproducts Services (Pvt) Ltd (AAPS)",
+  "country": "Pakistan",
+  "city": "Lahore",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://applied-inside.com/solutions/water-treatment-chemicals/",
+  "email": "aps@applied-inside.com",
+  "other_emails": [],
+  "phone": "+92 42 35188346-7; +92 300 0455960",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://applied-inside.com/",
+   "https://www.ecohubmap.com/company/business/applied-aquaproducts-services-(pvt)-ltd/l1p1n1c8"
+  ],
+  "verified": true,
+  "note": "Industrial water treatment chemicals (boiler, cooling tower) plus RO/demin equipment and services."
+ },
+ {
+  "company": "Aqua Regia (Pvt) Ltd",
+  "country": "Pakistan",
+  "city": "Lahore",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://aquaregiapk.com/our-services/water-treatment-chemicals/",
+  "email": "info@aquaregiapk.com",
+  "other_emails": [],
+  "phone": "+92 42 35314131; +92 42 35314132",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://aquaregiapk.com/",
+   "https://www.ecohubmap.com/company/business/aqua-regia/l1p1n1bq"
+  ],
+  "verified": true,
+  "note": "Local Pakistani water-treatment company: equipment, chemicals and application services (24 years per own site)."
+ },
+ {
+  "company": "Aqua Cheme Co., Ltd.",
+  "country": "Thailand",
+  "city": "",
+  "buyer_type": "distributor",
+  "products_needed": "resins",
+  "proof_url": "https://www.aquacheme.com/th/products/",
+  "email": "info@aquacheme.com",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "http://www.aquacheme.com/th/contact/",
+   "https://www.ecohubmap.com/company/business/aqua-cheme-co-ltd./l1dby1b9"
+  ],
+  "verified": true,
+  "note": "Thai water-treatment company (45+ years per directory); sells filtration systems and ion-exchange resins - resin/media buyer. Directory source: ecohubmap Thailand water list entry 'Aqua Cheme Co, Ltd.' (info@aquacheme.com)."
+ },
+ {
+  "company": "Novaquímica Colombia S.A.",
+  "country": "Colombia",
+  "city": "",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://novaquimica.com.co/sistemas-de-vapor/",
+  "email": "comercial@novaquimica.com.co",
+  "other_emails": [
+   "sdcomercial@novaquimica.com.co"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "es",
+  "sources": [
+   "https://novaquimica.com.co/",
+   "https://www.ecohubmap.com/company/business/novaquímica-colombia-s.a./83q4m1e0rl1xyefd5"
+  ],
+  "verified": true,
+  "note": "Boiler/steam-system treatment incl. antiincrustantes; team of chemical engineers. Directory: ecohubmap Colombia water list (comercial@novaquimica.com.co)."
+ },
+ {
+  "company": "Innovative Water Technology & Solution (Pvt) Ltd",
+  "country": "Pakistan",
+  "city": "Karachi",
+  "buyer_type": "distributor",
+  "products_needed": "several",
+  "proof_url": "https://invwater.com/product/circulating-cooling-water-corrosion-inhibitor/",
+  "email": "yao@invwater.com",
+  "other_emails": [],
+  "phone": "+92-21-35246686; +86 158 2939 1119",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://invwater.com/",
+   "https://www.ecohubmap.com/company/business/innovative-water-technology-n-solution-private-limited/l1p1n1bw"
+  ],
+  "verified": true,
+  "note": "Supplier of scale & corrosion inhibitors, PAC, demulsifiers. CAUTION: appears to be a channel of a Chinese producer (Chinese mobile, 'yao@'); may be a competitor rather than a buyer."
+ },
+ {
+  "company": "Watericon",
+  "country": "South Africa",
+  "city": "Johannesburg (also Ghana, UAE)",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://watericon.com/chemicals/",
+  "email": "info@watericon.co.za",
+  "other_emails": [
+   "info@watericon.com",
+   "sean@watericon.com"
+  ],
+  "phone": "+27 11 608 3345",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://watericon.com/",
+   "https://www.ecohubmap.com/company/business/water-icon/83q4m1e0rl1xyegjc"
+  ],
+  "verified": true,
+  "note": "Industrial water treatment: cooling-water corrosion inhibitors, anti-scalants, boiler chemicals; also ion-exchange resins (https://watericon.com/equipment-consumables/)."
+ },
+ {
+  "company": "Safechem (K) Ltd",
+  "country": "Kenya",
+  "city": "Nairobi",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://safechem.co.ke/",
+  "email": "info@safechem.co.ke",
+  "other_emails": [],
+  "phone": "+254-20-8011593; +254-711-155697; +254-722-791314",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://safechem.co.ke/",
+   "https://www.ecohubmap.com/company/business/safechem-k-ltd/83q4m1e0rl1xyefmb"
+  ],
+  "verified": true,
+  "note": "Founded 2008; boiler treatment, cooling tower scale and corrosion inhibitors, in partnership with international principals."
+ },
+ {
+  "company": "Organo (Thailand) Co., Ltd.",
+  "country": "Thailand",
+  "city": "Bangkok",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://www.organothailand.com/about/",
+  "email": "organo_t@organothailand.com",
+  "other_emails": [],
+  "phone": "+66 2 691 5402-4; +66 2 902 2539",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.organothailand.com/",
+   "https://www.ecohubmap.com/company/business/organothailandco.ltd./l1dby1bs"
+  ],
+  "verified": true,
+  "note": "Subsidiary of ORGANO Corp (Japan): water treatment plants, chemicals and ion-exchange resins. Large; procurement may be steered by Japanese parent."
+ },
+ {
+  "company": "ChemTreat Mexico S. de R.L. de C.V.",
+  "country": "Mexico",
+  "city": "",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://www.chemtreat.com/industries/chemical-processing/",
+  "email": "cs_orders@chemtreat.com",
+  "other_emails": [
+   "international_orders@chemtreat.com"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "es",
+  "sources": [
+   "https://www.chemtreat.com/contact-us/",
+   "https://www.ecohubmap.com/company/business/chemtreat-méxico-s.-de-r.l.-de-c.v./83q4m1e0rl1xyegx2"
+  ],
+  "verified": true,
+  "note": "Mexican arm of ChemTreat (US, Danaher group) - large cooling/boiler programme formulator. Listed e-mail is the group order desk; raw-material buying likely central (USA)."
+ },
+ {
+  "company": "Thermax Ltd - Chemical Division",
+  "country": "India",
+  "city": "Pune",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://www.thermaxglobal.com/business-portfolio/chemicals",
+  "email": "enquiry@thermaxglobal.com",
+  "other_emails": [
+   "cservice@thermaxglobal.com",
+   "customer.support@thermaxglobal.com"
+  ],
+  "phone": "+91 20 6605 1200; +91 20 6715 6000",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.thermaxglobal.com/contact-us/",
+   "https://www.ecohubmap.com/company/business/thermax-energy-n-environment-philippines-corporation/83q4m1e0rl1xyeee0"
+  ],
+  "verified": true,
+  "note": "Listed Indian group; chemical business makes water-treatment chemicals (Maxtreat) and ion-exchange resins (Tulsion). Large HEDP/PBTC consumer. Directory source is ecohubmap entry for Thermax Philippines carrying the same enquiry@ address."
+ },
+ {
+  "company": "SISCO",
+  "country": "Egypt",
+  "city": "",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://sisco-eg.com/chemicals/",
+  "email": "info@sisco-eg.com",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://sisco-eg.com/contact-us/",
+   "https://aquaenergyexpo.com/view_company/1154/SISCO"
+  ],
+  "verified": true,
+  "note": "Chemicals page lists scale inhibitors, corrosion inhibitors, cooling tower chemicals; team of engineers and chemists."
+ },
+ {
+  "company": "System Technique",
+  "country": "Egypt",
+  "city": "Giza/Cairo",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://systemtechnique.com/chemical-solutions/",
+  "email": "info@systemtechnique.com",
+  "other_emails": [],
+  "phone": "+20 2 35392390; +20 100 168 4562",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://systemtechnique.com/contact/",
+   "https://aquaenergyexpo.com/view_company/983/System%20Technique"
+  ],
+  "verified": true,
+  "note": "Since 1974; chemical solutions page: boiler treatment, cooling tower scale & corrosion inhibitors, antiscalants."
+ },
+ {
+  "company": "WETCO (Water & Environmental Technology Co.)",
+  "country": "Egypt",
+  "city": "Cairo",
+  "buyer_type": "EPC/O&M",
+  "products_needed": "resins",
+  "proof_url": "https://wetco-eg.com/about-us/",
+  "email": "info@wetco-eg.com",
+  "other_emails": [],
+  "phone": "+20 2 2403 1967; +20 120 040 0749",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://wetco-eg.com/",
+   "https://aquaenergyexpo.com/view_company/907/WETCO"
+  ],
+  "verified": true,
+  "note": "Since 2002; RO/filtration systems and components incl. ion-exchange resins; buys antiscalants for O&M."
+ },
+ {
+  "company": "Gulf Water Treatment (GWT)",
+  "country": "UAE",
+  "city": "Sharjah/Dubai",
+  "buyer_type": "EPC/O&M",
+  "products_needed": "several",
+  "proof_url": "https://gulfwatertreatment.com/services/aftermarket/chemicals-and-consumables/",
+  "email": "info@gulfwatertreatment.com",
+  "other_emails": [],
+  "phone": "+971 6 534 1090",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://gulfwatertreatment.com/contact-us/",
+   "https://aquaenergyexpo.com/view_company/1186/Gulf%20Water%20Treatment%20%28GWT%29",
+   "https://www.ecohubmap.com/company/business/gulf-water-treatment/9btyrilmajsd5ya"
+  ],
+  "verified": true,
+  "note": "Water/wastewater plant builder with aftermarket chemicals & consumables (antiscalants, resins) supply."
+ },
+ {
+  "company": "Granimex Sp. z o.o.",
+  "country": "Poland",
+  "city": "Poznań",
+  "buyer_type": "EPC/O&M",
+  "products_needed": "several",
+  "proof_url": "https://www.granimex.com.pl/oferta/uzdatnianie-wody/wieze-chlodnicze-i-klimatyzacyjne/",
+  "email": "info@granimex.com.pl",
+  "other_emails": [
+   "granimex@granimex.com.pl"
+  ],
+  "phone": "+48 61 830 56 85",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.granimex.com.pl/",
+   "https://www.ecohubmap.com/company/business/granimex/83q4m1e0rl1xyeg6x"
+  ],
+  "verified": true,
+  "note": "Water-technology firm: cooling-tower and boiler-water treatment (https://www.granimex.com.pl/oferta/uzdatnianie-wody/woda-kotlowa/), resin replacement, membrane cleaning. Correspondence language Polish (not in enum) - English acceptable."
+ },
+ {
+  "company": "Kontec Trading LLC",
+  "country": "UAE",
+  "city": "Dubai",
+  "buyer_type": "distributor",
+  "products_needed": "several",
+  "proof_url": "https://kontec.ae/product-category/chemicals/",
+  "email": "info@kontec.ae",
+  "other_emails": [],
+  "phone": "+971 4 258 7862; +971 4 258 7863",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://kontec.ae/",
+   "https://aquaenergyexpo.com/view_company/1269/Kontec%20Trading%20%28L.L.C%29"
+  ],
+  "verified": true,
+  "note": "Since 1990; water-treatment equipment and consumables trader: chemicals, filtration media/resins, membranes."
+ },
+ {
+  "company": "Process Water Technologies (Pty) Ltd (PWTSA)",
+  "country": "South Africa",
+  "city": "Gauteng",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://www.pwtsa.com/",
+  "email": "info@pwtsa.com",
+  "other_emails": [
+   "colin@pwtsa.com",
+   "shaun@pwtsa.com"
+  ],
+  "phone": "+27 11 974 0288",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.pwtsa.com/contact-us/",
+   "https://www.ecohubmap.com/company/business/process-water-technologies-pty-ltd/83q4m1e0rl1xyegj8"
+  ],
+  "verified": true,
+  "note": "Industrial water treatment incl. cooling towers and demineralisation/ion-exchange (https://www.pwtsa.com/demineralisation-water-treatment/)."
+ },
+ {
+  "company": "Water 2000, Inc.",
+  "country": "Pakistan",
+  "city": "Lahore",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://water2000.com.pk/company-history/",
+  "email": "info@water2000.com.pk",
+  "other_emails": [
+   "sales@water2000.com.pk"
+  ],
+  "phone": "+92 42 35412037",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://water2000.com.pk/",
+   "https://www.ecohubmap.com/company/business/water-2000-ink./l1p1n1bp"
+  ],
+  "verified": true,
+  "note": "Manufacturer/supplier of water & wastewater treatment; history page cites cooling tower corrosion inhibitors and ion-exchange resins."
+ },
+ {
+  "company": "Aquamat SA (Pty) Ltd",
+  "country": "South Africa",
+  "city": "Ormonde, Johannesburg",
+  "buyer_type": "EPC/O&M",
+  "products_needed": "several",
+  "proof_url": "https://aquamat.co.za/manufacturing-industrial-water-solutions/",
+  "email": "info@aquamat.co.za",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://aquamat.co.za/",
+   "https://www.ecohubmap.com/company/business/aquamat-sa-pty-ltd/83q4m1e0rl1xyegj5"
+  ],
+  "verified": true,
+  "note": "Industrial water solutions: boiler water, cooling tower, ion-exchange resin."
+ },
+ {
+  "company": "PuriChem",
+  "country": "Egypt",
+  "city": "Alexandria",
+  "buyer_type": "EPC/O&M",
+  "products_needed": "phosphonates",
+  "proof_url": "https://www.purichem-eg.com/services-item/desalination-plants/",
+  "email": "info@purichem-eg.com",
+  "other_emails": [],
+  "phone": "+20 3 5230442; +20 109 469 2565",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.purichem-eg.com/115-2/",
+   "https://aquaenergyexpo.com/view_company/1113/PuriChem"
+  ],
+  "verified": true,
+  "note": "Designs/builds desalination and industrial WWTPs; antiscalant user for O&M rather than blender (lower priority)."
+ },
+ {
+  "company": "Adiquímica S.A.",
+  "country": "Spain",
+  "city": "Barcelona (offices Madrid, Sevilla, Valencia)",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://adiquimica.com/innovacion/",
+  "email": "adiquimica@adiquimica.com",
+  "other_emails": [],
+  "phone": "+34 93 284 66 65; +34 91 565 50 12",
+  "contact_person": "",
+  "language": "es",
+  "sources": [
+   "https://adiquimica.com/aviso-legal/",
+   "https://www.ecohubmap.com/company/business/adiquímica/l1qebyfp"
+  ],
+  "verified": true,
+  "note": "35+ years in industrial water treatment: antiincrustantes for boilers, cooling, reverse osmosis; Legionella programmes."
+ },
+ {
+  "company": "LSP Siam Inter Trade Co., Ltd.",
+  "country": "Thailand",
+  "city": "",
+  "buyer_type": "distributor",
+  "products_needed": "phosphonates",
+  "proof_url": "https://www.yellowpages.co.th/lp/lspsiam/about-us",
+  "email": "pornpen@lspsiam.com",
+  "other_emails": [
+   "lspsiam@hotmail.com"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://lspsiam.com/",
+   "https://www.yellowpages.co.th/lp/lspsiam/about-us"
+  ],
+  "verified": true,
+  "note": "Sells scale/corrosion inhibitors for cooling, chiller and boiler; per its Thai page products are made/imported from BWA Water Additives (UK) - distributor; may switch to cheaper phosphonate supply."
+ },
+ {
+  "company": "Goshu Kohsan Co., Ltd.",
+  "country": "Thailand",
+  "city": "Bangkok",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://www.goshukohsan.com/water-treatment-catalog",
+  "email": "cservice@goshukohsan.com",
+  "other_emails": [
+   "hai@goshukohsan.com",
+   "atinudda@goshukohsan.com"
+  ],
+  "phone": "+66 2312 4159-61",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.goshukohsan.com/",
+   "https://www.ecohubmap.com/company/business/goshu-kohsan-co.-ltd./l1dby1cb"
+  ],
+  "verified": true,
+  "note": "Water & environmental management: scale inhibitors, ion-exchange resins (https://www.goshukohsan.com/water-treatment), poly aluminium chloride (https://www.goshukohsan.com/wastewater-treatment-specialist) - buys phosphonates, resins and PAC."
+ },
+ {
+  "company": "Chemtronics Water Services (Pvt) Ltd (CWS)",
+  "country": "Pakistan",
+  "city": "Lahore",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://chemtronicspk.com/",
+  "email": "info@chemtronicspk.com",
+  "other_emails": [
+   "support@chemtronicspk.com",
+   "tariqkhan@chemtronicspk.com"
+  ],
+  "phone": "+92 42 3596 7290-91; +92 42 3782 5725",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://chemtronicspk.com/contact-us/",
+   "https://eco-web.com/reg/04202.html"
+  ],
+  "verified": false,
+  "note": "Boiler and cooling-water chemicals, RO membrane chemicals. eco-web listing confirms company/website but shows no e-mail - second e-mail source not found."
+ },
+ {
+  "company": "CHIMEC S.p.A.",
+  "country": "Italy",
+  "city": "Rome (Pomezia plant)",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://www.chimec.com/water-treatments/",
+  "email": "water@chimec.it",
+  "other_emails": [
+   "info@chimec.it",
+   "watertreatments@chimec.it",
+   "oilfield@chimec.it"
+  ],
+  "phone": "+39 06 918251",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.chimec.com/contact/"
+  ],
+  "verified": false,
+  "note": "Large Italian formulator (since 1971) of water-treatment (cooling scale inhibitors) and oilfield/process chemicals - strong HEDP/ATMP/PBTC buyer. E-mails only on official site; no independent page with them found."
+ },
+ {
+  "company": "Eralp Kimya ve Su Teknolojileri (Water Center)",
+  "country": "Turkey",
+  "city": "Bursa (Mustafakemalpaşa OSB)",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://cdn.asp.events/CLIENT_CL_EE_E92EC48A_9F42_8E1E_7106D5CAFEEF513B/sites/enlit-europe-2024/media/libraries/exhibitor-brochures/44937-ERALP-CHEMICAL-WATER-TECHNOLOGIE-S-CATALOGUE.pdf",
+  "email": "info@eralpkimya.com",
+  "other_emails": [],
+  "phone": "+90 224 632 60 70",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.eralpkimya.com/"
+  ],
+  "verified": false,
+  "note": "Enlit Europe 2024 exhibitor catalogue: boiler and cooling-water conditioning chemicals (scale/corrosion inhibitors, oxygen scavengers), RO chemicals. E-mail only on official site."
+ },
+ {
+  "company": "Chemmax Co., Ltd (Hóa Chất Chemmax)",
+  "country": "Vietnam",
+  "city": "Ho Chi Minh City (Củ Chi)",
+  "buyer_type": "distributor",
+  "products_needed": "phosphonates",
+  "proof_url": "https://chemmax.vn/san-pham/hoa-chat-xu-ly-nuoc-thap-giai-nhiet",
+  "email": "chemmax@chemmax.vn",
+  "other_emails": [],
+  "phone": "+84 918 870 287",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://chemmax.vn/"
+  ],
+  "verified": false,
+  "note": "Boiler, cooling tower, chiller and RO chemicals; distributes Thermax Maxtreat. Vietnamese directories (yellowpages.vn, trangvangvietnam) blocked automated access, so no second source."
+ },
+ {
+  "company": "Rakiro Biotech Systems Pvt Ltd",
+  "country": "India",
+  "city": "Navi Mumbai",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://www.rakiro.net/",
+  "email": "sales@rakiro.net",
+  "other_emails": [],
+  "phone": "+91 22 4780 4040",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.rakiro.net/"
+  ],
+  "verified": false,
+  "note": "Water treatment chemicals incl. phosphonate-based RO antiscalants (NSF-listed) and boiler chemicals, plus test kits. Second confirmation only on its own MSDS (same domain) - not independent."
+ },
+ {
+  "company": "G-Chem Aquacare",
+  "country": "South Africa",
+  "city": "Gauteng / Cape Town",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://www.gchem.co.za/cooling-water-treatment/",
+  "email": "info@gchem.co.za",
+  "other_emails": [
+   "shaun.g@gchem.co.za",
+   "leroy.f@gchem.co.za"
+  ],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://www.gchem.co.za/",
+   "https://www.crown.co.za/images/magazines/mechchem-africa/2026/MechChem_Africa_May-June_2026.pdf"
+  ],
+  "verified": false,
+  "note": "Industrial water treatment since 2016 with own manufacturing arm (G-CHEM Manufacturing); cooling (phosphonate-based scale/corrosion inhibitors), boiler, RO antiscalant. MechChem Africa 2026 confirms company/website but not the e-mail."
+ },
+ {
+  "company": "Austin Anderson Solutions",
+  "country": "Pakistan",
+  "city": "Karachi (Clifton)",
+  "buyer_type": "distributor",
+  "products_needed": "several",
+  "proof_url": "https://austinandersonsolutions.com/water-treatment-chemicals-supplier-pakistan/",
+  "email": "rayhan@austinandersonsolutions.com",
+  "other_emails": [
+   "info@austinandersonsolutions.com"
+  ],
+  "phone": "+92 21 35874214-5; +92 300 823 9990",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://austinandersonsolutions.com/"
+  ],
+  "verified": false,
+  "note": "Claims sole Pakistan agency for Chinese makers (antiscalants, phosphonates, PAC). Site content looks auto-generated and history is inconsistent (1994 vs 2014). Possible competitor; low confidence."
+ },
+ {
+  "company": "Faiza Abou Zeid Trusted Chemicals",
+  "country": "Egypt",
+  "city": "",
+  "buyer_type": "formulator",
+  "products_needed": "phosphonates",
+  "proof_url": "https://aquaenergyexpo.com/view_company/1287/Faiza%20Abou%20Zeid%20Trusted%20Chemicals",
+  "email": "eng.faizaabouzeid@fa-tc.com",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://aquaenergyexpo.com/view_company/1287/Faiza%20Abou%20Zeid%20Trusted%20Chemicals"
+  ],
+  "verified": false,
+  "note": "Cooling-system water treatment chemicals per exhibitor profile; official site fa-tc.com unreachable, so e-mail not double-confirmed."
+ },
+ {
+  "company": "Envishield Company",
+  "country": "Saudi Arabia",
+  "city": "",
+  "buyer_type": "formulator",
+  "products_needed": "several",
+  "proof_url": "https://aquaenergyexpo.com/view_company/1376/Envishield%20Company",
+  "email": "r.shalabi@envishield.com.sa",
+  "other_emails": [],
+  "phone": "",
+  "contact_person": "",
+  "language": "en",
+  "sources": [
+   "https://aquaenergyexpo.com/view_company/1376/Envishield%20Company"
+  ],
+  "verified": false,
+  "note": "Treatment systems and chemicals per Aqua Energy Expo profile; official site returned 403/520."
+ }
+]
