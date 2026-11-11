@@ -1,0 +1,914 @@
+{
+ "meta": {
+  "generated": "2026-11-11",
+  "builds_on": "analysis.json (not repeated)",
+  "method": "Headless Chromium (Playwright) page loads; archives extracted with bsdtar into scratchpad; xlsx parsed with python -I. Cloudflare-protected trade databases not bypassed.",
+  "tender_scan_note": {
+   "oilgas_gov_tm_recent": "Re-checked oilgas.gov.tm RU tender list pages 1-4 (ids 17435-18199, to 09.11.2026); 44 notices 17707-18199 opened. Only T/GAZ-037/038 (Turkmengaz) carry a chemical lot; Turkmennebit notices since Sept 2026 are equipment/vehicles lots; CNPC notices are services/medicines/surveyor; Tatneft are services/repairs; Eni are NDT services and spare parts. No new scale-inhibitor/antiscalant tender. Folder: /tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/og_recent/",
+   "turkmennebit_gov_tm": "tender-detail/379-385 opened: no downloadable specs (text says specs 'can be seen on turkmennebit.gov.tm/oilgas.gov.tm' but no file links).",
+   "tmgeology_gov_tm": "Tender archive lists 01/26, 02/26, 09/24 etc. - drilling/exploration; not opened further (no water-treatment scope).",
+   "turkmenhimiya_gov_tm": "Tender list = EPC projects (iodine/bromine, ammonium nitrate plant Mary, salts) - no chemical-supply lots.",
+   "tngizt_gov_tm": "Turkmenbashi refinery purchase page renders empty in headless browser; desalination spec PDF URL returns HTML (not retrievable).",
+   "aggregators": "biddetail.com listing opened (index only); globaltenders/tenderinfo/bidsfactory/dgmarket not reached via search (search engines rate-limited); UNGM search surfaced only UNDP pasture-water notice 306610 (not chemicals). No ADB/WB/EBRD/IsDB water-chemical procurement for Turkmenistan found; Kenar 15k m3/d desal funded by Türkmennebit own funds (saglykhm.gov.tm).",
+   "awards": "No contract award notices or prices published on any of the portals checked."
+  }
+ },
+ "tender_specs_with_quantities": [
+  {
+   "buyer": "ГК «Туркменгаз» (Türkmengaz State Concern)",
+   "tender_no": "T/GAZ-038",
+   "lot": "Лот №5 «Химическая продукция» (Lot 5 'Chemical products')",
+   "published": "12.10.2026",
+   "deadline": "23.11.2026 15:00 (open as of 2026-11-11)",
+   "participation": "Announcement: manufacturers only; spec note 9: 'manufacturer and/or official representative of manufacturer'; offshore-registered/offshore-bank companies excluded; fee USD 1,500 per lot; samples/approved-lab conclusion for items 1-6; product registration in State Register of Turkmenistan at supplier's cost; offer validity >= 1 year.",
+   "delivery": "DAP УКПО Mary base No.2 (items 1-13); DAP st. Zerger, Lebap base No.4 (items 14-17); year 2026",
+   "items_relevant": [
+    {
+     "item": "Стабилизатор качества воды 'SY-210' (water-quality stabilizer: PO4 5.5%, Zn 4.0%, solids 28%, pH 3.5, density 1.100, scale inhibition 85% at 60 mg/L, corrosion 0.075 mm/a at 30 mg/L) - phosphate/zinc cooling-water scale & corrosion inhibitor",
+     "qty": 14,
+     "unit": "t",
+     "kairui_fit": "YES - direct substitute for a Kairui KR-series built cooling-water inhibitor (spec is generic, analogues accepted per note 1)"
+    },
+    {
+     "item": "Ингибитор коррозии 'Селерин' (raw gas, 90-120 C, CO2) ТУ 0257-00400279870-2005",
+     "qty": 150.56,
+     "unit": "t",
+     "kairui_fit": "NO - oil-soluble film-forming gas-pipeline inhibitor (Russian TU), not phosphonate"
+    },
+    {
+     "item": "Антивспениватель SAG-7133 / BPR 45140 / SAG 220 (3 lines)",
+     "qty": 6.5,
+     "unit": "t",
+     "kairui_fit": "NO (silicone antifoam for amine units)"
+    },
+    {
+     "item": "Метанол технический (2 lines)",
+     "qty": 3,
+     "unit": "t",
+     "kairui_fit": "NO"
+    },
+    {
+     "item": "Аммоний бифторид NH4HF2",
+     "qty": 7,
+     "unit": "t",
+     "kairui_fit": "NO"
+    },
+    {
+     "item": "Moющие средства Ardrox 6367",
+     "qty": 1000,
+     "unit": "L",
+     "kairui_fit": "NO"
+    }
+   ],
+   "items_other": "Drilling-fluid chemicals: PAC-LE 200 t, anti-sticking additive 135.04 t, graphite 105.64 t, caustic soda 86.64 + 3.84 t, dextrin 5 t, sodium bichromate 4.65 t, CMC (qty in spec).",
+   "phosphonate_relevant_t": 14,
+   "url_notice": "https://turkmengaz.gov.tm/competition-detail/209",
+   "url_spec": "https://turkmengaz.gov.tm/competition-download/209 (RAR: 'Lot 5 -Chemical products.xlsx', RU copy in 'TurkmenGaz-038 rus.rar')",
+   "url_mirror": "https://oilgas.gov.tm/ru/posts/tenderler/17969/gosudarstvennyy-kontsern-turkmengaz-obyavlyaet-otkrytyy-tender-12102026-23112026",
+   "accessed": "2026-11-11",
+   "local": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgscan/y_209/",
+   "note": "FIRST published Turkmen state tender found with an explicit quantity of a phosphonate/phosphate-type water-treatment inhibitor. The Turkmengaz site publishes full lot specifications as downloadable archives while a tender is open (competition-download/{id}); older ids return HTTP 500."
+  },
+  {
+   "buyer": "ГК «Туркменгаз»",
+   "tender_no": "T/GAZ-035",
+   "lot": "Лот №5 «Химическая продукция»",
+   "published": "14.08.2026",
+   "deadline": "25.09.2026 (closed)",
+   "items_relevant": [],
+   "items_other": "96 lines of laboratory reagents, titrants, gas calibration standards (kg/pieces); e.g. EDTA (Trilon B) fixanal 320 pcs, test strips for Ca/Mg/sulfate/chloride. No scale/corrosion inhibitors.",
+   "phosphonate_relevant_t": 0,
+   "url_notice": "https://turkmengaz.gov.tm/competition-detail/210",
+   "url_spec": "https://turkmengaz.gov.tm/competition-download/210",
+   "accessed": "2026-11-11",
+   "local": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgscan/y_210/",
+   "note": "Shows Lot-5 'chemical products' can be pure lab reagents - Lot-5 headlines in announcements overstate addressable volume."
+  },
+  {
+   "buyer": "ГК «Туркменгаз»",
+   "tender_no": "T/GAZ-037 (+ amendment 26.10.2026)",
+   "lot": "Лот №2 (equipment), Лот №5 «Вспомогательные материалы»",
+   "published": "09.10.2026",
+   "deadline": "04.12.2026 (extended)",
+   "items_relevant": [],
+   "items_other": "Lot 5 auxiliary materials incl. a corrosion-meter for evaluating corrosion-inhibitor efficiency (instrument, not chemical).",
+   "phosphonate_relevant_t": 0,
+   "url_notice": "https://turkmengaz.gov.tm/competition-detail/212 ; amendment https://turkmengaz.gov.tm/competition-detail/214",
+   "url_spec": "https://turkmengaz.gov.tm/competition-download/212 ; /214",
+   "accessed": "2026-11-11",
+   "local": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgdl/"
+  },
+  {
+   "buyer": "Хякимлик Балканского велаята for «Balkanwelaýatagyzsuw» / «Türkmenbaşyagyzsuw» (Balkan water utilities)",
+   "tender_no": "n/a (business.com.tm 7019)",
+   "lot": "Лот №1 – aluminium sulphate, ANTISCALANT, caustic soda (liquid), technical hydrochloric acid for drinking-water treatment; Лот №2 – carbon dioxide for Türkmenbaşyagyzsuw",
+   "published": "2024",
+   "deadline": "06.05.2024 18:00",
+   "items_relevant": [
+    {
+     "item": "Antiscalant (drinking water / desalination)",
+     "qty": null,
+     "unit": null,
+     "kairui_fit": "YES"
+    }
+   ],
+   "phosphonate_relevant_t": null,
+   "url_notice": "https://business.com.tm/ru/info/7019/hyakimlik-balkanskogo-velayata-obyavlyaet-tender-na-postavku-himicheskih-reagentov",
+   "accessed": "2026-11-11",
+   "local": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/bc/bc7019.txt",
+   "note": "Quantities only in the ToR issued by the hyakimlik on written request (not published). Confirms the Balkan desalination operators buy antiscalant by tender."
+  },
+  {
+   "buyer": "Хякимлик Балканского велаята (Balkanwelaýatagyzsuw labs; Türkmenbaşyagyzsuw seawater desalination plants)",
+   "tender_no": "n/a (business.com.tm 7946; trend.az 4170317, 02.04.2026)",
+   "lot": "Lot 1 lab reagents; Lot 2 liquefied CO2 for seawater desalination plants (remineralisation)",
+   "published": "02.04.2026",
+   "deadline": "1 May (2026)",
+   "items_relevant": [],
+   "phosphonate_relevant_t": null,
+   "url_notice": "https://business.com.tm/ru/info/7946/",
+   "accessed": "2026-11-11",
+   "local": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/bc/bc7946.txt",
+   "note": "List and volumes given only on written application. Evidence the desal plants are in operation in 2026."
+  },
+  {
+   "buyer": "Хякимлик Балканского велаята",
+   "tender_no": "n/a (business.com.tm 7991)",
+   "lot": "Technical audit to raise production capacity of Avaza 35,000 m3/d and Turkmenbashi-district 50,000 m3/d seawater desalination plants (local registered firms only)",
+   "items_relevant": [],
+   "phosphonate_relevant_t": null,
+   "url_notice": "https://business.com.tm/info/7991/balkan-province-administration-announces-international-tender-for-technical-audit-of-desalination-facilities-in-avaza-and-turkmenbashi",
+   "accessed": "2026-11-11",
+   "local": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/bc/bc7991.txt",
+   "note": "Implies plants operate below nameplate (used for utilisation assumption)."
+  },
+  {
+   "buyer": "Hazar Consortium (NaPeCo + Mitro International), East Cheleken",
+   "tender_no": "Application No.244 (23.02.2024, amended 01.04.2024)",
+   "lot": "Marketing survey: drilling reagent 400 kg, sodium bichromate 150 kg, defoamer 200 L",
+   "items_relevant": [],
+   "phosphonate_relevant_t": 0,
+   "url_notice": "https://oilgas.gov.tm/en/posts/tenderler/10370/the-hazar-consortium-announces-a-tender-03042024-03052024",
+   "accessed": "2026-11-11",
+   "local": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p1/hazar10370.txt",
+   "note": "Illustrates the kg-scale of Hazar purchases (RO antiscalants 2x200 kg in Application 279 already in analysis.json)."
+  }
+ ],
+ "shipments": [
+  {
+   "status": "NOT OBTAINED",
+   "detail": "No shipment-level record (shipper/consignee/qty) of HEDP/ATMP/PBTCA/DTPMPA, scale inhibitor, antiscalant or corrosion inhibitor to Turkmenistan could be opened.",
+   "attempts": [
+    {
+     "site": "volza.com (p/hedp/import-in-turkmenistan; p/scale-inhibitor/export-to-turkmenistan; Turkmennebit company profile)",
+     "result": "HTTP 403 Cloudflare block",
+     "accessed": "2026-11-11"
+    },
+    {
+     "site": "exportgenius.in (turkmenistan-import-mary-port)",
+     "result": "Cloudflare 'Just a moment' interstitial",
+     "accessed": "2026-11-11"
+    },
+    {
+     "site": "seair.co.in export-data-hs-code-29319090/country-turkmenistan",
+     "result": "HTTP 200 but no rows; other HS (38249900, 38249090, 29314900, antiscalant, scale-inhibitor, corrosion-inhibitor) -> Cloudflare interstitial",
+     "accessed": "2026-11-11"
+    },
+    {
+     "site": "seair.co.in hedp-export-data (India HEDP exports sample)",
+     "result": "Sample rows 2015-2016 to Vietnam, Venezuela, Bangladesh, Kenya, Sri Lanka, Saudi Arabia etc. - none to Turkmenistan",
+     "accessed": "2026-11-11"
+    },
+    {
+     "site": "en.52wmb.com/buyer/48245618 (State Concern Turkmennebit)",
+     "result": "Profile: last transaction 2025-04-03; visible products are refinery distillation column internals (CKD) from India - no chemicals visible; details behind login",
+     "accessed": "2026-11-11"
+    },
+    {
+     "site": "eximpedia.app, 52wmb buy-hedp/turkmenistan, tendata, importgenius, tradeimex",
+     "result": "403 / 404 / server error",
+     "accessed": "2026-11-11"
+    }
+   ],
+   "policy_note": "Bot-check (Cloudflare) circumvention was not attempted. These databases require a paid login for Turkmenistan rows in any case."
+  }
+ ],
+ "consumers_technical": [
+  {
+   "consumer": "Kiyanly / Turkmenbashi-etrap seawater RO desalination (Polimeks)",
+   "fact": "50,000 m3/d; intake pumps 4,200 m3/h; UF (0.02 micron) + reverse osmosis + remineralisation",
+   "derived": "4,200 m3/h x 24 = 100,800 m3/d intake for 50,000 m3/d -> overall recovery ~49.6%",
+   "url": "https://turkmenistan.gov.tm/en/post/5209/sea-water-desalter-was-put-into-operation-in-kiyanly",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Avaza seawater desalination",
+   "fact": "35,000 m3/d; audit tender to raise output (with Turkmenbashi-district 50,000 m3/d)",
+   "url": "https://business.com.tm/info/7991/balkan-province-administration-announces-international-tender-for-technical-audit-of-desalination-facilities-in-avaza-and-turkmenbashi",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Esenguly (Balkan) water treatment facility with desalination unit (Hossarlyk)",
+   "fact": "20,000 m3/d drinking water, inaugurated Nov 2025; desal technology not stated",
+   "url": "https://www.trend.az/business/4112170.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Kenar pumping station + seawater desalination for Turkmenbashi refinery complex (Nur Mimar, Türkmennebit own funds)",
+   "fact": "15,000 m3/d, decree May 2026",
+   "url": "https://www.trend.az/business/4184264.html ; https://saglykhm.gov.tm/en/habarlar/turkmenbasyda-ondurijiligi-bir-gije-gundizde-15-mun-kub-metr-bolan-deniz-suwuny-suyjediji-desga-gurlar",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Unnamed 'Turkmenistan Project' (Aquamatch Türkiye plant-supplier reference)",
+   "fact": "2024, 65,000 m3/d RO; also Awaza Hotel 2014 250 m3/d RO",
+   "caveat": "Supplier self-reported; site not named - may coincide with a plant above",
+   "url": "https://www.desalination.com/desalination-suppliers/aquamatch-turkiye",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Planned Avaza & Kiyanly desalination units",
+   "fact": "50,000 and 70,000 m3/d planned (CAWater yearbook 2023)",
+   "url": "https://cawater-info.net/yearbook/2023/05_yearbook2023_tm_en.htm",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Caspian Sea mega-desalination (Typsa study for State Committee for Water Management)",
+   "fact": "1,200,000 m3/d (drinking 1,057,535 + irrigation 142,765), USD 5.43 bn, target 2028 - study/tender-design stage",
+   "url": "https://www.typsa.com/en/projects/water-supply-from-the-caspian-sea-desalination-plant-transport-pipelines-and-power-generation-plants/",
+   "accessed": "2026-11-11",
+   "caveat": "Not counted (no evidence of construction)"
+  },
+  {
+   "consumer": "Older Turkmenistan seawater plant (Entropie/Veolia)",
+   "fact": "2 x MED-MVC units (thermal, not RO) supplied to a contractor - no antiscalant ppm basis used",
+   "url": "https://www.entropie.com/case-studies/sea-water-desalination-plant-in-turkmenistan",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Bagtyýarlyk drinking-water plant, Ashgabat",
+   "fact": "150,000 m3/d, inaugurated 22.05.2024, German technology (conventional) - coagulant market, not RO antiscalant",
+   "url": "https://eedmi.itu.edu.tr/en/news/2024/12/05/project-bagtyýarlyk-drinking-water-treatment-plant-a-model-of-sustainability-and-high-standards-in-turkmenistan",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Turkmenabat water treatment plant (Polimeks/PCI)",
+   "fact": "150 Ml/d; alum, polyelectrolyte, lime, electro-chlorination - no phosphonate use",
+   "url": "https://pciafrica.com/turkmenabat-water-treatment-plant/",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "National oil output",
+   "fact": "8,382,300 t oil and 76,527.1 million m3 gas in 2025",
+   "url": "https://oilgas.gov.tm/en/posts/news/16307/turkmenistan-produced-over-765-billion-cubic-meters-of-natural-gas-and-approximately-84-million-tons-of-oil-in-2025",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Turkmennebit mature fields Goturdepe, Barsagelmez",
+   "fact": "Reservoir-pressure decline with premature flooding by formation-water influx; R&D on water shut-off (bentonite/pyrolysis-oil). No water-cut % published.",
+   "url": "https://oilgas.gov.tm/en/posts/news/17046/innovations-in-oil-production-effective-formation-water-control",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Dragon Oil, Cheleken (Dzheitune/Lam, Dzhygalybeg)",
+   "fact": "Pilot water injection since June 2013 ~3,500 b/d; plan up to 13 injectors / 30-35,000 b/d; 'modest water-cut increase in most wells'; produced water used as jet-pump power fluid (2014 article)",
+   "url": "https://www.offshore-mag.com/production/article/16757013/jet-pumps-water-injection-drive-performance-gains-in-offshore-turkmenistan-wells",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Dragon Oil (all Turkmen assets)",
+   "fact": "Target 200,000 bpd by 2030 = +50,000 bpd vs current (i.e. ~150,000 bpd now); cumulative Cheleken 468 MMbbl",
+   "url": "https://interfax.com/newsroom/top-stories/114466/",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Galkynyşnebit (Türkmennebit, Cheleken)",
+   "fact": ">402,100 t oil YTD 2026 vs 367,100 t plan",
+   "url": "https://oilgas.gov.tm/en/posts/makalalar/18104/caspian-gold-how-galkynysnebit-forges-new-records",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Galkynyş gas field (Marygazçykaryş) desulfurization units",
+   "fact": "Has its own water-treatment complex in the water & steam supply division (article paywalled beyond lead)",
+   "url": "https://oilgas.gov.tm/en/posts/makalalar/18206/clean-water-for-blue-fuel-how-the-water-treatment-complex-at-the-galkynys-gas-field-operates",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Türkmengaz (Mary base, gas processing/production)",
+   "fact": "Buys 14 t/yr of phosphate-zinc cooling-water stabilizer SY-210 and 150.56 t corrosion inhibitor Selerin (T/GAZ-038, 2026)",
+   "url": "https://turkmengaz.gov.tm/competition-download/209",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "CNPC Bagtyýarlyk GPP-1 (Block A), GPP-2 (Block B), PD(EB)",
+   "fact": "Corrosion-inhibitor tenders CIT-21034-MR (2022) and CIT-26019-MR (05.2026); volumes not published",
+   "url": "https://business.com.tm/info/8011/cnpc-turkmenistan-announces-tender-for-procurement-of-corrosion-inhibitors",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Mary State Power Station",
+   "fact": "8 steam units: 7 x 210 MW + 1 x 215 MW (1973-1987) + Mary-3 CCGT 2 x 787 MW (2018; 4 GE gas turbines + 2 steam turbines 260-263 MW). Pump station with treatment facilities built on the Karakum river to deliver cooling water. Cooling type (towers vs once-through) not stated.",
+   "url": "https://www.gem.wiki/Mary_power_station ; https://japan.tmembassy.gov.tm/en/news/9950 ; https://oilgas.gov.tm/en/posts/news/7068/turkmenistan-to-build-second-combined-cycle-power-plant-with-a-capacity-of-1574-mw",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Balkan (Turkmenbashi/Kiyanly) CCGT",
+   "fact": "2 x 787 MW combined cycle under construction, planned 2027 (GE Vernova 9F.04)",
+   "url": "https://gem.wiki/Balkan_power_station ; https://www.adatech.com.tr/?p=1641",
+   "accessed": "2026-11-11"
+  },
+  {
+   "consumer": "Petronas Block 1 / Kiyanly gas treatment plant",
+   "fact": "Not opened this session (search snippet only: ~400 MMcf/d, GTP 5 bcm/yr + 2.4 Mt condensate) - not used in arithmetic",
+   "url": "https://www.petronas.com/index.php/media/media-releases/petronas-xrg-hazarnebit-and-turkmennebit-partner-strategic-gas-asset",
+   "accessed": null
+  },
+  {
+   "consumer": "Refineries (TNGIZT, Seýdi), Kiyanly polymer, Ahal GTL, Garabogaz & Mary urea",
+   "fact": "No published cooling-water circulation rates found (searched EN/RU). TNGIZT has had a recirculating industrial water treatment system since 2017 (search snippet, tdh.gov.tm - not opened).",
+   "url": null,
+   "accessed": "2026-11-11"
+  }
+ ],
+ "literature_parameters": [
+  {
+   "param": "RO antiscalant dose",
+   "value": "2-5 ppm",
+   "url": "https://www.lenntech.com/antiscalants.htm",
+   "accessed": "2026-11-11"
+  },
+  {
+   "param": "Oilfield injection-water scale inhibitor (Kairui KR-607)",
+   "value": "10-50 ppm of make-up water",
+   "url": "https://www.krwater.com/05-KR-607.htm",
+   "accessed": "2026-11-11"
+  },
+  {
+   "param": "ATMP in circulating cooling water (Kairui)",
+   "value": "1-20 mg/L scale inhibition; 20-60 mg/L as corrosion inhibitor",
+   "url": "https://www.krwater.com/01-ATMP.htm",
+   "accessed": "2026-11-11"
+  },
+  {
+   "param": "HEDP (Kairui)",
+   "value": "1-10 mg/L scale; 10-50 mg/L corrosion",
+   "url": "https://www.krwater.com/01-HEDP.htm",
+   "accessed": "2026-11-11"
+  },
+  {
+   "param": "PBTC alone (Kairui)",
+   "value": "5-15 mg/L",
+   "url": "https://www.krwater.com/01-PBTCA.htm",
+   "accessed": "2026-11-11"
+  },
+  {
+   "param": "Cooling water consumption, recirculating towers (UCS table)",
+   "value": "NGCC 130-300 gal/MWh consumed; conventional (coal) steam 480-1,100 gal/MWh; once-through NGCC 20-100 gal/MWh consumed",
+   "url": "https://www.ucs.org/resources/water-power-plant-cooling",
+   "accessed": "2026-11-11"
+  },
+  {
+   "param": "SY-210 spec (Turkmengaz)",
+   "value": "scale inhibition 85% at 60 mg/L; corrosion 0.075 mm/a at 30 mg/L",
+   "url": "https://turkmengaz.gov.tm/competition-download/209",
+   "accessed": "2026-11-11"
+  }
+ ],
+ "consumption_estimate": {
+  "definition": "TECHNICAL-POTENTIAL consumption of as-supplied phosphonate-based products (phosphonate acids/salts + formulated scale/corrosion inhibitors + RO antiscalants) in Turkmenistan, t/yr. Excludes film-forming amine corrosion inhibitors (e.g. Selerin 150.56 t), demulsifiers, coagulants.",
+  "by_segment": [
+   {
+    "segment": "Seawater/brackish RO desalination (Balkan velayat) - RO antiscalant (as-supplied product)",
+    "label": "ESTIMATE",
+    "inputs": {
+     "capacities_m3d": {
+      "Kiyanly/Turkmenbashi-etrap": 50000,
+      "Avaza": 35000,
+      "Esenguly": 20000,
+      "Aquamatch 2024 RO (unidentified)": 65000,
+      "Kenar (2029)": 15000
+     },
+     "recovery": "Kiyanly intake 100,800 m3/d for 50,000 m3/d => ~50% (fact-derived); 45% base, 40% high",
+     "dose_ppm": "2/3/5 (Lenntech 2-5 ppm)",
+     "utilisation": "60/80/100% (audit tender to raise output implies under-capacity) - ASSUMPTION"
+    },
+    "arithmetic": {
+     "low": "85,000 m3/d (Kiyanly+Avaza) x 0.6 / 0.50 = 102,000 m3/d feed x 365 x 2 g/m3 = 74 t",
+     "base": "105,000 m3/d (+Esenguly) x 0.8 / 0.45 = 186,667 m3/d feed x 365 x 3 g/m3 = 204 t",
+     "high": "185,000 m3/d (+Aquamatch 65k if separate +Kenar 15k) x 1.0 / 0.40 = 462,500 m3/d x 365 x 5 g/m3 = 844 t"
+    },
+    "t": {
+     "low": 74.0,
+     "base": 204.0,
+     "high": 844.0
+    },
+    "evidence_actual": "Khazar bought 2 x 200 kg RO antiscalant (2024); Balkan hyakimlik tendered antiscalant 2024 (qty unpublished)."
+   },
+   {
+    "segment": "Oil production - scale inhibitor in produced/injection water (Türkmennebit, Dragon Oil, Eni, Hazar)",
+    "label": "ESTIMATE (water cut and treated share are ASSUMPTIONS - not published)",
+    "inputs": {
+     "oil_2025_t": 8382300,
+     "density_assumed": 0.85,
+     "oil_m3": 9861529.0,
+     "water_cut": "50/70/80% (assumption; formation-water influx confirmed qualitatively)",
+     "treated_share": "25/50/75% (assumption)",
+     "dose_ppm": "10/15/25 (KR-607 10-50 ppm)"
+    },
+    "arithmetic": {
+     "low": "9.86 Mm3 oil x 0.5/0.5 = 9.9 Mm3 water x 25% x 10 g/m3 = 25 t",
+     "base": "9.86 Mm3 x 0.7/0.3 = 23.0 Mm3 x 50% x 15 g/m3 = 173 t",
+     "high": "9.86 Mm3 x 0.8/0.2 = 39.4 Mm3 x 75% x 25 g/m3 = 740 t"
+    },
+    "t": {
+     "low": 25.0,
+     "base": 173.0,
+     "high": 740.0
+    },
+    "evidence_actual": "No oil-company tender with a scale-inhibitor quantity found; Türkmennebit Lot-5 specs not published."
+   },
+   {
+    "segment": "Gas production & processing - cooling/boiler water stabilisers (Türkmengaz, CNPC Bagtyýarlyk, Petronas Kiyanly GTP)",
+    "label": "low = DOCUMENTED (T/GAZ-038); base/high = ESTIMATE",
+    "arithmetic": {
+     "low": "Türkmengaz SY-210 14 t (one annual Lot-5 tender) = 14 t",
+     "base": "14 t Türkmengaz + CNPC 2 GPPs + Petronas GTP assumed ~7 t each (half a Türkmengaz-size requirement) = 14 + 3 x 7 = 35 t",
+     "high": "Türkmengaz 2 x 14 (other bases/years) + 3 operators x 17 = 28 + 51 = 79 t"
+    },
+    "t": {
+     "low": 14,
+     "base": 35,
+     "high": 79
+    }
+   },
+   {
+    "segment": "Power - Mary State Power Station (8 x 210-215 MW steam + 1,574 MW CCGT), Balkan 1,574 MW CCGT (2027)",
+    "label": "ESTIMATE - cooling type NOT confirmed (Karakum-river pump station 'for cooling water'); if once-through, need ~0",
+    "inputs": {
+     "capacity_factor": "0.55 CCGT, 0.40 old steam (assumption)",
+     "consumption_gal_per_MWh": "UCS: NGCC 130-300; steam proxy 480 (coal conventional low end)",
+     "COC": "3-5 (assumption)",
+     "product_held_mg_per_L": "15/25/40 (Kairui ATMP 1-20 active; SY-210 tested at 30-60 mg/L)"
+    },
+    "arithmetic": {
+     "low": "Mary CCGT only: 7.58 TWh x 130 gal/MWh = 3.73 Mm3 evap; blowdown /(5-1) = 0.93 Mm3 x 15 g/m3 = 14 t",
+     "base": "Mary CCGT only: 7.58 TWh x 200 gal = 5.74 Mm3; /(4-1) = 1.91 Mm3 x 25 g = 48 t",
+     "high": "Mary CCGT 300 gal, COC4, 40 g = 115 t + old steam units 5.90 TWh x 480 gal = 10.7 Mm3 /(3-1) = 5.4 Mm3 x 25 g = 134 t + Balkan CCGT (2027) 48 t = 297 t"
+    },
+    "t": {
+     "low": 14.0,
+     "base": 48.0,
+     "high": 297.0
+    }
+   },
+   {
+    "segment": "Industrial open recirculating cooling: TNGIZT & Seýdi refineries, Kiyanly polymer, Ahal GTL, Garabogaz/Mary/Tejen urea, Turkmenabat chemical",
+    "label": "ESTIMATE - ASSUMPTION ONLY (no published circulation rates found)",
+    "inputs": {
+     "systems": "5/8/10",
+     "circulation_per_system_m3h": "10,000/15,000/25,000",
+     "evaporation": "1% of circulation",
+     "COC": 4,
+     "hours": 8000,
+     "product_held_mg_per_L": "15/25/40"
+    },
+    "arithmetic": {
+     "low": "50,000 m3/h x 1% = 500 m3/h evap; /3 = 167 m3/h blowdown x 8000 h x 15 g/m3 = 20 t",
+     "base": "120,000 m3/h x 1% /3 = 400 m3/h x 8000 h x 25 g/m3 = 80 t",
+     "high": "250,000 m3/h x 1% /3 = 833 m3/h x 8000 h x 40 g/m3 = 267 t"
+    },
+    "t": {
+     "low": 20.0,
+     "base": 80.0,
+     "high": 267.0
+    }
+   },
+   {
+    "segment": "Municipal brackish RO, bottled-water plants, heating boilers (Dashoguz, Balkan, Ahal utilities)",
+    "label": "ESTIMATE - ASSUMPTION (tenders confirm antiscalant purchases, qty unpublished)",
+    "arithmetic": {
+     "low": "5 t",
+     "base": "15 t",
+     "high": "40 t"
+    },
+    "t": {
+     "low": 5,
+     "base": 15,
+     "high": 40
+    }
+   }
+  ],
+  "total_low_base_high_t": {
+   "low": 152.0,
+   "base": 555.0,
+   "high": 2267.0,
+   "arithmetic": "204 + 173 + 35 + 48 + 80 + 15 = 555 t (base)",
+   "reality_check": [
+    "Documented purchases with quantities: Türkmengaz SY-210 14 t (2026) + Hazar RO antiscalant 0.4 t (2024) = 14.4 t.",
+    "Mirror imports of phosphonate acids HS 2931.39/2931.49 (analysis.json): 35-195 t/yr, 69 t in 2025 - the acid-equivalent base case (~555 t product x ~30% phosphonate content (ASSUMED) = ~165 t acid) is at the top of that range, so formulated products must largely arrive inside HS 3824.99 (China 3.67 kt in 2025) or actual dosing is below technical potential.",
+    "Desal and oilfield segments carry ~70% of base; both rest on unpublished parameters (plant utilisation, water cut, treated share)."
+   ],
+   "isp_500t_check": "500 t = 90% of base technical potential and 22% of high; only ~14 t/yr is tender-visible today."
+  }
+ },
+ "suppliers_present": [
+  {
+   "name": "SY-210 (brand named in Türkmengaz T/GAZ-038 spec)",
+   "type": "phosphate/zinc cooling-water stabiliser specified by buyer; producer not named; 'SY-' coding typical of Chinese water-treatment formulators (inference, not verified)",
+   "evidence_url": "https://turkmengaz.gov.tm/competition-download/209",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Selerin corrosion inhibitor (ТУ 0257-00400279870-2005)",
+   "type": "Russian-TU gas-pipeline inhibitor specified by Türkmengaz (150.56 t) - incumbent Russian-origin product; producer not named",
+   "evidence_url": "https://turkmengaz.gov.tm/competition-download/209",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "SAG-7133 / SAG 220 (antifoams), BPR 45140, Ardrox 6367",
+   "type": "Western brand antifoams/cleaners specified by Türkmengaz",
+   "evidence_url": "https://turkmengaz.gov.tm/competition-download/209",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "IE Ezber (Ashgabat)",
+   "type": "Local distributor since 2016: drilling, cementing, water-purification and distillation additives for oil & gas; caustic soda; e-mail domain pchpt.com; phone +993 12 46 89 07",
+   "evidence_url": "https://turkmenportal.com/en/blog/67853/ie-ezber-offers-a-wide-selection-of-chemical-products-for-various-industries-in-turkmenistan",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Global Drilling Fluids and Chemicals Ltd (GDFCL)",
+   "type": "Self-described leading supplier of drilling fluids/mud chemicals to Turkmen state oil companies; also corrosion inhibitors and biocides (self-claim)",
+   "evidence_url": "https://www.oil-drilling-fluids.com/drilling-fluid-chemicals-turkmenistan.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Polimeks (TR)",
+   "type": "EPC of Kiyanly 50k m3/d SWRO (technologies from USA/Germany/Italy) and Turkmenabat WTP - influences chemical specs at commissioning",
+   "evidence_url": "https://turkmenistan.gov.tm/en/post/5209/sea-water-desalter-was-put-into-operation-in-kiyanly",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Aquamatch Türkiye",
+   "type": "Desal plant supplier: 'Turkmenistan Project' 2024 65,000 m3/d RO; Awaza Hotel 2014 250 m3/d RO",
+   "evidence_url": "https://www.desalination.com/desalination-suppliers/aquamatch-turkiye",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Nur Mimar (TM)",
+   "type": "Contractor for Kenar 15k m3/d desal for Turkmenbashi refinery (2026-2029)",
+   "evidence_url": "https://www.trend.az/business/4184264.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Hossarlyk Business Association (TM)",
+   "type": "Builder of Esenguly 20k m3/d water plant with desal unit (2025)",
+   "evidence_url": "https://www.trend.az/business/4112170.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Veolia (Entropie; Hypersperse via ex-SUEZ)",
+   "type": "MED-MVC seawater units supplied for a Turkmen contractor; Hypersperse MDC-200 bought by Hazar (analysis.json)",
+   "evidence_url": "https://www.entropie.com/case-studies/sea-water-desalination-plant-in-turkmenistan",
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Nalco/Ecolab, Kemira, BWA, Clariant, Baker Hughes, SLB, Halliburton",
+   "type": "NO Turkmen evidence found in pages opened (search returned no distributor/tender reference); absence not proof",
+   "evidence_url": null,
+   "accessed": "2026-11-11"
+  },
+  {
+   "name": "Shandong Kairui Chemistry / Zaozhuang Kairui Water Treatment",
+   "type": "Claims export to >70 countries; no Turkmenistan reference on krwater.com home/product pages",
+   "evidence_url": "https://www.krwater.com/",
+   "accessed": "2026-11-11"
+  }
+ ],
+ "ofac_screen": {
+  "list": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/ofac/sdn.csv (dated 2026-11-10)",
+  "screened": [
+   "Tatneft",
+   "Kairui",
+   "Ezber",
+   "Nur Mimar",
+   "Polimeks",
+   "Hossarlyk",
+   "Aquamatch",
+   "Calik",
+   "Dragon Oil",
+   "Petronas",
+   "Mitro",
+   "NaPeCo",
+   "Turkmennebit",
+   "Turkmengaz",
+   "CNPC",
+   "Mirrico",
+   "Selerin",
+   "PCHPT"
+  ],
+  "result": "0 SDN matches (only false-positive substrings for 'Mitro'). Flag: Selerin is Russian-TU product and Tatneft branch tenders in RUB - Russia-origin supply chain; Iran not used as partner."
+ },
+ "sources": [
+  {
+   "url": "https://turkmengaz.gov.tm/competition-detail/209",
+   "what": "T/GAZ-038 notice (Lot 5 chemical products)",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgscan/detail_209.html"
+  },
+  {
+   "url": "https://turkmengaz.gov.tm/competition-download/209",
+   "what": "T/GAZ-038 spec archive (RAR) incl. Lot 5 xlsx",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgscan/arch_209.rar"
+  },
+  {
+   "url": "https://turkmengaz.gov.tm/competition-detail/210",
+   "what": "T/GAZ-035 notice",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgscan/detail_210.html"
+  },
+  {
+   "url": "https://turkmengaz.gov.tm/competition-download/210",
+   "what": "T/GAZ-035 spec archive",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgscan/arch_210.rar"
+  },
+  {
+   "url": "https://turkmengaz.gov.tm/competition-download/212",
+   "what": "T/GAZ-037 spec archive",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgdl/"
+  },
+  {
+   "url": "https://turkmengaz.gov.tm/competition-download/214",
+   "what": "T/GAZ-037 amendment archive",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tgdl/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/ru/posts/tenderler (pages 1-4) + 44 notices 17707-18199",
+   "what": "recent tender scan",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/og_recent/"
+  },
+  {
+   "url": "https://www.turkmennebit.gov.tm/tenders ; tender-detail/379,381,383,385",
+   "what": "Turkmennebit tender pages (no specs)",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p3/, p4/"
+  },
+  {
+   "url": "https://business.com.tm/ru/info/7019/hyakimlik-balkanskogo-velayata-obyavlyaet-tender-na-postavku-himicheskih-reagentov",
+   "what": "Balkan water antiscalant tender 2024",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/bc/"
+  },
+  {
+   "url": "https://business.com.tm/ru/info/7946/",
+   "what": "Balkan lab reagents + CO2 for desal 2026",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/bc/"
+  },
+  {
+   "url": "https://business.com.tm/info/7991/balkan-province-administration-announces-international-tender-for-technical-audit-of-desalination-facilities-in-avaza-and-turkmenbashi",
+   "what": "Avaza 35k / Turkmenbashi 50k audit",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/bc/"
+  },
+  {
+   "url": "https://business.com.tm/info/8011/cnpc-turkmenistan-announces-tender-for-procurement-of-corrosion-inhibitors",
+   "what": "CNPC CIT-26019-MR",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p5/"
+  },
+  {
+   "url": "https://business.com.tm/info/6757/eni-turkmenistan-limited-announces-tender-for-the-purchase-of-technical-chemicals-and-reagents",
+   "what": "Eni tender 10114409 chemicals (2023, no qty)",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/bc/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/en/posts/tenderler/10370/the-hazar-consortium-announces-a-tender-03042024-03052024",
+   "what": "Hazar App. 244",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p1/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/en/posts/tenderler/3937/branch-of-china-national-petroleum-international-corporation-announces-tender-10022022-19022022",
+   "what": "CNPC CIT-21034-MR corrosion inhibitor GPP-1/2",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p1/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/en/posts/news/17046/innovations-in-oil-production-effective-formation-water-control",
+   "what": "formation water influx Goturdepe/Barsagelmez",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p1/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/en/posts/makalalar/18206/clean-water-for-blue-fuel-how-the-water-treatment-complex-at-the-galkynys-gas-field-operates",
+   "what": "Galkynysh water treatment complex",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p2/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/en/posts/makalalar/18104/caspian-gold-how-galkynysnebit-forges-new-records",
+   "what": "Galkynyşnebit output",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p2/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/en/posts/news/16307/turkmenistan-produced-over-765-billion-cubic-meters-of-natural-gas-and-approximately-84-million-tons-of-oil-in-2025",
+   "what": "2025 oil & gas output",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://turkmenistan.gov.tm/en/post/5209/sea-water-desalter-was-put-into-operation-in-kiyanly",
+   "what": "Kiyanly 50k SWRO, intake 4,200 m3/h",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.trend.az/business/4112170.html",
+   "what": "Esenguly 20k m3/d",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p5/"
+  },
+  {
+   "url": "https://www.trend.az/business/4184264.html",
+   "what": "Kenar 15k desal",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://saglykhm.gov.tm/en/habarlar/turkmenbasyda-ondurijiligi-bir-gije-gundizde-15-mun-kub-metr-bolan-deniz-suwuny-suyjediji-desga-gurlar",
+   "what": "Kenar 15k, own funds",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.desalination.com/desalination-suppliers/aquamatch-turkiye",
+   "what": "Aquamatch references",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p5/"
+  },
+  {
+   "url": "https://cawater-info.net/yearbook/2023/05_yearbook2023_tm_en.htm",
+   "what": "planned 50k/70k desal units",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.typsa.com/en/projects/water-supply-from-the-caspian-sea-desalination-plant-transport-pipelines-and-power-generation-plants/",
+   "what": "1.2 Mm3/d study",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.entropie.com/case-studies/sea-water-desalination-plant-in-turkmenistan",
+   "what": "MED-MVC units",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p5/"
+  },
+  {
+   "url": "https://eedmi.itu.edu.tr/en/news/2024/12/05/project-bagtyýarlyk-drinking-water-treatment-plant-a-model-of-sustainability-and-high-standards-in-turkmenistan",
+   "what": "Bagtyýarlyk 150k WTP",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://pciafrica.com/turkmenabat-water-treatment-plant/",
+   "what": "Turkmenabat WTP",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/sup/"
+  },
+  {
+   "url": "https://www.offshore-mag.com/production/article/16757013/jet-pumps-water-injection-drive-performance-gains-in-offshore-turkmenistan-wells",
+   "what": "Dragon Oil water injection",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://interfax.com/newsroom/top-stories/114466/",
+   "what": "Dragon Oil 200k bpd target",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/index.php/en/posts/news/13261/dragon-oil-25-years-of-successful-work-in-turkmenistan",
+   "what": "Dragon Oil 25 yrs",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.gem.wiki/Mary_power_station",
+   "what": "Mary units",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://gem.wiki/Balkan_power_station",
+   "what": "Balkan CCGT",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://japan.tmembassy.gov.tm/en/news/9950",
+   "what": "Mary CCGT cooling water pump station",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://oilgas.gov.tm/en/posts/news/7068/turkmenistan-to-build-second-combined-cycle-power-plant-with-a-capacity-of-1574-mw",
+   "what": "2nd CCGT",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.ucs.org/resources/water-power-plant-cooling",
+   "what": "cooling water gal/MWh",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.lenntech.com/antiscalants.htm",
+   "what": "RO antiscalant 2-5 ppm",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.krwater.com/01-ATMP.htm",
+   "what": "Kairui ATMP dosage",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.krwater.com/01-HEDP.htm",
+   "what": "Kairui HEDP dosage",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.krwater.com/01-PBTCA.htm",
+   "what": "Kairui PBTC dosage",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.krwater.com/05-KR-607.htm",
+   "what": "Kairui oilfield SI dosage",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/tech/"
+  },
+  {
+   "url": "https://www.krwater.com/shuichuliji-01.htm",
+   "what": "Kairui product range",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p5/"
+  },
+  {
+   "url": "https://turkmenportal.com/en/blog/67853/ie-ezber-offers-a-wide-selection-of-chemical-products-for-various-industries-in-turkmenistan",
+   "what": "Ezber",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/sup/"
+  },
+  {
+   "url": "https://www.oil-drilling-fluids.com/drilling-fluid-chemicals-turkmenistan.html",
+   "what": "GDFCL",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/p1/"
+  },
+  {
+   "url": "https://en.52wmb.com/buyer/48245618",
+   "what": "Turkmennebit trade profile",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/trade/"
+  },
+  {
+   "url": "https://www.seair.co.in/hedp-export-data.aspx",
+   "what": "India HEDP export sample (no TM)",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/trade/"
+  },
+  {
+   "url": "https://www.volza.com/p/hedp/import/import-in-turkmenistan/",
+   "what": "BLOCKED 403 Cloudflare",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/t1/"
+  },
+  {
+   "url": "https://www.exportgenius.in/export-import-trade-data/turkmenistan-import-mary-port",
+   "what": "BLOCKED Cloudflare",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/trade/"
+  },
+  {
+   "url": "https://www.trend.az/business/economy/2506287.html",
+   "what": "Ministry of Utilities chemicals tender 2016 (no qty)",
+   "accessed": "2026-11-11",
+   "local_copy": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/tm_deep/sup/"
+  }
+ ]
+}
