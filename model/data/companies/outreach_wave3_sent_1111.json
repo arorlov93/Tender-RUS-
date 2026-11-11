@@ -113,69 +113,79 @@
    "email": "info@e-s-center.kz",
    "lang": "ru",
    "batch": 1
-  }
- ],
- "queue": [
+  },
   {
    "company": "ТОО \"SSAP\" (Степногорский сернокислотный завод)",
    "country": "Kazakhstan",
    "email": "info@ssap.kz",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "ТОО \"Аппак\" (Appak LLP)",
    "country": "Kazakhstan",
    "email": "secretary@appak.kazatomprom.kz",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "ООО \"Buxoro neftni qayta ishlash zavodi\" (Бухарский НПЗ)",
    "country": "Uzbekistan",
    "email": "info@bnpz.uz",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "ООО \"Shurtan Gaz Kimyo Majmuasi\" (Шуртанский ГХК)",
    "country": "Uzbekistan",
    "email": "sgcc@sgcc.uz",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "СП ООО \"Uz-Kor Gas Chemical\"",
    "country": "Uzbekistan",
    "email": "a.kasimov@uz-kor.com",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "АО \"Navoiyazot\"",
    "country": "Uzbekistan",
    "email": "office@navoiyazot.uz",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "АО \"O'zbekiston metallurgiya kombinati\" (Uzmetkombinat)",
    "country": "Uzbekistan",
    "email": "info@uzbeksteel.uz",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "АО \"Talimarjon IES\" (Talimarjan TPP)",
    "country": "Uzbekistan",
    "email": "taltes@tpp.uz",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "АО \"O'zsuvta'minot\" (Uzsuvtaminot)",
    "country": "Uzbekistan",
    "email": "info@uzsuv.uz",
-   "lang": "ru"
+   "lang": "ru",
+   "batch": 2
   },
   {
    "company": "Prime Chemicals Corporation (Aquaprime)",
    "country": "Pakistan",
    "email": "info@primechemicalscorp.com",
-   "lang": "en"
-  },
+   "lang": "en",
+   "batch": 2
+  }
+ ],
+ "queue": [
   {
    "company": "Horizon Chemical for Special Chemicals (Horizon Water Solutions)",
    "country": "Egypt",
@@ -356,5 +366,14 @@
    "company": "Innovative Water Technology & Solution",
    "reason": "likely channel of Chinese phosphonate makers (competitor)"
   }
- ]
+ ],
+ "replies": [
+  {
+   "from": "info@kus.com.kz",
+   "date": "2026-11-11",
+   "ask": "официальное письмо с исх. номером, датой, подписью на имя Председателя Правления Нукежанова Р.А.",
+   "action": "ISP_PISMO_KARABATAN_1111.pdf подготовлено, ждёт подписи"
+  }
+ ],
+ "bounces": []
 }
