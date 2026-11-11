@@ -1,0 +1,624 @@
+[
+ {
+  "company": "АО \"Каражанбасмунай\" (Karazhanbasmunai JSC)",
+  "country": "Kazakhstan",
+  "city": "Aktau (Karazhanbas field, Mangistau)",
+  "buyer_type": "oil producer (KMG 50% / CITIC 50%)",
+  "products_needed": "corrosion inhibitors (oilfield); scale inhibitors / phosphonate blends as alternative offer",
+  "evidence": "zakup.sk.kz consolidated plan: 'Ингибитор коррозии' 357 t (2024), 140 t (2025), 306 t (2026 plan); advert 1052421 (Dec 2024, organizer KMG); LIVE advert 1262693 'Ингибитор коррозии' published, acceptance ends 2026-11-16",
+  "email": "kbm@kbm.kz",
+  "other_emails": [
+   "info@kbm.kz"
+  ],
+  "phone": "+7 (729) 247-3222",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (tenders organized centrally by KMG: Y.Maxot@kmg.kz, +7 717 278-6412)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1052421/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1052421",
+   "https://zakup.sk.kz/#/ext(popup:item/1262693/advert)",
+   "https://kbm.kz"
+  ],
+  "verified": true,
+  "note": "kbm@kbm.kz = customer e-mail in zakup.sk.kz adverts 1052421/1262693 and on kbm.kz. Big lots are run by KMG HQ as organizer - register on zakup.sk.kz. No OFAC match; not Russian-owned."
+ },
+ {
+  "company": "ТОО \"Karabatan Utility Solutions\"",
+  "country": "Kazakhstan",
+  "city": "Atyrau region (Karabatan)",
+  "buyer_type": "utilities operator for Atyrau petrochemical complex (UCC / Samruk-Kazyna group)",
+  "products_needed": "scale inhibitor (cooling/boiler water), RO antiscalant, corrosion inhibitor",
+  "evidence": "zakup.sk.kz: 'Ингибитор против солеотложений' 40 t (2024, advert 981387), 10 t (2025, advert 1105699), 20 t (2026, advert 1206756 'Ингибитор')",
+  "email": "info@kus.com.kz",
+  "other_emails": [
+   "nurpeisov@kus.com.kz (contact in advert 1206756)",
+   "omirbek@kus.com.kz (advert 1105699)",
+   "tauasheva@kus.com.kz (advert 981387)"
+  ],
+  "phone": "+7 (712) 276-3660",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1206756/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1206756",
+   "https://zakup.sk.kz/#/ext(popup:item/1105699/advert)",
+   "https://zakup.sk.kz/#/ext(popup:item/981387/advert)",
+   "https://kus.com.kz"
+  ],
+  "verified": true,
+  "note": "Recurring annual scale-inhibitor buyer. Not Russian-owned; no OFAC match."
+ },
+ {
+  "company": "ТОО \"Kazakhstan Petrochemical Industries Inc.\" (KPI)",
+  "country": "Kazakhstan",
+  "city": "Atyrau region (Karabatan)",
+  "buyer_type": "polypropylene plant (petrochemicals)",
+  "products_needed": "scale inhibitor ('для предотвращения отложения осадков'), corrosion inhibitor, cooling-water treatment",
+  "evidence": "zakup.sk.kz: advert 964149 'Ингибитор' (scale inhibitor 30.7 t, 2024); advert 964084 'Ингибитор коррозии' (24 t, 2024)",
+  "email": "reception@kpi.kz",
+  "other_emails": [
+   "gulnur.kassenbayeva@kpi.kz (procurement contact in adverts 964149/964084)"
+  ],
+  "phone": "+7 (712) 231-5222",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/964149/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/964149",
+   "https://zakup.sk.kz/#/ext(popup:item/964084/advert)",
+   "https://kpi.kz/ru/contacts"
+  ],
+  "verified": true,
+  "note": "Shareholding (UCC/KMG) not re-checked on an opened page in this run - confirm no Russian shareholder before sending. No OFAC match."
+ },
+ {
+  "company": "ТОО \"Казахтуркмунай\" (Kazakhturkmunai LLP)",
+  "country": "Kazakhstan",
+  "city": "Aktobe",
+  "buyer_type": "oil producer (KMG group)",
+  "products_needed": "scale inhibitor, corrosion inhibitor, biocide",
+  "evidence": "zakup.sk.kz plan: scale/corrosion inhibitors 41 t (2025-2026); advert 1243163 'Ингибитор биоотложений' (2026), advert 1037731 'Ингибитор, Деэмульгатор' (2024, organizer KMG); 10 t 'Ингибитор для предотвращения отложения осадков' 2026",
+  "email": "aktm@ktm.kmg.kz",
+  "other_emails": [
+   "Yerbol.Nurishev@ktm.kmg.kz (contact in advert 1243163)"
+  ],
+  "phone": "+7 (713) 297-6870",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1243163/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1243163",
+   "https://zakup.sk.kz/#/ext(popup:item/1037731/advert)",
+   "https://kazakhturkmunay.kz/ru/contacts/"
+  ],
+  "verified": true,
+  "note": "KMG 100%. No OFAC match."
+ },
+ {
+  "company": "ТОО \"Казахский газоперерабатывающий завод\" (KazGPZ)",
+  "country": "Kazakhstan",
+  "city": "Zhanaozen (Mangistau)",
+  "buyer_type": "gas processing plant (KMG 100%)",
+  "products_needed": "corrosion inhibitor, cooling-water/boiler treatment chemicals",
+  "evidence": "zakup.sk.kz: advert 1036136 'Ингибитор' (3.5 t corrosion inhibitor, 2024); advert 1162437 'Жидкости' (2026 plan 3.5 t corrosion inhibitor)",
+  "email": "axo@kazgpz.kmg.kz",
+  "other_emails": [
+   "m.emraev@kazgpz.kmg.kz (advert 1036136)",
+   "T.BAIZAKOV@KAZGPZ.KMG.KZ (advert 1162437)"
+  ],
+  "phone": "+7 (729) 346-4650 (advert contact)",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1036136/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1036136",
+   "https://zakup.sk.kz/#/ext(popup:item/1162437/advert)",
+   "https://ecoportal.kz/Rubric/RubService/LoadFile/57589",
+   "https://ecoportal.kz/Rubric/RubService/LoadFile/54058"
+  ],
+  "verified": true,
+  "note": "axo@ = administrative dept (general mailbox) - confirmed in zakup customer card and ecoportal.kz filings. kazgpz.kz site not reachable from here. No OFAC match."
+ },
+ {
+  "company": "ТОО \"Казахойл Актобе\" (Kazakhoil Aktobe LLP)",
+  "country": "Kazakhstan",
+  "city": "Aktobe",
+  "buyer_type": "oil & gas producer (KMG 50%)",
+  "products_needed": "corrosion inhibitor, RO pre-treatment reagent/antiscalant, cooling-water reagent, hardness-reduction reagent",
+  "evidence": "zakup.sk.kz: corrosion inhibitor 11.9 t (2024), 12 t (2025), 18.1 t (2026, advert 1162411 'Закуп химреагентов'); RO reagent 1.5 t (2024, advert 940119); cooling-water reagent 1.2 t (2026)",
+  "email": "info@koa.kz",
+  "other_emails": [
+   "Imanqulov.a@koa.kz (procurement contact, advert 1162411)"
+  ],
+  "phone": "+7 (713) 274-7299",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1162411/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1162411",
+   "https://www.koa.kz"
+  ],
+  "verified": true,
+  "note": "Broad water-chem basket. No OFAC match."
+ },
+ {
+  "company": "ТОО \"Урихтау Оперейтинг\" (Urikhtau Operating LLP)",
+  "country": "Kazakhstan",
+  "city": "Aktobe",
+  "buyer_type": "gas-condensate field operator (KMG)",
+  "products_needed": "corrosion inhibitor for gas/oil",
+  "evidence": "zakup.sk.kz: advert 1169036 'Ингибитор коррозии для газа и нефти' (2026, 1.3 t); 2024 plan 4.9 t",
+  "email": "info@uo.kmg.kz",
+  "other_emails": [
+   "a.Kopzhassar@urikhtau.kz (advert contact)"
+  ],
+  "phone": "+7 (713) 274-4114",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1169036/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1169036",
+   "https://urikhtau.kz"
+  ],
+  "verified": true,
+  "note": "Small volumes now; Central Urikhtau ramp-up planned. No OFAC match."
+ },
+ {
+  "company": "ТОО \"СП CASPI BITUM\"",
+  "country": "Kazakhstan",
+  "city": "Aktau",
+  "buyer_type": "bitumen refinery (KMG 50% / CITIC 50%)",
+  "products_needed": "corrosion inhibitor, refinery process/water chemicals",
+  "evidence": "zakup.sk.kz: advert 1044027 'Химические реагенты (ГПЗ 2025)' incl. corrosion inhibitor 3.8 t; 2024 plan 4 t",
+  "email": "info@caspibitum.kz",
+  "other_emails": [
+   "info@cb.kmg.kz (on site)",
+   "d.amankos@cb.kmg.kz (advert contact)"
+  ],
+  "phone": "+7 (729) 242-4102",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1044027/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1044027",
+   "https://caspibitum.kz"
+  ],
+  "verified": true,
+  "note": "No OFAC match."
+ },
+ {
+  "company": "ТОО \"Тау-Кен Алтын\" (Tau-Ken Altyn LLP)",
+  "country": "Kazakhstan",
+  "city": "Astana",
+  "buyer_type": "gold/silver refinery (Tau-Ken Samruk)",
+  "products_needed": "scale inhibitor, RO pre-treatment reagent, corrosion inhibitor (auxiliary equipment)",
+  "evidence": "zakup.sk.kz: advert 1204832 'Химические добавки для оборудования вспомогательного...' (2026: RO reagent 0.2 t, corrosion inhibitor 1 t); 2025 advert 1059731",
+  "email": "info@taukenaltyn.kz",
+  "other_emails": [
+   "a.urazaliyeva@taukenaltyn.kz (advert contact)"
+  ],
+  "phone": "+7 (717) 230-9623",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1204832/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1204832",
+   "https://taukenaltyn.kz"
+  ],
+  "verified": true,
+  "note": "Small-volume buyer (1-3 t/yr). No OFAC match."
+ },
+ {
+  "company": "АО \"Ульбинский металлургический завод\" (Ulba Metallurgical Plant)",
+  "country": "Kazakhstan",
+  "city": "Ust-Kamenogorsk",
+  "buyer_type": "metallurgy (Kazatomprom group subsidiary)",
+  "products_needed": "scale inhibitor ('для предотвращения отложения осадков')",
+  "evidence": "zakup.sk.kz: advert 1230215 'Ингибитор' (2026, 0.18 t); 2024 advert 961000, 2025 advert 1173339",
+  "email": "mail@ulba.kz",
+  "other_emails": [
+   "BairovaAT@ulba.kz (advert contact)"
+  ],
+  "phone": "+7 (723) 229-8123",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1230215/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1230215",
+   "https://www.ulba.kz/ru"
+  ],
+  "verified": true,
+  "note": "Separate legal entity from Kazatomprom HQ (Kazatomprom HQ was contacted before). Very small volume. No OFAC match."
+ },
+ {
+  "company": "ТОО \"Energy Solutions Center\"",
+  "country": "Kazakhstan",
+  "city": "Ekibastuz (Pavlodar region)",
+  "buyer_type": "energy services / water treatment (Samruk-Kazyna group)",
+  "products_needed": "hardness-reduction (water treatment) reagent, chemical goods",
+  "evidence": "zakup.sk.kz: advert 1012729 'Химические товары (68 лот)' incl. 'Реагент для снижения жесткости воды' 2.5 t (2024)",
+  "email": "info@e-s-center.kz",
+  "other_emails": [],
+  "phone": "+7 (718) 728-0605",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1012729/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1012729",
+   "https://e-s-center.kz"
+  ],
+  "verified": true,
+  "note": "Different company from Ekibastuz GRES-1/2 (excluded). No OFAC match."
+ },
+ {
+  "company": "ТОО \"SSAP\" (Степногорский сернокислотный завод)",
+  "country": "Kazakhstan",
+  "city": "Stepnogorsk (Akmola region)",
+  "buyer_type": "sulphuric-acid plant (UCC 90.11% / Kazatomprom 9.89%)",
+  "products_needed": "scale inhibitor (cooling water), RO pre-treatment reagent",
+  "evidence": "zakup.sk.kz: scale inhibitor 12.4 t (2024), 8.9 t (2025), 11.9 t (2026); RO reagent 1.5 t/yr; advert 1167475 'Реагенты для производства' (2026), 1103915 (2025), 978523 (2024)",
+  "email": "info@ssap.kz",
+  "other_emails": [
+   "n.kairov@ssap.kz (advert 1167475 contact)",
+   "ekolog@ssap.kz (ecology)"
+  ],
+  "phone": "+7 (716) 457-9000",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1167475/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1167475",
+   "https://ecoportal.kz/Public/PubHearings/LoadFile/146695",
+   "https://ssap.kz"
+  ],
+  "verified": true,
+  "note": "Second line (doubling to 360 kt/yr acid) under development -> growing water-chem demand. No OFAC match."
+ },
+ {
+  "company": "ТОО \"Аппак\" (Appak LLP)",
+  "country": "Kazakhstan",
+  "city": "Turkestan region (Zhalpak / Shieli)",
+  "buyer_type": "uranium ISR mine (Kazatomprom JV)",
+  "products_needed": "scale inhibitor, RO pre-treatment reagent",
+  "evidence": "zakup.sk.kz: advert 1264781 'Ингибиторы (повтор)' (2026, scale inhibitor 0.2 t); RO reagent 0.1 t/yr (advert 1238512)",
+  "email": "secretary@appak.kazatomprom.kz",
+  "other_emails": [
+   "SKopbayev@appak.kazatomprom.kz (advert contact)"
+  ],
+  "phone": "+7 (725) 299-7178",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1264781/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1264781",
+   "https://ecoportal.kz/Public/PubHearings/LoadFile/171657",
+   "https://ecoportal.kz/Public/PubHearings/LoadFile/187604"
+  ],
+  "verified": true,
+  "note": "Kazatomprom group JV (Kazatomprom HQ already contacted). Very small volume - low priority. No OFAC match."
+ },
+ {
+  "company": "ТОО \"Oil Services Company\" (OSC)",
+  "country": "Kazakhstan",
+  "city": "Aktau (Mangistau)",
+  "buyer_type": "oilfield services (KMG group)",
+  "products_needed": "ATMP / нитрилотриметилфосфоновая кислота (powder) - direct phosphonate buyer",
+  "evidence": "zakup.sk.kz: 'Нитрилотриметилфосфоновая кислота порошок' 1.02 t (2024, advert 1003265), 2.58 t (2025, adv 1085357), 2.0 t (2026, advert 1167526, organizer KMG)",
+  "email": "office@osc.kz",
+  "other_emails": [
+   "ogay_k@osc.kmg.kz (advert 1167526)",
+   "suhamberdiev_o@osc.kmg.kz (advert 1003265)"
+  ],
+  "phone": "+7 (729) 221-2900",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1003265/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1003265",
+   "https://zakup.sk.kz/#/ext(popup:item/1167526/advert)"
+  ],
+  "verified": false,
+  "note": "Only source: zakup.sk.kz customer card (two adverts). Website osc.kmg.kz unreachable (503/self-signed cert). Only ATMP buyer found in KZ plans."
+ },
+ {
+  "company": "АО \"Озенмунайгаз\" (Ozenmunaigas JSC)",
+  "country": "Kazakhstan",
+  "city": "Zhanaozen (Mangistau)",
+  "buyer_type": "oil producer (KMG 100%) - largest scale-inhibitor consumer in KZ",
+  "products_needed": "scale inhibitor (~1,470-1,770 t/yr), corrosion inhibitor (720-1,330 t/yr)",
+  "evidence": "zakup.sk.kz: advert 1171246 'Ингибитор против солеотложений, Ингибитор коррозии' (open tender, 1.487 bn KZT ex VAT, organizer KMG, 2026 plan 1,467 t scale + 720 t corrosion); 2024 advert 910696 (1,739 t)",
+  "email": "K.Abishayev@omg.kmg.kz",
+  "other_emails": [
+   "Y.Maxot@kmg.kz (KMG organizer contact)"
+  ],
+  "phone": "+7 (729) 346-3294",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (organizer: KMG HQ)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1171246/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1171246"
+  ],
+  "verified": false,
+  "note": "Customer e-mail from zakup.sk.kz only; ozenmunaigas.kz behind Cloudflare (403), ecoportal filings list other staff (n.tokban@, a.kozhanova@omg.kmg.kz - ecology). Next tender = KMG centralized open tender; register on zakup.sk.kz."
+ },
+ {
+  "company": "АО \"НК \"КазМунайГаз\" - организатор централизованных закупок химреагентов",
+  "country": "Kazakhstan",
+  "city": "Astana",
+  "buyer_type": "procurement organizer for KMG group (Ozenmunaigas, Mangistaumunaigas, Karazhanbasmunai, Kazgermunai etc.)",
+  "products_needed": "scale inhibitors, corrosion inhibitors (group tenders >1,800 t/yr)",
+  "evidence": "Organizer contact in zakup.sk.kz adverts 1171246 (OMG), 1157592 (MMG 360 t scale inhibitor 2026), 1052421 and 1262693 (KBM)",
+  "email": "Y.Maxot@kmg.kz",
+  "other_emails": [],
+  "phone": "+7 (717) 278-6412 (advert); procurement +7 (7172) 78 61 80 (kmg.kz contacts)",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/1157592/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1157592",
+   "https://zakup.sk.kz/#/ext(popup:item/1171246/advert)",
+   "https://www.kmg.kz/en/contacts/"
+  ],
+  "verified": false,
+  "note": "Dedicated procurement contact (different from excluded ir@/astana@kmg.kz). E-mail seen only on zakup.sk.kz; phone 78-61-80 confirmed on kmg.kz. Person-level address - use with care."
+ },
+ {
+  "company": "ТОО \"СП \"Казгермунай\" (JV Kazgermunai)",
+  "country": "Kazakhstan",
+  "city": "Kyzylorda",
+  "buyer_type": "oil producer (KMG 50% / PetroChina 50%)",
+  "products_needed": "scale inhibitor (~30 t/yr), corrosion inhibitor (~69 t/yr)",
+  "evidence": "zakup.sk.kz consolidated plan 2024: scale inhibitor 29.9 t, corrosion inhibitor 69.2 t (organizer KMG)",
+  "email": "kgm@kgm.kz",
+  "other_emails": [
+   "maliyev@kgm.kz (ecology filings)"
+  ],
+  "phone": "+7 (7242) 261-761; +7 (7242) 600-188",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (organizer KMG)",
+  "sources": [
+   "https://kgm.kz/ru/page/contacts",
+   "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual",
+   "https://ecoportal.kz/Rubric/RubService/LoadFile/74009"
+  ],
+  "verified": false,
+  "note": "kgm@kgm.kz only on kgm.kz; second source not found."
+ },
+ {
+  "company": "АО \"Эмбамунайгаз\" (Embamunaigas JSC)",
+  "country": "Kazakhstan",
+  "city": "Atyrau",
+  "buyer_type": "oil producer (KMG 100%)",
+  "products_needed": "scale & corrosion inhibitors, oilfield water-treatment chemicals",
+  "evidence": "No chemical line found in opened zakup.sk.kz data; buyer is KMG upstream subsidiary on mature waterflooded fields; current zakup adverts e.g. 1263952, 1265479 (non-chemical) confirm active procurement",
+  "email": "info@emg.kmg.kz",
+  "other_emails": [
+   "a.doshkai@emg.kmg.kz (zakup.sk.kz customer card)",
+   "D.Zhubayev@emg.kmg.kz (advert contact)",
+   "info@emg.kmgep.kz (older domain)"
+  ],
+  "phone": "+7 (712) 299-3163",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://ecoportal.kz/Rubric/RubService/LoadFile/74515",
+   "https://ecoportal.kz/Rubric/RubService/LoadFile/65371",
+   "https://zakup.sk.kz/#/ext(popup:item/1263952/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/1263952"
+  ],
+  "verified": false,
+  "note": "info@emg.kmg.kz only in ecoportal.kz filings (same portal); zakup gives personal procurement address; emg.kmgep.kz unreachable. Demand not evidenced by a chemical lot."
+ },
+ {
+  "company": "ТОО \"Мангистауэнергомунай\"",
+  "country": "Kazakhstan",
+  "city": "Aktau",
+  "buyer_type": "power/heat supply for oilfields (KMG group)",
+  "products_needed": "corrosion inhibitor / water-treatment reagent",
+  "evidence": "zakup.sk.kz: advert 976266 'Рагент, ингибитор' (2024, 1.47 t); 1.47 t in 2025 (adv 1053409) and 2026 (adv 1154057)",
+  "email": "info@mem.kmg.kz",
+  "other_emails": [
+   "s.anuar@mem.llp.kz (advert contact)"
+  ],
+  "phone": "+7 (729) 221-1430",
+  "contact_person": null,
+  "portal": "zakup.sk.kz (Samruk-Kazyna)",
+  "sources": [
+   "https://zakup.sk.kz/#/ext(popup:item/976266/advert)",
+   "https://zakup.sk.kz/eprocsearch/api/external/4dv3rts/976266"
+  ],
+  "verified": false,
+  "note": "Single source (zakup.sk.kz); mem.kz unreachable."
+ },
+ {
+  "company": "ТОО \"Казахстанские коммунальные системы\" (KUS group: Ust-Kamenogorsk TETs, Karaganda/Mangistau grid & heat companies)",
+  "country": "Kazakhstan",
+  "city": "Astana (group HQ)",
+  "buyer_type": "power & district heating holding (CHP plants)",
+  "products_needed": "boiler/cooling water chemicals: scale & corrosion inhibitors, ion-exchange resins, coagulants",
+  "evidence": "kus.kz 'Тендеры и закупки': all group subsidiaries (generation of power/heat incl. Ust-Kamenogorsk TETs) buy via ETS-Tender (ets-tender.kz/market); no specific chemical lot opened",
+  "email": "kks.priemnaya@kus.kz",
+  "other_emails": [],
+  "phone": "+7 7172 279 472",
+  "contact_person": null,
+  "portal": "https://www.ets-tender.kz/market/",
+  "sources": [
+   "https://kus.kz/bussines/tendery-i-zakupki/",
+   "https://kus.kz"
+  ],
+  "verified": false,
+  "note": "E-mail only on kus.kz (AIX issuer card e-mail not readable). Demand inferred, not evidenced by a lot."
+ },
+ {
+  "company": "ООО \"Buxoro neftni qayta ishlash zavodi\" (Бухарский НПЗ)",
+  "country": "Uzbekistan",
+  "city": "Karaulbazar (Bukhara region)",
+  "buyer_type": "oil refinery (Uzbekneftegaz group)",
+  "products_needed": "cooling-water corrosion/scale inhibitor, process corrosion inhibitors",
+  "evidence": "etender.uzex.uz: lot 68289 (2022) cooling-water corrosion inhibitor 2.76 t; lot 334717 (2023-24) 'Ингибитор коррозии ... противонакипной и антикоррозийной обработки воды системы охлаждения' 2.76 t; lot 443464 (2025) corrosion inhibitor 9.9 t",
+  "email": "info@bnpz.uz",
+  "other_emails": [],
+  "phone": "+998 65 364-45-50; +998 65 364-42-43",
+  "contact_person": "Каххаров А.А. (начальник отдела, lot 443464); Убайдуллаев А.И. (отдел закупок импортного оборудования и материалов, lot 334717)",
+  "portal": "etender.uzex.uz (corporate)",
+  "sources": [
+   "https://etender.uzex.uz/lot/443464",
+   "https://apietender.uzex.uz/api/common/GetTrade/443464/0",
+   "https://apietender.uzex.uz/api/common/GetTrade/334717/0",
+   "https://bnpz.uz",
+   "https://orginfo.uz/ru/organization/5ae30cf89e1a/"
+  ],
+  "verified": true,
+  "note": "INN 202080378. No OFAC match."
+ },
+ {
+  "company": "ООО \"Shurtan Gaz Kimyo Majmuasi\" (Шуртанский ГХК)",
+  "country": "Uzbekistan",
+  "city": "Shurtan (Guzar district, Kashkadarya)",
+  "buyer_type": "gas-chemical complex / polyethylene (Uzbekneftegaz group)",
+  "products_needed": "RO antiscalant, cooling-water treatment (corrosion inhibitor + biocide), carbohydrazide/oxygen scavenger",
+  "evidence": "etender.uzex.uz: Antiskalant 3.74 t (lot 274320, 2023; 418397, 2025; 466245, 2026), 5.6 t (348578, 2024); cooling-water reagent lots 365616, 426626, 480622 (2026, 131,237 USD); corrosion inhibitor lots 261943, 367612, 453883, 478629",
+  "email": "sgcc@sgcc.uz",
+  "other_emails": [
+   "competition@sgcc.uz (secretary of procurement commission, etender lots 466245/478629/480622)"
+  ],
+  "phone": "+998 75 552-40-22 (procurement commission); +998 75 552-41-58 (office)",
+  "contact_person": "Хуррамов Азамат (секретарь закупочной комиссии)",
+  "portal": "etender.uzex.uz (corporate)",
+  "sources": [
+   "https://sgcc.uz/#/PurchaseLayout",
+   "https://www.yellowpages.uz/kompaniya/shurtanskij-gazohimicheskij-kompleks-ooo",
+   "https://etender.uzex.uz/lot/480622",
+   "https://apietender.uzex.uz/api/common/GetTrade/480622/0",
+   "https://apietender.uzex.uz/api/common/GetTrade/466245/0"
+  ],
+  "verified": true,
+  "note": "sgcc@ verified (site + yellowpages.uz); competition@ is the dedicated tender mailbox (etender only). INN 203195074. No OFAC match."
+ },
+ {
+  "company": "СП ООО \"Uz-Kor Gas Chemical\"",
+  "country": "Uzbekistan",
+  "city": "Tashkent office / Surgil-Ustyurt GCC (Karakalpakstan)",
+  "buyer_type": "gas-chemical complex (Uzbekneftegaz 50% / Korean consortium 50%)",
+  "products_needed": "chemical reagents for utilities (ОЗХ) - water treatment, antifoulants, corrosion inhibitors",
+  "evidence": "uz-kor.com: open tender T-47/2026 'поставка химических реагентов для установок цеха ОЗХ' (30 days from 02.11.2026 - LIVE); CS-200/2026 antifoulant; trend.az 3514548 - tender for purchase of chemical reagents",
+  "email": "a.kasimov@uz-kor.com",
+  "other_emails": [
+   "info@uz-kor.com",
+   "a.sharapov@uz-kor.com (chemical-reagents tender, trend.az 3514548)"
+  ],
+  "phone": "+998 (78) 129-29-00 ext.222; (99871) 207-27-72",
+  "contact_person": null,
+  "portal": "own tenders (uz-kor.com/index.php/ru/tendery)",
+  "sources": [
+   "https://www.uz-kor.com/index.php/ru/tendery/5992-cp-ooo-uz-kor-gas-chemical-obyavlyaet-otkrytyj-tender-t-47-2026-srokom-na-30-dnej-s-02-noyabrya-2026-g-na-postavku-khimicheskikh-reagentov-dlya-ustanovok-tsekha-ozkh",
+   "https://www.trend.az/business/tenders/3735870.html",
+   "https://www.trend.az/business/tenders/3514548.html",
+   "https://www.uz-kor.com/index.php/ru/"
+  ],
+  "verified": true,
+  "note": "Live tender T-47/2026 - request docs by official signed letter. a.kasimov@ on uz-kor.com + trend.az. No OFAC match."
+ },
+ {
+  "company": "АО \"Navoiyazot\"",
+  "country": "Uzbekistan",
+  "city": "Navoi",
+  "buyer_type": "nitrogen fertilizer / chemicals (state)",
+  "products_needed": "cooling & boiler water chemicals (scale/corrosion inhibitors, ion-exchange resins) for ammonia/nitric acid units",
+  "evidence": "No procurement lot opened in this run - demand inferred from ammonia/nitric acid/PVC production; navoiyazot.uz has own tender section (menu-186/tenderlar)",
+  "email": "office@navoiyazot.uz",
+  "other_emails": [
+   "sale@navoiyazot.uz (sales - already in foreign_factories_water.json as supplier)"
+  ],
+  "phone": "+998 (79) 229-22-36; +998 (79) 223-28-11",
+  "contact_person": null,
+  "portal": "navoiyazot.uz tenders + etender.uzex.uz",
+  "sources": [
+   "https://www.navoiyazot.uz/uz/home/contact",
+   "https://www.goldenpages.uz/en/rubrics/?Id=4078",
+   "https://orginfo.uz/ru/organization/a73298eefeab/"
+  ],
+  "verified": true,
+  "note": "orginfo shows typo 'nayoiyazot.uz'. Deputy chairman for marketing, sales & procurement: Juraqulov Baxtiyor Shermamatovich (per navoiyazot.uz staff link). INN 200002933. No OFAC match."
+ },
+ {
+  "company": "АО \"O'zbekiston metallurgiya kombinati\" (Uzmetkombinat)",
+  "country": "Uzbekistan",
+  "city": "Bekabad (Tashkent region)",
+  "buyer_type": "steel plant (state)",
+  "products_needed": "corrosion inhibitor for recirculating cooling water, water-treatment chemicals",
+  "evidence": "etender.uzex.uz lot 376704 (2024) 'Ингибитор коррозии ... zmeyavik stendi' 0.5 t (cooling water corrosion inhibitor with coupon stand)",
+  "email": "info@uzbeksteel.uz",
+  "other_emails": [],
+  "phone": "+998 70 214-14-63 (tender dept, lot 376704)",
+  "contact_person": null,
+  "portal": "etender.uzex.uz (corporate)",
+  "sources": [
+   "https://apietender.uzex.uz/api/common/GetTrade/376704/0",
+   "https://orginfo.uz/ru/organization/0d302e905c24/",
+   "https://openinfo.uz/ru/reports/to_pdf2115"
+  ],
+  "verified": true,
+  "note": "INN 200460222. openinfo report is 2016 but e-mail matches orginfo. No OFAC match."
+ },
+ {
+  "company": "АО \"Talimarjon IES\" (Talimarjan TPP)",
+  "country": "Uzbekistan",
+  "city": "Nuristan (Nishon district, Kashkadarya)",
+  "buyer_type": "thermal power plant (subsidiary of JSC Thermal Power Plants)",
+  "products_needed": "boiler/cooling water treatment: antiscalants, ion-exchange resins, corrosion inhibitors, coagulant",
+  "evidence": "Large CCGT/steam plant (new 1 GW units); no specific lot opened in this run - demand inferred",
+  "email": "taltes@tpp.uz",
+  "other_emails": [],
+  "phone": "+998 75 512-57-12",
+  "contact_person": null,
+  "portal": "etender.uzex.uz / xarid.uzex.uz",
+  "sources": [
+   "https://taltes.uz/uz/",
+   "https://openinfo.uz/ru/reports/to_pdf21652"
+  ],
+  "verified": true,
+  "note": "Parent TPP JSC (info@tpp.uz) and Tashkent/Navoi TPP were already contacted; Talimarjan is a separate JSC with own mailbox. No OFAC match."
+ },
+ {
+  "company": "АО \"O'zsuvta'minot\" (Uzsuvtaminot)",
+  "country": "Uzbekistan",
+  "city": "Tashkent",
+  "buyer_type": "national water-supply utility",
+  "products_needed": "PAC / coagulants, flocculants, disinfection, RO antiscalants",
+  "evidence": "Operates water treatment plants nationwide; has budget & IFI tender sections (uzsuv.uz/uz/announcements/tender, /tenderss); no specific chemical lot opened",
+  "email": "info@uzsuv.uz",
+  "other_emails": [],
+  "phone": "+998 55 503-12-55 (call centre 1255)",
+  "contact_person": null,
+  "portal": "xarid.uzex.uz + uzsuv.uz tenders",
+  "sources": [
+   "https://uzsuv.uz/uz/contact-us",
+   "https://www.goldenpages.uz/en/company/?Id=103138"
+  ],
+  "verified": true,
+  "note": "Demand inferred. No OFAC match."
+ },
+ {
+  "company": "ООО \"Farg'ona neftni qayta ishlash zavodi\" (Ферганский НПЗ)",
+  "country": "Uzbekistan",
+  "city": "Fergana",
+  "buyer_type": "oil refinery (state-controlled again since 2024)",
+  "products_needed": "cooling-water inhibitors, corrosion inhibitors, boiler water chemicals",
+  "evidence": "fnpz.uz 'Поставщикам продукции': suppliers send commercial offers to info@fnpz.uz addressed to the director; no chemical lot opened",
+  "email": "info@fnpz.uz",
+  "other_emails": [
+   "refinery@fnpz.uz (orginfo.uz)"
+  ],
+  "phone": "+998 73 229-45-19",
+  "contact_person": null,
+  "portal": "own competitive selection + etender.uzex.uz",
+  "sources": [
+   "https://www.fnpz.uz/ru/zakupki/postavshchikam-produktsii",
+   "https://www.fnpz.uz/ru/o-predpriyatii/kontakty",
+   "https://orginfo.uz/ru/organization/87814a55dfaa/"
+  ],
+  "verified": false,
+  "note": "Site and registry list different mailboxes (info@ vs refinery@). INN 200202099. Ownership history: Saneg 2022 -> state 2024 (news), not Russian. No OFAC match."
+ }
+]
