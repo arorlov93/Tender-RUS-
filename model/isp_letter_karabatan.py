@@ -1,5 +1,6 @@
 """Официальное письмо ISP Group → ТОО «Karabatan Utility Solutions» (по их запросу от 11.11.2026). → ../ISP_PISMO_KARABATAN_1111.pdf"""
-import html
+import html, os, sys
+SIG = sys.argv[1] if len(sys.argv) > 1 else ''
 from isp_letterhead import render
 e = html.escape
 NUM, DATE = "ISP-1111-01", "11.11.2026"
@@ -19,6 +20,7 @@ TERMS = ["на каждую марку предоставляем паспорт
          "готовы участвовать в закупках вашей компании и пройти регистрацию поставщика."]
 ASK = "Просим сообщить потребность вашей компании в указанных реагентах (марки, годовые объемы, требования к упаковке) и порядок участия в закупках. После получения информации направим коммерческое предложение в течение 2 рабочих дней."
 rows = "".join(f"<tr><td class=g>{e(a)}</td><td>{e(b)}</td></tr>" for a, b in ROWS)
+SIGIMG = f"<img src='file://{SIG}' style='position:absolute;left:18%;bottom:-6px;width:1.05in'>" if SIG else ""
 body = f"""<div class=meta><div class=ref><b>Исх. № {NUM}</b><br>от {DATE}</div>
 <div class=to><div class=l>Кому</div>{'<br>'.join(e(x) for x in TO[:3])}<br><b>{e(TO[3])}</b></div></div>
 <h1>{e(SUBJ)}</h1>
@@ -27,6 +29,6 @@ body = f"""<div class=meta><div class=ref><b>Исх. № {NUM}</b><br>от {DATE
 <h2>Условия</h2><ul>{''.join(f'<li>{e(x[0].upper() + x[1:])}</li>' for x in TERMS)}</ul>
 <p>{e(ASK)}</p>
 <p>Контакт: Александр Орлов, info@ispgroupgc.com, +1 929 830 0038.</p>
-<div class=sign><div>С уважением,<br><b style='color:#0B2545'>ISP Group LLC</b></div><div><div class=ln></div><div class=cap>подпись / М.П.</div></div>
+<div class=sign><div>С уважением,<br><b style='color:#0B2545'>ISP Group LLC</b></div><div><div class=ln style='position:relative'>{SIGIMG}</div><div class=cap>подпись / М.П.</div></div>
 <div class=nm><b>Александр Орлов</b>Aleksandr Orlov<br><span style='color:#6B7280;font-size:9px'>Руководитель (Member)</span></div></div>"""
-render(body, "../ISP_PISMO_KARABATAN_1111.pdf", "karabatan"); print("ok")
+render(body, "../ISP_PISMO_KARABATAN_1111" + ("_SIGNED" if SIG else "") + ".pdf", "karabatan"); print("ok")
