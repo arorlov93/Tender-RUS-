@@ -253,69 +253,79 @@
    "email": "comercial@novaquimica.com.co",
    "lang": "en",
    "batch": 3
-  }
- ],
- "queue": [
+  },
   {
    "company": "Watericon",
    "country": "South Africa",
    "email": "info@watericon.co.za",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "Safechem (K) Ltd",
    "country": "Kenya",
    "email": "info@safechem.co.ke",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "Organo (Thailand) Co., Ltd.",
    "country": "Thailand",
    "email": "organo_t@organothailand.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "ChemTreat Mexico S. de R.L. de C.V.",
    "country": "Mexico",
    "email": "cs_orders@chemtreat.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "Thermax Ltd - Chemical Division",
    "country": "India",
    "email": "enquiry@thermaxglobal.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "SISCO",
    "country": "Egypt",
    "email": "info@sisco-eg.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "System Technique",
    "country": "Egypt",
    "email": "info@systemtechnique.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "WETCO (Water & Environmental Technology Co.)",
    "country": "Egypt",
    "email": "info@wetco-eg.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "Gulf Water Treatment (GWT)",
    "country": "UAE",
    "email": "info@gulfwatertreatment.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 4
   },
   {
    "company": "Granimex Sp. z o.o.",
    "country": "Poland",
    "email": "info@granimex.com.pl",
-   "lang": "en"
-  },
+   "lang": "en",
+   "batch": 4
+  }
+ ],
+ "queue": [
   {
    "company": "Kontec Trading LLC",
    "country": "UAE",
@@ -393,7 +403,18 @@
    "from": "pctsb_registration@petronas.com",
    "date": "2026-11-11",
    "note": "answers to our 2 questions: 1. Confirmed 2. Acceptable"
+  },
+  {
+   "from": "rachel@jialuchem.com",
+   "date": "2026-11-11",
+   "note": "HEDP 60% FOB $1410 / CIF NS $1570; PBTCA 50% FOB $1500 / CIF $1660; ATMP 50% FOB $1300 / CIF $1460; 50% TT advance; valid to 15.11; TDS+COA attached"
   }
  ],
- "bounces": []
+ "bounces": [
+  {
+   "email": "info@horizon-chemical.com",
+   "type": "block",
+   "reason": "550 recipient RBL blocked sender IP (Google shared IP), not domain reputation"
+  }
+ ]
 }

@@ -565,5 +565,43 @@
    ],
    "accessed": "2026-11-11"
   }
+ ],
+ "supplier_quotes": [
+  {
+   "supplier": "Kairui",
+   "date": "2026-11-11",
+   "HEDP60": {
+    "FOB": 1315,
+    "CIF_NS": 1490
+   },
+   "ATMP50": {
+    "FOB": 1195,
+    "CIF_NS": 1370
+   },
+   "PBTCA50": {
+    "FOB": 1345,
+    "CIF_NS": 1520
+   },
+   "payment": "100% TT vs copy BL",
+   "note": "refused lower targets: 13% export VAT rebate on ATMP/HEDP cancelled 1 Apr 2026"
+  },
+  {
+   "supplier": "Zaozhuang Jialu",
+   "date": "2026-11-11",
+   "HEDP60": {
+    "FOB": 1410,
+    "CIF_NS": 1570
+   },
+   "ATMP50": {
+    "FOB": 1300,
+    "CIF_NS": 1460
+   },
+   "PBTCA50": {
+    "FOB": 1500,
+    "CIF_NS": 1660
+   },
+   "payment": "50% TT advance, balance vs BL copy",
+   "valid": "2026-11-15"
+  }
  ]
 }
