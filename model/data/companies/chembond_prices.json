@@ -1,0 +1,569 @@
+{
+ "meta": {
+  "subject": "Chembond Chemicals Ltd / Chembond Water Technologies Ltd (Navi Mumbai) - HEDP 60% & PBTC(A) 50% price intelligence for ISP Group LLC CIF Nhava Sheva quote",
+  "volumes_assumed": {
+   "HEDP60_t_per_year": 600,
+   "PBTCA50_t_per_year": 400
+  },
+  "compiled": "2026-11-11",
+  "notes": "Only data from pages opened on access date. 'estimate' fields are analyst estimates, not observed data. No shipment-level PRICE for Chembond could be found on free pages (price fields are paywalled on ImportGenius/Volza/Eximpedia; Volza, Eximpedia, ExportGenius, some Zauba/Seair pages blocked by Cloudflare - not bypassed)."
+ },
+ "chembond_shipments": [
+  {
+   "date": "2025-06-30",
+   "importer": "CHEMBOND WATER TECHNOLOGIES LIMITED (Navi Mumbai)",
+   "supplier": "SHANDONG TAIHE CHEMICALS CO., LTD (China)",
+   "product": "1-Hydroxy Ethylidene-1,1-Diphosphonic Acid (HEDP) 60% (UN 3265, Class 8) (For Industrial Use)",
+   "quantity_kg": 25200,
+   "unit_price_usd_per_kg": null,
+   "port": "not shown",
+   "price_note": "price paywalled (ImportGenius)",
+   "source": "https://www.importgenius.com/india/importers/chembond-water-technologies-limited"
+  },
+  {
+   "summary": "ImportGenius profile (updated Oct 1, 2025): 438 shipments Jan 2007-Aug 2025, 10 trading partners; top suppliers: Anhui Tianrun Chemicals (last Jun 3 2025), Hainan Zhongxin Chemical HK (Nov 25 2024), SNF (China) Flocculant (Mar 9 2022), Shandong Taihe Chemicals (Jun 30 2025), Gaomi Kaixuan Disinfection (Jun 5 2025); other 2025 items: sodium chlorite 31% (Hebei Fiza, 100 t, Oct 1 2025), TKPP (Shifang Zhixin), polyacrylamide (Anhui Jucheng). No PBTC shipment to Chembond visible in free preview.",
+   "source": "https://www.importgenius.com/india/importers/chembond-water-technologies-limited"
+  },
+  {
+   "summary": "Shandong Taihe Chemicals ImportGenius India profile: same supplier shipped PBTC 50% (CAS 37971-36-1) to SAANVI CORP (10 t, Sep 1 2025), HEDP 60% to Finor Piplaj Chemicals (15.08 t, Jun 30 2025); other Indian buyers: Thermax, Ion Exchange (India), Aquapharm, Trigenesis, Astec Lifesciences. Prices paywalled.",
+   "source": "https://www.importgenius.com/india/suppliers/shandong-taihe-chemicals-co-ltd"
+  }
+ ],
+ "india_import_unit_values": [
+  {
+   "type": "DGTR final findings (official, DGCI&S-based)",
+   "product": "HEDP Acid, 60%-equivalent, China PR",
+   "period": "POI Apr 2024-Mar 2025",
+   "landed_price_inr_per_t": {
+    "2021-22": 160016,
+    "2022-23": 146823,
+    "2023-24": 93054,
+    "2024-25(POI)": 93789
+   },
+   "import_volume_t": {
+    "2021-22": 5115,
+    "2022-23": 2646,
+    "2023-24": 1453,
+    "POI": 1967
+   },
+   "fx_used": "1 USD = INR 85.43",
+   "derived_estimate": "landed INR 93,789/t = USD ~1,098/t landed; assuming landed = CIF + ~10% BCD+SWS (assumption), CIF ~ USD 0.99-1.01/kg (ESTIMATE)",
+   "note": "90% of HEDP imports are 60% liquid; other concentrations converted to 60% equivalent. China = 99-100% of imports.",
+   "source": "https://dgtr.gov.in/sites/default/files/2026-09/FF%20NCV%20Phosphonic%20Acids%2025.09.2026%20%281%29.pdf"
+  },
+  {
+   "type": "DGTR final findings",
+   "product": "ATMP Acid 50%, China PR (reference for phosphonate pricing)",
+   "landed_price_inr_per_t": {
+    "2021-22": 156977,
+    "2022-23": 141000,
+    "2023-24": 89179,
+    "POI": 87217
+   },
+   "source": "https://dgtr.gov.in/sites/default/files/2026-09/FF%20NCV%20Phosphonic%20Acids%2025.09.2026%20%281%29.pdf"
+  },
+  {
+   "type": "TradeStat EIDB annual (basket code, NOT product-specific)",
+   "hs": "29319090",
+   "partner": "China P RP",
+   "2024-25": {
+    "usd_mn": 148.23,
+    "qty_kg": 35986640,
+    "unit_value_usd_kg": 4.12
+   },
+   "2025-26": {
+    "usd_mn": 125.15,
+    "qty_kg": 39692102,
+    "unit_value_usd_kg": 3.15
+   },
+   "note": "basket of many organophosphorus compounds; unit value not usable as HEDP/PBTC price. HS 29314900 returned no data in TradeStat.",
+   "source": "https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import"
+  },
+  {
+   "type": "TradeStat MEIDB monthly (basket)",
+   "hs": "29319090",
+   "partner": "China P RP",
+   "Apr-Aug 2025": {
+    "usd_mn": 67.22,
+    "qty_kg": 21420492,
+    "uv_usd_kg": 3.14
+   },
+   "Apr-Aug 2026": {
+    "usd_mn": 72.31,
+    "qty_kg": 19518919,
+    "uv_usd_kg": 3.7
+   },
+   "Aug 2026": {
+    "usd_mn": 10.95,
+    "qty_kg": 2461898,
+    "uv_usd_kg": 4.45
+   },
+   "note": "basket code; trend indicator only (unit values rising in 2026)",
+   "source": "https://tradestat.commerce.gov.in/meidb/commodity_wise_all_countries_import"
+  },
+  {
+   "type": "UN Comtrade public preview, India(699) imports from China(156)",
+   "293190": {
+    "2024": {
+     "usd": 164606614,
+     "kg": 41220323,
+     "uv": 3.99
+    },
+    "2025": {
+     "usd": 144804885,
+     "kg": 42933993,
+     "uv": 3.37
+    }
+   },
+   "293149": {
+    "2024": {
+     "usd": 5469849,
+     "kg": 1936237,
+     "uv": 2.83
+    },
+    "2025": {
+     "usd": 5272641,
+     "kg": 1935068,
+     "uv": 2.72
+    }
+   },
+   "note": "basket codes",
+   "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=699&partnerCode=156&flowCode=M&cmdCode=293190"
+  },
+  {
+   "type": "historic shipment-level (Zauba/Seair, 2015-2016)",
+   "HEDP60_cif_usd_kg": "0.71-0.81 (mostly 0.74-0.79), Nhava Sheva, China origin, 2016; Zauba avg 0.97 over 97 records 2013-16",
+   "PBTC50_cif_usd_kg": "0.92-1.11 (2016), Zauba avg 1.41 over 2013-16",
+   "sources": [
+    "https://www.zauba.com/import-hedp-60/hs-code-29319090-hs-code.html",
+    "https://www.seair.co.in/hedp-import-data.aspx",
+    "https://www.zauba.com/import-pbtc-50/hs-code-29319090-hs-code.html",
+    "https://www.seair.co.in/pbtc-50-import-data.aspx",
+    "https://www.seair.co.in/pbtca-import-data.aspx"
+   ]
+  },
+  {
+   "type": "Pharmaoffer aggregate (etidronic acid, all grades incl. API, 42 jurisdictions)",
+   "avg_usd_kg": 1.74,
+   "period": "12 months to 31 Aug 2026",
+   "note": "+73.3% last 90d vs prior 90d per page; mixed grades - weak signal",
+   "source": "https://pharmaoffer.com/api-excipient-supplier/transactions/etidronic-acid"
+  }
+ ],
+ "india_domestic_prices": [
+  {
+   "product": "HEDP 60%",
+   "source_page": "IndiaMART category (undated listings)",
+   "listings_inr_per_kg": [
+    [
+     "Acuro Organics, New Delhi",
+     97
+    ],
+    [
+     "Maxwell Additives (Phosphoman), Vadodara",
+     95
+    ],
+    [
+     "Ozone Specialities, Ahmedabad",
+     100
+    ],
+    [
+     "Meruchem, Mumbai",
+     100
+    ],
+    [
+     "Chemitex India, Udaipur",
+     99
+    ],
+    [
+     "unnamed, 290 kg HMHDPE drums",
+     92
+    ],
+    [
+     "Ozone Enterprise, Ahmedabad",
+     110
+    ],
+    [
+     "Salius Pharma, Navi Mumbai",
+     125
+    ],
+    [
+     "G J Pharmaceuticals, Thane",
+     125
+    ],
+    [
+     "Stenfy Chem, Daman",
+     145
+    ],
+    [
+     "RBM Green Airfil, Vadodara",
+     155
+    ]
+   ],
+   "typical": "INR 92-110/kg (likely ex-GST, small packs)",
+   "source": "https://dir.indiamart.com/impcat/hydroxyethylidene-diphosphonic-acid.html"
+  },
+  {
+   "product": "HEDP 60%",
+   "seller": "Acuro Organics Ltd (domestic producer/trader)",
+   "price_inr_per_kg": 100,
+   "moq": "60",
+   "date": "TradeIndia page",
+   "source": "https://www.tradeindia.com/products/hedp-60-c3861124.html"
+  },
+  {
+   "product": "HEDP 60%",
+   "signal": "DGTR public-interest table uses landed price INR 94/kg; domestic industry (Aquapharm Chemical Ltd, Excel Industries Ltd = 100% of Indian output) selling price fell ~39% 2021-22 to POI; price undercutting by imports in POI was NEGATIVE (imports landed above DI net realisation) => domestic ex-works < INR 94/kg in FY24-25",
+   "source": "https://dgtr.gov.in/sites/default/files/2026-09/FF%20NCV%20Phosphonic%20Acids%2025.09.2026%20%281%29.pdf"
+  },
+  {
+   "product": "PBTC 50%",
+   "source_page": "IndiaMART category (undated)",
+   "listings_inr_per_kg": [
+    [
+     "Maxwell Additives, Vadodara",
+     115
+    ],
+    [
+     "Aries Chemtech, Vadodara (assay >=60%?)",
+     110
+    ],
+    [
+     "Triveni Chemicals, Vapi",
+     125
+    ],
+    [
+     "S V Trading, Pune",
+     175
+    ],
+    [
+     "Kalpatharu Chemicals, Chennai",
+     180
+    ],
+    [
+     "others",
+     [
+      140,
+      150,
+      160,
+      165,
+      170,
+      198,
+      251
+     ]
+    ]
+   ],
+   "typical": "INR 110-125/kg low end (bulk producers/traders), INR 150-200 small-lot",
+   "source": "https://dir.indiamart.com/impcat/phosphono-butane-tricarboxylic-acid.html"
+  }
+ ],
+ "china_fob_benchmarks": [
+  {
+   "product": "HEDP 60%",
+   "source": "Made-in-China listings (asking, undated, FOB not always stated)",
+   "offers_usd_per_t": [
+    [
+     "Henan Honghai Chemical",
+     650,
+     750
+    ],
+    [
+     "Hebei Haody Technology",
+     600,
+     1000
+    ],
+    [
+     "LK (Nanjing), MOQ 24 t",
+     799,
+     1299
+    ],
+    [
+     "Henan Brilliant Biotech, MOQ 25 t",
+     850,
+     1200
+    ],
+    [
+     "Reap Chemical",
+     1000,
+     1200
+    ],
+    [
+     "Shenyang Xingzhenghe",
+     1100,
+     1200
+    ]
+   ],
+   "median_mid_moq_ge_1t": 1100,
+   "url": "https://www.made-in-china.com/products-search/hot-china-products/Hedp_60.html"
+  },
+  {
+   "product": "HEDP (national std)",
+   "source": "chinabgao.com, Zaozhuang Shandong, brand Lvzhineng, ex-factory",
+   "date": "2025-03-12",
+   "price_cny_per_t": 6350,
+   "url": "https://m.chinabgao.com/jiage/61976818.html"
+  },
+  {
+   "product": "PBTC 50%",
+   "source": "Made-in-China price page (asking, undated)",
+   "offers_usd_per_t": [
+    [
+     "Yantai Wenxu Industrial, MOQ 5 t",
+     700,
+     1200
+    ],
+    [
+     "LK (Nanjing), MOQ 20 t",
+     999,
+     1999
+    ],
+    [
+     "Changzhou Koye Chemical",
+     1150,
+     1250
+    ],
+    [
+     "Lonwin Industry Group",
+     500,
+     1200
+    ],
+    [
+     "Wuhan Golden Wing, MOQ 16 t",
+     1900,
+     2500
+    ],
+    [
+     "Dalian Sinobio (per kg ranges)",
+     1100,
+     2900
+    ]
+   ],
+   "url": "https://www.made-in-china.com/price/pbtc-50%25-price.html"
+  },
+  {
+   "product": "HEDP trend",
+   "source": "Procurement Resource 2026 page: H1-2025 Asia under pressure (oversupplied acetic acid, PCl3 down); H2-2025 stable-to-slightly-firm; outlook stable. No numbers public.",
+   "url": "https://www.procurementresource.com/resource-center/hedp-etidronic-acid-price-trends"
+  },
+  {
+   "note": "No dated Oct-Nov 2026 FOB assessment for HEDP or PBTCA found on open pages (SunSirs/ChemAnalyst/Echemi have no free HEDP/PBTCA series). Indian basket unit values for 29319090 from China rose in Apr-Aug 2026 vs 2025 (TradeStat), and Chembond management cited sharp raw-material inflation from late Q3 FY26."
+  }
+ ],
+ "anti_dumping": {
+  "HEDP": "YES - DGTR recommended. Case AD(OI)-47/2025, File 6/52/2025-DGTR. Initiated 29/09/2025 (applicants Aquapharm Chemical Ltd & Excel Industries Ltd). Final Findings dated 25/09/2026 recommend ADD of USD 200/MT on HEDP Acid originating in China PR (also China-origin exported from any country; and any-country exports of China-origin) for 5 years, under ITC-HS 29182910, 29221990, 29314990, 29315900, 29319019, 29319090, 29420090, 38099200, 38249900. Dumping margin 30-40%, injury margin 10-20%.",
+  "ATMP": "YES - same findings: USD 214/MT on ATMP Acid from China PR.",
+  "PBTC": "NO - PBTC/PBTCA is not covered by this case or any found Indian ADD (DTPMP was also dropped at initiation).",
+  "status_of_customs_notification": "As of 2026-11-11 NOT yet notified by Ministry of Finance: latest CBIC ADD notifications seen are 24/2026 (jute, 24.09.2026), 25/2026 (rescission), 26/2026 (titanium dioxide, 24.10.2026), 27/2026 (rock breaker, 05.11.2026) - none on HEDP/ATMP. MoF normally has 3 months from FF (i.e. to ~25 Dec 2026) to impose. Duty would apply per MT of goods (60% liquid basis implied by DGTR's per-MT 60%-equivalent analysis; DGTR public-interest table converts USD 200/MT to INR 17/kg on HEDP landed INR 94/kg).",
+  "scope_note": "Duty applies to China-ORIGIN goods even if shipped/invoiced by a US trader; salts, formulations and derivatives are excluded.",
+  "sources": [
+   "https://www.dgtr.gov.in/en/anti-dumping-cases/anti-dumping-investigation-concerning-imports-certain-organophosphonates",
+   "https://dgtr.gov.in/sites/default/files/2026-09/FF%20NCV%20Phosphonic%20Acids%2025.09.2026%20%281%29.pdf",
+   "https://tpm.in/news_center/initiation-of-anti-dumping-investigation-into-imports-of-certain-organophosphonates-phosphonic-acids-viz-i-hedp-acid-and-ii-atmp-acid-from-china-29-09-2025/",
+   "https://dgtr.gov.in/sites/default/files/2025-12/Updated%20Interesed%20parties%20list.pdf",
+   "https://onlinetaxupdate.com/category/customs/customs-add/",
+   "https://www.taxmanagementindia.com/visitor/notifications.asp?ID=4&type=Customs-ADD",
+   "https://taxguru.in/custom-duty/notification-no-25-2026-customs-add-rescinds-notification-no-12-2025-customs-add.html"
+  ],
+  "interested_parties_note": "Chembond is NOT on the DGTR interested-parties list (only Vasu Chemicals LLP as importer/user, domestic industry, Chinese embassy)."
+ },
+ "chembond_financials": [
+  {
+   "entity": "Chembond Chemicals Ltd (formerly Chembond Chemical Specialties Ltd), consolidated FY2025-26",
+   "revenue_inr_lakh": 32615.06,
+   "prev": 29227.34,
+   "cost_of_materials_consumed_inr_lakh": 13450.6,
+   "prev_cmc": 11147.37,
+   "raw_materials_imported_inr_lakh": 4402.91,
+   "imported_prev": 3109.03,
+   "raw_materials_indigenous_inr_lakh": 9047.7,
+   "purchases_stock_in_trade_inr_lakh": 2813.34,
+   "note": "imported raw materials +42% y/y, ~33% of materials consumed",
+   "source": "https://www.chembondindia.com/wp-content/uploads/2026/07/CCL-ANnual-Report-2025-26.pdf"
+  },
+  {
+   "entity": "Chembond Water Technologies Ltd (100% subsidiary) FY2025-26, AOC-1",
+   "turnover_inr_lakh": 26490.57,
+   "pat_inr_lakh": 2627.79,
+   "source": "https://www.chembondindia.com/wp-content/uploads/2026/07/CCL-ANnual-Report-2025-26.pdf"
+  },
+  {
+   "entity": "Chembond Chemicals Ltd FY26 results commentary",
+   "points": "Revenue INR 326.15 cr (+12%); water technologies 87% of revenue; Water BU H2 revenue INR 162.16 cr vs 120.31 cr H1, volume 14,813 MT vs 9,905 MT; ~28-30% of water business with PSUs (power plants, refineries); management: sharp raw-material inflation (zinc, molybdenum), force majeure price increases, ~2 quarters lag to pass through, ~3% immediate margin hit, PSUs slower to revise.",
+   "sources": [
+    "https://www.multibagg.ai/market-pulse/articles/chembond-fy26-update-94134",
+    "https://scanx.trade/stock-market-news/companies/chembond-chemicals-fy26-revenue-rises-12-to-326-15-crore/41429348"
+   ]
+  },
+  {
+   "entity": "Chembond Material Technologies Ltd (formerly Chembond Chemicals Ltd - the other listed group company) FY26",
+   "consolidated_net_sales_inr_lakh": 25007.4,
+   "cost_of_materials_inr_lakh": 14724.15,
+   "note": "management: sharp increase in raw material prices from late Q3 cut product/gross margin >2 pp",
+   "source": "https://nsearchives.nseindia.com/annual_reports/AR_29438_CHEMBOND_2025_2026_A_10122225_24062026173253.pdf"
+  },
+  {
+   "entity": "Chembond Chemicals Ltd H1 FY26 investor meet (Nov 2025)",
+   "points": "H1 margin gains 'because of lower raw material cost'; distribution BU imports specialty chemicals incl. for water treatment.",
+   "source": "https://www.chembondindia.com/wp-content/uploads/2025/11/CCLTranscriptofinvestormeet.pdf"
+  }
+ ],
+ "recommended_cif_range": {
+  "HEDP60": "ESTIMATE: USD 880-950/t CIF Nhava Sheva (60% liquid, 1,250-1,300 kg IBC or 250-270 kg drums) while no ADD is in force; if MoF notifies the USD 200/t ADD on China-origin HEDP (expected by ~late Dec 2026), China-origin offer must drop to ~USD 720-800/t CIF to stay competitive with domestic Aquapharm/Excel, or quote non-China origin.",
+  "PBTCA50": "ESTIMATE: USD 1,150-1,300/t CIF Nhava Sheva (no ADD risk). Opening ~USD 1,280, floor ~USD 1,150.",
+  "reasoning": "(1) HEDP: DGTR shows FY24-25 China landed INR 93,789/t (60% basis) = ~USD 1,098/t landed at 85.43 => ~USD 0.99-1.01/kg CIF (assumes ~10% BCD+SWS in landed; assumption). Domestic producers sold BELOW that landed price (negative undercutting), and IndiaMART domestic HEDP 60% sits at INR 92-110/kg (~USD 1.05-1.25/kg at assumed INR 88/USD, unverified FX). Chinese asking FOB clusters USD 650-1,200/t (median ~1,100, credible bulk offers 650-950); Shandong ex-works was CNY 6,350/t in Mar 2025. 2016 contract-level CIF was 0.74-0.79. For Chembond (~600 t/yr = ~30% of India's 1,967 t HEDP imports in POI), parity vs domestic ~INR 95/kg means CIF <= ~USD 0.98/kg without ADD (0.98*1.10 duty ~ 1.08 = INR 95 at 88) and <= ~USD 0.80/kg with ADD (+0.20). A 5-10% discount to parity gives the ranges above. (2) PBTCA: no recent Indian shipment price visible; 2016 CIF 0.92-1.11/kg; Chinese asks USD 700-2,000/t with credible producers 1,150-1,250 (Changzhou Koye) and LK Nanjing 999-1,999; domestic low end INR 110-125/kg (~USD 1.25-1.42/kg) => import parity CIF <= ~USD 1.15-1.29/kg. Rising 2026 basket unit values (TradeStat 29319090 China Apr-Aug 2026 USD 3.70/kg vs 3.14) and Chembond's comments on input inflation argue against quoting at the bottom. (3) ISP as US middleman adds margin + freight on Chinese FOB; check that Chinese FOB for HEDP60 is <= ~USD 780-850 and PBTCA50 <= ~USD 1,050-1,150 to fit. All recommendation numbers are estimates; ocean freight China->INNSA not verified."
+ },
+ "sources": [
+  {
+   "url": "Made-in-China listings (asking, undated, FOB not always stated)",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "Made-in-China price page (asking, undated)",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "Procurement Resource 2026 page: H1-2025 Asia under pressure (oversupplied acetic acid, PCl3 down); H2-2025 stable-to-slightly-firm; outlook stable. No numbers public.",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "chinabgao.com, Zaozhuang Shandong, brand Lvzhineng, ex-factory",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=699&partnerCode=156&flowCode=M&cmdCode=293190",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://dgtr.gov.in/sites/default/files/2025-12/Updated%20Interesed%20parties%20list.pdf",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://dgtr.gov.in/sites/default/files/2026-09/FF%20NCV%20Phosphonic%20Acids%2025.09.2026%20%281%29.pdf",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://dir.indiamart.com/impcat/hydroxyethylidene-diphosphonic-acid.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://dir.indiamart.com/impcat/phosphono-butane-tricarboxylic-acid.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://m.chinabgao.com/jiage/61976818.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://nsearchives.nseindia.com/annual_reports/AR_29438_CHEMBOND_2025_2026_A_10122225_24062026173253.pdf",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://onlinetaxupdate.com/category/customs/customs-add/",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://pharmaoffer.com/api-excipient-supplier/transactions/etidronic-acid",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://scanx.trade/stock-market-news/companies/chembond-chemicals-fy26-revenue-rises-12-to-326-15-crore/41429348",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://taxguru.in/custom-duty/notification-no-25-2026-customs-add-rescinds-notification-no-12-2025-customs-add.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://tpm.in/news_center/initiation-of-anti-dumping-investigation-into-imports-of-certain-organophosphonates-phosphonic-acids-viz-i-hedp-acid-and-ii-atmp-acid-from-china-29-09-2025/",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://tradestat.commerce.gov.in/eidb/commodity_wise_all_countries_import",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://tradestat.commerce.gov.in/meidb/commodity_wise_all_countries_import",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.chembondindia.com/wp-content/uploads/2025/11/CCLTranscriptofinvestormeet.pdf",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.chembondindia.com/wp-content/uploads/2026/07/CCL-ANnual-Report-2025-26.pdf",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.dgtr.gov.in/en/anti-dumping-cases/anti-dumping-investigation-concerning-imports-certain-organophosphonates",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.importgenius.com/india/importers/chembond-water-technologies-limited",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.importgenius.com/india/suppliers/shandong-taihe-chemicals-co-ltd",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.made-in-china.com/price/pbtc-50%25-price.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.made-in-china.com/products-search/hot-china-products/Hedp_60.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.multibagg.ai/market-pulse/articles/chembond-fy26-update-94134",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.procurementresource.com/resource-center/hedp-etidronic-acid-price-trends",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.seair.co.in/hedp-import-data.aspx",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.seair.co.in/pbtc-50-import-data.aspx",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.seair.co.in/pbtca-import-data.aspx",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.taxmanagementindia.com/visitor/notifications.asp?ID=4&type=Customs-ADD",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.tradeindia.com/products/hedp-60-c3861124.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.zauba.com/import-hedp-60/hs-code-29319090-hs-code.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.zauba.com/import-pbtc-50/hs-code-29319090-hs-code.html",
+   "accessed": "2026-11-11"
+  },
+  {
+   "url": "https://www.seair.co.in/pbtc-50-import-data.aspx",
+   "accessed": "2026-11-11"
+  },
+  {
+   "blocked_cloudflare_not_bypassed": [
+    "volza.com (HEDP, PBTC India import pages)",
+    "eximpedia.app",
+    "exportgenius.in",
+    "zauba.com import-hedp/import-pbtc generic pages",
+    "seair.co.in pbtc-import-data / hedp-60",
+    "made-in-china (playwright; read via fetch)",
+    "indiamart proddetail pages (429)"
+   ],
+   "accessed": "2026-11-11"
+  }
+ ]
+}
