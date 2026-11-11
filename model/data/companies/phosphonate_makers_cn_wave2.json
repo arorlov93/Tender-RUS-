@@ -1,0 +1,314 @@
+[
+ {
+  "company": "Henan Qingshuiyuan Technology Co., Ltd. (河南清水源科技股份有限公司, SZSE 300437) - export/production via wholly-owned Jiyuan Qingyuan Water Treatment Co., Ltd. (济源市清源水处理有限责任公司)",
+  "city": "Jiyuan (Zhicheng Town), Henan, China",
+  "website": "http://www.qywt.net/ (English, water-treatment chemicals); group site https://www.qywt.com.cn/",
+  "products": [
+   "HEDP 2809-21-4",
+   "ATMP 6419-19-8",
+   "PBTC(A) 37971-36-1",
+   "DTPMPA 15827-60-8",
+   "HPAA",
+   "BHMTPMPA",
+   "PAPEMP",
+   "HEMPA",
+   "phosphonate salts (ATMP.Na4/Na5, EDTMPA.Na5, DTPMPA.Nax)",
+   "polymers",
+   "BTA/TTA",
+   "biocides"
+  ],
+  "product_urls": [
+   "http://www.qywt.net/lists/8.html",
+   "http://www.qywt.net/shows/8/46.html",
+   "http://www.qywt.net/shows/8/43.html",
+   "http://www.qywt.net/shows/8/47.html",
+   "http://www.qywt.net/shows/8/45.html"
+  ],
+  "capacity_evidence": "Company profile: est. 1995, 'one of the leading manufacturers of water treatment chemicals in China', drafted 24 national/45 industry standards, exports to 50+ countries, ISO9001/14001/45001, REACH/NSF/AEO certificates; site has 'Visit factory > Plant' section (http://www.qywt.net/lists/15.html, http://www.qywt.net/lists/28.html). US DOC antidumping order on HEDP from PRC (FR 2017-10078, 18 May 2017) lists Henan Qingshuiyuan Technology as PRODUCER and exporter of HEDP (separate rate 90.64%). No tonnage figure found on pages opened.",
+  "email": "sales@qywt.com.cn",
+  "other_emails": [
+   "qysales@qywt.com.cn (ChemicalBook listing only)",
+   "bgs@qywt.com.cn (group office, qywt.com.cn)"
+  ],
+  "phone": "+86-391-6082211 (Overseas Marketing); fax +86-391-6088611; ChemicalBook: 0391-6089345/2121",
+  "contact_person": null,
+  "sources": [
+   "http://www.qywt.net/",
+   "http://www.qywt.net/lists/15.html",
+   "http://www.qywt.net/lists/6.html",
+   "http://www.qywt.net/lists/8.html",
+   "https://www.qywt.com.cn/",
+   "https://www.chemicalbook.com/ShowSupplierProductsDetail_1466032_0_EN.aspx",
+   "https://www.govinfo.gov/content/pkg/FR-2017-05-18/pdf/2017-10078.pdf"
+  ],
+  "verified": false,
+  "note": "Genuine listed manufacturer; strongest fit for HEDP 60% + PBTCA 50%. E-mail NOT double-confirmed: own site gives sales@qywt.com.cn, ChemicalBook gives qysales@qywt.com.cn (same corporate domain, different mailbox). Suggest RFQ to sales@ with cc qysales@. OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Jiangsu Yao's Environmental Protection Technology Co., Ltd. (江苏姚氏环保技术有限公司; listed on ChemicalBook as Changzhou Yao Tongde Chemical Co. / 常州姚氏同德化工有限公司)",
+  "city": "Changzhou (Zhenglu Industrial Park, Tianning/Wujin), Jiangsu, China",
+  "website": "http://www.chinatongde.com/ (EN: http://www.chinatongde.com/enindex.htm)",
+  "products": [
+   "HEDP series",
+   "ATMP series",
+   "PBTC series",
+   "DTPMPA series",
+   "EDTMPA",
+   "BHMTPMPA",
+   "HPAA",
+   "PAPEMP",
+   "HMDTMPA",
+   "PAA/HPMA/MA-AA/AA-AMPS polymers",
+   "1227/isothiazolinone biocides",
+   "BTA/TTA/MBT"
+  ],
+  "product_urls": [
+   "http://www.chinatongde.com/html/encpzs1-1/",
+   "http://www.chinatongde.com/html/encpzs1-5/"
+  ],
+  "capacity_evidence": "Chinese homepage: founded early 1990s, 'comprehensive large factory' for R&D/production of water-treatment agents, 'production capacity exceeds 20,000 t', 80+ products; EN page: est. 1997, ISO9001 since 2001 (http://www.chinatongde.com/, http://www.chinatongde.com/enindex.htm).",
+  "email": "webmaster@chinatongde.com",
+  "other_emails": [],
+  "phone": "+86-519-88733208 (sales direct); +86-519-88732401 ext.0 (factory); +86-519-88932391; fax +86-519-88732040; GM mobile +86-13809075008",
+  "contact_person": "Yao Bin (姚斌), General Manager",
+  "sources": [
+   "http://www.chinatongde.com/",
+   "http://www.chinatongde.com/enindex.htm",
+   "http://www.chinatongde.com/html/lxwm/",
+   "http://www.chinatongde.com/html/encpzs1-1/",
+   "http://www.chinatongde.com/html/encpzs1-5/",
+   "https://www.chemicalbook.com/ShowSupplierProductsDetail_9168_0_EN.aspx"
+  ],
+  "verified": true,
+  "note": "E-mail confirmed on own site and ChemicalBook (supplier 9168). Mailbox is generic 'webmaster@' - follow up by phone to sales line 0519-88733208. ChemicalBook product list includes 2809-21-4, 6419-19-8, 15827-60-8. OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Changzhou Koye Chemical Co., Ltd. (常州科益化工有限公司), export company of Jiaerke Group",
+  "city": "Changzhou, Jiangsu, China (office Rm1116-1117 ECO Business Plaza, Guanhe Road)",
+  "website": "http://www.koyechem.com/ (https: certificate mismatch; use http)",
+  "products": [
+   "HEDP 58-62% and solid 90%",
+   "ATMP 48-52% and solid",
+   "PBTC 49-51%",
+   "other organic phosphonates and salts",
+   "polycarboxylates",
+   "biocides",
+   "APIs/intermediates"
+  ],
+  "product_urls": [
+   "http://www.koyechem.com/product_list/typeid/6.html",
+   "http://www.koyechem.com/product_detail/id/105.html",
+   "http://www.koyechem.com/product_detail/id/109.html",
+   "http://www.koyechem.com/product_detail/id/97.html"
+  ],
+  "capacity_evidence": "About page: 'Our group company is a professional enterprise on water treatment, possessing 20000T/a of capacity for Phosphonates & 3000T/a of capacity for polymers' (http://www.koyechem.com/about.html). Made-in-China BV-audited profile: affiliated to Changzhou Jiaerke Group, est. 2010, ISO9001:2015. Koye itself is the import/export arm; site e-mail domains keweichem.com/kwchem.com match Changzhou Kewei Fine Chemical Factory (KWCHEM), which is named as an HEDP producer in the 2017 US HEDP CVD order list (inference from shared domains, not stated by Koye).",
+  "email": "kw@keweichem.com",
+  "other_emails": [
+   "kw@kwchem.com (site 'Feedback')",
+   "Lydia@kwchem.com (ChemicalBook only)"
+  ],
+  "phone": "Water treatment chemical dept +86-519-88178050; +86-519-88172211; +86-519-88179958 / 81882581; fax +86-519-88172212",
+  "contact_person": "Lydia (per ChemicalBook only)",
+  "sources": [
+   "http://www.koyechem.com/",
+   "http://www.koyechem.com/about.html",
+   "http://www.koyechem.com/contact.html",
+   "http://www.koyechem.com/product_list/typeid/6.html",
+   "https://www.chemicalbook.com/ShowSupplierProductsDetail_1217027_0_EN.aspx",
+   "https://koyechem.en.made-in-china.com/company-Changzhou-Koye-Chemical-Co-Ltd-.html",
+   "https://allproducts.com/manufacture100/Keweifine/",
+   "https://s3.amazonaws.com/public-inspection.federalregister.gov/2017-05804.pdf"
+  ],
+  "verified": false,
+  "note": "No single address appears on both own site and a directory (site: kw@keweichem.com / kw@kwchem.com; ChemicalBook: Lydia@kwchem.com). Exporter-of-group-plant model, not a stand-alone plant at the office address. Sells PBTC 50% and HEDP 60% grades explicitly. OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Zaozhuang Jialu Chemical Co., Ltd. (枣庄市佳鹭化工有限公司; formerly Shandong Aona Chemical / 山东奥纳化工)",
+  "city": "Plant: Liuyuan Town, Yicheng District, Zaozhuang, Shandong; international trade dept: Wanda Plaza A-2616, 33 Lianyungang Rd, Qingdao",
+  "website": "http://www.jialuchem.com/",
+  "products": [
+   "ATMP",
+   "HEDP",
+   "EDTMPS",
+   "DTPMPA",
+   "PBTCA",
+   "SADP",
+   "HPAA",
+   "PAPE",
+   "phosphonate salts",
+   "polycarboxylates",
+   "biocides",
+   "copper inhibitors"
+  ],
+  "product_urls": [
+   "http://www.jialuchem.com/index.php?m=content&c=index&a=lists&catid=18",
+   "http://www.jialuchem.com/index.php?m=content&c=index&a=show&catid=18&id=16",
+   "http://www.jialuchem.com/index.php?m=content&c=index&a=show&catid=18&id=20"
+  ],
+  "capacity_evidence": "About page: founded 1998 (ex-Aona Chemical), fixed assets >RMB 50 m, site area >400 mu, 'largest chemical enterprise in southern Shandong'; exports to 30+ countries; plant address in Liuyuan Town, Yicheng, Zaozhuang (http://www.jialuchem.com/index.php?m=content&c=index&a=lists&catid=2 and catid=5). No tonnage stated.",
+  "email": "aona@jialuchem.com",
+  "other_emails": [
+   "aona@watertreatmentchem.com (on contact page)"
+  ],
+  "phone": "Factory +86-632-3818188; Qingdao int'l trade +86-532-66000120; Luoyang branch +86-379-65996168",
+  "contact_person": null,
+  "sources": [
+   "http://www.jialuchem.com/",
+   "http://www.jialuchem.com/index.php?m=content&c=index&a=lists&catid=5",
+   "http://www.jialuchem.com/index.php?m=content&c=index&a=lists&catid=2",
+   "http://www.jialuchem.com/index.php?m=content&c=index&a=lists&catid=18"
+  ],
+  "verified": false,
+  "note": "Own site confirms e-mail; second-source directories (b2usa/b2brazil hotsite, ExportHub, EC21) are behind Cloudflare challenge and were not opened, so no independent confirmation. Site is Chinese-only and dated (c2018). OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Shandong IRO Water Treatment Co., Ltd. (IRO Group)",
+  "city": "Office: No.19 Zhangzhou 2nd Rd, Qingdao; plant: Tongda Road, Lunan Hi-Tech Chemical Industrial Area, Mushizi Town, Zaozhuang, Shandong",
+  "website": "https://www.irowater.com/",
+  "products": [
+   "HEDP 60%",
+   "PBTC 50%",
+   "ATMP",
+   "DTPMP",
+   "PAPEMP",
+   "polymers (PAA, PMA, AA/AMPS, PASP, PESA)",
+   "biocides"
+  ],
+  "product_urls": [
+   "https://www.irowater.com/products/hedp-60/",
+   "https://www.irowater.com/products/pbtc-50/",
+   "https://www.irowater.com/products/amino-trimethylene-posphonic-acid/",
+   "https://www.irowater.com/products/detpmp-dtpmp/"
+  ],
+  "capacity_evidence": "Contact page gives Zaozhuang chemical-park plant address; 'Factory' photo page (https://www.irowater.com/factory/); describes itself as 'supplier and manufacturer'. US affiliate IRO Specialty Chemicals USA, LLC (Chesterfield, VA). No tonnage on pages opened.",
+  "email": "info@irowater.com",
+  "other_emails": [
+   "jeff.thomas@irowater.com (IRO Specialty Chemicals USA, LLC)"
+  ],
+  "phone": "+86-532-85027466; +86-532-85028486; USA +1-804-245-2256",
+  "contact_person": "Jeff Thomas (US affiliate, per contact page)",
+  "sources": [
+   "https://www.irowater.com/",
+   "https://www.irowater.com/about/",
+   "https://www.irowater.com/contact/",
+   "https://www.irowater.com/factory/",
+   "https://www.irowater.com/products/hedp-60/",
+   "https://www.irowater.com/products/pbtc-50/"
+  ],
+  "verified": false,
+  "note": "E-mail only on own site; Energy-XPRT/Environmental-Expert directory page is behind a bot check and was not opened. Marketing-heavy brand with broad portfolio - confirm in RFQ that HEDP/PBTCA are made in their own Zaozhuang plant. US affiliate could be convenient for a US trader. OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Shandong Guiquan Chemical Co., Ltd. (山东贵泉化学股份有限公司)",
+  "city": "Zaozhuang, Shandong (inferred from 0632 area code; address not seen)",
+  "website": "https://www.guiquanchem.com/ (blocked by Cloudflare 'Attention Required' - not opened)",
+  "products": [
+   "per ChemicalBook CAS list: 6419-19-8 (ATMP), 2809-21-4 (HEDP), 37971-36-1 (PBTC), 15827-60-8 (DTPMPA), 23783-26-8 (HPAA), 40623-75-4, 2235-43-0, 34690-00-1, 7414-83-7, 139-07-1, TTA etc. (93 products)"
+  ],
+  "product_urls": [],
+  "capacity_evidence": "None seen (own site not accessible).",
+  "email": "sales@guiquanchem.com",
+  "other_emails": [],
+  "phone": "0632-6770009; 18706327773 (ChemicalBook)",
+  "contact_person": null,
+  "sources": [
+   "https://www.chemicalbook.com/ShowSupplierProductsDetail_18293_0_EN.aspx"
+  ],
+  "verified": false,
+  "note": "Single source only (ChemicalBook); manufacturer status, plant and products not confirmed from own site. OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Shandong Yuanlian Chemical Co., Ltd. (山东远联化工)",
+  "city": "Jiaxiang County (Economic Development Zone, Xinmin Street), Jining, Shandong",
+  "website": "https://www.yuanlianchem.com/",
+  "products": [
+   "HEDP / HEDP-2Na / HEDP-4Na",
+   "ATMP (per ChemicalBook profile)",
+   "GLDA, MGDA, IDS, EDDS, ASDA, EDTA",
+   "PASP, PSI, PESA",
+   "polymers"
+  ],
+  "product_urls": [
+   "https://www.yuanlianchem.com/products/hedp/"
+  ],
+  "capacity_evidence": "ChemicalBook enterprise certification: type Manufacturer, founded 2015-07-16, reg. capital CNY 17.65 m, 'annual production capacity of various additives more than 75,000 tons'; own site: chelating agents 'annual output 20000 tons' / 'more than 10,000 tons'.",
+  "email": "chem@yuanlianchem.com",
+  "other_emails": [
+   "ada@yuanlianchem.com (contact page)"
+  ],
+  "phone": "+86-537-3739818; mobile/WhatsApp/WeChat +86-13345172159",
+  "contact_person": null,
+  "sources": [
+   "https://www.yuanlianchem.com/",
+   "https://www.yuanlianchem.com/contact.html",
+   "https://www.yuanlianchem.com/products/hedp/",
+   "https://www.chemicalbook.com/EnterpriseCertification_EN_25455456.htm"
+  ],
+  "verified": false,
+  "note": "Phone/WhatsApp +86-13345172159 matches between own site and ChemicalBook, but ChemicalBook shows no e-mail, so e-mail is single-source. HEDP only - no PBTCA, DTPMPA on site; ChemicalBook licence validity shown as ending 2026-03-19 (check renewal). OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Jianghai Environmental Protection Co., Ltd. (江海环保有限公司; 'Jiangsu Jianghai')",
+  "city": "Wucheng Industrial Park, Zhenglu Town, Tianning District, Changzhou, Jiangsu",
+  "website": "https://www.jhhg.com/ (old domain jianghaichem.com now hosts unrelated spam)",
+  "products": [
+   "current site lists polymers (HPMA, MA-AA, PAA, PCA, AA-AMPS, PESA), flocculants, cleaners, dosing equipment and services; HEDP/PBTCA NOT listed"
+  ],
+  "product_urls": [
+   "https://www.jhhg.com/prolist/1.html"
+  ],
+  "capacity_evidence": "Named as PRODUCER and exporter of HEDP in US DOC antidumping order (FR 2017-10078, 18 May 2017). Own site: founded 1988, ~400 employees, R&D and production of water-treatment agents.",
+  "email": "marketing@jhhg.com",
+  "other_emails": [],
+  "phone": "+86-519-88902792 (Mon-Fri); +86-18168802362 (weekend)",
+  "contact_person": null,
+  "sources": [
+   "https://www.jhhg.com/",
+   "https://www.jhhg.com/contactus.html",
+   "https://www.jhhg.com/prolist/1.html",
+   "https://www.govinfo.gov/content/pkg/FR-2017-05-18/pdf/2017-10078.pdf"
+  ],
+  "verified": false,
+  "note": "E-mail single-source. Business has shifted to industrial water-treatment service; a search snippet (not opened: Ecolab page returned 403) says it is an Ecolab-controlled subsidiary - may not sell bulk phosphonate to traders. Low priority. OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Nanjing University of Chemical Technology Changzhou Wujin Water Quality Stabilizer Factory (南京化工学院常州市武进水质稳定剂厂)",
+  "city": "Changzhou (Wujin), Jiangsu",
+  "website": "www.song-ge.com (per ChemicalBook; unreachable)",
+  "products": [
+   "HEDP (per US DOC order); ChemicalBook lists 121 products"
+  ],
+  "product_urls": [],
+  "capacity_evidence": "Named as PRODUCER of HEDP (exporter with Nantong Uniphos Chemicals) in US DOC antidumping order FR 2017-10078.",
+  "email": "wj_water@163.net",
+  "other_emails": [],
+  "phone": "0519-88601774 (ChemicalBook)",
+  "contact_person": null,
+  "sources": [
+   "https://www.chemicalbook.com/ShowSupplierProductsDetail_9504_0_EN.aspx",
+   "https://www.govinfo.gov/content/pkg/FR-2017-05-18/pdf/2017-10078.pdf"
+  ],
+  "verified": false,
+  "note": "Single-source free-mail address; website down. Real HEDP producer per US DOC, but contact not verifiable. OFAC SDN.CSV + ALT.CSV (downloaded 2026-11-11 from sanctionslistservice.ofac.treas.gov) screened: no match for company name/aliases."
+ },
+ {
+  "company": "Hebei Fiza Technology Co., Ltd.",
+  "city": "Handan, Hebei",
+  "website": "https://fizachem.en.made-in-china.com/",
+  "products": [
+   "listed under PBTCA search on Made-in-China; main products lead oxide, barium/strontium salts, chlorine dioxide, sodium percarbonate"
+  ],
+  "product_urls": [],
+  "capacity_evidence": "Made-in-China BV-audited profile: Business Type 'Trading Company', 7 employees, plant area 196 m2.",
+  "email": null,
+  "other_emails": [],
+  "phone": null,
+  "contact_person": "Mr. James, CEO (Made-in-China)",
+  "sources": [
+   "https://fizachem.en.made-in-china.com/company-Hebei-Fiza-Technology-Co-Ltd-.html",
+   "https://www.made-in-china.com/factory/pbtca.html"
+  ],
+  "verified": false,
+  "note": "EXCLUDE - trading company, not a manufacturer. OFAC: no match for 'Hebei Fiza' (only unrelated 'FIZA GOLD AND BULLION TRADING L.L.C', UAE)."
+ }
+]
