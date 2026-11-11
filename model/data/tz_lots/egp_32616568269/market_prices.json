@@ -1,0 +1,685 @@
+{
+ "meta": {
+  "tender": "EIS 32616568269, ПАО 'ЕГП', поставка Ессентуки",
+  "collected": "2026-11-11",
+  "notes": [
+   "Цены — розничные/прайсовые с сайтов на дату 2026-11-11; если НДС явно не указан, считается, что цена конечная для покупателя (возможно продавец на УСН). Прайс E-phon — явно с НДС 22%.",
+   "Доставка до Ессентуков в цены не включена.",
+   "geniled.ru: для всех позиций 'По запросу' (цены не публикуются); Ring d1600 — 'Под заказ'.",
+   "comfort-center.com недоступен из сессии (DNS/connect fail); vseinstrumenti.ru — 403 (не обходили).",
+   "Надбавка за RAL для Соло PE Круг D1180 по прайсу E-phon 04.03.2026: 7 686 → 10 248 ₽ с НДС (+33,3%); D800: 6 710 → 8 540 (+27,3%)."
+  ]
+ },
+ "positions": [
+  {
+   "pos": 1,
+   "item": "Акустическая свободновисящая панель Соло PE Круг D≈1180-1200, 40 мм, цвет по RAL (заказной)",
+   "qty": 47,
+   "offers": [
+    {
+     "seller": "E-phon (дилер Ecophon/Сен-Гобен), прайс-лист PDF от 04.03.2026",
+     "url": "https://e-phon.ru/netcat_files/373/1279/h_03472f472897c133f6154dbe58aa9931",
+     "price_rub_with_vat": 10248.0,
+     "unit": "шт",
+     "in_stock": "под заказ (мин. заказ 1 уп. = 4 шт)",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "Соло PE Круг D=1180x40, цвет RAL; 8 400 без НДС / 10 248 с НДС 22%. Белый того же размера 7 686 → надбавка за RAL ≈ +33% (+2 562 ₽/шт с НДС). Любой RAL/NCS кроме глянцевых/флуоресцентных/металлик; при согласовании выкрасов срок увеличивается."
+    },
+    {
+     "seller": "ТК ОптСтрой (Москва)",
+     "url": "https://tk-optstroy.ru/catalog/solo/solo_circle_1200x1200x40/",
+     "price_rub_with_vat": 6820.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "reference: та же модель, но белый (цена RAL не опубликована)",
+     "note": "арт. 1030763 Соло PE Круг D=1180 Белый (Н4), Россия; в каталоге указано 'возможно изготовление любого цвета по RAL'. Оценка RAL по коэффициенту E-phon (×1.333) ≈ 9 093 ₽ — расчёт, не оферта."
+    },
+    {
+     "seller": "opt-potolok.ru",
+     "url": "https://opt-potolok.ru/catalog/potolki-ecophon/solo/",
+     "price_rub_with_vat": 13536.08,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: импортный Ecophon Solo Circle 1200x40 Akutex FT, белый",
+     "note": "цена в рознице до 100 тыс.; >300 тыс. — 12 594,44. Цветной вариант — по запросу."
+    }
+   ],
+   "stats": {
+    "exact_min": 10248.0,
+    "exact_median": 10248.0,
+    "exact_n": 1,
+    "all_min": 6820.0,
+    "all_median": 10248.0,
+    "all_n": 3
+   }
+  },
+  {
+   "pos": 2,
+   "item": "Соло PE Круг D 1180-1200, 40 мм, белый RAL 9003",
+   "qty": 91,
+   "offers": [
+    {
+     "seller": "ТК ОптСтрой (Москва)",
+     "url": "https://tk-optstroy.ru/catalog/solo/solo_circle_1200x1200x40/",
+     "price_rub_with_vat": 6820.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "арт. 1030763 Соло PE Круг D=1180 Белый (Н4), пр-во Россия; '6 820 руб. за 1 шт'; НДС явно не указан"
+    },
+    {
+     "seller": "E-phon, прайс-лист PDF от 04.03.2026",
+     "url": "https://e-phon.ru/netcat_files/373/1279/h_03472f472897c133f6154dbe58aa9931",
+     "price_rub_with_vat": 7686.0,
+     "unit": "шт",
+     "in_stock": "под заказ, упаковка 4 шт",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "1030763 Соло PE Круг D=1180 Белый (Н4): 6 300 без НДС / 7 686 с НДС 22%"
+    },
+    {
+     "seller": "Центроснаб (Москва)",
+     "url": "https://centrosnab.ru/catalog/podvesnye-potolki/podvesnye-akusticheskie-paneli-ecophon/podvesnaya-panel-potolochnaya-plita-ecophon-solo-layt-pe-krug-1180kh1180kh40.html",
+     "price_rub_with_vat": 7820.0,
+     "unit": "шт",
+     "in_stock": "уточнить наличие",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "'Ecophon Соло Лайт PE Круг 1180х1180х40', 'от 7820 руб/шт'"
+    },
+    {
+     "seller": "ЭкоАкустика (msk.ecoacoustica.ru)",
+     "url": "https://msk.ecoacoustica.ru/svobodnovisyashhie-elementy/svobodno-visyashhij-element-ecophon-solo-circle/",
+     "price_rub_with_vat": 8268.0,
+     "unit": "шт (пересчёт из 7 560 ₽/м²)",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "на сайте 7 560 руб./м² для 'Ecophon Соло PE Круг'; пересчёт на круг Ø1180 (1,0936 м²) = ~8 268 ₽/шт; если продают по м² упаковки (4,37 м²/4 шт) — 8 259 ₽/шт"
+    },
+    {
+     "seller": "Авангард (avangardrf.ru)",
+     "url": "https://avangardrf.ru/catalog/akusticheskie_ostrova/ekofon_solo/ekofon_solo_pe_krug_1200mm_belyy/",
+     "price_rub_with_vat": 9376.92,
+     "unit": "шт",
+     "in_stock": "под заказ (до 4 недель)",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "Ecophon Solo PE Ø1180 белый"
+    },
+    {
+     "seller": "opt-potolok.ru",
+     "url": "https://opt-potolok.ru/catalog/potolki-ecophon/solo/",
+     "price_rub_with_vat": 13536.08,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: Ecophon Solo Circle 1200x40 (импорт, Akutex FT, White Frost, КМ1)",
+     "note": "опт >300 тыс.: 12 594,44"
+    },
+    {
+     "seller": "potolok-armstrong.ru",
+     "url": "https://potolok-armstrong.ru/catalog/podvesnie-potolki/ecophon/?SHOWALL_1=1",
+     "price_rub_with_vat": 15338.47,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: Ecophon Solo Circle 1200x1200x40 арт. 35442086 (импорт)",
+     "note": "розн.; опт 14 563,80; крупный опт 13 789,13"
+    },
+    {
+     "seller": "K&R Design (интернет-магазин производителя)",
+     "url": "https://kr-design.ru/catalog/acoustic-panels/akusticheskie-paneli-ostrova-ost-i-baffly-bfl-kr-design/akusticheskaya-panel-ostrov-kr-design-ost-krug-o-1200x40-mm-ral-9003/",
+     "price_rub_with_vat": 10345.0,
+     "unit": "шт",
+     "in_stock": "в наличии ('Много')",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue (РФ): K&R Design OST Круг Ø1200x40 RAL 9003",
+     "note": "прессованная каменная вата 100-120 кг/м³, стеклохолст, КМ1; не стекловолокно"
+    },
+    {
+     "seller": "СКФ-СПб",
+     "url": "https://skf-spb.ru/potolki-ostrova-albes-sound-profi/potolki-ostrova-albes-sound-profi-circle-white-1200x40",
+     "price_rub_with_vat": 10800.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue (РФ): Албес SoundProfi круг Ø1200x40 белый",
+     "note": "КМ1 (Г1,В1,Д1,Т1) по данным продавца"
+    },
+    {
+     "seller": "Мир Потолков (potolki.ru)",
+     "url": "https://www.potolki.ru/catalog/element/panel_ostrov_sound_profi_albes_d1200_kh_40_mm_belaya_krug_gorizontalnaya_podvesnaya/",
+     "price_rub_with_vat": 8900.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue (РФ): Албес Sound Profi d1200x40 белая",
+     "note": "КМ1; 6,8 кг/шт"
+    },
+    {
+     "seller": "Авангард (avangardrf.ru)",
+     "url": "https://avangardrf.ru/catalog/akusticheskie_ostrova/rokfon_eklips/rokfon_eklips_krug_d1160_belyy/",
+     "price_rub_with_vat": 9008.48,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: Rockfon Eclipse круг D1160x40 белый (каменная вата)",
+     "note": "размер Ø1160 — меньше требуемых 1180-1200"
+    }
+   ],
+   "stats": {
+    "exact_min": 6820.0,
+    "exact_median": 7820.0,
+    "exact_n": 5,
+    "all_min": 6820.0,
+    "all_median": 9008.48,
+    "all_n": 11
+   }
+  },
+  {
+   "pos": 3,
+   "item": "Соло PE Круг D 600, 40 мм (Ecophon стандартно Ø600 не выпускает: Соло PE Круг — Ø1180 и Ø800; Solo Circle импорт — Ø800/Ø1200/XL Ø1600)",
+   "qty": 83,
+   "offers": [
+    {
+     "seller": "E-phon, прайс-лист PDF от 04.03.2026",
+     "url": "https://e-phon.ru/netcat_files/373/1279/h_03472f472897c133f6154dbe58aa9931",
+     "price_rub_with_vat": 6710.0,
+     "unit": "шт",
+     "in_stock": "под заказ, упаковка 4 шт",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue по размеру: Соло PE Круг D=800 белый (Н4)",
+     "note": "5 500 без НДС / 6 710 с НДС 22%; RAL D=800 — 8 540. Ø600 возможен только как 'Соло Фридом' (нестандартная форма из заготовки 2392x1192, по чертежу, цена по запросу; из заготовки выходит ~3 круга Ø600). Класс Г1 В1 Д1 Т1 (ecophon.ru)"
+    },
+    {
+     "seller": "ТК ОптСтрой (Москва)",
+     "url": "https://tk-optstroy.ru/catalog/solo/",
+     "price_rub_with_vat": 6820.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue по размеру: Соло PE Круг D=800 Белый (Н4) арт. 1030764",
+     "note": ""
+    },
+    {
+     "seller": "Авангард (avangardrf.ru)",
+     "url": "https://avangardrf.ru/catalog/akusticheskie_ostrova/ekofon_solo/ekofon_solo_pe_krug_800mm_belyy/",
+     "price_rub_with_vat": 8186.2,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue по размеру: Ecophon Solo PE Ø800 белый",
+     "note": ""
+    },
+    {
+     "seller": "opt-potolok.ru",
+     "url": "https://opt-potolok.ru/catalog/potolki-ecophon/solo/",
+     "price_rub_with_vat": 10893.32,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: Ecophon Solo Circle 800x800x40 (импорт)",
+     "note": "опт >300 тыс.: 10 135,52"
+    },
+    {
+     "seller": "potolok-armstrong.ru",
+     "url": "https://potolok-armstrong.ru/catalog/podvesnie-potolki/ecophon/?SHOWALL_1=1",
+     "price_rub_with_vat": 12301.15,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: Ecophon Solo Circle 800 арт. 35442262 (импорт)",
+     "note": "опт 11 679,88; крупный опт 11 058,61"
+    },
+    {
+     "seller": "K&R Design (интернет-магазин производителя)",
+     "url": "https://kr-design.ru/catalog/acoustic-panels/akusticheskie-paneli-ostrova-ost-i-baffly-bfl-kr-design/akusticheskaya-panel-ostrov-kr-design-ost-krug-o-600x40-mm-ral-9003/",
+     "price_rub_with_vat": 4935.0,
+     "unit": "шт",
+     "in_stock": "в наличии ('Много')",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue (РФ) точно Ø600: K&R Design OST Круг Ø600x40 RAL 9003",
+     "note": "каменная вата, КМ1. Ø800 у K&R — 7 502 ₽"
+    },
+    {
+     "seller": "Авангард (avangardrf.ru)",
+     "url": "https://avangardrf.ru/catalog/akusticheskie_ostrova/rokfon_eklips/rokfon_eklips_krug_d800_belyy/",
+     "price_rub_with_vat": 7993.44,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: Rockfon Eclipse круг D800x40 (каменная вата)",
+     "note": ""
+    }
+   ],
+   "stats": {
+    "exact_min": null,
+    "exact_median": null,
+    "exact_n": 0,
+    "all_min": 4935.0,
+    "all_median": 7993.44,
+    "all_n": 7
+   }
+  },
+  {
+   "pos": 4,
+   "item": "Комплект подвеса для свободновисящих панелей (трос 2 м, регулятор, карабин/крюк, стальной спиральный анкер)",
+   "qty": 663,
+   "offers": [
+    {
+     "seller": "opt-potolok.ru (Ecophon Connect)",
+     "url": "https://opt-potolok.ru/catalog/suspension-systems/ecophon/podvesy-kronshteyny/podvesy-kronshteyny_3293.html",
+     "price_rub_with_vat": 518.37,
+     "unit": "компл. (1 точка)",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact-система Ecophon (сумма 2 позиций)",
+     "note": "Тросиковый подвес 2174 арт. 26472174 L=2000 (трос 2 мм + регулируемый зажим с крючком) 434,24 + Connect Absorber anchor 26472270 84,13 (https://opt-potolok.ru/catalog/suspension-systems/ecophon/podvesy-kronshteyny/podvesy-kronshteyny_3285.html). Цены колонки 'до 100 000'; НДС явно не указан"
+    },
+    {
+     "seller": "opt-potolok.ru (Ecophon Connect)",
+     "url": "https://opt-potolok.ru/catalog/suspension-systems/ecophon/podvesy-kronshteyny/podvesy-kronshteyny_3292.html",
+     "price_rub_with_vat": 708.35,
+     "unit": "компл. (1 точка)",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact-система Ecophon (сумма 2 позиций)",
+     "note": "Тросиковый подвес 2173 арт. 26472173 L=2000 624,22 + Absorber anchor 84,13"
+    },
+    {
+     "seller": "Подвесные системы (hangsystems.ru)",
+     "url": "https://hangsystems.ru/katalog/komplekt-podvesa-k1-fr2-2/",
+     "price_rub_with_vat": 424.07,
+     "unit": "1 точка (комплект на 2 точки = 848,14)",
+     "in_stock": "в наличии",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue (РФ)",
+     "note": "K1-FR2-2: 2 троса Ø1,5 мм с петлёй L=2,15 м, 2 цанговых зажима с крюком со стопором, 2 спиральных анкера для панелей"
+    },
+    {
+     "seller": "Артего-Строй",
+     "url": "https://artego-stroy.ru/ecophon-ru-ru.html",
+     "price_rub_with_vat": null,
+     "unit": "—",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "справочно",
+     "note": "только анкер Connect Absorber anchor арт. 26472170 (старый артикул) — 121 ₽; трос не указан. Официальный дистрибьютор distributor-cc-ecophon.ru — 'Запросить цену'"
+    }
+   ],
+   "stats": {
+    "exact_min": 518.37,
+    "exact_median": 613.36,
+    "exact_n": 2,
+    "all_min": 424.07,
+    "all_median": 518.37,
+    "all_n": 3
+   }
+  },
+  {
+   "pos": 5,
+   "item": "Geniled Art Ring RE d1600 h80 w80 120Вт 4000К 90Ra черный (арт. 80027_4000_black)",
+   "qty": 35,
+   "offers": [
+    {
+     "seller": "Geniled Volga (Казань)",
+     "url": "https://geniledvolga.ru/catalog/katalog-geniled-art/ring/ring/",
+     "price_rub_with_vat": 52802.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "'Geniled Ring d1600 h80 w80 120Вт 4000К 90Ra Черный' 52 802 руб. На geniled.ru — 'Под заказ', цена 'По запросу'"
+    },
+    {
+     "seller": "Energo-Store (Москва)",
+     "url": "https://energo-store.ru/product/ring-d1600-h80-w80-120vt-4000k-90ra-chernyy/",
+     "price_rub_with_vat": 55303.0,
+     "unit": "шт",
+     "in_stock": "на заказ",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "арт. 80027_4000_black"
+    },
+    {
+     "seller": "АМЛАЙТ (Иркутск)",
+     "url": "https://www.xn--80aa1age3b.xn--p1ai/goods/300235730-svetodiodny_svetilnik_geniled_art_ring_d1600_h80_w80_120vt_4000k_90ra_cherny",
+     "price_rub_with_vat": 56243.0,
+     "unit": "шт",
+     "in_stock": "в наличии (по карточке)",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "Darklum (Москва)",
+     "url": "https://darklum.ru/products/oreol-1600/svetodiodnyiy-svetilnik-oreol-1600-125vt-4000k-belyiy",
+     "price_rub_with_vat": 44700.0,
+     "unit": "шт",
+     "in_stock": "в наличии",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: Darklum OREOL-1600 125 Вт 4000К CRI90, черный/белый",
+     "note": "Ø1600, ~14 000 лм (по странице)"
+    },
+    {
+     "seller": "SMD-Line (производитель)",
+     "url": "https://smd-line.ru/figurnye/kolco/smd-line-r-160w-1600mm",
+     "price_rub_with_vat": 67300.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue: SMD-Line-R Кольцо 160 Вт 1600 мм, >90 Ra",
+     "note": "покраска по RAL"
+    }
+   ],
+   "stats": {
+    "exact_min": 52802.0,
+    "exact_median": 55303.0,
+    "exact_n": 3,
+    "all_min": 44700.0,
+    "all_median": 55303.0,
+    "all_n": 5
+   }
+  },
+  {
+   "pos": 6,
+   "item": "Geniled Track Classic Zoom 20Вт 4000K 90Ra (по ТЗ — белый) с адаптером для 1-фазного шинопровода",
+   "qty": 57,
+   "offers": [
+    {
+     "seller": "Geniled Volga (Казань)",
+     "url": "https://geniledvolga.ru/catalog/kommercheskie-lineynye-daunlayt-trekovye-sistemy/trekovye-svetilniki-track-classic-zoom/?PAGEN_1=2",
+     "price_rub_with_vat": 3780.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "белый 4000K 90Ra; черный тоже 3 780"
+    },
+    {
+     "seller": "Energo-Store (Москва)",
+     "url": "https://energo-store.ru/product/trekovyy-svetilnik-geniled-track-classic-zoom-20vt-4000k-90ra-belyy-s-adapterom-dlya-1-faznogo-shinoprovoda/",
+     "price_rub_with_vat": 3858.0,
+     "unit": "шт",
+     "in_stock": "на заказ",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "арт. 22062_4000_white"
+    },
+    {
+     "seller": "УраЛайт (Екатеринбург)",
+     "url": "https://uralight.ru/store/kategoriya_2/svetilniki-trekovye-geniled-track-classic-zoom/",
+     "price_rub_with_vat": 3924.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "'Track Classic Zoom 20Вт 90Ra', белый/черный, 1760-1840 лм"
+    },
+    {
+     "seller": "Орион Свет (orionsvet.com)",
+     "url": "https://orionsvet.com/catalog/svetilniki/trekovye/geniled_3/",
+     "price_rub_with_vat": 4287.0,
+     "unit": "шт",
+     "in_stock": "под заказ 5 дней",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "белый 4000K 90Ra; черный 4000K 90Ra — тоже 4 287"
+    },
+    {
+     "seller": "Мир Света (Тюмень)",
+     "url": "https://mir-sveta.com/shop/category/trekovye-svetilniki/geniled/",
+     "price_rub_with_vat": 4518.0,
+     "unit": "шт",
+     "in_stock": "в наличии 1 шт",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "белый 4000К 90Ra; черный 4000К 90Ra 4 518 (в наличии 1 шт). Там же старая версия без 90Ra '20Вт 4000K Белый' — 3 227"
+    },
+    {
+     "seller": "Factory-Trade",
+     "url": "https://factory-trade.ru/category/osveshchenie-dlya-magazinov/trekovye-sistemy/",
+     "price_rub_with_vat": 3780.0,
+     "unit": "шт",
+     "in_stock": "наличие уточняйте",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "код 22048 'Zoom 20Вт 4000К Белый с адаптером' (90Ra в названии не указан)"
+    }
+   ],
+   "stats": {
+    "exact_min": 3780.0,
+    "exact_median": 3891.0,
+    "exact_n": 6,
+    "all_min": 3780.0,
+    "all_median": 3891.0,
+    "all_n": 6
+   }
+  },
+  {
+   "pos": 7,
+   "item": "Geniled однофазный шинопровод 2000 мм черный",
+   "qty": 19,
+   "offers": [
+    {
+     "seller": "Geniled Volga (Казань)",
+     "url": "https://geniledvolga.ru/catalog/kommercheskie-lineynye-daunlayt-trekovye-sistemy/odnofaznye-shinoprovody/",
+     "price_rub_with_vat": 1485.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "Светогид (Екатеринбург)",
+     "url": "https://svetogid.ru/trekovye-sistemy-osvesheniya/shinoprovod-dlya-trekovykh-svetilnikov",
+     "price_rub_with_vat": 1512.0,
+     "unit": "шт",
+     "in_stock": "на складе",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "УраЛайт (Екатеринбург)",
+     "url": "https://uralight.ru/store/kategoriya_2/svetilniki-trekovye-geniled-track-classic-zoom/komplektuyuschie-dlya-trekovyh-svetilnikov/",
+     "price_rub_with_vat": 1512.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "белый/черный"
+    },
+    {
+     "seller": "Мир Света (Тюмень)",
+     "url": "https://mir-sveta.com/shop/product/shinoprovod-odnofaznyy-geniled-2000-chernyy/",
+     "price_rub_with_vat": 1512.0,
+     "unit": "шт",
+     "in_stock": "нет в наличии",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "арт. 22011"
+    }
+   ],
+   "stats": {
+    "exact_min": 1485.0,
+    "exact_median": 1512.0,
+    "exact_n": 4,
+    "all_min": 1485.0,
+    "all_median": 1512.0,
+    "all_n": 4
+   }
+  },
+  {
+   "pos": 8,
+   "item": "Geniled ввод питания для однофазного шинопровода черный",
+   "qty": 19,
+   "offers": [
+    {
+     "seller": "Geniled Volga (Казань)",
+     "url": "https://geniledvolga.ru/catalog/kommercheskie-lineynye-daunlayt-trekovye-sistemy/soediniteli-i-aksessuary-dlya-odnofaznogo-shinoprovoda/",
+     "price_rub_with_vat": 144.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "Светогид (Екатеринбург)",
+     "url": "https://svetogid.ru/vvod-pitaniya-dlya-odnofaznogo-shinoprovoda-chyornyi",
+     "price_rub_with_vat": 146.0,
+     "unit": "шт",
+     "in_stock": "на складе",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "код 22031"
+    },
+    {
+     "seller": "УраЛайт (Екатеринбург)",
+     "url": "https://uralight.ru/store/kategoriya_2/svetilniki-trekovye-geniled-track-classic-zoom/komplektuyuschie-dlya-trekovyh-svetilnikov/vvod-pitaniya-dlya-odnofaznogo-shinoprovoda-geniled/",
+     "price_rub_with_vat": 146.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "арт. 22030/22031"
+    },
+    {
+     "seller": "Svetodiod66 (Екатеринбург)",
+     "url": "https://svetodiod66.ru/tovar/vvod-pitaniya-dlya-shinoprovoda-1-faznyj-belyj-chernyj/",
+     "price_rub_with_vat": 135.0,
+     "unit": "шт",
+     "in_stock": "в наличии",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "белый/черный"
+    }
+   ],
+   "stats": {
+    "exact_min": 135.0,
+    "exact_median": 145.0,
+    "exact_n": 4,
+    "all_min": 135.0,
+    "all_median": 145.0,
+    "all_n": 4
+   }
+  },
+  {
+   "pos": 9,
+   "item": "Geniled заглушка для однофазного шинопровода черная",
+   "qty": 19,
+   "offers": [
+    {
+     "seller": "Geniled Volga (Казань)",
+     "url": "https://geniledvolga.ru/catalog/kommercheskie-lineynye-daunlayt-trekovye-sistemy/soediniteli-i-aksessuary-dlya-odnofaznogo-shinoprovoda/",
+     "price_rub_with_vat": 25.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "Светогид (Екатеринбург)",
+     "url": "https://svetogid.ru/trekovye-sistemy-osvesheniya/shinoprovod-dlya-trekovykh-svetilnikov",
+     "price_rub_with_vat": 25.0,
+     "unit": "шт",
+     "in_stock": "на складе",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "УраЛайт (Екатеринбург)",
+     "url": "https://uralight.ru/store/kategoriya_2/svetilniki-trekovye-geniled-track-classic-zoom/komplektuyuschie-dlya-trekovyh-svetilnikov/",
+     "price_rub_with_vat": 25.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "Мир Света (Тюмень)",
+     "url": "https://mir-sveta.com/shop/product/zaglushka-geniled-dlya-odnofaznogo-shinoprovoda-chernaya/",
+     "price_rub_with_vat": 28.0,
+     "unit": "шт",
+     "in_stock": "в наличии",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "арт. 22029"
+    }
+   ],
+   "stats": {
+    "exact_min": 25.0,
+    "exact_median": 25.0,
+    "exact_n": 4,
+    "all_min": 25.0,
+    "all_median": 25.0,
+    "all_n": 4
+   }
+  },
+  {
+   "pos": 10,
+   "item": "Geniled подвес 2 м для шинопровода черный (арт. 22034)",
+   "qty": 19,
+   "offers": [
+    {
+     "seller": "Geniled Volga (Казань)",
+     "url": "https://geniledvolga.ru/catalog/kommercheskie-lineynye-daunlayt-trekovye-sistemy/soediniteli-i-aksessuary-dlya-odnofaznogo-shinoprovoda/?PAGEN_1=2",
+     "price_rub_with_vat": 409.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "Мир Света (Тюмень)",
+     "url": "https://mir-sveta.com/shop/product/podves-geniled-2m-dlya-shinoprovoda-chernyy/",
+     "price_rub_with_vat": 417.0,
+     "unit": "шт",
+     "in_stock": "в наличии",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": ""
+    },
+    {
+     "seller": "УраЛайт (Екатеринбург)",
+     "url": "https://uralight.ru/store/kategoriya_2/svetilniki-trekovye-geniled-track-classic-zoom/komplektuyuschie-dlya-trekovyh-svetilnikov/",
+     "price_rub_with_vat": 425.0,
+     "unit": "шт",
+     "in_stock": "не указано",
+     "date": "2026-11-11",
+     "exact_or_analogue": "exact",
+     "note": "белый/черный"
+    },
+    {
+     "seller": "Светогид (Екатеринбург)",
+     "url": "https://svetogid.ru/trekovye-sistemy-osvesheniya/shinoprovod-dlya-trekovykh-svetilnikov",
+     "price_rub_with_vat": 332.0,
+     "unit": "шт",
+     "in_stock": "на складе",
+     "date": "2026-11-11",
+     "exact_or_analogue": "analogue/вероятно тот же Geniled",
+     "note": "'Комплект для подвесного монтажа шинопровода Черный' — длина и бренд в листинге не указаны"
+    }
+   ],
+   "stats": {
+    "exact_min": 409.0,
+    "exact_median": 417.0,
+    "exact_n": 3,
+    "all_min": 332.0,
+    "all_median": 413.0,
+    "all_n": 4
+   }
+  }
+ ]
+}
