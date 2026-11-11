@@ -323,28 +323,30 @@
    "email": "info@granimex.com.pl",
    "lang": "en",
    "batch": 4
-  }
- ],
- "queue": [
+  },
   {
    "company": "Kontec Trading LLC",
    "country": "UAE",
    "email": "info@kontec.ae",
-   "lang": "en"
+   "lang": "en",
+   "batch": 5
   },
   {
    "company": "Process Water Technologies (Pty) Ltd (PWTSA)",
    "country": "South Africa",
    "email": "info@pwtsa.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 5
   },
   {
    "company": "Water 2000, Inc.",
    "country": "Pakistan",
    "email": "info@water2000.com.pk",
-   "lang": "en"
+   "lang": "en",
+   "batch": 5
   }
  ],
+ "queue": [],
  "held_for_tomorrow": [
   {
    "company": "Aquamat SA (Pty) Ltd",
@@ -408,6 +410,12 @@
    "from": "rachel@jialuchem.com",
    "date": "2026-11-11",
    "note": "HEDP 60% FOB $1410 / CIF NS $1570; PBTCA 50% FOB $1500 / CIF $1660; ATMP 50% FOB $1300 / CIF $1460; 50% TT advance; valid to 15.11; TDS+COA attached"
+  },
+  {
+   "from": "akmaljon.kasimov@uz-kor.com",
+   "date": "2026-11-11",
+   "note": "T-47/2026: official request needed for tender instruction; deadline 02.12.2026",
+   "action": "ISP_ZAPROS_UZKOR_T47_1111.pdf prepared, awaits signature"
   }
  ],
  "bounces": [
@@ -415,6 +423,16 @@
    "email": "info@horizon-chemical.com",
    "type": "block",
    "reason": "550 recipient RBL blocked sender IP (Google shared IP), not domain reputation"
+  },
+  {
+   "email": "info@granimex.com.pl",
+   "type": "block",
+   "reason": "550 5.4.1 Recipient address rejected (Exchange Online directory), address likely invalid"
   }
- ]
+ ],
+ "summary": {
+  "cold_sent_today": 50,
+  "bounces": 2,
+  "bounce_rate": "2/43 outreach = 4.7%"
+ }
 }
