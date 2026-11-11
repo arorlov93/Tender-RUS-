@@ -1,0 +1,2517 @@
+{
+ "meta": {
+  "generated": "2026-11-11",
+  "purpose": "Benchmarks UZ/AZ for Turkmenistan 500 t/yr phosphonate/scale-inhibitor distributor minimum",
+  "caveats": [
+   "HS 2931.49 (HS2022) / 2931.39 (HS2017, used by UZ in 2021-2022 and AZ 2021) covers all non-halogenated organo-phosphorus compounds incl. HEDP/ATMP/PBTCA/DTPMPA and also glyphosate etc.; treat as upper bound",
+   "HS 382499 is a catch-all (UZ 31-37 kt, AZ 13-24 kt) and cannot isolate scale inhibitor blends; HS 381190 = additives for mineral oils (incl. corrosion inhibitors for oils); HS 391400 = ion exchangers (UZ volumes dominated by China, likely mining/hydrometallurgy resins)",
+   "Comtrade preview data are mirror-free reporter declarations, accessed via public preview API (no key)",
+   "xarid.uzex.uz (state procurement) completed-deals search accepts only lot numbers (keyword search returned ORA-01722), so state-budget lots could not be keyword-searched; etender.uzex.uz corporate deals were searched by product keywords (RU/UZ/EN)",
+   "Azerbaijan: e-tender.socar.az requires login (no public lot data); etender.gov.az, azersu.az, minenergy.gov.az, azerenerji tender list were unreachable/404 via this network; no AZ lot-level quantities obtained",
+   "OFAC SDN (sdn.csv downloaded 2026-11-11) checked for all suppliers/customers listed: no matches"
+  ]
+ },
+ "uzbekistan": {
+  "procurement_lots": [
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"BUXORO NEFTNI QAYTA ISHLASH ZAVODI\" MCHJ",
+    "customer_inn": "202080378",
+    "lot_no": "22120012068266",
+    "trade_id": 68266,
+    "year": 2022,
+    "lot_start_date": "2022-04-13",
+    "deal_date": "2022-05-16",
+    "product": "Korroziya ingibitori",
+    "description": "Ингибитор коррозии для технологических установок 13 и 21 цеха № 1.",
+    "category": "process_corrosion_inhibitor",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 1200,
+    "unit": "kg",
+    "quantity_t": 1.2,
+    "start_unit_price": 16.6,
+    "start_line_cost": 19920,
+    "currency": "EUR",
+    "deal_cost_total_lot": 12547.53,
+    "deal_currency": "Евро",
+    "deal_unit_price_per_t": 10456.28,
+    "supplier": "ООО «Миррико Экспорт»",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/68266",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/68266/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"BUXORO NEFTNI QAYTA ISHLASH ZAVODI\" MCHJ",
+    "customer_inn": "202080378",
+    "lot_no": "22120012068289",
+    "trade_id": 68289,
+    "year": 2022,
+    "lot_start_date": "2022-04-13",
+    "deal_date": "2022-05-16",
+    "product": "Korroziya ingibitori",
+    "description": "Ингибитор коррозии для системы оборотного водоснабжения",
+    "category": "cooling_water_corrosion+scale_inhibitor",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 2760,
+    "unit": "kg",
+    "quantity_t": 2.76,
+    "start_unit_price": 14.7,
+    "start_line_cost": 40572,
+    "currency": "EUR",
+    "deal_cost_total_lot": 38364.0,
+    "deal_currency": "Евро",
+    "deal_unit_price_per_t": 13900.0,
+    "supplier": "Altino Grupp OÜ",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/68289",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/68289/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "АО OLMALIQ KON-METALLURGIYA KOMBINATI",
+    "customer_inn": "202328794",
+    "lot_no": "22120006034430",
+    "trade_id": 34430,
+    "year": 2022,
+    "lot_start_date": "2022-02-21",
+    "deal_date": "2022-03-11",
+    "product": "Mineral tuz choʻkindilari ingibitori",
+    "description": "Ингибитор отложений минеральных солей (ИОМС-1) в пересчёте на 100%",
+    "category": "scale_inhibitor_IOMS",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 13400,
+    "unit": "kg",
+    "quantity_t": 13.4,
+    "start_unit_price": 28,
+    "start_line_cost": 375200,
+    "currency": "USD",
+    "deal_cost_total_lot": 321600.0,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 24000.0,
+    "supplier": "LOSBP LLC",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/34430",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/34430/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "АО OLMALIQ KON-METALLURGIYA KOMBINATI",
+    "customer_inn": "202328794",
+    "lot_no": "22120012048242",
+    "trade_id": 48242,
+    "year": 2022,
+    "lot_start_date": "2022-03-09",
+    "deal_date": "2022-04-14",
+    "product": "Mineral tuz choʻkindilari ingibitori",
+    "description": "Mineral tuzlar va korroziya ingibitori / Ингибитор отложений минеральных солей и коррозии",
+    "category": "scale_and_corrosion_inhibitor",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 28000,
+    "unit": "kg",
+    "quantity_t": 28.0,
+    "start_unit_price": 18.2,
+    "start_line_cost": 509600,
+    "currency": "USD",
+    "deal_cost_total_lot": 501200.0,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 17900.0,
+    "supplier": "LOSBP LLC",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/48242",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/48242/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "23120012261943",
+    "trade_id": 261943,
+    "year": 2023,
+    "lot_start_date": "2023-05-22",
+    "deal_date": "2023-06-20",
+    "product": "Korroziya ingibitori",
+    "description": "Kоrrоziуа ingibitori. CAS # 108-01-0.  / Ингибитор коррозии. CAS # 108-01-0.  / Corrosion inhibitor. CAS # 108-01-0.",
+    "category": "gas-processing_corrosion_inhibitor_DMAE_CAS108-01-0",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 8.3,
+    "unit": "t",
+    "quantity_t": 8.3,
+    "start_unit_price": 10000,
+    "start_line_cost": 83000,
+    "currency": "USD",
+    "deal_cost_total_lot": 21165.0,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 2550.0,
+    "supplier": "ООО \"ТехноХимРеагентБел\"",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/261943",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/261943/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "23120012274320",
+    "trade_id": 274320,
+    "year": 2023,
+    "lot_start_date": "2023-06-22",
+    "deal_date": "2023-07-19",
+    "product": "Antiskalant",
+    "description": "Антискалант применяется в основном для обработки промышленной воды в виде противонакипнового средства. CAS#37971-36-1.  Химическое название 2-Фосфонобутан - 1,2,4- Трикарбоновая кислота.",
+    "category": "RO/industrial_antiscalant_PBTCA",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 3741,
+    "unit": "kg",
+    "quantity_t": 3.741,
+    "start_unit_price": 5.98,
+    "start_line_cost": 22371.18,
+    "currency": "USD",
+    "deal_cost_total_lot": 9202.86,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 2460.0,
+    "supplier": "ООО \"ТехноХимРеагентБел\"",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/274320",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/274320/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "АО OLMALIQ KON-METALLURGIYA KOMBINATI",
+    "customer_inn": "202328794",
+    "lot_no": "23120012314892",
+    "trade_id": 314892,
+    "year": 2023,
+    "lot_start_date": "2023-11-06",
+    "deal_date": "2023-12-18",
+    "product": "Kimyoviy reagentlar va materiallar",
+    "description": "Сульфат Oxycheсk 6280",
+    "category": "water_treatment_reagents_boiler/cooling",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 7000,
+    "unit": "kg",
+    "quantity_t": 7.0,
+    "start_unit_price": 9.8,
+    "start_line_cost": 68600,
+    "currency": "EUR",
+    "deal_cost_total_lot": 133466.73,
+    "deal_currency": "Евро",
+    "deal_unit_price_per_t": null,
+    "supplier": "Polisteel Solutions Private Limited Company",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/314892",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/314892/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "АО OLMALIQ KON-METALLURGIYA KOMBINATI",
+    "customer_inn": "202328794",
+    "lot_no": "23120012314892",
+    "trade_id": 314892,
+    "year": 2023,
+    "lot_start_date": "2023-11-06",
+    "deal_date": "2023-12-18",
+    "product": "Kimyoviy reagentlar va materiallar",
+    "description": "Химикат Dispergo 8360 9",
+    "category": "water_treatment_reagents_boiler/cooling",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 6000,
+    "unit": "kg",
+    "quantity_t": 6.0,
+    "start_unit_price": 10.5,
+    "start_line_cost": 63000,
+    "currency": "EUR",
+    "deal_cost_total_lot": 133466.73,
+    "deal_currency": "Евро",
+    "deal_unit_price_per_t": null,
+    "supplier": "Polisteel Solutions Private Limited Company",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/314892",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/314892/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "АО OLMALIQ KON-METALLURGIYA KOMBINATI",
+    "customer_inn": "202328794",
+    "lot_no": "23120012314892",
+    "trade_id": 314892,
+    "year": 2023,
+    "lot_start_date": "2023-11-06",
+    "deal_date": "2023-12-18",
+    "product": "Kimyoviy reagentlar va materiallar",
+    "description": "Фосфат (Heizan 5160) в бочках по 210 килограмм",
+    "category": "water_treatment_reagents_boiler/cooling",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 4,
+    "unit": "Dona",
+    "quantity_t": null,
+    "start_unit_price": 880,
+    "start_line_cost": 3520,
+    "currency": "EUR",
+    "deal_cost_total_lot": 133466.73,
+    "deal_currency": "Евро",
+    "deal_unit_price_per_t": null,
+    "supplier": "Polisteel Solutions Private Limited Company",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/314892",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/314892/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"BUXORO NEFTNI QAYTA ISHLASH ZAVODI\" MCHJ",
+    "customer_inn": "202080378",
+    "lot_no": "23120012334717",
+    "trade_id": 334717,
+    "year": 2024,
+    "lot_start_date": "2023-12-19",
+    "deal_date": "2024-01-09",
+    "product": "Korroziya ingibitori",
+    "description": "Ингибитор коррозии используется для эффективной противонакипной и антикоррозийной обработки воды системы охлаждения, имеющей в своем составе различные конструкционные материалы, большой диапазон ско",
+    "category": "cooling_water_corrosion+scale_inhibitor",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 2760,
+    "unit": "kg",
+    "quantity_t": 2.76,
+    "start_unit_price": 19.8,
+    "start_line_cost": 54648,
+    "currency": "EUR",
+    "deal_cost_total_lot": 37077.97,
+    "deal_currency": "Евро",
+    "deal_unit_price_per_t": 13434.05,
+    "supplier": "Izzy Group Incorporated",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/334717",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/334717/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"O`ZBEKISTON METALLURGIYA KOMBINATI\" AJ",
+    "customer_inn": "200460222",
+    "lot_no": "24120012376704",
+    "trade_id": 376704,
+    "year": 2024,
+    "lot_start_date": "2024-07-16",
+    "deal_date": "2024-08-05",
+    "product": "Korroziya ingibitori",
+    "description": "Korroziya ingibitori zmeyavik stendi, chorakli hisobot va xodimlarni o’qitish bilan birgalikda (texnik topshiriqqa muvofiq) Ингибитор коррозии включая стенд-змеевик, ежеквартальный отчет и обучение п",
+    "category": "corrosion_inhibitor_(water,_with_coupon_rack)",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 500,
+    "unit": "kg",
+    "quantity_t": 0.5,
+    "start_unit_price": 168000,
+    "start_line_cost": 84000000,
+    "currency": "UZS",
+    "deal_cost_total_lot": 82000000.0,
+    "deal_currency": "Сум",
+    "deal_unit_price_per_t": 164000000.0,
+    "supplier": "METALWARS MCHJ",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/376704",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/376704/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "24120012348578",
+    "trade_id": 348578,
+    "year": 2024,
+    "lot_start_date": "2024-03-14",
+    "deal_date": "2024-04-16",
+    "product": "Antiskalant",
+    "description": "Antiskalant/ Антискалант/ Antiscalant (2-fosfonobutan-1,2,4-trikarboksilik kislota/ 2-фосфонобутан-1,2,4- трикарбоновая кислота/ 2-phosphonobutane-1,2,4 - triсаrbохуlic acid)",
+    "category": "RO/industrial_antiscalant_PBTCA",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 5610.78,
+    "unit": "kg",
+    "quantity_t": 5.611,
+    "start_unit_price": 4.35,
+    "start_line_cost": 24406.89,
+    "currency": "USD",
+    "deal_cost_total_lot": 14421.26,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 2570.18,
+    "supplier": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"EASY860\"",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/348578",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/348578/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "24120012365616",
+    "trade_id": 365616,
+    "year": 2024,
+    "lot_start_date": "2024-05-29",
+    "deal_date": "2024-06-27",
+    "product": "Sovituvchi suv tizimiga ishlov berish uchun reagent",
+    "description": "Majmuaning aylanma suvni sovutish tizimida kimyoviy ishlov berish uchun (kоrrоziуа ingibitori va biosidni ishlov berish) / Для проведения химической обработки водооборотной охлаждающей системы комплек",
+    "category": "cooling_water_treatment_package(corrosion_inhibitor+biocide)",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 1,
+    "unit": "to'plam",
+    "quantity_t": null,
+    "start_unit_price": 292042.75,
+    "start_line_cost": 292042.75,
+    "currency": "USD",
+    "deal_cost_total_lot": 119858.8,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": null,
+    "supplier": "ООО \"ТехноХимРеагентБел\"",
+    "deal_status": "Bajarilgan",
+    "url": "https://etender.uzex.uz/lot/365616",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/365616/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "24120012367612",
+    "trade_id": 367612,
+    "year": 2024,
+    "lot_start_date": "2024-06-05",
+    "deal_date": "2024-07-08",
+    "product": "Korroziya ingibitori",
+    "description": "Korroziya ingibitori/ Ингибитор коррозии/ Corrosion inhibitor",
+    "category": "gas-processing_corrosion_inhibitor",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 8.38,
+    "unit": "t",
+    "quantity_t": 8.38,
+    "start_unit_price": 4950,
+    "start_line_cost": 41481,
+    "currency": "USD",
+    "deal_cost_total_lot": 33101.0,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 3950.0,
+    "supplier": "ООО \"ТехноХимРеагентБел\"",
+    "deal_status": "Bajarilgan",
+    "url": "https://etender.uzex.uz/lot/367612",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/367612/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "АО OLMALIQ KON-METALLURGIYA KOMBINATI",
+    "customer_inn": "202328794",
+    "lot_no": "24120012356754",
+    "trade_id": 356754,
+    "year": 2024,
+    "lot_start_date": "2024-04-29",
+    "deal_date": "2024-05-27",
+    "product": "Mineral tuz choʻkindilari ingibitori",
+    "description": "Ингибитор отложений минеральных солей и коррозии (Оптион-785-2)",
+    "category": "scale_and_corrosion_inhibitor_Option-785-2",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 16,
+    "unit": "t",
+    "quantity_t": 16,
+    "start_unit_price": 18000,
+    "start_line_cost": 288000,
+    "currency": "USD",
+    "deal_cost_total_lot": 284000.0,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 17750.0,
+    "supplier": "Prof Engineering LLC",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/356754",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/356754/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "АО OLMALIQ KON-METALLURGIYA KOMBINATI",
+    "customer_inn": "202328794",
+    "lot_no": "24120012397653",
+    "trade_id": 397653,
+    "year": 2024,
+    "lot_start_date": "2024-11-13",
+    "deal_date": "2024-12-05",
+    "product": "Mineral tuz choʻkindilari ingibitori",
+    "description": "Ингибитор отложений минеральных солей и коррозии (Оптион-785-2)",
+    "category": "scale_and_corrosion_inhibitor_Option-785-2",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 16,
+    "unit": "t",
+    "quantity_t": 16,
+    "start_unit_price": 18000,
+    "start_line_cost": 288000,
+    "currency": "USD",
+    "deal_cost_total_lot": 284000.0,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 17750.0,
+    "supplier": "Prof Engineering LLC",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/397653",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/397653/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"BUXORO NEFTNI QAYTA ISHLASH ZAVODI\" MCHJ",
+    "customer_inn": "202080378",
+    "lot_no": "25120012443464",
+    "trade_id": 443464,
+    "year": 2025,
+    "lot_start_date": "2025-07-25",
+    "deal_date": "2025-08-18",
+    "product": "Korroziya ingibitori",
+    "description": "Химические реагентов: ингибитор коррозии и перхлорэтилен для нужд Бухарского НПЗ",
+    "category": "process_corrosion_inhibitor+perchloroethylene",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 9935,
+    "unit": "kg",
+    "quantity_t": 9.935,
+    "start_unit_price": 7.72,
+    "start_line_cost": 76698.2,
+    "currency": "USD",
+    "deal_cost_total_lot": 54638.83,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 5499.63,
+    "supplier": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"EASY860\"",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/443464",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/443464/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "25120012418397",
+    "trade_id": 418397,
+    "year": 2025,
+    "lot_start_date": "2025-03-07",
+    "deal_date": "2025-04-14",
+    "product": "Antiskalant",
+    "description": "Nakipga qaqrshi vosita/ Антинакипное средство/ Antiscalant agent (Texnik shartga ko'ra/ Согласно техническому заданию/ According to the technical requirement).",
+    "category": "antiscalant",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 3741,
+    "unit": "kg",
+    "quantity_t": 3.741,
+    "start_unit_price": 4.42,
+    "start_line_cost": 16535.22,
+    "currency": "USD",
+    "deal_cost_total_lot": 8410.11,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 2248.09,
+    "supplier": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"EASY860\"",
+    "deal_status": "Bajarilgan",
+    "url": "https://etender.uzex.uz/lot/418397",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/418397/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "25120012419014",
+    "trade_id": 419014,
+    "year": 2025,
+    "lot_start_date": "2025-03-12",
+    "deal_date": "2025-04-18",
+    "product": "Korroziya ingibitori",
+    "description": "Korroziya ingibitori (Karbogidrazid 99 %)/ Ингибитор коррозии (Карбогидразид 99 %)/ Corrosion inhibitor (Carbohydrazide 99 %) (Texnik shartga ko'ra/ Согласно техническому заданию/ According to the tec",
+    "category": "boiler_O2_scavenger_carbohydrazide",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 5604,
+    "unit": "kg",
+    "quantity_t": 5.604,
+    "start_unit_price": 9.98,
+    "start_line_cost": 55927.92,
+    "currency": "USD",
+    "deal_cost_total_lot": 53159.93,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 9486.07,
+    "supplier": "ООО \"Asr Kimyo Invest\"",
+    "deal_status": "Bajarilgan",
+    "url": "https://etender.uzex.uz/lot/419014",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/419014/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "25120012426626",
+    "trade_id": 426626,
+    "year": 2025,
+    "lot_start_date": "2025-04-22",
+    "deal_date": "2025-05-13",
+    "product": "Sovituvchi suv tizimiga ishlov berish uchun reagent",
+    "description": "Majmuaning aylanma suvni sovutish tizimida kimyoviy ishlov berish uchun (kоrrоziуа ingibitori va biosidni ishlov berish)/ Для проведения химической обработки водооборотной охлаждающей системы комплекс",
+    "category": "cooling_water_treatment_package(corrosion_inhibitor+biocide)",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 1,
+    "unit": "to'plam",
+    "quantity_t": null,
+    "start_unit_price": 245714.8,
+    "start_line_cost": 245714.8,
+    "currency": "USD",
+    "deal_cost_total_lot": 109364.5,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": null,
+    "supplier": "ООО \"ТехноХимРеагентБел\"",
+    "deal_status": "Bajarilgan",
+    "url": "https://etender.uzex.uz/lot/426626",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/426626/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "25120012453883",
+    "trade_id": 453883,
+    "year": 2025,
+    "lot_start_date": "2025-10-09",
+    "deal_date": "2025-10-23",
+    "product": "Korroziya ingibitori",
+    "description": "Korroziya ingibitori/ Ингибитор коррозии/ Соrгоsiоп inhibitor (Texnik shartga ko'ra/ Согласно техническому заданию/ According to the technical requirement)",
+    "category": "gas-processing_corrosion_inhibitor",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 8.38,
+    "unit": "t",
+    "quantity_t": 8.38,
+    "start_unit_price": 10000,
+    "start_line_cost": 83800,
+    "currency": "USD",
+    "deal_cost_total_lot": 32871.42,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 3922.6,
+    "supplier": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"EASY860\"",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/453883",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/453883/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"UZBEKISTAN GTL\" MCHJ",
+    "customer_inn": "207041936",
+    "lot_no": "25120012448654",
+    "trade_id": 448654,
+    "year": 2025,
+    "lot_start_date": "2025-09-03",
+    "deal_date": "2025-09-19",
+    "product": "Suv tozalash uchun koagulyant",
+    "description": "Коагулянт для очистки воды. Подробное описание в Техническом задании",
+    "category": "coagulant+non-oxidising_biocide",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 6,
+    "unit": "to'plam",
+    "quantity_t": null,
+    "start_unit_price": 246291733,
+    "start_line_cost": 1477750398,
+    "currency": "UZS",
+    "deal_cost_total_lot": 1177665030.0,
+    "deal_currency": "Сум",
+    "deal_unit_price_per_t": null,
+    "supplier": "GREENPRO INVEST MCHJ",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/448654",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/448654/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"UZBEKISTAN GTL\" MCHJ",
+    "customer_inn": "207041936",
+    "lot_no": "25120012448654",
+    "trade_id": 448654,
+    "year": 2025,
+    "lot_start_date": "2025-09-03",
+    "deal_date": "2025-09-19",
+    "product": "Kimyoviy reagentlar va materiallar",
+    "description": "Неокисляющий Биоцид. Подробное описание в Техническом задании",
+    "category": "coagulant+non-oxidising_biocide",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 6,
+    "unit": "to'plam",
+    "quantity_t": null,
+    "start_unit_price": 73946245,
+    "start_line_cost": 443677470,
+    "currency": "UZS",
+    "deal_cost_total_lot": 1177665030.0,
+    "deal_currency": "Сум",
+    "deal_unit_price_per_t": null,
+    "supplier": "GREENPRO INVEST MCHJ",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/448654",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/448654/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "26120012466245",
+    "trade_id": 466245,
+    "year": 2026,
+    "lot_start_date": "2026-01-07",
+    "deal_date": "2026-01-30",
+    "product": "Antiskalant",
+    "description": "Nakipga qarshi vosita/ Антинакипное средство/ Antiscalant agent (Texnik shartga ko'ra/ Согласно техническому заданию/ According to the technical requirement).",
+    "category": "antiscalant",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 3741,
+    "unit": "kg",
+    "quantity_t": 3.741,
+    "start_unit_price": 6.55,
+    "start_line_cost": 24503.55,
+    "currency": "USD",
+    "deal_cost_total_lot": 7294.95,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 1950.0,
+    "supplier": "ООО \"ТехноХимРеагентБел\"",
+    "deal_status": "Bajarilgan",
+    "url": "https://etender.uzex.uz/lot/466245",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/466245/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "26120012478629",
+    "trade_id": 478629,
+    "year": 2026,
+    "lot_start_date": "2026-04-08",
+    "deal_date": "2026-04-27",
+    "product": "Korroziya ingibitori",
+    "description": "Karbogidrazid 99 %- Texnik shartga ko'ra / Карбогидразид 99 % - Согласно техническому заданию/ Carbohydrazide 99 % - According to the technical requirement).",
+    "category": "boiler_O2_scavenger_carbohydrazide",
+    "count_in_water_scale_corrosion_total": false,
+    "quantity": 5603,
+    "unit": "kg",
+    "quantity_t": 5.603,
+    "start_unit_price": 8,
+    "start_line_cost": 44824,
+    "currency": "USD",
+    "deal_cost_total_lot": 43031.04,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": 7680.0,
+    "supplier": "Shandong Yuantai New Material Co, Ltd",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/478629",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/478629/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"SHURTAN GAZ KIMYO MAJMUASI\" MCHJ",
+    "customer_inn": "203195074",
+    "lot_no": "26120012480622",
+    "trade_id": 480622,
+    "year": 2026,
+    "lot_start_date": "2026-04-10",
+    "deal_date": "2026-04-27",
+    "product": "Sovituvchi suv tizimiga ishlov berish uchun reagent",
+    "description": "Majmuaning aylanma suvni sovutish tizimida kimyoviy ishlov berish uchun (kоrrоziуа ingibitori va biosidni ishlov berish)/ Для проведения химической обработки водооборотной охлаждающей системы комплекс",
+    "category": "cooling_water_treatment_package(corrosion_inhibitor+biocide)",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 1,
+    "unit": "to'plam",
+    "quantity_t": null,
+    "start_unit_price": 131237.4,
+    "start_line_cost": 131237.4,
+    "currency": "USD",
+    "deal_cost_total_lot": 108167.88,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": null,
+    "supplier": "PWC SPECIALTIES MCHJ",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/480622",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/480622/0",
+    "accessed": "2026-11-11"
+   },
+   {
+    "platform": "etender.uzex.uz (corporate procurement, completed deals)",
+    "customer": "\"UZBEKISTAN GTL\" MCHJ",
+    "customer_inn": "207041936",
+    "lot_no": "26120012496688",
+    "trade_id": 496688,
+    "year": 2026,
+    "lot_start_date": "2026-06-17",
+    "deal_date": "2026-07-06",
+    "product": "Kimyoviy reagentlar va materiallar",
+    "description": "Қурумланишга қарши кимёвий реагент етказиб бериш, 1 та тўплам - 1 ойлик хажм, хажм техник топшириққа мувофиқ иштирокчи томонидан ҳисобланади. Батафсил маълумот техник топшириқда келтирилган. Техник то",
+    "category": "anti-scale_reagent_(monthly_sets)",
+    "count_in_water_scale_corrosion_total": true,
+    "quantity": 7,
+    "unit": "to'plam",
+    "quantity_t": null,
+    "start_unit_price": 7013.44,
+    "start_line_cost": 49094.08,
+    "currency": "USD",
+    "deal_cost_total_lot": 39232.68,
+    "deal_currency": "Доллар",
+    "deal_unit_price_per_t": null,
+    "supplier": "GREENPRO INVEST MCHJ",
+    "deal_status": "G‘olib tomonidan qabul qilingan (Amalga oshgan)",
+    "url": "https://etender.uzex.uz/lot/496688",
+    "api": "https://apietender.uzex.uz/api/common/GetTrade/496688/0",
+    "accessed": "2026-11-11"
+   }
+  ],
+  "imports": [
+   {
+    "hs": "293139",
+    "year": 2021,
+    "tonnes": 366.4,
+    "value_usd": 1128362,
+    "unit_value_usd_per_kg": 3.08,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 259.4,
+      "usd": 798688
+     },
+     {
+      "partner": "Kazakhstan",
+      "tonnes": 41.4,
+      "usd": 127623
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 30.6,
+      "usd": 94139
+     },
+     {
+      "partner": "Netherlands",
+      "tonnes": 23.2,
+      "usd": 71502
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 7.5,
+      "usd": 23187
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2021,
+    "tonnes": 256.1,
+    "value_usd": 933938,
+    "unit_value_usd_per_kg": 3.65,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Russian Federation",
+      "tonnes": 101.4,
+      "usd": 369855
+     },
+     {
+      "partner": "United Arab Emirates",
+      "tonnes": 68.1,
+      "usd": 248275
+     },
+     {
+      "partner": "China",
+      "tonnes": 27.1,
+      "usd": 98799
+     },
+     {
+      "partner": "India",
+      "tonnes": 26.1,
+      "usd": 95164
+     },
+     {
+      "partner": "Lithuania",
+      "tonnes": 10.5,
+      "usd": 38316
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2021,
+    "tonnes": 17542.2,
+    "value_usd": 73164704,
+    "unit_value_usd_per_kg": 4.17,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 7789.7,
+      "usd": 32489109
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 2504.6,
+      "usd": 10446160
+     },
+     {
+      "partner": "China",
+      "tonnes": 2041.3,
+      "usd": 8513788
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 1079.5,
+      "usd": 4502480
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 828.4,
+      "usd": 3455107
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2021,
+    "tonnes": 1495.9,
+    "value_usd": 9025001,
+    "unit_value_usd_per_kg": 6.03,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 1202.9,
+      "usd": 7257309
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 224.0,
+      "usd": 1351698
+     },
+     {
+      "partner": "Ukraine",
+      "tonnes": 31.6,
+      "usd": 190842
+     },
+     {
+      "partner": "Latvia",
+      "tonnes": 11.9,
+      "usd": 72007
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 9.5,
+      "usd": 57199
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "293139",
+    "year": 2022,
+    "tonnes": 248.8,
+    "value_usd": 1127929,
+    "unit_value_usd_per_kg": 4.53,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 148.1,
+      "usd": 760595
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 46.3,
+      "usd": 165996
+     },
+     {
+      "partner": "Czechia",
+      "tonnes": 22.8,
+      "usd": 96193
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 28.3,
+      "usd": 85833
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 3.3,
+      "usd": 19254
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2022,
+    "tonnes": 879.1,
+    "value_usd": 3344775,
+    "unit_value_usd_per_kg": 3.8,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "India",
+      "tonnes": 340.0,
+      "usd": 993907
+     },
+     {
+      "partner": "Lithuania",
+      "tonnes": 29.3,
+      "usd": 950099
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 162.2,
+      "usd": 721112
+     },
+     {
+      "partner": "China",
+      "tonnes": 286.0,
+      "usd": 463537
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 25.6,
+      "usd": 112539
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2022,
+    "tonnes": 29220.9,
+    "value_usd": 97008008,
+    "unit_value_usd_per_kg": 3.32,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 1809.7,
+      "usd": 49799094
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 14448.7,
+      "usd": 11720619
+     },
+     {
+      "partner": "China",
+      "tonnes": 4204.2,
+      "usd": 10329100
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 2642.4,
+      "usd": 7133958
+     },
+     {
+      "partner": "Kyrgyzstan",
+      "tonnes": 2420.2,
+      "usd": 3213369
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2022,
+    "tonnes": 3558.9,
+    "value_usd": 17308575,
+    "unit_value_usd_per_kg": 4.86,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 3267.9,
+      "usd": 15980884
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 220.3,
+      "usd": 664351
+     },
+     {
+      "partner": "Lithuania",
+      "tonnes": 3.7,
+      "usd": 417338
+     },
+     {
+      "partner": "Latvia",
+      "tonnes": 30.6,
+      "usd": 138476
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 8.8,
+      "usd": 37390
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "293149",
+    "year": 2023,
+    "tonnes": 260.9,
+    "value_usd": 829006,
+    "unit_value_usd_per_kg": 3.18,
+    "weight_basis": "sum of partner rows (World row has no weight)",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 201.3,
+      "usd": 676970
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 55.2,
+      "usd": 135824
+     },
+     {
+      "partner": "Belgium",
+      "tonnes": 1.7,
+      "usd": 8144
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 2.7,
+      "usd": 5517
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 0.0,
+      "usd": 2551
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2023,
+    "tonnes": 1693.9,
+    "value_usd": 4281813,
+    "unit_value_usd_per_kg": 2.53,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Russian Federation",
+      "tonnes": 582.1,
+      "usd": 1209073
+     },
+     {
+      "partner": "China",
+      "tonnes": 680.8,
+      "usd": 1151943
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 249.1,
+      "usd": 1146941
+     },
+     {
+      "partner": "France",
+      "tonnes": 39.5,
+      "usd": 214237
+     },
+     {
+      "partner": "India",
+      "tonnes": 52.2,
+      "usd": 154688
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2023,
+    "tonnes": 30100.9,
+    "value_usd": 135614810,
+    "unit_value_usd_per_kg": 4.51,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 2565.8,
+      "usd": 72403268
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 13450.6,
+      "usd": 18220191
+     },
+     {
+      "partner": "China",
+      "tonnes": 5854.7,
+      "usd": 15522077
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 2792.0,
+      "usd": 8798394
+     },
+     {
+      "partner": "Denmark",
+      "tonnes": 503.0,
+      "usd": 3492932
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2023,
+    "tonnes": 2711.7,
+    "value_usd": 13527326,
+    "unit_value_usd_per_kg": 4.99,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 2477.7,
+      "usd": 12534974
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 147.5,
+      "usd": 614761
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 42.4,
+      "usd": 126547
+     },
+     {
+      "partner": "Latvia",
+      "tonnes": 26.0,
+      "usd": 126230
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 7.2,
+      "usd": 47979
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "293149",
+    "year": 2024,
+    "tonnes": 566.1,
+    "value_usd": 2021295,
+    "unit_value_usd_per_kg": 3.57,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 541.8,
+      "usd": 1940588
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 14.0,
+      "usd": 27819
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 4.7,
+      "usd": 25337
+     },
+     {
+      "partner": "Belgium",
+      "tonnes": 2.5,
+      "usd": 15088
+     },
+     {
+      "partner": "Kazakhstan",
+      "tonnes": 3.1,
+      "usd": 5380
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2024,
+    "tonnes": 1433.6,
+    "value_usd": 3411665,
+    "unit_value_usd_per_kg": 2.38,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 844.5,
+      "usd": 1615407
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 309.5,
+      "usd": 1019009
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 54.4,
+      "usd": 256143
+     },
+     {
+      "partner": "India",
+      "tonnes": 38.0,
+      "usd": 96465
+     },
+     {
+      "partner": "Kazakhstan",
+      "tonnes": 127.8,
+      "usd": 91187
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2024,
+    "tonnes": 31654.9,
+    "value_usd": 120700558,
+    "unit_value_usd_per_kg": 3.81,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 2585.7,
+      "usd": 58456670
+     },
+     {
+      "partner": "China",
+      "tonnes": 6358.7,
+      "usd": 14232382
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 10541.8,
+      "usd": 13951837
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 4692.8,
+      "usd": 9190598
+     },
+     {
+      "partner": "Ireland",
+      "tonnes": 129.1,
+      "usd": 2837540
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2024,
+    "tonnes": 4477.2,
+    "value_usd": 22592993,
+    "unit_value_usd_per_kg": 5.05,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 4334.4,
+      "usd": 21648766
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 40.5,
+      "usd": 427293
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 80.2,
+      "usd": 241853
+     },
+     {
+      "partner": "Poland",
+      "tonnes": 9.0,
+      "usd": 116691
+     },
+     {
+      "partner": "Latvia",
+      "tonnes": 9.5,
+      "usd": 84081
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "293149",
+    "year": 2025,
+    "tonnes": 424.7,
+    "value_usd": 1400641,
+    "unit_value_usd_per_kg": 3.3,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 408.2,
+      "usd": 1351231
+     },
+     {
+      "partner": "Belgium",
+      "tonnes": 4.8,
+      "usd": 23585
+     },
+     {
+      "partner": "Kazakhstan",
+      "tonnes": 6.3,
+      "usd": 10530
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 3.6,
+      "usd": 7073
+     },
+     {
+      "partner": "India",
+      "tonnes": 0.2,
+      "usd": 4390
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2025,
+    "tonnes": 4828.3,
+    "value_usd": 7486372,
+    "unit_value_usd_per_kg": 1.55,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 1206.3,
+      "usd": 2716460
+     },
+     {
+      "partner": "Kazakhstan",
+      "tonnes": 2489.6,
+      "usd": 1893471
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 878.3,
+      "usd": 1512200
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 161.1,
+      "usd": 879150
+     },
+     {
+      "partner": "United Arab Emirates",
+      "tonnes": 29.8,
+      "usd": 127970
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2025,
+    "tonnes": 36535.0,
+    "value_usd": 137596227,
+    "unit_value_usd_per_kg": 3.77,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 2169.2,
+      "usd": 57996232
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 8607.3,
+      "usd": 20526548
+     },
+     {
+      "partner": "China",
+      "tonnes": 10952.6,
+      "usd": 19682671
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 6229.3,
+      "usd": 11184457
+     },
+     {
+      "partner": "Ireland",
+      "tonnes": 150.6,
+      "usd": 4110641
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2025,
+    "tonnes": 6276.5,
+    "value_usd": 31235509,
+    "unit_value_usd_per_kg": 4.98,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 6073.6,
+      "usd": 30420850
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 154.9,
+      "usd": 502556
+     },
+     {
+      "partner": "Japan",
+      "tonnes": 11.4,
+      "usd": 170800
+     },
+     {
+      "partner": "Latvia",
+      "tonnes": 14.3,
+      "usd": 66800
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 16.5,
+      "usd": 35036
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   }
+  ],
+  "production": [
+   {
+    "metric": "natural_gas_production",
+    "year": 2024,
+    "value": 44597.6,
+    "unit": "mln m3",
+    "source": "https://ru.themoscowtimes.com/2025/01/21/uzbekistan-sokratil-dobychu-nefti-i-gaza-v-24g-narastil-proizvodstvo-uglya-a152914",
+    "note": "Statistics agency, large enterprises; 2023: 46710.4",
+    "accessed": "2026-11-11"
+   },
+   {
+    "metric": "crude_oil_production",
+    "year": 2024,
+    "value": 713.4,
+    "unit": "kt",
+    "source": "same",
+    "note": "2023: 779.7 kt",
+    "accessed": "2026-11-11"
+   },
+   {
+    "metric": "gas_condensate_production",
+    "year": 2024,
+    "value": 1214.3,
+    "unit": "kt",
+    "source": "same",
+    "note": "2023: 1198.0 kt",
+    "accessed": "2026-11-11"
+   },
+   {
+    "metric": "oil_plus_condensate",
+    "year": 2024,
+    "value": 1927.7,
+    "unit": "kt",
+    "source": "computed 713.4+1214.3",
+    "accessed": "2026-11-11"
+   },
+   {
+    "metric": "JSC_Thermal_Power_Plants_generation",
+    "year": 2024,
+    "value": 32,
+    "unit": "TWh",
+    "source": "https://www.uzdaily.uz/ru/ao-teplovye-elektricheskie-stantsii-podvelo-itogi-2024-goda-rost-vyrabotki-energii-i-masshtabnye-investitsii/",
+    "note": "article 27.03.2025; installed GW not stated on opened page",
+    "accessed": "2026-11-11"
+   },
+   {
+    "metric": "JSC_Thermal_Power_Plants_generation",
+    "year": 2025,
+    "value": 14.384,
+    "unit": "TWh (H1 2025)",
+    "source": "https://gov.uz/ru/minenergy/news/view/69436",
+    "accessed": "2026-11-11"
+   }
+  ]
+ },
+ "azerbaijan": {
+  "procurement_lots": [],
+  "procurement_access_notes": [
+   {
+    "url": "https://e-tender.socar.az/",
+    "status": "login wall (WELCOME TO E-TENDER, e-mail/password); no public lot list",
+    "accessed": "2026-11-11"
+   },
+   {
+    "url": "https://etender.gov.az/main/competitions",
+    "status": "upstream request failed / connection reset",
+    "accessed": "2026-11-11"
+   },
+   {
+    "url": "https://www.azerenerji.gov.az/tenderannouncements",
+    "status": "upstream failed / 404 for paged list",
+    "accessed": "2026-11-11"
+   },
+   {
+    "url": "https://www.azersu.az/",
+    "status": "upstream request failed",
+    "accessed": "2026-11-11"
+   },
+   {
+    "url": "web search (EN/RU/AZ) for SOCAR/Azerenerji inhibitor/reagent tenders",
+    "status": "no lot with quantities found",
+    "accessed": "2026-11-11"
+   }
+  ],
+  "imports": [
+   {
+    "hs": "293139",
+    "year": 2021,
+    "tonnes": 45.2,
+    "value_usd": 92020,
+    "unit_value_usd_per_kg": 2.04,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 30.2,
+      "usd": 45808
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 10.6,
+      "usd": 37198
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 4.3,
+      "usd": 8933
+     },
+     {
+      "partner": "Switzerland",
+      "tonnes": 0.0,
+      "usd": 48
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 0.0,
+      "usd": 33
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2021,
+    "tonnes": 310.8,
+    "value_usd": 1464795,
+    "unit_value_usd_per_kg": 4.71,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Germany",
+      "tonnes": 63.0,
+      "usd": 442646
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 137.3,
+      "usd": 367305
+     },
+     {
+      "partner": "USA",
+      "tonnes": 18.0,
+      "usd": 228358
+     },
+     {
+      "partner": "Belgium",
+      "tonnes": 42.3,
+      "usd": 187014
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 32.5,
+      "usd": 142665
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2021,
+    "tonnes": 14438.5,
+    "value_usd": 29077764,
+    "unit_value_usd_per_kg": 2.01,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 475.4,
+      "usd": 9017875
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 593.5,
+      "usd": 3164285
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 2029.6,
+      "usd": 2592592
+     },
+     {
+      "partner": "Iran",
+      "tonnes": 8139.3,
+      "usd": 2129694
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 401.1,
+      "usd": 1988799
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2021,
+    "tonnes": 265.0,
+    "value_usd": 1787359,
+    "unit_value_usd_per_kg": 6.74,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Rep. of Korea",
+      "tonnes": 105.3,
+      "usd": 794427
+     },
+     {
+      "partner": "China",
+      "tonnes": 82.7,
+      "usd": 400954
+     },
+     {
+      "partner": "USA",
+      "tonnes": 23.1,
+      "usd": 337072
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 18.6,
+      "usd": 101537
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 4.9,
+      "usd": 57203
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "293149",
+    "year": 2022,
+    "tonnes": 76.9,
+    "value_usd": 163888,
+    "unit_value_usd_per_kg": 2.13,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 70.2,
+      "usd": 147320
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 5.9,
+      "usd": 13464
+     },
+     {
+      "partner": "Spain",
+      "tonnes": 0.8,
+      "usd": 3021
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 0.0,
+      "usd": 83
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2022,
+    "tonnes": 978.8,
+    "value_usd": 4137247,
+    "unit_value_usd_per_kg": 4.23,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Italy",
+      "tonnes": 438.1,
+      "usd": 1442580
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 332.8,
+      "usd": 1348954
+     },
+     {
+      "partner": "Belgium",
+      "tonnes": 75.8,
+      "usd": 411283
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 38.1,
+      "usd": 353679
+     },
+     {
+      "partner": "Netherlands",
+      "tonnes": 40.2,
+      "usd": 238250
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2022,
+    "tonnes": 14520.8,
+    "value_usd": 40128681,
+    "unit_value_usd_per_kg": 2.76,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 1272.5,
+      "usd": 12878407
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 4043.2,
+      "usd": 4390830
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 681.7,
+      "usd": 3566094
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 636.5,
+      "usd": 3022616
+     },
+     {
+      "partner": "Iran",
+      "tonnes": 4301.4,
+      "usd": 2252070
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2022,
+    "tonnes": 197.4,
+    "value_usd": 769624,
+    "unit_value_usd_per_kg": 3.9,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Italy",
+      "tonnes": 95.0,
+      "usd": 270689
+     },
+     {
+      "partner": "USA",
+      "tonnes": 15.4,
+      "usd": 231723
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 22.3,
+      "usd": 104678
+     },
+     {
+      "partner": "China",
+      "tonnes": 42.2,
+      "usd": 80080
+     },
+     {
+      "partner": "India",
+      "tonnes": 10.4,
+      "usd": 37207
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "293149",
+    "year": 2023,
+    "tonnes": 269.2,
+    "value_usd": 399259,
+    "unit_value_usd_per_kg": 1.48,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 259.1,
+      "usd": 368119
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 7.4,
+      "usd": 19823
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 2.7,
+      "usd": 10923
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 0.0,
+      "usd": 394
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2023,
+    "tonnes": 1010.0,
+    "value_usd": 5180327,
+    "unit_value_usd_per_kg": 5.13,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Italy",
+      "tonnes": 499.3,
+      "usd": 1818391
+     },
+     {
+      "partner": "USA",
+      "tonnes": 32.9,
+      "usd": 696084
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 180.5,
+      "usd": 588768
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 94.3,
+      "usd": 560085
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 34.5,
+      "usd": 367555
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2023,
+    "tonnes": 13392.5,
+    "value_usd": 48461114,
+    "unit_value_usd_per_kg": 3.62,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 1185.0,
+      "usd": 17443939
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 4114.5,
+      "usd": 4407894
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 695.7,
+      "usd": 4283375
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 396.5,
+      "usd": 3372035
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 801.8,
+      "usd": 2495713
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2023,
+    "tonnes": 114.2,
+    "value_usd": 622610,
+    "unit_value_usd_per_kg": 5.45,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "USA",
+      "tonnes": 21.3,
+      "usd": 337106
+     },
+     {
+      "partner": "China",
+      "tonnes": 59.4,
+      "usd": 96782
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 8.9,
+      "usd": 87244
+     },
+     {
+      "partner": "France",
+      "tonnes": 7.8,
+      "usd": 21831
+     },
+     {
+      "partner": "Romania",
+      "tonnes": 2.1,
+      "usd": 21621
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "293149",
+    "year": 2024,
+    "tonnes": 209.1,
+    "value_usd": 372447,
+    "unit_value_usd_per_kg": 1.78,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 190.7,
+      "usd": 280696
+     },
+     {
+      "partner": "USA",
+      "tonnes": 6.9,
+      "usd": 59656
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 7.6,
+      "usd": 15248
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 2.7,
+      "usd": 12854
+     },
+     {
+      "partner": "Lithuania",
+      "tonnes": 1.2,
+      "usd": 3916
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2024,
+    "tonnes": 984.6,
+    "value_usd": 4594167,
+    "unit_value_usd_per_kg": 4.67,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Italy",
+      "tonnes": 353.8,
+      "usd": 1224392
+     },
+     {
+      "partner": "Netherlands",
+      "tonnes": 128.2,
+      "usd": 699361
+     },
+     {
+      "partner": "USA",
+      "tonnes": 48.5,
+      "usd": 528275
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 88.7,
+      "usd": 526514
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 191.4,
+      "usd": 510361
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2024,
+    "tonnes": 12938.6,
+    "value_usd": 52271227,
+    "unit_value_usd_per_kg": 4.04,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 1200.1,
+      "usd": 18636948
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 846.3,
+      "usd": 5514532
+     },
+     {
+      "partner": "USA",
+      "tonnes": 428.4,
+      "usd": 4985929
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 3943.6,
+      "usd": 4683474
+     },
+     {
+      "partner": "China",
+      "tonnes": 918.0,
+      "usd": 3927799
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2024,
+    "tonnes": 152.2,
+    "value_usd": 442475,
+    "unit_value_usd_per_kg": 2.91,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 109.6,
+      "usd": 218099
+     },
+     {
+      "partner": "India",
+      "tonnes": 15.5,
+      "usd": 123495
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 14.9,
+      "usd": 31914
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 7.8,
+      "usd": 28181
+     },
+     {
+      "partner": "Germany",
+      "tonnes": 1.8,
+      "usd": 23450
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "293149",
+    "year": 2025,
+    "tonnes": 252.2,
+    "value_usd": 350815,
+    "unit_value_usd_per_kg": 1.39,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 213.1,
+      "usd": 267836
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 32.6,
+      "usd": 49723
+     },
+     {
+      "partner": "USA",
+      "tonnes": 3.5,
+      "usd": 18766
+     },
+     {
+      "partner": "France",
+      "tonnes": 1.6,
+      "usd": 9087
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 1.4,
+      "usd": 5284
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "381190",
+    "year": 2025,
+    "tonnes": 739.0,
+    "value_usd": 4115555,
+    "unit_value_usd_per_kg": 5.57,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "Italy",
+      "tonnes": 247.3,
+      "usd": 1407110
+     },
+     {
+      "partner": "USA",
+      "tonnes": 66.8,
+      "usd": 708640
+     },
+     {
+      "partner": "United Kingdom",
+      "tonnes": 93.3,
+      "usd": 551888
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 167.6,
+      "usd": 450468
+     },
+     {
+      "partner": "Netherlands",
+      "tonnes": 72.2,
+      "usd": 407849
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "382499",
+    "year": 2025,
+    "tonnes": 24490.4,
+    "value_usd": 53363717,
+    "unit_value_usd_per_kg": 2.18,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "France",
+      "tonnes": 1384.3,
+      "usd": 21546286
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 7355.0,
+      "usd": 6027621
+     },
+     {
+      "partner": "China",
+      "tonnes": 959.7,
+      "usd": 4267958
+     },
+     {
+      "partner": "Italy",
+      "tonnes": 677.4,
+      "usd": 4024513
+     },
+     {
+      "partner": "USA",
+      "tonnes": 350.7,
+      "usd": 3289994
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   },
+   {
+    "hs": "391400",
+    "year": 2025,
+    "tonnes": 202.9,
+    "value_usd": 1042718,
+    "unit_value_usd_per_kg": 5.14,
+    "weight_basis": "World partner row netWgt/altQty",
+    "top_partners": [
+     {
+      "partner": "China",
+      "tonnes": 153.5,
+      "usd": 479786
+     },
+     {
+      "partner": "USA",
+      "tonnes": 26.2,
+      "usd": 473815
+     },
+     {
+      "partner": "Russian Federation",
+      "tonnes": 17.5,
+      "usd": 61882
+     },
+     {
+      "partner": "India",
+      "tonnes": 1.4,
+      "usd": 9274
+     },
+     {
+      "partner": "Türkiye",
+      "tonnes": 2.9,
+      "usd": 7072
+     }
+    ],
+    "source": "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+    "accessed": "2026-11-11"
+   }
+  ],
+  "production": [
+   {
+    "metric": "oil_incl_condensate_production",
+    "year": 2024,
+    "value": 29.1,
+    "unit": "Mt",
+    "source": "https://www.trend.az/business/energy/3993278.html",
+    "accessed": "2026-11-11"
+   },
+   {
+    "metric": "natural_gas_production",
+    "year": 2024,
+    "value": 50.3,
+    "unit": "bcm",
+    "source": "https://www.trend.az/business/energy/3993278.html",
+    "accessed": "2026-11-11"
+   },
+   {
+    "metric": "thermal_power_installed_capacity",
+    "year": 2025,
+    "value": 7199.5,
+    "unit": "MW",
+    "source": "https://en.apa.az/energy-and-industry/installed-capacity-of-energy-system-in-azerbaijan-nears-9-gw-469460",
+    "note": "Azerenerji, article 04.06.2025; total system 8976 MW",
+    "accessed": "2026-11-11"
+   }
+  ]
+ },
+ "ratios": [
+  {
+   "ratio": "UZ HS293149 imports per bcm gas (2024)",
+   "value": 12.69,
+   "unit": "t/bcm",
+   "calculation": "566.1 t / 44.5976 bcm",
+   "note": "HS 293149 = all other non-halogenated organo-P compounds (phosphonates + glyphosate etc.) -> upper bound for phosphonates"
+  },
+  {
+   "ratio": "UZ HS293149 imports per Mt oil+condensate (2024)",
+   "value": 293.67,
+   "unit": "t/Mt",
+   "calculation": "566.1 t / 1.9277 Mt",
+   "note": ""
+  },
+  {
+   "ratio": "UZ HS293149 imports per TWh TPP generation (2024)",
+   "value": 17.69,
+   "unit": "t/TWh",
+   "calculation": "566.1 t / 32 TWh",
+   "note": ""
+  },
+  {
+   "ratio": "AZ HS293149 imports per bcm gas (2024)",
+   "value": 4.16,
+   "unit": "t/bcm",
+   "calculation": "209.1 t / 50.3 bcm",
+   "note": ""
+  },
+  {
+   "ratio": "AZ HS293149 imports per Mt oil+condensate (2024)",
+   "value": 7.19,
+   "unit": "t/Mt",
+   "calculation": "209.1 t / 29.1 Mt",
+   "note": ""
+  },
+  {
+   "ratio": "AZ HS293149 imports per GW thermal (2024 imports / mid-2025 capacity)",
+   "value": 29.04,
+   "unit": "t/GW",
+   "calculation": "209.1 t / 7.1995 GW",
+   "note": ""
+  },
+  {
+   "ratio": "AZ HS293149 imports per (bcm gas + Mt oil) (2024)",
+   "value": 2.63,
+   "unit": "t per (bcm gas + Mt oil)",
+   "calculation": "209.1/(50.3+29.1)",
+   "note": "crude combined denominator; UZ equivalent below"
+  },
+  {
+   "ratio": "UZ HS293149 imports per (bcm gas + Mt oil) (2024)",
+   "value": 12.17,
+   "unit": "t per (bcm gas + Mt oil)",
+   "calculation": "566.1/(44.5976+1.9277)",
+   "note": ""
+  },
+  {
+   "ratio": "UZ HS293149 imports, 3-yr average 2023-2025",
+   "value": 417.2,
+   "unit": "t/yr",
+   "calculation": "(260.9+566.1+424.7)/3"
+  },
+  {
+   "ratio": "AZ HS293149 imports, 3-yr average 2023-2025",
+   "value": 243.5,
+   "unit": "t/yr",
+   "calculation": "(269.2+209.1+252.2)/3"
+  },
+  {
+   "ratio": "UZ etender visible water scale/corrosion inhibitor + antiscalant tonnage, deals dated 2022",
+   "value": 44.16,
+   "unit": "t",
+   "calculation": "2.76 (\"BUXORO NEFTNI QAYTA ISHL 22120012068289) + 13.4 (АО OLMALIQ KON-METALLURGI 22120006034430) + 28.0 (АО OLMALIQ KON-METALLURGI 22120012048242)",
+   "note": "only lots with tonnage; package/set lots (Shurtan cooling-water packages, GTL monthly sets) excluded; visible public corporate tenders only"
+  },
+  {
+   "ratio": "UZ etender visible water scale/corrosion inhibitor + antiscalant tonnage, deals dated 2023",
+   "value": 16.741,
+   "unit": "t",
+   "calculation": "3.741 (\"SHURTAN GAZ KIMYO MAJMUA 23120012274320) + 7.0 (АО OLMALIQ KON-METALLURGI 23120012314892) + 6.0 (АО OLMALIQ KON-METALLURGI 23120012314892)",
+   "note": "only lots with tonnage; package/set lots (Shurtan cooling-water packages, GTL monthly sets) excluded; visible public corporate tenders only"
+  },
+  {
+   "ratio": "UZ etender visible water scale/corrosion inhibitor + antiscalant tonnage, deals dated 2024",
+   "value": 40.871,
+   "unit": "t",
+   "calculation": "2.76 (\"BUXORO NEFTNI QAYTA ISHL 23120012334717) + 0.5 (\"O`ZBEKISTON METALLURGIYA 24120012376704) + 5.611 (\"SHURTAN GAZ KIMYO MAJMUA 24120012348578) + 16 (АО OLMALIQ KON-METALLURGI 24120012356754) + 16 (АО OLMALIQ KON-METALLURGI 24120012397653)",
+   "note": "only lots with tonnage; package/set lots (Shurtan cooling-water packages, GTL monthly sets) excluded; visible public corporate tenders only"
+  },
+  {
+   "ratio": "UZ etender visible water scale/corrosion inhibitor + antiscalant tonnage, deals dated 2025",
+   "value": 3.741,
+   "unit": "t",
+   "calculation": "3.741 (\"SHURTAN GAZ KIMYO MAJMUA 25120012418397)",
+   "note": "only lots with tonnage; package/set lots (Shurtan cooling-water packages, GTL monthly sets) excluded; visible public corporate tenders only"
+  },
+  {
+   "ratio": "UZ etender visible water scale/corrosion inhibitor + antiscalant tonnage, deals dated 2026",
+   "value": 3.741,
+   "unit": "t",
+   "calculation": "3.741 (\"SHURTAN GAZ KIMYO MAJMUA 26120012466245)",
+   "note": "only lots with tonnage; package/set lots (Shurtan cooling-water packages, GTL monthly sets) excluded; visible public corporate tenders only"
+  },
+  {
+   "ratio": "UZ 2024 etender-visible tonnage as share of HS293149 imports",
+   "value": 7.2,
+   "unit": "%",
+   "calculation": "40.871/566.1*100",
+   "note": "indicates most volume flows via direct contracts, xarid.uzex.uz state shop, or distributors"
+  }
+ ],
+ "sources": [
+  "https://apietender.uzex.uz/api/common/DealsList",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=31&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2021&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2022&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2023&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2024&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://comtradeapi.un.org/public/v1/preview/C/A/HS?reporterCode=860&period=2025&cmdCode=293139,293149,382499,381190,391400&flowCode=M",
+  "https://e-tender.socar.az/",
+  "https://en.apa.az/energy-and-industry/installed-capacity-of-energy-system-in-azerbaijan-nears-9-gw-469460",
+  "https://etender.uzex.uz/deals-list",
+  "https://etender.uzex.uz/lot/261943",
+  "https://etender.uzex.uz/lot/274320",
+  "https://etender.uzex.uz/lot/314892",
+  "https://etender.uzex.uz/lot/334717",
+  "https://etender.uzex.uz/lot/34430",
+  "https://etender.uzex.uz/lot/348578",
+  "https://etender.uzex.uz/lot/356754",
+  "https://etender.uzex.uz/lot/365616",
+  "https://etender.uzex.uz/lot/367612",
+  "https://etender.uzex.uz/lot/376704",
+  "https://etender.uzex.uz/lot/397653",
+  "https://etender.uzex.uz/lot/418397",
+  "https://etender.uzex.uz/lot/419014",
+  "https://etender.uzex.uz/lot/426626",
+  "https://etender.uzex.uz/lot/443464",
+  "https://etender.uzex.uz/lot/448654",
+  "https://etender.uzex.uz/lot/453883",
+  "https://etender.uzex.uz/lot/466245",
+  "https://etender.uzex.uz/lot/478629",
+  "https://etender.uzex.uz/lot/480622",
+  "https://etender.uzex.uz/lot/48242",
+  "https://etender.uzex.uz/lot/496688",
+  "https://etender.uzex.uz/lot/68266",
+  "https://etender.uzex.uz/lot/68289",
+  "https://gov.uz/ru/minenergy/news/view/69436",
+  "https://ru.themoscowtimes.com/2025/01/21/uzbekistan-sokratil-dobychu-nefti-i-gaza-v-24g-narastil-proizvodstvo-uglya-a152914",
+  "https://www.treasury.gov/ofac/downloads/sdn.csv",
+  "https://www.trend.az/business/energy/3993278.html",
+  "https://www.uzdaily.uz/ru/ao-teplovye-elektricheskie-stantsii-podvelo-itogi-2024-goda-rost-vyrabotki-energii-i-masshtabnye-investitsii/",
+  "https://xarid.uzex.uz/completed-deals"
+ ]
+}
