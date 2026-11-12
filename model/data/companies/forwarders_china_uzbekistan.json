@@ -1,0 +1,258 @@
+{
+ "meta": {
+  "task": "Freight forwarders China (Shandong: Qingdao/Zibo/Zaozhuang) -> Uzbekistan (Karakalpakstan, Kungrad district, st. Kyrkkyz 737105 / Akchalak, Ustyurt GCC), rail via Khorgos/Alashankou-Kazakhstan and/or truck, chemicals in IBC/drums incl. DG class 8/9",
+  "compiled": "2026-11-12",
+  "method": "Company websites fetched directly; independent source = yellowpages.uz directory pages (and goldenpages.uz for Globalink). No contact made with any company. Pages behind bot checks (goldenpages search, railmarket.com) were not accessed.",
+  "verified_rule": "verified=true only if the same e-mail appears in two independent sources (own site + independent page, or two independent directories). Otherwise verified=false.",
+  "sanctions_screening": {
+   "lists": [
+    "OFAC SDN.CSV",
+    "OFAC ALT.CSV (aliases)"
+   ],
+   "source": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
+   "screened_on": "2026-11-12",
+   "result": "No matches for any listed company. False positives ignored: 'SAADA' only in remarks of Yemen-related individuals (Sa'ada governorate); 'TRANS ASIA INTERNATIONAL HOLDING GROUP THAILAND' is an unrelated Thai entity, not TransAsia Logistics (Tashkent).",
+   "excluded": [
+    "FESCO (Russian; has a China-Tashkent shuttle but is Russia-linked and its own page says DG of all classes are prohibited on that service)",
+    "RZDL Transservice / UTI-RZD Logistics JV (Russian state-railway-linked)"
+   ]
+  },
+  "important_caveats": [
+   "No company published an explicit service to Kyrkkyz station (737105) / Akchalak / Ustyurt GCC. AGL and TransAsia list delivery to Nukus (Karakalpakstan); final leg Kungrad must be confirmed in the quote request.",
+   "Class 8/9 by rail in containers/wagons China->Kazakhstan->Uzbekistan needs SMGS Annex 2 approvals; several forwarders state DG/ADR/RID capability in general terms, none publishes concrete class 8 rail cases to Uzbekistan.",
+   "Only Great Hensen is Qingdao-based; its site confirms Qingdao DG (class 2-9) and rail/Central Asia generally but NOT Uzbekistan specifically."
+  ],
+  "counts": {
+   "total": 12,
+   "verified": 7,
+   "unverified": 5
+  }
+ },
+ "companies": [
+  {
+   "name": "Arrow Green Logistics (AGL) LLC",
+   "type": "Uzbek forwarder",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "address": "Tashkent, Mirzo-Ulugbek district, 2nd Shurtepa passage, 14",
+   "website": "https://agl.uz",
+   "email": "info@agl.uz",
+   "email_alt": "sales@agl.uz (own site only)",
+   "phone": "+998 55 518-19-00",
+   "route_evidence": "Own site: China->Uzbekistan delivery articles (auto, rail+auto multimodal, door-to-door incl. Nukus); services rail logistics, multimodal, own terminals (ULS, OLC). DG page: 'all classes', ADR, IATA DGR, IMDG, RID; tanks/containers, rail; MSDS/declarations.",
+   "dg_capability": "Stated: all DG classes, RID/ADR",
+   "sources": [
+    "https://agl.uz/service/perevozka-opasnyh-gruzov/",
+    "https://www.yellowpages.uz/teg/perevozka-opasnyh-gruzov"
+   ],
+   "extra_sources": [
+    "https://agl.uz/news/dostavka-gruzov-iz-kitaya-v-uzbekistan-kak-snizit-rashody-i-uskorit-sroki-v-2026-godu/",
+    "https://www.yellowpages.uz/teg/mezhdunarodnoe-ekspedirovanie-gruzov/tashkent"
+   ],
+   "verified": true,
+   "ofac_match": false
+  },
+  {
+   "name": "Logistic Technology LLC",
+   "type": "Uzbek forwarder",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "address": "Tashkent, Katta Darkhon str., 5",
+   "website": "https://logistic-technology.uz",
+   "email": "sales@logistic-technology.uz",
+   "phone": "+998 97 155 77 18",
+   "route_evidence": "Own page 'Из Китая в Узбекистан': rail 18-35 days via Dostyk/Altynkol (gauge change), auto 7-20 days via Irkeshtam/Torugart/Khorgos, sea via Qingdao/Lianyungang/Ningbo + rail; rail used for 'chemistry and raw materials'. Service 'Опасные грузы (ADR)': chemicals, paints, batteries with ADR permit.",
+   "dg_capability": "Stated: ADR road DG incl. chemicals; rail DG 'accepted not always, clarify class in advance'",
+   "sources": [
+    "https://logistic-technology.uz/ru/napravleniya/iz-kitaya-v-uzbekistan/",
+    "https://www.yellowpages.uz/teg/zheleznodorozhnye-perevozki"
+   ],
+   "verified": true,
+   "ofac_match": false,
+   "note": "Site lists Iran among export/import destinations (route offering only; no ownership link found). Review against internal Iran policy."
+  },
+  {
+   "name": "Saada Logistics",
+   "type": "Uzbek forwarder",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "address": "Tashkent, Yakkasaray district, Tafakkur str., 43",
+   "website": "https://saada-log.uz",
+   "email": "direct@saada-log.uz",
+   "phone": "+998 78 122-04-40; +998 97 731-41-46",
+   "route_evidence": "Own page 'Доставка грузов из Китая': all routes from China - truck via Khorgos, container trains, sea+rail, air; buying/consolidation; rail freight service page.",
+   "dg_capability": "Not stated on pages reviewed",
+   "sources": [
+    "https://saada-log.uz/dostavka-gruzov-iz-kitaya/",
+    "https://www.yellowpages.uz/kompaniya/saada-logistics"
+   ],
+   "verified": true,
+   "ofac_match": false
+  },
+  {
+   "name": "StarWays Logistics LLC",
+   "type": "Uzbek forwarder (also Riga office)",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "address": "Tashkent, Oloy Bozori passage, 60",
+   "website": "https://starways.uz",
+   "email": "info@starways.uz",
+   "phone": "+998 55 514-09-09",
+   "route_evidence": "Own site FAQ: China-Uzbekistan 25-30 days; services: rail freight, DG transport, bulk & liquid cargo, multimodal.",
+   "dg_capability": "Stated: DG transport per ADR/class-based",
+   "sources": [
+    "https://starways.uz/perevozka-opasnyh-gruzov",
+    "https://www.yellowpages.uz/teg/mezhdunarodnoe-ekspedirovanie-gruzov/tashkent"
+   ],
+   "verified": true,
+   "ofac_match": false
+  },
+  {
+   "name": "First Dry Port Terminal (FDP) LLC",
+   "type": "Uzbek rail container terminal / forwarder",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "address": "Tashkent, Sergeli district, Nilufar str., 2A",
+   "website": "https://fdp.team",
+   "email": "info@fdp.team",
+   "phone": "+998 71 203 23 22",
+   "route_evidence": "Own site: reception/handling of container and wagon cargo from China, Turkey, CIS with customs clearance and storage; forming container trains to China.",
+   "dg_capability": "Not stated",
+   "sources": [
+    "https://fdp.team",
+    "https://www.yellowpages.uz/kompaniya/first-dry-port-terminal-ooo"
+   ],
+   "verified": true,
+   "ofac_match": false
+  },
+  {
+   "name": "High Speed Logistics (HSL Uzbekistan)",
+   "type": "Uzbek forwarder",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "website": "https://hsl.uz",
+   "email": "info@hsl.uz",
+   "phone": "+998 97 540-22-22",
+   "route_evidence": "Own site: directions include China; road, rail, air, sea and multimodal.",
+   "dg_capability": "Not stated",
+   "sources": [
+    "https://hsl.uz",
+    "https://www.yellowpages.uz/teg/mezhdunarodnye-gruzoperevozki"
+   ],
+   "verified": true,
+   "ofac_match": false,
+   "note": "Weaker China evidence (generic list of directions)."
+  },
+  {
+   "name": "Globalink Logistics Group Ltd. - Representative Office in Tashkent",
+   "type": "Kazakh/international forwarder (HQ Almaty; DP World group) with Tashkent office",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "address": "100015 Tashkent, Yakkasaray district, 6th A. Kahhar passage, 47",
+   "website": "https://www.globalinklogistics.com",
+   "email": "tashkent@globalinklogistics.com",
+   "phone": "+998 78 129 99 00 / 01 / 02",
+   "route_evidence": "Directory activity types: 'Cargo delivery, cargo transportation from China to Uzbekistan', railway cargo transportation, trucking, forwarding. Press: China->Tajikistan/Uzbekistan project cargo.",
+   "dg_capability": "Not stated in sources reviewed",
+   "sources": [
+    "https://www.yellowpages.uz/kompaniya/globalink-logistics-group-ltd-predstavitelstvo",
+    "https://www.goldenpages.uz/en/company/?Id=3394"
+   ],
+   "verified": true,
+   "ofac_match": false,
+   "note": "Both sources are independent directories; company website returned HTTP 503 / TLS error, so e-mail NOT confirmed on own site."
+  },
+  {
+   "name": "TransAsia Logistics LLC",
+   "type": "Uzbek forwarder (group offices in KZ/KG/CN historically)",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "address": "Tashkent, Yakkasaray district, A. Kahhar str., 9th passage, 16a",
+   "website": "https://transasia.uz",
+   "email": "sales@transasia.uz",
+   "phone": "+998 71 200 05 67",
+   "route_evidence": "Own site: rail container transport from China 18-25 days; projects Khorgos->Tashkent (auto+rail), Changzhou->Chirchik; delivery to Nukus; DG page: ADR classes incl. chemical, toxic, oxidizing, corrosive.",
+   "dg_capability": "Stated: multiple ADR classes, chemicals",
+   "sources": [
+    "https://transasia.uz/perevozka-opasnyh-gruzov"
+   ],
+   "verified": false,
+   "ofac_match": false,
+   "note": "yellowpages.uz lists a different address sales@transosiyo.uz (https://www.yellowpages.uz/kompaniya/transasia-logistics-ooo); sales@transasia.uz not found in any independent source."
+  },
+  {
+   "name": "AsstrA Uzbekistan (AsstrA-Associated Traffic AG group)",
+   "type": "International forwarder (HQ Zurich) with Tashkent office",
+   "country": "Uzbekistan",
+   "city": "Tashkent",
+   "website": "https://asstra.uz",
+   "email": "info@asstra.uz",
+   "phone": "+998 78 122 02 04",
+   "route_evidence": "asstra.com news 07/2026: delivery of power transformers from China to Uzbekistan via Khorgos; asstra.uz: rail via Dostyk, accelerated container trains, rail terminal handling.",
+   "dg_capability": "Not stated for this route",
+   "sources": [
+    "https://asstra.uz"
+   ],
+   "extra_sources_same_company": [
+    "https://asstra.com/press-centre/news/2026/07/delivery-of-power-transformers-from-china-to-uzbekistan/",
+    "https://asstra.com/press-centre/news/2026/06/between-china-and-europe-uzbekistans-role-in-regional-supply-chains/"
+   ],
+   "verified": false,
+   "ofac_match": false,
+   "note": "E-mail appears only on AsstrA-owned sites (not independent). Group also has Russia/Belarus entities; not on OFAC SDN."
+  },
+  {
+   "name": "Shenzhen Tonlexing International Logistics Co., Ltd.",
+   "type": "Chinese forwarder",
+   "country": "China",
+   "city": "Shenzhen",
+   "website": "https://www.tonlexing.com",
+   "email": "info@tonlexing.com",
+   "phone": "+86 134 2422 1829; +86 755 8222 7229",
+   "route_evidence": "Own page 'Rail Freight from China to Uzbekistan': China hub -> Alashankou or Khorgos -> Kazakhstan -> Tashkent; FCL/LCL; onward to Andijan, Bukhara, Samarkand etc.",
+   "dg_capability": "Not stated on route page",
+   "sources": [
+    "https://www.tonlexing.com/rail-freight-from-china-to-uzbekistan/"
+   ],
+   "verified": false,
+   "ofac_match": false,
+   "note": "Not Shandong-based; departure hubs listed are Xi'an/Chengdu/Chongqing/Zhengzhou/Yiwu."
+  },
+  {
+   "name": "Instant World Logistics",
+   "type": "Chinese forwarder with Tashkent presence",
+   "country": "Uzbekistan / China",
+   "city": "Tashkent (Sergeli, Khonobod str. 2)",
+   "website": "https://www.instantworldlogistics.com",
+   "email": "info@instantworld.cn",
+   "phone": "+86 186 9949 7527",
+   "route_evidence": "Listed by yellowpages.uz under railway transport and international freight forwarding in Tashkent; Chinese contact numbers/domain.",
+   "dg_capability": "Unknown",
+   "sources": [
+    "https://www.yellowpages.uz/kompaniya/instant-world-logistcs"
+   ],
+   "verified": false,
+   "ofac_match": false,
+   "note": "Own website unreachable (TLS/503) - route and e-mail not confirmed by company."
+  },
+  {
+   "name": "Great Hensen (Qingdao)",
+   "type": "Chinese DG forwarder, Qingdao",
+   "country": "China",
+   "city": "Qingdao, Shandong",
+   "address": "Room 1602, Building 3 Fortune Zone, No.13 Lianyungang Road, Qingdao",
+   "website": "https://www.greathensen.com",
+   "email": "sales@GreatHensen.com",
+   "email_alt": "info@GreatHensen.com",
+   "phone": "+86 133 7532 0398",
+   "route_evidence": "Own site: DG freight class 2-9 by sea/air/rail from Qingdao; class 8 'widely accepted', class 9 accepted; mentions Central Asia rail intermodal via Tianjin. Uzbekistan NOT explicitly confirmed.",
+   "dg_capability": "Stated: class 2-9 incl. 8 and 9 (packaging, documentation)",
+   "sources": [
+    "https://www.greathensen.com/en/contact.html"
+   ],
+   "verified": false,
+   "ofac_match": false,
+   "note": "Included as the only Qingdao DG specialist found; China->Uzbekistan route must be confirmed."
+  }
+ ]
+}
