@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "customer": "JV \"Uz-Kor Gas Chemical\" LLC (Ustyurt GCC)",
+    "current_tender": "T-47/2026 supply of chemicals for U&O plant (цех ОЗХ), announced 02.11.2026",
+    "compiled": "2026-11-12",
+    "method": "uz-kor.com (tender + archive categories, site search, scan of article ids 962-6015), tenderweek.com public company listing (all 334 pages, 3013 notices 2013-2026; detail pages require login, not opened), trend.az, pwcspecialties.com, nbd.ltd, web search. Not reachable/used: web.archive.org (connection reset via proxy), tenderweek detail pages (login), trend.az Premium articles (paywall), xarid/etender.uzex.uz (no hits in search; not logged in)."
+  },
+  "tenders": [
+    {"no": "T-37/2018", "date_published": "2018-08-06", "deadline": "2018-09-06", "subject": "Поставка химических реагентов для систем водоочистки и [очистки сточных вод] (snippet truncated)", "type": "open tender", "status": "unknown", "source": "https://www.tenderweek.com/company/uz-kor?cpage=238 (card №18574)", "relevance": "high - same series, before 2019 window"},
+    {"no": "CS-207/2020", "date_published": "2020-08-17", "deadline": "2020-08-24", "subject": "Поставка бисульфита натрия 35% (водный раствор)", "type": "competitive selection (CS)", "status": "unknown", "source": "tenderweek card №24508", "relevance": "high - same product as T-47 item (SBS 35%)"},
+    {"no": "T-08/2021", "date_published": "2021-02-26", "results_published": "2021-07-13", "subject": "Поставка химических реагентов для систем водоочистки и очистки сточных вод Устюртского ГХК", "type": "open tender", "status": "Завершен (completed); results notice exists: 'Участнику с идентификационным номером…' (winner name/INN behind login)", "source": "https://www.tenderweek.com/company/uz-kor?cpage=160 (card №25725, 'РЕЗУЛЬТАТЫ ЗАКУПОК')", "relevance": "high - direct predecessor"},
+    {"no": "CS-196/2021", "date_published": "2021-08-04", "updated": "2021-08-18 (ПРОДЛЕНИЕ = deadline extended)", "deadline": "2021-08-27", "subject": "Поставка раствора бисульфита натрия (quantity truncated)", "type": "CS", "status": "extended once", "source": "tenderweek card №26560", "relevance": "high"},
+    {"no": "T-39/2022", "date_published": "2022-07-29", "award_published": "2022-12-20", "subject": "Поставка химических реагентов для систем водоочистки и очистки сточных вод Устюртского ГХК", "type": "open tender", "status": "Завершен; 'ПРИСУЖДЕНИЕ КОНТРАКТА' (contract award) notice published; winner details behind login", "source": "https://www.tenderweek.com/company/uz-kor?cpage=119 (card №28347)", "relevance": "high - direct predecessor"},
+    {"no": "CS-74/2022", "date_published": "2022-04-07", "subject": "Поставка ортофосфорной кислоты (quantity truncated)", "type": "CS", "source": "tenderweek card №27802", "relevance": "low/medium"},
+    {"no": "CS-232/2023", "date_published": "2023-10-16", "award_published": "2023-12-18", "subject": "Поставка жидкой лимонной кислоты", "type": "CS", "source": "tenderweek card №30350", "relevance": "medium (membrane CIP / cleaning chemical)"},
+    {"no": "T-5/2024", "date_published": "2024-01-16", "award_published": "2024-03-15", "subject": "Поставка хим. реагентов для очис[тки ...] (truncated)", "type": "open tender, 30 days", "status": "ПРИСУЖДЕНИЕ КОНТРАКТА", "source": "https://www.tenderweek.com/company/uz-kor?cpage=80 (card №30711)", "relevance": "probably high (inference: water/wastewater treatment chemicals)"},
+    {"no": "T-12/2024", "date_published": "2024-02-08", "award_published": "2024-07-01", "subject": "Поставка хим. реагентов для у[становок ...] (truncated; possibly 'для установок цеха ОЗХ' - inference)", "type": "open tender, 30 days", "status": "ПРИСУЖДЕНИЕ КОНТРАКТА", "source": "https://www.tenderweek.com/company/uz-kor?cpage=77 (card №30868)", "relevance": "possibly direct predecessor (inference)"},
+    {"no": "CS-56/2024", "date_published": "2024-02-27", "award_published": "2024-04-03", "subject": "Поставка 2000 кг хим. реагента корректор pH (ам[ин] ...) ", "type": "CS", "status": "ПРИСУЖДЕНИЕ КОНТРАКТА", "source": "tenderweek card №30981", "relevance": "high - neutralizing amine analogue; volume 2000 kg"},
+    {"no": "T-22/2024", "date_published": "2024-03-18", "award_published": "2024-07-01", "subject": "Поставка хим. реагентов для оч[истки ...] (truncated)", "type": "open tender, 30 days", "status": "ПРИСУЖДЕНИЕ КОНТРАКТА", "source": "https://www.tenderweek.com/company/uz-kor?cpage=74 (card №31083)", "relevance": "probably high (inference)"},
+    {"no": "T-06/24", "date_published": "2024-03-19", "deadline": "2024-04-18", "subject": "Поставка установки водоподготовки (equipment)", "type": "open tender", "source": "tenderweek card №31092", "relevance": "low (equipment)"},
+    {"no": "CS-093/2024", "date_published": "2024-04-16", "deadline": "2024-04-23", "subject": "Закупка с внутреннего рынка тринатрийфосфата", "type": "CS, domestic market only", "source": "tenderweek card №31235", "relevance": "high - TSP is a T-47 item; previously bought locally"},
+    {"no": "CS-291/2024", "date_published": "2024-12-11", "deadline": "2025-01-10", "subject": "Поставка лимонной кислоты 12000 [кг]", "type": "CS", "source": "tenderweek card №32625", "relevance": "medium"},
+    {"no": "T-27/2025", "date_published": "2025-02-25", "award_published": "2025-05-22", "subject": "Поставка химических реагенто[в ...] (truncated)", "type": "open tender, 30 days", "status": "ПРИСУЖДЕНИЕ КОНТРАКТА", "source": "https://www.tenderweek.com/company/uz-kor?cpage=46 (card №33166)", "relevance": "probably direct predecessor (inference: published same day as T-21/2025 process chemicals; subject truncated)"},
+    {"no": "CS-139/2026", "date_published": "2026-07-28", "award_published": "2026-10-14", "subject": "Химические реагенты: бикарбонат натрия 3700 кг, лимонная кислота 12000 кг; max price 320 000 000 UZS incl. VAT (max price seen only in search-engine snippet of uz-kor.com page, now 404)", "type": "CS", "status": "ПРИСУЖДЕНИЕ КОНТРАКТА", "source": "tenderweek card №36187; https://www.uz-kor.com/index.php/en/tenders/5822 (404 now)", "relevance": "medium"},
+    {"no": "T-47/2026", "date_published": "2026-11-02", "deadline": "2026-12-02 (RU) / 27.11.2026 (EN)", "subject": "Поставка химических реагентов для установок цеха ОЗХ / chemicals for U&O plant", "type": "open tender, 30 days", "source": "https://uz-kor.com/index.php/ru/tendery/5992 ; tenderweek card №36775", "relevance": "current"},
+    {"no": "older context", "items": ["T-40/2016 (02.08.2016) хим. реагенты, мин. масло, смазка - https://uz-kor.com/index.php/ru/arkhiv/111", "CS-83/2017 химреагенты (to 20.06.2017, Uzbek-registered only) - https://uz-kor.com/index.php/ru/arkhiv/494", "T-36/2017 хим. реагенты (deadline 27.10.2017) - https://uz-kor.com/index.php/ru/arkhiv/591", "T-46/2017 RO membranes Filmtec BW30XFR-400/34i or analogue - https://uz-kor.com/index.php/ru/arkhiv/721", "CS-176/2017 spare parts for ОЗХ"]},
+    {"no": "related process-chemical series (not water)", "items": ["T-12/2019 chemicals for Ethylene plant (01.07.2019, extended to 29.08.2019)", "T-23/2020 chemicals for quench column washing (06.07.2020, extended)", "T-07/2021, T-25/2022, T-20/2024, T-21/2025 corrosion inhibitor/emulsion breaker/caustic antifoulant/polymerization inhibitors DC3, RPG", "T-19/2021 MDEA Ucarsol AP-814 + antifoam Ucarsol GT-8715", "CS-200/2026 caustic antifoulant"]}
+  ],
+  "suppliers": [
+    {"name": "СП ООО \"Process and Water Chemicals\" (P&WC Specialties, part of P&WC Alliance), Chirchik / Tashkent, Uzbekistan", "evidence": "T-47/2026 ITB section 12 (itb.txt line ~1714): 'chemicals of JV Process and Water Chemicals LLC and Veolia water technologies & solutions (previously Suez WTS) have been industrially tested' at UGCC.", "notes": "Local manufacturer with full water program (BoilGard boiler, CoolGard/IronShield/BiolTrol/Dissolv cooling, MemKare RO, HyCog/HyFloc, FoamSolv/MetKleen) + field service & ChemTrack monitoring (https://pwcspecialties.com/water-treatment/, /service/). CEO Bartolo Renda ex-Veolia/SUEZ/GE Water; COO Khurshid Sadiev previously held senior roles at Uz-Kor Gas Chemical (https://pwcspecialties.com/team/). NBD customs summary: imports 2022-2025 of water-treatment raws (complexing agent, tolyltriazole Na from China, PAM flocculants N632/C6660 China, dispersant), exports BoilGard/MemKare to Turkmenistan, PetroKare to Kazakhstan; partners incl. Prasol Chemicals, Ganga Rasayanie, Lubrizol France (https://en.nbd.ltd/trader/info/NBDX1H137305614).", "status": "INFERENCE: most likely incumbent/strong favourite; not confirmed as contract winner (award notices behind login)."},
+    {"name": "Veolia Water Technologies & Solutions (ex-SUEZ WTS / GE Water)", "evidence": "Same ITB note - industrially tested products.", "status": "Confirmed as tested at site; winner status not confirmed. INFERENCE: earlier contracts (2018-2022) likely SUEZ/GE products, possibly via local distributor."},
+    {"name": "Winners of T-08/2021, T-39/2022, T-5/2024, T-12/2024, T-22/2024, T-27/2025", "status": "Not found - award notices exist on tenderweek.com but detail requires login; uz-kor.com removes expired notices."}
+  ],
+  "prices": [
+    {"item": "CS-139/2026 sodium bicarbonate 3700 kg + citric acid 12000 kg", "value": "max price 320 000 000 UZS incl. VAT (whole lot)", "source": "search-engine snippet of https://www.uz-kor.com/index.php/en/tenders/5822 (page now 404) - not opened directly", "note": "Only price figure found; no per-kg prices for water-treatment chemicals found."}
+  ],
+  "notes": {
+    "frequency": "Water/wastewater-treatment chemicals open tenders seen: T-37/2018 (Aug), T-08/2021 (Feb), T-39/2022 (Jul), T-5/2024 + T-12/2024 + T-22/2024 (Jan-Mar 2024, subjects truncated), T-27/2025 (Feb), T-47/2026 (Nov). INFERENCE: roughly annual to every 1-2 years; no 2019, 2020 or 2023 water-chemical open tender seen in tenderweek listing. Small items (SBS 35%, amine pH corrector, TSP, citric acid) are bought separately via short CS procedures (7-30 days), often domestic-market only.",
+    "timeline": "Announcement -> award notice typically 2-5 months: T-08/2021 26.02->13.07.2021; T-39/2022 29.07->20.12.2022; T-5/2024 16.01->15.03.2024; T-12/2024 08.02->01.07.2024; T-22/2024 18.03->01.07.2024; T-27/2025 25.02->22.05.2025.",
+    "cancellations_reannouncements": "Deadline extensions ('ПРОДЛЕНИЕ') seen for T-12/2019, T-23/2020, CS-196/2021 (SBS), CS-310/19 (extended repeatedly Dec 2019-Oct 2020). No explicit cancellation of a water-chemical tender found. Number of bidders: not found.",
+    "eligibility_quirks_seen": [
+      "2016: company age >=2 years; 2017 onward: >=6 months; notarized charter/foundation docs; certificate of no reorganization/liquidation/bankruptcy from tax inspection and bank (uz-kor.com arkhiv/111, 591)",
+      "Bid in English and Russian; sealed envelope by courier/hand to Tashkent office; docs free on official signed/stamped request letter (T-36/2017)",
+      "Exclusion of bidders in litigation with Uz-Kor or with poor performance on prior contracts (CS notices 2017; trend.az 2021)",
+      "CS procedures 'due to urgency' limited to Uzbekistan-registered entities (CS-83/2017; CS-133/2026; CS-228/2024 oils per daryo.uz)",
+      "T-47/2026 (from ITB): bid bond bank guarantee USD 8 000; manufacturer POA (App.7); 1-month on-site trial of all chemicals except passivation - no payment and no contract if negative; full damage-compensation guarantee letter; product <=2 months old at shipment; DAP Akchalak; 100% payment after delivery; P&WC and Veolia products noted as already industrially tested (INFERENCE: they may effectively have an advantage on the trial)."
+    ],
+    "site_specifics_from_ITB": "RO membranes TORAY; cooling tower recirculation 50 000 m3/h, blowdown design/actual 110/50 m3/h; currently also used: non-oxidizing biocide, calcium nitrate 68%, non-ferrous corrosion inhibitor; NaOCl used for disinfection.",
+    "not_found": "Contract values, unit prices, winner names, number of bidders, customs import records of UGCC itself (Panjiva page exists but not opened), any Korean supplier link for water chemicals, LinkedIn posts."
+  },
+  "sources": [
+    "https://uz-kor.com/index.php/ru/tendery",
+    "https://uz-kor.com/index.php/ru/tendery/5992-cp-ooo-uz-kor-gas-chemical-obyavlyaet-otkrytyj-tender-t-47-2026-srokom-na-30-dnej-s-02-noyabrya-2026-g-na-postavku-khimicheskikh-reagentov-dlya-ustanovok-tsekha-ozkh",
+    "https://uz-kor.com/index.php/ru/arkhiv",
+    "https://uz-kor.com/index.php/ru/arkhiv/111",
+    "https://uz-kor.com/index.php/ru/arkhiv/494",
+    "https://uz-kor.com/index.php/ru/arkhiv/591",
+    "https://uz-kor.com/index.php/ru/arkhiv/721",
+    "https://www.tenderweek.com/company/uz-kor (pages cpage=1..334, accessed 2026-11-12)",
+    "https://www.tenderweek.com/en/company/uz-kor?cpage=160",
+    "https://pwcspecialties.com/water-treatment/",
+    "https://pwcspecialties.com/team/",
+    "https://pwcspecialties.com/service/",
+    "https://www.goldenpages.uz/en/company/?Id=106639",
+    "https://en.nbd.ltd/trader/info/NBDX1H137305614",
+    "https://www.trend.az/business/tenders/3514548.html (Nov 2021 chemical reagents tender, deadline 24.11.2021, contact a.sharapov@uz-kor.com)",
+    "https://daryo.uz/en/2024/09/30/uzbekistans-uz-kor-gas-chemical-launches-tender-for-oil-procurement-deadline-set-for-october",
+    "/home/user/Tender-RUS-/model/data/tz_lots/uzkor_T47/itb.txt (T-47/2026 ITB, section 12)"
+  ]
+}
