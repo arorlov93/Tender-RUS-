@@ -344,41 +344,50 @@
    "email": "info@water2000.com.pk",
    "lang": "en",
    "batch": 5
-  }
- ],
- "queue": [],
- "held_for_tomorrow": [
+  },
   {
    "company": "Aquamat SA (Pty) Ltd",
    "country": "South Africa",
    "email": "info@aquamat.co.za",
-   "lang": "en"
+   "lang": "en",
+   "batch": 6,
+   "date": "2026-11-12"
   },
   {
    "company": "PuriChem",
    "country": "Egypt",
    "email": "info@purichem-eg.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 6,
+   "date": "2026-11-12"
   },
   {
    "company": "Adiquímica S.A.",
    "country": "Spain",
    "email": "adiquimica@adiquimica.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 6,
+   "date": "2026-11-12"
   },
   {
    "company": "LSP Siam Inter Trade Co., Ltd.",
    "country": "Thailand",
    "email": "pornpen@lspsiam.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 6,
+   "date": "2026-11-12"
   },
   {
    "company": "Goshu Kohsan Co., Ltd.",
    "country": "Thailand",
    "email": "cservice@goshukohsan.com",
-   "lang": "en"
+   "lang": "en",
+   "batch": 6,
+   "date": "2026-11-12"
   }
  ],
+ "queue": [],
+ "held_for_tomorrow": [],
  "excluded": [
   {
    "company": "KPI Inc.",
@@ -428,11 +437,27 @@
    "email": "info@granimex.com.pl",
    "type": "block",
    "reason": "550 5.4.1 Recipient address rejected (Exchange Online directory), address likely invalid"
+  },
+  {
+   "email": "gestiondeproveedorespluspetrol@pluspetrol.net",
+   "type": "connection failure",
+   "wave": "10.11"
+  },
+  {
+   "email": "sales@guiquanchem.com",
+   "type": "delay (Gmail retrying 47h)",
+   "date": "2026-11-12"
   }
  ],
  "summary": {
   "cold_sent_today": 50,
   "bounces": 2,
   "bounce_rate": "2/43 outreach = 4.7%"
- }
+ },
+ "sent_1211": [
+  "catherine@thwater.net: India reply",
+  "akmaljon.kasimov@uz-kor.com: deadline 27.11 vs 02.12",
+  "vincent@krchemical.com: T-47 full package + ITB p1-79 + schemes",
+  "catherine@thwater.net: T-47 full package + ITB p1-79 + schemes"
+ ]
 }
