@@ -1,0 +1,508 @@
+{
+ "meta": {
+  "date": "2026-11-13",
+  "purpose": "RFQ: видеонаблюдение / архитектурный свет / стиральные машины / акустические потолки",
+  "method": "verified=true только если e-mail И телефон совпали в 2 открытых независимых источниках (сайт + дилерский список производителя/каталог/справочник). saby.ru использован для ИНН/статуса; его маскированные контакты отмечены как 'согласуется', но не засчитаны как второй источник. Никого не контактировали, капчи не обходили (list-org — капча, rusprofile/checko/zachestnyibiznes/ГИСП — 403).",
+  "unreachable": [
+   "nevikom.ru",
+   "hikvision.ru",
+   "i-flow.ru",
+   "haier.ru",
+   "ihpappliances.ru",
+   "rockfon.ru",
+   "gisp.gov.ru",
+   "zakupki.gov.ru"
+  ]
+ },
+ "companies": [
+  {
+   "group": "1_video",
+   "company": "ООО «ДССЛ» (бренд TRASSIR)",
+   "inn": "7709423841",
+   "city": "Москва",
+   "products": [
+    "TRASSIR NeuroStation 9800R/128 (NVR)",
+    "IP-камеры TRASSIR",
+    "PTZ-камеры TRASSIR",
+    "ПО TRASSIR (реестр Минцифры)"
+   ],
+   "email": "info@dssl.ru",
+   "phone": "+7 (495) 783-72-87",
+   "site": "https://www.dssl.ru",
+   "sources_email": [
+    "https://www.dssl.ru/about/about.php",
+    "https://www.dssl.ru/contacts/",
+    "https://mestam.info/ru/moskva/mesto/768978-dssl-bakuninskaya-71-st10-5-etaj"
+   ],
+   "sources_phone": [
+    "https://www.dssl.ru/contacts/ (Отдел продаж, юрлицам)",
+    "https://www.bas-ip.ru/contact/dssl/",
+    "https://mestam.info/ru/moskva/mesto/768978-dssl-bakuninskaya-71-st10-5-etaj"
+   ],
+   "verified": true,
+   "notes": "Статус: действует (saby.ru, телефон замаскирован (495) 78**87 — согласуется). Краснодарский офис ДССЛ (только сайты компании dssl.ru/trassir.ru, 1 источник): ул. Молодежная, 25, +7 (861) 203-38-68, sale-krd@trassir.ru. Продажи юрлицам Москва: sale-moscow@trassir.ru (trassir.ru). Связанное юрлицо для оптовых продаж: ООО «ДССЛ-Первый», ИНН 7701081730 (по данным поиска list-org, карточку не открывал). Реестр Минпромторга (ПП 1875) по NeuroStation не проверен — ГИСП недоступен (403)."
+  },
+  {
+   "group": "1_video",
+   "company": "АО «ЭРВИАЙ ГРУПП» (RVi Group, группа «Рубеж»)",
+   "inn": "6453154313",
+   "city": "Москва",
+   "products": [
+    "IP-камеры RVi",
+    "PTZ-камеры RVi",
+    "NVR RVi"
+   ],
+   "email": "sales@rvigroup.ru",
+   "phone": "+7 (495) 735-38-47",
+   "site": "https://rvigroup.ru",
+   "sources_email": [
+    "https://rvi-cctv.ru/contacts/ (=rvigroup.ru, Коммерческий отдел)",
+    "https://www.rzd-partner.ru/kompanii-profiles/377003/"
+   ],
+   "sources_phone": [
+    "https://rvi-cctv.ru/contacts/",
+    "https://www.rzd-partner.ru/kompanii-profiles/377003/"
+   ],
+   "verified": true,
+   "notes": "Статус: действует (saby.ru; тел. замаскирован (800) 70**61 = техотдел 8 800 700-16-61). Доп. продажи: +7 (495) 735-38-57. Позиционируется как российский производитель (реестр ГИСП не проверен — сайт gisp.gov.ru 403)."
+  },
+  {
+   "group": "1_video",
+   "company": "ООО «ТД ТИНКО» (Тинько)",
+   "inn": "7702680818",
+   "city": "Москва",
+   "products": [
+    "дистрибуция ТСБ: видеонаблюдение (вкл. российские бренды), СКУД, ОПС"
+   ],
+   "email": "tinko@tinko.ru",
+   "phone": "+7 (495) 708-42-13",
+   "site": "https://www.tinko.ru",
+   "sources_email": [
+    "https://www.tinko.ru/contacts",
+    "https://nppstels.ru/dealers/detail.php?ID=1393 (дилерский список производителя НПП «Стелс»)"
+   ],
+   "sources_phone": [
+    "https://www.tinko.ru/contacts",
+    "https://nppstels.ru/dealers/detail.php?ID=1393"
+   ],
+   "verified": true,
+   "notes": "Статус: действует (saby.ru; тел. замаскирован (495) 70**13 — согласуется). Бесплатный: 8 (800) 200-84-65. Проектные продажи — раздел на сайте. Филиала в Краснодаре на странице контактов нет."
+  },
+  {
+   "group": "1_video",
+   "company": "ООО «СЕК ГРУПП» (Секьюрити Групп, sec-group.ru)",
+   "inn": "9718237940",
+   "city": "Москва",
+   "products": [
+    "дистрибуция видеонаблюдения, СКУД, домофонии, автоматики ворот"
+   ],
+   "email": "zakaz@sec-group.ru",
+   "phone": "+7 (495) 230-57-15",
+   "site": "https://sec-group.ru",
+   "sources_email": [
+    "https://sec-group.ru/contact/",
+    "https://niceforyou.ru/partners/ooo-sek-grupp-sb/ (партнёр производителя Nice)"
+   ],
+   "sources_phone": [
+    "https://sec-group.ru/contact/",
+    "https://niceforyou.ru/partners/ooo-sek-grupp-sb/"
+   ],
+   "verified": true,
+   "notes": "Статус: действует (saby.ru). Также 8 (800) 700-61-35 (оба источника). ВНИМАНИЕ: ООО «СЕК ГРУПП» (ИНН 9718237940) внесено в Stop-list Dahua (dahuasecurity.com/ea/support/advices) — НЕ авторизованный дистрибьютор Dahua; для Dahua у них не запрашивать как у официального. Ближайший к югу офис — Керчь: 8 (861) 212-18-20, cr@sec-group.ru (1 источник)."
+  },
+  {
+   "group": "1_video",
+   "company": "ООО «АРМО-СИСТЕМЫ» (ГК АРМО)",
+   "inn": "7715284716",
+   "city": "Москва",
+   "products": [
+    "дистрибуция видеонаблюдения (вкл. российские Panocam, VIDEOMAX), СКУД, ОПС; собственный бренд Smartec"
+   ],
+   "email": "armosystems@armo.ru",
+   "phone": "+7 (495) 787-33-42",
+   "site": "https://armosystems.ru",
+   "sources_email": [
+    "https://armosystems.ru/contacts/"
+   ],
+   "sources_phone": [
+    "https://armosystems.ru/contacts/",
+    "https://smartec-security.securityworld.ru/contacts_page/default.htm"
+   ],
+   "verified": false,
+   "notes": "Телефон подтверждён в 2 источниках (второй — страница бренда Smartec, аффилирован с АРМО). E-mail — ОДИН источник (armosystems.ru); на armo.ru указан armo@armo.ru (холдинг). saby: действует, тел. замаскирован (495) 78**37 — не совпадает с 787-33-42. Также 8 800 700-33-43."
+  },
+  {
+   "group": "1_video",
+   "company": "Невиком (дистрибьютор)",
+   "inn": null,
+   "city": null,
+   "products": [
+    "видеонаблюдение"
+   ],
+   "email": null,
+   "phone": null,
+   "site": null,
+   "sources_email": [],
+   "sources_phone": [],
+   "verified": false,
+   "notes": "НЕ ИДЕНТИФИЦИРОВАН: домен nevikom.ru не резолвится из сессии (ENOTFOUND/502), поиск не дал компании с таким названием. Нужно уточнить написание/ИНН. Контакты не заполнялись."
+  },
+  {
+   "group": "1_video",
+   "company": "Hikvision — официальные дистрибьюторы в РФ (бренд в РФ — i-Flow)",
+   "inn": null,
+   "city": null,
+   "products": [
+    "IP-камеры, NVR, PTZ Hikvision/i-Flow"
+   ],
+   "email": null,
+   "phone": null,
+   "site": "https://hikvision.ru",
+   "sources_email": [],
+   "sources_phone": [],
+   "verified": false,
+   "notes": "Официальный список дистрибьюторов РФ получить не удалось: hikvision.com/ru — 403, hikvision.ru и i-flow.ru — 503. По публикациям (Habr/Коммерсант) бренд в РФ переименован в i-Flow. Импортная продукция — не подходит под преференции ПП 1875 (нет в реестре РПП). Требует ручной проверки."
+  },
+  {
+   "group": "1_video",
+   "company": "Dahua — официальные дистрибьюторы в РФ",
+   "inn": null,
+   "city": null,
+   "products": [
+    "IP-камеры, NVR, PTZ Dahua"
+   ],
+   "email": null,
+   "phone": null,
+   "site": "https://www.dahuasecurity.com/ea/",
+   "sources_email": [],
+   "sources_phone": [],
+   "verified": false,
+   "notes": "Раздел 'Партнёры/Дистрибьюторы' Dahua Eurasia не содержит записей по России (проверено dahuasecurity.com/ea/partners/map/...). Опубликован Stop-list неавторизованных продавцов (в нём ООО «СЕК ГРУПП» 9718237940 и ООО «СК ГРУПП» 9718159820). Импортная продукция — не для ПП 1875."
+  },
+  {
+   "group": "2_light",
+   "company": "ООО «ИнПродакшн» (ТМ GENILED, производитель)",
+   "inn": "6671026720",
+   "city": "Екатеринбург",
+   "products": [
+    "архитектурные/интерьерные светильники Geniled",
+    "трековые системы",
+    "кольцевые светильники"
+   ],
+   "email": "info@geniled.ru",
+   "phone": "8 800 222-71-10",
+   "site": "https://geniled.ru",
+   "sources_email": [
+    "https://geniled.ru/contacts/",
+    "https://geniled.ru/details/"
+   ],
+   "sources_phone": [
+    "https://geniled.ru/contacts/",
+    "https://geniled.ru/support/"
+   ],
+   "verified": false,
+   "notes": "Только сайт производителя (1 независимый источник). saby: действует; тел. замаскирован (343) 34**00 — согласуется с 8 (343) 344-44-00 (сайт), e-mail замаскирован ir**na@geniled.ru. Производитель находится в ЕКАТЕРИНБУРГЕ, не в Москве (ул. Амундсена 107). Региональный менеджер по СКФО/Мин.Воды: SKF@geniled.ru, +7 912 032 81 11 (сайт)."
+  },
+  {
+   "group": "2_light",
+   "company": "ООО «Диотех» (ранее «Диодные технологии»; Geniled Volga)",
+   "inn": "1657106608",
+   "city": "Казань",
+   "products": [
+    "светильники Geniled (официальный сервисный центр/поставщик)"
+   ],
+   "email": "geni-led@mail.ru",
+   "phone": "+7 (843) 212-57-57",
+   "site": "https://geniledvolga.ru",
+   "sources_email": [
+    "https://geniled.ru/company/service-centers/ (официальный список производителя)",
+    "https://geniledvolga.ru/"
+   ],
+   "sources_phone": [
+    "https://geniled.ru/company/service-centers/",
+    "https://geniledvolga.ru/"
+   ],
+   "verified": true,
+   "notes": "Статус: действует (saby.ru: ООО «Диотех», ул. Восстания 104 оф. 203; тел./e-mail замаскированы и согласуются). На сайте производителя значится как официальный СЕРВИСНЫЙ центр в Казани; статус 'официальный поставщик Geniled' — заявление на собственном сайте. Не путать с ликвидированным ООО «Диодные технологии» ИНН 1652019581."
+  },
+  {
+   "group": "2_light",
+   "company": "ООО «ДИОЛУМ ТРЕЙД» (DARKLUM)",
+   "inn": "7736280705",
+   "city": "Москва",
+   "products": [
+    "кольцевые и линейные LED-светильники",
+    "трековые светильники"
+   ],
+   "email": "zakaz@darklum.ru",
+   "phone": "+7 (495) 149-01-99",
+   "site": "https://darklum.ru",
+   "sources_email": [
+    "https://darklum.ru/kontakti"
+   ],
+   "sources_phone": [
+    "https://darklum.ru/kontakti"
+   ],
+   "verified": false,
+   "notes": "Только сайт компании (1 источник). saby: действует, адрес ул. Малая Калужская 15 стр.1, тел. замаскирован (495) 23**12 (не совпадает), e-mail i**o@diolum.ru — компания использует также домен diolum.ru. Второй независимый источник не найден."
+  },
+  {
+   "group": "2_light",
+   "company": "ООО «МГК «Световые Технологии» (LT Company)",
+   "inn": "7715723321",
+   "city": "Москва",
+   "products": [
+    "архитектурные, кольцевые и трековые светильники"
+   ],
+   "email": "info@msk.ltcompany.com",
+   "phone": "8 (800) 333-23-77",
+   "site": "https://www.ltcompany.com/ru/",
+   "sources_email": [
+    "https://www.ltcompany.com/",
+    "https://paluba.media/company/ltcompany",
+    "https://sudostroenie.info/predprijatija/1291.html"
+   ],
+   "sources_phone": [
+    "https://www.ltcompany.com/",
+    "https://paluba.media/company/ltcompany"
+   ],
+   "verified": true,
+   "notes": "Статус: действует (saby.ru; e-mail замаскирован i**o@msk.ltcompany.com — согласуется). Доп. тел. +7 (495) 995-55-95 (sudostroenie.info, saby маска согласуется). Выделенного e-mail отдела продаж в открытых источниках нет."
+  },
+  {
+   "group": "2_light",
+   "company": "ООО «Экономия света» (SMD-Line)",
+   "inn": "6670414375",
+   "city": "Екатеринбург",
+   "products": [
+    "кольцевые, трековые, интерьерные светильники SMD-Line"
+   ],
+   "email": "sales@smd-line.ru",
+   "phone": "8 (343) 328-33-32",
+   "site": "https://smd-line.ru",
+   "sources_email": [
+    "https://smd-line.ru/contacts/ (sales@smd-line.ru)"
+   ],
+   "sources_phone": [
+    "https://smd-line.ru/contacts/"
+   ],
+   "verified": false,
+   "notes": "Только сайт (1 источник). saby: действует; тел. замаскирован (343) 32**32 — согласуется. Москва: +7 (499) 346-85-95 (smd-line.ru и promo.smd-line.ru — сайты одной компании). Для b2b-лендинга promo.smd-line.ru указан zakaz@smd-line.ru."
+  },
+  {
+   "group": "2_light",
+   "company": "ООО «Факел» (оператор Maytoni)",
+   "inn": "7751063720",
+   "city": "Москва",
+   "products": [
+    "трековые системы и светильники Maytoni"
+   ],
+   "email": "info@maytoni.ru",
+   "phone": "+7 (495) 777-40-50",
+   "site": "https://maytoni.ru",
+   "sources_email": [
+    "https://maytoni.ru/contacts/",
+    "https://maytoni.ru/policy/"
+   ],
+   "sources_phone": [
+    "https://maytoni.ru/contacts/ ('для юр. лиц')"
+   ],
+   "verified": false,
+   "notes": "Оба источника e-mail — сайт самой компании (не независимы). Политика ПДн называет оператором ООО «Факел» ИНН 7751063720 и тел. 8 (800) 777-40-50. saby: действует; тел. замаскирован (812) 21**50 — не совпадает. Старое юрлицо ООО «Майтони Рус» (7729491166) ЛИКВИДИРОВАНО 2020 — не использовать. Отдельного B2B/проектного контакта нет; expert@maytoni.ru — техконсультации."
+  },
+  {
+   "group": "3_washers",
+   "company": "ООО «Хайер Электрикал Эпплаенсис Рус» (Haier Russia)",
+   "inn": "1650292810",
+   "city": "Москва (завод — Набережные Челны)",
+   "products": [
+    "стиральные машины Haier (российская сборка, Набережные Челны)"
+   ],
+   "email": null,
+   "phone": null,
+   "site": "https://haieronline.ru",
+   "sources_email": [],
+   "sources_phone": [],
+   "verified": false,
+   "notes": "Корпоративный/B2B контакт производителя НЕ подтверждён: haier.ru и haier-europe.com — 503/403. saby: действует, адрес Новинский б-р 8 оф.1601; тел. (800) 20**06 и e-mail i**o@haierrussia.com замаскированы. Официальный магазин haieronline.ru допускает регистрацию юрлиц по ИНН с оплатой по счёту с НДС (по данным поиска). Сторонний 'Haier B2B' (ООО «Камвентснаб», haier16.ru, b2b@haier16.ru, 8 800 234 00 16) — статус официального представителя не подтверждён производителем."
+  },
+  {
+   "group": "3_washers",
+   "company": "Candy/Hoover — завод АО «Веста» (Киров, бывш. «Вятка»), группа Haier",
+   "inn": null,
+   "city": "Киров",
+   "products": [
+    "стиральные машины Candy, Hoover"
+   ],
+   "email": null,
+   "phone": null,
+   "site": null,
+   "sources_email": [],
+   "sources_phone": [],
+   "verified": false,
+   "notes": "Контакты не подтверждены. По retail.ru/Коммерсант (2025) Haier ликвидирует сбытовое юрлицо ООО «Канди С.Н.Г.», завод «Веста» приостанавливал выпуск; candy-home.ru возвращает пустую страницу. Запрос лучше направлять через Haier Russia. ИНН АО «Веста» не установлен."
+  },
+  {
+   "group": "3_washers",
+   "company": "ООО «АЙ ЭЙЧ ПИ АППЛАЕНСЕС» (Indesit/Hotpoint, Липецк; группа Arçelik/Beko)",
+   "inn": "4800016984",
+   "city": "Липецк",
+   "products": [
+    "стиральные машины Indesit/Hotpoint (Липецк)"
+   ],
+   "email": "service@ihpappliances.ru",
+   "phone": "8 800 3333 887",
+   "site": "https://indesit.ru",
+   "sources_email": [
+    "https://indesit.ru/service/contacts"
+   ],
+   "sources_phone": [
+    "https://indesit.ru/service/contacts"
+   ],
+   "verified": false,
+   "notes": "Только сайт бренда (1 источник); e-mail — СЕРВИСНЫЙ, не корпоративные продажи. saby: ООО действует (Липецк, пл. Металлургов 2). Бывшее сбытовое ООО «АЙ ЭЙЧ ПИ АППЛАЕНСЕС СЕЙЛС» (7717654289) прекратило деятельность 09.01.2025 (реорганизация присоединением) — не использовать. Сайт ihpappliances.ru из сессии недоступен. Тел. отдела сервиса: +7 (474) 228 8685."
+  },
+  {
+   "group": "3_washers",
+   "company": "Beko Russia (завод в Киржаче; группа Arçelik)",
+   "inn": null,
+   "city": "Киржач / Москва",
+   "products": [
+    "стиральные машины Beko (Киржач, Липецк)"
+   ],
+   "email": "service@beko.ru",
+   "phone": "8 800 200-23-56",
+   "site": "https://www.beko.ru",
+   "sources_email": [
+    "https://www.beko.ru/contact/beko"
+   ],
+   "sources_phone": [
+    "https://www.beko.ru/contact/beko"
+   ],
+   "verified": false,
+   "notes": "Только сайт (1 источник); e-mail сервисный. Юрлицо и корпоративный отдел продаж на сайте не указаны; ИНН не установлен."
+  },
+  {
+   "group": "3_washers",
+   "company": "ЗАО «АТЛАНТ» (Минск, Беларусь)",
+   "inn": null,
+   "city": "Минск (Беларусь)",
+   "products": [
+    "стиральные машины ATLANT"
+   ],
+   "email": null,
+   "phone": null,
+   "site": "https://atlant.by",
+   "sources_email": [],
+   "sources_phone": [],
+   "verified": false,
+   "notes": "УНП 100010198 (atlant.by/about/contacts). Единого 'официального дистрибьютора в РФ' не найдено: официальный раздел 'Магазины в России' (atlant-minsk.ru/where-to-buy/) перечисляет розничные сети (Ситилинк, Эльдорадо, М.Видео и др., в т.ч. Краснодар: Ситилинк +7 861 212 55 88). Телефоны/e-mail отдела сбыта на atlant.by не опубликованы — только форма обращения. Сайты atlantmoskva.ru, atlantrus.ru и т.п. — самоназванные 'официальные', статус не подтверждён."
+  },
+  {
+   "group": "4_acoustic",
+   "company": "ООО «Сен-Гобен Строительная Продукция Рус» (Ecophon → бренд VETONIT)",
+   "inn": "5011020537",
+   "city": "Егорьевск / Москва",
+   "products": [
+    "акустические потолочные панели Ecophon/Vetonit"
+   ],
+   "email": "info@ecophon.ru",
+   "phone": "+7 (495) 228-81-10",
+   "site": "https://www.ecophon.com/ru/",
+   "sources_email": [
+    "https://www.ecophon.com/ru/",
+    "https://importoscop.ru/media/media/companies_export_files/rekvizity_i_kontakty_sen_goben_stroitelnaia_produktsiia_rus.pdf"
+   ],
+   "sources_phone": [
+    "https://www.ecophon.com/ru/"
+   ],
+   "verified": false,
+   "notes": "E-mail — 2 источника; телефон — 1 источник (сайт). saby: действует (Егорьевск, ул. Смычка 60); маскированные контакты относятся к saint-gobain.com. Продукция Ecophon в РФ ребрендирована в VETONIT (по данным дилеров)."
+  },
+  {
+   "group": "4_acoustic",
+   "company": "ООО «Е-фон» (E-phon, дилер Ecophon/Vetonit, Москва)",
+   "inn": null,
+   "city": "Москва",
+   "products": [
+    "акустические панели Ecophon/Vetonit, монтаж"
+   ],
+   "email": "sale@e-phon.ru",
+   "phone": "+7 (495) 687-70-02",
+   "site": "https://e-phon.ru",
+   "sources_email": [
+    "https://e-phon.ru/",
+    "https://e-phon.ru/contact/"
+   ],
+   "sources_phone": [
+    "https://e-phon.ru/contact/"
+   ],
+   "verified": false,
+   "notes": "Только сайт дилера (1 источник). Статус 'официальный дилер/дистрибьютор Ecophon с 2008 г.' — заявление на собственном сайте; официального дилерского списка Ecophon/Vetonit не найдено. ИНН на сайте не указан — статус ЕГРЮЛ не проверен."
+  },
+  {
+   "group": "4_acoustic",
+   "company": "ТК «ОптСтрой» (tk-optstroy.ru)",
+   "inn": null,
+   "city": "Москва",
+   "products": [
+    "акустические потолки Ecophon (Advantage, Texona и др.)"
+   ],
+   "email": "info@tk-optstroy.ru",
+   "phone": "+7 (495) 971-65-50",
+   "site": "https://tk-optstroy.ru",
+   "sources_email": [
+    "https://tk-optstroy.ru/"
+   ],
+   "sources_phone": [
+    "https://tk-optstroy.ru/"
+   ],
+   "verified": false,
+   "notes": "Только сайт (1 источник). Юрлицо/ИНН на сайте не найдены — в ЕГРЮЛ много ООО «Оптстрой», привязать нельзя; статус не проверен. optstroy.ru — другой сайт."
+  },
+  {
+   "group": "4_acoustic",
+   "company": "ООО «К ЭНД Р ДИЗАЙН» (K&R Design)",
+   "inn": "9718122636",
+   "city": "Москва",
+   "products": [
+    "акустические потолочные панели (минвата, lay-in, фибролит)",
+    "фальшпол"
+   ],
+   "email": "info@kr-design.ru",
+   "phone": "+7 (495) 227-66-24",
+   "site": "https://kr-design.ru",
+   "sources_email": [
+    "https://kr-design.ru/upload/prod_fp/krdesign//K&R%20Design%20W38Al%20ST.pdf (реквизиты в паспорте)",
+    "https://stroycena.online/firms/k_end_r_dizayn"
+   ],
+   "sources_phone": [
+    "https://kr-design.ru/upload/prod_fp/krdesign//K&R%20Design%20W38Al%20ST.pdf"
+   ],
+   "verified": false,
+   "notes": "E-mail — 2 источника. Телефоны расходятся: PDF компании +7 495 227-66-24; stroycena.online (495) 150-67-24; на kr-design.ru/contacts (по данным поиска, страница вернула 403) отдел продаж +7 (495) 646-07-23. saby: действует. Домен krdesign.ru (без дефиса) — продаётся, не путать."
+  },
+  {
+   "group": "4_acoustic",
+   "company": "ООО «РОКВУЛ» (Rockfon → бренд «Р-ЗВУК»)",
+   "inn": "5012093506",
+   "city": "Балашиха / Москва",
+   "products": [
+    "акустические потолочные и стеновые панели Р-ЗВУК (ранее Rockfon)"
+   ],
+   "email": "sales1@rwl.ru",
+   "phone": "8 (800) 200-22-77",
+   "site": "https://rzvuk.ru",
+   "sources_email": [
+    "https://rvul.ru/contact/ (бывш. rwl.ru)"
+   ],
+   "sources_phone": [
+    "https://rvul.ru/contact/",
+    "https://rzvuk.ru/",
+    "https://whoiswho.dp.ru/cart/company/11553"
+   ],
+   "verified": false,
+   "notes": "Телефон — 2 независимых источника; e-mail — 1 (сайт). saby: действует. С 20.08.2026 Rockfon → «Р-ЗВУК», ROCKWOOL → «Р-ВУЛ»; по Ведомостям ООО планируют переименовать в АО «Р-РЕШЕНИЯ» (временное управление с 31.12.2025). Регион Краснодарский край/Крым: +7 918 305 00 65, ЮФО/СКФО: +7 918 202 07 02 (sales1@rwl.ru) — rvul.ru, 1 источник. rockfon.ru недоступен."
+  }
+ ]
+}

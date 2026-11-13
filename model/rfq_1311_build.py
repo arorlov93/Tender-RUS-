@@ -14,8 +14,8 @@ CAB, TUB, VLA = lj("rfq_cable_plants.json"), lj("rfq_tube_makers.json"), lj("rfq
 def grp(x, *keys):
     g = (str(x.get("group", "")) + " " + " ".join(map(str, x.get("products", [])))).lower()
     return any(k in g for k in keys)
-FACT = {1: CAB, 2: TUB, 3: [x for x in VLA if grp(x, "video", "видео", "trassir", "камер")],
-        4: [x for x in VLA if grp(x, "light", "свет", "geniled", "трек")], 5: [x for x in VLA if grp(x, "wash", "стирал", "appliance", "бытов")]}
+G = lambda k: [x for x in VLA if str(x.get("group", "")).endswith(k)]
+FACT = {1: CAB, 2: TUB, 3: G("video"), 4: G("light"), 5: G("washers")}
 
 H = PatternFill("solid", fgColor="0B2545"); HF = Font(bold=True, color="FFFFFF"); W = Alignment(wrap_text=True, vertical="top")
 LINK = Font(color="0563C1", underline="single")
