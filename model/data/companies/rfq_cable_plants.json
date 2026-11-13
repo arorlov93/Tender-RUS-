@@ -1,0 +1,556 @@
+[
+ {
+  "company": "АО «Электрокабель» Кольчугинский завод» (АО «ЭКЗ», ХКА)",
+  "inn": "3306007697",
+  "city": "Кольчугино (Владимирская обл.)",
+  "products": [],
+  "email": "ekz@elcable.ru",
+  "phone": "+7 (49245) 9-53-33",
+  "site": "https://www.elcable.ru",
+  "sources_email": [
+   "https://www.elcable.ru/contacts/",
+   "https://elektrokabel.ru/members/ao_elektrokabel_kolchuginskiy_zavod-3093",
+   "https://productcenter.ru/producers/6949/kompaniia-eliektrokabiel-kolchuginskii-zavod"
+  ],
+  "sources_phone": [
+   "https://www.elcable.ru/contacts/",
+   "https://elektrokabel.ru/members/ao_elektrokabel_kolchuginskiy_zavod-3093",
+   "https://productcenter.ru/producers/6949/kompaniia-eliektrokabiel-kolchuginskii-zavod"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Общий e-mail/телефон завода. Продажи ведёт ХКА: «Служба директора по продажам» hka@holdcable.com, +7 (800) 7000-100 (на elcable.ru и holdcable.com — сайты одного холдинга, независимого 2-го источника нет). Номенклатура по маркам на сайтах ХКА рендерится JS — разбивка продуктовых групп по заводу не подтверждена, см. запись ХКА."
+ },
+ {
+  "company": "АО «Сибкабель» (ХКА)",
+  "inn": "7020012261",
+  "city": "Томск",
+  "products": [],
+  "email": "office@sibkabel.ru",
+  "phone": "+7 (3822) 700-700",
+  "site": "https://www.sibkabel.ru",
+  "sources_email": [
+   "https://www.sibkabel.ru/contacts/",
+   "https://productcenter.ru/producers/4115/kompaniia-sibkabiel"
+  ],
+  "sources_phone": [
+   "https://www.sibkabel.ru/contacts/",
+   "https://productcenter.ru/producers/4115/kompaniia-sibkabiel",
+   "https://elektrokabel.ru/members/ao_sibkabel-3078"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Карточка АЭК содержит устаревший e-mail offise@sibkabel.tomsk.ru (телефон 700-700 совпадает). Продажи — через ХКА (hka@holdcable.com, 8-800-7000-100). Продуктовые группы по заводу не подтверждены (каталог JS)."
+ },
+ {
+  "company": "АО «Уралкабель» (ХКА)",
+  "inn": "6658004598",
+  "city": "Екатеринбург",
+  "products": [],
+  "email": "office@uralcable.ru",
+  "phone": "+7 (343) 247-80-00",
+  "site": "https://www.uralcable.ru",
+  "sources_email": [
+   "https://www.uralcable.ru/",
+   "https://elektrokabel.ru/members/ao_uralkabel-3088"
+  ],
+  "sources_phone": [
+   "https://www.uralcable.ru/",
+   "https://elektrokabel.ru/members/ao_uralkabel-3088"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Общий e-mail. Продажи — через ХКА. Продуктовые группы по заводу не подтверждены (каталог JS)."
+ },
+ {
+  "company": "ООО «Холдинг Кабельный Альянс» (ООО «ХКА», управляющая/торговая компания УГМК-кабель)",
+  "inn": "6658388288",
+  "city": "Екатеринбург",
+  "products": [
+   "силовые для стационарной прокладки (разделы каталога)",
+   "гибкие для нестационарной прокладки (КГ-группа — по разделу)",
+   "контрольные",
+   "для пожарной сигнализации",
+   "кабели связи",
+   "неизолированные провода — упоминание"
+  ],
+  "email": "hka@holdcable.com",
+  "phone": "+7 (800) 7000-100",
+  "site": "https://www.holdcable.com",
+  "sources_email": [
+   "https://www.holdcable.com/contacts/",
+   "https://www.elcable.ru/contacts/"
+  ],
+  "sources_phone": [
+   "https://www.holdcable.com/contacts/",
+   "https://www.elcable.ru/contacts/"
+  ],
+  "verified": false,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "hka@holdcable.com / 8-800-7000-100 — «Служба коммерческого директора / директора по продажам», указаны только на сайтах самого холдинга (single-source). office@holdcable.com подтверждён 2 источниками (сайт + карточка АЭК), но телефон офиса на сайте +7 (343) 283-33-33, а в АЭК 247-89-30 — не совпадает. Saby (маскировано) показывает «(800) 70**00» — частично согласуется. Продуктовые группы — только по названиям разделов каталога holdcable.com (марки рендерятся JS)."
+ },
+ {
+  "company": "ООО «Камский кабель» (Камкабель)",
+  "inn": "5904184047",
+  "city": "Пермь",
+  "products": [
+   "ВВГ",
+   "ВВГнг(А)-LS",
+   "ВВГнг-ХЛ",
+   "КГ/КГтп-ХЛ",
+   "ВБВнг(А)-LS",
+   "6–10 кВ (СПЭ) — упоминания на сайте",
+   "СИП-3/СИП-4",
+   "КВВГнг(А)-LS",
+   "КПСЭнг",
+   "ПуГВ"
+  ],
+  "email": "zakaz@kamkabel.ru",
+  "phone": "8-800-220-50-00",
+  "site": "https://kamkabel.ru",
+  "sources_email": [
+   "https://kamkabel.ru/contacts/"
+  ],
+  "sources_phone": [
+   "https://kamkabel.ru/contacts/",
+   "https://elektrokabel.ru/members/ooo_kamskiy_kabel-7047",
+   "https://www.permtpp.ru/members/toplivnaya_i_energeticheskaya_promyshlennost/kamskiy_kabel"
+  ],
+  "verified": false,
+  "status": "признаков ликвидации/банкротства на saby нет (явная строка статуса не выведена)",
+  "notes": "ИСКЛЮЧЁН: по OpenSanctions в списке OFAC (не открыто, проверить вручную). Телефон подтверждён 2+ источниками. E-mail zakaz@kamkabel.ru — только на сайте; в карточках АЭК и Пермской ТПП указан kamkabel@kamkabel.ru (на сайте не найден). По данным OpenSanctions (из поиска) компания в санкционных списках OFAC — учесть при ВЭД.",
+  "exclude": true
+ },
+ {
+  "company": "АО «Завод «Энергокабель»",
+  "inn": "5031043645",
+  "city": "Электроугли (Московская обл.)",
+  "products": [
+   "ВВГ",
+   "ВВГнг(А)-LS",
+   "ВВГнг-ХЛ",
+   "ВБВнг(А)-LS",
+   "6–10 кВ",
+   "КВВГнг(А)-LS",
+   "КПСЭнг",
+   "ПуГВ"
+  ],
+  "email": "client@energokab.ru",
+  "phone": "+7 (495) 221-89-93",
+  "site": "https://www.energokab.ru",
+  "sources_email": [
+   "https://www.energokab.ru/kontaktyi/kontaktnaya-informacziya/",
+   "https://productcenter.ru/producers/15370/ao-zavod-eniergokabiel"
+  ],
+  "sources_phone": [
+   "https://www.energokab.ru/kontaktyi/kontaktnaya-informacziya/",
+   "https://elektrokabel.ru/members/ao_zavod_energokabel-3098"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Отдел продаж («купить кабель»). В карточке АЭК e-mail info@energokab.ru (на сайте не найден), телефон совпадает. Есть ecab@energokab.ru — контактная информация отдела продаж (только сайт)."
+ },
+ {
+  "company": "АО «НП «Подольсккабель»",
+  "inn": "5036002480",
+  "city": "Подольск (Московская обл.)",
+  "products": [
+   "ВВГ",
+   "ВВГнг(А)-LS",
+   "ВВГнг-ХЛ",
+   "КВВГнг(А)-LS",
+   "ПуГВ",
+   "РК 50"
+  ],
+  "email": "office@podolskkabel.ru",
+  "phone": "8-800-222-01-32",
+  "site": "https://www.podolskkabel.ru",
+  "sources_email": [
+   "https://www.podolskkabel.ru/contacts/",
+   "https://productcenter.ru/producers/10076/podolskii-kabielnyi-zavod"
+  ],
+  "sources_phone": [
+   "https://www.podolskkabel.ru/contacts/"
+  ],
+  "verified": false,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "E-mail office@ подтверждён 2 источниками; телефон 8-800-222-01-32 — только сайт (productcenter и ibprom дают (495) 502-78-86, на сайте его нет; АЭК — kabel@podolsk.ru, (495) 502-78-92 — устарело). Отделы на сайте: sales@podolskkabel.ru (общепром.), tender@podolskkabel.ru (тендеры) — single-source."
+ },
+ {
+  "company": "ООО «Завод Москабель» (ГК «Москабельмет»)",
+  "inn": "7722743350",
+  "city": "Москва",
+  "products": [
+   "ВВГ",
+   "ВВГнг(А)-LS",
+   "ВВГнг-ХЛ",
+   "КГ",
+   "ВБВнг(А)-LS",
+   "6–35 кВ",
+   "СИП",
+   "КВВГнг(А)-LS",
+   "ПуГВ"
+  ],
+  "email": "info@mkm.ru",
+  "phone": "+7 (495) 673-83-85",
+  "site": "https://www.mkm.ru",
+  "sources_email": [
+   "https://www.mkm.ru/contacts/",
+   "https://elektrokabel.ru/members/ooo_zavod_moskabel-3059",
+   "https://elektrokabel.ru/members/ao_moskabelmet-3060"
+  ],
+  "sources_phone": [
+   "https://www.mkm.ru/contacts/",
+   "https://elektrokabel.ru/members/ooo_zavod_moskabel-3059"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "info@/673-83-85 — секретарь/приёмная. Отдел продаж силовых кабелей ООО «Завод Москабель»: sale@ck.mkm.ru, +7 (495) 777-75-00 — только сайт (single-source)."
+ },
+ {
+  "company": "ООО НПП «Спецкабель»",
+  "inn": "7701165130",
+  "city": "Москва",
+  "products": [
+   "КПСЭнг(А)-FRLS / FRHF",
+   "КПСВЭВнг(А)-LS",
+   "РК 50"
+  ],
+  "email": "info@spetskabel.ru",
+  "phone": "+7 (495) 134-21-34",
+  "site": "https://spetskabel.ru",
+  "sources_email": [
+   "https://spetskabel.ru/",
+   "https://elektrokabel.ru/members/ooo_npp_spetskabel-3081",
+   "https://productcenter.ru/producers/26734/kabielnyi-zavod-spietskabiel",
+   "https://market.neftegaz.ru/catalog/company/154585-spetskabel/"
+  ],
+  "sources_phone": [
+   "https://spetskabel.ru/",
+   "https://elektrokabel.ru/members/ooo_npp_spetskabel-3081",
+   "https://productcenter.ru/producers/26734/kabielnyi-zavod-spietskabiel",
+   "https://market.neftegaz.ru/catalog/company/154585-spetskabel/"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Внимание: по OpenSanctions в санкционном списке СНБО Украины (не OFAC). Также 8-800-333-28-28 (сайт + АЭК). По данным OpenSanctions (из поиска) — в санкционном списке СНБО Украины."
+ },
+ {
+  "company": "ООО «ТПД «Паритет»",
+  "inn": "5074008028",
+  "city": "Подольск (Московская обл.)",
+  "products": [
+   "ВВГ",
+   "ВВГнг(А)-LS",
+   "кабели для ОПС/СОУЭ (КСВВ, КСВЭВГнг(А)-LS, КСРЭВГнг(А)-FRLS)"
+  ],
+  "email": "zakaz@paritet.su",
+  "phone": "+7 (495) 926-22-69",
+  "site": "https://www.paritet.su",
+  "sources_email": [
+   "https://www.paritet.su/kontakty/",
+   "https://elektrokabel.ru/members/ooo_torgovo-promyshlennyiy_dom_paritet-3067"
+  ],
+  "sources_phone": [
+   "https://www.paritet.su/kontakty/",
+   "https://elektrokabel.ru/members/ooo_torgovo-promyshlennyiy_dom_paritet-3067"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "zakaz@ — отдел продаж (доб. 1). Марка «КПСЭнг» на сайте по поиску не найдена — пожарные кабели под марками КСВВ/КСРЭВГ. productcenter содержит устаревшие zakaz@paritet.podolsk.ru."
+ },
+ {
+  "company": "АО «Людиновокабель»",
+  "inn": "0814062454",
+  "city": "Людиново (Калужская обл.)",
+  "products": [
+   "ВВГ",
+   "ВВГнг(А)-LS",
+   "ВВГнг-ХЛ",
+   "ВБВнг(А)-LS",
+   "СИП-3/СИП-4",
+   "А (неизолированный провод)",
+   "КВВГнг(А)-LS",
+   "провода установочные"
+  ],
+  "email": "zakaz@ludinovocable.ru",
+  "phone": "+7 (495) 783-11-14",
+  "site": "https://www.ludinovocable.ru",
+  "sources_email": [
+   "https://www.ludinovocable.ru/kontakty/"
+  ],
+  "sources_phone": [
+   "https://www.ludinovocable.ru/kontakty/",
+   "https://www.aluminas.ru/association/the-registry/lyudinovokabel/"
+  ],
+  "verified": false,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Офис продаж (Москва). Телефон — 2 источника; e-mail zakaz@ — только сайт (АЭК и Алюминиевая ассоциация дают info@ludinovocable.ru, на сайте не найден; также 8-800-707-11-14)."
+ },
+ {
+  "company": "ООО «Кабельный завод «Алюр»",
+  "inn": "6025013482",
+  "city": "Великие Луки (Псковская обл.)",
+  "products": [
+   "ВВГ",
+   "ВВГнг(А)-LS",
+   "ВБВ (упоминания)",
+   "КВВГнг(А)-LS",
+   "ПуГВ"
+  ],
+  "email": "info@alur.ru",
+  "phone": "+7 (81153) 9-14-84",
+  "site": "https://www.alur.ru",
+  "sources_email": [
+   "https://www.alur.ru/kontakty",
+   "https://elektrokabel.ru/members/ooo_kabelnyiy_zavod_alyur-3037"
+  ],
+  "sources_phone": [
+   "https://www.alur.ru/kontakty",
+   "https://elektrokabel.ru/members/ooo_kabelnyiy_zavod_alyur-3037"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Телефон — группа сбыта (нач. группы), совпадает на сайте и в АЭК. Общий e-mail info@; персональный ryabova@alur.ru (группа сбыта) — сайт + АЭК не содержит e-mail. Приём заявок: 8 (81153) 9-27-96 (только сайт)."
+ },
+ {
+  "company": "ООО «ПО «Смоленскэлектрокабель» (ООО «ПО «СЭК»)",
+  "inn": "6732160317",
+  "city": "Смоленск",
+  "products": [
+   "контрольные кабели нг(А)-LS/FRLS/HF (разделы каталога)",
+   "монтажные кабели",
+   "провода и шнуры ПВХ"
+  ],
+  "email": "sales@selcab.ru",
+  "phone": "+7 (4812) 25-06-55",
+  "site": "https://www.selcab.ru",
+  "sources_email": [
+   "https://www.selcab.ru/contacts/",
+   "https://elektrokabel.ru/members/ooo_po_smolenskelektrokabel-6214"
+  ],
+  "sources_phone": [
+   "https://www.selcab.ru/contacts/",
+   "https://elektrokabel.ru/members/ooo_po_smolenskelektrokabel-6214"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "INN из карточки предприятия (PDF на selcab.ru). Силовых ВВГ/КГ на сайте не выявлено — релевантен в основном для контрольных кабелей."
+ },
+ {
+  "company": "ООО «Кабельный завод «Эксперт-Кабель»",
+  "inn": "7743920794",
+  "city": "Орловский р-н (Орловская обл.)",
+  "products": [
+   "силовые до 1/3/6/10 кВ (разделы каталога)",
+   "гибкие",
+   "контрольные",
+   "СИП"
+  ],
+  "email": "sale@expert-cable.ru",
+  "phone": "+7 (495) 248-66-70",
+  "site": "https://www.expert-cable.ru",
+  "sources_email": [
+   "https://www.expert-cable.ru/contacts/",
+   "https://elektrokabel.ru/members/ooo_kabelnyiy_zavod_ekspert-kabel-7001"
+  ],
+  "sources_phone": [
+   "https://www.expert-cable.ru/contacts/",
+   "https://elektrokabel.ru/members/ooo_kabelnyiy_zavod_ekspert-kabel-7001"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Также 8-800-707-66-70 (только сайт). Марки внутри разделов не проверялись."
+ },
+ {
+  "company": "АО «Самарская кабельная компания» (АО «СКК»)",
+  "inn": "6318101450",
+  "city": "Самара",
+  "products": [
+   "контрольные (раздел каталога)",
+   "огнестойкие для систем противопожарной защиты (раздел каталога)",
+   "кабели связи"
+  ],
+  "email": "scc@samaracable.ru",
+  "phone": "+7 (846) 279-12-10",
+  "site": "https://www.samaracable.ru",
+  "sources_email": [
+   "https://www.samaracable.ru/contacts/",
+   "https://elektrokabel.ru/members/ao_samarskaya_kabelnaya_kompaniya-3074"
+  ],
+  "sources_phone": [
+   "https://www.samaracable.ru/contacts/",
+   "https://elektrokabel.ru/members/ao_samarskaya_kabelnaya_kompaniya-3074"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Общий e-mail; sales@samaracable.ru — только сайт. Профиль — связь/спецкабели; для силовой номенклатуры лота малорелевантен."
+ },
+ {
+  "company": "ООО «Сарансккабель»",
+  "inn": "7810014283",
+  "city": "Саранск",
+  "products": [
+   "силовые (ВВГ)",
+   "силовые 6–35 кВ (EPR/СПЭ)",
+   "контрольные",
+   "для сигнализации и блокировки",
+   "гибкие для нестационарной прокладки",
+   "провода"
+  ],
+  "email": "crm@saranskkabel.ru",
+  "phone": "+7 (8342) 777-667",
+  "site": "https://www.saranskkabel.ru",
+  "sources_email": [
+   "https://www.saranskkabel.ru/contacts/"
+  ],
+  "sources_phone": [
+   "https://www.saranskkabel.ru/contacts/",
+   "https://productcenter.ru/producers/7227/saranskii-kabielnyi-zavod-saranskkabiel",
+   "https://www.aluminas.ru/association/the-registry/saranskkabel/"
+  ],
+  "verified": false,
+  "status": "ВНИМАНИЕ: saby — «не действует на 13.11.2026», «в процессе реорганизации»",
+  "notes": "Юрлицо 7810014283 реорганизуется — до RFQ уточнить правопреемника/актуальные реквизиты. Fallback: ООО «ТД «Сарансккабель» ИНН 1327027210 (saby, сайт saranskkabel.ru). E-mail crm@ — только сайт; также 8-800-707-54-58 (сайт). Конкретные марки (ВВГнг(А)-LS, КГ и т.п.) не проверены — только разделы каталога."
+ },
+ {
+  "company": "ООО «КЗ «Цветлит»",
+  "inn": "1327034176",
+  "city": "Саранск",
+  "products": [
+   "ВВГнг(А)-LS / ВВГнг(А)-LSLTx",
+   "силовые огнестойкие",
+   "силовые гибкие",
+   "контрольные",
+   "алюминиевая катанка (полный цикл)"
+  ],
+  "email": "sales@zvetlit.ru",
+  "phone": "+7 (8342) 54-66-19",
+  "site": "https://zvetlit.ru",
+  "sources_email": [
+   "https://zvetlit.ru/kontakty"
+  ],
+  "sources_phone": [
+   "https://zvetlit.ru/kontakty"
+  ],
+  "verified": false,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Оба контакта — только сайт. Карточку в реестре Алюминиевой ассоциации открыть не удалось (обрыв соединения); по выдаче поиска там указаны другие номера (29-16-01, 29-16-43). Saby маскирует контакты."
+ },
+ {
+  "company": "ООО «Севкабель» (ГК «Акрон Холдинг»)",
+  "inn": "6324095123",
+  "city": "Псков",
+  "products": [
+   "ВВГ",
+   "СИП (упоминание)",
+   "неизолированные провода (упоминание)"
+  ],
+  "email": "zakaz@sevkab.ru",
+  "phone": "+7 (8112) 50-00-62",
+  "site": "https://sevkab.ru",
+  "sources_email": [
+   "https://www.sevkab.ru/contacts/"
+  ],
+  "sources_phone": [
+   "https://www.sevkab.ru/contacts/"
+  ],
+  "verified": false,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "zakaz@ — «Отдел продаж силовых и контрольных кабелей» (только сайт). ИНН сопоставлен по saby (ООО «Севкабель», Псков, ОКВЭД 27.32.2, сайт skt-g.ru) — сайт sevkab.ru называет «ООО «СЕВКАБЕЛЬ» в ГК «Акрон Холдинг»; ИНН на самом sevkab.ru не найден — сверить. Не путать с банкротами ПК/ГК «Севкабель» (СПб). В АЭК карточка ООО «СКТ групп» с телефоном 50-00-52 — не совпадает."
+ },
+ {
+  "company": "ООО «Конкорд»",
+  "inn": "6730005732",
+  "city": "Смоленск",
+  "products": [
+   "силовые и контрольные кабели с медной жилой (по данным дилера; сайт недоступен)"
+  ],
+  "email": "mail@nym.ru",
+  "phone": "+7 (4812) 31-14-23",
+  "site": "http://nym.ru",
+  "sources_email": [
+   "https://elektrokabel.ru/members/ooo_konkord-4382",
+   "https://electric-spb.com/upload/rs-files/certificates/Pismo_o_TU_Konkord.pdf"
+  ],
+  "sources_phone": [
+   "https://elektrokabel.ru/members/ooo_konkord-4382",
+   "https://electric-spb.com/upload/rs-files/certificates/Pismo_o_TU_Konkord.pdf"
+  ],
+  "verified": false,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Контакты совпадают в 2 источниках (карточка АЭК + официальный бланк письма Конкорда), но сайт nym.ru из среды не резолвится — сайт-источник не открыт, поэтому verified=false. Saby маскирует s**e@nym.ru (вероятно sale@) — не проверено. Сайт nym.ru нужно разрешить в сетевых настройках сессии."
+ },
+ {
+  "company": "АО «Иркутсккабель»",
+  "inn": "3821000937",
+  "city": "Шелехов (Иркутская обл.)",
+  "products": [
+   "силовые 0,66–6 кВ с ПВХ/СПЭ/ЭПР изоляцией, нг-LS",
+   "силовые с бумажной изоляцией 1–10 кВ",
+   "контрольные (в т.ч. пожаробезопасные)",
+   "провода и кабели установочные"
+  ],
+  "email": "secretary@irkutskkabel.ru",
+  "phone": "+7 (39550) 5-29-01",
+  "site": "https://irkutskkabel.ru",
+  "sources_email": [
+   "https://irkutskkabel.ru/kontakty/",
+   "https://elektrokabel.ru/members/ao_irkutskkabel-3048"
+  ],
+  "sources_phone": [
+   "https://irkutskkabel.ru/kontakty/",
+   "https://elektrokabel.ru/members/ao_irkutskkabel-3048",
+   "https://ibprom.ru/irkutskkabel"
+  ],
+  "verified": true,
+  "status": "действует (saby на 13.11.2026)",
+  "notes": "Это приёмная, отдельного e-mail отдела продаж на сайте нет. Конкретные марки — по описанию номенклатуры, не по каталогу."
+ },
+ {
+  "company": "АО «СПКБ ТЕХНО» (Рыбинсккабель СПКБ)",
+  "inn": null,
+  "city": "Подольск / Рыбинск",
+  "products": [],
+  "email": "sale@spkb.ru",
+  "phone": "+7 (495) 505-68-50",
+  "site": "https://www.spkb.ru",
+  "sources_email": [
+   "https://elektrokabel.ru/members/ao_spkb_tehno-3082"
+  ],
+  "sources_phone": [
+   "https://elektrokabel.ru/members/ao_spkb_tehno-3082"
+  ],
+  "verified": false,
+  "status": "не проверен",
+  "notes": "Сайт spkb.ru из среды недоступен (обрыв соединения); контакты только из карточки АЭК (spkb@spkb.ru, sale@spkb.ru). ИНН и статус не проверены, продукты не подтверждены."
+ },
+ {
+  "company": "Таткабель",
+  "inn": null,
+  "city": "Лаишевский р-н (Татарстан) — по данным СМИ",
+  "products": [],
+  "email": null,
+  "phone": null,
+  "site": null,
+  "sources_email": [],
+  "sources_phone": [],
+  "verified": false,
+  "status": "не проверен",
+  "notes": "Официальный сайт не найден (tatcable.ru не отвечает). По СМИ — завод ВВ-кабеля (ГК «Инвэнт»), под номенклатуру 0,66–1 кВ малорелевантен. Не путать с ООО «Татнефть-Кабель» (Бавлы, член АЭК). Контакты не собирались."
+ },
+ {
+  "company": "Транскабель",
+  "inn": null,
+  "city": null,
+  "products": [],
+  "email": null,
+  "phone": null,
+  "site": null,
+  "sources_email": [],
+  "sources_phone": [],
+  "verified": false,
+  "status": "не найден",
+  "notes": "Производитель с таким названием не идентифицирован в поиске/реестре АЭК; данные не вносились."
+ }
+]

@@ -99,7 +99,7 @@ def letter(s):
 ws4 = wb.create_sheet("4. Письма")
 head(ws4, ["Спец. №", "Кому (e-mail, только проверенные)", "Вложение", "Текст письма"], [8, 50, 18, 120])
 for s in SPECS:
-    to = "; ".join(x["email"] for x in FACT.get(s["no"], []) if x.get("verified") and x.get("email"))
+    to = "; ".join(x["email"] for x in FACT.get(s["no"], []) if x.get("verified") and x.get("email") and not x.get("exclude"))
     ws4.append([s["no"], to or "— ждём проверки контактов —", f"Spec_{s['no']}.xlsx", letter(s)])
 for row in ws4.iter_rows(min_row=2):
     for c in row: c.alignment = W
