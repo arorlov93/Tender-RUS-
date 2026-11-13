@@ -31,6 +31,8 @@ for x in L("analysis_xlsx_shortlist.json"): add(x, "S")
 for x in L("full_C_result.json"): add(x, "C")
 for x in L("full_B_med_result.json"): add(x, "B")
 for x in L("full_A_tubes_result.json"): add(x, "A")
+TERM = json.load(open(D + "terms.json"))
+for r in rows.values(): r["term"] = TERM.get(r["num"])
 R = sorted(rows.values(), key=lambda r: -(r["p10"] if isinstance(r["p10"], (int, float)) else -9e12))
 def cls(r):
     v = r["p10"]; go = r["go"].upper()
@@ -45,10 +47,10 @@ tot_go = sum(r["p10"] for r in R if r["cls"] == "GO"); tot_c = sum(r["p10"] for 
 
 wb = Workbook(); H = PatternFill("solid", fgColor="0B2545"); HF = Font(bold=True, color="FFFFFF"); W = Alignment(wrap_text=True, vertical="top")
 ws = wb.active; ws.title = "С НМЦ (рейтинг)"
-cols = ["№", "Номер", "Пакет", "Предмет", "Регион", "Заказчик", "Закон", "Способ", "Отбор", "НМЦ, ₽", "Подача (МСК)", "Прибыль при НМЦ, ₽", "при −10%, ₽", "при −20%, ₽", "Маржа −10%, %", "−10% по рознице МиниМед, ₽", "Решение", "Вердикт/риск из анализа"]
+cols = ["№", "Номер", "Пакет", "Предмет", "Регион", "Заказчик", "Закон", "Способ", "Отбор", "НМЦ, ₽", "Подача (МСК)", "Прибыль при НМЦ, ₽", "при −10%, ₽", "при −20%, ₽", "Маржа −10%, %", "−10% по рознице МиниМед, ₽", "Решение", "Вердикт/риск из анализа", "Срок исполнения, мес"]
 ws.append(cols)
 for i, r in enumerate(R, 1):
-    ws.append([i, r["num"], r["pack"], r["name"], r["region"], r["cust"], r["law"], r["method"], r["price_only"], r["nmc"], r["dl"], r["p0"], r["p10"], r["p20"], r["pct10"], r["cons10"], r["cls"], (r["go"] + " | " + r["why"])[:300]])
+    ws.append([i, r["num"], r["pack"], r["name"], r["region"], r["cust"], r["law"], r["method"], r["price_only"], r["nmc"], r["dl"], r["p0"], r["p10"], r["p20"], r["pct10"], r["cons10"], r["cls"], (r["go"] + " | " + r["why"])[:300], r["term"]])
 ws2 = wb.create_sheet("Без НМЦ (D)")
 ws2.append(["Номер", "Предмет", "Заказчик", "Регион", "Площадка", "Подача", "Оценка суммы, ₽", "Класс", "Причина", "Что нужно для КП", "Позиции"])
 for x in sorted(DD, key=lambda x: ({"стоит": 0, "возможно": 1}.get(x.get("class"), 2), -(x.get("est_size_rub") or 0))):
