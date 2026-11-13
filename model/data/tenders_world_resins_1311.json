@@ -1,0 +1,256 @@
+{
+  "meta": {
+    "generated": "2026-11-13",
+    "bidder": "ISP Group LLC (USA trading company; Suqing resins, Kairui phosphonates, Aierfuke PAC)",
+    "scope": "Open public/corporate tenders outside Russia/Belarus/Iran for ion exchange resins (priority 1) and water-treatment chemicals: phosphonates, RO antiscalants, PAC (priority 2)",
+    "confirmed_rule": "confirmed=true only if seen on an official portal (here: EU TED notices via the official TED search API / ted.europa.eu). Aggregator-only = false.",
+    "method_notes": [
+      "No logins, no captcha, no contact with buyers. One attempt to read Samruk-Kazyna (zakup.sk.kz) internal search API was blocked by the session safety policy and was NOT retried.",
+      "Unreachable or JS-only (no data without a browser) from this environment: goszakup.gov.kz (connection reset), xarid.uzex.uz / etender.uzex.uz (SPA, no data), xarid.icppa.uz (reset; note: since 1 Oct 2026 Uzbek state/corporate purchases go via xarid.icppa.uz), tender.gov.mn (403), etimad.sa (403/503), capt.gov.kw (403), tenderboard.gov.om (502), etenders.gov.eg (reset), etender.gov.az (reset), tenders.procurement.gov.ge (reset), eprocure.gov.bd (403), e-gp.gov.bd (502), gem.gov.in (reset), compranet (502), seace.gob.pe (502), secop.gov.co (403), ungm.org (403), tenders.go.ke and etenders.gov.za (JS, no data), tender247/tendersontime (403).",
+      "Checked with no relevant open result: World Bank procnotices API (resin/ion exchange/antiscalant/PAC/water treatment chemicals), Pakistan PPRA EPMS (keyword 'resin' = 0 active tenders; 'water treatment' = only 2 construction/repair tenders), EU TED multilingual search for ion-exchange resins (no open EU resin tender; only award notices), BCPCL Payra tender list (no resin), Petromindo Indonesia list (no resin/chemicals).",
+      "Web search coverage for Central Asia, Caucasus, GCC, Iraq, Egypt, Africa, LatAm and Mongolia returned NO currently open resin/antiscalant/phosphonate/PAC tender; this is a coverage gap, not proof of absence."
+    ]
+  },
+  "tenders": [
+    {
+      "rank": 1, "priority": "resin", "window": "main (>=20 Nov)",
+      "country": "India", "buyer": "National Fertilizers Ltd (NFL), Bathinda, Punjab",
+      "reference": "GEM/2026/B/8267525 (TenderDetail #58496041)",
+      "subject": "Strong Base Anion Exchange Resin + Strong Acid Cation Exchange Resin",
+      "items": [{"item": "SBA resin", "qty": null}, {"item": "SAC resin", "qty": null}], "total_qty_listed": "43000 (units not stated, likely litres)",
+      "deadline": "2026-12-03 17:00 IST (UTC+5:30)", "opening": "2026-12-04",
+      "bid_security": "EMD INR 100,000 (BG accepted, no exemption)",
+      "eligibility": "GeM bid, NCB (domestic). Seller must be registered on GeM (Indian entity with PAN/GST). Make-in-India purchase preference likely.",
+      "documents": "On GeM bid page, free",
+      "official_url": "https://bidplus.gem.gov.in/ (search GEM/2026/B/8267525)",
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58496041/91ef16182f347966cdfd940e463daa4c"],
+      "confirmed": false,
+      "isp_feasibility": "low: only via an Indian GeM-registered partner/dealer"
+    },
+    {
+      "rank": 2, "priority": "resin", "window": "main (>=20 Nov)",
+      "country": "India", "buyer": "Punjab State Power Corporation Ltd (PSPCL), GGSSTP Rupnagar (Ropar)",
+      "reference": "Tender No. 7866/P-1/EMP-13439 dt 24-09-2026 (TenderDetail #57750266), Corrigendum-2",
+      "subject": "Anion and cation exchange resin for DM plants",
+      "items": [{"item": "Macroporous strong base Type-1 anion resin (200/180 L MS drums or 50 kg HDPE bags)", "qty": null}, {"item": "Strong acid cation resin, H-form", "qty": null}],
+      "deadline": "2026-11-30 17:00 IST (extended by corrigendum, re-check)", "opening": "2026-12-03 (technical)",
+      "bid_security": "EMD INR 70,620",
+      "eligibility": "NCB, e-tender on PSPCL/Punjab eProc portal; Indian DSC (class III) and portal registration needed.",
+      "documents": "Online, non-refundable fee (amount in documents)",
+      "official_url": "https://eproc.punjab.gov.in/",
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/57750266/d409dd8934740378a208c95ed7938c5d"],
+      "confirmed": false,
+      "isp_feasibility": "low-medium: possible via Indian partner; technically 001x7(H)/macroporous SBA type-1 fits Suqing range"
+    },
+    {
+      "rank": 3, "priority": "resin", "window": "main (>=20 Nov)",
+      "country": "India", "buyer": "Steel Authority of India Ltd (SAIL), Rourkela Steel Plant, Sundargarh, Odisha",
+      "reference": "GEM/2026/B/8255198 (TenderDetail #58493969)",
+      "subject": "Resin for strong base anion (70410400080152) and strong acid cation (70410400080151)",
+      "items": [{"item": "SBA resin", "qty": null}, {"item": "SAC resin", "qty": null}], "total_qty_listed": "25200 (units not stated)",
+      "deadline": "2026-11-23 17:00 IST", "opening": "2026-11-24",
+      "bid_security": "EMD per bid document (BG accepted, no exemption)",
+      "eligibility": "GeM, NCB, Indian sellers only",
+      "documents": "GeM, free", "official_url": "https://bidplus.gem.gov.in/",
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58493969/34b284fd10cc8cfea3f297362a66159b"],
+      "confirmed": false, "isp_feasibility": "low: via Indian GeM seller only"
+    },
+    {
+      "rank": 4, "priority": "resin", "window": "main (>=20 Nov)",
+      "country": "India", "buyer": "Directorate of Purchase & Stores (DAE), Chengalpattu (Kalpakkam), Tamil Nadu",
+      "reference": "GEM/2026/B/8170619 (TenderDetail #58451029)",
+      "subject": "Nuclear grade ion exchange resin (Q2)", "items": [{"item": "Nuclear grade IX resin", "qty": "2000 (units not stated)"}],
+      "deadline": "2026-11-25 17:00 IST", "opening": "2026-11-26",
+      "bid_security": "per document (EMD exemption available)",
+      "eligibility": "GeM NCB; nuclear-grade specs and past supply references typically required",
+      "documents": "GeM", "official_url": "https://bidplus.gem.gov.in/",
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58451029/90d27380c60a093da993baee5e0750d3"],
+      "confirmed": false, "isp_feasibility": "very low: nuclear grade + domestic"
+    },
+    {
+      "rank": 5, "priority": "resin", "window": "main (>=20 Nov)",
+      "country": "Bangladesh", "buyer": "Bangladesh Power Development Board (Directorate of Purchase) – Faridpur 50 MW Peaking Power Plant (one source attributes it to WZPDCL as RFQ)",
+      "reference": "e-GP Tender ID 1349548, Ref 27.11.0000.304.27.407.26 (package FRD050-GR-06)",
+      "subject": "Supply & installation of cation resin for cation exchanger, Mn-greensand iron-remover media and micron filters for the water treatment plant",
+      "items": [{"item": "Cation resin (softener/SAC)", "qty": null}, {"item": "Manganese greensand iron remover media", "qty": null}, {"item": "Micron filter", "qty": null}],
+      "deadline": "possibly 2026-11-30 16:00 BST (UTC+6) – listing ambiguous (dates 11-Oct-2026 21:10 / 30-Nov-2026 16:00)",
+      "bid_security": "unknown",
+      "eligibility": "Open Tendering (domestic, OTM) on Bangladesh e-GP; bidder must be registered on e-GP (local presence/agent in practice); includes installation",
+      "documents": "e-GP, document fee payable via e-GP bank",
+      "official_url": "https://www.eprocure.gov.bd/ (Tender ID 1349548) – page returned 403 to us",
+      "source_urls": ["https://www.dorpatra.com/water-treatment-plant-tenders"],
+      "confirmed": false, "isp_feasibility": "low: needs Bangladeshi e-GP-registered partner; small volume"
+    },
+    {
+      "rank": 6, "priority": "resin", "window": "main (>=20 Nov)",
+      "country": "India", "buyer": "Housing & Urban Development govt dept, Delhi",
+      "reference": "TenderDetail #58494751",
+      "subject": "Hardness removal system 10 m3/h + acid cation exchange resin (45 g CaCO3 ...)", "items": [],
+      "deadline": "2026-12-03", "bid_security": "unknown", "estimated_value": "INR 39.10 lakh",
+      "eligibility": "Domestic", "documents": "per portal", "official_url": null,
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58494751/8ff323ac05540d0b94203ac5f4d0ffd6"],
+      "confirmed": false, "isp_feasibility": "very low: mainly equipment"
+    },
+    {
+      "rank": 7, "priority": "resin", "window": "closing 14-19 Nov",
+      "country": "India", "buyer": "Nuclear Power Corporation of India Ltd (NPCIL), Kakrapar, Tapi, Gujarat",
+      "reference": "GEM/2026/B/8067155 (TenderDetail #58287227)",
+      "subject": "Nuclear grade IX resin (Q2): macroporous mixed bed (30% MSAC / 70% MWBA) + macroporous weak base anion 100% free base",
+      "total_qty_listed": "5700 (units not stated)",
+      "deadline": "2026-11-16 17:00 IST", "bid_security": "EMD INR 56,133",
+      "eligibility": "GeM NCB", "official_url": "https://bidplus.gem.gov.in/",
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58287227/4e67495ed47ee4e805c1b76e26dcda00"],
+      "confirmed": false, "isp_feasibility": "very low"
+    },
+    {
+      "rank": 8, "priority": "resin", "window": "closing 14-19 Nov",
+      "country": "India", "buyer": "NTPC Ltd – Vindhyachal STPS Stage IV DM plant (USSC Raipur)",
+      "reference": "NTPC/USSC-CPG3/9900336484 (TenderDetail #58392535)",
+      "subject": "Ion exchange resin: Tulsion A-2X-MP (macroporous weak base anion), Tulsion A-27 MP (macroporous SBA) – brand specific",
+      "deadline": "2026-11-16 17:00 IST (corrigendum)", "bid_security": "per document",
+      "eligibility": "NCB on NTPC e-tender portal; brand-specific (Thermax Tulsion)", "official_url": "https://ntpctender.ntpc.co.in/",
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58392535/cd7f6000418a15201dc43209f6488817"],
+      "confirmed": false, "isp_feasibility": "none (brand-specific, domestic)"
+    },
+    {
+      "rank": 9, "priority": "resin", "window": "closing 14-19 Nov",
+      "country": "India", "buyer": "Karnataka Power Corporation Ltd (KPCL), Bellary TPS",
+      "reference": "KPCL/2026-27/IND2938 (TenderDetail #58389847)",
+      "subject": "Cation resin, anion resin", "deadline": "2026-11-17 17:00 IST", "opening": "2026-11-19",
+      "bid_security": "EMD INR 37,500; fee INR 500", "eligibility": "NCB, Karnataka e-procurement", "official_url": "https://kppp.karnataka.gov.in/",
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58389847/ffeedd69ed1dd6734c2f142de68696bd"],
+      "confirmed": false, "isp_feasibility": "very low"
+    },
+    {
+      "rank": 10, "priority": "resin", "window": "closing 14-19 Nov",
+      "country": "India", "buyer": "Telangana State Power Generation Corp (TGGENCO), KTPP",
+      "reference": "235/2026-27/CE/O&M/KTPP/CHEMICAL-I (TenderDetail #57524940)",
+      "subject": "Strong acid cation + strong base anion resin for DM plant", "estimated_value": "INR 8.54 lakh",
+      "deadline": "2026-11-18 17:00 IST (Corrigendum-1)", "bid_security": "EMD nil per listing",
+      "eligibility": "NCB, Telangana eProcurement", "official_url": "https://tender.telangana.gov.in/",
+      "source_urls": ["https://www.tenderdetail.com/Indian-Tenders/TenderNotice/57524940/d8a424703ad733338c8de35d646edce6"],
+      "confirmed": false, "isp_feasibility": "very low"
+    },
+    {
+      "rank": 11, "priority": "resin", "window": "closing 14-19 Nov",
+      "country": "India", "buyer": "New & Renewable Energy sector buyer, Jharkhand",
+      "reference": "TenderDetail #58382340",
+      "subject": "Ion exchange resin, brand: Indion ARU-104 / Amberjet 4400 Cl / Purolite Purofine PFA600/4740 (brand-specific)",
+      "deadline": "2026-11-16", "eligibility": "Domestic", "official_url": null,
+      "source_urls": ["https://www.tenderdetail.com/Indian-tender/ion-exchange-resin-tenders"],
+      "confirmed": false, "isp_feasibility": "none"
+    },
+    {
+      "rank": 12, "priority": "chemicals (PAC)", "window": "main (>=20 Nov)",
+      "country": "Romania", "buyer": "AQUAVAS SA Vaslui (water utility)",
+      "reference": "TED 745328-2026",
+      "subject": "Polyaluminium chloride for potabilisation of raw water", "items": [{"item": "PAC", "qty": "885 t"}],
+      "estimated_value": "RON 2,650,000 (excl. VAT)",
+      "deadline": "2026-12-07 (EET, UTC+2)", "bid_security": "see documents (SEAP)",
+      "eligibility": "EU open procedure; non-EU bidders allowed in principle; drinking-water PAC needs EN 883 conformity + Romanian Ministry of Health approval (aviz sanitar) + REACH registration via EU importer/OR",
+      "documents": "Free on SEAP/e-licitatie.ro", "official_url": "https://ted.europa.eu/en/notice/-/detail/745328-2026",
+      "source_urls": ["https://ted.europa.eu/en/notice/-/detail/745328-2026"],
+      "confirmed": true, "isp_feasibility": "low-medium: large volume, but liquid PAC logistics from China + sanitary approval; powder PAC dissolved locally may not fit spec"
+    },
+    {
+      "rank": 13, "priority": "chemicals (PAC)", "window": "main (>=20 Nov)",
+      "country": "Poland", "buyer": "Gdańskie Wodociągi Sp. z o.o.",
+      "reference": "TED 760794-2026",
+      "subject": "Lot 1: PAC aqueous solution (anti-filamentous bacteria, WWTP Gdańsk Wschód) 250 t + option 500 t (max 750 t); Lot 2: ferric coagulant",
+      "deadline": "2026-12-03 (CET, UTC+1)", "bid_security": "see SWZ",
+      "eligibility": "EU open procedure, sectoral; REACH, Polish-language docs; liquid deliveries",
+      "documents": "Free via buyer e-platform (link in notice)", "official_url": "https://ted.europa.eu/en/notice/-/detail/760794-2026",
+      "source_urls": ["https://ted.europa.eu/en/notice/-/detail/760794-2026"],
+      "confirmed": true, "isp_feasibility": "low"
+    },
+    {
+      "rank": 14, "priority": "chemicals (PAC)", "window": "main (>=20 Nov)",
+      "country": "Finland", "buyer": "Jyväskylän Seudun Puhdistamo Oy (Nenäinniemi WWTP)",
+      "reference": "TED 762628-2026", "subject": "Polyaluminium chloride",
+      "deadline": "2026-12-03 (EET)", "eligibility": "EU open; REACH; Finnish docs", "official_url": "https://ted.europa.eu/en/notice/-/detail/762628-2026",
+      "source_urls": ["https://ted.europa.eu/en/notice/-/detail/762628-2026"], "confirmed": true, "isp_feasibility": "low"
+    },
+    {
+      "rank": 15, "priority": "chemicals (PAC)", "window": "main (>=20 Nov)",
+      "country": "Spain", "buyer": "Ayuntamiento de Palma del Río (Córdoba) – ETAP",
+      "reference": "TED 784492-2026", "subject": "Bulk polyaluminium chlorides for raw water treatment (drinking water)",
+      "deadline": "2026-12-09 (CET)", "eligibility": "EU open; UNE-EN 883; Spanish docs", "official_url": "https://ted.europa.eu/en/notice/-/detail/784492-2026",
+      "source_urls": ["https://ted.europa.eu/en/notice/-/detail/784492-2026"], "confirmed": true, "isp_feasibility": "low"
+    },
+    {
+      "rank": 16, "priority": "chemicals (PAC)", "window": "main (>=20 Nov)",
+      "country": "Norway", "buyer": "Halden kommune",
+      "reference": "TED 734295-2026", "subject": "Framework: iron/aluminium precipitation chemicals for water treatment and sewage plants",
+      "estimated_value": "NOK 20,000,000", "deadline": "2026-11-27 (UTC)",
+      "eligibility": "EEA open; Norwegian docs", "official_url": "https://ted.europa.eu/en/notice/-/detail/734295-2026",
+      "source_urls": ["https://ted.europa.eu/en/notice/-/detail/734295-2026"], "confirmed": true, "isp_feasibility": "low"
+    },
+    {
+      "rank": 17, "priority": "chemicals (PAC)", "window": "main (>=20 Nov)",
+      "country": "Sweden", "buyer": "Njudung Energi Vetlanda AB, Njudung Energi Sävsjö AB, Vetlanda kommun",
+      "reference": "TED 739188-2026", "subject": "Process chemicals, 12 lots incl. polyaluminium chloride lot",
+      "deadline": "2026-11-26", "eligibility": "EU open; Swedish docs; lot-wise bidding possible", "official_url": "https://ted.europa.eu/en/notice/-/detail/739188-2026",
+      "source_urls": ["https://ted.europa.eu/en/notice/-/detail/739188-2026"], "confirmed": true, "isp_feasibility": "low"
+    },
+    {
+      "rank": 18, "priority": "chemicals (antiscalant)", "window": "main (=20 Nov)",
+      "country": "Hungary", "buyer": "Budapest Gyógyfürdői és Hévizei Zrt. (Budapest spas)",
+      "reference": "TED 731605-2026", "subject": "Scale-inhibitor (antiscalant) chemical, specified as ScaleKem 53L, 35,325 kg, 24-month framework, cap HUF 100 m net",
+      "deadline": "2026-11-20 (CET)", "eligibility": "EU open; Hungarian docs via EKR; product named (equivalent acceptance unclear)",
+      "official_url": "https://ted.europa.eu/en/notice/-/detail/731605-2026",
+      "source_urls": ["https://ted.europa.eu/en/notice/-/detail/731605-2026"], "confirmed": true, "isp_feasibility": "very low (brand-named, deadline in 7 days)"
+    },
+    {
+      "rank": 19, "priority": "chemicals (coagulant)", "window": "main (>=20 Nov)",
+      "country": "Turkey", "buyer": "not named (drinking water treatment plant)",
+      "reference": "biddingsource 7896868", "subject": "Aluminium-based liquid coagulant for drinking water treatment plant",
+      "deadline": "2026-12-01", "eligibility": "EKAP; foreign bidders need EKAP registration and often domestic-price advantage applies",
+      "official_url": "https://ekap.kik.gov.tr/", "source_urls": ["https://www.biddingsource.com/tenders/10587974"],
+      "confirmed": false, "isp_feasibility": "low"
+    },
+    {
+      "rank": 20, "priority": "chemicals (antiscalant)", "window": "closing 14-19 Nov",
+      "country": "Bangladesh", "buyer": "not named – CCPP (combined cycle power plant) cooling tower",
+      "reference": "biddingsource ref 8462081", "subject": "Hypochlorite, biocide, antiscalant, corrosion inhibitor for cooling-tower water treatment",
+      "deadline": "2026-11-17", "eligibility": "IFB on Bangladesh e-GP (registration needed)", "official_url": "https://www.eprocure.gov.bd/",
+      "source_urls": ["https://www.biddingsource.com/tenders/10569970"], "confirmed": false, "isp_feasibility": "very low (deadline)"
+    },
+    {
+      "rank": 21, "priority": "chemicals (PAC)", "window": "closing 14-19 Nov",
+      "country": "Bangladesh", "buyer": "Khulna WASA – 110 MLD surface water treatment plant",
+      "reference": "KWASA-G-PAC-2026-27 (biddingsource 6787167)", "subject": "White poly aluminium chloride powder, food grade, FY 2026-27",
+      "deadline": "2026-11-19", "eligibility": "e-GP, open tendering", "official_url": "https://www.eprocure.gov.bd/",
+      "source_urls": ["https://www.biddingsource.com/tenders/10547991"], "confirmed": false, "isp_feasibility": "low (needs local e-GP bidder); good fit for Aierfuke powder PAC – track re-tenders"
+    },
+    {
+      "rank": 22, "priority": "chemicals (PAC)", "window": "closing 14-19 Nov",
+      "country": "Bangladesh", "buyer": "not named – PWTP (water treatment plant)",
+      "reference": "APP/26-27/G/1 lot-1 (biddingsource 6787513)", "subject": "Supply of poly aluminium chloride (PAC) for PWTP FY 2026-27",
+      "deadline": "2026-11-19", "official_url": "https://www.eprocure.gov.bd/",
+      "source_urls": ["https://www.biddingsource.com/tenders/10543005"], "confirmed": false, "isp_feasibility": "low"
+    },
+    {
+      "rank": 23, "priority": "chemicals (PAC)", "window": "closing 14-19 Nov",
+      "country": "Turkey", "buyer": "not named",
+      "reference": "biddingsource 7904205", "subject": "Polyaluminium chloride hydroxide sulfate supply",
+      "deadline": "2026-11-17", "official_url": "https://ekap.kik.gov.tr/",
+      "source_urls": ["https://www.biddingsource.com/tenders/10595262"], "confirmed": false, "isp_feasibility": "very low"
+    },
+    {
+      "rank": 24, "priority": "chemicals (RO)", "window": "closing 14-19 Nov",
+      "country": "Oman", "buyer": "Ministry of Health hospitals: Nizwa Hospital WTP; Ibri Regional Hospital RO plant",
+      "reference": "biddingsource 7904151 (Nizwa, 19 Nov); 8458503 (Ibri, 17 Nov); 8458504 (Ibri, 16 Nov)",
+      "subject": "Chemicals for hospital water treatment / RO plant (likely antiscalant, cleaning chemicals)",
+      "deadline": "2026-11-16 .. 2026-11-19 (GST, UTC+4)", "eligibility": "Oman Tender Board / MoH e-tendering: Omani CR registration required",
+      "official_url": "https://etendering.tenderboard.gov.om/", "source_urls": ["https://www.biddingsource.com/tenders/cpv-24962000?page=2", "https://www.biddingsource.com/tenders/10595209"],
+      "confirmed": false, "isp_feasibility": "none directly (local CR); via Omani distributor"
+    }
+  ],
+  "market_intelligence_not_open": [
+    {"country": "Hungary", "buyer": "MVM Paksi Atomerőmű Zrt.", "ref": "TED 641881-2026 (contract award)", "note": "Framework 2026-2030 condensate-polishing resins: 13 charges x 4000 dm3 cation + 13 x 2000 dm3 anion (mixed bed). Awarded; next round ~2030.", "url": "https://ted.europa.eu/en/notice/-/detail/641881-2026"},
+    {"country": "South Africa", "buyer": "Eskom Nuclear Operating Unit", "ref": "MWP2178TX", "note": "Various ion exchange resins + nuclear grade boric acid awarded 20 Feb 2026 to Massive Quantum, ZAR 107.4 m (aggregator).", "url": "https://www.tenders-sa.org/sa-tenders/organizations/eskom-tenders/awarded?page=3"},
+    {"country": "Kyrgyzstan", "buyer": "Bishkek TPP (Бишкекская ТЭЦ)", "ref": "zakupki.okmot.kg order 25845588", "note": "Scale inhibitor IOMS-1, 68 t of 25% solution (17 t a.s.), KGS 15.3 m; closed 2 Sep 2026. Recurring buyer of phosphonate-type antiscalant – watch for 2027 lot (HEDP/ATMP fit).", "url": "https://economist.kg/enierghietika/2026/08/21/bishkekskaia-tets-zakupit-68-tonn-reagenta-protiv-nakipi-za-15-3-mln-somov.md"},
+    {"country": "Bangladesh", "buyer": "CPGCBL Matarbari 1200 MW", "ref": "e-GP 1204659", "note": "Chemicals for condensate polishing plant, closed 26 Jan 2026 – annual recurring.", "url": "https://tenderimpulse.com/government-tenders/bangladesh/supply-of-chemicals-for-condensate-polishing-plant-cpp-of-matarbari-coal-fired-p-10882428"},
+    {"country": "Uzbekistan", "note": "From 1 Oct 2026 all state & corporate purchases moved to xarid.icppa.uz (not reachable from this environment)."}
+  ]
+}
