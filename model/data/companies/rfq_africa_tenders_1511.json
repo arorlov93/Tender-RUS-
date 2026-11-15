@@ -1,0 +1,911 @@
+{
+ "meta": {
+  "created": "2026-11-15",
+  "for": "ISP Group LLC (US trader) - RFQ targets for African water-utility tenders",
+  "tenders": [
+   "NWSC-HQ/SUPLS/26-27/181706 alum 8 lots, deadline 27.11.2026",
+   "NWSC-HQ/SUPLS/26-27/181705 soda ash, 27.11.2026",
+   "NCWSC/24/2026 liquid PAC 600 t, 20.11.2026 (Kenyan bidder needed)",
+   "009/AONO/CAMWATER/DG/2026 12 lots, 07.12.2026 (Cameroonian bidder only, max 2 lots each)",
+   "Generic EA/SA: Ca hypo 65-70%, polyelectrolyte, hydrated lime (LWB Malawi, SA municipalities, LWSC Liberia)"
+  ],
+  "method": "Parallel web search; contacts taken only from opened pages. verified_email/verified_phone = true only if the same value appears in two independent sources (company site + directory/NSF listing/exhibitor/LinkedIn/Facebook/tender doc). 'verified' = both true.",
+  "freight_source": "model/data/tenders_1511/cost_benchmarks.json freight section (Globy/SCFI 06-15.11.2026). Lanes from Turkey, Egypt, GCC, Zimbabwe, SA not in file.",
+  "duties_note": "EAC CET (cost_benchmarks.json): alum HS 2833.22 10%; PAC 2827.49, Ca hypo 2828.10, soda ash 2836.20 0%; CEMAC 10% on all. EAC-origin (Kenya/Tanzania) goods duty-free in Uganda => Kel/Pan Africa alum advantage ~10%.",
+  "sanctions": "No Iran/Russia/Belarus-origin producers included. No candidate found on OFAC SDN by name in this pass (formal screening still required before PO).",
+  "not_contacted": true
+ },
+ "products": [
+  {
+   "product": "Aluminium sulphate (granular/kibbled, 16-17% Al2O3, low Fe)",
+   "tenders": [
+    "NWSC 181706",
+    "CAMWATER 009/2026",
+    "LWSC Liberia",
+    "Kenyan WSPs"
+   ],
+   "suppliers": [
+    {
+     "company": "Hicri Ercili Deniz Nakliyat Kimyevi Maddeler San. ve Tic. A.S.",
+     "country": "Turkey",
+     "city": "Bandirma (Balikesir); plants Bandirma/Mersin/Izmit/Corlu, NSF facility Adana",
+     "grades": "Solid alum powder/granular/kibbled + liquid; Al2O3 min 17%, Fe max 0.02% (TS EN 878, TS 1867); capacity ~1,000,000 t/yr; also PAC, PACS, ACH",
+     "certs": "NSF/ANSI/CAN 60 (Aluminium Sulfate 156 mg/L, Liquid 312 mg/L, PAC 250 mg/L - Adana facility, NSF listing C0267514); ISO 9001; REACH; Halal; FDA; TS EN 878",
+     "africa_refs": "Exports to 120-140 countries; Freshdi profile states 'working with African companies'; specific East African utility refs not found",
+     "site": "https://www.hicriercili.com.tr",
+     "email": "info@hicriercili.com.tr",
+     "phone": "+90 266 721 06 70",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.hicriercili.com.tr/iletisim",
+      "https://www.hicriercili.com.tr/Upload/dosya/Alu%CC%88minyum%20Su%CC%88lfat%20Bros%CC%A7u%CC%88r%20TR.pdf (same company)"
+     ],
+     "sources_phone": [
+      "https://www.hicriercili.com.tr/iletisim",
+      "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?Company=C0267514&Standard=060",
+      "https://buyersguidechem.com/cprofile/Hicri_Ercili_86460676"
+     ],
+     "lane_note": "Turkey (Mersin/Gemlik) -> Mombasa/Douala: no lane in cost_benchmarks.json - request CFR quote (Suez/Red Sea routing; Mersin->Douala via Med/West Africa services).",
+     "notes": "Largest Turkish alum maker and the only NSF-60 alum among candidates - strongest compliance profile for NWSC/CAMWATER. Email only on own site/brochure (no independent 2nd source) -> verified_email=false. US affiliate H&E USA Chemicals Corp (Houston, info@heusachem.com) - convenient for a US trader. BuyersGuideChem names sales contact Ms Elena Gulmus."
+    },
+    {
+     "company": "Aluminium Sulphate Company of Egypt S.A.E. (ASCE)",
+     "country": "Egypt",
+     "city": "Cairo (HQ, 15 Al Ahram St, Heliopolis); plant Abu Zaabal, Qaliobia",
+     "grades": "Solid and liquid alum (made from kaolin/ATH); ex-Kemira JV; reported capacity ~300,000 t/yr (ex-manager CV); Al2O3/Fe spec not published - request CoA",
+     "certs": "Egyptian EOS quality mark (EOS database), ISO 9001 (go4worldbusiness); no NSF found",
+     "africa_refs": "Website: 'serving Egypt, Africa and the Middle East since 1986'; main supplier to Egyptian drinking-water plants",
+     "site": "https://www.asce-eg.com",
+     "email": "info@asce-eg.com",
+     "phone": "+20 2 22906425",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.asce-eg.com/ (info@asce-eg.com)",
+      "Directories show different mailbox: alum-asce@asce-eg.com (eba.org.eg), alum_asce@asce-eg.com (decypha.com) - not identical"
+     ],
+     "sources_phone": [
+      "https://www.asce-eg.com/",
+      "https://eba.org.eg/Main/MemberDetails.aspx?mem_id=1023",
+      "https://www.decypha.com/en/company-list/Aluminium-Sulphate-Company-of-Egypt-SAE-583"
+     ],
+     "lane_note": "Egypt (Alexandria/Sokhna) -> Mombasa/Douala: no lane in cost_benchmarks.json - request CFR (Sokhna->Mombasa via Red Sea is shortest Med-origin lane).",
+     "notes": "Main Egyptian producer. Phone verified in 3 sources. Email: site gives info@, EBA/Decypha give alum-asce@ / alum_asce@ -> send to info@ and cc alum-asce@. Chairman per EBA: Mohamed Adel Hosny. Note COMESA: Egypt and Kenya/Uganda are COMESA members - check preferential duty vs 10% EAC CET."
+    },
+    {
+     "company": "Varahi Chemicals Industries",
+     "country": "India",
+     "city": "Ankleshwar GIDC, Gujarat",
+     "grades": "Non-ferric alum (Al2(SO4)3) powder 60 mesh, lumps 1-4 in., liquid; Al2O3 17% (claims 17.52%); 1,500 t/month",
+     "certs": "ISO certificate and SGS test report shown on site; no NSF/UNBS/KEBS",
+     "africa_refs": "Not stated (exports via Indian traders per testimonials)",
+     "site": "https://varahichemicals.in",
+     "email": "exportdept@varahichemicals.in",
+     "phone": "+91 85110 67540",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://varahichemicals.in/ (exportdept@varahichemicals.in; varahi_chemicals@yahoo.co.in)"
+     ],
+     "sources_phone": [
+      "https://varahichemicals.in/",
+      "Google Maps listing VARAHI CHEMICALS INDUSTRIES (+91 85110 67540)",
+      "https://b2bmap.com/varahi-chemicals-industries (+918511xxxxx, contact Mahir Patel, export head)"
+     ],
+     "lane_note": "India (Nhava Sheva/Mundra) -> Mombasa: 20' USD 1579-2125 (typ 1579), 40' USD 1658-3913 (Globy, 15.11.2026, cost_benchmarks.json) => ~USD 65-85/t at 25 t/20'; +DG surcharge USD 200/cntr if class 8. Mombasa->Kampala inland road/rail NOT in benchmarks (quote needed).",
+     "notes": "Small-mid Gujarat NF-alum maker; cheapest lane (India->Mombasa ~USD 65-85/t). Do not confuse with Varahi Chemicals, Ahmedabad (textile chemicals, different GST). Contact: Mahir Patel (CMO/export head). Indian alum spec IS 299 Gr.1 typically Fe <=0.01%."
+    },
+    {
+     "company": "Kel Chemicals Ltd",
+     "country": "Kenya",
+     "city": "Thika (Thika-Garissa Rd, Plot 4953/1205)",
+     "grades": "Aluminium sulphate powder, granular and crushed (kibbled); also sulphuric acid; trades Ca hypochlorite 70%, PAC liquid, Magadi soda ash",
+     "certs": "ISO 9001:2015; KEBS Diamond Mark of Quality",
+     "africa_refs": "Supplies Kenya, Tanzania, Zanzibar, Uganda, DRC, South Sudan, Rwanda, Burundi, Malawi, Ethiopia (company site); interviewed by USAID WASH-FIN 2020 as Kenyan WSP alum supplier",
+     "site": "https://kelchemicals.com",
+     "email": "info@kelchemicals.com",
+     "phone": "+254 771 759466",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://kelchemicals.com/contact-us",
+      "https://www.facebook.com/kelchemicals/",
+      "https://abc-gcc.net/companies/23/517402/kel-chemicals-ltd"
+     ],
+     "sources_phone": [
+      "https://kelchemicals.com/contact-us",
+      "Google Maps place Kel Chemicals Limited (+254 771 759466)",
+      "https://www.zoominfo.com/c/kel-chemicals-ltd/348109169"
+     ],
+     "lane_note": "Kenya-origin: road Thika/Nairobi -> Kampala (~1,100 km via Malaba) or Mombasa -> Kampala; EAC-originating goods 0% duty vs 10% EAC CET on imported alum (HS 2833.22) - real price edge. Inland freight not in benchmarks.",
+     "notes": "Oldest/largest alum maker in East & Central Africa; EAC origin => 0% duty into Uganda vs 10% on Indian/Turkish alum. Dual role: possible manufacturer-supplier for NWSC AND Kenyan partner for NCWSC (Kenyan registration, KEBS). Raw materials imported (USAID 2020 mentions India/China/Russia - ensure no Russian-origin inputs in our supply chain declarations)."
+    },
+    {
+     "company": "Chilmund Chemicals (Pvt) Ltd",
+     "country": "Zimbabwe",
+     "city": "Harare (HQ, 114 Harare Dr, Marlborough); plant Bindura",
+     "grades": "Non-ferric alum, Al2O3 16-17%, granules 2-6.5 mm, fines, kibbles 30-60 mm, flakes, liquid; 7,200-7,500 t/month",
+     "certs": "ISO 9001/14001/45001 (IMS); SAZ product mark ZWS 1120:2024",
+     "africa_refs": "Exports to Zambia, Mozambique, Angola, DRC; bids in Malawi/Mozambique (Herald 2024/2026); ZINWA and Zimbabwe municipalities",
+     "site": "https://www.chilmund.co.zw",
+     "email": "sales@chilmund.co.zw",
+     "phone": "+263 242 312 235",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.chilmund.co.zw/ (sales@, admin@)",
+      "tendernoticeboard.co.zw shows procurement@chilmund.co.zw (different mailbox)"
+     ],
+     "sources_phone": [
+      "https://www.chilmund.co.zw/",
+      "https://tendernoticeboard.co.zw/organisations/chilmund-investments/"
+     ],
+     "lane_note": "Zimbabwe (Bindura) -> East Africa: overland via Beira/Dar or road; no benchmark. EAC import duty 10% on alum applies (non-EAC origin; COMESA preference to be checked).",
+     "notes": "Only African non-ferric alum plant south of Kenya; regional alternative for Malawi (LWB) and southern lots. Zimbabwe SI 59/2026 restricts alum imports (local protection). Less competitive for Kampala on freight."
+    },
+    {
+     "company": "Zhengzhou Mahaco Industrial Co., Ltd (China benchmark)",
+     "country": "China",
+     "city": "Zhengzhou, Henan (factory claimed in Jiaozuo)",
+     "grades": "Aluminium sulfate 17%; PAC powder (NSF claim on own site); also TCCA/SDIC",
+     "certs": "Claims ISO 9001/14001, NSF for PAC (own site only - NOT confirmed in NSF listing)",
+     "africa_refs": "Not stated",
+     "site": "https://www.mahaco.biz",
+     "email": "info@mahaco.biz",
+     "phone": "+86-371-60383683",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.mahaco.biz/contact"
+     ],
+     "sources_phone": [
+      "https://www.mahaco.biz/contact",
+      "https://chemicalmahaco.lookchem.com/Contact.html"
+     ],
+     "lane_note": "China (Shanghai/Qingdao) -> Mombasa: 20' USD 3811-5033 (typ 3811), 40' USD 6216-8805; -> Dar es Salaam 20' USD 3950-4283, 40' 4600-6500; -> Douala 20' USD 5279-5287, 40' 6800-7424 (cost_benchmarks.json, 06-15.11.2026) => ~USD 150-210/t at 25 t/20'.",
+     "notes": "BENCHMARK ONLY: LookChem/Canton Fair list it as a TRADING company (foreign trade co., 1-50 staff). Use for China FOB price check (market ref alum China FOB ~USD 209/t Oct 2026 per spec_africa.json). Canton Fair lists admin@mahaco.biz / Mr Huang Hao."
+    }
+   ]
+  },
+  {
+   "product": "Sodium carbonate (soda ash) dense/light",
+   "tenders": [
+    "NWSC 181705",
+    "CAMWATER 009/2026"
+   ],
+   "suppliers": [
+    {
+     "company": "Tata Chemicals Magadi Ltd (TCML)",
+     "country": "Kenya",
+     "city": "Lake Magadi (plant); Mombasa export office; Nairobi",
+     "grades": "Dense soda ash SAM: TA as Na2CO3 >=95%, Na2O 57+/-1%, NaCl <=0.3%, NaF <=2.4%, Fe2O3 <=0.03%; packs 50 kg / 1 t bags, bulk",
+     "certs": "Tata group; ISO (group); natural trona soda ash",
+     "africa_refs": "Africa's largest soda ash producer; supplies East African market; ~90% exported via Mombasa incl. rest of Africa; Kenyan WSPs source soda ash locally from Tata (USAID WASH-FIN 2020)",
+     "site": "https://www.tatachemicals.com/kenya",
+     "email": "infomagadi@tatachemicals.com",
+     "phone": "+254 20 6999 000",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.tatachemicals.com/kenya/products-and-applications/basic/sodium-carbonate---soda-ash/dense-soda-ash",
+      "https://www.tatachemicals.com/tata/sites/default/files/2025-09/tender-for-disposal-of-two-wheel-loaders_68d5668dae061.pdf (letterhead)"
+     ],
+     "sources_phone": [
+      "https://www.tatachemicals.com/kenya/products-and-applications/basic/sodium-carbonate---soda-ash/dense-soda-ash",
+      "https://www.tatachemicals.com/tata/sites/default/files/2025-09/tender-for-disposal-of-two-wheel-loaders_68d5668dae061.pdf",
+      "https://www.africa2trust.com/B2B/Contact/kenya/industrial/manufacturing-industries/tata-chemicals-magadi-ltd/ContactUs/1/2/18022/1?sid=18022"
+     ],
+     "lane_note": "Kenya-origin: road Thika/Nairobi -> Kampala (~1,100 km via Malaba) or Mombasa -> Kampala; EAC-originating goods 0% duty vs 10% EAC CET on imported alum (HS 2833.22) - real price edge. Inland freight not in benchmarks. Soda ash HS 2836.20 is 0% EAC CET anyway.",
+     "notes": "Natural choice for NWSC soda ash framework (rail Magadi->Mombasa; road/rail Nairobi->Kampala). NaF up to 2.4% - check NWSC/UNBS potable-water spec (fluoride!) before offering; may need synthetic (Solvay) grade from India/Turkey. Incumbent Pan Africa Chemicals likely sources here. Mombasa office tel +254 41 2315451, mob +254 722 204795 (site)."
+    },
+    {
+     "company": "Eti Soda Uretim Pazarlama Nakliyat ve Elektrik Uretim San. ve Tic. A.S. (WE Soda / Ciner group)",
+     "country": "Turkey",
+     "city": "Beypazari, Ankara (plant); sales office Uskudar, Istanbul",
+     "grades": "Natural soda ash dense/light (trona, monohydrate process), sodium bicarbonate; ~1.95 Mt/yr (2021)",
+     "certs": "Certificates page on site (ISO), REACH",
+     "africa_refs": "Exports worldwide; Africa refs not specified",
+     "site": "https://www.etisoda.com",
+     "email": "sales@etisoda.com",
+     "phone": "+90 216 531 24 00",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.etisoda.com/en/contact-us",
+      "https://www.cinergroup.com.tr/en/glass-and-chemicals/eti-soda.html"
+     ],
+     "sources_phone": [
+      "https://www.etisoda.com/en/contact-us",
+      "https://www.cinergroup.com.tr/en/glass-and-chemicals/eti-soda.html"
+     ],
+     "lane_note": "Turkey (Mersin/Gemlik) -> Mombasa/Douala: no lane in cost_benchmarks.json - request CFR quote (Suez/Red Sea routing; Mersin->Douala via Med/West Africa services).",
+     "notes": "Low-fluoride natural ash - alternative if Magadi NaF is an issue. Sister Kazan Soda. Ownership WE Soda (UK); no sanctions flag found."
+    },
+    {
+     "company": "Nirma Limited",
+     "country": "India",
+     "city": "Ahmedabad (HQ); plants Kalatalav (Bhavnagar) and Porbandar, Gujarat",
+     "grades": "Soda ash light and dense (Solvay process), 4,000 t/day capacity",
+     "certs": "ISO (quality policy on site); BIS",
+     "africa_refs": "Not stated on site",
+     "site": "https://nirma.co.in",
+     "email": "info@nirma.co.in (industrial-sales@nirma.co.in for industrial products)",
+     "phone": "+91-79-27549000",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://nirma.co.in/contact/",
+      "https://www.indianchemicalcouncil.com/docs/resources/DirectoryofChemicalPCunits202223.pdf (info@nirma.co.in)"
+     ],
+     "sources_phone": [
+      "https://nirma.co.in/contact/",
+      "https://www.indianchemicalcouncil.com/docs/resources/DirectoryofChemicalPCunits202223.pdf"
+     ],
+     "lane_note": "India (Nhava Sheva/Mundra) -> Mombasa: 20' USD 1579-2125 (typ 1579), 40' USD 1658-3913 (Globy, 15.11.2026, cost_benchmarks.json) => ~USD 65-85/t at 25 t/20'; +DG surcharge USD 200/cntr if class 8. Mombasa->Kampala inland road/rail NOT in benchmarks (quote needed).",
+     "notes": "Verified address is general info@; industrial-sales@nirma.co.in appears only on nirma.co.in (single source). Gujarat ports (Mundra/Pipavav) -> Mombasa cheap lane."
+    },
+    {
+     "company": "GHCL Limited",
+     "country": "India",
+     "city": "Noida (corp.); soda ash plant Sutrapada, Gujarat",
+     "grades": "Soda ash light (~0.7 g/cc) and dense 'LION' brand; 1.2 Mt/yr",
+     "certs": "ISO; LEED; IBM 5-star mines",
+     "africa_refs": "Mainly domestic (26% of Indian demand); export not advertised",
+     "site": "https://ghcl.co.in",
+     "email": "corpcommunication@ghcl.co.in",
+     "phone": "+91 120 493 9900",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": false,
+     "sources_email": [
+      "https://ghcl.co.in/contact-us"
+     ],
+     "sources_phone": [
+      "https://ghcl.co.in/contact-us"
+     ],
+     "lane_note": "India (Nhava Sheva/Mundra) -> Mombasa: 20' USD 1579-2125 (typ 1579), 40' USD 1658-3913 (Globy, 15.11.2026, cost_benchmarks.json) => ~USD 65-85/t at 25 t/20'; +DG surcharge USD 200/cntr if class 8. Mombasa->Kampala inland road/rail NOT in benchmarks (quote needed).",
+     "notes": "Corporate contacts only (single source). Soda ash marketing Mumbai: Yash Sharma, Yashsharma@ghcl.co.in, +91 95580 69867 (site). Lower priority - Tata Magadi/Nirma first."
+    }
+   ]
+  },
+  {
+   "product": "Polyaluminium chloride liquid (Al2O3 >=17%, basicity >40%, NSF 60 / AWWA B408)",
+   "tenders": [
+    "NCWSC/24/2026 (600 t, IBC 1000 L)",
+    "CAMWATER 009/2026"
+   ],
+   "suppliers": [
+    {
+     "company": "Grasim Industries Ltd - Chemical Division (Aditya Birla Chemicals)",
+     "country": "India",
+     "city": "Mumbai (business HQ); plants Nagda (MP), Vilayat (Gujarat) etc.",
+     "grades": "Liquid PAC SAB 18: Al2O3 16.5-17.5%, basicity min 35%, Fe max 50 ppm, SG 1.35-1.39; ARYAPAC high-basicity liquid/powder; AC 100S medium basicity",
+     "certs": "NSF/ANSI/CAN 60 listed (SAB 18 Plus Liquid, ARYAPAC, PAC liquid; facility Gujarat); BIS IS 15573; ISO 9001/14001; REACH; Halal",
+     "africa_refs": "Large exporter; Africa refs not specified",
+     "site": "https://www.adityabirlachemicals.com",
+     "email": "grasimchem.online@adityabirla.com",
+     "phone": "+91 22 6575 4100",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.adityabirlachemicals.com/pdf/products_brochure_pdf_url_79_1786450039.pdf",
+      "https://www.grasim.com/about-us/contact-us"
+     ],
+     "sources_phone": [
+      "https://www.adityabirlachemicals.com/pdf/products_brochure_pdf_url_79_1786450039.pdf",
+      "https://www.adityabirlachemicals.com/locate-us.php"
+     ],
+     "lane_note": "India (Nhava Sheva/Mundra) -> Mombasa: 20' USD 1579-2125 (typ 1579), 40' USD 1658-3913 (Globy, 15.11.2026, cost_benchmarks.json) => ~USD 65-85/t at 25 t/20'; +DG surcharge USD 200/cntr if class 8. Mombasa->Kampala inland road/rail NOT in benchmarks (quote needed). Liquid PAC = UN3264 class 8, IBC 1000 L (~20-22 t/20').",
+     "notes": "Best fit for NCWSC (NSF 60 liquid, 17-18% Al2O3). Check: NCWSC asks basicity >40% - SAB 18 spec min 35%, ask for ARYAPAC/SAB18 Plus CoA with >40%; KS 1924/AWWA B408 compliance letter; manufacturer's authorization for Kenyan bidder; 2 utility testimonials. NSF listing phone 91 736 6245848 (Nagda)."
+    },
+    {
+     "company": "Hicri Ercili (PAC)",
+     "country": "Turkey",
+     "city": "Bandirma; NSF facility Adana",
+     "grades": "PAC 10 and PAC 17 liquid (blog), PACS, ACH",
+     "certs": "NSF/ANSI/CAN 60 Polyaluminum Chloride 250 mg/L (listing C0267514)",
+     "africa_refs": "Exports 120+ countries",
+     "site": "https://www.hicriercili.com.tr",
+     "email": "info@hicriercili.com.tr",
+     "phone": "+90 266 721 06 70",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.hicriercili.com.tr/iletisim"
+     ],
+     "sources_phone": [
+      "https://www.hicriercili.com.tr/iletisim",
+      "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?Company=C0267514&Standard=060"
+     ],
+     "lane_note": "Turkey (Mersin/Gemlik) -> Mombasa/Douala: no lane in cost_benchmarks.json - request CFR quote (Suez/Red Sea routing; Mersin->Douala via Med/West Africa services).",
+     "notes": "Same supplier as alum - one RFQ for alum+PAC. Confirm NSF trade name covers PAC 17 liquid and basicity >40%."
+    },
+    {
+     "company": "Gujarat Alkalies and Chemicals Ltd (GACL)",
+     "country": "India",
+     "city": "Vadodara (Ranoli); PAC plants Dahej and Coelho complexes, Gujarat",
+     "grades": "PAC 18 liquid: Al2O3 17.5+/-1.0%, basicity 45+/-5% (MB), Cl 20.5%, SG 1.37; capacity 41,250 t/yr (Dahej) + 32,000 t/yr (Coelho); PAC 30 powder",
+     "certs": "NSF/ANSI/CAN 60 listed BUT only PAC10 and PAC30 (Bharuch facility) - PAC18 not in NSF listing; CSIR-IITR approval; IS 15573; ISO",
+     "africa_refs": "State-owned (Govt of Gujarat); export desk exists; Africa refs not stated",
+     "site": "https://gacl.com",
+     "email": "export@gacl.co.in",
+     "phone": "+91 265 6111000",
+     "verified": false,
+     "verified_email": true,
+     "verified_phone": false,
+     "sources_email": [
+      "https://gacl.com/locations",
+      "https://gacl.com/wp-content/uploads/2023/12/POLY-ALUMINIUM-CHLORIDE.pdf",
+      "https://mjcgrp.com/assets/pdf/PAC/polyaluminum_chloride.pdf (third-party copy of GACL brochure)"
+     ],
+     "sources_phone": [
+      "https://gacl.com/locations",
+      "https://gacl.com/wp-content/uploads/2023/12/POLY-ALUMINIUM-CHLORIDE.pdf (both GACL-owned; NSF listing shows older no. 91 265 2232681)"
+     ],
+     "lane_note": "India (Nhava Sheva/Mundra) -> Mombasa: 20' USD 1579-2125 (typ 1579), 40' USD 1658-3913 (Globy, 15.11.2026, cost_benchmarks.json) => ~USD 65-85/t at 25 t/20'; +DG surcharge USD 200/cntr if class 8. Mombasa->Kampala inland road/rail NOT in benchmarks (quote needed).",
+     "notes": "PAC18 spec matches NCWSC (>=17%, >40% basicity) but NSF covers only PAC10/PAC30 - ask GACL whether PAC18 can be added or offer EN 883/KS 1924 route. Export AGM: Pankaj Mittal, pankaj.mittal@gacl.co.in, 0265-2230092 (dealer page)."
+    },
+    {
+     "company": "Yixing Bluwat Chemicals Co., Ltd (China benchmark)",
+     "country": "China",
+     "city": "Yixing, Jiangsu (Yixing Chemical Industrial Park)",
+     "grades": "PAC/ACH liquid 10-18%, 30% powder, ACH 23-50%; also PAM, polyDADMAC",
+     "certs": "NSF/ANSI/CAN 60 (PAC 16% 188 mg/L, 18% 167 mg/L, 30% etc.); ISO 9001; Halal",
+     "africa_refs": "Not specified",
+     "site": "https://www.bluwat.com.cn",
+     "email": "leo.zhou@bluwat.com.cn",
+     "phone": "+86 510 8782 1568",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.bluwat.com.cn/contact",
+      "https://www.bluwatchina.com/ (TradeIndia-hosted profile)"
+     ],
+     "sources_phone": [
+      "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?Company=C0799062",
+      "https://www.bluwatchem.com/contact-us",
+      "https://www.bluwatchina.com/"
+     ],
+     "lane_note": "China (Shanghai/Qingdao) -> Mombasa: 20' USD 3811-5033 (typ 3811), 40' USD 6216-8805; -> Dar es Salaam 20' USD 3950-4283, 40' 4600-6500; -> Douala 20' USD 5279-5287, 40' 6800-7424 (cost_benchmarks.json, 06-15.11.2026) => ~USD 150-210/t at 25 t/20'.",
+     "notes": "Liquid PAC from China to Kenya is freight-heavy (~USD 170-230/t on 20-22 t IBC loads); use mainly as price benchmark or for powder PAC. Other sales: Ken Ling LKS@bluwat.com.cn (+86 13801531909)."
+    },
+    {
+     "company": "ACH Inorganik Kimyasallar San. ve Tic. Ltd. Sti.",
+     "country": "Turkey",
+     "city": "Bursa (Nilufer)",
+     "grades": "PAC-DW-1716 (17% Al2O3 liquid), PAC 5-23%, PACS up to 23% Al2O3 / 83% basicity, ACH",
+     "certs": "NSF/ANSI/CAN 60 (PAC-DW-1716 etc., 600 mg/L; listing C0165665)",
+     "africa_refs": "Not stated",
+     "site": "https://www.ach.com.tr",
+     "email": "info@ach.com.tr",
+     "phone": "+90 224 482 38 06",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": false,
+     "sources_email": [
+      "https://www.ach.com.tr/"
+     ],
+     "sources_phone": [
+      "https://www.ach.com.tr/ (+90 224 482 38 06-07); NSF listing gives +90 224 487 0066; Google Maps +90 544 627 86 19 - inconsistent"
+     ],
+     "lane_note": "Turkey (Mersin/Gemlik) -> Mombasa/Douala: no lane in cost_benchmarks.json - request CFR quote (Suez/Red Sea routing; Mersin->Douala via Med/West Africa services).",
+     "notes": "Good NSF-listed 17% liquid grade; contacts inconsistent across sources - confirm by phone before RFQ."
+    }
+   ]
+  },
+  {
+   "product": "Calcium hypochlorite 65-70% (HTH)",
+   "tenders": [
+    "CAMWATER 009/2026",
+    "LWB Malawi",
+    "SA municipalities (NKO 53/2026, GM2026/226, T2027-18/19)",
+    "LWSC Liberia"
+   ],
+   "suppliers": [
+    {
+     "company": "Sree Rayalaseema Hi-Strength Hypo Ltd (SRHHL, TGV group)",
+     "country": "India",
+     "city": "Kurnool, Andhra Pradesh (plant Gondiparla)",
+     "grades": "Calcium hypochlorite 65% and 70% granular (sodium process), brands Aquafit/Purichlor/Aquachlor; 50,400 t/yr",
+     "certs": "NSF/ANSI/CAN 60 (20 trade names, 8 mg/L; listing 4N600); ISO 9001/14001/OHSAS 18001; Three Star Export House",
+     "africa_refs": "Exports 'round the globe' under ECGC cover; India's only Ca-hypo producer",
+     "site": "https://www.srhhl.com",
+     "email": "info@srhhl.com",
+     "phone": "+91 8518 228750",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.srhhl.com/ (info@srhhl.com)",
+      "TGV group business profile PDF lists aquafit@srhhl.com (different mailbox)"
+     ],
+     "sources_phone": [
+      "https://www.srhhl.com/",
+      "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?Company=4N600&Standard=060"
+     ],
+     "lane_note": "India (Nhava Sheva/Mundra) -> Mombasa: 20' USD 1579-2125 (typ 1579), 40' USD 1658-3913 (Globy, 15.11.2026, cost_benchmarks.json) => ~USD 65-85/t at 25 t/20'; +DG surcharge USD 200/cntr if class 8. Mombasa->Kampala inland road/rail NOT in benchmarks (quote needed). Ca hypo = UN2880 class 5.1 - limited carrier acceptance, stowage rules; check DG surcharge.",
+     "notes": "Top pick for HTH 65-70% (NSF, India->Mombasa cheapest). Send RFQ to info@ and aquafit@srhhl.com."
+    },
+    {
+     "company": "Tianjin/Huanghua Kaifeng Chemical Co., Ltd",
+     "country": "China",
+     "city": "Huanghua, Hebei (plant); Tianjin office",
+     "grades": "Ca hypochlorite 65/70% sodium process granules/tablets; ~25,000-30,000 t/yr; brand AQUA CROWN",
+     "certs": "NSF/ANSI/CAN 60 listed (Tianjin Kaifeng Chemical); ISO 9001; EU BPR/ECHA, US EPA",
+     "africa_refs": "Exhibited at 23rd African Water Association congress (Cameroon) per site news; sales to Africa claimed",
+     "site": "https://www.hhkfchem.com",
+     "email": "liufy@hhkfchem.com",
+     "phone": "+86 22 2399 3297",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.hhkfchem.com/"
+     ],
+     "sources_phone": [
+      "https://www.hhkfchem.com/",
+      "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Calcium%20Hypochlorite (Tianjin Kaifeng 86 222 399 3297)"
+     ],
+     "lane_note": "China -> Douala: 20' USD 5279-5287, 40' USD 6800-7424 (Globy 13.11.2026); China -> Mombasa 20' typ USD 3811.",
+     "notes": "Good for CAMWATER (Douala) and as China benchmark. Mobile/WhatsApp +86 135 0206 5170."
+    },
+    {
+     "company": "Haixing Eno Chemical Co., Ltd (ENOCHLOR)",
+     "country": "China",
+     "city": "Haixing, Cangzhou, Hebei",
+     "grades": "Ca hypochlorite 65/70% sodium process granules, tablets; 45 kg drums (311 drums per 20' at 14 t limit)",
+     "certs": "NSF/ANSI/CAN 60 (ENO CHLOR, 14 mg/L, listing C0177945); EU BPR",
+     "africa_refs": "Sold to 55-80 countries",
+     "site": "https://www.enochem.com.cn",
+     "email": "info@enochem.com.cn",
+     "phone": "+86-22-8830 3226",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": false,
+     "sources_email": [
+      "https://www.enochem.com.cn/product/Calcium-hypochlorite-sodium-process--65-25-70-25-granules-169.html"
+     ],
+     "sources_phone": [
+      "https://www.enochem.com.cn/ (+86-22-8830 3226); NSF listing shows +86 317 668 0002 - differs"
+     ],
+     "lane_note": "China (Shanghai/Qingdao) -> Mombasa: 20' USD 3811-5033 (typ 3811), 40' USD 6216-8805; -> Dar es Salaam 20' USD 3950-4283, 40' 4600-6500; -> Douala 20' USD 5279-5287, 40' 6800-7424 (cost_benchmarks.json, 06-15.11.2026) => ~USD 150-210/t at 25 t/20'. Note 20' carries only ~14 t of Ca hypo (DG weight limit) => ~USD 270-380/t freight China->Mombasa/Douala.",
+     "notes": "NSF-listed producer; export branches Aquatech Group Ltd / Haixing Jingmei. Contacts not cross-confirmed."
+    },
+    {
+     "company": "Kel Chemicals Ltd (local trader of HTH)",
+     "country": "Kenya",
+     "city": "Thika",
+     "grades": "Calcium hypochlorite 70% (traded, origin not stated)",
+     "certs": "KEBS (company)",
+     "africa_refs": "East & Central Africa",
+     "site": "https://kelchemicals.com",
+     "email": "info@kelchemicals.com",
+     "phone": "+254 771 759466",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://kelchemicals.com/contact-us",
+      "https://www.facebook.com/kelchemicals/"
+     ],
+     "sources_phone": [
+      "https://kelchemicals.com/contact-us",
+      "https://www.zoominfo.com/c/kel-chemicals-ltd/348109169"
+     ],
+     "lane_note": "Kenya-origin: road Thika/Nairobi -> Kampala (~1,100 km via Malaba) or Mombasa -> Kampala; EAC-originating goods 0% duty vs 10% EAC CET on imported alum (HS 2833.22) - real price edge. Inland freight not in benchmarks.",
+     "notes": "Not a manufacturer of Ca hypo - listed as local channel/partner, not as source."
+    }
+   ]
+  },
+  {
+   "product": "Hydrated lime Ca(OH)2",
+   "tenders": [
+    "CAMWATER 009/2026",
+    "SA municipalities",
+    "LWSC Liberia"
+   ],
+   "suppliers": [
+    {
+     "company": "Homa Lime Company Ltd",
+     "country": "Kenya",
+     "city": "Koru (Kisumu County), western Kenya",
+     "grades": "Hydrated lime Ca(OH)2 (principal product), quicklime, limestone; up to 90 t/day hydrated lime (~30,000 t/yr)",
+     "certs": "Not published (check KEBS)",
+     "africa_refs": "Kenyan market since 1920s; ~350 km from Uganda border (Busia/Malaba) - closest producer to Kampala",
+     "site": "https://www.homalimecompany.com",
+     "email": "info@homalime.com",
+     "phone": "+254 722 754664",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.homalimecompany.com/",
+      "https://www.facebook.com/p/Homa-Lime-Company-Ltd-100076224342833",
+      "https://linkedin.com/company/homa-lime-co-ltd (post)"
+     ],
+     "sources_phone": [
+      "https://www.homalimecompany.com/",
+      "https://www.facebook.com/p/Homa-Lime-Company-Ltd-100076224342833"
+     ],
+     "lane_note": "Kenya-origin: road Thika/Nairobi -> Kampala (~1,100 km via Malaba) or Mombasa -> Kampala; EAC-originating goods 0% duty vs 10% EAC CET on imported alum (HS 2833.22) - real price edge. Inland freight not in benchmarks.",
+     "notes": "Best-positioned lime source for Uganda/western Kenya. Ask for water-treatment grade CoA (Ca(OH)2 >=90%)."
+    },
+    {
+     "company": "Neelkanth Lime Ltd (Neelkanth Group Africa)",
+     "country": "Tanzania",
+     "city": "Tanga (also Zambia)",
+     "grades": "Quicklime, hydrated lime, magnesium oxide; 'leading lime manufacturer in East Africa'",
+     "certs": "Not published",
+     "africa_refs": "Supplies mining, sugar, water, glass in SADC/East Africa; group present in Kenya, Uganda, Zambia",
+     "site": "https://neelkanth-africa.com",
+     "email": "info@neelkanth-africa.com (Zambia: sales@neelkanthlime.com)",
+     "phone": "+255 676 854 495",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": false,
+     "sources_email": [
+      "https://neelkanth-africa.com/contact-us"
+     ],
+     "sources_phone": [
+      "https://neelkanth-africa.com/contact-us"
+     ],
+     "lane_note": "Tanga/Dar es Salaam -> Kampala via Central Corridor or Tanga->Mombasa road; EAC origin (0% duty). No benchmark.",
+     "notes": "Regional EAC producer; single-source contacts."
+    },
+    {
+     "company": "Amoun Mining & Manufacturing",
+     "country": "Egypt",
+     "city": "Cairo (Maadi HQ); factory Arab Abu Saed, El Saff, Giza",
+     "grades": "Quicklime, hydrated lime, calcium carbonate, dolomite",
+     "certs": "Not published",
+     "africa_refs": "Exports claimed ('local and international')",
+     "site": "https://www.amounmining.com",
+     "email": "info@amounmining.com",
+     "phone": "+20 106 663 8556",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": false,
+     "sources_email": [
+      "https://www.amounmining.com/"
+     ],
+     "sources_phone": [
+      "https://www.amounmining.com/ (international sales WhatsApp)"
+     ],
+     "lane_note": "Egypt (Alexandria/Sokhna) -> Mombasa/Douala: no lane in cost_benchmarks.json - request CFR (Sokhna->Mombasa via Red Sea is shortest Med-origin lane).",
+     "notes": "Option for CAMWATER lime lots / Med-side supply. Single-source contacts."
+    },
+    {
+     "company": "Limeco (agent of Lhoist and Cape Lime/Afrimat)",
+     "country": "South Africa",
+     "city": "Amanzimtoti, KwaZulu-Natal",
+     "grades": "Water purification (white hydrated) lime, quicklime, dolomitic lime",
+     "certs": "Agent for Lhoist / Afrimat products",
+     "africa_refs": "Exports to Botswana, Namibia, Angola, Mauritius",
+     "site": "https://www.limeco.co.za",
+     "email": "info@limeco.co.za",
+     "phone": "+27 31 903 6464",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": false,
+     "sources_email": [
+      "https://www.limeco.co.za/"
+     ],
+     "sources_phone": [
+      "https://www.limeco.co.za/"
+     ],
+     "lane_note": "Durban -> Mombasa/Douala: no lane in benchmarks (India->Durban 20' ~USD 1,150 stale).",
+     "notes": "Agent not producer; relevant for SA municipal tenders (local-production clause) rather than EA."
+    }
+   ]
+  },
+  {
+   "product": "Polyelectrolyte (polyacrylamide flocculant)",
+   "tenders": [
+    "CWA Mauritius C2026/511 (local only)",
+    "uMzinyathi T2027-18/19",
+    "NWSC Gaba polymers (future)"
+   ],
+   "suppliers": [
+    {
+     "company": "SNF Flopam India Pvt Ltd (SNF group)",
+     "country": "India",
+     "city": "Gandhidham (Kutch), Gujarat",
+     "grades": "Polyacrylamide flocculants (FLOPAM AN 910/934/945 etc. powder), polyDADMAC, polyamine",
+     "certs": "NSF/ANSI/CAN 60 for FLOPAM grades at Gujarat facility (SNF NSF listing PDF); SNF group ISO",
+     "africa_refs": "SNF Chemquest Africa (Johannesburg) is SNF's Sub-Saharan trading house; SNF Egypt office",
+     "site": "https://www.snf.com/locations/in/contact",
+     "email": "infogdd@snf.com",
+     "phone": "+91 2836 272100",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.snf.com/locations/in/contact (infogdd@snf.com; alt info@snfflopam-india.com)"
+     ],
+     "sources_phone": [
+      "https://www.snf.com/locations/in/contact",
+      "https://www.snf.com/wp-content/uploads/2024/09/NSF-Listing.pdf (91 02836 272100)"
+     ],
+     "lane_note": "India (Nhava Sheva/Mundra) -> Mombasa: 20' USD 1579-2125 (typ 1579), 40' USD 1658-3913 (Globy, 15.11.2026, cost_benchmarks.json) => ~USD 65-85/t at 25 t/20'; +DG surcharge USD 200/cntr if class 8. Mombasa->Kampala inland road/rail NOT in benchmarks (quote needed).",
+     "notes": "World #1 PAM maker; NSF grades for potable water. SNF may route Africa sales via SNF Chemquest Africa: chemquest@icon.co.za, +27 11 450 4216 (phone verified: snf.com + ProTenders)."
+    },
+    {
+     "company": "Yixing Bluwat Chemicals (PAM)",
+     "country": "China",
+     "city": "Yixing, Jiangsu",
+     "grades": "Anionic/cationic/non-ionic PAM, polyDADMAC, polyamine",
+     "certs": "NSF 60 (company listed for PAC/ACH; confirm PAM scope); ISO 9001",
+     "africa_refs": "Not specified",
+     "site": "https://www.bluwat.com.cn",
+     "email": "leo.zhou@bluwat.com.cn",
+     "phone": "+86 510 8782 1568",
+     "verified": true,
+     "verified_email": true,
+     "verified_phone": true,
+     "sources_email": [
+      "https://www.bluwat.com.cn/contact",
+      "https://www.bluwatchina.com/"
+     ],
+     "sources_phone": [
+      "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?Company=C0799062",
+      "https://www.bluwatchem.com/contact-us"
+     ],
+     "lane_note": "China (Shanghai/Qingdao) -> Mombasa: 20' USD 3811-5033 (typ 3811), 40' USD 6216-8805; -> Dar es Salaam 20' USD 3950-4283, 40' 4600-6500; -> Douala 20' USD 5279-5287, 40' 6800-7424 (cost_benchmarks.json, 06-15.11.2026) => ~USD 150-210/t at 25 t/20'.",
+     "notes": "One RFQ for PAC + PAM; NSF PAM scope to be confirmed."
+    },
+    {
+     "company": "Henan Jinghua New Material Technology Co. (ChinaPAM / CNPAM)",
+     "country": "China",
+     "city": "Xinxiang, Henan",
+     "grades": "APAM/CPAM/NPAM powder, solids >=90%; 100,000 t/yr; MOQ 500 kg",
+     "certs": "Certifications page on site (not cross-checked)",
+     "africa_refs": "Not specified",
+     "site": "https://chinapolyacrylamide.com",
+     "email": "info@chinapolyacrylamide.com",
+     "phone": "+86 187 3759 0940",
+     "verified": false,
+     "verified_email": false,
+     "verified_phone": false,
+     "sources_email": [
+      "https://chinapolyacrylamide.com/"
+     ],
+     "sources_phone": [
+      "https://chinapolyacrylamide.com/"
+     ],
+     "lane_note": "China (Shanghai/Qingdao) -> Mombasa: 20' USD 3811-5033 (typ 3811), 40' USD 6216-8805; -> Dar es Salaam 20' USD 3950-4283, 40' 4600-6500; -> Douala 20' USD 5279-5287, 40' 6800-7424 (cost_benchmarks.json, 06-15.11.2026) => ~USD 150-210/t at 25 t/20'.",
+     "notes": "Price benchmark for 'FLOPAM AN 910 equivalent'. Unverified contacts."
+    }
+   ]
+  }
+ ],
+ "local_partners": [
+  {
+   "company": "Kel Chemicals Ltd",
+   "country": "Kenya",
+   "city": "Thika",
+   "role": "Kenyan manufacturer (alum, H2SO4) + trader (HTH, PAC, soda ash); candidate Kenyan bidder/partner for NCWSC PAC (has KRA/KEBS/local registrations) or co-supplier for NWSC",
+   "site": "https://kelchemicals.com",
+   "email": "info@kelchemicals.com",
+   "phone": "+254 771 759466",
+   "verified": true,
+   "sources": [
+    "https://kelchemicals.com/contact-us",
+    "https://www.facebook.com/kelchemicals/",
+    "https://www.zoominfo.com/c/kel-chemicals-ltd/348109169"
+   ],
+   "notes": "Also a competitor on alum. Key principal per D&B: Mahendra Kumar Somchand Haria; Niral Haria on LinkedIn.",
+   "verified_phone": true,
+   "verified_email": true
+  },
+  {
+   "company": "Aquatreat Solutions Ltd",
+   "country": "Kenya",
+   "city": "Nairobi (Eastern Bypass)",
+   "role": "Water treatment chemicals/equipment supplier; named by USAID WASH-FIN 2020 among Kenyan WSP chemical suppliers ('Aqua Treat')",
+   "site": "https://aquatreat.co.ke",
+   "email": "info@aquatreat.co.ke",
+   "phone": "+254 724 083 450",
+   "verified": false,
+   "sources": [
+    "https://aquatreat.co.ke/"
+   ],
+   "notes": "Possible NCWSC bidder partner; check financial capacity (NCWSC requires KES 50M resources).",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "Zenco Systems Ltd",
+   "country": "Kenya",
+   "city": "Nairobi (Industrial Area)",
+   "role": "Distributor of alum, Ca hypo, hydrated lime in Kenya/Uganda/Tanzania/Rwanda",
+   "site": "https://zenithcoltd.com",
+   "email": "zenithcolimited@gmail.com",
+   "phone": "+254 114 591982",
+   "verified": false,
+   "sources": [
+    "https://zenithcoltd.com/product/aluminium-sulphate-kenya-2"
+   ],
+   "notes": "Small trader (gmail address); agent-level only.",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "Karivex Solutions Ltd",
+   "country": "Kenya",
+   "city": "Nairobi (Enterprise Rd)",
+   "role": "Industrial chemical distributor, ships to Uganda/Tanzania/Rwanda in 2-3 days",
+   "site": "https://karivexsolutionsltd.com",
+   "email": "info@karivexsolutionsltd.com",
+   "phone": "+254 710 851911",
+   "verified": false,
+   "sources": [
+    "https://karivexsolutionsltd.com/"
+   ],
+   "notes": "Logistics/agent option.",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "Qualitas Company Ltd",
+   "country": "Kenya",
+   "city": "Sabaki, Mombasa Rd (stores Nairobi, Uganda, Rwanda)",
+   "role": "Lime/gypsum/industrial chemicals distributor with Uganda store",
+   "site": "https://qualitas.co.ke",
+   "email": "info@qualitas.co.ke",
+   "phone": "+254 722 200703",
+   "verified": false,
+   "sources": [
+    "https://qualitas.co.ke/"
+   ],
+   "notes": "Useful for lime and Uganda presence.",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "Reliance Chemicals Ltd",
+   "country": "Uganda",
+   "city": "Kampala (Kibira Rd, Industrial Area)",
+   "role": "Ugandan industrial chemical importer (alum, chlorine 65%, Magadi soda) - candidate Uganda agent/clearing & delivery partner for NWSC lots",
+   "site": "https://reliancechemicals.ug",
+   "email": "hello@reliancechemicals.ug",
+   "phone": "+256 759 767766",
+   "verified": false,
+   "sources": [
+    "https://reliancechemicals.ug/"
+   ],
+   "notes": "NWSC tender is open international - partner needed mainly for bid security via Ugandan bank, warehousing and upcountry delivery (8 water works).",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "KAS Engineering Ltd",
+   "country": "Uganda",
+   "city": "Kampala (Kyaliwajjala-Namugongo)",
+   "role": "Water/wastewater chemicals supplier and consultancy",
+   "site": "https://www.kasengineering.co.ug",
+   "email": "info@kasengineering.co.ug",
+   "phone": "+256 702 811 121",
+   "verified": false,
+   "sources": [
+    "https://www.kasengineering.co.ug/"
+   ],
+   "notes": "Smaller; technical support partner.",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "Solevo Cameroun S.A. (ex-ADER Cameroun, Solevo group)",
+   "country": "Cameroon",
+   "city": "Douala (ZI Bonaberi)",
+   "role": "CAMWATER 2026 lot 3 winner (1.116 bn FCFA) - prime Cameroonian bidder to supply",
+   "site": "https://solevogroup.com",
+   "email": null,
+   "phone": "+237 233 50 42 00",
+   "verified": false,
+   "sources": [
+    "https://solevo.backup-solevogroup.com/our-network",
+    "http://maligah.com/entreprises/details/Solevo-Cameroun?id=43757",
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+   ],
+   "notes": "Phone confirmed in 2 sources (verified_phone=true); no public email - use solevogroup.com contact form / Geneva sourcing team +41 58 300 75 00.",
+   "verified_phone": true,
+   "verified_email": false
+  },
+  {
+   "company": "FOBS Ltd (FOBS S.A.)",
+   "country": "Cameroon",
+   "city": "Douala (ZI MAGZI Bassa)",
+   "role": "CAMWATER 2026 lots 4 and 5 winner (2.16 bn FCFA) - Cameroonian bidder",
+   "site": "https://fobs-group.com",
+   "email": null,
+   "phone": "+237 695 192 111",
+   "verified": false,
+   "sources": [
+    "https://linkedin.com/company/fobs-sa",
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_COM_00093_CAMWATER.pdf"
+   ],
+   "notes": "Industrial consumables trader incl. water treatment.",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "AFCOTT Cameroun SARL",
+   "country": "Cameroon",
+   "city": "Garoua",
+   "role": "CAMWATER 2026 lots 2 and 9 winner",
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "sources": [
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf",
+    "https://drcq.minader.cm/docs/liste_grand_public_2016_27-11-15.pdf (B.P. 31 Garoua)"
+   ],
+   "notes": "No contacts found online - approach via ARMP/CAMWATER references.",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "MEDINOV / Mawen Enterprise / Groupement Mola-AMN",
+   "country": "Cameroon",
+   "city": "Douala/Yaounde",
+   "role": "Other CAMWATER 2026 winners (lots 1, 6-8, 10)",
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "sources": [
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+   ],
+   "notes": "Contacts not found; each may bid max 2 of 12 lots in 009/AONO/2026 - multiple partners needed to cover many lots.",
+   "verified_phone": false,
+   "verified_email": false
+  },
+  {
+   "company": "Agrochem-AC (ALM international group)",
+   "country": "Cameroon",
+   "city": "Douala (50 rue Joffre, Akwa)",
+   "role": "Chemicals/water treatment distributor (non-winner) - alternative partner",
+   "site": "https://www.agrochem-ac.com/en/",
+   "email": "secretariat@agrochem-ac.com",
+   "phone": "+237 6 99 89 01 31",
+   "verified": false,
+   "sources": [
+    "https://www.agrochem-ac.com/en/"
+   ],
+   "notes": "Needs CAMWATER/utility supply references (eligibility clause).",
+   "verified_phone": false,
+   "verified_email": false
+  }
+ ],
+ "competitors": [
+  {
+   "company": "Pan Africa Chemicals Ltd (PACL, Dawda Group)",
+   "country": "Kenya",
+   "city": "Webuye",
+   "role": "INCUMBENT COMPETITOR: won NWSC alum framework NWSC-HQ/SUPLS/23-24/180990 (UGX 1.52 bn) and soda ash framework 24-25/181028 (UGX 2.46 bn); makes alum 17%, H2SO4, NaOCl in Kenya; agent for PAC, Ca hypo 70%, soda ash, lime of Indian/Chinese origin; ISO 9001, NSF, KEBS",
+   "site": "https://panchemicalsafrica.com",
+   "email": "sales@panchemicalsafrica.com",
+   "phone": "+254 700 005500",
+   "verified": false,
+   "sources": [
+    "https://panchemicalsafrica.com/",
+    "model/data/tenders_1511/spec_africa.json (PPDA audit)"
+   ],
+   "notes": "Do NOT approach as partner; benchmark against its EAC-origin alum (0% duty)."
+  }
+ ]
+}
