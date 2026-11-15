@@ -1,0 +1,1508 @@
+{
+ "meta": {
+  "created": "2026-11-15",
+  "purpose": "Local partners (registered bidders/distributors) for African utility tenders + delivered price benchmarks",
+  "method": "Parallel web search + direct public procurement data: Uganda PPDA GPP API (cdn.ppda.go.ug best-evaluated-bidders, 377 records scanned), Zimbabwe PRAZ eGP award notices (57 scanned) and PRAZ Government Gazette register 4.9.2026, Kenya PPIP/WSP tender opening minutes, ARMP Cameroon, Blantyre Water Board results, World Bank procurement plans. verified=true only if email AND phone each confirmed in two independent sources; partial flags verified_email/verified_phone.",
+  "fx_note": "USD conversions approximate: KES ~129-130 (2024 & 15.11.2026), UGX ~3,550 (2016-17), NGN ~411 (2021); current fx in model/data/tenders_1511/fx_usd_1511.json",
+  "sanctions": "No partner found on OFAC SDN by name in open checks (fylings OFAC screen for Oriental Business Group clean 16.10.2026). Chemplex/ZimPhos are Zimbabwean state-linked (IDC) - run formal screening before any deal. Full SDN/EU/UN screening still required before PO.",
+  "gaps": "Kenya PPIP contract-award data and Tanzania NeST awards not accessible without login/JS; NWSC tonnages for 2024-2026 frameworks not public; no award evidence found for Rwanda (WASAC), Ghana (beyond Alumichem), Nigeria, Cote d'Ivoire, Senegal, Mauritius, Madagascar partners; no recent public delivered price for liquid PAC or polyacrylamide in priority countries.",
+  "not_contacted": true,
+  "related_files": [
+   "model/data/companies/rfq_africa_tenders_1511.json",
+   "model/data/tenders_1511/spec_africa.json",
+   "model/data/tenders_1511/cost_benchmarks.json"
+  ],
+  "counts": {
+   "partners": 34,
+   "competitors": 2,
+   "price_benchmarks": 26
+  },
+  "for": "ISP Group LLC (US trader, CN/IN water-treatment chemicals)"
+ },
+ "partners": [
+  {
+   "company": "Kel Chemicals Ltd",
+   "country": "Kenya",
+   "city": "Thika (Thika-Garissa Rd)",
+   "products": "Aluminium sulphate (powder/granular/kibbled, own plant), sulphuric acid; trades Ca hypochlorite 70%, liquid PAC, Magadi soda ash",
+   "brands": "Own-brand alum (KEBS); traded HTH/PAC origin not disclosed",
+   "tender_wins": [
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Aluminium sulphate 18-month framework NWSC/SUPLS/2016-2017/162122 (2 lots)",
+     "year": 2016,
+     "value": "UGX 5,584,817,280 + UGX 271,803,456",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "Eldoret Water (ELDOWAS), Kenya",
+     "product": "Aluminium sulphate ELDOWAS/T/02/2024-2025 - bidder (price not read out)",
+     "year": 2024,
+     "value": null,
+     "url": "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf"
+    }
+   ],
+   "site": "https://kelchemicals.com",
+   "email": "info@kelchemicals.com",
+   "phone": "+254 771 759466",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://kelchemicals.com/contact-us",
+    "https://www.facebook.com/kelchemicals/",
+    "https://www.zoominfo.com/c/kel-chemicals-ltd/348109169",
+    "Google Maps (Kel Chemicals Limited)"
+   ],
+   "notes": "Oldest alum maker in East Africa; also creditor of Kenyan WSPs (Limuru WSC audited payables). Partner for Kenyan-registration lots (NCWSC PAC) and as importer of Chinese/Indian PAC/HTH; competitor on alum. Carry-over contacts verified 15.11.2026 (rfq_africa_tenders_1511.json).",
+   "role": "manufacturer + trader + bidder",
+   "priority": 1,
+   "is_competitor": false
+  },
+  {
+   "company": "Junaco (T) Ltd / Junaco Group (Junaco Uganda Ltd, Junaco Trading Kenya Ltd, Junaco RDC)",
+   "country": "Tanzania (regional: Uganda, Kenya, DRC, South Africa, UAE)",
+   "city": "Dar es Salaam (IPS Building 8th fl., Samora/Azikiwe St)",
+   "products": "Chlorine gas, polymers/PAC, aluminium sulphate, calcium hypochlorite, caustic soda, dosing pumps, water meters",
+   "brands": "Long-term exporter/partner of AECI-Improchem (SA) water chemicals (15+ yrs); minority shareholder in buyer of AECI Public Water business (2025); Chinese suppliers for meters/oxygen (Guangzhou Tanzhong)",
+   "tender_wins": [
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Polymers (PAC) frameworks Gaba/Lyantonde/Gulu/Tororo/Mbale/Katosi, refs 171910, 171911, 172739, 172762, 172507, 180047, 180048, 180498, 180674",
+     "year": 2021,
+     "value": "values not disclosed (BEB notices 2021-2024)",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Chlorine powder (Ca hypochlorite) 18-month framework NWSC/HQ/SUPLS/2017-2018/164150",
+     "year": 2018,
+     "value": "UGX 2,767,500,000",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Polymers for 8 areas framework NWSC/SUPLS/2017-2018/163509",
+     "year": 2018,
+     "value": "UGX 15,921,010,080",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Liquid chlorine gas 18 months (lots) 164740 / 163777 / 162428",
+     "year": 2018,
+     "value": "UGX 1.93-4.15 bn per award",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Aluminium sulphate framework NWSC/SUPLS/2019-2020/163747 and 162122 (lots)",
+     "year": 2018,
+     "value": "UGX 395.5M + 659.2M (2016 lots)",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Supply of 20,250 kg calcium hypochlorite 162301",
+     "year": 2016,
+     "value": "UGX 154,531,598",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "REGIDESO DRC (World Bank)",
+     "product": "Emergency 70 t calcium hypochlorite",
+     "year": null,
+     "value": null,
+     "url": "https://www.devex.com/organizations/junaco-group-ltd-177847"
+    }
+   ],
+   "site": "http://www.junacogroup.com",
+   "email": "info@junacogroup.com",
+   "phone": "+255 22 213 7772 (mob +255 677 237772; CRB/NCD: +255 759 525 689)",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "http://www.junacogroup.com/",
+    "https://ncd.co.tz/listing/junaco-group-of-companies",
+    "https://www.zoomtanzania.net/directory/junaco-group-of-companies/",
+    "Google Maps JUNACO GROUP OF COMPANIES (+255 22 213 7772)",
+    "https://www.crb.go.tz/contractordetails/home/show/5822",
+    "https://www.aeciworld.com/news-room/agreement-to-dispose-of-its-public-water-division"
+   ],
+   "notes": "Strongest multi-country bidder found: repeated NWSC Uganda framework winner 2016-2024 (PAC/polymers, HTH, chlorine gas, alum). MD Justinian Lambert (Rutayangilana). Ideal channel for Chinese/Indian PAC, HTH, alum into UG/TZ/KE/DRC.",
+   "role": "regional distributor + utility bidder",
+   "priority": 1,
+   "is_competitor": false
+  },
+  {
+   "company": "Oriental Business Group Ltd",
+   "country": "Uganda",
+   "city": "Kampala (Eco Bank Plaza, Parliament Ave; P.O. Box 138097)",
+   "products": "PAC/polymers, organic polymers (sludge dewatering), aluminium sulphate, steel tanks, pumps, meters",
+   "brands": "Imports from China (water meters, Xi'an Howah), Turkey (Ayfen pumps), Italy (Caprari), Australia (Kingspan tanks) - customs data; chemical brands not disclosed",
+   "tender_wins": [
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Emergency stop-gap aluminium sulphate NWSC-HQ/SUPLS/2025-2026/181619",
+     "year": 2026,
+     "value": "UGX 6,140,160,000",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Polymers frameworks Gaba/Katosi/Lyantonde/Gulu/Tororo/Mbale/Mbarara/Mityana/Fort Portal (171910, 172718, 172739, 172762, 180047, 180048, 180498)",
+     "year": 2022,
+     "value": "values not disclosed",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Organic polymers for sludge dewatering 18 months (172507, 180740)",
+     "year": 2024,
+     "value": "values not disclosed",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)",
+    "https://fylings.com/company/ug/80010000663508/oriental-business-group-limited",
+    "https://linkedin.com/in/isaias-berhe-805baa143 (MD Isaias Berhe)",
+    "https://www.icpcredit.com/Report/ReportRequest?companyID=565312"
+   ],
+   "notes": "URSB 80010000663508 (2011). 134 NWSC awards 2020-2024 (fylings, OCDS). No public email/phone found - approach via LinkedIn (MD Isaias Berhe) or NWSC supplier lists. OFAC name screen clean per fylings 16.10.2026.",
+   "role": "local bidder (NWSC)",
+   "priority": 1,
+   "is_competitor": false
+  },
+  {
+   "company": "Reliefline Uganda Ltd (Ajay Industrial Corporation group, India)",
+   "country": "Uganda",
+   "city": "Kampala (Plot 7629 Block 244, Kiwafu Rd, Kansanga-Muyenga)",
+   "products": "Aluminium sulphate, chlorine powder (HTH), WASH/relief supplies, pumps; imports from India/China/SA",
+   "brands": "Parent Ajay Industrial Corporation Ltd (Ghaziabad, India) - Indian sourcing channel",
+   "tender_wins": [
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Aluminium sulphate 18-month framework NWSC-HQ/SUPLS/23-24/180675 (3 lots)",
+     "year": 2024,
+     "value": "values not disclosed",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Chlorine powder 18-month framework 180742",
+     "year": 2024,
+     "value": "values not disclosed",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    }
+   ],
+   "site": "https://reliefline.net",
+   "email": "uganda@reliefline.net",
+   "phone": "+256 752 462592",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://reliefline.net/contact-us",
+    "https://www.bizinfodirectory.com/directory/listing/reliefline-uganda-ltd",
+    "https://www.volza.com/company-profile/reliefline-uganda-limited-..."
+   ],
+   "notes": "Won NWSC alum + HTH lots alongside Pan Africa in 2024. Indian-parented -> natural buyer of Indian/Chinese alum, HTH. Also offices in Kenya, South Sudan, Zimbabwe, Nigeria.",
+   "role": "local bidder; Indian-group subsidiary",
+   "priority": 1,
+   "is_competitor": false
+  },
+  {
+   "company": "HSF International Ltd",
+   "country": "Uganda",
+   "city": "Kampala (Arie Towers, 16 Mackinnon Rd)",
+   "products": "General trade/logistics; won NWSC alum stop-gap",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Emergency stop-gap aluminium sulphate NWSC-HQ/SUPLS/2025-2026/181619",
+     "year": 2026,
+     "value": "UGX 3,083,000,000",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    }
+   ],
+   "site": "https://hsf.co.ug",
+   "email": "info@hsf.co.ug",
+   "phone": "+256 393 000 578",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://hsf.co.ug/",
+    "Google Maps Hsf International (+256 39 3000578)",
+    "https://linkedin.com/company/hsf-international"
+   ],
+   "notes": "Not a chemical specialist - needs a foreign supplier for product; good fit for ISP as back-to-back supplier.",
+   "role": "local bidder (trading/logistics house)",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "Reliance Chemicals Ltd (RCL)",
+   "country": "Uganda",
+   "city": "Kampala (Plot 34/36 Kibira Rd, Industrial Area)",
+   "products": "Aluminium sulphate, chlorine 65%, HCl, H2O2, H2SO4, NaOCl, Magadi soda",
+   "brands": "Global sourcing (not named)",
+   "tender_wins": [],
+   "site": "https://reliancechemicals.ug",
+   "email": "hello@reliancechemicals.ug",
+   "phone": "+256 759 767766",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://reliancechemicals.ug/contact.html",
+    "https://www.bizinfodirectory.com/directory/listing/reliance-chemicals-ltd (different: sree@reliancechemicals.ug, +256 757 359427)"
+   ],
+   "notes": "Address verified in 2 sources; email/phone differ between sources. No utility award found in PPDA BEB data.",
+   "role": "importer/distributor",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "KAS Engineering Solutions Ltd",
+   "country": "Uganda",
+   "city": "Kampala (Kyaliwajjala-Namugongo)",
+   "products": "Water & wastewater chemicals, boiler/cooling chemicals, consultancy",
+   "brands": null,
+   "tender_wins": [],
+   "site": "https://www.kasengineering.co.ug",
+   "email": "info@kasengineering.co.ug",
+   "phone": "+256 702 811 121",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.kasengineering.co.ug/",
+    "https://find.ug/listing/kas-engineering-solutions-kampala-uganda-chemicals-cleaning-kampala"
+   ],
+   "notes": "Manager Ssebintu Robert (find.ug). No NWSC award found.",
+   "role": "small chemical supplier/consultant",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Tesla Technical Services Ltd",
+   "country": "Uganda",
+   "city": "Kampala",
+   "products": "Soda ash (NWSC), works",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Soda ash 18-month framework 180459 (2 lots)",
+     "year": 2023,
+     "value": "values not disclosed",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+   ],
+   "notes": "Contacts not found in open sources.",
+   "role": "local bidder",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Davanns Ltd",
+   "country": "Kenya",
+   "city": "Nakuru",
+   "products": "Water treatment, boiler, cooling, RO/UF chemicals; dosing pumps",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "ELDOWAS Kenya",
+     "product": "Aluminium sulphate ELDOWAS/T/02/2024-2025 - bid KES 55.00/kg, total KES 27,291,000 (2nd lowest)",
+     "year": 2024,
+     "value": "KES 27,291,000 (bid)",
+     "url": "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf"
+    }
+   ],
+   "site": "https://davanns.com",
+   "email": "info@davanns.com",
+   "phone": "+254 726 698 518",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://davanns.com/",
+    "https://davanns.com/contact",
+    "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf"
+   ],
+   "notes": "Contacts only on own site. Also has US/Canada entities.",
+   "role": "water-treatment chemicals supplier / WSP bidder",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "Priyann Enterprises Ltd",
+   "country": "Kenya",
+   "city": "Syokimau, Machakos (Tulsi Business Park)",
+   "products": "Water treatment chemicals, polyamines, filtration aids, leather chemicals",
+   "brands": "Indian-linked trading house (not named)",
+   "tender_wins": [
+    {
+     "buyer": "ELDOWAS Kenya",
+     "product": "Polyamines ELDOWAS/T/03/2024-2025 - bidder KES 26,135,913.60",
+     "year": 2024,
+     "value": "KES 26,135,913.60 (bid)",
+     "url": "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf"
+    }
+   ],
+   "site": "https://www.priyann.com",
+   "email": "info@priyann.com",
+   "phone": "+254 20 2064099 / +254 716 280117",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.priyann.com/contact.aspx",
+    "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf"
+   ],
+   "notes": "Contacts only on own site.",
+   "role": "chemical trading house / WSP bidder",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "Aquachem Technologies Ltd",
+   "country": "Kenya",
+   "city": "Nairobi (Ambaji House, Dar es Salaam Rd off Enterprise Rd)",
+   "products": "Potable/industrial water treatment chemicals, dosing pumps, lab reagents",
+   "brands": "'in partnership with international manufacturing companies' (not named)",
+   "tender_wins": [
+    {
+     "buyer": "ELDOWAS Kenya",
+     "product": "Polyamines ELDOWAS/T/03/2024-2025 - bid KES 590.50/kg",
+     "year": 2024,
+     "value": "KES 25,934,760 (bid)",
+     "url": "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf"
+    }
+   ],
+   "site": "http://aquachemtech.co.ke",
+   "email": null,
+   "phone": "+254 20 2329992",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.businesslist.co.ke/company/142979/aquachem-technologies-ltd",
+    "https://yellow.co.ke/index.php/aquachem-technologies-ltd/blogs/cooling-tower-chemicals-in-kenya",
+    "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf"
+   ],
+   "notes": "Manager John Chege (businesslist). Do not confuse with Aquachem (Kenya) Ltd (Aquachem ME group).",
+   "role": "WSP bidder",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "Aquatreat Solutions Ltd",
+   "country": "Kenya",
+   "city": "Nairobi (Eastern Bypass, Golden Estate 31/32)",
+   "products": "Water treatment chemicals, plants, dosing pumps",
+   "brands": null,
+   "tender_wins": [],
+   "site": "https://aquatreat.co.ke",
+   "email": "info@aquatreat.co.ke",
+   "phone": "+254 724 083 450",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://aquatreat.co.ke/contact-us",
+    "https://aquatreat.co.ke/contact"
+   ],
+   "notes": "Only own-site sources; named in USAID WASH-FIN 2020 WSP supplier list (prior file). No award evidence found.",
+   "role": "supplier",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Zenco Systems Ltd",
+   "country": "Kenya",
+   "city": "Nairobi (Industrial Area)",
+   "products": "Alum, Ca hypo, hydrated lime",
+   "brands": null,
+   "tender_wins": [],
+   "site": "https://zenithcoltd.com",
+   "email": "zenithcolimited@gmail.com",
+   "phone": "+254 114 591982",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://zenithcoltd.com/product/aluminium-sulphate-kenya-2"
+   ],
+   "notes": "Gmail; agent-level only; no award evidence.",
+   "role": "small trader",
+   "priority": 4,
+   "is_competitor": false
+  },
+  {
+   "company": "Karivex Solutions Ltd",
+   "country": "Kenya",
+   "city": "Nairobi (Enterprise Rd)",
+   "products": "Industrial chemicals; ships UG/TZ/RW",
+   "brands": null,
+   "tender_wins": [],
+   "site": "https://karivexsolutionsltd.com",
+   "email": "info@karivexsolutionsltd.com",
+   "phone": "+254 710 851911",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://karivexsolutionsltd.com/"
+   ],
+   "notes": "Re-checked: no award evidence; single-source contacts.",
+   "role": "distributor",
+   "priority": 4,
+   "is_competitor": false
+  },
+  {
+   "company": "Qualitas Company Ltd",
+   "country": "Kenya",
+   "city": "Sabaki, Mombasa Rd (stores Uganda, Rwanda)",
+   "products": "Lime, gypsum, industrial chemicals",
+   "brands": null,
+   "tender_wins": [],
+   "site": "https://qualitas.co.ke",
+   "email": "info@qualitas.co.ke",
+   "phone": "+254 722 200703",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://qualitas.co.ke/"
+   ],
+   "notes": "Re-checked: no award evidence; useful for lime.",
+   "role": "distributor",
+   "priority": 4,
+   "is_competitor": false
+  },
+  {
+   "company": "Solevo Cameroun S.A.",
+   "country": "Cameroon",
+   "city": "Douala (ZI Bonaberi)",
+   "products": "Water treatment & agro chemicals (Solevo group distribution)",
+   "brands": "Solevo group sourcing (Geneva)",
+   "tender_wins": [
+    {
+     "buyer": "CAMWATER",
+     "product": "Produits chimiques de potabilisation, AONO 0000018/2025, lot 3",
+     "year": 2026,
+     "value": "XAF 1,115,812,472 TTC",
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "site": "https://solevogroup.com",
+   "email": null,
+   "phone": "+237 233 50 42 00",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://solevo.backup-solevogroup.com/our-network",
+    "http://maligah.com/entreprises/details/Solevo-Cameroun?id=43757",
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+   ],
+   "notes": "Max 2 lots per bidder in 009/AONO/2026 (12 lots, 13.8 bn XAF) -> needs several partners.",
+   "role": "CAMWATER winner",
+   "priority": 1,
+   "is_competitor": false
+  },
+  {
+   "company": "FOBS Ltd (FOBS S.A.)",
+   "country": "Cameroon",
+   "city": "Douala (ZI MAGZI Bassa)",
+   "products": "Industrial consumables incl. water treatment",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lots 4 and 5",
+     "year": 2026,
+     "value": "XAF 1,108,777,556 + 1,055,353,556 TTC",
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "site": "https://fobs-group.com",
+   "email": null,
+   "phone": "+237 695 192 111",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://linkedin.com/company/fobs-sa",
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+   ],
+   "notes": "Single-source phone.",
+   "role": "CAMWATER winner",
+   "priority": 1,
+   "is_competitor": false
+  },
+  {
+   "company": "AFCOTT (Cameroun)",
+   "country": "Cameroon",
+   "city": "Garoua",
+   "products": "Water treatment chemicals (CAMWATER)",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lots 2 and 9",
+     "year": 2026,
+     "value": "XAF 1,052,482,613 + 1,054,985,670 TTC",
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf",
+    "https://drcq.minader.cm/docs/liste_grand_public_2016_27-11-15.pdf (B.P. 31 Garoua)"
+   ],
+   "notes": "No contacts online.",
+   "role": "CAMWATER winner",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "MEDINOV",
+   "country": "Cameroon",
+   "city": "Douala/Yaounde",
+   "products": "Water treatment chemicals",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lots 6 and 7",
+     "year": 2026,
+     "value": "XAF 1,033,647,075 + 1,043,723,700 TTC",
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+   ],
+   "notes": "No contacts online.",
+   "role": "CAMWATER winner",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "Mawen Enterprise",
+   "country": "Cameroon",
+   "city": null,
+   "products": "Water treatment chemicals",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lot 1",
+     "year": 2026,
+     "value": "XAF 1,080,712,665 TTC",
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+   ],
+   "notes": "No contacts online.",
+   "role": "CAMWATER winner",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "Groupement MOLA / AMN",
+   "country": "Cameroon",
+   "city": null,
+   "products": "Water treatment chemicals",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lots 8 and 10",
+     "year": 2026,
+     "value": "XAF 1,027,238,580 + 1,033,754,400 TTC",
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+   ],
+   "notes": "No contacts online.",
+   "role": "CAMWATER winner (consortium)",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "Agrochem-AC (ALM international group)",
+   "country": "Cameroon",
+   "city": "Douala (50 rue Joffre, Akwa)",
+   "products": "Chemicals incl. water treatment",
+   "brands": null,
+   "tender_wins": [],
+   "site": "https://www.agrochem-ac.com/en/",
+   "email": "secretariat@agrochem-ac.com",
+   "phone": "+237 6 99 89 01 31",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.agrochem-ac.com/en/"
+   ],
+   "notes": "Lacks CAMWATER reference required by DAO eligibility.",
+   "role": "distributor (no CAMWATER win)",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Chilmund Chemicals / Chilmund Investments (Pvt) Ltd",
+   "country": "Zimbabwe",
+   "city": "Harare (HQ); plant Bindura",
+   "products": "Non-ferric alum 16-17% (granular, kibbled, liquid), hydrated lime trading",
+   "brands": "Own production",
+   "tender_wins": [
+    {
+     "buyer": "Municipality of Gwanda",
+     "product": "33,000 kg aluminium sulphate + 6,480 kg hydrated lime, MOG RFQ 85/2026",
+     "year": 2026,
+     "value": "USD 31,350",
+     "url": "https://egp.praz.org.zw/egp-SW5kZXhlcy92aWV3QXdhcmROb3RpY2UvOTg4OC9NT1JF"
+    },
+    {
+     "buyer": "Bindura Municipality",
+     "product": "Aluminium sulphate framework BINMUN DW/FA/01/2026 lot 1 (shortlisted)",
+     "year": 2026,
+     "value": "call-off",
+     "url": "https://jsc.org.zw:8222/media/uploads/Government_Gazette_Vol._55_31-7-26_Final.pdf (Bindura Municipality BINMUN DW/FA/01/2026 framework awards)"
+    }
+   ],
+   "site": "https://www.chilmund.co.zw",
+   "email": "admin@chilmund.co.zw",
+   "phone": "+263 242 312 235",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://www.chilmund.co.zw/",
+    "https://zilslib.co.zw/wp-content/uploads/2026/09/Government-Gazette-Vol.-66-Extraordinary-PRAZ-Approved-List-4.9.26.pdf (PRAZ register, Water Treatment Chemicals G/W/001, 4.9.2026)",
+    "https://tendernoticeboard.co.zw/organisations/chilmund-investments/"
+   ],
+   "notes": "Producer - competitor on alum, but buyer of PAC/HTH/PAM for its municipal customers; exports to Zambia, Mozambique, Malawi. Zimbabwe SI 59/2026 restricts alum imports.",
+   "role": "local alum producer + bidder",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "A.I. Davis & Co (Pvt) Ltd",
+   "country": "Zimbabwe",
+   "city": "Harare (9 Hanover Rd, Workington); Bulawayo branch",
+   "products": "Chlorine gas, flocculants, lime, activated carbon, HTH, reagents; chlorinator service",
+   "brands": "Agent for SA and international principals (not named)",
+   "tender_wins": [
+    {
+     "buyer": "Bindura Municipality",
+     "product": "25 kg San-Tab Ca hypochlorite chips x36 (PR082026, PR102026, PR232026)",
+     "year": 2026,
+     "value": "USD 4,824 / 5,571.72 / 5,571.72",
+     "url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/3430/MORE"
+    },
+    {
+     "buyer": "Bindura Municipality",
+     "product": "Water treatment chemicals framework BINMUN DW/FA/01/2026 (alum lot 1 etc.)",
+     "year": 2026,
+     "value": "call-off",
+     "url": "https://jsc.org.zw:8222/media/uploads/Government_Gazette_Vol._55_31-7-26_Final.pdf (Bindura Municipality BINMUN DW/FA/01/2026 framework awards)"
+    }
+   ],
+   "site": "https://www.aidavis.co.zw",
+   "email": "egpportal@aidavis.co.zw",
+   "phone": "+263 242 620201",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.aidavis.co.zw/",
+    "https://zilslib.co.zw/wp-content/uploads/2026/09/Government-Gazette-Vol.-66-Extraordinary-PRAZ-Approved-List-4.9.26.pdf (PRAZ register, Water Treatment Chemicals G/W/001, 4.9.2026)",
+    "Google Maps A.I.Davis & Company (+263 24 2620201)",
+    "https://www.zimbabweyp.com/company/76683/A_I_Davis_Company"
+   ],
+   "notes": "Est. 1958; 30+ years supplying municipalities. Director William Davis (PRAZ award).",
+   "role": "distributor + municipal bidder",
+   "priority": 2,
+   "is_competitor": false
+  },
+  {
+   "company": "Breastplate Services (Pvt) Ltd t/a Nemchem International",
+   "country": "Zimbabwe (group: Zambia, Kenya, Ghana, Nigeria, Rwanda, Mauritius, DRC, Angola, Mozambique)",
+   "city": "Harare (9 Spurrier Rd, New Ardbennie)",
+   "products": "HTH/Ca hypo chips, chloride of lime, water treatment & hygiene chemicals",
+   "brands": "Agent for Krones, Numatic etc. (hygiene); water chemical brands not named",
+   "tender_wins": [
+    {
+     "buyer": "Bindura Municipality",
+     "product": "25 kg San-Tab Ca hypochlorite chips x36 (PR062025)",
+     "year": 2025,
+     "value": "USD 4,932",
+     "url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/2026/MORE"
+    },
+    {
+     "buyer": "Norton Town Council",
+     "product": "HTH 5x45 kg + chloride of lime (RFQ IPR N/618)",
+     "year": 2026,
+     "value": "USD 1,676.70",
+     "url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/8184/MORE"
+    },
+    {
+     "buyer": "Bindura Municipality",
+     "product": "Water treatment chemicals framework BINMUN DW/FA/01/2026 (lots 1, 6)",
+     "year": 2026,
+     "value": "call-off",
+     "url": "https://jsc.org.zw:8222/media/uploads/Government_Gazette_Vol._55_31-7-26_Final.pdf (Bindura Municipality BINMUN DW/FA/01/2026 framework awards)"
+    }
+   ],
+   "site": "https://nemchem.co.zm/contact-us",
+   "email": "fmangani@nemchem.co.zw (also sales@nemchem.co.zw)",
+   "phone": "+263 779 570532 (Harare office +263 242 663 615)",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://zilslib.co.zw/wp-content/uploads/2026/09/Government-Gazette-Vol.-66-Extraordinary-PRAZ-Approved-List-4.9.26.pdf (PRAZ register, Water Treatment Chemicals G/W/001, 4.9.2026)",
+    "https://www.thinklocal.co.zw/listing-item/nemchem",
+    "https://nemchem.co.zm/contact-us",
+    "https://egp.praz.org.zw/Indexes/viewAwardNotice/2026/MORE (contact Fainesi Mangani)"
+   ],
+   "notes": "Email/phone from official PRAZ register; contact name confirmed by PRAZ award notice (2nd source for person, not for email). Pan-African footprint makes it a multi-country partner candidate.",
+   "role": "regional distributor + municipal bidder",
+   "priority": 1,
+   "is_competitor": false
+  },
+  {
+   "company": "Tierra Marketing (Tierra Chemicals)",
+   "country": "Zimbabwe",
+   "city": "Bulawayo (17 Josiah Chinamano, Belmont)",
+   "products": "Industrial, water treatment, mining chemicals",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "Bindura Municipality",
+     "product": "25 kg chloride of lime x30 (PR112026)",
+     "year": 2026,
+     "value": "USD 2,700",
+     "url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/3787/MORE"
+    },
+    {
+     "buyer": "Bindura Municipality",
+     "product": "Framework BINMUN DW/FA/01/2026 lots 1, 6",
+     "year": 2026,
+     "value": "call-off",
+     "url": "https://jsc.org.zw:8222/media/uploads/Government_Gazette_Vol._55_31-7-26_Final.pdf (Bindura Municipality BINMUN DW/FA/01/2026 framework awards)"
+    }
+   ],
+   "site": "http://tierrachemicals.co.zw",
+   "email": "tierrasales1@gmail.com",
+   "phone": "+263 777 175710",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://zilslib.co.zw/wp-content/uploads/2026/09/Government-Gazette-Vol.-66-Extraordinary-PRAZ-Approved-List-4.9.26.pdf (PRAZ register, Water Treatment Chemicals G/W/001, 4.9.2026)",
+    "https://www.facebook.com/tierrachem (tierrachem@gmail.com - different mailbox)"
+   ],
+   "notes": "Gmail addresses; single-source.",
+   "role": "municipal bidder",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "GB Holdings t/a Cernol Chemicals",
+   "country": "Zimbabwe",
+   "city": "Harare (Stand 111 Dagenham Rd, Willowvale)",
+   "products": "Polyelectrolyte, chloride of lime, cleaning chemicals",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "City of Bulawayo",
+     "product": "Polyelectrolyte supply COB/WSD/C2/2026 (20 units)",
+     "year": 2026,
+     "value": "USD 6,600",
+     "url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/6051/MORE"
+    },
+    {
+     "buyer": "Gwanda RDC",
+     "product": "Chloride of lime 100 kg",
+     "year": 2025,
+     "value": "USD 260",
+     "url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/1672/MORE"
+    }
+   ],
+   "site": null,
+   "email": "sales@cernol.co.zw",
+   "phone": "+263 8677 211239",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://zilslib.co.zw/wp-content/uploads/2026/09/Government-Gazette-Vol.-66-Extraordinary-PRAZ-Approved-List-4.9.26.pdf (PRAZ register, Water Treatment Chemicals G/W/001, 4.9.2026)"
+   ],
+   "notes": "Territory manager Victor Mundawaro (PRAZ).",
+   "role": "municipal bidder",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Hallmark Ltd (in JV with Yixing Bluwat Chemicals Co., China)",
+   "country": "Malawi (also Zambia)",
+   "city": "Lilongwe (Area 47) / Blantyre (Comet House, Limbe)",
+   "products": "Coagulants (H4700 aluminium-polymer series), granular chlorine, chlorine gas; ICT/printing",
+   "brands": "Yixing Bluwat Chemicals (China, NSF/ANSI 60 listed) - PAC, PAM, polyDADMAC, polyamine",
+   "tender_wins": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "Water treatment chemicals BWB/WATER TREATMENT CHEMICALS/2023/1 lot 1 coagulants",
+     "year": 2024,
+     "value": "USD 1,150,584.81",
+     "url": "https://www.bwb.mw/Downloads/bwb_tender_results_hdpe_water_treat_chem_lot_1_2_3_jan_5_2024.pdf"
+    },
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "Lot 2 solid granular chlorine / lot 3 liquefied chlorine gas",
+     "year": 2023,
+     "value": "USD 325,313.79 + USD 242,536.89",
+     "url": "https://www.bwb.mw/Downloads/bwb_notif_int_award_cont_water_chem_insurance_10_oct_2023.pdf"
+    }
+   ],
+   "site": "https://www.hallmark.mw",
+   "email": "sales@hallmark.mw",
+   "phone": "+265 881 091 909",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.hallmark.mw/",
+    "https://hallmark.mw/contact",
+    "https://linkedin.com/company/hallmark-creations-limited",
+    "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?Company=C0799062"
+   ],
+   "notes": "Exact model ISP wants (local registered bidder + Chinese factory JV). CEO Gift Chidya Gondwe; LWB listed as client. BWB 2025/26 chemical tender: no award (bids over budget).",
+   "role": "local bidder fronting a Chinese manufacturer",
+   "priority": 1,
+   "is_competitor": false
+  },
+  {
+   "company": "Technovation Ltd",
+   "country": "Malawi",
+   "city": "Blantyre",
+   "products": "Granular chlorine, chlorine gas",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "BWB/WATER TREATMENT CHEMICALS/2023/2 lot 2 granular chlorine, lot 3 chlorine gas",
+     "year": 2023,
+     "value": "MWK 119,568,000 + MWK 233,388,487.50",
+     "url": "https://www.bwb.mw/Downloads/bwb_notif_cont_award_snd_water_treat_chem_21_june_2023.pdf"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.bwb.mw/Downloads/bwb_notif_cont_award_snd_water_treat_chem_21_june_2023.pdf"
+   ],
+   "notes": "Contacts not found.",
+   "role": "BWB winner",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Elite Engineering Supplies Ltd",
+   "country": "Malawi",
+   "city": null,
+   "products": "Water treatment chemicals lot 1 (coagulant)",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "Water treatment chemicals framework 2023/2 lot 1",
+     "year": 2023,
+     "value": "MWK 1,410,000,000",
+     "url": "https://www.bwb.mw/Downloads/bwb_notif_int_cont_award_bwb_access_road_water_treat_chem_framework_agr.pdf"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.bwb.mw/Downloads/bwb_notif_int_cont_award_bwb_access_road_water_treat_chem_framework_agr.pdf"
+   ],
+   "notes": "Contacts not found.",
+   "role": "BWB winner",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Uptown General Suppliers",
+   "country": "Malawi",
+   "city": null,
+   "products": "Aluminium sulphate, soda ash",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "Aluminium sulphate and soda ash BWB/ALUMINIUM SULPHATE AND SODA ASH/2024/1",
+     "year": 2024,
+     "value": "MWK 53,920,750",
+     "url": "https://www.bwb.mw/Downloads/bwb_tender_results_ethics_hotline_ict_mtce_alum_sulphate_04_april_2024.pdf"
+    }
+   ],
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.bwb.mw/Downloads/bwb_tender_results_ethics_hotline_ict_mtce_alum_sulphate_04_april_2024.pdf"
+   ],
+   "notes": "Contacts not found.",
+   "role": "BWB winner",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Prochem Trading Ltd",
+   "country": "Tanzania",
+   "city": "Dar es Salaam (Nelson Mandela Rd, Tabata)",
+   "products": "Aluminium sulphate, PAC, Ca hypochlorite, ACH, TCCA, SDIC, ferrous sulphate (mining focus)",
+   "brands": null,
+   "tender_wins": [],
+   "site": "https://prochem.co.tz",
+   "email": "sales@prochem.co.tz",
+   "phone": "+255 626 422174",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://prochem.co.tz/products"
+   ],
+   "notes": "Single-source; no UWSSA award found (NeST awards not publicly searchable).",
+   "role": "importer/distributor",
+   "priority": 3,
+   "is_competitor": false
+  },
+  {
+   "company": "Primechem Trading PLC (Prime Chemicals)",
+   "country": "Ethiopia",
+   "city": "Addis Ababa (Megenagna)",
+   "products": "Alum, PAC, PAM, Ca hypo, soda ash, lime, antiscalant",
+   "brands": null,
+   "tender_wins": [],
+   "site": null,
+   "email": null,
+   "phone": "+251 913 296989",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.2merkato.com/directory/40803-primechem-trading-plc"
+   ],
+   "notes": "No utility award found; Ethiopia's alum largely from state Awash Melkassa Chemical Factory.",
+   "role": "importer",
+   "priority": 4,
+   "is_competitor": false
+  },
+  {
+   "company": "Cormart Nigeria Ltd",
+   "country": "Nigeria",
+   "city": "Lagos (Ilupeju)",
+   "products": "PAC, alum, ferric chloride, HTH, soda ash, lime, NaOCl",
+   "brands": "Nalco Water (Ecolab)",
+   "tender_wins": [],
+   "site": "https://cormart-nigeria.com",
+   "email": "cormart@clicktgi.net",
+   "phone": "+234 907 599 9096",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://cormart-nigeria.com/our-products/industries/water-treatment-chemicals"
+   ],
+   "notes": "No state water board award evidence found; included as Nigerian channel.",
+   "role": "distributor (Nalco/Ecolab authorised)",
+   "priority": 4,
+   "is_competitor": false
+  },
+  {
+   "company": "Pan Africa Chemicals Ltd (PACL, Dawda Group)",
+   "country": "Kenya",
+   "city": "Webuye (factory) / Nairobi",
+   "products": "Own alum 17%, H2SO4, NaOCl; agent for chlorine gas, PAC liquid/powder, Ca hypo 70%, soda ash, lime of Indian/Chinese origin",
+   "brands": "Indian/Chinese principals (not named)",
+   "tender_wins": [
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Aluminium sulphate frameworks 2018-2024 (163747, 170464, 172768, 173312, 180675, 180990)",
+     "year": 2024,
+     "value": "UGX 1,520,475,625 (180990)",
+     "url": "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Soda ash 18-month framework 181028",
+     "year": 2025,
+     "value": "UGX 2,458,500,000",
+     "url": "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf"
+    },
+    {
+     "buyer": "NWSC Uganda",
+     "product": "Liquid chlorine gas / chlorine powder / polymers frameworks (164740, 173055, 180741, 180742, 180498, 180674)",
+     "year": 2024,
+     "value": "various",
+     "url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)"
+    },
+    {
+     "buyer": "ELDOWAS Kenya",
+     "product": "Aluminium sulphate - lowest bid KES 53.94/kg; polyamines KES 446.60/kg",
+     "year": 2024,
+     "value": "KES 26,765,028 / 19,614,672 (bids)",
+     "url": "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf"
+    }
+   ],
+   "site": "https://panchemicalsafrica.com",
+   "email": "sales@panchemicalsafrica.com",
+   "phone": "+254 700 005500",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://panchemicalsafrica.com/contact-us",
+    "https://abc-gcc.net/companies/23/517432/pan-africa-chemicals-ltd (info@, +254 722 204120)"
+   ],
+   "notes": "Dominant incumbent at NWSC; EAC-origin alum (0% duty in Uganda). Could still buy imported PAC/HTH/soda ash (it is an 'agent' for Indian/Chinese origin) - approach only as supplier, not as bidder partner.",
+   "role": "COMPETITOR (do not approach as partner)",
+   "priority": null,
+   "is_competitor": true
+  },
+  {
+   "company": "Alumichem A/S (Ghana branch)",
+   "country": "Ghana (Denmark HQ)",
+   "city": "Accra",
+   "products": "PAC/aluminium coagulants, polyelectrolytes",
+   "brands": null,
+   "tender_wins": [
+    {
+     "buyer": "Ghana Water Ltd",
+     "product": "Coagulants supply (contract guaranteed by EIFO up to DKK 26M)",
+     "year": 2026,
+     "value": "DKK 26M guarantee",
+     "url": "https://alumichem.com/alumichem-secures-clean-drinking-water-in-ghana-with-eifo-guarantee"
+    }
+   ],
+   "site": "https://alumichem.com",
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://alumichem.com/alumichem-secures-clean-drinking-water-in-ghana-with-eifo-guarantee"
+   ],
+   "notes": "Shows GWL buys from foreign manufacturer directly.",
+   "role": "COMPETITOR - largest specialty coagulant supplier to Ghana Water Ltd since 2022 (EIFO-guaranteed contract)",
+   "priority": null,
+   "is_competitor": true
+  }
+ ],
+ "price_benchmarks": [
+  {
+   "country": "Kenya",
+   "buyer": "Eldoret Water & Sanitation (ELDOWAS)",
+   "product": "Aluminium sulphate",
+   "unit_price": 53940,
+   "currency": "KES",
+   "per": "t (KES 53.94/kg)",
+   "year": 2024,
+   "qty": "~496 t (26,765,028/53.94)",
+   "source_url": "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf",
+   "note": "Lowest bid read at opening (Pan Africa Chemicals), delivered Eldoret; VAT treatment not stated; other bids KES 55.00/kg (Davanns), 71.92/kg (Prochem)",
+   "usd_per_t_approx": 415
+  },
+  {
+   "country": "Kenya",
+   "buyer": "ELDOWAS",
+   "product": "Aluminium sulphate",
+   "unit_price": 55000,
+   "currency": "KES",
+   "per": "t (KES 55.00/kg)",
+   "year": 2024,
+   "qty": "~496 t",
+   "source_url": "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf",
+   "note": "Bid by Davanns Ltd (2nd)",
+   "usd_per_t_approx": 423
+  },
+  {
+   "country": "Kenya",
+   "buyer": "ELDOWAS",
+   "product": "Polyamine (organic coagulant/polyelectrolyte)",
+   "unit_price": 446600,
+   "currency": "KES",
+   "per": "t (KES 446.60/kg)",
+   "year": 2024,
+   "qty": "~43.9 t (19,614,672/446.6)",
+   "source_url": "https://tenders.go.ke/storage/Documents/1728282917674-supply-and-delivery-of-aluminium-sulphate.pdf",
+   "note": "Lowest bid (Pan Africa); others 510.30 (Pro-chem), 590.50 (Aquachem) KES/kg. Polyamine, not PAM",
+   "usd_per_t_approx": 3436
+  },
+  {
+   "country": "Uganda",
+   "buyer": "NWSC",
+   "product": "Calcium hypochlorite (HTH)",
+   "unit_price": 7631,
+   "currency": "UGX",
+   "per": "kg",
+   "year": 2016,
+   "qty": "20,250 kg",
+   "source_url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices) ref NWSC/HQ/SUPLS/2016-2017/162301",
+   "note": "UGX 154,531,598 / 20,250 kg; awardee Junaco (T); USD at ~3,550 UGX/USD (2016, approx)",
+   "usd_per_t_approx": 2150
+  },
+  {
+   "country": "Uganda",
+   "buyer": "NWSC",
+   "product": "PAC (poly aluminium chloride 'polymers')",
+   "unit_price": 5400,
+   "currency": "UGX",
+   "per": "kg",
+   "year": 2016,
+   "qty": "20,000 kg",
+   "source_url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices) ref NWSC/SUPLS/2016-2017/162300",
+   "note": "UGX 108,000,000 / 20,000 kg, Lyantonde; awardee Junaco; form (powder/liquid) not stated",
+   "usd_per_t_approx": 1520
+  },
+  {
+   "country": "Uganda",
+   "buyer": "NWSC",
+   "product": "PAC (poly aluminium chloride 'polymers')",
+   "unit_price": 6671,
+   "currency": "UGX",
+   "per": "kg",
+   "year": 2017,
+   "qty": "20,000 kg",
+   "source_url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices) ref NWSC-HQ/SUPLS/17-18/163824",
+   "note": "UGX 133,420,240 / 20,000 kg, Lyantonde; awardee Junaco (U)",
+   "usd_per_t_approx": 1840
+  },
+  {
+   "country": "Uganda",
+   "buyer": "NWSC",
+   "product": "Soda ash (sodium carbonate)",
+   "unit_price": 2450,
+   "currency": "UGX",
+   "per": "kg",
+   "year": 2016,
+   "qty": "800,000 kg (18-month framework)",
+   "source_url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices) ref NWSC/SUPLS/2016-2017/162123",
+   "note": "UGX 1,960,000,000 / 800 t; awardee Quality Chemicals Ltd",
+   "usd_per_t_approx": 690
+  },
+  {
+   "country": "Uganda",
+   "buyer": "NWSC",
+   "product": "Liquid chlorine gas (reference)",
+   "unit_price": 2506,
+   "currency": "UGX",
+   "per": "kg",
+   "year": 2016,
+   "qty": "702,000 kg",
+   "source_url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices) ref NWSC/SUPLS/2016-2017/162428",
+   "note": "UGX 1,759,583,217 / 702 t (Pan Africa); Junaco bid UGX 1,753,332,750",
+   "usd_per_t_approx": 706
+  },
+  {
+   "country": "Uganda",
+   "buyer": "NWSC",
+   "product": "Aluminium sulphate (18-month framework, 5 lots)",
+   "unit_price": null,
+   "currency": "UGX",
+   "per": "contract",
+   "year": 2024,
+   "qty": null,
+   "source_url": "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf",
+   "note": "Estimate UGX 2,385,600,000; BEB offer UGX 1,542,615,625; contract UGX 1,520,475,625 (Pan Africa). Tonnage not published",
+   "usd_per_t_approx": null
+  },
+  {
+   "country": "Uganda",
+   "buyer": "NWSC",
+   "product": "Soda ash (18-month framework 181028)",
+   "unit_price": null,
+   "currency": "UGX",
+   "per": "contract",
+   "year": 2025,
+   "qty": null,
+   "source_url": "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf",
+   "note": "Contract UGX 2,458,500,000 (Pan Africa); tonnage not published",
+   "usd_per_t_approx": null
+  },
+  {
+   "country": "Uganda",
+   "buyer": "NWSC",
+   "product": "Aluminium sulphate emergency stop-gap 181619",
+   "unit_price": null,
+   "currency": "UGX",
+   "per": "contract",
+   "year": 2026,
+   "qty": null,
+   "source_url": "https://cdn.ppda.go.ug/api/best-evaluated-bidders/by-year?subject=<keyword> (PPDA Government Procurement Portal gpp.ppda.go.ug, BEB notices)",
+   "note": "Two awards: Oriental Business Group UGX 6,140,160,000; HSF International UGX 3,083,000,000; tonnage not published",
+   "usd_per_t_approx": null
+  },
+  {
+   "country": "Mozambique",
+   "buyer": "FIPAG / AdRMM, AdRS, AdRC (World Bank P173518 procurement plan)",
+   "product": "Aluminium sulphate",
+   "unit_price": 1406,
+   "currency": "USD",
+   "per": "t",
+   "year": 2023,
+   "qty": "1,088 t",
+   "source_url": "https://documents1.worldbank.org/curated/en/099082323022012376/pdf/P17351801bffa60b20aa580f669ab6a16cb.pdf",
+   "note": "Budget estimate USD 1,530,000 (G-02, cancelled); re-tender G-02A estimate USD 1,377,000 = USD 1,266/t. Estimates, not contract prices",
+   "usd_per_t_approx": 1406
+  },
+  {
+   "country": "Mozambique",
+   "buyer": "FIPAG (World Bank P173518)",
+   "product": "Calcium hypochlorite (HTH)",
+   "unit_price": 2825,
+   "currency": "USD",
+   "per": "t",
+   "year": 2023,
+   "qty": "354 t",
+   "source_url": "https://documents1.worldbank.org/curated/en/099082323022012376/pdf/P17351801bffa60b20aa580f669ab6a16cb.pdf",
+   "note": "Budget estimate USD 1,000,000 (cancelled)",
+   "usd_per_t_approx": 2825
+  },
+  {
+   "country": "Mozambique",
+   "buyer": "AdRMM Maputo (World Bank P173518)",
+   "product": "Chlorine gas (reference)",
+   "unit_price": 6025,
+   "currency": "USD",
+   "per": "t",
+   "year": 2023,
+   "qty": "208 t",
+   "source_url": "https://documents1.worldbank.org/curated/en/099082323022012376/pdf/P17351801bffa60b20aa580f669ab6a16cb.pdf",
+   "note": "Budget estimate USD 1,253,100 (cylinders, cancelled)",
+   "usd_per_t_approx": 6025
+  },
+  {
+   "country": "Nigeria",
+   "buyer": "Oyo State Water Corporation (state approval)",
+   "product": "Aluminium sulphate",
+   "unit_price": 335000,
+   "currency": "NGN",
+   "per": "t",
+   "year": 2021,
+   "qty": "1,194 t",
+   "source_url": "https://thescript.com.ng/oyo-govt-approves-339m-for-the-procurement-of-chemical-to-boost-water-purification/",
+   "note": "N399,990,000 / 1,194 t; USD at ~411 NGN/USD official 2021",
+   "usd_per_t_approx": 815
+  },
+  {
+   "country": "Liberia",
+   "buyer": "LWSC (sole source, Cactus Enterprise)",
+   "product": "Aluminium sulphate 17%",
+   "unit_price": 1400,
+   "currency": "USD",
+   "per": "t",
+   "year": 2023,
+   "qty": "81.3 t",
+   "source_url": "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf",
+   "note": "USD 113,820 / 81.3 t delivered Monrovia (non-priority country, regional reference)",
+   "usd_per_t_approx": 1400
+  },
+  {
+   "country": "Liberia",
+   "buyer": "LWSC (sole source)",
+   "product": "Calcium hypochlorite (HTH) 65%",
+   "unit_price": 5000,
+   "currency": "USD",
+   "per": "t",
+   "year": 2023,
+   "qty": "12.15 t",
+   "source_url": "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf",
+   "note": "USD 60,750 / 270 x 45 kg",
+   "usd_per_t_approx": 5000
+  },
+  {
+   "country": "Liberia",
+   "buyer": "LWSC (sole source)",
+   "product": "Hydrated lime",
+   "unit_price": 1117.6,
+   "currency": "USD",
+   "per": "t",
+   "year": 2023,
+   "qty": "21.27 t",
+   "source_url": "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf",
+   "note": "USD 23,769 / 1,251 x 17 kg",
+   "usd_per_t_approx": 1118
+  },
+  {
+   "country": "Zimbabwe",
+   "buyer": "Bindura Municipality",
+   "product": "Calcium hypochlorite chips 63% (San-Tab)",
+   "unit_price": 5360,
+   "currency": "USD",
+   "per": "t",
+   "year": 2026,
+   "qty": "900 kg (36 x 25 kg)",
+   "source_url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/3430/MORE",
+   "note": "USD 4,824 (A.I. Davis, Mar 2026); small RFQ lot - retail-level",
+   "usd_per_t_approx": 5360
+  },
+  {
+   "country": "Zimbabwe",
+   "buyer": "Bindura Municipality",
+   "product": "Calcium hypochlorite chips 63% (San-Tab)",
+   "unit_price": 6191,
+   "currency": "USD",
+   "per": "t",
+   "year": 2026,
+   "qty": "900 kg",
+   "source_url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/3588/MORE",
+   "note": "USD 5,571.72 (A.I. Davis, Apr & Jun 2026)",
+   "usd_per_t_approx": 6191
+  },
+  {
+   "country": "Zimbabwe",
+   "buyer": "Bindura Municipality",
+   "product": "Calcium hypochlorite chips (San-Tab)",
+   "unit_price": 5480,
+   "currency": "USD",
+   "per": "t",
+   "year": 2025,
+   "qty": "900 kg",
+   "source_url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/2026/MORE",
+   "note": "USD 4,932 (Nemchem, Nov 2025)",
+   "usd_per_t_approx": 5480
+  },
+  {
+   "country": "Zimbabwe",
+   "buyer": "Municipality of Gwanda",
+   "product": "Aluminium sulphate + hydrated lime (blended lot)",
+   "unit_price": null,
+   "currency": "USD",
+   "per": "lot",
+   "year": 2026,
+   "qty": "33 t alum + 6.48 t lime",
+   "source_url": "https://egp.praz.org.zw/egp-SW5kZXhlcy92aWV3QXdhcmROb3RpY2UvOTg4OC9NT1JF",
+   "note": "USD 31,350 total (Chilmund) = USD 794/t blended; split per product not published",
+   "usd_per_t_approx": null
+  },
+  {
+   "country": "Zimbabwe",
+   "buyer": "Chipinge Town Council",
+   "product": "Aluminium sulphate + HTH + delivery (12 months)",
+   "unit_price": null,
+   "currency": "USD",
+   "per": "contract",
+   "year": 2026,
+   "qty": "120 t alum + 12 t HTH",
+   "source_url": "https://egp.praz.org.zw/Indexes/viewAwardNotice/7997/MORE",
+   "note": "USD 148,552.08 (Chemplex Corporation); split not published",
+   "usd_per_t_approx": null
+  },
+  {
+   "country": "Cameroon",
+   "buyer": "CAMWATER",
+   "product": "Water treatment chemicals (10 lots, product mix)",
+   "unit_price": null,
+   "currency": "XAF",
+   "per": "contract",
+   "year": 2026,
+   "qty": null,
+   "source_url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf",
+   "note": "Awards 1.027-1.116 bn XAF TTC per lot (total ~10.6 bn XAF ~ USD 17.9M); per-tonne prices in DAO piece 06 not published",
+   "usd_per_t_approx": null
+  },
+  {
+   "country": "Cameroon",
+   "buyer": "CAMWATER",
+   "product": "Water treatment chemicals 2027 (12 lots) - estimate",
+   "unit_price": null,
+   "currency": "XAF",
+   "per": "budget",
+   "year": 2026,
+   "qty": null,
+   "source_url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/11/13/CAMWATER/LT_2026_11_13_AO_009_CAMWATER.pdf",
+   "note": "Cout previsionnel 13,804,296,227 XAF TTC (1.134-1.168 bn per lot); +29.5% vs 2026",
+   "usd_per_t_approx": null
+  },
+  {
+   "country": "Malawi",
+   "buyer": "Blantyre Water Board",
+   "product": "Coagulants lot 1",
+   "unit_price": null,
+   "currency": "USD",
+   "per": "contract",
+   "year": 2024,
+   "qty": null,
+   "source_url": "https://www.bwb.mw/Downloads/bwb_tender_results_hdpe_water_treat_chem_lot_1_2_3_jan_5_2024.pdf",
+   "note": "USD 1,150,584.81 (Hallmark/Yixing Bluwat JV); quantities not published",
+   "usd_per_t_approx": null
+  }
+ ]
+}
