@@ -125,3 +125,4 @@ hp = f"{SCRATCH}/t1511.html"; open(hp, "w").write("".join(h))
 subprocess.run(["/opt/pw-browsers/chromium", "--headless", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer", f"--print-to-pdf={os.path.abspath('../TENDERY_TZ_1511.pdf')}", "file://" + hp], check=True, capture_output=True, timeout=180)
 from collections import Counter
 print(len(rows), Counter(r["src"] for r in rows), Counter(r["st"] for r in rows))
+json.dump([{k: v for k, v in r.items() if k != "d"} | {"d": list(r["d"])} for r in rows], open(f"{SCRATCH}/rows_1511.json", "w"), ensure_ascii=False)
