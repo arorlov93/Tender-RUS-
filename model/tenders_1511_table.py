@@ -56,7 +56,7 @@ for t in load("ru_chem.json"):
     if not d or d < MIN: continue
     rows.append(dict(src="РФ (поиск 15.11)", who="Гидропас", n=str(t.get("number") or t.get("num")), subj=str(t.get("subject") or t.get("title") or ""), cust=f"{t.get('customer') or ''} / {t.get('region') or ''}",
                      plat=str(t.get("platform") or ""), nmc=t.get("nmc") or t.get("nmc_rub"), cur="₽", dl=str(t.get("deadline") or t.get("application_deadline") or t.get("deadline_msk")), d=d,
-                     link=t.get("link") or t.get("url") or t.get("source_url"), st="Новая", todo="Скачать ТЗ" + (" (ПП 1875: " + str(t.get("pp1875")) + ")" if t.get("pp1875") else ""),
+                     link=(t.get("source_url") if "b2b-center" in str(t.get("link") or "") else None) or t.get("link") or t.get("url") or t.get("source_url"), st="Новая", todo="Скачать ТЗ" + (" (ПП 1875: " + str(t.get("pp1875")) + ")" if t.get("pp1875") else ""),
                      note=str(t.get("matches") or t.get("product_group") or "")[:200]))
 import glob
 WT = []

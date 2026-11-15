@@ -1,0 +1,1172 @@
+{
+ "meta": {
+  "generated": "2026-11-15",
+  "filter": "deadline >= 18.11.2026 (по указанию координатора; часть записей 19-20.11 – срочно)",
+  "sources_ok": [
+   "v2test.gosplan.info search API (/fz223/purchases, /fz44/purchases с object_info, classifier, submission_close_after/collecting_finished_after, published_forpast<=90d; лимит 10 req/min + 'too many concurrent text search requests'); детали /fz223/purchases/{n}",
+   "B2B-Center: JSON API https://www.b2b-center.ru/site/api/v1/market-search/?query=...&tab=actual (гостевой режим) + SSR-страницы процедур /app/market-next/.../tender-N/"
+  ],
+  "sources_failed": [
+   "zakupki.gov.ru – недоступен из среды",
+   "rts-tender.ru, roseltorg.ru, fabrikant.ru, sberbank-ast.ru, etp.gpb.ru, rostender.info, zakupki360.ru, tender.pro, zakupki.mos.ru, rosneft – соединение обрывается прокси",
+   "tektorg.ru – 307-редирект-петля (cookie challenge)",
+   "otc.ru – 403",
+   "bicotender.ru – 403",
+   "tenderguru.ru, tenderplan.ru – загружаются, но выдача рендерится JS (не разбиралось)",
+   "WebSearch – только закрытые старые закупки"
+  ],
+  "not_covered": [
+   "Детали (карточки) не загружены для 32616558970, 32616566767, 0550600003626000003, 0862300028026000028 – данные из поиска; время 44-ФЗ не проверено (вероятно UTC)",
+   "Срок поставки (term) в извещениях 223-ФЗ не содержится – нужен ТЗ/проект договора; почти везде null",
+   "Не выполнены/упали запросы gosplan: 223 'комплексон', 44 'оксид алюминия', часть пагинации 44 'реагент'",
+   "Позиции и НМЦ B2B-процедур скрыты для гостей",
+   "Нефтепромысловая химия (деэмульгаторы, ингибиторы АСПО, бактерициды) – по ключевым словам открытых закупок не найдено (крупные НК закупают на своих площадках, недоступных отсюда)",
+   "Поиск gosplan – полнотекстовый по словам (OR), поэтому выдача шумная; отфильтровано вручную"
+  ],
+  "deadline_note": "Для 223-ФЗ с деталями время пересчитано в МСК по timeZone.offset заказчика"
+ },
+ "tenders": [
+  {
+   "number": "32616573353",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616573353",
+   "platform": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"АГЕНТСТВО ПО ГОСУДАРСТВЕННОМУ ЗАКАЗУ РЕСПУБЛИКИ ТАТАРСТАН\"",
+   "platform_url": "https://223etp.zakazrf.ru/NotificationEX/id/513254",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "ГУП \"ЛЕНОБЛВОДОКАНАЛ\"",
+   "customer_inn": "4703144282",
+   "region": "ЛЕНИНГРАДСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка сульфата алюминия технического очищенного (водный раствор) в автоцистернах",
+   "positions": [
+    {
+     "info": "В соответствии с ТЗ",
+     "okpd2": "20.13.41.132",
+     "qty": "11156.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 354243942.52,
+   "deadline": "20.11.2026 08:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "коагулянты: сульфат алюминия",
+   "tz_docs": [
+    {
+     "name": "Техническое задание.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=D37EF7CFF6B44EB1AEB9F27FBA19A574"
+    },
+    {
+     "name": "Документация.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=F8D2100DE1BB44938648713BF944361E"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616573353",
+   "note": null
+  },
+  {
+   "number": "32616566326",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616566326",
+   "platform": null,
+   "platform_url": null,
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме",
+   "customer": null,
+   "customer_inn": "4703144282",
+   "region": 16,
+   "subject": "Поставка сульфата алюминия технического очищенного (водный раствор) в автоцистернах",
+   "positions": [],
+   "nmc": 354243942.52,
+   "deadline": "2026-11-27 08:00 (время заказчика, TZ не проверен)",
+   "term": null,
+   "pp1875": null,
+   "national_regime_flags_raw": [],
+   "matches": "коагулянты: сульфат алюминия",
+   "tz_docs": [],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616566326",
+   "note": "Повторное/параллельное извещение того же заказчика (ИНН из списка), детальная карточка в зеркале без данных извещения"
+  },
+  {
+   "number": "32616562539",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616562539",
+   "platform": "АКЦИОНЕРНОЕ ОБЩЕСТВО «СБЕРБАНК-АВТОМАТИЗИРОВАННАЯ СИСТЕМА ТОРГОВ»",
+   "platform_url": null,
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "ГП ЯО \"ЯРОБЛВОДОКАНАЛ\"",
+   "customer_inn": "7610012391",
+   "region": "ЯРОСЛАВСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка сульфата алюминия",
+   "positions": [
+    {
+     "info": "",
+     "okpd2": "20.13.41.132",
+     "qty": "8064.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 221598720.0,
+   "deadline": "26.11.2026 08:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "коагулянты: сульфат алюминия",
+   "tz_docs": [
+    {
+     "name": "Документация.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=A6A2730373814BA3B7E3D7812B985632"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616562539",
+   "note": null
+  },
+  {
+   "number": "32616539091",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616539091",
+   "platform": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"АГЕНТСТВО ПО ГОСУДАРСТВЕННОМУ ЗАКАЗУ РЕСПУБЛИКИ ТАТАРСТАН\"",
+   "platform_url": "https://223etp.zakazrf.ru/NotificationEX/id/511436",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме",
+   "customer": "МУП \"ВОДОКАНАЛ\"",
+   "customer_inn": "1653006666",
+   "region": "РЕСПУБЛИКА ТАТАРСТАН (ТАТАРСТАН)",
+   "subject": "Поставка коагулянта- полиоксихлорид алюминия",
+   "positions": [
+    {
+     "info": "",
+     "okpd2": "20.13.52.110",
+     "qty": "2100.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 128100000.0,
+   "deadline": "19.11.2026 09:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "коагулянты: ПОХА (полиоксихлорид алюминия)",
+   "tz_docs": [
+    {
+     "name": "РАЗДЕЛ 2. Техническое задание  полиокс. алюм.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=4E1302067BBF4B0C9E44C8599F469D98"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616539091",
+   "note": null
+  },
+  {
+   "number": "32616567369",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616567369",
+   "platform": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"АГЕНТСТВО ПО ГОСУДАРСТВЕННОМУ ЗАКАЗУ РЕСПУБЛИКИ ТАТАРСТАН\"",
+   "platform_url": "https://223etp.zakazrf.ru/NotificationEX/id/512885",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме",
+   "customer": "ГУП \"ЛЕНОБЛВОДОКАНАЛ\"",
+   "customer_inn": "4703144282",
+   "region": "ЛЕНИНГРАДСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка коагулянта полиоксихлорида алюминия (водный раствор)",
+   "positions": [
+    {
+     "info": "В соответствии с ТЗ",
+     "okpd2": "20.13.52.110",
+     "qty": "109.69600",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    },
+    {
+     "info": "В соответствии с ТЗ",
+     "okpd2": "20.13.52.110",
+     "qty": "77.20000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    },
+    {
+     "info": "В соответствии с ТЗ",
+     "okpd2": "20.13.52.110",
+     "qty": "146.33800",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    },
+    {
+     "info": "В соответствии с ТЗ",
+     "okpd2": "20.13.52.110",
+     "qty": "45.50000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 37207657.35,
+   "deadline": "27.11.2026 08:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "коагулянты: ПОХА (полиоксихлорид алюминия)",
+   "tz_docs": [
+    {
+     "name": "Техническое задание.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=E51D2F6BAF534BA69F43F8944779BBAF"
+    },
+    {
+     "name": "Документация.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=7E447918968243DEB8E19B93F443A318"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616567369",
+   "note": null
+  },
+  {
+   "number": "32616577851",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616577851",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+   "platform_url": "https://easuz.mosreg.ru/easuz223/#/Purchase?id=1274681",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "МУП\"ПТО ЖКХ\"",
+   "customer_inn": "5045003106",
+   "region": "МОСКОВСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка сульфата алюминия технического 1 сорта",
+   "positions": [
+    {
+     "info": "Сульфат алюминия технический 1 сорта",
+     "okpd2": "24.42.12.000",
+     "qty": "260.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 15860000.0,
+   "deadline": "23.11.2026 14:00",
+   "term": null,
+   "pp1875": "преимущество (superiorityNationalRegime) – ценовой приоритет российским товарам",
+   "national_regime_flags_raw": [
+    "superiorityNationalRegime(lot)"
+   ],
+   "matches": "коагулянты: сульфат алюминия",
+   "tz_docs": [
+    {
+     "name": "ТЗ поставка сульфата алюминия.pdf",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=62397779443E45D68BCBC14CDD36F5BA"
+    },
+    {
+     "name": "Аукционная документация.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=68569797A2CE4A118039D72FFFA25F62"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616577851",
+   "note": null
+  },
+  {
+   "number": "32616571917",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616571917",
+   "platform": "РТС-тендер",
+   "platform_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4099418",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме",
+   "customer": "АО \"ЯМАЛКОММУНЭНЕРГО\"",
+   "customer_inn": "8901025421",
+   "region": "ЯМАЛО-НЕНЕЦКИЙ АВТОНОМНЫЙ ОКРУГ",
+   "subject": "Поставка химических реагентов для нужд филиала АО «Ямалкоммунэнерго» в Пуровском районе «Тепло» ",
+   "positions": [
+    {
+     "info": "",
+     "okpd2": "20.13.43.190",
+     "qty": "73.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    },
+    {
+     "info": "",
+     "okpd2": "20.13.51.119",
+     "qty": "1900.00000",
+     "unit": "Килограмм"
+    },
+    {
+     "info": "",
+     "okpd2": "20.59.59.600",
+     "qty": "8.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    },
+    {
+     "info": "",
+     "okpd2": "20.59.59.600",
+     "qty": "5040.00000",
+     "unit": "Килограмм"
+    },
+    {
+     "info": "",
+     "okpd2": "20.59.59.600",
+     "qty": "400.00000",
+     "unit": "Килограмм"
+    },
+    {
+     "info": "",
+     "okpd2": "20.14.34.230",
+     "qty": "1000.00000",
+     "unit": "Килограмм"
+    },
+    {
+     "info": "",
+     "okpd2": "20.13.41.139",
+     "qty": "1.50000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 9202140.98,
+   "deadline": "30.11.2026 12:00",
+   "term": null,
+   "pp1875": "исключение из нацрежима (exceptionNationalRegime)",
+   "national_regime_flags_raw": [
+    "exceptionNationalRegime"
+   ],
+   "matches": "реагенты для котельных/водоподготовки (многокомпонентные составы, вероятно комплексоны/ингибиторы) – уточнить по ТЗ",
+   "tz_docs": [
+    {
+     "name": "Приложения № 2-5 к документации о закупке.7z",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=A4CFF034B86A4F54B9786B9CA8CD9035"
+    },
+    {
+     "name": "Документация о закупке.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=E20D89A4D03A4DEF89647529F6E7CDDA"
+    },
+    {
+     "name": "Приложение № 1 - Техническое задание.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=23198552EC5D4C718F401D1D6C9680C4"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616571917",
+   "note": null
+  },
+  {
+   "number": "32616571048",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616571048",
+   "platform": "ЭТП ГПБ",
+   "platform_url": "https://etp.gpb.ru/#com/procedure/view/procedure/1308553",
+   "law": "223-ФЗ",
+   "method": "Открытый запрос котировок в электронной форме",
+   "customer": "ООО \"ЭНЕРГОНЕФТЬ ТОМСК\"",
+   "customer_inn": "7022010799",
+   "region": "ТОМСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка химических материалов",
+   "positions": [
+    {
+     "info": "Бумага индикаторная лакмусовая красная, 100 шт/упак ТУ 6-09-3403-78",
+     "okpd2": "20.59.52.192",
+     "qty": "15.00000",
+     "unit": "Упаковка"
+    },
+    {
+     "info": "Материал фильтрующий из дробленых горелых пород, фракция 2,0-5,0 мм ТУ 5712-001-48634843-99",
+     "okpd2": "08.12.11.190",
+     "qty": "1350.00000",
+     "unit": "Килограмм"
+    },
+    {
+     "info": "Сорбент ОДМ-2Ф, фракция 2-5 мм, мешок 20 кг ТУ 2164-001-93967350-2016",
+     "okpd2": "20.59.59.900",
+     "qty": "65.00000",
+     "unit": "Штука"
+    },
+    {
+     "info": "Железо хлорное безводное, 0,25 кг тип тары 2-9 ГОСТ 3885-73",
+     "okpd2": "20.59.52.194",
+     "qty": "15.00000",
+     "unit": "Штука"
+    },
+    {
+     "info": "Материал фильтрующий Гидроантрацит-А фракция 0,8-2 мм, мешок 25кг ТУ 0321-001-188996991-99",
+     "okpd2": "05.10.10.110",
+     "qty": "23.00000",
+     "unit": "Штука"
+    },
+    {
+     "info": "Материал фильтрующий GreenSand Plus, мешок 20 кг Inversand Company",
+     "okpd2": "08.12.11.190",
+     "qty": "2.00000",
+     "unit": "Штука"
+    },
+    {
+     "info": "Перманганат калия (марганцовка) 44,95%",
+     "okpd2": "20.13.51.113",
+     "qty": "79.50000",
+     "unit": "Килограмм"
+    },
+    {
+     "info": "Реагент Аминат К, 22 кг ТУ 2439-136-17965829-2012",
+     "okpd2": "20.59.59.900",
+     "qty": "8.00000",
+     "unit": "Штука"
+    },
+    {
+     "info": "Материал фильтрующий из дробленых горелых пород, фракция 5,0-10,0 мм ТУ 5712-001-48634843-99",
+     "okpd2": "08.12.11.190",
+     "qty": "1.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    },
+    {
+     "info": "Кислота оксиэтилидендифосфоновая, массовая доля 98% Опросный лист №022032026 от 02.04.2026г.",
+     "okpd2": "20.14.51.190",
+     "qty": "2.00000",
+     "unit": "Килограмм"
+    }
+   ],
+   "nmc": 5292097.69,
+   "deadline": "23.11.2026 14:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime",
+    "superiorityNationalRegime(lot)"
+   ],
+   "matches": "фильтрующие материалы/сорбенты для водоподготовки (частичное совпадение)",
+   "tz_docs": [],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616571048",
+   "note": "Смешанный лот: лакмусовая бумага, гидроантрацит, GreenSand, ОДМ-2Ф и др."
+  },
+  {
+   "number": "32616575628",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616575628",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА ГПБ»",
+   "platform_url": "https://etp.gpb.ru/#com/procedure/view/procedure/1308982",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "МУП \"ВОДОКАНАЛ\"",
+   "customer_inn": "4345000249",
+   "region": "КИРОВСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка флокулянта ГРИНЛАЙФ К 10 ПВ или эквивалент",
+   "positions": [
+    {
+     "info": "Флокулянт ГРИНЛАЙФ К 10 ПВ или эквивалент",
+     "okpd2": "20.41.20.120",
+     "qty": "13.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 4769006.71,
+   "deadline": "24.11.2026 10:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "флокулянты (катионный полиакриламид)",
+   "tz_docs": [
+    {
+     "name": "Приложение_1_к_Техническому_заданию___опросный_лист_1.doc",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=BDEEEC247DC948579F6A8A551FFD9A86"
+    },
+    {
+     "name": "Приложение_1__к_Документации__Техническое_задание_.xlsx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=2FB275B92A98464D8B28848A706FCC9A"
+    },
+    {
+     "name": "Приложение_2_к_Документации__Проект_договора__Согласованный.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=749EA05B0FE047D7B4AA12FE7F9C5AD8"
+    },
+    {
+     "name": "Приложение_7_к_Документации_Обоснование_НМЦД.xlsx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=3721295BB97C484DB0A15B2CB46256CC"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616575628",
+   "note": null
+  },
+  {
+   "number": "32616569450",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616569450",
+   "platform": "АКЦИОНЕРНОЕ ОБЩЕСТВО «ЕДИНАЯ ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА»",
+   "platform_url": "https://corp.roseltorg.ru/#notice/846271",
+   "law": "223-ФЗ",
+   "method": "Запрос котировок в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "АО \"ДГК\"",
+   "customer_inn": "1434031363",
+   "region": "ХАБАРОВСКИЙ КРАЙ",
+   "subject": "ОКПД2 20.41.20 Поставка флокулянта для нужд структурных подразделений АО ДГК , Хабаровский край, Амурская обл, Республика Саха Якутия",
+   "positions": [
+    {
+     "info": "ОКПД2 20.41.20 Поставка флокулянта для нужд структурных подразделений АО ДГК , Хабаровский край, Амурская обл, Республика Саха Якутия",
+     "okpd2": "20.41.20",
+     "qty": "1.00000",
+     "unit": "Условная единица"
+    }
+   ],
+   "nmc": 3783096.75,
+   "deadline": "23.11.2026 10:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "флокулянты",
+   "tz_docs": [],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616569450",
+   "note": null
+  },
+  {
+   "number": "32616572997",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616572997",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «ЭЛЕКТРОННАЯ ТОРГОВАЯ ПЛОЩАДКА ГПБ»",
+   "platform_url": "https://etp.gpb.ru/#com/procedure/view/procedure/1308712",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "МУП \"ЛИПЕЦКТЕПЛОСЕТЬ\"",
+   "customer_inn": "4826001982",
+   "region": "ЛИПЕЦКАЯ ОБЛАСТЬ",
+   "subject": "Поставка смолы ионообменной катионит марки КУ-2-8 Na-форма, высший сорт (или эквивалент)",
+   "positions": [
+    {
+     "info": "Поставка смолы ионообменной катионит марки КУ-2-8 Na-форма, высший сорт (или эквивалент)",
+     "okpd2": "20.16.59.320",
+     "qty": "16.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 3445583.36,
+   "deadline": "20.11.2026 09:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "ионообменные смолы: катионит КУ-2-8 Na",
+   "tz_docs": [
+    {
+     "name": "Раздел___V_к_Аукционной_документации____ТЗ_.pdf",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=3B547B5D25764FDF8D0EE398B598D527"
+    },
+    {
+     "name": "Раздел___IV_к_Аукционной_документации__проект_договора.doc",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=AE1AACD7FB5C4AB0B398CA550FB595A4"
+    },
+    {
+     "name": "Документация_аукцион.rar",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=402FCA32F43B48D68E623358D53FFE88"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616572997",
+   "note": null
+  },
+  {
+   "number": "32616567340",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616567340",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+   "platform_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4097607",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "МУП \"ВОДООЧИСТКА\"",
+   "customer_inn": "2901243725",
+   "region": "АРХАНГЕЛЬСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка алюминия сульфата-алюминия сернокислого технического (водный раствор)",
+   "positions": [
+    {
+     "info": "",
+     "okpd2": "20.13.41.130",
+     "qty": "100.00000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 2950000.0,
+   "deadline": "24.11.2026 10:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "коагулянты: сульфат алюминия",
+   "tz_docs": [
+    {
+     "name": "ВЧ-ЭА-067-26 Документация.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=43118F4E7CAA48F292AE1EB6C3226C2B"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616567340",
+   "note": null
+  },
+  {
+   "number": "32616567349",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616567349",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+   "platform_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4097678",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "МУП \"ВОДООЧИСТКА\"",
+   "customer_inn": "2901243725",
+   "region": "АРХАНГЕЛЬСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка сульфата алюминия технического очищенного",
+   "positions": [
+    {
+     "info": "",
+     "okpd2": "20.13.41.130",
+     "qty": "14.40000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 885600.0,
+   "deadline": "24.11.2026 10:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "коагулянты: сульфат алюминия",
+   "tz_docs": [
+    {
+     "name": "ВЧ-ЭА-065-26 Документация.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=6EA3E2A873AF4033BDA15521F83602B7"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616567349",
+   "note": null
+  },
+  {
+   "number": "32616571274",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616571274",
+   "platform": "РТС-тендер",
+   "platform_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4098370",
+   "law": "223-ФЗ",
+   "method": "Открытый аукцион в электронной форме",
+   "customer": "УМУП \"УЛЬЯНОВСКВОДОКАНАЛ\"",
+   "customer_inn": "7303005240",
+   "region": "УЛЬЯНОВСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка флокулянта катионного",
+   "positions": [
+    {
+     "info": "в соответствии с документацией (прикрепленные файлы)",
+     "okpd2": "20.41.20.120",
+     "qty": "8150.00000",
+     "unit": "Килограмм"
+    }
+   ],
+   "nmc": 2762850.0,
+   "deadline": "30.11.2026 09:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "флокулянты (катионный)",
+   "tz_docs": [
+    {
+     "name": "Аукционная документация.doc",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=D25E57D6FA3048609F4898BEBBD8B757"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616571274",
+   "note": null
+  },
+  {
+   "number": "32616557953",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616557953",
+   "platform": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТЭК-ТОРГ\"",
+   "platform_url": "https://irao.tektorg.ru/#com/procedure/view/id/46674",
+   "law": "223-ФЗ",
+   "method": "Открытый запрос котировок в электронной форме",
+   "customer": "АО \"ИНТЕР РАО-ЭЛЕКТРОГЕНЕРАЦИЯ\"",
+   "customer_inn": "7704784450",
+   "region": "Г.МОСКВА",
+   "subject": "227048 635.26.00405 Химические реагенты для обработки мембранных установок для Приморской ТЭС",
+   "positions": [
+    {
+     "info": "Позиция 1",
+     "okpd2": "20.59.59.900",
+     "qty": "3170.00000",
+     "unit": "Килограмм"
+    }
+   ],
+   "nmc": 1837893.2,
+   "deadline": "23.11.2026 12:00",
+   "term": null,
+   "pp1875": "не указан в извещении",
+   "national_regime_flags_raw": [],
+   "matches": "антискаланты/реагенты для мембран (обратный осмос)",
+   "tz_docs": [],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616557953",
+   "note": "Площадка ТЭК-Торг (секция Интер РАО); поставка для Приморской ТЭС (Калининградская обл.)"
+  },
+  {
+   "number": "32616548382",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616548382",
+   "platform": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ТЭК-ТОРГ\"",
+   "platform_url": "https://irao.tektorg.ru/#com/procedure/view/id/46639",
+   "law": "223-ФЗ",
+   "method": "Открытый запрос котировок в электронной форме",
+   "customer": "АО \"ИНТЕР РАО-ЭЛЕКТРОГЕНЕРАЦИЯ\"",
+   "customer_inn": "7704784450",
+   "region": "Г.МОСКВА",
+   "subject": "Химические реагенты для обработки мембранных установок для Прегольской ТЭС",
+   "positions": [
+    {
+     "info": "Позиция 1",
+     "okpd2": "20.59.59.900",
+     "qty": "1698.00000",
+     "unit": "Килограмм"
+    }
+   ],
+   "nmc": 1314138.0,
+   "deadline": "20.11.2026 11:00",
+   "term": null,
+   "pp1875": "не указан в извещении",
+   "national_regime_flags_raw": [],
+   "matches": "антискаланты/реагенты для мембран (обратный осмос)",
+   "tz_docs": [],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616548382",
+   "note": "Площадка ТЭК-Торг (секция Интер РАО); поставка для Прегольской ТЭС (Калининградская обл.)"
+  },
+  {
+   "number": "32616573869",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616573869",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+   "platform_url": "https://easuz.mosreg.ru/easuz223/#/Purchase?id=1274595",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "ГУП МО \"МОСОБЛВОДОКАНАЛ\"",
+   "customer_inn": "5034065171",
+   "region": "МОСКОВСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка реагента ПАФ-13А для нужд филиала ГУП МО «МосОблВодоканал» «ППКС»",
+   "positions": [
+    {
+     "info": "Реагент ПАФ-13А",
+     "okpd2": "20.59.52.193",
+     "qty": "7000.00000",
+     "unit": "Килограмм"
+    }
+   ],
+   "nmc": 1559950.0,
+   "deadline": "20.11.2026 11:00",
+   "term": null,
+   "pp1875": "преимущество (superiorityNationalRegime) – ценовой приоритет российским товарам",
+   "national_regime_flags_raw": [
+    "superiorityNationalRegime(lot)"
+   ],
+   "matches": "ингибиторы накипеобразования (ПАФ-13А – фосфонатный ингибитор)",
+   "tz_docs": [
+    {
+     "name": "Техническое задание.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=35D1850FBD834601BBA50975F9BFE2D1"
+    },
+    {
+     "name": "Документация+аукцион+МСП+(1)+(4).docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=9D06D213D52D45A7A7F9D97E007A14A2"
+    },
+    {
+     "name": "Приложение №1 к ТЗ.xlsx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=EE281A8F0F7946D8A088D4FD8B04F7BF"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616573869",
+   "note": null
+  },
+  {
+   "number": "32616569486",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616569486",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+   "platform_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4095178",
+   "law": "223-ФЗ",
+   "method": "Запрос предложений в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "АО \"ТЭЦ ВИЗА\"",
+   "customer_inn": "6658038117",
+   "region": "СВЕРДЛОВСКАЯ ОБЛАСТЬ",
+   "subject": "Поставка полиакриламид-геля водоканального (В)",
+   "positions": [
+    {
+     "info": "",
+     "okpd2": "20.16.59.170",
+     "qty": "10800.00000",
+     "unit": "Килограмм"
+    }
+   ],
+   "nmc": 1522080.0,
+   "deadline": "24.11.2026 04:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "флокулянты: полиакриламид-гель",
+   "tz_docs": [],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616569486",
+   "note": null
+  },
+  {
+   "number": "32616569548",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616569548",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+   "platform_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4098558",
+   "law": "223-ФЗ",
+   "method": "Аукцион в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "АО \"ЯМАЛКОММУНЭНЕРГО\"",
+   "customer_inn": "8901025421",
+   "region": "ЯМАЛО-НЕНЕЦКИЙ АВТОНОМНЫЙ ОКРУГ",
+   "subject": "Поставка флокулянта для нужд филиала АО «Ямалкоммунэнерго» в Надымском районе  ",
+   "positions": [
+    {
+     "info": "",
+     "okpd2": "20.59.59.900",
+     "qty": "0.50000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    },
+    {
+     "info": "",
+     "okpd2": "20.59.59.900",
+     "qty": "0.50000",
+     "unit": "Тонна; метрическая тонна (1000 кг)"
+    }
+   ],
+   "nmc": 519047.6,
+   "deadline": "20.11.2026 12:00",
+   "term": null,
+   "pp1875": "ограничение (constraintNationalRegime) – ПП 1875, иностранные товары допускаются при отсутствии 2+ заявок с российскими",
+   "national_regime_flags_raw": [
+    "constraintNationalRegime"
+   ],
+   "matches": "флокулянты",
+   "tz_docs": [
+    {
+     "name": "Документация о закупке.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=4F4A45BA0DE64386B1921626AADAE4EA"
+    },
+    {
+     "name": "Приложения № 2-5 к документации о закупке.7z",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=E5B6D2826101479291A9034F24168AC9"
+    },
+    {
+     "name": "Приложение № 6 к документации - Проект договора.docx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=59B65A1C3AC947D6B409BE5E53F76884"
+    },
+    {
+     "name": "Приложение № 7 к документации - Обоснование НМЦД.xlsx",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=59196F5886B3474DA5A60745B594224A"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616569548",
+   "note": null
+  },
+  {
+   "number": "32616578855",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616578855",
+   "platform": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ «РТС-ТЕНДЕР»",
+   "platform_url": "https://223.rts-tender.ru/supplier/auction/Trade/View.aspx?Id=4090484",
+   "law": "223-ФЗ",
+   "method": "Конкурс в электронной форме, участниками которого могут быть только субъекты малого и среднего предпринимательства",
+   "customer": "ПАО \"РОССЕТИ\"",
+   "customer_inn": "4716016979",
+   "region": "Г.МОСКВА",
+   "subject": "право заключения договора на поставку химической продукции для нужд филиала ПАО \"Россети\" - Центральное ПМЭС в 2027 г. ",
+   "positions": [
+    {
+     "info": "",
+     "okpd2": "20.59.59.900",
+     "qty": "1.00000",
+     "unit": "Штука"
+    }
+   ],
+   "nmc": 15178744.7,
+   "deadline": "23.11.2026 13:00",
+   "term": null,
+   "pp1875": "не указан в извещении",
+   "national_regime_flags_raw": [],
+   "matches": "химическая продукция (состав не раскрыт в извещении – низкая вероятность совпадения, проверить ТЗ)",
+   "tz_docs": [
+    {
+     "name": "Документация.rar",
+     "url": "https://zakupki.gov.ru/223/filestore/public/1.0/download/fz223/file.html?uid=C223B4E739004099A8292F98DD4662A3"
+    }
+   ],
+   "source_url": "https://v2test.gosplan.info/fz223/purchases/32616578855",
+   "note": null
+  },
+  {
+   "number": "32616558970",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616558970",
+   "platform": null,
+   "law": "223-ФЗ",
+   "method": "purchaseNoticeZKESMBO",
+   "customer": null,
+   "customer_inn": "4716016979",
+   "region": 77,
+   "subject": "Поставка сорбентов для нужд Черноземного ПМЭС",
+   "positions": null,
+   "nmc": 1827560.0,
+   "deadline": "2026-11-19 12:00 (время заказчика, TZ не проверен)",
+   "term": null,
+   "pp1875": null,
+   "matches": "сорбенты (силикагель 20.13.24.170) – смежная позиция к осушителям/молекулярным ситам",
+   "source_url": "https://v2test.gosplan.info/fz223/purchases?purchase_number=32616558970",
+   "note": "Только данные поиска gosplan; детали не загружены"
+  },
+  {
+   "number": "32616566767",
+   "link": "https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber=32616566767",
+   "platform": null,
+   "law": "223-ФЗ",
+   "method": "purchaseNotice",
+   "customer": null,
+   "customer_inn": "8602060185",
+   "region": 72,
+   "subject": "Поставка сорбентов и сорбирующих изделий для нужд филиала АО \"Россети Тюмень\" Сургутские электрические сети на 2027 год",
+   "positions": null,
+   "nmc": 1652975.95,
+   "deadline": "2026-11-19 11:30 (время заказчика, TZ не проверен)",
+   "term": null,
+   "pp1875": null,
+   "matches": "сорбенты/сорбирующие изделия (20.13.24.170, 20.14.71.120) – смежная позиция",
+   "source_url": "https://v2test.gosplan.info/fz223/purchases?purchase_number=32616566767",
+   "note": "Только данные поиска gosplan; детали не загружены"
+  },
+  {
+   "number": "0550600003626000003",
+   "link": "https://zakupki.gov.ru/epz/order/extendedsearch/results.html?searchString=0550600003626000003",
+   "platform": null,
+   "law": "44-ФЗ",
+   "method": "epNotificationEF2020",
+   "customer": null,
+   "customer_inn": null,
+   "region": 53,
+   "subject": "Поставка химических реагентов",
+   "positions": null,
+   "nmc": 1995160.79,
+   "deadline": "2026-11-23 06:20 (UTC? 44-ФЗ поле collecting_finished_at, не проверено)",
+   "term": null,
+   "pp1875": null,
+   "matches": "коагулянты: сульфат алюминия (ОКПД2 20.13.41.132) + гипохлорит",
+   "source_url": "https://v2test.gosplan.info/fz44/purchases?purchase_number=0550600003626000003",
+   "note": "Только данные поиска gosplan; детали не загружены"
+  },
+  {
+   "number": "0862300028026000028",
+   "link": "https://zakupki.gov.ru/epz/order/extendedsearch/results.html?searchString=0862300028026000028",
+   "platform": null,
+   "law": "44-ФЗ",
+   "method": "epNotificationEF2020",
+   "customer": null,
+   "customer_inn": null,
+   "region": 66,
+   "subject": "На приобретение химических реагентов для очистки исходной воды на фильтровальной станции, с дальнейшей передачей их в МУП РМО \"РежПром\"",
+   "positions": null,
+   "nmc": 2345606.49,
+   "deadline": "2026-11-20 03:00 (UTC? 44-ФЗ поле collecting_finished_at, не проверено)",
+   "term": null,
+   "pp1875": null,
+   "matches": "реагенты для очистки воды на фильтровальной станции (состав уточнить: ОКПД2 20.13.25/32/42/62)",
+   "source_url": "https://v2test.gosplan.info/fz44/purchases?purchase_number=0862300028026000028",
+   "note": "Только данные поиска gosplan; детали не загружены"
+  },
+  {
+   "number": "4676992",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4676992",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Запрос предложений",
+   "customer": "АО \"ТЗРК\"",
+   "region": "Республика Саха (Якутия)",
+   "subject": "Коагулянт POLYPACS-F, 5 000 кг",
+   "positions": null,
+   "nmc": null,
+   "deadline": "19.11.2026 12:00 МСК",
+   "term": null,
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "коагулянты: ПОХА (POLYPACS-F)",
+   "source_url": "https://www.b2b-center.ru/market/koaguliant-polypacs-f/tender-4676992/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4621360",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4621360",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (32 позиции)",
+   "customer": "ООО \"КНГК-ГРУПП\" для ООО \"ИЛЬСКИЙ НПЗ\"",
+   "region": "Краснодарский край",
+   "subject": "Поставка реагентов на канализационные очистные сооружения (32 позиции)",
+   "positions": null,
+   "nmc": null,
+   "deadline": "20.11.2026 08:00 МСК",
+   "term": null,
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "коагулянты/флокулянты для КОС",
+   "source_url": "https://www.b2b-center.ru/app/market-next/postavka-reagentov-na-kanalizatsionnye-ochistnye-sooruzheniia/tender-4621360/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4681643",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4681643",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Запрос предложений",
+   "customer": "ООО УК \"МЕТАЛЛОИНВЕСТ\" для АО \"Лебединский ГОК\"",
+   "region": "Белгородская область",
+   "subject": "Закупка флокулянта по статистической потребности на I полугодие 2027 г.",
+   "positions": null,
+   "nmc": null,
+   "deadline": "20.11.2026 13:01 МСК",
+   "term": "I полугодие 2027",
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "флокулянты",
+   "source_url": "https://www.b2b-center.ru/market/zakupka-flokulianta-po-statisticheskoi-potrebnosti-dlia-ao/tender-4681643/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4675414",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4675414",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (3 позиции)",
+   "customer": "АО «СЛПК»",
+   "region": "Республика Коми",
+   "subject": "Поставка ингибиторов коррозии (26002178)",
+   "positions": null,
+   "nmc": null,
+   "deadline": "20.11.2026 14:05 МСК",
+   "term": "01.01.2027–31.12.2027 (12 мес.)",
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "ингибиторы коррозии",
+   "source_url": "https://www.b2b-center.ru/app/market-next/26002178-postavka-dlia-ao-slpk-ingibitorov-korrozii-tekh-trebovaniia/tender-4675414/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4675035",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4675035",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (5 позиций)",
+   "customer": "АО «СЛПК»",
+   "region": "Республика Коми",
+   "subject": "Поставка вспомогательных химикатов (аммиак водный, силикат натрия и др.; найдено по запросу 'деэмульгатор')",
+   "positions": null,
+   "nmc": null,
+   "deadline": "20.11.2026 14:05 МСК",
+   "term": null,
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "вспомогательная химия (частичное совпадение, проверить позиции)",
+   "source_url": "https://www.b2b-center.ru/app/market-next/26002177-26002171-26002154-26002172-postavka-vspomogatelnykh/tender-4675035/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4657603",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4657603",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Запрос предложений (23 позиции)",
+   "customer": "ООО УК \"МЕТАЛЛОИНВЕСТ\" для АО \"ОЭМК им. А.А. Угарова\"",
+   "region": "Белгородская область",
+   "subject": "Закупка хим.реагентов по статистической потребности на 2027 г. (ОКПД2 20.14.7, 20.41.20.120)",
+   "positions": null,
+   "nmc": null,
+   "deadline": "20.11.2026 14:01 МСК",
+   "term": "2027 г.",
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "хим.реагенты (вкл. катионные ПАВ/флокулянты) – проверить позиции",
+   "source_url": "https://www.b2b-center.ru/market/zakupka-khim-reagentov-dlia-ao-oemk-im-a-a-ugarova-po-statisticheskoi/tender-4657603/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4677875",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4677875",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (9 позиций)",
+   "customer": "ООО \"ГЕОПРОМИНВЕСТ\"",
+   "region": "Забайкальский край",
+   "subject": "Поставка химических реагентов в г. Балей (ЗИФ-1)",
+   "positions": null,
+   "nmc": null,
+   "deadline": "26.11.2026 03:50 МСК",
+   "term": null,
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "хим.реагенты для ЗИФ (вероятно флокулянты/прочее – проверить)",
+   "source_url": "https://www.b2b-center.ru/app/market-next/postavka-khimicheskikh-reagentov-v-g-balei-zabaikalskii-krai/tender-4677875/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4680528",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4680528",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (1 позиция)",
+   "customer": "АО ГРК \"ЗАПАДНАЯ\"",
+   "region": "Забайкальский край",
+   "subject": "Химический реагент НАЛКО 9714 / аналоги на 2 кв. 2027 г.",
+   "positions": null,
+   "nmc": null,
+   "deadline": "19.11.2026 18:00 МСК",
+   "term": "2 кв. 2027",
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "реагент Nalco 9714 или аналог (тип уточнить по ТЗ)",
+   "source_url": "https://www.b2b-center.ru/app/market-next/khimicheskii-reagent-nalko-9714-analogi-na-2i-kvartal-2027-g-k-zo/tender-4680528/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4646046",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4646046",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (14 позиций)",
+   "customer": "ООО \"РК\"",
+   "region": "Тульская область",
+   "subject": "Поставка химических реагентов для производства катализаторов (найдено по запросу 'сульфат алюминия')",
+   "positions": null,
+   "nmc": null,
+   "deadline": "23.11.2026 13:47 МСК",
+   "term": "календарный год, поставка ежеквартально",
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "сульфат алюминия / хим.сырьё (проверить позиции)",
+   "source_url": "https://www.b2b-center.ru/app/market-next/postavka-khimicheskikh-reagentov-dlia-obespecheniia-bespereboinogo/tender-4646046/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4673479",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4673479",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (1 позиция)",
+   "customer": "ПАО \"НЛМК\"",
+   "region": "Липецкая область",
+   "subject": "Поставка цеолита (адсорбента) для воздухоразделительной установки (ОКПД2 20.13.24.170, 20.14.71.110/120)",
+   "positions": null,
+   "nmc": null,
+   "deadline": "20.11.2026 16:00 МСК",
+   "term": null,
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "молекулярные сита / цеолиты 13X",
+   "source_url": "https://www.b2b-center.ru/app/market-next/postavka-tseolita-adsorbenta-dlia-vozdukho-razdelitelnoi-ustanovki/tender-4673479/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4676838",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4676838",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (2 позиции)",
+   "customer": "АО ОЭС",
+   "region": "Амурская область",
+   "subject": "Поставка фильтрующих материалов для ОП \"Благовещенск\"",
+   "positions": null,
+   "nmc": null,
+   "deadline": "20.11.2026 03:30 МСК",
+   "term": "30 календарных дней с даты спецификации",
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "фильтрующие материалы (смежно; возможно ионообменные смолы – проверить)",
+   "source_url": "https://www.b2b-center.ru/app/market-next/postavka-filtruiushchikh-materialov-dlia-nuzhd-op-blagoveshchensk/tender-4676838/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  },
+  {
+   "number": "4679803",
+   "link": "https://www.b2b-center.ru/market/view.html?id=4679803",
+   "platform": "B2B-Center",
+   "law": "commercial (B2B-Center; 223-ФЗ на странице не указан)",
+   "method": "Закупочная процедура B2B (6 позиций)",
+   "customer": "ООО \"АИМ МЕНЕДЖМЕНТ\" для АО \"СИБЭКО\"/СГК",
+   "region": "Новосибирская область",
+   "subject": "ТМЦ Биоциды СГК – Новосибирск",
+   "positions": null,
+   "nmc": null,
+   "deadline": "19.11.2026 09:00 МСК",
+   "term": null,
+   "pp1875": "не применимо/не указано (коммерческая закупка)",
+   "matches": "биоциды для оборотных систем охлаждения",
+   "source_url": "https://www.b2b-center.ru/app/market-next/tmts-biotsidy-sgk-novosibirsk-usloviia-oplaty-oplata-v-techenie-90/tender-4679803/",
+   "note": "НМЦ 'Без указания цены'; документация только для зарегистрированных. Ссылка view.html?id= вернула 404 при проверке – рабочая ссылка в source_url"
+  }
+ ]
+}
