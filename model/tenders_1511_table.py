@@ -76,20 +76,27 @@ for t in WT:
 for r in rows:
     v = r["nmc"]
     if v is not None and not isinstance(v, (int, float, str)): r["nmc"] = json.dumps(v, ensure_ascii=False)[:120]
+def access(r):
+    if r["who"] == "Гидропас": return "Гидропас (РФ)"
+    t = (r.get("note", "") + " " + r.get("todo", "")).lower()
+    if re.search(r"only local|local only|yerli|sadece|national competitive|\bncb\b|local registration|registered in tunisia|mauritian|cnpj|indian seller|make in india|class-i|\bgem\b|local supplier|bahrain|etimad|saudi cr|local presence|только мест|местн", t): return "Через партнёра / местная регистрация"
+    if re.search(r"international|\bicb\b|foreign|open to all|eu-wide|\bted\b|open procedure|иностран|международ", t): return "Напрямую (возможно)"
+    return "Уточнить"
+for r in rows: r["acc"] = access(r)
 rows.sort(key=lambda r: (r["d"], r["src"]))
 
 wb = Workbook(); ws = wb.active; ws.title = "Тендеры ≥18.11"
 H = PatternFill("solid", fgColor="0B2545"); HF = Font(bold=True, color="FFFFFF"); W = Alignment(wrap_text=True, vertical="top"); LINK = Font(color="0563C1", underline="single")
-cols = ["№", "Кто подаёт", "Источник", "Номер", "Предмет", "Заказчик", "Площадка", "НМЦ", "Подача", "Ссылка", "Статус", "Что сделать", "Примечание", "Готово (✓)"]
+cols = ["№", "Доступ для нас", "Кто подаёт", "Источник", "Номер", "Предмет", "Заказчик", "Площадка", "НМЦ", "Подача", "Ссылка", "Статус", "Что сделать", "Примечание", "Готово (✓)"]
 ws.append(cols)
 for c in ws[1]: c.fill = H; c.font = HF; c.alignment = W
 for i, r in enumerate(rows, 1):
-    ws.append([i, r["who"], r["src"], r["n"], r["subj"], r["cust"], r["plat"], r["nmc"], r["dl"], r["link"] or "искать по номеру на площадке", r["st"], r["todo"], r["note"], ""])
-    if r["link"]: c = ws.cell(ws.max_row, 10); c.hyperlink = r["link"]; c.font = LINK
-    if isinstance(r["nmc"], (int, float)): ws.cell(ws.max_row, 8).number_format = "# ##0"
+    ws.append([i, r["acc"], r["who"], r["src"], r["n"], r["subj"], r["cust"], r["plat"], r["nmc"], r["dl"], r["link"] or "искать по номеру на площадке", r["st"], r["todo"], r["note"], ""])
+    if r["link"]: c = ws.cell(ws.max_row, 11); c.hyperlink = r["link"]; c.font = LINK
+    if isinstance(r["nmc"], (int, float)): ws.cell(ws.max_row, 9).number_format = "# ##0"
 for row in ws.iter_rows(min_row=2):
     for c in row: c.alignment = W
-for col, w in zip("ABCDEFGHIJKLMN", [4, 10, 14, 20, 44, 34, 16, 13, 14, 42, 14, 40, 40, 9]): ws.column_dimensions[col].width = w
+for col, w in zip("ABCDEFGHIJKLMNO", [4, 18, 10, 14, 20, 44, 34, 16, 13, 14, 42, 14, 40, 40, 9]): ws.column_dimensions[col].width = w
 ws.freeze_panes = "E2"; ws.auto_filter.ref = ws.dimensions
 P = json.load(open(T + "pending_1511.json"))
 w2 = wb.create_sheet("Что за нами"); w2.append(["Приоритет", "Срок", "Кто", "Что сделать", "Зачем", "Статус"])
@@ -106,16 +113,14 @@ wb.save("../TENDERY_TZ_1511.xlsx")
 e = html.escape; f = lambda v: f"{v:,.0f}".replace(",", " ") if isinstance(v, (int, float)) else "—"
 css = ("@page{size:A4 landscape;margin:7mm}body{font-family:'DejaVu Sans',Arial;font-size:7.2px;color:#111}h1{font-size:13px;margin:0 0 2px;color:#0B2545}h2{font-size:9.5px;margin:5px 0 1px;color:#0B2545}"
        "table{border-collapse:collapse;width:100%}th{background:#0B2545;color:#fff;padding:2px 3px;text-align:left}td{border-bottom:1px solid #ddd;padding:1px 3px;vertical-align:top}.n{text-align:right;white-space:nowrap}.g{color:#555}a{color:#0563C1;text-decoration:none}")
-h = [f"<!DOCTYPE html><html><head><meta charset=utf-8><style>{css}</style></head><body><h1>Тендеры с подачей 18.11 и позже — {len(rows)} шт. (на 15.11.2026)</h1>",
-     "<div class=g>Срок исполнения ≤6 мес. Номер — ссылка. Порядок — по дате подачи.</div><table><tr><th>#</th><th>Кто</th><th>Номер</th><th>Предмет</th><th>Заказчик</th><th>НМЦ</th><th>Подача</th><th>Статус</th><th>Что сделать</th></tr>"]
-for i, r in enumerate(rows, 1):
+PR = [r for r in rows if r["acc"] == "Напрямую (возможно)" or r["src"] == "Международные (ранее)"]
+h = [f"<!DOCTYPE html><html><head><meta charset=utf-8><style>{css}</style></head><body><h1>Тендеры с подачей 18.11 и позже: ISP — куда можно подать напрямую ({len(PR)} из {len(rows)})</h1>",
+     "<div class=g>Полный список ({len(rows)}: РФ/Гидропас, через партнёра, уточнить) — в Excel. Номер — ссылка. Порядок — по дате подачи.</div><table><tr><th>#</th><th>Кто</th><th>Номер</th><th>Предмет</th><th>Заказчик</th><th>НМЦ</th><th>Подача</th><th>Статус</th><th>Что сделать</th></tr>"]
+for i, r in enumerate(PR, 1):
     num = f"<a href='{e(r['link'])}'>{e(r['n'])}</a>" if r["link"] else e(r["n"])
     h.append(f"<tr><td>{i}</td><td>{e(r['who'])}</td><td>{num}</td><td>{e(r['subj'][:70])}</td><td>{e(r['cust'][:42])}</td><td class=n>{f(r['nmc'])}{(' ' + r['cur']) if isinstance(r['nmc'], (int, float)) else ''}</td>"
              f"<td style='white-space:nowrap'>{e(r['dl'][:17])}</td><td>{e(r['st'])}</td><td>{e(r['todo'][:80])}</td></tr>")
-h.append("</table><h2>Что за нами</h2><table><tr><th>Пр.</th><th>Срок</th><th>Кто</th><th>Что сделать</th><th>Статус</th></tr>")
-for x in P["on_us"]:
-    h.append(f"<tr><td>{x['prio']}</td><td>{e(x['deadline'])}</td><td>{e(x['who'])}</td><td>{e(x['what'][:150])}</td><td>{e(x['status'])}</td></tr>")
-h.append("</table></body></html>")
+h.append("</table><div class=g>Листы Excel: «Что за нами», «Ждём ответа».</div></body></html>")
 hp = f"{SCRATCH}/t1511.html"; open(hp, "w").write("".join(h))
 subprocess.run(["/opt/pw-browsers/chromium", "--headless", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer", f"--print-to-pdf={os.path.abspath('../TENDERY_TZ_1511.pdf')}", "file://" + hp], check=True, capture_output=True, timeout=180)
 from collections import Counter
