@@ -1,0 +1,1025 @@
+{
+ "meta": {
+  "created": "2026-11-15",
+  "client": "ISP Group LLC (US trader)",
+  "purpose": "RFQ targets (manufacturers) for 7 EU/UA tenders",
+  "method": "Parallel web search/fetch; each email/phone cross-checked against the company site plus an independent directory/chamber/registry (SEVE, bizlist/GEMI, empresite, gasworld, IFAT, targeo, Türklim, egyptbusinessgate, industrychemistry, assorisorse, cavaexpotech, aquaenergyexpo). verified.email/phone = true only when 2 independent sources agree. No one was contacted. Nothing was committed.",
+  "reach_note": "Automated access to ECHA (echa.europa.eu, chem.echa.europa.eu) returned HTTP 403, so the REACH status shown is the company's own statement. Polyacrylamide polymers are exempt from registration, but a non-EU importer must cover the monomers (OR). Ask non-EU suppliers for the OR certificate and registration number.",
+  "origin_note": "Italian utilities (Art. 85 Directive 2014/25 / Art. 170 D.Lgs 36/2023): offers with >50% goods from third countries without an EU procurement-access agreement can be rejected. WTO-GPA parties (USA, Japan, UK, Switzerland, Israel, Korea) and EU/EEA count as safe; China/India do not. Turkey/Egypt/Morocco/Tunisia have customs-union or association agreements but NO procurement-access chapter, so confirm with the contracting entity before relying on them.",
+  "sanctions_note": "No Russia/Belarus/Iran companies included (Zirax RU and Falizan Tasfyeh IR were found and excluded). Not screened against OFAC/EU/UK lists automatically; run the final screen before signing.",
+  "competitors_flagged": [
+   "SNF",
+   "Kemira",
+   "Feralco",
+   "Chemviron (GAC)"
+  ],
+  "not_found": [
+   "No ISO-tank-capable FeCl2 producer was confirmed in Israel",
+   "No Turkish or Italian in-house PAM emulsion polymerizer was found (Turkish/Italian sellers resell SNF)"
+  ]
+ },
+ "products": [
+  {
+   "product": "Ferrous chloride / ferrous-ferric chloride solution (FeCl2 or FeCl2/FeCl3), bulk / ISO tanks",
+   "tenders": [
+    "TED 733035-2026 Nicosia (Cyprus), 600 t + option 600 t, deadline 23.11.2026, price only; import in ISO tanks via Limassol allowed"
+   ],
+   "suppliers": [
+    {
+     "rank": 1,
+     "company": "FERI-TRI S.A. (ABEE)",
+     "country": "Greece",
+     "city": "Sindos (Thessaloniki)",
+     "plant": "Sindos industrial area BT42 (Thessaloniki) + Thiva, 3rd km old road Thiva-Elefsina",
+     "grades": [
+      "Ferrous chloride solution (FeCl2)",
+      "Ferric chloride solution",
+      "Ferrous sulphate",
+      "PAC / aluminium sulphate"
+     ],
+     "reach": "Company statement (LinkedIn page): products comply with REACH (EC) 1907/2006 and CLP. Not cross-checked in the ECHA dissemination database (automated access to ECHA returned 403)",
+     "eu_refs": "Says it is the only producer of iron solutions in Greece (since 1987); member of SEVE (Greek Exporters Association); 2025 revenue about 9.7 M EUR (GEMI/bizlist); its own ADR tanker fleet; certified to EN standards for drinking-water chemicals (ensun)",
+     "site": "https://feri-tri.gr/en",
+     "email": "info@feri-tri.gr",
+     "phone": "+30 2310 799 333",
+     "verified": {
+      "email": true,
+      "phone": true
+     },
+     "sources_email": [
+      "https://feri-tri.gr/en",
+      "https://www.seve.gr/en/company/feri-tri-sa/",
+      "https://bizlist.gr/en/companies/gr/38288205000/",
+      "https://linkedin.com/company/feri-tri-s-a-"
+     ],
+     "sources_phone": [
+      "https://feri-tri.gr/en",
+      "https://www.seve.gr/en/company/feri-tri-sa/",
+      "https://bizlist.gr/en/companies/gr/38288205000/",
+      "https://www.crunchbase.com/organization/feri-tri"
+     ],
+     "likely_competitor": false,
+     "distance_note": "EU origin (no customs, REACH covered). From the Thiva plant (about 70 km from Piraeus) or Sindos (Thessaloniki port), then by sea to Limassol: about 500-650 nm, frequent ro-ro/container lines Piraeus-Limassol. Rated the best value once duties and paperwork are counted",
+     "notes": "Explicitly produces FeCl2 (the main grade in the tender). Ask: an FeCl2 grade to the tender spec, whether they can fill ISO tanks or bulk tankers for ro-ro, and the EN 888/EN 14805 type. Second plant in Thiva: +30 22620 22865. Contact person in SEVE: Mrs S. Aslanidou"
+    },
+    {
+     "rank": 2,
+     "company": "Misr Chemical Industries Co. (MCI)",
+     "country": "Egypt",
+     "city": "Alexandria (El Max)",
+     "plant": "El Max, Alexandria",
+     "grades": [
+      "Ferric chloride 40% (FeCl2 max 1%)",
+      "chlorine/caustic soda, other chlorine derivatives"
+     ],
+     "reach": "Not stated on its website; check whether it has an Only Representative in the EU (none found)",
+     "eu_refs": "Oldest chlor-alkali producer in Egypt; ships FeCl3 in polyester road tankers and IBCs. EU-Egypt Association Agreement (EUR.1 for preferential duty)",
+     "site": "https://www.mci.com.eg",
+     "email": "sales@mci.com.eg",
+     "phone": "+20 3 310 8420",
+     "verified": {
+      "email": true,
+      "phone": true
+     },
+     "sources_email": [
+      "https://www.mci.com.eg/contact",
+      "https://egyptbusinessgate.com/members-club/misr-chemical-industry-excellence"
+     ],
+     "sources_phone": [
+      "https://www.mci.com.eg/contact",
+      "https://egyptbusinessgate.com/members-club/misr-chemical-industry-excellence"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Shortest sea leg: Alexandria (El Max is next to the port) to Limassol is about 270 nm",
+     "notes": "Its main grade is FeCl3 40%, not FeCl2: ask whether they can supply a FeCl2/FeCl3 mix or FeCl2. Also export@mci.com.eg (company site only). Before ordering, check REACH (OR) and EN 888 compliance"
+    },
+    {
+     "rank": 3,
+     "company": "CHIMI ART Chemical Industries",
+     "country": "Egypt",
+     "city": "6th of October City (Giza)",
+     "plant": "Block 232, 2nd Industrial Zone, 6th of October City",
+     "grades": [
+      "CHIMIFLOC FR 4014 ferric chloride 40% ±1%",
+      "Ferrous chloride FeCl2 up to 30%",
+      "PAC"
+     ],
+     "reach": "Company statement: EU REACH registration for iron trichloride (CAS 7705-08-0, EC 231-729-4) through an Only Representative, since 2024; NSF/ANSI/CAN 60 listed. Not checked in ECHA",
+     "eu_refs": "Says it exports to water utilities in Europe/MENA; capacity >15,000 t/yr FeCl3 (aquaenergyexpo)",
+     "site": "https://www.chimiart.com",
+     "email": "sales@chimiart.com",
+     "phone": "+20 2 2528 6322",
+     "verified": {
+      "email": false,
+      "phone": true
+     },
+     "sources_email": [
+      "https://www.chimiart.com/en/contact (sales@)",
+      "directory aquaenergyexpo.com lists info@chimiart.com / chimiart@chimiart.com, a different address"
+     ],
+     "sources_phone": [
+      "https://www.chimiart.com/en/contact",
+      "https://aquaenergyexpo.com/view_company/264/CHIMI%20ART (+202 252 863 22)"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Cairo, then Alexandria/Damietta port, then Limassol: about 250-300 nm",
+     "notes": "Important: the site says export ships in 1,000 L IBCs only, NO ISO tanks/flexitanks, which makes it awkward for 600-1,200 t. FeCl2 grade is available. Alternative factory email info@chimiart.com, +20 2 2528 6344 (directory)"
+    },
+    {
+     "rank": 4,
+     "company": "Koruma Klor Alkali San. ve Tic. A.Ş.",
+     "country": "Turkey",
+     "city": "Derince (Kocaeli)",
+     "plant": "Deniz Mah. Petrol Ofisi Cad. 43, Derince; plus Kırıkhan (Hatay) and Honaz (Denizli)",
+     "grades": [
+      "Ferric chloride solution 38-42% (SDS DD.44.19)",
+      "chlor-alkali products"
+     ],
+     "reach": "Not stated; a Turkish producer needs an EU Only Representative. Ask for the OR certificate",
+     "eu_refs": "Chlor-alkali producer with its own port in Derince (liquid bulk 250,000 t/yr, Türklim). EU-Turkey customs union (A.TR)",
+     "site": "https://koruma.com",
+     "email": "info@koruma.com.tr",
+     "phone": "+90 262 239 22 70",
+     "verified": {
+      "email": false,
+      "phone": true
+     },
+     "sources_email": [
+      "https://koruma.com/iletisim (info@)",
+      "SDS lists koruma@koruma.com.tr; Türklim lists ozgur.gokkaya@koruma.com.tr (port)"
+     ],
+     "sources_phone": [
+      "https://koruma.com/iletisim",
+      "https://www.turklim.org/en/turklim-members/koruma-klor-alkali",
+      "https://koruma.com/wp-content/uploads/2020/11/FERRIC-CHLORIDE-SDS4725-EN.pdf"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Derince to Limassol is about 800 nm via the Dardanelles. The group also has a Kırıkhan/Hatay plant (+90 326 345 2811) next to Iskenderun, about 200 nm from Limassol; it is unconfirmed whether FeCl3 is made there",
+     "notes": "Its own port plus ISO-tank/bulk capability is a plus. Confirm the FeCl2 grade"
+    },
+    {
+     "rank": 5,
+     "company": "Akkim Kimya San. ve Tic. A.Ş.",
+     "country": "Turkey",
+     "city": "Istanbul HQ / Yalova plant",
+     "plant": "Taşköprü, Çiftlikköy/Yalova (inorganic plant)",
+     "grades": [
+      "Demir-3-klorür (FeCl3) 41±1% Type-1 / 40±2% Type-2 (TDS)"
+     ],
+     "reach": "Company site has a REACH section (company statement); details not verified",
+     "eu_refs": "Large Turkish chlor-alkali producer exporting to 70+ countries; has a subsidiary in Germany, Akkim Europe GmbH in Dortmund (+49 2314 760 00 70)",
+     "site": "https://akkim.com.tr",
+     "email": "akkim@akkim.com.tr",
+     "phone": "+90 212 381 71 00",
+     "verified": {
+      "email": false,
+      "phone": true
+     },
+     "sources_email": [
+      "https://digital.european-coatings-show.com/company/Akkim-Kimya-San-ve-Tic-A-S--534738 (only)"
+     ],
+     "sources_phone": [
+      "https://akkim.com.tr/en/contact",
+      "https://akkim.com.tr/wp-content/uploads/2021/01/Demir-3-Klorur-TDS.pdf",
+      "European Coatings Show directory"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Yalova (Sea of Marmara) to Limassol: about 800 nm",
+     "notes": "TDS limits match EN 888 (heavy metals per Fe). FeCl3 only, so ask about FeCl2. Yalova plant: +90 226 815 33 00"
+    },
+    {
+     "rank": 6,
+     "company": "Chimitex S.p.A.",
+     "country": "Italy",
+     "city": "Fagnano Olona (Varese)",
+     "plant": "Fagnano Olona (VA)",
+     "grades": [
+      "Ferric chloride ~40% UNI EN 888"
+     ],
+     "reach": "REACH registration no. 01-2119497998-05-0040 (company site)",
+     "eu_refs": "Its own plant makes up to 300 t/day; ISO 9001/14001, SQAS",
+     "site": "https://www.chimitex.it/en/ferric-chloride",
+     "email": "info@chimitex.it",
+     "phone": "+39 0331 613911",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "https://www.chimitex.it/en/ferric-chloride"
+     ],
+     "sources_phone": [
+      "https://www.chimitex.it/en/ferric-chloride"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Far from Cyprus (truck to Genoa/Livorno then sea, about 1,300 nm); a backup option only",
+     "notes": "Single source for its contacts. FeCl3 only"
+    },
+    {
+     "rank": 7,
+     "company": "Cosmo Chemistry (benchmark, India)",
+     "country": "India",
+     "city": "Surat",
+     "plant": null,
+     "grades": [
+      "Ferric chloride 40-46%"
+     ],
+     "reach": "Unknown",
+     "eu_refs": "Price benchmark only. Describes itself as 'toll manufacturing and export', so it may not be a direct producer. India-origin goods: not suitable under the Italian >50% rule (not relevant for Cyprus)",
+     "site": "https://www.cosmochemistryindia.com",
+     "email": "info@cosmochemistryindia.com",
+     "phone": "+91 97979 77958",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "company site only"
+     ],
+     "sources_phone": [
+      "company site only"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Very long sea leg; benchmark only",
+     "notes": "Not recommended as a supplier"
+    }
+   ]
+  },
+  {
+   "product": "Cationic polyacrylamide powder/granular (+ small cationic emulsion)",
+   "tenders": [
+    "TED 787165-2026 EMAYA Palma de Mallorca, about 508 t over 2 years, cap 3.60 EUR/kg DDP Palma, samples/deadline 25.11.2026, industrial trial = 40% of score"
+   ],
+   "suppliers": [
+    {
+     "rank": 1,
+     "company": "Derypol S.A.",
+     "country": "Spain",
+     "city": "Barcelona (HQ) / Les Franqueses del Vallès (factory)",
+     "plant": "C/ de Cal Gabatx s/n, 08520 Les Franqueses del Vallès",
+     "grades": [
+      "HIMOLOC DW872 cationic powder (drinking-water grade)",
+      "HIMOLOC TG/TX cationic high-MW (dispersion)",
+      "HybriX FIX series cationic emulsions",
+      "DW1032 cationic emulsion"
+     ],
+     "reach": "EU (Spanish) polymer manufacturer. Polymers are exempt from REACH registration; monomers are covered by the EU manufacturer. NSF/ANSI 60 listing for the Barcelona facility",
+     "eu_refs": "Independent Spanish PAM producer since 1967 (CNAE 2059, about 97 staff); NSF-listed; exports",
+     "site": "https://www.derypol.com/en/",
+     "email": "info@derypol.com",
+     "phone": "+34 93 238 90 90",
+     "verified": {
+      "email": true,
+      "phone": true
+     },
+     "sources_email": [
+      "https://www.derypol.com/en/contact/",
+      "https://empresite.eleconomista.es/DERYPOL.html",
+      "2026 water treatment brochure PDF on derypol.com"
+     ],
+     "sources_phone": [
+      "https://www.derypol.com/en/contact/",
+      "https://empresite.eleconomista.es/DERYPOL.html (932389...)",
+      "factory +34 93 849 61 88 also on NSF listing info.nsf.org"
+     ],
+     "likely_competitor": false,
+     "distance_note": "About 40 km to Barcelona port, then the Barcelona-Palma ferry (about 8 h). Closest producer to EMAYA; local trial support is easy",
+     "notes": "Range is strongest in dispersions and emulsions; confirm that cationic POWDER volumes of about 250 t/yr can be supplied, and the price against the 3.60 EUR/kg cap. Technical/commercial contact: marketing@derypol.com"
+    },
+    {
+     "rank": 2,
+     "company": "SNF Floerger Ibérica S.L.U. (SNF Group)",
+     "country": "Spain / France",
+     "city": "Sant Boi de Llobregat (Barcelona); production in Andrézieux (FR)",
+     "plant": "Andrézieux / Crissey (France)",
+     "grades": [
+      "FLOPAM FO 4xxx/4xxx SH cationic powders",
+      "FLOPAM EM cationic emulsions"
+     ],
+     "reach": "SNF SA is an EU manufacturer/registrant of acrylamide and cationic monomers (company statement)",
+     "eu_refs": "World No.1 in PAM; NSF listing for Andrézieux and Crissey",
+     "site": "https://www.snf.com/locations/es/",
+     "email": "lsamper@snfiberica.es",
+     "phone": "+34 93 480 14 51",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "https://www.snf.com/locations/pl/contact (SNF country list) only"
+     ],
+     "sources_phone": [
+      "snf.com country list only"
+     ],
+     "likely_competitor": true,
+     "distance_note": "Warehouse in Barcelona; product from FR",
+     "notes": "LIKELY COMPETITOR: SNF Ibérica will bid directly. HQ SNF SA: +33 4 77 36 86 00, info@snf.com"
+    },
+    {
+     "rank": 3,
+     "company": "Solenis Technologies Germany GmbH (Praestol / Zetag)",
+     "country": "Germany / UK",
+     "city": "Krefeld",
+     "plant": "Fütingsweg 20, D-47805 Krefeld",
+     "grades": [
+      "Praestol cationic powders and emulsions",
+      "Zetag (Bradford UK)"
+     ],
+     "reach": "EU manufacturer (Krefeld); company statement only",
+     "eu_refs": "Plant in Krefeld (flocculants, about 200 staff); Bradford UK plant also NSF-listed",
+     "site": "https://www.solenis.com/en/the-solenis-way/global-footprint/eu-krefeld",
+     "email": "kbusam@solenis.com (plant manager, not sales)",
+     "phone": null,
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "solenis.com plant page only"
+     ],
+     "sources_phone": [],
+     "likely_competitor": false,
+     "distance_note": "Krefeld to Palma: about 1,700 km by truck plus ferry",
+     "notes": "Sales go through the web form; may be a competitor in some tenders. Consider as an OEM/private-label source"
+    },
+    {
+     "rank": 4,
+     "company": "Kemira (Superfloc / Sedifloc)",
+     "country": "Finland / Netherlands / Spain",
+     "city": "Helsinki; PAM plants incl. Botlek (NL)",
+     "plant": null,
+     "grades": [
+      "Superfloc C-xxxx cationic powders",
+      "Superfloc 7000 CEPAM emulsions"
+     ],
+     "reach": "EU manufacturer (company statement)",
+     "eu_refs": "Major EU utility supplier; Kemira Ibérica (Tarragona)",
+     "site": "https://www.kemira.com/products/chemical-flocculants",
+     "email": null,
+     "phone": null,
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [],
+     "sources_phone": [],
+     "likely_competitor": true,
+     "distance_note": "Plants in NL/FI; local Spanish entity",
+     "notes": "LIKELY COMPETITOR. No verified contact collected; use the web form"
+    },
+    {
+     "rank": 5,
+     "company": "Beijing Hengju Chemical Group (benchmark, China)",
+     "country": "China",
+     "city": "Beijing (Tongzhou); plants in Beijing / Shanghai / Henan",
+     "plant": null,
+     "grades": [
+      "Cationic PAM powder (full charge range)"
+     ],
+     "reach": "Unknown (an EU OR is needed for monomers in polymer >2%)",
+     "eu_refs": "One of the largest PAM producers in Asia; exports to 70 countries",
+     "site": "http://www.hengju.com.cn/en",
+     "email": "info@hengju.com.cn",
+     "phone": "+86 10 80589588",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "company site only"
+     ],
+     "sources_phone": [
+      "company site only"
+     ],
+     "likely_competitor": false,
+     "distance_note": "China to Valencia/Barcelona: about 35-45 days by sea",
+     "notes": "PRICE BENCHMARK ONLY; EMAYA is Spanish and not bound by the Italian origin rule, but the 40%-weighted trial favours a local producer"
+    }
+   ]
+  },
+  {
+   "product": "Cationic polyacrylamide inverse EMULSION (>45% active, charge >20%)",
+   "tenders": [
+    "TED 789637-2026 CIIP Marche (Italy), 170.5 t/yr, reference 4.20 EUR/kg DDP, deadline 16.12.2026",
+    "TED 777145-2026 Aquanet Poznań (Poland), emulsion flocculant 460 t, deadline 23.11.2026"
+   ],
+   "suppliers": [
+    {
+     "rank": 1,
+     "company": "Solenis Technologies Germany GmbH (Praestol emulsions)",
+     "country": "Germany",
+     "city": "Krefeld",
+     "plant": "Krefeld",
+     "grades": [
+      "Praestol cationic emulsions"
+     ],
+     "reach": "EU manufacturer (company statement)",
+     "eu_refs": "Krefeld plant (since 1907, about 200 staff) produces flocculants",
+     "site": "https://www.solenis.com/en/the-solenis-way/global-footprint/eu-krefeld",
+     "email": "kbusam@solenis.com (plant manager)",
+     "phone": null,
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "solenis.com only"
+     ],
+     "sources_phone": [],
+     "likely_competitor": false,
+     "distance_note": "Krefeld to Poznań about 750 km by truck (closest non-SNF EU producer for Aquanet); Krefeld to Marche about 1,250 km",
+     "notes": "Confirm the active content is ≥45% (Italian spec). Sales enquiry through the web form"
+    },
+    {
+     "rank": 2,
+     "company": "Derypol S.A.",
+     "country": "Spain",
+     "city": "Les Franqueses del Vallès (Barcelona)",
+     "plant": null,
+     "grades": [
+      "HybriX FIX175/440/875/9535/9940 cationic emulsions",
+      "DW1032 cationic emulsion"
+     ],
+     "reach": "EU polymer manufacturer (polymers exempt; NSF listed)",
+     "eu_refs": "See the EMAYA entry",
+     "site": "https://www.derypol.com/en/",
+     "email": "info@derypol.com",
+     "phone": "+34 93 238 90 90",
+     "verified": {
+      "email": true,
+      "phone": true
+     },
+     "sources_email": [
+      "https://www.derypol.com/en/contact/",
+      "https://empresite.eleconomista.es/DERYPOL.html"
+     ],
+     "sources_phone": [
+      "https://www.derypol.com/en/contact/",
+      "https://empresite.eleconomista.es/DERYPOL.html"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Barcelona to Marche about 1,400 km (truck, or ferry to Civitavecchia); to Poznań about 2,300 km",
+     "notes": "Must confirm the % active (HybriX is a hybrid emulsion/dispersion, so check it is ≥45% active) and the charge. EU origin, so it passes the Italian origin rule"
+    },
+    {
+     "rank": 3,
+     "company": "SNF Italia S.r.l. / SNF Polska Sp. z o.o. (SNF Group)",
+     "country": "France (production) / Italy / Poland",
+     "city": "Varedo (MB) / Warsaw",
+     "plant": null,
+     "grades": [
+      "FLOPAM EM 640/840/9xx cationic emulsions"
+     ],
+     "reach": "EU manufacturer (SNF SA)",
+     "eu_refs": "Over 50% share of the Italian market (SNF Italia statement)",
+     "site": "https://www.snf.com/locations/it/",
+     "email": "info@snfitalia.it (Italy); biuro@snfpolska.pl (Poland)",
+     "phone": "+39 0362 36151 (Italy); +48 22 649 71 50 (Poland)",
+     "verified": {
+      "email": true,
+      "phone": true
+     },
+     "sources_email": [
+      "https://www.snf.com/locations/pl/contact",
+      "https://cavaexpotech.it/soci/snf-italia-srl/",
+      "https://www.koronajv.pl/kontakt.html"
+     ],
+     "sources_phone": [
+      "https://www.snf.com/locations/pl/contact",
+      "https://cavaexpotech.it/soci/snf-italia-srl/",
+      "https://www.koronajv.pl/"
+     ],
+     "likely_competitor": true,
+     "distance_note": "Product from Andrézieux (FR); warehouses in Varedo (2,800 t)",
+     "notes": "LIKELY COMPETITOR in both CIIP and Aquanet; the reference prices are probably SNF-based"
+    },
+    {
+     "rank": 4,
+     "company": "Kemira (Superfloc 7000 CEPAM)",
+     "country": "Finland / Netherlands / Poland",
+     "city": "Helsinki / Botlek",
+     "plant": null,
+     "grades": [
+      "Superfloc 7000 series cationic emulsions"
+     ],
+     "reach": "EU manufacturer",
+     "eu_refs": "Large utility supplier in PL/IT",
+     "site": "https://www.kemira.com/products/chemical-flocculants",
+     "email": null,
+     "phone": null,
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [],
+     "sources_phone": [],
+     "likely_competitor": true,
+     "distance_note": "EU plants",
+     "notes": "LIKELY COMPETITOR; no verified contact"
+    },
+    {
+     "rank": 5,
+     "company": "CHIMI ART (Egypt) — NOT a manufacturer of emulsions",
+     "country": "Egypt",
+     "city": "Giza",
+     "plant": null,
+     "grades": [
+      "ARTFLOC L 53 H (≥30% active, French-made)"
+     ],
+     "reach": "n/a",
+     "eu_refs": "Resells a French-made emulsion, i.e. acts as a trader",
+     "site": "https://www.chimiart.com",
+     "email": "sales@chimiart.com",
+     "phone": "+20 2 2528 6322",
+     "verified": {
+      "email": false,
+      "phone": true
+     },
+     "sources_email": [
+      "company site"
+     ],
+     "sources_phone": [
+      "company site",
+      "aquaenergyexpo"
+     ],
+     "likely_competitor": false,
+     "distance_note": "n/a",
+     "notes": "EXCLUDE as a source: a trader for emulsions, and 30% active < 45%"
+    }
+   ]
+  },
+  {
+   "product": "Granular activated carbon, virgin, MINERAL (coal) origin, drinking water EN 12915-1",
+   "tenders": [
+    "TED 743168-2026 HERA S.p.A. (Pontelagoscuro WTP, Ferrara), about 225 t, supply and installation in 16 filters, deadline 01.12.2026 (ANAC: est. 700,000 EUR)"
+   ],
+   "suppliers": [
+    {
+     "rank": 1,
+     "company": "Norit Italia S.p.A. (Norit group, ex-Cabot Norit)",
+     "country": "Italy (group plants NL/US/UK)",
+     "city": "Ravenna",
+     "plant": "Via Armando Negrini 9, 48123 Ravenna",
+     "grades": [
+      "NORIT GAC (coal-based, e.g. GAC 830/1240 series) and reactivated GAC"
+     ],
+     "reach": "Norit Nederland B.V. is an EU producer (company statement); not verified in ECHA",
+     "eu_refs": "Ravenna site: reactivation plus virgin GAC sales; ISO 9001/14001/45001; 2024 revenue about 16 M EUR. Virgin coal GAC comes from NL (Klazienaveen) or the USA; both are acceptable origins (EU / WTO-GPA)",
+     "site": "https://norit.com",
+     "email": "norit-italia@norit.com",
+     "phone": "+39 0544 451514 (directory) / +39 0544 519511 (registry) — conflicting",
+     "verified": {
+      "email": true,
+      "phone": false
+     },
+     "sources_email": [
+      "https://www.industrychemistry.com/aziende/norit-italia-spa",
+      "https://www.assorisorse.org/chi-siamo/associate/norit-italia-spa"
+     ],
+     "sources_phone": [
+      "industrychemistry.com (+39 0544 451514)",
+      "topaziende.quotidiano.net (0544 519511), which does not match"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Ravenna to Ferrara about 75 km. The closest possible; Norit Italia can also handle filter change-out and installation",
+     "notes": "May bid itself; ask for an OEM/subcontract price. Norit EMEA HQ Amersfoort: info.emea@norit.com, +31 33 464 8911 (norit.com only)"
+    },
+    {
+     "rank": 2,
+     "company": "CarboTech AC GmbH",
+     "country": "Germany",
+     "city": "Essen",
+     "plant": "Elisenstr. 119, 45139 Essen",
+     "grades": [
+      "Coal-based (hard coal) GAC for drinking water; reactivation"
+     ],
+     "reach": "EU producer (Essen); company statement",
+     "eu_refs": "Produces activated carbon from hard coal in Essen since 1956; IFAT 2026 exhibitor",
+     "site": "https://www.carbotech.de/en",
+     "email": "info@carbotech.de",
+     "phone": "+49 201 2489 900",
+     "verified": {
+      "email": true,
+      "phone": true
+     },
+     "sources_email": [
+      "https://www.carbotech.de/en/contact/",
+      "https://gasworlddirectory.com/directory/carbotech-ac-gmbh/60898.details"
+     ],
+     "sources_phone": [
+      "https://www.carbotech.de/en/imprint",
+      "https://exhibitors.ifat.de (CarboTech AC GmbH)",
+      "gasworlddirectory"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Essen to Ferrara about 1,000 km by truck (big bags or silo)",
+     "notes": "German mineral-coal GAC fits the 'origine minerale' requirement exactly. Sales: sales@carbotech.de"
+    },
+    {
+     "rank": 3,
+     "company": "Grand Activated Sp. z o.o. (ex-Gryfskand plant)",
+     "country": "Poland",
+     "city": "Hajnówka",
+     "plant": "ul. Białostocka 1, 17-200 Hajnówka",
+     "grades": [
+      "Steam-activated GAC from Polish hard coal; regeneration"
+     ],
+     "reach": "EU producer; not verified in ECHA",
+     "eu_refs": "Coal-based activated carbon made from Polish hard coal",
+     "site": "https://grand-activated.pl",
+     "email": "trade@grand-activated.pl",
+     "phone": "+48 695 396 087",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "https://grand-activated.pl/index.php/kontakt"
+     ],
+     "sources_phone": [
+      "https://grand-activated.pl/index.php/kontakt"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Hajnówka to Ferrara about 1,600 km",
+     "notes": "Check EN 12915-1 compliance, iodine number and capacity for 225 t; second phone +48 693 391 821"
+    },
+    {
+     "rank": 4,
+     "company": "SICAV S.p.A.",
+     "country": "Italy",
+     "city": "(site in Italy)",
+     "plant": null,
+     "grades": [
+      "Virgin GAC; thermal reactivation"
+     ],
+     "reach": "Unknown",
+     "eu_refs": "Italian producer/reactivator (15 staff), ISO 9001/14001, EMAS",
+     "site": "https://www.sicavsrl.com",
+     "email": "m.cimini@sicavspa.com (Sales Manager)",
+     "phone": null,
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "sicavsrl.com only"
+     ],
+     "sources_phone": [],
+     "likely_competitor": false,
+     "distance_note": "Italy (location to confirm)",
+     "notes": "Small; likely re-sells imported virgin coal GAC, so check the origin"
+    },
+    {
+     "rank": 5,
+     "company": "Chemviron (Kuraray / Calgon Carbon) — Filtrasorb",
+     "country": "Belgium / Italy",
+     "city": "Feluy (BE); reactivation in Legnago (IT)",
+     "plant": null,
+     "grades": [
+      "FILTRASORB coal-based GAC"
+     ],
+     "reach": "EU entity of Kuraray",
+     "eu_refs": "Coal GAC is made in the USA/Japan (WTO-GPA origins, acceptable)",
+     "site": "https://www.chemviron.eu",
+     "email": null,
+     "phone": null,
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [],
+     "sources_phone": [],
+     "likely_competitor": true,
+     "distance_note": "Legnago (VR) is about 60 km from Ferrara",
+     "notes": "LIKELY COMPETITOR in Italian GAC tenders; no verified contact collected"
+    },
+    {
+     "rank": 6,
+     "company": "Ningxia Huahui Environmental Technology Co. (benchmark, China)",
+     "country": "China",
+     "city": "Yinchuan, Ningxia",
+     "plant": null,
+     "grades": [
+      "Coal-based GAC (water treatment), 35-40 kt/yr"
+     ],
+     "reach": "Unknown",
+     "eu_refs": "PRICE BENCHMARK ONLY. China-origin goods risk rejection under the Italian >50% third-country rule",
+     "site": "http://www.huahui-carbon.com/?lang=en",
+     "email": "info@huahui-carbon.com",
+     "phone": "+86 951 5070220",
+     "verified": {
+      "email": false,
+      "phone": true
+     },
+     "sources_email": [
+      "huahui-carbon.com (info@); the e-nxtrade directory lists nxhhhxt@nxftp.com instead"
+     ],
+     "sources_phone": [
+      "huahui-carbon.com",
+      "https://e-nxtrade.com/en/supplier/homepage/id/24"
+     ],
+     "likely_competitor": false,
+     "distance_note": "China to Ravenna about 35-40 days",
+     "notes": "Benchmark only"
+    }
+   ]
+  },
+  {
+   "product": "Aluminium chloride solution (58-60 g Al/kg, DIN EN 17034)",
+   "tenders": [
+    "TED 749715-2026 Münster (Germany), 526 t/yr, deadline 30.11.2026"
+   ],
+   "suppliers": [
+    {
+     "rank": 1,
+     "company": "Richard Steinebach GmbH & Co. KG (Wocklum Gruppe)",
+     "country": "Germany",
+     "city": "Lüdenscheid",
+     "plant": "Lösenbacher Landstraße 170, 58509 Lüdenscheid",
+     "grades": [
+      "Steinfloc 060 aluminium chloride solution",
+      "Steinfloc 060 + Fe",
+      "PAC, sodium aluminate"
+     ],
+     "reach": "wlw.de product listing: own production in Lüdenscheid, ISO 9001, 'REACH-Konformität' (company statement)",
+     "eu_refs": "Supplies municipal WWTPs; own tanker fleet",
+     "site": "https://www.steinebach-chemikalien.de",
+     "email": "info@steinebach-chemikalien.de",
+     "phone": "+49 2351 78830",
+     "verified": {
+      "email": false,
+      "phone": true
+     },
+     "sources_email": [
+      "https://www.steinebach-chemikalien.de/kontakt",
+      "https://www.steinebach-chemikalien.de/impressum (same domain)"
+     ],
+     "sources_phone": [
+      "https://www.steinebach-chemikalien.de/kontakt",
+      "https://www.regiomanager.de/unternehmen/richard-steinebach-gmbh-und-co-kg"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Lüdenscheid to Münster about 100 km; the closest independent producer",
+     "notes": "Steinfloc 060 is presumably 6.0% Al (60 g/kg); confirm with the TDS. Sales: Isabell Schapendonk +49 2351 788317 schapendonk@..., Sabine Liebig +49 2351 788328 liebig@...; MD Holger Tschech tschech@steinebach-chemikalien.de"
+    },
+    {
+     "rank": 2,
+     "company": "ALUCOM AG (ex-Giulini, VTA group)",
+     "country": "Germany",
+     "city": "Ludwigshafen",
+     "plant": "Giulinistraße 2, 67065 Ludwigshafen",
+     "grades": [
+      "GILUFLOC (poly)aluminium chlorides",
+      "aluminium sulphate, sodium aluminate"
+     ],
+     "reach": "EU producer (company statement)",
+     "eu_refs": "One of Germany's largest producers of aluminium compounds; ISO 9001/14001/45001/50001",
+     "site": "https://www.alucom.de",
+     "email": "office@alucom.de",
+     "phone": "+49 621 76 02 03-00",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "alucom.de only (contact page, impressum)"
+     ],
+     "sources_phone": [
+      "alucom.de only"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Ludwigshafen to Münster about 330 km",
+     "notes": "Confirm it has a straight AlCl3 type (not only PAC) at 58-60 g Al/kg. Sales Water & Paper (per ContactOut): Klaus Ibach (no verified email)"
+    },
+    {
+     "rank": 3,
+     "company": "Chemische Fabrik Kalk GmbH (K+S)",
+     "country": "Germany",
+     "city": "Köln",
+     "plant": null,
+     "grades": [
+      "Aluminiumchlorid-Lösung C NB: 6.0±0.3% Al, DIN EN 17034 Type 1"
+     ],
+     "reach": "K+S group; not verified",
+     "eu_refs": "Exact spec match (6.0% Al = 60 g/kg)",
+     "site": "https://www.cfk-gmbh.com/en-us/products/aluminum-chloride-solution",
+     "email": "vera.raschdorf@k-plus-s.com (Product Manager)",
+     "phone": "+49 221 8296 418",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "cfk-gmbh.com product page only"
+     ],
+     "sources_phone": [
+      "cfk-gmbh.com product page; TDS PDF switchboard +49 221 8296-1"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Köln to Münster about 150 km",
+     "notes": "Probably a DISTRIBUTOR (warehouse in Köln-Klettenberg, no production site named), so ask who the producer is. Kept only because the spec matches exactly"
+    },
+    {
+     "rank": 4,
+     "company": "Kemira Chemicals Germany GmbH",
+     "country": "Germany",
+     "city": "Frankfurt (sales); Dormagen plant (Al salts), Rheinberg (Fe salts)",
+     "plant": null,
+     "grades": [
+      "PAX / AlCl3 solutions"
+     ],
+     "reach": "EU producer",
+     "eu_refs": "Kemira is buying Sidra Wasserchemie (Ibbenbüren) (Bundeskartellamt B3-40/26)",
+     "site": "https://www.kemira.com/de/unternehmen",
+     "email": null,
+     "phone": null,
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [],
+     "sources_phone": [],
+     "likely_competitor": true,
+     "distance_note": "Dormagen to Münster about 140 km",
+     "notes": "LIKELY COMPETITOR (probably the incumbent or a bidder)"
+    },
+    {
+     "rank": 5,
+     "company": "Feralco Deutschland GmbH",
+     "country": "Germany",
+     "city": "Nienburg (HQ); plants in Ibbenbüren, Duisburg, Schwarzheide",
+     "plant": null,
+     "grades": [
+      "Al-based coagulants, PAC"
+     ],
+     "reach": "EU producer",
+     "eu_refs": "Ibbenbüren plant is about 45 km from Münster",
+     "site": "https://feralco-magazin.com/en/standorte",
+     "email": null,
+     "phone": null,
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [],
+     "sources_phone": [],
+     "likely_competitor": true,
+     "distance_note": "Ibbenbüren to Münster about 45 km",
+     "notes": "LIKELY COMPETITOR (likely incumbent)"
+    }
+   ]
+  },
+  {
+   "product": "Oilfield CO2 (sweet) corrosion inhibitor, batch dosing, gas-condensate wells",
+   "tenders": [
+    "Prozorro UA-2026-11-12-011069-a, Ukrnafta (PNGVU/Poltavanaftogaz), 20 t, budget 3.08 M UAH excl. VAT, deadline 01.12.2026 12:00; auction 02.12; spec: density 0.80-1.15, pH 4-8.5, pour point ≤ -25 °C, ≥80% protection at 60 °C in NACE/field brine at 100-160 g/1000 m3, soluble in condensate and methanol, stable ≥100 °C, 12-month shelf life; needs SDS from the actual producer and one similar contract"
+   ],
+   "suppliers": [
+    {
+     "rank": 1,
+     "company": "PACHEMTECH Sp. z o.o.",
+     "country": "Poland",
+     "city": "Płock",
+     "plant": "ul. Kobiałka 7a, 09-411 Płock",
+     "grades": [
+      "UKR_129_20 corrosion inhibitor-demulsifier for high-salinity gas-condensate wells (CO2/H2S/Cl), pour point < -30 °C",
+      "other CI, hydrate/paraffin inhibitors"
+     ],
+     "reach": "EU formulator (mixtures; components registered upstream). Not verified",
+     "eu_refs": "Own production installation in the Płock Industrial-Technological Park (Orlen PPPT); an R&D project on corrosion inhibitors (NCBR POIR.01.01.01-00-0377/17); a Ukrainian-language product page aimed at UA gas-condensate wells; 2023 revenue 12.5 M PLN",
+     "site": "https://www.pachemtech.eu/en",
+     "email": "biuro@pachemtech.eu",
+     "phone": "+48 24 367 2500",
+     "verified": {
+      "email": false,
+      "phone": true
+     },
+     "sources_email": [
+      "Orlen PPPT company leaflet (pppt.orlen.pl), only one source; the site hides the email"
+     ],
+     "sources_phone": [
+      "https://www.pachemtech.eu/en/about-us/registry-information",
+      "https://mapa.targeo.pl/pachemtech-kobialka-7a-09-411-plock~13171623",
+      "Orlen PPPT leaflet"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Płock to Poltava region: about 1,300 km by truck via Yahodyn/Rava-Ruska",
+     "notes": "Best fit: the product is designed for Ukrainian gas-condensate wells. Directors: Roman.Kempinski@pachemtech.eu, Danuta.Kempinska@pachemtech.eu, +48 24 367 2504 (site only)"
+    },
+    {
+     "rank": 2,
+     "company": "Lamberti S.p.A. (Energy Solutions)",
+     "country": "Italy",
+     "city": "Gallarate (HQ); plants in Albizzate etc.",
+     "plant": null,
+     "grades": [
+      "INICOR / CI corrosion inhibitor formulations and intermediates (imidazolines, phosphate esters, quats)"
+     ],
+     "reach": "EU manufacturer (company statement)",
+     "eu_refs": "Large Italian oilfield chemical maker",
+     "site": "https://www.lamberti.com/our-markets/energy-solutions/Oil-and-Gas/Production-Chemicals.html",
+     "email": "pc@lamberti.com",
+     "phone": "+39 0331 715111",
+     "verified": {
+      "email": false,
+      "phone": true
+     },
+     "sources_email": [
+      "lamberti.com O&G page (pc@); the industrychemistry directory lists lamberti@lamberti.com"
+     ],
+     "sources_phone": [
+      "https://www.lamberti.com/contacts-list.html",
+      "https://www.industrychemistry.com/aziende/lamberti-spa"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Northern Italy to Poltava about 2,300 km",
+     "notes": "Ask for a CO2-batch CI that is condensate/methanol soluble with pour point ≤ -25 °C"
+    },
+    {
+     "rank": 3,
+     "company": "Versalis Oilfield Solutions S.r.l. (Eni group)",
+     "country": "Italy",
+     "city": "San Donato Milanese",
+     "plant": null,
+     "grades": [
+      "Versalis e® cori corrosion inhibitors"
+     ],
+     "reach": "EU (Eni/Versalis)",
+     "eu_refs": "Eni group oilfield chemicals",
+     "site": "https://versalis-oilfield.com",
+     "email": "info@versalis-oilfield.com",
+     "phone": "+39 02 5201",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "Versalis 2025 brochure PDF only"
+     ],
+     "sources_phone": [
+      "brochure only"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Milan to Poltava about 2,300 km",
+     "notes": "Large group; slower to quote for 20 t"
+    },
+    {
+     "rank": 4,
+     "company": "TOV Ukrpromhimteh",
+     "country": "Ukraine",
+     "city": "Chaiky (Kyiv oblast)",
+     "plant": null,
+     "grades": [
+      "SE-231-K corrosion inhibitor series (hydrocarbon-, alcohol- and water-soluble)"
+     ],
+     "reach": "n/a (domestic)",
+     "eu_refs": "Domestic option; whether it actually produces in-house is UNVERIFIED",
+     "site": "https://ukrpromhimteh.com",
+     "email": "ukrpromhimteh@gmail.com",
+     "phone": "+38 066 949 01 52",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "company site only"
+     ],
+     "sources_phone": [
+      "company site only"
+     ],
+     "likely_competitor": false,
+     "distance_note": "Local (about 350 km to Poltava)",
+     "notes": "Probably a competitor or a small formulator; check that it is the producer"
+    },
+    {
+     "rank": 5,
+     "company": "Dorf Ketal Chemicals (benchmark, India)",
+     "country": "India",
+     "city": "Mumbai / Mundra",
+     "plant": null,
+     "grades": [
+      "Oilfield corrosion inhibitors (sweet/sour)"
+     ],
+     "reach": "Dorf Ketal B.V. in NL (office.europe@dorfketal.com, +31 40 798 6141)",
+     "eu_refs": "Global oilfield producer; price benchmark",
+     "site": "https://dorfketal.com",
+     "email": "queries.india@dorfketal.com",
+     "phone": "+91 22 4297 4777",
+     "verified": {
+      "email": false,
+      "phone": false
+     },
+     "sources_email": [
+      "dorfketal.com only"
+     ],
+     "sources_phone": [
+      "dorfketal.com only"
+     ],
+     "likely_competitor": false,
+     "distance_note": "India to Odesa/Constanța by sea",
+     "notes": "Benchmark; Ukrainian rules do not restrict India origin"
+    }
+   ]
+  }
+ ]
+}
