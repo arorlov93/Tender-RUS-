@@ -220,5 +220,48 @@
    "our_landed": "polyDADMAC ~1100–1300 (оценка)",
    "local": "Кения ELDOWAS 2024 3440–4540"
   }
- }
+ },
+ "batch5_local_mena": [
+  {
+   "to": "albar@albarkimya.com",
+   "msg": "1a1e1445b5d58685"
+  },
+  {
+   "to": "info@abacigroup.com",
+   "msg": "1a1e1445d6e43008"
+  },
+  {
+   "to": "info@shaswatertech.com",
+   "msg": "1a1e1445e8f840fb"
+  },
+  {
+   "to": "info@alsanea.com",
+   "msg": "1a1e14460555c5e8"
+  },
+  {
+   "to": "info@maskatigroup.com",
+   "msg": "1a1e1446281b4ebb"
+  },
+  {
+   "to": "prochem@batelco.com.bh",
+   "msg": "1a1e14465d6ac8e6"
+  },
+  {
+   "to": "info@fr-trading.net",
+   "msg": "1a1e14466e3ca0e0"
+  },
+  {
+   "to": "sales@universal.com.tn",
+   "msg": "1a1e14469ccac7a2"
+  },
+  {
+   "to": "cpcm@cpcm.ma",
+   "msg": "1a1e1446b4fd6c6e"
+  },
+  {
+   "to": "sales@bcci-jo.com",
+   "msg": "1a1e1446d600ab45"
+  }
+ ],
+ "daily_count_1511": 41
 }
