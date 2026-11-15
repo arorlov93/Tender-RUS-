@@ -47,7 +47,8 @@
    33,
    36,
    45,
-   46
+   46,
+   47
   ],
   "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/"
@@ -834,6 +835,84 @@
    "sources": [
     "https://api.ted.europa.eu/v3/notices/search (733035-2026, 398969-2025, 467715-2026)",
     "https://www.eprocurement.gov.cy/epps/cft/listContractDocuments.do?resourceId=9352824"
+   ]
+  },
+  {
+   "id": 47,
+   "n": "Edital 038/2026 (PNCP 19116243000118-1-000121/2026)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.portaldecompraspublicas.com.br/processos/MG/Servico-Autonomo-de-Agua-e-Esgoto-Saae-de-Bocaiuva-5525/RPE-038-2026-2026-523191",
+    "https://pncp.gov.br/app/editais/19116243000118/2026/121"
+   ],
+   "items": [
+    {
+     "product": "Hipoclorito de cálcio em pastilhas (таблетки гипохлорита кальция)",
+     "spec": "Ca(OCl)2; полное описание в edital (усечено на портале)",
+     "qty": 280,
+     "unit": "kg",
+     "qty_t": 0.28,
+     "qty_basis": "SRP 12 мес.; реф. 45,00 BRL/кг"
+    },
+    {
+     "product": "Hipoclorito de cálcio 65% granulado hidratado",
+     "spec": "Ca(OCl)2 65%, CAS 7778-54-3, гранулы",
+     "qty": 14265,
+     "unit": "kg",
+     "qty_t": 14.265,
+     "qty_basis": "SRP; реф. 36,00 BRL/кг"
+    },
+    {
+     "product": "Ácido fluossilícico (H2SiF6)",
+     "spec": "CAS 16961-83-4, жидкость",
+     "qty": 10000,
+     "unit": "L",
+     "qty_t": 12.0,
+     "qty_basis": "SRP; реф. 4,50 BRL/л; т — estimate при плотности ~1,2"
+    },
+    {
+     "product": "Sulfato de alumínio ferroso sólido granulado",
+     "spec": "твёрдый гранулированный",
+     "qty": 75000,
+     "unit": "kg",
+     "qty_t": 75,
+     "qty_basis": "SRP; реф. 2,45 BRL/кг"
+    }
+   ],
+   "total_qty_t": 101.5,
+   "contract_period": "Ata de registro de preços (SRP), обычно 12 мес.",
+   "delivery_terms": "Доставка на ETA SAAE Bocaiúva (MG); детали в edital/termo de referência (не открыт)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Pregão eletrônico (Lei 14.133/2021) на Portal de Compras Públicas; требуется бразильская регистрация/CNPJ; португальский",
+   "award_criteria": "Menor preço по позициям, открытый режим",
+   "estimated_value": {
+    "amount": 754890,
+    "currency": "BRL",
+    "per_lot": "гипохлорит гранулы 513 540; сульфат Al-Fe 183 750; H2SiF6 45 000; таблетки 12 600 BRL"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Референтная цена заказчика: гипохлорит кальция 65% гранулы",
+     "unit_price": 36000,
+     "currency_per": "BRL/t",
+     "year": 2026,
+     "source_url": "https://www.portaldecompraspublicas.com.br/processos/MG/Servico-Autonomo-de-Agua-e-Esgoto-Saae-de-Bocaiuva-5525/RPE-038-2026-2026-523191"
+    },
+    {
+     "what": "Референтная цена: сульфат алюминия-железа твёрдый гранулированный",
+     "unit_price": 2450,
+     "currency_per": "BRL/t",
+     "year": 2026,
+     "source_url": "https://www.portaldecompraspublicas.com.br/processos/MG/Servico-Autonomo-de-Agua-e-Esgoto-Saae-de-Bocaiuva-5525/RPE-038-2026-2026-523191"
+    }
+   ],
+   "feasibility_ru": "Низкая: SAAE Bocaiúva (MG) — нужно бразильское юрлицо и местная доставка; интересна позиция гипохлорита кальция 65% (14,3 т, реф. 36 BRL/кг ≈ 6,4 тыс. USD/т — высокая цена; китайский продукт), но объём мал. Срок 23.11.2026 08:59.",
+   "risks_ru": "Импорт гипохлорита кальция (опасный груз класс 5.1) мелкой партией; требования ANVISA/INMETRO не проверены.",
+   "sources": [
+    "https://pncp.gov.br/api/consulta/v1/contratacoes/proposta?dataFinal=20261130&codigoModalidadeContratacao=6&cnpj=19116243000118&pagina=1",
+    "https://www.portaldecompraspublicas.com.br/processos/MG/Servico-Autonomo-de-Agua-e-Esgoto-Saae-de-Bocaiuva-5525/RPE-038-2026-2026-523191"
    ]
   }
  ]
