@@ -5,8 +5,17 @@
   "fx_note": "USD rates from fx_usd_1511.json (exchangerate-api 15.11.2026): KZT 445.07, EUR 0.906, INR 94.26, UZS 11997, AZN 1.70, KWD 0.311, SEK 10.07, HUF 330.8, PLN 3.99, BDT 124.6",
   "method": "Official notices/docs opened where reachable; zakup.sk.kz data via site XHR (Playwright) + open file-storage endpoint; Samruk benchmark = planned unit price (без НДС) in consolidated annual plan rows with executed/signed contracts (not the award price). Null = not found.",
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_cis/",
-  "n_tenders": 28,
-  "n_with_docs": 7
+  "n_tenders": 30,
+  "extras_note": "Записи с id extra_* — релевантные находки вне батча (Daleel 1131, Uz-Kor T-47/2026)",
+  "blocked_sources": [
+   "zakup.sk.kz API: прямые запросы curl/fetch → HTTP 418 (анти-бот заголовок tor); данные взяты из XHR сайта, файлы — через открытый /eprocfilestorage/open-api/files/download/",
+   "azerenerji.gov.az (ошибка загрузки/502), etender.gov.az (connection reset)",
+   "bidplus.gem.gov.in через curl (connection reset; получено через web_fetch только для HPCL)",
+   "platformazakupowa.pl (SSO-логин), e-avrop.com, EKR (Венгрия), albo-gare.ciip.it, marches-publics.info, clira.io, vergabe24.de — документы только после регистрации",
+   "contrataciondelestado.es: файлы pliegos отклонены WAF",
+   "KOC eBusiness: тендер не найден в открытом списке"
+  ],
+  "n_with_docs": 10
  },
  "tenders": [
   {
@@ -80,12 +89,83 @@
   },
   {
    "id": 35,
-   "n": "BidDetail 120495664",
-   "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "n": "GeM GEM/2026/B/8263951 (BidDetail 120495664)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10154210"
+   ],
+   "items": [
+    {
+     "product": "Corrosion & scale inhibitor",
+     "spec": "Buyer Specification Document (не скачан)",
+     "qty": 166500,
+     "unit": "кг",
+     "qty_t": 166.5,
+     "qty_basis": "GeM bid document",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Polymeric dispersant",
+     "spec": null,
+     "qty": 266400,
+     "unit": "кг",
+     "qty_t": 266.4,
+     "qty_basis": "GeM",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Non-oxidising biocide",
+     "spec": null,
+     "qty": 19980,
+     "unit": "кг",
+     "qty_t": 19.98,
+     "qty_basis": "GeM",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Oil dispersant",
+     "spec": null,
+     "qty": 3330,
+     "unit": "кг",
+     "qty_t": 3.33,
+     "qty_basis": "GeM",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Oxidizing biocide",
+     "spec": null,
+     "qty": 33300,
+     "unit": "кг",
+     "qty_t": 33.3,
+     "qty_basis": "GeM",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": 489.51,
+   "contract_period": "поставка в течение 365 дней; опцион ±25%",
+   "delivery_terms": "HPCL Visakh Refinery, Refinery Warehouse, Malkapuram, Visakhapatnam 530011; оплата в течение 15 дней после CRAC",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD не требуется; ePBG 5% на 18 мес.",
+   "eligibility_foreign": "Индия: закупки PSU через GeM/CPPP под Public Procurement (Make in India) Order 2017 — как правило к участию допускаются только Class-1/Class-2 local suppliers (≥50%/≥20% local content); иностранный трейдер (ISP) не допускается; поставщики из стран с сухопутной границей с Индией (Китай) — только с регистрацией в Competent Authority (GeM GTC п.26). В этой заявке прямо: «Only Class-I and Class-II Local suppliers… Non-Local suppliers are not eligible to participate»; требуются опыт и оборот (Experience Criteria, Bidder Turnover)",
+   "award_criteria": "Two-packet; Total value wise evaluation; реверсивный аукцион (H1 исключается); MII-преференция L1+20% (до 50% объёма), MSE L1+15% (25%)",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Крупный объём (≈490 т/год: ингибитор коррозии/накипи 166,5 т + полимерный диспергатор 266,4 т) — профиль Kairui (фосфонаты/антискаланты) и Rimpro. ISP как нерезидент не допускается, но Rimpro India (индийский производитель, Class-1 local) может подать заявку сам на GeM — рекомендовать партнёру. Kairui-сырьё можно поставить Rimpro как компонент (≤50% импортного содержания для Class-1).",
+   "risks_ru": "Дедлайн 21.11.2026 17:00 IST; нужен опыт поставок PSU/НПЗ.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10154210",
+    "https://tenderimpulse.com/government-tenders/india/corrossion-scale-inhibitor-polymeric-dispersant-non-oxidising-biocide-oil-disper-16376143"
+   ]
   },
   {
    "id": 42,
@@ -293,57 +373,235 @@
   },
   {
    "id": 44,
-   "n": "BidDetail 120147996",
+   "n": "GeM GEM/2026/B/8227276 (BidDetail 120147996)",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58332873/e02fb99be64288531f34f84143984865 (перечень документов: ongc-specification-pc27_pac, test-procedure vol-IV, destination sampling method)"
+   ],
+   "items": [
+    {
+     "product": "Poly Aluminium Chloride (ONGC) (Q3)",
+     "spec": "ONGC specification PC27 (PAC) — файл указан агрегатором, не открыт",
+     "qty": 24650,
+     "unit": "ед. GeM (вероятно кг)",
+     "qty_t": 24.65,
+     "qty_basis": "агрегатор: «Quantity 24650»; единица не подтверждена — если кг, то 24,65 т",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": 24.65,
+   "contract_period": null,
+   "delivery_terms": "ONGC, Amreli (Gujarat)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Индия: закупки PSU через GeM/CPPP под Public Procurement (Make in India) Order 2017 — как правило к участию допускаются только Class-1/Class-2 local suppliers (≥50%/≥20% local content); иностранный трейдер (ISP) не допускается; поставщики из стран с сухопутной границей с Индией (Китай) — только с регистрацией в Competent Authority (GeM GTC п.26)",
+   "award_criteria": "GeM; детали в документе не открыты",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Малый объём PAC; только индийский Class-1 поставщик. Aierfuke (PAC) не может участвовать напрямую. Не для ISP.",
+   "risks_ru": "Дедлайн 23.11.2026 17:00 IST.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58332873/e02fb99be64288531f34f84143984865",
+    "https://tenderimpulse.com/government-tenders/india/poly-aluminium-chloride-ongc-16112394"
+   ]
   },
   {
    "id": 50,
-   "n": "BidDetail 119963361",
+   "n": "JKP Vodovod Kruševac — Poliakrilamid katjonski (BidDetail 119963361)",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://www.nabavke.com/javne-nabavke-tenderi-srbija/poliakrilamid-katjonski/jkp-vodovod-krusevac-krusevac/krusevac/3367497 (детали только для зарегистрированных)"
+   ],
+   "items": [
+    {
+     "product": "Катионный полиакриламид для водоканала Крушевац",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Сербия, Портал јавних набавки (jnportal.ujn.gov.rs) — не открыт; иностранные участники формально допускаются, сербский язык",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Объём неизвестен (вероятно малый, коммунальный водоканал). Опубл. 29.10.2026, срок 24.11.2026. Низкий приоритет.",
+   "risks_ru": "Нет данных по объёму.",
+   "sources": [
+    "https://www.nabavke.com/javne-nabavke-tenderi-srbija/poliakrilamid-katjonski/jkp-vodovod-krusevac-krusevac/krusevac/3367497"
+   ]
   },
   {
    "id": 51,
-   "n": "BidDetail 120213023",
-   "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "n": "GAIL/USAR/CNP/26-27/P44 (CPPP 2026_GAIL_294683_1; BidDetail 120213023)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://etenders.gov.in/eprocure/app (Tender ID 2026_GAIL_294683_1: Tendernotice_1.pdf, tendernew.pdf, BOQ_343494.xls — скачивание через CPPP)"
+   ],
+   "items": [
+    {
+     "product": "Molecular sieves + support balls",
+     "spec": "в tendernew.pdf (не скачан)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "BOQ не открыт",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Period of Work 168 дней",
+   "delivery_terms": "GAIL Petrochemical Complex, Usar, Alibag, Raigad 402203",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD 20 00 000 INR или 21 000 USD (освобождение для MSE разрешено)",
+   "eligibility_foreign": "Global Tender (мультивалютный BOQ: USD/EUR/GBP/JPY) — иностранные участники допускаются; преференции Make in India 20%, MSME 15%; ограничения для стран с сухопутной границей с Индией",
+   "award_criteria": "2 конверта (тех./фин.), bid validity 120 дней; BEC технические и финансовые критерии",
+   "estimated_value": {
+    "amount": null,
+    "currency": "INR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Глобальный тендер, но молекулярные сита для PDH — продукт лицензиара (UOP/Zeochem/Arkema) с референциями; у ISP нет поставщика. Не рекомендуется.",
+   "risks_ru": "Дедлайн 24.11.2026 14:00 IST (продлён).",
+   "sources": [
+    "http://www.etenders.gov.in/eprocure/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=SL%2FmJGqV0O8u2RPz7QpIfMeSJge%2FMOuBR%2BaAsI38I%2Bs4%3D"
+   ]
   },
   {
    "id": 52,
-   "n": "BidDetail 120584755",
+   "n": "BidDetail 120584755 (NEEPCO)",
    "docs_found": false,
    "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "items": [
+    {
+     "product": "Aluminium sulphate non-ferric IS 260",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Индия: закупки PSU через GeM/CPPP под Public Procurement (Make in India) Order 2017 — как правило к участию допускаются только Class-1/Class-2 local suppliers (≥50%/≥20% local content); иностранный трейдер (ISP) не допускается; поставщики из стран с сухопутной границей с Индией (Китай) — только с регистрацией в Competent Authority (GeM GTC п.26)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Квасцы IS 260 — индийский локальный товар; не для ISP. Официальный документ GeM не найден.",
+   "risks_ru": "Дедлайн 24.11.2026.",
+   "sources": [
+    "https://www.biddetail.com/global-tenders/"
+   ]
   },
   {
    "id": 64,
-   "n": "BidDetail 120486465",
+   "n": "GeM GEM/2026/B/8258741 (BidDetail 120486465, OPGC / Energy Dept Odisha)",
    "docs_found": false,
    "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "items": [
+    {
+     "product": "Desiccant, activated alumina",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Индия: закупки PSU через GeM/CPPP под Public Procurement (Make in India) Order 2017 — как правило к участию допускаются только Class-1/Class-2 local suppliers (≥50%/≥20% local content); иностранный трейдер (ISP) не допускается; поставщики из стран с сухопутной границей с Индией (Китай) — только с регистрацией в Competent Authority (GeM GTC п.26)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Активированный оксид алюминия для осушителей — малый объём; только Class-1/2 local. Не для ISP.",
+   "risks_ru": "Дедлайн 25.11.2026.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/india/dessicant-activated-alumina-16325062"
+   ]
   },
   {
    "id": 71,
-   "n": "BidDetail 120503084 (Lot-1) / 120503086 (Lot-2)",
-   "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "n": "Bangladesh e-GP Tender ID 1369228 (Lot-1) / BidDetail 120503086 (Lot-2)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?h=t&id=1369228",
+    "https://www.eprocure.gov.bd/LotPckDocs.jsp?tenderId=1369228 (документы — после регистрации e-GP, цена 2 500 BDT)"
+   ],
+   "items": [
+    {
+     "product": "Lot-1: Cationic Polyacrylamide (PAM) flocculant, Dasherkandi STP",
+     "spec": "по тендерной документации (не получена)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет в извещении",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "ориентировочно 24.12.2026 – 22.04.2027",
+   "delivery_terms": "DSTP, Dhaka WASA",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "Lot-1: 300 000 BDT (≈2 408 USD); действует до 23.04.2027",
+   "eligibility_foreign": "NCT (National Competitive Tendering) — фактически для бангладешских участников, зарегистрированных в e-GP; иностранная компания — только через местного агента/импортёра",
+   "award_criteria": "OTM, оценка по лотам (lot wise); валидность оферты до 26.03.2027",
+   "estimated_value": {
+    "amount": null,
+    "currency": "BDT",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Объём в извещении не указан (залог 300 тыс. BDT). CPAM китайского производства — возможен через бангладешского дистрибьютора. ISP напрямую не может (NCT, e-GP). Средний приоритет — искать местного партнёра.",
+   "risks_ru": "Дедлайн 26.11.2026 12:00 (Дакка).",
+   "sources": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?h=t&id=1369228"
+   ]
   },
   {
    "id": 80,
@@ -552,21 +810,77 @@
   },
   {
    "id": 93,
-   "n": "BidDetail 120535990",
+   "n": "BidDetail 120535990 (KPCL Yelahanka CCPP)",
    "docs_found": false,
    "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "items": [
+    {
+     "product": "Carbon molecular sieves для генератора азота",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Индия: закупки PSU через GeM/CPPP под Public Procurement (Make in India) Order 2017 — как правило к участию допускаются только Class-1/Class-2 local suppliers (≥50%/≥20% local content); иностранный трейдер (ISP) не допускается; поставщики из стран с сухопутной границей с Индией (Китай) — только с регистрацией в Competent Authority (GeM GTC п.26)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "CMS — не профиль ISP. Документ не найден.",
+   "risks_ru": "Дедлайн 30.11.2026.",
+   "sources": [
+    "https://www.biddetail.com/global-tenders/"
+   ]
   },
   {
    "id": 94,
-   "n": "BidDetail (aluminium-sulphate list)",
+   "n": "BidDetail (TGGENCO YTPS, aluminium sulphate list)",
    "docs_found": false,
    "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "items": [
+    {
+     "product": "Aluminium sulphate (alumino-ferric grade-4, IS 299) в мешках 25 кг",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Индия: закупки PSU через GeM/CPPP под Public Procurement (Make in India) Order 2017 — как правило к участию допускаются только Class-1/Class-2 local suppliers (≥50%/≥20% local content); иностранный трейдер (ISP) не допускается; поставщики из стран с сухопутной границей с Индией (Китай) — только с регистрацией в Competent Authority (GeM GTC п.26) (госзакупка штата Телангана)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Алюмо-железистые квасцы IS 299 — дешёвый индийский товар, импорт нерентабелен. Не для ISP. (Справочно: аналогичная закупка «Aluminium Sulphate Octadecahydrate (Alumino-Ferric gr-4)», Telangana, INR 32 985 000, срок 27.10.2026 — по tendernews.com.)",
+   "risks_ru": null,
+   "sources": [
+    "https://www.tendernews.com/tenders/latest-tender/alumino---ferric.html"
+   ]
   },
   {
    "id": 101,
@@ -702,21 +1016,79 @@
   },
   {
    "id": 110,
-   "n": "BidDetail 120537306",
+   "n": "GeM GEM/2026/B/8262664 (BidDetail 120537306)",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://tenderimpulse.com/government-tenders/india/poly-aluminium-chloride-powder-16414689"
+   ],
+   "items": [
+    {
+     "product": "IOCL: Poly Aluminium Chloride Powder",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Индия: закупки PSU через GeM/CPPP под Public Procurement (Make in India) Order 2017 — как правило к участию допускаются только Class-1/Class-2 local suppliers (≥50%/≥20% local content); иностранный трейдер (ISP) не допускается; поставщики из стран с сухопутной границей с Индией (Китай) — только с регистрацией в Competent Authority (GeM GTC п.26)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "PAC порошок — Aierfuke мог бы поставить, но GeM PSU = только индийский local supplier. Через индийского партнёра-производителя PAC маловероятно (импортный PAC не даёт local content). Не для ISP.",
+   "risks_ru": "Дедлайн 02.12.2026.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/india/poly-aluminium-chloride-powder-16414689"
+   ]
   },
   {
    "id": 122,
    "n": "GlobalTenders ref 150558914",
    "docs_found": false,
    "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "items": [
+    {
+     "product": "De Heus Kenya: Supply of Water Treatment Chemicals",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Частная закупка (по агрегатору); официальное извещение не найдено",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Нет официального источника; не оценивается. (Справочно в Кении: Nairobi City Water NCWSC/24/2026 «Supply & delivery of PAC», срок 20.11.2026 — https://tenders.go.ke/tenders/311774 — релевантно Aierfuke, но вне батча.)",
+   "risks_ru": null,
+   "sources": [
+    "https://www.globaltenders.com/tender-detail/supply-of-water-treatment-chemicals-efzJnBEydAy0W9Lh"
+   ]
   },
   {
    "id": 132,
@@ -850,28 +1222,170 @@
    "id": 140,
    "n": "GlobalTenders ref 150081927 / BidDetail 120211263",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://www.globaltenders.com/tender-detail/purchase-of-various-types-of-chemicals-caust-XtFF6kHnHseI5I9B",
+    "https://azerenerji.gov.az/index.php/tender-elanlari (страница отдаёт ошибку загрузки/502)",
+    "https://etender.gov.az (connection reset из этой среды)"
+   ],
+   "items": [
+    {
+     "product": "Caustic soda (liquid)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных (официальный источник недоступен)",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Hydrazine hydrate",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных (официальный источник недоступен)",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Carbonized oil and dirt remover",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных (официальный источник недоступен)",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Antiscalant",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных (официальный источник недоступен)",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Monoethylene glycol",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных (официальный источник недоступен)",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Ammonia solution",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных (официальный источник недоступен)",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Неизвестно (Азербайджан, вероятно etender.gov.az; иностранные участники обычно допускаются с регистрацией и оплатой участия)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Антискалант (Kairui) и гидразин-гидрат — профиль ISP для ТЭС Азерэнержи; объёмы неизвестны. Срок 11.12.2026 (по агрегатору, опубл. 05.11.2026). Рекомендация: получить пакет через etender.gov.az вручную (из браузера в АЗ/через партнёра).",
+   "risks_ru": "Официальный документ не получен — все параметры не подтверждены.",
+   "sources": [
+    "https://www.globaltenders.com/tender-detail/purchase-of-various-types-of-chemicals-caust-XtFF6kHnHseI5I9B"
+   ]
   },
   {
    "id": 141,
-   "n": "BidDetail 120584095",
+   "n": "GeM (BidDetail 120584095, NALCO Angul)",
    "docs_found": false,
    "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "items": [
+    {
+     "product": "Activated alumina for air dryers",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Индия: закупки PSU через GeM/CPPP под Public Procurement (Make in India) Order 2017 — как правило к участию допускаются только Class-1/Class-2 local suppliers (≥50%/≥20% local content); иностранный трейдер (ISP) не допускается; поставщики из стран с сухопутной границей с Индией (Китай) — только с регистрацией в Competent Authority (GeM GTC п.26)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Не профиль ISP; только local suppliers. Открыт 13.11.2026, закрытие 11.12.2026 (tendersplus).",
+   "risks_ru": null,
+   "sources": [
+    "https://tendersplus.com/ministry-of-mines-tenders/nalco-tenders/active"
+   ]
   },
   {
    "id": 144,
    "n": "GlobalTenders ref 150400005",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://www.globaltenders.com/tender-detail/mumarasa-for-the-supply-of-fast-acting-demul-sA0iWmJN6UX4HafK",
+    "https://ebusiness.kockw.com/RFQ/Issued (в открытом списке не найден)"
+   ],
+   "items": [
+    {
+     "product": "KOC North Kuwait: Mumarasa — Fast Acting Demulsifier for EPF-120",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "«Mumarasa» — программа KOC по развитию местных/малых компаний (local content); участие, вероятно, ограничено KOC-registered/кувейтскими компаниями; подтверждения на официальном портале не найдено",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Деэмульгатор быстрого действия (Rimpro) — профиль ISP, но только через кувейтского зарегистрированного партнёра; справочно: «Fast Acting Demulsifier introduction in KOC North Kuwait» — success story Kuwait Drilling Fluids & Oil Services (kdf.com.kw), т.е. действующий местный игрок. Срок 14.12.2026 (агрегатор).",
+   "risks_ru": "Официальный документ не найден.",
+   "sources": [
+    "https://www.globaltenders.com/tender-detail/mumarasa-for-the-supply-of-fast-acting-demul-sA0iWmJN6UX4HafK",
+    "https://kdf.com.kw/production-technologies"
+   ]
   },
   {
    "id": 148,
@@ -908,7 +1422,7 @@
     "usd_approx": 790504
    },
    "benchmark_prices": [],
-   "feasibility_ru": "716 тыс. EUR/год ≈ 200–300 т эмульсии (оценка не из документа). Критерий — только цена: благоприятно для китайской эмульсии CPAM, но нужен REACH и итальянская сторона. Приоритет средний.",
+   "feasibility_ru": "Оценка 716 184 EUR на 12 мес. (объём в тоннах в TED не указан). Критерий — только цена: благоприятно для китайской эмульсии CPAM, но нужен REACH и итальянская сторона. Приоритет средний.",
    "risks_ru": "Гарантия 2%; дедлайн 16.12.2026 10:30; срок действия оферты 180 дней.",
    "sources": [
     "https://ted.europa.eu/en/notice/-/detail/789637-2026",
@@ -1083,6 +1597,85 @@
    "sources": [
     "https://ted.europa.eu/en/notice/-/detail/788046-2026",
     "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
+  },
+  {
+   "id": "extra_daleel_1131",
+   "n": "Daleel Petroleum upcoming tender No. 1131",
+   "docs_found": false,
+   "doc_urls": [
+    "https://daleelpetroleum.com/business-with-us/tenders"
+   ],
+   "items": [
+    {
+     "product": "Supply of Iron Sulphide Scale Inhibitor & dissolver with associated services",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Обязателен действующий сертификат JSRS (Оман) в релевантной категории на дату выпуска RFQ + преквалификация; Interest Request через форму с CR и JSRS номером (капча — вручную)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Ожидаемая дата выпуска 09.02.2027 (статус Active в списке Daleel). Ингибитор/растворитель FeS — Rimpro. Нужен оманский партнёр с JSRS. Оманский агрегатор относит тендер к ICB.",
+   "risks_ru": "JSRS; ICV (In-Country Value).",
+   "sources": [
+    "https://daleelpetroleum.com/business-with-us/tenders",
+    "https://omantendersgate.com/category_tender/steel-structures/"
+   ]
+  },
+  {
+   "id": "extra_uzkor_T47",
+   "n": "Uz-Kor T-47/2026",
+   "docs_found": false,
+   "doc_urls": [
+    "https://uz-kor.com/index.php/ru/tendery/5992-cp-ooo-uz-kor-gas-chemical-obyavlyaet-otkrytyj-tender-t-47-2026-srokom-na-30-dnej-s-02-noyabrya-2026-g-na-postavku-khimicheskikh-reagentov-dlya-ustanovok-tsekha-ozkh"
+   ],
+   "items": [
+    {
+     "product": "Химические реагенты для установок цеха ОЗХ (Устюртский ГХК)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": "запечатанный конверт курьером/нарочно: Ташкент, ул. Зульфияхоним 112",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Иностранные допускаются; не оффшор, не в реорганизации; компания учреждена ≥6 мес.; нотариальные копии устава/учредительного договора; предложение на англ. и рус.",
+   "award_criteria": "открытый тендер; критерии в тендерной документации (бесплатно по официальному письму с реквизитами; выдача прекращается за 5 дней до срока)",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "ПРИОРИТЕТ: ОЗХ (водоподготовка, охлаждающая вода) — профиль Kairui/Suqing/Aierfuke. Срочно запросить документацию письмом на a.kasimov@uz-kor.com (до ~27.11.2026). Срок подачи 02.12.2026 15:00 Ташкент.",
+   "risks_ru": "Бумажная подача в Ташкенте; срок.",
+   "sources": [
+    "https://uz-kor.com/index.php/ru/tendery"
    ]
   }
  ]

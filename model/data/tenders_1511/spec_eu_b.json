@@ -217,6 +217,62 @@
    ]
   },
   {
+   "id": 102,
+   "n": "TED 743168-2026 (HERA T26_18006, RDO R26_19813)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://portalefornitoriprocurement.gruppohera.it/esop/toolkit/opportunity/current/5843/detail.si",
+    "https://portalefornitoriprocurement.gruppohera.it/esop/guest/go/public/opportunity/current"
+   ],
+   "items": [
+    {
+     "product": "Virgin mineral-origin granular activated carbon (GAC) for drinking water, supply 'a corpo' + installation in 16 vertical filters (2 batteries x 8), Pontelagoscuro (FE) WTP; incl. removal & disposal/recovery of spent carbon",
+     "spec": "UNI EN 12915-1:2009; virgin, mineral (coal) origin; further specs in Capitolato Speciale (not public – registration needed)",
+     "qty": null,
+     "unit": "m3 (not stated in 2026 notice; previous identical tenders for the same 16 filters: ~500 m3)",
+     "qty_t": 225,
+     "qty_basis": "ESTIMATE: ~500 m3 (as in 2022/2024 tenders for same filters) x ~0.45 t/m3 bulk density; one-off delivery within 12 months"
+    }
+   ],
+   "total_qty_t": 225,
+   "contract_period": "12 months (one-off supply & installation); payment in installments incl. final 20% after final acceptance (Verbale di Consegna Definitiva)",
+   "delivery_terms": "Delivered & installed at Pontelagoscuro WTP, via Dolcetti 72, Ferrara; ancillary works (~15% of value: spent carbon removal, transport, installation) fully subcontractable; site visits with sample of current carbon 04-19.11.2026",
+   "packaging": "not stated (typically big-bags or bulk silo truck)",
+   "certificates": "UNI EN 12915-1 conformity; turnover >= 1,400,000 EUR (best 3 of last 5 years); references: supplies of food-grade activated carbon to drinking-water plants >= 700,000 EUR in last 10 years with one contract >= 280,000 EUR",
+   "bid_security": "Garanzia provvisoria per art.106 D.Lgs 36/2023 (amount per Disciplinare, normally 2% ≈ 14,000 EUR)",
+   "eligibility_foreign": "Open EU procedure (utilities), HERA Jaggaer portal; Italian; art.170 third-country origin clause likely applies (utilities) – GAC from China/India may be rejected if >50% of value",
+   "award_criteria": "Lowest price (minor prezzo)",
+   "estimated_value": {
+    "amount": 700000,
+    "currency": "EUR",
+    "per_lot": "single lot, supply + installation"
+   },
+   "benchmark_prices": [
+    {
+     "what": "HERA same site/16 filters 2024: ~500 m3 virgin mineral GAC incl. installation – S.I.C.A.V. SpA, 519,750 EUR",
+     "unit_price": 1039.5,
+     "currency_per": "EUR/m3 incl. installation & disposal (≈2,300 EUR/t at 0.45 t/m3 – estimate)",
+     "year": 2024,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/689853-2024"
+    },
+    {
+     "what": "HERA same site 2022: ~500 m3 GAC – Chemviron Italia, 740,966.40 EUR",
+     "unit_price": 1481.9,
+     "currency_per": "EUR/m3 incl. installation",
+     "year": 2022,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/47737-2023"
+    }
+   ],
+   "feasibility_ru": "Средняя по продукту (китайский угольный GAC по EN 12915-1 — стандартный экспорт, ~1,0-1,5 тыс. USD/т FOB), но нужна установка в фильтры, вывоз отработанного угля и референции 700 тыс. EUR по питьевой воде + оборот 1,4 млн EUR. Реально только в паре с итальянским подрядчиком по замене загрузки (RTI). Риск отклонения по ст.170 (происхождение из Китая).",
+   "risks_ru": "Капитолато не публичен (нужна регистрация на портале HERA); конкуренты Chemviron, SICAV, Jacobi; оплата частями с удержанием 20% до финальной приёмки.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/743168-2026",
+    "https://portalefornitoriprocurement.gruppohera.it/esop/toolkit/opportunity/current/5843/detail.si",
+    "https://ted.europa.eu/en/notice/-/detail/689853-2024",
+    "https://ted.europa.eu/en/notice/-/detail/47737-2023"
+   ]
+  },
+  {
    "id": 116,
    "n": "TED 743713-2026 (1173/PN-70/2026)",
    "docs_found": true,
