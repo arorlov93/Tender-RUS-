@@ -6,7 +6,7 @@
   "method": "Official notices/docs opened where reachable; zakup.sk.kz data via site XHR (Playwright) + open file-storage endpoint; Samruk benchmark = planned unit price (без НДС) in consolidated annual plan rows with executed/signed contracts (not the award price). Null = not found.",
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_cis/",
   "n_tenders": 28,
-  "n_with_docs": 5
+  "n_with_docs": 7
  },
  "tenders": [
   {
@@ -460,19 +460,95 @@
    "id": 91,
    "n": "TED 701850-2026",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/701850-2026",
+    "https://platformazakupowa.pl/transakcja/1389146 (требует входа SSO)"
+   ],
+   "items": [
+    {
+     "product": "Lot I: полиэлектролит (катионный ПАА) порошок для обезвоживания сброженного осадка на декантерах",
+     "spec": "порошок в биг-бэгах ~500 кг; детали в OPZ (зал.1 к SWZ) — не получены",
+     "qty": 170,
+     "unit": "Mg (т)",
+     "qty_t": 170.0,
+     "qty_basis": "TED BT-25",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Lot II: полиэлектролит для загущения избыточного ила (Twin Belt-2)",
+     "spec": "эмульсия в контейнерах ~1000 л; OPZ зал.1a",
+     "qty": 75,
+     "unit": "Mg (т)",
+     "qty_t": 75.0,
+     "qty_basis": "TED BT-25",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": 245.0,
+   "contract_period": "12 месяцев (сукцессивные поставки)",
+   "delivery_terms": "ОС Gdańsk Wschód, ul. Benzynowa 26, Гданьск (франко-объект)",
+   "packaging": "L1 биг-бэги ~500 кг; L2 IBC ~1000 л",
+   "certificates": null,
+   "bid_security": "не требуется (guarantee-required=false)",
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет; в аналогичной закупке 268700-2026 подача оферты была обусловлена получением положительного технологического теста — вероятно и здесь",
+   "award_criteria": "cost (стоимостной критерий, по TED); срок действия оферты 90 дней",
+   "estimated_value": {
+    "amount": null,
+    "currency": "PLN",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Катионный ПАА (порошок/эмульсия) — китайский CPAM (через партнёра), но нужен предварительный тест на осадке, REACH, польский язык, поставка биг-бэгами в Гданьск. Объём хороший (245 т/год). Реально только через польского дистрибьютора с REACH; дедлайн 30.11.2026 — сжато.",
+   "risks_ru": "Технологический тест до подачи, REACH, срок.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/701850-2026",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)",
+    "https://ted.europa.eu/en/notice/-/detail/268700-2026"
+   ]
   },
   {
    "id": 92,
    "n": "TED 745479-2026 / 751587-2026",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/745479-2026",
+    "https://ted.europa.eu/en/notice/-/detail/751587-2026",
+    "https://www.vergabe24.de/vergabeunterlagen/54321-Tender-1a10fd7ac0b-1e84372665b26005 (перенаправляет на страницу tenderDetails, документы не отдаются без сессии)"
+   ],
+   "items": [
+    {
+     "product": "Fällmittellieferung 2027 (осадитель — обычно соли Fe/Al для удаления фосфора)",
+     "spec": "не раскрыто в TED; CPV 24962000",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "2027",
+   "delivery_terms": "Констанц (Konstanz), Германия",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет",
+   "award_criteria": "только цена (Preis)",
+   "estimated_value": {
+    "amount": null,
+    "currency": "EUR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Заказчик — Bauverwaltungsamt г. Констанц (место исполнения Konstanz). Осадители (FeCl3/FeClSO4/PAC) — низкая цена/т, логистика танкерами из Китая/Индии нерентабельна. Не для ISP.",
+   "risks_ru": "Документы не получены; дедлайн 30.11.2026.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/745479-2026",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
   },
   {
    "id": 93,
@@ -496,10 +572,133 @@
    "id": 101,
    "n": "TED 750134-2026",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/750134-2026",
+    "https://www.e-avrop.com/karstadkommun/e-Upphandling/NoticeLink.aspx?id=139344 (документы после регистрации в e-Avrop)"
+   ],
+   "items": [
+    {
+     "product": "Svavelgranulat (сера гранул.)",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Soda (Na2CO3 тяжёлая)",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Hypokloritlösning 14%",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Salttabletter (NaCl)",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Celit 545 (диатомит)",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Aluminiumsulfat (флокулянт)",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Svavelsyra 37%",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Bikarbonatsoda",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Natronlut 25%",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "TMT 15% (тринатрий тримеркаптотриазин)",
+     "spec": "по документам (не получены)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "рамочный договор с 01.01.2027, по 1 поставщику на каждую из 10 областей",
+   "delivery_terms": "Карлстад (водоканал, бассейны, ТЭЦ)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "не требуется",
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет; шведский язык",
+   "award_criteria": "не раскрыто в выгрузке TED",
+   "estimated_value": {
+    "amount": 5000000,
+    "currency": "SEK (оценка процедуры)",
+    "per_lot": null,
+    "usd_approx": 496577
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Из 10 областей ISP теоретически подходит только сульфат алюминия, но объём мал (вся процедура ≈5 млн SEK ≈ 497 тыс. USD на 10 продуктов), шведский язык, REACH, местная логистика. Не рекомендуется.",
+   "risks_ru": "Мелкие объёмы, REACH, язык.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/750134-2026",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
   },
   {
    "id": 110,
@@ -523,19 +722,129 @@
    "id": 132,
    "n": "TED 747418-2026",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/747418-2026",
+    "https://ekr.gov.hu/eljarastar/eljaras/EKR001883822026 (документы в EKR после регистрации)"
+   ],
+   "items": [
+    {
+     "product": "Lot1 DPSZT: катионный порошковый ПАА для загущения",
+     "spec": "катионный, ≥98% полиакриламида (активного вещества), порошок, разработан для коммунального ила",
+     "qty": 51000,
+     "unit": "кг/24 мес",
+     "qty_t": 51.0,
+     "qty_basis": "TED: обязательство выборки 70% = 35,7 т",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Lot2 DPSZT: катионный порошковый ПАА для обезвоживания",
+     "spec": "то же",
+     "qty": 200000,
+     "unit": "кг/24 мес",
+     "qty_t": 200.0,
+     "qty_basis": "70% гарантировано = 140 т",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Lot3 ÉPSZT: катионный порошковый ПАА для загущения",
+     "spec": "то же",
+     "qty": 105000,
+     "unit": "кг/24 мес",
+     "qty_t": 105.0,
+     "qty_basis": "70% = 73,5 т",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Lot4 ÉPSZT: катионный порошковый ПАА для обезвоживания",
+     "spec": "то же",
+     "qty": 350000,
+     "unit": "кг/24 мес",
+     "qty_t": 350.0,
+     "qty_basis": "70% = 245 т",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": 706.0,
+   "contract_period": "24 месяца",
+   "delivery_terms": "Будапешт: Южно-Пештская и Северо-Пештская ОСК",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "не требуется (TED)",
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет; подача только через EKR (регистрация), венгерский язык",
+   "award_criteria": "качество + цена (баллы, веса в документации); срок действия оферты 30 дней",
+   "estimated_value": {
+    "amount": null,
+    "currency": "HUF",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Самый крупный объём в батче по ПАА (706 т/2 года, ~353 т/год, 70% гарантировано). Продукт — стандартный катионный порошковый CPAM; китайские производители (не из текущих LOA ISP — нужен поставщик CPAM, напр. через Aierfuke/партнёров) конкурентны. Барьеры: REACH-регистрация, лабораторные тесты по документации, EKR. Рекомендация: искать венгерского/ЕС дистрибьютора с REACH и подавать как субпоставщик.",
+   "risks_ru": "REACH; тесты на иле; язык; дедлайн 10.12.2026 10:00.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/747418-2026",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
   },
   {
    "id": 133,
-   "n": "TED 774782-2026",
-   "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "n": "TED 774782-2026 (exp. S-12/25-02)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/774782-2026",
+    "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Dvy0amOSbGxQFSeKCRun4Q%3D%3D (pliegos — загрузка блокируется WAF при скриптовом доступе)"
+   ],
+   "items": [
+    {
+     "product": "Катионный полиэлектролит для обезвоживания осадков ETAP La Pedrera (питьевая вода)",
+     "spec": "детали в PPT (не получен)",
+     "qty": 21,
+     "unit": "т (до)",
+     "qty_t": 21.0,
+     "qty_basis": "название лота «hasta 21 toneladas»",
+     "unit_price": 4165.0,
+     "currency": "EUR/т без НДС (расчётно: бюджет 87 465 / 21 т)"
+    }
+   ],
+   "total_qty_t": 21.0,
+   "contract_period": "24 месяца",
+   "delivery_terms": "ETAP La Pedrera (Мурсия/Аликанте), Испания",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет; испанский язык; электронная подача на PLACSP",
+   "award_criteria": "цена + качественные критерии (7 критериев, баллы)",
+   "estimated_value": {
+    "amount": 87465,
+    "currency": "EUR без НДС (presupuesto base); valor estimado 192 423 EUR",
+    "per_lot": null,
+    "usd_approx": 96541
+   },
+   "benchmark_prices": [
+    {
+     "what": "Taibilla: polyDADMAC до 150 т (AC/Alicante), победитель CHEMIPOL, TED 407618-2025",
+     "unit_price": 1270,
+     "currency_per": "EUR/т (190 500 EUR / 150 т)",
+     "year": 2025,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/407618-2025"
+    },
+    {
+     "what": "Taibilla: polyDADMAC до 120 т (AC/Jacarilla), победитель SERVYECO, TED 153280-2024 (total-value 201 600)",
+     "unit_price": 1680,
+     "currency_per": "EUR/т (201 600 / 120 т)",
+     "year": 2024,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/153280-2024"
+    }
+   ],
+   "feasibility_ru": "Малый объём (21 т за 2 года), питьевая вода (нужна сертификация EN 1407 обычно), испанский язык, REACH. Ценовой ориентир полезен: 4 165 EUR/т для катионного ПАА — высокий. Для ISP — только через испанского дистрибьютора.",
+   "risks_ru": "Дедлайн 10.12.2026 13:00 CET.",
+   "sources": [
+    "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=Dvy0amOSbGxQFSeKCRun4Q%3D%3D",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
   },
   {
    "id": 140,
@@ -568,37 +877,213 @@
    "id": 148,
    "n": "TED 789637-2026",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/789637-2026",
+    "https://albo-gare.ciip.it/ (документы после регистрации)"
+   ],
+   "items": [
+    {
+     "product": "Катионный полиэлектролит в эмульсии для обезвоживания ила на 9 ОСК CIIP (Ascoli Piceno, San Benedetto del Tronto, Fermo, Comunanza, Offida, Grottammare, Cupramarittima, Pedaso, Altidona)",
+     "spec": "не раскрыто в TED",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "рамочное соглашение 12 месяцев",
+   "delivery_terms": "9 ОСК провинций Асколи-Пичено/Фермо",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "cauzione provvisoria 2% от суммы рамочного соглашения (≈14 324 EUR)",
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет; итальянский язык",
+   "award_criteria": "только цена",
+   "estimated_value": {
+    "amount": 716184.0,
+    "currency": "EUR",
+    "per_lot": null,
+    "usd_approx": 790504
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "716 тыс. EUR/год ≈ 200–300 т эмульсии (оценка не из документа). Критерий — только цена: благоприятно для китайской эмульсии CPAM, но нужен REACH и итальянская сторона. Приоритет средний.",
+   "risks_ru": "Гарантия 2%; дедлайн 16.12.2026 10:30; срок действия оферты 180 дней.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/789637-2026",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
   },
   {
    "id": 151,
    "n": "TED 752210-2026",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/752210-2026",
+    "https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&type=DCE&IDM=1896047 (DCE после входа)"
+   ],
+   "items": [
+    {
+     "product": "Lot1 хлорид железа (или эквивалент) для дефосфатации",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "оценка лота 200 000 EUR / 48 мес",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Lot2 хлорид железа для кондиционирования осадка",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "360 000 EUR",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Lot3 POLYMÈRES: для GDD и камерного фильтр-пресса; для шнекового пресса",
+     "spec": "предусмотрены испытания (essais) по лоту 3 — см. RC",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "320 000 EUR",
+     "unit_price": null,
+     "currency": null
+    },
+    {
+     "product": "Lot4 гашёная известь",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "400 000 EUR",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "рамочное соглашение с заказами, 48 месяцев",
+   "delivery_terms": "STEP du Doubs (Понтарлье), Франция",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "не требуется",
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет; французский язык",
+   "award_criteria": "качество (3 подкритерия) + цена; испытания полимеров по лоту 3",
+   "estimated_value": {
+    "amount": 1280000,
+    "currency": "EUR (сумма 4 лотов за 48 мес)",
+    "per_lot": {
+     "lot1": 200000,
+     "lot2": 360000,
+     "lot3_polymers": 320000,
+     "lot4": 400000
+    }
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Для ISP подходит только лот 3 (полимеры, 320 тыс. EUR / 4 года ≈ 80 тыс. EUR/год) — мелко, с испытаниями на месте, французский язык, REACH. Не рекомендуется.",
+   "risks_ru": "Дедлайн 17.12.2026 12:00.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/752210-2026",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
   },
   {
    "id": 155,
-   "n": "TED 772209-2026",
-   "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "n": "TED 772209-2026 (Vergabe 4631-EO)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/772209-2026",
+    "https://rlp.vergabekommunal.de/Satellite/notice/CXP6YYHYC59/documents (свободно; скачан ZIP Vergabeunterlagen_CXP6YYHYC59.zip)"
+   ],
+   "items": [
+    {
+     "product": "Катионная эмульсия-полимер для обезвоживания сброженного ила (2 декантера X4E-4/454)",
+     "spec": "катионная эмульсия; подбор продукта по пробам ила (абсорбция, капиллярное всасывание и т.п.), сравнение с текущим продуктом",
+     "qty": 52500,
+     "unit": "кг HW/год",
+     "qty_t": 52.5,
+     "qty_basis": "LV п.3 «ca. 52.500 kg Handelsware/a»",
+     "unit_price": null,
+     "currency": "EUR/кг HW (цена предлагается одна усреднённая для всех продуктов)"
+    },
+    {
+     "product": "Катионная эмульсия-полимер для загущения избыточного ила (3 центрифуги GEA UCD 346)",
+     "spec": "катионная эмульсия",
+     "qty": 10500,
+     "unit": "кг HW/год",
+     "qty_t": 10.5,
+     "qty_basis": "LV п.3",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": 63.0,
+   "contract_period": "4 года (≈252 т за срок); цена фиксирована 6 мес., далее индексация по пропилену/акрилонитрилу/метилакрилату",
+   "delivery_terms": "франко Klärwerk Koblenz, все накладные расходы и LKW-Maut в цене; транспортный риск — поставщик; включены сервис/техконсультации",
+   "packaging": "не указано в просмотренных разделах",
+   "certificates": "Анализ-сертификат на каждую партию; SDS и продуктовые листы; QM-сертификат (ISO 9001) производителя/поставщика за баллы",
+   "bid_security": "не требуется (TED)",
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет; немецкий язык; обязательно: забор проб ила 01.12.2026 (запись до 20.11.2026), подача оферты + образцов полимера 07.01.2027 09:30, Leistungsfahrt (промышленное испытание) 24.02.2027 для лучшего участника; именной технолог-сервисник",
+   "award_criteria": "Jahreskosten 55% (цена EUR/кг × удельный расход по оценке эксперта × 37 626 т СВ/год); подбор продукта по лаб. тесту 35%; общая способность 10%",
+   "estimated_value": {
+    "amount": null,
+    "currency": "EUR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Хорошо описанный, прозрачный тендер, но требует сервиса на месте (технолог в Германии), лабораторной работы с пробами ила, REACH и немецкого языка. ~63 т/год эмульсии — средний объём. Для ISP практически недоступно без немецкого партнёра.",
+   "risks_ru": "Срочно: регистрация на забор проб до 20.11.2026.",
+   "sources": [
+    "https://rlp.vergabekommunal.de/Satellite/notice/CXP6YYHYC59/documents",
+    "LV_4631-EO_10.11.2026.pdf",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
   },
   {
    "id": 156,
    "n": "TED 788046-2026",
    "docs_found": false,
-   "doc_urls": [],
-   "items": [],
-   "feasibility_ru": "не исследовано",
-   "sources": []
+   "doc_urls": [
+    "https://ted.europa.eu/en/notice/-/detail/788046-2026",
+    "https://annonser.clira.io/upphandling/0bddcc50-2e82-4efc-bcc0-fb54a6b6e78e (JS-приложение, перечень продуктов в документах не получен)"
+   ],
+   "items": [
+    {
+     "product": "Химпродукты для очистки питьевой воды (перечень в документах), включая транспорт и техподдержку",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "нет данных",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "рамочный договор 2+2+2+2+2 лет (до 10 лет)",
+   "delivery_terms": "Кальмар, Швеция",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "не требуется",
+   "eligibility_foreign": "Открытая процедура ЕС (GPA): участие нерезидентов ЕС формально допускается; ESPD/JEDZ, язык процедуры; для ввоза химии в ЕС нужна REACH-регистрация (Only Representative) — у ISP её нет; шведский язык; вопросы до 08.12.2026",
+   "award_criteria": "не раскрыто в TED",
+   "estimated_value": {
+    "amount": 22000000,
+    "currency": "SEK (оценка на весь срок)",
+    "per_lot": null,
+    "usd_approx": 2184941
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "≈2,2 млн USD на 10 лет на все продукты — мелко в год; питьевая вода (EN-стандарты), шведский язык. Не рекомендуется.",
+   "risks_ru": "Дедлайн 15.01.2027.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/788046-2026",
+    "https://api.ted.europa.eu/v3/notices/search (publication-number query)"
+   ]
   }
  ]
 }

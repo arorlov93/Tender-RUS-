@@ -40,7 +40,14 @@
    7,
    8,
    14,
-   29
+   29,
+   30,
+   31,
+   32,
+   33,
+   36,
+   45,
+   46
   ],
   "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/"
@@ -436,6 +443,397 @@
    "sources": [
     "https://api.ted.europa.eu/v3/notices/search (731605-2026, 791356-2024, 664075-2026)",
     "https://ekr.gov.hu/eljarastar/eljaras/EKR001822212026"
+   ]
+  },
+  {
+   "id": 30,
+   "n": "2026/BZP 00527829 (ZO.11.2026)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-d6fddf88-c9d9-4550-a03c-e71086b669b9",
+    "https://ezamowienia.gov.pl/mp-readmodels/api/Tender/DownloadDocument/ocds-148610-d6fddf88-c9d9-4550-a03c-e71086b669b9/ocds-148610-d6fddf88-c9d9-4550-a03c-e71086b669b9_1"
+   ],
+   "items": [
+    {
+     "product": "Коагулянт железный — водный раствор сульфата железа(III) (PIX113 или эквивалент) для осаждения фосфора и кондиционирования осадка",
+     "spec": "Fe общ. 11,8 ± 0,4 %; Fe2(SO4)3 39–43 %; сертификат качества и SDS с каждой поставкой",
+     "qty": 80,
+     "unit": "t",
+     "qty_t": 80,
+     "qty_basis": "оценка ~80 т на период (в тексте «в 2026 году», договор 2027) + опцион +20% по той же цене"
+    }
+   ],
+   "total_qty_t": 80,
+   "contract_period": "01.01.2027 – 31.12.2027",
+   "delivery_terms": "DDP очистные Łęczyca, ul. Kazimierza Odnowiciela 21B; по телефонным/e-mail заказам, поставка ≤7 дней; разовая партия 10–15 т в резервуар 10 м3 (автоцистерна); цена PLN/т с доставкой нетто; оплата 14 дней",
+   "packaging": "наливом (автоцистерна) в резервуар заказчика",
+   "certificates": "Świadectwo kontroli jakości + karta charakterystyki (SDS) — приложить к оферте и к каждой поставке; выписка из реестра",
+   "bid_security": "нет",
+   "eligibility_foreign": "Секторальный запрос предложений ниже порогов ЕС (вне PZP); подача только через e-Zamówienia с ЭЦП/podpis zaufany; документы на польском",
+   "award_criteria": "Цена 100%",
+   "estimated_value": {
+    "amount": null,
+    "currency": "PLN",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "Wodociągi Kieleckie 2025 (TED CAN 299712-2025): 960 Mg раствора сульфата железа(III) (Fe ≥11,2%) — 1 517 328 PLN, Grupa Węglostal → ≈1 581 PLN/т (estimate = стоимость/кол-во)",
+     "unit_price": 1581,
+     "currency_per": "PLN/t",
+     "year": 2025,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/299712-2025"
+    }
+   ],
+   "feasibility_ru": "Нереально для импорта: 80 т жидкого коагулянта, партии 10–15 т автоцистерной за 7 дней; производитель в Польше — Kemipol (PIX). Только как перепродажа местного продукта.",
+   "risks_ru": "Малый объём (~0,13 млн PLN/год, estimate); жидкий товар; срок 20.11.2026 09:00.",
+   "sources": [
+    "https://ezamowienia.gov.pl/mp-readmodels/api/Search/GetTender?id=ocds-148610-d6fddf88-c9d9-4550-a03c-e71086b669b9",
+    "https://ted.europa.eu/en/notice/-/detail/299712-2025"
+   ]
+  },
+  {
+   "id": 31,
+   "n": "2026/BZP 00527721",
+   "docs_found": true,
+   "doc_urls": [
+    "https://ezamowienia.gov.pl/mp-client/search/list/ocds-148610-bc792c54-dd4f-4323-a207-d2290521310f"
+   ],
+   "items": [
+    {
+     "product": "Порошковый полиэлектролит (катионный ПАА) для обезвоживания избыточного ила на шнеково-дисковом прессе MAREX — SUPERFLOC 8298 или эквивалент",
+     "spec": "Ил после гравитационных уплотнителей (MUCT, 3–4% с.в.); требуемое обезвоживание ≥16% с.в.; срок годности гранулята 12 мес. в оригинальной упаковке; маркировка на польском; при неудовлетворительном обезвоживании поставщик заменяет продукт за свой счёт",
+     "qty": 7000,
+     "unit": "kg",
+     "qty_t": 7,
+     "qty_basis": "оценка ~7000 кг/год + опцион +20%"
+    }
+   ],
+   "total_qty_t": 7,
+   "contract_period": "01.01.2027 – 31.12.2027",
+   "delivery_terms": "DDP очистные Łęczyca, ul. Kazimierza Odnowiciela 21B; заказ по телефону/e-mail, поставка ≤7 дней; разовая партия 1000 кг; цена PLN/кг с доставкой нетто; оплата 14 дней",
+   "packaging": "мешки по 25 кг",
+   "certificates": "Сертификат качества/SDS (по аналогии с документацией), маркировка на польском",
+   "bid_security": "нет",
+   "eligibility_foreign": "Секторальный запрос предложений ниже порогов (вне PZP); подача только через e-Zamówienia с ЭЦП; польский язык",
+   "award_criteria": "Цена 100%",
+   "estimated_value": {
+    "amount": null,
+    "currency": "PLN",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "AQUANET 2026 (TED CAN 61971-2026): 170 Mg порошкового флокулянта — 690 030 EUR, Klimapol → ≈4 059 EUR/т (estimate)",
+     "unit_price": 4059,
+     "currency_per": "EUR/t",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/61971-2026"
+    }
+   ],
+   "feasibility_ru": "Продукт подходит (порошковый катионный ПАА из Китая), но объём крошечный (7 т/год ≈ 30 тыс. EUR) и нужны поставки по 1 т за 7 дней со склада в Польше; имеет смысл лишь при наличии польского склада/дистрибьютора.",
+   "risks_ru": "Нет промышленного теста, но гарантия результата (≥16% с.в.) и замена за счёт поставщика; срок 20.11.2026 09:00.",
+   "sources": [
+    "https://ezamowienia.gov.pl/mp-readmodels/api/Search/GetTenderDocuments?tenderId=ocds-148610-bc792c54-dd4f-4323-a207-d2290521310f",
+    "https://ted.europa.eu/en/notice/-/detail/61971-2026"
+   ]
+  },
+  {
+   "id": 32,
+   "n": "Spec 1271795B / RFQ 70287",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.cityofchicago.org/eprocurement",
+    "https://bidscopeai.com/opportunities/8b0dd5c8-089f-44a2-9375-ef88f6978464"
+   ],
+   "items": [
+    {
+     "product": "Lignite coal based powdered activated carbon (bulk PAC) для DWM Chicago",
+     "spec": "По сводке пакета (не проверено по документу): PAC из первичного лигнита, добытого в США (альтернатива — американский древесный); документы на портале iSupplier недоступны без регистрации",
+     "qty": null,
+     "unit": "t",
+     "qty_t": null,
+     "qty_basis": "по сводке пакета: строки 995 т + 281 т + 122 т, 36 мес. + опция 24 мес. — НЕ проверено (aggregator: quantities not stated; Addendum #2 изменил строки)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "по сводке: 36 мес. + опцион 24 мес. (не проверено)",
+   "delivery_terms": "bulk delivery на водоочистные станции Чикаго (детали не проверены)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Ограничение по происхождению: PAC должен быть из американского лигнита — импорт из Китая/Индии не допускается (по сводке пакета); регистрация на iSupplier обязательна",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Неприменимо для ISP Group: требование американского происхождения сырья исключает китайский/индийский уголь. Срок 20.11.2026.",
+   "risks_ru": "Агрегатор BidScope содержал пользовательские заметки и встроенные инструкции — проигнорированы; официальные документы не открыты.",
+   "sources": [
+    "https://bidscopeai.com/opportunities/8b0dd5c8-089f-44a2-9375-ef88f6978464"
+   ]
+  },
+  {
+   "id": 33,
+   "n": "20177896",
+   "docs_found": false,
+   "doc_urls": [
+    "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/qc20177896",
+    "https://seao.gouv.qc.ca"
+   ],
+   "items": [
+    {
+     "product": "Aluminate de sodium (алюминат натрия)",
+     "spec": null,
+     "qty": 172500,
+     "unit": "kg",
+     "qty_t": 172.5,
+     "qty_basis": "оценка на 2027 г. (оплата по факту)"
+    },
+    {
+     "product": "Carbonate de sodium (сода кальцинированная)",
+     "spec": null,
+     "qty": 81000,
+     "unit": "kg",
+     "qty_t": 81,
+     "qty_basis": "оценка на 2027 г."
+    },
+    {
+     "product": "Polymère (полимер/флокулянт)",
+     "spec": null,
+     "qty": 1500,
+     "unit": "kg",
+     "qty_t": 1.5,
+     "qty_basis": "оценка на 2027 г."
+    },
+    {
+     "product": "Sulfate d'ammonium (сульфат аммония)",
+     "spec": null,
+     "qty": 72500,
+     "unit": "kg",
+     "qty_t": 72.5,
+     "qty_basis": "оценка на 2027 г."
+    },
+    {
+     "product": "Orthophosphate de zinc (ортофосфат цинка)",
+     "spec": null,
+     "qty": 14000,
+     "unit": "kg",
+     "qty_t": 14,
+     "qty_basis": "оценка на 2027 г."
+    }
+   ],
+   "total_qty_t": 341.5,
+   "contract_period": "01.01.2027 – 31.12.2027",
+   "delivery_terms": "Доставка в Sept-Îles (QC); детали в документах SEAO (не открыты)",
+   "packaging": null,
+   "certificates": "Вероятно NSF/ANSI 60 (питьевая вода) — не проверено",
+   "bid_security": null,
+   "eligibility_foreign": "Торговые соглашения: CFTA и CETA (США в списке нет); документы платно/по аккаунту на SEAO; только французский",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "CAD",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая: Квебекский муниципалитет, соглашения CFTA/CETA (не GPA для американского поставщика), французский язык, отдалённый Sept-Îles (Côte-Nord); жидкий алюминат натрия — локальный товар. Возможно участие через канадского дистрибьютора; сода и сульфат аммония — товар с низкой маржой.",
+   "risks_ru": "Срок по CanadaBuys — 27.11.2026 10:00 EST (в сводке пакета указано 20.11 — расхождение); документы SEAO не открыты.",
+   "sources": [
+    "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/qc20177896"
+   ]
+  },
+  {
+   "id": 36,
+   "n": "ocds-148610-1aac0338-5892-4944-9b2c-f8438023c627",
+   "docs_found": false,
+   "doc_urls": [
+    "https://wartasa.ezamawiajacy.pl/pn/wartasa/demand/notice/publicpzp/current/list",
+    "https://ezamowienia.gov.pl/mp-readmodels/api/Search/GetTender?id=ocds-148610-1aac0338-5892-4944-9b2c-f8438023c627"
+   ],
+   "items": [
+    {
+     "product": "Zadanie 1: siarczan żelazowy (раствор сульфата железа(III))",
+     "spec": null,
+     "qty": 550,
+     "unit": "Mg",
+     "qty_t": 550,
+     "qty_basis": "до 550 т / 12 мес. (по процедуре 556069-2026)"
+    },
+    {
+     "product": "Zadanie 2: chlorek poliglinu (PAC)",
+     "spec": null,
+     "qty": 650,
+     "unit": "Mg",
+     "qty_t": 650,
+     "qty_basis": "до 650 т / 12 мес."
+    }
+   ],
+   "total_qty_t": 1200,
+   "contract_period": "12 мес.",
+   "delivery_terms": "Текущие поставки на очистные «WARTA» S.A., Częstochowa (наливом)",
+   "packaging": "налив (автоцистерны)",
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Процедура ЕС (TED 556069-2026) на wartasa.ezamawiajacy.pl",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "PLN",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "TED CAN 735940-2026 (23.10.2026) по этой же закупке: Zad.1 сульфат железа 550 Mg — Kemipol 748 000 PLN → 1 360 PLN/т (estimate = стоимость/макс. кол-во)",
+     "unit_price": 1360,
+     "currency_per": "PLN/t",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/735940-2026"
+    },
+    {
+     "what": "TED CAN 735940-2026: Zad.2 PAC 650 Mg — Brenntag Polska 905 450 PLN → 1 393 PLN/т (estimate)",
+     "unit_price": 1393,
+     "currency_per": "PLN/t",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/735940-2026"
+    },
+    {
+     "what": "TED CAN 839087-2025: обе задачи Kemipol — 896 362,5 PLN (сульфат железа) и 1 153 678,5 PLN (PAC); количества в извещении не указаны",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2025,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/839087-2025"
+    }
+   ],
+   "feasibility_ru": "ЗАКУПКА НЕ АКТУАЛЬНА: по TED CAN 735940-2026 от 23.10.2026 договоры по обоим заданиям уже заключены (Kemipol и Brenntag); на платформе wartasa.ezamawiajacy.pl текущих тендеров на коагулянты нет (15.11.2026). Ссылка агрегатора ведёт на старую процедуру 2024 г. (ocds…1aac0338, статус Agreement, TED 648641-2024). Следующая закупка — ориентировочно авг.–окт. 2027.",
+   "risks_ru": "Срок 22.11.2026 из агрегатора — ошибочный. Полезно как ценовой ориентир: сульфат Fe ~1 360 PLN/т, PAC ~1 393 PLN/т DDP Częstochowa (2026).",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (735940-2026, 556069-2026, 839087-2025, 4328-2025)",
+    "https://wartasa.ezamawiajacy.pl/pn/wartasa/demand/notice/publicpzp/current/list"
+   ]
+  },
+  {
+   "id": 45,
+   "n": "TED 777145-2026 (Z/61/2026; первонач. 665479-2026, изм. 712700-2026)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://aquanet.ezamawiajacy.pl/pn/aquanet/demand/322484/notice/public/details"
+   ],
+   "items": [
+    {
+     "product": "Флокулянт (катионный ПАА) в форме эмульсии для сгущения и обезвоживания осадков COŚ Koziegłowy и LOŚ Poznań",
+     "spec": "Физ-хим. параметры не задаются: продукт подбирает поставщик; допуск через промышленный тест на центрифуге заказчика (граничные условия по с.в. кека и взвеси в фугате — п.4c ОПЗ, Załącznik 5 не опубликован среди файлов); REACH, SDS, CLP-этикетка на польском, аттестат партии; 200 кг на тест за счёт поставщика",
+     "qty": 460,
+     "unit": "Mg",
+     "qty_t": 460,
+     "qty_basis": "фиксированное количество на 12 мес. (заказчик может уменьшить до 10%)"
+    }
+   ],
+   "total_qty_t": 460,
+   "contract_period": "12 мес. с даты заключения договора",
+   "delivery_terms": "DDP Koziegłowy и Poznań; поставки частями по телефонному/e-mail заказу в течение 5 рабочих дней; поставщик забирает пустую тару в течение 30 дней за свой счёт; цена и расчёты в EUR; оплата 30 дней; поставщик обязан по требованию (до 2 раз) переподобрать продукт за свой счёт без изменения цены",
+   "packaging": "Оригинальная закрытая тара (тип не указан; на практике IBC 1 м3), маркировка CLP на польском",
+   "certificates": "REACH (1907/2006), SDS с первой поставкой, CLP-маркировка, аттестат производителя на каждую партию (с переводом на польский); промышленный тест обязателен до подачи (запись на тест не позднее 10 дней до срока)",
+   "bid_security": "не требуется (guarantee-required=false)",
+   "eligibility_foreign": "Открытый секторальный тендер ЕС; условий участия (опыт/финансы) заказчик НЕ устанавливает; подача через aquanet.ezamawiajacy.pl с ЭЦП; документы на польском; цена в EUR",
+   "award_criteria": "100% «Koszt» = 70/с.в.кека + доза(кг/т с.в.) × цена брутто EUR/кг (учитывает дозу из теста и стоимость утилизации кека 70 EUR/т)",
+   "estimated_value": {
+    "amount": 5060000,
+    "currency": "PLN",
+    "per_lot": "один лот, 12 мес. (≈11 000 PLN/т — estimate)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "AQUANET 2025 (TED CAN 499405-2025): те же 460 Mg эмульсии COŚ+LOŚ — Kemipol, 966 000 EUR → 2 100 EUR/т",
+     "unit_price": 2100,
+     "currency_per": "EUR/t",
+     "year": 2025,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/499405-2025"
+    },
+    {
+     "what": "AQUANET 2026 (CAN 780999-2026): 80 Mg эмульсии для малых очистных — Kemipol 180 000 EUR → 2 250 EUR/т",
+     "unit_price": 2250,
+     "currency_per": "EUR/t",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/780999-2026"
+    },
+    {
+     "what": "AQUANET 2025 (CAN 662851-2025): 70 Mg эмульсии — SNF Polska 151 200 EUR → 2 160 EUR/т",
+     "unit_price": 2160,
+     "currency_per": "EUR/t",
+     "year": 2025,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/662851-2025"
+    },
+    {
+     "what": "Вопрос участника в разъяснениях (14.10.2026) упоминает предельную цену 2,75 EUR/кг нетто для расчёта тестовой партии — ориентир рынка, не цена заказчика",
+     "unit_price": 2750,
+     "currency_per": "EUR/t",
+     "year": 2026,
+     "source_url": "https://aquanet.ezamawiajacy.pl/pn/aquanet/demand/322484/notice/public/details"
+    }
+   ],
+   "feasibility_ru": "Низкая на этот раунд: регистрация на обязательный промышленный тест — не позднее 10 дней до срока (23.11.2026) → окно закрылось ~13.11.2026. Продукт (эмульсионный катионный ПАА) китайского производства возможен, требования к опыту/финансам отсутствуют, расчёты в EUR — интересный заказчик на будущее (тендеры ежегодно, июль–ноябрь). Нужен склад в Польше (поставка 5 раб. дней) и технолог для тестов.",
+   "risks_ru": "Тест определяет дозу — проигрыш при худшей эффективности; обязанность переподбора продукта без изменения цены; конкуренты Kemipol, SNF, Klimapol.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (777145-2026, 499405-2025, 780999-2026, 662851-2025, 61971-2026)",
+    "https://aquanet.ezamawiajacy.pl/pn/aquanet/demand/322484/notice/public/details"
+   ]
+  },
+  {
+   "id": 46,
+   "n": "TED 733035-2026 (80/2026)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.eprocurement.gov.cy/epps/cft/listContractDocuments.do?resourceId=9352824",
+    "https://www.eprocurement.gov.cy/epps/cft/downloadCftResourceItems.do?resourceId=9352824&resourceType=ContractDocument&isContract=null"
+   ],
+   "items": [
+    {
+     "product": "Раствор хлорида железа (FeCl2 или FeCl2/FeCl3) для насосных станций канализации (контроль H2S/запаха) ЕОА Λευκωσίας",
+     "spec": "Fe 11% w/w (APHA 3500); SO4 ≤10%; Cl ≤25%; нерастворимые ≤0,2%; плотность 1,2–1,4 г/мл (20°C); Cd<30, Pb<10, Cr<50, Cu<50, Ni<50, Zn<500, Hg<5 мг/л; отклонение >10% (кроме Fe) — отклонение; без нерастворимых твёрдых",
+     "qty": 600,
+     "unit": "t",
+     "qty_t": 600,
+     "qty_basis": "600 т на 12 мес. + опцион ещё 600 т на 12 мес."
+    }
+   ],
+   "total_qty_t": 1200,
+   "contract_period": "12 мес. + опцион 12 мес. (ещё 600 т)",
+   "delivery_terms": "Поставка в ISO-танках 18 000 л (~22–24 т): поставщик растамаживает ISO-танки в порту Лимасол, доставляет и своим оборудованием перекачивает в пластиковые резервуары на 5 насосных станциях Большой Никосии (SPS2, SPS3, SPS12, SPS15, SPS Anthoupolis), возвращает пустые ISO-танки; первая поставка ≤30 дней после подписания, далее по графику заказов; водитель/транспорт с ADR",
+   "packaging": "ISO tank 18 000 л (22–24 т) — импортная логистика предусмотрена документацией",
+   "certificates": "Сертификат анализа от независимой аккредитованной лаборатории (APHA, англ./греч.) — копия на этапе оценки, оригинал до присуждения; ISO 9001 производителя; регистрация REACH (ECHA) всех веществ; CLP-маркировка и SDS на греческом; регистрация в реестре химвеществ Департамента инспекции труда (ст.45 CLP)",
+   "bid_security": "Не требуется; гарантия исполнения 10% стоимости договора",
+   "eligibility_foreign": "Допускаются лица из ЕС/ЕЭЗ и стран-участниц GPA (США — участник GPA) или стран с соглашениями с ЕС; оборот ≥200 000 EUR в среднем за 2023–2025; ≥6 постоянных сотрудников (в среднем 2024–2026); опыт аналогичных поставок не требуется; язык предложения — греческий (техн. материалы — англ.); валюта EUR; подача через eprocurement.gov.cy",
+   "award_criteria": "Только цена — самая низкая «Реальная общая цена» (Έντυπο 19)",
+   "estimated_value": {
+    "amount": 396000,
+    "currency": "EUR",
+    "per_lot": "198 000 EUR основной объём 600 т + 198 000 EUR опцион 600 т (без НДС) → 330 EUR/т"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Сметная цена заказчика 2026: 198 000 EUR / 600 т",
+     "unit_price": 330,
+     "currency_per": "EUR/t DDP Nicosia pumping stations",
+     "year": 2026,
+     "source_url": "https://www.eprocurement.gov.cy/epps/cft/listContractDocuments.do?resourceId=9352824"
+    },
+    {
+     "what": "Предыдущий тендер 17/2025 (TED CN 398969-2025, оценка 400 000 EUR): CAN 467715-2026 — победитель A.P. Georgiades Ltd, 173 400 EUR; если объём тот же 600 т → ≈289 EUR/т (estimate, количество в CAN не указано)",
+     "unit_price": 289,
+     "currency_per": "EUR/t (estimate)",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/467715-2026"
+    }
+   ],
+   "feasibility_ru": "ВЫСОКАЯ (лучший кандидат в пакете): документация прямо предусматривает импорт в ISO-танках через порт Лимасол; разрешены участники из стран GPA (США); нет залога и требований к опыту; цена — единственный критерий. Нужно: кипрский партнёр/экспедитор для растаможки, доставки ADR и перекачки, ISO 9001 производителя, REACH-регистрация (только-представитель в ЕС!), SDS на греческом. FeCl2/FeCl3 раствор (Fe 11%) из Китая — проблема: стоимость ISO-танка и фрахта ~на тонну раствора высока относительно 330 EUR/т; проверить экономику.",
+   "risks_ru": "Срок 23.11.2026 12:00 (CY) — 8 дней; REACH-регистрация вещества обязательна (FeCl3/FeCl2 — нужен Only Representative); предложение на греческом; низкая цена (~290–330 EUR/т DDP) против фрахта ISO-танков из Азии; возврат пустых ISO-танков — за счёт поставщика.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (733035-2026, 398969-2025, 467715-2026)",
+    "https://www.eprocurement.gov.cy/epps/cft/listContractDocuments.do?resourceId=9352824"
    ]
   }
  ]

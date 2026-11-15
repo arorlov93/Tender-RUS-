@@ -71,6 +71,152 @@
    ]
   },
   {
+   "id": 97,
+   "n": "TED 751339-2026 (Viveracqua/Jaggaer tender_9106)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://viveracquaprocurement.tlk.app.jaggaer.com/esop/toolkit/opportunity/current/26184/detail.si",
+    "https://viveracquaprocurement.bravosolution.com/esop/guest/go/public/opportunity/current"
+   ],
+   "items": [
+    {
+     "product": "Lot 1: Acido cloridrico 32%",
+     "spec": "UNI EN 939:2016, HF-free, primary synthesis",
+     "qty": 290000,
+     "unit": "kg/yr",
+     "qty_t": 290,
+     "qty_basis": "estimated annual; base price 0.29 EUR/kg"
+    },
+    {
+     "product": "Lot 1: Acido cloridrico 9%",
+     "spec": "UNI EN 939:2016 (dilution with demin water)",
+     "qty": 55000,
+     "unit": "kg/yr",
+     "qty_t": 55,
+     "qty_basis": "annual; 0.08 EUR/kg"
+    },
+    {
+     "product": "Lot 1: Cloruro ferrico 40%",
+     "spec": "UNI EN 888:2023",
+     "qty": 230000,
+     "unit": "kg/yr",
+     "qty_t": 230,
+     "qty_basis": "annual; 0.54 EUR/kg"
+    },
+    {
+     "product": "Lot 1: Sodio clorito 25%",
+     "spec": "UNI EN 938:2016",
+     "qty": 180000,
+     "unit": "kg/yr",
+     "qty_t": 180,
+     "qty_basis": "annual; 1.84 EUR/kg"
+    },
+    {
+     "product": "Lot 1: Sodio clorito 7.5%",
+     "spec": "UNI EN 938:2016",
+     "qty": 50000,
+     "unit": "kg/yr",
+     "qty_t": 50,
+     "qty_basis": "annual; 0.55 EUR/kg"
+    },
+    {
+     "product": "Lot 1: Sodio ipoclorito 15%",
+     "spec": "UNI EN 901:2025",
+     "qty": 170000,
+     "unit": "kg/yr",
+     "qty_t": 170,
+     "qty_basis": "annual; 0.36 EUR/kg"
+    },
+    {
+     "product": "Lot 2: Sodio permanganato 20%",
+     "spec": "UNI EN 15482:2013",
+     "qty": 50000,
+     "unit": "kg/yr",
+     "qty_t": 50,
+     "qty_basis": "annual; 3.70 EUR/kg"
+    },
+    {
+     "product": "Lot 3: Policloruro di alluminio 10% Al2O3",
+     "spec": "UNI EN 17034:2018; density 1.2-1.3; basicity OH/3Al >0.35; Fe 0.1 g/kg, insolubles 0.1 g/kg, SO4 0.1 g/kg; per kg Al: As 14, Cd 3, Cr 30, Hg 4, Ni 20, Pb 40, Sb 20, Se 20 mg",
+     "qty": 350000,
+     "unit": "kg/yr",
+     "qty_t": 350,
+     "qty_basis": "annual; 0.27 EUR/kg"
+    },
+    {
+     "product": "Lot 3: Policloruro di alluminio 18% Al2O3",
+     "spec": "UNI EN 17034:2018; density 1.3-1.4",
+     "qty": 150000,
+     "unit": "kg/yr",
+     "qty_t": 150,
+     "qty_basis": "annual; 0.49 EUR/kg"
+    }
+   ],
+   "total_qty_t": 3050,
+   "contract_period": "24 months (+20% increase option and extension option per art.120); quantities ~1,525 t/yr total",
+   "delivery_terms": "Delivered and unloaded at ~24 drinking-water plants (Rovigo/Padova/Vicenza provinces) on requested day 8-13h, 48h notice; lot 1 only by tankers with own pump & hoses (fill height up to 4 m); some sites without power – supplier self-sufficient; lot 3 drops of 1-10 t per delivery; fixed unit prices for whole term (revision per art.60)",
+   "packaging": "bulk tanker (partial loads 1-10 t)",
+   "certificates": "EN standards per product; technical sheets; country-of-origin declaration (art.170 D.Lgs 36/2023: buyer may reject offers with >50% product from third countries without EU market-access agreement); similar supplies in last 10 years worth 1.5x lot value (L1 954,450; L2 279,150; L3 254,250 EUR); registration in trade register",
+   "bid_security": "Garanzia provvisoria 2% of lot value: L1 55,994; L2 16,377; L3 14,916 EUR (reductions possible with ISO certs)",
+   "eligibility_foreign": "Open EU procedure (utilities). Foreign bidders allowed via Jaggaer platform registration with digital signature; BUT art.170 allows rejection of offers where >50% of products originate in third countries without EU agreement (China/India have none under GPA – significant risk; US/Canada are GPA parties)",
+   "award_criteria": "Lowest overall price per lot (miglior importo complessivo offerto)",
+   "estimated_value": {
+    "amount": 4364360,
+    "currency": "EUR",
+    "per_lot": "L1 2,799,720; L2 818,840; L3 745,800 (24 months incl. options); annual base L1 636,300, L2 186,100, L3 169,500"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Base prices (prezzi a base d'asta) PAC 10% Al2O3",
+     "unit_price": 0.27,
+     "currency_per": "EUR/kg delivered",
+     "year": 2026,
+     "source_url": "https://viveracquaprocurement.tlk.app.jaggaer.com/esop/toolkit/opportunity/current/26184/detail.si"
+    },
+    {
+     "what": "Base price PAC 18% Al2O3",
+     "unit_price": 0.49,
+     "currency_per": "EUR/kg delivered",
+     "year": 2026,
+     "source_url": "https://viveracquaprocurement.tlk.app.jaggaer.com/esop/toolkit/opportunity/current/26184/detail.si"
+    },
+    {
+     "what": "Base price sodium permanganate 20%",
+     "unit_price": 3.7,
+     "currency_per": "EUR/kg delivered",
+     "year": 2026,
+     "source_url": "https://viveracquaprocurement.tlk.app.jaggaer.com/esop/toolkit/opportunity/current/26184/detail.si"
+    },
+    {
+     "what": "Base price sodium chlorite 25%",
+     "unit_price": 1.84,
+     "currency_per": "EUR/kg",
+     "year": 2026,
+     "source_url": "https://viveracquaprocurement.tlk.app.jaggaer.com/esop/toolkit/opportunity/current/26184/detail.si"
+    },
+    {
+     "what": "Base price ferric chloride 40%",
+     "unit_price": 0.54,
+     "currency_per": "EUR/kg",
+     "year": 2026,
+     "source_url": "https://viveracquaprocurement.tlk.app.jaggaer.com/esop/toolkit/opportunity/current/26184/detail.si"
+    },
+    {
+     "what": "Acquevenete WWTP reagents tender (2 lots) awarded 16/02/2026 to B&C / Unichimica, 214,038 EUR vs 2,262,600 est. (ANAC via AvvisaGare)",
+     "unit_price": null,
+     "currency_per": "EUR total",
+     "year": 2026,
+     "source_url": "https://avvisagare.it/ente/acquevenete-s-p-a/"
+    }
+   ],
+   "feasibility_ru": "Лот 2 (перманганат натрия 20%, 50 т/год, база 3,70 EUR/кг) — самый интересный для импорта: высокая цена за кг, продукт возим в IBC/бочках из Китая; но нужно соответствие EN 15482 и доставка мелкими партиями — через итальянский склад. Лот 3 PAC (0,27-0,49 EUR/кг жидкий) — жидкость из Азии невыгодна. Лот 1 — только локальные производители (HCl, гипохлорит, хлорит). Главный риск: ст.170 — заказчик вправе отклонить предложение с >50% продукции из Китая/Индии.",
+   "risks_ru": "Ст.170 (страна происхождения); референции 1,5x стоимости лота за 10 лет; гарантия 2%; цены фиксированы на 24 мес; разгрузка на 24 объектах.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/751339-2026",
+    "https://viveracquaprocurement.tlk.app.jaggaer.com/esop/toolkit/opportunity/current/26184/detail.si"
+   ]
+  },
+  {
    "id": 116,
    "n": "TED 743713-2026 (1173/PN-70/2026)",
    "docs_found": true,
@@ -189,6 +335,60 @@
    ]
   },
   {
+   "id": 119,
+   "n": "TED 751975-2026 (bandi-altoadige 080048-2026)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.bandi-altoadige.it/tendering/tenders/080048-2026/view/detail/1"
+   ],
+   "items": [
+    {
+     "product": "Defosfatante misto Fe/Al (mixed iron-aluminium precipitant for P removal) – Eco-Center WWTPs (Bolzano province)",
+     "spec": "not in notice; documents on bandi-altoadige.it (portal connection reset from our network; JS app)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "365 days"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "365 days",
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Open EU procedure (GPA), e-submission on bandi-altoadige.it (SICP); Italian/German",
+   "award_criteria": "price (per notice structure; not confirmed from documents)",
+   "estimated_value": {
+    "amount": 1151172,
+    "currency": "EUR",
+    "per_lot": "single lot, 12 months"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Eco-Center ferric-chloride defosfatante award (TED 193721-2026): S.EC.AM Srl, 322,032 EUR vs estimate 896,700 EUR, 730 days, 3 bids (quantity not in notice)",
+     "unit_price": null,
+     "currency_per": "EUR total",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/193721-2026/pdf"
+    },
+    {
+     "what": "Eco-Center polyelectrolyte award 13/07/2026 (2 lots, Tillmanns SpA + SNF Italia) 1,491,000 EUR vs 4,704,000 estimated (aggregator AvvisaGare/ANAC)",
+     "unit_price": null,
+     "currency_per": "EUR total",
+     "year": 2026,
+     "source_url": "https://avvisagare.it/ente/eco-center-s-p-a/"
+    }
+   ],
+   "feasibility_ru": "Низкая: смешанный Fe-Al раствор производится локально (обычно смешение FeCl3 + PAC/AlCl3 у итальянских компаундеров, напр. S.EC.AM); бюджет 1,15 млн EUR/год значит несколько тысяч тонн раствора — импорт из Азии невыгоден. Возможен только как поставщик сырья (PAC/AlCl3 порошок) итальянскому компаундеру.",
+   "risks_ru": "Документы не получены (портал недоступен); прошлые тендеры Eco-Center выигрываются с большими скидками (FeCl3: -64% к оценке).",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/751975-2026",
+    "https://ted.europa.eu/en/notice/193721-2026/pdf",
+    "https://avvisagare.it/ente/eco-center-s-p-a/"
+   ]
+  },
+  {
    "id": 127,
    "n": "TED 745328-2026 (SEAP CN1097852)",
    "docs_found": false,
@@ -247,6 +447,93 @@
     "https://ted.europa.eu/en/notice/-/detail/745328-2026",
     "https://firme360.ro/achizitii-publice/cod/policlorura-de-aluminiu-24312123",
     "https://companiidestat.ro/companii/17986823"
+   ]
+  },
+  {
+   "id": 136,
+   "n": "TED 767874-2026 (Gara 14 BS-2026, portal ref G01890)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://valleumbraservizi-appalti.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp?actionPath=/ExtStr2/do/FrontEnd/Bandi/view.action&currentFrame=7&codice=G01890"
+   ],
+   "items": [
+    {
+     "product": "Condizionanti per disidratazione fanghi (sludge-dewatering polyelectrolytes) + reagents for wastewater treatment, WWTPs of Valle Umbra Servizi (Spoleto/Foligno area)",
+     "spec": "not available (documents behind Friendly-Captcha detail page; not bypassed)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "contract until 2029-01-03 (~24 months)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "to 03.01.2029 (TED planned end date); options art.120 c.9 & c.11 (quantity +20%, extension)",
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "not stated in TED notice (Italian law D.Lgs 36/2023 art.106 normally requires garanzia provvisoria 2%) – unverified",
+   "eligibility_foreign": "Open procedure, Directive 2014/25 (utilities), e-submission on Maggioli PortaleAppalti (registration + Italian qualified e-signature/SPID-like credentials typically required); Italian language",
+   "award_criteria": "100% price (lowest price)",
+   "estimated_value": {
+    "amount": 874500,
+    "currency": "EUR",
+    "per_lot": "single lot incl. options; portal list shows base amount (Importo) 660,000 EUR"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая-средняя: небольшой контракт (~330 тыс. EUR/год), смесь полиэлектролитов и реагентов; итальянская платформа, гарантия, итальянский язык. Возможна поставка порошкового катионного ПАА через итальянского дистрибьютора.",
+   "risks_ru": "Состав лотов/объёмы неизвестны (документы закрыты капчей); возможны пробные испытания полимера.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/767874-2026",
+    "https://valleumbraservizi-appalti.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp"
+   ]
+  },
+  {
+   "id": 149,
+   "n": "TED 789637-2026 (CIG BDC3C308B4, albo-gare tender 7936)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://albo-gare.ciip.it/tender/7936",
+    "https://albo-gare.ciip.it/tender/documenti/18663/All.+D+-+Capitolato+d%26%23039%3BOneri.pdf?dmsDoc=1",
+    "https://albo-gare.ciip.it/tender/documenti/18666/Allegato+F+-+Elaborati+Tecnici+-+All.+A%2BAllegato+tecnico+%282%29.zip?dmsDoc=1",
+    "https://albo-gare.ciip.it/tender/documenti/18423/All.+C+-Disciplinare+di+Gara.pdf?dmsDoc=1"
+   ],
+   "items": [
+    {
+     "product": "Polielettrolita cationico in emulsione (cationic emulsion polyacrylamide) for biological sludge dewatering at 12 WWTPs (Ascoli Piceno, San Benedetto del Tronto, Fermo, Grottammare, etc.)",
+     "spec": "cationic emulsion; charge density >20%; active matter >45%; non-irritant classification; no ammonium salts; manufacturer conformity/guarantee declarations per delivery",
+     "qty": 170520,
+     "unit": "kg / 12 months",
+     "qty_t": 170.52,
+     "qty_basis": "indicative, 12-month framework (largest: Campolungo 49.3 t, Brodolini 38.1 t, Marino 18.9 t)"
+    }
+   ],
+   "total_qty_t": 170.52,
+   "contract_period": "Framework 12 months from signature; split among up to 4 ranked suppliers (1st 50%/40%, 2nd 30%, 3rd 20%, 4th 10% of value)",
+   "delivery_terms": "Delivered to each WWTP, supplier unloads with own means; replacement product within 1 working day if non-conform; technician on site within 48 h; penalties for delay; empty IBC take-back",
+   "packaging": "IBC >=1,000 L (cisternette 1,000 kg) or 25 kg cans; returnable",
+   "certificates": "Technical sheet & SDS (Italian); per-delivery conformity declaration with origin (producer, batch, date); producer guarantee declarations; confirmatory plant trial before contract (dewatering dry-solids within -10% and dosage within +10% of Annex A values; failure = no contract); insurance policy",
+   "bid_security": "Cauzione provvisoria 2% of framework value (≈14,324 EUR); ANAC fee payment",
+   "eligibility_foreign": "Open EU procedure (D.Lgs 36/2023), e-platform albo-gare.ciip.it (registration required to submit; documents free); EU-based bidders can use e-mail instead of PEC; Italian language; DGUE/ESPD",
+   "award_criteria": "Lowest price (minor prezzo) on EUR/kg",
+   "estimated_value": {
+    "amount": 716184,
+    "currency": "EUR",
+    "per_lot": "single lot, 12 months, base price 4.20 EUR/kg incl. safety costs"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Buyer's base price (prezzo unitario previsto) cationic emulsion polyelectrolyte",
+     "unit_price": 4.2,
+     "currency_per": "EUR/kg delivered (excl. VAT)",
+     "year": 2026,
+     "source_url": "https://albo-gare.ciip.it/tender/documenti/18663/All.+D+-+Capitolato+d%26%23039%3BOneri.pdf?dmsDoc=1"
+    }
+   ],
+   "feasibility_ru": "Средняя: продукт (катионная эмульсия ПАА, >45% активного вещества, заряд >20%) производится в Китае; базовая цена 4,2 EUR/кг DDP высокая — маржа есть даже с доставкой IBC. Но нужны: итальянский склад/дистрибьютор для поставок в IBC по 12 площадкам, техник за 48 ч, пробная проверка на станциях перед контрактом, итальянский язык и гарантия 2%. Рамочное соглашение делится между до 4 поставщиками — шанс получить 10-20% даже не будучи первым.",
+   "risks_ru": "Эмульсия имеет ограниченный срок хранения (~6 мес) — морская доставка + склад; провал пробной проверки = нет контракта; итальянская платформа с регистрацией.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/789637-2026",
+    "https://albo-gare.ciip.it/tender/7936"
    ]
   },
   {

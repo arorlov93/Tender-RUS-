@@ -1,0 +1,961 @@
+{
+ "meta": {
+  "region": "asia",
+  "batch_ids": [
+   0,
+   1,
+   2,
+   3,
+   10,
+   11,
+   12,
+   13,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   34,
+   39,
+   40,
+   41,
+   49,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   69,
+   70,
+   79,
+   87,
+   88,
+   108,
+   109,
+   113,
+   114,
+   115,
+   121
+  ],
+  "generated": "2026-11-15",
+  "analyst": "asia regional deep-dive (Claude)",
+  "n_tenders": 21,
+  "method": "GeM bid PDFs via bidplus showbidDocument (fetched through Parallel web_fetch; direct GeM blocked from sandbox) and tenderfiles.com mirrors linked from tenderdetail.com; national portals/ITB PDFs where reachable; values only from opened documents, null otherwise.",
+  "notes": "qty_t null where unit is litres of resin (no density conversion). 'derived' marks values computed from document thresholds, not published."
+ },
+ "tenders": [
+  {
+   "id": 0,
+   "n": "GEM/2026/B/8235585 (ONGC ref ZV1AC26020)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10121697"
+   ],
+   "items": [
+    {
+     "product": "Corrosion inhibitor for A, P & M fields of KG-DWN-98/2 (offshore)",
+     "spec": "Buyer spec document (not opened: tendershark-hosted spec PDF behind login)",
+     "qty": 40,
+     "unit": "metric tonne",
+     "qty_t": 40,
+     "qty_basis": "GeM bid doc unit = metric tonne"
+    },
+    {
+     "product": "Scale inhibitor for A, P & M fields of KG-DWN-98/2",
+     "spec": "Buyer spec document",
+     "qty": 40,
+     "unit": "metric tonne",
+     "qty_t": 40,
+     "qty_basis": "GeM bid doc unit = metric tonne"
+    }
+   ],
+   "total_qty_t": 80,
+   "contract_period": "Each item: 20 t delivery within 1-60 days, 20 t within 150-180 days from contract start",
+   "delivery_terms": "Delivered to Incharge Stores, ONGC Logistics Park, Vakalapudi, Kakinada-533005, Andhra Pradesh; post-receipt inspection at consignee",
+   "packaging": null,
+   "certificates": "OEM authorisation certificate; certificates requested in ATC; Make in India local content declaration",
+   "bid_security": "EMD not required; ePBG 3% for 21 months",
+   "eligibility_foreign": "GeM Indian seller only. MII: 'Allow participation only from Class 1/Class 2 local suppliers' = YES (min 50%/20% local content). Pure imports (<=20% local content) excluded.",
+   "award_criteria": "Total value wise evaluation, two-packet bid, Bid-to-RA (H1 elimination); MII purchase preference L1+20%; MSE preference L1+15% up to 100%",
+   "estimated_value": {
+    "amount": null,
+    "currency": "INR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Практически закрыто для импорта: участвовать могут только Class-1/Class-2 local suppliers (>=20% местной добавленной стоимости). Вариант — индийский блендер/формулятор, который производит ингибитор в Индии из импортных активов ISP (активы ~<80% стоимости) и сам подаёт на GeM.",
+   "risks_ru": "Срок подачи 18.11.2026 (3 дня). Спец. требования ONGC к офшорной химии, полевые испытания; Class-1/2 local content; ePBG 3%.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10121697",
+    "https://www.tendershark.com/details/andhra-pradesh-tender/oil-and-natural-gas-corporation-limited/09cdc727-400a-4bb1-aa40-ffd6f3a27aa0"
+   ]
+  },
+  {
+   "id": 10,
+   "n": "GEM/2026/B/8217084",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10100155",
+    "https://www.tenderfiles.com/tenderdocuments/102026/30/1ae65a08-dfe2-483d-ae42-9c2af5545ec6?FileName=1ae65a08-dfe2-483d-ae42-9c2af5545ec6.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/30/1ae65a08-dfe2-483d-ae42-9c2af5545ec6?FileName=TenderD_bd72c717-bcae-45e9-9a8e1793273438525_CPOKR14.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/30/1ae65a08-dfe2-483d-ae42-9c2af5545ec6?FileName=technical_specification_2026-10-29-16-11-58_8f5ff487b40c17b003bc168fae048744.pdf"
+   ],
+   "items": [
+    {
+     "product": "Activated carbon granular for TGTU (ISTG502)",
+     "spec": "Coconut shell based, 8x30 mesh, bulk density 400-500 (avg 450) kg/m3, abrasion no. 75 min, ash max 12%, molasses no. 100-150, moisture max 5%, iodine min 900 mg/g",
+     "qty": 2200,
+     "unit": "kg",
+     "qty_t": 2.2,
+     "qty_basis": "GeM bid doc 2200 kilogram"
+    }
+   ],
+   "total_qty_t": 2.2,
+   "contract_period": "Delivery 84 days",
+   "delivery_terms": "BPCL Kochi Refinery, Ambalamugal, Kerala 682302",
+   "packaging": "Sealed bags of 25/50 kg",
+   "certificates": null,
+   "bid_security": "EMD not required; ePBG not required",
+   "eligibility_foreign": "GeM Indian seller; MII purchase preference = No (CA exemption); turnover min avg INR 2 lakh; 3 years experience; past performance 30% of qty to Govt/PSU",
+   "award_criteria": "Total value wise L1, two-packet, no RA; MSE preference L1+15% for 25%",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Технически открыто для импортного кокосового угля через индийского GeM-продавца с опытом поставок PSU (30% объёма = 660 кг в одном FY). Объём мал (2,2 т) — интересно только как вход на BPCL.",
+   "risks_ru": "Дедлайн 19.11.2026; малый объём; нужен индийский продавец с past performance.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10100155",
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58274683"
+   ]
+  },
+  {
+   "id": 23,
+   "n": "GEM/2026/B/8234937",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10120988"
+   ],
+   "items": [
+    {
+     "product": "Antiscalant Hypersperse MSI410 (brand)",
+     "spec": "Brand-specific Veolia/SUEZ product",
+     "qty": 3000,
+     "unit": "kg",
+     "qty_t": 3.0,
+     "qty_basis": "GeM bid doc 3000 kilogram"
+    }
+   ],
+   "total_qty_t": 3.0,
+   "contract_period": "1500 kg delivery day 15-45, 1500 kg day 150-210",
+   "delivery_terms": "OPGC Banharpali, Odisha 768234",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required; ePBG not required",
+   "eligibility_foreign": "SINGLE TENDER: only VEOLIA WATER TECHNOLOGIES AND SOLUTIONS (INDIA) PRIVATE LIMITED invited",
+   "award_criteria": "Single tender, single packet",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Неучаствуемо: single tender на Veolia India (брендовый продукт).",
+   "risks_ru": "Закрытая закупка у одного поставщика.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10120988",
+    "https://justsocial.cloud/tenders/GEM%2F2026%2FB%2F8234937"
+   ]
+  },
+  {
+   "id": 24,
+   "n": "GEM/2026/B/8222019",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=1793358967.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=1793358981.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=1793358992.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=1793359006.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=1793359016.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=1793359029.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=Int_Pact_c9bb3d1f-4391-4c70-ab4e1793360105954_GANESH_PP.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=c8177ca7-5c59-4652-a804-a5ebb0a038f0.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=lba_resin_technical_specification_2026-10-30-16-37-41_b0af592ce4b001000a5cc3146e75c437.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/102026/31/c8177ca7-5c59-4652-a804-a5ebb0a038f0?FileName=lba_resin_technical_specification_2026-10-30-16-40-42_23222b280c23f04f73eeba237a72c896.pdf"
+   ],
+   "items": [
+    {
+     "product": "Strong base anion resin for layered bed, DM plant",
+     "spec": "LBA resin technical specification (scanned PDF, not OCR'd)",
+     "qty": 13050,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres of resin; ~0.67-0.72 kg/L typical shipping weight would give ~9 t, not converted"
+    },
+    {
+     "product": "Weak base anion (WBA) resin for layered beds, DM plant",
+     "spec": "LBA resin technical specification",
+     "qty": 21200,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Delivery 60 days; ATC: dispatch within 5 weeks of PO",
+   "delivery_terms": "MRPL Kuthethoor, Mangaluru 575030",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD INR 262,000; ePBG 5%",
+   "eligibility_foreign": "MII: participation only from Class 1/Class 2 local suppliers (50%/20%); MoPNG PP-LC policy: LC<=20% = non-local; MRPL GPC applies",
+   "award_criteria": "Total value wise L1, two-packet, no RA",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Импортная смола не проходит (только Class-1/2 local). Возможен только индийский производитель смол (Ion Exchange India, Thermax и т.п.).",
+   "risks_ru": "Дедлайн 20.11.2026; local content; EMD 2,62 лакха.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58294678/94cb8c6e45b02db87c40500f4ae2cb26"
+   ]
+  },
+  {
+   "id": 25,
+   "n": "GEM/2026/B/8203673",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10084814",
+    "https://www.tenderfiles.com/tenderdocuments/112026/11/d0e47bef-52b7-44bb-b886-63a2f85407ae?FileName=d0e47bef-52b7-44bb-b886-63a2f85407ae.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/11/d0e47bef-52b7-44bb-b886-63a2f85407ae?FileName=world-bank-stc_1704778647.pdf"
+   ],
+   "items": [
+    {
+     "product": "Alumino-ferric (V2) conforming to IS 299:2012",
+     "spec": "Grade 4 solid form (drinking water), slabs; polythene-lined HDPE bags 20 kg; shelf life 1 yr",
+     "qty": 83400,
+     "unit": "kg",
+     "qty_t": 83.4,
+     "qty_basis": "GeM line says 83400 container(s); additional spec says 'ALUMINO FERRIC QTY 83400 KGS'"
+    }
+   ],
+   "total_qty_t": 83.4,
+   "contract_period": "Delivery 20 days",
+   "delivery_terms": "Indian Army unit, Udhampur (J&K)",
+   "packaging": "20 kg polythene-lined HDPE bags",
+   "certificates": "IS 299 conformity",
+   "bid_security": "EMD INR 175,431; ePBG not required",
+   "eligibility_foreign": "Reserved for Make in India products (Class 1 local supplier only, min 50% local content); bidder turnover INR 17 lakh, OEM turnover 15 lakh; 3 yrs experience; past performance 50%",
+   "award_criteria": "Total value L1, two-packet, RA (50% lowest qualified). Note: RA GEM/2026/R/768056 for this item already listed closing 12.11.2026 (govttenderhub)",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Закрыто для импорта (reserved for MII, Class-1). Кроме того, бид уже ушёл в реверс-аукцион 12.11.2026.",
+   "risks_ru": "Фактически завершён/на стадии RA; доставка в Удхампур за 20 дней.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10084814",
+    "https://govttenderhub.com/gem-tenders"
+   ]
+  },
+  {
+   "id": 34,
+   "n": "GEM/2026/B/8263951",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10154210"
+   ],
+   "items": [
+    {
+     "product": "Corrosion & scale inhibitor (cooling water)",
+     "spec": "Buyer spec document (not retrieved)",
+     "qty": 166500,
+     "unit": "kg",
+     "qty_t": 166.5,
+     "qty_basis": "GeM doc"
+    },
+    {
+     "product": "Polymeric dispersant",
+     "spec": "Buyer spec",
+     "qty": 266400,
+     "unit": "kg",
+     "qty_t": 266.4,
+     "qty_basis": "GeM doc"
+    },
+    {
+     "product": "Non-oxidising biocide",
+     "spec": "Buyer spec",
+     "qty": 19980,
+     "unit": "kg",
+     "qty_t": 19.98,
+     "qty_basis": "GeM doc (consignee qty)"
+    },
+    {
+     "product": "Oil dispersant",
+     "spec": "Buyer spec",
+     "qty": 3330,
+     "unit": "kg",
+     "qty_t": 3.33,
+     "qty_basis": "GeM doc"
+    },
+    {
+     "product": "Oxidising biocide",
+     "spec": "Buyer spec",
+     "qty": 33300,
+     "unit": "kg",
+     "qty_t": 33.3,
+     "qty_basis": "GeM doc"
+    }
+   ],
+   "total_qty_t": 489.51,
+   "contract_period": "365 days delivery (annual requirement)",
+   "delivery_terms": "HPCL Visakh Refinery Warehouse, Malkapuram, Visakhapatnam 530011",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required",
+   "eligibility_foreign": "MII purchase preference Yes (L1+20%, up to 50% qty) AND 'participation only from Class 1/Class 2 local suppliers' = Yes (50%/20% local content)",
+   "award_criteria": "Total value wise evaluation (bunch), two-packet; MSE L1+15% 25%",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Крупный объём (~490 т/год), но только для Class-1/2 local. Реально — через индийского формулятора-партнёра (смешение/фасовка в Индии), который закупает активы (HEDP/PBTC, полиакрилаты, изотиазолинон и пр.) у ISP. Нужна оценка доли импорта <80%.",
+   "risks_ru": "Дедлайн 21.11.2026; пакетная оценка на 5 позиций (нужен весь набор, вкл. биоциды); local content; HPCL как правило требует опыт PSU.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10154210"
+   ]
+  },
+  {
+   "id": 39,
+   "n": "GEM/2026/B/8266826",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/45db580a-6aac-4e90-b3b4-d7a7c234c63a?FileName=45db580a-6aac-4e90-b3b4-d7a7c234c63a.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/45db580a-6aac-4e90-b3b4-d7a7c234c63a?FileName=ATC_edfaf963-4233-4cf6-944b1794467888024_arijitgorai.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/45db580a-6aac-4e90-b3b4-d7a7c234c63a?FileName=specs_2026-11-12-12-40-00_5cf77437d1284f8677cc66abd556d541.pdf"
+   ],
+   "items": [
+    {
+     "product": "Granular activated carbon, coconut shell (GS 1200A type)",
+     "spec": "4x8 mesh; iodine 1200 mg/g; abrasion 95; molasses 250; moisture 2%; app. bulk density 480-540 kg/m3; hardness 95 min; ash 3% max",
+     "qty": 5000,
+     "unit": "kg",
+     "qty_t": 5.0,
+     "qty_basis": "GeM bid doc 5000 kilogram"
+    }
+   ],
+   "total_qty_t": 5.0,
+   "contract_period": "Delivery 28 days",
+   "delivery_terms": "HPCL Visakh Refinery Warehouse, Visakhapatnam 530011",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required; ePBG 5%",
+   "eligibility_foreign": "MII purchase preference = No; MSE preference Yes; GeM Indian seller",
+   "award_criteria": "Total value L1, two-packet, no RA",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Открыто для импортного угля через индийского GeM-продавца. Объём 5 т — малый; срок поставки 28 дней требует наличия на складе в Индии.",
+   "risks_ru": "Дедлайн 23.11.2026; 28 дней на поставку (импорт не успеет без стока).",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58498834"
+   ]
+  },
+  {
+   "id": 40,
+   "n": "GEM/2026/B/8255198",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/72ae49ff-2fa5-4386-8e86-e60be1510e05?FileName=72ae49ff-2fa5-4386-8e86-e60be1510e05.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/72ae49ff-2fa5-4386-8e86-e60be1510e05?FileName=Annexure_fa979b0a-0482-407a-ad7d1794400526403_buyer22.sail.or.docx",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/72ae49ff-2fa5-4386-8e86-e60be1510e05?FileName=spec-70410400080151_20_2026-11-09-11-09-59_96b921dd74c040da3ff17045ab405010.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/72ae49ff-2fa5-4386-8e86-e60be1510e05?FileName=spec-70410400080152_10_2026-11-09-11-08-40_a62fd0b03c3e704378daecea69cd2ad7.pdf"
+   ],
+   "items": [
+    {
+     "product": "Resin for strong base anion (70410400080152)",
+     "spec": "Spec PDF spec-70410400080152",
+     "qty": 12600,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    },
+    {
+     "product": "Resin for strong acid cation (70410400080151)",
+     "spec": "Spec PDF spec-70410400080151",
+     "qty": 12600,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Delivery 120 days",
+   "delivery_terms": "SAIL Rourkela Steel Plant, Office of GM I/c Stores & Inspection, Rourkela 769011",
+   "packaging": "Drums of 200 L capacity, marked with batch, mfg/expiry date; test certificate/CoA",
+   "certificates": null,
+   "bid_security": "EMD not required",
+   "eligibility_foreign": "MII Yes, participation only from Class 1/Class 2 local suppliers",
+   "award_criteria": "Item-wise evaluation, two-packet, Bid-to-RA enabled",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Импортная смола исключена (только local Class-1/2).",
+   "risks_ru": "Local content; дедлайн 23.11.2026.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58493969"
+   ]
+  },
+  {
+   "id": 41,
+   "n": "GEM/2026/B/8227276",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/2/1acb47ec-bec2-4a29-83bb-445b5cceffe4?FileName=1793599567.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/2/1acb47ec-bec2-4a29-83bb-445b5cceffe4?FileName=1acb47ec-bec2-4a29-83bb-445b5cceffe4.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/2/1acb47ec-bec2-4a29-83bb-445b5cceffe4?FileName=ATC_5afcb8c8-a506-4ba9-8f791793598572926_MUMMHCH7.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/2/1acb47ec-bec2-4a29-83bb-445b5cceffe4?FileName=destination-sampling-method-ongc-chemicals_2020-08-10-17-03-52_65410223f19cf01be141b11240e42a9d.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/2/1acb47ec-bec2-4a29-83bb-445b5cceffe4?FileName=ongc-specification-pc27_pac_2020-08-10-17-03-25_c205c08b249c40aa726e363f276d33a3.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/2/1acb47ec-bec2-4a29-83bb-445b5cceffe4?FileName=ongc-test-procedure-chemicals-vol-iv_pc27_2020-08-10-17-03-37_3e074aa1aaf58268b63bda5cc5b59428.pdf"
+   ],
+   "items": [
+    {
+     "product": "Poly aluminium chloride (ONGC) liquid",
+     "spec": "ONGC/PC/27/2015: homogeneous liquid; SG 1.32±0.03 at 27°C; pH (5%) max 4.0; Al2O3 13-15%; Cl 18-23%; SO4 max 2%; Fe colour match 100 ppm",
+     "qty": 24650,
+     "unit": "kg",
+     "qty_t": 24.65,
+     "qty_basis": "GeM bid doc 24650 kilogram"
+    }
+   ],
+   "total_qty_t": 24.65,
+   "contract_period": "12,650 kg within 30 days; 12,000 kg from day 180 to 210",
+   "delivery_terms": "ONGC Pipavav Supply Base, APM Terminals Pipavav, Rajula, Amreli, Gujarat 365560; destination sampling & testing by ONGC",
+   "packaging": "Standard packing & marking per ONGC (manufacturer mark, lot no., mfg date)",
+   "certificates": null,
+   "bid_security": "EMD not required; ePBG 3%",
+   "eligibility_foreign": "MII purchase preference = No (value < INR 1 crore); manufacturer: min 1 yr manufacturing PAC and supplied 10% of qty in last 5 yrs; past performance 10%",
+   "award_criteria": "Total value L1, two-packet",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Технически открыт для импортного жидкого ПАХ 13-15% через индийского продавца, но жидкость ~25 т импортом нерентабельна; реалистично только индийскому производителю. Низкий приоритет.",
+   "risks_ru": "Дедлайн 23.11.2026; destination testing ONGC, отказ — за счёт поставщика; требование опыта производства.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58332873/e02fb99be64288531f34f84143984865"
+   ]
+  },
+  {
+   "id": 49,
+   "n": "GEM/2026/B/8260655",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10150443"
+   ],
+   "items": [
+    {
+     "product": "Pour point depressant (PPD) for diesel",
+     "spec": "Buyer spec document (not retrieved)",
+     "qty": 10000,
+     "unit": "kg",
+     "qty_t": 10.0,
+     "qty_basis": "GeM bid doc 10000 kilogram"
+    }
+   ],
+   "total_qty_t": 10.0,
+   "contract_period": "Delivery 28 days",
+   "delivery_terms": "BPCL Bina Refinery, Bina, MP 470113",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required; ePBG not required",
+   "eligibility_foreign": "MII purchase preference = No; turnover INR 8 lakh; 3 yrs experience; past performance 30%",
+   "award_criteria": "Total value L1, two-packet, no RA; MSE L1+15%",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Открыто для импорта через индийского GeM-продавца с опытом поставок PPD в PSU. Поставка 28 дней — нужен сток в Индии. Обычно требуются заводские испытания на дизеле BPCL.",
+   "risks_ru": "Дедлайн 24.11.2026; спецификация/тест-квалификация продукта не известна.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10150443"
+   ]
+  },
+  {
+   "id": 58,
+   "n": "GEM/2026/B/8235099",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10121164"
+   ],
+   "items": [
+    {
+     "product": "Corrosion inhibitor for gas line (ONGC)",
+     "spec": "ONGC/PC/03 (2026 rev, attached in ATC); test procedure Vol-IV/PC/03",
+     "qty": 10000,
+     "unit": "kg",
+     "qty_t": 10.0,
+     "qty_basis": "GeM bid doc 10000 kilogram"
+    }
+   ],
+   "total_qty_t": 10.0,
+   "contract_period": "Delivery 45 days",
+   "delivery_terms": "Central Stores, ONGC Sivasagar, Assam 785640; post-dispatch inspection by ONGC indentor",
+   "packaging": null,
+   "certificates": "OEM authorisation; QAP",
+   "bid_security": "EMD INR 9,000; ePBG 3% for 4 months",
+   "eligibility_foreign": "MII purchase preference = No (value < INR 1 crore); past performance 10% to Govt/PSU",
+   "award_criteria": "Total value L1, two-packet, no RA; MSE L1+15% 25%",
+   "estimated_value": {
+    "amount": null,
+    "currency": "INR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Открыто для импортного продукта через индийского GeM-продавца/OEM-авторизацию; нужен продукт, проходящий ONGC PC-03. Объём 10 т.",
+   "risks_ru": "Лабораторная квалификация ONGC; доставка в Ассам за 45 дней.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10121164",
+    "https://www.tendershark.com/details/assam-tender/oil-and-natural-gas-corporation-limited/575c4198-753b-4c22-8f9c-3feac2e4a49e"
+   ]
+  },
+  {
+   "id": 59,
+   "n": "GEM/2026/B/8258741",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/11/9d7145fa-eaba-4453-b3ed-2c9d23f94ef7?FileName=9d7145fa-eaba-4453-b3ed-2c9d23f94ef7.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/11/9d7145fa-eaba-4453-b3ed-2c9d23f94ef7?FileName=specs_2026-11-10-11-51-30_5cb64b7645ebe090f97ac32c7c318ce3.pdf"
+   ],
+   "items": [
+    {
+     "product": "Desiccant, activated alumina (Part No 902801)",
+     "spec": "5-8 mm spherical balls",
+     "qty": 6350,
+     "unit": "kg",
+     "qty_t": 6.35,
+     "qty_basis": "GeM bid doc 6350 kilogram"
+    }
+   ],
+   "total_qty_t": 6.35,
+   "contract_period": "Delivery 60 days",
+   "delivery_terms": "OPGC Banharpali, Odisha 768234",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required",
+   "eligibility_foreign": "MII No, MSE No; ATC: bidder must be MANUFACTURER of desiccant for past 7 years; 3 orders >= INR 2.91 lakh each in last 7 yrs to thermal power plant/industry; avg turnover >= INR 2.18 lakh",
+   "award_criteria": "Total value L1, two-packet",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Требование 'bidder must be manufacturer' — трейдер не проходит; только через индийского/иностранного производителя, зарегистрированного на GeM.",
+   "risks_ru": "Мелкий объём; производитель-only.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58473886"
+   ]
+  },
+  {
+   "id": 61,
+   "n": "GEM/2026/B/8170619",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/11/502d811e-eea4-49a9-a75b-9a1d7e98a0e1?FileName=502d811e-eea4-49a9-a75b-9a1d7e98a0e1.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/11/502d811e-eea4-49a9-a75b-9a1d7e98a0e1?FileName=ATCPSDBG_23eb11dd-41f3-4bc5-b04f1793869982476_apo5mrpu.docx"
+   ],
+   "items": [
+    {
+     "product": "Nuclear grade cation exchange resin, H+ form",
+     "spec": "Cross-linked polystyrene-DVB; TEC >=1.8 meq/ml, >=99% H+; 0.3-1.2 mm; bead strength >=500 g; moisture 50-55%; Fe<=20, Cu<=10, heavy metals<=10 mg/L",
+     "qty": 1000,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    },
+    {
+     "product": "Nuclear grade anion exchange resin, OH- form",
+     "spec": "PS-DVB; TEC >=1.0 meq/ml; OH>=94%, Cl<=1%, CO3<=5%; 0.3-1.2 mm",
+     "qty": 1000,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Delivery 60 days",
+   "delivery_terms": "DPS/IGCAR Central Stores Unit, Kalpakkam 603102",
+   "packaging": "25 L sealed plastic containers in steel drums (150 L), colour-coded",
+   "certificates": null,
+   "bid_security": "EMD not required",
+   "eligibility_foreign": "MII Yes; only Class 1/Class 2 local suppliers",
+   "award_criteria": "Item-wise L1, two-packet, RA enabled",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Не для ISP: ядерный класс + только local Class-1/2.",
+   "risks_ru": "Ядерная квалификация.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58451029"
+   ]
+  },
+  {
+   "id": 69,
+   "n": "GEM/2026/B/8265422",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/927394a7-0384-44fe-a54d-11701f4930d4?FileName=1794456151.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/927394a7-0384-44fe-a54d-11701f4930d4?FileName=927394a7-0384-44fe-a54d-11701f4930d4.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/927394a7-0384-44fe-a54d-11701f4930d4?FileName=atc_2026-11-12-09-29-07_76a4d557d497f6482c7769ad60e879eb.pdf"
+   ],
+   "items": [
+    {
+     "product": "Alumino ferric",
+     "spec": "As per buyer spec/ATC (IS 299 implied by category, not confirmed)",
+     "qty": 10000,
+     "unit": "kg",
+     "qty_t": 10.0,
+     "qty_basis": "GeM bid doc 10000 kilogram"
+    }
+   ],
+   "total_qty_t": 10.0,
+   "contract_period": "Delivery 15 days",
+   "delivery_terms": "Indian Army unit, Ambala",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required",
+   "eligibility_foreign": "MII Yes; only Class 1/Class 2 local suppliers; 2 yrs experience; past performance 50%",
+   "award_criteria": "Total value L1, two-packet, RA enabled",
+   "estimated_value": {
+    "amount": 500000,
+    "currency": "INR",
+    "per_lot": "whole bid (10 t) -> INR 50/kg"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Estimated bid value alumino ferric 10 t (Indian Army Ambala)",
+     "unit_price": 50,
+     "currency_per": "INR/kg",
+     "year": 2026,
+     "source_url": "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58490507"
+    }
+   ],
+   "feasibility_ru": "Закрыто (Class-1/2 local only); доставка 15 дней.",
+   "risks_ru": "Мелкий объём, армия.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58490507"
+   ]
+  },
+  {
+   "id": 79,
+   "n": "GEM/2026/B/8178120",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10054767"
+   ],
+   "items": [
+    {
+     "product": "Anionic polyelectrolyte (for HRSCC)",
+     "spec": "GeM category spec; packaging 5/10/20/25 kg polythene bags",
+     "qty": 6000,
+     "unit": "kg",
+     "qty_t": 6.0,
+     "qty_basis": "GeM bid 6000; ATC 'Quantity Required 6 MT'"
+    }
+   ],
+   "total_qty_t": 6.0,
+   "contract_period": "365 days; delivery within 7 days of e-mail call-off; first lot 3 MT",
+   "delivery_terms": "RCF Thal stores, Alibag, Raigad 402208",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required",
+   "eligibility_foreign": "MII purchase preference Yes and participation only from Class 1/Class 2 local suppliers; min avg turnover INR 11.82 lakh (RCF tender AU-90970)",
+   "award_criteria": "Total value L1, two-packet",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Импортный ПАА исключён (Class-1/2 local). Не подходит.",
+   "risks_ru": "Local content.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10054767"
+   ]
+  },
+  {
+   "id": 87,
+   "n": "GEM/2026/B/8225080",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/6/4cea34b9-e062-43d5-b108-578e47c9cda4?FileName=191_tech_2026-10-31-14-45-57_197e90e748193ef2524af89a8f2304f8.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/6/4cea34b9-e062-43d5-b108-578e47c9cda4?FileName=4cea34b9-e062-43d5-b108-578e47c9cda4.pdf"
+   ],
+   "items": [
+    {
+     "product": "Strong base anion exchange resin",
+     "spec": "Tech spec scanned (not OCR'd)",
+     "qty": 4000,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Delivery 60 days",
+   "delivery_terms": "BARC Tarapur Complex, Ghivali, Boisar, Palghar 401502",
+   "packaging": "25/50 L HDPE bags/containers",
+   "certificates": null,
+   "bid_security": "EMD not required; ePBG 5%",
+   "eligibility_foreign": "MII Yes; only Class 1/Class 2 local suppliers; advance sample approval after award",
+   "award_criteria": "Total value L1, two-packet, no RA",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Закрыто для импорта (DAE, Class-1/2 local).",
+   "risks_ru": "Sample approval; DAE.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58420927"
+   ]
+  },
+  {
+   "id": 108,
+   "n": "GEM/2026/B/8263545",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [
+    {
+     "product": "BFW treatment chemicals + antioxidant for HPG treatment in ECU (custom service bid)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "not found"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "GeM service bid: Indian service provider only (not verified in document)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Сервисный контракт (дозирование) — только через индийского сервис-провайдера. Документ не найден (нет numeric id в агрегаторах).",
+   "risks_ru": "Документация не получена.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/india/custom-bid-for-services-bfw-treatment-chemicals-and-antioxidant-for-hpg-treatmen-16376427"
+   ]
+  },
+  {
+   "id": 109,
+   "n": "GEM/2026/B/8262664",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/7fa61717-5707-47ad-a085-f0996b53e476?FileName=1794391826.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/7fa61717-5707-47ad-a085-f0996b53e476?FileName=7fa61717-5707-47ad-a085-f0996b53e476.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/7fa61717-5707-47ad-a085-f0996b53e476?FileName=AnnexureA_1ff4dbea-9674-4d40-88131794391769121_buycon22.igr.as.docx",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/7fa61717-5707-47ad-a085-f0996b53e476?FileName=tech-specrgrm264028_2026-11-11-12-04-08_547baffe19d4a61371a6fec00177a9ac.pdf"
+   ],
+   "items": [
+    {
+     "product": "Poly aluminium chloride powder 30% (IOCL mat. 8840620124)",
+     "spec": "Al2O3 29-30%; basicity 35-45%; Cl 29-36%; SO4 nil-10%; pH (5%) 2.5-5.0",
+     "qty": 100000,
+     "unit": "kg",
+     "qty_t": 100.0,
+     "qty_basis": "GeM bid doc 100000 kilogram"
+    }
+   ],
+   "total_qty_t": 100.0,
+   "contract_period": "Staggered over 1 year from PO (extendable 6 months); 1st lot 25 MT within 15 days, further lots min 25 MT each within 15 days of call-off",
+   "delivery_terms": "IOCL Guwahati Refinery, Noonmati, Guwahati 781020; tested in IOCL QC lab, no resampling",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required; ePBG 5% (insurance surety bond allowed); price adjustment document attached",
+   "eligibility_foreign": "MII purchase preference No; MoPNG PP-LC not applicable (per RHQ). Experience: 3 orders >= INR 9,45,180 each, or 2 >= 12,60,240, or 1 >= 15,75,300 for PAC in last 5 yrs; foreign orders accepted (converted to USD); group-company credentials allowed",
+   "award_criteria": "Total value L1, two-packet, no RA; MSE L1+15%",
+   "estimated_value": {
+    "amount": null,
+    "currency": "INR",
+    "per_lot": "not stated; experience thresholds (30/40/50% pattern) imply ~INR 31.5 lakh (derived, not published)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Implied estimate from IOCL PQ thresholds (15,75,300 = 50% -> ~31,50,600 INR / 100 t) - derived",
+     "unit_price": 31.5,
+     "currency_per": "INR/kg (derived)",
+     "year": 2026,
+     "source_url": "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58498686"
+    }
+   ],
+   "feasibility_ru": "Лучший GeM-лот для ISP: PAC 30% порошок 100 т/год, без MII, принимаются иностранные заказы как опыт. Нужен индийский GeM-продавец (импортёр) с GSTIN; поставки партиями по 25 т в Гувахати за 15 дней — нужен буферный склад в Индии (Колката/Гувахати).",
+   "risks_ru": "Дедлайн 02.12.2026; ePBG 5%; 15-дневные call-off; контроль в лаборатории IOCL без переотбора; пошлина Индии на PAC + антидемпинг? (не проверено).",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58498686"
+   ]
+  },
+  {
+   "id": 113,
+   "n": "GEM/2026/B/8188630",
+   "docs_found": true,
+   "doc_urls": [
+    "https://bidplus.gem.gov.in/showbidDocument/10067307",
+    "https://www.tenderfiles.com/tenderdocuments/112026/13/56a31af0-b244-4cc8-9496-2f3f906b574c?FileName=1792662045.xlsx",
+    "https://www.tenderfiles.com/tenderdocuments/112026/13/56a31af0-b244-4cc8-9496-2f3f906b574c?FileName=26p196_section_-_iv_2026-10-22-15-01-42_a4142df5f21fccf7a46ea9cd3bc2184e.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/13/56a31af0-b244-4cc8-9496-2f3f906b574c?FileName=56a31af0-b244-4cc8-9496-2f3f906b574c.pdf"
+   ],
+   "items": [
+    {
+     "product": "Oxygen scavenger (boiler)",
+     "spec": "Buyer spec / Section IV (HURL tender 26P196)",
+     "qty": 5500,
+     "unit": "kg",
+     "qty_t": 5.5,
+     "qty_basis": "GeM bid doc 5500 kilogram"
+    }
+   ],
+   "total_qty_t": 5.5,
+   "contract_period": "365 days",
+   "delivery_terms": "HURL Gorakhpur, UP 273007",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD INR 22,000; ePBG 5%",
+   "eligibility_foreign": "MII Yes; only Class 1/Class 2 local suppliers; turnover INR 3 lakh; 3 yrs experience; past performance 80%",
+   "award_criteria": "Total value L1, two-packet, RA (H1 elimination)",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Закрыто для импорта (Class-1/2 local).",
+   "risks_ru": "Мелкий объём.",
+   "sources": [
+    "https://bidplus.gem.gov.in/showbidDocument/10067307",
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58501272"
+   ]
+  },
+  {
+   "id": 114,
+   "n": "GEM/2026/B/8267525",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/5a83ded8-8670-4124-aa25-1a4b6f029e7c?FileName=5500001538_2026-11-12-12-45-54_5c10d06b3ea82c2ef1e20d8e7e58a960.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/5a83ded8-8670-4124-aa25-1a4b6f029e7c?FileName=5500001538_2026-11-12-12-46-27_ba68ad7a7634afd74b968dcf762170b6.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/5a83ded8-8670-4124-aa25-1a4b6f029e7c?FileName=5500001538_9709a200-743b-4fd2-bcce1794473773211_RATAN_BATHINDA.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/12/5a83ded8-8670-4124-aa25-1a4b6f029e7c?FileName=5a83ded8-8670-4124-aa25-1a4b6f029e7c.pdf"
+   ],
+   "items": [
+    {
+     "product": "Strong base anion exchange resin",
+     "spec": "NFL spec 5500001538 (bulk density shipping wt 675-725 kg/m3 stated in spec)",
+     "qty": 23000,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    },
+    {
+     "product": "Strong acid cation exchange resin",
+     "spec": "NFL spec 5500001538",
+     "qty": 20000,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Delivery 90 days",
+   "delivery_terms": "NFL Bathinda, Sibian Road 151003",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD INR 100,000; ePBG 5%",
+   "eligibility_foreign": "MII Yes; only Class 1/Class 2 local suppliers",
+   "award_criteria": "Total value L1, two-packet, no RA",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Закрыто для импорта (Class-1/2 local).",
+   "risks_ru": "Local content.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58496041"
+   ]
+  },
+  {
+   "id": 115,
+   "n": "GEM/2026/B/8265832",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/112026/13/511ce749-f6d3-4f2d-9993-82dfc5d85d74?FileName=1794462249.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/13/511ce749-f6d3-4f2d-9993-82dfc5d85d74?FileName=2-specs-of-ferric-chloride_2021-06-18-11-59-50_a08e0a412db6bef06200038f994604e6.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/13/511ce749-f6d3-4f2d-9993-82dfc5d85d74?FileName=3-testing-procedure-of-fecl3_2021-06-18-11-59-56_f0b2d6894883f21c8b752472c243a2e3.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/13/511ce749-f6d3-4f2d-9993-82dfc5d85d74?FileName=511ce749-f6d3-4f2d-9993-82dfc5d85d74.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/13/511ce749-f6d3-4f2d-9993-82dfc5d85d74?FileName=ATC_c92becaf-2dce-41fc-b6171794461962409_MUMMHCH7.pdf"
+   ],
+   "items": [
+    {
+     "product": "Ferric chloride - ONGC",
+     "spec": "ONGC/WIC/13/2015; test procedure Vol-V/WIC/13",
+     "qty": 28650,
+     "unit": "kg",
+     "qty_t": 28.65,
+     "qty_basis": "GeM bid doc 28650 kilogram"
+    }
+   ],
+   "total_qty_t": 28.65,
+   "contract_period": "Staggered (schedule in doc)",
+   "delivery_terms": "ONGC Pipavav Supply Base, Rajula, Amreli, Gujarat 365560",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD not required; ePBG 3%",
+   "eligibility_foreign": "MII purchase preference No (CA 52/2024); 1 yr experience; past performance 10%",
+   "award_criteria": "Total value L1, two-packet, no RA",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Технически открыт, но FeCl3 (жидкий/безводный?) 28,6 т на Пипавав — импорт малорентабелен; низкий приоритет.",
+   "risks_ru": "Спецификация сканирована; destination testing ONGC.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58500307"
+   ]
+  }
+ ]
+}
