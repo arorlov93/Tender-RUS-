@@ -5019,6 +5019,37 @@
    ]
   },
   {
+   "id": 98,
+   "n": "AB-2026-07181 (Aquatera internal OS-03-027-02)",
+   "country": "Канада",
+   "buyer": "Aquatera Utilities Inc. (Grande Prairie, AB) / Canada",
+   "ru": "Запрос цен на поставку оптовых химикатов для воды/стоков на 2027 г. для Aquatera Utilities (Гранд-Прери, Альберта).",
+   "dl": "2026-11-30",
+   "link": "https://govbids.ca/tenders/rfq-for-bulk-chemical-supply-and-delivery-for-2027-17370666",
+   "docs": false,
+   "qty_t": null,
+   "lines": [],
+   "cost_usd": null,
+   "rev_usd": null,
+   "rev_src": "нет данных о цене",
+   "bench_t": null,
+   "margin_usd": null,
+   "margin_pct": null,
+   "breakeven_t": null,
+   "access": "Уточнить",
+   "period": "01.01.2027 – 31.12.2027 (CanadaBuys shows 11 months est.)",
+   "delivery": "Delivery to Aquatera Utilities sites, Grande Prairie, Alberta (details in RFQ)",
+   "certs": null,
+   "security": null,
+   "feas": "Неопределённо: документы закрыты (нужна регистрация в APC). Подача по e-mail упрощает участие; но поставки навалом в Гранд-Прери (север Альберты) требуют канадского дистрибьютора/склада. Среди заинтересованных — Chemtrade, Carbon Activated Corp.",
+   "risks": "Список химикатов и объёмы не проверены; срок подачи 30.11.2026.",
+   "warn": "",
+   "doc_urls": [
+    "https://purchasing.alberta.ca/posting/AB-2026-07181",
+    "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ab-2026-07181"
+   ]
+  },
+  {
    "id": 102,
    "n": "TED 743168-2026 (HERA T26_18006, RDO R26_19813)",
    "country": "Италия",
@@ -5222,6 +5253,36 @@
     "https://www.lynchburgva.gov/bids.aspx?bidID=252",
     "https://www.lynchburgva.gov/DocumentCenter/View/8128",
     "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+   ]
+  },
+  {
+   "id": 112,
+   "n": "C11-81-26",
+   "country": "Канада",
+   "buyer": "City of Hamilton, ON / Canada",
+   "ru": "Полиоксихлорид алюминия для станции Woodward Avenue WTP, г. Гамильтон (Онтарио).",
+   "dl": "2026-12-02 15:00 EST",
+   "link": "https://hamilton.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/553e4afb-c430-4682-b891-36c23a90dd7e",
+   "docs": false,
+   "qty_t": null,
+   "lines": [],
+   "cost_usd": null,
+   "rev_usd": null,
+   "rev_src": "нет данных о цене",
+   "bench_t": null,
+   "margin_usd": null,
+   "margin_pct": null,
+   "breakeven_t": null,
+   "access": "Уточнить",
+   "period": "60 months",
+   "delivery": "Supply and delivery to Woodward Avenue WTP, 700 Woodward Ave, Hamilton ON (bulk, per RFP)",
+   "certs": null,
+   "security": "None – no proposal, performance or labour & material payment security required (per CLEATUS summary of RFP)",
+   "feas": "Средняя по масштабу (крупная станция, 5-летний контракт), но для импортёра сложно: жидкий PACl на Онтарио поставляют Kemira/Chemtrade/Brenntag с локальных заводов; вероятны пробные испытания на станции. Без локального разбавления/склада в Онтарио нереально. Документы платные (65,99 CAD) — можно купить при интересе.",
+   "risks": "Срок подачи перенесён на 02.12.2026; спецификации неизвестны; плантовые испытания.",
+   "warn": "",
+   "doc_urls": [
+    "https://hamilton.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/553e4afb-c430-4682-b891-36c23a90dd7e"
    ]
   },
   {
@@ -6006,6 +6067,91 @@
    ]
   },
   {
+   "id": 150,
+   "n": "0326-609033.01 (PennBid 255732)",
+   "country": "США",
+   "buyer": "Mahanoy Township Authority, Schuylkill County, PA / USA",
+   "ru": "Реагенты для станции водоподготовки на 2027 г., Mahanoy Township Authority (PA).",
+   "dl": "2026-12-16 16:00 EST",
+   "link": "https://pennbid.bonfirehub.com/opportunities/255732",
+   "docs": true,
+   "qty_t": 14.5,
+   "lines": [
+    {
+     "item": "Gas chlorine, 150-lb cylinders",
+     "qty_t": 1.81,
+     "note": "не наш профиль / не классифицирован"
+    },
+    {
+     "item": "Hydrated lime Ca(OH)2 (Milard Lime or equal)",
+     "qty_t": 5.44,
+     "key": "hydrated_lime",
+     "fob": 125,
+     "freight": 473,
+     "duty_pct": 5.0,
+     "inland": 40.0,
+     "landed_t": 688,
+     "why": "Известь гидратная",
+     "fr_basis": "20' $9,466 / 20 т (Houston)",
+     "duty_basis": "5% — ДОПУЩЕНИЕ (нет ставки USA 2522)",
+     "bench_t": 709
+    },
+    {
+     "item": "Liquid aluminum sulfate 36° Bé, 11.17 lb/gal",
+     "qty_t": 6.8,
+     "key": "ALUM",
+     "fob": 106,
+     "freight": 473,
+     "duty_pct": 5.0,
+     "inland": 40.0,
+     "landed_t": 668,
+     "why": "жидкий сульфат алюминия 8% Al2O3 → пересчёт с твёрдого 17%; ⚠ возить раствор невыгодно",
+     "fr_basis": "20' $9,466 / 20 т (Houston)",
+     "duty_basis": "5% — ДОПУЩЕНИЕ (нет ставки USA 2833.22)",
+     "bench_t": 562
+    },
+    {
+     "item": "Sodium hydroxide 25%",
+     "qty_t": 2.27,
+     "key": "naoh_flakes",
+     "fob": 450,
+     "freight": 483,
+     "duty_pct": 5.0,
+     "inland": 40.0,
+     "landed_t": 1051,
+     "why": "Каустическая сода чешуйки 98–99%",
+     "fr_basis": "20' $9,466 / 20 т (Houston) + DG класс 8",
+     "duty_basis": "5% — ДОПУЩЕНИЕ (нет ставки USA 2815.11)",
+     "bench_t": 661
+    },
+    {
+     "item": "Zinc orthophosphate",
+     "qty_t": 3.63,
+     "note": "не наш профиль / не классифицирован"
+    }
+   ],
+   "cost_usd": 10669,
+   "rev_usd": 9179,
+   "rev_src": "цена прошлых контрактов/бюджета ≈$633/т × объём",
+   "bench_t": 633,
+   "margin_usd": -1489,
+   "margin_pct": -16.2,
+   "breakeven_t": 735,
+   "access": "Через местного партнёра / регистрацию",
+   "period": "Calendar year 2027 (prices guaranteed for 2027)",
+   "delivery": "Price per pound delivered to Mahanoy Township Authority WTP (Schuylkill County, PA)",
+   "certs": "Manufacturer's detailed specifications and descriptive literature with bid",
+   "security": "not stated in instructions",
+   "feas": "Нецелесообразно: ~20 т/год мелкой фасовкой, оборот ~25-30 тыс. USD/год. Интересно только как ценовой ориентир (алюм 0,25 USD/lb, Zn-ортофосфат 0,89 USD/lb).",
+   "risks": "Микрообъёмы; требуются локальные поставки баллонов хлора.",
+   "warn": "",
+   "doc_urls": [
+    "https://pennbid.bonfirehub.com/opportunities/255732",
+    "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/d4d19eb036af453b9598bfe5373708f1a4ba07b0235f92c776e92e6a5416ee08?download=Chemical%20Specifications%202026-7%20Updated.pdf",
+    "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/f278a90e73f40b61153cdf3cfa3b36d18650e23cd7641841b6534a2571ccf21a?download=Bid%20Tabulation%20Last%20Years%20Bids.pdf"
+   ]
+  },
+  {
    "id": 152,
    "n": "TED 775353-2026 (VKS-70/26)",
    "country": "Словения",
@@ -6076,6 +6222,37 @@
    "warn": "",
    "doc_urls": [
     "https://www.enarocanje.si/api/datoteka/get?id=NjY1NTE1O09iamF2YSBWS1MgNzAtMjYuemlw"
+   ]
+  },
+  {
+   "id": 153,
+   "n": "IRFP 6635-26",
+   "country": "США",
+   "buyer": "City of Spokane (Waste to Energy Facility) / USA",
+   "ru": "Программа химводоподготовки для котлов высокого давления и охлаждения (реагенты, баки, насосы, сопровождение) для мусоросжигательной ТЭС Спокана.",
+   "dl": "2026-12-21 12:00 (per BidNet)",
+   "link": "https://www.bidnetdirect.com/public/supplier/solicitations/statewide/444195927023/abstract",
+   "docs": true,
+   "qty_t": null,
+   "lines": [],
+   "cost_usd": null,
+   "rev_usd": null,
+   "rev_src": "нет данных о цене",
+   "bench_t": null,
+   "margin_usd": null,
+   "margin_pct": null,
+   "breakeven_t": null,
+   "access": "Через местного партнёра / регистрацию",
+   "period": "2 years from ~01.04.2027 (doc: contract start 3/1/2027) + 3 x 1-year renewals (max 5 years)",
+   "delivery": "All-inclusive firm fixed monthly cost; local rep responds by phone within 1 h and on-site within 12 h, 24/7; monthly service visits; contractor handles all deliveries",
+   "certs": "Min. 5 years' experience with >900 psig boiler programs; WA business license; insurance GL $1M/$2M; ISO 9001 (per aggregator)",
+   "security": null,
+   "feas": "Неприменимо для трейдера: это сервисный контракт на химводоподготовку котлов с местным инженером 24/7, обязательной встречей 16.11.2026 и бюджетом ~57 тыс. USD/год. Рекомендация — не участвовать.",
+   "risks": "Обязательное посещение (пропуск = отклонение), инкумбент Nalco, требование 5 лет опыта.",
+   "warn": "",
+   "doc_urls": [
+    "http://bids.findrfp.com/xDocs/7a5fa67eff094be0929946dec316dac0_IRFP_6635-26_Proposal_Document_[12_pages].pdf",
+    "https://spokane.procureware.com"
    ]
   },
   {

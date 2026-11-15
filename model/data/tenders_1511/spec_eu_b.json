@@ -3,7 +3,54 @@
   "batch": "eu_b",
   "analyst": "Claude (regional analyst eu_b)",
   "date": "2026-11-15",
-  "notes": "All values from opened notices/documents; null = unknown; 'est.' = analyst estimate. TED notices read from TED eForms XML."
+  "notes": "All values from opened notices/documents; null = unknown; 'est.' = analyst estimate. TED notices read from TED eForms XML.",
+  "batch_ids": [
+   96,
+   97,
+   98,
+   102,
+   103,
+   111,
+   112,
+   116,
+   117,
+   118,
+   119,
+   127,
+   129,
+   134,
+   135,
+   136,
+   137,
+   145,
+   147,
+   149,
+   150,
+   152,
+   153,
+   157,
+   158,
+   159,
+   160
+  ],
+  "method": "TED eForms XML fetched via headless browser (curl gets 202/WAF) and TED Search API for previous award notices; tender documents downloaded where free without login (cosinex Vergabe-Westfalen/vergabekommunal RLP, platformazakupowa, logintrade, e-JN zip, Jaggaer guest pages, CIIP albo-gare, PLACSP via browser session, contractaciopublica.cat, Hilma, Prozorro public API, US city DocumentCenters, Bidscope public copies of BidNet/PennBid documents); local copies in scratchpad specs_eu_b/",
+  "fx_note": "FX from fx_usd_1511.json: 1 EUR = 5.3377 RON, 4.4066 PLN, 11.1138 SEK, 7.4693 DKK, 365.09 HUF, 50.16 UAH, 1.5739 CAD; 1 USD = 0.906 EUR",
+  "key_insight": "Utilities-sector EU tenders under D.Lgs 36/2023 art.170 (Italy) / Dir. 2014/25 art.85 allow rejecting offers with >50% product origin from third countries without EU access agreement (China/India) – explicitly in acquevenete (97) documents.",
+  "blocked_sources": [
+   "e-licitatie.ro SEAP (IP rate-limited) – 127",
+   "bandi-altoadige.it (connection reset) – 119",
+   "Maggioli PortaleAppalti Valle Umbra (Friendly Captcha) – 136",
+   "EKR Hungary (registration) – 135",
+   "Comdia Denmark (login) – 159",
+   "Clira Sweden (notice page not found) – 158",
+   "HERA capitolato (registered suppliers only) – 102",
+   "EMASESA pliegos on PLACSP (HTTP 500) – 157",
+   "Alberta APC document download (sign-in) – 98",
+   "Hamilton bids&tenders (paid CAD 65.99) – 112",
+   "PennBid/Bonfire bid tabulations (login) – 137",
+   "alexandercityal.gov (Cloudflare challenge; used search-engine copies) – 145",
+   "BidNet Direct Lake Charles/Spokane (login; used public copies) – 147,153"
+  ]
  },
  "tenders": [
   {
@@ -496,6 +543,53 @@
     "https://www.lynchburgva.gov/bids.aspx?bidID=252",
     "https://www.lynchburgva.gov/DocumentCenter/View/8128",
     "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+   ]
+  },
+  {
+   "id": 112,
+   "n": "C11-81-26",
+   "docs_found": false,
+   "doc_urls": [
+    "https://hamilton.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/553e4afb-c430-4682-b891-36c23a90dd7e"
+   ],
+   "items": [
+    {
+     "product": "Polyaluminum chloride (PACl) coagulant for Woodward Avenue WTP pretreatment (Lake Ontario raw water, plant rated 909,000 m3/d, runs at 1/4-1/3 capacity)",
+     "spec": "not obtained (104-page RFP behind bids&tenders paid download, agency fee CAD 65.99); NSF/ANSI 60 expected for Ontario drinking water (not verified)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "60-month contract"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "60 months",
+   "delivery_terms": "Supply and delivery to Woodward Avenue WTP, 700 Woodward Ave, Hamilton ON (bulk, per RFP)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "None – no proposal, performance or labour & material payment security required (per CLEATUS summary of RFP)",
+   "eligibility_foreign": "Covered by CETA and CFTA (EU & Canadian suppliers have treaty access; US/other suppliers not excluded); electronic submission only via bids&tenders (paid access CAD 65.99); English",
+   "award_criteria": "RFP (proposal evaluation; 2010 precedent C11-55-10 required plant testing of preferred product) – details in RFP",
+   "estimated_value": {
+    "amount": null,
+    "currency": "CAD",
+    "per_lot": "not published"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Hamilton C11-07-25 primary-sludge thickening polymer (Woodward WWTP, 36 months) – SNF Canada successful proponent (Brenntag, Northland unsuccessful); price not public",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2025,
+     "source_url": "https://hamilton.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/0b38aaee-3dc0-408c-96c5-93f998674dcd"
+    }
+   ],
+   "feasibility_ru": "Средняя по масштабу (крупная станция, 5-летний контракт), но для импортёра сложно: жидкий PACl на Онтарио поставляют Kemira/Chemtrade/Brenntag с локальных заводов; вероятны пробные испытания на станции. Без локального разбавления/склада в Онтарио нереально. Документы платные (65,99 CAD) — можно купить при интересе.",
+   "risks_ru": "Срок подачи перенесён на 02.12.2026; спецификации неизвестны; плантовые испытания.",
+   "sources": [
+    "https://hamilton.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/553e4afb-c430-4682-b891-36c23a90dd7e",
+    "https://www.cleat.ai/government/contracts/proposal-for-supply-and-delivery-of-polyaluminum-chloride-for-the-woodward-avenue-water-treatment-plant-idna",
+    "https://www.hamilton.ca/home-neighbourhood/water-wastewater-stormwater/water-treatment-distribution/drinking-water-system"
    ]
   },
   {
@@ -1605,6 +1699,54 @@
     "https://www.enarocanje.si/api/datoteka/get?id=NjY1NTE1O09iamF2YSBWS1MgNzAtMjYuemlw",
     "https://ted.europa.eu/en/notice/-/detail/4051-2022",
     "https://ted.europa.eu/en/notice/-/detail/277710-2021"
+   ]
+  },
+  {
+   "id": 153,
+   "n": "IRFP 6635-26",
+   "docs_found": true,
+   "doc_urls": [
+    "http://bids.findrfp.com/xDocs/7a5fa67eff094be0929946dec316dac0_IRFP_6635-26_Proposal_Document_[12_pages].pdf",
+    "https://spokane.procureware.com"
+   ],
+   "items": [
+    {
+     "product": "Chemical management program for high-pressure (>900 psig) boilers & component cooling water at Spokane Waste-to-Energy Facility: boiler internal/condensate treatment (current NALCO BT-2610), oxygen scavenger (Eliminox), corrosion inhibitor (NALCO 356), closed-loop inhibitor (TRASAR TRAC101), lab reagents, tanks/feed pumps",
+     "spec": "ASME consensus & ABMA boiler water quality; feedwater pH 8.0-9.5, O2 0.007 ppm, Fe 0.05, Cu 0.03 ppm, hardness 0; makeup water ~8.76 M gal (2025)",
+     "qty": null,
+     "unit": "service (firm fixed monthly fee)",
+     "qty_t": null,
+     "qty_basis": "chemicals volume small (2025 budget ≈ USD 46k/yr chemicals)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "2 years from ~01.04.2027 (doc: contract start 3/1/2027) + 3 x 1-year renewals (max 5 years)",
+   "delivery_terms": "All-inclusive firm fixed monthly cost; local rep responds by phone within 1 h and on-site within 12 h, 24/7; monthly service visits; contractor handles all deliveries",
+   "packaging": null,
+   "certificates": "Min. 5 years' experience with >900 psig boiler programs; WA business license; insurance GL $1M/$2M; ISO 9001 (per aggregator)",
+   "bid_security": null,
+   "eligibility_foreign": "Informal RFP via Spokane ProcureWare; MANDATORY pre-proposal conference 16.11.2026 09:00 at WTEF (tomorrow – practically impossible to attend)",
+   "award_criteria": "Best value, 200-point scale (not lowest price only)",
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": "previous contract (Nalco) renewal NTE USD 57,000/yr"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Nalco Company LLC contract renewal 3 (4/1/2026-3/31/2027) NTE; chemicals subtotal yr 3 USD 46,321.68 (boiler inhibitors 18,720; O2 scavenger 12,255; steam/condensate 9,834; closed loop 728; reagents 4,784)",
+     "unit_price": 57000,
+     "currency_per": "USD/yr (NTE)",
+     "year": 2026,
+     "source_url": "https://static.spokanecity.org/documents/citycouncil/draft-agendas/2026/03/city-council-draft-agenda-2026-03-02.pdf"
+    }
+   ],
+   "feasibility_ru": "Неприменимо для трейдера: это сервисный контракт на химводоподготовку котлов с местным инженером 24/7, обязательной встречей 16.11.2026 и бюджетом ~57 тыс. USD/год. Рекомендация — не участвовать.",
+   "risks_ru": "Обязательное посещение (пропуск = отклонение), инкумбент Nalco, требование 5 лет опыта.",
+   "sources": [
+    "http://bids.findrfp.com/xDocs/7a5fa67eff094be0929946dec316dac0_IRFP_6635-26_Proposal_Document_[12_pages].pdf",
+    "https://www.cleat.ai/government/contracts/chemical-management-program-and-treatment-chemicals-ckxn",
+    "https://static.spokanecity.org/documents/citycouncil/draft-agendas/2026/03/city-council-draft-agenda-2026-03-02.pdf"
    ]
   },
   {
