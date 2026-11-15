@@ -1,0 +1,1460 @@
+[
+{
+"id": 0,
+"n": "GEM/2026/B/8235585 (ONGC ref ZV1AC26020)",
+"subj": "Procurement of Corrosion Inhibitor & Scale Inhibitor for A, P & M Fields of KG-DWN-98/2 — Corrosion inhibitor + scale inhibitor, total qty 80 (units per bid)",
+"cust": "ONGC Central Procurement Dept, Delhi (KG-DWN-98/2 A,P&M fields) / India",
+"nmc": null,
+"dl": "2026-11-18 15:00 IST",
+"note": "ONGC portal marks it 'Indigenous'. GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian p"
+},
+{
+"id": 1,
+"n": "e-GP Tender ID 1365441 (46.06.2000.000.312.07.0021.26)",
+"subj": "Procurement of 200 MT Alum Al2(SO4)3.16H2O for 2nd quarter (Oct-Dec 2026) at Karnaphuli WTP-1 — Aluminium sulphate 200 MT",
+"cust": "Chattogram WASA - Karnaphuli WTP-1, Pomra / Bangladesh",
+"nmc": null,
+"dl": "2026-11-18 15:00 BST",
+"note": "e-GP (eprocure.gov.bd) national tender (NCT, OTM); bidder must be registered on e-GP and hold Bangladesh trade licence/TIN/VAT - foreign supplier only via local agent/partner; very short time - closes"
+},
+{
+"id": 2,
+"n": "ITB No. 001-2027 (Early Procurement)",
+"subj": "Supply and Delivery of 17,500 bags of Poly Aluminum Chloride — PAC 17,500 bags (min 29% Al2O3), 4 staggered deliveries",
+"cust": "Metro Roxas Water District (Capiz) / Philippines",
+"nmc": "ABC PHP 22,750,000",
+"dl": "2026-11-18 09:00 PHT (manual submission)",
+"note": "PhilGEPS Platinum registration required; RA 12009 nationality rule (Filipino 60%+ or reciprocity country); manufacturer authorisation, ISO 9001, NSF cert, local lab CoA; physical submission in Roxas C"
+},
+{
+"id": 3,
+"n": "EPADS P179457",
+"subj": "Supply of Water Treatment Chemicals and Chlorination Parts with Cylinder Maintenance (rate contract 2026-27) — Liquid chlorine, bleaching powder, HCl, chlorinators, copper pipe, cylinder repair",
+"cust": "Capital Development Authority, Water Supply Directorate Production Div-I, Islamabad / Pakistan",
+"nmc": "PKR 19,624,444",
+"dl": "2026-11-18 11:30 PKT",
+"note": "Local bidding; PEC registration C-6+ (CE09, ME07) required - effectively not open to ISP"
+},
+{
+"id": 4,
+"n": "TED 776899-2026",
+"subj": "Zakup i dostawa polielektrolitu w postaci emulsji (GOŚ ŁAM) — Emulsion polyelectrolyte (CPV 24542000) for digested sludge dewatering in decanter centrifuges, incl. empty packaging take-back",
+"cust": "Zakład Wodociągów i Kanalizacji Sp. z o.o. (Łódź) / Poland",
+"nmc": null,
+"dl": "2026-11-18 11:00 +02:00 (as published on TED)",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 5,
+"n": "TED 726621-2026 (PRC_0299/2026_DEX)",
+"subj": "Aquisição de coagulantes de remoção de cor — Lot 1: organic coagulants for Vale do Ave operations centre; Lot 2: organic coagulants for ETAR Serzedo",
+"cust": "Águas do Norte, SA / Portugal",
+"nmc": "{\"amount\": [4047120, 370440], \"currency\": \"EUR\", \"note\": \"lot estimates\"}",
+"dl": "2026-11-18 17:00 UTC",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 6,
+"n": "simap 45135",
+"subj": "Fourniture de chlorure ferrique pour la STEP de Vidy durant l'année 2027 — Ferric chloride for Vidy WWTP for 2027",
+"cust": "EPURA SA (STEP de Vidy, Lausanne) / Switzerland",
+"nmc": null,
+"dl": "2026-11-18 11:00 +01:00",
+"note": "Open procedure; consortia prohibited; offers valid to 2027-12-31; deadline in 3 days"
+},
+{
+"id": 7,
+"n": "B43198",
+"subj": "Liquid Aluminum Sulfate for Environmental Services — Liquid aluminum sulfate",
+"cust": "Unified Government of Wyandotte County/Kansas City, KS / USA",
+"nmc": null,
+"dl": "2026-11-18",
+"note": "Deadline in 3 days; US municipal IFB: delivered price FOB destination; NSF/ANSI 60 and AWWA standards; local tanker delivery/unloading - realistic only via US distributor/terminal"
+},
+{
+"id": 8,
+"n": "PNCP 27998368000147-1-000138/2026",
+"subj": "Aquisição de produtos químicos utilizados no tratamento de água para abastecimento público — Water treatment chemicals (items in edital)",
+"cust": "SAAE (CNPJ 27.998.368/0001-47) / Brazil",
+"nmc": "{\"amount\": 459045, \"currency\": \"USD\", \"note\": \"per GlobalGov conversion\"}",
+"dl": "2026-11-18",
+"note": "Brazil PNCP pregão: requires Brazilian CNPJ / SICAF registration and local delivery - foreign trader would need a Brazilian partner/importer"
+},
+{
+"id": 9,
+"n": "AO 129/2026",
+"subj": "Fourniture de séquestrant pour les stations de dessalement — Lot 1: phosphonate-type sequestrant (antiscalant) for brackish-water desalination plants; Lot 2: sequestrant for Djerba & Zarat SWRO plants",
+"cust": "SONEDE / Tunisia",
+"nmc": null,
+"dl": "2026-11-18 09:00",
+"note": "National AO: open only to suppliers (manufacturers or traders) DOMICILED IN TUNISIA; bid bond Lot1 10,000 DT, Lot2 7,000 DT. ISP only via Tunisian partner. Deadline = 18 Nov (borderline)"
+},
+{
+"id": 10,
+"n": "GEM/2026/B/8217084",
+"subj": "Activated Carbon in TGTU — Activated carbon for tail gas treating unit, qty 2,200",
+"cust": "Bharat Petroleum Corporation Ltd, Kochi Refinery / India",
+"nmc": null,
+"dl": "2026-11-19 17:00 IST",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 11,
+"n": "e-GP Tender ID 1349171 (APP/26-27/G/1)",
+"subj": "Supply of Poly Aluminum Chloride (PAC) for PWTP in FY 26-27 (Lot-1) — PAC for Padma WTP; qty in BOQ",
+"cust": "Dhaka WASA (DWASA) - Padma/PWTP / Bangladesh",
+"nmc": null,
+"dl": "2026-11-19",
+"note": "e-GP (eprocure.gov.bd) national tender (NCT, OTM); bidder must be registered on e-GP and hold Bangladesh trade licence/TIN/VAT - foreign supplier only via local agent/partner"
+},
+{
+"id": 12,
+"n": "e-GP Tender ID 1360114 (KWASA-G-PAC-2026-27)",
+"subj": "Supply of White Poly Aluminium Chloride (PAC) Powder (Food Grade) at 110 MLD SWTP of Khulna WASA FY 2026-27 — White PAC powder food grade; EMD BDT 280,000; doc fee BDT 2,500",
+"cust": "Khulna WASA (KWASA), Superintending Engineer Office / Bangladesh",
+"nmc": null,
+"dl": "2026-11-19",
+"note": "e-GP (eprocure.gov.bd) national tender (NCT, OTM); bidder must be registered on e-GP and hold Bangladesh trade licence/TIN/VAT - foreign supplier only via local agent/partner"
+},
+{
+"id": 13,
+"n": "IB2600589415-00 (71HH-SXKD-2026)",
+"subj": "Supply of chemicals for operation of Duyen Hai 1, Duyen Hai 3 and Duyen Hai 3 Expansion Thermal Power Plants — Power plant water/boiler treatment chemicals (list in E-HSMT)",
+"cust": "Duyen Hai Thermal Power Company - branch of EVNGENCO1 / Vietnam",
+"nmc": null,
+"dl": "2026-11-19",
+"note": "muasamcong.mpi.gov.vn domestic bidding (Law on Bidding 2023); bidder must be registered on national e-GP system; foreign firm normally needs Vietnamese entity/partner"
+},
+{
+"id": 14,
+"n": "",
+"subj": "Dostawa koagulantu do usuwania fosforu na oczyszczalniach Barbara, Halemba Centrum i Orzegów — Coagulant for phosphorus removal (quantity in annexes)",
+"cust": "PWiK Sp. z o.o. w Rudzie Śląskiej / Poland",
+"nmc": null,
+"dl": "2026-11-19",
+"note": "Conducted under buyer's internal rules; official notice not opened"
+},
+{
+"id": 15,
+"n": "Etimad 261039010744 (60021482)",
+"subj": "Supply of chemical materials – Al-Sha'ib Production System – Western Coast 60021482 — Water treatment chemicals (CPV 79711002)",
+"cust": "Saudi Water Authority (SWA) / Saudi Arabia",
+"nmc": null,
+"dl": "2026-11-19",
+"note": "Etimad + Saudi CR"
+},
+{
+"id": 16,
+"n": "Etimad 261039011400 (60021504)",
+"subj": "Supply of chemical materials (REAGENT) for Jeddah water production system – Western Coast 60021504 — Chemicals/reagents incl. water treatment chemicals (CPV 79711002, 33696300)",
+"cust": "Saudi Water Authority (SWA) / Saudi Arabia",
+"nmc": null,
+"dl": "2026-11-19",
+"note": "Etimad + Saudi CR"
+},
+{
+"id": 17,
+"n": "4453/2026/MOH/NIZHP-200 (Recall-1)",
+"subj": "Supply of Chemicals for Water Treatment Plant at Nizwa Hospital - 5 — Water treatment plant chemicals",
+"cust": "Ministry of Health – Nizwa Hospital / Oman",
+"nmc": null,
+"dl": "2026-11-19",
+"note": "Oman Tender Board registration (Omani CR). JSRS not applicable (government, not oil operator)"
+},
+{
+"id": 18,
+"n": "11.07.022/007/2026-2027/ICB/G/EUCL-PROC-DGOM/CG/RM",
+"subj": "Supply of Chemicals at Gishoma Peat Power Plant under framework agreement (1 year, renewable twice) — Power plant chemicals (list in tender document; one indivisible lot). Bid security RWF 1,800,000 or USD 1,225",
+"cust": "Energy Utility Corporation Limited (EUCL), Rwanda Energy Group / Rwanda",
+"nmc": null,
+"dl": "2026-11-20 10:00 (Kigali)",
+"note": "INTERNATIONAL COMPETITIVE BIDDING, open on equal conditions to all specialised companies. Hard-copy bids (2 copies) only; electronic bids rejected -> needs Kigali courier/agent. Very short deadline."
+},
+{
+"id": 19,
+"n": "NCWSC/24/2026",
+"subj": "Supply & Delivery of Poly Aluminium Chloride — Poly aluminium chloride (PAC); quantities in schedule of requirements of the tender document",
+"cust": "Nairobi City Water and Sewerage Company (NCWSC) / Kenya",
+"nmc": null,
+"dl": "2026-11-20 12:00 EAT",
+"note": "Open competitive method - NATIONAL; 'open to all qualified and interested tenderers'. Tender security KES 1,000,000 valid 240 days. Kenyan tax compliance for Kenyan firms; foreign firm would need loca"
+},
+{
+"id": 20,
+"n": "LWB-WTC-2601-GO-RFB",
+"subj": "Supply and Delivery of Water Treatment Chemicals (calcium hypochlorite; coagulant) — Calcium hypochlorite 60,000 kg; coagulant 134,400 kg",
+"cust": "Lilongwe Water Board (LWB) / Malawi",
+"nmc": null,
+"dl": "2026-11-20 14:00 (Lilongwe)",
+"note": "NATIONAL COMPETITIVE BIDDING (PPDA Act No.7 of 2025). Physical purchase/submission in Lilongwe. Issued 14.11.2026 with 6-day window."
+},
+{
+"id": 21,
+"n": "UNHCR SRFP 3799",
+"subj": "Water Purification System and Shock Chlorination at UNHCR Sub-office Adjumani AoR — Service contract: shock chlorination + installation of water purification systems (BOQ Annex C)",
+"cust": "UNHCR Sub-Office Adjumani / Uganda",
+"nmc": null,
+"dl": "2026-11-20 17:00 GMT+3",
+"note": "UNGM basic registration; service with on-site works in Uganda - needs local implementing partner. Low product fit."
+},
+{
+"id": 22,
+"n": "2026_COJAL_1353529_1 (E-Tender D-Notice No.03 for 2026-27, 2nd call)",
+"subj": "Supply of Polyaluminium Chloride PAC IS 15573/2005 — PAC per IS 15573; qty in BOQ",
+"cust": "Maharashtra Jeevan Pradhikaran (MJP), SE Circle Nagpur / India",
+"nmc": null,
+"dl": "2026-11-20",
+"note": "State e-tender; Indian DSC + local registration typically required; foreign firm only via Indian partner"
+},
+{
+"id": 23,
+"n": "GEM/2026/B/8234937",
+"subj": "Antiscalant Hypersperse MSI410 — RO antiscalant, brand-named Hypersperse MSI410, qty 3,000; EMD not required",
+"cust": "Energy Department Odisha (state genco unit) / India",
+"nmc": null,
+"dl": "2026-11-20 17:00 IST",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 24,
+"n": "GEM/2026/B/8222019",
+"subj": "Strong Base Anion Resin for layered bed in DM plant, Weak Base Anion (WBA) Resin for layered beds in DM plant — SBA + WBA resin, qty 34,250 (litres presumed); EMD INR 2.62 lakh",
+"cust": "Mangalore Refinery and Petrochemicals Ltd (MRPL) / India",
+"nmc": null,
+"dl": "2026-11-20 17:00 IST",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 25,
+"n": "GEM/2026/B/8203673",
+"subj": "Alumino-Ferric (V2) conforming to IS 299 — Alumino-ferric coagulant IS 299; qty n/a",
+"cust": "Ministry of Defence unit / India",
+"nmc": null,
+"dl": "2026-11-20",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 26,
+"n": "IB2600604847-00",
+"subj": "Package No.3: Supply of 120,000 kg of PAC flocculant — PAC 120,000 kg",
+"cust": "Vinh Long Water Supply JSC / Vietnam",
+"nmc": null,
+"dl": "2026-11-20",
+"note": "muasamcong.mpi.gov.vn domestic bidding (Law on Bidding 2023); bidder must be registered on national e-GP system; foreign firm normally needs Vietnamese entity/partner"
+},
+{
+"id": 27,
+"n": "IB2600602625-00",
+"subj": "Chemicals for operating wastewater treatment systems in 2026 — WWTP chemicals (PAC/polymer etc. per E-HSMT)",
+"cust": "Tan Binh Industrial Park JSC / Vietnam",
+"nmc": null,
+"dl": "2026-11-20",
+"note": "muasamcong.mpi.gov.vn domestic bidding (Law on Bidding 2023); bidder must be registered on national e-GP system; foreign firm normally needs Vietnamese entity/partner"
+},
+{
+"id": 28,
+"n": "Samruk-Kazyna № 1265470",
+"subj": "Деэмульгатор (open tender, category strategy) — Demulsifier, liquid, for oil/water separation – 9 t; delivery 01–12.2027, Mangystau",
+"cust": "ТОО СП «CASPI BITUM» / Kazakhstan",
+"nmc": "40,810,752 KZT (4,534,528 KZT/t)",
+"dl": "2026-11-20 10:00 Astana time (UTC+5)",
+"note": "PRIORITY 'Среди товаропроизводителей' (among domestic producers) – a foreign trader is likely NOT eligible"
+},
+{
+"id": 29,
+"n": "TED 731605-2026 (EKR001822212026)",
+"subj": "Lerakódásgátló vegyszerek beszerzése — Antiscalant (ScaleKem 53L or equivalent) 35,325 kg planned; 24-month framework",
+"cust": "Budapest Gyógyfürdői és Hévizei Zrt. / Hungary",
+"nmc": "{\"amount\": 100000000, \"currency\": \"HUF\", \"note\": \"net framework ceiling\"}",
+"dl": "2026-11-20 14:00 +02:00",
+"note": "Registration on EKR required; Hungarian documents; EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform"
+},
+{
+"id": 30,
+"n": "2026/BZP 00527829",
+"subj": "Dostawa koagulanta żelazowego dla oczyszczalni ścieków w Łęczycy — Ferric sulphate solution (Fe 11.8±0.4%; PIX113 or equivalent) ~80 t, deliveries 10-15 t, 2027",
+"cust": "PGKiM w Łęczycy Sp. z o.o. / Poland",
+"nmc": null,
+"dl": "2026-11-20 09:00 +01:00",
+"note": "Below-EU-threshold national procedure; Polish documents; e-signature; small local quantities"
+},
+{
+"id": 31,
+"n": "",
+"subj": "Dostawa polielektrolitu (poliakrylamidu) dla oczyszczalni ścieków w Łęczycy — Polyacrylamide/polyelectrolyte for WWTP (quantity not verified)",
+"cust": "PGKiM w Łęczycy Sp. z o.o. / Poland",
+"nmc": null,
+"dl": "2026-11-20",
+"note": "National procedure, Polish; official notice not opened (aggregator only)"
+},
+{
+"id": 32,
+"n": "Spec 1271795B / RFQ 70287",
+"subj": "Lignite Coal Based Powdered Activated Carbon — Bulk PAC: 995 t + 281 t + 122 t lines, 36 months + 24-month option",
+"cust": "City of Chicago, Dept. of Water Management / USA",
+"nmc": null,
+"dl": "2026-11-20 11:00 CT",
+"note": "RESTRICTION: PAC must originate from virgin lignite mined in the USA (US wood-based alternate) - imported Chinese/Indian carbon NOT eligible; listed for completeness"
+},
+{
+"id": 33,
+"n": "20177896",
+"subj": "Fourniture de produits chimiques pour le traitement de l'eau potable pour l'année 2027 — Sodium aluminate 172,500 kg; sodium carbonate 81,000 kg; polymer 1,500 kg; ammonium sulphate 72,500 kg; zinc orthophosphate 14,000 kg",
+"cust": "Ville de Sept-Îles, QC / Canada",
+"nmc": null,
+"dl": "2026-11-20 10:00 EST",
+"note": "French only; covered by CFTA/CETA (US suppliers not expressly covered; Quebec municipal tenders often limited to Quebec/agreement territories)"
+},
+{
+"id": 34,
+"n": "GEM/2026/B/8263951",
+"subj": "Corrosion & scale inhibitor, polymeric dispersant, non-oxidising biocide, oil dispersant, oxidising biocide — Cooling water treatment chemical package (CI/SI, dispersant, oxidising & non-oxidising biocides); qty n/a",
+"cust": "Ministry of Petroleum & Natural Gas PSU (buyer unit per GeM) / India",
+"nmc": null,
+"dl": "2026-11-21",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 35,
+"n": "BidDetail 120495664",
+"subj": "Corrosion-scale inhibitor, polymeric dispersant, biocides, oil dispersant",
+"cust": "Hindustan Petroleum Corp. / India",
+"nmc": null,
+"dl": "2026-11-21",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 36,
+"n": "ocds-148610-1aac0338-5892-4944-9b2c-f8438023c627",
+"subj": "Zakup i bieżąca dostawa siarczanu żelazowego i chlorku poliglinu — Task 1: ferric sulphate up to 550 Mg; Task 2: polyaluminium chloride up to 650 Mg",
+"cust": "Oczyszczalnia Ścieków \"WARTA\" S.A. (Częstochowa) / Poland",
+"nmc": null,
+"dl": "2026-11-22 (per aggregator)",
+"note": "Re-tender (earlier TED 556069-2026 closed 3 Sep 2026); deadline from aggregator, verify on portal"
+},
+{
+"id": 37,
+"n": "T/GAZ-038 Лот 5",
+"subj": "Химическая продукция: SY-210 (14 т), ингибитор коррозии «Селерин» 150,56 т, антивспениватели, метанол, NH4HF2, буровая химия",
+"cust": "ГК «Туркменгаз», Туркменистан",
+"nmc": null,
+"dl": "23.11.2026 15:00",
+"note": "ТД: https://turkmengaz.gov.tm/competition-download/209"
+},
+{
+"id": 38,
+"n": "TENDERS-QELAL-ET-6ae9e3740a538ad8ce000001 (aggregator id)",
+"subj": "Lot 2: purchase of water chlorine and equipment (Lot 1 irrigation works) — Water chlorine + equipment; quantities unknown",
+"cust": "Enemay Woreda Finance & Economic Development Office (East Gojam) - Lot 2 for Water & Energy Development Office / Ethiopia",
+"nmc": null,
+"dl": "2026-11-23",
+"note": "Local woreda tender; Ethiopian trade licence/VAT normally required. Small, low fit; verify."
+},
+{
+"id": 39,
+"n": "GEM/2026/B/8266826",
+"subj": "Activated Carbon — Activated carbon; qty n/a",
+"cust": "Ministry of Petroleum & Natural Gas PSU, Andhra Pradesh / India",
+"nmc": null,
+"dl": "2026-11-23",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 40,
+"n": "GEM/2026/B/8255198",
+"subj": "Resin for Strong Base Anion (70410400080152), Resin for Strong Acid Cation (70410400080151) — SBA + SAC ion exchange resin; qty n/a",
+"cust": "Ministry of Steel PSU (SAIL/RINL unit) / India",
+"nmc": null,
+"dl": "2026-11-23",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 41,
+"n": "GEM/2026/B/8227276",
+"subj": "Poly Aluminium Chloride (ONGC) (Q3) — PAC per ONGC spec PC-27, qty 24,650",
+"cust": "ONGC (Mehsana/Amreli unit, Gujarat) / India",
+"nmc": null,
+"dl": "2026-11-23 17:00 IST",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 42,
+"n": "Samruk-Kazyna № 1266172",
+"subj": "Сухой ил, реагент, деэмульгатор (open tender, 4 lots) — Lot1 dry activated sludge 0.39 t (48,750,000 KZT); Lot2 water-treatment coagulant 19 t (3,613,500 KZT/t = 68,656,500); Lot3 water-treatment coagulant 25 t (3,564,000 KZT/t = 89,100,000); Lot4 demulsifier grade A 20 t (6,000,000 KZT/t = 120,000,000); delivery Atyrau region within 100 days of contract",
+"cust": "ТОО «Атырауский нефтеперерабатывающий завод» (KMG group) / Kazakhstan",
+"nmc": "326,506,500 KZT (all lots)",
+"dl": "2026-11-23 10:00 Astana time (UTC+5)",
+"note": "Open tender; local-content/other requirements in tender docs (not read)"
+},
+{
+"id": 43,
+"n": "Samruk-Kazyna № 1266213",
+"subj": "Реагент – флокулянт катионный (open tender, 2 lots) — Lot1 cationic flocculant 16.48 t (4,554,000 KZT/t = 75,049,920); Lot2 cationic flocculant 30 t (4,108,500 KZT/t = 123,255,000); within 100 days",
+"cust": "ТОО «Атырауский нефтеперерабатывающий завод» / Kazakhstan",
+"nmc": "198,304,920 KZT",
+"dl": "2026-11-23 10:00 Astana time (UTC+5)",
+"note": ""
+},
+{
+"id": 44,
+"n": "BidDetail 120147996",
+"subj": "Poly Aluminium Chloride (Q3)",
+"cust": "ONGC / India",
+"nmc": null,
+"dl": "2026-11-23",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 45,
+"n": "TED 777145-2026",
+"subj": "Dostawa 460 Mg flokulantu w postaci emulsji (COŚ Koziegłowy, LOŚ Poznań) — 460 Mg emulsion flocculant (polyacrylamide) for sludge thickening/dewatering",
+"cust": "AQUANET S.A. (Poznań) / Poland",
+"nmc": "{\"amount\": 5060000, \"currency\": \"PLN\"}",
+"dl": "2026-11-23 09:30 +01:00",
+"note": "Mandatory full-scale plant test before bid; registration for tests no later than 10 days before deadline (likely already passed) - contact paulina.mizerna-nowotna@aquanet.pl; earlier notice 712700-202"
+},
+{
+"id": 46,
+"n": "TED 733035-2026 (80/2026)",
+"subj": "Προμήθεια διαλύματος Χλωριούχου Σιδήρου (FeCl2 ή FeCl2/FeCl3) — Iron chloride solution (FeCl2 or FeCl2/FeCl3) for WWTP",
+"cust": "Επαρχιακός Οργανισμός Αυτοδιοίκησης Λευκωσίας (Nicosia District Self-Government Org.) / Cyprus",
+"nmc": "{\"amount\": 396000, \"currency\": \"EUR\"}",
+"dl": "2026-11-23 12:00 +03:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 47,
+"n": "Edital 038/2026 (PNCP)",
+"subj": "Registro de preços: hipoclorito de cálcio, sulfato de alumínio ferroso sólido granulado, ácido fluossilícico — Calcium hypochlorite tablets/granules, granulated ferrous aluminium sulphate, fluosilicic acid",
+"cust": "SAAE (CNPJ 19.116.243/0001-18) / Brazil",
+"nmc": "{\"amount\": 143429, \"currency\": \"USD\", \"note\": \"per GlobalGov conversion\"}",
+"dl": "2026-11-23",
+"note": "Brazil PNCP pregão: requires Brazilian CNPJ / SICAF registration and local delivery - foreign trader would need a Brazilian partner/importer"
+},
+{
+"id": 48,
+"n": "",
+"subj": "Supplying chemicals to desalination plants in the sectors (Field, Al-Bidaa and Duba) — Desalination plant chemicals",
+"cust": "Region-S Command (military/border sector; exact entity on Etimad) / Saudi Arabia",
+"nmc": null,
+"dl": "2026-11-23",
+"note": "Etimad + Saudi CR; TOT ref 152220446"
+},
+{
+"id": 49,
+"n": "GEM/2026/B/8260655",
+"subj": "Pour Point Depressant (PPD) for Diesel — PPD additive for diesel; qty n/a",
+"cust": "Ministry of Petroleum & Natural Gas PSU (refinery/marketing) / India",
+"nmc": null,
+"dl": "2026-11-24",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 50,
+"n": "BidDetail 119963361",
+"subj": "Polyacrylamide cationic",
+"cust": "PUK Vodovod Kruševac / Serbia",
+"nmc": null,
+"dl": "2026-11-24",
+"note": ""
+},
+{
+"id": 51,
+"n": "BidDetail 120213023",
+"subj": "Molecular sieves and support balls for product gas dryer and deethanizer feed dryer",
+"cust": "GAIL (India) Ltd, Usar PDH-PP / India",
+"nmc": null,
+"dl": "2026-11-24",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 52,
+"n": "BidDetail 120584755",
+"subj": "Aluminium sulphate non-ferric (IS 260)",
+"cust": "North Eastern Electric Power Corp. / India",
+"nmc": null,
+"dl": "2026-11-24",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 53,
+"n": "Bid No. 26-AA28",
+"subj": "2027 Water Treatment Chemicals — Liquid aluminum sulfate 160,000 gal; caustic soda 50% 90,000 gal; HFS 174,000 lb; liquid chlorine 64 t; nonionic polymer (Clarifloc N-3300P or eq.) 3,000 lb; ammonium sulfate 20,000 gal; orthophosphate 18,000 gal",
+"cust": "City of Duluth, MN (Purchasing Division) / USA",
+"nmc": null,
+"dl": "2026-11-24 14:00 CT",
+"note": "Prices firm 1 Jan-31 Dec 2027; insurance; US municipal IFB: delivered price FOB destination; NSF/ANSI 60 and AWWA standards; local tanker delivery/unloading - realistic only via US distributor/termina"
+},
+{
+"id": 54,
+"n": "2027 Water and Sewer Treatment Chemicals Project",
+"subj": "2027 Water and Sewer Treatment Chemicals — Ferric chloride 38% 5,000 gal; sodium hypochlorite; HFS; sodium bisulfite; caustic 25%",
+"cust": "Warren County Water & Sewer Dept., OH / USA",
+"nmc": null,
+"dl": "2026-11-24 14:00 ET (unpriced technical prequalification); reverse auction from 2026-12-04/07",
+"note": "Two-phase: prequalification then eBridge reverse auction; 5% bid bond (certified check) within 24h of award; US municipal IFB: delivered price FOB destination; NSF/ANSI 60 and AWWA standards; local ta"
+},
+{
+"id": 55,
+"n": "Etimad 261139003211 (60021527)",
+"subj": "Supply of chemicals for the Khobar production system 60021527 – Eastern Coast — Desalination chemicals (CPV 24300000 basic chemicals); list in Etimad BOQ",
+"cust": "Saudi Water Authority (SWA) / Saudi Arabia",
+"nmc": null,
+"dl": "2026-11-24",
+"note": "Etimad registration requires Saudi CR (foreign firms only via Saudi distributor/branch)"
+},
+{
+"id": 56,
+"n": "",
+"subj": "Supply of Chemicals for Boiler Water Treatment — Boiler water treatment chemicals (oxygen scavenger, scale/corrosion inhibitors expected)",
+"cust": "King Abdullah University Hospital / Jordan",
+"nmc": null,
+"dl": "2026-11-24",
+"note": "Likely Jordanian-registered suppliers; not verified"
+},
+{
+"id": 57,
+"n": "NKO 53/2026",
+"subj": "Supply and delivery of chemical products for water and sewerage schemes for 36 months — In tender document",
+"cust": "Nkomazi Local Municipality (Mpumalanga) / South Africa",
+"nmc": null,
+"dl": "2026-11-25 12:00 SAST",
+"note": "Briefing 02.11.2026 was NON-compulsory. PPPFA 80/20 or 90/10; SA municipal SCM (CSD). Hard copy only."
+},
+{
+"id": 58,
+"n": "GEM/2026/B/8235099",
+"subj": "Corrosion Inhibitor for Gas Line (ONGC) (Q3) — Corrosion inhibitor for gas pipelines, qty 10,000 (units per bid); EMD INR 9,000",
+"cust": "Oil and Natural Gas Corporation Ltd (ONGC), Assam Asset MM, Sivasagar / India",
+"nmc": null,
+"dl": "2026-11-25 15:00 IST",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 59,
+"n": "GEM/2026/B/8258741",
+"subj": "Desiccant, Activated Alumina — Activated alumina desiccant; qty n/a",
+"cust": "Energy Department Odisha (state genco unit) / India",
+"nmc": null,
+"dl": "2026-11-25",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 60,
+"n": "SE/KGTPS/M.OT.No.07/26-27 (2026_EB_723590_1)",
+"subj": "Procurement of Bulk Chemicals required for Feed Water System and Cooling Water System at KGTPS Maruthur — Feed water & cooling water treatment chemicals; list in BOQ",
+"cust": "TANGEDCO (TNEB Ltd), SE Kuttalam Gas Turbine Power Station, Maruthur / India",
+"nmc": null,
+"dl": "2026-11-25",
+"note": "State e-tender, domestic; Indian DSC/registration required"
+},
+{
+"id": 61,
+"n": "GEM/2026/B/8170619",
+"subj": "Nuclear Grade Ion Exchange Resin (2 items) — Nuclear grade IX resin, 2 line items; qty n/a",
+"cust": "Department of Atomic Energy - Directorate of Purchase & Stores, Mumbai / India",
+"nmc": null,
+"dl": "2026-11-25",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 62,
+"n": "Chemical Lab ET-6384-N (aggregator ref tenderdetail #57525143)",
+"subj": "Supply of Granular Activated Carbon for DM Plant Unit No.6 of GSECL Ukai TPS — GAC, de-chlorination grade, iodine no. min 900 mg/g, 0.8-0.9 mm, carbon >=90%",
+"cust": "Gujarat State Electricity Corp Ltd (GSECL), Ukai TPS / India",
+"nmc": null,
+"dl": "2026-11-25",
+"note": "State utility, domestic e-tender"
+},
+{
+"id": 63,
+"n": "P.R. No. 26-0247 (PhilGEPS ref 13312040)",
+"subj": "Supply & Delivery of 2,400 bags Aluminum Sulfate 17%+/-1% at 50 kg/bag for Water Treatment Use — Aluminium sulphate 2,400 bags x 50 kg (120 t)",
+"cust": "Zamboanga City Water District / Philippines",
+"nmc": "ABC PHP 3,000,000",
+"dl": "2026-11-25 14:00 PHT (postponed from 17.11 by addendum 04.11.2026)",
+"note": "PhilGEPS Platinum registration required; RA 12009 nationality rule (Filipino 60%+ or reciprocity country); manufacturer authorisation, ISO 9001, NSF cert, local lab CoA"
+},
+{
+"id": 64,
+"n": "BidDetail 120486465",
+"subj": "Desiccant, activated alumina",
+"cust": "Orissa Power Generation Corp. / India",
+"nmc": null,
+"dl": "2026-11-25",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 65,
+"n": "TED 787165-2026 (also 782405-2026)",
+"subj": "AM suministro de productos químicos para ETAP, EDAR y estaciones de cloración — Framework for various chemicals (hypochlorite, HCl, formic acid, antifoam, caustic, sodium chlorite, flocculating agents etc.) in 2 lots",
+"cust": "EMAYA (Palma de Mallorca) / Spain",
+"nmc": "{\"amount\": [474563.24, 1835626.8], \"currency\": \"EUR\", \"note\": \"lot estimates\"}",
+"dl": "2026-11-25 23:59 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 66,
+"n": "",
+"subj": "Supply of ion exchange resins for water demineralization — Ion exchange resins for demineralisation plant (TPP)",
+"cust": "Korporata Energjetike e Kosovës (KEK) sh.a. / Kosovo",
+"nmc": "{\"amount\": 249000, \"currency\": \"EUR\", \"note\": \"per aggregator\"}",
+"dl": "2026-11-25",
+"note": "Open tender (likely re-tender of Sept 2026 notice); bid security typical; official page not opened"
+},
+{
+"id": 67,
+"n": "UA-2026-11-09-007270-a",
+"subj": "Флокулянт полімерний — Polymer flocculant (CPV 24958200 / DK 24950000-8)",
+"cust": "КП \"Житомирводоканал\" / Ukraine",
+"nmc": "{\"amount\": 489984.17, \"currency\": \"UAH\", \"note\": \"excl. VAT\"}",
+"dl": "2026-11-25 08:00 +02:00",
+"note": "No bid security; KEP e-signature and platform registration required; small value"
+},
+{
+"id": 68,
+"n": "GM2026/226",
+"subj": "Supply, delivery and off-loading of chemicals for water and wastewater treatment for 36 months — Chlorine gas 70 kg cylinders, sodium hypochlorite 3000 L, phosphate 210 L, HTH granular 25 kg, calcium hydroxide (lime) 20 kg, HTH tablets 2 kg + reagents, dosing equipment, instrument calibration",
+"cust": "Gamagara Local Municipality (Northern Cape) / South Africa",
+"nmc": null,
+"dl": "2026-11-26 10:00 SAST",
+"note": "WARNING: compulsory clarification meeting was 05.11.2026 - only attendees may bid, so effectively closed to new bidders. CSD, B-BBEE 80/20, supplier must be agent/have access to manufacturer within SA"
+},
+{
+"id": 69,
+"n": "GEM/2026/B/8265422",
+"subj": "Alumino Ferric — Alumino-ferric; qty n/a",
+"cust": "Ministry of Defence unit / India",
+"nmc": null,
+"dl": "2026-11-26",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 70,
+"n": "e-GP Tender ID 1369229",
+"subj": "Procurement of Chemical (Cationic Polyacrylamide (PAM) - Flocculant) for Dasherkandi STP (Lot-2) — Cationic PAM flocculant; qty in BOQ",
+"cust": "Dhaka WASA - Dasherkandi STP / Bangladesh",
+"nmc": null,
+"dl": "2026-11-26",
+"note": "e-GP (eprocure.gov.bd) national tender (NCT, OTM); bidder must be registered on e-GP and hold Bangladesh trade licence/TIN/VAT - foreign supplier only via local agent/partner"
+},
+{
+"id": 71,
+"n": "BidDetail 120503084 (Lot-1) / 120503086 (Lot-2)",
+"subj": "Procurement of chemical – cationic polyacrylamide (PAM) flocculant for Dasherkandi STP, Lots 1-2",
+"cust": "Dhaka WASA (Dasherkandi STP) / Bangladesh",
+"nmc": null,
+"dl": "2026-11-26",
+"note": ""
+},
+{
+"id": 72,
+"n": "TED 739188-2026",
+"subj": "Processkemikalier — Lots incl. polyaluminium chloride, caustic, ammonia, iron(III) chloride, slaked lime, polymer, HCl, activated carbon, hypochlorite, bicarbonate, Titansorb, etc.",
+"cust": "Njudung Energi Vetlanda AB (with Njudung Energi Sävsjö, Vetlanda kommun) / Sweden",
+"nmc": null,
+"dl": "2026-11-26 23:59 +02:00 (as published)",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 73,
+"n": "",
+"subj": "Supply of operational planning chemicals for KNPC — Refinery operational chemicals (CPV 24327000, 24311000)",
+"cust": "Kuwait National Petroleum Company (KNPC) / Kuwait",
+"nmc": null,
+"dl": "2026-11-26",
+"note": "Public, indivisible; supply only from vendors on KNPC qualification list mentioned in bid documents"
+},
+{
+"id": 74,
+"n": "GN4131124",
+"subj": "Fourniture du désémulsifiant chimique pour la séparation eau/sédiments dans du fioul lourd pour les centrales turbines à gaz — Chemical demulsifier for heavy fuel oil water/sediment separation, gas-turbine power plants",
+"cust": "ONEE – Branche Electricité / Morocco",
+"nmc": "MAD 31,104,000 (aggregator 'gross budget')",
+"dl": "2026-11-26 09:00",
+"note": "Caution provisoire 500,000 MAD (official list). Open AO; foreign bidders typically allowed with equivalent documents"
+},
+{
+"id": 75,
+"n": "NWSC-HQ/SUPLS/26-27/181706",
+"subj": "Supply of Aluminium Sulphate under framework contract for a period of 18 months (8 lots: Gaba, Katosi, Masaka, Mbarara, Fort Portal, Mbale, Gulu, Arua water works) — Aluminium sulphate, 8 lots; quantities in bidding document (not in notice). Bid security per lot: Lot1 UGX 119,000,000; Lot2 UGX 50,000,000; Lot3 UGX 7,000,000; Lot4 UGX 10,000,000; Lots5-8 UGX 7,000,000 each",
+"cust": "National Water and Sewerage Corporation (NWSC) / Uganda",
+"nmc": null,
+"dl": "2026-11-27 10:30 EAT",
+"note": "OPEN INTERNATIONAL BIDDING, open to all bidders (PPDA Act Cap 205). Bank guarantee from bank in Uganda or foreign bank via Ugandan correspondent, valid to 2027-07-08. Pre-bid meeting was 12.10.2026. P"
+},
+{
+"id": 76,
+"n": "NWSC-HQ/SUPLS/26-27/181705",
+"subj": "Supply of Sodium Carbonate (Soda Ash) under framework contract for a period of 18 months — Sodium carbonate (soda ash); quantities in bidding document. Bid security UGX 25,000,000",
+"cust": "National Water and Sewerage Corporation (NWSC) / Uganda",
+"nmc": null,
+"dl": "2026-11-27 10:30 EAT",
+"note": "OPEN INTERNATIONAL BIDDING, open to all bidders. Bank guarantee via bank in Uganda or correspondent, valid to 2027-07-08."
+},
+{
+"id": 77,
+"n": "PAAEP-WJIR-AON-32b-F-68c (WB ref WJIR-AOI-32B-F-68C)",
+"subj": "Fournitures d'equipements et de materiels, consommables pour le traitement de l'eau des systemes AEP dans les 68 centres (4 lots) — Lot 1 equipment, accessories and consumables for water treatment/potabilisation; Lot 2 filter sand; Lot 3 lab instruments/kits; Lot 4 lab reagents. Bid security Lot1 MGA 140,500,000; Lot2 11,000,000; Lot3 13,500,000; Lot4 6,500,000",
+"cust": "UGP PAAEP - JIRAMA (World Bank IDA 7121-MG / E040-MG) / Madagascar",
+"nmc": null,
+"dl": "2026-11-27 10:00 (Madagascar)",
+"note": "National competitive procurement under WB Regulations, but open to bidders from all eligible countries; French-language DAO."
+},
+{
+"id": 78,
+"n": "CHY/WATER-CHEM/2025",
+"subj": "Framework agreement for supply and delivery of water chemicals (2 years) — Water treatment consumables (lot 1); details in PRAZ eGP document",
+"cust": "Municipality of Chinhoyi / Zimbabwe",
+"nmc": null,
+"dl": "2026-11-27",
+"note": "Zimbabwe tenders normally require PRAZ supplier registration + tax clearance; domestic method likely. Original not opened - verify."
+},
+{
+"id": 79,
+"n": "GEM/2026/B/8178120",
+"subj": "Polyelectrolyte - Anionic — Anionic polyelectrolyte; qty n/a",
+"cust": "Ministry of Chemicals & Fertilizers PSU (buyer unit per GeM) / India",
+"nmc": null,
+"dl": "2026-11-27",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 80,
+"n": "CS-200/2026 (doc code 26UD-26901)",
+"subj": "Competitive selection: supply of caustic antifoulant (антифоулянт щелочи) for caustic wash tower C-2320 — Caustic antifoulant – 10,000 kg; trial lot required; dosage program by supplier",
+"cust": "СП ООО «Uz-Kor Gas Chemical» (Ustyurt GCC, ethylene plant) / Uzbekistan",
+"nmc": null,
+"dl": "2026-11-27 15:00 Tashkent time (UTC+5)",
+"note": "Offshore-registered/offshore-bank suppliers excluded; no litigation with customer; price validity >=90 days; DAP UGCC Kirkkiz, Karakalpakstan; payment 100% after delivery"
+},
+{
+"id": 81,
+"n": "Samruk-Kazyna № 1266426",
+"subj": "Работы по проведению опытно-промышленных испытаний (ОПИ) деэмульгатора на месторождениях ПУ «Жетыбаймунайгаз» — 1 lot of works (pilot field trials of demulsifier), 90 days",
+"cust": "АО «Мангистаумунайгаз» (ПУ «Жетыбаймунайгаз») / Kazakhstan",
+"nmc": "134,833,500 KZT",
+"dl": "2026-11-27 10:41 Astana time (UTC+5)",
+"note": "Open tender with price reduction (на понижение); contract conditional on approval of 2027 plan (п.5 ст.12)"
+},
+{
+"id": 82,
+"n": "TED 751222-2026",
+"subj": "Dostawa pylistego węgla aktywnego (PWA) do uzdatniania wody, z podziałem na zadania — Powdered activated carbon: Lot 1 Zakład Centralny, Lot 2 Zakład Północny (quantities in SWZ)",
+"cust": "MPWiK m.st. Warszawy S.A. / Poland",
+"nmc": null,
+"dl": "2026-11-27 09:45 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 83,
+"n": "TED 734295-2026 (Doffin 2026-116460)",
+"subj": "Precipitation chemicals for water treatment and sewage treatment plants — Framework agreement for precipitation chemicals (coagulants) for water works and WWTP",
+"cust": "Halden kommune / Norway",
+"nmc": "{\"amount\": 20000000, \"currency\": \"NOK\"}",
+"dl": "2026-11-27 11:00 UTC",
+"note": "EEA open procedure; Mercell registration; English/Norwegian"
+},
+{
+"id": 84,
+"n": "TED 737492-2026",
+"subj": "Järnklorid — Ferric chloride incl. loading, delivery, pumping-in and support",
+"cust": "Ängelholms kommun / Sweden",
+"nmc": null,
+"dl": "2026-11-27 (time per notice 00:00 +01:00)",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 85,
+"n": "APP-EOP-BG-00688-2026-0038",
+"subj": "Доставка на флокуланти за ПСОВ Русе и ПСОВ Бяла (2 позиции) — Flocculants for wastewater treatment, sludge thickening and dewatering at WWTP Ruse and WWTP Byala, 2 positions",
+"cust": "ВиК ООД - Русе (Water Supply and Sewerage Ltd. Ruse) / Bulgaria",
+"nmc": null,
+"dl": "2026-11-27",
+"note": "National procedure; registration on CAIS EOP; Bulgarian documents; official page not opened"
+},
+{
+"id": 86,
+"n": "UA-2026-11-11-010672-a",
+"subj": "Реагент для водообмеження у високопроникних пластах — Water shut-off reagent for high-permeability formations (quantity in TD)",
+"cust": "АТ \"Укрнафта\" (Ukrnafta) / Ukraine",
+"nmc": "{\"amount\": 3234000, \"currency\": \"UAH\", \"note\": \"excl. VAT\"}",
+"dl": "2026-11-27 10:00 +02:00",
+"note": "Bid security 97,020 UAH; KEP e-signature; lower product fit"
+},
+{
+"id": 87,
+"n": "GEM/2026/B/8225080",
+"subj": "Strong Base Anion Exchange Resin — SBA resin; qty n/a",
+"cust": "Department of Atomic Energy unit / India",
+"nmc": null,
+"dl": "2026-11-28",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 88,
+"n": "Project No. 69119231753",
+"subj": "Purchase of water treatment chemicals: PAC 12,000 kg, polyacrylamide 2,000 kg, liquid chlorine 8,500 L (e-bidding) — PAC 12,000 kg; PAM 2,000 kg; liquid chlorine 8,500 L",
+"cust": "Huai Krachao Subdistrict Municipality / Thailand",
+"nmc": null,
+"dl": "2026-11-28",
+"note": "Thai e-GP: bidder must be Thai-registered juristic person; small local lot - low fit"
+},
+{
+"id": 89,
+"n": "FTS 104200-2026 (ref CM3661)",
+"subj": "Supply of Aluminium Sulphate (framework, 12 clean-water sites) — Aluminium sulphate for 12 clean water treatment sites in Yorkshire; framework 1 Mar 2027-28 Feb 2028, extensions to 28 Feb 2033; dual sourcing; 1 lot",
+"cust": "Yorkshire Water Services Ltd / United Kingdom",
+"nmc": "{\"amount\": 28600000, \"currency\": \"GBP\", \"note\": \"framework ceiling\"}",
+"dl": "2026-11-28 23:59 UTC",
+"note": "Competitive flexible procedure (Procurement Act 2023), participation via Ariba by invitation; evaluation 60% price/40% quality; Regulation 31 (DWI) approval of product required; delivery to UK sites"
+},
+{
+"id": 90,
+"n": "11/2026/BAPCO (BE2630000392)",
+"subj": "Supply of Activated Charcoal — Activated Charcoal Merox No 8 for Kero Merox Unit; 1-year contract",
+"cust": "Bapco Refining (Bapco Energies) / Bahrain",
+"nmc": null,
+"dl": "2026-11-29",
+"note": "Tender Board registration; Bapco tenders typically 'Public (LOCAL GCC)' + Bahraini CR/Bahrainisation certificate (official page returned 403 – invitation type not confirmed)"
+},
+{
+"id": 91,
+"n": "TED 701850-2026",
+"subj": "Dostawy polielektrolitu – WWTP Gdańsk Wschód (2 lots) — Lot1: polyelectrolyte powder for dewatering digested sludge 170 t (big-bags ~500 kg); Lot2: polyelectrolyte for thickening excess sludge 75 t",
+"cust": "Gdańskie Wodociągi Sp. z o.o. / Poland",
+"nmc": null,
+"dl": "2026-11-30 11:00 CET",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 92,
+"n": "TED 745479-2026 / 751587-2026",
+"subj": "Fällmittellieferung 2027 (precipitant supply 2027) — Not specified in TED summary",
+"cust": "Bauverwaltungsamt (contracting authority as named in TED) / Germany",
+"nmc": null,
+"dl": "2026-11-30 10:30 CET",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 93,
+"n": "BidDetail 120535990",
+"subj": "Carbon molecular sieves for nitrogen generation",
+"cust": "Karnataka Power Corp. – Yelahanka CCPP / India",
+"nmc": null,
+"dl": "2026-11-30",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 94,
+"n": "BidDetail (aluminium-sulphate list)",
+"subj": "Aluminium sulphate (alumino-ferric grade-4, IS-299) in 25 kg bags",
+"cust": "Telangana Power Generation Corp. – YTPS / India",
+"nmc": null,
+"dl": "2026-11-30",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 95,
+"n": "TED 751587-2026 (also 745479-2026)",
+"subj": "Fällmittellieferung 2027 — Supply of precipitants (coagulants) for 2027",
+"cust": "Bauverwaltungsamt (contracting authority per TED) / Germany",
+"nmc": null,
+"dl": "2026-11-30 10:30 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 96,
+"n": "TED 749715-2026",
+"subj": "Rahmenvereinbarung - Lieferung von Aluminiumchlorid (AlCl3) — 500 t/yr AlCl3 by tanker (Hauptkläranlage, KA Am Loddenbach, KA Geist) + 26 t/yr in IBCs (KA Hiltrup)",
+"cust": "Stadt Münster / Germany",
+"nmc": null,
+"dl": "2026-11-30 07:30 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 97,
+"n": "TED 751339-2026",
+"subj": "Fornitura reagenti a servizio degli impianti di potabilizzazione — 3 lots of reagents for drinking-water plants (lot details in documents)",
+"cust": "acquevenete SpA / Italy",
+"nmc": "{\"amount\": [2799720, 818840, 745800], \"currency\": \"EUR\", \"note\": \"lot estimates\"}",
+"dl": "2026-11-30 16:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 98,
+"n": "MERX-ALBERTA-444217370666",
+"subj": "RFQ for Bulk Chemical Supply and Delivery for 2027 — Bulk water/wastewater chemicals for 2027 (list not verified)",
+"cust": "Aquatera Utilities Inc. (Grande Prairie, AB) / Canada",
+"nmc": null,
+"dl": "2026-11-30",
+"note": "Official notice not opened; verify items"
+},
+{
+"id": 99,
+"n": "LWB-PVD-S-2603-GO-RFB",
+"subj": "Supply and Delivery of PVD Salt — PVD (vacuum-dried) salt 100,000 kg; delivery 45-60 days",
+"cust": "Lilongwe Water Board (LWB) / Malawi",
+"nmc": null,
+"dl": "2026-12-01 14:00 (Lilongwe)",
+"note": "NATIONAL COMPETITIVE BIDDING. Low strategic fit (commodity salt)."
+},
+{
+"id": 100,
+"n": "ALMT06/2026",
+"subj": "Supply and Delivery of Water Treatment Chemicals for a period of 36 months — Not specified in advert; in bid document",
+"cust": "Chief Albert Luthuli Local Municipality (Mpumalanga) / South Africa",
+"nmc": null,
+"dl": "2026-12-01 12:00 SAST",
+"note": "Functionality + 80/20 or 90/10 preference (PPR 2022), VAT Act compliance; no compulsory briefing per eTenders listing. SA-registered bidder (CSD) in practice."
+},
+{
+"id": 101,
+"n": "TED 750134-2026",
+"subj": "Kemikalier till vattenverk, badanläggningar och kraftvärmeverk – 10 framework areas — Includes 'Aluminiumsulfat (flockningsmedel)' lot; others: sulphur granulate, soda, hypochlorite, salt tablets, Celite, H2SO4 37%, bicarbonate, NaOH 25%, TMT 15%",
+"cust": "Karlstads kommun / Karlstads Energi / Karlstadsregionens Vatten / Sweden",
+"nmc": null,
+"dl": "2026-12-01 (00:00 +01:00 per TED)",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 102,
+"n": "TED 743168-2026",
+"subj": "Fornitura e posa in opera di carbone attivo granulare vergine (GAC) - Pontelagoscuro (FE) — Virgin mineral-origin GAC for 16 vertical filters (2 batteries x 8), supply and installation",
+"cust": "HERA S.p.A. / Italy",
+"nmc": "{\"amount\": 700000, \"currency\": \"EUR\"}",
+"dl": "2026-12-01 15:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 103,
+"n": "UA-2026-11-12-011069-a",
+"subj": "Інгібітор вуглекислотної корозії для газоконденсатних свердловин ПНГВУ (періодичне дозування) — 20 t carbon-dioxide corrosion inhibitor for gas-condensate wells (periodic dosing), delivery to 31.03.2027",
+"cust": "АТ \"Укрнафта\" (Ukrnafta) / Ukraine",
+"nmc": "{\"amount\": 3080000, \"currency\": \"UAH\", \"note\": \"excl. VAT\"}",
+"dl": "2026-12-01 10:00 +02:00",
+"note": "Open tender with features; bid security 92,400 UAH bank guarantee; analogous supply contract experience required; foreign bidders allowed but need e-signature (KEP) and platform registration; price-on"
+},
+{
+"id": 104,
+"n": "İKN 2026/2113635",
+"subj": "Berdan İçme Suyu Arıtma Tesisinde Kullanılmak Üzere Alüminyum Bazlı Sıvı Koagülant Alım İşi — Aluminium-based liquid coagulant (TS EN 17034), 20–60 t per month call-offs to Berdan DWTP, Tarsus",
+"cust": "MESKİ – Mersin Su ve Kanalizasyon İdaresi Genel Müdürlüğü / Turkey",
+"nmc": null,
+"dl": "2026-12-01 10:30",
+"note": "Notice: 'İhaleye sadece yerli istekliler katılabilecektir' – DOMESTIC BIDDERS ONLY; manufacturer/authorised dealer documents; 3% bid bond. ISP can only participate via a Turkish partner/distributor"
+},
+{
+"id": 105,
+"n": "MEW/11/2025/2026 (و ك م/11/2025/2026)",
+"subj": "Supply, Delivery and Handling of Chemicals for the Reverse Osmosis Unit for Shuwaikh Power and Water Distillation Plant — Items: NaOH 25%, caustic soda flake, NaOH 48-50%, ferric chloride, sulphuric acid, sodium hypochlorite, poly aluminium chloride, citric acid, manpower (per-item initial guarantees)",
+"cust": "Ministry of Electricity, Water & Renewable Energy (MEW) via CAPT / Kuwait",
+"nmc": null,
+"dl": "2026-12-01 13:00",
+"note": "Kuwaiti public tender (Law 49/2016): bidder must be registered/classified with CAPT – in practice requires Kuwaiti company/agent; initial guarantee 90 days in favour of CAPT. Source PDF = Kuwait Al-Yo"
+},
+{
+"id": 106,
+"n": "T-47/2026",
+"subj": "Химреагенты водоподготовки (11 позиций, полный пакет): антискаланты RO и градирни, бисульфит, биоциды, очистители мембран, амин, поглотитель O2, ТНФ + пассивация",
+"cust": "СП Uz-Kor Gas Chemical (Устюртский ГХК), Узбекистан",
+"nmc": null,
+"dl": "02.12.2026 15:00 (Ташкент)",
+"note": "Срок подтвердил А. Касимов 13.11"
+},
+{
+"id": 107,
+"n": "C2026/511 (ONB/CWA/C2026/511; e-Proc ref CWA/IFB/2026/3074)",
+"subj": "Supply of 140,000 Litres of Liquid Polyelectrolyte for Water Treatment Plants — Liquid polyelectrolyte 140,000 L",
+"cust": "Central Water Authority (CWA) / Mauritius",
+"nmc": null,
+"dl": "2026-12-02 19:59 UTC (per e-Proc schedule)",
+"note": "OPEN NATIONAL BIDDING - restricted to Mauritian nationals or entities incorporated in Mauritius -> ISP only via Mauritian partner/distributor."
+},
+{
+"id": 108,
+"n": "GEM/2026/B/8263545",
+"subj": "Custom Bid for Services - BFW Treatment Chemicals and Antioxidant for HPG Treatment in ECU — Boiler feed water treatment chemicals + antioxidant with dosing service",
+"cust": "Ministry of Petroleum & Natural Gas PSU (refinery) / India",
+"nmc": null,
+"dl": "2026-12-02",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 109,
+"n": "GEM/2026/B/8262664",
+"subj": "Poly Aluminium Chloride Powder — PAC powder; qty n/a",
+"cust": "Ministry of Petroleum & Natural Gas PSU / India",
+"nmc": null,
+"dl": "2026-12-02",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 110,
+"n": "BidDetail 120537306",
+"subj": "Poly Aluminium Chloride powder",
+"cust": "Indian Oil Corporation Ltd / India",
+"nmc": null,
+"dl": "2026-12-02",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 111,
+"n": "IFB 2027-031",
+"subj": "Water and Wastewater Treatment Chemicals (Water Resources Chemicals) — Liquid aluminum sulfate 400 dry t; Mannich polymer 50,000 lb; emulsion polymer 225,000 lb; quicklime 1,500 t; hypochlorite 4,170,000 lb; caustic 650,000 lb; per-line award",
+"cust": "City of Lynchburg, VA (Procurement Division) / USA",
+"nmc": null,
+"dl": "2026-12-02 15:00 ET",
+"note": "1+4 yr; polymer plant trial; SDS required; US municipal IFB: delivered price FOB destination; NSF/ANSI 60 and AWWA standards; local tanker delivery/unloading - realistic only via US distributor/termin"
+},
+{
+"id": 112,
+"n": "C11-81-26",
+"subj": "Proposal for Supply and Delivery of Polyaluminum Chloride for the Woodward Avenue Water Treatment Plant — Polyaluminum chloride for Woodward Ave WTP (quantities in documents)",
+"cust": "City of Hamilton, ON / Canada",
+"nmc": null,
+"dl": "2026-12-02 15:00 EST",
+"note": "NSF/ANSI 60 likely; delivery in Ontario; trade agreement coverage per documents"
+},
+{
+"id": 113,
+"n": "GEM/2026/B/8188630",
+"subj": "Oxygen Scavenger — Boiler oxygen scavenger; qty n/a",
+"cust": "Ministry of Chemicals & Fertilizers PSU (buyer unit per GeM) / India",
+"nmc": null,
+"dl": "2026-12-03",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 114,
+"n": "GEM/2026/B/8267525",
+"subj": "Strong Base Anion Exchange Resin, Strong Acid Cation Exchange Resin — SBA + SAC resin; qty n/a",
+"cust": "Ministry of Chemicals & Fertilizers PSU / India",
+"nmc": null,
+"dl": "2026-12-03",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 115,
+"n": "GEM/2026/B/8265832",
+"subj": "Ferric Chloride - ONGC (Q3) — Ferric chloride; qty n/a",
+"cust": "ONGC (Gujarat unit) / India",
+"nmc": null,
+"dl": "2026-12-03",
+"note": "GeM: bidder must be registered GeM seller (Indian entity: PAN/GSTIN); Make-in-India/Class-I local supplier preference usually applies; foreign firm only via Indian partner/OEM-authorised Indian seller"
+},
+{
+"id": 116,
+"n": "TED 743713-2026",
+"subj": "Sukcesywne dostawy siarczanu żelazowego dla oczyszczalni ścieków — Ferric sulphate, 12 months: ~2,200 Mg/yr WWTP Płaszów + ~1,000 Mg/yr WWTP Kujawy (more in SWZ)",
+"cust": "Wodociągi Miasta Krakowa S.A. / Poland",
+"nmc": "{\"amount\": 5280000, \"currency\": \"PLN\"}",
+"dl": "2026-12-03 09:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 117,
+"n": "TED 760794-2026",
+"subj": "Dostawa koagulantu PAC (chlorek poliglinu) oraz koagulantu żelazowego Fe3+ — Lot 1: PAC aqueous solution 250 Mg basic + option up to 500 Mg (max 750 Mg) for WWTP Gdańsk Wschód; Lot 2: iron coagulant Fe3+ for phosphate precipitation",
+"cust": "Gdańskie Wodociągi Sp. z o.o. / Poland",
+"nmc": null,
+"dl": "2026-12-03 11:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 118,
+"n": "TED 762628-2026",
+"subj": "Polyalumiinikloridi Nenäinniemen jätevedenpuhdistamolle — Polyaluminium chloride for Nenäinniemi WWTP (quantity in tender documents)",
+"cust": "Jyväskylän Seudun Puhdistamo Oy / Finland",
+"nmc": null,
+"dl": "2026-12-03 12:00 +02:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 119,
+"n": "TED 751975-2026 (080048-2026)",
+"subj": "Fornitura di defosfatante misto Fe-Al — Mixed Fe-Al precipitant for dephosphatation",
+"cust": "Eco-Center AG/SpA (Bolzano) / Italy",
+"nmc": "{\"amount\": 1151172, \"currency\": \"EUR\"}",
+"dl": "2026-12-03 11:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 120,
+"n": "",
+"subj": "Supply of Water Treatment Chemicals — Industrial water treatment chemicals; details in advert PDF (not opened)",
+"cust": "De Heus Kenya (private, animal feed) / Kenya",
+"nmc": null,
+"dl": "2026-12-04",
+"note": "Private RFP; company registration, tax compliance, MSDS, references (aggregator summary). Original advert not opened - verify."
+},
+{
+"id": 121,
+"n": "RFT0031",
+"subj": "All Centres - Supply of Chemicals for a Period of 36 Months — Water & wastewater treatment and disinfection chemicals for ~100 urban/remote NT sites; panel 36 months + 2x12",
+"cust": "Power and Water Corporation (Northern Territory) / Australia",
+"nmc": "not published (aggregator estimate AUD 2-14M)",
+"dl": "2026-12-04 14:00 ACST",
+"note": "Open public RFT, foreign suppliers allowed; requires end-to-end supply chain in NT, licensed DG transport, PL AUD 20M / product liability AUD 10M"
+},
+{
+"id": 122,
+"n": "GlobalTenders ref 150558914",
+"subj": "Supply of Water Treatment Chemicals",
+"cust": "De Heus Kenya (private, per aggregator) / Kenya",
+"nmc": null,
+"dl": "2026-12-04 (aggregator)",
+"note": ""
+},
+{
+"id": 123,
+"n": "İKN 2026/1952029",
+"subj": "Atıksu Arıtma Tesislerinde Kullanılmak Üzere Katyonik Polielektrolit Temini Mal Alım İşi — Cationic polyelectrolyte (polyacrylamide), 2 items, delivered in 2 lots to Karaduvar WWTP",
+"cust": "MESKİ – Mersin Su ve Kanalizasyon İdaresi Genel Müdürlüğü / Turkey",
+"nmc": null,
+"dl": "2026-12-04 14:30",
+"note": "Notice: domestic bidders only (sadece yerli istekliler). EKAP registration required"
+},
+{
+"id": 124,
+"n": "İKN 2026/2188807",
+"subj": "Toz ve Sıvı Katyonik Polielektrolit (Powder and Liquid Cationic Polyelectrolyte) — Powder and liquid cationic polyelectrolyte; quantities in EKAP documents",
+"cust": "ESKİ – Erzurum Su ve Kanalizasyon İdaresi Genel Müdürlüğü / Turkey",
+"nmc": null,
+"dl": "2026-12-04",
+"note": "EKAP registration + e-signature; domestic/foreign eligibility not verified (original notice not opened)"
+},
+{
+"id": 125,
+"n": "İKN 2026/2159512",
+"subj": "Demir(III) Klorür (FeCl3) Alımı — Ferric chloride solution; quantity in EKAP documents",
+"cust": "BUSKİ – Bursa Su ve Kanalizasyon İdaresi Genel Müdürlüğü / Turkey",
+"nmc": null,
+"dl": "2026-12-04",
+"note": "EKAP registration; domestic-only clause not verified (original not opened)"
+},
+{
+"id": 126,
+"n": "e-GP Tender ID 1368076",
+"subj": "Operation & Maintenance of Water Treatment & Desalination Plant including Supply of Relevant Chemicals and Spares FY 2026-27 — O&M service incl. RO/desal chemicals & spares",
+"cust": "Chittagong Port Authority / Bangladesh",
+"nmc": null,
+"dl": "2026-12-07",
+"note": "e-GP (eprocure.gov.bd) national tender (NCT, OTM); bidder must be registered on e-GP and hold Bangladesh trade licence/TIN/VAT - foreign supplier only via local agent/partner; service contract - low f"
+},
+{
+"id": 127,
+"n": "TED 745328-2026",
+"subj": "Policlorura de aluminiu — 885 t polyaluminium chloride for raw water potabilisation",
+"cust": "AQUAVAS SA Vaslui / Romania",
+"nmc": "{\"amount\": 2650000, \"currency\": \"RON\"}",
+"dl": "2026-12-07 15:00 +02:00",
+"note": "Open procedure; bidder must register on SEAP (e-licitatie.ro) with qualified e-signature; Romanian-language documents"
+},
+{
+"id": 128,
+"n": "",
+"subj": "Supply of silica gel salt — Silica gel desiccant",
+"cust": "South Cairo Electricity Distribution Company / Egypt",
+"nmc": null,
+"dl": "2026-12-08",
+"note": "Egyptian state tenders usually require local registration; adjacent product (not in core list)"
+},
+{
+"id": 129,
+"n": "TED 784492-2026",
+"subj": "Suministro de policloruros de aluminio a granel para la ETAP — Bulk polyaluminium chloride for raw-water treatment at ETAP; 2-year contract (per aggregator)",
+"cust": "Ayuntamiento de Palma del Río (Córdoba) / Spain",
+"nmc": "{\"amount\": 436800, \"currency\": \"EUR\", \"note\": \"budget per aggregator (globaltenders); TED value field empty\"}",
+"dl": "2026-12-09 23:59 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 130,
+"n": "",
+"subj": "Marché cadre annuel renouvelable deux fois pour la fourniture de produits chimiques pour le parc de production d'électricité de la STEG — Specialised chemical products for power plants (water/steam cycle chemicals likely)",
+"cust": "STEG – Société Tunisienne de l'Electricité et du Gaz / Tunisia",
+"nmc": null,
+"dl": "2026-12-09",
+"note": "STEG site blocked (connection reset); national/international type not verified"
+},
+{
+"id": 131,
+"n": "ERW2605/02",
+"subj": "Supply, delivery & offloading of calcium hypochlorite solution at all ERWAT water care works over 36 months, as & when required — Calcium hypochlorite solution; quantities in bid document",
+"cust": "Ekurhuleni Water Care Company (ERWAT) / South Africa",
+"nmc": null,
+"dl": "2026-12-10 12:00 SAST",
+"note": "COMPULSORY online briefing (MS Teams, registration) 19.11.2026 10:30 - non-attendance disqualifies. MFMA SCM, PPPFA 2022 preference; hard copy only."
+},
+{
+"id": 132,
+"n": "TED 747418-2026",
+"subj": "Polielektrolit szállítása (4 lots: thickening/dewatering at South-Pest and North-Pest WWTPs) — Lot1 (South-Pest thickening): 51,000 kg over 24 months, 70% call-off obligation; cationic powder, >=98% polyacrylamide; other lots in docs",
+"cust": "Fővárosi Csatornázási Művek Zrt. (Budapest Sewerage Works) / Hungary",
+"nmc": null,
+"dl": "2026-12-10 10:00 (TED states +02:00)",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 133,
+"n": "TED 774782-2026",
+"subj": "Suministro de hasta 21 toneladas de polielectrólito catiónico (AC/ALICANTE) — Cationic polyelectrolyte up to 21 t for sludge dewatering at drinking-water plant",
+"cust": "Mancomunidad de los Canales del Taibilla (ETAP La Pedrera) / Spain",
+"nmc": null,
+"dl": "2026-12-10 13:00 CET",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 134,
+"n": "TED 773077-2026",
+"subj": "Contrato de suministro de reactivos químicos — Lot 1: ferric chloride 40% and PAC 18% in tanker; Lot 2: ferric chloride 40% (1,400 kg) and PAC 18% (1,350 kg) in IBC",
+"cust": "Depuradores d'Osona, SL / Spain",
+"nmc": null,
+"dl": "2026-12-10 14:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 135,
+"n": "TED 747418-2026 (EKR001883822026)",
+"subj": "Polielektrolit szállítása — Several lots: cationic powder polyelectrolyte (>=98% PAM) for sludge thickening at South-Pest WWTP 51,000 kg/24 months (70% guaranteed), plus dewatering lots for DPSZT and ÉPSZT",
+"cust": "Fővárosi Csatornázási Művek Zrt. / Hungary",
+"nmc": null,
+"dl": "2026-12-10 10:00 +02:00",
+"note": "Registration on EKR required; EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-sig"
+},
+{
+"id": 136,
+"n": "TED 767874-2026 (Gara 14 BS-2026)",
+"subj": "Fornitura di condizionanti per disidratazione fanghi e reagenti per trattamento acque di scarico — Sludge conditioners (polyelectrolytes) and wastewater treatment reagents",
+"cust": "Valle Umbra Servizi S.p.A. / Italy",
+"nmc": "{\"amount\": 874500, \"currency\": \"EUR\"}",
+"dl": "2026-12-10 12:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 137,
+"n": "PennBid 261195",
+"subj": "2027 Chemical Bids — Caustic soda, liquid aluminum sulfate, KMnO4, copper sulfate, activated carbon, hypochlorite, sodium bisulfite, HFS, zinc orthophosphate, emulsion polyacrylamide",
+"cust": "Red Lion Municipal Authority, York County, PA / USA",
+"nmc": "{\"amount\": null, \"currency\": \"USD\", \"note\": \"$25,000-180,000 per HigherGov estimate\"}",
+"dl": "2026-12-10 15:00 ET",
+"note": "Bid bond required; per-item bids allowed; delivery within 7 days; US municipal IFB: delivered price FOB destination; NSF/ANSI 60 and AWWA standards; local tanker delivery/unloading - realistic only vi"
+},
+{
+"id": 138,
+"n": "T2027-18",
+"subj": "Supply and delivery of various chemicals to various water and wastewater treatment works for 3 years - Northern sites — Polyelectrolyte, sodium hypochlorite, lime, chloride of lime, HTH tablets/powder, chlorine gas, DPD tablets; aluminium sulphate listed in properties table; quantities in BOQ",
+"cust": "Umzinyathi District Municipality (KZN) / South Africa",
+"nmc": null,
+"dl": "2026-12-11 12:00 SAST",
+"note": "COMPULSORY briefing + site visit 19.11.2026 11:00 Dundee (raw water sample for jar test). CSD registration, SARS tax PIN, B-BBEE preference (PPR 2022). Products must be from ISO-registered facility an"
+},
+{
+"id": 139,
+"n": "T2027-19",
+"subj": "Supply and delivery of various chemicals to various water and wastewater treatment works for 3 years - Southern sites — e.g. Greytown WTW: polymer (low turbidity) 60,000 kg, sodium hypochlorite 57,600 kg, HTH granular 300 kg, lime 12,000 kg; Kranskop WTW: sodium hypochlorite 7,200 kg, HTH 300 kg; further sites in BOQ",
+"cust": "Umzinyathi District Municipality (KZN) / South Africa",
+"nmc": null,
+"dl": "2026-12-11 12:00 SAST",
+"note": "COMPULSORY briefing 19.11.2026 11:00 Dundee; CSD, tax PIN, B-BBEE; ISO + NSF product proof. Hard copy only."
+},
+{
+"id": 140,
+"n": "GlobalTenders ref 150081927 / BidDetail 120211263",
+"subj": "Purchase of various types of chemicals: caustic soda (liquid), hydrazine hydrate, carbonized oil & dirt remover, antiscalant, monoethylene glycol, ammonia solution",
+"cust": "Azerenergy Complexing LLC (as named by aggregator) / Azerbaijan",
+"nmc": null,
+"dl": "2026-12-11 (time zone not stated)",
+"note": ""
+},
+{
+"id": 141,
+"n": "BidDetail 120584095",
+"subj": "Activated alumina for air dryers",
+"cust": "National Aluminium Co. (NALCO) / India",
+"nmc": null,
+"dl": "2026-12-11",
+"note": "Likely Indian registration / Make-in-India preference"
+},
+{
+"id": 142,
+"n": "İKN 2026/2026328",
+"subj": "Alüminyum Sülfat Alımı — Aluminium sulphate, 12,000 t (TS EN 878), delivered in weekly call-offs within 300 days to Ankara water treatment plants; sample delivery required",
+"cust": "ASKİ Genel Müdürlüğü – Su Arıtma ve İşletme Dairesi Başkanlığı (Ankara) / Turkey",
+"nmc": null,
+"dl": "2026-12-11 10:30 (Ankara)",
+"note": "Open procedure (4734 art.19). Notice states tender open to all domestic and foreign bidders, with price advantage for domestic goods. Requires EKAP registration + e-signature; temporary guarantee"
+},
+{
+"id": 143,
+"n": "",
+"subj": "Supply of Water Treatment Chemical — Per LWSC procurement plan: hydrated lime, aluminium sulfate, HTH (quantities in plan refer to 2025 package; 2026 notice not opened)",
+"cust": "Liberia Water and Sewer Corporation (LWSC) / Liberia",
+"nmc": "1,939,372 (currency not stated on aggregator)",
+"dl": "2026-12-13 (another listing shows 2026-12-08)",
+"note": "Low confidence: two aggregator listings with differing deadlines; original notice not retrieved. Verify before acting."
+},
+{
+"id": 144,
+"n": "GlobalTenders ref 150400005",
+"subj": "Mumarasa for the Supply of Fast Acting Demulsifier for EPF-120 at North Kuwait",
+"cust": "Kuwait Oil Company North Kuwait (aggregator names 'Kuwait National Petroleum Company') / Kuwait",
+"nmc": null,
+"dl": "2026-12-14 (aggregator)",
+"note": "Unknown; 'Mumarasa' KOC procurement route – check whether limited to KOC-registered/local companies"
+},
+{
+"id": 145,
+"n": "Bid 27-05",
+"subj": "Water Treatment Facilities Annual Treatment Chemicals — Annual water treatment chemicals for all treatment plants (list in specifications)",
+"cust": "City of Alexander City, AL / USA",
+"nmc": null,
+"dl": "2026-12-14 14:30 CST",
+"note": "Sealed paper bids mailed/hand-delivered only; no prequalification; US municipal IFB: delivered price FOB destination; NSF/ANSI 60 and AWWA standards; local tanker delivery/unloading - realistic only v"
+},
+{
+"id": 146,
+"n": "İKN 2026/2208906",
+"subj": "Yosun Önleyici, Alüminyum Sülfat, Sülfürik Asit ve Kimyasal Madde Alımı — Algaecide, aluminium sulphate, sulphuric acid and other chemicals for water treatment",
+"cust": "Aksaray Belediyesi – Su ve Kanalizasyon Müdürlüğü / Turkey",
+"nmc": null,
+"dl": "2026-12-14",
+"note": "EKAP registration; eligibility not verified"
+},
+{
+"id": 147,
+"n": "Bid #2027-07 (File ID 26-668)",
+"subj": "Annual Supply of Water Treatment Chemicals — Annual supply for Public Works Water Division (items in bid)",
+"cust": "City of Lake Charles, LA / USA",
+"nmc": null,
+"dl": "2026-12-15 15:45 ET (per aggregator)",
+"note": "1 yr + 1 option; US municipal IFB: delivered price FOB destination; NSF/ANSI 60 and AWWA standards; local tanker delivery/unloading - realistic only via US distributor/terminal"
+},
+{
+"id": 148,
+"n": "TED 789637-2026",
+"subj": "Accordo quadro – fornitura di polielettrolita cationico in emulsione per disidratazione fanghi — Cationic polyelectrolyte emulsion for 9 WWTPs (Ascoli Piceno, San Benedetto del Tronto, Fermo …)",
+"cust": "CIIP S.p.A. – Cicli Integrati Impianti Primari (Marche Sud) / Italy",
+"nmc": "716,184.00 EUR",
+"dl": "2026-12-16 10:30 CET",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 149,
+"n": "TED 789637-2026",
+"subj": "Accordo quadro fornitura di polielettrolita per disidratazione fanghi — Cationic emulsion polyelectrolyte for sludge dewatering at WWTPs (Ascoli Piceno, San Benedetto del Tronto, Fermo etc.)",
+"cust": "CIIP spa - Cicli Integrati Impianti Primari / Italy",
+"nmc": "{\"amount\": 716184, \"currency\": \"EUR\"}",
+"dl": "2026-12-16 10:30 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 150,
+"n": "0326-609033.01",
+"subj": "MTA - 2027 Water Treatment Plant Chemicals — 2027 WTP chemicals (UNSPSC water treatment consumables)",
+"cust": "Mahanoy Township Authority, Schuylkill County, PA / USA",
+"nmc": null,
+"dl": "2026-12-16 16:00 EST",
+"note": "US municipal IFB: delivered price FOB destination; NSF/ANSI 60 and AWWA standards; local tanker delivery/unloading - realistic only via US distributor/terminal"
+},
+{
+"id": 151,
+"n": "TED 752210-2026",
+"subj": "Fourniture de produits de traitement pour la STEP – 4 lots — Lots: ferric chloride (dephosphatation), ferric chloride (sludge conditioning), POLYMÈRES (for GDD/filter press and screw press), slaked lime",
+"cust": "Communauté de Communes du Grand Pontarlier (STEP du Doubs) / France",
+"nmc": "Lot values in TED order: 200,000 / 360,000 / 320,000 / 400,000 EUR (polymers lot = 3rd lot, 320,000 EUR – verify mapping in DCE)",
+"dl": "2026-12-17 12:00 CET",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 152,
+"n": "TED 775353-2026",
+"subj": "Dobava polielektrolitov po sklopih — Lot 1: polyelectrolytes for RCERO Ljubljana; Lot 2: polyelectrolytes for CČN Ljubljana (central WWTP)",
+"cust": "JP Vodovod Kanalizacija Snaga d.o.o. (Ljubljana) / Slovenia",
+"nmc": null,
+"dl": "2026-12-17 10:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 153,
+"n": "IRFP 6635-26",
+"subj": "Chemical Management Program and Treatment Chemicals (high-pressure boilers) — Boiler and component cooling water treatment chemicals, lab reagents, tanks/feed pumps, program management",
+"cust": "City of Spokane (Waste to Energy Facility) / USA",
+"nmc": null,
+"dl": "2026-12-21 12:00 (per BidNet)",
+"note": "Service program; 5+ years experience; MANDATORY pre-bid meeting 2026-11-16 (likely cannot attend) - low fit"
+},
+{
+"id": 154,
+"n": "",
+"subj": "Supply of chemicals for the Al-Dur desalination plant — Desalination chemicals",
+"cust": "Electricity and Water Authority (EWA) / Bahrain",
+"nmc": null,
+"dl": "2026-12-31",
+"note": "Tender Board registration; details unverified (aggregator only, posted 08 Sep 2026)"
+},
+{
+"id": 155,
+"n": "TED 772209-2026",
+"subj": "Rahmenvertrag Flockungsmittel (framework, flocculants) — Supply and service of flocculant",
+"cust": "Stadt Koblenz – Klärwerk Koblenz / Germany",
+"nmc": null,
+"dl": "2027-01-07 09:30 CET",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 156,
+"n": "TED 788046-2026",
+"subj": "Upphandling av Kemikalier Dricksvatten (framework 2+2+2+2+2 years) — Chemical products for water treatment incl. transport and technical support (product list in docs)",
+"cust": "Kalmar Vatten AB / Sweden",
+"nmc": null,
+"dl": "2027-01-15 23:59 (+02:00 per TED); questions until 08.12.2026",
+"note": "EU open procedure; check ESPD/REACH registration (EU-based only representative needed for import of chemicals), language of bid"
+},
+{
+"id": 157,
+"n": "TED 2058-2026 (DPS)",
+"subj": "Sistema Dinámico de Adquisición - reactivos para tratamiento de agua — Categories: liquid coagulants (aluminium sulphate, PAC), solid aluminium sulphate, flocculants (cationic/anionic, polyDADMAC, starches), activated carbon (PAC/GAC), chlorine, hypochlorite, lime, caustic, sodium chlorite, HCl",
+"cust": "EMASESA (Aguas de Sevilla) / Spain",
+"nmc": "{\"amount\": null, \"currency\": \"EUR\", \"note\": \"TED lists per-category estimates from 57,391.6 to 20,404,300 EUR\"}",
+"dl": "2031-01-30 14:00 +01:00 (DPS open for admission until this date; specific tenders issued to admitted suppliers)",
+"note": "Dynamic purchasing system: apply for admission any time, then bid in mini-tenders; Spanish documents; Spanish e-signature/registration on PLACSP"
+},
+{
+"id": 158,
+"n": "TED 758172-2026",
+"subj": "Polymerer 2027 TEAB — Framework for polymers for WWTP, sludge dewatering and water treatment",
+"cust": "Trollhättan Energi AB (Trollhättans stad) / Sweden",
+"nmc": null,
+"dl": "2027-01-21 23:59 +02:00 (as published)",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 159,
+"n": "TED 758765-2026",
+"subj": "Levering af polymer til Nyborg Forsyning og Service — Polymer for Nyborg WWTP (pre- and final dewatering)",
+"cust": "NFS Spildevand A/S (Nyborg Forsyning og Service) / Denmark",
+"nmc": "{\"amount\": 4000000, \"currency\": \"DKK\"}",
+"dl": "2027-01-18 12:00 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 160,
+"n": "TED 772209-2026",
+"subj": "Klärwerk Koblenz - Rahmenvertrag Flockierungsmittel — Framework for supply (and service) of flocculant",
+"cust": "Stadt Koblenz (Klärwerk Koblenz) / Germany",
+"nmc": null,
+"dl": "2027-01-07 09:30 +01:00",
+"note": "EU open procedure (TED); open to non-EU suppliers in practice but GPA/EU-access not guaranteed for US firms; ESPD + e-submission on national platform with qualified e-signature; documents in national "
+},
+{
+"id": 161,
+"n": "RFQ 2168423",
+"subj": "Supply of Chemical H2S Scavenger (three-year supply) — H2S scavenger, 3-year supply contract",
+"cust": "Kuwait National Petroleum Company (KNPC) (GlobalTenders lists buyer as Kuwait Oil Company) / Kuwait",
+"nmc": null,
+"dl": "2027-01-18",
+"note": "ICB per aggregator. KPC subsidiaries require K-Tendering supplier registration; KNPC tenders usually limited to KNPC-approved vendors – qualification needed. Buyer name discrepancy KNPC vs KOC between"
+}
+]
