@@ -263,5 +263,48 @@
    "msg": "1a1e1446d600ab45"
   }
  ],
- "daily_count_1511": 41
+ "daily_count_1511": 50,
+ "batch6_local_cm_eu": [
+  {
+   "to": "fobs@fobs-group.com",
+   "msg": "1a1e147f2cda153a"
+  },
+  {
+   "to": "solevo.cameroun@solevogroup.com",
+   "msg": "1a1e147f43462183"
+  },
+  {
+   "to": "cameroon@afcott.com",
+   "msg": "1a1e147f4411d2ed"
+  },
+  {
+   "to": "casagaillard@casagaillard.com",
+   "msg": "1a1e147f797eae1c"
+  },
+  {
+   "to": "zamowienia@stockmeier.pl",
+   "msg": "1a1e147f928db2c8"
+  },
+  {
+   "to": "dinax@dinax.hu",
+   "msg": "1a1e147fbb002485"
+  },
+  {
+   "to": "informazioni@hidrodepur.it",
+   "msg": "1a1e147fc55ee7ea"
+  },
+  {
+   "to": "info@chimpex.it",
+   "msg": "1a1e147feb0f4d8f"
+  },
+  {
+   "to": "info@servyeco.com",
+   "msg": "1a1e14800031f587"
+  }
+ ],
+ "next_day_queue": [
+  "local_partners_africa_eu_1511.json: Kemanzi, Chemtoll, Metsi (ZA via form), Synergy/Chem-Plus/Blychem (MU), Chemsol/Metmin (ZM), Ichem/Omni/Fumman (GH), ACI (CI), SENCHEM/ALT Nowata (SN), Alkane/AHC (ET), PWM/Coolela (MZ), Elettrochimica Ceci, B&C, Chiemivall, Iberkemya, ACES, Chemi Kam, Voda Nordic, Orikem, Hidrofilt, Donauchem",
+  "local_partners_mena_1511.json: REDA, Al-Kout, Water Bird, Global Chemicals, K2S, SCE, İND Grup",
+  "local_partners_asia_br_1511.json (agent running)"
+ ]
 }
