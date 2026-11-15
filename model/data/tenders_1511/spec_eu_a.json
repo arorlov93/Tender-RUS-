@@ -48,7 +48,9 @@
    36,
    45,
    46,
-   47
+   47,
+   53,
+   54
   ],
   "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/"
@@ -913,6 +915,229 @@
    "sources": [
     "https://pncp.gov.br/api/consulta/v1/contratacoes/proposta?dataFinal=20261130&codigoModalidadeContratacao=6&cnpj=19116243000118&pagina=1",
     "https://www.portaldecompraspublicas.com.br/processos/MG/Servico-Autonomo-de-Agua-e-Esgoto-Saae-de-Bocaiuva-5525/RPE-038-2026-2026-523191"
+   ]
+  },
+  {
+   "id": 53,
+   "n": "Bid No. 26-AA28",
+   "docs_found": true,
+   "doc_urls": [
+    "https://duluthmn.gov/media/qa2nq4m4/26-aa28-bid-package.pdf"
+   ],
+   "items": [
+    {
+     "product": "Liquid Aluminum Sulfate 50% (48,5% Al2(SO4)3)",
+     "spec": "Al2O3 ≥8,0% (тип. 8,3%); Fe2O3 тип. 0,0035%; нерастворимые ≤0,07%; 1 л = 1,32 кг; AWWA B403; tank trucks, весовой талон; партия 6 600 гал",
+     "qty": 160000,
+     "unit": "gal",
+     "qty_t": 799,
+     "qty_basis": "годовая оценка (bid form); т — estimate: 160 000 гал × 3,785 л × 1,32 кг/л"
+    },
+    {
+     "product": "Liquid Caustic Soda 50%",
+     "spec": "AWWA B501; температура ≥100°F; слив в 2 резервуара по 6 000 гал; партия 4 200 гал",
+     "qty": 90000,
+     "unit": "gal",
+     "qty_t": 518,
+     "qty_basis": "годовая оценка; т — estimate при плотности 1,52"
+    },
+    {
+     "product": "Wet Hydrofluorosilicic Acid 25%",
+     "spec": "AWWA B703; партии 19 т (30 600 lb) в резервуар 6 000 гал",
+     "qty": 174000,
+     "unit": "lb",
+     "qty_t": 78.9,
+     "qty_basis": "годовая оценка"
+    },
+    {
+     "product": "Liquid Chlorine",
+     "spec": "≥99,7% об.; влага ≤0,01%; нелетучие ≤0,003%; AWWA B301; 1-тонные контейнеры",
+     "qty": 64,
+     "unit": "short ton",
+     "qty_t": 58.1,
+     "qty_basis": "годовая оценка"
+    },
+    {
+     "product": "Nonionic Polymer (Clarifloc N-3300P или эквивалент)",
+     "spec": "мешки 55 lb влагозащищённые, доставка и паллеты в цене",
+     "qty": 3000,
+     "unit": "lb",
+     "qty_t": 1.36,
+     "qty_basis": "годовая оценка"
+    },
+    {
+     "product": "Liquid Ammonium Sulfate Solution 30–40% (35%)",
+     "spec": "NSF/ANSI 60 (60 мг/л); AWWA B302-16; ≤2000 гал за поставку; cam-соединение, без воздуха",
+     "qty": 20000,
+     "unit": "gal",
+     "qty_t": null,
+     "qty_basis": "годовая оценка (18–20 тыс. гал)"
+    },
+    {
+     "product": "Orthophosphate — dipotassium phosphate 49–51% (Hawkins LPC-DP или экв.)",
+     "spec": "NSF/ANSI 60 (30 мг/л); с середины 2027; 1 100–1 500 гал/мес",
+     "qty": 18000,
+     "unit": "gal",
+     "qty_t": null,
+     "qty_basis": "годовая оценка (14–18 тыс. гал)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Цены фиксированы 01.01.2027–31.12.2027; заказы после утверждения бюджета (с 1-й недели января 2027)",
+   "delivery_terms": "FOB destination, freight prepaid — Lakewood WTP, 8130 Congdon Blvd., Duluth MN 55804, пн–пт 7:00–15:00; автоцистерны / 1-тонные контейнеры; без налога с продаж",
+   "packaging": "bulk tank trucks; хлор — 1-тонные контейнеры; полимер — мешки 55 lb",
+   "certificates": "AWWA B403/B501/B703/B301/B302; NSF/ANSI 60 для ammonium sulfate и ортофосфата; SDS",
+   "bid_security": "Общие условия упоминают залог (security deposited with bid) — размер в выдержке не указан; страхование обязательно",
+   "eligibility_foreign": "Муниципальный IFB (США); подача через Bid Express (аккаунт бесплатно, плата за подачу) или бумажная; можно на отдельные позиции; возможно разделение присуждения",
+   "award_criteria": "Низкая цена по позициям, но «цена может быть не единственным фактором»",
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "Fargo ND 2026 bid tab: Aluminum sulfate — Hawkins 0,18 USD/lb (Chemtrade 0,2566)",
+     "unit_price": 397,
+     "currency_per": "USD/t (0,18 $/lb × 2204,6; estimate conversion)",
+     "year": 2026,
+     "source_url": "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+    },
+    {
+     "what": "Fargo 2026: Sodium hydroxide 50% — Univar 0,2156 USD/lb",
+     "unit_price": 475,
+     "currency_per": "USD/t (estimate conversion)",
+     "year": 2026,
+     "source_url": "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+    },
+    {
+     "what": "Fargo 2026: Hydrofluosilicic acid — Hawkins 0,51 USD/lb",
+     "unit_price": 1124,
+     "currency_per": "USD/t (estimate conversion)",
+     "year": 2026,
+     "source_url": "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+    },
+    {
+     "what": "Fargo 2026: Liquid chlorine — Hawkins 2 175 USD/ton",
+     "unit_price": 2175,
+     "currency_per": "USD/short ton",
+     "year": 2026,
+     "source_url": "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+    }
+   ],
+   "feasibility_ru": "Низкая для основных позиций (жидкие alum/каустик/HFS/хлор — локальные заводы Hawkins/Chemtrade/USALCO). Реально только неионный полимер (1,4 т, мешки — можно со склада в США) и, возможно, ортофосфат/сульфат аммония через американского дистрибьютора. Срок 24.11.2026 14:00 CT.",
+   "risks_ru": "Мелкий объём полимера; требования AWWA/NSF 60; страхование; фиксированные цены на весь 2027 г.",
+   "sources": [
+    "https://duluthmn.gov/media/qa2nq4m4/26-aa28-bid-package.pdf",
+    "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+   ]
+  },
+  {
+   "id": 54,
+   "n": "2027 Water and Sewer Treatment Chemicals Project (Warren County OH)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://commissioners.warrencountyohio.gov/doc/Bids/2026/01_2027_Water_and_Sewer_Chemicals_Treatment_Project/02_Bid_Document.pdf"
+   ],
+   "items": [
+    {
+     "product": "Sodium hypochlorite 12,5% (bulk)",
+     "spec": "AWWA B-300/B-301 (так в документе), ≥12,5% активного хлора; цистерна, мин. заказ 2 000 гал",
+     "qty": 50000,
+     "unit": "gal",
+     "qty_t": null,
+     "qty_basis": "оценка 2027"
+    },
+    {
+     "product": "Sodium hypochlorite 12,5% (тоут 330 гал)",
+     "spec": "то же; доставка IBC 330 гал с перекачкой",
+     "qty": 9900,
+     "unit": "gal",
+     "qty_t": null,
+     "qty_basis": "оценка 2027"
+    },
+    {
+     "product": "Hydrofluorosilicic acid 23%",
+     "spec": "AWWA B-703, ≥23% HFS; цистерна, мин. 1 000 гал",
+     "qty": 154000,
+     "unit": "lb",
+     "qty_t": 69.9,
+     "qty_basis": "оценка 2027"
+    },
+    {
+     "product": "Sodium bisulfite 38% (bulk)",
+     "spec": "≥38% NaHSO3; цистерна, мин. 1 500 гал",
+     "qty": 140000,
+     "unit": "lb",
+     "qty_t": 63.5,
+     "qty_basis": "оценка 2027"
+    },
+    {
+     "product": "Sodium bisulfite 38% (тоут)",
+     "spec": "тоут 3 660 lb с перекачкой",
+     "qty": 43920,
+     "unit": "lb",
+     "qty_t": 19.9,
+     "qty_basis": "оценка 2027"
+    },
+    {
+     "product": "Sodium hydroxide 25%",
+     "spec": "AWWA B-501, ≥25% NaOH; цистерна, мин. 2 500 гал",
+     "qty": 875000,
+     "unit": "lb",
+     "qty_t": 396.9,
+     "qty_basis": "оценка 2027"
+    },
+    {
+     "product": "Ferric chloride solution DWG 38%",
+     "spec": "AWWA B-407, ≥38%; цистерна, мин. 1 500 гал",
+     "qty": 7700,
+     "unit": "gal",
+     "qty_t": null,
+     "qty_basis": "оценка 2027 в спецификации (в форме цены 5 000 гал — расхождение в документе)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "01.01.2027 – 31.12.2027, цены фиксированы",
+   "delivery_terms": "Доставлено (все расходы включены) на Renneker WTP (Maineville), Franklin WTP, Waynesville WWTP, Огайо; пн–пт; цистерны/тоуты с перекачкой; SDS и коносамент с каждой поставкой",
+   "packaging": "bulk tanker; тоуты 330 гал",
+   "certificates": "AWWA B-300/301, B-501, B-703, B-407; SDS",
+   "bid_security": "Победитель в течение 24 ч после уведомления: bid bond 5% (или аккредитив 5% / bond 100%); затем performance bond",
+   "eligibility_foreign": "Двухэтапно: техническая преквалификация (без цен) до 24.11.2026 14:00 ET, затем онлайн-реверсивный аукцион eBridge с 07.12.2026; требуются страховка и формы Огайо",
+   "award_criteria": "Минимальная цена в реверсивном аукционе (по позициям)",
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "Fargo ND 2026: Sodium hypochlorite 12,5% — Hawkins 0,335 USD/lb",
+     "unit_price": 739,
+     "currency_per": "USD/t (estimate conversion)",
+     "year": 2026,
+     "source_url": "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+    },
+    {
+     "what": "Fargo 2026: Sodium bisulfite 38% — Hawkins 0,37 USD/lb",
+     "unit_price": 816,
+     "currency_per": "USD/t (estimate conversion)",
+     "year": 2026,
+     "source_url": "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+    },
+    {
+     "what": "Fargo 2026: HFS — Hawkins 0,51 USD/lb",
+     "unit_price": 1124,
+     "currency_per": "USD/t (estimate conversion)",
+     "year": 2026,
+     "source_url": "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+    }
+   ],
+   "feasibility_ru": "Нереально для импорта: все позиции — жидкие товары с частыми цистерновыми поставками (гипохлорит нестабилен), только местные дистрибьюторы (Hawkins, Univar, Brenntag). Можно лишь как посредник при наличии американского терминала.",
+   "risks_ru": "Bid bond 5% в течение 24 ч; реверсивный аукцион; фиксированные цены на год.",
+   "sources": [
+    "https://commissioners.warrencountyohio.gov/doc/Bids/2026/01_2027_Water_and_Sewer_Chemicals_Treatment_Project/02_Bid_Document.pdf",
+    "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
    ]
   }
  ]

@@ -506,6 +506,68 @@
    ]
   },
   {
+   "id": 129,
+   "n": "TED 784492-2026 (PLACSP exp. SU-16/2026)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f3nlJMH6AUjgL1BHd3qjQA%3D%3D",
+    "PCAP + PPT downloaded via PLACSP GetDocumentByIdServlet (session-bound links)"
+   ],
+   "items": [
+    {
+     "product": "Policloruro de aluminio al 10% (liquid PAC)",
+     "spec": "UNE-EN 17034:2018; RD 3/2023; REACH; relative basicity 65±7%; Al2O3 9.5±0.5%; SO4 >=1.0%; Cl >=9.0%; Fe <=0.05%; density 1.2±0.05; pH(1%) 3±1; stability >=1 yr; accredited (ISO 17025) lab certificate",
+     "qty": 500000,
+     "unit": "kg/yr",
+     "qty_t": 1000,
+     "qty_basis": "500 t/yr x 2 years (indicative, no minimum)"
+    },
+    {
+     "product": "Policloruro de aluminio al 14% (liquid PAC, low basicity)",
+     "spec": "UNE-EN 17034:2018; basicity 30±5%; Al2O3 13.5±1%; SO4 >=1.0%; Cl >=15%; Fe <=0.05%; density 1.3±0.05; pH(1%) <1; stability >=1 yr",
+     "qty": 100000,
+     "unit": "kg/yr",
+     "qty_t": 200,
+     "qty_basis": "100 t/yr x 2 years; bid for both grades mandatory"
+    }
+   ],
+   "total_qty_t": 1200,
+   "contract_period": "2 years (+20% modification); PPT annual forecast 600 t PAC",
+   "delivery_terms": "Delivered & unloaded at ETAP Palma del Río (Córdoba) in ~25 t tank trucks (ADR), within max 5 calendar days of order; weighbridge check; each delivery with accredited lab certificate, lot no., sample; non-conform replacement within 2 days; all transport/unloading costs included",
+   "packaging": "bulk road tanker ~25 t",
+   "certificates": "UNE-EN 17034 compliance via ISO 17025 lab certificate; REACH compliance documented; technical data sheets for both grades; turnover >= 273,000 EUR; similar supplies >= 127,400 EUR in best of last 3 years; liability insurance",
+   "bid_security": "No provisional guarantee found; definitive guarantee 5% = 18,200 EUR",
+   "eligibility_foreign": "Open procedure (LCSP), e-submission via PLACSP (registration + e-signature); Spanish; EU directive 2014/24 (GPA applies)",
+   "award_criteria": "Price 50 pts + quality 50 pts (lab jar tests on raw water 40 pts: optimum dose 10, settling speed 5, floc size 5, residual Al 10, final turbidity 10; technical assistance 10 pts)",
+   "estimated_value": {
+    "amount": 436800,
+    "currency": "EUR",
+    "per_lot": "budget 364,000 EUR excl. VAT for 2 yrs; max unit prices PAC10% 0.300 EUR/kg, PAC14% 0.320 EUR/kg"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Max tender unit price PAC 10% Al2O3 (liquid, delivered)",
+     "unit_price": 0.3,
+     "currency_per": "EUR/kg",
+     "year": 2026,
+     "source_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f3nlJMH6AUjgL1BHd3qjQA%3D%3D"
+    },
+    {
+     "what": "Max tender unit price PAC 14% Al2O3",
+     "unit_price": 0.32,
+     "currency_per": "EUR/kg",
+     "year": 2026,
+     "source_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f3nlJMH6AUjgL1BHd3qjQA%3D%3D"
+    }
+   ],
+   "feasibility_ru": "Низкая для импорта: жидкий PAC 10% по 0,30 EUR/кг DDP с поставкой за 5 дней — только местное производство (Испания: Kemira, Feralco, Derypol). Порошковый PAC из Китая (30% Al2O3) надо растворять на испанском заводе-партнёре; при цене 0,30 EUR/кг за 10%-раствор эквивалент ~0,9 EUR/кг порошка — теоретически маржа есть, но нужна площадка разбавления и цистерны.",
+   "risks_ru": "50% баллов — лабораторные jar-тесты на сырой воде; строгие спецификации основности; испанский язык и PLACSP.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/784492-2026",
+    "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=f3nlJMH6AUjgL1BHd3qjQA%3D%3D"
+   ]
+  },
+  {
    "id": 136,
    "n": "TED 767874-2026 (Gara 14 BS-2026, portal ref G01890)",
    "docs_found": false,
