@@ -50,7 +50,15 @@
    46,
    47,
    53,
-   54
+   54,
+   65,
+   66,
+   67,
+   72,
+   82,
+   83,
+   84,
+   86
   ],
   "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/"
@@ -1138,6 +1146,503 @@
    "sources": [
     "https://commissioners.warrencountyohio.gov/doc/Bids/2026/01_2027_Water_and_Sewer_Chemicals_Treatment_Project/02_Bid_Document.pdf",
     "https://download.fargond.gov/0/bid_tabulation_form_2026_with-bids.pdf"
+   ]
+  },
+  {
+   "id": 65,
+   "n": "TED 787165-2026 (also 782405-2026), Expte 002540/2026",
+   "docs_found": true,
+   "doc_urls": [
+    "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kDPPXgX9RgqdkQsA7ROvsg%3D%3D"
+   ],
+   "items": [
+    {
+     "product": "Lote 2 Cat.1 — катионный полиэлектролит (гранулированный ПАА) для сгустителей",
+     "spec": "Полиакриламид катионный, MW высокая–очень высокая; активное вещество >90%; гранулы, без пыли; насыпная плотность 0,68–0,8; pH (5 г/л) 2,5–4,5; вязкость (5 г/л) 275–850 сПз; стабильность ≥12 мес.; образец 2×25 кг до срока подачи для промышленного теста",
+     "qty": 161875,
+     "unit": "kg",
+     "qty_t": 161.875,
+     "qty_basis": "на 2 года рамочного соглашения; макс. цена 3,60 EUR/кг (в Анексе III — big-bag 750 кг)"
+    },
+    {
+     "product": "Lote 2 Cat.2 — катионный полиэлектролит (гранулированный ПАА) для центрифуг",
+     "spec": "те же требования, что Cat.1; образец 2×25 кг",
+     "qty": 345888,
+     "unit": "kg",
+     "qty_t": 345.888,
+     "qty_basis": "на 2 года; макс. 3,60 EUR/кг (мешки 25 кг; в PPT — мешки 25 кг и big-bag ~750 кг)"
+    },
+    {
+     "product": "Lote 2 Cat.3 — жидкий катионный флокулянт (эмульсия ПАА на масляной основе)",
+     "spec": "обратная эмульсия ПАА; образец 50 мл (jar-test)",
+     "qty": 1600,
+     "unit": "kg",
+     "qty_t": 1.6,
+     "qty_basis": "на 2 года; макс. 4,80 EUR/кг; IBC/бочка"
+    },
+    {
+     "product": "Lote 1 (для справки): гипохлорит натрия (jerrycan 10,6 т; IBC 300 т; цистерны 25,4 т), HCl 32% (73,2 т), муравьиная к-та 85% (1,25 т), пеногаситель (6 т), каустик 50% IBC (12 т), H2SO4 98% (198,4 т), антискалант для обратного осмоса (по дозе), биоциды Permaclean 55 (5,2 т) и Adiclean 128 (0,5 т)",
+     "spec": "максимальные цены: NaOCl IBC 0,46 EUR/кг; HCl IBC 0,60; H2SO4 навал 0,52; каустик 0,85; пеногаситель 6,00; биоциды 6,26–6,44 EUR/кг",
+     "qty": null,
+     "unit": "kg",
+     "qty_t": null,
+     "qty_basis": "Lote 1 = 474 563,24 EUR на 2 года"
+    }
+   ],
+   "total_qty_t": 509.4,
+   "contract_period": "Рамочное соглашение (Acuerdo Marco) на 2 года с 28.02.2027",
+   "delivery_terms": "DDP установки EMAYA на Мальорке (EDAR 1, EDAR 2 и др., Пальма) — максимальные цены включают транспорт и разгрузку; срок поставки для флокулянтов Cat.1–2: обычный ≤7 дней, срочный ≤2 дня (сокращение — оценивается); Cat.3: 15/7 дней; приёмка 8:00–13:00",
+   "packaging": "Cat.1–2: мешки 25 кг и big-bag ~750 кг; Cat.3: IBC/бочки",
+   "certificates": "ISO 9001 и ISO 14001 (или эквивалент) для Lote 2 Cat.1–2; ISO 9001 для Cat.3; технические карты (sobre B); один продукт на лот; образцы до срока подачи (непредоставление = исключение); 1 технический специалист-химик с опытом ≥1 года",
+   "bid_security": "Залога на участие нет; гарантия исполнения (garantía definitiva) 5% от оценочной суммы категории",
+   "eligibility_foreign": "Открытая процедура ЕС (Directive 2014/24/EU), подача электронно через PLACSP/«Sistemas externos» (compras.emaya.es); испанский язык; оборот ≥917 813,40 EUR/год (Lote 2) за лучший из 3 лет; поставки аналогичных продуктов ≥458 906,70 EUR в лучший год за последние 3 года (сертификаты заказчиков); DEUC/ЕСПД",
+   "award_criteria": "Lote 2: цена 60 баллов (sobre C) + 40 баллов эффективность по промышленному тесту образцов на оборудовании EMAYA (сухость кека/расход полимера; Cat.3 — jar-test)",
+   "estimated_value": {
+    "amount": 2310190.04,
+    "currency": "EUR",
+    "per_lot": "Lote 1: 474 563,24; Lote 2 (флокулянты): 1 835 626,80 EUR без НДС на 2 года"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Максимальная цена тендера (precio máximo) — порошковый катионный ПАА Cat.1/2, DDP Мальорка",
+     "unit_price": 3600,
+     "currency_per": "EUR/t",
+     "year": 2026,
+     "source_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kDPPXgX9RgqdkQsA7ROvsg%3D%3D"
+    },
+    {
+     "what": "Максимальная цена — эмульсия Cat.3",
+     "unit_price": 4800,
+     "currency_per": "EUR/t",
+     "year": 2026,
+     "source_url": "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kDPPXgX9RgqdkQsA7ROvsg%3D%3D"
+    },
+    {
+     "what": "Сравнение: AQUANET (PL) 2026 порошковый флокулянт 170 Mg — 690 030 EUR ≈ 4 059 EUR/т (CAN 61971-2026)",
+     "unit_price": 4059,
+     "currency_per": "EUR/t",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/61971-2026"
+    }
+   ],
+   "feasibility_ru": "СРЕДНЯЯ–ВЫСОКАЯ (один из лучших в пакете): порошковый катионный ПАА — профильный продукт китайских заводов; ~254 т/год, потолок 3,6 EUR/кг DDP Мальорка (заводская цена Китая ~1,6–2,2 USD/кг оставляет маржу). Нужно: склад на Мальорке/в Испании (поставка 7 дней, срочно 2 дня), ISO 9001/14001 (производителя — уточнить допустимость), образцы 2×25 кг до 25.11.2026, оборот ≥0,92 млн EUR и референции ≥0,46 млн EUR/год по флокулянтам — для ISP Group возможно, если есть экспортные контракты на ПАА.",
+   "risks_ru": "Срок 25.11.2026 23:59 — нужно успеть доставить образцы в Пальму; 40% баллов — промышленный тест (продукт должен быть подобран под ил EDAR); языковые/юридические документы на испанском; гарантия 5%; продление срока было (первонач. 20.11).",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (787165-2026, 782405-2026)",
+    "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=kDPPXgX9RgqdkQsA7ROvsg%3D%3D",
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/t65/ (PPT 2540, PCAP, Anexo III corregido)"
+   ]
+  },
+  {
+   "id": 66,
+   "n": "",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.globaltenders.com/tender-detail/supply-of-ion-exchange-resins-for-water-demi-1ZF92vJB79uMqRuQ",
+    "https://e-prokurimi.rks-gov.net"
+   ],
+   "items": [
+    {
+     "product": "Ионообменные смолы для водоподготовки (обессоливание) ТЭС KEK",
+     "spec": null,
+     "qty": null,
+     "unit": "L/m3",
+     "qty_t": null,
+     "qty_basis": "типы (катионит/анионит) и объёмы в документации e-prokurimi — не открыты"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": "Поставка на ТЭС KEK (Obiliq, Косово) — предположительно",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Открытый тендер по закону Косово о закупках; регистрация на e-prokurimi.rks-gov.net; документы на албанском (часто и англ.); Косово не в GPA",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": 249000,
+    "currency": "EUR",
+    "per_lot": "по агрегатору GlobalTenders (не проверено на официальном портале)"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Средняя по продукту: ионообменные смолы — китайские производители (Sunresin, Jiangsu Suqing и др.) конкурентны; сухая упаковка, морем до Дурреса/Салоник, затем авто. Но документы не открыты (нужна регистрация e-prokurimi), срок 25.11.2026; вероятно требуется эквивалентность брендам (Lewatit/Amberlite/Purolite) и референции на ТЭС.",
+   "risks_ru": "Опубликовано 11.11.2026, срок 25.11.2026; плохое качество данных агрегатора (placeholder-номера); KEK часто отменяет тендеры и переходит к переговорной процедуре.",
+   "sources": [
+    "https://www.globaltenders.com/tender-detail/supply-of-ion-exchange-resins-for-water-demi-1ZF92vJB79uMqRuQ"
+   ]
+  },
+  {
+   "id": 67,
+   "n": "UA-2026-11-09-007270-a",
+   "docs_found": true,
+   "doc_urls": [
+    "https://prozorro.gov.ua/tender/UA-2026-11-09-007270-a",
+    "https://public-api.prozorro.gov.ua/api/2.5/tenders/2708dfe084c044be8344113c9df5dced"
+   ],
+   "items": [
+    {
+     "product": "Флокулянт полимерный — катионный полиакриламид (порошок) для подготовки питьевой и технической воды",
+     "spec": "порошок белый; катионный; насыпная плотность 0,8±0,05 г/см3; вязкость 0,5% р-ра 400±50 сПз; pH 1% р-ра 6–9; время растворения 90–120 мин; полностью растворим; срок хранения ≥24 мес. с поставки; вода после обработки — ДСанПіН 2.2.4-171-10",
+     "qty": 2050,
+     "unit": "kg",
+     "qty_t": 2.05,
+     "qty_basis": "всего до 31.12.2027"
+    }
+   ],
+   "total_qty_t": 2.05,
+   "contract_period": "до 31.12.2027",
+   "delivery_terms": "DDP склад покупателя, м. Житомир, вул. Чуднівська, 120 (Incoterms 2010); партии по заявке в течение 5 календарных дней; погрузка/разгрузка за счёт поставщика; оплата 30 дней",
+   "packaging": null,
+   "certificates": "Сертификат качества/паспорт производителя; протокол испытаний от лаборатории (соответствие требованиям); письмо производителя (или его официального представителя в Украине) о возможности поставки всего объёма; ISO 9001 производителя; гарантийное письмо о поставке продукции заявленного производителя; опыт: ≥1 аналогичный договор с отзывом",
+   "bid_security": "нет (guarantee 0 UAH)",
+   "eligibility_foreign": "Открытые торги (aboveThreshold, особенности военного положения) в Prozorro; КЭП и регистрация на площадке; документы на украинском; запрет товаров происхождения РФ/РБ/Иран",
+   "award_criteria": "Цена 100% (электронный аукцион)",
+   "estimated_value": {
+    "amount": 489984.17,
+    "currency": "UAH",
+    "per_lot": "без НДС → ≈239 UAH/кг (estimate)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Житомирводоканал 2025 (UA-2025-01-07-004593-a): 2 050 кг флокулянта — ТОВ «НЕО-ХІМ», договор 381 300 UAH без НДС → 186 UAH/кг",
+     "unit_price": 186000,
+     "currency_per": "UAH/t net",
+     "year": 2025,
+     "source_url": "https://prozorro.gov.ua/tender/UA-2025-01-07-004593-a"
+    },
+    {
+     "what": "Житомирводоканал 2024 (UA-2024-06-10-002491-a): 800 кг — ТОВ «СТОУНСЕНД», 143 960 UAH без НДС → 180 UAH/кг",
+     "unit_price": 180000,
+     "currency_per": "UAH/t net",
+     "year": 2024,
+     "source_url": "https://prozorro.gov.ua/tender/UA-2024-06-10-002491-a"
+    },
+    {
+     "what": "Житомирводоканал 09.2026 (UA-2026-09-16-012856-a): Bukoflock CP-40 или экв. 4 000 кг — «СМАРТ ВОТЕР ГРУП», 873 333 UAH без НДС → 218 UAH/кг",
+     "unit_price": 218333,
+     "currency_per": "UAH/t net",
+     "year": 2026,
+     "source_url": "https://prozorro.gov.ua/tender/UA-2026-09-16-012856-a"
+    }
+   ],
+   "feasibility_ru": "Низкая экономически: всего ~2 т (≈0,49 млн UAH ≈ 10 тыс. EUR); нужен украинский склад/дистрибьютор для поставок за 5 дней, КЭП, украинская документация. Продукт (катионный ПАА) — профильный для Китая.",
+   "risks_ru": "Срок 25.11.2026 08:00 (по Prozorro endDate 10:00 +02:00); требуется договор-аналог с отзывом; лабораторный протокол испытаний.",
+   "sources": [
+    "https://public-api.prozorro.gov.ua/api/2.5/tenders/2708dfe084c044be8344113c9df5dced",
+    "https://prozorro.gov.ua/tender/UA-2025-01-07-004593-a",
+    "https://prozorro.gov.ua/tender/UA-2024-06-10-002491-a",
+    "https://prozorro.gov.ua/tender/UA-2026-09-16-012856-a"
+   ]
+  },
+  {
+   "id": 72,
+   "n": "TED 739188-2026",
+   "docs_found": false,
+   "doc_urls": [
+    "https://annonser.clira.io/upphandling/a173d476-f089-4848-8c54-3a4223602c5e"
+   ],
+   "items": [
+    {
+     "product": "Polyaluminiumklorid (PAC)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "в документации Clira (страница: «Hittade inte upphandlingen»)"
+    },
+    {
+     "product": "Natronlut (каустик)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Ammoniak",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Järn(III)klorid (хлорное железо)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Släckt kalk (гашёная известь)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Polymer (флокулянт)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Saltsyra (HCl)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Aktivt kol (активированный уголь)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Natriumhypoklorit",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Hydrokarbonat (бикарбонат натрия)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Titansorb (сорбент для дымовых газов/ТЭЦ)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    },
+    {
+     "product": "Svavelsyra (серная кислота)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": null
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "23.04.2027 – 22.04.2029 (по каждому лоту)",
+   "delivery_terms": "Vetlanda / Sävsjö (Småland, Швеция) — ТЭЦ и водоканал Njudung Energi + Vetlanda kommun; детали в документах",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Открытая процедура ЕС, совместная закупка (Njudung Energi Vetlanda AB, Njudung Energi Sävsjö AB, Vetlanda kommun); подача через Clira; шведский язык",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "SEK",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая–средняя: 12 лотов, интересны только «Polymer», «Aktivt kol», возможно PAC (если твёрдый) — но объёмы малого шведского муниципалитета и поставки со склада в Швеции. Документы на Clira недоступны (страница закупки не найдена — возможно, снята/перенесена).",
+   "risks_ru": "Ссылка Clira не работает («Hittade inte upphandlingen») — проверить статус; срок 26.11.2026.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (739188-2026)",
+    "https://annonser.clira.io/upphandling/a173d476-f089-4848-8c54-3a4223602c5e"
+   ]
+  },
+  {
+   "id": 82,
+   "n": "TED 751222-2026 (01312/WS/PW/PZP-DRZ-WRS/D/2026)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://mpwik-waw.eb2b.com.pl/open-preview-auction.html/534443/dostawa-pylistego-wegla-aktywnego-pwa-do-uzdatniania-wody-przeznaczonej-do-spozycia-z-podzialem-na-zadania-2"
+   ],
+   "items": [
+    {
+     "product": "Zadanie 1 — порошковый активированный уголь (PWA) для питьевой воды, Zakład Centralny (SUW Filtry/Praga)",
+     "spec": "в SWZ/IDW (не открыты: вложения организатора eB2B не загрузились без входа); оценка по стоимости удаления единицы УФ-абсорбции на пробах при дозах 10 и 20 г/м3",
+     "qty": null,
+     "unit": "Mg",
+     "qty_t": null,
+     "qty_basis": "в SWZ (не открыта); 12 мес."
+    },
+    {
+     "product": "Zadanie 2 — PWA для Zakład Północny",
+     "spec": "то же",
+     "qty": null,
+     "unit": "Mg",
+     "qty_t": null,
+     "qty_basis": "в SWZ; 12 мес."
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "12 мес. по каждому заданию",
+   "delivery_terms": "Варшава (Zakład Centralny, Zakład Północny); детали в проекте договора",
+   "packaging": null,
+   "certificates": "Опыт: ≥2 поставки (договора) PWA для подготовки питьевой воды по ≥20 Mg каждая за последние 3 года (≤12 мес. исполнения на каждую); прочее — в IDW",
+   "bid_security": "Wadium: Zadanie 1 — 8 000 PLN; Zadanie 2 — 16 000 PLN",
+   "eligibility_foreign": "Открытый тендер ЕС (PZP), подача через платформу eB2B mpwik-waw.eb2b.com.pl; польский язык; ЕСПД; иностранные валюты пересчитываются по курсу NBP",
+   "award_criteria": "100% «стоимость» = средняя стоимость удаления единицы УФ-абсорбции (цена PLN/г × доза / снижение абсорбции) — по лабораторному тесту образцов",
+   "estimated_value": {
+    "amount": null,
+    "currency": "PLN",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "MPWiK Warszawa 2025 (TED CAN 861934-2025): PWA Zad.1 — 970 000 PLN, Zad.2 — 1 455 000 PLN, оба Grand Activated Sp. z o.o.; количества в извещении не указаны",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2025,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/861934-2025"
+    },
+    {
+     "what": "MPWiK Warszawa 2024 (TED CAN 798642-2024): Zad.1 — 1 150 000 PLN, Zad.2 — 2 475 000 PLN, Grand Activated",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2024,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/798642-2024"
+    }
+   ],
+   "feasibility_ru": "Средняя: PAC — профильный импортный товар (Китай/Индия, угольный/кокосовый), годовой объём ~2,4 млн PLN (по 2025). Оценка по эффективности УФ-абсорбции, требуются 2 референции по ≥20 т PAC для питьевой воды. Нужен склад в Польше. Срок 27.11.2026 09:45.",
+   "risks_ru": "Документы SWZ не получены (eB2B без логина не отдал вложения); количество неизвестно; действующий поставщик Grand Activated (дистрибьютор импортного угля).",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (751222-2026, 861934-2025, 798642-2024)",
+    "https://mpwik-waw.eb2b.com.pl/auction/auction/list"
+   ]
+  },
+  {
+   "id": 83,
+   "n": "TED 734295-2026 (Doffin 2026-116460)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://doffin.no/notices/2026-116460",
+    "https://permalink.mercell.com/290676455.aspx"
+   ],
+   "items": [
+    {
+     "product": "Fellingskjemikalier — коагулянты (осадители) для водоочистной станции и очистных сооружений Halden",
+     "spec": "в Vedlegg 1 – Kravspesifikasjon (Mercell, доступ после «Show interest»/входа)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "в Bilag 4 – Prisskjema (не открыт)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Рамочное соглашение 2 года + опцион 1+1 год (макс. 4 года), старт 01.02.2027; взаимное уведомление о расторжении 3 мес.",
+   "delivery_terms": "Halden (Østfold, Норвегия); есть «Kjøretøysmatrise» (матрица транспортных средств) — значит, доставка автотранспортом поставщика с экологическими требованиями к ТС",
+   "packaging": null,
+   "certificates": "Самодекларации HMS (охрана труда) и этические требования; регистрация в торговом реестре страны (Annex XI 2014/24/EU)",
+   "bid_security": "не требуется",
+   "eligibility_foreign": "Открытая процедура ЕЭЗ; подача через Mercell (регистрация); норвежский/английский; вопросы до 20.11.2026 12:00",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": 20000000,
+    "currency": "NOK",
+    "per_lot": "один лот, на весь срок до 4 лет (≈5 млн NOK/год — estimate)"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая–средняя: коагулянты (вероятно PAX/PIX — жидкие) для норвежского муниципалитета; поставки автоцистернами с требованиями по ТС; рынок Kemira/Feralco. Импорт возможен только для твёрдых коагулянтов (например, порошковый PAC) через склад в Скандинавии.",
+   "risks_ru": "Документы за входом Mercell; срок 27.11.2026 12:00 CET.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (734295-2026)",
+    "https://doffin.no/notices/2026-116460",
+    "https://permalink.mercell.com/290676455.aspx"
+   ]
+  },
+  {
+   "id": 84,
+   "n": "TED 737492-2026",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.e-avrop.com/engelholm/e-Upphandling/NoticeLink.aspx?id=132727"
+   ],
+   "items": [
+    {
+     "product": "Järnklorid — хлорное железо (раствор) для очистных Ängelholm, вкл. погрузку, доставку, закачку в резервуары и техподдержку",
+     "spec": "в документации e-Avrop (требуется регистрация/вход)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "не опубликовано в извещении"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": "Доставка автоцистерной с закачкой (inpumpning) на очистные Ängelholms kommun",
+   "packaging": "налив",
+   "certificates": null,
+   "bid_security": "не требуется",
+   "eligibility_foreign": "Открытая процедура ЕС (LOU); подача через e-Avrop (регистрация бесплатна); шведский язык",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": 12800000,
+    "currency": "SEK",
+    "per_lot": "оценочная стоимость процедуры (период не указан в API-полях)"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая: жидкое хлорное железо с закачкой на месте — рынок Kemira/Feralco (местное производство в Хельсингборге). Импорт из Азии нерентабелен.",
+   "risks_ru": "Документы за логином e-Avrop; срок 27.11.2026.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (737492-2026)",
+    "https://www.e-avrop.com/engelholm/e-Upphandling/Announcement.aspx?id=74782"
+   ]
+  },
+  {
+   "id": 86,
+   "n": "UA-2026-11-11-010672-a",
+   "docs_found": true,
+   "doc_urls": [
+    "https://prozorro.gov.ua/tender/UA-2026-11-11-010672-a"
+   ],
+   "items": [
+    {
+     "product": "Реагент для водоограничения (полимерный гелеобразующий состав) в высокопроницаемых пластах — блокирование обводнённых пластов, заколонных перетоков, негерметичности колонн",
+     "spec": "вязкость 5% водного р-ра полимера ≤100 мПа·с; растворимость в воде ≥98%; время сшивки композиции при 20°C ≥24 ч; при 80°C ≤5 ч; коэффициент блокирования проницаемости керна ≥94% (модельная вода 180 г/л NaCl, 80°C); органические хлориды в товарной форме ≤6 ppm; соотношение полимер:сшиватель 10:1; испытания п.1.1–1.5 в лаборатории Укрнафты или ISO/IEC 17025",
+     "qty": 3.3,
+     "unit": "t",
+     "qty_t": 3.3,
+     "qty_basis": "всего; поставка партиями в течение 60 дней с подписания (до 30.06.2027)"
+    }
+   ],
+   "total_qty_t": 3.3,
+   "contract_period": "поставка в течение 60 календарных дней от подписания, не позднее 30.06.2027",
+   "delivery_terms": "DDP склад грузополучателя для резидентов; DAP склад для нерезидентов (Incoterms 2020) — Полтавская обл., Миргородский р-н; входной контроль качества в лаборатории Укрнафты",
+   "packaging": "сыпучий — мешки до 25 кг; жидкий — канистры/бочки до 25 л; год выпуска 2025–2026, ≤12 мес. на дату поставки; срок годности ≥12 мес.",
+   "certificates": "Сертификат/паспорт качества; протокол по хлорорганическим соединениям (или гарантийное письмо); TDS/ТУ производителя; документ о воздействии на человека и окружающую среду; протокол испытаний по п.1.1–1.5",
+   "bid_security": "Банковская гарантия 97 020 UAH (иностранные банки — через SWIFT в АБ «Укргазбанк»)",
+   "eligibility_foreign": "Открытые торги Prozorro; нерезиденты допускаются (цена в USD/EUR на условиях DAP с приведением к DDP по Додатку 5.1); документы на украинском (переводы); КЭП",
+   "award_criteria": "Цена 100% (аукцион, приведённая цена)",
+   "estimated_value": {
+    "amount": 3234000,
+    "currency": "UAH",
+    "per_lot": "без НДС → 980 000 UAH/т (estimate)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Укрнафта 2024 (UA-2024-09-10-009849-a): тот же реагент для высокопроницаемых пластов 5,5 т — ТОВ «Імвенд Кемікал», 1 578 225 UAH без НДС → ≈286 950 UAH/т",
+     "unit_price": 286950,
+     "currency_per": "UAH/t net",
+     "year": 2024,
+     "source_url": "https://prozorro.gov.ua/tender/UA-2024-09-10-009849-a"
+    }
+   ],
+   "feasibility_ru": "Средняя по продукту (нефтепромысловый полимер-гелеобразователь: ПАА/сшиватель — есть у китайских производителей), но нужны лабораторные испытания на керне (≥94% блокирования), очень жёсткий лимит органических хлоридов (≤6 ppm), DAP Миргород и банковская гарантия. Смета 2026 в 3,4 раза выше цены 2024 → хорошая маржа, если продукт пройдёт тесты. Срок 27.11.2026 12:00 (по Prozorro).",
+   "risks_ru": "Тестирование в лаборатории Укрнафты (критерий допуска при приёмке), военные риски логистики, банковская гарантия; объём мал (3,3 т).",
+   "sources": [
+    "https://prozorro.gov.ua/api/tenders/UA-2026-11-11-010672-a/details",
+    "https://prozorro.gov.ua/tender/UA-2024-09-10-009849-a"
    ]
   }
  ]

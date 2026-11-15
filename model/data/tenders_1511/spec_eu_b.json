@@ -217,6 +217,46 @@
    ]
   },
   {
+   "id": 98,
+   "n": "AB-2026-07181 (Aquatera internal OS-03-027-02)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://purchasing.alberta.ca/posting/AB-2026-07181",
+    "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ab-2026-07181"
+   ],
+   "items": [
+    {
+     "product": "2027 bulk chemical supplies (water & wastewater, Grande Prairie AB) – item list in 'OS-03-026-02 RFQ for Bulk Chemical Supply' PDF and '2027 AQ Chemical RFQ Site Review' XLSX",
+     "spec": "not obtained (APC download requires supplier sign-in)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "calendar 2027"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "01.01.2027 – 31.12.2027 (CanadaBuys shows 11 months est.)",
+   "delivery_terms": "Delivery to Aquatera Utilities sites, Grande Prairie, Alberta (details in RFQ)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Open & competitive RFQ; trade agreements NOT applicable; submission by email to procurement manager (shadwen@aquatera.ca) – technically accessible to foreign suppliers; closing 30.11.2026 14:00 ABT; questions by 20.11.2026",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "CAD",
+    "per_lot": "not published"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Неопределённо: документы закрыты (нужна регистрация в APC). Подача по e-mail упрощает участие; но поставки навалом в Гранд-Прери (север Альберты) требуют канадского дистрибьютора/склада. Среди заинтересованных — Chemtrade, Carbon Activated Corp.",
+   "risks_ru": "Список химикатов и объёмы не проверены; срок подачи 30.11.2026.",
+   "sources": [
+    "https://purchasing.alberta.ca/posting/AB-2026-07181",
+    "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ab-2026-07181",
+    "https://bidscopeai.com/opportunities/cda8d751-9785-4300-b50e-0b0398fea432"
+   ]
+  },
+  {
    "id": 102,
    "n": "TED 743168-2026 (HERA T26_18006, RDO R26_19813)",
    "docs_found": true,
@@ -270,6 +310,192 @@
     "https://portalefornitoriprocurement.gruppohera.it/esop/toolkit/opportunity/current/5843/detail.si",
     "https://ted.europa.eu/en/notice/-/detail/689853-2024",
     "https://ted.europa.eu/en/notice/-/detail/47737-2023"
+   ]
+  },
+  {
+   "id": 103,
+   "n": "UA-2026-11-12-011069-a",
+   "docs_found": true,
+   "doc_urls": [
+    "https://prozorro.gov.ua/tender/UA-2026-11-12-011069-a",
+    "https://public-api.prozorro.gov.ua/api/2.5/tenders/db7e360f185e466eb4632d7c4a93439e"
+   ],
+   "items": [
+    {
+     "product": "Інгібітор вуглекислотної корозії для газоконденсатних свердловин ПНГВУ (CO2 corrosion inhibitor, periodic batch dosing)",
+     "spec": "homogeneous liquid; density 0.800-1.150 g/cm3 @20°C; pH 4.0-8.5; kinematic viscosity <=50 mm2/s @20°C; pour point <= -25°C; protection >=80% at 60°C in NACE model (5% NaCl + 250 mg/L acetic acid, CO2-sparged) and field brine (TDS 120 g/L, Cl 74 g/L, CO2 up to 6%, T up to 100°C, P 0.5-20 MPa); dosage 160 g/1000 m3 gas ±5%; soluble in gas condensate and methanol; organic chlorides <=6 ppm; stable >=100°C; non-emulsifying; non-flammable per ДНАОП 0.00-1.32-01; tests by Ukrnafta lab or ISO 17025 lab (СОУ 09.1-00135390-034:2025)",
+     "qty": 20,
+     "unit": "t",
+     "qty_t": 20,
+     "qty_basis": "total, delivery by 31.03.2027"
+    }
+   ],
+   "total_qty_t": 20,
+   "contract_period": "Deliveries in lots within 30 calendar days of contract signature; delivery end date 31.03.2027; shelf life >=12 months, production year 2026",
+   "delivery_terms": "DDP consignee warehouse for residents / DAP consignee warehouse for non-residents (Incoterms 2020); place: Poltava oblast, Myrhorod district; non-resident must convert price to UAH DDP-equivalent incl. customs duty for auction; payment 90 calendar days after acceptance; incoming quality control by Ukrnafta lab",
+   "packaging": "bulk or drums 150-250 L (bidder states)",
+   "certificates": "Quality certificate/passport; test report on organochlorine content; TDS / manufacturer TU; manufacturer info on environmental impact; lab test results vs. specification (Ukrnafta or ISO 17025 lab); one analogous contract (same CPV 4-digit) with proof of full execution; no Russian/Belarusian/Iranian origin",
+   "bid_security": "Bank guarantee 92,400 UAH (templates for resident and non-resident banks); performance guarantee per contract",
+   "eligibility_foreign": "Open tender with features (Prozorro); residents and non-residents allowed; KEP/qualified e-signature and Prozorro platform account required; Ukrainian language (some docs foreign w/o translation allowed)",
+   "award_criteria": "100% price (electronic auction on reduced UAH DDP price)",
+   "estimated_value": {
+    "amount": 3080000,
+    "currency": "UAH",
+    "per_lot": "excl. VAT; ≈61,400 EUR / ≈67,800 USD; implied 154,000 UAH/t"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Ukrnafta 2024 (UA-2024-03-20-003723-a): same product for NGVU Poltava, 64 t – ТОВ НТЦ прикладної науки і техніки, 5,294,720 UAH net",
+     "unit_price": 82730,
+     "currency_per": "UAH/t excl. VAT (≈2,000 USD/t at 2024 rates – estimate)",
+     "year": 2024,
+     "source_url": "https://prozorro.gov.ua/tender/UA-2024-03-20-003723-a"
+    },
+    {
+     "what": "Ukrnafta 2023 (UA-2023-07-06-004871-a): 28 t – ТОВ Укрімпексбуд, 3,024,000 UAH net (lower bid 2,856,000 rejected)",
+     "unit_price": 108000,
+     "currency_per": "UAH/t excl. VAT",
+     "year": 2023,
+     "source_url": "https://prozorro.gov.ua/tender/UA-2023-07-06-004871-a"
+    },
+    {
+     "what": "Current budget 3,080,000 UAH / 20 t",
+     "unit_price": 154000,
+     "currency_per": "UAH/t excl. VAT (≈3,070 EUR/t)",
+     "year": 2026,
+     "source_url": "https://prozorro.gov.ua/tender/UA-2026-11-12-011069-a"
+    }
+   ],
+   "feasibility_ru": "Средняя: объём мал (20 т, ~68 тыс. USD), но цена 154 тыс. UAH/т (~3 400 USD/т) — значительно выше прошлых закупок (83-108 тыс. UAH/т). Китайские имидазолиновые ингибиторы CO2-коррозии могут пройти; ключевое — пройти лабораторные испытания Укрнафты (защита ≥80% при 160 г/1000 м3, Cl-орг ≤6 ppm) и предоставить аналогичный договор. Поставка DAP Полтавская обл. в бочках; оплата через 90 дней; банковская гарантия 92 400 UAH.",
+   "risks_ru": "Срок поставки 30 дней с даты договора — из Китая нереально без склада в Украине/Польше; военные риски логистики; оплата 90 дней; лабораторный входной контроль — риск отказа партии.",
+   "sources": [
+    "https://prozorro.gov.ua/tender/UA-2026-11-12-011069-a",
+    "https://prozorro.gov.ua/tender/UA-2024-03-20-003723-a",
+    "https://prozorro.gov.ua/tender/UA-2023-07-06-004871-a"
+   ]
+  },
+  {
+   "id": 111,
+   "n": "IFB 2027-031 (Water Resources Chemicals)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.lynchburgva.gov/bids.aspx?bidID=252",
+    "https://www.lynchburgva.gov/DocumentCenter/View/8128",
+    "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+   ],
+   "items": [
+    {
+     "product": "A. Liquid aluminum sulfate (water plants College Hill & Abert)",
+     "spec": "ANSI/AWWA B403, NSF/ANSI 60; >=4.25% Al (8.0% Al2O3); Fe2O3 <=0.35%; insolubles <=0.2%; made from aluminum trihydrate only (bauxite-based rejected)",
+     "qty": 400,
+     "unit": "dry ton/yr",
+     "qty_t": 363,
+     "qty_basis": "annual estimate (short tons dry basis → 363 t dry; ≈ 4,700 t solution at 8.3% Al2O3 – estimate); ~5,000 gal lots, delivery 3 days"
+    },
+    {
+     "product": "B. Mannich polymer (Clarifloc SE-519 or equal) for WAS gravity-belt thickening",
+     "spec": "liquid Mannich; thicken WAS <0.5%→5% at 400 gpm sludge & 6.5 gal/h polymer; alternates need months of testing",
+     "qty": 50000,
+     "unit": "solution lb/yr",
+     "qty_t": 22.7,
+     "qty_basis": "annual; 2,500-5,000 gal bulk lots, 5 days"
+    },
+    {
+     "product": "C. Emulsion polymer (Clarifloc NE-1736 or equal) for centrifuge dewatering",
+     "spec": "cationic emulsion; mandatory centrifuge trial at vendor expense (>=1 x 250-gal tote); evaluated on $/dry ton sludge, capture, cake >=30% solids, centrate TSS",
+     "qty": 225000,
+     "unit": "solution lb/yr",
+     "qty_t": 102,
+     "qty_basis": "annual; ~5 returnable totes (2,250 lb) per delivery, 5 days"
+    },
+    {
+     "product": "D. Quicklime pellets (sludge stabilization)",
+     "spec": "total CaO >=94%, available CaO >=92%; pneumatic delivery into 90-ton silos",
+     "qty": 1500,
+     "unit": "dry ton/yr",
+     "qty_t": 1361,
+     "qty_basis": "annual (short tons); 5 days"
+    },
+    {
+     "product": "E. Sodium hypochlorite 12.5-15%",
+     "spec": "AWWA B300, NSF/ANSI 60",
+     "qty": 4170000,
+     "unit": "solution lb/yr",
+     "qty_t": 1891,
+     "qty_basis": "annual: 720,000 lb water + 3,450,000 lb wastewater; ~104 truckloads of 5,000 gal; 3 days"
+    },
+    {
+     "product": "F. Caustic soda 50%",
+     "spec": "min 50% NaOH; NSF 60 for water plant (per AWWA)",
+     "qty": 650000,
+     "unit": "solution lb/yr",
+     "qty_t": 295,
+     "qty_basis": "annual: 50,000 lb WWTP + 600,000 lb water"
+    }
+   ],
+   "total_qty_t": 4034,
+   "contract_period": "01.01.2027 – 31.12.2027 + 4 x 1-year renewals; renewal price increases capped by BLS PPI for the chemical category",
+   "delivery_terms": "FOB Destination freight prepaid, delivered & unloaded into plant tanks (driver brings 100 ft hose, fittings, pallet jack); COA + scale ticket each delivery; delivery 3-5 calendar days from phone order; hours 8-15 Mon-Fri",
+   "packaging": "bulk tanker (alum, hypo, caustic, Mannich), returnable 250-gal totes (emulsion), pneumatic bulk (quicklime)",
+   "certificates": "NSF/ANSI 60 & AWWA B403/B300 for potable chemicals; SDS; COA per delivery; references/qualification statement; Virginia tie-bid preference for local goods",
+   "bid_security": "Bid bond only if specifically requested (not requested in IFB per general terms); no performance bond found",
+   "eligibility_foreign": "Open municipal IFB (Virginia); no Buy-American clause found, but tie-bid preference for Lynchburg/Virginia goods; sealed paper or online submission",
+   "award_criteria": "Lowest responsive & responsible bidder per chemical (line-item award); emulsion polymer only after passing centrifuge trial",
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": "not published; at 2021 low prices ≈ USD 1.15-1.3 M/yr (estimate)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Lynchburg bid 2022-015 (opened 10/7/2021): liquid alum, 400 dry tons – low Univar",
+     "unit_price": 319.6,
+     "currency_per": "USD/dry ton delivered (other bids: G2O 391, Chemtrade 430, C&S 433, USALCO 532.31)",
+     "year": 2021,
+     "source_url": "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+    },
+    {
+     "what": "2022-015: emulsion polymer (NE-1736 or eq.) – Polydyne / Univar",
+     "unit_price": 1.29,
+     "currency_per": "USD/solution lb (Univar 2.10)",
+     "year": 2021,
+     "source_url": "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+    },
+    {
+     "what": "2022-015: Mannich polymer – Polydyne",
+     "unit_price": 0.25,
+     "currency_per": "USD/solution lb",
+     "year": 2021,
+     "source_url": "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+    },
+    {
+     "what": "2022-015: quicklime pellets – low bid",
+     "unit_price": 184.78,
+     "currency_per": "USD/dry ton (Lhoist 262.18)",
+     "year": 2021,
+     "source_url": "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+    },
+    {
+     "what": "2022-015: sodium hypochlorite – Univar",
+     "unit_price": 0.135,
+     "currency_per": "USD/solution lb (Kuehne 0.150)",
+     "year": 2021,
+     "source_url": "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+    },
+    {
+     "what": "Bid 2024-042 caustic soda 50%, 650,000 lb – Brenntag Mid-South",
+     "unit_price": 0.1738,
+     "currency_per": "USD/solution lb (Univar 0.1755)",
+     "year": 2023,
+     "source_url": "https://www.lynchburgva.gov/DocumentCenter/View/8149"
+    }
+   ],
+   "feasibility_ru": "Низкая для прямого импорта: все позиции — жидкие навалочные с доставкой за 3-5 дней (кроме эмульсии). Реальный шанс — только эмульсионный полимер (102 т/год, прошлые цены 1,29-2,10 USD/lb ≈ 2 840-4 630 USD/т) при наличии склада IBC в США и прохождении центрифужного теста за свой счёт; NSF 60 не требуется для полимеров WWTP. Сульфат алюминия — только из тригидрата и NSF 60, локальное производство.",
+   "risks_ru": "Тест эмульсии на центрифуге несколько месяцев; цены фиксированы на 1 год; конкуренты Univar/Polydyne/Brenntag/Kuehne с терминалами в регионе.",
+   "sources": [
+    "https://www.lynchburgva.gov/bids.aspx?bidID=252",
+    "https://www.lynchburgva.gov/DocumentCenter/View/8128",
+    "https://www.lynchburgva.gov/DocumentCenter/View/8149"
    ]
   },
   {
@@ -388,6 +614,52 @@
    "sources": [
     "https://ted.europa.eu/en/notice/-/detail/760794-2026",
     "https://platformazakupowa.pl/transakcja/1401971"
+   ]
+  },
+  {
+   "id": 118,
+   "n": "TED 762628-2026 (Hilma 39540)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.hankintailmoitukset.fi/fi/public/procedure/39540/enotice/60959"
+   ],
+   "items": [
+    {
+     "product": "Polyalumiinikloridi (liquid PAC) for Nenäinniemi WWTP, Jyväskylä",
+     "spec": "Product grade not specified in tender request (offer form only €/t); delivered into 100 m3 chemical-station tank (gravity) and 15 m3 tertiary tank (pressure unloading)",
+     "qty": 400,
+     "unit": "t/yr",
+     "qty_t": 800,
+     "qty_basis": "~400 t/yr x 2 years (2027-2028), non-binding"
+    }
+   ],
+   "total_qty_t": 800,
+   "contract_period": "01.01.2027 – 31.12.2028",
+   "delivery_terms": "DPU Jyväskylä (Incoterms 2020), supplier unloads; loads 35-43 t every 1-2 months; weekdays 7-16; supplier must hold 3 months' safety stock (≈100 t) reserved for buyer, located IN FINLAND, auditable; vehicles Euro-6 and running on electricity, gas or renewable fuel (verified); payment 21 days; JYSE 2025 Tavarat terms",
+   "packaging": "bulk tanker 35-43 t",
+   "certificates": "ISO 9001 and ISO 14001 (or equivalent); business continuity description; Tilaajavastuu (contractor liability) certificates / Vastuugroup report; foreign firms: equivalent registry extracts",
+   "bid_security": "none",
+   "eligibility_foreign": "Open EU procedure (Hankintalaki 1397/2016); bid in Finnish via Hilma; foreign bidders allowed but must keep safety stock in Finland",
+   "award_criteria": "Lowest comparison price (€/t, VAT 0%)",
+   "estimated_value": {
+    "amount": null,
+    "currency": "EUR",
+    "per_lot": "not published"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Previous PAC award same buyer (TED 278-2018) – total value 320,040 EUR (quantity/period not extracted)",
+     "unit_price": null,
+     "currency_per": "EUR total",
+     "year": 2018,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/278-2018"
+    }
+   ],
+   "feasibility_ru": "Низкая: требуется склад в Финляндии с резервом 3 мес. (~100 т жидкого PAC), доставка цистернами 35-43 т на биотопливе/газе, документы на финском. Рынок фактически у Kemira (производитель в Финляндии).",
+   "risks_ru": "Kemira — локальный монополист; обязательный склад в Финляндии; экологические требования к транспорту.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/762628-2026",
+    "https://www.hankintailmoitukset.fi/fi/public/procedure/39540/enotice/60959"
    ]
   },
   {
@@ -568,6 +840,168 @@
    ]
   },
   {
+   "id": 134,
+   "n": "TED 773077-2026 (exp. 2026_122)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://contractaciopublica.cat/ca/detall-publicacio/01ce200b-b30e-4be6-b927-195260b369f4/300927771",
+    "https://contractaciopublica.cat/portal-api/descarrega-document/302759561/04D57F1C95D1EF9ABF4B14E42AD0D7F4"
+   ],
+   "items": [
+    {
+     "product": "Lot 1: Clorur fèrric 40% (ferric chloride solution) for WWTPs, tanker",
+     "spec": "40% FeCl3; wastewater grade (PPT not reviewed)",
+     "qty": 1518686,
+     "unit": "kg/yr",
+     "qty_t": 4556,
+     "qty_basis": "1,518.7 t/yr x 3 years (+1 yr extension); main sites EDAR Vic 898 t, Centelles 216 t, Vall del Ges 200 t, Manlleu 125 t; drops 7-25 t"
+    },
+    {
+     "product": "Lot 1: Policlorur d'alumini 18% (PAC 18%), tanker",
+     "spec": "18% (Al2O3) liquid",
+     "qty": 38611,
+     "unit": "kg/yr",
+     "qty_t": 115.8,
+     "qty_basis": "38.6 t/yr x 3 yrs; small tanker drops 2.3-7 t"
+    },
+    {
+     "product": "Lot 2: Clorur fèrric 40% in IBC (GRG 1,400 kg)",
+     "spec": "40%",
+     "qty": 5600,
+     "unit": "kg/yr",
+     "qty_t": 16.8,
+     "qty_basis": "5.6 t/yr x 3 yrs"
+    },
+    {
+     "product": "Lot 2: PAC 18% in IBC (GRG 1,350 kg)",
+     "spec": "18%",
+     "qty": 16200,
+     "unit": "kg/yr",
+     "qty_t": 48.6,
+     "qty_basis": "16.2 t/yr x 3 yrs"
+    }
+   ],
+   "total_qty_t": 4737,
+   "contract_period": "3 years from formalisation + 1-year extension; no price revision",
+   "delivery_terms": "Delivered to ~14 WWTPs of Osona (Catalonia) into site tanks (2.8-60 m3) or IBC drop; small/large tankers; unit prices EUR/kg excl. VAT",
+   "packaging": "Lot 1 bulk tanker; Lot 2 IBC 1,350-1,400 kg",
+   "certificates": "Turnover in best of last 3 years >= 1.5x estimated contract value (lot 1 ≈ 2.9 M EUR); civil-liability insurance; technical solvency per PCAP; CO2 emissions calculation for production (scored)",
+   "bid_security": "No provisional guarantee; definitive 5%",
+   "eligibility_foreign": "Open harmonised procedure (LCSP), e-submission via contractaciopublica.cat (sobre digital); Catalan/Spanish; notice states GPA coverage: no",
+   "award_criteria": "Lot 1: price 75 + producer status 10 (producer & distributor 10 / distributor only 5) + value judgement 15 (resources 5, certified CO2 calc 7, manufacturing process 3). Lot 2: price 80 + producer status 10 + staff 5",
+   "estimated_value": {
+    "amount": 2007602.92,
+    "currency": "EUR",
+    "per_lot": "Lot 1 VEC 1,949,993.32 (budget 1,218,745.82 for 3 yrs); Lot 2 VEC 57,609.60 (budget 36,006)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Max unit price ferric chloride 40%, tanker",
+     "unit_price": 0.26,
+     "currency_per": "EUR/kg delivered",
+     "year": 2026,
+     "source_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302759561/04D57F1C95D1EF9ABF4B14E42AD0D7F4"
+    },
+    {
+     "what": "Max unit price PAC 18%, tanker",
+     "unit_price": 0.295,
+     "currency_per": "EUR/kg",
+     "year": 2026,
+     "source_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302759561/04D57F1C95D1EF9ABF4B14E42AD0D7F4"
+    },
+    {
+     "what": "Max unit price FeCl3 40% in IBC 1,400 kg",
+     "unit_price": 0.529,
+     "currency_per": "EUR/kg",
+     "year": 2026,
+     "source_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302759561/04D57F1C95D1EF9ABF4B14E42AD0D7F4"
+    },
+    {
+     "what": "Max unit price PAC 18% in IBC 1,350 kg",
+     "unit_price": 0.558,
+     "currency_per": "EUR/kg",
+     "year": 2026,
+     "source_url": "https://contractaciopublica.cat/portal-api/descarrega-document/302759561/04D57F1C95D1EF9ABF4B14E42AD0D7F4"
+    }
+   ],
+   "feasibility_ru": "Низкая: 95% объёма — жидкий FeCl3 40% по 0,26 EUR/кг DDP с доставкой мелкими цистернами по 14 очистным — только местные производители (Kemira/Feralco/Derypol). Лот 2 (IBC, 65 т за 3 года) слишком мал. Критерий «производитель» даёт +10 баллов, трейдер получает максимум 5.",
+   "risks_ru": "Требование оборота ≥1,5x стоимости контракта (~2,9 млн EUR для лота 1); цены без индексации на 3-4 года; каталанский/испанский язык.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/773077-2026",
+    "https://contractaciopublica.cat/ca/detall-publicacio/01ce200b-b30e-4be6-b927-195260b369f4/300927771"
+   ]
+  },
+  {
+   "id": 135,
+   "n": "TED 747418-2026 (EKR001883822026)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://ekr.gov.hu/eljarastar/eljaras/EKR001883822026"
+   ],
+   "items": [
+    {
+     "product": "Lot 1: cationic powder polyelectrolyte for sludge thickening, South-Pest WWTP (DPSZT)",
+     "spec": "cationic, >=98% polyacrylamide active content, powder, developed for municipal sludge thickening",
+     "qty": 51000,
+     "unit": "kg / 24 months",
+     "qty_t": 51,
+     "qty_basis": "24 months; 70% (35.7 t) guaranteed call-off"
+    },
+    {
+     "product": "Lot 2: cationic powder polyelectrolyte for sludge dewatering, DPSZT",
+     "spec": "same, for dewatering",
+     "qty": 200000,
+     "unit": "kg / 24 months",
+     "qty_t": 200,
+     "qty_basis": "24 months; 70% (140 t) guaranteed"
+    },
+    {
+     "product": "Lot 3: cationic powder polyelectrolyte for thickening, North-Pest WWTP (ÉPSZT)",
+     "spec": "same",
+     "qty": 105000,
+     "unit": "kg / 24 months",
+     "qty_t": 105,
+     "qty_basis": "24 months; 70% (73.5 t) guaranteed"
+    },
+    {
+     "product": "Lot 4: cationic powder polyelectrolyte for dewatering, ÉPSZT",
+     "spec": "same",
+     "qty": 350000,
+     "unit": "kg / 24 months",
+     "qty_t": 350,
+     "qty_basis": "24 months; 70% (245 t) guaranteed"
+    }
+   ],
+   "total_qty_t": 706,
+   "contract_period": "24 months from signature, extendable once by up to 8 months until quantity exhausted",
+   "delivery_terms": "Delivery to Budapest WWTPs (details in EKR documentation – not accessible without registration); delay/defective-performance/failure penalties",
+   "packaging": null,
+   "certificates": "Hungarian-language SDS and quality certificate/specification; declaration of polyelectrolyte type; ESPD; Art.5k Reg.833/2014 declaration; references in last 3 years: lot1 >=21,000 kg, lot2 >=84,000 kg, lot3 >=44,000 kg, lot4 >=147,000 kg of municipal-sludge polyelectrolyte",
+   "bid_security": "not stated in notice",
+   "eligibility_foreign": "Open EU procedure; submission only via EKR (registration mandatory, Hungarian); foreign bidders allowed",
+   "award_criteria": "Best price-quality: specific polymer consumption kg/t DS (verified by plant trial at the offered dosage) 50% + net price EUR/kg 50%; scoring 1-10 by reverse proportion",
+   "estimated_value": {
+    "amount": null,
+    "currency": "HUF",
+    "per_lot": "not published"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Previous award 2024 (TED 731617-2024), same 4 lots (51/200/105/325 t over 24 mo) – all to Allied Solutions CEE Kft.: 128.18 / 502.68 / 263.91 / 816.85 M HUF",
+     "unit_price": 2513.4,
+     "currency_per": "HUF/kg (derived = value/qty, identical for all lots; ≈6 EUR/kg at ~410 HUF/EUR 2024 – check whether VAT/services included)",
+     "year": 2024,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/731617-2024"
+    }
+   ],
+   "feasibility_ru": "Средняя: порошковый катионный ПАА (≥98% активного вещества) — типичный китайский экспорт (SNF China, Bejing Hengju и др.), объём 706 т за 2 года, а цена прошлого контракта ~2 513 HUF/кг (оценочно 5-6 EUR/кг) выглядит высокой — потенциально маржинально. Но: 50% баллов — расход полимера в промышленном испытании, нужна местная техподдержка, регистрация в EKR, документы на венгерском, референции 21-147 т по муниципальным илам.",
+   "risks_ru": "Действующий поставщик Allied Solutions выиграл все 4 лота в 2024 г.; документация в EKR закрыта без регистрации; техническое испытание с фиксированной дозой.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/747418-2026",
+    "https://ted.europa.eu/en/notice/-/detail/731617-2024"
+   ]
+  },
+  {
    "id": 136,
    "n": "TED 767874-2026 (Gara 14 BS-2026, portal ref G01890)",
    "docs_found": false,
@@ -603,6 +1037,353 @@
    "sources": [
     "https://ted.europa.eu/en/notice/-/detail/767874-2026",
     "https://valleumbraservizi-appalti.maggiolicloud.it/PortaleAppalti/it/ppgare_bandi_lista.wp"
+   ]
+  },
+  {
+   "id": 137,
+   "n": "PennBid 261195 (2027 Chemical Bids)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://pennbid.bonfirehub.com/opportunities/261195",
+    "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/90518f99d1eeba5e239b3cfd2f7fcec25a423425b35ce28b11bc826291a99074?download=Chemical%20Bidding%20Instructions.docx (aggregator copy)"
+   ],
+   "items": [
+    {
+     "product": "Caustic soda 25%",
+     "spec": "AWWA; 9,000-gal loads",
+     "qty": 100,
+     "unit": "tons (wet)",
+     "qty_t": 90.7,
+     "qty_basis": "annual 2027, approx."
+    },
+    {
+     "product": "Liquid aluminum sulfate (>=8% water-soluble Al2O3)",
+     "spec": "AWWA B403; into 2 x 6,000-gal tanks",
+     "qty": 110,
+     "unit": "tons",
+     "qty_t": 99.8,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Potassium permanganate free-flowing (Carus or Chem One)",
+     "spec": "AWWA B603; 55-lb kegs",
+     "qty": 2,
+     "unit": "tons",
+     "qty_t": 1.8,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Copper sulfate large crystals",
+     "spec": "50-lb bags",
+     "qty": 1,
+     "unit": "ton",
+     "qty_t": 0.9,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Aqua Nuchar activated carbon, water grade (PAC)",
+     "spec": "50-lb bags",
+     "qty": 1,
+     "unit": "ton",
+     "qty_t": 0.9,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Sodium hypochlorite 12.5%",
+     "spec": "AWWA B300; 6,000-gal loads",
+     "qty": 95,
+     "unit": "tons (wet)",
+     "qty_t": 86.2,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Sodium bisulfite 38%",
+     "spec": "55-gal drums",
+     "qty": 2,
+     "unit": "tons (wet)",
+     "qty_t": 1.8,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Hydrofluosilicic acid 23%",
+     "spec": "AWWA B703; 330-gal totes",
+     "qty": 12,
+     "unit": "tons (wet)",
+     "qty_t": 10.9,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Zinc orthophosphate (Zn 5%, PO4 50%, ortho/poly 10:1)",
+     "spec": "55-gal drums",
+     "qty": 9,
+     "unit": "tons (wet)",
+     "qty_t": 8.2,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Emulsion polyacrylamide nonionic (Superfloc N-1986 or approved equal)",
+     "spec": "55-gal metal drums with center bung",
+     "qty": 4,
+     "unit": "tons (wet)",
+     "qty_t": 3.6,
+     "qty_basis": "annual"
+    }
+   ],
+   "total_qty_t": 305,
+   "contract_period": "01.01.2027 – 31.12.2027, firm prices (no escalation/fuel/delivery surcharges)",
+   "delivery_terms": "FOB Cabin Creek Filtering Plant, 425 Gebhart Rd, Windsor PA (delivered & unloaded); within 7 calendar days of order; no minimum-quantity requirements accepted; Mon-Fri 7:00-14:00; prices per cwt (100 lb) delivered",
+   "packaging": "bulk 6,000-9,000 gal loads; drums, kegs, 50-lb bags, 330-gal totes",
+   "certificates": "SDS + manufacturer specification per chemical; current AWWA standards; product testing possible",
+   "bid_security": "Bid bond required per aggregator (Bidscope); not stated in bidding instructions docx",
+   "eligibility_foreign": "Open municipal IFB, e-submission on PennBid (Bonfire account required to download official docs and bid tabulation)",
+   "award_criteria": "Single-vendor total bid considered first; else lowest responsible per chemical or combination",
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": "not published (HigherGov AI range 25k-180k per mir note)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Prior bid tabulation (Brenntag, Chemtrade, Univar; price/cwt) exists on PennBid – blocked behind Bonfire login",
+     "unit_price": null,
+     "currency_per": "USD/cwt",
+     "year": 2025,
+     "source_url": "https://pennbid.bonfirehub.com/opportunities/208892"
+    }
+   ],
+   "feasibility_ru": "Очень низкая: малые объёмы (305 т/год, большая часть — гипохлорит/каустик/алюм навалом), доставка за 7 дней, запрет минимальных партий. Нишевые позиции (неионный ПАА 3,6 т, ортофосфат цинка 8 т, PAC 1 т) слишком малы для прямого импорта.",
+   "risks_ru": "Bonfire требует регистрации; фиксированные цены на год; конкуренты Brenntag/Univar/Chemtrade.",
+   "sources": [
+    "https://bidscopeai.com/opportunities/3863f2be-1180-44a3-804e-75b8bdb7daa3",
+    "https://govtribe.com/file/government-file/1-chemical-bidding-instructions-dot-docx",
+    "https://www.cleat.ai/government/contracts/2027-chemical-bids-1azm"
+   ]
+  },
+  {
+   "id": 145,
+   "n": "Bid 27-05",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.alexandercityal.gov/purchasing/bids-rfp/water-treatment-facilities-annual-treatment-chemicals",
+    "https://www.alexandercityal.gov/media/34036"
+   ],
+   "items": [
+    {
+     "product": "Sodium bisulfite",
+     "spec": "bulk; clean fittings & own air for unloading",
+     "qty": 55000,
+     "unit": "gal/yr",
+     "qty_t": null,
+     "qty_basis": "annual approx.; 4,400-gal loads"
+    },
+    {
+     "product": "Liquid alum (17% solution required)",
+     "spec": "AWWA food grade",
+     "qty": 1090,
+     "unit": "dry tons/yr (or 200,000 gal)",
+     "qty_t": 989,
+     "qty_basis": "annual approx.; 20 DT loads (short tons → 989 t dry)"
+    },
+    {
+     "product": "Phosphate 50/50 ortho/poly blend",
+     "spec": "AWWA food grade; vendor gives flow rate & active phosphate per lb + test data",
+     "qty": 24,
+     "unit": "totes 275 gal",
+     "qty_t": null,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Poly-DADMAC (PD)",
+     "spec": "listed on pricing sheet with phosphate line",
+     "qty": null,
+     "unit": "tote 275 gal",
+     "qty_t": null,
+     "qty_basis": "see sheet"
+    },
+    {
+     "product": "Hydrofluosilicic acid 23% bulk",
+     "spec": "AWWA food grade",
+     "qty": 5,
+     "unit": "dry tons/yr",
+     "qty_t": 4.5,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Sodium hypochlorite 10.5% ±0.5%",
+     "spec": "AWWA food grade",
+     "qty": 400000,
+     "unit": "gal/yr",
+     "qty_t": null,
+     "qty_basis": "annual; 4,500-gal loads"
+    },
+    {
+     "product": "Polymer CAT FLOC TL (TC431T) – cationic polyDADMAC-type coagulant",
+     "spec": "55-gal drums",
+     "qty": 16,
+     "unit": "drums/yr",
+     "qty_t": null,
+     "qty_basis": "annual; 4 drums per load"
+    },
+    {
+     "product": "Potassium permanganate",
+     "spec": "AWWA food grade",
+     "qty": 36,
+     "unit": "pails/yr",
+     "qty_t": null,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "WPH 1000 powdered activated carbon (or equal)",
+     "spec": "NSF 61 (per 2024 addendum); iodine >=500 mg/g; moisture <=8%; 99% <100 mesh, 95% <200, 90% <325; bottom-discharge bags",
+     "qty": 24,
+     "unit": "750-lb super sacks/yr",
+     "qty_t": 8.2,
+     "qty_basis": "annual (24 x 750 lb)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "07.01.2027 – 31.12.2027, +1 year extension by mutual agreement; price may be guaranteed only 6 months under optional terms",
+   "delivery_terms": "Delivered to Adams WTP, Sugar Creek & Coley Creek WWTPs, Alexander City AL; 7:00-15:00 CST Mon-Fri; sealed bulk loads; vendor provides material-handling/lift gate, fittings & air; BOL with driver ID faxed before delivery; delivery lead time (days) stated by bidder",
+   "packaging": "bulk tankers (alum, hypo, bisulfite, HFS), 275-gal totes, 55-gal drums, pails, 750-lb super sacks",
+   "certificates": "AWWA food-grade standards for potable chemicals; NSF 61 cited for PAC alternates (2024 addendum)",
+   "bid_security": "none stated (no prequalification)",
+   "eligibility_foreign": "Open municipal bid; sealed paper bids mailed/hand-delivered only to City Clerk; no domestic-only clause seen in excerpts",
+   "award_criteria": "Lowest or best bidder, by line item or lump sum",
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": "not published"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Bid 23-24 (Aug 2023) liquid alum per dry ton: Affinity Chem $375, Univar $381, USALCO $383, C&S $505, Chemtrade $535 (OCR of award resolution Attachment A)",
+     "unit_price": 375,
+     "currency_per": "USD/dry ton delivered",
+     "year": 2023,
+     "source_url": "https://www.alexandercityal.gov/media/27036"
+    },
+    {
+     "what": "Bid 23-24 sodium hypochlorite 10.5%: bids $2.11-2.99/gal (Harcros 2.12, Univar 2.68, PVS 2.64)",
+     "unit_price": 2.11,
+     "currency_per": "USD/gal",
+     "year": 2023,
+     "source_url": "https://www.alexandercityal.gov/media/27036"
+    },
+    {
+     "what": "Current PAC price stated in Bid 25-04 addendum",
+     "unit_price": 2.99,
+     "currency_per": "USD/lb delivered",
+     "year": 2024,
+     "source_url": "https://www.alexandercityal.gov/media/28281"
+    },
+    {
+     "what": "Bid 26-03 (Dec 2025) awarded to Aqua Smart, Brenntag, Harcros, USALCO (unit prices in tabulation PDF not machine-readable)",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2025,
+     "source_url": "https://www.alexandercityal.gov/media/31796"
+    }
+   ],
+   "feasibility_ru": "Низкая в целом, но порошковый активированный уголь (WPH 1000 or equal, NSF 61, иод ≥500) — ~8 т/год по ~2,99 USD/lb (≈6 600 USD/т!) — нишевая позиция для импорта из Китая/Индии при наличии NSF 61 и склада в США. Остальное — жидкие навалочные (алюм, гипохлорит) у местных дистрибьюторов.",
+   "risks_ru": "Только бумажная подача (почта/лично) до 14.12.2026; сайт за Cloudflare; малые объёмы; NSF 61 сертификация обязательна для альтернатив.",
+   "sources": [
+    "https://www.alexandercityal.gov/media/34036",
+    "https://www.alexandercityal.gov/media/28281",
+    "https://www.alexandercityal.gov/media/27036",
+    "https://www.alexandercityal.gov/water/bids-rfp/water-treatment-facilities-annual-treatment-chemicals"
+   ]
+  },
+  {
+   "id": 147,
+   "n": "Bid #2027-07 (File ID 26-668)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.cityoflakecharles.com/DocumentCenter/View/1099/Bid-2027-07-File-ID-226-668-Water-Treatment-Chemicals-PDF",
+    "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/dfad025304282d06b5b03c7e86e68501cbe4fadd8c096130ca4a8a41d7537b7e?download=BID---2027-07.pdf (aggregator copy of BidNet bid package)"
+   ],
+   "items": [
+    {
+     "product": "1. Potassium permanganate, free-flowing, 330.75-lb drums",
+     "spec": "AWWA B603-16; lift gate required",
+     "qty": 9600,
+     "unit": "lb/yr",
+     "qty_t": 4.35,
+     "qty_basis": "annual estimate"
+    },
+    {
+     "product": "2. Chlorine, 1-ton cylinders (min order 3-4 cyl.)",
+     "spec": "AWWA B301-18; site visit recommended",
+     "qty": 200,
+     "unit": "tons/yr",
+     "qty_t": 181,
+     "qty_basis": "annual estimate (short tons)"
+    },
+    {
+     "product": "3. Liquid caustic soda 38% regular grade, tank truck",
+     "spec": "AWWA B501-13; priced per dry weight ton; bidder brings off-loader & compressor",
+     "qty": 400,
+     "unit": "dry tons/yr",
+     "qty_t": 363,
+     "qty_basis": "annual (dry basis, short tons)"
+    },
+    {
+     "product": "4. Hydrofluosilicic acid 23%, tank truck",
+     "spec": "AWWA B703-11; 50 ft 2\" hose + air compressor; drop-off fee to max 6 sites included",
+     "qty": 80,
+     "unit": "tons/yr",
+     "qty_t": 72.6,
+     "qty_basis": "annual (short tons)"
+    }
+   ],
+   "total_qty_t": 621,
+   "contract_period": "12 months + one 12-month renewal option",
+   "delivery_terms": "Delivered to City water plants, Lake Charles LA, in quantities/destinations as ordered; firm delivery time in calendar days ARO stated by bidder; City may buy on open market if delivery not timely",
+   "packaging": "drums (KMnO4), 1-ton cylinders (Cl2), tank trucks (caustic, HFS)",
+   "certificates": "AWWA standards per item; insurance: GL $1M, auto $500k, WC (per aggregator); state/resident preference forms",
+   "bid_security": "Bidder's bond NOT REQUIRED (spec §10); insurance certificate before award",
+   "eligibility_foreign": "Louisiana Public Bid Law; Louisiana resident-business and Louisiana-product preferences apply; paper or BidNet Direct electronic bids (free registration)",
+   "award_criteria": "Lowest responsive responsible bidder by individual item",
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": "not published (≈USD 0.9-1.0 M/yr at 2022 prices – estimate)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Lake Charles Bid 2023-06 (opened 18.10.2022) KMnO4 – Shannon Chemical",
+     "unit_price": 3.37,
+     "currency_per": "USD/lb",
+     "year": 2022,
+     "source_url": "https://www.cityoflakecharles.com/egov/documents/1666216295_16077.pdf"
+    },
+    {
+     "what": "2023-06 chlorine 1-ton cylinders – Harcros 2,240; DXI 2,289",
+     "unit_price": 2240,
+     "currency_per": "USD/ton",
+     "year": 2022,
+     "source_url": "https://www.cityoflakecharles.com/egov/documents/1666216295_16077.pdf"
+    },
+    {
+     "what": "2023-06 caustic soda (item 3) – Premier 917 (alt 989); Univar 1,140 (alt 1,195)",
+     "unit_price": 917,
+     "currency_per": "USD/dry ton",
+     "year": 2022,
+     "source_url": "https://www.cityoflakecharles.com/egov/documents/1666216295_16077.pdf"
+    },
+    {
+     "what": "2023-06 hydrofluosilicic acid – PENCCO 680; Univar 788",
+     "unit_price": 680,
+     "currency_per": "USD/ton",
+     "year": 2022,
+     "source_url": "https://www.cityoflakecharles.com/egov/documents/1666216295_16077.pdf"
+    }
+   ],
+   "feasibility_ru": "Низкая-средняя: KMnO4 (4,35 т/год, ~3,37 USD/lb ≈ 7 400 USD/т) — китайский перманганат калия в барабанах — единственная позиция под импорт, но объём крошечный (~32 тыс. USD/год) и нужен склад в США. Хлор в баллонах, каустик и H2SiF6 — только местные дистрибьюторы.",
+   "risks_ru": "Преференции Луизианы; малые объёмы; требуется страхование в США.",
+   "sources": [
+    "https://www.cityoflakecharles.com/359/Bid-Opportunities-Tabulations",
+    "https://bidscopeai.com/opportunities/924fa1f3-47a6-4759-bc53-1941bcbe3902",
+    "https://www.cityoflakecharles.com/egov/documents/1666216295_16077.pdf"
    ]
   },
   {
@@ -652,6 +1433,107 @@
    "sources": [
     "https://ted.europa.eu/en/notice/-/detail/789637-2026",
     "https://albo-gare.ciip.it/tender/7936"
+   ]
+  },
+  {
+   "id": 150,
+   "n": "0326-609033.01 (PennBid 255732)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://pennbid.bonfirehub.com/opportunities/255732",
+    "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/d4d19eb036af453b9598bfe5373708f1a4ba07b0235f92c776e92e6a5416ee08?download=Chemical%20Specifications%202026-7%20Updated.pdf",
+    "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/f278a90e73f40b61153cdf3cfa3b36d18650e23cd7641841b6534a2571ccf21a?download=Bid%20Tabulation%20Last%20Years%20Bids.pdf"
+   ],
+   "items": [
+    {
+     "product": "Gas chlorine, 150-lb cylinders",
+     "spec": "99.8% liquid; min order 1,000 lb",
+     "qty": 4000,
+     "unit": "lb/yr",
+     "qty_t": 1.81,
+     "qty_basis": "estimated yearly usage"
+    },
+    {
+     "product": "Hydrated lime Ca(OH)2 (Milard Lime or equal)",
+     "spec": "dry powder 25-35 lb/ft3; 50-lb bags palletized; min order 3,500 lb",
+     "qty": 12000,
+     "unit": "lb/yr",
+     "qty_t": 5.44,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Liquid aluminum sulfate 36° Bé, 11.17 lb/gal",
+     "spec": "27.8% active; 55-gal drums or 275-gal totes; min order 3,000 lb",
+     "qty": 15000,
+     "unit": "lb/yr",
+     "qty_t": 6.8,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Sodium hydroxide 25%",
+     "spec": "6.38 lb/gal as NaOH; drums/totes; min order 1,000 lb",
+     "qty": 5000,
+     "unit": "lb/yr",
+     "qty_t": 2.27,
+     "qty_basis": "annual"
+    },
+    {
+     "product": "Zinc orthophosphate",
+     "spec": "13.2 lb/gal; ZnCl2 16%, H3PO4 37%; drums/totes; min order 2,500 lb",
+     "qty": 8000,
+     "unit": "lb/yr",
+     "qty_t": 3.63,
+     "qty_basis": "annual"
+    }
+   ],
+   "total_qty_t": 19.95,
+   "contract_period": "Calendar year 2027 (prices guaranteed for 2027)",
+   "delivery_terms": "Price per pound delivered to Mahanoy Township Authority WTP (Schuylkill County, PA)",
+   "packaging": "150-lb cylinders, 50-lb bags, 55-gal drums / 275-gal totes",
+   "certificates": "Manufacturer's detailed specifications and descriptive literature with bid",
+   "bid_security": "not stated in instructions",
+   "eligibility_foreign": "Open municipal quote via PennBid (Bonfire registration)",
+   "award_criteria": "Not stated (authority may reject any part) – lowest price per item implied",
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": "≈ USD 25-30k/yr at 2026 prices (estimate from tabulation)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "MTA 2026 bid (0325-609033.02): liquid alum – Univar (Coyne 0.4354)",
+     "unit_price": 0.2547,
+     "currency_per": "USD/lb delivered",
+     "year": 2025,
+     "source_url": "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/f278a90e73f40b61153cdf3cfa3b36d18650e23cd7641841b6534a2571ccf21a?download=Bid%20Tabulation%20Last%20Years%20Bids.pdf"
+    },
+    {
+     "what": "2026: zinc orthophosphate – Chemrite (Klenzoid 0.92, Coyne 0.9224, Shannon 1.04, Univar 1.46)",
+     "unit_price": 0.886,
+     "currency_per": "USD/lb",
+     "year": 2025,
+     "source_url": "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/f278a90e73f40b61153cdf3cfa3b36d18650e23cd7641841b6534a2571ccf21a?download=Bid%20Tabulation%20Last%20Years%20Bids.pdf"
+    },
+    {
+     "what": "2026: caustic 25% – Univar 0.30 (Eco Solution 0.3275, Coyne 0.6629)",
+     "unit_price": 0.3,
+     "currency_per": "USD/lb",
+     "year": 2025,
+     "source_url": "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/f278a90e73f40b61153cdf3cfa3b36d18650e23cd7641841b6534a2571ccf21a?download=Bid%20Tabulation%20Last%20Years%20Bids.pdf"
+    },
+    {
+     "what": "2026: hydrated lime – Univar 0.3218 (Coyne 0.4234); chlorine 150-lb – Univar 1.877",
+     "unit_price": 0.3218,
+     "currency_per": "USD/lb",
+     "year": 2025,
+     "source_url": "https://bqohpheioaljycjpwbjd.supabase.co/storage/v1/object/public/documents/documents/unique/f278a90e73f40b61153cdf3cfa3b36d18650e23cd7641841b6534a2571ccf21a?download=Bid%20Tabulation%20Last%20Years%20Bids.pdf"
+    }
+   ],
+   "feasibility_ru": "Нецелесообразно: ~20 т/год мелкой фасовкой, оборот ~25-30 тыс. USD/год. Интересно только как ценовой ориентир (алюм 0,25 USD/lb, Zn-ортофосфат 0,89 USD/lb).",
+   "risks_ru": "Микрообъёмы; требуются локальные поставки баллонов хлора.",
+   "sources": [
+    "https://bidscopeai.com/opportunities/13ce9438-2c65-4616-ae57-1b283189f42c",
+    "https://pennbid.bonfirehub.com/opportunities/255732"
    ]
   },
   {
@@ -849,6 +1731,90 @@
     "https://ted.europa.eu/en/notice/-/detail/2058-2026",
     "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=b4cru3Vb3E2Izo3LHNPGcQ%3D%3D",
     "https://ted.europa.eu/en/notice/-/detail/50210-2022"
+   ]
+  },
+  {
+   "id": 158,
+   "n": "TED 758172-2026",
+   "docs_found": false,
+   "doc_urls": [
+    "https://annonser.clira.io/upphandling/e5d64073-a085-4524-956b-88329b9bb403"
+   ],
+   "items": [
+    {
+     "product": "Polymers (framework) for WWTP (Arvidstorp, 70,000 PE), sludge dewatering and water treatment – Trollhättan Energi AB",
+     "spec": "not available (Clira page returned 'Hittade inte upphandlingen' – documents not reached)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "framework to 31.03.2029"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "framework, planned end 2029-03-31",
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Open procedure, Directive 2014/25 (utilities, LUF); Swedish; documents on Clira",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": 4000000,
+    "currency": "SEK",
+    "per_lot": "whole framework (≈360,000 EUR at 11.11 SEK/EUR)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Comparable: Borås Energi och Miljö 'Polymerer 2025' framework (3 WWTPs, powder+liquid), est. 8,000,000 SEK for 2027-2028 + renewals (Mercell)",
+     "unit_price": null,
+     "currency_per": "SEK total",
+     "year": 2026,
+     "source_url": "https://app.mercell.com/tender/-1695196916/undefined"
+    }
+   ],
+   "feasibility_ru": "Низкая-средняя: небольшой контракт (~4 млн SEK ≈ 360 тыс. EUR на ~2,3 года), шведский язык, как правило требуется испытание полимеров на иле. Возможна поставка порошкового ПАА через скандинавского дистрибьютора.",
+   "risks_ru": "Документы не получены (страница Clira недоступна); спецификации/объёмы неизвестны.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/758172-2026",
+    "https://tendly.eu/en/tender/807819109-polymers-teab-2027"
+   ]
+  },
+  {
+   "id": 159,
+   "n": "TED 758765-2026 (Comdia 828936)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.comdia.com/samaqua/tenderinformationshow.aspx?Id=828936"
+   ],
+   "items": [
+    {
+     "product": "Polymer for Nyborg WWTP sludge dewatering (pre-dewatering and final dewatering)",
+     "spec": "not available (Comdia: 'No publicly accessible documents' – login required)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "framework, single supplier"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "framework (base term per documents) + option 2 x 12 months on unchanged terms",
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": "Positive equity in each of last 3 closed financial years; min. 3 references (last 3 years) of polymer supply for sewage-sludge dewatering, each covering >=2 consecutive years; buyer's labour clause",
+   "bid_security": null,
+   "eligibility_foreign": "Open EU procedure; Comdia registration (login) required to access documents and bid; Danish",
+   "award_criteria": "Price 70% + quality 30%",
+   "estimated_value": {
+    "amount": 4000000,
+    "currency": "DKK",
+    "per_lot": "estimated 4.0 M DKK; framework maximum 4.8 M DKK (≈536k / 643k EUR)"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая: требование 3 референций по поставкам полимеров для обезвоживания ила (каждая ≥2 лет), качество 30% (вероятно тест на иле), датский язык и закрытые документы (Comdia login).",
+   "risks_ru": "Документы недоступны без регистрации; конкуренты SNF/Kemira/Solenis.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/758765-2026",
+    "https://www.comdia.com/samaqua/tenderinformationshow.aspx?Id=828936"
    ]
   },
   {
