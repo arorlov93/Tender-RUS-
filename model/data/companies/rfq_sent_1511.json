@@ -263,7 +263,7 @@
    "msg": "1a1e1446d600ab45"
   }
  ],
- "daily_count_1511": 50,
+ "daily_count_1511": 75,
  "batch6_local_cm_eu": [
   {
    "to": "fobs@fobs-group.com",
@@ -306,5 +306,108 @@
   "local_partners_africa_eu_1511.json: Kemanzi, Chemtoll, Metsi (ZA via form), Synergy/Chem-Plus/Blychem (MU), Chemsol/Metmin (ZM), Ichem/Omni/Fumman (GH), ACI (CI), SENCHEM/ALT Nowata (SN), Alkane/AHC (ET), PWM/Coolela (MZ), Elettrochimica Ceci, B&C, Chiemivall, Iberkemya, ACES, Chemi Kam, Voda Nordic, Orikem, Hidrofilt, Donauchem",
   "local_partners_mena_1511.json: REDA, Al-Kout, Water Bird, Global Chemicals, K2S, SCE, İND Grup",
   "local_partners_asia_br_1511.json (agent running)"
- ]
+ ],
+ "batch7_local_africa_eu": [
+  {
+   "to": "info@kemanzi.co.za",
+   "msg": "1a1e153ca3c2702c"
+  },
+  {
+   "to": "admin@chemtoll.co.za",
+   "msg": "1a1e153cdf871f06"
+  },
+  {
+   "to": "rodney@synergychems.com",
+   "msg": "1a1e153cd65577e1"
+  },
+  {
+   "to": "info@chemplusltd.com",
+   "msg": "1a1e153cec571413"
+  },
+  {
+   "to": "info@blychem.mu",
+   "msg": "1a1e153d095d47dd"
+  },
+  {
+   "to": "sales@chemsol.ltd",
+   "msg": "1a1e153d224f4e79"
+  },
+  {
+   "to": "sales@metminzambia.com",
+   "msg": "1a1e153d5867be6c"
+  },
+  {
+   "to": "info@ichemghltd.com",
+   "msg": "1a1e153d78efd876"
+  },
+  {
+   "to": "group@omni-energy.com",
+   "msg": "1a1e153d9997541e"
+  },
+  {
+   "to": "sales@fummanghana.com",
+   "msg": "1a1e153dadf8e643"
+  },
+  {
+   "to": "info@acichimie.com",
+   "msg": "1a1e153dd403981a"
+  },
+  {
+   "to": "info@senchem.sn",
+   "msg": "1a1e153df7172b14"
+  },
+  {
+   "to": "contact@alt-nowata.com",
+   "msg": "1a1e153e1aa237e4"
+  },
+  {
+   "to": "alkane.chem2008@gmail.com",
+   "msg": "1a1e153e373e12f2"
+  },
+  {
+   "to": "info@ahchemical.com",
+   "msg": "1a1e153e283ec510"
+  },
+  {
+   "to": "info@pwm-mz.com",
+   "msg": "1a1e153e47bd2904"
+  },
+  {
+   "to": "info@coolelawatertechnologies.com",
+   "msg": "1a1e153e792bec5e"
+  },
+  {
+   "to": "info@elettrochimicaceci.com",
+   "msg": "1a1e153e94fc778d"
+  },
+  {
+   "to": "administracion@carbonactivo.com",
+   "msg": "1a1e153eb6b72c14"
+  },
+  {
+   "to": "aces@aces.pl",
+   "msg": "1a1e153ec5b1f147"
+  },
+  {
+   "to": "biuro@chemikam.pl",
+   "msg": "1a1e153ee92c15b3"
+  },
+  {
+   "to": "myynti@vodanordic.com",
+   "msg": "1a1e153f1a784dba"
+  },
+  {
+   "to": "myynti@orikem.fi",
+   "msg": "1a1e153f277c14ef"
+  },
+  {
+   "to": "info@hidrofilt.hu",
+   "msg": "1a1e153f48050794"
+  },
+  {
+   "to": "iroda@donauchem.hu",
+   "msg": "1a1e153f7704b0b2"
+  }
+ ],
+ "daily_limit": 75
 }
