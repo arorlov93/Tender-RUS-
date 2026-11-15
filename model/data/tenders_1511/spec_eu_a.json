@@ -1,0 +1,263 @@
+{
+ "meta": {
+  "batch": "eu_a",
+  "analyst": "Claude (regional analyst eu_a)",
+  "date": "2026-11-15",
+  "ids": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   14,
+   29,
+   30,
+   31,
+   32,
+   33,
+   36,
+   45,
+   46,
+   47,
+   53,
+   54,
+   65,
+   66,
+   67,
+   72,
+   82,
+   83,
+   84,
+   85,
+   86,
+   89,
+   95
+  ],
+  "done": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
+  "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/"
+ },
+ "tenders": [
+  {
+   "id": 4,
+   "n": "TED 776899-2026",
+   "docs_found": true,
+   "doc_urls": [
+    "https://zwik-lodz-pzp.logintrade.net/zapytania_email,243196,e2bd8daaeea9bfac4bc36b9b940edea8.html"
+   ],
+   "items": [
+    {
+     "product": "Polielektrolit (kationowy poliakrylamid) w postaci emulsji do odwadniania osadu przefermentowanego (I i II st. fermentacji, po hydrolizie termicznej) na wirówkach dekantacyjnych Flottweg X4E/C4E",
+     "spec": "Специфических физ-хим параметров (ионность, MW, % активного) в ОПЗ нет — продукт выбирает поставщик; пороговое условие на промышленном тесте: сухое вещество кека ≥21% и взвешенные в фугате ≤800 мг/дм3; REACH/CLP, SDS (karta charakterystyki); гарантия 6 мес.",
+     "qty": null,
+     "unit": "контракт по стоимости: макс. 9 562 500 PLN нетто (мин. 4 000 000 PLN нетто), цена за кг",
+     "qty_t": null,
+     "qty_basis": "Количество в тоннах не указано; объём ограничен суммой 9,5625 млн PLN нетто на 18 мес. Оценка (estimate): при цене 2025 г. 11,40 PLN/кг нетто ≈ 840 т за 18 мес (≈560 т/год)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "18 месяцев с подписания договора или до исчерпания суммы (опцион: мин. 4,0 млн PLN, макс. 9,5625 млн PLN нетто)",
+   "delivery_terms": "DDP GOŚ ŁAM, ul. Sanitariuszek 70/72, Łódź; транспорт поставщика; поставки партиями по e-mail-заказу в течение 14 календарных дней; только рабочие дни 8:00–14:00; поставщик за свой счёт забирает пустые IBC",
+   "packaging": "IBC типа MAUSER 1 м3 на европаллетах (иная тара — только с оборудованием для разгрузки/дозирования от поставщика)",
+   "certificates": "SDS (karta charakterystyki), документы по REACH 1907/2006, CLP 1272/2008, польский закон о химвеществах; накладная/сертификат качества партии; 200 кг образца бесплатно до срока подачи (под угрозой отклонения) + промышленный тест на центрифуге заказчика; опыт: поставки эмульсионного полиэлектролита для обезвоживания сброженного осадка ≥4 000 000 PLN нетто за 3 года",
+   "bid_security": "Wadium 50 000 PLN; обеспечение исполнения 1% макс. стоимости договора",
+   "eligibility_foreign": "Открытая секторальная процедура ЕС (PZP); документы на польском; подача через платформу logintrade (zwik-lodz-pzp.logintrade.net) с квалифицированной ЭЦП; ЕСПД/JEDZ; формально иностранные поставщики допускаются, но требуются референции ≥4 млн PLN по эмульсиям для сброженного осадка",
+   "award_criteria": "Стоимостной: 90% — стоимость прироста 1% с.в. кека (цена PLN/кг × удельная доза кг/т с.в. из промышленного теста), 10% — минимальные взвешенные в фугате",
+   "estimated_value": {
+    "amount": 9562500,
+    "currency": "PLN",
+    "per_lot": "макс. стоимость с опционом, нетто, 18 мес; базовая (мин.) 4 000 000 PLN"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Тот же заказчик, тот же продукт, тендер FZ.280.5.2024.VI (TED 117815-2025): победитель Skuma Marcin Skurka Sp.k. 11,40 PLN/кг нетто (14,02 брутто); другие предложения: SNF Polska 9,39, Kemipol 9,75, Brenntag 9,86 PLN/кг нетто (Brenntag отклонён по тесту)",
+     "unit_price": 11400,
+     "currency_per": "PLN/t net",
+     "year": 2025,
+     "source_url": "https://zwik-lodz-pzp.logintrade.net/zapytania_email,190971,fe927e476627d7080dffbc019e31fd83.html"
+    },
+    {
+     "what": "Минимальная цена предложения 2025 (SNF Polska), эмульсия",
+     "unit_price": 9390,
+     "currency_per": "PLN/t net",
+     "year": 2025,
+     "source_url": "https://zwik-lodz-pzp.logintrade.net/zapytania_email,190971,fe927e476627d7080dffbc019e31fd83.html"
+    },
+    {
+     "what": "TED CAN 475717-2025: стоимость договора 10 012 200 PLN (Skuma), оценка была 8 140 000 PLN",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2025,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/475717-2025"
+    }
+   ],
+   "feasibility_ru": "Низкая для прямого участия: обязательный промышленный тест на центрифуге заказчика с присутствием поставщика (подбор продукта под осадок), 200 кг образца до срока, поставки IBC в течение 14 дней по заказу — нужен склад в Польше/ЕС; референции ≥4 млн PLN. Срок подачи 18.11.2026 — фактически уже не успеть (тест и образец). Реально только через польского партнёра-дистрибьютора с уже проверенным продуктом.",
+   "risks_ru": "Срок через 3 дня; тест-допуск (≥21% с.в.) — продукт должен быть подобран под конкретный осадок после термогидролиза; критерий учитывает дозу, а не только цену; конкуренты SNF, Kemipol, Brenntag, Skuma; валоризация цен ограничена (коэф. 0,15); неустойка 1%/день за просрочку.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (publication-number=776899-2026)",
+    "https://ted.europa.eu/en/notice/-/detail/776899-2026",
+    "https://zwik-lodz-pzp.logintrade.net/zapytania_email,243196,e2bd8daaeea9bfac4bc36b9b940edea8.html",
+    "https://zwik-lodz-pzp.logintrade.net/zapytania_email,190971,fe927e476627d7080dffbc019e31fd83.html",
+    "https://ted.europa.eu/en/notice/-/detail/475717-2025"
+   ]
+  },
+  {
+   "id": 5,
+   "n": "TED 726621-2026 (PRC_0299/2026_DEX)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.acingov.pt/acingovprod/2/zonaPublica/zona_publica_c/donwloadProcedurePiece/MTE0NTI2Nw"
+   ],
+   "items": [
+    {
+     "product": "Lote 1 – органические коагулянты (удаление цветности) для Centro de Exploração do Vale do Ave",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "не указано в извещении; документы acinGov недоступны (HTTP 403)"
+    },
+    {
+     "product": "Lote 2 – органические коагулянты для ETAR de Serzedo",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "не указано"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "1 год с автопродлением 2×1 год, макс. 3 года (по каждому лоту)",
+   "delivery_terms": "Место исполнения — объекты Águas do Norte (север Португалии); детали — в caderno de encargos (не открыт)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "Залог не указан; caução (обеспечение исполнения) 5% цены договора",
+   "eligibility_foreign": "Concurso público с международной публикацией (TED); подача через acinGov с квалифицированной ЭЦП; документы на португальском",
+   "award_criteria": "Только цена (Preço), оба лота",
+   "estimated_value": {
+    "amount": 4417560,
+    "currency": "EUR",
+    "per_lot": "Lote 1: 4 047 120; Lote 2: 370 440 (без НДС, на 3 года)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "PRC_0502/2025_DEX органические коагулянты для Vale do Ave: базовая цена 1 064 448 EUR; договор с SNF Portugal 737 352 EUR (20.02.2026) — ~69% от базы; количество не найдено",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2026,
+     "source_url": "https://contribuinte.pt/contratos/contrato/7567844/aquisicao-de-bens-moveis-prc03402020exp-fornecimento-de-coagulantes-organicos"
+    },
+    {
+     "what": "PRC_0340/2020_EXP органические коагулянты Águas do Norte: SNF Portugal 107 796 EUR при базе 126 000 EUR, модификация +25% (2022)",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2021,
+     "source_url": "https://contribuinte.pt/contratos/contrato/7567844/aquisicao-de-bens-moveis-prc03402020exp-fornecimento-de-coagulantes-organicos"
+    },
+    {
+     "what": "Объявление DR 33376/2025 (PRC_0502/2025) — база 1 064 448 EUR, без лотов",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2025,
+     "source_url": "https://files.diariodarepublica.pt/cp_hora/2025/12/247/419918569.pdf"
+    }
+   ],
+   "feasibility_ru": "Средняя по продукту (органические коагулянты — polyDADMAC/полиамины — типичный товар китайских заводов), но: срок 18.11.2026 (3 дня), документы на acinGov (из песочницы 403), нужна ЭЦП и регистрация на acinGov, поставки по Португалии — нужен склад/дистрибьютор в Иберии. Действующий поставщик — SNF Portugal (выиграл предыдущие контракты с дисконтом ~30% к базе).",
+   "risks_ru": "Количество и спецификация не проверены; повторное объявление (предыдущее 658747-2026 закрылось 22.10.2026 — вероятно, неудачный/изменённый конкурс); ценовой критерий — конкуренция с SNF; 3-летний срок с фиксированными ценами.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (publication-number=726621-2026)",
+    "https://dynamarket.pt/concursos/1258639/prc-0502-2025-dex-aquisicao-de-coagulantes-organicos-para-o-centro-de-exploracao",
+    "https://contribuinte.pt/contratos/contrato/7567844/aquisicao-de-bens-moveis-prc03402020exp-fornecimento-de-coagulantes-organicos",
+    "https://files.diariodarepublica.pt/cp_hora/2025/12/247/419918569.pdf"
+   ]
+  },
+  {
+   "id": 6,
+   "n": "simap 45135",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.simap.ch/de/project-detail/5384abfd-8e44-4010-9846-8497a9053ac3"
+   ],
+   "items": [
+    {
+     "product": "Хлорное железо (chlorure ferrique) для очистки сточных вод STEP de Vidy",
+     "spec": "«в соответствии с техническими требованиями STEP» — детали только в документации (simap, требуется вход)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "в извещении: «значительные количества», годовая потребность 2027; цифра не опубликована"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "31.12.2026 – 30.12.2027, без продления; оферта действительна до 31.12.2027",
+   "delivery_terms": "Поставки на STEP de Vidy, 1007 Lausanne (VD) в течение 2027 г.; детали в документации",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Открытая процедура, в сфере действия GPA (Staatsvertragsbereich: Ja) → поставщики из США формально допускаются; консорциумы запрещены; язык — французский; ПОДАЧА ТОЛЬКО ФИЗИЧЕСКИ (бумажная оферта по адресу EPURA SA, route de Vidy 10, Lausanne); документы на simap.ch — после регистрации/логина",
+   "award_criteria": "Указаны только в документации",
+   "estimated_value": {
+    "amount": null,
+    "currency": "CHF",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Очень низкая: срок подачи 18.11.2026 11:00 и только бумажная подача в Лозанне; хлорное железо (40% раствор) — жидкий товар, возить из Азии нерентабельно, нужен местный производитель (Kronos/Feralco и др.); визит на площадку был 21.10.2026.",
+   "risks_ru": "Нет количества и спецификации (документы за логином simap); физическая подача; товар-коммодити с местными производителями.",
+   "sources": [
+    "https://www.simap.ch/de/project-detail/5384abfd-8e44-4010-9846-8497a9053ac3"
+   ]
+  },
+  {
+   "id": 7,
+   "n": "B43198",
+   "docs_found": false,
+   "doc_urls": [
+    "https://purchasing.wycokck.org/eprocurement/Bid_Display.aspx?id=B43198"
+   ],
+   "items": [
+    {
+     "product": "Liquid aluminum sulfate (жидкий сульфат алюминия) для Environmental Services",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "не опубликовано открыто; документы портала требуют регистрации поставщика"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": "Из сводки: цена с доставкой FOB destination, слив из автоцистерны на площадке (не проверено по документу)",
+   "packaging": "bulk tanker (предположительно; не проверено)",
+   "certificates": "Из сводки: NSF/ANSI 60, AWWA B403 (не проверено по документу)",
+   "bid_security": null,
+   "eligibility_foreign": "Муниципальный IFB в США; регистрация на портале purchasing.wycokck.org обязательна для просмотра документов",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "USD",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "Аналог в регионе: City of Topeka KS, Event 2783 liquid aluminum sulfate 350 т: Affinity Chemical 515 USD/т, Univar 589, Chemtrade 621 USD/dry ton (апрель 2023)",
+     "unit_price": 515,
+     "currency_per": "USD/ton (dry ton basis per Chemtrade line)",
+     "year": 2023,
+     "source_url": "https://files.topeka.gov/business/procurement/bid-tabulations/2023/Event2783"
+    }
+   ],
+   "feasibility_ru": "Практически нереально для импорта: жидкий квасцовый раствор (~48% или 8,3% Al2O3) производится локально (Chemtrade, Affinity, USALCO); доставка цистернами из Азии экономически невозможна. Срок 18.11.2026. Вариант — только перепродажа продукта местного завода.",
+   "risks_ru": "Документы не открыты (нужна регистрация); срок 3 дня.",
+   "sources": [
+    "https://purchasing.wycokck.org/eprocurement/Bid_Display.aspx?id=B43198",
+    "https://files.topeka.gov/business/procurement/bid-tabulations/2023/Event2783"
+   ]
+  }
+ ]
+}

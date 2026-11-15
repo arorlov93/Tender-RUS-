@@ -1,0 +1,192 @@
+{
+ "meta": {
+  "batch": "eu_b",
+  "analyst": "Claude (regional analyst eu_b)",
+  "date": "2026-11-15",
+  "notes": "All values from opened notices/documents; null = unknown; 'est.' = analyst estimate. TED notices read from TED eForms XML."
+ },
+ "tenders": [
+  {
+   "id": 96,
+   "n": "TED 749715-2026",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.vergabe-westfalen.de/VMPSatellite/notice/CXTDYYDDYHLS5ZYV/documents",
+    "https://www.vergabe-westfalen.de/VMPSatellite/notice/CXTDYYDDYHLS5ZYV/documents/archive/Vergabeunterlagen_CXTDYYDDYHLS5ZYV.zip"
+   ],
+   "items": [
+    {
+     "product": "Aluminiumchlorid-Lösung (AlCl3) – Tankwagen, Hauptkläranlage + KA Am Loddenbach + KA Geist",
+     "spec": "DWA-A 202; Wirksubstanz 58-60 g Al/kg (2.1-2.3 mol Al/kg); per mol WS: Pb<15, Cd<0.2, Cr<15, Cu<15, Ni<20, Hg<0.15, Zn<50 mg, AOX<5; used against filamentous bacteria",
+     "qty": 500,
+     "unit": "t Handelsware/yr (WS 60 g Al/kg)",
+     "qty_t": 1000,
+     "qty_basis": "500 t/yr x 24 months fixed term (+2x12 months option => up to 2000 t); ±15% volume tolerance"
+    },
+    {
+     "product": "Aluminiumchlorid-Lösung – IBC 1000 L, KA Hiltrup",
+     "spec": "same as above",
+     "qty": 26,
+     "unit": "t Handelsware/yr",
+     "qty_t": 52,
+     "qty_basis": "26 t/yr x 24 months; may switch to tanker from 2028"
+    }
+   ],
+   "total_qty_t": 1052,
+   "contract_period": "01.01.2027-31.12.2028 (24 months, fixed price) + 2x12 months extension option, max to 31.12.2030; price escalation via Destatis PPI formula (70% material/20% energy/10% diesel) after 12 months, threshold 2.5%",
+   "delivery_terms": "Frei Kläranlage Münster (DDP-type, all freight/packaging/surcharges in unit price), call-offs within max 10 working days, 22-25 t tanker loads into 25 m3 PE tanks (AwSV), tankers with VdTÜV-Merkblatt 953 safety (ANA/ASS), Euro 5 vehicles; IBC return pickup; technical field service on site within 3 days incl. microscopic sludge assessment",
+   "packaging": "bulk tanker 22-25 t; IBC 1000 L for Hiltrup",
+   "certificates": "Technical data sheet + SDS (latest EHS rules); accredited lab analysis of product not older than 3 months (with bid); reference list of aluminium precipitant supplies to WWTPs last 3 years with quantities; liability insurance; trade register; turnover last 3 years; EU sanctions declaration (Art. 5k Reg. 833/2014)",
+   "bid_security": "none (tender-guarantee-required=false)",
+   "eligibility_foreign": "Open EU procedure under VgV, GPA-covered (GovernmentAgreementConstraintIndicator=true); e-submission on Vergabe Westfalen; documents in German; no local-only restriction, but technical field service within 3 days and German-language communication required",
+   "award_criteria": "100% price (EUR/t Wirksubstanz, net; cash discount counted if >=14 days)",
+   "estimated_value": {
+    "amount": 739000,
+    "currency": "EUR",
+    "per_lot": "framework maximum amount (whole term up to 48 months)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Previous award Stadt Münster AlCl3 framework 2025-2026 (31.2 t Al active substance/yr, up to 24 months) – Feralco Deutschland GmbH, award value 281,920 EUR (est. value 331,092)",
+     "unit_price": 4518,
+     "currency_per": "EUR/t Al (WS) – est. = 281920/(31.2*2); ~271 EUR/t product at 60 g Al/kg (estimate, assumes value covers 24 months)",
+     "year": 2024,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/9192-2025"
+    },
+    {
+     "what": "Implied ceiling: framework max 739,000 EUR / (526 t/yr x 4 yr)",
+     "unit_price": 351,
+     "currency_per": "EUR/t product (estimate, ceiling)",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/749715-2026"
+    }
+   ],
+   "feasibility_ru": "Низкая для прямой поставки из Китая/Индии: нужен склад/производство в ЕС (поставки танковозами 22-25 т в течение 10 рабочих дней), техслужба на месте за 3 дня с микроскопией ила, REACH-регистрация AlCl3-раствора, ADR-перевозчик. Реально только через европейского партнёра-производителя (Feralco, Kemira и т.п.) или как субпоставщик. Объём ~526 т/год ≈ 140-180 тыс. EUR/год.",
+   "risks_ru": "Действующий поставщик Feralco; цена фиксирована 24 мес; только немецкий язык; требование референций по алюминиевым коагулянтам на очистных; доставка раствора из Азии экономически невыгодна (вода ~85-90% массы).",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/749715-2026",
+    "https://www.vergabe-westfalen.de/VMPSatellite/notice/CXTDYYDDYHLS5ZYV/documents",
+    "https://ted.europa.eu/en/notice/-/detail/9192-2025",
+    "https://ted.europa.eu/en/notice/-/detail/647399-2024"
+   ]
+  },
+  {
+   "id": 152,
+   "n": "TED 775353-2026 (VKS-70/26)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.enarocanje.si/api/datoteka/get?id=NjY1NTE1O09iamF2YSBWS1MgNzAtMjYuemlw"
+   ],
+   "items": [
+    {
+     "product": "Lot 1 RCERO Ljubljana (MBT digestate centrate pre-treatment): coagulant (type not specified beyond tender title \"polyelectrolytes\"; liquid)",
+     "spec": "Liquid; stored in 20 m3 tank, dosed via Flocmix; must pass mandatory 1-day industrial test on AlfaLaval G3 decanter",
+     "qty": 672000,
+     "unit": "kg / 48 months",
+     "qty_t": 672,
+     "qty_basis": "indicative over 48 months (~168 t/yr)"
+    },
+    {
+     "product": "Lot 1: flocculant (liquid polyelectrolyte)",
+     "spec": "Liquid, stored in IBC; industrial test with ~0.5 IBC",
+     "qty": 308000,
+     "unit": "kg / 48 months",
+     "qty_t": 308,
+     "qty_basis": "indicative over 48 months (~77 t/yr)"
+    },
+    {
+     "product": "Lot 2 CČN Ljubljana (central WWTP): powder cationic polyelectrolyte, one product for all 4 stations (primary & bio sludge belt thickeners, centrifuge thickening before thermal hydrolysis, digestate centrifuges)",
+     "spec": "Powder in 500 kg big-bags; industrial test 200 kg; exclusion if digestate cake <18% DS or poor centrate",
+     "qty": 500000,
+     "unit": "kg / 48 months",
+     "qty_t": 500,
+     "qty_basis": "indicative over 48 months (~125 t/yr)"
+    }
+   ],
+   "total_qty_t": 1480,
+   "contract_period": "Framework agreement 48 months with up to 5 suppliers per lot; mini-competitions (re-opening of competition) for ~6-month call-off periods",
+   "delivery_terms": "Prices EUR/kg excl. VAT DDP (Incoterms 2010) unloaded at RCERO, Cesta dveh Cesarjev 101 / CČN Ljubljana, Cesta v Prod 100, Ljubljana; ADR transport; take-back of packaging",
+   "packaging": "Lot 1 bulk tank 20 m3 / IBC; Lot 2 returnable 500 kg big-bags (supplier collects empty bags)",
+   "certificates": "SDS and technical sheet; references: lot 1 - min 40 t coagulant + 10 t flocculant delivered to one customer in continuous 12-month period within last 3 years; mandatory industrial test report (Annex 7) signed by buyer; ESPD; Slovenian language (certified translations on request)",
+   "bid_security": "No bid bond found in documents; performance guarantee (bank guarantee/insurance bond from bank/insurer seated in Slovenia, first-demand) within 15 days of FA signature",
+   "eligibility_foreign": "Open procedure (ZJN-3), GPA-covered EU procedure; foreign bidders allowed via e-JN with ESPD; Slovenian language; mandatory on-site industrial test with up to 2 bidder representatives (registration lot1 by 19.11.2026, lot2 by 01.12.2026 10:00; sludge sample pickup 24-25.11.2026)",
+   "award_criteria": "Per documents: price-based (total offer price excl. VAT; lot 1 offer price x dosing kg/t DS from test; lot 2 'cost of treating dry solids' EUR) – evaluated per lot",
+   "estimated_value": {
+    "amount": null,
+    "currency": "EUR",
+    "per_lot": "not published in notice"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Previous award VKS-49/21 (24 months) – Allied Solutions Central Eastern Europe Kft: Lot 1 RCERO 1,314,000 EUR; Lot 2 CČN 450,000 EUR (quantities of 2021 not in notice, unit price not derivable)",
+     "unit_price": null,
+     "currency_per": "EUR total per lot (24 months)",
+     "year": 2021,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/4051-2022"
+    },
+    {
+     "what": "Rough implied: 2021 lot 2 450,000 EUR/24 mo vs now 500 t/48 mo => ~1.8 EUR/kg powder (ESTIMATE, assumes same annual volume)",
+     "unit_price": 1.8,
+     "currency_per": "EUR/kg (estimate)",
+     "year": 2021,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/4051-2022"
+    }
+   ],
+   "feasibility_ru": "Средне-низкая. Лот 2 (порошковый катионный ПАА в биг-бэгах 500 кг, ~125 т/год) технически подходит для китайского продукта (SNF/китайские аналоги), но обязательное промышленное испытание на станции в Любляне (присутствие представителя, 200 кг пробы, доставка заранее) и банковская гарантия от словенского банка. Нужен партнёр/дистрибьютор в Словении/ЕС и склад для DDP. Лот 1 (жидкие коагулянт+флокулант для фугата MBT) — сложнее.",
+   "risks_ru": "Прошлый победитель Allied Solutions (Венгрия); многопоставщиковое рамочное соглашение с переторжкой каждые 6 мес; словенский язык; сроки регистрации на испытания уже близки (19.11 и 01.12.2026).",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/775353-2026",
+    "https://www.enarocanje.si/api/datoteka/get?id=NjY1NTE1O09iamF2YSBWS1MgNzAtMjYuemlw",
+    "https://ted.europa.eu/en/notice/-/detail/4051-2022",
+    "https://ted.europa.eu/en/notice/-/detail/277710-2021"
+   ]
+  },
+  {
+   "id": 160,
+   "n": "TED 772209-2026",
+   "docs_found": true,
+   "doc_urls": [
+    "https://rlp.vergabekommunal.de/Satellite/notice/CXP6YYHYC59/documents",
+    "https://rlp.vergabekommunal.de/Satellite/notice/CXP6YYHYC59/documents/archive/Vergabeunterlagen_CXP6YYHYC59.zip"
+   ],
+   "items": [
+    {
+     "product": "Cationic emulsion polymer for digested sludge dewatering (2 decanters)",
+     "spec": "kationische Emulsion; selection by sample trial (streaming potential per DWA M-383) vs current reference product by external expert; price adjustment on propylene/acrylonitrile/methyl acrylate indices every 6 months",
+     "qty": 52500,
+     "unit": "kg HW/yr",
+     "qty_t": 210,
+     "qty_basis": "52.5 t/yr x 4 years"
+    },
+    {
+     "product": "Cationic emulsion polymer for WAS thickening (3 centrifuges)",
+     "spec": "kationische Emulsion",
+     "qty": 10500,
+     "unit": "kg HW/yr",
+     "qty_t": 42,
+     "qty_basis": "10.5 t/yr x 4 years"
+    }
+   ],
+   "total_qty_t": 252,
+   "contract_period": "4 years (framework, one lot); notice end date 2031-06-30; prices fixed 6 months then 6-monthly adjustment by raw-material formula",
+   "delivery_terms": "Fixed price frei Lieferstelle Klärwerk Koblenz incl. all ancillary costs and truck toll; IBCs in batches of max 10; empty IBCs taken back free; delivery lead time (working days) is scored; on-site application service visits and consulting included; field staff must speak German (A2)",
+   "packaging": "IBC (max 10 per delivery), returnable free of charge",
+   "certificates": "Certificate of analysis for each batch; SDS; product samples min. 100 ml each with bid; 'Schlammprobe mit Dokumentation'; EU sanctions declaration; LTTG Tariftreue declaration; 3 reference certificates; staff numbers last 3 years",
+   "bid_security": "not required per notice (none stated)",
+   "eligibility_foreign": "Open EU procedure, GPA-covered; documents and bid only in German; sludge samples must be collected in person at Koblenz on 01.12.2026 (registration by 20.11.2026); no late document re-submission allowed",
+   "award_criteria": "Annual cost 55% (EUR/kg HW x expert-determined dosage kg/MgTM x 37,626 MgTM/a) + product suitability from lab trial 35% (0 points = exclusion) + general performance 10%",
+   "estimated_value": {
+    "amount": null,
+    "currency": "EUR",
+    "per_lot": "not published"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая: конкурс по результатам лабораторного теста на шламе (забор проб лично в Кобленце 01.12.2026), обязательный сервис-инженер с немецким языком, поставки IBC с возвратом тары. Для трейдера из Китая/Индии реально только через немецкого партнёра-сервисную компанию. Объём 63 т/год эмульсии (~150-200 тыс. EUR/год, оценка).",
+   "risks_ru": "Конкуренция SNF, Solenis, Kemira, BASF; 35% баллов — технический тест, 0 баллов = исключение; язык; приёмка проб без возможности дозаявки.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/772209-2026",
+    "https://rlp.vergabekommunal.de/Satellite/notice/CXP6YYHYC59/documents"
+   ]
+  }
+ ]
+}
