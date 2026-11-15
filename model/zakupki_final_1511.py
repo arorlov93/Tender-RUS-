@@ -184,3 +184,63 @@ wb.move_sheet("5. Параметры", offset=0)
 wb.save("../ZAKUPKI_SSYLKI_I_POTENCIAL_1511.xlsx")
 print("rows ru_new", sum(1 for r in R if r["src"] == "РФ (поиск 15.11)"), "ru_old", sum(1 for r in R if r["src"] == "РФ (выгрузка 13.11)"), "mir", len(mir), "margin rows", len(rows4))
 print(stat)
+
+# ---------- разделение: РФ (Excel) и Мир (Excel + PDF)
+from openpyxl import load_workbook
+src = "../ZAKUPKI_SSYLKI_I_POTENCIAL_1511.xlsx"
+a = load_workbook(src)
+for n in ["5. Параметры", "3. Мир — что это за закупки", "4. Мир — потенциал и маржа"]: del a[n]
+a["Как читать"]["A1"].value = "Российские закупки (Гидропас) на 15.11.2026, подача 18.11 и позже — ссылки проверены"
+for row in list(a["Как читать"].iter_rows(min_row=2)):
+    if row[0].value and any(k in str(row[0].value) for k in ("Мир", "Параметры", "маржи")): row[0].value = None
+a.save("../ZAKUPKI_RF_SSYLKI_1511.xlsx")
+b = load_workbook(src)
+for n in ["1. РФ — новые", "2. РФ — выгрузка 13.11"]: del b[n]
+b["Как читать"]["A1"].value = "Зарубежные закупки (ISP Group) на 15.11.2026, подача 18.11 и позже — описание, ссылки, потенциал и маржа"
+for row in list(b["Как читать"].iter_rows(min_row=2)):
+    if row[0].value and "РФ" in str(row[0].value): row[0].value = None
+b.save("../ZAKUPKI_MIR_1511.xlsx")
+os.remove(src)
+
+# ---------- PDF по миру: описание + примерная маржа (расчёт в Python по тем же параметрам)
+import html, subprocess
+LOG, EXTRA, TGT = 150, 0.08, 0.12
+calc = []
+for r in rows4:
+    m = r["_m"]; g = m.get("group"); cur = m.get("value_currency"); amt = m.get("value_amount"); q = m.get("qty_t")
+    usd = (amt if cur == "USD" else amt / FX[cur]) if amt and cur and (cur == "USD" or cur in FX) else None
+    fob = PRICE.get(g, (None,))[0]
+    cost = q * (fob + LOG) * (1 + EXTRA) if q and fob else None
+    if usd and cost: mar, how = usd - cost, "расчёт"
+    elif cost: mar, how = cost / (1 - TGT) - cost, "наша мин. цена"
+    elif usd: mar, how = usd * TGT, "≈12% от стоимости"
+    else: mar, how = None, "нет данных"
+    calc.append((r, usd, cost, mar, how))
+e = html.escape; fm = lambda v: "—" if v is None else f"{v/1e3:,.0f}".replace(",", " ")
+grp = {}
+for r, usd, cost, mar, how in calc:
+    k = r["_m"].get("access_ru") or "Уточнить"; s_ = grp.setdefault(k, [0, 0, 0]); s_[0] += 1; s_[1] += usd or 0; s_[2] += mar or 0
+css = ("@page{size:A4 landscape;margin:7mm}body{font-family:'DejaVu Sans',Arial;font-size:6.6px;color:#111}h1{font-size:12.5px;margin:0 0 2px;color:#0B2545}h2{font-size:9px;margin:4px 0 1px;color:#0B2545}"
+       "table{border-collapse:collapse;width:100%}th{background:#0B2545;color:#fff;padding:1px 3px;text-align:left}td{border-bottom:1px solid #ddd;padding:1px 3px;vertical-align:top;line-height:1.15}"
+       ".n{text-align:right;white-space:nowrap}.g{color:#555}a{color:#0563C1;text-decoration:none}.w{color:#9a6700}")
+h = [f"<!DOCTYPE html><html><head><meta charset=utf-8><style>{css}</style></head><body><h1>Зарубежные тендеры ISP Group (подача от 18.11.2026): что закупают и примерная маржа</h1>",
+     f"<div class=g>Из {len(mir)} найденных тендеров здесь {len(rows4)} — по которым опубликована стоимость или объём и товар нашего профиля. Полный список и ссылки — ZAKUPKI_MIR_1511.xlsx. Суммы в тыс. USD (курс ExchangeRate-API на 15.11).</div>",
+     "<table style='width:60%;margin:3px 0'><tr><th>Доступ для ISP</th><th>Тендеров</th><th>Стоимость, тыс. USD</th><th>Примерная маржа, тыс. USD</th></tr>"]
+for k in ["Напрямую (иностранцы допускаются)", "Уточнить", "Через местного партнёра / регистрацию"]:
+    if k in grp: h.append(f"<tr><td>{e(k)}</td><td class=n>{grp[k][0]}</td><td class=n>{fm(grp[k][1])}</td><td class=n><b>{fm(grp[k][2])}</b></td></tr>")
+tot = [sum(v[i] for v in grp.values()) for i in range(3)]
+h.append(f"<tr><td><b>Итого</b></td><td class=n><b>{tot[0]}</b></td><td class=n><b>{fm(tot[1])}</b></td><td class=n><b>{fm(tot[2])}</b></td></tr></table>")
+h.append("<table><tr><th>#</th><th>Доступ</th><th>Страна</th><th>Номер (ссылка)</th><th>Что закупают</th><th>Объём, т</th><th>Стоимость, тыс. USD</th><th>Себест., тыс. USD</th><th>Маржа, тыс. USD</th><th>Как</th><th>Подача</th></tr>")
+for i, (r, usd, cost, mar, how) in enumerate(calc, 1):
+    m = r["_m"]; u, st, alt = resolve(r); u = u or alt
+    num = f"<a href='{e(u)}'>{e(r['n'][:22])}</a>" if u else e(r["n"][:22])
+    acc = {"Напрямую (иностранцы допускаются)": "напрямую", "Через местного партнёра / регистрацию": "партнёр"}.get(m.get("access_ru"), "уточнить")
+    warn = " ⚠" if m.get("group") in ("Антискалант/ингибитор накипи и коррозии (водоподготовка)", "PAC (полиоксихлорид алюминия)", "Пакет разной химии") else ""
+    h.append(f"<tr><td>{i}</td><td>{acc}</td><td>{e(m.get('country_ru') or '')}</td><td>{num}</td><td>{e((m.get('ru') or r['subj'])[:150])}</td><td class=n>{'' if not m.get('qty_t') else f'{m['qty_t']:,.0f}'.replace(',', ' ')}</td>"
+             f"<td class=n>{fm(usd)}</td><td class=n>{fm(cost)}</td><td class=n><b>{fm(mar)}</b></td><td class=w>{how}{warn}</td><td style='white-space:nowrap'>{e(str(r['dl'])[:11])}</td></tr>")
+h.append("</table><div class=g style='margin-top:3px'>Как считано: «расчёт» — стоимость тендера минус себестоимость (объём × (FOB завода + логистика $150/т) × 1,08). «Наша мин. цена» — стоимость не опубликована, маржа при цене на 12% выше себестоимости. "
+         "«≈12%» — нет цены завода (сульфат алюминия, железо, флокулянты, деэмульгаторы, уголь): оценка потенциала. Цены FOB: PAC $295/т (Aierfuke), PBTCA $1 345/т (Kairui). Логистика и 8% доп. расходов — ДОПУЩЕНИЯ. "
+         "⚠ — PAC: у нас порошок, при жидком PAC пересчитать; антискалант: себестоимость по сырью, маржа завышена; пакет: часть позиций не наш профиль. Без Ирана, Сирии, OFAC SDN.</div></body></html>")
+hp = f"{SCRATCH}/mir_marzha.html"; open(hp, "w").write("".join(h))
+subprocess.run(["/opt/pw-browsers/chromium", "--headless", "--no-sandbox", "--disable-gpu", "--no-pdf-header-footer", f"--print-to-pdf={os.path.abspath('../ZAKUPKI_MIR_MARZHA_1511.pdf')}", "file://" + hp], check=True, capture_output=True, timeout=180)
+import pypdf; print("PDF pages", len(pypdf.PdfReader("../ZAKUPKI_MIR_MARZHA_1511.pdf").pages), "totals", [round(x) for x in tot])
