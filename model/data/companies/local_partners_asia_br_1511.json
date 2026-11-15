@@ -1,0 +1,1058 @@
+{
+ "meta": {
+  "created": "2026-11-15",
+  "purpose": "Locally registered companies able to bid in national-only tenders (India GeM Class-1/2, Bangladesh e-GP, PhilGEPS, VN muasamcong, TH e-GP, BR pregão) that could buy from ISP Group LLC (US trader, CN/IN factories) as their supplier",
+  "method": "Parallel search/fetch (rate-limited -> WebSearch/curl), public award records: Metro Roxas WD NOA/NTP PDFs; ZCWD BAC NTP archive (234 PDFs 2025-26 OCR'd with tesseract); BetterGov PhilGEPS awardee pages; Bangladesh e-GP ViewAwardedContracts + BPPA NOA; tender247 GeM AOC listings; PNCP API (item lists; results endpoint rate-limited 429), SAAE atas/homologações, TCE-CE licitações portal, municipal diários; Receita CNPJ mirrors; company sites, stock-exchange pages.",
+  "verification_rule": "verified=true only if email AND phone each found in >=2 independent sources (company's own multiple sites count as one). verified_email/verified_phone flag partials. No contacts invented; null where not found.",
+  "sanctions": "Names screened against OFAC SDN.CSV downloaded 15.11.2026 (sanctionslistservice.ofac.treas.gov): no matches (only false-positive substring 'HACO'). VITRICHEM/SOCHEM are VINACHEM (state) subsidiaries - formal KYC still needed. EU/UN/UK lists not screened.",
+  "gaps": "Vietnam muasamcong/dauthau.asia and Thai gprocurement/PWA award data blocked (403/JS) -> no confirmed award records for VN/TH partners; Bangladesh DWASA/KWASA PAC awards need pkgLotId (not discoverable); GeM bid result pages behind login; PNCP results API rate-limited so São Mateus/Bocaiúva previous-year winners not retrieved. ONGC PAC/ferric chloride and resin (MRPL/SAIL/NFL/BARC) GeM winners not identified.",
+  "counts": {
+   "India": 6,
+   "Bangladesh": 5,
+   "Philippines": 5,
+   "Vietnam": 5,
+   "Thailand": 4,
+   "Brazil": 7,
+   "total": 32,
+   "fully_verified": 3
+  },
+  "not_contacted": true,
+  "related_files": [
+   "model/data/tenders_1511/spec_asia.json",
+   "model/data/tenders_1511/world_asia.json",
+   "model/data/tenders_1511/spec_eu_a.json",
+   "model/data/companies/outreach_pac_world.json",
+   "model/data/companies/outreach_world_mena_asia.json"
+  ]
+ },
+ "partners": [
+  {
+   "company": "Innova Corporate (India)",
+   "country": "India",
+   "city": "New Delhi (HQ); Ahmedabad (Sarkhej) branch; plant GIDC Dahej III, Bharuch",
+   "target_tenders": [
+    "GEM/2026/B/8235099 ONGC CI gas line",
+    "GEM/2026/B/8235585 ONGC CI+SI KG-DWN-98/2",
+    "GEM/2026/B/8263951 cooling-water CI/SI",
+    "GEM/2026/B/8262664 PAC powder"
+   ],
+   "products": "Water-injection corrosion inhibitors, biocides (glutaraldehyde, THPS), PBTC, polyelectrolytes/PAM, ferric chloride, ACH, cooling/boiler/RO chemicals; self-declared importer/trader of PBTC",
+   "tender_wins": [
+    {
+     "buyer": "ONGC (Western Onshore assets) via GeM",
+     "product": "Corrosion inhibitor WIN for Western Onshore + glutaraldehyde + THPS + PBTC (qty 58,950), contract INR 26.66 lakh, AOC 16-10-2026",
+     "year": 2026,
+     "url": "https://www.tender247.com/result-details/18246547"
+    }
+   ],
+   "brands": "Innova (own); PBTC imported (origin not stated)",
+   "site": "https://www.innovacorporate.com",
+   "email": "vinod@innovacorporate.com (also sales@innovacorporate.com)",
+   "phone": "+91 93128 71070",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://www.innovacorporate.com/contact.html",
+    "https://www.innovacorporate.com/pbtc.html",
+    "https://guide132982.guidechem.com/",
+    "https://www.processregister.com/Innova_Corporate_India/Supplier/sid152730.htm",
+    "https://www.tender247.com/keyword/corrosion%20inhibitors-results"
+   ],
+   "language": "en",
+   "notes": "Best Indian fit: wins ONGC oilfield-chemical GeM bids AND openly imports phosphonates (PBTC) -> natural buyer of our CN/IN phosphonates, THPS, PAM. Email vinod@ confirmed on company site + Guidechem; mobile +91 9312871070 on site + Guidechem. Also +91 99119 81992 (Ahmedabad/Dahej)."
+  },
+  {
+   "company": "Sarvamangal Enterprise",
+   "country": "India",
+   "city": "Ahmedabad, Gujarat (factory Changodar, Sanand)",
+   "target_tenders": [
+    "GEM/2026/B/8235099 ONGC CI gas line (Assam)",
+    "GEM/2026/B/8235585 ONGC CI/SI",
+    "GEM/2026/B/8260655 PPD for diesel"
+   ],
+   "products": "Oil-line & gas-line corrosion inhibitors, scale inhibitors, demulsifiers, wax/asphaltene dispersants, acid CI, oxygen scavenger (formulator, est. 1989)",
+   "tender_wins": [
+    {
+     "buyer": "ONGC via GeM",
+     "product": "Corrosion Inhibitor for Gas Line (ONGC)(Q3), qty 20,000, contract INR 16.20 lakh, AOC 06-11-2026",
+     "year": 2026,
+     "url": "https://www.tender247.com/result-details/18621171"
+    }
+   ],
+   "brands": "Sarvamangal (own)",
+   "site": "https://www.oilfieldchemicals.co",
+   "email": "sales@sment.in (info@sment.in)",
+   "phone": "+91 98250 28777",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.oilfieldchemicals.co/",
+    "https://www.oilfieldchemicals.co.in/profile.html",
+    "https://www.tradeindia.com/sarvamangal-enterprise-34799306/",
+    "https://linkedin.com/company/sarvamangal-enterprise"
+   ],
+   "language": "en",
+   "notes": "GST 24ACDFS7520A2ZL, IEC 0812013964. Email/phone appear only on the company's own two sites (not independent) -> unverified. IndiaMART virtual no. 08047636658. Formulator buying actives (imidazolines, phosphonates, surfactants)."
+  },
+  {
+   "company": "Diraj Chemicals",
+   "country": "India",
+   "city": "Ahmedabad, Gujarat (Makarba / Vastrapur)",
+   "target_tenders": [
+    "GEM/2026/B/8235099",
+    "GEM/2026/B/8235585",
+    "ONGC WIC / Mumbai assets"
+   ],
+   "products": "Corrosion inhibitors (oil, acid, gas), water-injection CI, biocides (aldehyde, amine), de-oiler, surfactants, guar gum (trader, est. 1997-98)",
+   "tender_wins": [
+    {
+     "buyer": "ONGC (Mumbai assets) via GeM",
+     "product": "Water injection corrosion inhibitor for Mumbai assets (ONGC)(Q3), contract INR 85.75 lakh, AOC 08-09-2026",
+     "year": 2026,
+     "url": "https://www.tender247.com/result-details/17711697"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.tradeindia.com/diraj-chemicals-1970742/",
+    "https://www.dial4trade.com/diraj-chemicals-867528/contact-us.htm",
+    "https://www.indiamart.com/diraj-chemicals",
+    "https://lntsufin.com/product/diraj-liquid-corrosion-inhibitor-20-l-drum/17594-856"
+   ],
+   "language": "en",
+   "notes": "Partner Mr. Priyank D. Parikh; address 502 Signature 1, nr Divyabhaskar House, S.G. Highway, Makarba, Ahmedabad 380015. Phone/email hidden behind IndiaMART/TradeIndia login - not collected. Trader (no plant) -> good candidate to buy imported CI/biocide actives."
+  },
+  {
+   "company": "Azelis India Pvt Ltd",
+   "country": "India",
+   "city": "Mumbai (Indian subsidiary of Azelis, Belgium)",
+   "target_tenders": [
+    "ONGC oil-line corrosion inhibitor ST 8145",
+    "IOCL/HPCL refinery chemicals"
+   ],
+   "products": "Specialty chemicals distribution incl. oilfield/refinery additives",
+   "tender_wins": [
+    {
+     "buyer": "ONGC via GeM",
+     "product": "ST 8145 corrosion inhibitor for oil line (qty 21,475), contract INR 1.61 crore, submission 17-10-2026",
+     "year": 2026,
+     "url": "https://www.tender247.com/result-details/18616023"
+    }
+   ],
+   "brands": null,
+   "site": "https://www.azelis.com",
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.tender247.com/keyword/corrosion%20inhibitors-results"
+   ],
+   "language": "en",
+   "notes": "Large distributor, Indian-registered entity so can bid as local supplier; but represents principals (likely brand-locked). Contacts not collected/verified. Lower priority."
+  },
+  {
+   "company": "Neelam Aqua & Speciality Chem (P) Ltd",
+   "country": "India",
+   "city": "Jaipur, Rajasthan (VKIA)",
+   "target_tenders": [
+    "GEM/2026/B/8263951 cooling-water CI/SI/biocide",
+    "GEM/2026/B/8178120 anionic polyelectrolyte (fertilizer PSU)",
+    "GEM/2026/B/8188630 oxygen scavenger"
+   ],
+   "products": "Cooling & boiler water chemicals (HEDP producer since 1980s), antiscalants, biocides, oxygen scavenger, oilfield chemicals (SI, CI, HPAM, demulsifier, PPD), fertilizer anti-caking",
+   "tender_wins": [
+    {
+     "buyer": "PSU buyer via GeM (tender247 result 18383671)",
+     "product": "Supply of corrosion inhibitor, qty 12,775, contract INR 8.43 lakh, AOC 28-09-2026",
+     "year": 2026,
+     "url": "https://www.tender247.com/result-details/18383671"
+    }
+   ],
+   "brands": null,
+   "site": "https://www.neelamchemical.com",
+   "email": "mkmathur@neelamaqua.com",
+   "phone": "+91 141 2333418 (AFA) / +91 77270 07795 (site)",
+   "verified": false,
+   "verified_email": true,
+   "verified_phone": false,
+   "sources": [
+    "http://www.neelamaqua.com/",
+    "https://www.neelamchemical.com/water-treatment",
+    "https://arabfertilizer.org/companies/neelam-aqua-speciality-chem-ltd"
+   ],
+   "language": "en",
+   "notes": "Revenue INR 111 cr FY2024. Email confirmed on company site + Arab Fertilizer Association; landline differs between sources -> phone unverified. Partly a competitor (makes HEDP), but buys polymers/actives."
+  },
+  {
+   "company": "Shree Raj Nidhi Adarsh Enterprises Pvt Ltd",
+   "country": "India",
+   "city": "Gorakhpur, Uttar Pradesh (per tender247 result location)",
+   "target_tenders": [
+    "GEM/2026/B/8262664 PAC powder",
+    "GEM/2026/B/8227276 ONGC PAC",
+    "GEM/2026/B/8203673 / 8265422 Army alumino-ferric"
+   ],
+   "products": "PAC (GeM trader)",
+   "tender_wins": [
+    {
+     "buyer": "GeM buyer, Gorakhpur",
+     "product": "Poly aluminium chloride, qty 45,000 kg, contract INR 18.30 lakh, AOC 21-08-2026",
+     "year": 2026,
+     "url": "https://www.tender247.com/result-details/17935711"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.tender247.com/tender-results/category/poly-aluminium-chloride"
+   ],
+   "language": "en/hi",
+   "notes": "Small GeM PAC trader; contacts not found in open sources. Other PAC GeM winners seen: Patil Traders (Thane, PAC+bleaching powder INR 15.87 lakh, AOC 14-10-2026), Shri Yash Associates (Khargone). Grasim wins most PSU PAC lots as manufacturer."
+  },
+  {
+   "company": "WATA Chemicals Limited",
+   "country": "Bangladesh",
+   "city": "Dhaka (HQ 17/B Monipuripara, Sangshad Ave); factory Murapara, Rupganj, Narayanganj",
+   "target_tenders": [
+    "e-GP 1365441 CWASA 200 MT alum Karnaphuli WTP-1",
+    "e-GP 1363732 CWASA 400 MT alum Modunaghat",
+    "Dhaka WASA alum/PAC lots"
+   ],
+   "products": "Non-ferric aluminium sulphate (own plant), sulphuric acid, zinc/magnesium sulphate, LABSA, SLES; DSE/CSE-listed",
+   "tender_wins": [
+    {
+     "buyer": "Chattogram WASA - Karnaphuli WTP-2",
+     "product": "250 MT alum Al2(SO4)3.16H2O, Jul-Oct 2026, BDT 18,030,000, NOA 23-08-2026 (tender 1308737)",
+     "year": 2026,
+     "url": "https://www.eprocure.gov.bd/resources/common/ViewAwardedContracts.jsp?pkgLotId=2081346&tenderid=1308737"
+    },
+    {
+     "buyer": "Chattogram WASA - Karnaphuli WTP-1",
+     "product": "400 MT alum, Jul-Dec 2025, BDT 15,780,000, NOA 06-11-2025 (tender 1140906)",
+     "year": 2025,
+     "url": "https://www.eprocure.gov.bd/resources/common/ViewAwardedContracts.jsp?pkgLotId=1796540&tenderid=1140906"
+    }
+   ],
+   "brands": "WATA (own alum)",
+   "site": "https://watachemical.com",
+   "email": "watachemicals@gmail.com",
+   "phone": "+880 2 58152001",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://www.dse.com.bd/company/WATACHEM",
+    "https://www.cse.com.bd/company/companydetails/WATACHEM",
+    "https://watachemical.com/contact",
+    "https://watachemical.com/wp-content/uploads/2025/12/43rd-Annual-Report-2024-2025.pdf",
+    "https://stockanalysis.com/quote/dse/WATACHEM/company"
+   ],
+   "language": "en/bn",
+   "notes": "Repeat CWASA alum winner. Alum producer (competitor for alum), but a credible e-GP bidder that could add PAC/cationic PAM to its WASA portfolio; MD Md. Nazrul Islam (mob. 01713000356 per CSE). Company secretary watachemicalscs@gmail.com."
+  },
+  {
+   "company": "Noorjahan Chemical Suppliers",
+   "country": "Bangladesh",
+   "city": "Dhaka (Suleman Plaza, 162 Shahid Syed Nazrul Islam Sarani, Purana Paltan)",
+   "target_tenders": [
+    "BPDB/EGCB power-plant chemicals",
+    "e-GP 1349171 DWASA PAC Padma WTP",
+    "e-GP 1360114 KWASA PAC"
+   ],
+   "products": "Water pre-treatment chemicals (PAC etc.) for power plants",
+   "tender_wins": [
+    {
+     "buyer": "EGCB Haripur 412 MW CCPP",
+     "product": "Water pre-treatment chemicals (Poly Aluminium Chloride etc.), NOA 11-01-2026",
+     "year": 2026,
+     "url": "https://bppa.gov.bd/noa-award-details/noa-awards-4061.html"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://bppa.gov.bd/noa-award-details/noa-awards-4061.html",
+    "model/data/companies/outreach_pac_world.json"
+   ],
+   "language": "en/bn",
+   "notes": "Importer-type e-GP supplier; no email/phone found online (carry-over from outreach_pac_world.json)."
+  },
+  {
+   "company": "M/S S.S. Trade Link",
+   "country": "Bangladesh",
+   "city": "Chattogram (Pahartali, Uttar Sharai Para)",
+   "target_tenders": [
+    "BPDB power-station chemicals",
+    "CWASA alum/PAC"
+   ],
+   "products": "Boiler de-scaling chemicals, cleaning agents (proprietorship, e-GP tenderer ID 1009741)",
+   "tender_wins": [
+    {
+     "buyer": "BPDB PC Pole Mfg. Plant, Chattogram",
+     "product": "De-scaling chemical, cleaning agent & materials for boiler (SP-61), BDT 490,500, NOA 21-06-2026 (tender 1286828)",
+     "year": 2026,
+     "url": "https://www.eprocure.gov.bd/resources/common/ViewAwardedContracts.jsp?pkgLotId=2038304&tenderid=1286828"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.eprocure.gov.bd/resources/common/ViewAwardedContracts.jsp?pkgLotId=2038304&tenderid=1286828"
+   ],
+   "language": "bn/en",
+   "notes": "Proprietor Amin Md Sarwar Uddin. Small but proven BPDB e-GP winner in Chattogram; contacts not found."
+  },
+  {
+   "company": "Chemotex",
+   "country": "Bangladesh",
+   "city": "Dhaka (Uttara Sector 15)",
+   "target_tenders": [
+    "BPDB power-plant chemicals (hydrazine, cooling-water)",
+    "WASA PAC/alum"
+   ],
+   "products": "Cooling-water & WTP chemicals, hydrazine hydrate, basic chemicals; states e-GP participation and BPDB/BCIC/WASA/DNCC as customers",
+   "tender_wins": [
+    {
+     "buyer": "BPDB, BCIC, WASA, DNCC (self-declared customers)",
+     "product": "Water-treatment chemicals (no award record located)",
+     "year": null,
+     "url": "https://chemotexbd.com/"
+    }
+   ],
+   "brands": null,
+   "site": "https://chemotexbd.com",
+   "email": "info@chemotexbd.com",
+   "phone": "+880 1707-030691",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://chemotexbd.com/"
+   ],
+   "language": "bn/en",
+   "notes": "Claims only; single-source contacts -> unverified. Explicitly seeking supply partners."
+  },
+  {
+   "company": "TradeSols BD",
+   "country": "Bangladesh",
+   "city": "Dhaka (Rangs Eskaton Tower, New Eskaton Rd)",
+   "target_tenders": [
+    "DWASA/KWASA PAC",
+    "DWASA Dasherkandi cationic PAM (e-GP 1369229)"
+   ],
+   "products": "Importer/indentor: PAC, polyelectrolyte, soda ash, H2O2, solvents",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://tradesolsbd.com",
+   "email": "info@tradesolsbd.com",
+   "phone": "+880 1755-636801",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://tradesolsbd.com/"
+   ],
+   "language": "en/bn",
+   "notes": "No public tender win found; listed as importer channel for PAC/PAM. Single source contacts."
+  },
+  {
+   "company": "Chemical Research Products Industrial Sales, Inc. (Chemres)",
+   "country": "Philippines",
+   "city": "Sta. Maria, Bulacan (HQ); branches Davao (Toril / Bago Aplaya), Bacolod, Cebu warehouse",
+   "target_tenders": [
+    "Metro Roxas WD ITB 001-2027 PAC 17,500 bags (437.5 t)",
+    "Zamboanga City WD PR 26-0247 alum 2,400 bags"
+   ],
+   "products": "PAC (white/yellow), alum powder, ACH, Ca hypochlorite, caustic soda, flocculants, cooling/boiler chemicals; WTP/STP O&M",
+   "tender_wins": [
+    {
+     "buyer": "Metro Roxas Water District",
+     "product": "PAC 19,211 bags Lot 1, PHP 18,826,780 (NOA 11-12-2024)",
+     "year": 2024,
+     "url": "https://metroroxaswd.gov.ph/wp-content/uploads/2024/12/PAC-NOA-LOT-120241217_09593069.pdf"
+    },
+    {
+     "buyer": "Metro Roxas Water District",
+     "product": "PAC 22,000 bags, PHP 25,300,000 (NOA 02-01-2024)",
+     "year": 2024,
+     "url": "https://metroroxaswd.gov.ph/wp-content/uploads/2024/01/NOA-OF-POLY-ALUMINUM-CHLORIDE-PAC20240104_14375183.pdf"
+    },
+    {
+     "buyer": "Metro Roxas Water District",
+     "product": "PAC 25,350 bags Lot 1, PHP 26,617,500 (NOA 24-01-2023); also 2021, 2022 awards",
+     "year": 2023,
+     "url": "https://metroroxaswd.gov.ph/wp-content/uploads/2023/06/POLY-ALUMINUM-CHLORIDE-PACCHEMRES20230602_11093129.pdf"
+    },
+    {
+     "buyer": "Zamboanga City Water District",
+     "product": "Powder PAC, PO 15325, PHP 906,666.60 (NTP 28-09-2026)",
+     "year": 2026,
+     "url": "https://zcwd.gov.ph/wp-content/uploads/2026/10/NTP-15325.pdf"
+    },
+    {
+     "buyer": "Zamboanga City Water District",
+     "product": "Aluminum sulfate, PHP 821,250 (NTP 07-04-2025, NTP-15069)",
+     "year": 2025,
+     "url": "https://zcwd.gov.ph/zcwd/?parameter=bac"
+    },
+    {
+     "buyer": "Zamboanga City Water District",
+     "product": "300 pails Ca hypochlorite 65-75%, PHP 1,737,900 (NTP 17-06-2026, NTP-15280)",
+     "year": 2026,
+     "url": "https://zcwd.gov.ph/zcwd/?parameter=bac"
+    }
+   ],
+   "brands": null,
+   "site": "https://chemicalresearchph.com",
+   "email": "inquiries.chemres@gmail.com (Davao: chemres_davao@yahoo.com)",
+   "phone": "+63 2 8277 9681 / +63 2 8703 6998; Davao rep. 0929 161 0555 (on ZCWD NTP)",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://chemicalresearchph.com/contact-us",
+    "https://metroroxaswd.gov.ph/biddings",
+    "https://zcwd.gov.ph/wp-content/uploads/2026/10/NTP-15325.pdf"
+   ],
+   "language": "en",
+   "notes": "No.1 target in PH: incumbent on BOTH named tenders (MRWD PAC 5 years running, ZCWD PAC/alum/Ca-hypo). Imports PAC (NSF + ISO17025 COA required by MRWD). Authorized reps on NOAs: Anna Pamela Ruiz / Noelle A. Delen. Contacts only from own site (+ Davao mobile on ZCWD NTP) -> not 2-source verified."
+  },
+  {
+   "company": "Penton Marketing",
+   "country": "Philippines",
+   "city": "Pasig City, Metro Manila (42 Sgt. Pascua St., Bagong Ilog); warehouse Angono, Rizal",
+   "target_tenders": [
+    "Zamboanga City WD alum PR 26-0247",
+    "Metro Roxas WD PAC ITB 001-2027"
+   ],
+   "products": "Importer/distributor: PAC powder & liquid, aluminum sulfate, cationic/anionic PAM, Ca hypochlorite, IX resins, hydrated lime, activated carbon; Pittschem maintenance chemicals",
+   "tender_wins": [
+    {
+     "buyer": "Zamboanga City Water District",
+     "product": "Powder PAC 30% 25 kg, PO 14918, PHP 3,840,000 (05-07-2024)",
+     "year": 2024,
+     "url": "https://transparency.bettergov.ph/awardees/PENTON%20MARKETING"
+    },
+    {
+     "buyer": "Zamboanga City Water District",
+     "product": "Flocculant aid 25 kg/bag, PO 15251, PHP 80,000 (NTP 11-03-2026)",
+     "year": 2026,
+     "url": "https://zcwd.gov.ph/wp-content/uploads/2026/04/NTP-15251-1.pdf"
+    },
+    {
+     "buyer": "Dapitan City, La Trinidad, Santiago, Roxas, Lal-lo Water Districts",
+     "product": "PAC, anionic polymer, chlorine - 88 PhilGEPS awards, PHP 61.1 M total (2023-2025)",
+     "year": 2025,
+     "url": "https://transparency.bettergov.ph/awardees/PENTON%20MARKETING"
+    }
+   ],
+   "brands": null,
+   "site": "http://pentonmarketingph.com",
+   "email": "penton_marketing@yahoo.com",
+   "phone": "+63 2 8671 0889",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "http://pentonmarketingph.com/",
+    "https://www.google.com/maps/place?q=place_id:ChIJEUwzuHvIlzMREBrynwRCIOY",
+    "https://zcwd.gov.ph/wp-content/uploads/2026/04/NTP-15251-1.pdf",
+    "https://transparency.bettergov.ph/awardees/PENTON%20MARKETING"
+   ],
+   "language": "en",
+   "notes": "Self-described IMPORTER-distributor -> ideal buyer of CN/IN PAC, alum, PAM. Phone confirmed on site + Google Maps + ZCWD NTP; email only on own site."
+  },
+  {
+   "company": "Jedaric Chemicals Co., Inc.",
+   "country": "Philippines",
+   "city": "Sta. Maria, Bulacan (#5 Manggahan Industrial Compound)",
+   "target_tenders": [
+    "Metro Roxas WD PAC",
+    "Zamboanga City WD alum"
+   ],
+   "products": "PAC (white powder 30% Al2O3), water-treatment chemicals",
+   "tender_wins": [
+    {
+     "buyer": "Metro Roxas Water District",
+     "product": "PAC 14,350 bags, PHP 12,070,215.50 (NOA 13-01-2021)",
+     "year": 2021,
+     "url": "https://metroroxaswd.gov.ph/wp-content/uploads/2023/06/POLY-ALUMINUM-CHLORIDEPACJEDARIC20230605_14321923.pdf"
+    },
+    {
+     "buyer": "Zamboanga City Water District",
+     "product": "Bidder on PR 22-0214 (alum) - cited in supplemental bid bulletin 2022",
+     "year": 2022,
+     "url": "https://zcwd.gov.ph/wp-content/uploads/2022/10/Supplemental-Bid-Bulletin-No.-2022-013_BACC.pdf"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://metroroxaswd.gov.ph/biddings"
+   ],
+   "language": "en",
+   "notes": "Authorized rep. Melquiades M. Marigomen Jr. Lost MRWD to Chemres since 2021 - may want a cheaper PAC source. Contacts not found online."
+  },
+  {
+   "company": "Mabuhay Vinyl Corporation",
+   "country": "Philippines",
+   "city": "Iligan / Makati (PSE-listed chlor-alkali producer)",
+   "target_tenders": [
+    "ZCWD / MRWD chlorine and caustic lots"
+   ],
+   "products": "Liquefied chlorine, caustic soda, HCl, sodium hypochlorite",
+   "tender_wins": [
+    {
+     "buyer": "Zamboanga City Water District",
+     "product": "Liquefied chlorine gas for water treatment, PHP 3,955,000 (NTP 20-07-2026, NTP-15298)",
+     "year": 2026,
+     "url": "https://zcwd.gov.ph/zcwd/?parameter=bac"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://zcwd.gov.ph/zcwd/?parameter=bac"
+   ],
+   "language": "en",
+   "notes": "Producer of chlorine (not a buyer of PAC); listed for completeness as a ZCWD local supplier. Low priority."
+  },
+  {
+   "company": "Aquawarks Water Treatment and Supply Services",
+   "country": "Philippines",
+   "city": "Mindanao (Davao region; per WD awardee list)",
+   "target_tenders": [
+    "Mindanao water-district chemical/chlorination lots"
+   ],
+   "products": "Gas chlorinators, chlorine regulators, turbidity meters, filter systems",
+   "tender_wins": [
+    {
+     "buyer": "Davao City WD, Tagum WD, Metro Cotabato WD, Santa Maria WD etc.",
+     "product": "33 PhilGEPS awards PHP 11.66 M (2024-2025), mostly chlorination equipment",
+     "year": 2025,
+     "url": "https://transparency.bettergov.ph/awardees/AQUAWARKS%20WATER%20TREATMENT%20AND%20SUPPLY%20SERVICES"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://transparency.bettergov.ph/awardees/AQUAWARKS%20WATER%20TREATMENT%20AND%20SUPPLY%20SERVICES"
+   ],
+   "language": "en",
+   "notes": "Equipment-focused; possible channel to add PAC/Ca-hypo. Contacts not collected."
+  },
+  {
+   "company": "Viet Tri Chemical JSC (VITRICHEM, HNX: HVT)",
+   "country": "Vietnam",
+   "city": "Viet Tri, Phu Tho",
+   "target_tenders": [
+    "IB2600604847-00 Vinh Long Water Supply PAC 120 t",
+    "IB2600589415-00 EVNGENCO1 Duyen Hai chemicals"
+   ],
+   "products": "PAC liquid 10-17% & powder 31%, liquid chlorine, NaOCl, HCl, NaOH (VINACHEM subsidiary)",
+   "tender_wins": [
+    {
+     "buyer": "Vietnamese water utilities (VTC PAC widely specified, e.g. 'PAC Viet Tri' sold by distributors)",
+     "product": "No named award document retrieved (muasamcong results not accessible without login)",
+     "year": null,
+     "url": "https://vitrichem.vn/"
+    }
+   ],
+   "brands": null,
+   "site": "https://vitrichem.vn",
+   "email": "info@vitrichem.vn",
+   "phone": "+84 210 3911 696",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://vitrichem.vn/",
+    "https://www.yellowpages.com.vn/listings/1187743389/cong-ty-co-phan-hoa-chat-viet-tri.html",
+    "https://finance.vietstock.vn/HVT-ctcp-hoa-chat-viet-tri.htm?languageid=2",
+    "https://cafef1.mediacdn.vn/download/180626/hvt-nghi-quyet-ai-hoi-dong-co-dong-thuong-nien-nam-2026-1-620381.pdf"
+   ],
+   "language": "vi",
+   "notes": "Domestic PAC producer = competitor on PAC, but buys/trades other water chemicals; sales mob. 0869 534 986; market dept Mr Nguyen Ngoc Thai +84 963 318 866 (Yellow Pages). VINACHEM = state group - run SOE/sanctions screening (none found on OFAC SDN)."
+  },
+  {
+   "company": "Southern Basic Chemicals JSC (SOCHEM / SBCC)",
+   "country": "Vietnam",
+   "city": "Ho Chi Minh City (22 Ly Tu Trong); plants Bien Hoa I",
+   "target_tenders": [
+    "IB2600604847-00 Vinh Long PAC",
+    "IB2600589415-00 Duyen Hai thermal power chemicals"
+   ],
+   "products": "Caustic soda, chlorine, HCl, NaOCl, PAC powder (own PAC spray-dryer); supplies water treatment & thermal power",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://www.sochemvn.com",
+   "email": "kinhdoanh@sochemvn.com (ASEMconnect lists sbcc@sochemvn.com)",
+   "phone": "+84 28 3829 6620",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.sochemvn.com/",
+    "https://asemconnectvietnam.gov.vn/Business.aspx?Biz_id=580&ID1=2&ZID1=1"
+   ],
+   "language": "vi",
+   "notes": "VINACHEM member; competitor on PAC but frequent supplier to southern utilities and power plants. No award doc retrieved."
+  },
+  {
+   "company": "Dong A Joint Stock Company (Dong A Chemical)",
+   "country": "Vietnam",
+   "city": "Phu Ninh, Phu Tho",
+   "target_tenders": [
+    "Vinh Long PAC 120 t"
+   ],
+   "products": "PAC powder 30% / PAC-DA 31%, Ca hypochlorite 65-70%, liquid NaOH",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://dongachem.com",
+   "email": "export@dongachem.vn",
+   "phone": "+84 342 597 726",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://dongachem.com/"
+   ],
+   "language": "vi/en",
+   "notes": "Private chlor-alkali/PAC producer; single-source contacts. Competitor for PAC; possible buyer of PAM/phosphonates."
+  },
+  {
+   "company": "An Phu Cuong Chemical & Environment Co., Ltd (APC Chem)",
+   "country": "Vietnam",
+   "city": "Hanoi (Ha Dong)",
+   "target_tenders": [
+    "EVNGENCO1 Duyen Hai boiler/cooling chemicals",
+    "Vinh Long PAC"
+   ],
+   "products": "Importer: scale/corrosion inhibitors (Hydrochem series), RO antiscalant, PAC 30-31%, Ca hypochlorite 70%, FeSO4; exclusive VN distributor of Salts & Chemicals Pvt (SCI, India)",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://apcchem.vn",
+   "email": "apcchem68@gmail.com",
+   "phone": "+84 945 117 000",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://apcchem.vn/"
+   ],
+   "language": "vi",
+   "notes": "Already imports Indian water-treatment chemicals -> natural fit for ISP (CN/IN supply). Tax code 0109659947. No award evidence; single-source contacts."
+  },
+  {
+   "company": "Loc Thien Investment Development Co., Ltd",
+   "country": "Vietnam",
+   "city": "Ho Chi Minh City (warehouses HCMC, Da Nang, Can Tho, Binh Duong, Dong Nai)",
+   "target_tenders": [
+    "Vinh Long Water Supply PAC 120 t (Mekong delta)"
+   ],
+   "products": "Importer/distributor: PAC Indian & Chinese, PAC liquid, NaOH, FeCl3, H2O2, javel",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://hoachatlocthien.com",
+   "email": "locthien@locthien.vn",
+   "phone": "+84 979 891 929",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://hoachatcoban.net/",
+    "https://hoachatcoban.net/pac"
+   ],
+   "language": "vi",
+   "notes": "Sells 'PAC An Do' and 'PAC Trung Quoc' -> direct buyer profile; Can Tho warehouse near Vinh Long. No award evidence; single-source."
+  },
+  {
+   "company": "Numchai Industry Co., Ltd",
+   "country": "Thailand",
+   "city": "Bangkok (sales, Bang Phlat); plant Samut Sakhon",
+   "target_tenders": [
+    "Huai Krachao municipality PAC 12 t + PAM 2 t (69119231753)",
+    "PWA / municipal waterworks alum & PAC"
+   ],
+   "products": "Alum (ammonium alum, aluminium sulphate, liquid alum, TIS-certified), PAC (since 2007), sulphuric acid, sulphur",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://www.numchai-industry.com",
+   "email": "sales@numchai-industry.com",
+   "phone": "+66 2 881 9153",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.numchai-industry.com/index.html"
+   ],
+   "language": "th",
+   "notes": "Major Thai alum producer supplying waterworks (no e-GP award doc retrieved - gprocurement/PWA portals not queryable). Competitor on alum; potential PAM/PAC buyer."
+  },
+  {
+   "company": "Thai-PAC Industry Co., Ltd",
+   "country": "Thailand",
+   "city": "Bangkok (Bang Khun Thian); plant Kabin Buri, Prachin Buri",
+   "target_tenders": [
+    "Municipal PAC/PAM e-bidding (e.g. Huai Krachao 69119231753)"
+   ],
+   "products": "PAC producer; consumer brands Saiging, Odor-X",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://www.xn--c3cxvp0d5bc9f5a.com",
+   "email": "thaipac2001@yahoo.com",
+   "phone": "+66 2 288 0405",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.xn--c3cxvp0d5bc9f5a.com/contact.php"
+   ],
+   "language": "th",
+   "notes": "No award evidence; single-source contacts."
+  },
+  {
+   "company": "Right Solution PCL",
+   "country": "Thailand",
+   "city": "Bangkok",
+   "target_tenders": [
+    "PWA/MWA and municipal coagulant tenders"
+   ],
+   "products": "PAC, ACH, water & wastewater chemicals (SET-listed)",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://www.rightsolution.co.th",
+   "email": "sales@rightsolution.co.th",
+   "phone": "+66 2 948 4242",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.rightsolution.co.th/en/aluminiumchlorohydrate"
+   ],
+   "language": "th/en",
+   "notes": "Listed company, bids public water tenders (not documented here). Single-source contacts."
+  },
+  {
+   "company": "Dusit Chemicals Co., Ltd",
+   "country": "Thailand",
+   "city": "Bangkok (Sinsathorn Bldg, Khlong San)",
+   "target_tenders": [
+    "Thai municipal PAC/PAM tenders"
+   ],
+   "products": "PAC liquid/powder, alum, FeCl3, PAM, NaOCl (manufacturer/exporter; Turkey office)",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://dusitchemicals.com",
+   "email": "sales@dusitchemicals.com",
+   "phone": "+66 65 262 4557",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://dusitchemicals.com/products/poly-aluminium-chloride"
+   ],
+   "language": "th/en",
+   "notes": "Export-oriented; reg. no. 0105529023770. No Thai award evidence; single-source. Possibly competitor."
+  },
+  {
+   "company": "Sanhidro Comércio, Serviços e Saneamento Ltda",
+   "country": "Brazil",
+   "city": "Fortaleza, CE (Av. Washington Soares 7187, loja 05)",
+   "target_tenders": [
+    "SAAE Bocaiúva RPE 038/2026 Ca hypochlorite tablets/granular (PNCP 19116243000118-1-000121/2026)",
+    "SAAE São Mateus PE 005/2026 Polifloc/alum",
+    "other SAAE PAC/hypochlorite pregões"
+   ],
+   "products": "Distributor: PAC 12/18/23%, Ca hypochlorite granular & tablets, cationic PAM/polyDADMAC, NaOCl, fluosilicic acid, alum",
+   "tender_wins": [
+    {
+     "buyer": "SAAE Sobral/CE",
+     "product": "PE26004 PAC 12% item 2, BRL 1,225,440 (2026)",
+     "year": 2026,
+     "url": "https://municipios-licitacoes.tce.ce.gov.br/index.php/licitacao/detalhes/proc/267127/licit/186170"
+    },
+    {
+     "buyer": "SAAE Icó/CE",
+     "product": "PE 21.001/2026: Ca hypochlorite 65% granular + tablets, PAC 23% (40 t), polyDADMAC - BRL 349,990",
+     "year": 2026,
+     "url": "https://municipios-licitacoes.tce.ce.gov.br/index.php/licitacao/detalhes/proc/262887/licit/184021"
+    },
+    {
+     "buyer": "SAAE Jaguaribe/CE",
+     "product": "PE 2026030601: PAC 18% items 1-2, BRL 249,600 (homologated 10-04-2026); 2024: Ca hypochlorite tablets BRL 144,000",
+     "year": 2026,
+     "url": "https://www.jaguaribe.ce.gov.br/diario/5132/4719_2026_0000001.pdf"
+    }
+   ],
+   "brands": "Offers Aquatop, Compass, Omegafloc brands in bids",
+   "site": null,
+   "email": "sanhidro@sanhidro.com.br",
+   "phone": "+55 85 4102-8098",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.saae.quixeramobim.ce.gov.br/arquivos/licitacao/62/262/RESULTADO%20DE%20PP%20N%202812.012020.pdf",
+    "https://advdinamico.com.br/empresas/33656611000141"
+   ],
+   "language": "pt",
+   "notes": "CNPJ 33.656.611/0001-41. Pure distributor repeatedly winning SAAE Ca-hypochlorite and PAC pregões -> best Brazilian target for Chinese Ca(OCl)2 tablets/granules. Phone confirmed in bid proposal + Receita data; email only in bid proposal. Director Alexandre Ricardo Pontes Correia."
+  },
+  {
+   "company": "GR Water Solutions (GR Indústria e Comércio de Produtos Químicos S.A.)",
+   "country": "Brazil",
+   "city": "Cruzeiro, SP (units Cachoeira Paulista, Paulínia, Santa Luzia/MG, Brusque/SC, Sapucaia do Sul/RS)",
+   "target_tenders": [
+    "SAAE Bocaiúva Ca hypochlorite (MG)",
+    "SAAE São Mateus alum/NaOCl (ES)",
+    "SAAE PAC/PAM lots SE Brazil"
+   ],
+   "products": "NaOCl, HCl, fluosilicic acid, alum solid/solution, PAC, cationic/anionic polymers, chlorine tablets (TCCA/Ca-hypo), FeCl3, soda ash",
+   "tender_wins": [
+    {
+     "buyer": "SAAE Itabira/MG",
+     "product": "PE 04/2026 ARP 05/2026: anionic polyacrylamide 400 kg BRL 12.17/kg, chlorine tablets 200 g 700 kg BRL 13.17/kg, soda ash",
+     "year": 2026,
+     "url": "https://irp.cdn-website.com/760fb542/files/uploaded/Ata+5+GR+Industria.pdf"
+    },
+    {
+     "buyer": "SAAE Águas de Lindóia/SP",
+     "product": "Fluosilicic acid 20% 15 t (PE SRP 001/2021)",
+     "year": 2021,
+     "url": "https://www.saaeaguasdelindoia.com.br/noticia/736/homologacao"
+    }
+   ],
+   "brands": "GR (own) - resells polymers and tablets 'marca própria'",
+   "site": "https://grwatersolutions.com.br",
+   "email": "comercial@grws.com.br",
+   "phone": "+55 12 3141-2144",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://grwatersolutions.com.br/contato",
+    "https://casadosdados.com.br/solucao/cnpj/gr-industria-e-comercio-de-produtos-quimicos-sa-03157268000120",
+    "https://quemfornece.com/fornecedor/gr-industria-quimica"
+   ],
+   "language": "pt",
+   "notes": "CNPJ 03.157.268/0001-20. Producer+trader (CNAE 4684-2/99 wholesale is main) - buys PAM/tablets/PAC to resell under own label. Phone in 3 sources; email only on site (Receita lists contabilidade@grcruzeiro.com.br)."
+  },
+  {
+   "company": "Caldas Química Indústria e Comércio Ltda",
+   "country": "Brazil",
+   "city": "Caldas (Santana de Caldas), MG",
+   "target_tenders": [
+    "SAAE Bocaiúva (MG) Ca hypochlorite + alum ferroso",
+    "MG SAAE alum/PAC pregões"
+   ],
+   "products": "Alum (sulfato de alumínio), coagulants/flocculants, disinfectants, fluoridation, pH correction (lime)",
+   "tender_wins": [
+    {
+     "buyer": "SAAE Itabira/MG",
+     "product": "PE 04/2026 ARP 03/2026 and ARP 006 (water-treatment chemicals lots)",
+     "year": 2026,
+     "url": "https://irp.cdn-website.com/760fb542/files/uploaded/Ata+3+Caldas+Quimicas.pdf"
+    },
+    {
+     "buyer": "SAAE Itabira/MG",
+     "product": "PE 1/2025 ARP 2 (Caldas Química)",
+     "year": 2025,
+     "url": "https://www.saaeitabira.com.br/licitacao-informacoes-2025/2"
+    }
+   ],
+   "brands": null,
+   "site": "https://www.caldasquimica.com.br",
+   "email": "caldasquimica@caldasquimica.com.br",
+   "phone": "+55 35 99838-1378 (Vendas e Licitação)",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.caldasquimica.com.br/",
+    "https://sei.cade.gov.br/sei/modulos/pesquisa/md_pesq_documento_consulta_externa.php?11fcbFkN81DNKUdhz4iilnqI5_uKxXOK06JWeBzhMdu1o7VqyXeq9tKSSC3I_YlnBX8Qjt099g7spbtEu5Ayy3zK28_8iWgYDRdrHCGiqeq7wxyZYo-nYEKMlLgvPGGr"
+   ],
+   "language": "pt",
+   "notes": "CNPJ 01.591.897/0001-38; ISO 9001; own fleet nationwide. Sales/bid phone confirmed on site + CADE filing (2023). Commercial manager Fernanda Ridolfi (CADE doc). Competitor on alum; buyer for PAC/hypochlorite/PAM."
+  },
+  {
+   "company": "Cape Águas Nordeste Indústria e Comércio Ltda (Bauminas Águas, Grupo Bauminas)",
+   "country": "Brazil",
+   "city": "Marechal Deodoro, AL (group HQ Cataguases, MG; office Campinas, SP)",
+   "target_tenders": [
+    "SAAE São Mateus PE 005/2026 Polifloc (sulfato-cloreto de alumínio e ferro) 522 t",
+    "NE/SE SAAE PAC tenders"
+   ],
+   "products": "PACFLOC PAC 12-23%, alum, ferric chloride/sulfate (Salfer), polymers - Bauminas group is Brazil's largest coagulant maker",
+   "tender_wins": [
+    {
+     "buyer": "SAAE Sobral/CE",
+     "product": "PE26003 PAC 23% (PACFLOC 230) 525 t + 175 t, BRL 4,615,100 (homologated 19-05-2026)",
+     "year": 2026,
+     "url": "https://transparencia.sobral.ce.gov.br/arquivo/nome:d01b530ad8b213447bae36ce005e085c.pdf"
+    },
+    {
+     "buyer": "SAAE Sobral/CE (Bauminas Química N/NE)",
+     "product": "PE26004 PAC 12% item 1, BRL 3,169,650 (2026)",
+     "year": 2026,
+     "url": "https://municipios-licitacoes.tce.ce.gov.br/index.php/licitacao/detalhes/proc/267127/licit/186170"
+    },
+    {
+     "buyer": "SAAE Itabira/MG (Bauminas Química)",
+     "product": "PE 04/2026 ARP 02/2026: liquid iron-free alum 80,000 L BRL 3.15/L + ferric chloride 38%",
+     "year": 2026,
+     "url": "https://irp.cdn-website.com/760fb542/files/uploaded/Ata+2+Bauminas.pdf"
+    }
+   ],
+   "brands": "PACFLOC, Salfer, Polifloc-type products",
+   "site": "https://bauminas.com.br",
+   "email": "comercial@bauminas.com.br (bids: atendimento.publico@bauminas.com.br)",
+   "phone": "+55 32 3429-4655",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://atlaspublico.com.br/empresa/05862270000125",
+    "http://casadosdados.com.br/solucao/cnpj/cape-aguas-nordeste-industria-e-comercio-ltda-05862270000125",
+    "https://bauminas.com.br/unidades/",
+    "https://www.cesama.com.br/site/uploads/arquivos_editais/1604/15911861305683424649.pdf"
+   ],
+   "language": "pt",
+   "notes": "CNPJ 05.862.270/0001-25 (Bauminas Química N/NE is shareholder). Dominant producer = main competitor; partnership only as raw-material buyer (AlCl3/PAC powder, polymers). Phone in Receita + group site."
+  },
+  {
+   "company": "Comercial Cauê Ltda",
+   "country": "Brazil",
+   "city": "Itabira, MG (Rua Valdemar de Alvarenga Lage 477, Água Fresca)",
+   "target_tenders": [
+    "MG SAAE chemical pregões (Bocaiúva Ca hypochlorite)"
+   ],
+   "products": "Trader: coarse salt (Sal Garça), other water-treatment commodities",
+   "tender_wins": [
+    {
+     "buyer": "SAAE Itabira/MG",
+     "product": "PE 04/2026 ARP 04/2026 lot 4: NaCl coarse salt 120 t, BRL 115,200 (also ARP 3 in PE 1/2025)",
+     "year": 2026,
+     "url": "https://irp.cdn-website.com/760fb542/files/uploaded/Ata+4+Comercial+Cau%C3%AA.pdf"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://irp.cdn-website.com/760fb542/files/uploaded/Ata+4+Comercial+Cau%C3%AA.pdf"
+   ],
+   "language": "pt",
+   "notes": "CNPJ 01.095.897/0001-47; rep. Matheus Duarte Gomes. Small local trader with SAAE track record; contacts not found."
+  },
+  {
+   "company": "FCF Químicos & Soluções Logística Ltda (ex-R1K2)",
+   "country": "Brazil",
+   "city": "Anápolis, GO",
+   "target_tenders": [
+    "SAAE Bocaiúva Ca hypochlorite",
+    "SAAE Oliveira-type chemical pregões"
+   ],
+   "products": "Chemical wholesaler (CNAE 4684-2/99): chlorine, hypochlorite, coagulants",
+   "tender_wins": [
+    {
+     "buyer": "SAAE Oliveira/MG",
+     "product": "RPE 23/2026 - in cadastro de reserva for item 7 (liquefied chlorine); items: Ca hypochlorite 65%, tablets, alum ferroso",
+     "year": 2026,
+     "url": "https://www.portaldecompraspublicas.com.br/processos/MG/Servico-Autonomo-de-Agua-e-Esgoto-de-Oliveira-SAAE-2813/RPE-23-2026-2026-512004"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": "+55 62 9439-0098 (Receita)",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://advdinamico.com.br/empresas/32291232000132"
+   ],
+   "language": "pt",
+   "notes": "CNPJ 32.291.232/0001-32 (cadastral name history: R1K2 Quimicos & Solucoes Logistica). Only reserve-list evidence -> weak; phone single-source."
+  },
+  {
+   "company": "Aguatop Soluções Sustentáveis em Meio Ambiente e Saneamento Ltda",
+   "country": "Brazil",
+   "city": "(CNPJ 30.274.793/0001-06; city not confirmed)",
+   "target_tenders": [
+    "SAAE PAC 18% and fluoridation lots"
+   ],
+   "products": "PAC 18%, sodium orthopolyphosphate, fluosilicic acid (Aquatop brand)",
+   "tender_wins": [
+    {
+     "buyer": "SAAE Jaguaribe/CE",
+     "product": "PE 2024071601 PAC 18% item I, BRL 247,500 (BRL 4.95/kg)",
+     "year": 2024,
+     "url": "https://files1.ciebit.com/jaguaribe-saae/licitacoes/2024/2024081901-pe/aviso-e-publicacoes.pdf"
+    },
+    {
+     "buyer": "SAAE Águas de Lindóia/SP",
+     "product": "Sodium orthopolyphosphate 55% 2,400 kg (PE SRP 001/2021)",
+     "year": 2021,
+     "url": "https://www.saaeaguasdelindoia.com.br/noticia/736/homologacao"
+    }
+   ],
+   "brands": "Aquatop",
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://files1.ciebit.com/jaguaribe-saae/licitacoes/2024/2024081901-pe/aviso-e-publicacoes.pdf"
+   ],
+   "language": "pt",
+   "notes": "Contacts not collected. Its brand is also offered by Sanhidro."
+  }
+ ]
+}

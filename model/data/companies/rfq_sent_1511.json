@@ -305,7 +305,8 @@
  "next_day_queue": [
   "local_partners_africa_eu_1511.json: Kemanzi, Chemtoll, Metsi (ZA via form), Synergy/Chem-Plus/Blychem (MU), Chemsol/Metmin (ZM), Ichem/Omni/Fumman (GH), ACI (CI), SENCHEM/ALT Nowata (SN), Alkane/AHC (ET), PWM/Coolela (MZ), Elettrochimica Ceci, B&C, Chiemivall, Iberkemya, ACES, Chemi Kam, Voda Nordic, Orikem, Hidrofilt, Donauchem",
   "local_partners_mena_1511.json: REDA, Al-Kout, Water Bird, Global Chemicals, K2S, SCE, İND Grup",
-  "local_partners_asia_br_1511.json (agent running)"
+  "local_partners_asia_br_1511.json (agent running)",
+  "ПРИОРИТЕТ 16.11 (asia_br): Innova Corporate vinod@innovacorporate.com (IN, ONGC, PBTC импортёр), Sarvamangal sales@sment.in (IN), Neelam Aqua mkmathur@neelamaqua.com (IN), Chemres inquiries.chemres@gmail.com (PH, Metro Roxas/ZCWD), Penton penton_marketing@yahoo.com (PH), APC Chem apcchem68@gmail.com (VN), Loc Thien (VN), Numchai/Thai-PAC/Right Solution (TH), Sanhidro sanhidro@sanhidro.com.br, GR Water comercial@grws.com.br, Caldas caldasquimica@caldasquimica.com.br (BR); MENA остаток: REDA, Al-Kout, Water Bird, Global Chemicals, K2S, SCE, İND Grup"
  ],
  "batch7_local_africa_eu": [
   {
