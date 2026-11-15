@@ -15,6 +15,7 @@ def fob(k): return (P.get(k) or {}).get("fob_typical")
 A = dict(payload_t=20.0, inland_eu=40.0, inland_far=120.0, other_pct=0.03, dg=200.0)
 # ---------- продукт по тексту → ключ себестоимости, HS-группа, класс опасности
 RULES = [
+    (r"хлорид\w* желез|fecl[23]|ferrous chlor|ferric chlor|хлорн\w* желез|chlorure ferrique|cloruro f[eé]rrico|chlorek żelaza|demir.*klor|железен трихлорид", "fecl3_liquid_40", "2827.39", 1),
     (r"pbtc|фбтк", "pbtca_50", "2931.49.80", 1), (r"hedp|оэдф", "hedp_60", "2931.49", 1), (r"atmp|нтф", "atmp_50", "2931.49", 1),
     (r"antiscal|антискал|scale inhib.*ro|ro.*antiscal|ингибитор накип|mts?i ?410|hypersperse", "ro_antiscalant", "3824.99", 0),
     (r"cooling|градирн|оборотн|corrosion.*scale|scale.*corrosion|ингибитор коррозии и накип|dispersant|диспергатор", "cooling_scale_corr", "3824.99", 0),
@@ -24,7 +25,7 @@ RULES = [
     (r"oxygen scav|поглотитель кислор|carbohydraz|карбогидраз|deha", "carbohydrazide", "3824.99", 0),
     (r"bisulf|бисульф|metabisulf", "na_bisulfite", "2832", 0), (r"morpholin|морфолин|cyclohexylam|циклогексил|amine|амин", "morpholine", "2921", 0),
     (r"trisodium phos|тринатрийфосф|tsp\b", "tsp", "2835", 0), (r"isothiaz|изотиаз|biocid|биоцид|algicid|альгицид|glutar", "isothiazolinone_1_5", "3808", 0),
-    (r"membrane clean|очистител|cip", "citric_acid", "3824.99", 0),
+    (r"membrane clean|очистител\w* мембран|\bcip\b", "citric_acid", "3824.99", 0),
     (r"poly ?dadmac|полидадмак|organic coag|органическ.*коагул|polyamin|полиамин", "polydadmac_40", "3906.90", 0),
     (r"emuls.*(polyelect|polimer|pam|flocc|флокул|полиэлект|полиакрил)|(polyelect|pam|flocc|флокул|полиэлект|полиакрил).*emuls|эмульс", "pam_cationic_emulsion", "3906.90", 0),
     (r"anion|анион", "pam_anionic_listing", "3906.90", 0),
@@ -32,6 +33,7 @@ RULES = [
     (r"ferric chlor|хлорн\w* желез|fecl3|chlorure ferrique|cloruro f[eé]rrico|chlorek żelaza|demir.*klor", "fecl3_liquid_40", "2827.39", 1),
     (r"ferric sulph|ferric sulf|сульфат желез|сернокисл\w* желез|siarczan żelaza|iron.*sulph|pix|fe2\(so4\)", "fe2so4_3_solid", "2833.29", 0),
     (r"polyferric|pfs", "pfs_polyferric", "2833.29", 0), (r"ferrous|железн\w* купорос|feso4", "feso4_7h2o", "2833.29", 0),
+    (r"(?<!organic )(coagul|коагул|precipit|осадител|fällmittel|fallmittel)(?!.*(polymer|полимер|organic|органич))", "fecl3_liquid_40", "2827.39", 1),
     (r"pac\b|poly ?alumin|полиалюм|полиоксихлор|пах\b|поха|polichlorek glinu|polialüminyum|aluminium chlorohydr|alcl3|хлорид алюмин", "PAC", "2827.49", 0),
     (r"alum|сульфат алюмин|sulfate d'alumin|sulfato de alumin|siarczan glinu|alüminyum sülfat|aluminium sulphate|aluminum sulfate", "ALUM", "2833.22", 0),
     (r"coconut|кокос", "ac_gac_coconut", "3802.10", 0), (r"powder.*carbon|порошк\w* уг|pac carbon|\bpac\b.*carbon", "ac_powder", "3802.10", 0),
@@ -190,6 +192,7 @@ for key, t in SPEC.items():
     margin = (rev - cost_total) if (rev and q_total and cost_total and "маржу не считаем" not in rev_src) else None
     elig = " ".join(str(t.get(k) or "") for k in ("eligibility_foreign", "feasibility_ru")).lower()
     closed = bool(re.search(CLOSED, elig))
+    if re.search(r"уже не открыт|присужд|awarded|договоры заключены|закрыт\b|прошл\w* срок|briefing.*(passed|прошл)|обязательн\w* (встреч|совещан)\w* .*прошл", elig): closed = True
     acc = "Закрыт для ISP напрямую (только местные/бренд/квал. список)" if closed else (m.get("access_ru") or "Уточнить")
     out.append(dict(id=key, n=t.get("n"), country=country, buyer=row.get("cust") or "", ru=m.get("ru") or row.get("subj") or "", dl=row.get("dl"), link=row.get("link"),
                     docs=bool(t.get("docs_found")), qty_t=round(q_total, 1) if q_total else (t.get("total_qty_t") or m.get("qty_t")), lines=lines,

@@ -58,11 +58,28 @@
    82,
    83,
    84,
+   85,
    86,
    89,
    95
   ],
   "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
+  "blocked_sources": [
+   "ted.europa.eu notice HTML/PDF (AWS WAF challenge) — used TED API v3 instead",
+   "acingov.pt (HTTP 403) — tender 5",
+   "simap.ch documents (login) — tender 6",
+   "purchasing.wycokck.org (supplier registration) — tender 7",
+   "find-tender.service.gov.uk HTML (403; OCDS API used) + SAP Ariba invitation-only — tender 89",
+   "e-Avrop (login) — tender 84",
+   "Mercell files (Show interest/login) — tender 83",
+   "Clira (procurement page not found) — tender 72",
+   "mpwik-waw.eb2b.com.pl attachments (not loaded without login) — tender 82",
+   "e-prokurimi Kosovo (not accessed; registration) — tender 66",
+   "PWiK Ruda Śląska platform not identified — tender 14",
+   "PNCP items API 503 (portaldecompraspublicas used) — tenders 8/47",
+   "Parallel search MCP rate-limited (free tier) — used WebSearch/WebFetch",
+   "dynamarket/contribuinte (PT) only summary, no quantities"
+  ],
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/"
  },
  "tenders": [
@@ -1599,6 +1616,97 @@
    "sources": [
     "https://api.ted.europa.eu/v3/notices/search (737492-2026)",
     "https://www.e-avrop.com/engelholm/e-Upphandling/Announcement.aspx?id=74782"
+   ]
+  },
+  {
+   "id": 85,
+   "n": "00688-2026-0038 (ЦАИС ЕОП TenderId 614325)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://app.eop.bg/today/614325"
+   ],
+   "items": [
+    {
+     "product": "ОП1: железен трихлорид FeCl3 (раствор)",
+     "spec": "красно-коричневая жидкость; плотность 1,40–1,47 т/м3; активное вещество 36–42%; Fe2+ ≤0,5%; свободная HCl ≤1,0%; срок годности ≥12 мес.",
+     "qty": 262,
+     "unit": "t",
+     "qty_t": 262,
+     "qty_basis": "прогноз 12 мес.: ПСОВ Русе 250 т + ПСОВ Бяла 12 т"
+    },
+    {
+     "product": "ОП2: полиэлектролит жидкий — высококатионная эмульсия ПАА с высокой MW (сгущение избыточного ила до метантенка и обезвоживание после)",
+     "spec": "белая эмульсия; pH 3–4; стабильность раствора 24 ч; хранение ≤35°C; срок ≥6 мес.; степень сшивки (омрежване) ≥80%",
+     "qty": 17000,
+     "unit": "kg",
+     "qty_t": 17,
+     "qty_basis": "12 мес., ПСОВ Русе"
+    },
+    {
+     "product": "ОП2: полиэлектролит сухой (порошок/микрогранулы 1–1,5 мм, высокая MW)",
+     "spec": "активное ≥95%; pH 3–8; растворение+созревание ≤60 мин; срок ≥24 мес.; мешки 25 кг",
+     "qty": 3000,
+     "unit": "kg",
+     "qty_t": 3,
+     "qty_basis": "12 мес., ПСОВ Бяла"
+    },
+    {
+     "product": "ОП2: пеногаситель",
+     "spec": "вязкая жидкость, плотность 0,90–0,94; хранение ≤30°C; срок ≥12 мес.",
+     "qty": 500,
+     "unit": "kg",
+     "qty_t": 0.5,
+     "qty_basis": "12 мес., ПСОВ Русе"
+    }
+   ],
+   "total_qty_t": 282.5,
+   "contract_period": "12 месяцев (количества прогнозные, могут быть превышены)",
+   "delivery_terms": "Транспортом поставщика на склады ПСОВ Русе (бул. Тутракан 71) и ПСОВ Бяла по письменной заявке, срок ≤7 дней; партийный сертификат анализа; остаточный срок годности ≥50%; приёмо-передаточный протокол",
+   "packaging": "сухой ПАА — многослойные мешки 25 кг; FeCl3 — налив; эмульсия/пеногаситель — оригинальная тара",
+   "certificates": "Технические данные (TDS), SDS на болгарском; для ОП2 образцы ≥25 кг каждого полиэлектролита до срока подачи для промышленного теста (стоимость допущенных образцов оплачивается); опыт: поставки FeCl3 ≥250 т (ОП1) или полиэлектролита ≥17 000 кг жидкого и ≥3 000 кг сухого (ОП2) за последние годы",
+   "bid_security": "Гарантия участия не указана; гарантия исполнения 3% стоимости договора без НДС",
+   "eligibility_foreign": "Публичное состязание (ЗОП) в ЦАИС ЕОП (регистрация, КЭП), ЕЕДОП; болгарский язык; публикация в TED",
+   "award_criteria": "ОП1 — минимальная цена EUR/т; ОП2 — комплексная оценка: техническая 60 баллов (удельный расход кг/т с.в., влажность кека по промышленному тесту) + финансовая 40 баллов",
+   "estimated_value": {
+    "amount": 140000,
+    "currency": "EUR",
+    "per_lot": "ОП1 FeCl3: 58 000 EUR; ОП2 полиэлектролиты+пеногаситель: 82 000 EUR (без НДС)"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Цена победителя предыдущей закупки ВиК Русе — FeCl3",
+     "unit_price": 197.87,
+     "currency_per": "EUR/t без НДС (387 BGN/t)",
+     "year": 2025,
+     "source_url": "https://app.eop.bg/today/614325"
+    },
+    {
+     "what": "Предыдущая закупка — полиэлектролит жидкий (эмульсия)",
+     "unit_price": 3530,
+     "currency_per": "EUR/t без НДС (6,90 BGN/кг)",
+     "year": 2025,
+     "source_url": "https://app.eop.bg/today/614325"
+    },
+    {
+     "what": "Предыдущая закупка — полиэлектролит сухой",
+     "unit_price": 4090,
+     "currency_per": "EUR/t без НДС (8,00 BGN/кг)",
+     "year": 2025,
+     "source_url": "https://app.eop.bg/today/614325"
+    },
+    {
+     "what": "Предыдущая закупка — пеногаситель",
+     "unit_price": 4350,
+     "currency_per": "EUR/t без НДС (8,50 BGN/кг)",
+     "year": 2025,
+     "source_url": "https://app.eop.bg/today/614325"
+    }
+   ],
+   "feasibility_ru": "ОП2 — средняя: эмульсия и порошок катионного ПАА — профильные китайские продукты, цены предыдущего контракта высокие (3,5–4,1 EUR/кг), но объём мал (~20 т, 82 тыс. EUR) и нужен промышленный тест образцов 25 кг до срока + склад в Болгарии/Румынии (поставка 7 дней) + опыт поставок ≥17 т/3 т. ОП1 FeCl3 (~198 EUR/т, налив) — нереально для импорта. Срок 27.11.2026 23:59.",
+   "risks_ru": "Год 'предыдущей закупки' для базовых цен — не указан (помечен 2025 условно); оценка 60% по тесту; болгарские документы.",
+   "sources": [
+    "https://service.eop.bg/NX1Service.svc/GetPublishedTenderDetails (tenderId 614325)",
+    "https://app.eop.bg/today/614325"
    ]
   },
   {
