@@ -72,6 +72,9 @@ for t in WT:
     rows.append(dict(src="Мир 15.11: " + t["_reg"], who="ISP", n=str(t.get("tender_number") or t.get("number") or ""), subj=str(t.get("title") or "") + (" — " + str(t.get("products_quantities")) if t.get("products_quantities") else ""), cust=f"{t.get('buyer') or ''} / {t.get('country') or ''}",
                      plat=str(t.get("portal") or ""), nmc=t.get("estimated_value"), cur="", dl=str(t.get("deadline")), d=d, link=t.get("url") or t.get("notice_url") or t.get("aggregator_url"), st="Новая",
                      todo=str(t.get("how_to_get_documents") or t.get("documents") or "Получить ТД")[:160], note=str(t.get("eligibility") or "")[:200]))
+for r in rows:
+    v = r["nmc"]
+    if v is not None and not isinstance(v, (int, float, str)): r["nmc"] = json.dumps(v, ensure_ascii=False)[:120]
 rows.sort(key=lambda r: (r["d"], r["src"]))
 
 wb = Workbook(); ws = wb.active; ws.title = "Тендеры ≥18.11"
