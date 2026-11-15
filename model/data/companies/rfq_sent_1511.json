@@ -99,5 +99,62 @@
   "PACHEMTECH/Lamberti (Ukrnafta CI) — email one source",
   "CHIMI ART — email conflicts",
   "SNF/Kemira/Feralco — competitors"
- ]
+ ],
+ "batch3_site_emails_user_ok": [
+  {
+   "to": "info@steinebach-chemikalien.de",
+   "product": "AlCl3",
+   "tender": "Münster",
+   "msg": "1a1e12e7c859da67"
+  },
+  {
+   "to": "office@alucom.de",
+   "product": "AlCl3",
+   "tender": "Münster",
+   "msg": "1a1e12e7d959cbcb"
+  },
+  {
+   "to": "biuro@pachemtech.eu",
+   "product": "CO2 CI",
+   "tender": "Ukrnafta",
+   "msg": "1a1e12e7e2eb2200"
+  },
+  {
+   "to": "pc@lamberti.com",
+   "product": "CO2 CI",
+   "tender": "Ukrnafta",
+   "msg": "1a1e12e80f9797ad"
+  },
+  {
+   "to": "sales@chimiart.com",
+   "product": "FeCl2/FeCl3",
+   "tender": "Nicosia",
+   "msg": "1a1e12e82fedd8d7"
+  },
+  {
+   "to": "info@hicriercili.com.tr",
+   "product": "alum + liquid PAC",
+   "tender": "NWSC/NCWSC",
+   "msg": "1a1e12e854e904c0"
+  },
+  {
+   "to": "info@asce-eg.com; alum-asce@asce-eg.com",
+   "product": "alum",
+   "tender": "NWSC",
+   "msg": "1a1e12e87d3fd090"
+  },
+  {
+   "to": "exportdept@varahichemicals.in",
+   "product": "NF alum",
+   "tender": "NWSC",
+   "msg": "1a1e12e8901a8e3d"
+  },
+  {
+   "to": "info@srhhl.com",
+   "product": "Ca hypochlorite",
+   "tender": "Africa general",
+   "msg": "1a1e12e8b6304844"
+  }
+ ],
+ "note": "Пакет 3: адреса с официальных сайтов (1 источник) — разрешено пользователем 15.11 («да давай»)."
 }
