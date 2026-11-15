@@ -1,0 +1,2125 @@
+{
+ "meta": {
+  "created": "2026-11-15",
+  "for": "ISP Group LLC (US trader; CN/IN/TR water-treatment chemicals)",
+  "purpose": "Locally registered bidders/distributors able to bid national-only or local-presence tenders, with ISP as their supplier",
+  "inputs": [
+   "model/data/tenders_1511/spec_africa.json",
+   "model/data/tenders_1511/spec_eu_a.json",
+   "model/data/tenders_1511/spec_eu_b.json",
+   "model/data/companies/africa_partners_1511.json (not duplicated; see enrich_existing)"
+  ],
+  "method": "Parallel web search + direct fetch of official award notices: ARMP Cameroon (CAMWATER decisions 0093/2026 and 1900/2024), Blantyre Water Board tender results 2022-2026, City of Cape Town / Stellenbosch / Drakenstein / Bergrivier award lists, tenders-sa.org (ERWAT), GranTender supplier rankings (ANAC/TED/PLACSP/BZP/KBA-derived) for IT/ES/PL/HU/FI; contacts from company sites and business registries/directories.",
+  "verification_rule": "verified=true only if BOTH email and phone confirmed in two independent sources (company site + registry/directory/award doc); otherwise per-field verified_email/verified_phone. Never invented; null where not found.",
+  "sanctions": "No partner is a known sanctioned party; no SDN/EU/UN hits known for these names, but formal screening was NOT run in this pass - screen before any contract (esp. AFCOTT/Kewalram Chanrai group, Synergy Chemicals' GCC links, Chilmund (Zimbabwe)).",
+  "excluded": "SNF, Kemira, Feralco, Brenntag, Univar, Kemipol (PL producer/competitor), Chimitex (wins mostly urea/AdBlue), Bassau (pool only).",
+  "gaps": [
+   "Cameroon: MEDINOV, Mawen, MOLA/AMN, NEO-PREN have no public email/phone - need CAMWATER DAJM/ARMP or in-person in Douala before 07.12.2026",
+   "Rwanda (WASAC): no locally registered chemical distributor with evidence found",
+   "Madagascar: only Solevo Madagascar identified",
+   "Mauritius CWA, Ghana GWL, SODECI, SEN'EAU, FIPAG, AAWSA, Zambia (ZPPA) award data require portal login - no award evidence",
+   "Malawi BWB/LWB winners have no online contacts",
+   "Many EU emails/phones only on company site (single source) - see per-field flags"
+  ],
+  "not_contacted": true,
+  "counts": {
+   "partners_new": 55,
+   "enrich_existing": 11,
+   "fully_verified": 6,
+   "by_country": {
+    "Italy": 6,
+    "Spain": 6,
+    "Poland": 4,
+    "Hungary": 4,
+    "Finland": 4,
+    "Cameroon": 2,
+    "Malawi": 1,
+    "Mauritius": 3,
+    "South Africa": 5,
+    "Zambia": 4,
+    "Ghana": 3,
+    "Cote d'Ivoire": 3,
+    "Senegal": 3,
+    "Ethiopia": 3,
+    "Mozambique": 3,
+    "Madagascar": 1
+   }
+  }
+ },
+ "partners": [
+  {
+   "company": "Chimpex Industriale S.p.A.",
+   "country": "Italy",
+   "city": "Caivano (Napoli); sites Bari, Busseto (PR), Robecchetto (MI); legal seat Milano",
+   "target_tenders": [
+    "CIIP Ascoli Piceno #149 cationic emulsion polyelectrolyte",
+    "HERA / acquevenete (via Viveracqua) coagulants",
+    "Valle Umbra Servizi #136 sludge polyelectrolytes"
+   ],
+   "products": "Basic & specialty chemicals; water-treatment polyelectrolytes (cationic emulsion), coagulants, hypochlorite, acids; 118 public contracts 2024-26 (EUR 15.1M)",
+   "tender_wins": [
+    {
+     "buyer": "Acquedotto del Fiora SPA",
+     "product": "FORNITURA DI POLIELETTROLITA CATIONICO IN EMULSIONE PER LE CENTRIFUGHE DEGLI IMPIANTI DI DEPURAZIONE GESTITI DA ACQUEDOTTO DEL FIORA SPA",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€1,323,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-di-polielettrolita-cationico-in-emulsione-per-le-centrifughe-degli-t0ypq4s929snr"
+    },
+    {
+     "buyer": "Ruzzo Reti S.P.A.",
+     "product": "FORNITURA DI PRODOTTI CHIMICI PER IL TRATTAMENTO DELLE ACQUE REFLUE URBANE C/O GLI IMPIANTI DI DEPURAZIONE GESTITI DALLA RUZZO RETI S.P.A. – LOTTO 3",
+     "year": 2026,
+     "value": "€320,013 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-di-prodotti-chimici-per-il-trattamento-delle-acque-reflue-urbane-c-o-t2yw8afu7bqsb"
+    },
+    {
+     "buyer": "A.I.C.A.-Azienda Idrica Comuni Agrigentini",
+     "product": "fornitura di prodotti chimici necessari per il processo di chiarificazione delle acque presso il potabilizzatore di S.S. Quisquina",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€84,840 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-di-prodotti-chimici-necessari-per-il-processo-di-chiarificazione-delle-t7t2okbcvqlqn"
+    },
+    {
+     "buyer": "Acquedotto Pugliese S.p.A.",
+     "product": "Accordo quadro fornitura polielettrolita presso impianti di depurazione (framework ceiling EUR 1,050,963)",
+     "year": "2024-2026",
+     "url": "https://grantender.com/en/org/chimpex-industriale-societa-per-azioni-o0qe361y6q0fc"
+    }
+   ],
+   "brands": "not disclosed (trader/blender, own AdBlue)",
+   "site": "https://www.chimpex.it",
+   "email": "info@chimpex.it",
+   "phone": "+39 081 8349257",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://www.chimpex.it/en/company",
+    "https://www.industrychemistry.com/aziende/chimpex-industriale-spa",
+    "https://chemindustry.com/supplier-details-id-1410.html",
+    "https://www.paginebianche.it/scheda/caivano/chimpex-industriale.2567954",
+    "https://grantender.com/en/org/chimpex-industriale-societa-per-azioni-o0qe361y6q0fc"
+   ],
+   "language": "it",
+   "notes": "VAT IT04828660631. PEC chimpex@gigapec.it. #10 among water-treatment-chemical winners in Italy (GranTender). Bari depot 2,000 m3 serves the south; good fit as importer of PAM/PAC from CN/IN/TR."
+  },
+  {
+   "company": "Elettrochimica Ceci S.p.A.",
+   "country": "Italy",
+   "city": "Marche (province of Macerata, CF 01672710439)",
+   "target_tenders": [
+    "CIIP Ascoli Piceno #149 polyelectrolyte (incumbent supplier of PAC/hypochlorite to CIIP)",
+    "Valle Umbra Servizi #136"
+   ],
+   "products": "Sodium hypochlorite, polyaluminium chloride, peracetic acid, water-treatment reagents (139 wins in IT since 2024)",
+   "tender_wins": [
+    {
+     "buyer": "Ciip Cicli Integrati Impianti Primari S.P.A.",
+     "product": "Fornitura policloruro di alluminio",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€39,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-policloruro-di-alluminio-t21ovrocevpmo"
+    },
+    {
+     "buyer": "Arap Servizi S.R.L.",
+     "product": "FORNITURA DI IPOCLORITO DI SODIO 18%",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€7,200 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-di-ipoclorito-di-sodio-18-t5aau9ayac8dr"
+    },
+    {
+     "buyer": "Ciip Cicli Integrati Impianti Primari S.P.A.",
+     "product": "Fornitura ipoclorito di sodio",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€20,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-ipoclorito-di-sodio-t6278rokch7ls"
+    },
+    {
+     "buyer": "Acquambiente Marche S.r.l.",
+     "product": "Fornitura, consegna e travaso di reagenti chimici, Lotto 1 (CIG B1B45116F4), EUR 180,990",
+     "year": 2024,
+     "url": "https://acquambientemarche.tuttogare.it/gare/dettaglio.php?codice=56"
+    }
+   ],
+   "brands": null,
+   "site": "https://www.elettrochimicaceci.com",
+   "email": "info@elettrochimicaceci.com",
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.elettrochimicaceci.com/",
+    "https://grantender.com/en/org/elettrochimica-ceci-societa-per-azioni-o4sjoo3r1ug5f",
+    "https://acquambientemarche.tuttogare.it/gare/dettaglio.php?codice=56"
+   ],
+   "language": "it",
+   "notes": "Direct CIIP supplier (PAC + hypochlorite) - best entry to CIIP/Marche utilities. Phone not found online; email only on own site."
+  },
+  {
+   "company": "Hidrodepur S.p.A.",
+   "country": "Italy",
+   "city": "Levate (Bergamo)",
+   "target_tenders": [
+    "HERA S.p.A. coagulants/polymers",
+    "acquevenete / Viveracqua group tenders",
+    "CIIP #149"
+   ],
+   "products": "Full water-treatment range: basic chemicals, organic polymers (polyelectrolytes), activated carbon, antifoams, formulations; #1 winner of water-treatment-chemical tenders in Italy (262 contracts since 2024)",
+   "tender_wins": [
+    {
+     "buyer": "Azienda Meridionale Acque Messina SPA",
+     "product": "ACQUISTO DI 228.000 KG DI SODIO IPOCLORITO AL 14/15%, DA STOCCARSI PRESSO IL DEPURATORE DI MILI MARINA, PER LA DISINFEZIONE ED IL TRATTAMENTO DELLE ACQUE DESTINATE AL CONSUMO IDROPOTABILE.",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€64,980 ( awarded )",
+     "url": "https://grantender.com/en/tender/acquisto-di-228-000-kg-di-sodio-ipoclorito-al-14-15-da-stoccarsi-presso-il-t4femcvhb7hch"
+    },
+    {
+     "buyer": "CAFC S.P.A.",
+     "product": "FORNITURA REAGENTI PER DEPURAZIONE",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€6,090 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-reagenti-per-depurazione-t3923mvxflgsm"
+    },
+    {
+     "buyer": "Viva Servizi S.P.A.",
+     "product": "Fornitura di polielettrolita in emulsione cationica.",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€118,790 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-di-polielettrolita-in-emulsione-cationica-t1hlonhrl91s5"
+    },
+    {
+     "buyer": "HERA S.p.A. (9 contracts), Acqua Novara.VCO (10), Uniacque (5)",
+     "product": "water-treatment chemicals (aggregate, GranTender ranking)",
+     "year": "2024-2026",
+     "url": "https://grantender.com/en/tenders/it/suppliers/topic/water-treatment-chemicals"
+    }
+   ],
+   "brands": "own catalogue (trader of polymers/carbons)",
+   "site": "https://www.hidrodepur.it",
+   "email": "informazioni@hidrodepur.it",
+   "phone": "+39 035 2682611",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.hidrodepur.it/",
+    "https://www.empresite.it/HIDRODEPUR-SPA.html",
+    "https://grantender.com/en/org/hidrodepur-s-p-a-o1jdzd83nq3kc"
+   ],
+   "language": "it",
+   "notes": "VAT 02122450162; PEC hidrodepurspa@pec.hidrodepur.it. Largest independent winner - priority partner for HERA. Email only on own site."
+  },
+  {
+   "company": "B&C Prodotti Chimici S.r.l. (Todisco Group)",
+   "country": "Italy",
+   "city": "Albignasego (Padova)",
+   "target_tenders": [
+    "acquevenete / Viveracqua (Veneto) coagulants",
+    "ETRA / Veritas ferric chloride & polymer tenders"
+   ],
+   "products": "Basic chemicals distribution incl. water-treatment (ferric chloride 40%, peracetic acid, acids/bases); 40,000 m2 storage, ADR fleet; 118 public wins (ETRA 16, Veritas 6, CADF 6)",
+   "tender_wins": [
+    {
+     "buyer": "A.ri.c.a. Aziende Riunite Collettore Acque",
+     "product": "Incarico Fornitura acido peracetico",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€10,560 ( awarded )",
+     "url": "https://grantender.com/en/tender/incarico-fornitura-acido-peracetico-t79dppj8uehma"
+    },
+    {
+     "buyer": "Veneziana Energia Risorse Idriche Territorio Ambiente Servizi SPA",
+     "product": "BS 366-26/BOM FORNITURA CLORURO FERRICO IN SOLUZIONE AL 40% P/P PER IMPIANTI DI POTABILIZZAZIONE",
+     "year": 2026,
+     "value": "€137,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/bs-366-26-bom-fornitura-cloruro-ferrico-in-soluzione-al-40-p-p-per-impianti-di-t0i27he2icf74"
+    },
+    {
+     "buyer": "Veneziana Energia Risorse Idriche Territorio Ambiente Servizi SPA",
+     "product": "BS 366-26/BOM Fornitura cloruro ferrico in soluzione al 40% p/p per impianti di potabilizzazione",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€137,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/bs-366-26-bom-fornitura-cloruro-ferrico-in-soluzione-al-40-p-p-per-impianti-di-t1eg7sb2lx7yn"
+    }
+   ],
+   "brands": "Todisco Group",
+   "site": "https://www.bcprodottichimici.it",
+   "email": "bcprodottichimici@pec.it (PEC; ordinary email not published)",
+   "phone": "+39 049 8629122",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.bcprodottichimici.it/contatti",
+    "https://www.bcprodottichimici.it/chi-siamo/",
+    "https://grantender.com/en/org/b-c-s-r-l-o83zexhvk165r"
+   ],
+   "language": "it",
+   "notes": "Strongest Veneto distributor (acquevenete territory). Only certified-mail (PEC) address published; phone from own site only."
+  },
+  {
+   "company": "S.ec.am. - Societa' Ecologica Ambiente S.r.l.",
+   "country": "Italy",
+   "city": "Ravenna (Via Vicoli 93/A)",
+   "target_tenders": [
+    "HERA S.p.A. (5 wins)",
+    "Veritas/acquevenete coagulants (sodium aluminate, Fe-Al defosfatante)",
+    "Eco-Center Bolzano #119 Fe/Al precipitant"
+   ],
+   "products": "Inorganic coagulants: aluminium chloride, sodium aluminate, mixed Fe/Al dephosphatants; 69 wins since 2024",
+   "tender_wins": [
+    {
+     "buyer": "Societa' Intercomunale Servizi Idrici S.R.L. Siglabile Sisi S.R.L.",
+     "product": "Servizio di fognatura e depurazione “Fornitura di Cloruro di Alluminio in soluzione al 5.5% per gli impianti di depurazione di Canove di Govone e di Santo Stefano Belbo”",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€37,688 ( awarded )",
+     "url": "https://grantender.com/en/tender/servizio-di-fognatura-e-depurazione-fornitura-di-cloruro-di-alluminio-in-t1r6r7nugl721"
+    },
+    {
+     "buyer": "Veneziana Energia Risorse Idriche Territorio Ambiente Servizi SPA",
+     "product": "BS 265-26/BOM Fornitura di alluminato di sodio in soluzione al 7,0 % di Al₂O₃ per il trattamento delle acque reflue urbane",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€429,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/bs-265-26-bom-fornitura-di-alluminato-di-sodio-in-soluzione-al-7-0-di-al2o3-per-t0pnqsqtpc3za"
+    }
+   ],
+   "brands": "own production (inorganic basic chemicals)",
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.creditsafe.com/business-index/en-gb/company/secam-societa-ecologica-ambiente-srl-it03445849",
+    "https://grantender.com/en/org/s-ec-am-societa-ecologica-ambiente-s-r-l-o6qw86aqclnia"
+   ],
+   "language": "it",
+   "notes": "VAT 01118170396. Contacts not public (Creditsafe locks phone). Small producer/blender - could buy AlCl3/PAC raw material from us."
+  },
+  {
+   "company": "Aquaprox Italia S.r.l.",
+   "country": "Italy",
+   "city": "Morolo (Frosinone); branches Padenghe sul Garda, Bari, Cargeghe (SS)",
+   "target_tenders": [
+    "ACEA Ato 2 / Viveracqua / A.S.A. polyelectrolyte tenders",
+    "CIIP #149",
+    "Valle Umbra Servizi #136"
+   ],
+   "products": "Cationic polyelectrolytes, sodium hypochlorite, water-treatment services; 58 wins (ACEA Ato2 6, A.S.A. 5, Viveracqua 5)",
+   "tender_wins": [
+    {
+     "buyer": "A.S.A. - Azienda Servizi Ambientali S.P.A.",
+     "product": "CONTRATTO DI APPALTO AD ESECUZIONE PERIODICA PER LA FORNITURA DI POLIELETTROLITA CATIONICO PER COMPARTO DISIDRATAZIONE DEI FANGHI PRESSO GLI IMPIANTI DI DEPURAZIONE DELLE ACQUE REFLUE DELLE ZONE OPERA",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€278,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/contratto-di-appalto-ad-esecuzione-periodica-per-la-fornitura-di-polielettrolita-t0xdzp9sjb9k5"
+    },
+    {
+     "buyer": "ACEA Ambiente SRL",
+     "product": "APPALTO 3744/FIE - LOTTO 16 - AQUAPROX ITALIA SRL - ACCORDO QUADRO PER LA FORNITURA DI PRODOTTI CHIMICI PER IL GRUPPO ACEA - QUANTITATIVO ANTISCHIUMA SILICONICO ENON SILICONICO",
+     "year": 2026,
+     "value": "€3,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/appalto-3744-fie-lotto-16-aquaprox-italia-srl-accordo-quadro-per-la-fornitura-di-t6bv5m74wcnkc"
+    },
+    {
+     "buyer": "ACEA Ato 2 S.P.A.",
+     "product": "Fornitura di n.2 polipreparatori in linea per il depuratore Roma Sud da affidare alla società Aquaprox Italia Srl",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€98,306 ( awarded )",
+     "url": "https://grantender.com/en/tender/fornitura-di-n-2-polipreparatori-in-linea-per-il-depuratore-roma-sud-da-affidare-t3uxv8i38f2xh"
+    }
+   ],
+   "brands": "Aquaprox group (FR) formulations",
+   "site": "https://aquaprox-italia.com",
+   "email": null,
+   "phone": "+39 0775 856505",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://aquaprox-italia.com/contattaci",
+    "https://grantender.com/en/org/aquaprox-italia-s-r-l-o331bbzfx2m4p"
+   ],
+   "language": "it",
+   "notes": "Subsidiary of French Aquaprox group (mid-size, not SNF/Kemira). Contact form only, no public email."
+  },
+  {
+   "company": "Casa Gaillard S.A.",
+   "country": "Spain",
+   "city": "Palma de Mallorca (Pol. Son Castello, C/ Gremi de Boters 29)",
+   "target_tenders": [
+    "EMAYA (Palma) chemical supply lots"
+   ],
+   "products": "Chemical distribution in the Balearics: water treatment (hydrated lime, sulphuric acid, non-critical chemicals), desalination chemicals; ISO-tank fleet from mainland",
+   "tender_wins": [
+    {
+     "buyer": "Consejo de Administración de EMAYA, Empresa Municipal d'Aigües i Clavegueram, S.A.",
+     "product": "Suministro de productos químicos de carácter no crítico para la explotación de las plantas de tratamiento de EMAYA",
+     "year": 2026,
+     "value": "€69,475 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-productos-quimicos-de-caracter-no-critico-para-la-explotacion-de-t23rkzxias83g"
+    },
+    {
+     "buyer": "Consejo de Administrción de la Empresa de Serveis del Municipi de Manacor",
+     "product": "L2520 Proquimics 26 plus",
+     "year": 2025,
+     "value": "€74,172 ( awarded )",
+     "url": "https://grantender.com/en/tender/l2520-proquimics-26-plus-t5eon4p514xdt"
+    },
+    {
+     "buyer": "Consejo de Administración de EMAYA, Empresa Municipal d'Aigües i Clavegueram, S.A.",
+     "product": "Suministro de hidróxido cálcico para EMAYA",
+     "year": 2026,
+     "value": "€151,200 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-hidroxido-calcico-para-emaya-t67n17v8v3lpi"
+    },
+    {
+     "buyer": "EMAYA",
+     "product": "27 EMAYA contracts since 2024 (GranTender ranking)",
+     "year": "2024-2026",
+     "url": "https://grantender.com/en/tenders/es/suppliers/topic/water-treatment-chemicals"
+    }
+   ],
+   "brands": null,
+   "site": "https://casagaillard.com",
+   "email": "casagaillard@casagaillard.com",
+   "phone": "+34 971 43 00 96",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://casagaillard.com/contacto/",
+    "https://www.cylex.es/marratxi/perfumer%C3%ADas.html",
+    "https://infonif.economia3.com/ficha-empresa/casa-gaillard-sa",
+    "https://www.iberinform.es/empresa/978825/casa-gaillard",
+    "https://www.gleif.org/lei/959800VF0SQEGQSF2V19",
+    "https://grantender.com/en/org/casa-gaillard-s-a-o831aoy6tlyn0"
+   ],
+   "language": "es",
+   "notes": "CIF A07110455, LEI 959800VF0SQEGQSF2V19, turnover EUR 3-6M. Phone 971430096 on Cylex, masked 971430*** on infonif (consistent). Incumbent at EMAYA - key partner for EMAYA lots."
+  },
+  {
+   "company": "Tesis Galicia, S.L.",
+   "country": "Spain",
+   "city": "Ponteareas (Pontevedra)",
+   "target_tenders": [
+    "EMAYA polyelectrolyte/coagulant lots (5 wins)",
+    "EMASESA / Andalusian utilities",
+    "ATL Barcelona"
+   ],
+   "products": "Own-produced and traded flocculants (polyelectrolytes), coagulants, cleaning chemicals; 78 wins since 2024 (ATL 5, AGASA 5, EMAYA 5)",
+   "tender_wins": [
+    {
+     "buyer": "Presidencia de Aguas y Saneamientos de la Axarquía, S.A.U.",
+     "product": "Suministro de 7.500 kg de polielectrolito sólido carga catiónica para deshidratado de la EDAR Vélez-Málaga",
+     "year": 2026,
+     "value": "€18,075 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-7-500-kg-de-polielectrolito-solido-carga-cationica-para-t4d2zac932x98"
+    },
+    {
+     "buyer": "Ens d'Abastament d'Aigua Ter-Llobregat (ATL)",
+     "product": "Sol·licitud d’oferta pel subministrament de 1500 kg de copolímer d’acrilamida catiònica sòlida pel tractament del fang procedent de la potabilització d’aigua a l’ETAP Ter d’ATL.",
+     "year": 2026,
+     "value": "€4,035 ( awarded )",
+     "url": "https://grantender.com/en/tender/sol-licitud-d-oferta-pel-subministrament-de-1500-kg-de-copolimer-d-acrilamida-t75s8mmrfnv3g"
+    },
+    {
+     "buyer": "Empresa Municipal Mixta d'Aigües de Tarragona, SA",
+     "product": "L'objecte del present contracte és el subministrament de polielectròlit i antiespumant per a les Edars gestionades per EMATSA, d’acord amb les característiques i condicions fixades al plec de condicio",
+     "year": 2026,
+     "value": "€106,725 ( awarded )",
+     "url": "https://grantender.com/en/tender/l-objecte-del-present-contracte-es-el-subministrament-de-polielectrolit-i-t4sl5r8uyfffz"
+    }
+   ],
+   "brands": "Iberklin (own)",
+   "site": "https://www.tesisgalicia.es",
+   "email": "comercial@tesisgalicia.es",
+   "phone": "+34 986 660 243",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.tesisgalicia.es/",
+    "https://www.paxinasgalegas.es/tesis-galicia-sl-produccion-126943em.html",
+    "https://grantender.com/en/org/tesis-galicia-s-l-o6uv24kcnsnwh"
+   ],
+   "language": "es",
+   "notes": "Buys PAM powder for repackaging - natural buyer of CN/IN polyacrylamide. Email from one directory only."
+  },
+  {
+   "company": "Chiemivall, S.L.",
+   "country": "Spain",
+   "city": "Castellbisbal (Barcelona); branch Parla (Madrid)",
+   "target_tenders": [
+    "EMASESA / Aguas de Huelva / Zona Gaditana reagent lots",
+    "PAC/coagulant lots (#129 PAC 10%/14%)"
+   ],
+   "products": "Activated carbon (powder/granular/pellet, own brand Carbent), water-treatment reagents; 37 wins (Zona Gaditana 4, EMA Malaga 2)",
+   "tender_wins": [
+    {
+     "buyer": "Consejo de Administración de la Empresa Municipal de Aguas de Córdoba, S.A.",
+     "product": "Suministro de diversos reactivos químicos",
+     "year": 2026,
+     "value": "€18,300 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-diversos-reactivos-quimicos-t1iv5isx0vnss"
+    },
+    {
+     "buyer": "Sociedad Aragonesa de Gestión Agroambiental, S.L.U. (SARGA)",
+     "product": "Suministro de carbón activo y bidones para los emplazamientos afectados por HCH en el T.M. de Sabiñánigo (Huesca). Lote 1: suministro de carbón activo para las depuradoras de Bailín, Barranco y Sardas",
+     "year": 2026,
+     "value": "€85,500 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-carbon-activo-y-bidones-para-los-emplazamientos-afectados-por-hch-t59t845trkplc"
+    },
+    {
+     "buyer": "Gerencia de Aguas de Huelva, S.A.",
+     "product": "Suministro de reactivos químicos para la gestión del ciclo integral del agua de la Ciudad de Huelva",
+     "year": 2026,
+     "value": "€121,200 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-reactivos-quimicos-para-la-gestion-del-ciclo-integral-del-agua-de-t0rifadran5y6"
+    }
+   ],
+   "brands": "Carbent (own)",
+   "site": "https://www.carbonactivo.com",
+   "email": "administracion@carbonactivo.com",
+   "phone": "+34 937 156 729",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://www.carbonactivo.com/contacto",
+    "https://empresite.eleconomista.es/CHIEMIVALL.html",
+    "https://www.axesor.es/Informes-Empresas/886867/CHIEMIVALL_SL.html",
+    "https://grantender.com/en/org/chiemivall-s-l-o735o83haw767"
+   ],
+   "language": "es",
+   "notes": "CIF B60892247, turnover EUR 6-30M, importer/exporter. Good outlet for CN/IN activated carbon and PAC."
+  },
+  {
+   "company": "Iberkemya",
+   "country": "Spain",
+   "city": "Sevilla area (tel. 854)",
+   "target_tenders": [
+    "EMASESA (Sevilla) reagents",
+    "Aguas de Huelva, ARCGISA, Zona Gaditana"
+   ],
+   "products": "Water-treatment reagents: cationic PAM, cationic starch ether, permanganate, acetic acid; 24 wins",
+   "tender_wins": [
+    {
+     "buyer": "Presidencia de Servicios de Montejurra, S.A.",
+     "product": "Suministro de ácido acético con destino a la EDAR de Estella-Lizarra",
+     "year": 2026,
+     "value": "€68,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-acido-acetico-con-destino-a-la-edar-de-estella-lizarra-t4n6pta1kprbt"
+    },
+    {
+     "buyer": "Consejo de Administración de la Empresa Municipal de Aguas de Córdoba, S.A.",
+     "product": "Suministro de diversos reactivos químicos",
+     "year": 2026,
+     "value": "€21,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-diversos-reactivos-quimicos-t1iv5isx0vnss"
+    },
+    {
+     "buyer": "Gerencia de Aguas de Huelva, S.A.",
+     "product": "Suministro de reactivos químicos para la gestión del ciclo integral del agua de la Ciudad de Huelva",
+     "year": 2026,
+     "value": "€166,500 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-reactivos-quimicos-para-la-gestion-del-ciclo-integral-del-agua-de-t0rifadran5y6"
+    }
+   ],
+   "brands": null,
+   "site": "https://iberkemya.com",
+   "email": "pedidos@iberkemya.com",
+   "phone": "+34 854 539 835",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://iberkemya.com/",
+    "https://grantender.com/en/org/iberkemya-o6or8ptryp2kz"
+   ],
+   "language": "es",
+   "notes": "Andalusian focus -> fit for EMASESA. Contacts from own site only; legal entity name/CIF not confirmed."
+  },
+  {
+   "company": "Servyeco Iberia, S.L.",
+   "country": "Spain",
+   "city": "Borriana (Castellon)",
+   "target_tenders": [
+    "EMAYA / EMASESA / ATL coagulant-flocculant lots"
+   ],
+   "products": "Manufactures water-treatment chemicals (PolyDADMAC, cationic starch, PAM); 21 wins (Zona Gaditana 4, ARCGISA 3, Taibilla)",
+   "tender_wins": [
+    {
+     "buyer": "Ens d'Abastament d'Aigua Ter-Llobregat (ATL)",
+     "product": "Subministrament de PoliDADMAC necessari per al procés de coagulació-floculació-decantació de l’aigua en el tractament de potabilització a l’ETAP Llobregat. El PoliDADMAC és un floculant que ajuda a le",
+     "year": "2024-2026 (date not shown on GranTender)",
+     "value": "€43,380 ( awarded )",
+     "url": "https://grantender.com/en/tender/subministrament-de-polidadmac-necessari-per-al-proces-de-coagulacio-floculacio-t1a6vfd0oiinu"
+    },
+    {
+     "buyer": "Consejería Delegada de Agua y Residuos del Campo de Gibraltar, S.A. (ARCGISA)",
+     "product": "Suministro de almidón éter catiónico, poliacrilamida catiónica soluble en agua, permanganato potásico, carbón activo e hipoclorito sódico para el tratamiento y potabilización del agua en las instalaci",
+     "year": 2026,
+     "value": "€75,075 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-almidon-eter-cationico-poliacrilamida-cationica-soluble-en-agua-t6ctlxfrh1l55"
+    }
+   ],
+   "brands": "Servyeco Chemicals (own)",
+   "site": "https://servyecochemicals.com",
+   "email": "info@servyeco.com",
+   "phone": "+34 964 257 495",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://servyecochemicals.com/",
+    "https://empresite.eleconomista.es/SERVIECOLOGIA-TRATAMIENTO-AGUAS.html",
+    "https://grantender.com/en/org/servyeco-iberia-sl-o79b634f9yzu2"
+   ],
+   "language": "es",
+   "notes": "CIF B12484234, 48 staff. Formulator - buys PAM/PAC/DADMAC raw materials."
+  },
+  {
+   "company": "Quimica del Centro, S.A.U. (QUICESA)",
+   "country": "Spain",
+   "city": "Guadalajara",
+   "target_tenders": [
+    "municipal hypochlorite / pool chemicals; EMASESA/EMAYA hypochlorite lots"
+   ],
+   "products": "Manufactures pool & water-treatment chemicals (hypochlorite, TCCA, flocculants); 154 wins (Madrid city 18, Zaragoza 6)",
+   "tender_wins": [
+    {
+     "buyer": "Jefatura de Intendencia de Asuntos Económicos Sur",
+     "product": "CM Suministro de productos químicos para fase de preparación OP. OMP OTAN-FLF-ESLOVAQUIA, Base Álvarez de Sotomayor (Viator - Almería)",
+     "year": 2026,
+     "value": "€13,869 ( awarded )",
+     "url": "https://grantender.com/en/tender/cm-suministro-de-productos-quimicos-para-fase-de-preparacion-op-omp-otan-flf-t2b1k149f0u29"
+    },
+    {
+     "buyer": "Jefatura de Intendencia de Asuntos Económicos Sur",
+     "product": "Suministro de hipoclorito sódico para desinfección de agua de consumo y agua de piscinas de la Base Cerro Muriano, Córdoba",
+     "year": 2026,
+     "value": "€12,396 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-hipoclorito-sodico-para-desinfeccion-de-agua-de-consumo-y-agua-de-t4hmuxep1n4lu"
+    },
+    {
+     "buyer": "Área de Gobierno de Vicealcaldía, Portavoz, Seguridad y Emergencias del Ayuntamiento de Madrid",
+     "product": "Suministro de productos químicos y de análisis y medición de los parámetros de las piscinas de los centros deportivos municipales del Distrito de Ciudad Lineal.",
+     "year": 2026,
+     "value": "€66,000 ( awarded )",
+     "url": "https://grantender.com/en/tender/suministro-de-productos-quimicos-y-de-analisis-y-medicion-de-los-parametros-de-t5nz4qb8m4l1s"
+    }
+   ],
+   "brands": "Quicesa, Luminia",
+   "site": "https://quicesa.com",
+   "email": "contacto@quicesa.com",
+   "phone": "+34 949 22 45 50",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://quicesa.com/contacto/",
+    "https://empresite.eleconomista.es/QUIMICA-CENTRO.html",
+    "https://grantender.com/en/org/quimica-del-centro-s-a-u-o6ni0cxsnr5k5"
+   ],
+   "language": "es",
+   "notes": "CIF A19002039, turnover >EUR 30M. Phone partially masked (949224...) on Empresite, full on own site. More pool than utility."
+  },
+  {
+   "company": "STOCKMEIER Chemia Sp. z o.o. Sp.k.",
+   "country": "Poland",
+   "city": "Poznan (Obornicka 277)",
+   "target_tenders": [
+    "Aquanet Poznan #45 emulsion flocculant",
+    "MPWiK Warszawa / ZWiK Szczecin coagulants",
+    "Gdansk #117 PAC / ferric sulphate"
+   ],
+   "products": "Basic chemicals for water/wastewater: NaOH 50%, HCl, H2SO4, coagulants; wins at MPWiK Warszawa (2), ZWiK Szczecin",
+   "tender_wins": [
+    {
+     "buyer": "Miejskie Przedsiębiorstwo Gospodarki Odpadami spółka z ograniczoną odpowiedzialnością",
+     "product": "Kompleksowa dostawa wodorotlenku sodu 50% na potrzeby Miejskiego Przedsiębiorstwa Gospodarki Odpadami Sp. z o.o. w Sosnowcu.",
+     "year": 2026,
+     "value": "PLN 177,120 (≈ €40,769) ( awarded )",
+     "url": "https://grantender.com/en/tender/kompleksowa-dostawa-wodorotlenku-sodu-50-na-potrzeby-miejskiego-przedsiebiorstwa-t2uj176rvfv72"
+    },
+    {
+     "buyer": "Sieć Badawcza Łukasiewicz – Instytut Metali Nieżelaznych",
+     "product": "Dostawy kwasu chlorowodorowego",
+     "year": 2026,
+     "value": "PLN 212,175 (≈ €48,838) ( awarded )",
+     "url": "https://grantender.com/en/tender/dostawy-kwasu-chlorowodorowego-t15ct4qa043fk"
+    },
+    {
+     "buyer": "Częstochowskie Przedsiębiorstwo Komunalne spółka z ograniczoną odpowiedzialnością",
+     "product": "Zakup stężonego kwasu siarkowego i dostawa do Częstochowskiego Przedsiębiorstwa Komunalnego Sp. z o.o. w Sobuczynie",
+     "year": 2025,
+     "value": "PLN 201,474 (≈ €47,521) ( awarded )",
+     "url": "https://grantender.com/en/tender/zakup-stezonego-kwasu-siarkowego-i-dostawa-do-czestochowskiego-przedsiebiorstwa-t5l7em6gv2e63"
+    }
+   ],
+   "brands": "Stockmeier Group (DE, family-owned)",
+   "site": "https://pl.stockmeier.com",
+   "email": "zamowienia@stockmeier.pl",
+   "phone": "+48 61 666 10 66",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://pl.stockmeier.com/kontakt",
+    "https://pl.stockmeier.com/o-nas",
+    "https://grantender.com/en/org/stockmeier-chemia-spolka-z-ograniczona-odpowiedzialnoscia-i-spolka-spolka-o3miutkuswnrn"
+   ],
+   "language": "pl",
+   "notes": "Same city as Aquanet. Basic-chemicals manager: Wojciech Gonet w.gonet@stockmeier.pl +48 502 061 666 (own site). Mid-size German group, not Brenntag/Univar."
+  },
+  {
+   "company": "ACES Sp. z o.o.",
+   "country": "Poland",
+   "city": "Gdynia (ul. Legionow 69)",
+   "target_tenders": [
+    "MPWiK Warszawa #82 powdered activated carbon (PWA)",
+    "Gdansk utilities (Pomorskie)"
+   ],
+   "products": "Activated carbon (powder, granular, Sorbotech), filter media, carbon filters; 29 contracts PL+CZ",
+   "tender_wins": [
+    {
+     "buyer": "Górnośląskie Przerdsiębiorstwo Wodociągów S.A.",
+     "product": "Dostawa nowego węgla aktywnego pylistego w ilości 44,4 ton.",
+     "year": 2026,
+     "value": "PLN 293,040 (≈ €67,451) ( awarded )",
+     "url": "https://grantender.com/en/tender/dostawa-nowego-wegla-aktywnego-pylistego-w-ilosci-44-4-ton-t48c4toe0kc5j"
+    }
+   ],
+   "brands": "Sorbotech (own)",
+   "site": "https://www.aces.pl",
+   "email": "aces@aces.pl",
+   "phone": "+48 58 622 63 50",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.aces.pl/",
+    "https://www.aces.pl/?page=contact_form",
+    "https://grantender.com/en/org/aces-sp-z-o-o-o0bfk1s6cuh9y"
+   ],
+   "language": "pl",
+   "notes": "KRS 0000848394, NIP 5862289573 (GranTender matches site NIP). Won GPW powdered carbon 44.4 t (2026). Imports carbon - good fit for CN coal-based PAC."
+  },
+  {
+   "company": "Grand Activated Sp. z o.o.",
+   "country": "Poland",
+   "city": "Hajnowka (plant); Warsaw region",
+   "target_tenders": [
+    "MPWiK Warszawa #82 powdered activated carbon"
+   ],
+   "products": "Activated carbon production & regeneration; won MPWiK carbon-filter reactivation PLN 10.4M (2026)",
+   "tender_wins": [
+    {
+     "buyer": "Miejskie Przedsiębiorstwo Oczyszczania w M. St. Warszawie spółka z ograniczoną odpowiedzialnością",
+     "product": "Zakup i dostawa substancji chemicznych do instalacji termicznego przekształcania odpadów",
+     "year": 2026,
+     "value": "PLN 1,090,000 (≈ €250,892) ( awarded )",
+     "url": "https://grantender.com/en/tender/zakup-i-dostawa-substancji-chemicznych-do-instalacji-termicznego-przeksztalcania-t8kzblbabd62n"
+    },
+    {
+     "buyer": "Wodociągi Białostockie Sp. z o.o.",
+     "product": "Usługa regeneracji węgla aktywnego WG-12 będącego wypełnieniem czterech komór filtrów węglowych na SUW Pietrasze",
+     "year": 2026,
+     "value": "—",
+     "url": "https://grantender.com/en/tender/usluga-regeneracji-wegla-aktywnego-wg-12-bedacego-wypelnieniem-czterech-komor-t3fy70hv03zc5"
+    },
+    {
+     "buyer": "Miejskie Przedsiębiorstwo Wodociągów i Kanalizacji Spółka Akcyjna",
+     "product": "Wykonanie usługi polegającej na przywróceniu właściwości sorpcyjnych filtrów węglowych w Zakładach Produkcji Wody",
+     "year": 2026,
+     "value": "PLN 10,401,077 (≈ €2,394,079) ( awarded )",
+     "url": "https://grantender.com/en/tender/wykonanie-uslugi-polegajacej-na-przywroceniu-wlasciwosci-sorpcyjnych-filtrow-t81i6kn27t56i"
+    }
+   ],
+   "brands": "own",
+   "site": "https://grand-activated.pl",
+   "email": "trade@grand-activated.pl",
+   "phone": "+48 695 396 087",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://grand-activated.pl/",
+    "https://grantender.com/en/org/grand-activated-sp-z-o-o-o16u33wbs7pjg"
+   ],
+   "language": "pl",
+   "notes": "Producer/regenerator - partner for PWA lots where it lacks powder grades. Contacts from own site only."
+  },
+  {
+   "company": "Chemi Kam Sp. z o.o.",
+   "country": "Poland",
+   "city": "Bedzin (ul. Barlickiego 26)",
+   "target_tenders": [
+    "municipal coagulant / hypochlorite lots (Silesia, Warsaw)"
+   ],
+   "products": "Coagulants, sodium hypochlorite, pool chemicals, HCl/HNO3; 27 wins (#3 in PL water-treatment chemicals)",
+   "tender_wins": [
+    {
+     "buyer": "Miasto Stołeczne Warszawa - Stołeczne Centrum Sportu AKTYWNA WARSZAWA Jednostka Budżetowa",
+     "product": "Zakup i dostawa chemii basenowej do uzdatniania wody w Ośrodkach Stołecznego Centrum Sportu Aktywna Warszawa",
+     "year": 2026,
+     "value": "PLN 229,163 (≈ €52,748) ( awarded )",
+     "url": "https://grantender.com/en/tender/zakup-i-dostawa-chemii-basenowej-do-uzdatniania-wody-w-osrodkach-stolecznego-t3nt8wpr6tmpf"
+    },
+    {
+     "buyer": "Mokotowska Fundacja Warszawianka Wodny-Park",
+     "product": "Dostawa środków chemicznych do uzdatniania wody basenowej w obiekcie Mokotowskiej Fundacji Warszawianka - Wodny Park w 2026r.",
+     "year": 2025,
+     "value": "PLN 156,817 (≈ €36,988) ( awarded )",
+     "url": "https://grantender.com/en/tender/dostawa-srodkow-chemicznych-do-uzdatniania-wody-basenowej-w-obiekcie-t03jqmxlbxc4a"
+    },
+    {
+     "buyer": "Gmina Kielce Miejski Ośrodek Sportu i Rekreacji w Kielcach",
+     "product": "Dostawy środków do uzdatniania wody w basenach pływalni MOSIR w roku 2026",
+     "year": 2025,
+     "value": "PLN 65,244 (≈ €15,389) ( contract )",
+     "url": "https://grantender.com/en/tender/dostawy-srodkow-do-uzdatniania-wody-w-basenach-plywalni-mosir-w-roku-2026-t8encl38o8dp2"
+    }
+   ],
+   "brands": "distributor (Barlon detergents etc.)",
+   "site": "https://chemikam.pl",
+   "email": "biuro@chemikam.pl",
+   "phone": "+48 32 760 20 10",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://chemikam.pl/kontakt",
+    "https://panoramafirm.pl/%C5%9Bl%C4%85skie,b%C4%99dzi%C5%84ski,b%C4%99dzin,barlickiego,26/chemi_kam_sp._z_o.o.-sfsnaz_tbz.html",
+    "https://grantender.com/en/org/chemi-kam-sp-z-o-o-o2jcuksu6601d"
+   ],
+   "language": "pl",
+   "notes": "NIP 6252391380. Second email chemikam@wp.pl appears on both sources; phone prefix (32) 760... confirmed (Panorama Firm masks digits). Mostly pool/municipal - smaller lots."
+  },
+  {
+   "company": "Hidrofilt Vizkezelest Tervezo es Kivitelezo Kft.",
+   "country": "Hungary",
+   "city": "Nagykanizsa (Magyar u. 191); office Erd",
+   "target_tenders": [
+    "FCSM Budapest #135 polyelectrolyte (as chemical supplier)",
+    "Budapest Gyogyfurdoi #29 scale inhibitor"
+   ],
+   "products": "Water-treatment plants + chemicals from stock (Paks NPP make-up-water chemicals 2025-27, HUF 109M); revenue HUF 12.2bn, 179 staff",
+   "tender_wins": [
+    {
+     "buyer": "MVM Paksi Atomerőmű Zártkörűen Működő Részvénytársaság",
+     "product": "Pótvíz-előkészítő vegyszerek száll. (2025-2027)",
+     "year": 2026,
+     "value": "HUF 109,381,000 (≈ €299,731) ( awarded )",
+     "url": "https://grantender.com/en/tender/potviz-elokeszito-vegyszerek-szall-2025-2027-t40vq9if8ce8f"
+    }
+   ],
+   "brands": null,
+   "site": "https://hidrofilt.com",
+   "email": "info@hidrofilt.hu",
+   "phone": "+36 93 536 500",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://hidrofilt.com/hu/kapcsolat",
+    "https://bern.mfa.gov.hu/storage/9bd1c388-647d-4dbd-9a3d-99b231341e21/attachments/pyKM7mJctEO6VKpxJKBR1BJd77FMtKYOXwYODBPK.pdf",
+    "https://www.companywall.hu/v%C3%A1llalat/hidrofilt-kft/MMG4jsbC",
+    "https://grantender.com/en/org/hidrofilt-vizkezelest-tervezo-es-kivitelezo-kft-o56ussy3kn86n"
+   ],
+   "language": "hu",
+   "notes": "Tax 10322978-2-20. Chemical sales: Klara Borsosne Nith nith.k@hidrofilt.hu +36 30 983 2017. Also offices in PL/SK."
+  },
+  {
+   "company": "Dinax Vizkezelesi Kft",
+   "country": "Hungary",
+   "city": "Budapest",
+   "target_tenders": [
+    "Budapest Gyogyfurdoi es Hevizei Zrt #29 scale inhibitor (ScaleKem 53L eq.)"
+   ],
+   "products": "Pool & spa water-treatment chemicals, scale inhibitors; incumbent at Budapest Gyogyfurdoi (3 contracts)",
+   "tender_wins": [
+    {
+     "buyer": "Budapest Gyógyfürdői és Hévizei Zrt.",
+     "product": "Uszodavegyszerek beszerzése - 2023",
+     "year": 2023,
+     "value": "HUF 10,000,000 (≈ €26,188) ( contract )",
+     "url": "https://grantender.com/en/tender/uszodavegyszerek-beszerzese-2023-t1wtdhd5s5qsl"
+    },
+    {
+     "buyer": "Budapest Gyógyfürdői és Hévizei Zrt.",
+     "product": "Vízminőségőrző- és vízkezelő vegyszerek 2024",
+     "year": 2024,
+     "value": "HUF 18,000,000 (≈ €45,535) ( contract )",
+     "url": "https://grantender.com/en/tender/vizminosegorzo-es-vizkezelo-vegyszerek-2024-t5urqj5ixjbhq"
+    },
+    {
+     "buyer": "Miskolci Fürdők Korlátolt Felelősségű Társaság",
+     "product": "USZODAVEGYSZEREK BESZERZÉSE 2023",
+     "year": 2024,
+     "value": "HUF 21,577,896 (≈ €54,586) ( awarded )",
+     "url": "https://grantender.com/en/tender/uszodavegyszerek-beszerzese-2023-t05woiwslo6eh"
+    }
+   ],
+   "brands": null,
+   "site": "https://dinax.hu",
+   "email": "dinax@dinax.hu (sales: ertekesites@dinax.hu)",
+   "phone": "+36 1 403 0937",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://dinax.hu/",
+    "https://grantender.com/en/org/dinax-vizkezelesi-kft-o1yf1fccfbdoo"
+   ],
+   "language": "hu",
+   "notes": "Direct incumbent for tender #29. Contacts from own site only."
+  },
+  {
+   "company": "Donauchem Vegyianyag Kereskedelmi Kft.",
+   "country": "Hungary",
+   "city": "Budapest",
+   "target_tenders": [
+    "Fovarosi Vizmuvek / FCSM coagulants",
+    "Debreceni Vizmu ferric chloride"
+   ],
+   "products": "Chemical distribution: FeCl3 solution, activated carbon, wastewater chemicals; #1 HU winner (Fovarosi Vizmuvek 4, DRV 6)",
+   "tender_wins": [
+    {
+     "buyer": "ÉRV. Északmagyarországi Regionális Vízművek Zártkörűen Működő Részvénytársaság",
+     "product": "Szennyvízvegyszerek beszerzése 3 részben",
+     "year": 2026,
+     "value": "HUF 2,391,552 (≈ €6,553) ( awarded )",
+     "url": "https://grantender.com/en/tender/szennyvizvegyszerek-beszerzese-3-reszben-t8ql6qk8rl0v3"
+    },
+    {
+     "buyer": "Debreceni Vízmű Zártkörűen működő Részvénytársaság",
+     "product": "Vas(III)klorid oldat beszerzése – DBR/1",
+     "year": 2026,
+     "value": "HUF 82,055,000 (≈ €224,851) ( awarded )",
+     "url": "https://grantender.com/en/tender/vas-iii-klorid-oldat-beszerzese-dbr-1-t6dy80fns2pe9"
+    },
+    {
+     "buyer": "Dunántúli Regionális Vízmű Zártkörűen Működő Részvénytársaság",
+     "product": "DRV aktívszén beszerzése 2026-II",
+     "year": 2026,
+     "value": "€151,000 ( contract )",
+     "url": "https://grantender.com/en/tender/drv-aktivszen-beszerzese-2026-ii-t3rkguadle9pn"
+    }
+   ],
+   "brands": "Donau Chemie group (AT)",
+   "site": "https://www.donauchem.hu",
+   "email": "iroda@donauchem.hu",
+   "phone": "+36 1 207 8000",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.donauchem.hu/",
+    "https://grantender.com/en/org/donauchem-vegyianyag-kereskedelmi-kft-o1hs2h8ge6wqt"
+   ],
+   "language": "hu",
+   "notes": "Mid-size Austrian family group (not Brenntag/Kemira). Contacts from own site only."
+  },
+  {
+   "company": "UNICHEM Vegyipari, Kereskedelmi, Szolgaltato Kft.",
+   "country": "Hungary",
+   "city": "Kistelek (plant); sales office Siofok",
+   "target_tenders": [
+    "FCSM #135 polyelectrolyte",
+    "regional waterworks coagulants"
+   ],
+   "products": "Produces inorganic coagulants, traded organic polyelectrolytes; wins at ERV/Alfoldviz (drinking-water chemicals, FeCl3/Fe2(SO4)3, KMnO4)",
+   "tender_wins": [
+    {
+     "buyer": "ÉRV. Északmagyarországi Regionális Vízművek Zártkörűen Működő Részvénytársaság",
+     "product": "Szennyvíz vegyszerek a Kiskunvíz Kft. részére",
+     "year": 2026,
+     "value": "HUF 26,006,400 (≈ €71,264) ( awarded )",
+     "url": "https://grantender.com/en/tender/szennyviz-vegyszerek-a-kiskunviz-kft-reszere-t7hazzn98hp55"
+    },
+    {
+     "buyer": "ÉRV. Északmagyarországi Regionális Vízművek Zártkörűen Működő Részvénytársaság",
+     "product": "Ivóvíz vegyszerek beszerzése a FV részére_2026",
+     "year": 2026,
+     "value": "HUF 28,890,000 (≈ €79,166) ( awarded )",
+     "url": "https://grantender.com/en/tender/ivoviz-vegyszerek-beszerzese-a-fv-reszere-2026-t08h6al5w27pw"
+    },
+    {
+     "buyer": "ÉRV. Északmagyarországi Regionális Vízművek Zártkörűen Működő Részvénytársaság",
+     "product": "Vas(III)-klorid és Vas(III)-szulfát Alföldvíz Zrt.",
+     "year": 2026,
+     "value": "HUF 11,810,000 (≈ €32,362) ( awarded )",
+     "url": "https://grantender.com/en/tender/vas-iii-klorid-es-vas-iii-szulfat-alfoldviz-zrt-t14sfwlk0p7qy"
+    }
+   ],
+   "brands": null,
+   "site": "https://unichem.hu",
+   "email": null,
+   "phone": "+36 62 259 421",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://unichem.hu/hu/kapcsolat",
+    "https://unichem.hu/en/about/company-information",
+    "https://grantender.com/en/org/unichem-vegyipari-kereskedelmi-szolgaltato-kft-o2rk98t667z6z"
+   ],
+   "language": "hu",
+   "notes": "Reg. Cg. 06-09-000637, tax 10429635. Email obfuscated on site (not invented). Sales engineer Marcell Majer +36 30 500 6284."
+  },
+  {
+   "company": "Voda Nordic Oy",
+   "country": "Finland",
+   "city": null,
+   "target_tenders": [
+    "Jyvaskyla Nenainniemi #118 liquid PAC (local warehouse requirement)"
+   ],
+   "products": "Waterworks & precipitation chemicals (ferrous sulphate, coagulants); 8 public contracts 2024-26",
+   "tender_wins": [
+    {
+     "buyer": "Sansia Oy",
+     "product": "Vesilaitoskemikaalit, Kuopion Vesi Oy",
+     "year": 2026,
+     "value": "—",
+     "url": "https://grantender.com/en/tender/vesilaitoskemikaalit-kuopion-vesi-oy-t0yau3wcn6hh4"
+    },
+    {
+     "buyer": "Imatran kaupunki",
+     "product": "Vesilaitoskemikaalien hankinta Imatralla 2026",
+     "year": 2026,
+     "value": "—",
+     "url": "https://grantender.com/en/tender/vesilaitoskemikaalien-hankinta-imatralla-2026-t5xswajbcg8u9"
+    },
+    {
+     "buyer": "Pieksämäen kaupunki",
+     "product": "Pieksämäen Vesi Oy:n Ferrosulfaatti hankinta 583566 / 2025",
+     "year": 2026,
+     "value": "€179 ( awarded )",
+     "url": "https://grantender.com/en/tender/pieksamaen-vesi-oy-n-ferrosulfaatti-hankinta-583566-2025-t2vkcwpddizfs"
+    }
+   ],
+   "brands": null,
+   "site": "https://vodanordic.fi",
+   "email": "myynti@vodanordic.com",
+   "phone": "+358 40 631 7172",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://vodanordic.fi/",
+    "https://grantender.com/en/org/voda-nordic-oy-o7t51iv9ma3wv"
+   ],
+   "language": "fi",
+   "notes": "Y-tunnus 2575378-9. Won Tampere Keskuspuhdistamo precipitation chemicals 2025. Has Finnish stock - can satisfy Jyvaskyla local-warehouse clause."
+  },
+  {
+   "company": "Orikem Oy",
+   "country": "Finland",
+   "city": null,
+   "target_tenders": [
+    "Jyvaskyla #118 PAC"
+   ],
+   "products": "WWTP, waterworks and pool chemicals (Lappeenranta 2025)",
+   "tender_wins": [
+    {
+     "buyer": "Lappeenrannan kaupunki",
+     "product": "Puhdistamo-, vesilaitos- ja uimahallikemikaalit",
+     "year": 2025,
+     "value": "—",
+     "url": "https://grantender.com/en/tender/puhdistamo-vesilaitos-ja-uimahallikemikaalit-t2fm29c8k0v9q"
+    }
+   ],
+   "brands": null,
+   "site": "https://orikem.fi",
+   "email": "myynti@orikem.fi",
+   "phone": "+358 40 631 5460",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://orikem.fi/",
+    "https://grantender.com/en/org/orikem-oy-o5mqdpk514188"
+   ],
+   "language": "fi",
+   "notes": "Y-tunnus 2260568-4. Contacts own site only."
+  },
+  {
+   "company": "Suomen Prosessikemia Oy",
+   "country": "Finland",
+   "city": null,
+   "target_tenders": [
+    "Jyvaskyla #118 PAC"
+   ],
+   "products": "Waterworks chemicals (Kuopion Vesi via Sansia 2026)",
+   "tender_wins": [
+    {
+     "buyer": "Sansia Oy",
+     "product": "Vesilaitoskemikaalit, Kuopion Vesi Oy",
+     "year": 2026,
+     "value": "—",
+     "url": "https://grantender.com/en/tender/vesilaitoskemikaalit-kuopion-vesi-oy-t0yau3wcn6hh4"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://grantender.com/en/org/suomen-prosessikemia-oy-o64z7zksbkuwn"
+   ],
+   "language": "fi",
+   "notes": "Y-tunnus 2496307-1. Contacts not found (site not resolvable)."
+  },
+  {
+   "company": "NovoChem Oy",
+   "country": "Finland",
+   "city": null,
+   "target_tenders": [
+    "Jyvaskyla #118 PAC"
+   ],
+   "products": "Waterworks chemicals, methanol for WWTP denitrification (HSY, Hameenlinnan Seudun Vesi)",
+   "tender_wins": [
+    {
+     "buyer": "Hämeenlinnan Seudun Vesi Oy",
+     "product": "Vesilaitoskemikaalit",
+     "year": 2025,
+     "value": "—",
+     "url": "https://grantender.com/en/tender/vesilaitoskemikaalit-t2qn29b0khsj3"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://grantender.com/en/org/novochem-oy-o57xk1dtb81cc"
+   ],
+   "language": "fi",
+   "notes": "Y-tunnus 2379271-7. Contacts not found."
+  },
+  {
+   "company": "NEO-PREN SARL",
+   "country": "Cameroon",
+   "city": "Douala",
+   "target_tenders": [
+    "CAMWATER AONO 2026 (12 lots, deadline 07.12.2026)"
+   ],
+   "products": "Water-treatment chemicals for CAMWATER",
+   "tender_wins": [
+    {
+     "buyer": "CAMWATER",
+     "product": "Produits chimiques de traitement d'eau potable, AONO 000013/2023 - Lot 3 (1,398,785,209 FCFA) and Lot 4 (1,398,870,473 FCFA)",
+     "year": 2024,
+     "url": "https://armp.cm/details?type_publication=DEC-ATTR&id_publication=16524"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://armp.cm/details?type_publication=DEC-ATTR&id_publication=16524"
+   ],
+   "language": "fr",
+   "notes": "Won 2 lots in 2024 (Decision 1900/CW/DG/CIPM/2024) but not in 2026 - motivated to re-qualify. No online contacts; obtain via CAMWATER DAJM/ARMP or visit in Douala."
+  },
+  {
+   "company": "Royal Chimie S.A.",
+   "country": "Cameroon",
+   "city": "Douala (Rue 1.810, Bonateki-Deido)",
+   "target_tenders": [
+    "CAMWATER AONO 2026 (needs CAMWATER-type references - verify)",
+    "communal water boards"
+   ],
+   "products": "Importer of chemicals & agro-chemicals; water-treatment consumables: aluminium sulphate, calcium hypochlorite, filter sand, activated carbon; brand ROY-CHIM",
+   "tender_wins": [],
+   "brands": "ROY-CHIM (own); Corteva (agro)",
+   "site": "https://royalchimie-phyto.cm",
+   "email": "info@royalchimie-phyto.cm (alt. royal.chimie@gmail.com)",
+   "phone": "+237 233 47 15 35",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://royalchimie-phyto.cm/secteur-activites/produits-chimiques-et-industriels",
+    "https://www.exportgenius.in/cameroon-import-hs-code-282810000000"
+   ],
+   "language": "fr",
+   "notes": "No CAMWATER award found; listed as Ca-hypochlorite importer (ExportGenius 2025-26). CAMWATER requires prior utility references -> best as sub-supplier to a winner."
+  },
+  {
+   "company": "Petroseal 2010",
+   "country": "Malawi",
+   "city": "Blantyre (not confirmed)",
+   "target_tenders": [
+    "Lilongwe Water Board LWB-WTC-2601 (Ca hypochlorite 60 t, coagulant 134.4 t; deadline 20.11.2026)",
+    "Blantyre Water Board chlorine"
+   ],
+   "products": "Liquid chlorine supply",
+   "tender_wins": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "Supply and delivery of liquid chlorine BWB/LIQUID CHLORINE/2021/1 - MK 63,547,705",
+     "year": 2022,
+     "url": "https://www.bwb.mw/Downloads/bwb_notifs_int_cont_award_20_may_2022.pdf"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.bwb.mw/Downloads/bwb_notifs_int_cont_award_20_may_2022.pdf"
+   ],
+   "language": "en",
+   "notes": "Contacts not found online."
+  },
+  {
+   "company": "Synergy Chemicals Ltd",
+   "country": "Mauritius",
+   "city": null,
+   "target_tenders": [
+    "CWA Mauritius #107 liquid polyelectrolyte (national, deadline 02.12.2026)"
+   ],
+   "products": "Distributor/procurement agent; states procurement services for CWA and CEB; represents Chinese/Indian/Turkish/GCC suppliers",
+   "tender_wins": [
+    {
+     "buyer": "Central Water Authority (client list in company profile)",
+     "product": "procurement/supply services (no specific award notice found)",
+     "year": null,
+     "url": "https://synergychems.com/pdf/COMPANY%20PROFILE%20-SYNERGY%20CHEMICALS%20LTD.pdf"
+    }
+   ],
+   "brands": null,
+   "site": "https://synergychems.com",
+   "email": "rodney@synergychems.com",
+   "phone": "+230 5723 2504",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://synergychems.com/",
+    "https://synergychems.com/pdf/COMPANY%20PROFILE%20-SYNERGY%20CHEMICALS%20LTD.pdf"
+   ],
+   "language": "en",
+   "notes": "Explicitly positions itself as representative of CN/IN/TR factories and CWA supplier - closest fit to our model. Self-declared, not an award notice."
+  },
+  {
+   "company": "Chem-Plus Ltd",
+   "country": "Mauritius",
+   "city": "Pamplemousses (Morc. St Andre, Plaine des Papayes)",
+   "target_tenders": [
+    "CWA #107 polyelectrolyte"
+   ],
+   "products": "Specialty chemicals incl. water treatment (coagulants, flocculants, disinfection, pH, scale control); 20+ years",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://chem-plus-industries.com",
+   "email": "info@chemplusltd.com",
+   "phone": "+230 261 3100",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://chem-plus-industries.com/",
+    "https://www.go4worldbusiness.com/suppliers/mauritius/chemicals-allied-products"
+   ],
+   "language": "en",
+   "notes": "No CWA award found online (CWA awards not public without e-Procurement login)."
+  },
+  {
+   "company": "Blychem Ltd (IBL Group)",
+   "country": "Mauritius",
+   "city": "Riche Terre (IBL Business Park)",
+   "target_tenders": [
+    "CWA #107 polyelectrolyte"
+   ],
+   "products": "Industrial water treatment, pool chemicals, hygiene, crop protection; 10 outlets",
+   "tender_wins": [],
+   "brands": "Chemviron, Ecolab, Evoqua, ALM International, Proquimia, Microdos",
+   "site": "https://www.blychem.mu",
+   "email": "info@blychem.mu",
+   "phone": "+230 203 9350",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.blychem.mu/"
+   ],
+   "language": "en",
+   "notes": "Large local group member; represents Ecolab/Chemviron - may resist non-brand products but has CWA-grade logistics."
+  },
+  {
+   "company": "Metsi Chem International (Pty) Ltd",
+   "country": "South Africa",
+   "city": "Boksburg / Kempton Park (Gauteng)",
+   "target_tenders": [
+    "ERWAT #131 calcium hypochlorite solution (deadline 10.12.2026)",
+    "Gamagara #68",
+    "uMzinyathi #138/#139",
+    "Nkomazi #57"
+   ],
+   "products": "Black-owned (est. 2001) water-treatment chemicals: flocculants, coagulants, disinfection (NCP Chlorchem distributor), pH correction, dosing equipment",
+   "tender_wins": [
+    {
+     "buyer": "Ekurhuleni Water Care Company (ERWAT)",
+     "product": "ERW2401/01 supply, delivery & off-loading of wastewater treatment chemicals - R184,583,644",
+     "year": 2024,
+     "url": "https://www.tenders-sa.org/sa-tenders/awarded/erw2401-01-appointment-of-service-providers-for-the-supply-delivery-off-loading-of-wastewater-treatm-cmlnt6nue0ot6la04n9uq2ruj"
+    },
+    {
+     "buyer": "Magareng LM",
+     "product": "TECH01/2026/27 water & wastewater chemicals - bidder R475,311",
+     "year": 2026,
+     "url": "https://magareng.gov.za/index.php/notices?download=431:tender-closing-water-chemicals"
+    }
+   ],
+   "brands": "NCP Chlorchem",
+   "site": "https://www.metsichem.co.za",
+   "email": null,
+   "phone": "+27 11 921 3418",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://m2north.com/companies/metsicheminter/kemptonpark",
+    "https://www.metsichem.co.za/whoweare",
+    "https://www.zoominfo.com/c/metsi-chem-international/461233826",
+    "https://chemdmart.com/company-profile/metsi-chem-international-pty-ltd"
+   ],
+   "language": "en",
+   "notes": "Incumbent ERWAT supplier - top priority for ERWAT #131. Sales: Moses Maphosho. Email only via web form. Sister: Metsi Chem Ikapa (Pty) Ltd (W. Cape, Level 1, Drakenstein/Stellenbosch awards 2026)."
+  },
+  {
+   "company": "Kemanzi (Pty) Ltd",
+   "country": "South Africa",
+   "city": "Strand / Somerset West (Western Cape)",
+   "target_tenders": [
+    "SA municipal chemical tenders (CSD/B-BBEE L1)"
+   ],
+   "products": "Water-treatment chemicals, aluminium sulphate solution, sodium aluminate, chlorination & dosing equipment",
+   "tender_wins": [
+    {
+     "buyer": "City of Cape Town",
+     "product": "51G/2023/24 aluminium sulphate solution + dosing maintenance (with Chemtoll) R189,750,000",
+     "year": 2024,
+     "url": "https://resource.capetown.gov.za/documentcentre/Documents/Financial%20documents/Tender_Awarded_April_2024.pdf"
+    },
+    {
+     "buyer": "City of Cape Town",
+     "product": "261G/2024/25 sodium aluminate solution (with Chemtoll) R32,200,000",
+     "year": 2025,
+     "url": "https://resource.capetown.gov.za/documentcentre/Documents/Financial%20documents/Tenders-Awarded-October-2025.pdf"
+    },
+    {
+     "buyer": "Stellenbosch Municipality",
+     "product": "BSM 59/26 water & wastewater treatment chemicals (panel, L1)",
+     "year": 2026,
+     "url": "https://stellenbosch.gov.za/wp-content/uploads/library/2026/Tender-Awards-September-2026.pdf"
+    }
+   ],
+   "brands": null,
+   "site": "https://www.kemanzi.co.za",
+   "email": "info@kemanzi.co.za",
+   "phone": "+27 21 851 9438",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "http://kemanzi.co.za/contact-us.html",
+    "https://www.kemanzi.co.za/"
+   ],
+   "language": "en",
+   "notes": "B-BBEE Level 1 per Stellenbosch award list. Contacts from own site only."
+  },
+  {
+   "company": "Chemtoll (Pty) Ltd",
+   "country": "South Africa",
+   "city": "Firgrove / Somerset West (Western Cape)",
+   "target_tenders": [
+    "SA municipal chemical tenders (L1)"
+   ],
+   "products": "Toll manufacturer & supplier: NaOH, NaOCl, aluminium sulphate, soda ash, H2SO4, water-treatment lime; reactors 50-30,000 L",
+   "tender_wins": [
+    {
+     "buyer": "City of Cape Town",
+     "product": "aluminium sulphate solution (with Kemanzi) R189.75M",
+     "year": 2024,
+     "url": "https://resource.capetown.gov.za/documentcentre/Documents/Financial%20documents/Tender_Awarded_April_2024.pdf"
+    },
+    {
+     "buyer": "Stellenbosch Municipality",
+     "product": "BSM 59/26 water & wastewater treatment and disinfection chemicals",
+     "year": 2026,
+     "url": "https://www.tenders-sa.org/sa-tenders/awarded/bsm-59-26-supply-and-delivery-and-offloading-of-water-and-wastewater-treatment-and-disinfection-chem-cmlaz6n5g000huaso7lubzo02"
+    },
+    {
+     "buyer": "Bergrivier Municipality",
+     "product": "Tender 8/3/9-2025 water treatment chemicals (panel)",
+     "year": 2025,
+     "url": "https://www.bergmun.org.za/supply-and-delivery-water-treatment-chemicals-bergrivier-municipality-date-appointment-until-30-june"
+    }
+   ],
+   "brands": null,
+   "site": "https://chemtoll.co.za",
+   "email": "admin@chemtoll.co.za",
+   "phone": "+27 21 842 2963",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://chemtoll.co.za/",
+    "https://www.tenders-sa.org/sa-tenders/awarded/bsm-59-26-supply-and-delivery-and-offloading-of-water-and-wastewater-treatment-and-disinfection-chem-cmlaz6n5g000huaso7lubzo02"
+   ],
+   "language": "en",
+   "notes": "B-BBEE Level 1 (site + municipal award lists). Mobile +27 79 921 6422. Email from own site only."
+  },
+  {
+   "company": "Memotek Trading CC",
+   "country": "South Africa",
+   "city": "Western Cape",
+   "target_tenders": [
+    "SA municipal chemical tenders"
+   ],
+   "products": "Water-treatment chemicals (municipal panels)",
+   "tender_wins": [
+    {
+     "buyer": "Bergrivier Municipality",
+     "product": "water treatment chemicals panel",
+     "year": 2025,
+     "url": "https://www.bergmun.org.za/supply-and-delivery-water-treatment-chemicals-bergrivier-municipality-date-appointment-until-30-june"
+    },
+    {
+     "buyer": "Drakenstein Municipality",
+     "product": "CES 23/2025 bulk water & wastewater chemicals (L1)",
+     "year": 2026,
+     "url": "https://www.drakenstein.gov.za/sites/dw/DocumentLibrary/Tender%20awards%20for%20July%202026.pdf"
+    }
+   ],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.drakenstein.gov.za/sites/dw/DocumentLibrary/Tender%20awards%20for%20July%202026.pdf"
+   ],
+   "language": "en",
+   "notes": "B-BBEE Level 1. Contacts not found."
+  },
+  {
+   "company": "Stone Value Chemicals (Pty) Ltd",
+   "country": "South Africa",
+   "city": "Johannesburg",
+   "target_tenders": [
+    "SA municipal tenders",
+    "FIPAG/AdRMM Mozambique alum lots"
+   ],
+   "products": "Importer/distributor: aluminium sulphate, caustic soda, sulphuric acid",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://www.stonevaluechemicals.co.za",
+   "email": null,
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.stonevaluechemicals.co.za/"
+   ],
+   "language": "en",
+   "notes": "51% black-woman-owned, B-BBEE Level 2; importer model like ours. Contacts not extracted. Warehouses also in Maputo and Beira (Mozambique)."
+  },
+  {
+   "company": "Chemsol Limited",
+   "country": "Zambia",
+   "city": "Lusaka (7 Nyati Close, Rhodes Park)",
+   "target_tenders": [
+    "LWSC ZPPA 31735/2/776/2025-type alum/HTH tenders",
+    "Nkana Water running contract"
+   ],
+   "products": "Industrial & water-treatment chemicals; HTH Scientific chlorine distributor; antiscalants",
+   "tender_wins": [],
+   "brands": "HTH Scientific",
+   "site": "https://chemsolltd.com",
+   "email": "sales@chemsol.ltd",
+   "phone": "+260 211 232232",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.linkedin.com/company/chemsol-ltd"
+   ],
+   "language": "en",
+   "notes": "Domain changed to chemsol.ltd (company notice). Mobile +260 971 590340. No ZPPA award data accessible (portal registration)."
+  },
+  {
+   "company": "Invo-Chem Limited",
+   "country": "Zambia",
+   "city": "Kitwe (27 Freedom Ave)",
+   "target_tenders": [
+    "Nkana Water (Kitwe) chemicals running contract",
+    "Mulonga Water"
+   ],
+   "products": "Aluminium sulphate, calcium hypochlorite, PAC, aluminium chlorohydrate, hydrated lime, flocculants",
+   "tender_wins": [],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": "+260 966 569107",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.zambiayp.com/company/19227/invo_chem_limited_zambia"
+   ],
+   "language": "en",
+   "notes": "VAT 1017193327; MD Humphrey Chanda (ex-KCM water treatment). Mobile +260 777 974072."
+  },
+  {
+   "company": "Metmin Limited (Vinmart Group)",
+   "country": "Zambia",
+   "city": "Kitwe (Plot 3709 Mansa Rd)",
+   "target_tenders": [
+    "Nkana/Mulonga water boards"
+   ],
+   "products": "Water-treatment chemicals, ion-exchange (Ion Exchange India), filtration; states supply to Water Boards",
+   "tender_wins": [],
+   "brands": "Ion Exchange (India)",
+   "site": "https://metminlimited.com",
+   "email": "sales@metminzambia.com",
+   "phone": "+260 977 711285",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://metminlimited.com/"
+   ],
+   "language": "en",
+   "notes": "Indian-owned group since 2007; self-declared water-board customer."
+  },
+  {
+   "company": "Chemnergy Enterprises Limited",
+   "country": "Zambia",
+   "city": "Lusaka (Plot 14072 Lumumba Rd)",
+   "target_tenders": [
+    "LWSC alum/HTH lots"
+   ],
+   "products": "Mining chemicals; water treatment coagulants, flocculants, hydrated lime",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://www.chemnergy.co.zm",
+   "email": "info@chemnergy.co.zm",
+   "phone": "+260 760 355090",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.chemnergy.co.zm/"
+   ],
+   "language": "en",
+   "notes": "REG B120200002585."
+  },
+  {
+   "company": "Ichem Ghana Ltd",
+   "country": "Ghana",
+   "city": "Accra (Castlegate Estate)",
+   "target_tenders": [
+    "Ghana Water Ltd chemical tenders (PPA)"
+   ],
+   "products": "Aluminium sulfate, ferric chloride, KMnO4, calcium hypochlorite, oil&gas/mining chemicals",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://ichemghltd.com",
+   "email": "info@ichemghltd.com",
+   "phone": "+233 503 722 420",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://ichemghltd.com/"
+   ],
+   "language": "en",
+   "notes": "No GWL award found; GWL coagulant market dominated by Alumichem (already in africa_partners file)."
+  },
+  {
+   "company": "Omni Energy",
+   "country": "Ghana",
+   "city": "Accra (28 Church Crescent, North Labone)",
+   "target_tenders": [
+    "Ghana Water Ltd"
+   ],
+   "products": "Aluminium sulphate, polyelectrolytes, biocides, scale/corrosion inhibitors, hydrated lime",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://omni-energy.com",
+   "email": "group@omni-energy.com",
+   "phone": "+233 24 380 2228",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://omni-energy.com/projects/industrial-chemicals"
+   ],
+   "language": "en",
+   "notes": "No award evidence."
+  },
+  {
+   "company": "Fumman Chemicals (Ghana)",
+   "country": "Ghana",
+   "city": "Tema (Community 12)",
+   "target_tenders": [
+    "Ghana Water Ltd"
+   ],
+   "products": "Water-treatment disinfectants, coagulants, flocculants; RO/DM",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://fumman.com",
+   "email": "sales@fummanghana.com",
+   "phone": "+233 244 777 439",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://fumman.com/water-treatment"
+   ],
+   "language": "en",
+   "notes": "Nigerian group (Fumman Nigeria) branch."
+  },
+  {
+   "company": "ACI - Agriculture Commerce Industrie",
+   "country": "Cote d'Ivoire",
+   "city": "Abidjan (Zone 4C, 1 Rue Marconi)",
+   "target_tenders": [
+    "SODECI/ONEP chemical purchases (lime, Ca hypochlorite, alum)"
+   ],
+   "products": "Chemical distribution since 1985 incl. water treatment",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://acichimie.net",
+   "email": "info@acichimie.com",
+   "phone": "+225 27 24 35 95 17",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://acichimie.net/"
+   ],
+   "language": "fr",
+   "notes": "SODECI consumes ~11.9 kt lime, 1.2 kt Ca-hypo, 3.2 kt alum/yr (2016 RSE) via 'fournisseurs specialises'; no public award notices."
+  },
+  {
+   "company": "Epureau CI (Groupe Yangondi)",
+   "country": "Cote d'Ivoire",
+   "city": "Abidjan (Cocody Vallons)",
+   "target_tenders": [
+    "SODECI / ONEP"
+   ],
+   "products": "Water-treatment plants & chemical trading; exclusive NALCO/ECOLAB distributor",
+   "tender_wins": [],
+   "brands": "NALCO, ECOLAB",
+   "site": null,
+   "email": null,
+   "phone": "+225 27 22 22 89 05",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.goafricaonline.com/ci/annuaire/traitement-eau"
+   ],
+   "language": "fr",
+   "notes": "Brand-tied (Nalco) - may still trade commodities."
+  },
+  {
+   "company": "Solevo Cote d'Ivoire (ex-STEPC)",
+   "country": "Cote d'Ivoire",
+   "city": "Abidjan (ZI Vridi)",
+   "target_tenders": [
+    "SODECI coagulant/lime supply"
+   ],
+   "products": "Specialty chemicals distribution incl. water treatment",
+   "tender_wins": [],
+   "brands": "Nalco (mining), Evonik",
+   "site": "https://solevogroup.com",
+   "email": null,
+   "phone": "+225 27 21 21 50 51",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://solevogroup.com/our-network/",
+    "https://solevo.backup-solevogroup.com/our-network"
+   ],
+   "language": "fr",
+   "notes": "Same group as Solevo Cameroun (CAMWATER winner). Phone on two Solevo pages (same owner) - treat as one source."
+  },
+  {
+   "company": "Solevo Senegal",
+   "country": "Senegal",
+   "city": "Dakar (KM 11 Route de Rufisque)",
+   "target_tenders": [
+    "SEN'EAU / SONES chemical supply"
+   ],
+   "products": "Specialty chemicals distribution",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://solevogroup.com",
+   "email": null,
+   "phone": "+221 33 853 05 50",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://solevogroup.com/our-network/"
+   ],
+   "language": "fr",
+   "notes": "No SEN'EAU award notices online."
+  },
+  {
+   "company": "SENCHEM",
+   "country": "Senegal",
+   "city": "Thies",
+   "target_tenders": [
+    "SEN'EAU"
+   ],
+   "products": "Local chemical blending plant (2024): commodity chemicals incl. water treatment",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://senchem.sn",
+   "email": "info@senchem.sn",
+   "phone": "+221 78 476 99 36",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://senchem.sn/"
+   ],
+   "language": "fr",
+   "notes": "Young company (2024) - blender wanting raw materials."
+  },
+  {
+   "company": "ALT Nowata",
+   "country": "Senegal",
+   "city": "Dakar (Mermoz)",
+   "target_tenders": [
+    "SEN'EAU"
+   ],
+   "products": "Mining chemicals, water treatment, sourcing from certified factories",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://alt-nowata.com",
+   "email": "contact@alt-nowata.com",
+   "phone": "+221 33 823 36 90",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://alt-nowata.com/"
+   ],
+   "language": "fr",
+   "notes": "Mining-focused importer."
+  },
+  {
+   "company": "Alkane Chemicals PLC",
+   "country": "Ethiopia",
+   "city": "Addis Ababa (Gofa Mebrat Hail, Venus Commercial Center)",
+   "target_tenders": [
+    "AAWSA / woreda water chemicals (e.g., Enemay #38)"
+   ],
+   "products": "Importer: aluminium sulphate, calcium hypochlorite, NaOCl, polyelectrolytes, activated carbon",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://www.alkaneorganic.com",
+   "email": "alkane.chem2008@gmail.com",
+   "phone": "+251 911 421664",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.alkaneorganic.com/",
+    "https://www.2merkato.com/directory/23529-alkane-chemicals-plc"
+   ],
+   "language": "en",
+   "notes": "Phone on site + 2merkato. Email on 2merkato (site shows typo 'gamail')."
+  },
+  {
+   "company": "Sachem Import and Export PLC",
+   "country": "Ethiopia",
+   "city": "Addis Ababa (Ring Road, Menkir Bldg)",
+   "target_tenders": [
+    "AAWSA"
+   ],
+   "products": "Calcium hypochlorite 70%, NaOCl 12%, HCl, caustic, copper sulphate",
+   "tender_wins": [],
+   "brands": null,
+   "site": null,
+   "email": null,
+   "phone": "+251 11 443 0252",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.2merkato.com/directory/21393-sachem-import-and-export-plc"
+   ],
+   "language": "en",
+   "notes": "Warehouses Kality & Gotera."
+  },
+  {
+   "company": "AHC Import and Export (AH Chemical)",
+   "country": "Ethiopia",
+   "city": "Addis Ababa (Bole)",
+   "target_tenders": [
+    "AAWSA"
+   ],
+   "products": "Water-treatment and detergent raw materials",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://ahchemical.com",
+   "email": "info@ahchemical.com",
+   "phone": "+251 944 666 664",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://ahchemical.com/"
+   ],
+   "language": "en",
+   "notes": "Est. 2018."
+  },
+  {
+   "company": "PWM (Titan Group)",
+   "country": "Mozambique",
+   "city": "Matola",
+   "target_tenders": [
+    "FIPAG CR47A002741/CP/B/0015/25 (alum, PAC, lime for AdRMM/AdRS/AdRC/AdRN)"
+   ],
+   "products": "Water-treatment chemicals, dosing pumps, lab instruments",
+   "tender_wins": [],
+   "brands": "Ecolab, Nalco, SEKO, HACH",
+   "site": "https://pwm.co.mz",
+   "email": "info@pwm-mz.com",
+   "phone": "+258 845 700 211",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://pwm.co.mz/"
+   ],
+   "language": "pt",
+   "notes": "Brand-tied distributor."
+  },
+  {
+   "company": "Coolela Water Technologies Lda",
+   "country": "Mozambique",
+   "city": "Maputo (Maxaquene B)",
+   "target_tenders": [
+    "FIPAG/AdRMM chemicals"
+   ],
+   "products": "Water disinfection, sludge treatment, chemicals with SA supplier",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://www.coolelawatertechnologies.com",
+   "email": "info@coolelawatertechnologies.com",
+   "phone": "+258 84 314 0054",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.coolelawatertechnologies.com/"
+   ],
+   "language": "pt",
+   "notes": "Small local Lda."
+  },
+  {
+   "company": "Lab Supplier, Lda",
+   "country": "Mozambique",
+   "city": "Matola (Bairro Tsalala)",
+   "target_tenders": [
+    "FIPAG/AdRMM"
+   ],
+   "products": "Water treatment solutions, reagents, lab equipment",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://labsupplier.co.mz",
+   "email": "geral@labsupplier.co.mz",
+   "phone": null,
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://labsupplier.co.mz/"
+   ],
+   "language": "pt",
+   "notes": "Also relevant to JIRAMA-type lab lots."
+  },
+  {
+   "company": "Solevo Madagascar",
+   "country": "Madagascar",
+   "city": "Antananarivo (Bd Ratsimandrava Soanierana)",
+   "target_tenders": [
+    "JIRAMA / PAAEP-WJIR-AON-32b-F-68c (deadline 27.11.2026) Lot 1 consumables"
+   ],
+   "products": "Chemicals & agro-inputs distribution (since 1946)",
+   "tender_wins": [],
+   "brands": null,
+   "site": "https://solevogroup.com",
+   "email": null,
+   "phone": "+261 20 22 291 46",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://solevogroup.com/our-network/"
+   ],
+   "language": "fr",
+   "notes": "Only identified locally registered chemical distributor; no JIRAMA award found."
+  }
+ ],
+ "enrich_existing": [
+  {
+   "company": "FOBS Ltd (FOBS S.A.)",
+   "country": "Cameroon",
+   "email": "fobs@fobs-group.com",
+   "phone": "+237 695 192 111",
+   "verified_email": false,
+   "verified_phone": true,
+   "site": "https://www.fobs-group.com",
+   "tender_wins_added": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lots 4 & 5 (1,108,777,556 + 1,055,353,556 FCFA TTC)",
+     "year": 2026,
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    },
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 000013/2023 lots 2 & 6 (1,393,830,968 + 1,391,125,781 FCFA)",
+     "year": 2024,
+     "url": "https://armp.cm/details?type_publication=DEC-ATTR&id_publication=16524"
+    }
+   ],
+   "sources": [
+    "https://www.fobs-group.com/contact/",
+    "https://linkedin.com/company/fobs-sa"
+   ],
+   "notes": "Products: hydrated lime, ferric chloride, Flocspec 237/Flopam, Ca hypochlorite, alum. Phone on site + LinkedIn post; email on own site only."
+  },
+  {
+   "company": "Solevo Cameroun S.A.",
+   "country": "Cameroon",
+   "email": "solevo.cameroun@solevogroup.com",
+   "phone": "+237 233 50 42 00",
+   "verified_email": false,
+   "verified_phone": true,
+   "site": "https://solevogroup.com",
+   "tender_wins_added": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lot 3 (1,115,812,472 FCFA)",
+     "year": 2026,
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    },
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 000013/2023 lot 1 (1,306,748,536 FCFA)",
+     "year": 2024,
+     "url": "https://armp.cm/details?type_publication=DEC-ATTR&id_publication=16524"
+    }
+   ],
+   "sources": [
+    "https://solevogroup.com/our-network/",
+    "https://maligah.com/entreprises/details/Solevo-Cameroun?id=43757",
+    "https://resources.colead.link/sites/default/files/file_fields/2025/R%26Ib/Liste%20des%20pesticides%20CPAC%2C%20f%C3%A9vrier%202025.pdf"
+   ],
+   "notes": "Email appears in CPAC pesticide register (Feb 2025) only. Extra mobiles +237 696 42 78 44 / +237 690 20 59 03 (Maligah). Group contact communication@solevogroup.com."
+  },
+  {
+   "company": "AFCOTT (Cameroun)",
+   "country": "Cameroon",
+   "email": "cameroon@afcott.com",
+   "phone": "+237 656 54 52 37",
+   "verified_email": false,
+   "verified_phone": false,
+   "site": "https://afriventures.com",
+   "tender_wins_added": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lots 2 & 9 (1,052,482,613 + 1,054,985,670 FCFA)",
+     "year": 2026,
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "sources": [
+    "https://afriventures.com/contact-us",
+    "https://gex-cameroun.com/doc/membres/Liste_actualisee_des_membres_et_adherents_du_GEX_au_06-09-2022.pdf",
+    "https://www.businesslist.co.cm/company/139341/afcott"
+   ],
+   "notes": "AFCOTT Cameroon SARL = Kewalram Chanrai / Afri Ventures group (Dubai, India). GEX list: rep. Ranjan Mishra, emails thakur.deepak@afcott.com, ngakamalb@yahoo.fr (cotton dept, 2022). Auto division Douala +237 650 736 815. Indian-owned group - natural fit for Indian/Chinese product."
+  },
+  {
+   "company": "MEDINOV",
+   "country": "Cameroon",
+   "email": null,
+   "phone": null,
+   "tender_wins_added": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lots 6 & 7 (1,033,647,075 + 1,043,723,700 FCFA)",
+     "year": 2026,
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    },
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 000013/2023 lots 5 & 7 (1,394,174,109 + 1,395,785,475 FCFA)",
+     "year": 2024,
+     "url": "https://armp.cm/details?type_publication=DEC-ATTR&id_publication=16524"
+    }
+   ],
+   "sources": [
+    "https://www.tradesparq.com/sitemap/company/buyer/societe-medinov-sarl",
+    "https://www.exportgenius.in/cameroon-import-hs-code-283620000000"
+   ],
+   "notes": "Legal name Societe Medinov Sarl, taxpayer no. M032318051445S. Imports Ca hypochlorite from Sinopec Jianghan Salt Chemical Hubei via trader CHANGE CO LIMITED (CN/TR), slaked lime and alum (CN/ES/TR) 2025-26 - already buys Chinese product through a trader. No email/phone found online."
+  },
+  {
+   "company": "Mawen Enterprise",
+   "country": "Cameroon",
+   "email": null,
+   "phone": null,
+   "tender_wins_added": [
+    {
+     "buyer": "CAMWATER",
+     "product": "AONO 0000018/2025 lot 1 (1,080,712,665 FCFA)",
+     "year": 2026,
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "sources": [],
+   "notes": "No online footprint; contact via CAMWATER DAJM or in person."
+  },
+  {
+   "company": "Groupement MOLA / AMN",
+   "country": "Cameroon",
+   "email": null,
+   "phone": null,
+   "tender_wins_added": [
+    {
+     "buyer": "CAMWATER",
+     "product": "ETS MOLA (BP 12641 Douala) - AONO 000013/2023 lot 8 (1,364,541,975 FCFA)",
+     "year": 2024,
+     "url": "https://armp.cm/details?type_publication=DEC-ATTR&id_publication=16524"
+    },
+    {
+     "buyer": "CAMWATER",
+     "product": "Groupement MOLA/AMN lots 8 & 10 (1,027,238,580 + 1,033,754,400 FCFA)",
+     "year": 2026,
+     "url": "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/02/09/CAMWATER/LT_2026_02_09_DEC_00093_CAMWATER.pdf"
+    }
+   ],
+   "sources": [
+    "https://armp.cm/details?type_publication=DEC-ATTR&id_publication=16524"
+   ],
+   "notes": "Lead firm: ETS MOLA, BP 12641 Douala. No email/phone online."
+  },
+  {
+   "company": "Technovation Ltd",
+   "country": "Malawi",
+   "email": null,
+   "phone": null,
+   "address": "Robbins Park, Blantyre (PPDA supplier register 2024-25)",
+   "tender_wins_added": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "BWB/WATER TREATMENT CHEMICALS/2023/2 Lot 2 solid granular chlorine MK119,568,000; Lot 3 liquefied chlorine gas MK233,388,487.50",
+     "year": 2023,
+     "url": "https://www.bwb.mw/Downloads/bwb_notif_cont_award_snd_water_treat_chem_21_june_2023.pdf"
+    }
+   ],
+   "sources": [
+    "https://ppda.mw/storage/documents/resources/List%20of%20Registered%20Suppliers.pdf"
+   ],
+   "notes": "Contacts not found online."
+  },
+  {
+   "company": "Elite Engineering Supplies Ltd",
+   "country": "Malawi",
+   "email": null,
+   "phone": null,
+   "address": "Bangwanji Building behind FDH Bank (PPDA register)",
+   "tender_wins_added": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "BWB/WATER TREATMENT CHEMICALS/2023/2 framework Lot 1 (coagulant) MK1,410,000,000",
+     "year": 2023,
+     "url": "https://www.bwb.mw/Downloads/bwb_notif_int_cont_award_bwb_access_road_water_treat_chem_framework_agr.pdf"
+    }
+   ],
+   "sources": [
+    "https://ppda.mw/storage/documents/resources/List%20of%20Registered%20Suppliers-October.pdf",
+    "https://www.developmentaid.org/organizations/view/480824/elite-engineering-supplies-limited"
+   ],
+   "notes": "Has World Bank-financed award history. Contacts not found."
+  },
+  {
+   "company": "Uptown General Suppliers",
+   "country": "Malawi",
+   "email": null,
+   "phone": null,
+   "address": "Area 38, Lilongwe (PPDA register)",
+   "tender_wins_added": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "BWB/ALUMINIUM SULPHATE AND SODA ASH/2024/1 MK53,920,750",
+     "year": 2024,
+     "url": "https://www.bwb.mw/Downloads/bwb_tender_results_ethics_hotline_ict_mtce_alum_sulphate_04_april_2024.pdf"
+    }
+   ],
+   "sources": [
+    "https://ppda.mw/storage/documents/resources/List%20of%20Registered%20Suppliers.pdf"
+   ],
+   "notes": "Contacts not found."
+  },
+  {
+   "company": "Hallmark Ltd (JV Yixing Bluwat)",
+   "country": "Malawi",
+   "tender_wins_added": [
+    {
+     "buyer": "Blantyre Water Board",
+     "product": "BWB/WATER TREATMENT CHEMICALS/2023/1 Lot 1 coagulants USD1,150,584.81; Lot 2 granular chlorine USD325,313.79; Lot 3 chlorine gas USD242,536.89",
+     "year": 2024,
+     "url": "https://www.bwb.mw/Downloads/bwb_tender_results_hdpe_water_treat_chem_lot_1_2_3_jan_5_2024.pdf"
+    }
+   ],
+   "notes": "Evidence added only (contacts already in africa_partners_1511)."
+  },
+  {
+   "company": "Primechem Trading PLC (Prime Chemicals)",
+   "country": "Ethiopia",
+   "email": "primechemicals7@gmail.com",
+   "phone": "+251 913 296989",
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.2merkato.com/directory/40803-primechem-trading-plc"
+   ],
+   "notes": "Email from 2merkato only; products incl. alum, PAC, PAM, Ca-hypo, lime."
+  }
+ ]
+}
