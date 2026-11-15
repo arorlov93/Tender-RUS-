@@ -1,0 +1,1059 @@
+{
+ "meta": {
+  "created": "2026-11-15",
+  "for": "ISP Group LLC (US trader; Chinese/Indian factories) – local partners able to bid in national-only / local-registration tenders, with ISP as supplier",
+  "tender_context": [
+   "/home/user/Tender-RUS-/model/data/tenders_1511/spec_mena.json",
+   "/home/user/Tender-RUS-/model/data/tenders_1511/world_mena.json"
+  ],
+  "method": "Parallel web search (rate-limited free tier) + WebSearch + direct curl of: ihaleilanlar.com authority/contractor pages (EKAP sonuç ilanı aggregates), Rekabet Kurumu decisions, Bahrain Tender Board monthly 'Awarded Tenders' PDFs (11 months 2024-2026), NSF/ANSI-60 Saudi listing, company sites, chamber/directory listings (LABSIAD, Kuwait Industries Union, ABC-GCC, DCCI, Welipro, Telecontact, GoAfrica, TheOmanToday). No logins, no captcha bypass, nobody contacted.",
+  "verification_rule": "verified=true only when BOTH e-mail and phone appear in >=2 independent sources (own site + directory/chamber/tender notice/LinkedIn). verified_email / verified_phone flag partial confirmation. Two pages of the same company site or a company-authored exhibitor profile count as ONE source.",
+  "counts": {
+   "Turkey": 7,
+   "Saudi Arabia": 4,
+   "Kuwait": 3,
+   "Bahrain": 4,
+   "Oman": 3,
+   "Tunisia": 3,
+   "Morocco": 4,
+   "Jordan": 4,
+   "Egypt": 4,
+   "total": 36,
+   "fully_verified": 7
+  },
+  "compliance_flags": [
+   "Turkey: Rekabet Kurulu decision 25-49/1206-681 of 25.12.2025 fined Koruma Klor (₺329 M), 2S Kimya+Aykimsan, Irmak Kimya, Süleyman Kimya, Nalan Uslu-Anadolu Kimya and Kuzey Test Analiz Kimya for bid-rigging in SKİ chemical tenders. 2S Kimya kept in list (MESKİ incumbent) with RED FLAG; Irmak/Süleyman/Kuzey Test excluded. URL: https://www.rekabet.gov.tr/Karar?kararId=aede0600-9f5e-41ec-ba42-80e35e669bdb",
+   "No partner found on OFAC SDN by name in this pass (not formally screened); run SDN/EU/UN/UK screening before any contract. No Iran/Syria entities included (NABASCO has an Aleppo branch office per its site – screen before dealing).",
+   "Competitors, not partners: Ecolab Bahrain W.L.L. won Bapco LTA 'water treatment & process chemicals' BD 11.54 M (Tender Board award report Feb 2026); Veolia WTS ME won Bapco extension USD 1.58 M (Jul 2025); Koruma Klor dominates BUSKİ/İZSU FeCl3 & NaOCl; Hicri Ercili dominates ASKİ/İSKİ alum (Rekabet 2022)."
+  ],
+  "gaps": "No public award data for Tunisia (TUNEPS results behind login), Jordan (WAJ/Miyahuna/YWC award decisions not published online), Egypt HCWW (awards not published), Kuwait CAPT (award PDFs not reached), Saudi Etimad (bot-protected). Contacts missing for 2S Kimya, Bociy Kimya, Barkan Kimyevi (sites down/none) – obtain via EKAP firm lookup or local chamber. Kuwait and Oman have only 3 partners each.",
+  "not_contacted": true
+ },
+ "partners": [
+  {
+   "company": "Abacı Kimya Ltd. Şti. (Abacı Group / Abacı Su)",
+   "country": "Turkey",
+   "city": "Istanbul (Beşiktaş)",
+   "target_tenders": [
+    "MESKİ katyonik polielektrolit 2026/1952029 (04.12.2026)",
+    "MESKİ Al-bazlı sıvı koagülant (01.12.2026)",
+    "BUSKİ FeCl3 900 t 2026/2159512 (04.12.2026)",
+    "ESKİ toz+sıvı katyonik polielektrolit 30+30 t 2026/2188807 (04.12.2026)",
+    "Aksaray Bld. alüminyum sülfat/H2SO4 2026/2208906 (14.12.2026)",
+    "ASKİ alüminyum sülfat 12 000 t 2026/2026328 (11.12.2026)"
+   ],
+   "products": "Drinking/waste-water chemicals: coagulants & flocculants (polyelectrolyte), antiscalants, ion-exchange resins, activated carbon, antifoam, filtration media (anthracite); own blending + distributorships",
+   "tender_wins": [
+    {
+     "buyer": "Turkish public authorities (EKAP award notices), most wins in Eskişehir",
+     "product": "Kimyasal ürünler (CPV 24) – 4 contracts, ₺39.4 M total, last award 09.07.2026",
+     "year": 2026,
+     "url": "https://ihaleilanlar.com/yukleniciler/kimyasal-urunler-24"
+    }
+   ],
+   "brands": "Carus, Sunresin, Lenzing, Filtralite, Kalpaka, GRATT (decanters), Total Trade SLU (per company LinkedIn 2026)",
+   "site": "https://abacigroup.com",
+   "email": "info@abacigroup.com",
+   "phone": "+90 212 227 59 35",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "http://www.abacigroup.com/",
+    "https://yandex.com.tr/maps/org/abaci_group/1042757396",
+    "https://linkedin.com/company/abaci-ki%CC%87mya",
+    "https://www.emis.com/php/company-profile/TR/Abaci_Kimya_Ltd_Sti_en_3361923.html",
+    "https://ihaleilanlar.com/yukleniciler/kimyasal-urunler-24"
+   ],
+   "language": "tr",
+   "notes": "Best-fit TR partner: water-chemicals distributor with SKİ/DSİ focus (presented at DSİ seminar, ran 2026 symposium for SKİ managers). Phone confirmed site + Yandex Maps; e-mail only on own site. Not named in Rekabet 2025 bid-rigging decision."
+  },
+  {
+   "company": "Albar Kimya San. ve Tic. Ltd. Şti.",
+   "country": "Turkey",
+   "city": "Kocaeli (Başiskele / İzmit)",
+   "target_tenders": [
+    "MESKİ katyonik polielektrolit 2026/1952029 (04.12.2026)",
+    "MESKİ Al-bazlı sıvı koagülant (01.12.2026)",
+    "BUSKİ FeCl3 900 t 2026/2159512 (04.12.2026)",
+    "ESKİ toz+sıvı katyonik polielektrolit 30+30 t 2026/2188807 (04.12.2026)",
+    "Aksaray Bld. alüminyum sülfat/H2SO4 2026/2208906 (14.12.2026)",
+    "ASKİ alüminyum sülfat 12 000 t 2026/2026328 (11.12.2026)"
+   ],
+   "products": "Basic chemicals + water & waste-water chemicals (NaOCl, Na-metabisulfite, acids, caustic, coagulants), detergent raw materials, lab equipment",
+   "tender_wins": [
+    {
+     "buyer": "İSU – Kocaeli Su ve Kanalizasyon İdaresi",
+     "product": "Kimyasal, Ölçüm Cihazı ve Sarf Malzeme – ₺6.7 M (2 bidders), award 19.02.2024",
+     "year": 2024,
+     "url": "https://ihaleilanlar.com/idare/kocaeli-su-ve-kanalizasyon-idaresi-genel-mudurlugu"
+    }
+   ],
+   "brands": "Dealer for Akkim, Petkim, Solvay, Inovyn, BASF, Dow, Clariant, SNF Floerger, Prayon, Şişecam, Sasol, Akzo Nobel, Merck Millipore etc. (LABSIAD catalogue 2021)",
+   "site": "https://www.albarkimya.com",
+   "email": "albar@albarkimya.com",
+   "phone": "+90 262 335 11 20",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://www.albarkimya.com/iletisim",
+    "https://labsiad.org/albar-kimya-san-ltd-sti-",
+    "https://labsiad.org/uploads/__dokuman/labsiad_firma_katalog.pdf",
+    "https://www.crunchbase.com/organization/albar-kimya",
+    "https://ihaleilanlar.com/idare/kocaeli-su-ve-kanalizasyon-idaresi-genel-mudurlugu"
+   ],
+   "language": "tr",
+   "notes": "Founded 1988, 51-100 staff, trader (ECHEMI profile). E-mail: site+LABSIAD+Crunchbase; phone: site+Crunchbase (LABSIAD/selling.com list sister lines 335 11 07 / 335 31 69). Already wins SKİ tenders -> natural importer for polyelectrolyte/FeCl3/PAC."
+  },
+  {
+   "company": "İND Grup Kimya Sanayi A.Ş. (IND Alliance)",
+   "country": "Turkey",
+   "city": "Ankara (Etimesgut)",
+   "target_tenders": [
+    "ASKİ alüminyum sülfat 12 000 t",
+    "ESKİ polielektrolit",
+    "MESKİ polielektrolit/koagülant",
+    "Aksaray Bld. kimyasallar"
+   ],
+   "products": "Central importer/supplier of industrial & waste-water treatment chemicals, process and pool chemicals for a network of 23 regional co-distributors across Turkey",
+   "tender_wins": [],
+   "brands": "Veolia, SNF Floerger, Quaker, Arenco, Aqua Tech, Akkim, BASF (per site 'supply chain affiliates')",
+   "site": "https://indgrup.com",
+   "email": "info@indgrup.com",
+   "phone": "0850 259 04 63 (site); +90 312 397 24 60 (Google Maps)",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://indgrup.com/",
+    "https://www.google.com/maps/place?q=place_id:ChIJ197BVFI30xQRdsA3mccNqNU"
+   ],
+   "language": "tr",
+   "notes": "Ankara-based hub -> fits ASKİ. No public award found under its own name (its co-distributors may bid). Phones differ between site and Google Maps -> unverified."
+  },
+  {
+   "company": "2S Kimya Arıtma Tarım İnşaat Gıda Turizm San. ve Tic. A.Ş.",
+   "country": "Turkey",
+   "city": "Aydın (Efeler) – active in Mersin",
+   "target_tenders": [
+    "MESKİ katyonik polielektrolit 2026/1952029",
+    "MESKİ Al-bazlı sıvı koagülant",
+    "BUSKİ FeCl3",
+    "ESKİ polielektrolit"
+   ],
+   "products": "Water-treatment chemicals reseller (chlor-alkali products, coagulants, polyelectrolyte) to SKİ utilities",
+   "tender_wins": [
+    {
+     "buyer": "MESKİ (Mersin)",
+     "product": "4 chemical contracts, ₺26.86 M total (EKAP award notices aggregated by ihaleilanlar)",
+     "year": 2026,
+     "url": "https://ihaleilanlar.com/idare/mersin-su-ve-kanalizasyon-idaresi-genel-mudurlugu"
+    },
+    {
+     "buyer": "Public buyers in Mersin (Kimyasal ürünler sector)",
+     "product": "2 awards ₺10.6 M, last 02.09.2026",
+     "year": 2026,
+     "url": "https://ihaleilanlar.com/yukleniciler/kimyasal-urunler-24"
+    }
+   ],
+   "brands": "Reseller of Koruma Klor products (per Rekabet decision context)",
+   "site": "https://2skimya.com.tr (under maintenance 15.11.2026)",
+   "email": "",
+   "phone": "",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://ihaleilanlar.com/idare/mersin-su-ve-kanalizasyon-idaresi-genel-mudurlugu",
+    "https://ihaleilanlar.com/yukleniciler/kimyasal-urunler-24",
+    "https://www.rekabet.gov.tr/Karar?kararId=aede0600-9f5e-41ec-ba42-80e35e669bdb"
+   ],
+   "language": "tr",
+   "notes": "RED FLAG: Rekabet Kurulu decision 25-49/1206-681 (25.12.2025) fined 2S Kimya + Aykimsan (one economic unit) ₺1.89 M for bid-rigging in public procurement together with Koruma Klor. Not a sanctions issue, but compliance/reputation risk; appeal status unknown. Incumbent at MESKİ. No contacts found (site down) – do not contact until compliance review."
+  },
+  {
+   "company": "Bociy Kimya Arıtım Nakliye ve İnşaat San. Tic. Ltd. Şti.",
+   "country": "Turkey",
+   "city": "Malatya (Rekabet inspection was in Hatay/Malatya region)",
+   "target_tenders": [
+    "ESKİ polielektrolit",
+    "MESKİ polielektrolit"
+   ],
+   "products": "Water-treatment chemicals supply & transport (ADR) to SKİ utilities in Eastern Anatolia",
+   "tender_wins": [
+    {
+     "buyer": "Public buyers, mostly Malatya (MASKİ area)",
+     "product": "Kimyasal ürünler – 4 contracts, ₺13.6 M, last 26.06.2026",
+     "year": 2026,
+     "url": "https://ihaleilanlar.com/yukleniciler/kimyasal-urunler-24"
+    }
+   ],
+   "brands": "",
+   "site": "",
+   "email": "",
+   "phone": "",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://ihaleilanlar.com/yukleniciler/kimyasal-urunler-24",
+    "https://www.rekabet.gov.tr/Karar?kararId=aede0600-9f5e-41ec-ba42-80e35e669bdb"
+   ],
+   "language": "tr",
+   "notes": "Dawn-raided by Rekabet in 2024 as reseller of Koruma Klor but NOT among the fined parties in decision 25.12.2025. No website/contacts found in open sources – get via EKAP firm search / Malatya TSO."
+  },
+  {
+   "company": "Barkan Kimyevi Maddeler San. ve Tic. Ltd. Şti.",
+   "country": "Turkey",
+   "city": "Kocaeli",
+   "target_tenders": [
+    "ESKİ polielektrolit",
+    "MESKİ polielektrolit"
+   ],
+   "products": "Chemicals incl. cationic polyelectrolyte and odour-control chemicals for SKİ",
+   "tender_wins": [
+    {
+     "buyer": "İSU – Kocaeli Su ve Kanalizasyon İdaresi",
+     "product": "Dalgıç pompa, sırt tırpanı, katyonik polielektrolit ve koku giderim kimyasalı – ₺1.4 M, award 23.02.2024",
+     "year": 2024,
+     "url": "https://ihaleilanlar.com/idare/kocaeli-su-ve-kanalizasyon-idaresi-genel-mudurlugu"
+    }
+   ],
+   "brands": "",
+   "site": "https://barkankimya.com (maintenance page 15.11.2026)",
+   "email": "",
+   "phone": "",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://ihaleilanlar.com/idare/kocaeli-su-ve-kanalizasyon-idaresi-genel-mudurlugu"
+   ],
+   "language": "tr",
+   "notes": "Small but proven polyelectrolyte winner at a metropolitan SKİ. Contacts not found."
+  },
+  {
+   "company": "Pozitif Kimya San. ve Tic. Ltd. Şti. (polielektrolit.net)",
+   "country": "Turkey",
+   "city": "Istanbul (Tuzla)",
+   "target_tenders": [
+    "MESKİ katyonik polielektrolit",
+    "ESKİ toz/sıvı polielektrolit"
+   ],
+   "products": "Specialised trader of anionic/cationic polyelectrolyte (flocculants) + general chemical raw materials, since 2002",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://www.polielektrolit.net",
+   "email": "",
+   "phone": "+90 216 394 06 16; +90 507 538 48 48",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.polielektrolit.net/"
+   ],
+   "language": "tr",
+   "notes": "Pure polyelectrolyte importer – obvious buyer of Chinese PAM; no public award found under its name; only own-site contacts."
+  },
+  {
+   "company": "Al-Jazira Water Treatment Chemicals (Al Qahtani Chemicals / AHQ Group)",
+   "country": "Saudi Arabia",
+   "city": "Dammam (Dammam–Jubail Hwy, Al Khadhriyah)",
+   "target_tenders": [
+    "SWA 60021527 Khobar (24.11.2026)",
+    "SWA 60021482 Al-Sha'ib (19.11.2026)",
+    "SWA 60021504 Jeddah reagents (19.11.2026)",
+    "Border Guards Region-S desal chemicals TOT 152220446 (23.11.2026)"
+   ],
+   "products": "Local manufacturer/blender: NSF/ANSI-60 RO antiscalants, CIP cleaners, boiler/cooling chemicals, biocides, coagulants & polymers; commodity chemicals (NaOCl, H2SO4, HCl, NaOH, citric acid, SMBS, alum, FeCl3)",
+   "tender_wins": [
+    {
+     "buyer": "SWCC (now SWA) – registered vendor ID 2524; NWC vendor ID 11487; also Aramco 10012998, Marafiq 2619, SEC, Sabic, Ma'aden",
+     "product": "Water-treatment chemicals (vendor registrations listed in company profile)",
+     "year": 2024,
+     "url": "https://www.aquaenergyexpo.com/storage/images/companies/pdfs/20240825205448_Al%20Jazira%20Water%20Treatment%20Chemicals%20Profile.pdf"
+    }
+   ],
+   "brands": "Own brands + 'partnerships with leading manufacturers from USA, Europe & Asia'",
+   "site": "https://al-jazirachemicals.com",
+   "email": "info@al-jazirachemicals.com",
+   "phone": "+966 13 856 2573",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.aquaenergyexpo.com/storage/images/companies/pdfs/20240825205448_Al%20Jazira%20Water%20Treatment%20Chemicals%20Profile.pdf",
+    "https://ahqsons.com/al-jazira-water-treatment-chemicals"
+   ],
+   "language": "ar",
+   "notes": "Strongest SA fit: already SWCC/SWA + NWC vendor, has blending plant -> buys phosphonates/polymers in bulk. Contacts conflict: profile +966 13 856 2573 / info@al-jazirachemicals.com vs parent site +966 13 803 4509 / info@aljazira.com -> unverified."
+  },
+  {
+   "company": "REDACHEM United for Trading Ltd. (REDA Water, REDA Chemicals Group)",
+   "country": "Saudi Arabia",
+   "city": "Al Khobar (HQ), plant Dammam 2nd Industrial City; offices Riyadh, Jeddah, Yanbu",
+   "target_tenders": [
+    "SWA 60021527 Khobar (24.11.2026)",
+    "SWA 60021482 Al-Sha'ib (19.11.2026)",
+    "SWA 60021504 Jeddah reagents (19.11.2026)",
+    "Border Guards Region-S desal chemicals TOT 152220446 (23.11.2026)"
+   ],
+   "products": "ZenTreat water-treatment chemicals: NSF-certified UniTreat RO/thermal-desal antiscalants, antifoam, polymers, resins (LANXESS), activated carbon, commodity chemicals",
+   "tender_wins": [
+    {
+     "buyer": "(no public SWA/SWCC award found)",
+     "product": "NSF/ANSI-60 listing of desalination antiscalants (UniTreat 108/201/99A) made in Saudi Arabia",
+     "year": 2026,
+     "url": "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?PlantCountry=SAUDI+ARABIA"
+    }
+   ],
+   "brands": "ZenTreat / UniTreat (own), LANXESS resins",
+   "site": "https://redawater.com",
+   "email": "info@redawater.com",
+   "phone": "+966 13 812 7775 (Dammam plant); +966 13 887 6340 (Khobar)",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://redawater.com/contacts-locations",
+    "https://redawater.com/",
+    "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?PlantCountry=SAUDI+ARABIA"
+   ],
+   "language": "en",
+   "notes": "Large regional distributor (34 countries). Dammam plant phone confirmed by site + NSF listing; e-mail only on own site. Could be partner or competitor (own formulations)."
+  },
+  {
+   "company": "AES Arabia Ltd.",
+   "country": "Saudi Arabia",
+   "city": "Riyadh",
+   "target_tenders": [
+    "SWA 60021527 Khobar (24.11.2026)",
+    "SWA 60021482 Al-Sha'ib (19.11.2026)",
+    "SWA 60021504 Jeddah reagents (19.11.2026)",
+    "Border Guards Region-S desal chemicals TOT 152220446 (23.11.2026)"
+   ],
+   "products": "Water/waste-water plants (RO, MSF), O&M; blends specialty chemicals in Riyadh: Desalcure RO & MSF antiscalants, dechlorination, pH adjustment, membrane cleaners",
+   "tender_wins": [
+    {
+     "buyer": "Saudi Aramco / SATORP / Tecnicas Reunidas projects",
+     "product": "Desalination & wastewater plants; chemical injection systems (references on site)",
+     "year": 2014,
+     "url": "https://www.aesarabia.com/about-us"
+    }
+   ],
+   "brands": "Desalcure (own, NSF-60 listed)",
+   "site": "https://www.aesarabia.com",
+   "email": "info@aesarabia.com",
+   "phone": "+966 11 477 2398",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.aesarabia.com/wp-content/uploads/General-Brochure.pdf",
+    "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?PlantCountry=SAUDI+ARABIA",
+    "https://kh.aquaenergyexpo.com/wp-content/uploads/2022/12/IDA-Water-Security-Handbook.pdf"
+   ],
+   "language": "en",
+   "notes": "Phone confirmed in brochure + NSF + IDA handbook. E-mails: info@ (brochure) and asad_khan@aesarabia.com (IDA handbook, 2018) – different addresses -> email unverified."
+  },
+  {
+   "company": "SHAS Water Technology",
+   "country": "Saudi Arabia",
+   "city": "Riyadh",
+   "target_tenders": [
+    "SWA 60021527 Khobar (24.11.2026)",
+    "SWA 60021482 Al-Sha'ib (19.11.2026)",
+    "SWA 60021504 Jeddah reagents (19.11.2026)",
+    "Border Guards Region-S desal chemicals TOT 152220446 (23.11.2026)"
+   ],
+   "products": "BWRO/SWRO design-supply-O&M; supplies antiscalants, ion-exchange & softener resins for O&M contracts",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://shaswatertech.com",
+   "email": "info@shaswatertech.com",
+   "phone": "+966 11 415 0824",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://shaswatertech.com/contact-us",
+    "https://aquaenergyexpo.com/storage/images/companies/pdfs/20240923231905_Shas%20profile.pdf"
+   ],
+   "language": "en",
+   "notes": "Carried over from outreach_world_mena_asia.json (verified=true there, 2 sources). No SWA award evidence found; O&M contractor -> chemical buyer/bid partner."
+  },
+  {
+   "company": "Al Sanea Chemical Products Co. W.L.L.",
+   "country": "Kuwait",
+   "city": "Kuwait (Sabhan Industrial Area)",
+   "target_tenders": [
+    "MEW/11/2025/2026 Shuwaikh RO chemicals via CAPT (01.12.2026)",
+    "KNPC operational planning chemicals (26.11.2026)",
+    "KNPC/KOC RFQ#2168423 H2S scavenger 3-yr (18.01.2027)"
+   ],
+   "products": "Kuwaiti manufacturer (since 1977): water-treatment chemicals, oilfield speciality & maintenance chemicals, heavy chemicals, industrial cleaners, white spirit",
+   "tender_wins": [
+    {
+     "buyer": "KOC / KNPC (per The Energy Year company profile: long-time supplier of drilling- and refining-related chemicals)",
+     "product": "Oilfield/refinery chemicals",
+     "year": 2024,
+     "url": "https://theenergyyear.com/energy-company/al-sanea-chemical-products/"
+    }
+   ],
+   "brands": "Own brands (Made in Kuwait; MoH approved)",
+   "site": "https://alsanea.com",
+   "email": "info@alsanea.com",
+   "phone": "+965 2474 7623 (also 2473 4991; hotline 1800686)",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://alsanea.com/contact-chemical-company-kuwait",
+    "https://kiu-kw.org/en/project/al-sanea-chemical-products-company/?portfolioCats=1672",
+    "https://www.decypha.com/en/company-list/Al-Sanea-Chemical-Products-Co-WLL-161588",
+    "https://dcciinfo.com/co/al-sanea-chemical-products-kuwait-city/345826"
+   ],
+   "language": "ar",
+   "notes": "E-mail confirmed site + Kuwait Industries Union + Decypha; phone site + DCCI + Kuwait YP. Local manufacturer with KOC/KNPC track record -> candidate to front H2S-scavenger / KNPC chemical tenders (needs KOC/KNPC product approval)."
+  },
+  {
+   "company": "Al-Kout Industrial Projects Co. K.S.C.P.",
+   "country": "Kuwait",
+   "city": "Kuwait (Shuaiba plant)",
+   "target_tenders": [
+    "MEW/11/2025/2026 Shuwaikh RO chemicals via CAPT (01.12.2026)",
+    "KNPC operational planning chemicals (26.11.2026)",
+    "KNPC/KOC RFQ#2168423 H2S scavenger 3-yr (18.01.2027)"
+   ],
+   "products": "Chlor-alkali manufacturer: caustic soda, chlorine, sodium hypochlorite, HCl, ferric chloride, salt; serves potable-water, power plants, refineries, oil drilling; subsidiary Safewater Chemicals (Abu Dhabi)",
+   "tender_wins": [
+    {
+     "buyer": "MEW / KNPC / KOC (company states it serves Kuwait power & water plants and oil sector; CEO interview 'only local supplier for MEW' – unconfirmed)",
+     "product": "Chlor-alkali products",
+     "year": 2024,
+     "url": "https://theenergyyear.com/articles/growth-through-diversification-in-kuwaits-chemicals-sector/"
+    }
+   ],
+   "brands": "Own production",
+   "site": "https://alkoutprojects.com",
+   "email": "info@alkoutprojects.com",
+   "phone": "+965 2228 7008 (Oil & Gas Directory)",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://alkoutprojects.com/contact-us/",
+    "https://www.oilandgasdirectory.com/profile/details/34618/Al-Kout-Industrial-Projects.html",
+    "https://boubyan.com/al-kout"
+   ],
+   "language": "ar",
+   "notes": "Listed company. Manufacturer of half of the Shuwaikh BOQ items (NaOH, NaOCl, FeCl3) -> natural prime bidder; ISP could supply the items they do not make (PAC, citric acid, H2SO4?) as sub-supplier. Contacts single-source each."
+  },
+  {
+   "company": "Alnajdain Water Treatment Co.",
+   "country": "Kuwait",
+   "city": "Salmiya",
+   "target_tenders": [
+    "MEW Shuwaikh RO chemicals (PAC, citric acid, SMBS-type items)"
+   ],
+   "products": "Water-treatment engineering since 2002 (RO, STP/ETP, DAF) and water-treatment chemicals supply (claims 'one of the main suppliers' in Kuwait)",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://www.najdain-kw.com",
+   "email": "kuwait@najdain-kw.com",
+   "phone": "+965 9727 7258",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.najdain-kw.com/",
+    "https://alnajdain.lovable.app/__l5e/assets-v1/fe29fb3c-5716-4d94-81ba-c7238c03e60d/AL-NAJDAIN-PROFILE-2026.pdf"
+   ],
+   "language": "ar",
+   "notes": "Only own-site/profile sources. CAPT registration not confirmed."
+  },
+  {
+   "company": "Gulf Trading Development Co. W.L.L. (GTDC, Maskati Group)",
+   "country": "Bahrain",
+   "city": "Sitra (North Sitra Industrial Area)",
+   "target_tenders": [
+    "EWA Al-Dur desalination chemicals (aggregator, 31.12.2026)",
+    "11/2026/BAPCO activated charcoal Merox (29.11.2026; docs purchase by 18.11)"
+   ],
+   "products": "Refinery-process & water-treatment chemicals (caustic, NaOCl, liquid chlorine, hydrazine, DEA/TEG, biocides), activated carbon/alumina, anthracite, desal spares",
+   "tender_wins": [
+    {
+     "buyer": "EWA – Electricity & Water Authority",
+     "product": "Long-term contract for chemical supplies to water-treatment & desalination plants (company statement)",
+     "year": 2024,
+     "url": "https://maskaticommercial.com/about-gtdc/"
+    },
+    {
+     "buyer": "Bapco Refinery / BAPCO Gas / fertiliser plant",
+     "product": "Specialty & commodity chemicals 'on regular basis'; activated carbon for refinery",
+     "year": 2024,
+     "url": "https://maskaticommercial.com/gulf-trading-development-company"
+    }
+   ],
+   "brands": "'EWA/O&G client approved products'",
+   "site": "https://maskaticommercial.com",
+   "email": "info@maskatigroup.com",
+   "phone": "+973 1773 2000",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://maskaticommercial.com/gulf-trading-development-company",
+    "https://abc-gcc.net/companies/1/4472/gulf-trading-development-co-wll"
+   ],
+   "language": "en",
+   "notes": "Best BH fit: incumbent EWA chemical LTA + Bapco supplier, sells activated carbon (matches Bapco Merox tender). Contacts confirmed site + ABC-GCC directory (also tradings@maskatigroup.com)."
+  },
+  {
+   "company": "The Prosperity Trading & Contracting Co. W.L.L. (Prospechem)",
+   "country": "Bahrain",
+   "city": "Sitra",
+   "target_tenders": [
+    "EWA Al-Dur desalination chemicals (aggregator, 31.12.2026)",
+    "11/2026/BAPCO activated charcoal Merox (29.11.2026; docs purchase by 18.11)"
+   ],
+   "products": "Basic & specialty chemicals since 1968; water-treatment chemicals for boilers, desalination units, cooling towers; process chemicals for petrochemical/O&G; serves Govt & semi-Govt",
+   "tender_wins": [],
+   "brands": "",
+   "site": "http://www.prospechem.com",
+   "email": "prochem@batelco.com.bh",
+   "phone": "+973 1773 0001",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "http://www.prospechem.com/",
+    "https://abc-gcc.net/companies/1/6885/prosperity-trading-contracting-co-wll"
+   ],
+   "language": "en",
+   "notes": "No specific award notice found, but positions itself as Govt/semi-Govt chemical supplier incl. desal units. Contacts confirmed site + ABC-GCC."
+  },
+  {
+   "company": "Future Resources Trading W.L.L. (FRT)",
+   "country": "Bahrain",
+   "city": "Tubli / Seef",
+   "target_tenders": [
+    "EWA Al-Dur desalination chemicals (aggregator, 31.12.2026)",
+    "11/2026/BAPCO activated charcoal Merox (29.11.2026; docs purchase by 18.11)"
+   ],
+   "products": "Chemical trader: phosphonates (HEDP, ATMP, PBTCA, DTPMPA), antiscalant polymers (AA-AMPS, HPMA, PAA), PAC, FeCl3, alum, NaOCl, caustic, H2SO4, activated carbon; offices KSA (CR 2050092112), Egypt, Turkey rep.",
+   "tender_wins": [],
+   "brands": "Saudi-origin commodity chemicals (drumming facility in Bahrain)",
+   "site": "https://fr-trading.net",
+   "email": "info@fr-trading.net",
+   "phone": "+973 1770 1419",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://fr-trading.net/",
+    "https://fr-trading.net/wp-content/uploads/2021/04/FRT-Company-Profile.pdf",
+    "https://abc-gcc.net/companies/1/522832/l"
+   ],
+   "language": "en",
+   "notes": "Bahrain CR 88791. Product list overlaps ISP portfolio exactly (could be partner or competitor). Phone and info@ confirmed site + ABC-GCC (contact: Hussam Abu Jame'e hussam@fr-trading.net; Ziauddin Khan, Commercial Director)."
+  },
+  {
+   "company": "Al Khalidia General Trading W.L.L. (Al Khalidia Holding / Magnum Enterprises)",
+   "country": "Bahrain",
+   "city": "Askar",
+   "target_tenders": [
+    "EWA Al-Dur desalination chemicals (aggregator, 31.12.2026)",
+    "11/2026/BAPCO activated charcoal Merox (29.11.2026; docs purchase by 18.11)"
+   ],
+   "products": "Bulk & specialty water-treatment chemicals by tanker/flobin (NaOCl, HCl, alum, FeCl3, NaOH, thiosulphate), gas chlorination, RO",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://alkhalidiagroup.com",
+   "email": "Info@alkhalidiagroup.com",
+   "phone": "+973 1783 2244",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://alkhalidiagroup.com/chemical-suppliers-in-bahrain"
+   ],
+   "language": "en",
+   "notes": "Only own-site source (also magnum@batelco.com.bh)."
+  },
+  {
+   "company": "Global Chemicals LLC",
+   "country": "Oman",
+   "city": "Muscat (Ghala)",
+   "target_tenders": [
+    "4453/2026/MOH/NIZHP-200 Nizwa Hospital WTP chemicals (SME-local, 19.11.2026)",
+    "PDO/OQ chemical tenders via JSRS"
+   ],
+   "products": "Water-treatment (PAC, caustic, NaOCl, Ca-hypo, antiscalants), oilfield production chemicals (corrosion/scale inhibitors, demulsifiers, H2S scavengers, biocides), lubricants, lab reagents",
+   "tender_wins": [
+    {
+     "buyer": "PDO / OQ / Oxy contractors (self-declared JSRS-registered since 2019)",
+     "product": "Oilfield & water-treatment chemicals",
+     "year": 2026,
+     "url": "https://gcoman.com/certifications"
+    }
+   ],
+   "brands": "Shell, Mobil, Castrol lubricants",
+   "site": "https://gcoman.com",
+   "email": "info@gcoman.com (sales@gcoman.com)",
+   "phone": "+968 9277 2305",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://gcoman.com/contact",
+    "https://gcoman.com/blog/jsrs-chemical-supplier-pdo-oman",
+    "https://gcoman.com/certifications"
+   ],
+   "language": "en",
+   "notes": "All claims self-published (SEO-heavy site); JSRS status must be checked on jsrs.om. Independent second source not found."
+  },
+  {
+   "company": "Water Bird Water Treatment Chemicals LLC",
+   "country": "Oman",
+   "city": "Muscat",
+   "target_tenders": [
+    "4453/2026/MOH/NIZHP-200 Nizwa Hospital WTP chemicals (SME-local, 19.11.2026)",
+    "PDO/OQ chemical tenders via JSRS"
+   ],
+   "products": "Water & waste-water treatment chemicals and equipment (RO, softeners, STP/ETP)",
+   "tender_wins": [
+    {
+     "buyer": "Oman Tender Board / Secretariat General for Tenders",
+     "product": "Registered Omani local supplier (CR 00012151-1364289)",
+     "year": 2026,
+     "url": "https://theomantoday.com/directory/water-bird-water-treatment-chemicals-llc"
+    }
+   ],
+   "brands": "",
+   "site": "https://waterbirdwtc.com",
+   "email": "sales@waterbirdwtc.com",
+   "phone": "+968 7153 1568",
+   "verified": false,
+   "verified_email": true,
+   "verified_phone": false,
+   "sources": [
+    "https://theomantoday.com/directory/water-bird-water-treatment-chemicals-llc",
+    "https://waterbirdwtc.com/"
+   ],
+   "language": "en",
+   "notes": "Tender-Board-registered Omani entity of UAE group (site shows UAE phone +971 4 340 5961). E-mail confirmed in 2 sources; Omani phone only in directory."
+  },
+  {
+   "company": "Green Water Treatment Solutions (GreenWTS)",
+   "country": "Oman",
+   "city": "Muscat",
+   "target_tenders": [
+    "4453/2026/MOH/NIZHP-200 Nizwa Hospital WTP chemicals (SME-local, 19.11.2026)",
+    "PDO/OQ chemical tenders via JSRS"
+   ],
+   "products": "Water-treatment & disinfection chemicals, RO antiscalants, cooling-water treatment, RO/DM plants",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://www.greenwtsoman.com",
+   "email": "info@greenwts.com",
+   "phone": "+968 9552 6718",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.greenwtsoman.com/",
+    "https://www.greenwts.com/",
+    "https://omanyp.com/company/16136/Green_Water_Treatment_Services"
+   ],
+   "language": "en",
+   "notes": "OmanYP lists different phone (+968 9741 0753) and no e-mail -> unverified (from outreach_world_mena_asia.json)."
+  },
+  {
+   "company": "Universal Chemical Solutions (Universal / Universam)",
+   "country": "Tunisia",
+   "city": "Tunis (Sidi Fathallah)",
+   "target_tenders": [
+    "SONEDE AO 129/2026 séquestrant dessalement (national AO, domiciliés en Tunisie)",
+    "STEG 20261002201 marché cadre produits chimiques (09.12.2026)",
+    "SONEDE AO 127/2026 sulfate d'alumine liquide (closed 04.11.2026)"
+   ],
+   "products": "Importer-distributor of basic & specialty chemicals since 1988 (390 products, 200 suppliers) incl. water-treatment segment",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://universal.com.tn",
+   "email": "sales@universal.com.tn",
+   "phone": "+216 31 599 144",
+   "verified": true,
+   "verified_email": true,
+   "verified_phone": true,
+   "sources": [
+    "https://universal.com.tn/",
+    "https://linkedin.com/company/universal-tunisia",
+    "https://www.goafricaonline.com/tn/annuaire/industrie-produits-chimiques"
+   ],
+   "language": "fr",
+   "notes": "Largest independent chemical importer found; domiciled in Tunisia -> eligible for SONEDE national AO. TUNEPS registration not verified; no SONEDE award found (TUNEPS results need login)."
+  },
+  {
+   "company": "K2S Distribution (K2S Chemical Solutions)",
+   "country": "Tunisia",
+   "city": "Tunis",
+   "target_tenders": [
+    "SONEDE AO 129/2026 séquestrant dessalement (national AO, domiciliés en Tunisie)",
+    "STEG 20261002201 marché cadre produits chimiques (09.12.2026)",
+    "SONEDE AO 127/2026 sulfate d'alumine liquide (closed 04.11.2026)"
+   ],
+   "products": "Chemical raw-material distributor (since 2021) incl. water-treatment sector",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://k2s.tn",
+   "email": "contact@k2s.tn",
+   "phone": "+216 36 135 437",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://k2s.tn/contact",
+    "https://www.goafricaonline.com/tn/annuaire/industrie-produits-chimiques"
+   ],
+   "language": "fr",
+   "notes": "Phone confirmed site + GoAfrica; e-mail only on site. Young company – check TUNEPS registration and financial capacity (caution 7–10 kTND)."
+  },
+  {
+   "company": "Hydropro Water Solutions",
+   "country": "Tunisia",
+   "city": "Tunis (Lac II)",
+   "target_tenders": [
+    "SONEDE AO 129/2026 séquestrant dessalement (national AO, domiciliés en Tunisie)",
+    "STEG 20261002201 marché cadre produits chimiques (09.12.2026)",
+    "SONEDE AO 127/2026 sulfate d'alumine liquide (closed 04.11.2026)"
+   ],
+   "products": "RO, softening, circuit treatment chemicals, ultrafiltration; industrial references (ICF, Ciments de Gabès)",
+   "tender_wins": [],
+   "brands": "",
+   "site": "http://hydroprowatersolutions.com",
+   "email": "commercial@hydroprowatersolutions.com",
+   "phone": "+216 70 256 368",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "http://hydroprowatersolutions.com/"
+   ],
+   "language": "fr",
+   "notes": "Only own-site source; candidate for antiscalant (séquestrant) lots."
+  },
+  {
+   "company": "Compagnie de Produits Chimiques du Maroc (CPCM, CMGP Group)",
+   "country": "Morocco",
+   "city": "Casablanca",
+   "target_tenders": [
+    "ONEE-BE GN4131124/DXG/2026 désémulsifiant fioul lourd (26.11.2026, 31.1 MMAD)",
+    "ONEE-Branche Eau sulfate d'alumine / polymères (triennial AO)"
+   ],
+   "products": "Aluminium sulphate producer + water-treatment and industrial chemicals, phytosanitary, fertilisers; sells to ONEE, ONSSA",
+   "tender_wins": [
+    {
+     "buyer": "ONEE – Branche Eau",
+     "product": "Sulfate d'alumine, lots 4,5,7,8 of 3-year AO (38 095 t/yr total)",
+     "year": 2020,
+     "url": "https://medias24.com/2020/06/29/onee-un-marche-strategique-relance-le-debat-sur-la-preference-nationale/"
+    }
+   ],
+   "brands": "Kemira, Seppic, Hercules, Akzo, Zschimmer+Schwarz, Sibelco (Telecontact)",
+   "site": "https://cpcm.ma",
+   "email": "cpcm@cpcm.ma",
+   "phone": "+212 522 40 20 70",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://maroc.welipro.com/c/cie-de-produits-chimiques-du-maroc-155012030",
+    "https://www.telecontact.ma/annonceur/c-p-c-m/0515400/casablanca.php",
+    "https://medias24.com/2020/06/29/onee-un-marche-strategique-relance-le-debat-sur-la-preference-nationale/"
+   ],
+   "language": "fr",
+   "notes": "RC 3225 Casablanca, ICE 001525393000007. Proven ONEE supplier; distributes Kemira -> could add polymer/PAC lines from ISP. Phone confirmed 2 directories; e-mail single source."
+  },
+  {
+   "company": "SCE Chemicals (ex-Société Chérifienne d'Engrais et de Produits Chimiques)",
+   "country": "Morocco",
+   "city": "Casablanca (plants Aïn Sebâa, Jorf Lasfar)",
+   "target_tenders": [
+    "ONEE-BE GN4131124/DXG/2026 désémulsifiant fioul lourd (26.11.2026, 31.1 MMAD)",
+    "ONEE-Branche Eau sulfate d'alumine / polymères (triennial AO)"
+   ],
+   "products": "Aluminium sulphate, chlor-alkali (NaOCl, caustic), H2SO4, HCl, sodium silicate, LABSA",
+   "tender_wins": [
+    {
+     "buyer": "ONEE – Branche Eau",
+     "product": "Sulfate d'alumine lots 1,2,3,6 (≈30 % of 2020–23 AO)",
+     "year": 2020,
+     "url": "https://medias24.com/2020/06/29/onee-un-marche-strategique-relance-le-debat-sur-la-preference-nationale/"
+    }
+   ],
+   "brands": "Own production",
+   "site": "https://scechemicals.ma",
+   "email": "contact@sce.ma",
+   "phone": "+212 522 24 59 00",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://scechemicals.ma/contact",
+    "https://medias24.com/2020/06/29/onee-un-marche-strategique-relance-le-debat-sur-la-preference-nationale/"
+   ],
+   "language": "fr",
+   "notes": "Historic ONEE supplier (CDG Capital shareholder). Contacts only on own site. Could front ONEE lots for products it does not make (polymers, antiscalants, demulsifier)."
+  },
+  {
+   "company": "TOP NEGOCE S.A.R.L.",
+   "country": "Morocco",
+   "city": "Casablanca (Aïn Sebâa)",
+   "target_tenders": [
+    "ONEE-BE GN4131124/DXG/2026 désémulsifiant fioul lourd (26.11.2026, 31.1 MMAD)",
+    "ONEE-Branche Eau sulfate d'alumine / polymères (triennial AO)"
+   ],
+   "products": "Chemical importer-distributor since 1988–89 (1000+ SKUs, 21 sectors) incl. water treatment (coagulants, flocculants, disinfectants), drilling & lubricants; AEO customs status; turnover 206 MMAD (2024)",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://topnegoce.com",
+   "email": "contact@topnegoce.com",
+   "phone": "+212 522 67 32 52",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://topnegoce.com/",
+    "https://maroc.welipro.com/c/top-negoce-749620402"
+   ],
+   "language": "fr",
+   "notes": "RC 52665, ICE 000102763000084. Phone site + Welipro; Welipro e-mail differs (top-negoce@menara.ma)."
+  },
+  {
+   "company": "VADEC",
+   "country": "Morocco",
+   "city": "Casablanca (Sidi Othman)",
+   "target_tenders": [
+    "ONEE-BE GN4131124/DXG/2026 désémulsifiant fioul lourd (26.11.2026, 31.1 MMAD)",
+    "ONEE-Branche Eau sulfate d'alumine / polymères (triennial AO)"
+   ],
+   "products": "Water-treatment engineering + formulations (cooling, boilers, process, STEP), coagulants/flocculants/antiscalants/biocides",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://www.vadec.ma",
+   "email": "info@vadec.ma",
+   "phone": "+212 522 899801",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.vadec.ma/",
+    "https://www.telecontact.ma/annonceur/vadec/9060892/casablanca.php",
+    "https://www.b2match.com/e/smagua-2025/participants/2784835"
+   ],
+   "language": "fr",
+   "notes": "Actively seeking chemical manufacturer partners (SMAGUA 2025). From outreach_world_mena_asia.json."
+  },
+  {
+   "company": "Al-Baha Company for Caustic-Chlorine Industry (BCCI)",
+   "country": "Jordan",
+   "city": "Amman HQ / Zarqa plant (Al Dhalil, free zone)",
+   "target_tenders": [
+    "KAUH ع م66/2026 boiler water chemicals (24.11.2026)",
+    "Miyahuna liquid chlorine / Yarmouk Water polymer tenders (recurring)",
+    "ONEE (Morocco) chlorine & alum AOs"
+   ],
+   "products": "Caustic soda (liquid/flakes), liquid chlorine, HCl, NaOCl; trades aluminium sulphate (sourced from Turkey for ONEE)",
+   "tender_wins": [
+    {
+     "buyer": "ONEE (Morocco)",
+     "product": "Sulfate d'alumine lots 9-11, 22 400 t/yr, 94.7 MMAD/yr (2020–23); also ONEE chlorine supplier",
+     "year": 2020,
+     "url": "https://medias24.com/2020/06/29/onee-un-marche-strategique-relance-le-debat-sur-la-preference-nationale/"
+    }
+   ],
+   "brands": "Own production (INEOS bipolar membrane cells)",
+   "site": "https://www.bcci-jo.com",
+   "email": "sales@bcci-jo.com",
+   "phone": "+962 5 382 6876; +962 799 082 116 (Eng. Ammar Jawad, Commercial Director)",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.bcci-jo.com/",
+    "https://www.bcci-jo.com/wp-content/uploads/2026/09/company-profile-2026.pdf",
+    "https://medias24.com/2020/06/29/onee-un-marche-strategique-relance-le-debat-sur-la-preference-nationale/"
+   ],
+   "language": "ar",
+   "notes": "Proven to win foreign utility tenders by reselling third-party product -> strong partner for Jordan and Morocco. Contacts only in own site/profile (same source family). Office in Rabat (Husam Khalaf Omar)."
+  },
+  {
+   "company": "Swedish Jordanian Chemicals Co. (SJCC)",
+   "country": "Jordan",
+   "city": "Amman / plant KHBTDA Mafraq",
+   "target_tenders": [
+    "KAUH ع م66/2026 boiler water chemicals (24.11.2026)",
+    "Miyahuna liquid chlorine / Yarmouk Water polymer tenders (recurring)"
+   ],
+   "products": "Only Jordanian FeCl3 producer (30 kt/yr, NSF-60) + sells other water-treatment chemicals; jar tests",
+   "tender_wins": [],
+   "brands": "Own FeCl3",
+   "site": "https://sjcc.com.jo",
+   "email": "info@sjcc.com.jo",
+   "phone": "+962 6 585 5250; +962 779 285 348",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://sjcc.com.jo/en/home",
+    "https://sjcc.com.jo/en/about-us"
+   ],
+   "language": "en",
+   "notes": "Supplies WAJ/Miyahuna-type plants (no public award found). Could add polymers/PAC from ISP."
+  },
+  {
+   "company": "NABASCO",
+   "country": "Jordan",
+   "city": "Amman (Sweifieh); warehouses Sahab, Muwaqqar FZ; branch Sohar (Oman), Baghdad",
+   "target_tenders": [
+    "KAUH ع م66/2026 boiler water chemicals (24.11.2026)",
+    "Miyahuna liquid chlorine / Yarmouk Water polymer tenders (recurring)"
+   ],
+   "products": "Distribution of water-treatment chemicals & equipment since 1998, oilfield & fuel-treatment chemicals, PE/PP polymers",
+   "tender_wins": [],
+   "brands": "Tasnee, OQ (Luban) polymers",
+   "site": "https://www.nabasco.com",
+   "email": "sales@nabasco.com",
+   "phone": "+962 6 552 3402",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.nabasco.com/"
+   ],
+   "language": "en",
+   "notes": "Only own-site source. Also has Oman entity (omansales@nabasco.com, +968 9339 8812) -> possible Oman partner too."
+  },
+  {
+   "company": "Ram Chemicals",
+   "country": "Jordan",
+   "city": "Amman (Al-Jiza)",
+   "target_tenders": [
+    "KAUH ع م66/2026 boiler water chemicals (24.11.2026)",
+    "Miyahuna liquid chlorine / Yarmouk Water polymer tenders (recurring)"
+   ],
+   "products": "Industrial & water-treatment chemical distribution, blending and packaging (since 2007), exports to KSA, Iraq, Gulf",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://www.ramchemicals.net",
+   "email": "info@ramchemicals.net",
+   "phone": "+962 6 461 6851; +962 795 418 004",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.ramchemicals.net/"
+   ],
+   "language": "en",
+   "notes": "Only own-site source."
+  },
+  {
+   "company": "Chimi Art",
+   "country": "Egypt",
+   "city": "Cairo",
+   "target_tenders": [
+    "HCWW affiliated water companies chemical tenders (e.g. Beheira WWC public tender 11/2025-26 'توريد كيماويات')",
+    "South Cairo Electricity Distribution – silica gel (08.12.2026)"
+   ],
+   "products": "Egyptian manufacturer since 1977: ferric chloride, PAC, corrosion inhibitors, cooling & boiler programmes",
+   "tender_wins": [],
+   "brands": "Own",
+   "site": "https://www.chimiart.com",
+   "email": "sales@chimiart.com",
+   "phone": "+20 2 2528 6322",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": true,
+   "sources": [
+    "https://www.chimiart.com/contact-us",
+    "https://aquaenergyexpo.com/server.php/view_company/264/CHIMI%20ART"
+   ],
+   "language": "ar",
+   "notes": "From outreach_world_mena_asia.json: phone in 2 sources, e-mails differ (sales@ vs chimiart@/info@)."
+  },
+  {
+   "company": "Tayseer International Chemicals (Egypt subsidiary of Tayseer Group KSA)",
+   "country": "Egypt",
+   "city": "Cairo (Nasr City); factory Badr City",
+   "target_tenders": [
+    "HCWW affiliated water companies chemical tenders (e.g. Beheira WWC public tender 11/2025-26 'توريد كيماويات')",
+    "South Cairo Electricity Distribution – silica gel (08.12.2026)"
+   ],
+   "products": "PAC, alum, ACH, FeCl3, polymers, activated carbon (NSF/KIWA + Egyptian MoH approvals), acids, caustic, fertilisers",
+   "tender_wins": [],
+   "brands": "Tayseer Group",
+   "site": "https://tayseerintl.com",
+   "email": "websales@tayseerintl.com",
+   "phone": "+20 2 2386 6483; +20 10 2007 8938",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://tayseerintl.com/",
+    "https://tayseerintl.com/products"
+   ],
+   "language": "ar",
+   "notes": "MoH approval of coagulants = prerequisite for HCWW tenders. Only own-site source."
+  },
+  {
+   "company": "Pyramid Oilfield Supply Co. (POSCO) – Pyramid Water Solutions",
+   "country": "Egypt",
+   "city": "Cairo",
+   "target_tenders": [
+    "HCWW affiliated water companies chemical tenders (e.g. Beheira WWC public tender 11/2025-26 'توريد كيماويات')",
+    "South Cairo Electricity Distribution – silica gel (08.12.2026)"
+   ],
+   "products": "Oilfield supply + water-treatment section (resins, chemicals)",
+   "tender_wins": [],
+   "brands": "Purolite (official distributor)",
+   "site": "https://pyramid.com.eg",
+   "email": "Posco@pyramid.com.eg",
+   "phone": "+20 2 2453 1137",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://aquaenergyexpo.com/storage/images/companies/pdfs/20221204050453_POSCO%20Profile%202022.pdf",
+    "https://www.aquaenergyexpo.com/storage/images/companies/pdfs/20250501130731_PyramidWaterSolutions.pdf"
+   ],
+   "language": "en",
+   "notes": "From outreach_world_mena_asia.json; oil & water both -> fits EGPC + HCWW."
+  },
+  {
+   "company": "Target Water Treatment Specialists",
+   "country": "Egypt",
+   "city": "Alexandria (HQ), Obour City",
+   "target_tenders": [
+    "HCWW affiliated water companies chemical tenders (e.g. Beheira WWC public tender 11/2025-26 'توريد كيماويات')",
+    "South Cairo Electricity Distribution – silica gel (08.12.2026)"
+   ],
+   "products": "Boiler, cooling, RO chemicals; RO/softening plants; industrial & sewage WWTPs (since 2005)",
+   "tender_wins": [],
+   "brands": "",
+   "site": "https://www.targetwatertech.com",
+   "email": "info@targetwatertech.com",
+   "phone": "+20 100 397 7750",
+   "verified": false,
+   "verified_email": false,
+   "verified_phone": false,
+   "sources": [
+    "https://www.targetwatertech.com/"
+   ],
+   "language": "en",
+   "notes": "Only own-site source."
+  }
+ ]
+}
