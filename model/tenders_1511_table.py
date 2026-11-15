@@ -66,6 +66,7 @@ seen = set()
 for t in WT:
     key = (str(t.get("tender_number") or "").strip().lower(), str(t.get("buyer") or "")[:20].lower())
     if key[0] and key in seen: continue
+    if re.search(r"T/GAZ-03[78]|T-47", key[0], re.I): continue  # уже есть в «Международные (ранее)» / не профиль
     seen.add(key)
     d = dk(t.get("deadline"))
     if not d or d < MIN: continue
