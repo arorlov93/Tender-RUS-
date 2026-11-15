@@ -58,7 +58,8 @@
    82,
    83,
    84,
-   86
+   86,
+   95
   ],
   "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/"
@@ -1643,6 +1644,54 @@
    "sources": [
     "https://prozorro.gov.ua/api/tenders/UA-2026-11-11-010672-a/details",
     "https://prozorro.gov.ua/tender/UA-2024-09-10-009849-a"
+   ]
+  },
+  {
+   "id": 95,
+   "n": "TED 751587-2026 (also 745479-2026), Vergabe-Nr. 2026/19 EBK",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.vergabe24.de/vergabeunterlagen/54321-Tender-1a10fd7ac0b-1e84372665b26005",
+    "https://europa.vergabe24.de/download.php"
+   ],
+   "items": [
+    {
+     "product": "Eisen-III-chloridsulfat-Lösung (FeClSO4 ~41%) — раствор хлорсульфата железа(III)",
+     "spec": "EN 891; Fe(III) 12–13%; активное вещество >2,15 моль/кг; нерастворимые <0,02%; анализ тяжёлых металлов (Klärschlammverordnung 2017), DWA-A 202, REACH, SDS",
+     "qty": 300,
+     "unit": "t",
+     "qty_t": 300,
+     "qty_basis": "2027 г., отклонение ±20% без изменения цены"
+    },
+    {
+     "product": "Eisen-II-chlorid-Lösung (FeCl2 ~20%) — раствор хлорида железа(II)",
+     "spec": "Fe(II) 8–9%; активное вещество >1,50 моль/кг; нерастворимые <0,003%; те же подтверждения",
+     "qty": 900,
+     "unit": "t",
+     "qty_t": 900,
+     "qty_basis": "2027 г., ±20%"
+    }
+   ],
+   "total_qty_t": 1200,
+   "contract_period": "01.01.2027–31.12.2027, автопродление 3×1 год (до 31.12.2030), фиксированные цены",
+   "delivery_terms": "Доставка автоцистерной и закачка в резервуары PE-HD 3×33 м3 через муфту DN80 на Zentralkläranlage Konstanz (Fritz-Arnold-Str. 2b); поставка ≤7 рабочих дней после заказа; пн–чт 7–15, пт 7–12; официальные весовые талоны; все административные расходы и дорожные сборы в цене",
+   "packaging": "налив (автоцистерна)",
+   "certificates": "Анализ тяжёлых металлов, содержание активного вещества, SDS — с предложением; EN 891 (Fe-III); REACH; формуляр пригодности Komm EU (L) EigE",
+   "bid_security": "см. Besondere Vertragsbedingungen (BVB) — не проверено",
+   "eligibility_foreign": "Открытая процедура ЕС (2014/24/EU); подача электронно через Vergabe24 (или текстом/письменно по формам Komm EU); немецкий язык; срок связи с офертой 1 мес.",
+   "award_criteria": "100% цена (сумма оценки предложения)",
+   "estimated_value": {
+    "amount": null,
+    "currency": "EUR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Нереально для импорта: жидкие Fe-соли (FeCl2 — побочный продукт травления стали в Германии), поставки автоцистернами с закачкой, 7 дней. Рынок Kronos/Feralco/Buchmann. Только при наличии немецкого производителя-партнёра.",
+   "risks_ru": "Срок 30.11.2026 10:30; низкая маржа commodity-продукта.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (751587-2026)",
+    "https://www.vergabe24.de/vergabeunterlagen/54321-Tender-1a10fd7ac0b-1e84372665b26005",
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/t95/vu.zip"
    ]
   }
  ]
