@@ -37,7 +37,10 @@
    4,
    5,
    6,
-   7
+   7,
+   8,
+   14,
+   29
   ],
   "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
   "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_eu_a/"
@@ -257,6 +260,182 @@
    "sources": [
     "https://purchasing.wycokck.org/eprocurement/Bid_Display.aspx?id=B43198",
     "https://files.topeka.gov/business/procurement/bid-tabulations/2023/Event2783"
+   ]
+  },
+  {
+   "id": 8,
+   "n": "PNCP 27998368000147-1-000138/2026",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.portaldecompraspublicas.com.br/processos/ES/Servico-Autonomo-de-Agua-e-Esgoto-de-Sao-Mateus-3986/PE-005-2026-2026-523386",
+    "https://pncp.gov.br/api/consulta/v1/orgaos/27998368000147/compras/2026/138"
+   ],
+   "items": [
+    {
+     "product": "Sulfato cloreto de alumínio e ferro líquido (Polifloc) — жидкий алюможелезный сульфат-хлорид коагулянт",
+     "spec": "полная спецификация в edital (описание на портале усечено)",
+     "qty": 522000,
+     "unit": "kg",
+     "qty_t": 522,
+     "qty_basis": "registro de preços (SRP), 12 мес. (стандарт SRP); референтная цена 4,59 BRL/кг"
+    },
+    {
+     "product": "Cal hidratada calcítica (гашёная известь), мешки 20 кг, CaO общ. ≥67%",
+     "spec": "Ca(OH)2, CaO total ≥67%",
+     "qty": 12000,
+     "unit": "kg",
+     "qty_t": 12,
+     "qty_basis": "SRP; реф. 1,64 BRL/кг"
+    },
+    {
+     "product": "Sal grosso NaCl ≥99,0% без йода",
+     "spec": "≥99,0% NaCl",
+     "qty": 90,
+     "unit": "kg",
+     "qty_t": 0.09,
+     "qty_basis": "реф. 1,38 BRL/кг"
+    },
+    {
+     "product": "Hipoclorito de sódio 10–15% Cl2",
+     "spec": "10–15% активного хлора",
+     "qty": 20,
+     "unit": "kg",
+     "qty_t": 0.02,
+     "qty_basis": "реф. 4,90 BRL/кг"
+    },
+    {
+     "product": "Fluossilicato de sódio Na2SiF6 98%",
+     "spec": "98%",
+     "qty": 12,
+     "unit": "kg",
+     "qty_t": 0.012,
+     "qty_basis": "реф. 11,90 BRL/кг"
+    }
+   ],
+   "total_qty_t": 534.1,
+   "contract_period": "Ata de registro de preços (SRP); срок по edital (не открыт)",
+   "delivery_terms": "Доставка в SAAE São Mateus (ES), детали в edital (не открыт)",
+   "packaging": "известь — мешки 20 кг; остальное — по edital",
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Pregão eletrônico по Lei 14.133/2021 на Portal de Compras Públicas; ampla concorrência; требуется бразильская регистрация (CNPJ), подача на португальском",
+   "award_criteria": "Menor preço (минимальная цена), открытый режим торгов",
+   "estimated_value": {
+    "amount": 2416025,
+    "currency": "BRL",
+    "per_lot": "по позициям: Polifloc 522 000 кг × 4,59 = 2 395 980 BRL; известь 12 000 × 1,64 = 19 680 BRL"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Референтная (сметная) цена заказчика — жидкий Polifloc (Al/Fe сульфат-хлорид)",
+     "unit_price": 4590,
+     "currency_per": "BRL/t",
+     "year": 2026,
+     "source_url": "https://www.portaldecompraspublicas.com.br/processos/ES/Servico-Autonomo-de-Agua-e-Esgoto-de-Sao-Mateus-3986/PE-005-2026-2026-523386"
+    }
+   ],
+   "feasibility_ru": "Низкая: 98% стоимости — жидкий коагулянт Polifloc (бразильский продукт), поставка цистернами из местного производства; требуется бразильское юрлицо. Прием предложений до 18.11.2026 07:30.",
+   "risks_ru": "Нужен местный партнёр; жидкий продукт; SRP без гарантированного объёма; срок 3 дня.",
+   "sources": [
+    "https://pncp.gov.br/api/consulta/v1/orgaos/27998368000147/compras/2026/138",
+    "https://www.portaldecompraspublicas.com.br/processos/ES/Servico-Autonomo-de-Agua-e-Esgoto-de-Sao-Mateus-3986/PE-005-2026-2026-523386"
+   ]
+  },
+  {
+   "id": 14,
+   "n": "",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.globaltenders.com/tender-detail/delivery-of-coagulant-for-removal-of-phospho-p1XABBz2CPkQK71Z"
+   ],
+   "items": [
+    {
+     "product": "Коагулянт для химического удаления фосфора (тип не указан — вероятно соли Fe/Al) для очистных Barbara, Halemba Centrum, Orzegów",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "в приложениях к процедуре (не открыты)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Процедура по внутреннему регламенту PWiK Sp. z o.o. w Rudzie Śląskiej (вне PZP); заказчик может закрыть процедуру без объяснения причин; документы на польском; платформа заказчика не идентифицирована (по формулировкам — вероятно platformazakupowa.pl)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "PLN",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая: внутренняя процедура малого польского водоканала, жидкий коагулянт для 3 очистных — нужен местный склад и автоцистерны; срок 19.11.2026.",
+   "risks_ru": "Официальная страница и количества не найдены (агрегатор GlobalTenders: опубликовано 07.11.2026, срок 19.11.2026).",
+   "sources": [
+    "https://www.globaltenders.com/tender-detail/delivery-of-coagulant-for-removal-of-phospho-p1XABBz2CPkQK71Z"
+   ]
+  },
+  {
+   "id": 29,
+   "n": "TED 731605-2026 (EKR001822212026)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://ekr.gov.hu/eljarastar/eljaras/EKR001822212026"
+   ],
+   "items": [
+    {
+     "product": "Ингибитор накипи/отложений (lerakódásgátló) для термальных/лечебных купален — референс ScaleKem 53L или эквивалент",
+     "spec": "Эквивалент допускается, если: применим для термальной/лечебной воды и бассейнов; применим при высоком газосодержании термальной воды; для эквивалента обязательно указать расход на 2 500 000 м3/год воды",
+     "qty": 35325,
+     "unit": "kg",
+     "qty_t": 35.325,
+     "qty_basis": "плановое количество на 24 мес. (заказчик не обязуется выбрать); рамочный лимит 100 млн HUF нетто"
+    }
+   ],
+   "total_qty_t": 35.325,
+   "contract_period": "Рамочный договор 24 мес., продление максимум на 12 мес. в пределах остатка лимита",
+   "delivery_terms": "Поставки по индивидуальным заказам в купальни Budapest Gyógyfürdői és Hévizei Zrt. (Будапешт); срок поставки 2–7 рабочих дней от подтверждения заказа (критерий оценки); неустойки: просрочка 5%/день (макс. 20%), дефект 5%/день, срыв — 20% невыбранного лимита; оплата 30 дней, в HUF, без аванса",
+   "packaging": "по ценовой таблице документации (не открыта)",
+   "certificates": "Референции: ≥1500 кг поставок антискаланта для термальной/бассейновой воды за 3 года; специалист — инженер-химик с ≥24 мес. опыта",
+   "bid_security": "не требуется",
+   "eligibility_foreign": "Открытая процедура ЕС через EKR (ekr.gov.hu) — регистрация в EKR и ЕСПД; документы на венгерском",
+   "award_criteria": "Цена + срок поставки (1. нетто цена HUF; 2. срок поставки 2–7 раб. дней), веса в документации",
+   "estimated_value": {
+    "amount": 100000000,
+    "currency": "HUF",
+    "per_lot": "рамочный лимит нетто на 24 мес."
+   },
+   "benchmark_prices": [
+    {
+     "what": "Предыдущий договор (TED CAN 791356-2024): ScaleKem 53L 21 645 кг/год, рамка 60 000 000 HUF нетто/12 мес., победитель Optilube Kft. Лимит/объём ≈ 2 772 HUF/кг — это верхняя граница (рамка), а не фактическая цена (estimate)",
+     "unit_price": 2772000,
+     "currency_per": "HUF/t (ceiling estimate)",
+     "year": 2024,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/791356-2024"
+    },
+    {
+     "what": "Текущий лимит 100 000 000 HUF / 35 325 кг ≈ 2 831 HUF/кг (ceiling estimate)",
+     "unit_price": 2831000,
+     "currency_per": "HUF/t (ceiling estimate)",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/731605-2026"
+    },
+    {
+     "what": "Предыдущая попытка 2026 (CN 434200-2026 → CAN 664075-2026): участник Tomex Group Kft., стоимость не опубликована — вероятно неуспешная",
+     "unit_price": null,
+     "currency_per": null,
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/664075-2026"
+    }
+   ],
+   "feasibility_ru": "Средне-низкая: малый объём (~35 т/2 года), специализированный продукт (фосфонатный антискалант для газонасыщенной термальной воды) — можно предложить китайский аналог (HEDP/PBTC-смесь), но нужны венгерские референции ≥1,5 т в термальных купальнях, инженер-химик, склад в Венгрии для поставки за 2–7 дней. Срок 20.11.2026.",
+   "risks_ru": "Жёсткие неустойки (до 20%); привязка к ScaleKem 53L (Optilube); EKR-регистрация; доля цены высокая (~2,8 тыс. HUF/кг ≈ 7 EUR/кг по лимиту) — привлекательная маржа, но объём мал.",
+   "sources": [
+    "https://api.ted.europa.eu/v3/notices/search (731605-2026, 791356-2024, 664075-2026)",
+    "https://ekr.gov.hu/eljarastar/eljaras/EKR001822212026"
    ]
   }
  ]

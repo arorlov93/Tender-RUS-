@@ -71,6 +71,185 @@
    ]
   },
   {
+   "id": 116,
+   "n": "TED 743713-2026 (1173/PN-70/2026)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://mpwik-pzp.logintrade.net/zapytania_email,243773,6b5423e17cc23bcd1f860f56b2e4528c.html"
+   ],
+   "items": [
+    {
+     "product": "Siarczan żelazowy (ferric sulphate solution, UN 3264) – WWTP Płaszów",
+     "spec": "dark-brown solution; total Fe min 11.2%; ferric sulphate 35-50%; pH<1; Fe2+ max 0.3%; free H2SO4 0%; no chlorides/free HCl; crystallisation <-20°C, freezing <-35°C",
+     "qty": 2200,
+     "unit": "Mg/yr",
+     "qty_t": 2200,
+     "qty_basis": "approx., 12 months"
+    },
+    {
+     "product": "Siarczan żelazowy – WWTP Kujawy",
+     "spec": "same",
+     "qty": 1000,
+     "unit": "Mg/yr",
+     "qty_t": 1000,
+     "qty_basis": "approx., 12 months"
+    }
+   ],
+   "total_qty_t": 3200,
+   "contract_period": "12 months successive deliveries; no option",
+   "delivery_terms": "Delivered to WWTP Płaszów (ul. Kosiarzy 3) and Kujawy (ul. Dymarek 9), Kraków, in tankers, min 22 Mg per delivery, within 3 days of order, Mon-Fri 7-14; ADR; unloading by supplier's own equipment; payment 30 days, split payment",
+   "packaging": "bulk road tanker (min 22 t)",
+   "certificates": "SDS (karta charakterystyki), Atest higieniczny (Polish hygiene certificate, PZH), technical parameter description; quality certificates on request; experience: min 2 deliveries of ferric sulphate each >=2,000 Mg in last 3 years; JEDZ/ESPD; art.5k sanctions declaration",
+   "bid_security": "Wadium 52,000 PLN",
+   "eligibility_foreign": "Open sector procedure (Pzp), EU-threshold, foreign bidders allowed via Logintrade platform with qualified e-signature; Polish language",
+   "award_criteria": "100% gross price",
+   "estimated_value": {
+    "amount": 5280000,
+    "currency": "PLN",
+    "per_lot": "single lot (≈1,198,000 EUR at 4.4066 PLN/EUR); implied 1,650 PLN/Mg"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Previous award (TED 39165-2026, contract 14.01.2026, 3,200 Mg/12 mo) – Kemipol Sp. z o.o., 4,224,000 PLN (single bid value low=high; gross vs net not stated – tender evaluated gross)",
+     "unit_price": 1320,
+     "currency_per": "PLN/Mg (≈300 EUR/t if incl. VAT basis then net ≈1,073 PLN/Mg ≈244 EUR/t)",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/39165-2026"
+    },
+    {
+     "what": "Award 2024 (TED 776806-2024) – Kemipol Sp. z o.o., 4,160,000 PLN for same scope",
+     "unit_price": 1300,
+     "currency_per": "PLN/Mg (derived, assumes 3,200 Mg)",
+     "year": 2024,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/776806-2024"
+    }
+   ],
+   "feasibility_ru": "Низкая для импорта из Азии: жидкий сульфат железа (11,2% Fe) возят только локально (Kemipol — производитель в Польше), цена ~250-300 EUR/т не покрывает морской фрахт раствора. Требуются Atest PZH и опыт 2 поставок по 2000 т. Только как посредник для польского/чешского производителя.",
+   "risks_ru": "Kemipol побеждает в каждой процедуре (2021, 2023, 2024, 2026); вадиум 52 000 PLN; поставки за 3 дня автоцистернами.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/743713-2026",
+    "https://mpwik-pzp.logintrade.net/zapytania_email,243773,6b5423e17cc23bcd1f860f56b2e4528c.html",
+    "https://ted.europa.eu/en/notice/-/detail/39165-2026"
+   ]
+  },
+  {
+   "id": 117,
+   "n": "TED 760794-2026 (Z000192-SAP-E-EKO-2026)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://platformazakupowa.pl/transakcja/1401971",
+    "https://platformazakupowa.pl/file/get_new/b28e0f511b1c8a110f75938d12a7015e.pdf",
+    "https://platformazakupowa.pl/file/get_new/64f5e09541160c90bc6a2600ddaf0e3c.docx"
+   ],
+   "items": [
+    {
+     "product": "Lot 1: PAC – aqueous polyaluminium chloride solution (against filamentous bacteria/foaming, WWTP Gdańsk Wschód)",
+     "spec": "Al3+ >= 8% in product; freezing point < -20°C; heavy metals max mg/kg: Zn 1.9, Cr 0.5, Cd 0.2, Cu 0.2, Ni 0.5, Ca 0.04, Pb 1",
+     "qty": 250,
+     "unit": "Mg (guaranteed) + option 500 Mg",
+     "qty_t": 750,
+     "qty_basis": "basic 250 t guaranteed, max 750 t incl. option, 12 months"
+    },
+    {
+     "product": "Lot 2: ferric (Fe3+) sulphate coagulant solution for phosphate precipitation",
+     "spec": "total Fe >= 11.4%; freezing < -35°C; heavy metals max mg/kg: Mn 300, Cu 1, Zn 20, Cd 1, Hg 1, Pb 5, Cr 5, Ni 20; insolubles <0.1%",
+     "qty": 800,
+     "unit": "Mg (guaranteed) + option 300 Mg",
+     "qty_t": 1100,
+     "qty_basis": "basic 800 t, max 1,100 t, 12 months"
+    }
+   ],
+   "total_qty_t": 1850,
+   "contract_period": "01.01.2027 – 31.12.2027 (12 months); one-time price indexation possible after 6 months (art. 439 Pzp)",
+   "delivery_terms": "Delivered and unloaded by supplier at WWTP Gdańsk Wschód, ul. Benzynowa 26, within 3 working days of call-off, weekdays 8-14; each delivery with SDS, quality certificate, waybill, weighing certificate (Polish); ADR/RID classification certificate",
+   "packaging": "bulk (tanker, implied by unloading into buyer's tanks; not explicitly stated)",
+   "certificates": "SDS from manufacturer with max heavy metals; delivery quality certificate; technical-technological assistance during use",
+   "bid_security": "Wadium lot 1: 20,000 PLN; lot 2: 30,000 PLN",
+   "eligibility_foreign": "Open EU procedure (Pzp), platformazakupowa.pl, qualified e-signature; Polish language; ESPD (JEDZ)",
+   "award_criteria": "100% gross price, per lot",
+   "estimated_value": {
+    "amount": null,
+    "currency": "PLN",
+    "per_lot": "not published"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Comparable: Kraków ferric sulphate award 2026 (Kemipol) 4,224,000 PLN / 3,200 Mg",
+     "unit_price": 1320,
+     "currency_per": "PLN/Mg (derived)",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/39165-2026"
+    }
+   ],
+   "feasibility_ru": "Низкая-средняя. Лот 1 PAC (8% Al, 250-750 т) — жидкий продукт, доставка 3 дня; из Азии возможен только порошковый PAC с растворением у польского партнёра (дилютер/склад). Лот 2 сульфат железа — только локальное производство (Kemipol/Kemira). Без склада в Польше нереально.",
+   "risks_ru": "Жёсткие лимиты по тяжёлым металлам для PAC (Cr 0,5, Pb 1 мг/кг); поставка за 3 рабочих дня; польский язык; вадиум.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/760794-2026",
+    "https://platformazakupowa.pl/transakcja/1401971"
+   ]
+  },
+  {
+   "id": 127,
+   "n": "TED 745328-2026 (SEAP CN1097852)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://e-licitatie.ro/pub/notices/c-notice/v2/view/100213615"
+   ],
+   "items": [
+    {
+     "product": "Policlorura de aluminiu (PAC) for raw-water potabilisation (flocculation agent)",
+     "spec": "Grade not in notice (caiet de sarcini on SEAP not accessible – IP blocked); drinking-water use, likely EN 883 (not verified)",
+     "qty": 885,
+     "unit": "t",
+     "qty_t": 885,
+     "qty_basis": "total for 12-month contract"
+    }
+   ],
+   "total_qty_t": 885,
+   "contract_period": "12 months",
+   "delivery_terms": "Not verified (SEAP documents blocked); delivery to AQUAVAS Vaslui water treatment plant(s)",
+   "packaging": null,
+   "certificates": "ISO 9001/14001/45001 or equivalent (from winner only); list of similar deliveries last 3 years min. 2,650,000 RON excl. VAT (max 3 contracts); ONRC certificate or foreign equivalent; documents in other languages need certified Romanian translation",
+   "bid_security": "10,500 RON participation guarantee, irrevocable, first-demand, valid 120 days, uploaded in SEAP with e-signature; performance guarantee 2% of contract value",
+   "eligibility_foreign": "Open procedure, foreign bidders allowed (equivalent documents accepted); must register on SEAP (e-licitatie.ro) with qualified e-signature; Romanian language",
+   "award_criteria": "100% lowest price",
+   "estimated_value": {
+    "amount": 2650000,
+    "currency": "RON",
+    "per_lot": "single lot; ≈ 496,500 EUR at 5.3377 RON/EUR"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Implied budget unit price 2,650,000 RON / 885 t",
+     "unit_price": 2994,
+     "currency_per": "RON/t (≈561 EUR/t, ≈620 USD/t) – derived",
+     "year": 2026,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/745328-2026"
+    },
+    {
+     "what": "Previous AQUAVAS PAC contract 17.12.2025 (procedură simplificată), winner KEMCRISTAL, 2.0 mil RON (quantity not shown)",
+     "unit_price": null,
+     "currency_per": "RON total",
+     "year": 2025,
+     "source_url": "https://companiidestat.ro/companii/17986823"
+    },
+    {
+     "what": "Compania Apa Brasov PAC award 2026 to PURE WATER / KEMCRISTAL, 2,042,700 EUR (aggregator, quantity unknown)",
+     "unit_price": null,
+     "currency_per": "EUR total",
+     "year": 2026,
+     "source_url": "https://tendermetric.com/awards/romania-chemicals-782371-2026"
+    }
+   ],
+   "feasibility_ru": "Средняя. Цена ~560 EUR/т (бюджет) — для жидкого PAC из Азии с доставкой в Васлуй вряд ли конкурентно (жидкий PAC ~ 10% Al2O3 возить морем невыгодно); порошковый PAC 30% Al2O3 + растворение на месте — только если ТЗ допускает твёрдый продукт (не проверено). Нужна регистрация на SEAP с КЭП, гарантия 10 500 RON, референции на 2,65 млн RON поставок.",
+   "risks_ru": "Документы (caiet de sarcini) не открыты — SEAP заблокировал IP; доминирует Kemcristal; требование референций на сумму равную бюджету.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/745328-2026",
+    "https://firme360.ro/achizitii-publice/cod/policlorura-de-aluminiu-24312123",
+    "https://companiidestat.ro/companii/17986823"
+   ]
+  },
+  {
    "id": 152,
    "n": "TED 775353-2026 (VKS-70/26)",
    "docs_found": true,

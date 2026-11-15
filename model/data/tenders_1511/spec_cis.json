@@ -1,0 +1,604 @@
+{
+ "meta": {
+  "batch": "cis",
+  "generated": "2026-11-15",
+  "fx_note": "USD rates from fx_usd_1511.json (exchangerate-api 15.11.2026): KZT 445.07, EUR 0.906, INR 94.26, UZS 11997, AZN 1.70, KWD 0.311, SEK 10.07, HUF 330.8, PLN 3.99, BDT 124.6",
+  "method": "Official notices/docs opened where reachable; zakup.sk.kz data via site XHR (Playwright) + open file-storage endpoint; Samruk benchmark = planned unit price (без НДС) in consolidated annual plan rows with executed/signed contracts (not the award price). Null = not found.",
+  "files_dir": "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_cis/",
+  "n_tenders": 28,
+  "n_with_docs": 5
+ },
+ "tenders": [
+  {
+   "id": 28,
+   "n": "Samruk-Kazyna № 1265470 (lot 4565639)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://zakup.sk.kz/#/ext(popup:item/1265470/advert)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/a08d08b2-88fc-4e70-a960-2bc14647343b-2026-minio (тех.спецификация лота)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/cee259d4-e6e4-4b90-828c-9f56dc09b220-2026-minio (тендерная документация)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/8da4998d-a1b1-42a6-9a76-6b676abfb501-2026-minio (проект договора)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/1bd5b241-0377-49a2-85f5-adafc4f4c368-2026-minio (объявление)"
+   ],
+   "items": [
+    {
+     "product": "Деэмульгатор для отделения воды от нефти, жидкий (обезвоживание/обессоливание промысловой эмульсии)",
+     "spec": "СТ РК 2493-2014 марка Б; НПАВ 30-65% масс.; вязкость при 20°C ≤100 мм2/с; t застывания ≤ -45°C; плотность 750-1400 кг/м3; деэмульгирующая активность ≥95%; дозировка ~6 г/т нефти; нефть 1 группы по СТ РК 1347-2024; полностью растворим в дизельной фракции",
+     "qty": 9.0,
+     "unit": "тонна",
+     "qty_t": 9.0,
+     "qty_basis": "указано в тоннах",
+     "unit_price": 4534528.0,
+     "currency": "KZT (без НДС, планируемая цена за единицу)"
+    }
+   ],
+   "total_qty_t": 9.0,
+   "contract_period": "поставка 01.2027–12.2027",
+   "delivery_terms": "DDP Казахстан, Мангистауская обл., г. Актау, промзона 5, здание 65",
+   "packaging": "тара 200–230 дм3 (бочки), маркировка по ГОСТ 1510-2022; дата изготовления партии ≤30 дней на момент поставки",
+   "certificates": "паспорт качества/безопасности; тара разрешена санэпидслужбой РК; входной контроль по результатам ОПИ (массовая доля активного вещества не ниже полученной при ОПИ или статистики за 3 года)",
+   "bid_security": "не требуется (в перечне лотов: «Не требуется»)",
+   "eligibility_foreign": "НЕТ: приоритет закупки «Среди товаропроизводителей» — п.5.2 ТД: допускаются только товаропроизводители, состоящие в Реестре казахстанских товаропроизводителей; flagProcurementCategoryStrategy=true",
+   "award_criteria": "наименьшая условная цена; демпинг >15% ниже среднего; оплата 30% аванс / 70% окончательный",
+   "estimated_value": {
+    "amount": 40810752,
+    "currency": "KZT без НДС",
+    "per_lot": {
+     "lot1": 40810752
+    },
+    "usd_approx": 91696
+   },
+   "benchmark_prices": [
+    {
+     "what": "CASPI BITUM деэмульгатор 2026 план, 7 т (договор исполнен)",
+     "unit_price": 4277857,
+     "currency_per": "KZT/т без НДС",
+     "year": 2026,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual (год 2026, «Деэмульгатор»)"
+    },
+    {
+     "what": "CASPI BITUM деэмульгатор 2025, 5,7 т, объявл. 1072651 (исполнен)",
+     "unit_price": 5594111,
+     "currency_per": "KZT/т без НДС",
+     "year": 2025,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual (год 2025, «Деэмульгатор»)"
+    },
+    {
+     "what": "Промысловые деэмульгаторы КМГ 2026 (ММГ 704 т 2 712 600; Озенмунайгаз 832 т 2 640 000; Каражанбасмунай 396 т 2 706 000; Эмбамунайгаз 1,85–2,5 млн)",
+     "unit_price": 2700000,
+     "currency_per": "KZT/т без НДС (≈6 070 USD/т)",
+     "year": 2026,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual (год 2026, «Деэмульгатор»)"
+    }
+   ],
+   "feasibility_ru": "Для ISP закрыто: тендер только среди казахстанских товаропроизводителей (реестр). Rimpro (деэмульгаторы) может участвовать только через казахстанского производителя-блендера. Объём малый (9 т). Цена очень высокая: 4,53 млн KZT/т ≈ 10 190 USD/т — индикатор, что битумный завод платит премиум.",
+   "risks_ru": "Недопуск нерезидента/трейдера; нужен ОПИ-допуск; срок подачи 20.11.2026 10:00 (Астана).",
+   "sources": [
+    "https://zakup.sk.kz/#/ext(popup:item/1265470/advert)",
+    "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+   ]
+  },
+  {
+   "id": 35,
+   "n": "BidDetail 120495664",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 42,
+   "n": "Samruk-Kazyna № 1266172",
+   "docs_found": true,
+   "doc_urls": [
+    "https://zakup.sk.kz/#/ext(popup:item/1266172/advert)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/ceccebc1-640b-41fe-92ff-cffeffcd744d-2026-minio (тендерная документация)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/330033a7-2a6c-4b62-b70d-7c59de421941-2026-minio (проект договора)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/cb36d16a-82da-4520-b2ec-d95582710738-2026-minio (Lot1 (4567849) Сухой активный ил для БОС)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/a8e87c42-eff5-4ce9-a594-851a57087f21-2026-minio (Lot2 (4567848) Коагулянт Nalco 8190)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/21bf6edd-2c2b-4f8b-ac87-47dfe9c9a27f-2026-minio (Lot3 (4567847) Коагулянт Nalco 8108+)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/92bc9a81-108e-4b7d-bc3a-7acf9a7aa1ec-2026-minio (Lot4 (4567846) Деэмульгатор Nalco EC2472A (марка А))"
+   ],
+   "items": [
+    {
+     "product": "Lot1 (4567849) Сухой активный ил для БОС",
+     "spec": "сухой активный ил (биопрепарат) для роста микроорганизмов на биологических очистных сооружениях",
+     "qty": 0.39,
+     "unit": "тонна",
+     "qty_t": 0.39,
+     "qty_basis": "указано в тоннах",
+     "unit_price": 125000000,
+     "currency": "KZT/т без НДС (планируемая цена)"
+    },
+    {
+     "product": "Lot2 (4567848) Коагулянт Nalco 8190",
+     "spec": "марка Nalco 8190 (бренд указан для совместимости): жидкость, поли-DADMAC + акриловая к-та + акрилат Na 15–25%, уд. масса 1.04, pH 4, вязкость ≥1000 cps; дозировка ≤0,0115 кг/т стоков; флотатор БОС: НП ≤15 мг/л, взвесь ≤20 мг/л",
+     "qty": 19.0,
+     "unit": "тонна",
+     "qty_t": 19.0,
+     "qty_basis": "указано в тоннах",
+     "unit_price": 3613500,
+     "currency": "KZT/т без НДС (планируемая цена)"
+    },
+    {
+     "product": "Lot3 (4567847) Коагулянт Nalco 8108+",
+     "spec": "марка Nalco 8108+: поли-DADMAC 10–20%, плотн. 1.018–1.058, pH 5–8, вязкость 500–3200 mPa·s; дозировка ≤0,012651 кг/т; флотатор МОС: НП ≤48 мг/л, взвесь ≤90,7 мг/л",
+     "qty": 25.0,
+     "unit": "тонна",
+     "qty_t": 25.0,
+     "qty_basis": "указано в тоннах",
+     "unit_price": 3564000,
+     "currency": "KZT/т без НДС (планируемая цена)"
+    },
+    {
+     "product": "Lot4 (4567846) Деэмульгатор Nalco EC2472A (марка А)",
+     "spec": "марка Nalco EC2472A: тёмно-коричневая жидкость, Tвсп 56°C, Tтек -37°C, плотн. 0.96, вязк. 53 мм2/с (40°C), углеводороды С10 30–50%, керосин 10–15%; расход ≤0,1497 кг/т стоков (узел обезвоживания нефтешлама)",
+     "qty": 20.0,
+     "unit": "тонна",
+     "qty_t": 20.0,
+     "qty_basis": "указано в тоннах",
+     "unit_price": 6000000,
+     "currency": "KZT/т без НДС (планируемая цена)"
+    }
+   ],
+   "total_qty_t": 64.39,
+   "contract_period": "поставка в течение 100 календарных дней с даты подписания договора",
+   "delivery_terms": "DDP Атырау, ул. Мухтара Ауэзова 92, база ТОО «АНПЗ»; оплата 100% промежуточный платёж (после поставки), аванс 0%",
+   "packaging": "еврокубы 1 м3 химстойкие, антистатические, с фирменной маркировкой завода-изготовителя (лоты 2–4)",
+   "certificates": "паспорт безопасности, паспорт/сертификат качества; товар новый в сроке годности",
+   "bid_security": "1% от суммы лота: L1 487 500, L2 686 565, L3 891 000, L4 1 200 000 KZT (эл. кошелёк или эл. банковская гарантия); обеспечение исполнения договора 2% (проект договора п.4.1.5); срок действия заявки ≥90 дней",
+   "eligibility_foreign": "Открытый тендер без приоритета; нерезиденты допускаются (ТД п.5.2 — те же документы или аналогичные), нужна регистрация на zakup.sk.kz с ЭЦП; договор с нерезидентом подписывается в срок до 14 раб. дней",
+   "award_criteria": "наименьшая условная цена: −5% если товаропроизводитель; −1,5% за 3 года опыта +0,5%/год (макс 2,5%); −1% МСБ РК; демпинг >15% ниже среднего",
+   "estimated_value": {
+    "amount": 326506500,
+    "currency": "KZT без НДС",
+    "per_lot": {
+     "lot1": 48750000,
+     "lot2": 68656500,
+     "lot3": 89100000,
+     "lot4": 120000000
+    },
+    "usd_approx": 733613
+   },
+   "benchmark_prices": [
+    {
+     "what": "АНПЗ коагулянт для очистки воды (Nalco) план 2026, 50,22 т (объявл. 1160926) / 40,85 т (1190494)",
+     "unit_price": 3600000,
+     "currency_per": "KZT/т без НДС (3 600 000 и 3 650 000)",
+     "year": 2026,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "АНПЗ коагулянт 2025: 36,27 т (1049986) 3 200 000; 37 т (1119477) 3 283 000",
+     "unit_price": 3283000,
+     "currency_per": "KZT/т без НДС",
+     "year": 2025,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "АНПЗ деэмульгатор марка А 2026, 15,456 т (1165814, исполнен)",
+     "unit_price": 6300000,
+     "currency_per": "KZT/т без НДС",
+     "year": 2026,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "АНПЗ деэмульгатор марка А 2024/2025, 32,8 т / 16 т (958489 / 1050187)",
+     "unit_price": 5831000,
+     "currency_per": "KZT/т без НДС",
+     "year": 2025,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "АНПЗ сухой активный ил 2025, 345 кг (1140117)",
+     "unit_price": 135000,
+     "currency_per": "KZT/кг без НДС",
+     "year": 2025,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    }
+   ],
+   "feasibility_ru": "Формально открыт для нерезидентов, но все химлоты привязаны к брендам Nalco (8190, 8108+, EC2472A) «для подпитки/совместимости и гарантий». Аналог от Kairui/Rimpro/Aierfuke не пройдёт по техспецификации (п.3 — указание на конкретного производителя). Реально — только дистрибьютор Nalco/Ecolab. Для ISP: НЕ участвовать; использовать как ценовой ориентир: поли-DADMAC-коагулянт ≈3,56–3,61 млн KZT/т ≈ 8 000–8 120 USD/т, деэмульгатор 6,0 млн KZT/т ≈ 13 480 USD/т (без НДС, DDP Атырау).",
+   "risks_ru": "Бренд-лок Nalco; обеспечение 1% + 2% исполнения; доставка 100 дней; дедлайн 23.11.2026 10:00 (UTC+5).",
+   "sources": [
+    "https://zakup.sk.kz/#/ext(popup:item/1266172/advert)",
+    "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+   ]
+  },
+  {
+   "id": 43,
+   "n": "Samruk-Kazyna № 1266213",
+   "docs_found": true,
+   "doc_urls": [
+    "https://zakup.sk.kz/#/ext(popup:item/1266213/advert)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/398514f0-40c2-4564-868c-86dbfdb47177-2026-minio (тендерная документация)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/a52d06d1-f0cb-4044-8a75-f1a5220c84d2-2026-minio (лот 1 ТС)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/788e6aea-ca0f-4349-9c11-550c8389e421-2026-minio (лот 2 ТС)"
+   ],
+   "items": [
+    {
+     "product": "Lot1 (4567903) Флокулянт катионный Nalco 71302 (эмульсия) для флотаторов БОС",
+     "spec": "марка Nalco 71302: эмульсия сополимера акриламида средне-катионного, плотн. 1.04, вязк. 1000 cps, Tвсп >93,3°C; дозировка ≤0,0045 кг/т; НП ≤15 мг/л, взвесь ≤20 мг/л",
+     "qty": 16.48,
+     "unit": "тонна",
+     "qty_t": 16.48,
+     "qty_basis": "указано в тоннах",
+     "unit_price": 4554000,
+     "currency": "KZT/т без НДС"
+    },
+    {
+     "product": "Lot2 (4567902) Флокулянт катионный Nalco 9916 (порошок) для обезвоживания шлама",
+     "spec": "марка Nalco 9916: порошок белый, сополимер акриламида высококатионный 100%, pH 2.5–4.5 (5%); расход ≤0,2066 кг/т (обезвоживание) и ≤0,001953 кг/т (флотаторы)",
+     "qty": 30.0,
+     "unit": "тонна",
+     "qty_t": 30.0,
+     "qty_basis": "указано в тоннах",
+     "unit_price": 4108500,
+     "currency": "KZT/т без НДС"
+    }
+   ],
+   "total_qty_t": 46.48,
+   "contract_period": "100 календарных дней с даты договора",
+   "delivery_terms": "DDP Атырау, база ТОО «АНПЗ» (ул. М. Ауэзова 92); оплата 100% после поставки",
+   "packaging": "L1 еврокубы 1 м3; L2 п/э мешки 25 кг со вкладышем на поддонах в термоусадке",
+   "certificates": "паспорт безопасности, паспорт/сертификат качества",
+   "bid_security": "1%: L1 750 499 KZT, L2 1 232 550 KZT; обеспечение исполнения 2% (проект договора п.4.1.5)",
+   "eligibility_foreign": "открытый тендер без приоритета; нерезиденты допускаются через регистрацию на портале",
+   "award_criteria": "наименьшая условная цена (−5% производитель, до −2,5% опыт, −1% МСБ)",
+   "estimated_value": {
+    "amount": 198304920,
+    "currency": "KZT без НДС",
+    "per_lot": {
+     "lot1": 75049920,
+     "lot2": 123255000
+    },
+    "usd_approx": 445562
+   },
+   "benchmark_prices": [
+    {
+     "what": "АНПЗ флокулянт катионный 2026: 16,48 т @4 600 000 (1190415); 26 т @4 150 000 (1160963)",
+     "unit_price": 4150000,
+     "currency_per": "KZT/т без НДС",
+     "year": 2026,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "АНПЗ флокулянт катионный 2025: 27 т @4 005 000; 6 т @3 931 000; 6 т @4 257 000",
+     "unit_price": 4005000,
+     "currency_per": "KZT/т без НДС",
+     "year": 2025,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "Karabatan Utility Solutions флокулянт катионный 2026, 2,5 т (1220296) — не брендовый",
+     "unit_price": 2738333,
+     "currency_per": "KZT/т без НДС",
+     "year": 2026,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "Павлодарский НХЗ флокулянт катионный 2025, 7,2 т",
+     "unit_price": 4000000,
+     "currency_per": "KZT/т без НДС",
+     "year": 2025,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    }
+   ],
+   "feasibility_ru": "Бренд-лок Nalco 71302/9916 — для ISP нереально (катионный ПАА китайских заводов не пройдёт по маркам). Ценовой ориентир: катионный ПАА 4,1–4,55 млн KZT/т ≈ 9 230–10 230 USD/т DDP Атырау без НДС — в 3–4 раза выше китайской FOB-цены на CPAM.",
+   "risks_ru": "Бренд-лок; дедлайн 23.11.2026 10:00.",
+   "sources": [
+    "https://zakup.sk.kz/#/ext(popup:item/1266213/advert)",
+    "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+   ]
+  },
+  {
+   "id": 44,
+   "n": "BidDetail 120147996",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 50,
+   "n": "BidDetail 119963361",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 51,
+   "n": "BidDetail 120213023",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 52,
+   "n": "BidDetail 120584755",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 64,
+   "n": "BidDetail 120486465",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 71,
+   "n": "BidDetail 120503084 (Lot-1) / 120503086 (Lot-2)",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 80,
+   "n": "Uz-Kor CS-200/2026 (doc code 26UD-26901)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://uz-kor.com/images/sampledata/tenders/2026/attachment_CS-200-2026.pdf",
+    "https://uz-kor.com/index.php/ru/tendery"
+   ],
+   "items": [
+    {
+     "product": "Антифоулянт щелочи (caustic antifoulant) для колонны щелочной промывки пирогаза C-2320 этиленового производства УГХК",
+     "spec": "подавление альдольной полимеризации ацетальдегида («red oil»), предотвращение роста перепада давления, пробег колонны до 4 лет; без влияния на чистоту этилена 99,9% мол (кислородсодержащие ≤1 ppmv), пропилена 99,6%; соответствие стандартам изготовителя и документу KBR «Catalysts & Chemicals Summary» № KBR-A20-BA-4-1005; программа дозировок и TDS — от поставщика; подтверждение совместимости со всеми реагентами (вода/щёлочь/углеводороды)",
+     "qty": 10000,
+     "unit": "кг",
+     "qty_t": 10.0,
+     "qty_basis": "10 000 кг в спецификации",
+     "unit_price": null,
+     "currency": null
+    }
+   ],
+   "total_qty_t": 10.0,
+   "contract_period": "график партий при подписании; макс. срок поставки 45 календарных дней после заказа",
+   "delivery_terms": "DAP УГХК, пос. Кырккыз, Кунградский р-н, Каракалпакстан (Incoterms 2020); оплата 100% по факту поставки; генстрахование импорта — заказчика",
+   "packaging": "бочки 200 л или 1 м3 (IBC); экспортная упаковка изготовителя; маркировка каждой бочки по международным стандартам; производство не ранее 2 мес. до отгрузки; остаточный срок годности ≥1 года",
+   "certificates": "инвойс, транспортная накладная, сертификат происхождения (с № инвойса), упаковочный лист, сертификат качества изготовителя, MSDS; КП на бланке с подписью и печатью, TDS/MSDS",
+   "bid_security": "не указано в приглашении/ТЗ",
+   "eligibility_foreign": "допускаются иностранные; исключены оффшорные компании и счета в оффшорных банках (по законодательству РУз), реорганизация/банкротство, неисполнение прошлых контрактов, споры с заказчиком",
+   "award_criteria": "конкурсный отбор по КП (критерии в документе не раскрыты); обязательная пробная поставка для испытаний на УГХК — оплачивается только при положительном результате; цена действительна ≥90 дней; жёсткая ответственность за ущерб оборудованию/простой",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Продукт специальный (антифоулянты щелочной промывки — Nalco/Ecolab, Baker Hughes, Dorf Ketal; ингибиторы полимеризации альдолов на основе карбогидразида/аминов). В портфеле Kairui/Rimpro/Aierfuke/Suqing прямого аналога нет; возможен Rimpro (если есть caustic tower antifoulant) или китайский производитель этиленовых ингибиторов. Объём 10 т, пробная партия «на свой риск» без оплаты при неуспехе + неограниченная компенсация убытков от простоя этиленового цеха — риск непропорционален. Оценка: низкая привлекательность; участвовать только при наличии референций поставщика на крекинге этана (KBR-лицензия).",
+   "risks_ru": "Пробная партия без оплаты при неудаче; ответственность за простой, катализаторы, десиканты; оплата после поставки; дедлайн 27.11.2026 15:00 Ташкент; КП на e-mail a.kasimov@uz-kor.com.",
+   "sources": [
+    "https://uz-kor.com/index.php/ru/tendery (CS-200/2026, опубл. 27.10.2026)",
+    "attachment_CS-200-2026.pdf"
+   ],
+   "related_lead_ru": "На том же сайте: открытый тендер T-47/2026 «химические реагенты для установок цеха ОЗХ» (общезаводское хозяйство: водоподготовка), подача до 02.12.2026 15:00 Ташкент, пакет документов бесплатно по официальному письму (выдача прекращается за 5 дней до окончания), предложение на англ.+рус., компания учреждена ≥6 мес., конверт курьером в Ташкент (Зульфияхоним 112). Ссылка: https://uz-kor.com/index.php/ru/tendery/5992-...-t-47-2026-...-tsekha-ozkh — ПРИОРИТЕТ для ISP (Kairui/Suqing/Aierfuke)."
+  },
+  {
+   "id": 81,
+   "n": "Samruk-Kazyna № 1266426 (lot 4568415)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://zakup.sk.kz/#/ext(popup:item/1266426/advert)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/c8bad48a-5852-48a1-8025-a40fdf762076-2026-minio (техспецификация)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/8ee7cc0d-6265-4ce5-998c-9e45408e3388-2026-minio (Программа ОПИ деэмульгатора ПУ ЖМГ)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/7bb05d14-a16f-4620-858a-a26ec52d2294-2026-minio (тендерная документация)",
+    "https://zakup.sk.kz/eprocfilestorage/open-api/files/download/2748d1c1-7570-451d-8fe8-1abea58dafc8-2026-minio (проект договора)"
+   ],
+   "items": [
+    {
+     "product": "Работы: ОПИ деэмульгатора на ЦКППН ПУ «Жетыбаймунайгаз» с поставкой реагента подрядчиком",
+     "spec": "54 т деэмульгатора за счёт подрядчика (доставка подрядчика), физ-хим показатели ±15% от лабораторных; не увеличивать хлорорганику; база сравнения — «Рандем-2219» (средние за 30 дней до ОПИ); входной контроль ТОО «КМГ Инжиниринг»; нужен положительный лабораторный отчёт ≤3 лет и допуск к ОПИ по Типовым правилам КМГ (протокол №52 от 08.12.2020); СГР/регистрация химпродукции РК",
+     "qty": 54,
+     "unit": "тонна реагента (в составе работ)",
+     "qty_t": 54.0,
+     "qty_basis": "объём реагента для ОПИ из техспецификации",
+     "unit_price": null,
+     "currency": "KZT; цена за работы целиком 134 833 500 без НДС (≈2 496 917 KZT на 1 т реагента — расчётно)"
+    }
+   ],
+   "total_qty_t": 54.0,
+   "contract_period": "90 календарных дней с даты договора; договор заключается при утверждении плана 2027 (п.5 ст.12)",
+   "delivery_terms": "на месторождения ПУ ЖМГ (Мангистауская обл.), доставка подрядчиком; бочки металл/пластик, вывоз пустой тары подрядчиком; оплата 100% окончательный",
+   "packaging": "металлические или пластиковые бочки",
+   "certificates": "паспорт безопасности, паспорт качества, Свидетельство гос. регистрации (СГР) химпродукции РК (Закон №302); положительный отчёт лаб. испытаний КМГ Инжиниринг ≤3 лет",
+   "bid_security": "1 348 335 KZT (1%); обеспечение исполнения 3% (проект договора п.4.1.10); срок заявки ≥60 дней",
+   "eligibility_foreign": "Открытый тендер на понижение без приоритета; формально нерезидент допускается, но требуется представитель на месторождении, HSE стандарты ММГ (СТ-30-17), допуск к ОПИ КМГ",
+   "award_criteria": "открытый тендер на понижение: наименьшая цена с раундом понижения (условные скидки как в ТД Самрук)",
+   "estimated_value": {
+    "amount": 134833500,
+    "currency": "KZT без НДС",
+    "per_lot": {
+     "lot1": 134833500
+    },
+    "usd_approx": 302951
+   },
+   "benchmark_prices": [
+    {
+     "what": "ММГ промысловый деэмульгатор 2026, 704 т и 184,5 т (среди товаропроизводителей)",
+     "unit_price": 2712600,
+     "currency_per": "KZT/т без НДС (2 643 300 для 184,5 т)",
+     "year": 2026,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "ММГ деэмульгатор 2025, 632 т / 183 т (объявл. 1033275)",
+     "unit_price": 2740000,
+     "currency_per": "KZT/т без НДС (2 670 000)",
+     "year": 2025,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    },
+    {
+     "what": "Каражанбасмунай деэмульгатор 2027, 470 т, объявл. 1268720 (обсуждение)",
+     "unit_price": 3050000,
+     "currency_per": "KZT/т без НДС",
+     "year": 2027,
+     "source_url": "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+    }
+   ],
+   "feasibility_ru": "Стратегически интересно (ОПИ — вход в рынок ММГ ~900 т/год по ~2,7 млн KZT/т ≈ 6 100 USD/т), но последующие поставки КМГ идут «среди товаропроизводителей» РК. Rimpro демульгатор теоретически, однако нужен заранее полученный положительный лабораторный отчёт КМГ Инжиниринг и СГР — за 12 дней до дедлайна (27.11.2026) недостижимо. Рекомендация: не подавать; начать процедуру лабораторных испытаний Rimpro в КМГ Инжиниринг через казахстанского партнёра-блендера на 2027.",
+   "risks_ru": "Нет допуска к ОПИ; договор условен (план 2027); персонал на месторождении; 54 т за свой счёт до оплаты (100% после).",
+   "sources": [
+    "https://zakup.sk.kz/#/ext(popup:item/1266426/advert)",
+    "https://zakup.sk.kz/#/ext/external-consolidated-plan/annual"
+   ]
+  },
+  {
+   "id": 91,
+   "n": "TED 701850-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 92,
+   "n": "TED 745479-2026 / 751587-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 93,
+   "n": "BidDetail 120535990",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 94,
+   "n": "BidDetail (aluminium-sulphate list)",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 101,
+   "n": "TED 750134-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 110,
+   "n": "BidDetail 120537306",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 122,
+   "n": "GlobalTenders ref 150558914",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 132,
+   "n": "TED 747418-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 133,
+   "n": "TED 774782-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 140,
+   "n": "GlobalTenders ref 150081927 / BidDetail 120211263",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 141,
+   "n": "BidDetail 120584095",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 144,
+   "n": "GlobalTenders ref 150400005",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 148,
+   "n": "TED 789637-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 151,
+   "n": "TED 752210-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 155,
+   "n": "TED 772209-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  },
+  {
+   "id": 156,
+   "n": "TED 788046-2026",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [],
+   "feasibility_ru": "не исследовано",
+   "sources": []
+  }
+ ]
+}

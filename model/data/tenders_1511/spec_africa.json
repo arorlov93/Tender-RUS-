@@ -1,0 +1,1452 @@
+{
+ "meta": {
+  "region": "africa",
+  "batch_ids": [
+   18,
+   19,
+   20,
+   21,
+   38,
+   57,
+   68,
+   75,
+   76,
+   78,
+   100,
+   107,
+   120,
+   131,
+   138,
+   139,
+   143
+  ],
+  "extra_items": [
+   "CAMWATER 009/AONO/2026 (id null)",
+   "JIRAMA PAAEP-WJIR-AON-32b-F-68c (id null)"
+  ],
+  "accessed": "2026-11-15",
+  "fx_source": "model/data/tenders_1511/fx_usd_1511.json (USD base, 15.11.2026): UGX 3997.92, KES 129.99, XAF 594.28, MGA 4574.13, RWF 1479.61, ZAR 16.92",
+  "method": "Official notices/bid documents downloaded to scratchpad specs_africa/, text via pdftotext/python-docx; scanned PDFs (CAMWATER, EUCL) OCR with tesseract fra+eng (installed via apt) + visual check of stamped/handwritten dates. Benchmarks from PPDA Uganda audit report and Liberia PPCC letters. All values from opened pages; null where unknown.",
+  "blocked_or_not_obtained": [
+   "NWSC Uganda bidding documents (alum, soda ash) - paid UGX 200,000, physical collection in Kampala",
+   "EUCL Rwanda tender document - physical collection at REG HQ Kigali",
+   "LWB Malawi bidding document - MWK 10,000 at Madzi House Lilongwe",
+   "CAMWATER DAO (lot composition) - 600,000 FCFA at Douala HQ",
+   "CWA Mauritius bidding document - e-Procurement supplier account required (no login)",
+   "UNHCR SRFP 3799 annexes - UNGM login",
+   "ALMT06/2026 bid document with BOQ - not on eTenders (advert only); albertluthuli.gov.za connection reset",
+   "Chinhoyi (PRAZ eGP registration), De Heus (Tendersure registration), Ethiopia woreda (no original)",
+   "eTenders OCDS API returned HTTP 500 for most releases (only NKO 53/2026 resolved)",
+   "No published unit-price awards found for NWSC/NCWSC/SA municipal chemicals (PPDA GPP shows contract totals only)"
+  ]
+ },
+ "tenders": [
+  {
+   "id": 75,
+   "n": "NWSC-HQ/SUPLS/26-27/181706",
+   "customer": "National Water and Sewerage Corporation (NWSC), Uganda",
+   "deadline": "2026-11-27 10:30 EAT (opening 11:00)",
+   "docs_found": "notice_only",
+   "doc_urls": [
+    "https://www.nwsc.co.ug/wp-content/uploads/2026/10/BID-NOTICE-FOR-THE-TENDER-FOR-SUPPLY-OF-ALUMINIUM-SULPHATE-UNDER-A-FRAMEWORK-CONTRACT-FOR-A-PERIOD-OF-18-MONTHS.docx"
+   ],
+   "items": [
+    {
+     "product": "Aluminium sulphate, Lot 1 (Gaba Water Works)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantities only in paid bidding document (UGX 200,000, collect in Kampala); not published"
+    },
+    {
+     "product": "Aluminium sulphate, Lot 2 (Katosi Water Works)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantities only in paid bidding document (UGX 200,000, collect in Kampala); not published"
+    },
+    {
+     "product": "Aluminium sulphate, Lot 3 (Masaka Water Works)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantities only in paid bidding document (UGX 200,000, collect in Kampala); not published"
+    },
+    {
+     "product": "Aluminium sulphate, Lot 4 (Mbarara Water Works)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantities only in paid bidding document (UGX 200,000, collect in Kampala); not published"
+    },
+    {
+     "product": "Aluminium sulphate, Lot 5 (Fort Portal Water Works)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantities only in paid bidding document (UGX 200,000, collect in Kampala); not published"
+    },
+    {
+     "product": "Aluminium sulphate, Lot 6 (Mbale Water Works)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantities only in paid bidding document (UGX 200,000, collect in Kampala); not published"
+    },
+    {
+     "product": "Aluminium sulphate, Lot 7 (Gulu Water Works)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantities only in paid bidding document (UGX 200,000, collect in Kampala); not published"
+    },
+    {
+     "product": "Aluminium sulphate, Lot 8 (Arua Water Works)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantities only in paid bidding document (UGX 200,000, collect in Kampala); not published"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Framework contract 18 months; FY2026/27 budget; evaluation 11.12.2026, BEB notice 28.12.2026, contract after Solicitor General approval",
+   "delivery_terms": "Delivery to the respective water works per lot (Gaba, Katosi, Masaka, Mbarara, Fort Portal, Mbale, Gulu, Arua); Incoterm/lead time not in notice",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": {
+    "amount": {
+     "Lot1": 119000000,
+     "Lot2": 50000000,
+     "Lot3": 7000000,
+     "Lot4": 10000000,
+     "Lot5": 7000000,
+     "Lot6": 7000000,
+     "Lot7": 7000000,
+     "Lot8": 7000000
+    },
+    "currency": "UGX",
+    "total_all_lots": 214000000,
+    "approx_usd_all_lots": 53528,
+    "form": "Bank guarantee from bank in Uganda, or foreign bank through correspondent bank in Uganda; or equivalent in freely convertible currency; valid until 08.07.2027"
+   },
+   "tender_fee": "UGX 200,000 non-refundable, cash to local bank, written application, document collected by bidder or representative",
+   "mandatory_briefing": "Pre-bid meeting 12.10.2026 11:00 (passed; not stated as mandatory)",
+   "eligibility_foreign": "Open International Bidding (PPDA Act Cap 205), 'open to all bidders' - foreign firms eligible",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "UGX",
+    "per_lot": null,
+    "note": "Not published. Bid security Lot1 119M UGX suggests Gaba is by far the largest lot. Previous NWSC alum framework (FY24/25 audit): estimate UGX 2,385,600,000 (~USD 0.60M), BEB offer UGX 1,542,615,625 (~USD 0.39M)."
+   },
+   "benchmark_prices": [
+    {
+     "what": "NWSC alum sulphate 18-month framework, previous round: estimate UGX 2,385,600,000; BEB offer UGX 1,542,615,625 (no tonnage disclosed)",
+     "unit_price": null,
+     "currency_per": "UGX per contract",
+     "year": 2024,
+     "source_url": "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf"
+    },
+    {
+     "what": "NWSC-HQ/SUPLS/23-24/180990 alum sulphate framework 18 months (5 lots), awarded Pan Africa Chemicals Ltd (Kenya), contract UGX 1,520,475,625 (~USD 0.38M), Open International Bidding",
+     "unit_price": null,
+     "currency_per": "UGX per contract",
+     "year": 2024,
+     "source_url": "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf"
+    },
+    {
+     "what": "Market reference: aluminium sulfate China FOB, Oct 2026",
+     "unit_price": 209.33,
+     "currency_per": "USD/t FOB China",
+     "year": 2026,
+     "source_url": "https://www.procurementresource.com/resource-center/aluminium-sulfate-price-trends"
+    }
+   ],
+   "feasibility_ru": "Формально прямое участие ISP возможно (Open International Bidding, открыт всем). Но документацию нужно покупать и забирать физически в Кампале (UGX 200 000), подача — бумажная в Кампале 27.11.2026; гарантия — через банк в Уганде/корреспондента. Реально — только через местного агента/курьера в Кампале и при быстром выпуске гарантии (до 27.11 — 12 дней). Прошлый победитель — Pan Africa Chemicals (Кения, производит сульфат алюминия 17% локально) — сильный ценовой конкурент с логистикой по суше. Наиболее интересны крупные лоты 1 (Gaba) и 2 (Katosi).",
+   "risks_ru": "Объёмы и спецификация не опубликованы (только в платной документации); сжатые сроки; доставка в глубь страны (Mbale/Gulu/Arua) через Момбасу/Дар; валютный риск UGX; конкурент Pan Africa Chemicals с местным производством; оплата и одобрение Solicitor General затягивают контракт.",
+   "sources": [
+    "https://www.nwsc.co.ug/notices-2",
+    "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf",
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/nwsc_alum_notice.docx"
+   ]
+  },
+  {
+   "id": 76,
+   "n": "NWSC-HQ/SUPLS/26-27/181705",
+   "customer": "National Water and Sewerage Corporation (NWSC), Uganda",
+   "deadline": "2026-11-27 10:30 EAT",
+   "docs_found": "notice_only",
+   "doc_urls": [
+    "https://www.nwsc.co.ug/wp-content/uploads/2026/10/BID-NOTICE-FOR-THE-TENDER-FOR-SUPPLY-OF-Sodium-Carbonate-UNDER-A-FRAMEWORK-CONTRAC-FOR-A-PERIOD-OF-18-MONTHS.docx"
+   ],
+   "items": [
+    {
+     "product": "Sodium carbonate (soda ash)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "quantity only in paid bidding document"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Framework contract 18 months (FY2026/27 budget)",
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": {
+    "amount": 25000000,
+    "currency": "UGX",
+    "approx_usd": 6253,
+    "form": "Bank guarantee from bank in Uganda or foreign bank via Ugandan correspondent, or equivalent in convertible currency; valid until 08.07.2027"
+   },
+   "tender_fee": "UGX 200,000",
+   "mandatory_briefing": "Pre-bid meeting 12.10.2026 10:00 (passed)",
+   "eligibility_foreign": "Open International Bidding, open to all bidders",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "UGX",
+    "per_lot": null,
+    "note": "Previous soda ash framework (NWSC-HQ/SUPLS/24-25/181028): estimate UGX 4,849,500,000, contract UGX 2,458,500,000 (~USD 0.61M) per PPDA audit table."
+   },
+   "benchmark_prices": [
+    {
+     "what": "NWSC soda ash 18-month framework 24-25/181028, awarded Pan Africa Chemicals Ltd, contract UGX 2,458,500,000 (estimate UGX 4,849,500,000); management response text in same audit quotes estimate 1,819,500,000 / BEB 2,158,500,000 (OCR-inconsistent)",
+     "unit_price": null,
+     "currency_per": "UGX per contract",
+     "year": 2025,
+     "source_url": "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf"
+    }
+   ],
+   "feasibility_ru": "Товар полностью в профиле ISP (кальцинированная сода из Китая/Индии), ICB открыт иностранцам, гарантия небольшая (UGX 25 млн ≈ USD 6,3 тыс.). Нужен агент в Кампале для покупки/получения документации и подачи бумажной заявки до 27.11.2026. Прошлый контракт ~USD 0,6 млн за 18 мес — это ориентир масштаба.",
+   "risks_ru": "Объём/спецификация (light/dense, Na2CO3 %) неизвестны до покупки документации; конкурент Pan Africa Chemicals; короткий срок; логистика до станций в Уганде.",
+   "sources": [
+    "https://www.nwsc.co.ug/notices-2",
+    "https://www.ppda.go.ug/wp-content/uploads/2026/07/National-Water-and-Sewerage-Corporation.pdf",
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/nwsc_soda_notice.docx"
+   ]
+  },
+  {
+   "id": 18,
+   "n": "11.07.022/007/2026-2027/ICB/G/EUCL-PROC-DGOM/CG/RM",
+   "customer": "Energy Utility Corporation Ltd (EUCL), Rwanda - Gishoma Peat Power Plant",
+   "deadline": "2026-11-20 10:00 Kigali (handwritten in scanned notice: 20/11/2026), opening 10:30",
+   "docs_found": "notice_only (scanned PDF, OCR)",
+   "doc_urls": [
+    "https://www.reg.rw/public-information/download/1335/field_reg_tender_documents/0"
+   ],
+   "items": [
+    {
+     "product": "Chemicals for Gishoma Peat Power Plant (one indivisible lot)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "chemical list only in tender document collected at REG HQ Kigali"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Framework agreement 1 year, renewable twice subject to satisfactory performance",
+   "delivery_terms": "Gishoma Peat Power Plant (Rusizi, Rwanda); terms in tender document",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": {
+    "amount": 1800000,
+    "currency": "RWF",
+    "alt": "USD 1,225",
+    "validity": "at least 150 days from bid opening",
+    "form": "original issued by a financial institution"
+   },
+   "tender_fee": "RWF 15,000 (NCBA acct 2001161020000121) or USD 10 (Bank of Kigali acct 100012026484); documents collected at REG HQ 1st floor room G114",
+   "mandatory_briefing": null,
+   "eligibility_foreign": "International Open Competitive Bidding, open on equal conditions to all companies specialised in the field",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Юридически открыто для ISP (ICB), гарантия символическая (USD 1 225). Но документы выдаются только физически в Кигали, подача — 2 бумажных экземпляра, электронные заявки отклоняются; дедлайн 20.11.2026 — 5 дней. Без агента в Кигали нереально; состав химикатов (вероятно котловая/охлаждающая вода: фосфаты, амины, ингибиторы, коагулянт, гипохлорит) неизвестен.",
+   "risks_ru": "Крайне короткий срок; неизвестный перечень; малые объёмы электростанции; доставка в Rusizi через Дар-эс-Салам/Момбасу.",
+   "sources": [
+    "https://www.reg.rw/tenders/1335",
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/eucl_ocr.txt"
+   ]
+  },
+  {
+   "id": 19,
+   "n": "NCWSC/24/2026",
+   "customer": "Nairobi City Water and Sewerage Company (NCWSC), Kenya",
+   "deadline": "2026-11-20 12:00 EAT (samples 2 days before opening)",
+   "docs_found": "full_tender_document (108 pp.)",
+   "doc_urls": [
+    "https://tenders.go.ke/storage/Documents/1794202834539-ncwsc242026-supply-delivery-of-poly-aluminium-chloride.pdf"
+   ],
+   "items": [
+    {
+     "product": "Poly aluminium chloride (PAC), liquid",
+     "spec": "Liquid, colourless to yellowish; Al2O3 >=17% w/w; basicity >40%; pH 1% sol 0.4-4.0; density 1.35-1.40 g/ml (for 9.5% Al); viscosity 25-50 mPa.s; chloride 20-22%; insolubles max 25 mg/kg Al; turbidity <10 NTU; As<=1.4, Cd<=0.3, Cr<=3.0, Hg<=0.4, Ni<=2.0, Pb<=4.0, Sb<=2.0, Se<=2.0 mg/kg Al; shelf life 12-18 months; KS 1924:2007 (no blending of commercial products); ANSI/AWWA B408-03 + NSF/ANSI 60 or EN 883:2004 Type 1 or KS 1924:2007",
+     "qty": 600,
+     "unit": "ton",
+     "qty_t": 600,
+     "qty_basis": "maximum estimated requirement for contract year (consumption on need basis within budget; +15% variation allowed)"
+    }
+   ],
+   "total_qty_t": 600,
+   "contract_period": "Initial 1 year, option to renew for second year; prices fixed (no adjustment)",
+   "delivery_terms": "Delivered to Ng'ethu Water Treatment Works (price incl. transport and 16% VAT); delivery within 21 days of LPO; first 6 t subject to 1-week full-scale plant acceptance trial; Incoterms 2015 referenced; payment in KES within 60 days of acceptance certificate",
+   "packaging": "Clear plastic IBC ~1000 L, new (no reused containers); labelled incl. NSF mark, batch, country of origin",
+   "certificates": "CoA per batch; SDS; ANSI/AWWA B408-03; NSF/ANSI 60 or EN 883 Type 1 or KS 1924:2007 affidavit; manufacturer's authorization; 2 testimonials from water utilities >50,000 m3/day using same PAC brand; brochures/production process description",
+   "bid_security": {
+    "amount": 1000000,
+    "currency": "KES",
+    "approx_usd": 7693,
+    "validity": "240 days",
+    "form": "Bank or IRA-approved insurance company enlisted by PPRA"
+   },
+   "performance_security": "10% of tender sum, unconditional bank performance bond",
+   "tender_fee": "Free download (nairobiwatertenders.co.ke / tenders.go.ke)",
+   "mandatory_briefing": "No pre-tender conference; 1 L sample must reach NCWSC Procurement Office, Kampala Road, at least 2 days before opening",
+   "eligibility_foreign": "Open tender, national; margin of preference not applied; BUT mandatory: KRA registration, Kenyan tax compliance certificate, CR12, county business permit, SHA and NSSF compliance, audited accounts with ICPAK auditor, financial resources >= KES 50 M -> in practice a Kenya-registered company is required",
+   "award_criteria": "Preliminary (mandatory docs) -> technical pass/fail (spec, lab test Al2O3/basicity/density, jar test at 3 raw-water conditions with max doses 10/20/45 mg/L, testimonials) -> lowest evaluated responsive bidder",
+   "estimated_value": {
+    "amount": null,
+    "currency": "KES",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Хорошее совпадение по продукту (PAC жидкий 600 т), но фактически требуется кенийская регистрация (KRA, CR12, NSSF/SHA, лицензия округа) и фин. ресурсы ≥ KES 50 млн — ISP может участвовать только через кенийского дистрибьютора, выставляя ему письмо производителя (MAF), NSF/AWWA-сертификат и образец. До подачи 5 дней, образец 1 л должен быть в Найроби к 18.11 — практически нереально в этом раунде; стратегически — выйти на кенийских дистрибьюторов к следующему тендеру (NCWSC выпускает PAC ежегодно: 01/2025, 16/2025, 24/2026).",
+   "risks_ru": "Al2O3 ≥17% для ЖИДКОГО PAC — очень высокая концентрация (стандартный жидкий 10–17%), риск несоответствия; требование NSF/AWWA; jar-тест и 1-недельные промышленные испытания с риском расторжения; IBC из Китая — дорогая логистика жидкости; цены фиксированы на год.",
+   "sources": [
+    "https://tenders.go.ke/storage/Documents/1794202834539-ncwsc242026-supply-delivery-of-poly-aluminium-chloride.pdf",
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/ncwsc_pac.txt"
+   ]
+  },
+  {
+   "id": 20,
+   "n": "LWB-WTC-2601-GO-RFB",
+   "customer": "Lilongwe Water Board (LWB), Malawi",
+   "deadline": "2026-11-20 14:00 Lilongwe",
+   "docs_found": "notice_only (published RFB text)",
+   "doc_urls": [
+    "https://malawi24.com/marketplace/listing/supply-and-delivery-of-water-treatment-chemicals"
+   ],
+   "items": [
+    {
+     "product": "Calcium hypochlorite",
+     "spec": null,
+     "qty": 60000,
+     "unit": "kg",
+     "qty_t": 60.0,
+     "qty_basis": "RFB notice quantity"
+    },
+    {
+     "product": "Coagulant (type not specified in notice)",
+     "spec": null,
+     "qty": 134400,
+     "unit": "kg",
+     "qty_t": 134.4,
+     "qty_basis": "RFB notice quantity"
+    }
+   ],
+   "total_qty_t": 194.4,
+   "contract_period": null,
+   "delivery_terms": "Supply and delivery (details in bidding document)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "tender_fee": "MWK 10,000 per document, Cashier, Madzi House, Lilongwe",
+   "mandatory_briefing": null,
+   "eligibility_foreign": "National Competitive Bidding (PPDA Act No.7 of 2025) - eligible and interested bidders; physical purchase and submission in Lilongwe",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "MWK",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "Liberia LWSC sole-source 2023: calcium hypochlorite (HTH) 270 buckets x 45 kg = 12.15 t for USD 60,750 (proxy for regional HTH price)",
+     "unit_price": 5000,
+     "currency_per": "USD/t delivered",
+     "year": 2023,
+     "source_url": "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf"
+    }
+   ],
+   "feasibility_ru": "Объёмы небольшие (60 т HTH + 134 т коагулянта ≈ 2 контейнера+), NCB с бумажной подачей в Лилонгве через 5 дней — участие ISP напрямую нереально; только через малавийского партнёра. Полезно как лид: LWB и Blantyre WB регулярно закупают HTH/коагулянт, BWB проводил ICB 'targeting manufacturers' (2024).",
+   "risks_ru": "Очень короткий срок (6 дней с публикации); NCB; валюта MWK с дефицитом FX в Малави — риск оплаты; тип коагулянта не указан.",
+   "sources": [
+    "https://malawi24.com/marketplace/listing/supply-and-delivery-of-water-treatment-chemicals",
+    "https://www.bwb.mw/Tenders.php"
+   ]
+  },
+  {
+   "id": 21,
+   "n": "UNHCR SRFP 3799",
+   "customer": "UNHCR Sub-Office Adjumani, Uganda",
+   "deadline": "2026-11-20 17:00 GMT+3",
+   "docs_found": "notice_only (annexes require UNGM login)",
+   "doc_urls": [
+    "https://www.ungm.org/Public/Notice/320552"
+   ],
+   "items": [
+    {
+     "product": "Service: shock chlorination + installation of water purification systems (BOQ Annex C)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "BOQ in UNGM annex (login required, not opened)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Service contract",
+   "delivery_terms": "On-site works in Adjumani AoR, Uganda",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "UNGM basic registration; UNHCR vendor registration",
+   "award_criteria": "Technical evaluation (Annex B) + price",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Сервисный контракт с монтажом на месте — не профиль ISP. Пропустить.",
+   "risks_ru": "Нужен местный исполнитель; срок 20.11.2026.",
+   "sources": [
+    "https://www.ungm.org/Public/Notice/320552"
+   ]
+  },
+  {
+   "id": 38,
+   "n": "TENDERS-QELAL-ET-6ae9e3740a538ad8ce000001 (aggregator id)",
+   "customer": "Enemay Woreda Finance & Economic Development Office (East Gojam), Ethiopia",
+   "deadline": "2026-11-23",
+   "docs_found": "none (aggregator only, not verified)",
+   "doc_urls": [],
+   "items": [
+    {
+     "product": "Water chlorine + equipment (Lot 2)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "unknown"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Local woreda tender; Ethiopian trade licence/VAT normally required (not verified)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "ETB",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Мелкая локальная закупка, неформат для ISP. Пропустить.",
+   "risks_ru": "Оригинал не найден; локальные требования.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/ethiopia/the-office-of-the-governor-of-enemay-district-of-east-gojam-zone-invites-bidders-16172306"
+   ]
+  },
+  {
+   "id": 57,
+   "n": "NKO 53/2026",
+   "customer": "Nkomazi Local Municipality (Mpumalanga), South Africa",
+   "deadline": "2026-11-25 12:00 SAST",
+   "docs_found": "full_bid_document (61 pp.)",
+   "doc_urls": [
+    "https://www.etenders.gov.za/home/Download?blobName=3787946b-e57b-4af0-8fff-eb3f5c4cdb64.pdf&downloadedFileName=NKO%2053%202026%20Tender%20for%20Sypply%20and%20Deliver%20of%20Chemicals%20FINAL.pdf",
+    "https://docs.tenders-sa.org/docs/175468/51a8a506-153e-44e9-9722-0b685693e964.pdf"
+   ],
+   "items": [
+    {
+     "product": "Chlorine gas",
+     "spec": "70 kg cylinders; SABS/NSF/DWS certified; cylinder rental at supplier's cost; SANS 10229",
+     "qty": 500,
+     "unit": "cylinders x 70 kg / year",
+     "qty_t": 35.0,
+     "qty_basis": "average quantity ordered per year (pricing schedule)"
+    },
+    {
+     "product": "Chlorine gas",
+     "spec": "925 kg drums",
+     "qty": 64,
+     "unit": "drums x 925 kg / year",
+     "qty_t": 59.2,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "Brown hydrated lime",
+     "spec": "25 kg bags",
+     "qty": 500,
+     "unit": "bags x 25 kg / year",
+     "qty_t": 12.5,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "Calcium hypochlorite (HTH) granules",
+     "spec": "25 kg",
+     "qty": 600,
+     "unit": "x 25 kg / year",
+     "qty_t": 15.0,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "Chlorine HTH tablets",
+     "spec": "200 g tablets, 24 kg",
+     "qty": 90,
+     "unit": "x 24 kg / year",
+     "qty_t": 2.16,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "Chlorine HTH chips",
+     "spec": "25 kg",
+     "qty": 360,
+     "unit": "x 25 kg / year",
+     "qty_t": 9.0,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "Sodium hypochlorite",
+     "spec": "liquid, 30 kg",
+     "qty": 500,
+     "unit": "x 30 kg / year",
+     "qty_t": 15.0,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "Flocculent chemical as per jar test (ACH / blends / polyamine / DADMAC listed)",
+     "spec": "SG 1.18-1.33; bulk; jar-test report per raw water source",
+     "qty": 500,
+     "unit": "ton / year",
+     "qty_t": 500.0,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "Soda ash dense",
+     "spec": "50 kg bags",
+     "qty": 300,
+     "unit": "x 50 kg / year",
+     "qty_t": 15.0,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "HTH reservoir float tablets refill",
+     "spec": "24 kg",
+     "qty": 90,
+     "unit": "x 24 kg / year",
+     "qty_t": 2.16,
+     "qty_basis": "average per year"
+    },
+    {
+     "product": "Other: DPD/phenol red tablets, ammonia, enzymes, pit latrine powder, chlorinators, meters, buffers, PVC tubing",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "pricing schedule lines 9-33"
+    }
+   ],
+   "total_qty_t": 665.02,
+   "contract_period": "36 months; panel of up to 5 service providers; as-and-when-required, no minimum commitment",
+   "delivery_terms": "Delivered and offloaded at ~31 water/wastewater works in Nkomazi within 7 working days of order; Hazchem-certified vehicles; prices incl. delivery & offloading; outer years CPI",
+   "packaging": "As per schedule (25/50 kg bags, 30 kg, 70/925 kg cylinders, bulk flocculant)",
+   "certificates": "DWS and/or NSF and/or SABS approval for potable use; manufacturer/agent ISO 9000; CoA per load; 500 mL coagulant sample per delivery; min. 12 months shelf life; MSDS",
+   "bid_security": null,
+   "tender_fee": "Free download (eTenders / nkomazi.gov.za) or R1,851.38 hard copy",
+   "mandatory_briefing": "Briefing 02.11.2026 non-compulsory",
+   "eligibility_foreign": "SA municipal SCM: CSD registration, SARS tax compliance, municipal account; 'ALL CHEMICAL PRODUCTS TO BE LOCALLY PRODUCED' (scope clause); points for warehouse, Hazchem trucks, Mpumalanga office",
+   "award_criteria": "Admin compliance -> technical/functionality min 70/100 (experience 30, capacity 20, key person 10, certification 10, warehouse+trucks 20, bank rating 5, location 5) -> PPPFA 80/20 price + specific goals",
+   "estimated_value": {
+    "amount": null,
+    "currency": "ZAR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Для ISP напрямую — нет: требование 'все химикаты местного производства', CSD/налоговый статус ЮАР, склад и Hazchem-транспорт. Возможна только роль поставщика сырья южноафриканскому участнику панели (флокулянт ~500 т/год — интересный объём, но 'locally produced').",
+   "risks_ru": "Local production clause исключает импорт; 7 дней на доставку; панель до 5 поставщиков — объём делится; дедлайн 25.11.2026.",
+   "sources": [
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/nko53_doc.txt",
+    "https://ocds-api.etenders.gov.za/api/OCDSReleases/release/ocds-9t57fa-175468"
+   ]
+  },
+  {
+   "id": 68,
+   "n": "GM2026/226",
+   "customer": "Gamagara Local Municipality (Northern Cape), South Africa",
+   "deadline": "2026-11-26 10:00 SAST",
+   "docs_found": "full_bid_document (67 pp.)",
+   "doc_urls": [
+    "https://www.etenders.gov.za/Home/Download?blobName=1de52356-d095-44e7-970d-bdbf3774bc81.pdf&downloadedFileName=GM2026-226%20SUPPLY%20AND%20DELIVERY%20OF%20CHEMICALS%20FOR%20WATER%20TREATMENT%20FOR%2036%20MONTHS%20FINAL%20V.pdf"
+   ],
+   "items": [
+    {
+     "product": "Phosphate",
+     "spec": null,
+     "qty": 1,
+     "unit": "rate (quantity 1 in schedule)",
+     "qty_t": null,
+     "qty_basis": "rate-only pricing schedule, escalation 10%/yr"
+    },
+    {
+     "product": "Liquid chlorine gas 70 kg cylinder",
+     "spec": null,
+     "qty": 1,
+     "unit": "rate (quantity 1 in schedule)",
+     "qty_t": null,
+     "qty_basis": "rate-only pricing schedule, escalation 10%/yr"
+    },
+    {
+     "product": "Cylinder hire",
+     "spec": null,
+     "qty": 1,
+     "unit": "rate (quantity 1 in schedule)",
+     "qty_t": null,
+     "qty_basis": "rate-only pricing schedule, escalation 10%/yr"
+    },
+    {
+     "product": "HTH granular chlorine 25 kg",
+     "spec": null,
+     "qty": 1,
+     "unit": "rate (quantity 1 in schedule)",
+     "qty_t": null,
+     "qty_basis": "rate-only pricing schedule, escalation 10%/yr"
+    },
+    {
+     "product": "Sodium hypochlorite (3000 L)",
+     "spec": null,
+     "qty": 1,
+     "unit": "rate (quantity 1 in schedule)",
+     "qty_t": null,
+     "qty_basis": "rate-only pricing schedule, escalation 10%/yr"
+    },
+    {
+     "product": "Calcium hydroxide (lime 20 kg)",
+     "spec": null,
+     "qty": 1,
+     "unit": "rate (quantity 1 in schedule)",
+     "qty_t": null,
+     "qty_basis": "rate-only pricing schedule, escalation 10%/yr"
+    },
+    {
+     "product": "HTH water purification pills 2 kg",
+     "spec": null,
+     "qty": 1,
+     "unit": "rate (quantity 1 in schedule)",
+     "qty_t": null,
+     "qty_basis": "rate-only pricing schedule, escalation 10%/yr"
+    },
+    {
+     "product": "Reagents (Hach DPD, nitrate/nitrite/ammonia, COD TNT) and equipment (dosing pumps)",
+     "spec": null,
+     "qty": 1,
+     "unit": "rate",
+     "qty_t": null,
+     "qty_basis": "Bills 2-3"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "36 months",
+   "delivery_terms": "Supply, delivery and off-loading at municipal works (Kathu area); Reg.275 NRTA dangerous goods vehicles",
+   "packaging": "As per items (70 kg cylinders, 25 kg, 3000 L, 20 kg)",
+   "certificates": "Potable-water approval (SA Dept of Health or NSF); bidder NSF or ISO 9001; manufacturer NSF/ISO 9001; chlorine manufacturer or approved distribution agent; SANS 10229 packaging",
+   "bid_security": null,
+   "mandatory_briefing": "COMPULSORY clarification meeting 05.11.2026 10:00 Kathu - PASSED; only attendees may bid",
+   "eligibility_foreign": "Closed to non-attendees; CSD, B-BBEE 80/20",
+   "award_criteria": "Functionality + PPPFA 80/20 (estimated quantities used for evaluation)",
+   "estimated_value": {
+    "amount": null,
+    "currency": "ZAR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Закрыт для ISP: обязательное совещание 05.11.2026 пропущено. Пропустить.",
+   "risks_ru": "—",
+   "sources": [
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/gamagara.txt"
+   ]
+  },
+  {
+   "id": 78,
+   "n": "CHY/WATER-CHEM/2025",
+   "customer": "Municipality of Chinhoyi, Zimbabwe",
+   "deadline": "2026-11-27",
+   "docs_found": "none (PRAZ eGP requires supplier registration; not opened)",
+   "doc_urls": [],
+   "items": [
+    {
+     "product": "Water treatment consumables (lot 1)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "unknown"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Framework agreement 2 years",
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "PRAZ registration + tax clearance normally required (not verified)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Документы только в PRAZ eGP после регистрации; не проверено. Низкий приоритет.",
+   "risks_ru": "Валютные ограничения Зимбабве; локальная регистрация.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/zimbabwe/water-chemicals-16127058"
+   ]
+  },
+  {
+   "id": 100,
+   "n": "ALMT06/2026",
+   "customer": "Chief Albert Luthuli Local Municipality (Mpumalanga), South Africa",
+   "deadline": "2026-12-01 12:00 SAST",
+   "docs_found": "advert_only (bid document with BOQ not found on eTenders/aggregators; municipal site unreachable)",
+   "doc_urls": [
+    "https://docs.tenders-sa.org/docs/176536/c14e7fe5-a6a6-4199-88fa-4312cf834cec.pdf"
+   ],
+   "items": [
+    {
+     "product": "Water treatment chemicals (not specified in advert)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "in bid document (not obtained)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "36 months",
+   "delivery_terms": "Carolina area, Mpumalanga (bid document)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "tender_fee": "Free download (e-tenders/municipal website) or R1,012.15 printed",
+   "mandatory_briefing": "None (per eTenders listing)",
+   "eligibility_foreign": "SA municipal SCM; VAT Act compliance; CSD in practice",
+   "award_criteria": "Functionality, then 80/20 or 90/10 (PPR 2022)",
+   "estimated_value": {
+    "amount": null,
+    "currency": "ZAR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Напрямую — только через южноафриканское юрлицо (CSD, VAT). Документ с BOQ не найден — нужен запрос Nkosija@albertluthuli.gov.za (не связывались). Низкий приоритет.",
+   "risks_ru": "Нет спецификаций; локальные требования ЮАР.",
+   "sources": [
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/almt06.txt",
+    "https://easytenders.co.za/tenders/almt06-2026-mpumalanga-water-treatment-chemicals-supply"
+   ]
+  },
+  {
+   "id": 107,
+   "n": "C2026/511 (ONB/CWA/C2026/511; e-Proc CWA/IFB/2026/3074)",
+   "customer": "Central Water Authority (CWA), Mauritius",
+   "deadline": "2026-12-02 19:59 UTC (e-Proc schedule)",
+   "docs_found": "notice_text_only (bidding docs need e-Proc supplier account)",
+   "doc_urls": [
+    "https://eproc.publicprocurement.govmu.org",
+    "https://freetender.net/tender/supply-of-140000-litres-of-liquid-polyelectrolyte-for-water-treatment-plants-mu-800857"
+   ],
+   "items": [
+    {
+     "product": "Liquid polyelectrolyte for water treatment plants",
+     "spec": null,
+     "qty": 140000,
+     "unit": "L",
+     "qty_t": null,
+     "qty_basis": "IFB quantity; density not stated (at ~1.1-1.2 kg/L ≈ 150-170 t, not from source)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "OPEN NATIONAL BIDDING - only Mauritian nationals or entities incorporated in Mauritius; online submission with decrypt/re-encrypt step",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": "MUR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "related_notices": "CWA repeatedly buys polyelectrolyte: C2025/175 (140,000 L, closed 02.07.2025), C2026/355 (160,000 L, closed 16.09.2026); also C2026/504 900 t aluminium sulfate (closed 11.11.2026)",
+   "feasibility_ru": "Прямо ISP не может (ONB только для маврикийских компаний). Путь — поставка через маврикийского дистрибьютора; CWA регулярно (2–3 раза в год) закупает жидкий полиэлектролит и сульфат алюминия (900 т) — стоит найти партнёра на Маврикии.",
+   "risks_ru": "Ограничение на национальных участников; спецификация (катионный/полиамин/полиДАДМАХ) неизвестна.",
+   "sources": [
+    "https://freetender.net/tender/supply-of-140000-litres-of-liquid-polyelectrolyte-for-water-treatment-plants-mu-800857",
+    "https://www.tendersontime.com/mauritius/authority/central-water-authority-tenders-16e7",
+    "https://www.tendersontime.com/mauritius-tenders/treatment-plant-tenders"
+   ]
+  },
+  {
+   "id": 120,
+   "n": null,
+   "customer": "De Heus Kenya (private)",
+   "deadline": "2026-12-04",
+   "docs_found": "none (Tendersure portal registration required; not opened)",
+   "doc_urls": [],
+   "items": [
+    {
+     "product": "Industrial water treatment chemicals",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "unknown"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": null,
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Private RFP via Tendersure (company registration, tax compliance per aggregator)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Частный кормовой завод, скорее всего малые объёмы котловой/охлаждающей химии; требует регистрации на Tendersure. Низкий приоритет.",
+   "risks_ru": "Не проверено.",
+   "sources": [
+    "https://www.tendershq.co.za/tenders/469870-supply-of-water-treatment-chemicals"
+   ]
+  },
+  {
+   "id": 131,
+   "n": "ERW2605/02",
+   "customer": "Ekurhuleni Water Care Company (ERWAT), South Africa",
+   "deadline": "2026-12-10 12:00 SAST",
+   "docs_found": "full_bid_document (111 pp.)",
+   "doc_urls": [
+    "https://erwat.co.za/wp-content/uploads/2026/11/DBF-TENDER-DOCUMENT-09-Nov-2026.pdf",
+    "https://erwat.co.za/wp-content/uploads/2026/11/VARIOUS-OPS-MAINT.-ERW2605.02.pdf"
+   ],
+   "items": [
+    {
+     "product": "Calcium hypochlorite SOLUTION (dilute, for effluent disinfection)",
+     "spec": "Ca(OCl)2 4-6%; NaCl 15-20%; CaCl2 0-2%; Ca(OH)2 0-1%; Ca chlorate 0-2%; pH 11-12",
+     "qty": null,
+     "unit": "Rand per ton incl. delivery, per works",
+     "qty_t": null,
+     "qty_basis": "rate-based, no quantities; indicative only"
+    },
+    {
+     "product": "Rental & maintenance of 15,000 L storage tanks, 1.5 kW peristaltic pumps; tank cleaning",
+     "spec": null,
+     "qty": null,
+     "unit": "per tank/pump per month",
+     "qty_t": null,
+     "qty_basis": "per works"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "36 months, as and when required",
+   "delivery_terms": "Road tanker delivery and offloading at ~19 ERWAT water care works (Benoni, Esther Park, Daveyton, Hartebeestfontein, Carl Grundlingh, Rondebult, Dekema...); supplier installs dosing equipment; contractor must hold min. ~1,500 t of solution in local stock",
+   "packaging": "Bulk tanker (min 30-ton tanker for functionality)",
+   "certificates": null,
+   "bid_security": null,
+   "mandatory_briefing": "COMPULSORY online briefing (MS Teams) 19.11.2026 10:30, registration 1 day in advance; non-attendance = disqualification",
+   "eligibility_foreign": "MFMA SCM, PPPFA 2022; CSD/SARS; hard copy bid to Bid Box 1, Kempton Park",
+   "award_criteria": "Functionality min 80/100 (5 reference letters = 75; 30 t tanker = 25) -> 80/20 price + specific goals",
+   "estimated_value": {
+    "amount": null,
+    "currency": "ZAR",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Не формат ISP: разбавленный раствор гипохлорита кальция 4–6% (побочный продукт местного производства) с локальным запасом 1 500 т, монтажом и арендой дозирующего оборудования. Импорт экономически невозможен. Пропустить.",
+   "risks_ru": "—",
+   "sources": [
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/erwat_doc.txt",
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/erwat.txt"
+   ]
+  },
+  {
+   "id": 138,
+   "n": "T2027-18",
+   "customer": "uMzinyathi District Municipality (KZN), South Africa - Northern sites",
+   "deadline": "2026-12-11 12:00 SAST",
+   "docs_found": "full_bid_document (47 pp.)",
+   "doc_urls": [
+    "https://www.etenders.gov.za/home/Download?blobName=24a68905-aac6-4ba6-a626-08f101c30941.pdf&downloadedFileName=T2027-18.pdf"
+   ],
+   "items": [
+    {
+     "product": "Sodium hypochlorite",
+     "spec": "bulk / polycans; NSF/ANSI 60",
+     "qty": 148800,
+     "unit": "kg",
+     "qty_t": 148.8,
+     "qty_basis": "BOQ (year-1 basis, provisional)"
+    },
+    {
+     "product": "Polymer - high turbidity (polyelectrolyte)",
+     "spec": "bulk / polycans; NSF/ANSI 60",
+     "qty": 100800,
+     "unit": "kg",
+     "qty_t": 100.8,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "Polymer - low turbidity (polyelectrolyte)",
+     "spec": "bulk / polycans; NSF/ANSI 60",
+     "qty": 137400,
+     "unit": "kg",
+     "qty_t": 137.4,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "Granular HTH (calcium hypochlorite)",
+     "spec": "25 kg buckets",
+     "qty": 13140,
+     "unit": "kg",
+     "qty_t": 13.14,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "HTH tablets",
+     "spec": "25 kg buckets",
+     "qty": 6000,
+     "unit": "(unit blank in BOQ, likely kg)",
+     "qty_t": 6.0,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "Chlorine gas",
+     "spec": "1 ton tank",
+     "qty": 7200,
+     "unit": "kg",
+     "qty_t": 7.2,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "Chloride of lime",
+     "spec": "20 kg bags",
+     "qty": 1920,
+     "unit": "kg",
+     "qty_t": 1.92,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "HTH floaters",
+     "spec": "1.5 kg",
+     "qty": 720,
+     "unit": "kg",
+     "qty_t": 0.72,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "DPD No.1 tablets",
+     "spec": "250 or 100 tablets",
+     "qty": 36000,
+     "unit": "No.",
+     "qty_t": null,
+     "qty_basis": "BOQ"
+    }
+   ],
+   "total_qty_t": 415.98,
+   "packaging": "Bulk, polycans, 25 kg buckets, 20 kg bags, 1 t chlorine tanks; bulk storage Vants Drift: polymer 20 t, sodium hypo 30 t",
+   "feasibility_ru": "ISP напрямую не может (CSD/CIPC/налоговый статус ЮАР, B-BBEE, обязательный выезд 19.11 в Данди с отбором воды). Интересно как поставка полиэлектролита (~238 т/год по двум полимерам) южноафриканскому дистрибьютору с NSF/ANSI 60 продуктом из Китая/Индии.",
+   "risks_ru": "Требование NSF/ANSI 60 и ISO; jar-тест независимой лабораторией; цены фиксированы с % ростом; заказ может быть только на 1-й год; объёмы провизорные.",
+   "sources": [
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/umz18.txt"
+   ],
+   "contract_period": "3 years; Year 1 rates + % increase for Years 2 and 3; municipality may award Year 1 only; quantities provisional/re-measurable",
+   "delivery_terms": "Batch orders as and when required (typically every 1-2 months), delivered to each WTW/WWTW within 14 days of order (penalty R5,000/day); prices incl. delivery; supplier site visits at least every 8 weeks; rates reviewable every 6 months by formula",
+   "certificates": "NSF/ANSI 60 for all treatment chemicals; products from ISO-registered facility (ISO 9002 stated) and NGF approval certificates; MSDS; 500 mL product sample + independent jar test (unfiltered NTU<5, filtered NTU<1); manufacturer letter of intent if bidder not manufacturer",
+   "bid_security": null,
+   "tender_fee": "Free (eTenders / umzinyathi.gov.za)",
+   "mandatory_briefing": "COMPULSORY briefing + site visit 19.11.2026 11:00, uMzinyathi DM offices, Dundee (raw water sampling for jar tests)",
+   "eligibility_foreign": "SA municipal SCM: CSD full report, SARS tax compliance, CIPC registration, municipal rates account of bidder and directors, MBD forms -> requires SA-registered entity",
+   "award_criteria": "Compulsory documents -> functionality min 70/100 (experience 30, jar test results 30, NSF+ISO 40) -> 80/20 (price 80, specific goals 20: 100% black owned 15 pts etc.); possible plant evaluation phase for top 3",
+   "estimated_value": {
+    "amount": null,
+    "currency": "ZAR",
+    "per_lot": null,
+    "note": "Only provisional sum: process & technical support R2,000,000 over 3 years"
+   },
+   "benchmark_prices": []
+  },
+  {
+   "id": 139,
+   "n": "T2027-19",
+   "customer": "uMzinyathi District Municipality (KZN), South Africa - Southern sites",
+   "deadline": "2026-12-11 12:00 SAST",
+   "docs_found": "full_bid_document (47 pp.)",
+   "doc_urls": [
+    "https://www.etenders.gov.za/home/Download?blobName=078328b4-8efc-46d1-876a-9aaac7881a7a.pdf&downloadedFileName=T2027-19.pdf"
+   ],
+   "items": [
+    {
+     "product": "Polymer - low turbidity (polyelectrolyte)",
+     "spec": "bulk/polycans; NSF/ANSI 60",
+     "qty": 174000,
+     "unit": "kg",
+     "qty_t": 174.0,
+     "qty_basis": "BOQ sum: Greytown 60,000 + Muden 12,000 + aMakhabeleni 24,000 + Keates Drift 6,000 + Sampofu/Tugela Ferry 72,000 (year-1 basis, provisional)"
+    },
+    {
+     "product": "Polymer - high turbidity (polyelectrolyte)",
+     "spec": "bulk/polycans; NSF/ANSI 60",
+     "qty": 78000,
+     "unit": "kg",
+     "qty_t": 78.0,
+     "qty_basis": "BOQ sum: Keates Drift 6,000 + Sampofu 72,000"
+    },
+    {
+     "product": "Sodium hypochlorite",
+     "spec": "bulk / 25 kg polycans",
+     "qty": 190800,
+     "unit": "kg",
+     "qty_t": 190.8,
+     "qty_basis": "BOQ sum over 9 works"
+    },
+    {
+     "product": "Granular HTH (calcium hypochlorite)",
+     "spec": "25 kg buckets",
+     "qty": 2700,
+     "unit": "kg",
+     "qty_t": 2.7,
+     "qty_basis": "BOQ (9 x 300 kg)"
+    },
+    {
+     "product": "Lime (calcium hydroxide)",
+     "spec": "25 kg bags",
+     "qty": 12000,
+     "unit": "kg",
+     "qty_t": 12.0,
+     "qty_basis": "BOQ Greytown"
+    },
+    {
+     "product": "HTH tablets",
+     "spec": "25 kg buckets",
+     "qty": 1800,
+     "unit": "kg",
+     "qty_t": 1.8,
+     "qty_basis": "BOQ Greytown WWTW"
+    },
+    {
+     "product": "Chloride of lime",
+     "spec": "20 kg bags",
+     "qty": 1680,
+     "unit": "kg",
+     "qty_t": 1.68,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "HTH floaters",
+     "spec": "1.5 kg",
+     "qty": 720,
+     "unit": "kg",
+     "qty_t": 0.72,
+     "qty_basis": "BOQ"
+    },
+    {
+     "product": "DPD No.1 tablets",
+     "spec": "250 or 100 tablets",
+     "qty": 18000,
+     "unit": "No.",
+     "qty_t": null,
+     "qty_basis": "BOQ"
+    }
+   ],
+   "total_qty_t": 461.7,
+   "packaging": "Bulk, 25 kg polycans, 25 kg buckets/bags; bulk storage: Greytown polymer 5 t / hypo 6 t, aMakhabeleni polymer 5 t, Sampofu hypo 10 t, high polymer 10 t, low polymer 10 t",
+   "feasibility_ru": "Аналогично T2027-18: только через южноафриканского партнёра; полиэлектролит ~252 т/год — основной интерес для ISP как поставщика NSF-сертифицированного полимера дистрибьютору.",
+   "risks_ru": "Те же: CSD/B-BBEE, обязательный брифинг 19.11, NSF/ANSI 60, jar-тест, провизорные объёмы.",
+   "sources": [
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/umz19.txt"
+   ],
+   "contract_period": "3 years; Year 1 rates + % increase for Years 2 and 3; municipality may award Year 1 only; quantities provisional/re-measurable",
+   "delivery_terms": "Batch orders as and when required (typically every 1-2 months), delivered to each WTW/WWTW within 14 days of order (penalty R5,000/day); prices incl. delivery; supplier site visits at least every 8 weeks; rates reviewable every 6 months by formula",
+   "certificates": "NSF/ANSI 60 for all treatment chemicals; products from ISO-registered facility (ISO 9002 stated) and NGF approval certificates; MSDS; 500 mL product sample + independent jar test (unfiltered NTU<5, filtered NTU<1); manufacturer letter of intent if bidder not manufacturer",
+   "bid_security": null,
+   "tender_fee": "Free (eTenders / umzinyathi.gov.za)",
+   "mandatory_briefing": "COMPULSORY briefing + site visit 19.11.2026 11:00, uMzinyathi DM offices, Dundee (raw water sampling for jar tests)",
+   "eligibility_foreign": "SA municipal SCM: CSD full report, SARS tax compliance, CIPC registration, municipal rates account of bidder and directors, MBD forms -> requires SA-registered entity",
+   "award_criteria": "Compulsory documents -> functionality min 70/100 (experience 30, jar test results 30, NSF+ISO 40) -> 80/20 (price 80, specific goals 20: 100% black owned 15 pts etc.); possible plant evaluation phase for top 3",
+   "estimated_value": {
+    "amount": null,
+    "currency": "ZAR",
+    "per_lot": null,
+    "note": "Only provisional sum: process & technical support R2,000,000 over 3 years"
+   },
+   "benchmark_prices": []
+  },
+  {
+   "id": 143,
+   "n": null,
+   "customer": "Liberia Water and Sewer Corporation (LWSC), Liberia",
+   "deadline": "2026-12-13 (aggregator; another listing 2026-12-08) - unverified",
+   "docs_found": "none for 2026 notice; procurement plan + PPCC no-objection letters found",
+   "doc_urls": [
+    "https://www.ppcc.gov.lr/sites/default/files/documents/Liberia%20Water%20Sewer%20Corporation%20%28LWSC%29%202025%20APP_0.pdf"
+   ],
+   "items": [
+    {
+     "product": "Hydrated lime",
+     "spec": "17 kg bags",
+     "qty": 19700,
+     "unit": "bags x 17 kg",
+     "qty_t": 334.9,
+     "qty_basis": "LWSC 2025 procurement plan package (est. USD 1,939,372 for all chemicals) - same est. amount as 2026 aggregator listing"
+    },
+    {
+     "product": "Aluminium sulphate",
+     "spec": "17% granules 2-5 mm (per 2020/2023 docs), 50 kg bags",
+     "qty": 9750,
+     "unit": "bags x 50 kg",
+     "qty_t": 487.5,
+     "qty_basis": "LWSC 2025 procurement plan"
+    },
+    {
+     "product": "Calcium hypochlorite (HTH)",
+     "spec": "65-70%, 45 kg buckets",
+     "qty": 2162,
+     "unit": "buckets x 45 kg",
+     "qty_t": 97.29,
+     "qty_basis": "LWSC 2025 procurement plan"
+    }
+   ],
+   "total_qty_t": 919.69,
+   "contract_period": null,
+   "delivery_terms": "White Plains WTP, Monrovia (per 2023 PPCC letter)",
+   "packaging": "50 kg bags (alum), 17 kg bags (lime), 45 kg buckets (HTH)",
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "LWSC 'Water Treatment Chemical' 2026 on Liberia e-GP was International Open Competitive Bidding (deadline 05.03.2026, awarded 04.08.2026); the Dec-2026 listing may be a stale aggregator entry",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": 1939372,
+    "currency": "USD (per LWSC 2025 procurement plan; aggregator shows same figure without currency)",
+    "per_lot": null
+   },
+   "benchmark_prices": [
+    {
+     "what": "LWSC sole-source (Cactus Enterprise) 2023: aluminium sulfate 17% 1,626 bags x 50 kg = 81.3 t for USD 113,820",
+     "unit_price": 1400,
+     "currency_per": "USD/t delivered Monrovia",
+     "year": 2023,
+     "source_url": "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf"
+    },
+    {
+     "what": "LWSC sole-source 2023: HTH 270 buckets x 45 kg = 12.15 t for USD 60,750",
+     "unit_price": 5000,
+     "currency_per": "USD/t",
+     "year": 2023,
+     "source_url": "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf"
+    },
+    {
+     "what": "LWSC sole-source 2023: hydrated lime 1,251 bags x 17 kg = 21.27 t for USD 23,769",
+     "unit_price": 1117.6,
+     "currency_per": "USD/t",
+     "year": 2023,
+     "source_url": "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf"
+    },
+    {
+     "what": "LWSC FY2022 awards: alum (Lot 1) USD 517,020 and HTH (Lot 3) USD 281,250 to Cactus Enterprise; lime (Lot 2) USD 173,115 to Biomedical Link (quantities not stated)",
+     "unit_price": null,
+     "currency_per": "USD per lot",
+     "year": 2022,
+     "source_url": "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf"
+    }
+   ],
+   "feasibility_ru": "Интересный рынок: LWSC закупает ~490 т сульфата алюминия, ~335 т извести и ~97 т HTH в год (план 2025, ~USD 1,94 млн), и исторически платит высокие цены (2023: алюм ~USD 1 400/т, HTH ~USD 5 000/т). Тендер 2026 был IOB (открыт иностранцам) и уже присуждён в августе 2026; декабрьская запись агрегатора не подтверждена. Рекомендация: отслеживать e-GP Liberia (eprocurement.ppcc.gov.lr) и готовить участие в следующем IOB.",
+   "risks_ru": "Текущий тендер не подтверждён; платёжная дисциплина LWSC (частые экстренные закупки sole-source); нужен местный представитель для поставки в Монровию.",
+   "sources": [
+    "https://www.ppcc.gov.lr/sites/default/files/documents/Liberia%20Water%20Sewer%20Corporation%20%28LWSC%29%202025%20APP_0.pdf",
+    "https://ppcc.gov.lr/sites/default/files/documents/LWSC%20REQUEST%20NO%20OBJECTION%20SS%20WATER%20TREATMEN%20FY2023.pdf",
+    "https://eprocurement.ppcc.gov.lr/epps/common/viewOpenedTenders.do?d-3680181-n=1&d-3680181-o=2&d-3680181-p=112&d-3680181-s=title.keyword",
+    "https://www.globaltenders.com/tender-detail/supply-of-water-treatment-chemical-BDf6qbkC9si3HIJC"
+   ]
+  },
+  {
+   "id": null,
+   "n": "009/AONO/CAMWATER/DG/2026 of 13.11.2026 (EN: /ONCT/)",
+   "customer": "Cameroon Water Utilities Corporation (CAMWATER)",
+   "deadline": "2026-12-07 11:00 Douala (stamped date read from scan); opening 07.12.2026 12:00",
+   "docs_found": "notice_only (scanned 9-page FR/EN notice, OCR with tesseract + visual check)",
+   "doc_urls": [
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/11/13/CAMWATER/LT_2026_11_13_AO_009_CAMWATER.pdf"
+   ],
+   "items": [
+    {
+     "product": "Lot 1: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 2: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 3: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 4: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 5: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 6: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 7: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 8: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 9: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 10: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 11: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    },
+    {
+     "product": "Lot 12: water treatment chemicals (products per piece No.06 'descriptif' of DAO)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "product split per lot only in DAO (600,000 FCFA)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Delivery within 6 months firm from service order; CAMWATER operating budget 2027",
+   "delivery_terms": "Per delivery schedule in technical specifications; bidder must have certified warehouse location in Cameroon",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": {
+    "amount_per_lot": {
+     "Lot1": 22786016,
+     "Lot2": 23058299,
+     "Lot3": 23357259,
+     "Lot4": 23199491,
+     "Lot5": 23199491,
+     "Lot6": 23025983,
+     "Lot7": 22836137,
+     "Lot8": 23112439,
+     "Lot9": 23007797,
+     "Lot10": 23020497,
+     "Lot11": 22681827,
+     "Lot12": 22800689
+    },
+    "currency": "XAF",
+    "approx_usd_per_lot": 39000,
+    "validity": "120 days from opening",
+    "form": "First-class bank or insurer established in Cameroon approved by MINFI (list in appendix 12); receipt of deposit at CEDEC required"
+   },
+   "tender_fee": "600,000 FCFA to BICEC acct 06800.33598800001 key 89 'CAS-ARMP'; DAO collected at CAMWATER HQ Koumassi-Douala door A05",
+   "mandatory_briefing": null,
+   "eligibility_foreign": "APPEL D'OFFRES NATIONAL OUVERT - companies under Cameroonian law only; eliminatory: >=1 reference with a public water utility >= 1/3 of lot estimate in last 2 fiscal years, final acceptance report and good-execution certificate from a public drinking-water utility; max 2 lots per bidder; 7 copies FR/EN",
+   "award_criteria": "Eliminatory criteria + >=70% on essential criteria (offer presentation, technical characteristics, financial capacity, warehouse plan in Cameroon, delivery time, signed CCAP/specs, non-abandonment declaration) -> lowest price ('moins-disante'); unit price must not be below international market price",
+   "estimated_value": {
+    "amount": 13804296227,
+    "currency": "XAF (TTC)",
+    "approx_usd": 23228429,
+    "per_lot": {
+     "Lot1": 1139300786,
+     "Lot2": 1152914963,
+     "Lot3": 1167862950,
+     "Lot4": 1159974563,
+     "Lot5": 1159974563,
+     "Lot6": 1151299125,
+     "Lot7": 1141806825,
+     "Lot8": 1155621938,
+     "Lot9": 1150389844,
+     "Lot10": 1151024850,
+     "Lot11": 1134091350,
+     "Lot12": 1140034472
+    }
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Крупнейший бюджет в выборке (~13,8 млрд FCFA ≈ USD 23,2 млн, 12 лотов по ~1,15 млрд FCFA ≈ USD 1,9 млн). Но ISP напрямую НЕ может: только компании камерунского права с референциями от госводоканала и складом в Камеруне. Путь — поставщик (производитель/трейдер) для камерунских участников; срок подачи 07.12.2026, 6 мес. поставки — реальное окно для контрактов с локальными фирмами (сульфат алюминия, гипохлорит, известь, ПАК — точный состав в DAO).",
+   "risks_ru": "Национальный тендер; гарантия ~23 млн FCFA на лот через камерунский банк/CEDEC; задержки платежей CAMWATER; состав лотов неизвестен без покупки DAO.",
+   "sources": [
+    "/tmp/claude-0/-home-user-Tender-RUS-/e981d7a6-b89f-5df6-824c-c1907918e938/scratchpad/specs_africa/camwater_ocr.txt",
+    "https://pridesoft.armp.cm/_lib/file/doc/0903/2026/11/13/CAMWATER/LT_2026_11_13_AO_009_CAMWATER.pdf"
+   ],
+   "note": "Not in batch ids list; included per task instructions (world_africa.json item)."
+  },
+  {
+   "id": null,
+   "n": "PAAEP-WJIR-AON-32b-F-68c (WB ref WJIR-AOI-32B-F-68C)",
+   "customer": "UGP PAAEP - JIRAMA, Madagascar (World Bank IDA 7121-MG / E040-MG)",
+   "deadline": "2026-11-27 10:00 Madagascar (no e-submission; opening same time)",
+   "docs_found": "notice_text (via freetender/tenderzenith; DAO by request to ugp.jirama@paaep.mg)",
+   "doc_urls": [
+    "https://projects.worldbank.org/en/projects-operations/procurement-detail/OP00474797",
+    "https://freetender.net/tender/fournitures-dequipements-et-de-materiels-consommables-pour-le-traitement-de-leau-des-syste-op00474797"
+   ],
+   "items": [
+    {
+     "product": "Lot 1: equipment, accessories and consumables for water treatment and potabilisation (68 centres)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "in DAO"
+    },
+    {
+     "product": "Lot 2: filter sand",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "in DAO"
+    },
+    {
+     "product": "Lot 3: laboratory instruments and kits",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "in DAO"
+    },
+    {
+     "product": "Lot 4: laboratory reagents and consumables",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "in DAO"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Delivery 6 months",
+   "delivery_terms": "68 JIRAMA centres in Madagascar (per DAO)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": {
+    "amount": {
+     "Lot1": 140500000,
+     "Lot2": 11000000,
+     "Lot3": 13500000,
+     "Lot4": 6500000
+    },
+    "currency": "MGA",
+    "approx_usd_lot1": 30716
+   },
+   "qualification": {
+    "liquid_assets_or_credit": {
+     "Lot1": 1875000000,
+     "Lot2": 145000000,
+     "Lot3": 177500000,
+     "Lot4": 85000000
+    },
+    "specific_experience_one_contract_5y": {
+     "Lot1": 7500000000,
+     "Lot2": 580000000,
+     "Lot3": 710000000,
+     "Lot4": 340000000
+    },
+    "currency": "MGA"
+   },
+   "eligibility_foreign": "National competitive procurement under WB Procurement Regulations (7th ed. Sept 2025), open to bidders from all eligible countries; French DAO",
+   "award_criteria": "WB rules: lowest evaluated substantially responsive bid meeting qualification",
+   "estimated_value": {
+    "amount": null,
+    "currency": "MGA",
+    "per_lot": null,
+    "note": "Not published; Lot 1 experience threshold MGA 7.5 bn (~USD 1.64M) implies Lot 1 is the largest"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Формально открыт иностранцам (правила ВБ), но Lot 1 — оборудование+расходники (частично химия), требуется опыт одного контракта MGA 7,5 млрд (~USD 1,6 млн) за 5 лет и ликвидность MGA 1,875 млрд; подача бумажная в Антананариву 27.11.2026. Для ISP шансы низкие; Lot 4 (реактивы) мал и лабораторный.",
+   "risks_ru": "Смешанный лот с оборудованием; франкоязычная документация; срок 12 дней; логистика в 68 центров.",
+   "sources": [
+    "https://freetender.net/tender/fournitures-dequipements-et-de-materiels-consommables-pour-le-traitement-de-leau-des-syste-op00474797",
+    "https://tenderzenith.com/tenders/a3448d68-5c73-42d9-8aed-e80c48155e84/download-notice"
+   ],
+   "note": "Not in batch ids list; included per task instructions (world_africa.json item)."
+  }
+ ]
+}
