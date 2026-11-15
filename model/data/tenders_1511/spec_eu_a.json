@@ -59,6 +59,7 @@
    83,
    84,
    86,
+   89,
    95
   ],
   "notes": "Values only from opened pages/documents; null = unknown; fields marked 'estimate' are derived calculations. Currency per source. TED data via api.ted.europa.eu v3 search (ted.europa.eu notice HTML/PDF blocked by AWS WAF challenge for curl).",
@@ -1644,6 +1645,45 @@
    "sources": [
     "https://prozorro.gov.ua/api/tenders/UA-2026-11-11-010672-a/details",
     "https://prozorro.gov.ua/tender/UA-2024-09-10-009849-a"
+   ]
+  },
+  {
+   "id": 89,
+   "n": "FTS 104200-2026 (ref CM3661; UK4 tender notice, planning 104020-2026)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://www.find-tender.service.gov.uk/Notice/104200-2026",
+    "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/104200-2026"
+   ],
+   "items": [
+    {
+     "product": "Aluminium sulphate (CPV 24313123) для 12 станций питьевой воды Yorkshire Water",
+     "spec": "В тендерных документах SAP Ariba (по приглашению); качество: одобрение по Regulation 31 Water Supply (Water Quality) Regulations — пример вопроса качества",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "не опубликовано; рамочная стоимость 28,6 млн GBP на макс. 6 лет (≈4,8 млн GBP/год — estimate)"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Рамочное соглашение 01.03.2027–28.02.2028 + продления 1+1+1+1+1 (до 28.02.2033); двойной источник (dual sourcing), площадки могут переключаться между поставщиками",
+   "delivery_terms": "Поставка на 12 станций чистой воды Yorkshire (UKE); детали в Ariba",
+   "packaging": "предположительно налив (жидкий сульфат алюминия) — не проверено",
+   "certificates": "Regulation 31 (DWI) — одобрение продукта для питьевой воды (вопрос качества)",
+   "bid_security": null,
+   "eligibility_foreign": "Procurement Act 2023, competitive flexible procedure (utilities); участие только по приглашению в SAP Ariba — регистрация через ProfessionalServiceContracts@yorkshirewater.co.uk; английский; вопросы до 24.11.2026",
+   "award_criteria": "60% коммерческое предложение / 40% качество; лучшие по сумме — номинируются (два поставщика)",
+   "estimated_value": {
+    "amount": 28600000,
+    "currency": "GBP",
+    "per_lot": "1 лот, рамочный потолок с продлениями до 2033"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Низкая–средняя: крупный объём (≈4,8 млн GBP/год), но жидкий сульфат алюминия — местное производство (Kemira, Feralco UK); импорт возможен только твёрдого (кускового/гранулированного 17% Al2O3) сульфата алюминия при наличии растворного узла у заказчика — не подтверждено. Требуется DWI Regulation 31 одобрение — длительная процедура. Срок 28.11.2026 23:59; надо успеть получить приглашение в Ariba.",
+   "risks_ru": "Документы не открыты (Ariba по приглашению); FTS HTML 403 (данные получены через OCDS API); требования Reg.31.",
+   "sources": [
+    "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages/104200-2026",
+    "https://www.find-tender.service.gov.uk/api/1.0/ocdsRecordPackages/ocds-h6vhtk-07962b"
    ]
   },
   {
