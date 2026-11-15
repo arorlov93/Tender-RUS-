@@ -41,8 +41,20 @@
   ],
   "generated": "2026-11-15",
   "analyst": "asia regional deep-dive (Claude)",
-  "n_tenders": 21,
+  "n_tenders": 36,
   "method": "GeM bid PDFs via bidplus showbidDocument (fetched through Parallel web_fetch; direct GeM blocked from sandbox) and tenderfiles.com mirrors linked from tenderdetail.com; national portals/ITB PDFs where reachable; values only from opened documents, null otherwise.",
+  "blocked_sources": [
+   "bidplus.gem.gov.in direct (TLS reset from sandbox; fetched via Parallel web_fetch instead)",
+   "GeM doc ids not found for GEM/2026/B/8263545",
+   "muasamcong.mpi.gov.vn (SPA) and dauthau.asia (403) - Vietnam E-HSMT not retrieved",
+   "eprocure.gov.bd tender documents/BOQ (require e-GP login)",
+   "tendersonline.nt.gov.au RFT0031 documents (login)",
+   "EPADS P179457 tech spec PDF (JS UI)",
+   "mahatenders / tntenders BOQ (portal navigation+captcha)",
+   "Thai e-GP process3.gprocurement.go.th",
+   "tendershark S3 docs (private bucket)",
+   "govttenderhub tender pages (Cloudflare)"
+  ],
   "notes": "qty_t null where unit is litres of resin (no density conversion). 'derived' marks values computed from document thresholds, not published."
  },
  "tenders": [
@@ -93,6 +105,135 @@
    ]
   },
   {
+   "id": 1,
+   "n": "e-GP Tender ID 1365441 (46.06.2000.000.312.07.0021.26)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?id=1365441",
+    "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-cwasa/2026/10/b7633938-d477-4631-a700-ff7b58b4950c.pdf"
+   ],
+   "items": [
+    {
+     "product": "Alum Al2(SO4)3·16H2O (aluminium sulphate)",
+     "spec": "Specification in TDS/e-GP tender document (not public without e-GP login)",
+     "qty": 200,
+     "unit": "MT",
+     "qty_t": 200,
+     "qty_basis": "notice: 200MT"
+    }
+   ],
+   "total_qty_t": 200,
+   "contract_period": "2nd quarter Oct-Dec 2026 requirement; e-GP tentative start 24-Dec-2026, completion 31-Jan-2027",
+   "delivery_terms": "Karnaphuli Water Treatment Plant-1, Pomra, Rangunia, Chattogram",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "Tender security BDT 375,000 (valid to 15-Apr-2027); document price BDT 2,500",
+   "eligibility_foreign": "NCT (national competitive), OTM; 'As specified in TDS'; e-GP registration required",
+   "award_criteria": "Lowest evaluated responsive tender, lot-wise",
+   "estimated_value": {
+    "amount": null,
+    "currency": "BDT",
+    "per_lot": "official estimate not published on notice"
+   },
+   "benchmark_prices": [
+    {
+     "what": "DWASA contract award: 900 MT aluminium sulphate SWTP Phase-2 (Package-02/2024-25), aggregator value 287,175 (currency not stated, likely USD) -> ~319 per t",
+     "unit_price": 319,
+     "currency_per": "USD?/t (currency unconfirmed)",
+     "year": 2025,
+     "source_url": "https://www.biddetail.com/contract-awarded/aluminium-sulphate"
+    }
+   ],
+   "feasibility_ru": "Bangladesh e-GP NCT/OTM: подать может только зарегистрированный в e-GP тендерер с trade licence, TIN, VAT (BD). ISP — только как производитель/экспортёр за местным дистрибьютором (manufacturer's authorisation/sole distributor letter), поставка CFR Chattogram + растаможка и доставка силами партнёра. Срок 18.11.2026 — фактически не успеть.",
+   "risks_ru": "Закрытие через 3 дня; квартальная поставка — импорт морем (Китай/Индия → Читтагонг 2-4 нед.) возможен, но нужен местный агент; цена алюма низкая, маржа тонкая.",
+   "sources": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?id=1365441",
+    "https://ctg-wasa.org.bd/pages/tenders/e-tender-notice-for-procurement-of-200mt-alum-a12so4316h2o-for-2nd-quarterly-october26-december-26-basis-at-karnaphuli-water-treatment-plant-1-pomra-rangunia-chattogram-wasa-7gicft-6aec37eb593c518e650f764f"
+   ]
+  },
+  {
+   "id": 2,
+   "n": "ITB No. 001-2027 (Early Procurement)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://metroroxaswd.gov.ph/wp-content/uploads/2026/10/001-2027.pdf"
+   ],
+   "items": [
+    {
+     "product": "Poly aluminium chloride (PAC) powder for drinking water",
+     "spec": "Al2O3 >=29.0%; basicity 45.0-90.0%; water insoluble <=0.1%; pH (1%) 3.5-5.0; Fe <=0.2%; As <=0.0001%; packed 25 kg per sack",
+     "qty": 17500,
+     "unit": "bags x 25 kg",
+     "qty_t": 437.5,
+     "qty_basis": "17,500 bags x 25 kg/sack (packaging spec)"
+    }
+   ],
+   "total_qty_t": 437.5,
+   "contract_period": "195 calendar days: 5,000 bags within 15 days of NTP; 5,000 bags 2 months later; 5,000 bags 3 months later; 2,500 bags 1 month later",
+   "delivery_terms": "Delivered MRWD Water Treatment Plant, Brgy. Salocon, Panit-an, Capiz; random sampling, DOST lab test of Al2O3; CoA by MRWD chemist before acceptance",
+   "packaging": "25 kg per sack",
+   "certificates": "Lab certificate of 29% alumina by PIPAC/DOST (within 3 months); certificate from authorised lab of country of origin that PAC is for drinking water; manufacturer's authorised dealer certificate specific to project; ISO 9001:2015; NSF; PhilGEPS Platinum",
+   "bid_security": "Bid Securing Declaration, or 2% cash/cheque (PHP 455,000) or 5% bank guarantee/LC (PHP 1,137,500)",
+   "eligibility_foreign": "RA 12009 (New Government Procurement Act): Filipino bidders; foreign bidders only by reciprocity certification from own country; SLCC >= 50% of ABC (PHP 11.375M) in last 5 years; NFCC >= ABC or credit line >= 10% ABC",
+   "award_criteria": "Lowest calculated responsive bid (pass/fail eligibility, post-qualification)",
+   "estimated_value": {
+    "amount": 22750000,
+    "currency": "PHP",
+    "per_lot": "ABC PHP 22,750,000 = PHP 1,300/bag = PHP 52/kg"
+   },
+   "benchmark_prices": [
+    {
+     "what": "ABC (ceiling) PAC 29% powder, Metro Roxas WD 2027",
+     "unit_price": 52,
+     "currency_per": "PHP/kg",
+     "year": 2026,
+     "source_url": "https://metroroxaswd.gov.ph/wp-content/uploads/2026/10/001-2027.pdf"
+    }
+   ],
+   "feasibility_ru": "ISP не может подать сам (США — reciprocity под вопросом; нужен SLCC в PH). Реально — через филиппинского дистрибьютора с PhilGEPS Platinum, ISP даёт manufacturer/dealer authorisation (если ISP оформлен как дистрибьютор завода) + NSF/ISO завода. ABC $≈0.9/kg (PHP 52) достаточно для китайского PAC 30% CFR Manila.",
+   "risks_ru": "Подача 18.11.2026 физически в Roxas City; первая партия 125 т за 15 дней — нужен сток на Филиппинах; NSF обязателен.",
+   "sources": [
+    "https://metroroxaswd.gov.ph/wp-content/uploads/2026/10/001-2027.pdf"
+   ]
+  },
+  {
+   "id": 3,
+   "n": "EPADS P179457",
+   "docs_found": false,
+   "doc_urls": [
+    "https://epads.gov.pk/opportunities/federal/procurements/179457"
+   ],
+   "items": [
+    {
+     "product": "Liquid chlorine gas; bleaching powder; hydrochloric acid; gas chlorinators; copper pipe & brass adapters; cylinder maintenance/repair",
+     "spec": "Technical specification PDF on EPADS (download behind EPADS UI, not retrieved)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "rate contract quantities not retrieved"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "One-year rate contract 2026-27",
+   "delivery_terms": "CDA Water Supply Directorate Production Division-I, Islamabad",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "Earnest money PKR 588,733 (original CDR/pay order delivered by 16-Nov-2026 16:00)",
+   "eligibility_foreign": "PEC (Pakistan Engineering Council) registration C-6 or above, codes CE09 and ME07(v), valid 2026-27; EPADS 2.0 registration",
+   "award_criteria": "Single-stage one-envelope, Least Cost Based Selection (PPRA Rules 2004)",
+   "estimated_value": {
+    "amount": 19624444,
+    "currency": "PKR",
+    "per_lot": "NIT amount, whole rate contract"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Неучаствуемо: PEC-регистрация пакистанского подрядчика, хлор-газ/баллоны — локальный продукт.",
+   "risks_ru": "Дедлайн 18.11.2026; залог 16.11.",
+   "sources": [
+    "https://pakistantenders.pk/tender/1232-supply-of-water-treatment-chemicals-and-chlorination-parts-with-cylinder-maintenance-for-cda-production-division-i"
+   ]
+  },
+  {
    "id": 10,
    "n": "GEM/2026/B/8217084",
    "docs_found": true,
@@ -131,6 +272,155 @@
    "sources": [
     "https://bidplus.gem.gov.in/showbidDocument/10100155",
     "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58274683"
+   ]
+  },
+  {
+   "id": 11,
+   "n": "e-GP Tender ID 1349171 (APP/26-27/G/1)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?id=1349171"
+   ],
+   "items": [
+    {
+     "product": "Poly aluminium chloride (PAC) for Padma WTP, FY 26-27 lot-1",
+     "spec": "In e-GP tender document (BOQ not public)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "qty not on public notice"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Tentative 30-Nov-2026 to 30-Mar-2027",
+   "delivery_terms": "Padma Water Treatment Plant (PWTP), Dhaka WASA",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "Tender security BDT 800,000; document price BDT 4,000",
+   "eligibility_foreign": "NCT/OTM. Manufacturer or sole distributor (with manufacturer's distributorship documents); 3 yrs experience; one contract >= BDT 20 lakh in last 3 yrs; brochure/catalogue; chemical sample to PE; site visit and work-sample construction report signed by plant; 12-month warranty declaration",
+   "award_criteria": "Lot-wise lowest evaluated responsive",
+   "estimated_value": {
+    "amount": null,
+    "currency": "BDT",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Bangladesh e-GP NCT/OTM: подать может только зарегистрированный в e-GP тендерер с trade licence, TIN, VAT (BD). ISP — только как производитель/экспортёр за местным дистрибьютором (manufacturer's authorisation/sole distributor letter), поставка CFR Chattogram + растаможка и доставка силами партнёра. Здесь допускается 'sole distributor' производителя — ISP может выдать полномочия только если сам имеет дистрибьюторство завода; подаёт BD-компания.",
+   "risks_ru": "Закрытие 19.11.2026; обязательный образец, визит на станцию до закрытия — не успеть.",
+   "sources": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?id=1349171"
+   ]
+  },
+  {
+   "id": 12,
+   "n": "e-GP Tender ID 1360114 (KWASA-G-PAC-2026-27)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?id=1360114"
+   ],
+   "items": [
+    {
+     "product": "White poly aluminium chloride (PAC) powder, food grade",
+     "spec": "Per tender specification (not public); tested at KUET/BUET",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "qty not on public notice"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Tentative 01-Dec-2026 to 20-Jun-2027, several instalments as required",
+   "delivery_terms": "110 MLD SWTP, Rupsha, Tilok, Pathorghata, Khulna",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "Tender security BDT 280,000; document BDT 2,500",
+   "eligibility_foreign": "NCT/OTM. 5 yrs general experience; one contract >= BDT 85 lakh PAC/similar in last 5 yrs; liquid assets >= BDT 80 lakh; catalogue + factory test report; 500 g sample by 19-Nov 16:00 (KUET/BUET test at bidder cost); trade licence, VAT, TIN, nationality certificate",
+   "award_criteria": "Lot-wise lowest evaluated responsive",
+   "estimated_value": {
+    "amount": null,
+    "currency": "BDT",
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Bangladesh e-GP NCT/OTM: подать может только зарегистрированный в e-GP тендерер с trade licence, TIN, VAT (BD). ISP — только как производитель/экспортёр за местным дистрибьютором (manufacturer's authorisation/sole distributor letter), поставка CFR Chattogram + растаможка и доставка силами партнёра. Требуется BD trade licence/VAT/TIN + опыт BDT 85 лакх — только через крупного местного поставщика.",
+   "risks_ru": "Закрытие 19.11.2026; образец до 19.11; каждая партия тестируется за счёт поставщика.",
+   "sources": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?id=1360114",
+    "https://www.globaltenders.com/tender-detail/supply-of-white-poly-aluminium-chloride-pac-IjMz2jSbdOBMuERD"
+   ]
+  },
+  {
+   "id": 13,
+   "n": "IB2600589415-00 (71HH-SXKD-2026)",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [
+    {
+     "product": "Chemicals for operation of Duyen Hai 1, 3 and 3-Expansion thermal power plants",
+     "spec": "E-HSMT on muasamcong (not retrieved: SPA portal, aggregators gated)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "not found"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": "Duyen Hai thermal power complex, Vinh Long province (ex-Tra Vinh)",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Domestic bidding under Law on Bidding 2023 via muasamcong; bidder must be registered on VN national e-GP (foreign firms can register but usually need VN entity for VAT invoicing/delivery) - not verified in document",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Только через вьетнамского дистрибьютора, зарегистрированного на muasamcong. Документация не получена.",
+   "risks_ru": "Дедлайн 19.11.2026; список химии неизвестен.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/vietnam/71hh-sxkd-2026-supply-of-chemicals-for-the-operation-of-duyen-hai-1-duyen-hai-3-16090074"
+   ]
+  },
+  {
+   "id": 22,
+   "n": "2026_COJAL_1353529_1 (E-Tender D-Notice No.03 for 2026-27, 2nd call)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://mahatenders.gov.in/nicgep/app"
+   ],
+   "items": [
+    {
+     "product": "Polyaluminium chloride (PAC) IS 15573:2005",
+     "spec": "IS 15573 (grade/form in BOQ not retrieved)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "BOQ not retrieved"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": "MJP Circle Nagpur",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "EMD INR 4.3 lakh (govttenderhub)",
+   "eligibility_foreign": "Maharashtra state e-tender (NIC GePNIC): Indian DSC class-3 and enrolment; supplier typically must hold BIS licence for IS 15573 (not verified)",
+   "award_criteria": "L1 (state e-tender norm; not verified)",
+   "estimated_value": {
+    "amount": 14000000,
+    "currency": "INR",
+    "per_lot": "tender value ~INR 1.4 crore (aggregators govttenderhub/tenderprocure)"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Только через индийского производителя/поставщика с DSC и, вероятно, BIS-лицензией IS 15573. Второй вызов (1-й не состоялся 31.10) — конкуренция низкая.",
+   "risks_ru": "Дедлайн 20.11.2026; BOQ не получен.",
+   "sources": [
+    "https://govttenderhub.com/organisation/member-secretary-wssd-mumbai-tenders",
+    "https://tenderprocure.com/nagpur-tenders?page=2",
+    "https://tenderimpulse.com/government-tenders/india/supply-of-polyaluminium-chloride-pac-is-15573-2005-16450847"
    ]
   },
   {
@@ -263,6 +553,76 @@
    "sources": [
     "https://bidplus.gem.gov.in/showbidDocument/10084814",
     "https://govttenderhub.com/gem-tenders"
+   ]
+  },
+  {
+   "id": 26,
+   "n": "IB2600604847-00",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [
+    {
+     "product": "PAC flocculant (package No.3)",
+     "spec": "E-HSMT not retrieved (one aggregator title says 'PAC (Polyacrylamide)' - ambiguity)",
+     "qty": 120000,
+     "unit": "kg",
+     "qty_t": 120.0,
+     "qty_basis": "title: 120,000 kg"
+    }
+   ],
+   "total_qty_t": 120.0,
+   "contract_period": null,
+   "delivery_terms": "Vinh Long Water Supply JSC plants",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Domestic bidding via muasamcong; VN-registered bidder (not verified in document)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Через вьетнамского дистрибьютора; Китай-PAC во Вьетнаме очень дешёвый, местные производители — сильная конкуренция.",
+   "risks_ru": "Дедлайн 20.11.2026; спецификация неизвестна.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/vietnam/package-no-3-supply-of-120-000-kg-of-pac-flocculant-16391798"
+   ]
+  },
+  {
+   "id": 27,
+   "n": "IB2600602625-00",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [
+    {
+     "product": "Chemicals for operating wastewater treatment systems 2026",
+     "spec": "E-HSMT not retrieved",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "not found"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": "Tan Binh Industrial Park JSC WWTP",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Domestic bidding via muasamcong (not verified)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Только через вьетнамского партнёра; мелкий объём.",
+   "risks_ru": "Дедлайн 20.11.2026.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/vietnam/chemicals-required-for-operating-the-wastewater-treatment-system-in-2026-16404462"
    ]
   },
   {
@@ -577,6 +937,43 @@
    ]
   },
   {
+   "id": 60,
+   "n": "SE/KGTPS/M.OT.No.07/26-27 (2026_EB_723590_1)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://tntenders.gov.in/nicgep/app"
+   ],
+   "items": [
+    {
+     "product": "Bulk chemicals for feed water and cooling water systems",
+     "spec": "BOQ not retrieved",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "not found"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": null,
+   "delivery_terms": "Kuttalam Gas Turbine Power Station, Maruthur, Tamil Nadu",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "TN state e-tender (GePNIC): Indian DSC + registration (not verified)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Только через индийского поставщика. Документы на tntenders не получены (нужна навигация по порталу/капча).",
+   "risks_ru": "Дедлайн 25.11.2026.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/india/procurement-of-bulk-chemicals-required-for-feed-water-system-and-cooling-water-s-16331529"
+   ]
+  },
+  {
    "id": 61,
    "n": "GEM/2026/B/8170619",
    "docs_found": true,
@@ -620,6 +1017,91 @@
    "risks_ru": "Ядерная квалификация.",
    "sources": [
     "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58451029"
+   ]
+  },
+  {
+   "id": 62,
+   "n": "Chemical Lab ET-6384-N (GSECL nProcure Tender ID 345088)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.tenderfiles.com/tenderdocuments/92026/15/250511f8-33c0-4800-af2b-4927060d80ca?FileName=ET6384NTenderDocument.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/92026/15/250511f8-33c0-4800-af2b-4927060d80ca?FileName=ET6384NTenderNotice.pdf",
+    "https://www.tenderfiles.com/tenderdocuments/112026/14/c04e181e-9796-44fe-80e4-63342526979d?FileName=c04e181e-9796-44fe-80e4-63342526979d.pdf"
+   ],
+   "items": [
+    {
+     "product": "Granular activated carbon, de-chlorination grade, for DM plant Unit 6",
+     "spec": "IS 2752:1995 Type-I, coconut shell; iodine min 900; particle 0.8-0.9 mm / 8-30 mesh (on 8 mesh <=15%, through 30 <=4%); carbon >=90%; density 550-580 kg/m3; moisture 2-5%; ash <=5%; abrasion 75 min; surface area >=900 m2/g",
+     "qty": 4000,
+     "unit": "kg",
+     "qty_t": 4.0,
+     "qty_basis": "Sheet-I qty 4000 Kilogram"
+    }
+   ],
+   "total_qty_t": 4.0,
+   "contract_period": null,
+   "delivery_terms": "GSECL Ukai TPS, Tapi, Gujarat 394680",
+   "packaging": "Water-proof sealed, labelled packing",
+   "certificates": "Test certificate per IS",
+   "bid_security": "EMD INR 7,200; tender fee INR 1,770 (incl. GST); physical TF/EMD cover by speed post within 5 days",
+   "eligibility_foreign": "Manufacturer/OEM/authorised dealer/TRADER allowed; supply orders for same/similar items within 7 years to Govt/PSU/private cos/IPPs; principal manufacturer may bid directly or through one Indian agent; GST/PAN vendor registration (VMS)",
+   "award_criteria": "Lowest end-cost incl. GST (firm price)",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Открыто для трейдеров; иностранный производитель может участвовать через индийского агента. Объём крошечный (4 т) — только как референс.",
+   "risks_ru": "Дедлайн 25.11.2026; DSC для nProcure; физический конверт EMD.",
+   "sources": [
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/57525143/87f288587eb92ebee083e084d9fbe67f",
+    "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58534569/1296ec5114bfa352fd78789ea2f6c58c"
+   ]
+  },
+  {
+   "id": 63,
+   "n": "P.R. No. 26-0247 (PhilGEPS ref 13312040)",
+   "docs_found": true,
+   "doc_urls": [
+    "https://zcwd.gov.ph/wp-content/uploads/2026/11/Addendum_Notice-of-Postponement-dated-November-4-2026_PR-Nos.-26-0208-26-0243-26-0246-26-0247.pdf"
+   ],
+   "items": [
+    {
+     "product": "Aluminium sulfate 17% ±1% (Al2O3), for water treatment",
+     "spec": "17%±1%, 50 kg/bag",
+     "qty": 2400,
+     "unit": "bags x 50 kg",
+     "qty_t": 120,
+     "qty_basis": "2,400 bags x 50 kg"
+    }
+   ],
+   "total_qty_t": 120,
+   "contract_period": null,
+   "delivery_terms": "Zamboanga City Water District (ITB delivery terms not retrieved)",
+   "packaging": "50 kg bags",
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "RA 12009: Filipino bidders / reciprocity; PhilGEPS registration (ITB not retrieved)",
+   "award_criteria": "Lowest calculated responsive bid",
+   "estimated_value": {
+    "amount": 3000000,
+    "currency": "PHP",
+    "per_lot": "ABC PHP 3,000,000 = PHP 1,250/bag = PHP 25/kg"
+   },
+   "benchmark_prices": [
+    {
+     "what": "ABC alum 17% 50 kg bags, ZCWD 2026",
+     "unit_price": 25,
+     "currency_per": "PHP/kg",
+     "year": 2026,
+     "source_url": "https://globalgov.io/s/ph-p-r-no-26-0247-supply-delivery-of-2-400-bags-aluminum-sulfate-17-1-at-50kgs-bag-for-water-treatment-p-r-no-26-0247"
+    }
+   ],
+   "feasibility_ru": "Через филиппинского дистрибьютора (PhilGEPS). ABC ~$425/т — для импортного алюма CFR Zamboanga впритык.",
+   "risks_ru": "Bid opening перенесён на 25.11.2026 14:00 (addendum 04.11.2026); ITB-PDF не получен.",
+   "sources": [
+    "https://zcwd.gov.ph/wp-content/uploads/2026/11/Addendum_Notice-of-Postponement-dated-November-4-2026_PR-Nos.-26-0208-26-0243-26-0246-26-0247.pdf"
    ]
   },
   {
@@ -667,6 +1149,43 @@
    "risks_ru": "Мелкий объём, армия.",
    "sources": [
     "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58490507"
+   ]
+  },
+  {
+   "id": 70,
+   "n": "e-GP Tender ID 1369229",
+   "docs_found": true,
+   "doc_urls": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?id=1369229"
+   ],
+   "items": [
+    {
+     "product": "Cationic polyacrylamide (PAM) flocculant, Dasherkandi STP lot-2",
+     "spec": "In tender document (not public)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "qty not on public notice"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Tentative 24-Dec-2026 to 22-Apr-2027",
+   "delivery_terms": "Dasherkandi STP, Aftabnagar, Dhaka",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": "Tender security BDT 300,000; document BDT 2,500",
+   "eligibility_foreign": "NCT/OTM; 'as per tender document'",
+   "award_criteria": "Lot-wise lowest evaluated responsive",
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Bangladesh e-GP NCT/OTM: подать может только зарегистрированный в e-GP тендерер с trade licence, TIN, VAT (BD). ISP — только как производитель/экспортёр за местным дистрибьютором (manufacturer's authorisation/sole distributor letter), поставка CFR Chattogram + растаможка и доставка силами партнёра. Катионный ПАА — профильный продукт ISP (Китай); стоит искать местного партнёра — у Дашеркандской СОС регулярные закупки.",
+   "risks_ru": "Закрытие 26.11.2026; спецификация/объём только в документации e-GP.",
+   "sources": [
+    "https://www.eprocure.gov.bd/resources/common/ViewTender.jsp?id=1369229"
    ]
   },
   {
@@ -742,6 +1261,57 @@
    "risks_ru": "Sample approval; DAE.",
    "sources": [
     "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58420927"
+   ]
+  },
+  {
+   "id": 88,
+   "n": "Project No. 69119231753",
+   "docs_found": false,
+   "doc_urls": [],
+   "items": [
+    {
+     "product": "Poly aluminium chloride (PAC)",
+     "spec": null,
+     "qty": 12000,
+     "unit": "kg",
+     "qty_t": 12.0,
+     "qty_basis": "notice"
+    },
+    {
+     "product": "Polyacrylamide (polymer)",
+     "spec": null,
+     "qty": 2000,
+     "unit": "kg",
+     "qty_t": 2.0,
+     "qty_basis": "notice"
+    },
+    {
+     "product": "Liquid chlorine",
+     "spec": null,
+     "qty": 8500,
+     "unit": "litre",
+     "qty_t": null,
+     "qty_basis": "litres"
+    }
+   ],
+   "total_qty_t": 14.0,
+   "contract_period": null,
+   "delivery_terms": "Huai Krachao Subdistrict Municipality, Kanchanaburi",
+   "packaging": null,
+   "certificates": null,
+   "bid_security": null,
+   "eligibility_foreign": "Thai e-GP e-bidding: Thai juristic person registered in e-GP (not verified)",
+   "award_criteria": null,
+   "estimated_value": {
+    "amount": null,
+    "currency": null,
+    "per_lot": null
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Неинтересно: мелкий муниципальный лот, только тайское юрлицо.",
+   "risks_ru": "Дедлайн 28.11.2026.",
+   "sources": [
+    "https://tenderimpulse.com/government-tenders/thailand/announcing-a-call-for-bids-to-purchase-scientific-or-medical-materials-chemicals-16441644"
    ]
   },
   {
@@ -955,6 +1525,44 @@
    "risks_ru": "Спецификация сканирована; destination testing ONGC.",
    "sources": [
     "https://www.tenderdetail.com/Indian-Tenders/TenderNotice/58500307"
+   ]
+  },
+  {
+   "id": 121,
+   "n": "RFT0031",
+   "docs_found": false,
+   "doc_urls": [
+    "https://tendersonline.nt.gov.au/Tender/Details/26370"
+   ],
+   "items": [
+    {
+     "product": "Water & wastewater treatment and disinfection chemicals (panel) for ~100 urban and remote NT sites",
+     "spec": "RFT documents require tendersonline login (not downloaded); aggregator lists sodium hypochlorite etc.",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "not in public notice"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Panel contract 36 months + 2 x 12 months",
+   "delivery_terms": "All Power and Water Corporation centres across NT incl. ~80 remote communities; end-to-end supply chain with documented chain of custody; licensed DG transport",
+   "packaging": null,
+   "certificates": "Public liability AUD 20M, product liability AUD 10M (aggregator summary of RFT)",
+   "bid_security": null,
+   "eligibility_foreign": "Open public RFT; foreign suppliers not excluded (notice); industry briefing held 02/11/2026",
+   "award_criteria": "Value-for-money panel; preference for traceable supply chain (notice text)",
+   "estimated_value": {
+    "amount": null,
+    "currency": "AUD",
+    "per_lot": "not published; aggregator estimate AUD 2-14M"
+   },
+   "benchmark_prices": [],
+   "feasibility_ru": "Единственный открытый для иностранцев тендер в батче, но требует австралийской логистики DG и складов в NT; ISP реалистично только как поставщик для австралийского дистрибьютора (IXOM, Coogee и пр. в списке prospective tenderers) или в консорциуме.",
+   "risks_ru": "Дедлайн 04.12.2026 14:00 ACST; страхование AUD 20M/10M; KPI доставки в отдалённые общины; панель без гарантированных объёмов.",
+   "sources": [
+    "https://tendersonline.nt.gov.au/Tender/Details/26370",
+    "https://govmarket.com.au/tender/supply-of-chemicals-to-all-centres-36-month-contract-power-and-water-corporation-"
    ]
   }
  ]

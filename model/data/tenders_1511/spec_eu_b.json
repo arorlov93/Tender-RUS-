@@ -726,6 +726,132 @@
    ]
   },
   {
+   "id": 157,
+   "n": "TED 2058-2026 (EMASESA exp. 0706/2025, DPS)",
+   "docs_found": false,
+   "doc_urls": [
+    "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=b4cru3Vb3E2Izo3LHNPGcQ%3D%3D"
+   ],
+   "items": [
+    {
+     "product": "Cat.1 Coagulantes líquidos: liquid aluminium sulphate + liquid PAC",
+     "spec": "per PPT (not obtained)",
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. value 20,404,300 EUR (DPS 5 yrs + 24 months extensions)"
+    },
+    {
+     "product": "Cat. Cloro (1,000 kg & 100 kg cylinders)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 1,847,923 EUR"
+    },
+    {
+     "product": "Cat. Hipoclorito sódico (jerrycans for ETAP and re-chlorination)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 580,405 EUR"
+    },
+    {
+     "product": "Cat. Hidróxido cálcico (hydrated lime)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 2,523,500 EUR"
+    },
+    {
+     "product": "Cat. Floculantes ETAP: anionic/cationic starches and polyDADMAC",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 1,297,800 EUR"
+    },
+    {
+     "product": "Cat. Floculantes IAAP: cationic, medium-anionic, weak-anionic flocculants",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 441,252 EUR"
+    },
+    {
+     "product": "Cat. Coagulantes sólidos: solid aluminium sulphate",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 78,733.20 EUR"
+    },
+    {
+     "product": "Cat. Sosa 50% (NaOH) in IBC and jerrycans",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 57,391.60 EUR"
+    },
+    {
+     "product": "Cat. Carbones activos: powdered (CAP) + granular (CAG) for ETAP El Ronquillo and ETAP Carambolo",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 10,731,854.28 EUR"
+    },
+    {
+     "product": "Cat. Sodium chlorite <25% (tanker), 25% (IBC), HCl 32% (IBC)",
+     "spec": null,
+     "qty": null,
+     "unit": null,
+     "qty_t": null,
+     "qty_basis": "est. 5,876,150 EUR"
+    }
+   ],
+   "total_qty_t": null,
+   "contract_period": "Dynamic Purchasing System 5 years + 24 months extensions; admission open until 30.01.2031; specific contracts (mini-tenders) issued within DPS",
+   "delivery_terms": "Delivered to EMASESA installations per PPT (Sevilla metropolitan area) – details in specific contracts",
+   "packaging": "varies: tanker, IBC, jerrycans, cylinders (per category description)",
+   "certificates": "Selection: annual turnover + similar works/supplies (solvency); detailed specs in pliegos (download returned server error 500)",
+   "bid_security": null,
+   "eligibility_foreign": "Restricted procedure for DPS admission (Directive 2014/25, utilities); no limit on number of admitted candidates; foreign firms may apply via PLACSP; Spanish",
+   "award_criteria": "Admission by selection criteria only; award criteria defined in each specific contract (not price-only per memoria)",
+   "estimated_value": {
+    "amount": 43839309.08,
+    "currency": "EUR",
+    "per_lot": "total; tender budget 31,009,774.80 EUR excl. VAT (5 yrs); per-category estimates listed in items"
+   },
+   "benchmark_prices": [
+    {
+     "what": "Previous EMASESA reagents framework 021/21 (TED 50210-2022): Lots 1+7 liquid & solid coagulants – FERALCO IBERIA 5,739,000 EUR; Lot 5 ETAP flocculants – SERVYECO 530,080 EUR (quantities not in notice)",
+     "unit_price": null,
+     "currency_per": "EUR total",
+     "year": 2022,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/50210-2022"
+    },
+    {
+     "what": "EMASESA portable GAC filters supply 2025 – Jacobi Carbons España, 261,728 EUR",
+     "unit_price": null,
+     "currency_per": "EUR total",
+     "year": 2025,
+     "source_url": "https://ted.europa.eu/en/notice/-/detail/313728-2025"
+    }
+   ],
+   "feasibility_ru": "Средняя-долгосрочная: DPS открыт до 2031 г., вход без ограничения числа участников — можно пройти допуск один раз и участвовать в мини-тендерах. Наиболее подходящие категории для импорта из Азии: активированный уголь CAP/CAG (оценка 10,7 млн EUR на 5-7 лет), полиДАДМАК/флокулянты, твёрдый сульфат алюминия. Для поставок нужен испанский склад/логистика.",
+   "risks_ru": "Пликос (PPT/PCAP) не скачаны — ошибка 500 на PLACSP; утилити-директива допускает отказ продукции из третьих стран (>50%); требования к солвентности неизвестны.",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/2058-2026",
+    "https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&idEvl=b4cru3Vb3E2Izo3LHNPGcQ%3D%3D",
+    "https://ted.europa.eu/en/notice/-/detail/50210-2022"
+   ]
+  },
+  {
    "id": 160,
    "n": "TED 772209-2026",
    "docs_found": true,
