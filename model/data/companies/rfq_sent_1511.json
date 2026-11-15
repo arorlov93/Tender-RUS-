@@ -156,5 +156,69 @@
    "msg": "1a1e12e8b6304844"
   }
  ],
- "note": "Пакет 3: адреса с официальных сайтов (1 источник) — разрешено пользователем 15.11 («да давай»)."
+ "note": "Пакет 3: адреса с официальных сайтов (1 источник) — разрешено пользователем 15.11 («да давай»).",
+ "batch4_africa_partners": [
+  {
+   "to": "info@junacogroup.com",
+   "msg": "1a1e130dc9852182"
+  },
+  {
+   "to": "uganda@reliefline.net",
+   "msg": "1a1e130de3aeae68"
+  },
+  {
+   "to": "hello@reliancechemicals.ug",
+   "msg": "1a1e130e02e2c47f"
+  },
+  {
+   "to": "info@kasengineering.co.ug",
+   "msg": "1a1e130e29d74c16"
+  },
+  {
+   "to": "info@davanns.com",
+   "msg": "1a1e130e2975a963"
+  },
+  {
+   "to": "info@priyann.com",
+   "msg": "1a1e130e40501810"
+  },
+  {
+   "to": "info@aquatreat.co.ke",
+   "msg": "1a1e130e737badd6"
+  },
+  {
+   "to": "sales@prochem.co.tz",
+   "msg": "1a1e130e9f3a10ba"
+  },
+  {
+   "to": "cormart@clicktgi.net",
+   "msg": "1a1e130eb40cae94"
+  },
+  {
+   "to": "sales@nemchem.co.zw; fmangani@nemchem.co.zw",
+   "msg": "1a1e130ed379d2a5"
+  }
+ ],
+ "africa_price_compare": {
+  "alum": {
+   "our_landed": "Найроби ~495, Кампала ~588, Дуала ~540 $/т",
+   "local": "Кения ELDOWAS 2024 415–550; Нигерия 2021 ~815; Зимбабве 2026 ~794 (с известью); Мозамбик 2023 1266–1406; Либерия 2023 1400"
+  },
+  "PAC": {
+   "our_landed": "порошок Кампала ~637; жидкий 17% Найроби ~430",
+   "local": "NWSC 2016–17 1520–1840"
+  },
+  "HTH": {
+   "our_landed": "~1390–1610",
+   "local": "NWSC 2016 ~2150; Мозамбик 2023 2825; Либерия 5000; Зимбабве 5360–6191 (мелкие партии)"
+  },
+  "soda": {
+   "our_landed": "Кампала ~494",
+   "local": "NWSC 2016 ~690"
+  },
+  "polyamine": {
+   "our_landed": "polyDADMAC ~1100–1300 (оценка)",
+   "local": "Кения ELDOWAS 2024 3440–4540"
+  }
+ }
 }
