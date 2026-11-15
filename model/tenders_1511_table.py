@@ -58,11 +58,19 @@ for t in load("ru_chem.json"):
                      plat=str(t.get("platform") or ""), nmc=t.get("nmc") or t.get("nmc_rub"), cur="₽", dl=str(t.get("deadline") or t.get("application_deadline") or t.get("deadline_msk")), d=d,
                      link=t.get("link") or t.get("url") or t.get("source_url"), st="Новая", todo="Скачать ТЗ" + (" (ПП 1875: " + str(t.get("pp1875")) + ")" if t.get("pp1875") else ""),
                      note=str(t.get("matches") or t.get("product_group") or "")[:200]))
-for t in load("world_chem.json"):
+import glob
+WT = []
+for fp in sorted(glob.glob(T + "world_*.json")):
+    for t in load(os.path.basename(fp)): t["_reg"] = os.path.basename(fp)[6:-5]; WT.append(t)
+seen = set()
+for t in WT:
+    key = (str(t.get("tender_number") or "").strip().lower(), str(t.get("buyer") or "")[:20].lower())
+    if key[0] and key in seen: continue
+    seen.add(key)
     d = dk(t.get("deadline"))
     if not d or d < MIN: continue
-    rows.append(dict(src="Мир (поиск 15.11)", who="ISP", n=str(t.get("tender_number") or t.get("number") or ""), subj=str(t.get("title") or ""), cust=f"{t.get('buyer') or ''} / {t.get('country') or ''}",
-                     plat=str(t.get("portal") or ""), nmc=t.get("estimated_value"), cur="", dl=str(t.get("deadline")), d=d, link=t.get("url") or t.get("notice_url"), st="Новая",
+    rows.append(dict(src="Мир 15.11: " + t["_reg"], who="ISP", n=str(t.get("tender_number") or t.get("number") or ""), subj=str(t.get("title") or "") + (" — " + str(t.get("products_quantities")) if t.get("products_quantities") else ""), cust=f"{t.get('buyer') or ''} / {t.get('country') or ''}",
+                     plat=str(t.get("portal") or ""), nmc=t.get("estimated_value"), cur="", dl=str(t.get("deadline")), d=d, link=t.get("url") or t.get("notice_url") or t.get("aggregator_url"), st="Новая",
                      todo=str(t.get("how_to_get_documents") or t.get("documents") or "Получить ТД")[:160], note=str(t.get("eligibility") or "")[:200]))
 rows.sort(key=lambda r: (r["d"], r["src"]))
 
