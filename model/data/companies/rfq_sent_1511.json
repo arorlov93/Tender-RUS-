@@ -441,6 +441,18 @@
    "to": "leo.zhou@bluwat.com.cn",
    "subject": "Re: PAC Kenya NSF/600 t, REACH OR, C-8060 price",
    "thread": "1a1e11e87cf73f1b"
+  },
+  {
+   "date": "2026-11-16",
+   "to": "vincent@krchemical.com",
+   "subject": "T-47 trial/dosing/POA",
+   "thread": "1a1d043c597d1770"
+  },
+  {
+   "date": "2026-11-16",
+   "to": "govindpatel@rimpro-india.com",
+   "subject": "LOA received; Turkmenistan references, prices, docs",
+   "thread": "1a1c098da2aa23cf"
   }
  ],
  "closed_1611": [
@@ -451,9 +463,7 @@
   }
  ],
  "pending_drafts_1611": [
-  "Kairui r-9000581439694964880 (T-47)",
-  "Rimpro r-5834653404061263664",
-  "PAM: Sinofloc r2263689814301000930, Nuoer r9078228565212564900, Hangrui r1274116483450774163, Derypol r2531529563476752318",
-  "GAC: Donau Carbon r394063840874190790, CarboTech r2546709129537577142, Camel Carboclean r8555803311234629284"
- ]
+  "EU PAM/GAC 7 drafts — HOLD: owner is RU national → EU Reg. 833/2014 art.5k bars EU public contracts"
+ ],
+ "eu_tenders_status_1611": "HOLD/STOP: art. 5k Reg. 833/2014 (RU national 100% owner of ISP) — EMAYA, Taibilla, CIIP, HERA, Budapest, Cyprus not eligible"
 }
