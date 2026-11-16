@@ -410,5 +410,19 @@
    "msg": "1a1e153f7704b0b2"
   }
  ],
- "daily_limit": 75
+ "daily_limit": 75,
+ "sent_1611": [
+  {
+   "date": "2026-11-16",
+   "to": "sales@chimiart.com",
+   "subject": "Re: RFQ ferric chloride CIF Limassol — Fe 11% grade, ISO tanks, independent COA, REACH OR, EUR.1, 30/70",
+   "thread": "1a1e12e82fedd8d7"
+  },
+  {
+   "date": "2026-11-16",
+   "to": "siyee@jalonzeolite.com",
+   "subject": "Re: molecular sieves/activated alumina — container prices, rail CPT Almaty/Tashkent, specs, 30/70, samples",
+   "thread": "1a1e27343a534260"
+  }
+ ]
 }
