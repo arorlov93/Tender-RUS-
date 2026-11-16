@@ -1,0 +1,2307 @@
+{
+ "meta": {
+  "generated": "2026-11-16",
+  "bidder": "ISP Group LLC (Florida LLC)",
+  "scope": "West/Midwest/Northeast state & local water/wastewater chemicals + salt; due >= 2026-11-20",
+  "method": "Только публичные страницы (Parallel web search); без логинов/капчи. Rate limit Parallel достигнут в конце – часть деталей не проверена (помечено).",
+  "excluded_recently_closed": [
+   "Cortez CO joint bid (18.11)",
+   "Great Falls MT (18.11)",
+   "Longview WA (18.11)",
+   "Schenectady NY NaOCl (18.11)",
+   "Baltimore RFQ-000770 (18.11)",
+   "Hamilton Twp MUA NJ (18.11)",
+   "St. Cloud MN (18.11)",
+   "Cuyahoga Falls OH (18.11)",
+   "Altoona PA (19.11)",
+   "Gardner KS (19.11)",
+   "Pittsburgh Water 2026-177 (фаза 1 закрыта 12.11)",
+   "NEORSD ferric chloride (05.11)",
+   "SWOP4G 2027 (04.11)",
+   "Niagara Falls NY (10.11)"
+  ],
+  "no_state_coop_found": "Открытых statewide/NASPO/Sourcewell/OMNIA контрактов именно на водоочистную химию в окне не найдено; кооперативы – BACC (CA), Mid-Michigan, SWOP4G (OH, закрыт), Cortez joint (CO, закрыт), McHenry County softener salt (IL), RI MPA 125 rock salt (open enrollment)."
+ },
+ "bids": [
+  {
+   "entity": "City of Kansas City, MO (KC Water)",
+   "state": "MO",
+   "region": "Midwest",
+   "bid_number": "EV4879",
+   "title": "Water/Wastewater Treatment Chemicals",
+   "products": [
+    {
+     "item": "Liquid chlorine",
+     "qty": 999931,
+     "unit": "lb"
+    },
+    {
+     "item": "Activated carbon (PAC)",
+     "qty": 142727,
+     "unit": "lb"
+    },
+    {
+     "item": "Sodium hypochlorite",
+     "qty": 707000,
+     "unit": "gal"
+    },
+    {
+     "item": "Sodium bisulfite",
+     "qty": 297000,
+     "unit": "gal"
+    },
+    {
+     "item": "Ammonium hydroxide",
+     "qty": 100000,
+     "unit": "gal"
+    },
+    {
+     "item": "Caustic soda",
+     "qty": 130000,
+     "unit": "gal"
+    }
+   ],
+   "estimated_value_usd": 3300000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices; ~$3.3M/год, построчная оценка (line-item award, multiple awards)",
+   "delivery_terms": "FOB Destination, поставщик обеспечивает разгрузку (шланги/насосы), доставка 7:00-16:00, 24ч уведомление, аварийные поставки",
+   "term": "12 мес. (в док. 11/01/2026-10/31/2027) + до 5 продлений по 1 году",
+   "bonds": "не указаны в публичной выдержке",
+   "insurance": "GL $1M/$2M agg; Auto $1M; WC statutory",
+   "nsf_awwa": "спецификации + COA, SDS, TSCA",
+   "local_preference": "Преференции American-made и Missouri-made товарам; KCSBE goals; бизнес-лицензия KC, Certificate of Good Standing MO, E-Verify affidavit (нотариально)",
+   "due_date": "2026-11-23",
+   "due_time": "16:00",
+   "tz": "CST",
+   "submission": "Онлайн Bonfire (BidTable)",
+   "link": "https://kcmo.bonfirehub.com/opportunities/262165",
+   "fit_score_1_5": 4,
+   "notes": "Крупнейший открытый лот; можно бить отдельные позиции (бисульфит, каустик, PAC). Требуются опыт/персонал/референсы.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Chicago – Department of Water Management",
+   "state": "IL",
+   "region": "Midwest",
+   "bid_number": "Spec 1271795B / RFQ 70287",
+   "title": "Lignite Coal Based Powdered Activated Carbon",
+   "products": [
+    {
+     "item": "PAC lignite, bulk truckload (до 199 т/год)",
+     "qty": 995,
+     "unit": "ton"
+    },
+    {
+     "item": "PAC 199-600 т",
+     "qty": 281,
+     "unit": "ton"
+    },
+    {
+     "item": "PAC >600 т",
+     "qty": 122,
+     "unit": "ton"
+    }
+   ],
+   "estimated_value_usd": 2800000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices; ~1,398 т/год x ~$2,000/т; срок 36 мес. => ~$8M+",
+   "delivery_terms": "Bulk truckload мин. 10 т, на водоочистные станции Чикаго",
+   "term": "36 мес. + опция 24 мес.",
+   "bonds": "см. Commodities form contract",
+   "insurance": "по форме города",
+   "nsf_awwa": "AWWA B600-16; допускается US-made wood-based PAC как альтернатива",
+   "local_preference": "Город Чикаго: нотариальные affidavits, MBE/WBE требования по форме",
+   "due_date": "2026-11-20",
+   "due_time": "11:00",
+   "tz": "CT",
+   "submission": "iSupplier eProcurement City of Chicago (электронно), публичное вскрытие",
+   "link": "https://webapps1.chicago.gov/vcsearch/city/solicitationdetails/-78336eprocurement",
+   "fit_score_1_5": 3,
+   "notes": "Импортный лигнитный PAC сложно; срок через 4 дня.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Toledo DPU – Water Treatment",
+   "state": "OH",
+   "region": "Midwest",
+   "bid_number": "PR 10009003 (PlanetBids 147872)",
+   "title": "3000 Tons (More or Less) of Liquid Carbon Dioxide",
+   "products": [
+    {
+     "item": "Liquid CO2 99.97%, NSF/ANSI 60",
+     "qty": 3000,
+     "unit": "ton/yr"
+    }
+   ],
+   "estimated_value_usd": 900000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices; 3,000 т x $250-390/т; контракт до 3 лет + 2x1",
+   "delivery_terms": "Bulk tanker, 3040 York St Toledo; COA и пломбы на каждой поставке",
+   "term": "до 3 лет + 2 продления по 1 году",
+   "bonds": "Bid guaranty 5% (bond или чек); payment/performance 0%",
+   "insurance": "CGL $1M; prod/compl agg $2M; Auto $1M; Umbrella $5M",
+   "nsf_awwa": "NSF/ANSI 60; AWWA B510-18 affidavit",
+   "local_preference": "Toledo local preference",
+   "due_date": "2026-11-24",
+   "due_time": "13:30",
+   "tz": "EST",
+   "submission": "PlanetBids portal 22576 (e-bid); чек-гарантия почтой в Division of Purchases",
+   "link": "https://pbsystem.planetbids.com/portal/22576/portal-home",
+   "fit_score_1_5": 2,
+   "notes": "CO2 – логистика криогенных танкеров, нужен производитель.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Madison Metropolitan Sewerage District",
+   "state": "WI",
+   "region": "Midwest",
+   "bid_number": "MMSD 2026 Sodium Hydroxide RFB",
+   "title": "Sodium Hydroxide (Caustic Soda) Membrane Grade 50%, Liquid – Bulk",
+   "products": [
+    {
+     "item": "NaOH 50% membrane",
+     "qty": 2000000,
+     "unit": "lb/yr",
+     "deliveries": 36
+    }
+   ],
+   "estimated_value_usd": 500000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices; 2,000,000 lb x $0.20-0.30/lb",
+   "delivery_terms": "All-in цена/фунт, bulk, перекачка в 2 бака 4,000 gal, доставка ≤4 раб. дней",
+   "term": "01.01.2027-31.12.2027 firm",
+   "bonds": "нет",
+   "insurance": "GL $2M, $1M/occ, umbrella $2M, auto $1M, WC",
+   "nsf_awwa": "—",
+   "local_preference": "нет; требуется ≥2 лет опыта поставок + референсы",
+   "due_date": "2026-11-23",
+   "due_time": "11:00",
+   "tz": "CT",
+   "submission": "E-mail rfp@madsewer.org",
+   "link": "https://www.madsewer.org/contracting-center/rfb-sodium-hydroxide-naoh-caustic-soda-membrane-grade-50-liquid-bulk-delivery/",
+   "fit_score_1_5": 4,
+   "notes": "Простая подача по e-mail, одна позиция.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Madison Metropolitan Sewerage District",
+   "state": "WI",
+   "region": "Midwest",
+   "bid_number": "MMSD 2026 Sodium Hypochlorite RFB",
+   "title": "Sodium Hypochlorite 12.5% (Mini-Bulk)",
+   "products": [
+    {
+     "item": "NaOCl 12.5%",
+     "qty": 22400,
+     "unit": "gal",
+     "deliveries": 14
+    }
+   ],
+   "estimated_value_usd": 35000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "Mini-bulk в 2 бака FRP 1000 gal, ≤4 раб. дней",
+   "term": "CY2027 firm",
+   "bonds": "нет",
+   "insurance": "как выше",
+   "nsf_awwa": "—",
+   "local_preference": "опыт ≥2-3 лет",
+   "due_date": "2026-11-23",
+   "due_time": "11:00",
+   "tz": "CT",
+   "submission": "E-mail rfp@madsewer.org",
+   "link": "https://www.madsewer.org/contracting-center/sodium-hypocholorite-12-5-bleach-naoci-mini-bulk",
+   "fit_score_1_5": 2,
+   "notes": "Гипохлорит – региональный продукт (короткий срок годности).",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Duluth (Lakewood WTP)",
+   "state": "MN",
+   "region": "Midwest",
+   "bid_number": "26-AA28",
+   "title": "2027 Water Treatment Chemicals",
+   "products": [
+    {
+     "item": "Liquid aluminum sulfate",
+     "qty": 160000,
+     "unit": "gal"
+    },
+    {
+     "item": "Liquid caustic soda",
+     "qty": 90000,
+     "unit": "gal"
+    },
+    {
+     "item": "Hydrofluorosilicic acid",
+     "qty": 174000,
+     "unit": "lb"
+    },
+    {
+     "item": "Liquid chlorine",
+     "qty": 64,
+     "unit": "ton"
+    },
+    {
+     "item": "Nonionic polymer (Clarifloc N-3300P eq.)",
+     "qty": 3000,
+     "unit": "lb"
+    },
+    {
+     "item": "Liquid ammonium sulfate",
+     "qty": 20000,
+     "unit": "gal"
+    },
+    {
+     "item": "Orthophosphate (Hawkins LPC-DP eq.)",
+     "qty": 18000,
+     "unit": "gal"
+    }
+   ],
+   "estimated_value_usd": 1100000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "FOB destination freight prepaid, 8130 Congdon Blvd; налог не включать",
+   "term": "01.01-31.12.2027 firm",
+   "bonds": "не указаны",
+   "insurance": "требуется (General Bid Specs)",
+   "nsf_awwa": "AWWA + NSF/ANSI 60",
+   "local_preference": "нет",
+   "due_date": "2026-11-24",
+   "due_time": "14:00",
+   "tz": "CT",
+   "submission": "Bid Express (bidexpress.com) или бумага в Purchasing Division",
+   "link": "https://duluthmn.gov/media/qa2nq4m4/26-aa28-bid-package.pdf",
+   "fit_score_1_5": 4,
+   "notes": "Поштучные позиции; квасцы/каустик/ортофосфат.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Warren County Water & Sewer Dept (Board of Commissioners)",
+   "state": "OH",
+   "region": "Midwest",
+   "bid_number": "2027 Water and Sewer Treatment Chemicals Project",
+   "title": "2027 Water & Sewer Treatment Chemicals (two-phase, reverse auction eBridge)",
+   "products": [
+    {
+     "item": "NaOCl 12.5% bulk",
+     "qty": 50000,
+     "unit": "gal"
+    },
+    {
+     "item": "NaOCl 12.5% totes",
+     "qty": null,
+     "unit": "gal"
+    },
+    {
+     "item": "Hydrofluorosilicic acid",
+     "qty": null,
+     "unit": ""
+    },
+    {
+     "item": "Sodium bisulfite bulk/tote",
+     "qty": null,
+     "unit": "gal"
+    },
+    {
+     "item": "Sodium hydroxide",
+     "qty": null,
+     "unit": ""
+    },
+    {
+     "item": "Ferric chloride",
+     "qty": null,
+     "unit": ""
+    }
+   ],
+   "estimated_value_usd": 600000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices (частично известны объёмы)",
+   "delivery_terms": "All-in delivered incl. fuel/freight; мин. 2,000 gal",
+   "term": "01.01-31.12.2027",
+   "bonds": "5% (сертиф. чек в 24ч после award)",
+   "insurance": "по док.",
+   "nsf_awwa": "AWWA",
+   "local_preference": "нет; 3% комиссия eBridge включить в цену",
+   "due_date": "2026-11-24",
+   "due_time": "14:00",
+   "tz": "EST",
+   "submission": "Phase 1 неценовой пакет (prequal) -> 04.12 initial bid -> 07.12 reverse auction",
+   "link": "https://commissioners.warrencountyohio.gov/doc/Bids/2026/01_2027_Water_and_Sewer_Chemicals_Treatment_Project/02_Bid_Document.pdf",
+   "fit_score_1_5": 4,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Oregon, OH – Division of Water Treatment",
+   "state": "OH",
+   "region": "Midwest",
+   "bid_number": "Ordinance 1-2026",
+   "title": "2027 Chemicals / Materials",
+   "products": [
+    {
+     "item": "Pebble lime",
+     "qty": 1800,
+     "unit": "ton"
+    },
+    {
+     "item": "Liquid aluminum sulfate",
+     "qty": 800,
+     "unit": "ton"
+    },
+    {
+     "item": "Potassium permanganate",
+     "qty": 12,
+     "unit": "ton"
+    },
+    {
+     "item": "Caustic soda",
+     "qty": 120,
+     "unit": "ton"
+    },
+    {
+     "item": "Chlorine",
+     "qty": 36,
+     "unit": "ton"
+    }
+   ],
+   "estimated_value_usd": 1500000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "по форме предложения",
+   "term": "CY2027",
+   "bonds": "Bid bond/чек $500",
+   "insurance": "по док.",
+   "nsf_awwa": "по спецификации",
+   "local_preference": "нет",
+   "due_date": "2026-12-01",
+   "due_time": "11:00",
+   "tz": "EST",
+   "submission": "Запечатанные бумажные (5330 Seaman Rd, Oregon OH)",
+   "link": "https://oregonohio.org/wp-content/uploads/2026/11/noticetobidders27WTPchemicals.pdf",
+   "fit_score_1_5": 4,
+   "notes": "Низкий bid bond; бумажная подача. Квасцы 800 т, известь 1,800 т.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Euclid (Lakeshore & Lakeland plants)",
+   "state": "OH",
+   "region": "Midwest",
+   "bid_number": "Ord. #99-2026 (HigherGov 9472e)",
+   "title": "2027 Wastewater Treatment Chemicals",
+   "products": [
+    {
+     "item": "Aluminum sulfate"
+    },
+    {
+     "item": "Citric acid"
+    },
+    {
+     "item": "Sodium hypochlorite"
+    },
+    {
+     "item": "Liquid organic polyelectrolytes (polymers)"
+    }
+   ],
+   "estimated_value_usd": 285000,
+   "value_basis": "HigherGov estimate $120k-450k",
+   "delivery_terms": "по спецификации (запрос jciomek@cityofeuclid.gov)",
+   "term": "CY2027",
+   "bonds": "5% bid bond/чек",
+   "insurance": "—",
+   "nsf_awwa": "—",
+   "local_preference": "нет",
+   "due_date": "2026-11-23",
+   "due_time": "14:00",
+   "tz": "EST",
+   "submission": "Бумага, отдельный конверт на каждый химикат, 25200 Lakeland Blvd",
+   "link": "https://www.highergov.com/sl/contract-opportunity/oh-2027-wastewater-treatment-chemicals-76707644/",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Avon Lake Regional Water",
+   "state": "OH",
+   "region": "Midwest",
+   "bid_number": "WS-WW-2026-07",
+   "title": "2027 Annual Chemicals – Ferrous Chloride & Hydrofluorosilicic Acid REBID",
+   "products": [
+    {
+     "item": "Ferrous chloride",
+     "qty": 15,
+     "unit": "ton"
+    },
+    {
+     "item": "Hydrofluorosilicic acid (12/6/3 мес.)",
+     "qty": 135,
+     "unit": "ton"
+    }
+   ],
+   "estimated_value_usd": 130000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "FOB destination WRF 33675 Durrell Ave",
+   "term": "CY2027 (HFS – варианты 12/6/3 мес.)",
+   "bonds": "Bid bond 10%; performance bond 100%",
+   "insurance": "liability",
+   "nsf_awwa": "ANSI/AWWA, NSF 60, Ohio EPA",
+   "local_preference": "Ohio prevailing wage",
+   "due_date": "2026-11-25",
+   "due_time": "12:00",
+   "tz": "EST",
+   "submission": "Только bidexpress.com",
+   "link": "https://bidscopeai.com/opportunities/439dd48a-4ca4-4962-a57e-48249cac995b",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Akron Purchasing",
+   "state": "OH",
+   "region": "Midwest",
+   "bid_number": "HA/27",
+   "title": "Hydrofluorosilicic Acid – Rebid",
+   "products": [
+    {
+     "item": "Hydrofluorosilicic acid",
+     "qty": null,
+     "unit": "",
+     "note": "3/6/9/12 мес. варианты"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": "объём в Specifications HA 27 (Bonfire, требуется логин)",
+   "delivery_terms": "фикс. цена; 30-дн. отмена городом",
+   "term": "с 01.01.2027 на 3/6/9/12 мес. + аналог. продление",
+   "bonds": "см. T&C",
+   "insurance": "см. T&C",
+   "nsf_awwa": "AWWA B703/NSF 60",
+   "local_preference": "нет",
+   "due_date": "2026-11-23",
+   "due_time": "16:30",
+   "tz": "EST",
+   "submission": "Bonfire BidTable",
+   "link": "https://akronohio.bonfirehub.com/opportunities/261487",
+   "fit_score_1_5": 3,
+   "notes": "Рынок HFS дефицитен (Lorain/Fremont: поставка не гарантирована) – шанс для импорта.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Wooster WTP",
+   "state": "OH",
+   "region": "Midwest",
+   "bid_number": "2027 chemical bids (4 лота)",
+   "title": "Liquid CO2 / Pebble Lime / Polyphosphate / Sodium Hypochlorite 2027",
+   "products": [
+    {
+     "item": "Liquid CO2",
+     "qty": 383250,
+     "unit": "lb"
+    },
+    {
+     "item": "Pebble lime"
+    },
+    {
+     "item": "Polyphosphate"
+    },
+    {
+     "item": "Sodium hypochlorite"
+    }
+   ],
+   "estimated_value_usd": 350000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "Full tanker loads, 1020 Old Columbus Rd",
+   "term": "CY2027",
+   "bonds": "10% bid bond/чек",
+   "insurance": "—",
+   "nsf_awwa": "NSF 60",
+   "local_preference": "нет",
+   "due_date": "2026-11-23",
+   "due_time": "12:00",
+   "tz": "EST",
+   "submission": "Бумага, 538 N Market St; OpenGov plan-holder registration",
+   "link": "https://www.woosteroh.com/departments/engineering/bids.php",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Hardin County Water District No. 1",
+   "state": "KY",
+   "region": "Midwest",
+   "bid_number": "2027 Water/Wastewater Treatment Chemicals Bid",
+   "title": "2027 Water/Wastewater Treatment Chemicals",
+   "products": [
+    {
+     "item": "Chlorine 1-ton"
+    },
+    {
+     "item": "Liquid ammonium sulfate"
+    },
+    {
+     "item": "Potassium permanganate"
+    },
+    {
+     "item": "PAC"
+    },
+    {
+     "item": "Hydrated lime"
+    },
+    {
+     "item": "CO2"
+    },
+    {
+     "item": "Peracetic acid"
+    },
+    {
+     "item": "Clarifloc"
+    },
+    {
+     "item": "Ferric sulfate"
+    },
+    {
+     "item": "Sodium hypochlorite"
+    },
+    {
+     "item": "Sodium bisulfite"
+    },
+    {
+     "item": "Sodium thiosulfate"
+    },
+    {
+     "item": "Mg(OH)2 slurry"
+    },
+    {
+     "item": "Caustic soda"
+    },
+    {
+     "item": "Ultrion"
+    },
+    {
+     "item": "HFS"
+    }
+   ],
+   "estimated_value_usd": 400000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "FOB destination, 5 станций, lift gate",
+   "term": "CY2027 firm",
+   "bonds": "нет",
+   "insurance": "—",
+   "nsf_awwa": "AWWA/NSF 60",
+   "local_preference": "нет (MBE/WBE приглашаются)",
+   "due_date": "2026-11-25",
+   "due_time": "14:00",
+   "tz": "CST/EST (Radcliff KY – Eastern)",
+   "submission": "E-mail cgohman@hcwd.com или почта",
+   "link": "https://hcwd.com/wp-content/uploads/Chem-Bid_Form_2027.pdf",
+   "fit_score_1_5": 4,
+   "notes": "Подача по e-mail – удобно для удалённого трейдера.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Independence, KS – WTP",
+   "state": "KS",
+   "region": "Midwest",
+   "bid_number": "bidID 282",
+   "title": "2027 Water Treatment Plant Chemical Bids",
+   "products": [
+    {
+     "item": "WTP chemicals (по позициям, раздельная награда)"
+    }
+   ],
+   "estimated_value_usd": 150000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "Водитель сам разгружает; офсетный док",
+   "term": "CY2027",
+   "bonds": "—",
+   "insurance": "—",
+   "nsf_awwa": "—",
+   "local_preference": "нет",
+   "due_date": "2026-12-03",
+   "due_time": "14:00",
+   "tz": "CST",
+   "submission": "Бумага, City Clerk 120 N 6th St",
+   "link": "https://www.independenceks.gov/Bids.aspx?bidID=282",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Independence, KS / Recreation Commission",
+   "state": "KS",
+   "region": "Midwest",
+   "bid_number": "bidID 281",
+   "title": "2027 Pool Chemical Bids",
+   "products": [
+    {
+     "item": "Pool chemicals (по позициям)"
+    }
+   ],
+   "estimated_value_usd": 30000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "—",
+   "term": "CY2027",
+   "bonds": "—",
+   "insurance": "—",
+   "nsf_awwa": "—",
+   "local_preference": "нет; e-mail/fax не принимаются",
+   "due_date": "2026-12-03",
+   "due_time": "14:00",
+   "tz": "CST",
+   "submission": "Бумага",
+   "link": "https://www.independenceks.gov/bids.aspx?bidID=281",
+   "fit_score_1_5": 2,
+   "notes": null,
+   "status": "open",
+   "category": "pool_chemicals"
+  },
+  {
+   "entity": "City of Madison – Water Utility",
+   "state": "WI",
+   "region": "Midwest",
+   "bid_number": "RFB 5523-0-2026",
+   "title": "Water Treatment Chemicals",
+   "products": [
+    {
+     "item": "Treatment chemicals (NIGP: pH control, corrosion inhibitors, salt, etc.)"
+    }
+   ],
+   "estimated_value_usd": 500000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "см. 5523 Bid Document",
+   "term": "—",
+   "bonds": "Bid bond: None (DemandStar)",
+   "insurance": "—",
+   "nsf_awwa": "—",
+   "local_preference": "—",
+   "due_date": "2026-12-04",
+   "due_time": "14:00",
+   "tz": "CT",
+   "submission": "VendorNet / DemandStar (документы бесплатно)",
+   "link": "https://vendornet.wi.gov/Bid/View/7e1bc931-c0f3-4c04-97a6-2ee49802c576",
+   "fit_score_1_5": 4,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Springfield, MO",
+   "state": "MO",
+   "region": "Midwest",
+   "bid_number": "—",
+   "title": "Liquid Aluminum Sulfate",
+   "products": [
+    {
+     "item": "Liquid alum"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-11-30",
+   "due_time": null,
+   "tz": "CT",
+   "submission": "см. портал города",
+   "link": "https://govdirections.com/rfp/springfield-missouri-liquid-aluminum-sulfate-1067795334",
+   "fit_score_1_5": 3,
+   "notes": "Детали не проверены (rate limit)",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Highlands Ranch Water and Sanitation District",
+   "state": "CO",
+   "region": "West",
+   "bid_number": "046-26CS / DC 3748",
+   "title": "Chemicals for the Water and Wastewater Treatment Plants",
+   "products": [
+    {
+     "item": "Liquid ferric sulfate 60%",
+     "qty": 3675000,
+     "unit": "lb/yr"
+    },
+    {
+     "item": "Sodium hydroxide 25%",
+     "qty": 2416000,
+     "unit": "lb/yr"
+    }
+   ],
+   "estimated_value_usd": 1000000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices; 3 года => ~$3M",
+   "delivery_terms": "FOB plants, сезонные объёмы",
+   "term": "3 года + 1 продление",
+   "bonds": "—",
+   "insurance": "требуется",
+   "nsf_awwa": "лаб. и compliance документация, производитель",
+   "local_preference": "нет; ≥3 референса за 3 года",
+   "due_date": "2026-11-26",
+   "due_time": "10:00",
+   "tz": "MT",
+   "submission": "BidNet Direct (Rocky Mountain E-Purchasing) или бумага 62 Plaza Dr",
+   "link": "https://www.bidnetdirect.com/colorado/solicitations/open-bids/Chemicals-for-the-Water-and-Wastewater-Treatment-Plants-in-Highlands-Ranch-Co/0000439084",
+   "fit_score_1_5": 4,
+   "notes": "Дедлайн в День благодарения – подавать заранее.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Craig, CO",
+   "state": "CO",
+   "region": "West",
+   "bid_number": "IFB 2027 Water and Wastewater Chemicals",
+   "title": "2027 Water and Wastewater Chemicals",
+   "products": [
+    {
+     "item": "Liquid PACl bulk"
+    },
+    {
+     "item": "Salt NaCl"
+    },
+    {
+     "item": "Soda ash"
+    },
+    {
+     "item": "Chlorine 1-ton"
+    },
+    {
+     "item": "SO2 1-ton"
+    },
+    {
+     "item": "Potassium permanganate"
+    },
+    {
+     "item": "Sodium fluorosilicate"
+    },
+    {
+     "item": "PAC carbon"
+    },
+    {
+     "item": "Coagulant aid polymer"
+    },
+    {
+     "item": "Filter aid polymer"
+    },
+    {
+     "item": "Calcium hypochlorite 65% (1,000 lb)"
+    },
+    {
+     "item": "Sodium hypochlorite bulk/drum"
+    },
+    {
+     "item": "Ammonium sulfate 40%"
+    }
+   ],
+   "estimated_value_usd": 150000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "Delivered Craig WTP/WWTP, incl. shipping & fuel",
+   "term": "CY2027, award по позициям",
+   "bonds": "—",
+   "insurance": "—",
+   "nsf_awwa": "по спецификации",
+   "local_preference": "tax-exempt; нет",
+   "due_date": "2026-12-15",
+   "due_time": "10:00",
+   "tz": "MT",
+   "submission": "BidNet Direct / e-mail cityclerk@cityofcraig.org / почта",
+   "link": "https://cms3.revize.com/revize/craigco/2027%20Complete%20Chemical%20Bid%20Packet.pdf?t=202610231518440",
+   "fit_score_1_5": 4,
+   "notes": "E-mail подача; включает соль, соду, гипохлорит кальция.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Town of Johnstown, CO",
+   "state": "CO",
+   "region": "West",
+   "bid_number": null,
+   "title": "Water Treatment Chemicals Supply",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-11-30",
+   "due_time": null,
+   "tz": "MT",
+   "submission": null,
+   "link": "https://govdirections.com/rfp/johnstown-colorado-water-treatment-chemicals-supply-1067831920",
+   "fit_score_1_5": 3,
+   "notes": "Детали не проверены",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Colorado entity (BidNet RMEPS, locked)",
+   "state": "CO",
+   "region": "West",
+   "bid_number": "2026-0000441953",
+   "title": "2027 Water and Wastewater Treatment Chemicals RFQ",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-11-20",
+   "due_time": "14:00",
+   "tz": "MST",
+   "submission": "BidNet Direct",
+   "link": "https://www.bidnetdirect.com/colorado/solicitations/open-bids/2027-Water-and-Wastewater-Treatment-Chemicals-RFQ/0000441953?origin=2&purchasingGroupId=8409951",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Truckee Donner Public Utility District",
+   "state": "CA",
+   "region": "West",
+   "bid_number": "Sod HypChl 27",
+   "title": "Sodium Hypochlorite Material Purchase 2027",
+   "products": [
+    {
+     "item": "Sodium hypochlorite"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": "CA требует NSF/ANSI 60 (UL/NSF) для прямых добавок",
+   "local_preference": null,
+   "due_date": "2026-12-03",
+   "due_time": "15:30",
+   "tz": "PT",
+   "submission": "Запечатанные бумажные, 11570 Donner Pass Rd",
+   "link": "https://www.tdpud.org/sodium-hypochlorite-purchase-2027-bb0ccb3b-8b84-4698-b827-d62bb195a578",
+   "fit_score_1_5": 2,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Valley Sanitary District (Indio)",
+   "state": "CA",
+   "region": "West",
+   "bid_number": "2026-RFP-006",
+   "title": "Supply and Delivery of Bulk Chemicals",
+   "products": [
+    {
+     "item": "Sodium bisulfite 25%"
+    },
+    {
+     "item": "Sodium hypochlorite 12.5%"
+    },
+    {
+     "item": "Ferric chloride 37-42%"
+    }
+   ],
+   "estimated_value_usd": 400000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "FOB, весы VSD; COA и SDS с предложением",
+   "term": "—",
+   "bonds": "—",
+   "insurance": "Professional Services Agreement",
+   "nsf_awwa": "—",
+   "local_preference": null,
+   "due_date": "2026-11-20",
+   "due_time": "16:00",
+   "tz": "PST",
+   "submission": "OpenGov portal (бесплатный аккаунт)",
+   "link": "https://procurement.opengov.com/portal/valley-sanitary/projects/320465",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Kalama",
+   "state": "WA",
+   "region": "West",
+   "bid_number": null,
+   "title": "2027 Chemical Procurement",
+   "products": [
+    {
+     "item": "Diatomaceous earth FW50",
+     "qty": 85000,
+     "unit": "lb"
+    },
+    {
+     "item": "NaOCl 12.5%",
+     "qty": 6000,
+     "unit": "gal"
+    },
+    {
+     "item": "NaOH 25%",
+     "qty": 21000,
+     "unit": "gal"
+    },
+    {
+     "item": "Sodium fluoride",
+     "qty": 5000,
+     "unit": "lb"
+    },
+    {
+     "item": "Calcium nitrate (Bioxide)",
+     "qty": 2500,
+     "unit": "gal"
+    }
+   ],
+   "estimated_value_usd": 150000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "поставщик держит ≥20 super sacks DE на складе",
+   "term": "CY2027, award по позициям",
+   "bonds": "—",
+   "insurance": "—",
+   "nsf_awwa": "—",
+   "local_preference": "WA sales tax на DE",
+   "due_date": "2026-11-20",
+   "due_time": "10:00",
+   "tz": "PT",
+   "submission": "Бумага, 195 N First St",
+   "link": "https://www.cityofkalama.com/article/3217523",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Spokane – Waste To Energy Facility",
+   "state": "WA",
+   "region": "West",
+   "bid_number": "IRFP 6635-26",
+   "title": "Chemical Management Program and Treatment Chemicals (boiler/cooling)",
+   "products": [
+    {
+     "item": "Boiler internal treatment, O2 scavenger, corrosion inhibitors, CCW, lab reagents, tanks/pumps"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": "2 года (04.2027-03.2029) + 3x1",
+   "bonds": null,
+   "insurance": "GL $1M/$2M",
+   "nsf_awwa": null,
+   "local_preference": "Лицензия WA; ≥5 лет опыта котлов >900 psig",
+   "due_date": "2026-12-21",
+   "due_time": "09:00",
+   "tz": "PST",
+   "submission": "spokane.procureware.com",
+   "link": "http://bids.findrfp.com/xDocs/7a5fa67eff094be0929946dec316dac0_IRFP_6635-26_Proposal_Document_[12_pages].pdf",
+   "fit_score_1_5": 1,
+   "notes": "Обязательная конференция 16.11.2026 – вероятно пропущена; сервисный контракт – не подходит.",
+   "status": "open",
+   "category": "boiler_cooling"
+  },
+  {
+   "entity": "Town of Greenburgh Water Dept",
+   "state": "NY",
+   "region": "Northeast",
+   "bid_number": "NYSCR 2140772",
+   "title": "2027 Annual Bid for Water Treatment Chemicals",
+   "products": [
+    {
+     "item": "Liquid zinc orthophosphate (US-made, NSF 60, AWWA B506)"
+    },
+    {
+     "item": "Sodium hydroxide"
+    },
+    {
+     "item": "Sodium hypochlorite ~12%"
+    },
+    {
+     "item": "Calcium hypochlorite briquettes 50 lb (EPA Reg 1258-1179), мин. 1,200 lb/поставка"
+    }
+   ],
+   "estimated_value_usd": 150000,
+   "value_basis": "BidsNexus estimate",
+   "delivery_terms": "FOB destination, 2 площадки White Plains",
+   "term": "CY2027",
+   "bonds": "—",
+   "insurance": "—",
+   "nsf_awwa": "AWWA/NSF 60",
+   "local_preference": "Non-collusion §103-D; ортофосфат только USA-made",
+   "due_date": "2026-12-01",
+   "due_time": "14:00",
+   "tz": "ET",
+   "submission": "Запечатанный конверт Town Clerk, 177 Hillside Ave",
+   "link": "https://greenburghny.com/DocumentCenter/View/17190/ANNUAL-BID-FOR-WATER-TREATMENT-CHEMICALS-GREENBURGH-WATER-DEPARTMENT---2027?bidId=",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Hudson DPW",
+   "state": "NY",
+   "region": "Northeast",
+   "bid_number": "2026-007",
+   "title": "Water & Sewage Treatment Chemicals 2027",
+   "products": [
+    {
+     "item": "Polymer Superfloc 423",
+     "qty": "12-18",
+     "unit": "drums"
+    },
+    {
+     "item": "Carusol 20 liquid permanganate",
+     "qty": "60-70",
+     "unit": "drums"
+    },
+    {
+     "item": "Copper sulfate",
+     "qty": "1-2",
+     "unit": "ton"
+    },
+    {
+     "item": "Virchem 970 corrosion inhibitor",
+     "qty": "8-10",
+     "unit": "drums"
+    },
+    {
+     "item": "NaOH 25%",
+     "qty": 9000,
+     "unit": "gal"
+    },
+    {
+     "item": "NaOCl",
+     "qty": "22,000-32,000",
+     "unit": "gal"
+    },
+    {
+     "item": "PACl high basic",
+     "qty": 15500,
+     "unit": "gal"
+    },
+    {
+     "item": "Superfloc N-1986",
+     "qty": "8-10",
+     "unit": "drums"
+    }
+   ],
+   "estimated_value_usd": 150000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "Доставка в 48 ч, box truck с lift gate",
+   "term": "CY2027",
+   "bonds": "—",
+   "insurance": "—",
+   "nsf_awwa": "—",
+   "local_preference": "нет",
+   "due_date": "2026-12-10",
+   "due_time": "14:00",
+   "tz": "EST",
+   "submission": "Бумага, 520 Warren St",
+   "link": "https://bidscopeai.com/opportunities/d0cd3e5c-2dd2-4f28-b02f-e6a9dea2fa7a",
+   "fit_score_1_5": 2,
+   "notes": "48-ч доставка – нужен местный склад/дистрибьютор.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Saratoga County Dept of Central Services",
+   "state": "NY",
+   "region": "Northeast",
+   "bid_number": "27-SDPP-1",
+   "title": "Potassium Permanganate",
+   "products": [
+    {
+     "item": "Potassium permanganate"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": "1 год + 1 опция",
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-02",
+   "due_time": "11:00",
+   "tz": "EST",
+   "submission": "Лично или Empire State Purchasing Group (empirestatebidsystem.com)",
+   "link": "https://bidscopeai.com/opportunities/565fd3e1-8434-41ce-859e-07387232de0b",
+   "fit_score_1_5": 4,
+   "notes": "Перманганат – хороший импортный продукт (Китай/Индия), фасовка в бочки.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Town of Narragansett (Scarborough WWTF)",
+   "state": "RI",
+   "region": "Northeast",
+   "bid_number": "B27005",
+   "title": "Purchase of Wastewater Chemicals (2)",
+   "products": [
+    {
+     "item": "Sodium bisulfite 38%",
+     "qty": "6,000-10,000",
+     "unit": "gal"
+    },
+    {
+     "item": "Sodium hypochlorite 12-15%",
+     "qty": "10,000-18,000",
+     "unit": "gal"
+    }
+   ],
+   "estimated_value_usd": 50000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "FOB Narragansett, ≤7 дней, без доплат",
+   "term": "10.01.2027-09.01.2028",
+   "bonds": "—",
+   "insurance": "—",
+   "nsf_awwa": "—",
+   "local_preference": "нет",
+   "due_date": "2026-12-01",
+   "due_time": "11:00",
+   "tz": "EST",
+   "submission": "Бумага в 2 экз.",
+   "link": "https://narragansettri.gov/DocumentCenter/View/20963/B27005-Purchase-of-Wastewater-Chemicals-2?bidId=",
+   "fit_score_1_5": 2,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Borough of Westville Water & Sewer",
+   "state": "NJ",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "PPG AccuTab SI Calcium Hypochlorite Tablets (or equivalent) CY2027",
+   "products": [
+    {
+     "item": "Cal-hypo tablets 3\" ~60 lb pails",
+     "qty": 335,
+     "unit": "pails (~20,000 lb)"
+    }
+   ],
+   "estimated_value_usd": 60000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "24-48 pails/поставка, lift gate, аварийно 24 ч",
+   "term": "CY2027",
+   "bonds": "—",
+   "insurance": "COI, Borough как additional insured",
+   "nsf_awwa": "AWWA B300",
+   "local_preference": "NJ Business Registration Certificate, P.L.1975 c.127, Chapter 271, Iran/Russia disclosures",
+   "due_date": "2026-12-03",
+   "due_time": "09:00",
+   "tz": "EST",
+   "submission": "Бумага, 165 Broadway Westville",
+   "link": "https://westville-nj.com/wp-content/uploads/2026/10/Specifications-for-PPG-Accutab-SI-Calcium-Hypochlorite-Tablets-or-Equivalent-for-CY-2027.pdf",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "calcium_hypochlorite"
+  },
+  {
+   "entity": "Borough of Beachwood Water Dept",
+   "state": "NJ",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "2027 Chlorine and Lime Bulk Delivery Services",
+   "products": [
+    {
+     "item": "Chlorine"
+    },
+    {
+     "item": "Hydrated lime 50 lb bags",
+     "qty": 1500,
+     "unit": "bags (75,000 lb)"
+    }
+   ],
+   "estimated_value_usd": 40000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "150 мешков/поставка, 3 раб. дня",
+   "term": "CY2027",
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": "NJ c.127, c.33, c.57 business registration",
+   "due_date": "2026-12-04",
+   "due_time": "10:00",
+   "tz": "EST",
+   "submission": "Бумага, Borough Clerk",
+   "link": "https://www.beachwoodusa.com/DocumentCenter/View/1235/2027-BID-PACKAGE-CHLORINE-AND-LIME-BULK-DELIVERY-PDF-11326",
+   "fit_score_1_5": 2,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Manasquan River Regional Sewerage Authority",
+   "state": "NJ",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "Calcium Nitrate Based Odor and Corrosion Control Program",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-02",
+   "due_time": null,
+   "tz": "EST",
+   "submission": null,
+   "link": "https://govdirections.com/rfp/manasquan-river-regional-sewerage-new-jersey-furnishing-delivery-and-administration-of-a-calcium-nitrate-based-odor-and-corrosion-control-program-1067826512",
+   "fit_score_1_5": 2,
+   "notes": "Программа с администрированием",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Upper Merion Township (Trout Run & Matsunk WPCC)",
+   "state": "PA",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "2027-2029 Liquid Sodium Hypochlorite & Liquid Sodium Bisulfite Supply Contract",
+   "products": [
+    {
+     "item": "NaOCl 15-16.5 trade %",
+     "qty": 75000,
+     "unit": "gal/yr"
+    },
+    {
+     "item": "Sodium bisulfite",
+     "qty": 7500,
+     "unit": "gal/yr"
+    }
+   ],
+   "estimated_value_usd": 405000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices; 3 года",
+   "delivery_terms": "Bulk tank truck, 1,000-3,000 gal; гипохлорит ≤72 ч от производства",
+   "term": "2027-2029 + 2 опц. года",
+   "bonds": "10% bid bond + consent of surety; performance bond 100% годовой стоимости",
+   "insurance": "по контракту",
+   "nsf_awwa": "AWWA B300",
+   "local_preference": "нет",
+   "due_date": "2026-12-04",
+   "due_time": "11:00",
+   "tz": "EST",
+   "submission": "PennBid (Bonfire)",
+   "link": "https://pennbid.bonfirehub.com/opportunities/262558",
+   "fit_score_1_5": 2,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "DELCORA (Delaware County Regional WQCA)",
+   "state": "PA",
+   "region": "Northeast",
+   "bid_number": "P2026-06",
+   "title": "Liquid Chlorine in One-Ton Cylinders",
+   "products": [
+    {
+     "item": "Chlorine 1-ton cylinders",
+     "qty": 400,
+     "unit": "cyl (16 мес.)"
+    }
+   ],
+   "estimated_value_usd": 760000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "FOB WRTP Chester, freight prepaid, 24/7",
+   "term": "01.01.2027-30.04.2028",
+   "bonds": "bid bond",
+   "insurance": "после award",
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-08",
+   "due_time": "10:00",
+   "tz": "EST",
+   "submission": "PennBid",
+   "link": "https://pennbid.bonfirehub.com/opportunities/261542",
+   "fit_score_1_5": 1,
+   "notes": "Обязательный pre-bid 12.11.2026 уже прошёл – участие невозможно.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "DELCORA",
+   "state": "PA",
+   "region": "Northeast",
+   "bid_number": "P2026-07",
+   "title": "Liquid Caustic Soda 50%",
+   "products": [
+    {
+     "item": "NaOH 50%",
+     "qty": 40000,
+     "unit": "gal"
+    }
+   ],
+   "estimated_value_usd": 140000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "FOB Chester, 2 раб. дня",
+   "term": "CY2027",
+   "bonds": "bid security 10%; performance/payment после award",
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-08",
+   "due_time": "10:30",
+   "tz": "EST",
+   "submission": "PennBid",
+   "link": "https://www.delcora.org/procurement/",
+   "fit_score_1_5": 1,
+   "notes": "Обязательный pre-bid 12.11 прошёл.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "DELCORA",
+   "state": "PA",
+   "region": "Northeast",
+   "bid_number": "P2026-08",
+   "title": "Phosphoric Acid 75%",
+   "products": [
+    {
+     "item": "H3PO4 75%",
+     "qty": 40000,
+     "unit": "gal"
+    }
+   ],
+   "estimated_value_usd": 300000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "полные танкеры ≤5,000 gal, ≤5 дней",
+   "term": "CY2027",
+   "bonds": "bid security 10%",
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-08",
+   "due_time": "11:00",
+   "tz": "EST",
+   "submission": "PennBid",
+   "link": "https://pennbid.bonfirehub.com/opportunities/261615",
+   "fit_score_1_5": 1,
+   "notes": "Обязательный pre-bid 12.11 прошёл.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Red Lion Municipal Authority",
+   "state": "PA",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "2027 Chemical Bids",
+   "products": [
+    {
+     "item": "Caustic soda 25%",
+     "qty": 100,
+     "unit": "ton wet"
+    },
+    {
+     "item": "Liquid alum",
+     "qty": 110,
+     "unit": "ton"
+    },
+    {
+     "item": "KMnO4",
+     "qty": 2,
+     "unit": "ton"
+    },
+    {
+     "item": "Copper sulfate",
+     "qty": 1,
+     "unit": "ton"
+    },
+    {
+     "item": "Activated carbon Aqua Nuchar",
+     "qty": 1,
+     "unit": "ton"
+    },
+    {
+     "item": "NaOCl 12.5%",
+     "qty": 95,
+     "unit": "ton"
+    },
+    {
+     "item": "Sodium bisulfite 38%",
+     "qty": 2,
+     "unit": "ton"
+    },
+    {
+     "item": "HFS 23%",
+     "qty": 12,
+     "unit": "ton"
+    },
+    {
+     "item": "Zinc orthophosphate",
+     "qty": 9,
+     "unit": "ton"
+    },
+    {
+     "item": "Emulsion PAM Superfloc N-1986",
+     "qty": 4,
+     "unit": "ton"
+    }
+   ],
+   "estimated_value_usd": 150000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": "FOB Cabin Creek, ≤7 дней, без fuel surcharge",
+   "term": "CY2027 firm",
+   "bonds": "Bid bond",
+   "insurance": null,
+   "nsf_awwa": "AWWA",
+   "local_preference": null,
+   "due_date": "2026-12-10",
+   "due_time": "10:00",
+   "tz": "EST",
+   "submission": "PennBid",
+   "link": "https://proposalworkspace.com/state-opportunities/pennsylvania-2027-chemical-bids-0dffe5af-391f-4589-8c5f-1f28423f3906",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Mahanoy Township Authority",
+   "state": "PA",
+   "region": "Northeast",
+   "bid_number": "0326-609033.01",
+   "title": "MTA – 2027 Water Treatment Plant Chemicals",
+   "products": [
+    {
+     "item": "Chlorine 150 lb",
+     "qty": 4000,
+     "unit": "lb"
+    },
+    {
+     "item": "Hydrated lime",
+     "qty": 12000,
+     "unit": "lb"
+    },
+    {
+     "item": "Alum liquid",
+     "qty": 15000,
+     "unit": "lb"
+    },
+    {
+     "item": "NaOH 25%",
+     "qty": 5000,
+     "unit": "lb"
+    },
+    {
+     "item": "Zinc orthophosphate",
+     "qty": 8000,
+     "unit": "lb"
+    }
+   ],
+   "estimated_value_usd": 20000,
+   "value_basis": "Оценка ISP (не из документации): объём x медианная цена из past_award_prices",
+   "delivery_terms": null,
+   "term": "CY2027",
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-16",
+   "due_time": "16:00",
+   "tz": "EST",
+   "submission": "PennBid",
+   "link": "https://pennbid.bonfirehub.com/opportunities/255732",
+   "fit_score_1_5": 2,
+   "notes": "В документах есть прошлогодний bid tab (Bonfire, логин).",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "City of Lynchburg Water Resources",
+   "state": "VA",
+   "region": "Northeast/Mid-Atlantic",
+   "bid_number": "2027-031",
+   "title": "Water Resources Chemicals",
+   "products": [
+    {
+     "item": "Liquid aluminum sulfate",
+     "qty": 400,
+     "unit": "dry ton (пред. тендер)"
+    },
+    {
+     "item": "Manic polymer",
+     "qty": 50000,
+     "unit": "lb"
+    },
+    {
+     "item": "Emulsion polymer",
+     "qty": 225000,
+     "unit": "lb"
+    },
+    {
+     "item": "Quicklime pellets",
+     "qty": 1500,
+     "unit": "dry ton"
+    },
+    {
+     "item": "Sodium hypochlorite",
+     "qty": 4170000,
+     "unit": "lb sol."
+    },
+    {
+     "item": "Caustic soda 50%",
+     "qty": 305000,
+     "unit": "lb sol."
+    }
+   ],
+   "estimated_value_usd": 1900000,
+   "value_basis": "объёмы из пред. тендера 2022-015 x цены 2026",
+   "delivery_terms": "Delivered, оборудование разгрузки поставщика",
+   "term": "1 год с 01.01.2027 + 4x1",
+   "bonds": null,
+   "insurance": "требуется",
+   "nsf_awwa": "ANSI/AWWA + NSF/ANSI 60; SDS по каждому",
+   "local_preference": "eVA/VA; нет",
+   "due_date": "2026-12-02",
+   "due_time": "15:00",
+   "tz": "EST",
+   "submission": "Онлайн (lynchburgva.gov/Bids) или почта, City Hall 900 Church St",
+   "link": "https://www.lynchburgva.gov/DocumentCenter/View/8149/2027-031-WATER-RESOURCES-CHEMICALS-ADDENDUM-1?bidId=",
+   "fit_score_1_5": 4,
+   "notes": "Addendum 1 содержит прошлые bid tabs.",
+   "status": "open",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Arlington County",
+   "state": "VA",
+   "region": "Northeast/Mid-Atlantic",
+   "bid_number": null,
+   "title": "Pool Chemical Supply and Maintenance Services",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-11-20",
+   "due_time": null,
+   "tz": "EST",
+   "submission": null,
+   "link": "https://govdirections.com/rfp/arlington-county-virginia-pool-chemical-supply-and-maintenance-services-1067798742",
+   "fit_score_1_5": 1,
+   "notes": "Включает обслуживание",
+   "status": "open",
+   "category": "pool_chemicals"
+  },
+  {
+   "entity": "City of Cleveland",
+   "state": "OH",
+   "region": "Midwest",
+   "bid_number": null,
+   "title": "Bulk CO2 Equipment, Supply and Delivery for Commercial Swimming Pools",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-02",
+   "due_time": null,
+   "tz": "EST",
+   "submission": null,
+   "link": "https://govdirections.com/rfp/cleveland-ohio-bulk-carbon-dioxide-co2-equipment-supply-and-delivery-for-commercial-swimming-pools-1067756486",
+   "fit_score_1_5": 1,
+   "notes": null,
+   "status": "open",
+   "category": "pool_chemicals"
+  },
+  {
+   "entity": "Commonwealth of Kentucky (Finance/KYTC)",
+   "state": "KY",
+   "region": "Midwest",
+   "bid_number": "RFB 758 2700000206",
+   "title": "Sodium Chloride Type 1 Grade 1 Road Salt",
+   "products": [
+    {
+     "item": "Road salt ASTM D632 Type I Grade 1"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": "статевая закупка KYTC, вероятно десятки тыс. т",
+   "delivery_terms": "поставка на склады KYTC",
+   "term": "—",
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": "Notarized Annual Affidavit (KRS 45A.110/115)",
+   "due_date": "2026-11-25",
+   "due_time": "15:30 (по GovTribe 18:30 EST — уточнить)",
+   "tz": "ET",
+   "submission": "eMARS Kentucky",
+   "link": "https://govtribe.com/opportunity/state-local-contract-opportunity/sodium-chloride-type-1-grade-1-road-salt-rfb75827000002061",
+   "fit_score_1_5": 4,
+   "notes": "Крупнейший соляной лот региона; нужен импорт (Чили/Египет/Мексика) через порт + склады.",
+   "status": "open",
+   "category": "road_salt"
+  },
+  {
+   "entity": "State of Illinois CMS (for IDOT)",
+   "state": "IL",
+   "region": "Midwest",
+   "bid_number": "27-416CMS-BOSS4-B-53801",
+   "title": "EMERGENCY: JPMC Rock Salt IDOT Emergency",
+   "products": [
+    {
+     "item": "Bulk rock salt для локаций IDOT без котировок по B-52513"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-14",
+   "due_time": "11:00",
+   "tz": "CT",
+   "submission": "Illinois BidBuy",
+   "link": "https://govbidalerts.org/procurements/ab7f6169-c68b-415a-96a0-3736308f4968",
+   "fit_score_1_5": 4,
+   "notes": "Иллинойс: регистрация в BidBuy, IL disclosures.",
+   "status": "open",
+   "category": "road_salt"
+  },
+  {
+   "entity": "Municipality of Penn Hills",
+   "state": "PA",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "Penn Hills 2027 Salt Supplier Contract",
+   "products": [
+    {
+     "item": "Rock salt NaCl"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-10",
+   "due_time": "10:30",
+   "tz": "EST",
+   "submission": "PennBid",
+   "link": "https://pennbid.bonfirehub.com/opportunities/262493",
+   "fit_score_1_5": 2,
+   "notes": "ОБЯЗАТЕЛЬНЫЙ pre-bid 24.11.2026 10:30 на месте (102 Duff Rd).",
+   "status": "open",
+   "category": "road_salt"
+  },
+  {
+   "entity": "City of Hartford Procurement",
+   "state": "CT",
+   "region": "Northeast",
+   "bid_number": "PlanetBids 6310",
+   "title": "Purchase of Rock Salt and Calcium Magnesium Acetate",
+   "products": [
+    {
+     "item": "Rock salt 50 lb bags ≥95% NaCl",
+     "qty": 8000,
+     "unit": "bags"
+    },
+    {
+     "item": "CMA 50 lb bags",
+     "qty": 5000,
+     "unit": "bags"
+    }
+   ],
+   "estimated_value_usd": 180000,
+   "value_basis": "оценка ISP",
+   "delivery_terms": "FOB Hartford, поставки окт.-15 нояб.",
+   "term": "1 год + 3x1",
+   "bonds": "10% bid bond; 100% perf/payment если >$50k",
+   "insurance": "—",
+   "nsf_awwa": null,
+   "local_preference": "Преференция Hartford-based SC/MWBE в пределах 15%; лицензия CT; living wage",
+   "due_date": "2026-11-23",
+   "due_time": "14:00",
+   "tz": "EST",
+   "submission": "PlanetBids (Hartford)",
+   "link": "https://app.govly.com/public/opportunities/17333239",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "road_salt"
+  },
+  {
+   "entity": "NJ public entity (BidNet, locked)",
+   "state": "NJ",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "ROCK SALT (BULK)",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-11-25",
+   "due_time": "10:00",
+   "tz": "EST",
+   "submission": null,
+   "link": "https://www.bidnetdirect.com/new-jersey/solicitations/open-bids/statewide/ROCK-SALT-BULK/444234225618?origin=0&target=view",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "open",
+   "category": "road_salt"
+  },
+  {
+   "entity": "State of Rhode Island (Div. of Purchases)",
+   "state": "RI",
+   "region": "Northeast",
+   "bid_number": "MPA 125",
+   "title": "Rock Salt for Road Use – Open Enrollment",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2027-01-01",
+   "due_time": null,
+   "tz": "EST",
+   "submission": "RIVIP / BidNet",
+   "link": "https://www.bidnetdirect.com/public/solicitations/open?keywords=rock+salt",
+   "fit_score_1_5": 4,
+   "notes": "Открытая запись в Master Price Agreement – можно войти в статевый кооперативный контракт.",
+   "status": "open",
+   "category": "road_salt"
+  },
+  {
+   "entity": "McHenry County joint (Woodstock, Cary, Algonquin, Huntley, Crystal Lake и др.)",
+   "state": "IL",
+   "region": "Midwest",
+   "bid_number": null,
+   "title": "2027 Water Softener Salt (US-produced solar or southern bulk rock salt)",
+   "products": [
+    {
+     "item": "Solar/rock salt для Zeolite умягчения"
+    }
+   ],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": "Только US-produced соль",
+   "due_date": "2026-11-20",
+   "due_time": "10:00",
+   "tz": "CT",
+   "submission": "Бумага, Woodstock DPW 326 Washington St",
+   "link": "https://www.woodstockil.gov/bids.aspx?PRINT=YES&bidID=73",
+   "fit_score_1_5": 1,
+   "notes": "Требование US-produced исключает импорт.",
+   "status": "open",
+   "category": "softener_salt"
+  },
+  {
+   "entity": "Town of New Milford",
+   "state": "CT",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "Liquid Calcium or Magnesium Chloride 2027",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2026-12-03",
+   "due_time": null,
+   "tz": "EST",
+   "submission": null,
+   "link": "https://govdirections.com/rfp/new-milford-connecticut-liquid-calcium-or-magnesium-chloride-2027-1067819601",
+   "fit_score_1_5": 2,
+   "notes": null,
+   "status": "open",
+   "category": "deicer"
+  },
+  {
+   "entity": "Bay Area Chemical Consortium (BACC/BACWA) – ~40 агентств CA",
+   "state": "CA",
+   "region": "West",
+   "bid_number": null,
+   "title": "BACC FY2027-28 cooperative chemical bids (13 лотов: alum, ammonium sulfate, aqua ammonia, citric, ferric/ferrous chloride, HFS, chlorine, bisulfite, NaOH, NaOCl)",
+   "products": [
+    {
+     "item": "NaOCl 12.5% (FY26-27 объём)",
+     "qty": 11970405,
+     "unit": "gal"
+    },
+    {
+     "item": "Ferric chloride",
+     "qty": 6336,
+     "unit": "dry ton"
+    },
+    {
+     "item": "NaOH 25%",
+     "qty": 2487,
+     "unit": "dry ton"
+    },
+    {
+     "item": "Chlorine 1-ton",
+     "qty": 793,
+     "unit": "ton"
+    }
+   ],
+   "estimated_value_usd": 25000000,
+   "value_basis": "оценка по объёмам FY26-27",
+   "delivery_terms": null,
+   "term": "FY 01.07.2027-30.06.2028",
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": "CA: NSF/ANSI 60 обязательна",
+   "local_preference": null,
+   "due_date": "2027-02/03 (ожидается)",
+   "due_time": null,
+   "tz": "PT",
+   "submission": "PlanetBids portal 48421 (регистрация вендора)",
+   "link": "https://bacwa.org/bacc",
+   "fit_score_1_5": 4,
+   "notes": "Прошлый цикл: документы 19.02.2026. Подготовка FY27-28 уже начата.",
+   "status": "upcoming",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Lansing BWL – Mid-Michigan Water Chemical Consortium",
+   "state": "MI",
+   "region": "Midwest",
+   "bid_number": null,
+   "title": "2027-2028 Chemical Consortium RFP (NaOCl, HFS, ferric chloride, pebble quicklime, soda ash)",
+   "products": [],
+   "estimated_value_usd": 2000000,
+   "value_basis": "HigherGov $0.5-2M; Ann Arbor только известь ~$1M",
+   "delivery_terms": null,
+   "term": "01.07.2027-30.06.2028",
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2027-02 (ожидается; прошлый: 12-26.02.2026)",
+   "due_time": null,
+   "tz": null,
+   "submission": "lbwl.ionwave.net",
+   "link": "https://www.highergov.com/sl/contract-opportunity/mi-2026-2027-chemical-consortium-62248932",
+   "fit_score_1_5": 4,
+   "notes": null,
+   "status": "upcoming",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "Pittsburgh Water",
+   "state": "PA",
+   "region": "Northeast",
+   "bid_number": null,
+   "title": "Water Treatment Chemicals – Sodium Hypochlorite and Lime Slurry (ежегодный)",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2027-01 (ожидается; прошлый 30.12.2025-20.01.2026)",
+   "due_time": null,
+   "tz": null,
+   "submission": "Bonfire pgh2o + eBridge reverse auction",
+   "link": "https://www.demandstar.com/app/agencies/pennsylvania/pittsburgh-water-and-sewer-authority/procurement-opportunities/f42ce80c-c174-447a-9d79-5a9564ef9f1b",
+   "fit_score_1_5": 3,
+   "notes": null,
+   "status": "upcoming",
+   "category": "water_chemicals"
+  },
+  {
+   "entity": "State DOT/коопер. закупки соли (WisDOT, Illinois CMS, PA DGS/COSTARS, ODOT, SWOP4G)",
+   "state": "WI/IL/PA/OH",
+   "region": "Midwest/Northeast",
+   "bid_number": null,
+   "title": "Сезон 2027-28 road salt statewide contracts",
+   "products": [],
+   "estimated_value_usd": null,
+   "value_basis": null,
+   "delivery_terms": null,
+   "term": null,
+   "bonds": null,
+   "insurance": null,
+   "nsf_awwa": null,
+   "local_preference": null,
+   "due_date": "2027-05/06 (вне окна Dec-Mar; регистрация участников COSTARS – весна 2027)",
+   "due_time": null,
+   "tz": null,
+   "submission": null,
+   "link": "https://vendorradar.ai/guides/illinois-wisconsin-road-salt-procurement-calendar",
+   "fit_score_1_5": 4,
+   "notes": "WisDOT RFB выпускался 12.05.2026 (due 01.06); IL CMS 18.05-30.06.2026; PA COSTARS 6100065611 с 4 продлениями.",
+   "status": "upcoming",
+   "category": "road_salt"
+  }
+ ],
+ "past_award_prices": [
+  {
+   "buyer": "MWRA (MA)",
+   "bid": "WRA-3630",
+   "date": "2026-11-12",
+   "product": "Sodium hypochlorite 15%",
+   "qty": "1,760,000 gal",
+   "prices_usd": {
+    "Borden & Remington": 0.54,
+    "Univar": 0.57,
+    "JCI Jones": 0.59,
+    "Kuehne": 0.95
+   },
+   "unit": "$/gal",
+   "link": "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=22&sourcingeventtype=RFB"
+  },
+  {
+   "buyer": "MWRA (MA)",
+   "bid": "WRA-3630",
+   "date": "2026-11-12",
+   "product": "Sodium hypochlorite (малый лот)",
+   "qty": "53,000 gal",
+   "prices_usd": {
+    "best": 1.5
+   },
+   "unit": "$/gal",
+   "link": "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=22&sourcingeventtype=RFB"
+  },
+  {
+   "buyer": "MWRA (MA)",
+   "bid": "WRA-3646",
+   "date": "2026-11-12",
+   "product": "Sodium hypochlorite 15% (WW facilities)",
+   "qty": "8,000-30,000 gal лоты",
+   "prices_usd": {
+    "range_low": 0.68,
+    "range_high": 1.36
+   },
+   "unit": "$/gal",
+   "link": "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=39&sourcingeventtype=RFB"
+  },
+  {
+   "buyer": "MWRA (MA)",
+   "bid": "WRA-3638",
+   "date": "2026-11-12",
+   "product": "Sodium bisulfite",
+   "qty": "194,000 gal",
+   "prices_usd": {
+    "PVS": 1.28,
+    "JCI": 1.43,
+    "Univar": 1.52,
+    "Holland": 1.7
+   },
+   "unit": "$/gal",
+   "link": "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=30&sourcingeventtype=RFB"
+  },
+  {
+   "buyer": "MWRA (MA)",
+   "bid": "WRA-3645",
+   "date": "2026-11-15",
+   "product": "Sodium bisulfite (WW)",
+   "qty": "8,000-20,000 gal",
+   "prices_usd": {
+    "JCI": "1.25-1.72",
+    "Univar": 1.76,
+    "PVS": 3.77
+   },
+   "unit": "$/gal",
+   "link": "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=40&sourcingeventtype=RFB"
+  },
+  {
+   "buyer": "City of Lorain (OH)",
+   "bid": "2027 chemicals (award 12.11.2026)",
+   "date": "2026-10-15",
+   "product": "multi",
+   "prices_usd": {
+    "Aluminum sulfate $/ton": 587,
+    "Liquid chlorine $/100 lb": 95.0,
+    "PAC $/1000 lb": 1104.15,
+    "Sodium fluorosilicate $/50 lb": 73.0,
+    "KMnO4 $/100 lb": 220,
+    "Ferric chloride $/ton": 1212,
+    "Ferrous chloride $/gal": 0.571,
+    "Sodium bisulfite $/gal": 4.032,
+    "Caustic soda $/gal": 3.962,
+    "Liquid polymer $/gal": 15.66,
+    "Orthophosphate 35% $/gal": 8.24,
+    "NaOCl $/gal": 2.44,
+    "Polyacrylamide $/gal": 14.26,
+    "Cationic polymer $/gal": 9.61
+   },
+   "winners": "Chemtrade, Hawkins, Bonded, PVS Nolwood, Brenntag NE, PVS Technologies, Kemira, Polydyne/SNF",
+   "note": "Средний рост +7.5% к 2026",
+   "link": "http://public.destinyhosted.com/loraidocs/2026/BOC/20261118_1582/13116_BOC%20-%20Chemical%20Award%20List%20for%202027.pdf"
+  },
+  {
+   "buyer": "City of Fremont (OH)",
+   "bid": "Chemicals 2027",
+   "date": "2026-11",
+   "product": "multi",
+   "prices_usd": {
+    "Ferric chloride $/DWT": "1065-1148",
+    "Sodium hexametaphosphate $/lb": "1.77-2.50",
+    "Sodium tripolyphosphate $/lb": "1.68-2.44",
+    "Pebble lime $/ton": "567.33-747.87",
+    "NaOH $/DWT": "797-864",
+    "KMnO4 $/lb": "2.62-4.95",
+    "HFS $/lb": "1.05-3.17 (поставка не гарантирована)",
+    "Liquid CO2 $/ton": 390,
+    "NaOCl $/lb Cl2": "0.1417 (~$1.42/gal)",
+    "ACH $/gal": "7.87-11.18",
+    "Alum $/gal": "2.75-4.45",
+    "Polymer $/lb": 1.35,
+    "PAC $/lb": "1.98-2.26"
+   },
+   "link": "https://www.fremontohio.org/wp-content/uploads/2026/11/Bid-Tab-Chemicals-2027.pdf"
+  },
+  {
+   "buyer": "City of Ann Arbor (MI) / Mid-Michigan consortium",
+   "bid": "FY27",
+   "date": "2026-06",
+   "product": "multi",
+   "prices_usd": {
+    "NaOCl $/gal": "1.45 (JCI) – 1.99",
+    "Pebble quicklime $/ton": "210 (Graymont) vs 576.90",
+    "Ferric chloride $/dry ton": "1138 (PVS) – 1257"
+   },
+   "qty": "NaOCl 150,000 gal; lime 4,850 t; FeCl3 60 dry t",
+   "link": "https://a2gov.legistar.com/ViewReport.ashx?GID=55&GUID=62CBDCF6-761E-48BA-B7E9-CC5F379EC85D&ID=6789085&M=R&N=Text&Title=Legislation%20Text"
+  },
+  {
+   "buyer": "Marin Water (CA)",
+   "bid": "FY2027 (07.2026-06.2027)",
+   "date": "2026-05",
+   "product": "multi",
+   "prices_usd": {
+    "Ferric sulfate $/dry ton": 702.75,
+    "HFS $/gal": 6.0,
+    "Caustic $/dry ton": 699.14,
+    "NaOCl $/gal": 3.49,
+    "Zinc orthophosphate $/wet ton": 2040,
+    "Cationic polymer $/lb": 1.19,
+    "Anionic polymer $/lb": 2.54,
+    "LAS $/gal": 1.65,
+    "Aqua ammonia $/gal": 4.02
+   },
+   "note": "Калифорния дороже (NSF, логистика); HFS +121%",
+   "link": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/marinwtrca-meet-1547154f0c7d45908f2ae724659e1fc4/ITEM-Attachment-001-f6ae709b9f6d46299a7bf9549c4a4e39.pdf"
+  },
+  {
+   "buyer": "Western Virginia Water Authority (VA)",
+   "bid": "WVWA-WQ-27-01",
+   "date": "2026-07-09",
+   "product": "multi",
+   "prices_usd": {
+    "HFS $/gal": 5.25,
+    "Ferric sulfate $/dry lb Fe": "1.39-1.50",
+    "Orthophosphate $/gal": "4.59-7.11",
+    "NaOH $/gal": "2.52-3.84",
+    "Polymer $/gal": "8.35-9.98",
+    "Sodium bisulfite $/gal": "4.22-4.88",
+    "PACl $/gal": 6.77,
+    "Sodium permanganate $/gal": "12.48-23.77",
+    "NaOCl $/gal": "3.07-3.90"
+   },
+   "link": "https://www.westernvawater.org/home/showpublisheddocument/14800"
+  },
+  {
+   "buyer": "Fayetteville PWC (NC) – справочно",
+   "bid": "CY2026",
+   "date": "2026-04-29",
+   "product": "multi",
+   "prices_usd": {
+    "Caustic 50% $/ton": "318.03-430",
+    "HFS $/ton": "850-860",
+    "PAC $/lb": "0.89-1.32",
+    "Sodium bisulfite $/lb": "0.2125-0.215",
+    "Aqua ammonia $/ton": "315.90",
+    "Mg(OH)2 $/gal": "3.52-3.65",
+    "Ferric sulfate $/ton": "425-425.75",
+    "Zinc orthophosphate $/lb": "0.8974-1.22"
+   },
+   "link": "https://cityoffayetteville.legistar.com/ViewReport.ashx?GID=323&GUID=A888F542-AA40-421A-AE6B-49518B2CFB87&ID=6788405&M=R&N=Text&Title=Legislation+Text"
+  },
+  {
+   "buyer": "Louisville Water (KY)",
+   "bid": "26-61 (10.2026-09.2027)",
+   "date": "2026-07-31",
+   "product": "multi",
+   "prices_usd": {
+    "Aqua ammonia $/ton": "253-281.40",
+    "HCl $/ton": "348-414.50",
+    "Liquid CO2 $/ton": 250,
+    "Ferric sulfate $/ton Fe": "2793-3791"
+   },
+   "link": "https://louisvillewater.com/wp-content/uploads/2026/08/26-61.pdf"
+  },
+  {
+   "buyer": "City of Lynchburg (VA) – пред. тендеры",
+   "bid": "2022-015 / 2024-042",
+   "date": "2021-10 / 2023-12",
+   "product": "multi",
+   "prices_usd": {
+    "Caustic 50% $/lb sol.": "0.1738-0.30",
+    "Liquid alum $/dry ton": "319.60-532.31",
+    "Quicklime $/dry ton": 262.18,
+    "NaOCl $/lb sol.": "0.135-0.150",
+    "Emulsion polymer $/lb": "1.29-2.10",
+    "Manic polymer $/lb": 0.25
+   },
+   "link": "https://www.lynchburgva.gov/DocumentCenter/View/8149/2027-031-WATER-RESOURCES-CHEMICALS-ADDENDUM-1?bidId="
+  },
+  {
+   "buyer": "City of North Port (FL) – справочно",
+   "bid": "FY27",
+   "date": "2026-06",
+   "product": "multi",
+   "prices_usd": {
+    "NaOH 50% $/gal": 2.43,
+    "Alum 40% $/gal": 1.06,
+    "PAC $/lb": 0.99,
+    "NaOCl 12.5% $/gal": 1.79,
+    "Ammonium sulfate 40% $/gal": 2.85,
+    "Liquid CO2 $/lb": 0.29,
+    "Sodium permanganate 20% $/gal": "2.08-17.49"
+   },
+   "link": "https://cityofnorthport.legistar.com/View.ashx?GUID=D38F0AAD-6E5D-43E6-9B34-F84A2E71CEAC&ID=15846181&M=F"
+  },
+  {
+   "buyer": "PA DGS / COSTARS",
+   "bid": "6100065611 Sodium Chloride (Bulk Road Salt)",
+   "date": "2026-08",
+   "product": "Road salt delivered",
+   "prices_usd": {
+    "statewide_avg": 92.47,
+    "min (Bucks/Montgomery/Philadelphia)": 75.0,
+    "max (Mifflin)": 113.1,
+    "prior_year_avg": 88.21
+   },
+   "unit": "$/ton delivered, min 22 t",
+   "winners": "American Rock Salt (40 округов), Riverside (10), Cargill (7), Morton (7), Compass (2), Eastern (1)",
+   "link": "https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/costars/member-information/documents/2026-2027%20sodium%20chloride%20(road%20salt)%20season%20contract.pdf"
+  },
+  {
+   "buyer": "Great Lakes St. Lawrence Seaway (NY, federal)",
+   "bid": "6923G527BULKSALT",
+   "date": "2026-11-12",
+   "product": "Bulk rock salt 550 t (sole source Compass)",
+   "prices_usd": {
+    "implied $/ton": 83.6
+   },
+   "link": "https://www.govector.com/bids/ny/817-2026-2027-550-tons-of-winter-road-salt"
+  }
+ ],
+ "sources": [
+  "https://govdirections.com/bids/sitemap/none/119/supplies-chemicals-gases-not-fuel-fertilizer/all",
+  "https://govdirections.com/bids/sitemap/none/31/infrastructure-materials-aggregate-asphalt-concrete-rocks-salt-sand/all",
+  "https://kcmo.bonfirehub.com/opportunities/262165",
+  "https://proposalworkspace.com/state-opportunities/missouri-ev4879-water-wastewater-treatment-chemicals-6a21aed6-728b-4b30-b760-31e0d3b1ee03",
+  "https://app.govly.com/public/opportunities/17285170",
+  "https://govtribe.com/file/government-file/70287-1-dot-pdf",
+  "https://govtribe.com/file/government-file/3000-tons-of-liquid-co2-2026-dot-docx",
+  "https://bidscopeai.com/opportunities/e2f7e8a1-0aec-4d29-98f5-0b72d5e26a7a",
+  "https://www.madsewer.org/wp-content/uploads/2026/11/2026-Sodium-Hydroxide-RFB-Bid-Documents.pdf",
+  "https://www.madsewer.org/wp-content/uploads/2026/11/2026-Sodium-Hypochlorite-Bleach-Bid-Documents.pdf",
+  "https://vendornet.wi.gov/Bid/View/7e1bc931-c0f3-4c04-97a6-2ee49802c576",
+  "https://www.demandstar.com/app/limited/bids/557651/details",
+  "https://duluthmn.gov/media/qa2nq4m4/26-aa28-bid-package.pdf",
+  "https://commissioners.warrencountyohio.gov/doc/Bids/2026/01_2027_Water_and_Sewer_Chemicals_Treatment_Project/02_Bid_Document.pdf",
+  "https://oregonohio.org/wp-content/uploads/2026/11/noticetobidders27WTPchemicals.pdf",
+  "https://www.highergov.com/sl/contract-opportunity/oh-2027-wastewater-treatment-chemicals-76707644/",
+  "https://bidscopeai.com/opportunities/439dd48a-4ca4-4962-a57e-48249cac995b",
+  "https://akronohio.bonfirehub.com/opportunities/261487",
+  "https://www.woosteroh.com/departments/engineering/bids.php",
+  "https://hcwd.com/wp-content/uploads/Chem-Bid_Form_2027.pdf",
+  "https://www.independenceks.gov/Bids.aspx?bidID=282",
+  "https://www.independenceks.gov/bids.aspx?bidID=281",
+  "https://bidscopeai.com/opportunities/5c18cf3f-6b98-4625-b493-70a8a9f680b7",
+  "https://cms3.revize.com/revize/craigco/2027%20Complete%20Chemical%20Bid%20Packet.pdf?t=202610231518440",
+  "https://www.tdpud.org/sodium-hypochlorite-purchase-2027-bb0ccb3b-8b84-4698-b827-d62bb195a578",
+  "https://busybids.org/bids/ca/valley-sanitary-district/supply-and-delivery-of-bulk-chemicals/",
+  "https://www.cityofkalama.com/article/3217523",
+  "http://bids.findrfp.com/xDocs/7a5fa67eff094be0929946dec316dac0_IRFP_6635-26_Proposal_Document_[12_pages].pdf",
+  "https://greenburghny.com/DocumentCenter/View/17190/ANNUAL-BID-FOR-WATER-TREATMENT-CHEMICALS-GREENBURGH-WATER-DEPARTMENT---2027?bidId=",
+  "https://bidscopeai.com/opportunities/d0cd3e5c-2dd2-4f28-b02f-e6a9dea2fa7a",
+  "https://bidscopeai.com/opportunities/565fd3e1-8434-41ce-859e-07387232de0b",
+  "https://narragansettri.gov/DocumentCenter/View/20963/B27005-Purchase-of-Wastewater-Chemicals-2?bidId=",
+  "https://westville-nj.com/wp-content/uploads/2026/10/Specifications-for-PPG-Accutab-SI-Calcium-Hypochlorite-Tablets-or-Equivalent-for-CY-2027.pdf",
+  "https://www.beachwoodusa.com/DocumentCenter/View/1235/2027-BID-PACKAGE-CHLORINE-AND-LIME-BULK-DELIVERY-PDF-11326",
+  "https://pennbid.bonfirehub.com/opportunities/262558",
+  "https://www.delcora.org/procurement/",
+  "https://pennbid.bonfirehub.com/opportunities/261542",
+  "https://pennbid.bonfirehub.com/opportunities/261615",
+  "https://proposalworkspace.com/state-opportunities/pennsylvania-2027-chemical-bids-0dffe5af-391f-4589-8c5f-1f28423f3906",
+  "https://pennbid.bonfirehub.com/opportunities/255732",
+  "https://bidscopeai.com/opportunities/75bad476-cc9d-46f5-955b-56b2e3c8c139",
+  "https://www.lynchburgva.gov/DocumentCenter/View/8149/2027-031-WATER-RESOURCES-CHEMICALS-ADDENDUM-1?bidId=",
+  "https://govtribe.com/opportunity/state-local-contract-opportunity/sodium-chloride-type-1-grade-1-road-salt-rfb75827000002061",
+  "https://govbidalerts.org/procurements/ab7f6169-c68b-415a-96a0-3736308f4968",
+  "https://pennbid.bonfirehub.com/opportunities/262493",
+  "https://app.govly.com/public/opportunities/17333239",
+  "https://www.bidnetdirect.com/public/solicitations/open?keywords=rock+salt",
+  "https://www.woodstockil.gov/bids.aspx?PRINT=YES&bidID=73",
+  "https://bacwa.org/bacc",
+  "https://bacwa.org/wp-content/uploads/2026/10/13-2026-Estimated-Quantities.pdf",
+  "https://www.highergov.com/sl/contract-opportunity/mi-2026-2027-chemical-consortium-62248932",
+  "https://vendorradar.ai/guides/illinois-wisconsin-road-salt-procurement-calendar",
+  "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=22&sourcingeventtype=RFB",
+  "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=39&sourcingeventtype=RFB",
+  "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=30&sourcingeventtype=RFB",
+  "https://bidtab.mwra.com/reportW.aspx?Category=PURCHASING&id=40&sourcingeventtype=RFB",
+  "http://public.destinyhosted.com/loraidocs/2026/BOC/20261118_1582/13116_BOC%20-%20Chemical%20Award%20List%20for%202027.pdf",
+  "https://www.fremontohio.org/wp-content/uploads/2026/11/Bid-Tab-Chemicals-2027.pdf",
+  "https://a2gov.legistar.com/ViewReport.ashx?GID=55&GUID=62CBDCF6-761E-48BA-B7E9-CC5F379EC85D&ID=6789085&M=R&N=Text&Title=Legislation%20Text",
+  "https://www.westernvawater.org/home/showpublisheddocument/14800",
+  "https://louisvillewater.com/wp-content/uploads/2026/08/26-61.pdf",
+  "https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/costars/member-information/documents/2026-2027%20sodium%20chloride%20(road%20salt)%20season%20contract.pdf",
+  "https://www.transportation.ohio.gov/business/contracts/purchasing/rock-salt-contract",
+  "https://swop4g.org/2027-water-chemicals-bid-opportunity/"
+ ]
+}

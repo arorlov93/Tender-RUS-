@@ -1,0 +1,1484 @@
+{
+  "meta": {
+    "title": "ISP Group LLC (Florida) - US public procurement of water-treatment chemicals: economics & sourcing model",
+    "date": "2026-11-16",
+    "currency": "USD",
+    "units_note": "ton = short ton (2,000 lb) unless stated; 'dry ton' = 100% basis; prices are delivered (FOB destination) municipal bid/award prices unless noted. Hypo 12.5% ~ 9.9-10 lb/gal; caustic 50% ~ 12.76 lb/gal (6.38 lb NaOH/gal); liquid alum ~ 11.1 lb/gal (~5.4 lb dry/gal at 48.5%).",
+    "method": "Unit prices taken from public bid tabulations / board award memos 2024-2026 (links per row). Where a figure is a conversion or estimate it is flagged in 'note'. Landed-cost and margin figures are model estimates, not quotes.",
+    "caveats": [
+      "Bid prices include delivery to the plant; small-lot (tote/drum) and remote sites price 20-60% above bulk.",
+      "Many bids specify unit basis inconsistently (wet ton vs dry ton vs gal vs lb) - always normalize before comparing.",
+      "AD/CVD rates for potassium permanganate (China) and calcium hypochlorite (China) are from memory of prior notices - marked verify_required."
+    ]
+  },
+  "benchmarks": [
+    {
+      "product": "Liquid aluminum sulfate (alum) 48-50%",
+      "unit": "$/dry ton",
+      "range_low": 349,
+      "range_typical": 520,
+      "range_high": 930,
+      "points": [
+        {
+          "buyer": "City of Concord NC",
+          "date": "2026-06",
+          "price": "348.58 (Chemtrade) / 483 (Univar) / 583 (C&S) / 595 (USALCO) per dry ton",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Finance/Documents/RFP-RFQ-Bids/Bid2713-Bid%202713%20-%20Water%20Treatment%20Plant%20Chemicals%20-%20Tabulation1.pdf"
+        },
+        {
+          "buyer": "Citco bid, Concord NC (2025)",
+          "date": "2025-06",
+          "price": "577.32/dry ton",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Finance/Documents/RFP-RFQ-Bids/15202/Bid%202678%20-%20Water%20Treatment%20Plant%20Chemicals%20-%20Tabulation.pdf"
+        },
+        {
+          "buyer": "City of Lorain OH (2026 contract)",
+          "date": "2025-11",
+          "price": "512 (USALCO) - 611 per ton",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "City of Salina KS (2026)",
+          "date": "2025-12",
+          "price": "818 (Univar) / 928 (Chemtrade) per ton; 50% liquid alum 628.71/ton",
+          "url": "https://www.salina-ks.gov/media/Bids/Tabulations/2026%20Chemical%20Bid%20Tab%20-%20WATER%20SYSTEM.pdf"
+        },
+        {
+          "buyer": "City of Abilene TX (FY27)",
+          "date": "2026-09",
+          "price": "645 (C&S) - 735 (USALCO) per ton",
+          "url": "https://abilenetx.portal.civicclerk.com/event/4159/files/attachment/33413"
+        },
+        {
+          "buyer": "City of Paris TX (FY26)",
+          "date": "2025-07",
+          "price": "555/ton (Chemtrade, award) vs 307.45 FY25 (wet basis likely)",
+          "url": "https://paristexas.gov/DocumentCenter/View/7580/Vendor-Bid-Tabulation-for-Water-and-Wastewater-Chemical"
+        },
+        {
+          "buyer": "City of Corsicana TX (FY26)",
+          "date": "2025-09",
+          "price": "165/ton (Chameleon) - wet ton basis",
+          "url": "https://www.cityofcorsicana.com/DocumentCenter/View/6469/Water-WWater-Chem-2026--092225"
+        }
+      ],
+      "per_gallon": {
+        "typical": 2.2,
+        "range": "2.17-3.40 $/gal (Fremont OH 2026: 2.17 / 2.59 / 3.40)",
+        "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+      },
+      "regional_spread": "Southeast/Texas: 350-735 $/dry t (Chemtrade/USALCO/C&S plants nearby, cheapest in Carolinas). Midwest: 510-930. Freight radius ~250-300 mi from plant drives price.",
+      "trend_2024_2026": "Flat to +5%/yr; Paris TX FY25->FY26 up sharply (basis change). Commodity, regional plant oligopoly (Chemtrade, USALCO, C&S, GEO, Kemira)."
+    },
+    {
+      "product": "Ferric chloride (38-43%)",
+      "unit": "$/ton (wet) / $/dry ton / $/lb",
+      "range_low": "0.23 $/lb liquid (~460 $/t wet)",
+      "range_typical": "1,064-1,240 $/dry ton",
+      "range_high": "2.98-3.12 $/gal",
+      "points": [
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "1,183-1,241 $/ton",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "1,064-1,148 $/dry ton",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        },
+        {
+          "buyer": "West Des Moines IA 2026",
+          "price": "0.630 $/lb (2025: 0.679, -7.2%)",
+          "url": "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/11172025%20packet/7cd%20-%20Bluey%20for%20Chemicals%202026%20Bids%20&%20Award%20Contracts.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "0.234 $/lb (2025 0.240)",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        },
+        {
+          "buyer": "Lawrence KS 2025",
+          "price": "2.98 $/gal (Pencco); history 2018 1.39 -> 2024 3.17 -> 2025 2.98",
+          "url": "https://lawrenceks.civicweb.net/document/428946/Consider%20awarding%20Request%20for%20Quotation%20Numbers.pdf?handle=E6E2A390989142D2BC44FDE91F2465BB"
+        }
+      ],
+      "regional_spread": "TX/Gulf (Pencco, Kemira, PVS) cheapest; Northeast/Midwest +10-20%.",
+      "trend_2024_2026": "Peaked 2023-2024, -5 to -8% in 2025-2026."
+    },
+    {
+      "product": "Ferric sulfate (liquid)",
+      "unit": "$/lb or $/gal",
+      "range_typical": "0.19-0.23 $/lb; 2.70-4.60 $/gal",
+      "points": [
+        {
+          "buyer": "Hardin Co. Water District KY 2026",
+          "price": "0.1865-0.225 $/lb (2025 Pencco 0.221)",
+          "url": "https://hcwd.com/wp-content/uploads/2026_Chem-Bid_Summary.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "0.1915 $/lb (2025 0.173, +11%)",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        },
+        {
+          "buyer": "Lawrence KS 2025",
+          "price": "2.70 (Kemira) - 4.60 $/gal",
+          "url": "https://lawrenceks.civicweb.net/document/428946/Consider%20awarding%20Request%20for%20Quotation%20Numbers.pdf?handle=E6E2A390989142D2BC44FDE91F2465BB"
+        },
+        {
+          "buyer": "Cocoa FL (BCPEPC coop, current 2024)",
+          "price": "2,355 $/dry ton Fe (Thatcher)",
+          "url": "https://govtribe.com/file/government-file/addendum-1-qa-dot-pdf-43"
+        },
+        {
+          "buyer": "Abilene TX FY27",
+          "price": "794 $/ton (Pencco, award)",
+          "url": "https://abilenetx.portal.civicclerk.com/event/4159/files/attachment/33413"
+        }
+      ],
+      "trend_2024_2026": "+5-10% 2025->2026 (Appleton +11%)."
+    },
+    {
+      "product": "PACl / ACH (polyaluminum chloride, aluminum chlorohydrate)",
+      "unit": "$/gal, $/lb",
+      "range_typical": "PACl 2.28-3.59 $/gal; ACH 6.76-8.26 $/gal or 0.55-0.56 $/lb",
+      "points": [
+        {
+          "buyer": "Milford MA FY27",
+          "price": "PACl 2.28 (Holland) / 2.657 (Univar) $/gal",
+          "url": "https://tataandhoward.com/wp-content/uploads/2026/04/Milford-MA-FY2027-Water-Department-Chemical-Bid-Bid-Results.pdf"
+        },
+        {
+          "buyer": "Lancaster County PA 2026-27",
+          "price": "PACl 3.5874 $/gal (USALCO); prior year 2.9636 (+21%)",
+          "url": "https://co.lancaster.pa.us/DocumentCenter/View/20725/Chemical-IFB-26-002---Official-Bid-Tab"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "ACH 6.758 / 8.258 $/gal",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "ACH 0.560 $/lb (2025 0.545)",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        }
+      ],
+      "trend_2024_2026": "+3 to +21% (aluminum + HCl inputs, freight). Proprietary-grade PACl often specified by brand -> 'or equal' niche."
+    },
+    {
+      "product": "Cationic polymer emulsion / liquid",
+      "unit": "$/gal, $/lb",
+      "range_typical": "liquid cationic 6.05-15.31 $/gal; 0.75-1.10 $/lb (solution/emulsion)",
+      "points": [
+        {
+          "buyer": "Salina KS 2026",
+          "price": "cationic 10.75-11.39 $/gal; LMW cationic (polyDADMAC/polyamine) 6.055 (Polydyne) - 8.96 $/gal",
+          "url": "https://www.salina-ks.gov/media/Bids/Tabulations/2026%20Chemical%20Bid%20Tab%20-%20WATER%20SYSTEM.pdf"
+        },
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "liquid polymer 15.28; polyacrylamide 13.63; cationic 9.35-12.63 $/gal",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "Corsicana TX FY26",
+          "price": "cationic 2,195 $/ton = 1.10 $/lb (Chameleon)",
+          "url": "https://www.cityofcorsicana.com/DocumentCenter/View/6469/Water-WWater-Chem-2026--092225"
+        },
+        {
+          "buyer": "Abilene TX FY27",
+          "price": "polymer 12.08 (Univar award) - 15.77 $/gal",
+          "url": "https://abilenetx.portal.civicclerk.com/event/4159/files/attachment/33413"
+        },
+        {
+          "buyer": "Lawrence KS 2025",
+          "price": "primary polymer C-378 0.75 $/lb",
+          "url": "https://lawrenceks.civicweb.net/document/428946/Consider%20awarding%20Request%20for%20Quotation%20Numbers.pdf?handle=E6E2A390989142D2BC44FDE91F2465BB"
+        }
+      ],
+      "note": "Very wide spread (2-2.5x) for 'same' function -> margin opportunity; jar-test/approval lists are the barrier.",
+      "trend_2024_2026": "Flat to -5% (acrylamide feedstock soft, SNF overcapacity)."
+    },
+    {
+      "product": "Dry / emulsion polyacrylamide (filter aid, dewatering)",
+      "unit": "$/lb",
+      "range_typical": "1.15-1.80 $/lb",
+      "points": [
+        {
+          "buyer": "Lawrence KS 2025",
+          "price": "filter aid 1.15; Actiflo 1.45; belt press 1.54 $/lb (Polydyne)",
+          "url": "https://lawrenceks.civicweb.net/document/428946/Consider%20awarding%20Request%20for%20Quotation%20Numbers.pdf?handle=E6E2A390989142D2BC44FDE91F2465BB"
+        },
+        {
+          "buyer": "North Port FL 2026",
+          "price": "flocculant (RDT) 1.20 / 1.41 / 1.80 $/lb",
+          "url": "https://cityofnorthport.legistar.com/View.ashx?GUID=637BAC1D-7372-4D34-9E79-74404E7A05F3&ID=15846180&M=F"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "thickening/dewatering 1.30 $/lb",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        }
+      ],
+      "trend_2024_2026": "Centrifuge polymer Lawrence 1.62 (2024) -> 1.54 (2025): -5%."
+    },
+    {
+      "product": "Sodium hypochlorite 12-12.5%",
+      "unit": "$/gal",
+      "range_low": 1.31,
+      "range_typical": 1.7,
+      "range_high": 2.32,
+      "bulk_vs_tote": "Hardin Co. KY 2026: bulk 0.1689 $/lb (~1.67 $/gal) vs tote 0.229 $/lb (~2.27 $/gal) => totes +35%. Mini-bulk Abilene TX 3.98 $/gal (PVS Minibulk).",
+      "points": [
+        {
+          "buyer": "Peace River Manasota RWSA FL",
+          "date": "2026-03",
+          "price": "1.78 $/gal (Allied Universal); prior 1.64 (+8.5%); Odyssey 1.86",
+          "url": "https://www.regionalwater.org/uploads/BoardMeetings/2026/20260401/CA4.pdf"
+        },
+        {
+          "buyer": "South Martin Regional Utility FL FY26",
+          "price": "1.73 $/gal 12% (Odyssey)",
+          "url": "https://jupiterislandfl.portal.civicclerk.com/event/246/files/attachment/927"
+        },
+        {
+          "buyer": "Concord NC 2026",
+          "price": "1.48 (Oltrin) - 1.99 (Hawkins) $/gal",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Finance/Documents/RFP-RFQ-Bids/Bid2713-Bid%202713%20-%20Water%20Treatment%20Plant%20Chemicals%20-%20Tabulation1.pdf"
+        },
+        {
+          "buyer": "West Des Moines IA 2026",
+          "price": "1.68 $/gal (2025 1.88, -10.6%)",
+          "url": "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/11172025%20packet/7cd%20-%20Bluey%20for%20Chemicals%202026%20Bids%20&%20Award%20Contracts.pdf"
+        },
+        {
+          "buyer": "Salina KS 2026",
+          "price": "2.26 $/gal (Brenntag, sole bid)",
+          "url": "https://www.salina-ks.gov/media/Bids/Tabulations/2026%20Chemical%20Bid%20Tab%20-%20WATER%20SYSTEM.pdf"
+        },
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "2.32 $/gal",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "1.59 $/gal",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        },
+        {
+          "buyer": "Lawrence KS 2025",
+          "price": "1.69 $/gal",
+          "url": "https://lawrenceks.civicweb.net/document/428946/Consider%20awarding%20Request%20for%20Quotation%20Numbers.pdf?handle=E6E2A390989142D2BC44FDE91F2465BB"
+        }
+      ],
+      "regional_spread": "Florida 1.73-1.86 (Odyssey/Allied Universal regional duopoly, local bleach plants). Sole-bid markets (Salina) 2.26+.",
+      "trend_2024_2026": "Peak 2022-23 (+50%), 2025-26 mixed: -10% Midwest, +4-8% Florida."
+    },
+    {
+      "product": "Calcium hypochlorite (65-70% granular/tablets)",
+      "unit": "$/lb",
+      "range_typical": "~2.5-4.5 $/lb delivered small lots (estimate)",
+      "points": [
+        {
+          "buyer": "City of Lewisville TX FY26",
+          "price": "award to Chemrite (primary, est. $19,600/yr) and Solenis (secondary) - unit price in attachment",
+          "url": "https://cityoflewisville.legistar.com/LegislationDetail.aspx?GUID=342927A8-548C-4F8C-AFD9-88B39D6AF6E0&ID=7507197&Options&Search"
+        }
+      ],
+      "note": "No clean public unit price found in this pass; range is model estimate. Market is dominated by Solenis/Lonza(Arxada)/Olin HTH legacy brands; China imports blocked by AD/CVD orders continued Feb 2026.",
+      "trend_2024_2026": "Stable/high."
+    },
+    {
+      "product": "Chlorine, 1-ton cylinders (and 150-lb)",
+      "unit": "$/ton",
+      "range_low": 1784,
+      "range_typical": 2240,
+      "range_high": 3000,
+      "points": [
+        {
+          "buyer": "Hardin Co. KY 2026",
+          "price": "1,784-1,980 $/ton (2025 Brenntag 1,947)",
+          "url": "https://hcwd.com/wp-content/uploads/2026_Chem-Bid_Summary.pdf"
+        },
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "92.50 $/100 lb = 1,850 $/ton",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "Corsicana TX FY26",
+          "price": "2,239 $/ton (PVS DX)",
+          "url": "https://www.cityofcorsicana.com/DocumentCenter/View/6469/Water-WWater-Chem-2026--092225"
+        },
+        {
+          "buyer": "Abilene TX FY27",
+          "price": "2,343 $/ton (PVS DX award)",
+          "url": "https://abilenetx.portal.civicclerk.com/event/4159/files/attachment/33413"
+        },
+        {
+          "buyer": "Paris TX FY26",
+          "price": "2,450 (Brenntag) / 2,995 (Thatcher) / 3,000 (PVS); FY25 3,000",
+          "url": "https://paristexas.gov/DocumentCenter/View/7580/Vendor-Bid-Tabulation-for-Water-and-Wastewater-Chemical"
+        }
+      ],
+      "note": "Toxic-inhalation hazard (TIH): FMCSA Hazmat Safety Permit, cylinder fleet ownership/rental, repackaging plant needed. Not a reseller product.",
+      "trend_2024_2026": "-5 to -20% from 2023-24 peak in TX."
+    },
+    {
+      "product": "Caustic soda 50% (and 25% membrane grade)",
+      "unit": "$/dry ton; $/lb; $/gal",
+      "range_low": "593 $/dry t",
+      "range_typical": "700-850 $/dry t (0.17-0.21 $/lb of 50% solution)",
+      "range_high": "919 $/dry t",
+      "points": [
+        {
+          "buyer": "Peace River Manasota RWSA FL",
+          "date": "2026-03",
+          "price": "593 $/dry ton (Brenntag Mid-South); prior 885 (-33%); Univar 669, Odyssey 725",
+          "url": "https://www.regionalwater.org/uploads/BoardMeetings/2026/20260401/CA4.pdf"
+        },
+        {
+          "buyer": "Concord NC 2026",
+          "price": "685.56 (Oltrin) / 727 (Brenntag) / 740 (Univar) / 815 (JCI) / 851 $/dry ton",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Finance/Documents/RFP-RFQ-Bids/Bid2713-Bid%202713%20-%20Water%20Treatment%20Plant%20Chemicals%20-%20Tabulation1.pdf"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "714-919 $/dry ton",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        },
+        {
+          "buyer": "Hardin Co. KY 2026",
+          "price": "50%: 0.1708 $/lb; 30%: 0.111 $/lb",
+          "url": "https://hcwd.com/wp-content/uploads/2026_Chem-Bid_Summary.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "0.190 $/lb (2025 0.210)",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        },
+        {
+          "buyer": "Corsicana TX FY26",
+          "price": "345 $/ton wet 50% (~690 $/dry t)",
+          "url": "https://www.cityofcorsicana.com/DocumentCenter/View/6469/Water-WWater-Chem-2026--092225"
+        },
+        {
+          "buyer": "South Martin FL FY26",
+          "price": "25% membrane grade 1.39-1.42 $/gal",
+          "url": "https://jupiterislandfl.portal.civicclerk.com/event/246/files/attachment/927"
+        },
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "3.195 $/gal",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        }
+      ],
+      "regional_spread": "Gulf Coast (OxyChem, Olin, Westlake plants) cheapest; FL 593-725 $/dry t.",
+      "trend_2024_2026": "Down 10-33% 2025->2026 (chlor-alkali oversupply)."
+    },
+    {
+      "product": "Quicklime (pebble) / hydrated lime",
+      "unit": "$/ton",
+      "range_typical": "quicklime 364-610 $/t; hydrated 234-460 $/t",
+      "points": [
+        {
+          "buyer": "Miami-Dade WASD (5-yr, 42,000 t/yr)",
+          "date": "2026-07",
+          "price": "596.28 truck / 577.30 rail $/t (prior 513.14 / 489.11: +16-18%); only 2 bidders (Carmeuse)",
+          "url": "http://www.miamidade.gov/govaction/legistarfiles/MinMatters/Y2026/260754min.pdf"
+        },
+        {
+          "buyer": "Cocoa FL (BCPEPC coop)",
+          "date": "2024-08",
+          "price": "468.40 $/t pebble (Carmeuse)",
+          "url": "https://govtribe.com/file/government-file/addendum-1-qa-dot-pdf-43"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "pebble lime 477.33-696.22 $/t",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        },
+        {
+          "buyer": "West Des Moines IA 2026",
+          "price": "lime 311.33 $/t (2025 295.03, +5.5%)",
+          "url": "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/11172025%20packet/7cd%20-%20Bluey%20for%20Chemicals%202026%20Bids%20&%20Award%20Contracts.pdf"
+        },
+        {
+          "buyer": "Lawrence KS 2025",
+          "price": "quicklime 363.85 $/t; one bid 610.21 rejected",
+          "url": "https://lawrenceks.civicweb.net/document/428946/Consider%20awarding%20Request%20for%20Quotation%20Numbers.pdf?handle=E6E2A390989142D2BC44FDE91F2465BB"
+        },
+        {
+          "buyer": "Salina KS 2026",
+          "price": "hydrated lime 272-378 $/t",
+          "url": "https://www.salina-ks.gov/media/Bids/Tabulations/2026%20Chemical%20Bid%20Tab%20-%20WATER%20SYSTEM.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "hydrated 0.117 $/lb = 234 $/t",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        }
+      ],
+      "regional_spread": "Florida +30-60% vs Midwest (no local kilns; Carmeuse/Lhoist rail from AL/GA). FL quicklime ~470-600 $/t.",
+      "trend_2024_2026": "+5-18%/yr (energy, kiln consolidation). Producer-only market (Carmeuse, Lhoist, MLC, USLM, Graymont)."
+    },
+    {
+      "product": "Soda ash (dense)",
+      "unit": "$/ton",
+      "range_typical": "430-530 $/t",
+      "points": [
+        {
+          "buyer": "West Des Moines IA 2026",
+          "price": "0.222 $/lb = 444 $/t (2025 0.247, -10%)",
+          "url": "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/11172025%20packet/7cd%20-%20Bluey%20for%20Chemicals%202026%20Bids%20&%20Award%20Contracts.pdf"
+        },
+        {
+          "buyer": "Cocoa FL (2024 current)",
+          "price": "430 $/t (Genesis Alkali)",
+          "url": "https://govtribe.com/file/government-file/addendum-1-qa-dot-pdf-43"
+        }
+      ],
+      "trend_2024_2026": "-10% (global soda-ash glut, Chinese capacity)."
+    },
+    {
+      "product": "Sodium bisulfite 38-40%",
+      "unit": "$/gal; $/lb",
+      "range_typical": "2.82-4.10 $/gal; 0.299 $/lb",
+      "points": [
+        {
+          "buyer": "Lawrence KS 2025",
+          "price": "2.8175 (Thatcher) - 4.1033 $/gal",
+          "url": "https://lawrenceks.civicweb.net/document/428946/Consider%20awarding%20Request%20for%20Quotation%20Numbers.pdf?handle=E6E2A390989142D2BC44FDE91F2465BB"
+        },
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "3.248 $/gal",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "0.299 $/lb",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        }
+      ]
+    },
+    {
+      "product": "Orthophosphate / blended phosphate corrosion inhibitor",
+      "unit": "$/gal",
+      "range_typical": "5.77-17.77 $/gal (blend-dependent)",
+      "points": [
+        {
+          "buyer": "North Port FL 2026",
+          "price": "8.59 / 10.66 / 13.96 (AWC award, after pre-approval disqualifications) / 17.09 $/gal",
+          "url": "https://cityofnorthport.legistar.com/View.ashx?GUID=637BAC1D-7372-4D34-9E79-74404E7A05F3&ID=15846180&M=F"
+        },
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "35% ortho 5.768 - 17.77 $/gal",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "Lawrence KS 2025",
+          "price": "8.87 (Shannon) - 13.90 $/gal (7 bidders)",
+          "url": "https://lawrenceks.civicweb.net/document/428946/Consider%20awarding%20Request%20for%20Quotation%20Numbers.pdf?handle=E6E2A390989142D2BC44FDE91F2465BB"
+        },
+        {
+          "buyer": "Concord NC 2026",
+          "price": "liquid polyphosphate 0.836-1.15 $/lb",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Finance/Documents/RFP-RFQ-Bids/Bid2713-Bid%202713%20-%20Water%20Treatment%20Plant%20Chemicals%20-%20Tabulation1.pdf"
+        }
+      ],
+      "note": "3x spread; brand pre-approval (North Port disqualified 2 bidders) = barrier and margin. Lead & Copper Rule Improvements (LCRI) push demand up.",
+      "trend_2024_2026": "Stable."
+    },
+    {
+      "product": "Fluorosilicic acid 23-25%",
+      "unit": "$/lb",
+      "range_typical": "0.29-0.525 $/lb",
+      "points": [
+        {
+          "buyer": "Hardin Co. KY 2026",
+          "price": "0.30-0.33 $/lb (2025 0.27, +11%)",
+          "url": "https://hcwd.com/wp-content/uploads/2026_Chem-Bid_Summary.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "0.525 $/lb (2025 0.459, +14%)",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        },
+        {
+          "buyer": "Concord NC 2026",
+          "price": "0.40-0.45 $/lb (Univar)",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Finance/Documents/RFP-RFQ-Bids/Bid2713-Bid%202713%20-%20Water%20Treatment%20Plant%20Chemicals%20-%20Tabulation1.pdf"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "0.289 $/lb",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        }
+      ],
+      "note": "DEMAND RISK: Florida banned community water fluoridation (2025 law, effective July 2025); Utah also; others debating. Do not build a FL fluoride business.",
+      "trend_2024_2026": "+10-15% price, shrinking volume."
+    },
+    {
+      "product": "Liquid CO2",
+      "unit": "$/ton; $/lb",
+      "range_typical": "175-620 $/ton",
+      "points": [
+        {
+          "buyer": "West Des Moines IA 2026",
+          "price": "175 $/t (2025 400, -56%)",
+          "url": "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/11172025%20packet/7cd%20-%20Bluey%20for%20Chemicals%202026%20Bids%20&%20Award%20Contracts.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "0.089 $/lb = 178 $/t",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "378 $/t",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        },
+        {
+          "buyer": "North Port FL 2026",
+          "price": "0.29 $/lb = 580 $/t (Airgas, sole)",
+          "url": "https://cityofnorthport.legistar.com/View.ashx?GUID=637BAC1D-7372-4D34-9E79-74404E7A05F3&ID=15846180&M=F"
+        },
+        {
+          "buyer": "Osceola County FL 2025",
+          "price": "0.31 $/lb = 620 $/t (NexAir, sole)",
+          "url": "https://govtribe.com/file/government-file/5-q1-dot-detailed-bid-tab-dot-xlsx"
+        },
+        {
+          "buyer": "Cocoa FL (2024)",
+          "price": "470 $/t (Matheson)",
+          "url": "https://govtribe.com/file/government-file/addendum-1-qa-dot-pdf-43"
+        }
+      ],
+      "regional_spread": "Florida 2.5-3.5x Midwest (no ethanol-plant CO2 sources; industrial-gas oligopoly). Not a reseller product (cryogenic tank fleet).",
+      "trend_2024_2026": "Midwest collapsing, FL stable-high."
+    },
+    {
+      "product": "Potassium permanganate (KMnO4) / sodium permanganate 20-40%",
+      "unit": "$/lb",
+      "range_typical": "KMnO4 2.19-5.31 $/lb; NaMnO4 20% 1.07-1.65 $/lb (11.89-17.49 $/gal)",
+      "points": [
+        {
+          "buyer": "Hardin Co. KY 2026",
+          "price": "KMnO4 2.28-5.00 $/lb (2025 Brenntag 2.38)",
+          "url": "https://hcwd.com/wp-content/uploads/2026_Chem-Bid_Summary.pdf"
+        },
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "KMnO4 219-237 $/100 lb",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "Concord NC 2026",
+          "price": "KMnO4 4.61 (Univar) / 4.85 (Chemrite) / 5.31 (Brenntag) $/lb",
+          "url": "https://concordnc.gov/Portals/0/Concord/Departments/Finance/Documents/RFP-RFQ-Bids/Bid2713-Bid%202713%20-%20Water%20Treatment%20Plant%20Chemicals%20-%20Tabulation1.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "KMnO4 5.03 $/lb",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        },
+        {
+          "buyer": "Salina KS 2026",
+          "price": "NaMnO4 20% 1.07 (Shannon) - 1.65 $/lb",
+          "url": "https://www.salina-ks.gov/media/Bids/Tabulations/2026%20Chemical%20Bid%20Tab%20-%20WATER%20SYSTEM.pdf"
+        },
+        {
+          "buyer": "North Port FL 2026",
+          "price": "NaMnO4 20% 11.89 (Chemrite) - 17.49 $/gal",
+          "url": "https://cityofnorthport.legistar.com/View.ashx?GUID=637BAC1D-7372-4D34-9E79-74404E7A05F3&ID=15846180&M=F"
+        },
+        {
+          "buyer": "Corsicana TX FY26",
+          "price": "NaMnO4 3,320 $/t (Univar)",
+          "url": "https://www.cityofcorsicana.com/DocumentCenter/View/6469/Water-WWater-Chem-2026--092225"
+        }
+      ],
+      "note": "KMnO4 2.3x spread (2.19 vs 5.31) for same drum product = strong reseller opportunity (Carus is sole US producer; India import option).",
+      "trend_2024_2026": "Flat (Appleton 5.03 both years)."
+    },
+    {
+      "product": "Granular activated carbon (GAC), virgin & reactivated",
+      "unit": "$/lb",
+      "range_typical": "virgin 1.55-2.09 $/lb (with change-out), bulk supersacks 2.6-3.0 $/lb small lots; reactivated 0.95-1.43 $/lb",
+      "points": [
+        {
+          "buyer": "Sudbury Water District MA (3-yr)",
+          "date": "2025-02",
+          "price": "virgin re-agglomerated 1.84-2.09 (Calgon) / 2.15-2.85 $/lb; reactivated 0.95-1.43 $/lb",
+          "url": "https://www.sudburywater.com/wp-content/uploads/2025/02/IFB-25-12_Bid-Results-2-26-2025.pdf"
+        },
+        {
+          "buyer": "Metropolitan Domestic WID AZ FY26",
+          "price": "coconut 1.548 $/lb; bituminous 1.83 $/lb (Carbon Activated) + change-out",
+          "url": "https://metrowater.com/wp-content/uploads/05122025-GAC.pdf"
+        },
+        {
+          "buyer": "Oklahoma City OCWUT 07-26",
+          "date": "2025-09",
+          "price": "Calgon F820 5,455 $/t (2.73 $/lb); Carbon Activated 6,036.88 $/t (3.02 $/lb)",
+          "url": "https://www.okc.gov/files/7116cf06-13ec-4bab-8a2b-138aeb4d21f2/BID_OCWUT_07-26.pdf"
+        },
+        {
+          "buyer": "Fayetteville PWC NC (large PFAS project)",
+          "date": "2025-09",
+          "price": "virgin installed 48.35-83.57 $/cf (~1.7-3.0 $/lb at ~28 lb/cf); reactivated 42-52 $/cf",
+          "url": "https://www.faypwc.com/wp-content/uploads/2025/09/Certified-Bid-Tab-PWC2526020.pdf"
+        }
+      ],
+      "note": "PFAS rule-driven demand boom (EPA PFAS MCLs; compliance dates under review/extension) -> large multi-$M contracts favour Calgon/Kuraray, Jacobi, Norit/Cabot, Carbon Activated. Small-system change-outs are the entry niche.",
+      "trend_2024_2026": "+5-10%/yr; virgin coal-based tight, coconut supply from India/Sri Lanka/Philippines."
+    },
+    {
+      "product": "Powdered activated carbon (PAC)",
+      "unit": "$/lb",
+      "range_typical": "0.89-2.15 $/lb",
+      "points": [
+        {
+          "buyer": "Peace River Manasota RWSA FL",
+          "date": "2026-03",
+          "price": "3,000 $/t = 1.50 $/lb (Jacobi award; prior 3,680 = -18%); bids 2,500-3,200 $/t (Ingevity, Norit, Calgon, Arq, Kemira, Carbon Activated)",
+          "url": "https://www.regionalwater.org/uploads/BoardMeetings/2026/20260401/CA4.pdf"
+        },
+        {
+          "buyer": "Hardin Co. KY 2026",
+          "price": "bags 1.11-1.60 $/lb; bulk tanker 0.98-1.04 $/lb; wood-based 1.16-1.56 $/lb",
+          "url": "https://hcwd.com/wp-content/uploads/2026_Chem-Bid_Summary.pdf"
+        },
+        {
+          "buyer": "Lorain OH 2026",
+          "price": "1,300-1,950 $/1000 lb (1.30-1.95 $/lb)",
+          "url": "https://public.destinyhosted.com/loraidocs/2026/BOC/20260401_1479/12322_2026_-_Bid_Tabulation_Chemicals_%28November%29.pdf"
+        },
+        {
+          "buyer": "Corsicana TX FY26",
+          "price": "2,400 $/t (1.20 $/lb)",
+          "url": "https://www.cityofcorsicana.com/DocumentCenter/View/6469/Water-WWater-Chem-2026--092225"
+        },
+        {
+          "buyer": "Paris TX FY26",
+          "price": "0.89 (Donau) - 1.20 $/lb; FY25 0.85",
+          "url": "https://paristexas.gov/DocumentCenter/View/7580/Vendor-Bid-Tabulation-for-Water-and-Wastewater-Chemical"
+        },
+        {
+          "buyer": "Fremont OH 2026",
+          "price": "1.98-2.15 $/lb",
+          "url": "https://www.fremontohio.org/wp-content/uploads/2025/10/2026-Chemicals-Bid-Tab.pdf"
+        },
+        {
+          "buyer": "Appleton WI 2026",
+          "price": "1.05 $/lb",
+          "url": "https://cityofappleton.legistar.com/View.ashx?GUID=865B5104-9435-407C-A16F-8977A5BC6702&ID=15027348&M=F"
+        }
+      ],
+      "note": "Often awarded on performance (jar test, cost per removal - PRMRWSA used dose-normalized ranking), not lowest $/lb.",
+      "trend_2024_2026": "Mixed: -18% FL 2026, +5% TX."
+    },
+    {
+      "product": "Road (rock) salt, deicing",
+      "unit": "$/ton delivered",
+      "range_typical": "63.61-102 $/t (Northeast state/coop contracts 2025-26)",
+      "points": [
+        {
+          "buyer": "NYS OGS Award 23409 (2025-26)",
+          "price": "treated salt 71.88 (American Rock Salt) - 102 (Apalachee) $/t by county; Cargill 77.98-95.15",
+          "url": "https://rocklandgov.com/PC/include/pdfDown.php?bno=SC%20PC70875&id=3351"
+        },
+        {
+          "buyer": "Montgomery County PA consortium 2025-26",
+          "price": "63.61 $/t delivered, 63.00 picked up (Morton)",
+          "url": "https://www.westnorritontwp.org/AgendaCenter/ViewFile/Item/4100?fileID=3153"
+        }
+      ],
+      "note": "No Florida demand. Filed-requirement contracts (buyer takes min 50%, supplier must deliver up to 120%) => supplier carries inventory risk; port stockpiles needed. Importers (Apalachee etc.) source Egypt/Chile/Morocco/Mexico.",
+      "trend_2024_2026": "Down after mild winters (2023-25)."
+    },
+    {
+      "product": "Softener / water-conditioning salt",
+      "unit": "$/lb; $/ton",
+      "range_typical": "0.25 $/lb (~500 $/t) bagged delivered",
+      "points": [
+        {
+          "buyer": "West Des Moines IA 2026",
+          "price": "0.251 $/lb (Culligan), unchanged vs 2025",
+          "url": "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/11172025%20packet/7cd%20-%20Bluey%20for%20Chemicals%202026%20Bids%20&%20Award%20Contracts.pdf"
+        }
+      ],
+      "note": "Cargill/Compass/Morton dominate; minimal margin except small-lot delivered bagged."
+    }
+  ],
+  "trend_summary_2024_2026": {
+    "down": [
+      "caustic soda (-10 to -33%)",
+      "soda ash (-10%)",
+      "ferric chloride (-5 to -8%)",
+      "sodium hypochlorite Midwest (-10%)",
+      "CO2 Midwest (-56%)",
+      "chlorine TX (-5 to -20% vs 2024 peak)",
+      "PAC carbon FL (-18%)"
+    ],
+    "flat": [
+      "polymers",
+      "KMnO4",
+      "softener salt",
+      "sodium bisulfite"
+    ],
+    "up": [
+      "quicklime FL (+16-18%)",
+      "PACl/ACH (+3 to +21%)",
+      "ferric sulfate (+5-11%)",
+      "fluorosilicic acid (+11-14%)",
+      "hypochlorite Florida (+4 to +8.5%)",
+      "GAC (+5-10%)"
+    ],
+    "aggregate": "South Martin Regional Utility FL: FY25/26 aggregated +4% after +50% shock in 2022 (https://jupiterislandfl.portal.civicclerk.com/event/246/files/attachment/927)."
+  },
+  "tariff_regime": {
+    "IEEPA_reciprocal_and_fentanyl": "STRUCK DOWN by SCOTUS (Learning Resources v. Trump, 20 Feb 2026); collection ended 24 Feb 2026; refunds via CBP CAPE; class action Freestyle World v. US pending at CIT (motion 10 Nov 2026). Source: https://www.dripcapital.com/en-us/resources/blog/supreme-court-tariff-case ; https://mlq.ai/news/importers-ask-trade-court-to-order-automatic-tariff-refunds-for-all-330000-ieepa-payers-not-just-those-who-sued/",
+    "Section_122": "10% surcharge 24 Feb - 24 Jul 2026, EXPIRED.",
+    "Section_301_forced_labor (since 24 Jul 2026, 91 FR 47318, indefinite)": {
+      "10pct_plus_MFN": [
+        "India",
+        "Mexico (non-USMCA goods)",
+        "Canada (non-USMCA)",
+        "Indonesia",
+        "Malaysia",
+        "Pakistan",
+        "Bangladesh",
+        "Sri Lanka",
+        "UK",
+        "Argentina",
+        "others"
+      ],
+      "12.5pct_plus_MFN": [
+        "China (stacks on old 301)",
+        "Turkiye",
+        "Vietnam",
+        "Thailand",
+        "Philippines",
+        "Saudi Arabia",
+        "UAE",
+        "Qatar",
+        "Oman",
+        "Kuwait",
+        "Bahrain",
+        "Egypt",
+        "Morocco",
+        "Israel",
+        "Brazil",
+        "Chile",
+        "Australia",
+        "South Africa",
+        "Russia"
+      ],
+      "EU_and_Taiwan": "combined MFN+301 = 10% (if MFN <10%)",
+      "Japan_Korea_Switzerland": "combined MFN+301 = 12.5%",
+      "exempt": "USMCA-qualifying goods of Canada/Mexico; Sec.232 goods; country-specific ART exemption lists (EU, UK, Malaysia, etc. - check Annex by HTS)",
+      "sources": [
+        "https://www.gtlaw.com/en/insights/2026/7/ustr-imposes-new-section-301-forced-labor-tariffs-on-imports-from-60-economies",
+        "https://www.strtrade.com/trade-news-resources/tariff-actions-resources/section-301-investigations-forced-labor",
+        "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/421d887"
+      ]
+    },
+    "Section_301_China_Lists_1-4A": "Still in force: 25% (Lists 1-3) / 7.5% (List 4A). Most ch.28 inorganic chemicals, 3802 activated carbon and 3906 acrylic polymers are on List 3 / List 2 at 25%. Source: https://learning.usitc.gov/hts-docs/documents/China%20Tariffs.pdf",
+    "US_China_truce": "US documented expiry 10 Nov 2026; China extended its suspension 2 months (to ~10 Jan 2027); US formalization not found as of 9 Nov 2026 -> risk of new China measures. https://tariffos.com/en/measures/us-china-reciprocal-truce",
+    "fees": "MPF 0.3464% (min $34.58 / max ~$651 per entry), HMF 0.125% (ocean); continuous customs bond ~$50k minimum (premium ~$400-800/yr)."
+  },
+  "import_duties": [
+    {
+      "product": "Aluminum sulfate",
+      "hts": "2833.22.00",
+      "mfn": "Free",
+      "china_total": "25% (301) + 12.5% = 37.5%",
+      "india": "10%",
+      "turkey_gcc": "12.5%",
+      "eu": "10%",
+      "mexico_usmca": "0%"
+    },
+    {
+      "product": "Ferric chloride",
+      "hts": "2827.39.55 (iron chlorides)",
+      "mfn": "3.7%",
+      "china_total": "3.7+25+12.5 = 41.2%",
+      "india": "13.7%",
+      "turkey_gcc": "16.2%",
+      "eu": "10%",
+      "mexico_usmca": "0%",
+      "source": "https://hts.usitc.gov/search?query=2841"
+    },
+    {
+      "product": "Ferric sulfate",
+      "hts": "2833.29 (verify 8-digit, ~2833.29.40/.51)",
+      "mfn": "~Free-3.7% (verify)",
+      "china_total": "~37.5-41%",
+      "india": "~10-14%"
+    },
+    {
+      "product": "PACl / ACH",
+      "hts": "2827.32.00 (Free) or 2827.49.00 (5.5%) - classification dispute risk",
+      "mfn": "0 / 5.5%",
+      "china_total": "37.5% / 43%",
+      "india": "10 / 15.5%",
+      "eu": "10%",
+      "source": "https://www.epa.gov/system/files/documents/2023-03/Polyaluminum%20Chloride%20Supply%20Chain%20Profile.pdf"
+    },
+    {
+      "product": "Polyacrylamide / cationic polymers (primary form)",
+      "hts": "3906.90.50 (cationic copolymers may fall in 3906.90.50 or 3911.90)",
+      "mfn": "4.2%",
+      "china_total": "4.2+25+12.5 = 41.7%",
+      "india": "14.2%",
+      "korea": "12.5% combined",
+      "eu": "10% combined (SNF France)",
+      "source": "https://learning.usitc.gov/hts-docs/documents/China%20Tariffs.pdf"
+    },
+    {
+      "product": "Sodium hypochlorite",
+      "hts": "2828.90.00",
+      "mfn": "3.7%",
+      "note": "not economic to import (85% water); FIFRA pesticide"
+    },
+    {
+      "product": "Calcium hypochlorite",
+      "hts": "2828.10.00",
+      "mfn": "2.4%",
+      "china_total": "prohibitive: AD+CVD orders + 25% + 12.5%",
+      "india": "12.4%",
+      "note": "FIFRA registration + EPA Notice of Arrival required"
+    },
+    {
+      "product": "Chlorine",
+      "hts": "2801.10.00",
+      "mfn": "Free",
+      "note": "TIH - not importable by a trader"
+    },
+    {
+      "product": "Caustic soda solution",
+      "hts": "2815.12.00",
+      "mfn": "Free",
+      "note": "imports only by vessel into terminals (Olin/Oxy/Westlake price-setters)"
+    },
+    {
+      "product": "Quicklime / hydrated lime",
+      "hts": "2522.10.00 / 2522.20.00",
+      "mfn": "Free",
+      "mexico_usmca": "0% if USMCA-qualifying"
+    },
+    {
+      "product": "Soda ash",
+      "hts": "2836.20.00",
+      "mfn": "1.2%",
+      "turkey": "13.7% (Turkey is large exporter)"
+    },
+    {
+      "product": "Sodium bisulfite / metabisulfite",
+      "hts": "2832.10.00",
+      "mfn": "Free",
+      "china_total": "37.5%"
+    },
+    {
+      "product": "Phosphates (ortho/poly blends)",
+      "hts": "2835.31 / 2835.39 / 3824.99",
+      "mfn": "~Free-6.5% (verify per line)",
+      "note": "blends usually made domestically by toll blenders"
+    },
+    {
+      "product": "Fluorosilicic acid / sodium fluorosilicate",
+      "hts": "2811.19.61 / 2826.90.90",
+      "mfn": "4.2% (verify)",
+      "note": "FL demand banned"
+    },
+    {
+      "product": "Carbon dioxide",
+      "hts": "2811.21.00",
+      "mfn": "3.7%",
+      "note": "not importable economically"
+    },
+    {
+      "product": "Potassium permanganate",
+      "hts": "2841.61.00",
+      "mfn": "5%",
+      "china_total": "AD order (verify) + 25% + 12.5%",
+      "india": "15%",
+      "eu": "10%",
+      "source": "https://gov.house/tariff-lookup/2841"
+    },
+    {
+      "product": "Sodium permanganate",
+      "hts": "2841.69.00.10",
+      "mfn": "5%",
+      "india": "15%"
+    },
+    {
+      "product": "Activated carbon (GAC/PAC)",
+      "hts": "3802.10.00 (.10 coal / .20 coconut / .50 other)",
+      "mfn": "4.8%",
+      "china_total": "4.8 + 25 + 12.5 = 42.3% + AD 2.42 USD/kg China-wide",
+      "india": "14.8%",
+      "sri_lanka": "~14.8% (check: Sri Lanka in 10% group)",
+      "philippines": "17.3%",
+      "indonesia": "14.8%",
+      "eu": "10%",
+      "source": "https://hts.usitc.gov/search?query=38021000"
+    },
+    {
+      "product": "Salt (rock, solar)",
+      "hts": "2501.00.00",
+      "mfn": "Free",
+      "egypt_chile_morocco": "12.5%",
+      "mexico_usmca": "0% (ESSA solar salt, qualifies)",
+      "india": "10%"
+    },
+    {
+      "product": "Citric acid",
+      "hts": "2918.14.00",
+      "mfn": "6%",
+      "china": "AD/CVD + 25% + 12.5% = prohibitive"
+    }
+  ],
+  "logistics": {
+    "ocean_freight_2026-11": {
+      "Shanghai_New_York_FEU": "9,020 USD (Drewry WCI 12 Nov 2026; +132% y/y); real bookings low-7,000s",
+      "Shanghai_Houston": "20GP ~9,135; 40GP ~11,937 USD (indicative quotes)",
+      "SCFI_FarEast_USEC": "9,387 USD/FEU (13 Nov 2026)",
+      "sources": [
+        "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+        "https://www.forwardernews.com/news/2026-11-13-scfi-falls-bookings-below-index",
+        "https://www.rateseek.cn/en/fcl/cnsha-ushou"
+      ],
+      "implication": "20' box carries ~20-22 t of dense chemical; at 7-9k USD/box freight = 350-450 USD/t (0.17-0.22 USD/lb). This alone kills import economics for alum, ferric, caustic, lime, salt, soda ash, bisulfite in containers. India/Middle East -> US East Coast lanes est. 3,000-5,000 USD/FEU (model estimate, verify)."
+    },
+    "drayage_florida": "Port Everglades / Jacksonville / Tampa -> inland FL: ~600-1,200 USD per container incl. chassis; hazmat surcharge +150-400 USD (model estimate).",
+    "ISO_tank": "Asia->US Gulf ISO tank (20-24 m3) ~ 4,000-7,000 USD one-way + 1,000-2,000 repositioning/cleaning (estimate) => 200-350 USD/t; only for high-value liquids (polymer emulsion, ACH specialty, NaMnO4).",
+    "bulk_vessel_terminal": "Bulk parcel tankers / dry bulk (salt, caustic, soda ash) need terminal lease (Odfjell/Kinder Morgan/Vopak Houston, Tampa, JAX) ~ 15-30 USD/m3/month tank lease + throughput fees; minimum lots 2,000-5,000 t - not feasible for a start-up LLC.",
+    "transload_warehouse": "Hazmat-capable 3PL warehouse in FL (Class 8 corrosives, 5.1 oxidizers): ~20-35 USD/pallet/month + in/out 10-15 USD/pallet (estimate).",
+    "domestic_bulk_truck": "Tank truck 4,000-4,500 gal: ~4-7 USD/loaded mile; typical 150-mile delivery 800-1,200 USD/load (estimate)."
+  },
+  "landed_cost_examples": [
+    {
+      "case": "GAC coconut 8x30 from India (NSF-60 listed mill), 40HC ~18 t in supersacks to Port Everglades",
+      "fob_usd_lb": 0.8,
+      "freight_usd_lb": 0.11,
+      "duty_pct": 14.8,
+      "duty_usd_lb": 0.12,
+      "fees_broker_drayage_storage_usd_lb": 0.07,
+      "landed_usd_lb": 1.1,
+      "us_bid_benchmark_usd_lb": "1.55-2.09 (coconut/virgin, small systems; change-out service extra)",
+      "gross_margin_pct_on_bid": "20-35% (before change-out labor)",
+      "verdict": "GO - best import case"
+    },
+    {
+      "case": "PAC (powdered carbon) from India, 50-lb bags / supersacks",
+      "fob_usd_lb": 0.65,
+      "freight_usd_lb": 0.11,
+      "duty_pct": 14.8,
+      "landed_usd_lb": 0.92,
+      "us_bid_benchmark_usd_lb": "0.89-2.15 (FL 1.50)",
+      "gross_margin_pct_on_bid": "0-35%; performance jar-test decides",
+      "verdict": "SELECTIVE"
+    },
+    {
+      "case": "Activated carbon from China (no separate rate)",
+      "duty": "42.3% + 2.42 USD/kg (=1.10 USD/lb) AD",
+      "verdict": "NO-GO; separate-rate exporters (0-0.84 USD/kg) still +42.3% ad valorem"
+    },
+    {
+      "case": "KMnO4 from India (drums)",
+      "fob_usd_lb": 1.2,
+      "freight_usd_lb": 0.15,
+      "duty_pct": 15,
+      "landed_usd_lb": 1.58,
+      "us_bid_benchmark_usd_lb": "2.19-5.31",
+      "gross_margin_pct_on_bid": "25-50% vs typical 4.6-5.0 bids",
+      "verdict": "GO only if mill has NSF/ANSI/CAN 60 listing (verify) - otherwise buy Carus via distributor"
+    },
+    {
+      "case": "Cationic PAM emulsion from China ISO tank",
+      "duty_pct": 41.7,
+      "verdict": "NO-GO; source from SNF/Polydyne (GA), Solenis, Kemira or Korea/EU"
+    },
+    {
+      "case": "Liquid alum / ferric / caustic / hypo / lime by container",
+      "verdict": "NO-GO - freight > product value; buy domestic"
+    }
+  ],
+  "adcvd": [
+    {
+      "product": "Certain activated carbon (steam-activated GAC/PAC) - China",
+      "case": "A-570-904",
+      "status": "In force (since 2007)",
+      "china_wide_rate": "2.42 USD/kg (~1.10 USD/lb)",
+      "separate_rates": "AR 2023-24 amended final (2 Jun 2026): Datong Juqiang 0.00, Ningxia Huahui 0.04, non-selected 0.04 USD/kg; AR 2024-25 prelim (13 Jul 2026): 0.83-0.86 USD/kg",
+      "scope_note": "Excludes chemically-activated carbon and reactivated carbon; includes PAC, GAC, pellets; transshipment via third countries => rate of Chinese supplier",
+      "sources": [
+        "https://www.federalregister.gov/documents/2026/06/02/2026-10940/certain-activated-carbon-from-the-peoples-republic-of-china-amended-final-results-of-antidumping",
+        "https://www.federalregister.gov/documents/2026/07/13/2026-14028/certain-activated-carbon-from-the-peoples-republic-of-china-preliminary-results-and-rescission-in"
+      ],
+      "petitioners": "Calgon Carbon, Norit/Cabot"
+    },
+    {
+      "product": "Calcium hypochlorite - China",
+      "case": "A-570-008 / C-570-009",
+      "status": "Continued after 2nd sunset, effective 10 Feb 2026",
+      "rates": "AD China-wide ~210.52%; CVD ~65.85% (from original orders - verify_required)",
+      "scope_note": "Any form incl. tablets, >=10% available chlorine, blended",
+      "sources": [
+        "https://www.federalregister.gov/documents/2026/02/13/2026-02951/calcium-hypochlorite-from-the-peoples-republic-of-china-continuation-of-antidumping-and",
+        "https://www.usitc.gov/press_room/news_release/2026/er0129_68060.htm"
+      ]
+    },
+    {
+      "product": "Chlorinated isocyanurates (TCCA/SDIC) - China",
+      "case": "A-570-898 / C-570-991",
+      "status": "In force; CVD continued 21 Nov 2025",
+      "rates": "AD China-wide 285.63%; CVD Heze Huayi 18.71% (AR 2023 final, 13 Nov 2026)",
+      "sources": [
+        "https://www.federalregister.gov/documents/2026/09/16/2026-18925/chlorinated-isocyanurates-from-the-peoples-republic-of-china-preliminary-results-and-rescission-in",
+        "https://www.federalregister.gov/documents/2026/11/13/2026-23079/chlorinated-isocyanurates-from-the-peoples-republic-of-china-final-results-of-countervailing-duty"
+      ]
+    },
+    {
+      "product": "Chlorinated isocyanurates - Japan",
+      "case": "A-588-878 (2020)",
+      "status": "In force (verify_required)",
+      "rates": "verify"
+    },
+    {
+      "product": "Potassium permanganate - China",
+      "case": "A-570-001 (1984)",
+      "status": "Believed in force (verify_required via ITA ADCVD case search)",
+      "rates": "China-wide ~128.94% (verify)"
+    },
+    {
+      "product": "Citric acid & citrate salts - China (also Belgium, Colombia, Thailand orders 2018)",
+      "case": "A-570-937 / C-570-938; A-423-813, A-301-803, A-549-833",
+      "status": "China orders in force; others verify",
+      "rates": "China AD ~156.87% (verify)"
+    },
+    {
+      "product": "Sodium gluconate / gluconic acid - China, France",
+      "case": "A-570-085 etc. (2019)",
+      "status": "verify",
+      "relevance": "minor (scale inhibitor blends)"
+    },
+    {
+      "product": "Polyacrylamide, PACl, ferric, alum, caustic, permanganate (India), GAC (India/Sri Lanka/Philippines)",
+      "status": "NO US AD/CVD orders found",
+      "note": "Check ITA 'Initiations' monthly; Calgon/Cabot actively litigate carbon."
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "USALCO",
+      "products": [
+        "alum",
+        "PACl/ACH",
+        "sodium aluminate"
+      ],
+      "plants_near_FL": "Jacksonville FL? / Baltimore / Charleston area (verify)",
+      "bids_direct": true,
+      "sells_to_resellers": "Rarely for municipal bids where it bids itself; possible for small/remote lots",
+      "note": "Appears as direct bidder (Lorain, Concord, Abilene, Lancaster)."
+    },
+    {
+      "name": "Chemtrade",
+      "products": [
+        "alum",
+        "ferric sulfate",
+        "LAS",
+        "sodium bisulfite",
+        "PACl"
+      ],
+      "bids_direct": true,
+      "sells_to_resellers": "Limited; supplies distributors in non-core regions",
+      "note": "Lowest alum in Carolinas 348.58 $/dry t (Concord 2026)."
+    },
+    {
+      "name": "Kemira",
+      "products": [
+        "ferric chloride/sulfate",
+        "PACl",
+        "polymers"
+      ],
+      "bids_direct": true,
+      "sells_to_resellers": "Yes via distributors (Brenntag/Univar) for small accounts"
+    },
+    {
+      "name": "Pencco (TX)",
+      "products": [
+        "ferric chloride",
+        "ferric sulfate",
+        "ferrous chloride"
+      ],
+      "bids_direct": true
+    },
+    {
+      "name": "C&S Chemicals (GA)",
+      "products": [
+        "alum",
+        "copper sulfate"
+      ],
+      "bids_direct": true
+    },
+    {
+      "name": "Hawkins",
+      "products": [
+        "full line",
+        "mini-bulk route delivery"
+      ],
+      "role": "manufacturer-distributor; competitor",
+      "gross_margin": "22.6% FY2026 (Water Treatment segment op. margin 12.5%)",
+      "source": "https://dcfanalyst.com/blogs/overview/hwkn-overview"
+    },
+    {
+      "name": "Univar Solutions (Apollo)",
+      "products": [
+        "full line"
+      ],
+      "role": "distributor; bids everywhere (Dover FL office)",
+      "sells_to_resellers": "Yes - will quote a reseller, but rarely below its own bid",
+      "gross_margin": "~24-25%"
+    },
+    {
+      "name": "Brenntag (Mid-South, Southwest, Great Lakes)",
+      "products": [
+        "full line"
+      ],
+      "role": "distributor; bids",
+      "gross_margin": "24.9% group Q3 2026",
+      "source": "https://corporate.brenntag.com/en/media/news/brenntag-reports-q3-financial-results.html"
+    },
+    {
+      "name": "Harcros, Thatcher, Shannon, Chemrite (GA), Riverland Trading (SC), Colonial Chemical, Oltrin/Trinity, JCI Jones, PVS DX/PVS Minibulk",
+      "role": "regional distributors / traders - Chemrite and Riverland are lean 'bid-trader' models similar to ISP Group and win lots in KS/TX/FL",
+      "note": "Benchmark competitors."
+    },
+    {
+      "name": "Odyssey Manufacturing (Tampa), Allied Universal (Miami)",
+      "products": [
+        "sodium hypochlorite",
+        "caustic"
+      ],
+      "role": "Florida bleach-plant duopoly",
+      "verdict": "Do not compete in bulk hypo in FL."
+    },
+    {
+      "name": "Olin, OxyChem, Westlake",
+      "products": [
+        "chlorine",
+        "caustic"
+      ],
+      "role": "producers; sell bulk only to distributors/large accounts"
+    },
+    {
+      "name": "Carus (IL)",
+      "products": [
+        "KMnO4",
+        "NaMnO4",
+        "phosphate blends (Carus 8500 etc.)"
+      ],
+      "role": "sole US permanganate producer; sells via distributors and direct",
+      "sells_to_resellers": "Yes via distributor program"
+    },
+    {
+      "name": "SNF Polydyne (Riceboro GA)",
+      "products": [
+        "polymers"
+      ],
+      "bids_direct": true,
+      "note": "Very aggressive direct bidder (Lawrence, Salina, Lewisville, Sweetwater)."
+    },
+    {
+      "name": "Solenis, Nalco/Ecolab, Veolia",
+      "products": [
+        "polymers",
+        "specialties",
+        "cal hypo"
+      ],
+      "role": "specialty, service-bundled"
+    },
+    {
+      "name": "Calgon Carbon (Kuraray), Jacobi, Norit (Cabot), Carbon Activated Corp, Ingevity, Arq, Donau Carbon",
+      "products": [
+        "GAC",
+        "PAC"
+      ],
+      "bids_direct": true,
+      "note": "Carbon Activated Corp & Jacobi import (coconut from Asia) - proves import model works."
+    },
+    {
+      "name": "Carmeuse, Lhoist, Mississippi Lime, USLM/Texas Lime, Graymont",
+      "products": [
+        "lime"
+      ],
+      "verdict": "producer-only; skip"
+    },
+    {
+      "name": "Cargill, Compass Minerals, Morton, American Rock Salt, Apalachee (importer)",
+      "products": [
+        "road salt",
+        "softener salt"
+      ],
+      "verdict": "skip in FL"
+    },
+    {
+      "name": "Import sources (to qualify)",
+      "list": [
+        {
+          "country": "India",
+          "products": [
+            "coconut GAC/PAC",
+            "KMnO4",
+            "PACl powder",
+            "PAM"
+          ],
+          "tariff": "MFN + 10%",
+          "note": "Require NSF/ANSI/CAN 60 listing of exact plant"
+        },
+        {
+          "country": "Sri Lanka / Philippines / Indonesia",
+          "products": [
+            "coconut GAC (Haycarb, etc.)"
+          ],
+          "tariff": "MFN + 10-12.5%"
+        },
+        {
+          "country": "Mexico",
+          "products": [
+            "salt (USMCA 0%)",
+            "ferric?"
+          ],
+          "tariff": "0% if USMCA-qualifying"
+        },
+        {
+          "country": "EU",
+          "products": [
+            "polymers (SNF FR)",
+            "PACl (Kemira FI)",
+            "specialty"
+          ],
+          "tariff": "10% combined"
+        },
+        {
+          "country": "Turkey / GCC",
+          "products": [
+            "soda ash",
+            "caustic flakes"
+          ],
+          "tariff": "MFN + 12.5%",
+          "note": "only bulk-vessel scale"
+        },
+        {
+          "country": "China",
+          "verdict": "Avoid: 301 (25%) + 12.5% + AD on carbon/cal-hypo/isos; plus truce-expiry risk"
+        }
+      ]
+    }
+  ],
+  "compliance": {
+    "NSF_ANSI_CAN_60": {
+      "required": "Required/referenced by 49 states for all direct additives; nearly every bid demands certificate + NSF mark + MUL on label/BOL.",
+      "who_holds": "Manufacturer, per product per production facility.",
+      "can_reseller_use_manufacturer_listing": "YES if product is shipped in the ORIGINAL SEALED container/bulk load from the certified facility with the certified company/product name, facility and MUL on label/BOL (drop-ship or sealed warehousing allowed). NO if reseller repackages, dilutes, blends, transfers or relabels off-site - then reseller needs its own NSF 60 distributor certification (annual audit + sample testing).",
+      "private_label": "'Another Name For' (ANF) listing: private label applied at the certified plant, via 3-party agreement manufacturer-distributor-NSF; cheapest way to sell under ISP Group brand.",
+      "certifiers": [
+        "NSF",
+        "UL Solutions",
+        "Water Quality Association (WQA)",
+        "IAPMO",
+        "CSA"
+      ],
+      "cost_estimate": "Own distributor/ANF listing ~5-15k USD initial + ~3-8k/yr per site/product family (estimate; get NSF quote)",
+      "sources": [
+        "https://www.nsf.org/knowledge-library/faqs-on-nsf-ansi-60",
+        "https://www.in.gov/idem/cleanwater/files/infosheet_dw_nsf-certification.pdf"
+      ]
+    },
+    "AWWA_standards": {
+      "B403": "Aluminum sulfate (liquid/ground/lump)",
+      "B407": "Liquid ferric chloride",
+      "B406": "Ferric sulfate",
+      "B408": "Liquid polyaluminum chloride",
+      "B451": "Poly(diallyldimethylammonium chloride) - polyDADMAC",
+      "B453": "Polyacrylamide",
+      "B300": "Hypochlorites (sodium & calcium)",
+      "B301": "Liquid chlorine",
+      "B501": "Sodium hydroxide (caustic soda)",
+      "B510": "Carbon dioxide",
+      "B302": "Ammonium sulfate",
+      "B512": "Sulfur dioxide",
+      "B600": "Powdered activated carbon",
+      "B604": "Granular activated carbon",
+      "B605": "Reactivated GAC",
+      "B603": "Permanganates",
+      "B701/B702/B703": "Sodium fluoride / sodium fluorosilicate / fluorosilicic acid",
+      "B502-B505": "Sodium/zinc/ortho/poly phosphates (B502 sodium polyphosphate, B503 sodium ortho, B505 sodium hexametaphosphate, B506 zinc ortho)",
+      "practice": "Supplier must deliver COA per AWWA spec per load; utilities may test and reject. Get current editions (AWWA store, ~70-120 USD each).",
+      "B201": "Soda ash",
+      "B202": "Quicklime and hydrated lime"
+    },
+    "Buy_American": {
+      "federal_BAA_FAR_25": "Applies to direct federal purchases (e.g., military bases, VA, federal parks) - domestic end products; chemicals manufactured in US qualify; imports need exceptions.",
+      "BABA_IIJA_2021": "Applies to iron/steel, manufactured products and construction materials INCORPORATED into federally funded infrastructure (SRF). Consumable O&M chemicals are generally NOT covered; GAC/filter media in a capital project may be treated as part of the project - check EPA SRF guidance & the specific spec.",
+      "AIS": "American Iron & Steel for SRF - not relevant to chemicals.",
+      "state_local": "Florida s.287.084: preference applied against out-of-state bidders whose home state grants preference (reciprocal) - FL-based ISP Group benefits in FL. Many TX/FL cities grant 5% local-vendor preference (e.g., Abilene). Small/minority business programs (FL OSD certification, county SBE) can add points/set-asides."
+    },
+    "bonds": {
+      "bid_bond": "Typical 5% of bid value (some use cashier's check).",
+      "performance_bond": "Often 100% of annual contract value or a fixed sum (e.g., 10-25k) for chemical supply; many small-city bids require none.",
+      "new_LLC_reality": "Surety underwrites owner credit + financials; start-up gets 'credit-based' small-bond program up to ~250-500k at 2-4% premium, often with personal indemnity and possibly collateral. SBA Surety Bond Guarantee program covers contracts up to 9M (14M federal) - helps new firms.",
+      "cost_estimate": "Premium 1.5-3% of bonded amount for first 2-3 years."
+    },
+    "insurance": {
+      "general_liability": "1M per occurrence / 2M aggregate (standard bid requirement; some FL counties 2M/4M + umbrella 5M)",
+      "auto": "1M CSL standard; carriers hauling bulk hazmat need FMCSA minimum 5M (certain hazmat in bulk, 49 CFR 387.9) or 1M (other placarded hazmat) - if ISP uses third-party carriers, require their COIs and add hired/non-owned auto 1M",
+      "pollution": "Contractors/transportation pollution liability 1-5M (often required for bulk chemical deliveries)",
+      "products_liability": "Included in GL; confirm no chemical exclusion",
+      "workers_comp": "Statutory (FL: required at 4+ employees non-construction)",
+      "budget": "~15-40k USD/yr for a lean trading LLC with no owned trucks (estimate)"
+    },
+    "hazmat_DOT": {
+      "PHMSA_registration": "Required for offerors of placarded hazmat (49 CFR 107.601). 2026-27 fee: 275 USD small business / 2,600 others (incl. 25 processing). Electronic only.",
+      "training": "49 CFR 172.704 hazmat employee training every 3 years for anyone preparing shipping papers/BOL, incl. ISP staff acting as 'offeror'.",
+      "security_plan": "49 CFR 172.800 if offering bulk quantities of certain classes (e.g., chlorine, 5.1 oxidizers like cal-hypo in large lots).",
+      "FMCSA_HMSP": "Hazmat Safety Permit only for TIH (chlorine, SO2, anhydrous ammonia) etc. - avoid these products.",
+      "carrier_vetting": "Use carriers with USDOT/MC authority, satisfactory safety rating, hazmat endorsement drivers, tank-wash certificates (food/NSF-grade dedicated trailers for potable chemicals).",
+      "sources": [
+        "https://www.phmsa.dot.gov/registration/registration-overview"
+      ]
+    },
+    "EPA_TSCA_import": "Importer must certify TSCA compliance on each chemical import (positive certification; 19 CFR 12.118-12.127, 40 CFR 707 Subpart B) - substances must be on TSCA Inventory (all listed commodities are). Mixtures/blends: verify every component.",
+    "EPA_FIFRA": "Hypochlorites, cal-hypo tablets, chlorine, copper sulfate (algaecide claims) and some disinfectants are pesticides: product must be EPA-registered, producing establishment registered, and importer files EPA Notice of Arrival (Form 3540-1) before entry; state pesticide registration (FL FDACS) to sell.",
+    "OSHA_SDS_GHS": "SDS (GHS rev.) for each product, English labels; SDS submitted with bids.",
+    "EPCRA_Tier_II": "If storing >= threshold (10,000 lb or EHS TPQ) at a FL warehouse - Tier II report to FDEM by 1 Mar.",
+    "CBP": "Importer of record number, continuous bond, licensed customs broker; ISF (10+2) for ocean.",
+    "FL_registration": "Sunbiz LLC active, FEIN, W-9, FL sales-tax exemption certificates from public buyers, vendor registration (MyFloridaMarketPlace, DemandStar, BidNet, Bonfire, OpenGov, PlanetBids, VendorLink)."
+  },
+  "recommendation": {
+    "verdict": "Enter as a lean 'bid-trader + spec specialist' focused on SE (FL/GA/AL/SC) and TX small-to-mid utilities, buying domestically NSF-60-listed products shipped in original sealed packaging (drop-ship), and importing ONLY high-value/low-freight solids (coconut GAC/PAC, KMnO4) from India/Sri Lanka/Philippines with NSF-60-listed mills. Avoid bulk commodity liquids and anything China-origin.",
+    "go_categories": [
+      {
+        "category": "Activated carbon: GAC small-system change-outs (<100k lb), PAC in bags/supersacks",
+        "why": "Bid spread 0.89-3.02 $/lb; import landed ~1.10 $/lb from India (14.8% duty); PFAS demand; China excluded by AD (2.42 $/kg) which protects non-China importers",
+        "expected_gross_margin": "18-30%",
+        "barriers": "NSF 60 mill listing, AWWA B600/B604, change-out crew (subcontract), jar-test acceptance"
+      },
+      {
+        "category": "Permanganates (KMnO4 drums, NaMnO4 totes)",
+        "why": "Same product priced 2.19-5.31 $/lb across bids; sole US producer Carus; India import 15% duty",
+        "expected_gross_margin": "20-40%"
+      },
+      {
+        "category": "Corrosion inhibitors (ortho/poly phosphate blends) & scale inhibitors in totes",
+        "why": "3x price spread (5.77-17.77 $/gal), pre-approval lists, LCRI-driven demand; source from toll blender with NSF 60 ANF private label",
+        "expected_gross_margin": "20-35%"
+      },
+      {
+        "category": "Polymers 'or-equal' (cationic, LMW polyDADMAC/polyamine, dewatering emulsions) in totes/drums",
+        "why": "6.05-15.77 $/gal spread; jar-test qualifies; source SNF/Kemira/Solenis/Korean/EU via distributor or ANF",
+        "expected_gross_margin": "15-30% (but SNF Polydyne bids direct aggressively)"
+      },
+      {
+        "category": "Tote/drum delivery to small utilities (<1 MGD), package plants, wells: sodium bisulfite, citric acid (non-China), copper sulfate, NaMnO4, small-lot PACl/ACH, cal-hypo tablets (US/India-made, FIFRA-registered)",
+        "why": "Big distributors price small lots 30-60% above bulk; few bidders; local preference",
+        "expected_gross_margin": "20-35% on small volumes"
+      }
+    ],
+    "commodity_traps": [
+      {
+        "category": "Bulk sodium hypochlorite (FL)",
+        "why": "Odyssey/Allied Universal local plants, 1.73-1.86 $/gal; freight-dominated; no import route",
+        "max_margin": "0-5%"
+      },
+      {
+        "category": "Bulk caustic 50%",
+        "why": "Producers (Olin/Oxy/Westlake) + Brenntag/Univar terminals; 593 $/dry t in FL 2026 - prices falling",
+        "max_margin": "2-6%"
+      },
+      {
+        "category": "Chlorine ton cylinders / SO2 / ammonia",
+        "why": "TIH, cylinder fleet, HMSP",
+        "max_margin": "n/a - avoid"
+      },
+      {
+        "category": "Lime, CO2",
+        "why": "producer-only, 2 bidders, rail/cryogenic assets",
+        "max_margin": "n/a"
+      },
+      {
+        "category": "Bulk alum / ferric",
+        "why": "regional plant oligopoly; manufacturers bid direct below distributor cost",
+        "max_margin": "3-8% only on remote lots"
+      },
+      {
+        "category": "Fluorosilicic acid in FL",
+        "why": "Florida fluoridation ban - demand disappearing"
+      },
+      {
+        "category": "Road salt",
+        "why": "no FL market; filed-requirement contracts need port stockpile + bonding of millions",
+        "max_margin": "5-10% but capital-heavy"
+      }
+    ],
+    "typical_winning_margins": {
+      "bulk_commodity_tank_truck": "3-8% gross (distributors run ~22-25% blended gross margin only thanks to specialty & small-pack mix)",
+      "mid_specialty_bulk_or_tote": "12-20%",
+      "niche_spec_driven_small_utilities": "20-35%",
+      "imported_carbon_permanganate": "20-40% if NSF-listed source and AD-free origin",
+      "evidence": "Hawkins 22.6% GM, Brenntag 24.9% GM (Q3 2026); winning-vs-second bid gaps observed 5-25% on commodities, 30-150% on specialties (KMnO4, polymers, ortho blends)."
+    },
+    "unit_economics_example": {
+      "scenario": "Year 1: 25 contracts x avg 40k USD = 1.0M USD revenue, blended GM 20%",
+      "gross_profit": 200000,
+      "fixed_costs": {
+        "insurance": 30000,
+        "bonds_premiums": 8000,
+        "NSF_ANF_and_audits": 15000,
+        "PHMSA_training_compliance": 5000,
+        "warehouse_3PL": 18000,
+        "bid_platform_subscriptions": 4000,
+        "travel_jar_tests_samples": 15000
+      },
+      "fixed_total": 95000,
+      "contribution_before_salaries": 105000,
+      "working_capital": "Net-30/45 municipal terms vs supplier prepayment on imports: need ~150-250k USD revolving (60-90 days of COGS)",
+      "breakeven_revenue_at_20pct_GM": "~475k USD/yr before salaries"
+    },
+    "go_to_market_steps": [
+      "1. Register on FL/GA/TX bid portals (DemandStar, BidNet, Bonfire, OpenGov, PlanetBids, MyFloridaMarketPlace); scrape awards for target products; build price database from tabs like those cited.",
+      "2. Sign distributor/reseller agreements with: Carus (permanganate, phosphates), a carbon producer/importer (Jacobi, Carbon Activated, Haycarb) or Indian NSF-listed mill; a toll blender for ortho blends with NSF 60 ANF private label; SNF/Kemira/Solenis secondary distributor for polymers.",
+      "3. Bid only items where ISP cost <= 80% of last award; prefer small/medium utilities with 1-3 bidders and 'or equal' specs.",
+      "4. Keep everything drop-shipped in sealed original packaging (preserves NSF 60 without own certification). Use vetted hazmat carriers; ISP registers with PHMSA ($275) and trains staff.",
+      "5. Line up surety (credit-based bond program / SBA SBG) and insurance (GL 1M/2M, umbrella 2-5M, HNOA auto 1M, pollution 1-2M) before first bid.",
+      "6. Pilot import: one 40HC of coconut GAC/PAC from an NSF-60-listed Indian/Sri Lankan mill into Port Everglades/JAX; sell to 3-5 FL/GA utilities; validate jar tests.",
+      "7. Avoid China-origin anything until US-China truce is formalized; even then 301 (25%) + 12.5% + AD make it uncompetitive."
+    ],
+    "key_risks": [
+      "Manufacturer refusing to supply a reseller that bids against it",
+      "Jar-test/performance rejection (carbon, polymer)",
+      "Section 301 forced-labor rate changes / new 232 or 301 actions",
+      "Freight volatility (Transpacific +132% y/y)",
+      "Liability for off-spec delivery (penalties, replacement cost)",
+      "Florida fluoride/other regulatory demand shifts",
+      "Payment terms vs import prepayment (working capital)"
+    ]
+  },
+  "sources_extra": [
+    "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/11172025%20packet/7cd%20-%20Bluey%20for%20Chemicals%202026%20Bids%20&%20Award%20Contracts.pdf",
+    "https://pub-sweetwater.escribemeetings.com/filestream.ashx?DocumentId=8616",
+    "https://cityoflewisville.legistar.com/LegislationDetail.aspx?GUID=342927A8-548C-4F8C-AFD9-88B39D6AF6E0&ID=7507197&Options&Search",
+    "https://www.congress.gov/crs-product/R49481",
+    "https://www.epa.gov/system/files/documents/2026-06/activated-carbon-supply-chain-profile.pdf",
+    "https://www.sec.gov/Archives/edgar/data/46250/000004625026000018/hwkn-20260329.htm",
+    "https://media-publications.bcg.com/Chemical-Distribution-Four-Ways-to-Win-amid-Uncertainty.pdf"
+  ]
+}
