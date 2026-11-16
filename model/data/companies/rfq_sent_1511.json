@@ -465,5 +465,73 @@
  "pending_drafts_1611": [
   "EU PAM/GAC 7 drafts — HOLD: owner is RU national → EU Reg. 833/2014 art.5k bars EU public contracts"
  ],
- "eu_tenders_status_1611": "HOLD/STOP: art. 5k Reg. 833/2014 (RU national 100% owner of ISP) — EMAYA, Taibilla, CIIP, HERA, Budapest, Cyprus not eligible"
+ "eu_tenders_status_1611": "HOLD/STOP: art. 5k Reg. 833/2014 (RU national 100% owner of ISP) — EMAYA, Taibilla, CIIP, HERA, Budapest, Cyprus not eligible",
+ "usa_india_rfq_1611": [
+  {
+   "to": "archana.ganesan@kalbonusa.com",
+   "product": "PAC/GAC NSF61",
+   "market": "US municipal"
+  },
+  {
+   "to": "mail@westerncarbon.com",
+   "product": "PAC/GAC NSF61",
+   "market": "US municipal"
+  },
+  {
+   "to": "mail@activechar.com",
+   "product": "PAC/GAC NSF61",
+   "market": "US municipal"
+  },
+  {
+   "to": "info@ucsplgroup.com",
+   "product": "PAC/GAC NSF61",
+   "market": "US municipal"
+  },
+  {
+   "to": "mail@westernadsorbents.com",
+   "product": "PAC/GAC NSF61",
+   "market": "US municipal"
+  },
+  {
+   "to": "info@indcarb.com",
+   "product": "PAC/GAC NSF61",
+   "market": "US municipal"
+  },
+  {
+   "to": "info@globaladsorbents.com",
+   "product": "PAC/GAC NSF61",
+   "market": "US municipal"
+  },
+  {
+   "to": "mktg@ucil.co.in",
+   "product": "KMnO4/NaMnO4 NSF60",
+   "market": "US municipal"
+  },
+  {
+   "to": "pravir.shetty@organicgroup.co.in",
+   "product": "KMnO4/NaMnO4 NSF60",
+   "market": "US municipal"
+  },
+  {
+   "to": "harsh@speediipl.com",
+   "product": "KMnO4/NaMnO4 NSF60",
+   "market": "US municipal"
+  },
+  {
+   "to": "info@magnesiachemicals.com",
+   "product": "KMnO4/NaMnO4 NSF60",
+   "market": "US municipal"
+  },
+  {
+   "to": "info@bluestarextrusion.com",
+   "product": "KMnO4/NaMnO4 NSF60",
+   "market": "US municipal"
+  },
+  {
+   "to": "info@staroxochem.com",
+   "product": "KMnO4/NaMnO4 NSF60",
+   "market": "US municipal"
+  }
+ ],
+ "daily_count_1611": 20
 }

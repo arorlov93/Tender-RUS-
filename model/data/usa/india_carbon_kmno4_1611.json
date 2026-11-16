@@ -1,0 +1,284 @@
+[
+  {
+    "company": "Kalpaka Chemicals Pvt Ltd (brand KALBON)",
+    "group": "carbon",
+    "city": "Tuticorin (Thoothukudi), Tamil Nadu",
+    "products": "GAC & PAC from coconut shell; COAL-based PAC (KALBON COAL PAC -200/-325, AW & NW) and coal GAC KALBON 1000 (bituminous); wood PAC (KALBON Julia); AW/WW grades. Capacity: 51 t/d (~18,600 t/y) per website (older PDF: 10,000 t/y)",
+    "nsf60": true,
+    "nsf_evidence": "NB: NSF lists activated carbon as Process Media under NSF/ANSI/CAN 61 (not 60); listings checked 16.11.2026. Listed GAC (KALBON, AQUA PURA WW) and PAC incl. KALBON COAL PAC (footnote 'carbon source is coal'): https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Granular%20Activated%20Carbon ; https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Powdered%20Activated%20Carbon",
+    "awwa": "No explicit AWWA B600/B604 statement found on site",
+    "email": "archana.ganesan@kalbonusa.com",
+    "email_sources": [
+      "https://www.kalpakachemicals.com/contact-us (International Sales, Mrs. Archana Ganesan)",
+      "Alt domestic: marketing@kalpakachemicals.com (same page); older PDF datasheet lists ganesan@kalbonusa.com and kcpld@dataone.in (kcpld@ also in Panjiva profile)"
+    ],
+    "phone": "+91 9655529885 (intl sales); +91 461 2345638",
+    "website": "https://www.kalpakachemicals.com",
+    "is_manufacturer": true,
+    "priority": 1,
+    "note": "Only Indian maker found with NSF-listed COAL-based PAC. Heavy US export record: ~1,000-1,700 US BOLs (Evoqua, Puragen, Carbon Activated Corp, Calgon Carbon, Oxbow) per ImportGenius/Panjiva. Intl sales email is on one source (official site); kalbonusa.com domain also in company PDF."
+  },
+  {
+    "company": "Western Carbon & Chemicals",
+    "group": "carbon",
+    "city": "Vadodara (plant Sakarda/Sankarda), Gujarat",
+    "products": "PAC (P-/W- series, AW/UW), GAC (G-500...G-1250, AW, CS), extruded carbon; coconut-shell, wood and COAL-based; also anthracite, MnO2",
+    "nsf60": true,
+    "nsf_evidence": "NB: NSF lists activated carbon as Process Media under NSF/ANSI/CAN 61 (not 60); listings checked 16.11.2026. Listed GAC & PAC, footnote 'carbon source is coconut shell or coal', facility Sankarda: https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Granular%20Activated%20Carbon ; https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Powdered%20Activated%20Carbon",
+    "awwa": "Not found",
+    "email": "mail@westerncarbon.com",
+    "email_sources": [
+      "https://www.westerncarbon.com/contact-us",
+      "https://linkedin.com/company/westerncarbonwcc (company posts)"
+    ],
+    "phone": "+91 99251 76700 / 76702",
+    "website": "https://www.westerncarbon.com",
+    "is_manufacturer": true,
+    "priority": 1,
+    "note": "Since 1968. One of few Indian makers with coal-based PAC/GAC in NSF listing. Capacity not published. Related by name/address (Atria II, Iscon Heights, Vadodara; Sankarda plant) to Western Adsorbents & Catalysts - possibly same family group; verify."
+  },
+  {
+    "company": "Western Adsorbents & Catalysts (formerly Western Chemical Corporation)",
+    "group": "carbon",
+    "city": "Vadodara (plant Sankarda), Gujarat",
+    "products": "PAC (Purecarb, Medcarb), GAC (Aqua-Plus Carb500-1250, AW/CS), extruded; coconut, wood, bituminous & lignite coal per site; anthracite, MnO2, garnet",
+    "nsf60": true,
+    "nsf_evidence": "NB: NSF lists activated carbon as Process Media under NSF/ANSI/CAN 61 (not 60); listings checked 16.11.2026. Listed GAC & PAC, footnote 'carbon source is coal or coconut shell', facility Gujarat: https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Granular%20Activated%20Carbon ; https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Powdered%20Activated%20Carbon",
+    "awwa": "Not found",
+    "email": "mail@westernadsorbents.com",
+    "email_sources": [
+      "https://westernadsorbents.com/contact-us",
+      "https://linkedin.com/company/western-adsorbents (post with mailto)"
+    ],
+    "phone": "+91 81406 80001; WhatsApp +91 91573 45593",
+    "website": "https://westernadsorbents.com",
+    "is_manufacturer": true,
+    "priority": 2,
+    "note": "Partnership firm, turnover INR 25-100 Cr (IndiaMART). Site claims coal-based carbon for municipal water. Likely affiliated with Western Carbon & Chemicals (same building) - treat as one group in outreach."
+  },
+  {
+    "company": "Active Char Products Pvt Ltd (MFAR Carbon group; incl. Indo German Carbons Ltd)",
+    "group": "carbon",
+    "city": "Edayar/Binanipuram, Kochi (Ernakulam), Kerala",
+    "products": "Coconut-shell GAC (MF CARB CT/WT series) and PAC (-200/-325, WW), impregnated, catalytic carbon. Group capacity 16,000 t/y (3 units incl. Indo German Carbons)",
+    "nsf60": true,
+    "nsf_evidence": "NB: NSF lists activated carbon as Process Media under NSF/ANSI/CAN 61 (not 60); listings checked 16.11.2026. Active Char Products listed GAC & PAC, facility Ernakulam: https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Granular%20Activated%20Carbon ; https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Powdered%20Activated%20Carbon . Indo German Carbons not separately listed.",
+    "awwa": "Not found",
+    "email": "mail@activechar.com",
+    "email_sources": [
+      "https://csez.com/eou/html/viewUnitdtls.php?Eou=KE&unitId=18137 (Cochin SEZ EOU register)",
+      "https://coconutboard.gov.in/images/TMOC/Pdf/tmoc-units.pdf (Coconut Development Board)",
+      "grotal.com directory; group email info@mfarcarbon.com on https://mfarcarbon.com"
+    ],
+    "phone": "+91 484 2556518 / 2556514; group +91 6238500151",
+    "website": "https://mfarcarbon.com (old: activechar.com)",
+    "is_manufacturer": true,
+    "priority": 1,
+    "note": "Indo German Carbons Ltd (Kochi, igcl.com, info@igcl.com) is Factory 2 of the same MFAR/Galfar group - AFFILIATED, do not count separately. Coconut only, no coal. American Activated Carbon Corp (CA) also lists an Ernakulam facility (likely toll/private label)."
+  },
+  {
+    "company": "United Carbon Solutions Pvt Ltd (UCSPL)",
+    "group": "carbon",
+    "city": "Kangeyam, Tirupur, Tamil Nadu",
+    "products": "Coconut-shell GAC/PAC (AQURE / AQU-EX), AW grades, catalytic; ~20,000 t/y capacity (Coconut Journal 2024); 96% exported",
+    "nsf60": true,
+    "nsf_evidence": "NB: NSF lists activated carbon as Process Media under NSF/ANSI/CAN 61 (not 60); listings checked 16.11.2026. Listed GAC & PAC (AQURE series): https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Granular%20Activated%20Carbon ; https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Powdered%20Activated%20Carbon ; also NSF 42 POE media",
+    "awwa": "Not found",
+    "email": "info@ucsplgroup.com",
+    "email_sources": [
+      "https://coconutboard.gov.in/docs/icj/icj-2024-03.pdf",
+      "https://coconutboard.in/ExportPromotionCouncil/Forms/ExportersList.pdf",
+      "Alt: info@unitedcarbon.com on https://www.unitedcarbonsolutions.com/contact"
+    ],
+    "phone": "+91 95789 18181 (sales); +91 4257 230603",
+    "website": "https://www.unitedcarbonsolutions.com (NSF lists ucsplgroup.com)",
+    "is_manufacturer": true,
+    "priority": 1,
+    "note": "Gold award coconut-shell product exporter (CDB). Private-label supplier to US/EU. Coconut-based only (NSF footnotes mention coal for some lines - verify)."
+  },
+  {
+    "company": "Indcarb Activated Carbon Pvt Ltd",
+    "group": "carbon",
+    "city": "Kanjikode, Palakkad, Kerala",
+    "products": "Coconut-shell GAC & PAC (INDCARB C/E series, AW/WW), catalytic, silver-impregnated. Capacity 4,000 t/y (CARE 2024)",
+    "nsf60": true,
+    "nsf_evidence": "NB: NSF lists activated carbon as Process Media under NSF/ANSI/CAN 61 (not 60); listings checked 16.11.2026. Indcarb listed GAC & PAC: https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Granular%20Activated%20Carbon ; https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Powdered%20Activated%20Carbon ; affiliated US entity Indocarb AC LLC (Pittsburgh) lists Tamil Nadu facility",
+    "awwa": "Not found",
+    "email": "info@indcarb.com",
+    "email_sources": [
+      "https://www.indcarb.com/contact-us",
+      "https://indcarb.com/ (footer); US: USmarketing@indcarb.com on contact page"
+    ],
+    "phone": "+91 491 2566605",
+    "website": "https://www.indcarb.com",
+    "is_manufacturer": true,
+    "priority": 2,
+    "note": "Small (4,000 t/y). Has US office at 651 Holiday Dr, Pittsburgh (same as Indocarb AC LLC). Email only on official site (2 pages) - second independent source not found."
+  },
+  {
+    "company": "Global Adsorbents Pvt Ltd",
+    "group": "carbon",
+    "city": "Kolkata HQ, West Bengal; plant Hyderabad/Secunderabad, Telangana",
+    "products": "Coconut-shell PAC (AP range -200/-325) and GAC (GL range); site also offers coal-based GAC/PAC/extruded (coal not in NSF listing). 11 furnaces, 10,000 t/y",
+    "nsf60": true,
+    "nsf_evidence": "NB: NSF lists activated carbon as Process Media under NSF/ANSI/CAN 61 (not 60); listings checked 16.11.2026. PAC 'AP Range' and GAC 'GL Range' listed, carbon source coconut shell: https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Powdered%20Activated%20Carbon ; https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Granular%20Activated%20Carbon",
+    "awwa": "Not found",
+    "email": "info@globaladsorbents.com",
+    "email_sources": [
+      "https://www.globaladsorbents.com/contact-us",
+      "https://www.globaladsorbents.com/ (footer)"
+    ],
+    "phone": "+91 33 4044 8444",
+    "website": "https://www.globaladsorbents.com",
+    "is_manufacturer": true,
+    "priority": 2,
+    "note": "Star Export House; exhibits Aquatech Amsterdam. Also trades allied media (anthracite, resins) - carbon is own manufacture. Independent second source for email not found."
+  },
+  {
+    "company": "Jacobi Carbons India Pvt Ltd / Nova Carbons India Pvt Ltd (Jacobi Group, Osaka Gas Chemicals)",
+    "group": "carbon",
+    "city": "Coimbatore and Tirunelveli, Tamil Nadu",
+    "products": "Coconut-shell GAC/PAC (AquaSorb); 16,000 + 22,000 t/y",
+    "nsf60": false,
+    "nsf_evidence": "No India facility found under Jacobi entries in NSF 61 GAC/PAC listings (Jacobi Carbons Inc. listings show US facilities); plants hold NSF 42/62 per Jacobi deck. https://info.nsf.org/Certified/PwsComponents/Listings.asp?ProductType=Granular%20Activated%20Carbon",
+    "awwa": "Jacobi group publishes AWWA-compliant grades (US)",
+    "email": "not found (sales via jacobi.net)",
+    "email_sources": [],
+    "phone": "",
+    "website": "https://www.jacobi.net",
+    "is_manufacturer": true,
+    "priority": 3,
+    "note": "AFFILIATED with Jacobi Carbons Inc (US) - Indian plants sell through the group, not a direct independent supplier. Listed for completeness."
+  },
+  {
+    "company": "Universal Chemicals & Industries Pvt Ltd (UCIL)",
+    "group": "permanganate",
+    "city": "Mumbai HQ; plants Ambernath & Lote (Maharashtra), Dahej (Gujarat)",
+    "products": "KMnO4 free-flowing (min 97%), technical, pure, crystal; sodium permanganate; KOH. Ambernath ~150-200 t/month KMnO4 (EC report 2018) + Dahej, Lote",
+    "nsf60": true,
+    "nsf_evidence": "KMnO4 incl. 'Free Flowing Grade Min. 97%' and NaMnO4 listed, facility Dahej: https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Potassium%20Permanganate ; https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Sodium%20Permanganate",
+    "awwa": "Not stated on site",
+    "email": "mktg@ucil.co.in",
+    "email_sources": [
+      "https://chemindia.chemicals.gov.in (Govt. Manufacturing_Units.pdf)",
+      "http://www.jigarpublicity.com/9966/product",
+      "https://www.chemicalbook.in/enterprisecertification_en_29585567.htm"
+    ],
+    "phone": "+91 22 43534353 / 42524252; +91 98198 12040",
+    "website": "http://www.ucil.co.in",
+    "is_manufacturer": true,
+    "priority": 1,
+    "note": "India's largest KMnO4 producer; first Indian NSF-certified. US exports of FFG in 25 kg pails to Chemrite, Shannon Chemical (Usalco), Carus, United Mineral & Chemical (ImportGenius)."
+  },
+  {
+    "company": "Organic Industries Pvt Ltd",
+    "group": "permanganate",
+    "city": "Mumbai (Powai) HQ; plant Dahej GIDC, Gujarat",
+    "products": "KMnO4 free-flowing, technical, pure; sodium permanganate 20%/40% liquid; calcium hypochlorite; ~200 t/month KMnO4",
+    "nsf60": true,
+    "nsf_evidence": "KMnO4 (incl. Free Flowing) and NaMnO4 listed, facility Gujarat: https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Potassium%20Permanganate ; https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Sodium%20Permanganate",
+    "awwa": "YES - FFG export datasheet: 'Meets Specifications AWWA B603-16; Certified to NSF/ANSI 60' (https://syndel.com/wp-content/uploads/2019/01/POTASSIUM-PERMANGANATE-ORGANIC-INDUSTRIES-01-06-2021-PDS.pdf)",
+    "email": "pravir.shetty@organicgroup.co.in",
+    "email_sources": [
+      "https://www.organicgroup.co.in/contact_us.html (Export Enquiries)",
+      "Organic Industries SDS PDF on imimg.com (contact person Mr. Pravir Shetty)"
+    ],
+    "phone": "+91 98191 96582; +91 22 41622828",
+    "website": "https://www.organicgroup.co.in",
+    "is_manufacturer": true,
+    "priority": 1,
+    "note": "Exports KMnO4 to USA (datasheet hosted by US distributor Syndel). Also offers NaMnO4 liquid NSF-listed. Generic: info@organicgroup.co.in."
+  },
+  {
+    "company": "Speed International (India) Pvt Ltd",
+    "group": "permanganate",
+    "city": "Ambernath (Thane), Maharashtra; office Mumbai",
+    "products": "KMnO4 free-flowing, pure, technical; sodium permanganate 20%/40%; MnO2; boric acid",
+    "nsf60": true,
+    "nsf_evidence": "KMnO4 FFG/Pure/Technical and NaMnO4 listed, facility Maharashtra: https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Potassium%20Permanganate ; https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Sodium%20Permanganate",
+    "awwa": "Not found",
+    "email": "harsh@speediipl.com",
+    "email_sources": [
+      "https://www.speediipl.com/contact (Sales & Marketing Director Harsh Mehta)",
+      "https://www.speediipl.com/faqs; generic info@speediipl.com also in ZaubaCorp MCA record"
+    ],
+    "phone": "+91 99302 75217",
+    "website": "https://www.speediipl.com",
+    "is_manufacturer": true,
+    "priority": 1,
+    "note": "Manufacturer since 2011. info@speediipl.com verified on 2 sources (site + MCA/ZaubaCorp); harsh@ on official site only."
+  },
+  {
+    "company": "Magnesia Chemicals LLP / Arista Chemicals LLP",
+    "group": "permanganate",
+    "city": "Pune office; plant Lonand, Satara, Maharashtra",
+    "products": "KMnO4 FFG (MAGFFLOX), pure, technical, tablets; Arista: sodium permanganate 20%/40% solution",
+    "nsf60": true,
+    "nsf_evidence": "Magnesia KMnO4 (11 products) https://info.nsf.org/Certified/PwsChemicals/Listings.asp?Company=C0365531&Standard=060 ; Arista NaMnO4: https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Sodium%20Permanganate",
+    "awwa": "Not found",
+    "email": "info@magnesiachemicals.com",
+    "email_sources": [
+      "https://magnesiachemicals.com/contact-us",
+      "https://magnesiachemicals.com/ (footer); Arista: info@aristachemicals.com on https://www.aristachemicals.com/contact.php"
+    ],
+    "phone": "+91 79721 94576; Arista sales +91 98191 86444",
+    "website": "https://magnesiachemicals.com",
+    "is_manufacturer": true,
+    "priority": 2,
+    "note": "Two affiliated LLPs, same Pune address and Satara plant; exports to 33 countries (site). Independent second source for email not found."
+  },
+  {
+    "company": "Bluestar Extrusion Pvt Ltd (Chemical Division)",
+    "group": "permanganate",
+    "city": "Sangli, Maharashtra",
+    "products": "KMnO4 technical, pure, free-flowing; sodium permanganate; capacity 2,500 t/y (site)",
+    "nsf60": true,
+    "nsf_evidence": "https://info.nsf.org/Certified/PwsChemicals/Listings.asp?Company=C0589405&Standard=060",
+    "awwa": "Site certificates page lists 'ANSI/AWWA B603-16' (https://www.bluestarextrusion.com/Certificates.aspx)",
+    "email": "info@bluestarextrusion.com",
+    "email_sources": [
+      "https://www.bluestarextrusion.com/Contact.aspx",
+      "https://www.bluestarextrusion.com/ (home); also bluestarextrusion@gmail.com in footer"
+    ],
+    "phone": "+91 77220 05049 (NSF listing)",
+    "website": "https://www.bluestarextrusion.com",
+    "is_manufacturer": true,
+    "priority": 2,
+    "note": "Smaller producer; explicit AWWA B603 claim. Email only from official site."
+  },
+  {
+    "company": "Star Oxochem Pvt Ltd",
+    "group": "permanganate",
+    "city": "Jhagadia, Bharuch, Gujarat",
+    "products": "KMnO4 technical, pure, free-flowing; oxalic acid, sodium nitrite",
+    "nsf60": true,
+    "nsf_evidence": "Listed, facility Bharuch: https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Potassium%20Permanganate",
+    "awwa": "Not found",
+    "email": "info@staroxochem.com",
+    "email_sources": [
+      "https://staroxochem.com/",
+      "https://www.staroxochem.com/potassium-permanganate.php; MCA (ZaubaCorp) lists jinessh@staroxochem.com"
+    ],
+    "phone": "+91 97149 99446",
+    "website": "https://staroxochem.com",
+    "is_manufacturer": true,
+    "priority": 3,
+    "note": "KMnO4 is secondary line (main: oxalic acid); ~14 staff/USD 3M per Datanyze. Lower priority."
+  },
+  {
+    "company": "Kemox Corporation",
+    "group": "permanganate",
+    "city": "Silvassa, Dadra & Nagar Haveli",
+    "products": "Sodium permanganate (liquid) - NSF 60 listed",
+    "nsf60": true,
+    "nsf_evidence": "Listed under Sodium Permanganate, facility Dadra & Nagar Haveli: https://info.nsf.org/Certified/PwsChemicals/Listings.asp?ChemicalName=Sodium%20Permanganate",
+    "awwa": "Not found",
+    "email": "not found",
+    "email_sources": [],
+    "phone": "+91 22 61166100 (NSF listing)",
+    "website": "see NSF listing link",
+    "is_manufacturer": true,
+    "priority": 3,
+    "note": "Only NaMnO4 lead; email not verified - do not guess."
+  }
+]
