@@ -39,6 +39,10 @@ def number_of(folder, a):
 
 def verdict_class(v):
     v = v.upper()
+    if v.startswith("НЕ УЧАСТВ") or v.startswith("НЕ ПОДАВ"): return "NO-GO"
+    if v.startswith("НЕТ ДАННЫХ"): return "НЕТ ДАННЫХ"
+    if "УСЛОВ" in v: return "CONDITIONAL"
+    if v.startswith("УЧАСТВ"): return "GO"
     if "NO" in v and "GO" in v: return "NO-GO"
     if "COND" in v or "УСЛОВ" in v: return "CONDITIONAL"
     if "GO" in v or "ПОДАВ" in v: return "GO"
@@ -46,10 +50,13 @@ def verdict_class(v):
     return v[:20] or "—"
 
 
-VRU = {"GO": "Подавать", "CONDITIONAL": "При условиях", "NO-GO": "Не подавать"}
+VRU = {"GO": "Подавать", "CONDITIONAL": "При условиях", "NO-GO": "Не подавать", "НЕТ ДАННЫХ": "Нет документации"}
+SKIP = {"misc_80e9d1d0"}  # раздел 1 той же казанской закупки 32616539091
+OVR = {"kirov_32616573584": "NO-GO"}  # разбор 15.11: «скорее нет» (прибыль 62 тыс. при 73 позициях и рисках)
 ROWS = []
 for p in sorted(glob.glob(B + "*/analysis.json")):
     folder = p.split("/")[-2]
+    if folder in SKIP: continue
     try: a = json.load(open(p))
     except Exception as ex: print("skip", p, ex); continue
     e = a.get("economics") or {}
@@ -58,14 +65,14 @@ for p in sorted(glob.glob(B + "*/analysis.json")):
     cust = txt(t.get("customer") or t.get("buyer") or a.get("customer"), 80)
     subj = txt(t.get("subject") or t.get("name") or t.get("title") or (a.get("tender") if isinstance(a.get("tender"), str) else ""), 160)
     if not cust and not subj: subj = txt(a.get("tender"), 200)
-    v = txt(a.get("verdict"), 200); vc = verdict_class(v)
+    v = txt(a.get("verdict"), 200); vc = OVR.get(folder) or verdict_class(v)
     nmc = num(a.get("nmc")) or num(e.get("revenue_nmc"))
     ROWS.append(dict(folder=folder, n=n, cust=cust, subj=subj, dl=txt(a.get("deadline") or t.get("deadline"), 40), nmc=nmc,
                      cost=num(e.get("cost")), p0=num(e.get("profit_nmc")), p10=num(e.get("profit_m10")), p20=num(e.get("profit_m20")),
                      m10=num(e.get("margin_pct_m10")), be=num(e.get("breakeven_discount_pct")), vc=vc, reason=txt(a.get("verdict_reason") or v, 700),
                      todo=a.get("todo") or [], risks=a.get("risks") or [], miss=a.get("missing_docs") or [], pos=a.get("positions") or [],
                      sup=a.get("suppliers") or [], a=a))
-order = {"GO": 0, "CONDITIONAL": 1, "NO-GO": 2}
+order = {"GO": 0, "CONDITIONAL": 1, "НЕТ ДАННЫХ": 2, "NO-GO": 3}
 ROWS.sort(key=lambda r: (order.get(r["vc"], 3), -(r["p10"] or -1e12)))
 link = lambda n: (f"https://zakupki.gov.ru/epz/order/notice/notice223/common-info.html?regNumber={n}" if len(n) == 11 else
                   f"https://zakupki.gov.ru/epz/order/notice/ea20/view/common-info.html?regNumber={n}" if len(n) == 19 else "")
@@ -111,7 +118,7 @@ wb.save("../RF_MARZHA_TZ_1611.xlsx")
 e = html.escape; f = lambda v: "—" if v is None else f"{v:,.0f}".replace(",", " ")
 css = ("@page{size:A4 landscape;margin:7mm}body{font-family:'DejaVu Sans',Arial;font-size:6.9px;color:#111}h1{font-size:12px;margin:0 0 2px;color:#0B2545}h2{font-size:8.5px;margin:5px 0 1px;color:#0B2545}"
        "table{border-collapse:collapse;width:100%}th{background:#0B2545;color:#fff;padding:2px 3px;text-align:left}td{border-bottom:1px solid #ddd;padding:1px 3px;vertical-align:top}.n{text-align:right;white-space:nowrap}"
-       ".g{color:#555}a{color:#0563C1;text-decoration:none}.GO{color:#1B7F3B;font-weight:bold}.CONDITIONAL{color:#B07D00;font-weight:bold}.NO-GO{color:#B00020;font-weight:bold}.neg{color:#B00020}")
+       ".g{color:#555}a{color:#0563C1;text-decoration:none}.GO{color:#1B7F3B;font-weight:bold}.CONDITIONAL{color:#B07D00;font-weight:bold}.NO-GO{color:#B00020;font-weight:bold}.Н{color:#555}.neg{color:#B00020}")
 h = [f"<!DOCTYPE html><html><head><meta charset=utf-8><style>{css}</style></head><body><h1>Маржа по закупкам РФ с присланными ТЗ — ООО «Гидропас», УСН ({len(ROWS)} закупок, 16.11.2026)</h1>",
      "<div class=g>Прибыль после УСН 15% (мин. 1% от дохода), без НДС. Себестоимость — открытые прайсы + доставка (оценка), не КП. Номер — ссылка на ЕИС. Детали по позициям — в Excel.</div>",
      "<table><tr><th>Номер</th><th>Заказчик / предмет</th><th>Подача</th><th>НМЦ</th><th>Себест.</th><th>При НМЦ</th><th>−10%</th><th>%</th><th>−20%</th><th>Решение</th><th>Главное / чего не хватает</th></tr>"]
@@ -121,9 +128,9 @@ for r in ROWS:
     h.append(f"<tr><td>{nm}</td><td><b>{e(r['cust'])}</b><br>{e(r['subj'][:110])}</td><td>{e(r['dl'][:22])}</td><td class=n>{f(r['nmc'])}</td><td class=n>{f(r['cost'])}</td><td class=n>{f(r['p0'])}</td>"
              f"<td class='n{' neg' if (r['p10'] or 0) < 0 else ''}'><b>{f(r['p10'])}</b></td><td class=n>{'' if r['m10'] is None else round(r['m10'], 1)}</td><td class='n{' neg' if (r['p20'] or 0) < 0 else ''}'>{f(r['p20'])}</td>"
              f"<td class={r['vc']}>{VRU.get(r['vc'], e(r['vc']))}</td><td>{e(r['reason'][:230])}{'<br><span class=g>Нет: ' + e(miss) + '</span>' if miss else ''}</td></tr>")
-tot = sum(r["p10"] for r in ROWS if r["vc"] != "NO-GO" and (r["p10"] or 0) > 0)
+tot = sum(r["p10"] for r in ROWS if r["vc"] in ("GO", "CONDITIONAL") and (r["p10"] or 0) > 0)
 h.append(f"</table><div class=g>Потенциал (подавать + при условиях, прибыль при −10%): <b>{f(tot)} ₽</b>.</div>")
-for r in [x for x in ROWS if x["vc"] != "NO-GO"]:
+for r in [x for x in ROWS if x["vc"] in ("GO", "CONDITIONAL")]:
     h.append(f"<h2>{e(r['n'] or r['folder'])} — {e(r['cust'])}: {VRU.get(r['vc'], r['vc'])}</h2><div><b>Сделать:</b> " + " • ".join(e(txt(x, 160)) for x in lst(r["todo"])[:5]) +
              "<br><b>Риски:</b> " + " • ".join(e(txt(x, 140)) for x in lst(r["risks"])[:3]) + "</div>")
 h.append("</body></html>")
