@@ -1,0 +1,8 @@
+{"supplier": "CHIMI ART for Chemical Industries (Каир, Египет)", "contact": "sales@chimiart.com, +20 2 2528 6322", "date": "2026-11-16", "tender": "Кипр TED 733035-2026 (80/2026), Никосия, хлорид железа 600 т + опцион 600 т, подача 23.11 12:00",
+ "product": "CHIMIFLOC FR 4014, FeCl3 раствор (~40%)", "reach": "01-2119497998-05-0060",
+ "price": {"cif_limassol_eur_t": 275, "fob_alexandria_eur_t": 235, "pack": "IBC 1000 л, ~18 IBC = ~25 т в 20'"},
+ "terms": {"moq": "1×20'", "lead": "4 недели после оплаты", "payment": "100% T/T аванс за каждую партию", "validity": "до 31.12.2026"},
+ "tender_budget": {"eur_t": 330, "basis": "198 000 EUR / 600 т DDP насосные станции", "prev_winner_eur_t_est": 289},
+ "economics_estimate": {"local_costs_eur_t": "25–40 (растаможка, ADR-доставка Лимасол→Никосия, перекачка, утилизация IBC) — оценка", "duty": "0% при EUR.1 (соглашение ЕС–Египет), иначе 5,5%", "landed_eur_t": "≈300–315", "margin_at_330_eur": "≈9–18 тыс. на 600 т (5–9%)", "at_prev_winner_289": "убыток"},
+ "compliance_issues": ["FeCl3 40% = Fe 13,8%, Cl 26% — вне допуска ТЗ (Fe 11% ±10%, Cl ≤25%); нужен разбавленный ~32% FeCl3", "ТЗ: FeCl2 или FeCl2/FeCl3 — допустимость чистого FeCl3 проверить", "ТЗ предполагает ISO-танки 18 000 л; Chimi Art — только IBC", "COA независимой аккредитованной лаборатории нужен уже на стадии подачи"],
+ "draft_reply": "Gmail draft: Fe 11% grade, ISO-танки, независимый COA к 20.11, REACH OR, EUR.1, оплата 30/70"}
