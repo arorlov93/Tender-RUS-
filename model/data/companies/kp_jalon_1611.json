@@ -1,0 +1,11 @@
+{"supplier": "Luoyang Jalon Micro-nano New Materials Co., Ltd (Китай, Лоян)", "contact": "Siyee, siyee@jalonzeolite.com, +86 15038666425", "quote_no": "JLQT_261116001", "date": "2026-11-16",
+ "terms": {"incoterms": "EXW Luoyang", "payment": "T/T 100% предоплата", "validity_days": 30, "lead_time_days": 25},
+ "items": [{"product": "Молекулярное сито 3A 1,6-2,5 мм", "usd_kg": 1.97, "pack": "стальные бочки"},
+           {"product": "Молекулярное сито 4A 1,6-2,5 мм", "usd_kg": 1.82, "pack": "стальные бочки"},
+           {"product": "Молекулярное сито 13X 1,6-2,5 мм", "usd_kg": 2.18, "pack": "стальные бочки"},
+           {"product": "Оксид алюминия активный JLAA 3-5 мм", "usd_kg": 1.20, "pack": "биг-бэг"}],
+ "landed_estimate_rf": {"assumptions": "+0,30 $/кг ж/д и прочее (оценка), пошлина 5% (оценка), НДС 22% при импорте без вычета (УСН), курс 82,43 ₽/$",
+   "rub_kg": {"3A": 240, "4A": 224, "13X": 262, "Al2O3": 158},
+   "market_rf_rub_kg_with_vat": {"NaA (4A)": "559-569", "NaX шарик (13X)": "1232-1290", "Al2O3 активный 2-5/3-5 мм": "270-310"}},
+ "attachments": ["TDS 3A/4A/13X 1,6-2,5 мм", "TDS JLAA 3-5 мм", "MSDS", "ISO"],
+ "draft_reply": "Gmail draft: запрос цен на контейнер, ж/д CPT Алматы/Ташкент, спецификаций, оплаты 30/70, образцов"}
