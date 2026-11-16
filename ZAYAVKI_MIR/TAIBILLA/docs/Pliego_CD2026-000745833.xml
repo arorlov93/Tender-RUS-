@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CallForTenders xmlns:cbc="urn:dgpe:names:draft:codice:schema:xsd:CommonBasicComponents-2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cac="urn:dgpe:names:draft:codice:schema:xsd:CommonAggregateComponents-2" xmlns="urn:dgpe:names:draft:codice:schema:xsd:CallforTenders-2" xmlns:cac-place-ext="urn:dgpe:names:draft:codice-place-ext:schema:xsd:CommonAggregateComponents-2" xmlns:cbc-place-ext="urn:dgpe:names:draft:codice-place-ext:schema:xsd:CommonBasicComponents-2">
+    <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+    <cbc:CustomizationID>CODICE 2.8.0</cbc:CustomizationID>
+    <cbc:ProfileID>CiP 2.1</cbc:ProfileID>
+    <cbc:ID>0000020341438</cbc:ID>
+    <cbc:UUID>2026-000745833</cbc:UUID>
+    <cbc:ContractFolderID>S-12/25-02</cbc:ContractFolderID>
+    <cbc:IssueDate>2026-11-06+01:00</cbc:IssueDate>
+    <cbc:IssueTime>12:34:26.756</cbc:IssueTime>
+    <cac:LegalDocumentReference>
+        <cbc:ID schemeName="ID_DOC_PLACE">PCAP S122502.pdf</cbc:ID>
+        <cbc:CopyIndicator>false</cbc:CopyIndicator>
+        <cbc:UUID>DOC20261104104443PCAP S122502.pdf</cbc:UUID>
+        <cac:Attachment>
+            <cac:ExternalReference>
+                <cbc:URI>https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&amp;DocumentIdParam=lbwAjBwgmZTl6AY0vPyLYD8bOVfYXGVcjEeGecwqBE01ul1t6ZcyypJMSugCAP2QL8Rp42H8SqQbU%2BxmwY9QlHppJWFqThy3wMDFC5eas2D3GVhXrFFqN7yFncy7YfRK</cbc:URI>
+                <cbc:DocumentHash>lX6yDEdGXKQTzD0OcGzvJhttg8U=</cbc:DocumentHash>
+            </cac:ExternalReference>
+        </cac:Attachment>
+    </cac:LegalDocumentReference>
+    <cac:TechnicalDocumentReference>
+        <cbc:ID schemeName="ID_DOC_PLACE">PPTP S122502.pdf</cbc:ID>
+        <cbc:CopyIndicator>false</cbc:CopyIndicator>
+        <cbc:UUID>DOC20261104102510PPTP S122502.pdf</cbc:UUID>
+        <cac:Attachment>
+            <cac:ExternalReference>
+                <cbc:URI>https://contrataciondelestado.es/FileSystem/servlet/GetDocumentByIdServlet?cifrado=QUC1GjXXSiLkydRHJBmbpw%3D%3D&amp;DocumentIdParam=/jLrSZyLveo/0M6XqTnoxRuLsmSdINGQoYhYksnFZ0EbEWsLk%2Biw7l1pR8KEcGykUenKywPaW1l%2BkKST2I%2BXKLcmb9xpj8Feb3QJnn0PQ2%2B1aXEvq3KHa/AEHgtDrQw0</cbc:URI>
+                <cbc:DocumentHash>Kt+Mpr+UZwWOMWRGoFv41t7JmpM=</cbc:DocumentHash>
+            </cac:ExternalReference>
+        </cac:Attachment>
+    </cac:TechnicalDocumentReference>
+    <cac:ContractingParty>
+        <cbc:ContractingPartyTypeCode listVersionID="2.10" name="Autoridad estatal" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.10/ContractingAuthorityCode-2.10.gc">1</cbc:ContractingPartyTypeCode>
+        <cbc:ActivityCode listVersionID="2.10" name="Protección del medio ambiente" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.10/ContractingAuthorityActivityCode-2.10.gc">5</cbc:ActivityCode>
+        <cbc:BuyerProfileURIID>https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=APhUgYQcJXw%3D</cbc:BuyerProfileURIID>
+        <cac:Party>
+            <cbc:WebsiteURI>http://www.mct.es</cbc:WebsiteURI>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="ID_PLATAFORMA">10000420056822</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyIdentification>
+                <cbc:ID schemeName="NIF">Q3017002A</cbc:ID>
+            </cac:PartyIdentification>
+            <cac:PartyName>
+                <cbc:Name>Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                <cbc:CityName>Cartagena</cbc:CityName>
+                <cbc:PostalZone>30201</cbc:PostalZone>
+                <cbc:CountrySubentity>Murcia</cbc:CountrySubentity>
+                <cbc:CountrySubentityCode listVersionID="2.12" name="Murcia" listURI="http://contrataciondelestado.es/codice/cl/2.12/NUTS-2024.gc">ES620</cbc:CountrySubentityCode>
+                <cac:AddressLine>
+                    <cbc:Line>Mayor, 1</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                    <cbc:Name>España</cbc:Name>
+                </cac:Country>
+            </cac:PostalAddress>
+            <cac:Contact>
+                <cbc:Name>Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla</cbc:Name>
+                <cbc:Telephone>968320014</cbc:Telephone>
+                <cbc:Telefax>968320224</cbc:Telefax>
+                <cbc:ElectronicMail>contratacion@mct.es</cbc:ElectronicMail>
+            </cac:Contact>
+            <cac:Person>
+                <cbc:JobTitle>Delegado del Gobierno- Presidente</cbc:JobTitle>
+            </cac:Person>
+        </cac:Party>
+    </cac:ContractingParty>
+    <cac:TenderingTerms>
+        <cbc:RequiredCurriculaIndicator>false</cbc:RequiredCurriculaIndicator>
+        <cbc:VariantConstraintIndicator>false</cbc:VariantConstraintIndicator>
+        <cbc:FundingProgramCode listVersionID="2.08" name="No hay financiación con fondos de la UE" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/FundingProgramCode-2.08.gc">NO-EU</cbc:FundingProgramCode>
+        <cbc:MaximumAdvertisementAmount currencyID="EUR">3000</cbc:MaximumAdvertisementAmount>
+        <cbc:EcatalogIndicator>false</cbc:EcatalogIndicator>
+        <cbc:EorderingIndicator>false</cbc:EorderingIndicator>
+        <cbc:EpaymentMeansIndicator>true</cbc:EpaymentMeansIndicator>
+        <cbc:ProcurementNationalLegislationCode listVersionID="2.08" name="Ley 9/2017" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/ProcurementNationalLegislationCode-2.08.gc">3</cbc:ProcurementNationalLegislationCode>
+        <cbc:CVDScopeCode listVersionID="2.10" name="No aplica la Directiva de Vehículos Limpios" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.10/CVDScope-2.10.gc">no-CVD</cbc:CVDScopeCode>
+        <cac:RequiredFinancialGuarantee>
+            <cbc:GuaranteeTypeCode listVersionID="2006" name="Definitiva" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc">2</cbc:GuaranteeTypeCode>
+            <cbc:AmountRate>5</cbc:AmountRate>
+        </cac:RequiredFinancialGuarantee>
+        <cac:ProcurementLegislationDocumentReference>
+            <cbc:ID>2014/24/EU</cbc:ID>
+            <cbc:CopyIndicator>false</cbc:CopyIndicator>
+            <cbc:UUID>2014/24/EU</cbc:UUID>
+        </cac:ProcurementLegislationDocumentReference>
+        <cac:TendererQualificationRequest>
+            <cac:TechnicalEvaluationCriteria>
+                <cbc:EvaluationCriteriaTypeCode listVersionID="2.0" name="Trabajos realizados" listURI="http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc">OSR-COMPTASK</cbc:EvaluationCriteriaTypeCode>
+                <cbc:Description>Una relación de los principales servicios o trabajos realizados de igual o similar naturaleza que los que&#xD;
+constituyen el objeto del contrato en el curso de los últimos tres (3) años en la que el importe mínimo anual que el empresario deberá acreditar como ejecutado durante el año de mayor&#xD;
+ejecución del periodo citado será de 30.612,75 euros</cbc:Description>
+            </cac:TechnicalEvaluationCriteria>
+            <cac:TechnicalEvaluationCriteria>
+                <cbc:EvaluationCriteriaTypeCode listVersionID="2.0" name="Medidas de gestión medioambiental" listURI="http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc">OXR-GESTMEDIOAMB</cbc:EvaluationCriteriaTypeCode>
+                <cbc:Description>Disponer de la Norma Internacional EN ISO 14001, u otra norma equivalente</cbc:Description>
+            </cac:TechnicalEvaluationCriteria>
+            <cac:TechnicalEvaluationCriteria>
+                <cbc:EvaluationCriteriaTypeCode listVersionID="2.0" name="Instalaciones técnicas y medidas para garantizar la calidad" listURI="http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc">XSR-CALIDAD</cbc:EvaluationCriteriaTypeCode>
+                <cbc:Description>Disponer de&#xD;
+la Norma Internacional EN ISO 9001, u otra norma equivalente</cbc:Description>
+            </cac:TechnicalEvaluationCriteria>
+            <cac:TechnicalEvaluationCriteria>
+                <cbc:EvaluationCriteriaTypeCode listVersionID="2.0" name="Certificados de control de calidad expedidos por los institutos o servicios oficiales" listURI="http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc">XSX-CERTCALIDAD</cbc:EvaluationCriteriaTypeCode>
+                <cbc:Description>Norma UNE-EN 1410 o equivalente</cbc:Description>
+            </cac:TechnicalEvaluationCriteria>
+            <cac:FinancialEvaluationCriteria>
+                <cbc:EvaluationCriteriaTypeCode listVersionID="2.0" name="Cifra anual de negocio" listURI="http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc">5</cbc:EvaluationCriteriaTypeCode>
+                <cbc:Description>Volumen anual de negocios referido al mejor ejercicio dentro de los tres últimos disponibles  por importe&#xD;
+mínimo 65.598,75Euros</cbc:Description>
+            </cac:FinancialEvaluationCriteria>
+            <cac:SpecificTendererRequirement>
+                <cbc:RequirementTypeCode listVersionID="2.08" name="Declaración sobre personas con discapacidad" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/DeclarationTypeCode-2.08.gc">12</cbc:RequirementTypeCode>
+                <cbc:Description>En el caso de empresas de 50 o más trabajadores, cumplirel requisito de que al menos el 2 por ciento de sus empleados sean trabajadores con discapacidad, de conformidad con el artículo 42 del Real Decreto legislativo1/2013, de 29 de noviembre, por el que se aprueba el texto refundido de la Ley General de derechos de las personascon discapacidad y de su inclusión social, en las condiciones que reglamentariamente se determinen.</cbc:Description>
+            </cac:SpecificTendererRequirement>
+            <cac:SpecificTendererRequirement>
+                <cbc:RequirementTypeCode listVersionID="2.08" name="No prohibición para contratar" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/DeclarationTypeCode-2.08.gc">2</cbc:RequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+            <cac:SpecificTendererRequirement>
+                <cbc:RequirementTypeCode listVersionID="2.08" name="No estar incurso en incompatibilidades" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/DeclarationTypeCode-2.08.gc">3</cbc:RequirementTypeCode>
+                <cbc:Description>En el caso de empresas de 50 o más trabajadores, cumplir con la obligación de contar con un plan de igualdad conforme a lo dispuesto en el artículo 45 de la Ley Orgánica3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, y que deberán inscribir en el Registro laboral correspondiente</cbc:Description>
+            </cac:SpecificTendererRequirement>
+            <cac:SpecificTendererRequirement>
+                <cbc:RequirementTypeCode listVersionID="2.08" name="Cumplimiento con las obligaciones con la Seguridad Social" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/DeclarationTypeCode-2.08.gc">4</cbc:RequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+            <cac:SpecificTendererRequirement>
+                <cbc:RequirementTypeCode listVersionID="2.08" name="Cumplimiento con las obligaciones tributarias" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/DeclarationTypeCode-2.08.gc">5</cbc:RequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+            <cac:SpecificTendererRequirement>
+                <cbc:RequirementTypeCode listVersionID="2.08" name="Para las empresas extranjeras, declaración de sometimiento a la legislación española." languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/DeclarationTypeCode-2.08.gc">9</cbc:RequirementTypeCode>
+            </cac:SpecificTendererRequirement>
+        </cac:TendererQualificationRequest>
+        <cac:AllowedSubcontractTerms>
+            <cbc:UnknownPriceIndicator>true</cbc:UnknownPriceIndicator>
+        </cac:AllowedSubcontractTerms>
+        <cac:TenderPreparation>
+            <cbc:TenderEnvelopeID>1</cbc:TenderEnvelopeID>
+            <cbc:TenderEnvelopeTypeCode listVersionID="2.08" name="Documentación administrativa" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/TenderEnvelopeTypeCode-2.08.gc">1</cbc:TenderEnvelopeTypeCode>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>true</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Compromiso de constitución de unión temporal de empresas (UTE), en su caso</cbc:ID>
+                    <cbc:DocumentTypeCode listVersionID="2.07" name="Documento requerido" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.07/EvidenceDocumentTypeCode-2.07.gc">DOC_REQUIRED</cbc:DocumentTypeCode>
+                    <cbc:DocumentType>PDF</cbc:DocumentType>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>true</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Anexo III</cbc:ID>
+                    <cbc:DocumentTypeCode listVersionID="2.07" name="Documento requerido" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.07/EvidenceDocumentTypeCode-2.07.gc">DOC_REQUIRED</cbc:DocumentTypeCode>
+                    <cbc:DocumentType>PDF</cbc:DocumentType>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>true</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Índice</cbc:ID>
+                    <cbc:DocumentTypeCode listVersionID="2.07" name="Documento requerido" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.07/EvidenceDocumentTypeCode-2.07.gc">DOC_REQUIRED</cbc:DocumentTypeCode>
+                    <cbc:DocumentType>PDF</cbc:DocumentType>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>true</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Declaración de pertenencia a grupo empresarial (Anexo IV)</cbc:ID>
+                    <cbc:DocumentTypeCode listVersionID="2.07" name="Documento requerido" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.07/EvidenceDocumentTypeCode-2.07.gc">DOC_REQUIRED</cbc:DocumentTypeCode>
+                    <cbc:DocumentType>PDF</cbc:DocumentType>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>true</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Declaración responsable en caso de empresa extranjera (Anexo VIII)</cbc:ID>
+                    <cbc:DocumentTypeCode listVersionID="2.07" name="Documento requerido" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.07/EvidenceDocumentTypeCode-2.07.gc">DOC_REQUIRED</cbc:DocumentTypeCode>
+                    <cbc:DocumentType>PDF</cbc:DocumentType>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+        </cac:TenderPreparation>
+        <cac:TenderPreparation>
+            <cbc:TenderEnvelopeID>2</cbc:TenderEnvelopeID>
+            <cbc:TenderEnvelopeTypeCode listVersionID="2.08" name="Oferta técnica o evaluable mediante juicio de valor" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/TenderEnvelopeTypeCode-2.08.gc">2</cbc:TenderEnvelopeTypeCode>
+            <cbc:Description>Los licitadores deberán presentar una muestra de 250 ml del producto ofertado con el fin de poder realizar&#xD;
+pruebas para determinar una valoración de la eficacia del mismo.&#xD;
+Esta muestra se presentará en Contratación de las oficinas centrales de la Mancomunidad de los Canales&#xD;
+del Taibilla ubicada en la C/Mayor nº1 C.P 30201 Cartagena (Murcia), de acuerdo con el plazo de&#xD;
+presentación de ofertas establecido en la publicación de la licitación.</cbc:Description>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>true</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Confidencialidad (Anexo IX)</cbc:ID>
+                    <cbc:DocumentTypeCode listVersionID="2.07" name="Documento requerido" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.07/EvidenceDocumentTypeCode-2.07.gc">DOC_REQUIRED</cbc:DocumentTypeCode>
+                    <cbc:DocumentType>PDF</cbc:DocumentType>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>true</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Índice</cbc:ID>
+                    <cbc:DocumentTypeCode listVersionID="2.07" name="Documento requerido" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.07/EvidenceDocumentTypeCode-2.07.gc">DOC_REQUIRED</cbc:DocumentTypeCode>
+                    <cbc:DocumentType>PDF</cbc:DocumentType>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>false</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Oferta técnica</cbc:ID>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+        </cac:TenderPreparation>
+        <cac:TenderPreparation>
+            <cbc:TenderEnvelopeID>3</cbc:TenderEnvelopeID>
+            <cbc:TenderEnvelopeTypeCode listVersionID="2.08" name="Oferta económica o evaluable mediante fórmulas" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/TenderEnvelopeTypeCode-2.08.gc">3</cbc:TenderEnvelopeTypeCode>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>false</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Oferta económica</cbc:ID>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+            <cac:DocumentTenderRequirement>
+                <cbc:RequiredSignatureIndicator>true</cbc:RequiredSignatureIndicator>
+                <cbc:MandatoryIndicator>true</cbc:MandatoryIndicator>
+                <cac:TemplateDocumentReference>
+                    <cbc:ID>Índice</cbc:ID>
+                    <cbc:DocumentTypeCode listVersionID="2.07" name="Documento requerido" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.07/EvidenceDocumentTypeCode-2.07.gc">DOC_REQUIRED</cbc:DocumentTypeCode>
+                    <cbc:DocumentType>PDF</cbc:DocumentType>
+                </cac:TemplateDocumentReference>
+            </cac:DocumentTenderRequirement>
+        </cac:TenderPreparation>
+        <cac:ContractExecutionRequirement>
+            <cbc:Name>Consideraciones de tipo medioambiental</cbc:Name>
+            <cbc:ExecutionRequirementCode listVersionID="2.08" name="Consideraciones de tipo medioambiental" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/ExecutionRequirementCode-2.08.gc">1</cbc:ExecutionRequirementCode>
+            <cbc:Description>Promoción y reciclado de productos y uso de envases reutilizables durante la ejecución&#xD;
+del contrato</cbc:Description>
+        </cac:ContractExecutionRequirement>
+        <cac:ContractExecutionRequirement>
+            <cbc:Name>Consideraciones de tipo social</cbc:Name>
+            <cbc:ExecutionRequirementCode listVersionID="2.08" name="Consideraciones de tipo social" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/ExecutionRequirementCode-2.08.gc">2</cbc:ExecutionRequirementCode>
+            <cbc:Description>Ejecución del contrato con estricto cumplimiento de la legislación sobre prevención de&#xD;
+riesgos laborales</cbc:Description>
+        </cac:ContractExecutionRequirement>
+        <cac:AwardingTerms>
+            <cac:AwardingCriteria>
+                <cbc:ID>2822048</cbc:ID>
+                <cbc:AwardingCriteriaTypeCode listVersionID="2.0" name="Cuantificables Automáticamente" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.0/AwardingCriteriaCode-2.0.gc">OBJ</cbc:AwardingCriteriaTypeCode>
+                <cbc:Description>Nº de horas para la entrega del producto</cbc:Description>
+                <cbc:AwardingCriteriaSubTypeCode listVersionID="2.09" name="Otros" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/AwardingCriteriaAutomaticallyEvaluatedSubTypeCode-2.09.gc">2</cbc:AwardingCriteriaSubTypeCode>
+                <cbc:WeightNumeric>10</cbc:WeightNumeric>
+                <cbc:MinimumQuantity>0</cbc:MinimumQuantity>
+                <cbc:MaximumQuantity>10</cbc:MaximumQuantity>
+                <cbc:StructuredValueIndicator>false</cbc:StructuredValueIndicator>
+            </cac:AwardingCriteria>
+            <cac:AwardingCriteria>
+                <cbc:ID>2822043</cbc:ID>
+                <cbc:AwardingCriteriaTypeCode listVersionID="2.0" name="Cuantificables Automáticamente" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.0/AwardingCriteriaCode-2.0.gc">OBJ</cbc:AwardingCriteriaTypeCode>
+                <cbc:Description>Precio</cbc:Description>
+                <cbc:AwardingCriteriaSubTypeCode listVersionID="2.09" name="Precio" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/AwardingCriteriaAutomaticallyEvaluatedSubTypeCode-2.09.gc">1</cbc:AwardingCriteriaSubTypeCode>
+                <cbc:WeightNumeric>90</cbc:WeightNumeric>
+                <cbc:MinimumQuantity>0</cbc:MinimumQuantity>
+                <cbc:MaximumQuantity>90</cbc:MaximumQuantity>
+                <cbc:StructuredValueIndicator>false</cbc:StructuredValueIndicator>
+            </cac:AwardingCriteria>
+            <cac:AwardingCriteria>
+                <cbc:ID>2822035</cbc:ID>
+                <cbc:AwardingCriteriaTypeCode listVersionID="2.0" name="Juicio de Valor" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.0/AwardingCriteriaCode-2.0.gc">SUBJ</cbc:AwardingCriteriaTypeCode>
+                <cbc:Description>Calidad del flóculo</cbc:Description>
+                <cbc:AwardingCriteriaSubTypeCode listVersionID="2.09" name="Otros" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode-2.09.gc">99</cbc:AwardingCriteriaSubTypeCode>
+                <cbc:WeightNumeric>15</cbc:WeightNumeric>
+                <cbc:MinimumQuantity>0</cbc:MinimumQuantity>
+                <cbc:MaximumQuantity>15</cbc:MaximumQuantity>
+                <cbc:StructuredValueIndicator>false</cbc:StructuredValueIndicator>
+            </cac:AwardingCriteria>
+            <cac:AwardingCriteria>
+                <cbc:ID>2822037</cbc:ID>
+                <cbc:AwardingCriteriaTypeCode listVersionID="2.0" name="Juicio de Valor" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.0/AwardingCriteriaCode-2.0.gc">SUBJ</cbc:AwardingCriteriaTypeCode>
+                <cbc:Description>Cantidad agua desplazada sin flóculo</cbc:Description>
+                <cbc:AwardingCriteriaSubTypeCode listVersionID="2.09" name="Otros" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode-2.09.gc">99</cbc:AwardingCriteriaSubTypeCode>
+                <cbc:WeightNumeric>30</cbc:WeightNumeric>
+                <cbc:MinimumQuantity>0</cbc:MinimumQuantity>
+                <cbc:MaximumQuantity>30</cbc:MaximumQuantity>
+                <cbc:StructuredValueIndicator>false</cbc:StructuredValueIndicator>
+            </cac:AwardingCriteria>
+            <cac:AwardingCriteria>
+                <cbc:ID>2822034</cbc:ID>
+                <cbc:AwardingCriteriaTypeCode listVersionID="2.0" name="Juicio de Valor" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.0/AwardingCriteriaCode-2.0.gc">SUBJ</cbc:AwardingCriteriaTypeCode>
+                <cbc:Description>Resistencia a la rotura del flóculo</cbc:Description>
+                <cbc:AwardingCriteriaSubTypeCode listVersionID="2.09" name="Otros" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode-2.09.gc">99</cbc:AwardingCriteriaSubTypeCode>
+                <cbc:WeightNumeric>25</cbc:WeightNumeric>
+                <cbc:MinimumQuantity>0</cbc:MinimumQuantity>
+                <cbc:MaximumQuantity>25</cbc:MaximumQuantity>
+                <cbc:StructuredValueIndicator>false</cbc:StructuredValueIndicator>
+            </cac:AwardingCriteria>
+            <cac:AwardingCriteria>
+                <cbc:ID>2822019</cbc:ID>
+                <cbc:AwardingCriteriaTypeCode listVersionID="2.0" name="Juicio de Valor" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.0/AwardingCriteriaCode-2.0.gc">SUBJ</cbc:AwardingCriteriaTypeCode>
+                <cbc:Description>Velocidad de formación del flóculo</cbc:Description>
+                <cbc:AwardingCriteriaSubTypeCode listVersionID="2.09" name="Otros" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode-2.09.gc">99</cbc:AwardingCriteriaSubTypeCode>
+                <cbc:WeightNumeric>15</cbc:WeightNumeric>
+                <cbc:MinimumQuantity>0</cbc:MinimumQuantity>
+                <cbc:MaximumQuantity>15</cbc:MaximumQuantity>
+                <cbc:StructuredValueIndicator>false</cbc:StructuredValueIndicator>
+            </cac:AwardingCriteria>
+            <cac:AwardingCriteria>
+                <cbc:ID>2822036</cbc:ID>
+                <cbc:AwardingCriteriaTypeCode listVersionID="2.0" name="Juicio de Valor" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.0/AwardingCriteriaCode-2.0.gc">SUBJ</cbc:AwardingCriteriaTypeCode>
+                <cbc:Description>Velocidad de sedimentación</cbc:Description>
+                <cbc:AwardingCriteriaSubTypeCode listVersionID="2.09" name="Otros" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/AwardingCriteriaNotAutomaticallyEvaluatedSubTypeCode-2.09.gc">99</cbc:AwardingCriteriaSubTypeCode>
+                <cbc:WeightNumeric>15</cbc:WeightNumeric>
+                <cbc:MinimumQuantity>0</cbc:MinimumQuantity>
+                <cbc:MaximumQuantity>15</cbc:MaximumQuantity>
+                <cbc:StructuredValueIndicator>false</cbc:StructuredValueIndicator>
+            </cac:AwardingCriteria>
+        </cac:AwardingTerms>
+        <cac:AdditionalInformationParty>
+            <cac:PartyName>
+                <cbc:Name>Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                <cbc:CityName>Cartagena</cbc:CityName>
+                <cbc:PostalZone>30201</cbc:PostalZone>
+                <cac:AddressLine>
+                    <cbc:Line>Mayor, 1</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                    <cbc:Name>España</cbc:Name>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:AdditionalInformationParty>
+        <cac:DocumentProviderParty>
+            <cac:PartyName>
+                <cbc:Name>Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                <cbc:CityName>Cartagena</cbc:CityName>
+                <cbc:PostalZone>30201</cbc:PostalZone>
+                <cac:AddressLine>
+                    <cbc:Line>Mayor, 1</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                    <cbc:Name>España</cbc:Name>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:DocumentProviderParty>
+        <cac:TenderRecipientParty>
+            <cbc:EndpointID>https://contrataciondelestado.es</cbc:EndpointID>
+            <cac:PartyName>
+                <cbc:Name>Comité Ejecutivo de la Mancomunidad de los Canales del Taibilla</cbc:Name>
+            </cac:PartyName>
+            <cac:PostalAddress>
+                <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                <cbc:CityName>Cartagena</cbc:CityName>
+                <cbc:PostalZone>30201</cbc:PostalZone>
+                <cac:AddressLine>
+                    <cbc:Line>Mayor, 1</cbc:Line>
+                </cac:AddressLine>
+                <cac:Country>
+                    <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                    <cbc:Name>España</cbc:Name>
+                </cac:Country>
+            </cac:PostalAddress>
+        </cac:TenderRecipientParty>
+        <cac:TenderValidityPeriod>
+            <cbc:DurationMeasure unitCode="MON">2</cbc:DurationMeasure>
+        </cac:TenderValidityPeriod>
+        <cac:AppealTerms>
+            <cac:PresentationPeriod>
+                <cbc:Description>contrato susceptible de recurso especial en materia de contratación conforme al artículo 44 y siguientes de la ley 9/2017 de Contratos del Sector Público</cbc:Description>
+            </cac:PresentationPeriod>
+            <cac:AppealInformationParty>
+                <cac:PartyName>
+                    <cbc:Name>Mancomunidad de los Canales del Taibilla</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                    <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                    <cbc:CityName>Cartagena</cbc:CityName>
+                    <cbc:PostalZone>30201</cbc:PostalZone>
+                    <cac:AddressLine>
+                        <cbc:Line>Mayor, 1</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:Country>
+                        <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                        <cbc:Name>España</cbc:Name>
+                    </cac:Country>
+                </cac:PostalAddress>
+                <cac:Contact>
+                    <cbc:Telephone>608164975</cbc:Telephone>
+                    <cbc:ElectronicMail>lucia.manzanera@mct.es</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:AppealInformationParty>
+            <cac:AppealReceiverParty>
+                <cac:PartyName>
+                    <cbc:Name> Mancomunidad de los Canales del Taibilla</cbc:Name>
+                </cac:PartyName>
+                <cac:PostalAddress>
+                    <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                    <cbc:CityName>Cartagena</cbc:CityName>
+                    <cbc:PostalZone>30201</cbc:PostalZone>
+                    <cbc:CountrySubentity>Murcia</cbc:CountrySubentity>
+                    <cbc:CountrySubentityCode listVersionID="2.12" name="Murcia" listURI="http://contrataciondelestado.es/codice/cl/2.12/NUTS-2024.gc">ES620</cbc:CountrySubentityCode>
+                    <cac:AddressLine>
+                        <cbc:Line>Mayor, 1</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:Country>
+                        <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                        <cbc:Name>España</cbc:Name>
+                    </cac:Country>
+                </cac:PostalAddress>
+                <cac:Contact>
+                    <cbc:Telephone>608164975</cbc:Telephone>
+                    <cbc:ElectronicMail>lucia.manzanera@mct.es</cbc:ElectronicMail>
+                </cac:Contact>
+            </cac:AppealReceiverParty>
+        </cac:AppealTerms>
+        <cac:Language>
+            <cbc:ID>es</cbc:ID>
+        </cac:Language>
+        <cac:InvoicingTerms>
+            <cbc:ElectronicInvoicingIndicator>true</cbc:ElectronicInvoicingIndicator>
+        </cac:InvoicingTerms>
+        <cac:ExclusionGrounds>
+            <cbc:ExclusionGroundTypeCode listName="exclusion-ground" listVersionID="2.10" name="Insolvencia" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.10/ExclusionGrounds-2.10.gc">insolvency</cbc:ExclusionGroundTypeCode>
+            <cbc:Description>no cumplir os criterios de solvencia exigidos</cbc:Description>
+        </cac:ExclusionGrounds>
+    </cac:TenderingTerms>
+    <cac:TenderingProcess>
+        <cbc:Description>Procedimiento Abierto</cbc:Description>
+        <cbc:ProcedureCode listVersionID="2.08" name="Abierto" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/TenderingProcessCode-2.08.gc">1</cbc:ProcedureCode>
+        <cbc:UrgencyCode listVersionID="2006" name="Ordinaria" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc">1</cbc:UrgencyCode>
+        <cbc:ExpenseCode listVersionID="2006" name="Anticipada" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/ExpenseTypeCode-1.04.gc">2</cbc:ExpenseCode>
+        <cbc:ContractingSystemCode listVersionID="2.08" name="No aplica" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/ContractingSystemTypeCode-2.08.gc">0</cbc:ContractingSystemCode>
+        <cbc:SubmissionMethodCode listVersionID="2006" name="Electrónica" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/TenderDeliveryCode-1.04.gc">1</cbc:SubmissionMethodCode>
+        <cbc:GovernmentProcurementAgreementConstraintIndicator>false</cbc:GovernmentProcurementAgreementConstraintIndicator>
+        <cbc:OverThresholdIndicator>true</cbc:OverThresholdIndicator>
+        <cac:TenderSubmissionDeadlinePeriod>
+            <cbc:EndDate>2026-12-10+01:00</cbc:EndDate>
+            <cbc:EndTime>13:00:00.000</cbc:EndTime>
+        </cac:TenderSubmissionDeadlinePeriod>
+        <cac:NoticeDocumentReference>
+            <cbc:ID schemeName="ENVIO_PIN_DOUE">2026-001542046</cbc:ID>
+            <cbc:CopyIndicator>false</cbc:CopyIndicator>
+            <cbc:UUID>2026-001542046</cbc:UUID>
+            <cbc:IssueDate>2026-01-15+01:00</cbc:IssueDate>
+            <cbc:DocumentTypeCode listVersionID="2.11" name="Envío de Anuncio Previo al DOUE" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.11/TenderingDocumentTypeCode-2.11.gc">ENVIO_PIN_DOUE</cbc:DocumentTypeCode>
+        </cac:NoticeDocumentReference>
+        <cac:NoticeDocumentReference>
+            <cbc:ID>31668-2026</cbc:ID>
+            <cbc:CopyIndicator>false</cbc:CopyIndicator>
+            <cbc:UUID>2026-001542046</cbc:UUID>
+            <cbc:IssueDate>2026-01-16+01:00</cbc:IssueDate>
+            <cbc:DocumentTypeCode listVersionID="2.11" name="Anuncio Previo publicado en DOUE" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.11/TenderingDocumentTypeCode-2.11.gc">PUB_PIN_DOUE</cbc:DocumentTypeCode>
+            <cac:Attachment>
+                <cac:ExternalReference>
+                    <cbc:URI>https://ted.europa.eu/es/notice/-/detail/31668-2026</cbc:URI>
+                </cac:ExternalReference>
+            </cac:Attachment>
+        </cac:NoticeDocumentReference>
+        <cac:NoticeDocumentReference>
+            <cbc:ID schemeName="ENVIO_CN_DOUE">2026-000738032</cbc:ID>
+            <cbc:CopyIndicator>false</cbc:CopyIndicator>
+            <cbc:UUID>2026-000738032</cbc:UUID>
+            <cbc:IssueDate>2026-11-05+01:00</cbc:IssueDate>
+            <cbc:DocumentTypeCode listVersionID="2.11" name="Envío de Anuncio de Licitación al DOUE" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.11/TenderingDocumentTypeCode-2.11.gc">ENVIO_CN_DOUE</cbc:DocumentTypeCode>
+        </cac:NoticeDocumentReference>
+        <cac:NoticeDocumentReference>
+            <cbc:ID>774782-2026</cbc:ID>
+            <cbc:CopyIndicator>false</cbc:CopyIndicator>
+            <cbc:UUID>2026-000738032</cbc:UUID>
+            <cbc:IssueDate>2026-11-06+01:00</cbc:IssueDate>
+            <cbc:DocumentTypeCode listVersionID="2.11" name="Anuncio de Licitación publicado en DOUE" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.11/TenderingDocumentTypeCode-2.11.gc">PUB_CN_DOUE</cbc:DocumentTypeCode>
+            <cac:Attachment>
+                <cac:ExternalReference>
+                    <cbc:URI>https://ted.europa.eu/es/notice/-/detail/774782-2026</cbc:URI>
+                </cac:ExternalReference>
+            </cac:Attachment>
+        </cac:NoticeDocumentReference>
+        <cac:AdditionalDocumentReference>
+            <cbc:ID>Detalle_Licitacion</cbc:ID>
+            <cbc:CopyIndicator>false</cbc:CopyIndicator>
+            <cbc:UUID>Detalle_Licitacion</cbc:UUID>
+            <cbc:DocumentTypeCode listVersionID="2.11" name="Documento de detalle del Expediente publicado en la Plataforma" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.11/TenderingDocumentTypeCode-2.11.gc">LINK_EXP_PLACE</cbc:DocumentTypeCode>
+            <cac:Attachment>
+                <cac:ExternalReference>
+                    <cbc:URI>https://contrataciondelestado.es/wps/poc?uri=deeplink:detalle_licitacion&amp;idEvl=Dvy0amOSbGxQFSeKCRun4Q%3D%3D</cbc:URI>
+                </cac:ExternalReference>
+            </cac:Attachment>
+        </cac:AdditionalDocumentReference>
+        <cac:OpenTenderEvent>
+            <cbc:IdentificationID>Apertura administrativa</cbc:IdentificationID>
+            <cbc:OccurrenceDate>2026-12-15+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:30:00.000</cbc:OccurrenceTime>
+            <cbc:TypeCode listVersionID="2.09" name="Apertura sobre administrativo" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/EventTypeCode-2.09.gc">1</cbc:TypeCode>
+            <cac:OccurrenceLocation>
+                <cbc:Description>Mancomunidad de los Canales del Taibilla</cbc:Description>
+                <cac:Address>
+                    <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                    <cbc:CityName>Cartagena</cbc:CityName>
+                    <cbc:PostalZone>30201</cbc:PostalZone>
+                    <cac:AddressLine>
+                        <cbc:Line>Mayor, 1</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:Country>
+                        <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                        <cbc:Name>España</cbc:Name>
+                    </cac:Country>
+                </cac:Address>
+            </cac:OccurrenceLocation>
+            <cac:AttendanceConditions>
+                <cbc:AttendanceRestrictionCode listVersionID="2.05" name="Privado" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.05/AttendanceRestrictionCode-2.05.gc">2</cbc:AttendanceRestrictionCode>
+            </cac:AttendanceConditions>
+        </cac:OpenTenderEvent>
+        <cac:OpenTenderEvent>
+            <cbc:IdentificationID>apertura económica</cbc:IdentificationID>
+            <cbc:OccurrenceDate>2027-01-12+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:30:00.000</cbc:OccurrenceTime>
+            <cbc:TypeCode listVersionID="2.09" name="Apertura sobre oferta económica" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/EventTypeCode-2.09.gc">4</cbc:TypeCode>
+            <cac:OccurrenceLocation>
+                <cbc:Description>Mancomunidad de los Canales del Taibilla</cbc:Description>
+                <cac:Address>
+                    <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                    <cbc:CityName>Cartagena</cbc:CityName>
+                    <cbc:PostalZone>30201</cbc:PostalZone>
+                    <cac:AddressLine>
+                        <cbc:Line>Mayor, 1</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:Country>
+                        <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                        <cbc:Name>España</cbc:Name>
+                    </cac:Country>
+                </cac:Address>
+            </cac:OccurrenceLocation>
+            <cac:AttendanceConditions>
+                <cbc:AttendanceRestrictionCode listVersionID="2.05" name="Público" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.05/AttendanceRestrictionCode-2.05.gc">1</cbc:AttendanceRestrictionCode>
+            </cac:AttendanceConditions>
+        </cac:OpenTenderEvent>
+        <cac:OpenTenderEvent>
+            <cbc:IdentificationID>apertura técnica</cbc:IdentificationID>
+            <cbc:OccurrenceDate>2026-12-22+01:00</cbc:OccurrenceDate>
+            <cbc:OccurrenceTime>11:30:00.000</cbc:OccurrenceTime>
+            <cbc:TypeCode listVersionID="2.09" name="Apertura sobre oferta técnica" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.09/EventTypeCode-2.09.gc">2</cbc:TypeCode>
+            <cac:OccurrenceLocation>
+                <cbc:Description>Mancomunidad de los Canales del Taibilla</cbc:Description>
+                <cac:Address>
+                    <cbc:AddressFormatCode listVersionID="2007" name="Spanish Format" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/AddressFormatCode-1.0.gc">1</cbc:AddressFormatCode>
+                    <cbc:CityName>Cartagena</cbc:CityName>
+                    <cbc:PostalZone>30201</cbc:PostalZone>
+                    <cac:AddressLine>
+                        <cbc:Line>Mayor, 1</cbc:Line>
+                    </cac:AddressLine>
+                    <cac:Country>
+                        <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                        <cbc:Name>España</cbc:Name>
+                    </cac:Country>
+                </cac:Address>
+            </cac:OccurrenceLocation>
+            <cac:AttendanceConditions>
+                <cbc:AttendanceRestrictionCode listVersionID="2.05" name="Público" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.05/AttendanceRestrictionCode-2.05.gc">1</cbc:AttendanceRestrictionCode>
+            </cac:AttendanceConditions>
+        </cac:OpenTenderEvent>
+        <cac:AuctionTerms>
+            <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+        </cac:AuctionTerms>
+    </cac:TenderingProcess>
+    <cac:ProcurementProject>
+        <cbc:Name>Suministro de hasta 21 toneladas de polielectrólito catiónico (AC/ALICANTE).</cbc:Name>
+        <cbc:Description>Dentro del proceso de potabilización desarrollado en la ETAP de la Pedrera, la fase de deshidratación de los fangos resultantes de la floculación se lleva a cabo fundamentalmente mediante la adición de polielectrólito catiónico según las características de los fangos.</cbc:Description>
+        <cbc:TypeCode listVersionID="2.08" name="Suministros" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc">1</cbc:TypeCode>
+        <cbc:SubTypeCode listVersionID="2006" name="Adquisición" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/1.04/GoodsContractCode-1.04.gc">2</cbc:SubTypeCode>
+        <cbc:MixContractIndicator>false</cbc:MixContractIndicator>
+        <cac:BudgetAmount>
+            <cbc:EstimatedOverallContractAmount currencyID="EUR">192423</cbc:EstimatedOverallContractAmount>
+            <cbc:TotalAmount currencyID="EUR">105832.65</cbc:TotalAmount>
+            <cbc:TaxExclusiveAmount currencyID="EUR">87465</cbc:TaxExclusiveAmount>
+        </cac:BudgetAmount>
+        <cac:RequiredCommodityClassification>
+            <cbc:ItemClassificationCode listName="CPV" listVersionID="2.04" name="Agentes floculantes." listURI="http://contrataciondelestado.es/codice/cl/2.04/CPV2008-2.04.gc">24958200</cbc:ItemClassificationCode>
+        </cac:RequiredCommodityClassification>
+        <cac:RealizedLocation>
+            <cbc:CountrySubentity>Murcia</cbc:CountrySubentity>
+            <cbc:CountrySubentityCode listVersionID="2.12" name="Murcia" listURI="http://contrataciondelestado.es/codice/cl/2.12/NUTS-2024.gc">ES620</cbc:CountrySubentityCode>
+            <cac:Address>
+                <cac:Country>
+                    <cbc:IdentificationCode listVersionID="2.08" name="España" languageID="es" listURI="http://contrataciondelestado.es/codice/cl/2.08/CountryIdentificationCode-2.08.gc">ES</cbc:IdentificationCode>
+                    <cbc:Name>España</cbc:Name>
+                </cac:Country>
+            </cac:Address>
+        </cac:RealizedLocation>
+        <cac:PlannedPeriod>
+            <cbc:DurationMeasure unitCode="MON">24</cbc:DurationMeasure>
+        </cac:PlannedPeriod>
+        <cac:ContractExtension>
+            <cac:OptionValidityPeriod>
+                <cbc:Description>prevista con un plazo máximo de 24 meses</cbc:Description>
+            </cac:OptionValidityPeriod>
+        </cac:ContractExtension>
+    </cac:ProcurementProject>
+</CallForTenders>

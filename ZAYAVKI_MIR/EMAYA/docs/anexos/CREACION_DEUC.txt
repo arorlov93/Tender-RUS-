@@ -1,0 +1,15 @@
+CREACIÓN DEL DEUC:
+Rogamos utilicen el archivo facilitado para la creación de su DEUC.
+Será necesario grabar en su equipo el archivo en formato XML que
+les
+facilitamos.
+Y
+posteriormente
+acceder
+a
+https://visor.registrodelicitadores.gob.es/home y seleccionar donde
+dice: enlace. A continuación seleccionar Soy un operador económico
+/ Importar un DEUC (buscar en el equipo el archivo XML previamente
+guardado), y seleccionar el país.
+
+

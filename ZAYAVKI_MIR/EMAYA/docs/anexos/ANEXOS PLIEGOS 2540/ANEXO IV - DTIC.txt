@@ -1,0 +1,7 @@
+ANEXO IV
+DECLARACIÓN RESPONSABLE DE CONOCIMIENTO Y CUMPLIMIENTO DE LA NORMATIVA DE SEGURIDAD TIC PARA EXTERNOS Y EMPRESAS ADJUDICATARIAS DE SERVICIOS Y DE LOS REQUISITOS TÉCNICOS DE ARQUITECTURA Y CIBERSEGURIDAD PARA LA ADQUISICIÓN E IMPLANTACIÓN DE NUEVOS SISTEMAS O DISPOSITIVOS
+D./Dª___________________________________, con DNI número_______________, en representación de ________________________, con NIF número________________, y domicilio social en ______________________________________________________________________.
+Declara que la solución propuesta para la presente licitación cumple con todos los requisitos indicados en el apartado 6 “Normativa de seguridad TIC para externos y empresas adjudicatarias” y en el apartado 7 “Requisitos técnicos de arquitectura y ciberseguridad para la adquisición e implantación de nuevos sistemas o dispositivos” del Pliego de Prescripciones Técnicas, y que en caso de que no se cumpla con alguno de dichos requisitos se compromete a encontrar una solución satisfactoria conjuntamente con el Departamento de Tecnología de la Información y Comunicación de EMAYA en aras a que la arquitectura y la seguridad de los sistemas de EMAYA no puedan verse comprometidos por la solución ofrecida.
+Y para que conste, firmo la presente declaración responsable.
+Palma, ………. de …………………………de………… 
+(Firma)

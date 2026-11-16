@@ -1,0 +1,33 @@
+                                                                                                                                     STORICO PRESTAZIONI
+
+                                                                                                                                                           Consumo specifico di polielettrolita
+                                                                                  CONCENTRAZIONE       Tenore di secco in uscita dalla macchina [%SS]
+                                                                                                                                                                 D [gemulsione/kgSST,out]
+                    IMPIANTO       TIPO APPARECCHIATURA    TIPOLOGIA POLY       STIMATA DI FANGO IN
+                                                                                ALIMENTAZIONE [% SS]                              Range (variabilità
+                                                                                                          Valore tipico                                                  Valore tipico
+                                                                                                                                      annua)
+Marina - DEPUR00034                     CENTRIFUGA        Cationico Emulsione         1% - 1,8%               16,0%                  13% - 20%                                70
+Marino - DEPUR00044                     CENTRIFUGA        Cationico Emulsione         2,5% - 3%               27,0%                  25% - 30%                                45
+Campolungo - DEPUR00404                 CENTRIFUGA        Cationico Emulsione        2,8% - 3,8%              23,0%                  20% - 25%                                40
+Santa Maria - DEPUR00253                CENTRIFUGA        Cationico Emulsione         2,5% - 3%               26,5%                  24% - 29%                                55
+Taffetani - DEPUR00079                  CENTRIFUGA        Cationico Emulsione        1,5% - 2,5%              23,0%                  21% - 24%                                42
+Basso Tenna - DEPUR00398                CENTRIFUGA        Cationico Emulsione         2% - 3,5%               26,0%                  23% - 28%                                44
+Lido - DEPUR00080                       CENTRIFUGA        Cationico Emulsione        2,5% - 3,0%              25,0%                 24% - 26,8%                               50
+Salvano - DEPUR00081                    CENTRIFUGA        Cationico Emulsione         2% - 3,5%               25,0%                  20% - 26%                                50
+San Leonardo - DEPUR00085               CENTRIFUGA        Cationico Emulsione        1,5% - 2,5%              24,0%                  21% - 24%                                31
+Santa Maria Goretti - DEPUR00525        CENTRIFUGA        Cationico Emulsione            2,5%                 21,0%                  20% - 23%                                34
+Valdaso PIP - DEPUR00140                CENTRIFUGA        Cationico Emulsione         0,8% - 1%               15,0%                  13% - 20%                                65
+Brodolini - DEPUR00198                  CENTRIFUGA        Cationico Emulsione        2,5% - 3,5%              28,0%                  27% - 31%                                27
+
+
+
+
+                                                                                                                          Firmato digitalmente da:
+
+                                                                                                                          Carini Claudio Bernardo
+                                                                                                                          Firmato il 12/11/2026 12:53
+                                                                                                                          Seriale Certificato: 4865393
+                                                                                                                          Valido dal 17/09/2025 al 17/09/2028
+                                                                                                                          InfoCamere Qualified Electronic Signature CA
+

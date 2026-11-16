@@ -1,0 +1,546 @@
+                                Cicli Integrati Impianti Primari spa
+                                Capitale Sociale € 4.883.340,00 i.v.
+                                Viale della Repubblica, 24
+                                63100 Ascoli Piceno
+                                C.F.-P.I. e n. iscr. R.I.di AP 00101350445
+                                tel +39 0736 2721 fax +39 0736 272222
+                                Numero Verde 800-216172
+                                www.ciip.it e-mail: info@ciip.it
+                                PEC: servizio.protocollo@pec.ciip.it
+
+
+
+
+                           Manuale di Procedure Operative
+
+
+
+
+Gestione Fornitura Polielettrolita per le sezioni di disidratazione dei fanghi biologici degli impianti
+                              di depurazione gestiti dalla CIIP S.p.A.
+
+
+
+
+                                                                                       Firmato
+                                                                                       digitalmente da:
+                                                                                       Carini Claudio
+                                                                                       Bernardo
+                                                                                       Firmato il
+                                                                                       12/11/2026 12:54
+                                                                                       Seriale Certificato: 4865393
+
+
+                                                                                       Valido dal 17/09/2025 al
+                                                                                       17/09/2028
+
+                                                                                       InfoCamere Qualified
+                                                                                       Electronic Signature CA
+Cicli Integrati Impianti Primari spa
+
+
+
+
+Sommario
+1.     SCOPO E CAMPO DI APPLICAZIONE                            3
+2.     RUOLI, RESPONSABILITÀ E SICUREZZA                        3
+3.     FASE PRELIMINARE E ATTIVAZIONE FORNITURA                 4
+     Prova Confermativa (Fase ante contratto)                   4
+     Procedura di Ordine (OdL)                                  4
+     Requisiti Tecnici Inderogabili:                            4
+4.     GESTIONE DELLA CONSEGNA E CONTROLLI QUANTITATIVI         4
+5.     CONTROLLI DOCUMENTALI E QUALITATIVI (ISO 9001)           4
+     Checklist Documentale all'Accettazione                     4
+     Procedura di Campionamento e Controversie                  5
+6.     OPERAZIONI DI SCARICO E CALIBRAZIONE (ISO 14001)         5
+     Disciplina dello Scarico                                   5
+     Service di Calibrazione Semestrale                         5
+7.     MONITORAGGIO DELLE PRESTAZIONI IN IMPIANTO               5
+     Calcolo del Dosaggio Specifico                             5
+8.     NON CONFORMITÀ, PENALI E RESTITUZIONE IBC                6
+     Tabella Penali e Sanzioni                                  6
+     Gestione IBC (Vuoto a Rendere)                             6
+9.     Gestione Emergenze e Risoluzione                         6
+
+
+
+
+CSA_OEPV
+                                                          Pag. 2/7
+Cicli Integrati Impianti Primari spa
+
+
+
+
+1.         SCOPO E CAMPO DI APPLICAZIONE
+Il presente manuale definisce le procedure operative rigorose per la gestione end-to-end della fornitura di
+polielettrolita cationico in emulsione. L'obiettivo è garantire la massima efficienza nel processo di
+disidratazione fanghi, assicurando al contempo la piena conformità agli standard ISO 9001 (Qualità), ISO
+14001 (Ambiente) e ISO 45001 (Sicurezza).
+Le disposizioni si applicano esclusivamente ai siti operativi sotto la gestione di CIIP S.p.A. elencati nella tabella
+seguente:
+
+                            Impianto                                                   Comune
+Marina (DEPUR00034)                                                Altidona
+Marino (DEPUR00044)                                                Ascoli Piceno
+Campolungo (DEPUR00404)                                            Ascoli Piceno
+Santa Maria (DEPUR00253)                                           Comunanza
+Taffetani (DEPUR00079)                                             Cupramarittima
+Basso Tenna (DEPUR00398)                                           Fermo
+Lido (DEPUR00080)                                                  Fermo
+Salvano (DEPUR00081)                                               Fermo
+San Leonardo (DEPUR00085)                                          Grottammare
+Santa Maria Goretti (DEPUR00525)                                   Offida
+Valdaso PIP (DEPUR00140)                                           Pedaso
+Brodolini (DEPUR00198)                                             San Benedetto del Tronto
+
+
+
+2.         RUOLI, RESPONSABILITÀ E SICUREZZA
+
+Matrice delle Responsabilità Operative
+Ruolo                        Responsabilità Principali
+                             Attivazione Ordine di Lavoro (OdL), verifica pesatura (UNI EN 45501),
+CIIP (Operatore/DEC/Tecnico
+                             campionamento in contraddittorio, monitoraggio performance trimestrale,
+Zona)
+                             approvazione contabilità.
+                             Organizzazione logistica, scarico autonomo, calibrazione semestrale
+Appaltatore           (Resp.
+                             polipreparatori, ritiro IBC vuoti, fornitura documentazione ADR e certificati di
+Tecnico/Autista)
+                             analisi.
+
+Presidi di Sicurezza e Norme di Comportamento (ISO 45001)
+In conformità al DUVRI (Art. 14), l'accesso e l'operatività negli impianti sono subordinati al rispetto delle
+seguenti norme:
+
+Avviso Di Sicurezza - Rischi Da Interferenza
+   • Rischio Biologico (Gruppo 2): Esposizione a reflui e aerosol potenzialmente infetti. Obbligo di DPI
+        idonei.
+   • Rischio Chimico: Esposizione a reagenti. Rispetto rigoroso della Scheda di Sicurezza.
+   • Atmosfere Esplosive: Rischio incendio/scoppio connesso alla presenza di biogas.
+   • Identificazione: Obbligo tassativo di esporre la tessera di riconoscimento (foto e generalità).
+        L'accesso è vietato a personale non preventivamente autorizzato.
+
+CSA_OEPV
+                                                                                                              Pag. 3/7
+Cicli Integrati Impianti Primari spa
+
+
+
+
+3.         FASE PRELIMINARE E ATTIVAZIONE FORNITURA
+PROVA CONFERMATIVA (FASE ANTE CONTRATTO)
+Prima della stipula definitiva del contratto, l'aggiudicatario deve superare una prova confermativa
+obbligatoria (Art. 5 csa):
+Tempistiche: Il tecnico dell'Appaltatore ha a disposizione massimo 4 ore per calibrare i polipreparatori e per
+effettuare le prove necessarie al fine di ottenere i risultati attesi
+Obiettivo: Raggiungimento delle performance dell'Allegato A (tolleranza max 5% su secco e 10% su
+consumo).
+Strumentazione: Si utilizza esclusivamente la strumentazione e i dispositivi presenti negli impianti CIIP. Il
+mancato superamento preclude la contrattualizzazione.
+
+PROCEDURA DI ORDINE (ODL)
+La fornitura è attivata tramite Ordine di Lavoro inviato via email dal DEC. L'operatore deve verificare che
+l'OdL contenga:
+    • Dati Amministrativi: Codice CIG e codice CUP (essenziali per la fatturazione).
+    • Dati Logistici: Luogo esatto, tipologia materiale, quantità (kg) e data di consegna.
+
+REQUISITI TECNICI INDEROGABILI:
+     •     Polielettrolita cationico in emulsione.
+     •     Densità di carica > 20%; Principio attivo > 45%.
+     •     Assenza totale di Sali di Ammonio.
+     •     Classificazione: Prodotto non irritante.
+
+
+4.         GESTIONE DELLA CONSEGNA E CONTROLLI QUANTITATIVI
+L'operatore CIIP ha l'obbligo di interdire lo scarico se non vengono rispettati i seguenti step:
+    1. Verifica Mezzo e Conducente: Controllo omologazione ADR del mezzo e possesso del Patentino ADR
+        del conducente.
+    2. Integrità IBC: Ispezione delle cisternette (min. 1000 litri). Rifiutare contenitori danneggiati o con
+        etichettatura illeggibile.
+    3. Procedure di Pesatura (UNI EN 45501):
+            a. Siti con pesa: Effettuare doppia pesata (lordo/tara).
+            b. Siti senza pesa: Verifica rigorosa della corrispondenza tra DDT e quantitativi effettivamente
+                scaricati.
+    4. Documentazione: Il cedolino di pesatura deve essere acquisito immediatamente per la contabilità.
+
+5.         CONTROLLI DOCUMENTALI E QUALITATIVI (ISO 9001)
+CHECKLIST DOCUMENTALE ALL'ACCETTAZIONE
+L'operatore deve acquisire i seguenti documenti per ogni singola consegna:
+            [ ] Dichiarazione di Conformità (Origine, produttore, lotto e data produzione).
+            [ ] Dichiarazione di Garanzia sul quantitativo di poliacrilammide.
+            [ ] Certificato di Assenza Sali di Ammonio.
+            [ ] Dichiarazione Prodotto Non Irritante.
+            [ ] Scheda di Sicurezza (SDS) aggiornata.
+            [ ] Dichiarazione di Origine del prodotto.
+
+CSA_OEPV
+                                                                                                       Pag. 4/7
+Cicli Integrati Impianti Primari spa
+
+
+
+
+PROCEDURA DI CAMPIONAMENTO E CONTROVERSIE
+   1. Campione in Bianco: L'Appaltatore deve fornire 1 bottiglia in vetro trasparente da 1 litro come
+       standard di riferimento.
+   2. Prelievo in Contraddittorio (Art. 18): In presenza dell'autista, prelevare il campione e suddividerlo in
+       4 contenitori sigillati:
+           • n. 1 all'Appaltatore.
+           • n. 2 al Laboratorio CIIP (per analisi di controllo).
+           • n. 1 di riserva (conservato sigillato per controversie).
+   3. Tempistiche di Contestazione: L'Appaltatore ha 30 giorni dalla comunicazione di non conformità per
+       contestare i risultati. La verifica finale sul terzo campione deve avvenire entro 90 giorni.
+
+6.         OPERAZIONI DI SCARICO E CALIBRAZIONE (ISO 14001)
+DISCIPLINA DELLO SCARICO
+     •     Lo scarico è a totale carico dell'Appaltatore.
+     •     Divieto di travaso: È vietato effettuare travasi di prodotto all'interno dell'impianto.
+     •     Prevenzione Ambientale: L'Appaltatore deve operare in modo da evitare fuoriuscite accidentali.
+           Eventuali sversamenti comportano l'immediata attivazione delle procedure di emergenza ISO 14001
+           e il mancato pagamento del prodotto disperso.
+
+SERVICE DI CALIBRAZIONE SEMESTRALE
+L'Appaltatore deve eseguire ogni 6 mesi la calibrazione dei polipreparatori:
+    • Obbligo: Rilascio di un rapportino di intervento che specifichi i parametri impostati e le modifiche
+        effettuate.
+    • Remunerazione: Il servizio è remunerato nell’importo di contratto. Nulla in più è dovuto.
+
+7.         MONITORAGGIO DELLE PRESTAZIONI IN IMPIANTO
+CALCOLO DEL CONSUMO SPECIFICO DI POLIELETTROLITA D
+L'efficacia è monitorata trimestralmente utilizzando la formula:
+
+                                                𝑘𝑔     𝐾(𝑘𝑔)
+                                             𝐷(    )=
+                                               𝑡𝑜𝑛    𝑆𝑆(𝑡𝑜𝑛)
+
+
+PRIMO ESEMPIO PRATICO:
+   1) Polielettrolita consumato (K): 50 kg
+   2) Volume fango trattato: 200 m3 con concentrazione 0,025 ton/m3 (SS = 5 ton)Risultato: D = 10 kg/ton.
+      Se il valore target è 9 kg/ton, lo scostamento è pari a
+
+                                            𝐷 − 𝑡𝑎𝑟𝑔𝑒𝑡   10 − 9
+                            𝑠𝑐𝑜𝑠𝑡𝑎𝑚𝑒𝑛𝑡𝑜 =              =        = 0,11 = 11%
+                                              𝑡𝑎𝑟𝑔𝑒𝑡       9
+
+Lo scostamento supera la soglia del 10% prevista dal capitolato.
+
+SECONDO ESEMPIO PRATICO:
+
+
+CSA_OEPV
+                                                                                                       Pag. 5/7
+Cicli Integrati Impianti Primari spa
+
+
+
+
+      3)   tonnellate fango CER smaltito nel trimestre = 120 ton
+      4)   tenore di secco % medio del fango disidratato nel trimestre = 25%
+      5)   SS (ton) = 120 x 25% = 30 ton
+      6)   polielettrolita consumato nel trimestre = 1500 kg
+      7)   D = 1500 / 30 = 50 kg/ton
+
+Soglie di Tolleranza: Qualsiasi scostamento superiore al 5% sui valori di secco e al 10% rispetto ai valori del
+dosaggio di polielettrolita, valori target dell'Allegato A costituisce una difformità. L'Appaltatore deve fornire
+un prodotto alternativo entro 5 giorni.
+
+8.         NON CONFORMITÀ, PENALI E RESTITUZIONE IBC
+TABELLA PENALI E SANZIONI
+Le penali sono dedotte direttamente dal primo pagamento utile.
+                      Violazione                                  Entità Penale / Azione
+Ritardo Consegna                                  0,1% del valore dell'ordine per ogni giorno.
+Ritardo Cumulato > 30 gg                          Non Conformità Grave (Art. 19).
+Difformità Qualitativa (Sali ammonio/Principio
+                                                  10% dell'importo a base di gara.
+attivo)
+Difformità Efficacia (>10% scostamento target)    5% dell'importo a base di gara.
+                                                  € 50,00/contenitore (scatta dopo 4 consegne senza
+Mancato Ritiro IBC
+                                                  ritiro).
+Sospensione Fornitura                             0,1% dell'importo a base di gara per giorno.
+
+GESTIONE IBC (VUOTO A RENDERE)
+Il ritiro dei contenitori IBC vuoti è a carico e spese dell'Appaltatore. L'operatore CIIP deve monitorare
+l'accumulo dei vuoti e segnalare formalmente il superamento della quarta consegna consecutiva senza ritiro
+per l'applicazione automatica della penale.
+
+
+9.         GESTIONE EMERGENZE E RISOLUZIONE
+      •    Assistenza Tecnica: Intervento in impianto entro 48 ore dalla chiamata.
+      •    Risoluzione Contrattuale: CIIP procederà alla risoluzione (Art. 21) in caso di:
+               1. Esito negativo del secondo test di efficacia (ripetuto a 48h dal primo).
+               2. Violazioni gravi o reiterate della sicurezza (ISO 45001).
+               3. Penali accumulate superiori al 10% dell'importo contrattuale.
+      •    Foro Competente: In via esclusiva, il Foro di Ascoli Piceno.
+
+
+
+10.        INFORMAZIONI DA ANNOTARE SU QUADERNO DI GESTIONE
+PARAMETRI REGISTRATI PER CIASCUN TURNO DI FUNZIONAMENTO CENTRIFUGA:
+   8) Portata di fango in ingresso (m3/h), lettura totalizzatore e orario di lettura – da misuratore di portata
+       ingresso centrifuga
+   9) Tenore di secco % del fango in ingresso – da campione prelevato manualmente;
+   10) Tenore di secco % del fango in uscita – da campione prelevato manualmente;
+   11) Velocità tamburo (RPM) e campo centrifugo corrispondente (× g);
+   12) Coppia sulla coclea (Nm o % del massimo) — indicatore del carico solido in tempo reale
+
+CSA_OEPV
+                                                                                                          Pag. 6/7
+Cicli Integrati Impianti Primari spa
+
+
+
+
+    13) Corrente assorbita dei motori principale e back-drive (se disponibile a display);
+
+    14) Aspetto visivo del cake (colore, consistenza)
+    15) Ore di funzionamento della centrifuga;
+    16) Anomalie, allarmi e interventi manutentivi;
+    17) Peso del poli consumato quotidianamente (in kg se disponibile bilancia)
+    18) Indicazione della sostituzione con nuovo contenitore IBC
+
+PARAMETRI DA REGISTRARE SETTIMANALMENTE
+
+    19) Ispezione visiva delle tenute, usura componenti macchina, vibrazioni anomale;
+    20) Se è installato il torbidimetro inline, verifica del torbidimetro con campione di riferimento;
+
+PARAMETRI DA REGISTRARE MENSILMENTE
+   21) Analisi completa del fango in ingresso (stabilizzazione aerobica o digestione anaerobica): SS, SV
+       (Solidi Volatili), pH
+   22) Consumi aggregati mensili: polimero totale, , ore macchina;
+   23) Verifica usura delle parti interne (pale coclea, rivestimenti) tramite ispezione o misura dello spessore;
+   24) Riesame del rapporto polimero ottimale con jar test dinamico, specie se la composizione del fango è
+       cambiata (es. variazione stagionale del carico biologico);
+   25) Concentrazione SS nel chiarificato
+
+
+
+
+CSA_OEPV
+                                                                                                         Pag. 7/7
+                                Cicli Integrati Impianti Primari spa
+                                Capitale Sociale € 4.883.340,00 i.v.
+                                Viale della Repubblica, 24
+                                63100 Ascoli Piceno
+                                C.F.-P.I. e n. iscr. R.I.di AP 00101350445
+                                tel +39 0736 2721 fax +39 0736 272222
+                                Numero Verde 800-216172
+                                www.ciip.it e-mail: info@ciip.it
+                                PEC: servizio.protocollo@pec.ciip.it
+
+
+
+
+                        Report Operativo per i tecnici di zona:
+                Coordinamento fornitura e gestione contrattuale
+
+
+
+
+Gestione Fornitura Polielettrolita per le sezioni di disidratazione dei fanghi biologici degli impianti
+                              di depurazione gestiti dalla CIIP S.p.A.
+Cicli Integrati Impianti Primari spa
+
+
+
+
+Sommario
+1.      SCOPO E CAMPO DI APPLICAZIONE                                        3
+2.      FASE DI RICHIESTA E ATTIVAZIONE DELLA FORNITURA                      3
+3.      OPERAZIONI DI ACCETTAZIONE E SCARICO (OPERATORE DI IMPIANTO)         3
+4.      Gestione delle Non Conformità (NC)                                   4
+     A. Non Conformità di Composizione (Grave)                               4
+     B. Non Conformità Prestazionale (Efficacia)                             4
+5.     COORDINAMENTO INFORMAZIONI E CHIUSURA CICLO                           4
+
+
+
+
+CSA_OEPV
+                                                                       Pag. 2/4
+Cicli Integrati Impianti Primari spa
+
+
+
+
+1.         SCOPO E CAMPO DI APPLICAZIONE
+Questo report definisce le procedure operative e il flusso di informazioni che i Tecnici di Zona devono
+adottare per coordinare gli operatori di impianto e relazionarsi con il Direttore dell’Esecuzione del Contratto
+(DEC), garantendo il rispetto del Capitolato Speciale di Appalto (CSA).
+
+                           Impianto                                                Comune
+Marina (DEPUR00034)                                             Altidona
+Marino (DEPUR00044)                                             Ascoli Piceno
+Campolungo (DEPUR00404)                                         Ascoli Piceno
+Santa Maria (DEPUR00253)                                        Comunanza
+Taffetani (DEPUR00079)                                          Cupramarittima
+Basso Tenna (DEPUR00398)                                        Fermo
+Lido (DEPUR00080)                                               Fermo
+Salvano (DEPUR00081)                                            Fermo
+San Leonardo (DEPUR00085)                                       Grottammare
+Santa Maria Goretti (DEPUR00525)                                Offida
+Valdaso PIP (DEPUR00140)                                        Pedaso
+Brodolini (DEPUR00198)                                          San Benedetto del Tronto
+
+
+
+2.         FASE DI RICHIESTA E ATTIVAZIONE DELLA FORNITURA
+Il Tecnico di Zona funge da anello di congiunzione tra le necessità operative del sito e la gestione
+amministrativa del DEC.
+    • Ricezione del fabbisogno: L'operatore d'impianto segnala al Tecnico di Zona la necessità di
+        ripristinare le scorte di polielettrolita.
+    • Attivazione della fornitura: Il Tecnico di Zona, verificata la necessità, attiva la singola fornitura
+        tramite richiesta interna, generando apposito OdL e trasmettendolo all’operatore in impianto e al
+        DED.
+    • Emissione dell'Ordine di Lavoro (OdL): Il Direttore dell’Esecuzione (DEC) trasmette formalmente
+        l’OdL al fornitore via email, specificando luogo, descrizione del materiale, quantità e data di
+        consegna. Il Tecnico di Zona deve assicurarsi che l'operatore sia informato della data prevista per la
+        consegna.
+
+
+3.         OPERAZIONI DI ACCETTAZIONE E SCARICO (OPERATORE DI IMPIANTO)
+Sotto il coordinamento del Tecnico di Zona, l’operatore in impianto, in autonomia, deve eseguire le seguenti
+operazioni rigorose:
+    • Verifica Autorizzazioni e Sicurezza: Prima dello scarico, l'operatore deve controllare che l'autista sia
+         munito di tesserino di riconoscimento e che l'automezzo sia omologato per il trasporto ADR.
+    • Controllo Quantitativo:
+             o Laddove presente la pesa o adeguato strumento per effettuare la misura del peso del
+                 materiale fornito, l'operatore deve effettuare la misura.
+             o In assenza di pesa, deve verificare la corrispondenza tra i quantitativi scaricati e i Documenti
+                 di Trasporto (DDT).
+L’operatore in impianto informa il Tecnico di Zona laddove riscontrasse anomalie.
+
+
+CSA_OEPV
+                                                                                                        Pag. 3/4
+Cicli Integrati Impianti Primari spa
+
+
+
+
+4.         GESTIONE DELLE NON CONFORMITÀ (NC)
+In caso di anomalie riscontrate dall'operatore, il Tecnico di Zona deve intervenire come segue:
+
+A. NON CONFORMITÀ DI COMPOSIZIONE (GRAVE)
+     •     Rilievo: L'operatore nota differenze evidenti (colore, impurità) rispetto al "campione in bianco"
+           conservato in impianto o riceve esito negativo dalle analisi del laboratorio CIIP
+     •     Azione del Tecnico di Zona:
+                o Informa immediatamente il DEC per la notifica scritta (PEC) al fornitore, che deve avvenire
+                   entro 10 giorni dall'accertamento.
+                o Coordina il ritiro e la sostituzione del prodotto, che il fornitore deve eseguire entro 1 giorno
+                   lavorativo dalla segnalazione.
+                o In caso di necessità, il Tecnico di Zona può richiedere al fornitore la sostituzione del prodotto
+                   con uno più adeguato alle mutate caratteristiche del fango, informando di questo e
+                   dell’avvenuta sostituzione il DEC.
+
+B. NON CONFORMITÀ PRESTAZIONALE (EFFICACIA)
+     •     Rilievo: L'operatore segnala che il prodotto non raggiunge i tenori di secco o richiede dosaggi
+           superiori alla tolleranza del 10% rispetto ai valori dell'Allegato A.
+     •     Azione del Tecnico di Zona:
+                o Richiede l'assistenza tecnica in loco, che il fornitore deve garantire entro 48 ore dalla
+                    chiamata.
+                o Se l'intervento non risolve il problema, coordina con il DEC la richiesta di un prodotto
+                    alternativo (da fornire entro 5 giorni).
+                o In caso di ulteriore fallimento dei test di verifica (test di 2 ore in impianto), riporta al DEC per
+                    valutare la risoluzione del contratto.
+
+
+5.         COORDINAMENTO INFORMAZIONI E CHIUSURA CICLO
+     •     Rapporto al DEC: Il Tecnico di Zona deve trasmettere periodicamente al DEC i dati raccolti dagli
+           operatori relativi a:
+               o Ricevute di pesatura o cedolini per la liquidazione.
+               o Verbali di campionamento e controllo qualità.
+               o Eventuali rapportini di intervento semestrale dei tecnici del fornitore per la calibrazione dei
+                   polipreparatori.
+     •     Gestione IBC vuoti: Il Tecnico di Zona deve monitorare che gli operatori segnalino il mancato ritiro
+           dei contenitori vuoti. Qualora si accumulino vuoti dopo 4 consegne consecutive, il Tecnico deve
+           segnalarlo al DEC per l'applicazione della penale di 50€/contenitore.
+
+Nota importante: Tutti gli oneri di scarico, carico dei vuoti e pulizia in caso di sversamenti accidentali sono a
+carico del fornitore; l'operatore di impianto ha esclusivamente compiti di verifica e supervisione.
+
+
+
+
+CSA_OEPV
+                                                                                                               Pag. 4/4
+Procedura Operativa
+Verifica dell’Efficienza di un Polielettrolita per Utilizzo in
+Impianto di Depurazione
+1. Scopo
+
+Definire le modalità operative per verificare l’efficienza di un polielettrolita destinato alla linea fanghi,
+garantendo prestazioni costanti, assenza di adulterazioni e idoneità del prodotto all’uso in impianto.
+
+2. Campo di applicazione
+
+La procedura si applica a tutti i polielettroliti cationici utilizzati nei processi di:
+
+    •   ispessimento fanghi,
+    •   disidratazione meccanica,
+    •   flottazione o altre sezioni in cui sia richiesto un miglioramento della separazione solido/liquido.
+
+3. Responsabilità
+
+    •   Gestore Impianto: pianificazione dei test e verifica documentale del prodotto.
+    •   Laboratorio interno/esterno: esecuzione analisi e reportistica.
+    •   Fornitore: consegna schede tecniche, SDS e garanzie di qualità del prodotto.
+
+4. Modalità operative
+
+4.1 Test di Efficienza sul Processo
+
+4.1.1. Campionamenti
+
+    •   Campione A – miscela prima del polielettrolita
+        Prelevare in ingresso alla sezione di trattamento.
+    •   Campione B – miscela trattata con polielettrolita
+        Prelevare in uscita da ispessitore/centrifuga/flottatore.
+
+I prelievi devono essere rappresentativi, miscelati e analizzati entro le tempistiche previste dal
+laboratorio.
+4.2 Analisi di laboratorio da effettuare
+
+1) Solidi Sospesi Totali (TSS) prima e dopo l’uso del polielettrolita
+
+Obiettivo: valutare la resa di separazione solido-liquido. La prova prevede l’analisi dei Solidi Sospesi
+Totali (TSS), con metodo APAT CNR IRSA 5130 Man 29 del 2003, prelevando tre aliquote di campione
+prima e tre aliquote di campione dopo il trattamento con il polielettrolita. Una volta ottenuti i risultati il
+laboratorio li comunicherà al gestore che provvederà a calcolare la resa del polielettrolita.
+
+2) Analisi della percentuale di Sodio (Na) nel prodotto
+
+Obiettivo: verificare l’assenza di diluizione fraudolenta o impropria con cloruro di sodio o soluzioni
+saline.
+
+    •   Un incremento anomalo di Na rispetto ai valori abituali del prodotto indica possibile aggiunta di
+        sale. La prova prevede l’analisi del Sodio (Na), con metodo UNI EN 13657:2004 + APAT CNR
+        IRSA 3020 Man 29 del 2003, ovvero prelevare tre aliquote di polielettrolita eseguire la
+        mineralizzazione e leggere allo spettrometro ICP-OES. Una volta ottenuti i risultati, il laboratorio
+        li comunicherà al gestore che provvederà a confrontarli con quelli presenti nella scheda tecnica
+        del produttore e con i valori storici dei lotti precedenti (se disponibili).
+
+
+
+
+3) Analisi Tensioattivi Cationici (Sali quaternari di ammonio)
+
+Obiettivo: individuare contaminazioni o sostituzioni indesiderate con prodotti contenenti Sali di
+ammonio quaternario, che potrebbero:
+
+    •   alterare il processo biologico,
+    •   inibire la flora batterica,
+    •   generare eccessiva schiumazione o instabilità.
+
+    La prova prevede la miscelazione del campione con una quantità nota di acqua distillata e la
+    successiva agitazione della soluzione come previsto dal metodo interno R048. Una volta concluso il
+    processo di agitazione, il campione sarà sottoposto a filtrazione e sul filtrato verranno prelevate tre
+    aliquote per l’analisi dei Tensioattivi Cationici, secondo metodo interno del Laboratorio AQ026. Una
+    volta ottenuti i risultati, il laboratorio li comunicherà al gestore che provvederà a confrontarli con
+    quelli presenti nella scheda tecnica del produttore e con i valori storici dei lotti precedenti (se
+    disponibili).
+

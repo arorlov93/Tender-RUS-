@@ -1,0 +1,1525 @@
+ciio
+
+ALLEGATO C - DISCIPLINARE DI GARA
+
+PROCEDURA APERTA TELEMATICA, AI SENSI DELL'ART. 71 DEL D.LGS. 36/2023, PER
+L'AFFIDAMENTO DELL'ACCORDO QUADRO PER LA FORNITURA DI POLIELETTROLITA PER LE
+SEZIONI DI DISIDRATAZIONE DEI FANGHI BIOLOGICI DEGLI IMPIANTI DI DEPURAZIONE GESTITI
+DALLA CUP S.P.A. — CIG: BDC3C308B4
+
+1. PREMESSE
+
+Con deliberazione del CDA n. 78 del 06/05/2026 è stata indetta una procedura aperta telematica, ai sensi dell’art. 71 del
+D.Lgs. n. 36/2023, con il criterio del prezzo più basso, ai sensi dell’art. 108, comma 3, D.lgs. 36/2023 e s.m.i.. per
+“affidamento di
+
+un Accordo Quadro con più operatori economici con il criterio del minor prezzo, per la fornitura di polielettrolita
+cationico in emulsione destinato alla disidratazione dei fanghi biologici degli impianti di depurazione gestiti da CIIP
+S.p.A.”
+
+Stazione Appaltante: CIIP SpA - CICLI INTEGRATI IMPIANTI PRIMARI — Viale della Repubblica n. 24 — 63100 Ascoli
+Piceno (AP) — tel. 0736-2721 fax. 0736-272222.
+
+e-mail: info@ciip.it— pec: servizio.protocollo@pec.ciip.it — sito internet: www.ciip.it
+
+Il Responsabile Unico del Progetto è: Dott. Giovanni Celani - celani@ciip.it
+
+Il Responsabile del Procedimento Tecnico è: Dott. Ing. Claudio Bernardo Carini - carimi@ciip.it
+
+I plichi elettronici contenenti le offerte e la relativa documentazione devono pervenire mediante piattaforma e-
+procurement accessibile tramite il seguente link: https://albo-gare.ciin.it/ entro il giorno 16/12/2026 ORE 10.30 con
+le proprie credenziali di accesso.
+
+Ai sensi dell’art. 58, co. 2, del D.Lgs. n. 36/2023 si precisa che l’appalto non è suddiviso in lotti per tener conto della unicità
+delle prestazioni, funzionalmente connesse da un punto di vista tecnico, che consente di raggiungere migliori economie di
+scala ed una maggiore efficienza complessiva.
+
+2. DOCUMENTAZIONE DI GARA, CHIARIMENTI E COMUNICAZIONI
+2.1 Documenti di gara
+La documentazione di gara comprende:
+
+— Modello 1) — istanza di ammissione e dichiarazioni sostitutive;
+
+— Modello 2) — dichiarazione di idoneità morale del L.R. del concorrente;
+— Modello 3) — ulteriori dichiarazioni di idoneità morale;
+
+— Modello 4) — dichiarazioni sul possesso dei requisiti di capacità economico-finanziaria e tecnico-professionale;
+— Modello 5) - dichiarazioni del soggetto ausiliato;
+
+-— Modello 6) — dichiarazioni del soggetto ausiliario;
+
+— Modello 7) — dichiarazioni identità plurisoggettiva;
+
+— Modello 8) — Offerta Economica;
+
+— DGUE (Allegato A);
+
+— Bando di gara (Allegato B);
+
+— Disciplinare di gara (Allegato C);
+
+— Capitolato d’Oneri (Allegato D);
+
+— Schema di Contratto (Allegato E);
+
+— Elaborati Tecnici (Allegato F);
+
+Mambor 0! CI agarava
+
+Cicli Integrati Impianti Primari spa
+
+Viale della Repubblica, 24 - 63100 Ascoli Piceno Partita IVA, Codice Fiscale e Iscrizione Registro d DI
+Tel +39 0736 2721 Fax +39 0736 272 222 Imprese di Ascoli Piceno n. 00101350445 R | FI @ I R | nel
+Numero Verde 800 216 172 Capitale Sociale € 4.883,340,00 i.v. D DI
+
+ÎÌ sl -I il: (0 Ù
+Sito vel vw. clip.it L e-mail: info@cipi er TONE
+PEC: fomitureo. protocollo @pec.ciip.it UNI PDR 125
+
+Parità di Gorero
+
+ALL ERATO (0 Niorinlinara di amen Ann
+CI Cicli Integrati Impianti Primari spa
+
+2.2 Chiarimenti
+
+I soggetti che intendono concorrere all’accordo quadro possono ricevere chiarimenti in ordine alla presente procedura,
+
+mediante la proposizione di quesiti scritti da inoltrare mediante la piattaforma telematica accessibile all’indirizzo
+bo «It entro e non oltre le ore 12.00 del giorno 10/12/2026, mediante l’utilizzo dell’area Quesiti”.
+
++B.: E° possibile ottenere chiarimenti sulla presente procedura a partire dal momento della Pubblicazione del Bando sulla
+
+piattaforma informatica.
+
+Le richieste di chiarimenti dovranno essere formulate esclusivamente in lingua italiana; NON va indicato il nominativo del
+
+mittente nel testo e/o in calce alla stessa richiesta di chiarimento. Le risposte a tutte le richieste presentate in tempo utile
+
+verranno fornite almeno 6 (sei) giorni lavorativi prima della scadenza del termine fissato per la presentazione delle offerte.
+
+Non saranno fornite risposte ai quesiti pervenuti successivamente al termine sopra indicato.
+
+L’ente appaltante pubblicherà, in forma anonima, le risposte alle richieste di chiarimenti di interesse generale e/o eventuali
+
+ulteriori informazioni sostanziali in merito alla presente procedura, sulla piattaforma della presente procedura.
+
+Rimane a carico degli operatori economici concorrenti, l’onere di consultare e verificare le suddette modalità di
+
+comunicazione.
+
+1 concorrenti sono edotti ed accettano che la pubblicazione sul profilo del committente delle risposte vale piena conoscenza
+
+delle stesse.
+
+Non sono ammessi chiarimenti telefonici.
+
+2.3. Comunicazioni
+
+Salvo quanto disposto al paragrafo 2.2. in materia di “chiarimenti”, tutte le comunicazioni e tutti gli scambi di informazioni
+tra stazione appaltante e operatori economici si intendono validamente ed efficacemente effettuate qualora rese all’indirizzo
+di posta elettronica certificata-PEC indicata dai concorrenti, il cui utilizzo sia stato espressamente autorizzato dal candidato.
+Nel caso di malfunzionamento della piattaforma le comunicazioni verranno effettuate all’indirizzo PEC della stazione
+t/ e all’indirizzo PEC indicato dai concorrenti nella documentazione di gara, oppure, solo
+per i concorrenti aventi sede in altri Stati membri, all’indirizzo di posta elettronica. Eventuali modifiche dell’indirizzo PEC
+o dell’indirizzo di posta elettronica non certificata o problemi temporanei nell’utilizzo di tali forme di comunicazione,
+dovranno essere tempestivamente segnalate alla stazione appaltante; diversamente la medesima declina ogni responsabilità
+per il tardivo o mancato recapito delle comunicazioni.
+
+In caso di raggruppamenti temporanei o consorzi ordinari, anche se non ancora formalmente costituiti, consorzi fra società
+cooperative, consorzi di imprese artigiane e consorzi stabili, di cui all’art. 65, comma 2, lett. b), c), d), e) ed f) del Codice,
+la comunicazione recapitata al mandatario o rappresentante legale del consorzio si intende validamente resa a tutti gli
+operatori economici raggruppati o consorziati.
+
+In caso di avvalimento, la comunicazione recapitata all’offerente si intende validamente resa a tutti gli operatori economici
+ausiliari.
+
+3. OGGETTO DELL’ACCORDO QUADRO E IMPORTO:
+
+La tipologia di contratto si configura come un Accordo Quadro con più operatori economici (aggiudicatari multipli), ai
+sensi dell’art. 59, comma 4, del D.Lgs. n. 36/2023 ed ha per oggetto la fornitura di polielettrolita cationico in emulsione,
+destinato alle sezioni di disidratazione dei fanghi biologici degli impianti di depurazione della CIIP S.p.A. nei comuni di
+Altidona, Ascoli Piceno, Comunanza, Cupramarittima, Fermo, Grottammare.
+
+L’aggiudicazione avverrà a favore degli operatori economici idonei (fino a un massimo di 4), collocatisi utilmente in
+graduatoria sulla base del criterio del minor prezzo.
+
+L'importo complessivo massimo stimato dell'Accordo Quadro è pari a € 716.184,00 (IVA esclusa), e verrà ripartito tra gli
+operatori aggiudicatari secondo importi predefiniti a scalare, in base alla posizione in graduatoria, come previsto all’art. 4
+del Capitolato d’Oneri.
+
+Rif. Descrizione Importo (IVA esclusa)
+A. Importo forniture a base di gara € 713.784,00
+
+2
+B. Costi della sicurezza da interferenze (non soggetti a ribasso) E2:00:00
+
+ALLEGATO C-Disciplinare di gara.docx Paa. 2/20
+CIO Cicli Integrati Impianti Primari spa
+
+Rif. Descrizione Importo (IVA esclusa)
+Cc. Costi della manodopera €10100
+A) + B) Importo complessivo a base d'asta € 716.184,00
+
+Trattandosi di mera fornitura di beni, senza posa in opera o installazione di cantiere. la Stazione Apnaltante non individua
+e non scorpora dall’importo a base d’asta costi della manodopera diretti).
+
+Gli importi sono stimati al netto di Iva. L'accordo quadro è finanziato con fondi della Stazione Appaltante.
+CIG: BDC3C308B4
+
+CPV: 24962000-5— Prodotti chimici per il trattamento dell'acqua
+3.1. Contratto collettivo di lavoro da applicare nel corso dell’appalto
+
+Ai sensi dell’art. 11, co. 2, del D.Lgs. n. 36/2023 e s.m.i. l'operatore economico, in sede di fonitura, deve applicare il CONL
+del settore Chimico-Farmaceutico (Codice CNEL B011). Ai sensi del citato art. 11, c. 3 del D.lgs. 36/23, l'operatore
+economico può indicare nella propria offerta il differente CCNL da esso applicato, purché garantisca ai dipendenti le stesse
+tutele di quello indicato dalla stazione appaltante. In tal caso, l’operatore economico vincitore della gara, prima
+dell’aggiudicazione della stessa, dovrà fornire alla stazione appaltante la dichiarazione con la quale si impegna ad applicare
+il CCNL e territoriale indicato nell’esecuzione delle prestazioni oggetto del contratto per tutta la sua durata, nonché la
+dichiarazione di equivalenza delle tutele. In quest’ultimo caso, la dichiarazione è verificata dalla stazione appaltante con le
+modalità di cui all’art. 110 dei D.Lgs. n. 36/2023 e s.m.i. e dell’Allegato 1.01 al Codice.
+
+3.2 Durata:
+
+La durata ordinaria dell'Accordo Quadro è pari a 1 (uno) anno, decorrente dalla data di sottoscrizione del contratto.
+L'Accordo Quadro si intenderà comunque concluso alla scadenza del termine temporale di 12 mesi ovvero prima di tale
+termine al raggiungimento dell'importo massimo contrattuale. L'Accordo Quadro non comporta per la Stazione Appaltante
+alcun obbligo di affidamento dell'importo massimo stimato; l'esecuzione delle prestazioni avverrà esclusivamente a seguito
+dell'emissione di singoli Contratti Attuativi / Ordini di Fornitura da parte di CIIP S.p.A. nei limiti delle proprie effettive
+esigenze programmatiche ed operative.
+
+3.3 OPZIONE DI PROROGA DEL CONTRATTO: la stazione appaltante si riserva la facoltà di prorogare il contratto
+per il tempo strettamente necessario alla conclusione della procedura di gara per l’individuazione dei nuovi contraenti, ai
+sensi dell’art. 120, comma 11, d.lgs. 36/2023 e s.m.i.. in tale periodo gli aggiudicatari dovranno eseguire le prestazioni agli
+stessi prezzi, patti e condizioni stabiliti nel contratto d’appalto (3 mesi di proroga).
+
+3.4. Fascicolo Virtuale dell’Operatore Economico (F.V.O.E.): i soggetti interessati a partecipare alla procedura di gara
+devono obbligatoriamente registrarsi al sistema F.V.O.E. di cui all’art. 24 del Codice, accedendo all’apposito link sul Portale
+dell’A.N.AC. (Forniture ad accesso riservato — FVOE - 2.0) secondo le istruzioni ivi contenute
+https://www.anticorruzione.it/-/fascicolo-virtuale-dell-operatore-economico-fvoe. L'operatore economico, dopo la
+registrazione al FVOE, indica al sistema il CIG della procedura di affidamento cui intende partecipare. I concorrenti
+dichiarano il consenso all'accesso da parte di CIIP spa al FVOE ai fini della verifica del possesso dei requisiti di
+qualificazione.
+
+4. SOGGETTI AMMESSI ALLA GARA
+
+Sono ammessi alla gara in oggetto i soggetti di cui all’art. 1, lett. 1) dell’Allegato 1.1 al Codice ed all’art. 65, comma 2 del
+medesimo decreto.
+
+Agli operatori economici concorrenti, ai sensi dell’articolo 68, comma 14 del Codice, è vietato partecipare alla gara in più
+di un raggruppamento temporaneo o consorzio ordinario di concorrenti, ovvero partecipare alla gara anche in forma
+individuale qualora gli stessi abbiano partecipato alla gara medesima in raggruppamento o consorzio ordinario di concorrenti
+o aggregazione di imprese aderenti al contratto di rete.
+
+Possono altresì presentare offerta anche i soggetti non ancora costituiti nelle forme richiamate; in tal caso l'offerta dovrà
+essere formulata secondo le prescrizioni dell’art. 68, comma 1, D.Lgs. 36/2023.
+
+Nel caso di consorzi di cui all’art. 65, comma 2, lett. b), c) e d) del Codice (consorzi fra società cooperative, consorzi fra
+imprese artigiane e consorzi stabili), qualora non intendano eseguire direttamente le prestazioni con la propria struttura di
+impresa, sono tenuti a indicare, in sede di offerta, per quali consorziati il consorzio concorre alla gara; a questi ultimi è
+vietato partecipare in qualsiasi altra forma alla presente gara. In caso di violazione sono esclusi dalla gara sia il consorzio
+sia il consorziato e in caso di inosservanza di tale divieto si applica l’art. 353 del codice penale.
+
+ALLEGATO C-Disciplinare di gara.docx Pag. 3/20
+CIO Cicli Integrati Impianti Primari spa
+
+Le consorziate designate dal consorzio per l’esecuzione del contratto non possono a loro volta, a cascata, indicare un altro
+soggetto per l’esecuzione, diverso da quello indicato in sede di offerta.
+
+Qualora il consorziato designato sia, a sua volta, un consorzio stabile di cui all’art. 65, comma 2, lett. b), c) e d) del Codice,
+quest’ultimo indicherà in gara il consorziato esecutore.
+
+Le aggregazioni tra imprese aderenti al contratto di rete, di cui all’art. 65, comma 2 lett. g) del Codice, rispettano la disciplina
+prevista per i raggruppamenti temporanei di imprese, in quanto compatibile.
+
+In particolare:
+
+1 nel caso in cui la rete sia dotata di organo comune con potere di rappresentanza e soggettività giuridica (cd. "rete-
+soggetto"), l’aggregazione di imprese di rete partecipa a mezzo dell’organo comune, che assumerà il ruolo di mandatario,
+qualora in possesso dei relativi requisiti. L'organo comune potrà indicare anche solo alcune tra le imprese retiste per la
+partecipazione alla gara, ma dovrà obbligatoriamente far parte di queste;
+
+2. nel caso in cui la rete sia dotata di organo comune con potere di rappresentanza, ma priva di soggettività giuridica (cd."
+rete-contratto"), l’aggregazione di imprese di rete partecipa a mezzo dell’organo comune, che assumerà il ruolo di
+mandatario, qualora in possesso dei requisiti previsti per la mandataria e qualora il contratto di rete rechi mandato allo stesso
+a presentare domanda di partecipazione o offerta per determinate tipologie di procedure di gara. L'organo comune potrà
+indicare anche solo alcune tra le imprese retiste per la partecipazione alla gara, ma dovrà obbligatoriamente far parte di
+queste;
+
+3. nel caso in cui la rete sia dotata di organo comune privo di potere di rappresentanza ovvero sia sprovvista di organo
+comune, oppure se l'organo comune è privo dei requisiti di qualificazione, l'aggregazione di imprese di rete partecipa nella
+forma del raggruppamento costituito 0 costituendo, con applicazione integrale delle relative regole.
+
+Per tutte le tipologie di rete, la partecipazione congiunta alle gare deve risultare individuata nel contratto di rete come uno
+degli scopi strategici inclusi nel programma comune, mentre la durata dello stesso dovrà essere commisurata ai tempi di
+realizzazione dell’appalto. Il ruolo di mandante/mandatario di un raggruppamento temporaneo di imprese può essere assunto
+anche da un consorzio di cui all’art. 65, comma 2 ovvero da una sub-associazione, nelle forme di un RTI o consorzio
+ordinario costituito oppure di un’aggregazione di imprese di rete. A tal fine, se la rete è dotata dì organo comune con potere
+di rappresentanza (con o senza soggettività giuridica), tale organo assumerà la veste di mandatario della sub-associazione;
+se, invece, la rete è dotata di organo comune privo del potere di rappresentanza o è sprovvista di organo comune, il ruolo dì
+mandatario della sub-associazione è conferito dalle imprese retiste partecipanti alla gara, mediante mandato ai sensi dell’art.
+48 comma 12 del codice, dando evidenza della ripartizione delle quote di partecipazione.
+
+Ai sensi dell’art. 95, d.lgs. n. 14/2019, l'impresa in concordato preventivo con continuità aziendale (anche retista) può
+concorrere anche riunita in RTI, purché non rivesta la qualità di mandataria e sempre che le altre imprese aderenti al RTI
+non siano assoggettate ad una procedura concorsuale.
+
+I concorrenti stabiliti in altri stati aderenti all'Unione Europea dovranno possedere i requisiti previsti in base alla
+documentazione prodotta secondo le norme vigenti nei rispettivi paesi.
+
+Ai sensi dell’art. 68, comma 2 del Codice, è fatto obbligo agli operatori economici raggruppati (art. 65, comma 2, lett. e), ai
+consorzi ordinari (art. 65, comma 2, lett. f) e alle aggregazioni di rete (art. 65, comma 2, lett. g) di indicare in sede di offerta
+le quote di partecipazione al raggruppamento o consorzio, entro i limiti consentiti dai requisiti di qualificazione posseduti
+dall’associato o dal consorziato. I forniture sono eseguiti dai concorrenti riuniti secondo le quote indicate in sede di offerta,
+fatta salva la facoltà di modifica di esse, previa autorizzazione della Stazione Appaltante, che ne verifica la compatibilità
+con i requisiti di qualificazione posseduti dalle imprese interessate.
+
+5. SUBAPPALTO
+
+E’ ammesso il subappalto delle forniture alle condizioni e nei limiti di cui all’art. 119 del D.Lgs. 36/2023 e s.m.i. e del
+Capitolato d’Oneri.
+
+Pertanto, è vietato il subappalto integrale, nonché la prevalente esecuzione delle prestazioni. Le imprese concorrenti
+dovranno espressamente indicare nell’Istanza di Partecipazione (Modello 1) le forniture o le parti di forniture che intendono
+eventualmente subappaltare. Non saranno autorizzati subappalti che non siano stati preventivamente dichiarati in sede di
+offerta e in difetto di specificazione dei forniture oggetto di sub-affidamento.
+
+Le dichiarazioni riferite alle parti di forniture che si intendono subappaltare ed i requisiti di qualificazione sono rese anche
+tramite il DGUE Allegato.
+Ai sensi dell’art. 119 del Codice, il subappaltatore, per le prestazioni affidate in subappalto, deve garantire gli stessi standard
+
+qualitativi e prestazionali previsti nel contratto di appalto e riconoscere ai lavoratori un trattamento economico e normativo
+non inferiore a quello che avrebbe garantito il contraente principale, inclusa l'applicazione dei medesimi contratti collettivi
+nazionali di lavoro, qualora le attività oggetto di subappalto coincidano con quelle caratterizzanti l'oggetto dell’appalto
+ovvero riguardino le prestazioni prevalenti e siano incluse nell’oggetto sociale del contraente principale.
+
+Sempre ai sensi del citato art. 119, D.Lgs. 36/2023, e nei casi espressamente ivi previsti, si precisa che CIIP SpA provvederà
+a corrispondere direttamente al/ai subappaltatore/i, e/o fornitori e/o prestatori di forniture l'importo ad essi dovuto per le
+attività dagli stessi eseguite in favore dell’appaltatore.
+
+Ai sensi dell’art. 119 comma 17 del D.Lgs. 36/2023, in ragione delle specifiche caratteristiche dell'appalto e dell’esigenza,
+tenuto conto della natura e complessità delle prestazioni da eseguire, di rafforzare il controllo delle attività di cantiere e più
+in generale dei luoghi di lavoro nonché di garantire una più intensa tutela delle condizioni di lavoro e della salute e sicurezza
+dei lavoratori, le forniture subappaltabili non possono formare oggetto di ulteriore subappalto “a cascata”.
+
+Resta comunque ferma la responsabilità solidale del contraente principale e del subappaltatore nei confronti della Stazione
+Appaltante per le prestazioni oggetto del contratto di subappalto.
+
+ALLEGATO C-Disciplinare di gara.docx Pag. 4/20
+CID Cicli Integrati Impianti Primari spa
+
+In caso di subappalto, 1’ Appaltatore si impegna a:
+
+- a) garantire l’osservanza delle disposizioni vigenti in materia di sicurezza e protezione dei lavoratori previste dai piani
+di sicurezza e dal D.Lgs. 81/08 e di costo della manodopera, secondo quanto previsto dall’art. 110, comma 5, lett. d) del
+Codice, anche da parte del subappaltatore;
+
+- b) rispondere in solido con il subappaltatore in relazione alla corresponsione dei trattamenti retributivi e dei contributi
+previdenziali e assicurativi obbligatori nonché per l'effettuazione e il versamento delle ritenute fiscali sui redditi di lavoro
+dipendente cui è tenuto il subappaltatore.
+
+6. VERSAMENTO ANAC: BDC3C308B4
+
+Ai sensi della Deliberazione A.N.AC. 22 dicembre 2025 n. 584, i concorrenti effettuano, a pena di esclusione, il pagamento
+del contributo previsto dalla legge in favore dell’Autorità Nazionale Anticorruzione per un importo pari a € 77,00 (euro
+settantasette/00).
+
+A tal fine dovrà essere allegata in alternativa:
+
+a) copia stampata della e-mail di conferma, trasmessa dal sistema di riscossione, in caso di pagamento on line tramite il
+portale web “Sistema di riscossione” (https://contributi.anticorruzione.it).
+
+Ovvero
+
+b) originale (o fotocopia corredata da dichiarazione di autenticità ai sensi del DPR 445/2000) dello scontrino in caso di
+pagamento tramite punto vendita della rete tabaccai lottisti abilitati al pagamento di bollette e bollettini.
+
+Le indicazioni operative sulla modalità di pagamento del contributo sono disponibili sul sito dell’ Autorità Nazionale
+Anticorruzione al seguente link: https:/Awww.anticorruzione.it/-/portale-dei-pagamenti-di-anac.
+
+La mancata dimostrazione dell’avvenuto versamento di tale somma. all'atto della presentazione dell’offerta, non
+costituisce causa di esclusione dalla gara, se il concorrente è in grado di dimostrare mediante il procedimento di c.d.
+“soccorso istruttorio”. ex art. 101 del Codice. di aver comunque effettuato il pagamento in data antecedente a quella
+di scadenza del termine di presentazione delle offerte.
+
+7. REQUISITI DI PARTECIPAZIONE ALLA GARA E MODALITA’ DI VERIFICA
+
+Generalità
+
+Il possesso dei requisiti deve essere autocertificato in fase di gara, come previsto dal presente disciplinare di gara e dai
+relativi modelli allo stesso allegati.
+
+Il possesso di tutti i requisiti si intende alla data di scadenza del termine per la presentazione delle offerte e deve permanere
+
+per tutta la durata del contratto.
+
+A) REQUISITI DI ORDINE GENERALE:
+
+La partecipazione alla gara è riservata ai concorrenti in possesso, a pena di esclusione, dei seguenti requisiti:
+
+— insussistenza delle cause di esclusione di cui agli artt. 94, 95 e 98 del D.Lgs. 36/2023 e s.m.i comprese quelle previste
+dalla normativa antimafia;
+
+— insussistenza delle situazioni che configurano violazione dell’art. 53, comma 16-ter del D.Lgs. 165/2001;
+
+— mancato rispetto dei Protocolli di Legalità, ai sensi dell’art. 83-bis del d.lgs. 159/11 e s.m.i.;
+
+— le cause di divieto, decadenza o sospensione di cui all’art. 67, D.lgs. 159/11
+
+La sussistenza delle cause automatiche di esclusione di cui all’articolo 94 comporta l'esclusione diretta, mentre la sussistenza
+
+delle cause di esclusione non automatica, di cui all’articolo 95, deve essere accertata previo contraddittorio con l’operatore
+
+economico.
+
+In caso di partecipazione di consorzi di cui all’articolo 65, comma 2, lettere b) e c) del Codice, i requisiti di cui al presente
+
+paragrafo 7 devono essere posseduti dal consorzio e dalle consorziate indicate quali esecutrici.
+
+In caso di partecipazione di consorzi stabili di cui all’articolo 65, comma 2, lett. d) del Codice, i requisiti di cui al presente
+
+paragrafo 7 devono essere posseduti dal consorzio, dalle consorziate indicate quali esecutrici e dalle consorziate che prestano
+
+i requisiti in avvalimento.
+
+Self cleaning
+
+Un operatore economico che si trovi in una delle situazioni di cui agli articoli 94, 95 e 98 del Codice, ad eccezione delle
+irregolarità contributive e fiscali definitivamente e non definitivamente accertate, può fornire prova di aver adottato misure
+(c.d. self cleaning) sufficienti a dimostrare la sua affidabilità.
+
+Sono considerate misure sufficienti il risarcimento o l’impegno a risarcire qualunque danno causato dal reato o dall’illecito,
+la dimostrazione di aver chiarito i fatti e le circostanze in modo globale collaborando attivamente con le autorità investigative
+e di aver adottato provvedimenti concreti, di carattere tecnico, organizzativo o relativi al personale idonei a prevenire ulteriori
+reati o illeciti
+
+Se le misure adottate sono ritenute sufficienti e tempestive, l'operatore economico non è escluso. Se dette misure sono
+ritenute insufficienti e intempestive, la stazione appaltante ne comunica le ragioni all’operatore economico.
+
+Non può avvalersi del self-cleaning l’operatore economico escluso con sentenza definitiva dalla partecipazione alle
+procedure di affidamento o di concessione, nel corso del periodo di esclusione derivante da tale sentenza.
+
+ALLEGATO C-Disciplinare di gara.docx Pag. 5/20
+CIO Cicli Integrati Impianti Primari spa
+
+Nel caso in cui un raggruppamento/consorzio abbia estromesso o sostituito un partecipante/esecutore interessato da una
+clausola di esclusione, di cui agli articoli 94, 95 e 98 del Codice, si valutano le misure adottate ai sensi dell’articolo 97 del
+Codice, al fine di decidere sull’esclusione.
+
+B) REQUISITI DI IDONEITA? PROFESSIONALE (Art. 100. comma 1. lett. A)
+
+1. Iscrizione nel Registro delle Imprese oppure nel Registro delle Commissioni provinciali dell’ Artigianato per
+attività coerenti con quelle oggetto della presente procedura di gara. Per l'operatore economico di altro Stato
+membro, non residente in Italia: iscrizione in uno dei registri professionali o commerciali degli altri Stati membri,
+di cui all’ Allegato I1.11 del Codice;
+
+La comprova avviene tramite le seguenti modalità:
+
+® primariamente mediante la consultazione del Fascicolo Virtuale dell'Operatore Economico (FVOE) ai sensi dell'art.
+
+99 del Codice;
+® qualora i dati non siano reperibili su detta banca dati, l'Aggiudicatario dovrà produrre:
+
+- per le imprese residenti in Italia: Visura Camerale del Registro delle Imprese attestante l'iscrizione per l'oggetto
+
+sociale di riferimento, in corso di validità.
+
+- per gli operatori non residenti: Dichiarazione giurata o certificato equivalente rilasciato dalla competente autorità
+
+dello Stato membro di appartenenza, attestante l'iscrizione nei registri di cui all'Allegato II.11 del D.Lgs. 36/2023.
+
+2. Possesso delle abilitazioni ADR per il trasporto di merci pericolose, ove la merce rientri nella disciplina ADR:
+a) In caso di esecuzione del trasporto in proprio, l'operatore economico deve possedere le idonee dotazioni di
+mezzi e personale qualificato in regola con la normativa ADR, nonché la nomina del Consulente per la sicurezza
+dei trasporti di merci pericolose (DGSA), di cui al D.Lgs. 35/2010 e s.m.i.;
+b) In caso di ricorso a vettore esterno incaricato, l'operatore economico deve dichiarare in sede di offerta
+l'impegno ad affidare il trasporto ed la consegna esclusivamente a soggetti muniti delle medesime abilitazioni ed
+autorizzazioni previste dalla normativa ADR, fermo restando l'adempimento delle formalità relative al subappalto
+o ai subcontratti di filiera, ai sensi dell'art. 119 del D.Lgs. 36/2023.
+La comprova avviene tramite le seguenti modalità:
+La comprova del requisito in capo all'Aggiudicatario (ovvero al vettore da questo incaricato) avverrà tramite la
+produzione della seguente documentazione:
+In caso di trasporto in proprio:
+1. Copia delle carte di circolazione dei veicoli adibiti al trasporto e dei relativi certificati di approvazione/idoneità
+ADR dei mezzi (se previsti dal tipo di merce/quantità);
+2. Copia dei Certificati di Formazione Professionale ADR (patentino ADR) del personale conducente impiegato
+nella consegna;
+3. Copia della nomina formale del Consulente per la Sicurezza dei Trasporti di Merci Pericolose (DGSA) in corso
+di validità e/o della relativa comunicazione/relazione annuale, ove dovuta per legge.
+In caso di affidamento a vettore esterno:
+1. Copia del contratto di trasporto/fornitura o dichiarazione di impegno stipulata con il vettore terzo;
+2. Documentazione del vettore attestante i medesimi requisiti ADR di cui alle lettere 1, 2 e 3 sopra individuate,
+unitamente alla dichiarazione di sussistenza dei requisiti generali dell'impresa terza incaricata e della richiesta di
+autorizzazione al subappalto/comunicazione ex art. 119 del D.Lgs. 36/2023.
+
+3. Dichiarazione di ruolo di Produttore/Distributore:
+
+L'operatore economico deve inoltre dichiarare, con apposita dichiarazione integrativa, di partecipare in una delle
+seguenti qualità:
+
+a) produttore del polielettrolita offerto;
+
+b) distributore o rivenditore del polielettrolita offerto, in possesso di dichiarazione del produttore che attesti la
+disponibilità e la fornitura del prodotto per l'intera durata dell'accordo quadro, nei quantitativi stimati.
+
+La dichiarazione del produttore, sottoscritta dal legale rappresentante, deve indicare la denominazione commerciale del
+prodotto, la durata della disponibilità e l'impegno a garantire la continuità della fornitura e l'assistenza tecnica. Non è
+richiesto il requisito di distributore esclusivo.
+
+Ai fini della verifica e comprova del possesso dei requisiti sopra indicati, l'operatore economico dovrà produrre:
+e Nelcaso di cui alla lettera a) (Produttore):
+
+Autocertificazione rese ai sensi del D.P.R. 445/2000 o iscrizione alla C.C.LA.A. (con indicazione dell'attività di
+produzione chimica/industriale pertinente), unitamente alle schede tecniche e di sicurezza (SDS) del polielettrolita
+prodotto relative al sito di fabbricazione;
+
+e Nel caso dicui alla lettera b) (Distributore / Rivenditore):
+
+ALLEGATO C-Disciplinare di gara. docx Pag. 6/20
+CIIP Cicli Integrati Impianti Primari spa
+
+- Dichiarazione d'impegno in originale/firmata digitalmente rilasciata dal produttore del polielettrolita
+(secondo le modalità sopra descritte), redatta con formale impegno a garantire la disponibilità della fornitura e
+l'assistenza tecnica per tutta la durata dell'Accordo Quadro;
+
+- Iscrizione C.C.LA.A. dell'operatore economico concorrente recante l'oggetto sociale idoneo al
+commercio/distribuzione dei prodotti chimici di che trattasi.
+
+C) REQUISITI DI CAPACITA’ ECONOMICO-FINANZIARIA - (Art. 100. comma 1, lett. B)
+
+1. Possesso di un fatturato globale d'impresa maturato nei migliori tre anni degli ultimi cinque anni antecedenti
+alla data di pubblicazione del bando di gara complessivamente non inferiore a € 1.400.000,00 (IVA esclusa).
+
+La comprova del fatturato globale dell'impresa avviene tramite documentazione contabile ufficiale:
+
+Per le società di capitali (S.p.A., S.r.l. S.a.p.a.):
+
+1. Copia dei Bilanci d'esercizio (Stato Patrimoniale, Conto Economico e Nota Integrativa) depositati presso la
+Camera di Commercio (Registro delle Imprese) relativi ai tre anni selezionati, completi della nota di deposito o
+ricevuta di avvenuta presentazione.
+
+Per le società di persone (S.n.c., S.a.s.) e ditte individuali:
+
+2. Copia delle Dichiarazioni dei Redditi (Modello Redditi SP/PF/SC e relative dichiarazioni IVA) presentate
+all'Agenzia delle Entrate per le tre annualità individuate, unitamente alle ricevute di invio telematico.
+
+3. Attestazione o dichiarazione rilasciata da un revisore legale dei conti o da un professionista abilitato (Dottore
+Commercialista/Esperto Contabile) che certifichi l'ammontare dei ricavi/fatturato conseguiti dall'impresa nei
+periodi di riferimento scelti.
+
+Per gli operatori economici costituiti o che abbiano iniziato l'attività da meno di tre anni, il requisito del fatturato globale è
+commisurato ed effettuato in proporzione al periodo di effettiva attività d'impresa. Qualora l'operatore economico di nuova
+costituzione non sia in grado di dimostrare il fatturato richiesto per giustificate ragioni, la capacità economico-finanziaria
+potrà essere comprovata mediante idonea dichiarazione di primario istituto bancario o tramite ricorso all'avvalimento o al
+raggruppamento temporaneo di imprese (RTI), ai sensi del D.Lgs. 36/2023.
+
+D) REQUISITI DI IDONEITA” TECNICA E PROFESSIONALE (Art. 100, comma 1. lett. C)
+
+1. Esecuzione di forniture analoghe (fornitura di polielettroliti/reagenti per il trattamento acque o disidratazione
+fanghi) eseguite complessivamente negli ultimi 10 anni dalla data di indizione della gara, per un importo
+complessivo non inferiore a € 700.000,00 (IVA esclusa).
+
+La comprova dei requisiti ai fini dell’aggiudicazione efficace della procedura varia a seconda della natura dei
+committenti indicati nell'elenco contratti:
+
+Per forniture prestate a favore di Enti Pubblici o Stazioni Appaltanti:
+
+1. certificati di Regolare Esecuzione (o di buona esecuzione) rilasciati e firmati dall'Ente/Stazione Appaltante
+committente, recanti l'oggetto della fornitura, l'importo complessivo e il periodo di svolgimento;
+
+Per forniture prestate a favore di Committenti Privati:
+
+1. copia dei contratti/ordini di acquisto corredati dalle relative fatture quietanziate 0 da estratti conto bancari attestanti
+l'avvenuto pagamento.
+
+Per le imprese costituite da meno di 10 anni, il periodo di riferimento per il calcolo dell'importo complessivo delle forniture
+analoghe è rapportato al periodo di effettiva esistenza dell'impresa, a decorrere dalla data di costituzione/iscrizione al
+Registro delle Imprese. Resta fermo l'importo minimo complessivo richiesto (€ 700.000,00 IVA esclusa), che potrà essere
+integrato anche mediante ricorso all'avvalimento o alla partecipazione in Raggruppamento Temporaneo di Imprese (RTI),
+ai sensi del D.Lgs. 36/2023.
+
+D) RELAZIONE DI GENERE E DICHIARAZIONE DI REGOLARITA” SUL DIRITTO AL LAVORO DELLE
+
+ALLEGATO C-Disciplinare di gara.docx Paa. 7/20
+
+CIO Cicli Integrati Impianti Primari spa
+
+PERSONE CON DISABILITA’
+1) Rapporto sulla situazione del personale per operatori economici che occupano oltre 50 dipendenti.
+
+Ai sensi dell'art. 1, comma 1, dell'Allegato Il.3 del D.Lgs. 36/23 e s.m.i., gli operatori economici che occupano oltre 50
+(cinquanta) dipendenti, al momento della presentazione dell’offerta. caricano nel F.V.O.E. e/o producono copia del rapporto
+sulla situazione del personale. maschile e femminile redatto ai sensi dell'art. 46 del d.lgs. 11 aprile 2006, n. 198, a pena di
+esclusione, con attestazione della sua conformità a quello eventualmente trasmesso alle rappresentanze sindacali aziendali e
+alla consigliera e al consigliere regionale di parità, ovvero, in caso di inosservanza dei termini previsti dal comma 1 del
+medesimo articolo 46, con attestazione della sua contestuale trasmissione alle rappresentanze sindacali aziendali e alla
+consigliera e al consigliere regionale di parità.
+
+2) Relazione di genere sulla situazione del personale maschile e femminile per operatori economici che
+occupano un numero pari 0 superiore a 15 (quindici) e inferiore a 50 dipendenti.
+
+Ai sensi dell'art. 1, commi 2e 3 deli’Allegato II.3 del Codice, gli operatori economici che occupano un numero pari 0
+superiore a quindici dipendenti e inferiore a 50, non tenuti alla redazione del rapporto sulla situazione del personale, ai sensi
+dell'art. 46 del d.Igs. 11 aprile 2006, n. 198, sono tenuti, entro sei mesi dalla conclusione del contratto, a consegnare alla
+stazione appaltante una relazione di genere sulla situazione del personale maschile e femminile in ognuna delle professioni
+ed in relazione allo stato di assunzioni, della formazione, della promozione professionale, dei livelli, dei passaggi di categoria
+o di qualifica, di altri fenomeni di mobilità, dell'intervento delia Cassa Integrazione Guadagni, dei licenziamenti, dei
+prepensionamenti e pensionamenti, della retribuzione effettivamente corrisposta. L'operatore economico è altresì tenuto a
+trasmettere la relazione alle rappresentanze sindacali aziendali e alla consigliera e al consigliere regionale di parità.
+
+3) Dichiarazione di regolarità sul diritto al lavoro delle persone con disabilità
+Gli operatori economici che occupano un numero pari 0 superiore a quindici dipendenti sono altresì tenuti, entro sei mesi
+dalla conclusione del contratto, a consegnare alla stazione appaltante la dichiarazione ai sensi della legge 12 marzo 1999,
+n. 68 e una relazione che chiarisca l'avvenuto assolvimento degli obblighi previsti a carico delle imprese e illustri eventuali
+sanzioni e provvedimenti imposti a loro carico nel triennio precedente la data di scadenza della presentazione delle offerte.
+L'operatore economico è altresì tenuto a trasmettere la relazione alle rappresentanze sindacali aziendali.
+
+La mancata osservanza degli adempimenti indicati ai punti 2) e 3) comporta l'applicazione di penali in corso d’opera, da
+commisurarsi in base alla gravità della violazione e proporzionali rispetto all'importo del contratto, nonché l'impossibilità di
+partecipare, in forma singola ovvero in raggruppamento temporaneo, per un periodo di dodici mesi, ad ulteriori procedure
+di affidamento.
+
+8. AVVALIMENTO
+
+Ai sensi dell’art. 104 del Codice, l'operatore economico, singolo 0 associato o consorziato, ai sensi dell’art. 65 del Codice,
+può dimostrare il possesso dei requisiti di capacita tecnica ed economico-finanziaria di cui al precedente paragrafo 7,
+avvalendosi dei requisiti posseduti da altri soggetti, anche partecipanti al raggruppamento.
+
+N.B.: E’ vietato Pavvalimento per la dimostrazione dei requisiti generali e di idoneità professionale.
+
+Si evidenziano, al riguardo, i seguenti aspetti:
+
+- l'operatore economico che vuole avvalersi delle capacità di altri soggetti allega:
+
+— una dichiarazione sottoscritta, utilizzando preferibilmente il Modello 5), attestante il possesso dei requisiti
+tecnici e delle risorse oggetto di avvalimento. L'operatore economico dimostra alla stazione appaltante che
+disporrà delle risorse necessarie mediante presentazione di una dichiarazione sottoscritta dal legale
+rappresentante o da persona munita dei poteri di firma dell’impresa ausiliaria, utilizzando preferibilmente il
+Modello 6), con cui quest’ultima si obbliga verso il concorrente e verso la stazione appaltante a mettere a
+disposizione per tutta la durata dell’appalto le risorse necessarie di cui è carente il concorrente;
+
+— copia del contratto di avvalimento in virtù del quale l’impresa ausiliaria si obbliga nei confronti del
+concorrente a fornire i requisiti e a mettere a disposizione le risorse necessarie per tutta la durata dell’appalto.
+
+N.B. 1: Ii contratto di avvalimento deve contenere, a pena di nullità, la specificazione dei requisiti forniti e delie risorse
+messe a disposizione dall’impresa ausiliaria, Il concorrente e l’ausiliaria sono responsabili in solido nei confronti di
+CUP Spa in relazione alle prestazioni oggetto del contratto. Dunque con riferimento al contratto in virtù del quale
+l’impresa ausiliaria si obbliga nei confronti del concorrente a fornire i requisiti e a mettere a disposizione le risorse e/o i
+mezzi prestati necessari per tutta la durata del contratto, si precisa che il predetto contratto dovrà essere determinato
+nell’oggetto, nella durata, e dovrà contenere ogni altro elemento utile ai fini dell’avvalimento. Pertanto il contratto di
+avvalimento dovrà riportare, in modo compiuto, specifico, esplicito ed esauriente la durata del contratto, l’oggetto
+dell’avvalimento, il tutto con dettagliata indicazione delle risorse e/o dei mezzi prestati in relazione ai requisiti oggetto di
+avvalimento. CIIP S.p.A. effettuerà le verifiche sostanziali circa l’effettivo possesso dei requisiti e delle risorse oggetto
+dell’avvalimento in capo all’impresa ausiliaria e l'effettivo impiego delle risorse medesime nell’esecuzione dell’appalto ed
+in particolare che le prestazioni oggetto di siano sono svolte direttamente dalle risorse umane e strumentali dell’impresa
+ausiliaria, che il titolare del contratto utilizza in adempimento degli obblighi derivanti dal contratto di avvalimento. Nel caso
+di dichiarazioni mendaci, ferma restando l’applicazione delle disposizioni di cui all’art. 96 del Codice nei confronti dei
+sottoscrittori, la Stazione Appaltante esclude il concorrente ed escute la garanzia provvisoria. Ad eccezione dei casi in cui
+sussistano dichiarazioni mendaci, qualora per l’ausiliaria sussistano motivi obbligatori di esclusione o laddove non soddisfi
+i pertinenti criteri di selezione, la Stazione Appaltante consente al concorrente, ai sensi dell’art. 104, comma 6 del D. Lgs.
+
+ALLEGATO C-Disciplinare di gara.docx Paa. 8/20
+CIO Cicli Integrati Impianti Primari spa
+
+36/2023, di sostituire l’ausiliaria. Gli obblighi previsti dalla normativa antimafia a carico del concorrente si applicano anche
+nei confronti dell’impresa/soggetto ausiliario, in ragione dell’importo dell’appalto posto a base di gara.
+
+Ai sensi dell’art. 104, del D. Lgs. 36/2023 è ammesso l’avvalimento di più imprese ausiliari: l’ausiliario non può
+avvalersi a sua volta di un altro soggetto. Inoltre, alla presente gara non è consentito, a pena di esclusione. che della
+stessa impresa ausiliaria si avvalga più di un concorrente. Il contratto è in ogni caso eseguito dall’impresa che
+partecipa alla gara, alla quale è rilasciato il certificato di esecuzione.
+
+Non è sanabile — e quindi causa di esclusione dalla gara — la mancata indicazione dei requisiti e delle risorse messe a
+disposizione dall’ausiliaria, in quanto causa di nullità del contratto di avvalimento.
+
+9. GARANZIA PROVVISORIA
+
+L’offerta è corredata, a pena di esclusione, da una garanzia provvisoria pari al 2% del valore complessivo della procedura
+(Euro 716.184,00), ai sensi dell’art. 106, comma 1 del Codice e precisamente di importo pari a: € 14.323,68
+
+(Euro quattordicimilatrecentoventitré/68).
+
+La garanzia provvisoria è costituita, a scelta del concorrente sotto forma di cauzione o di fideiussione:
+
+La fideiussione può essere rilasciata:
+
+- da imprese bancarie o assicurative che: rispondono ai requisiti di solvibilità previsti dalle leggi che ne disciplinano le
+rispettive attività;
+
+- da un intermediario finanziario iscritto nell'albo di cui all'articolo 106 del decreto legislativo 1 settembre 1993, n. 385,
+che svolge in via esclusiva o prevalente attività di rilascio di garanzie, che è sottoposto a revisione contabile da parte di
+una società di revisione iscritta nell'albo previsto dall'articolo 161 del decreto legislativo 24 febbraio 1998, n. 58; e che
+abbia i requisiti minimi di solvibilità richiesti dalla vigente normativa bancaria assicurativa.
+
+Gli operatori economici, prima di procedere alla sottoscrizione della garanzia, sono tenuti a verificare che il soggetto garante
+sia in possesso dell’autorizzazione al rilascio di garanzie mediante accesso ai seguenti siti internet:
+
+http://www.bancaditalia.it/compiti/vigilanza/intermediari/index html
+http://www.bancaditalia.it/compiti/vigilanza/avvisi-pub/garanzie-finanziarie/
+http://www.bancaditalia.it/compiti/vigilanza/avvisi-pub/soggetti-non- legittimati/Intermediari_non_abilitati.pdf
+http://www.ivass.it/ivass/imprese_jsp/HomePage.jsp
+
+La fideiussione deve:
+
+a) contenere espressa menzione dell’oggetto del contratto di appalto e del soggetto garantito (stazione appaltante);
+
+b) essere intestata a tutti gli operatori economici del costituito/costituendo raggruppamento temporaneo o consorzio
+ordinario o GEIE, ovvero a tutte le imprese retiste che partecipano alla gara ovvero, in caso di consorzi di cui all’articolo
+65, comma 2 lettere b) e c) del Codice, al solo consorzio;
+
+©) essere conforme allo schema tipo approvato con decreto del Ministro dello sviluppo economico del 16 settembre 2022
+n. 193;
+
+d) avere validità per 180 giorni dalla data di scadenza del termine di presentazione delle offerte;
+
+e) prevedere espressamente:
+
+1. Ja rinuncia al beneficio della preventiva escussione del debitore principale di cui all’articolo 1944 del Codice civile;
+2. la rinuncia ad eccepire la decorrenza dei termini di cui all’articolo 1957, secondo comma, del Codice civile;
+3. l’operatività della stessa entro quindici giorni a semplice richiesta scritta della stazione appaltante.
+
+La fideiussione deve essere emessa e firmata digitalmente da un soggetto in possesso dei poteri necessari per impegnare il
+
+garante ed essere verificabile telematicamente presso l’emittente.
+
+In caso di richiesta di estensione della durata e validità dell’offerta e della garanzia fideiussoria, il concorrente potrà produrre,
+nelle medesime forme di cui sopra, una nuova garanzia provvisoria del medesimo o di altro garante, in sostituzione della
+precedente, a condizione che abbia espressa decorrenza dalla data di scadenza del termine di presentazione dell’offerta.
+
+Ai sensi dell’art. 106, comma 8 del Codice l'importo della garanzia è ridotto nei termini di seguito indicati:
+a. Riduzione del 30% in caso di possesso della certificazione di qualità conforme alle norme europee della serie UNI EN
+
+ISO 9001/2015. In caso di partecipazione in forma associata, la riduzione si ottiene:
+
+— peri soggetti di cui all’articolo 65, comma 2, lettere e), f), g), h) del Codice solo se tutti soggetti che costituiscono il
+raggruppamento, consorzio ordinario o GEIE, o tutte le imprese retiste che partecipano alla gara, siano in possesso
+della certificazione di qualità;
+
+— peri consorzi di cui all’articolo 65, comma 2, lettere b), c), d) del Codice, se il Consorzio ha dichiarato in fase di
+offerta che intende eseguire con risorse proprie, solo se il Consorzio possiede la predetta certificazione; se il
+Consorzio ha indicato in fase di offerta che intende assegnare parte delle prestazioni a una o più consorziate
+individuate nell’offerta, solo se, sia il Consorzio, sia la consorziata designata possiedano la predetta certificazione, o
+in alternativa se il solo Consorzio possiede la predetta certificazione e l’ambito di certificazione del suo sistema
+
+ALLEGATO C-Disciplinare di gara.docx Pag. 9/20
+CIO Cicli Integrati Impianti Primari spa
+
+gestionale include la verifica che l'erogazione della prestazione da parte della consorziata rispetti gli standard fissati
+dalla certificazione;
+
+b. Riduzione del 50% in caso di partecipazione di micro, piccole e medie imprese e di raggruppamenti di operatori
+economici o consorzi ordinari costituiti esclusivamente da micro, piccole e medie imprese. Tale riduzione non è
+cumulabile con quella indicata alla lett. a).
+
+c. Riduzione del 10% cumulabile con quelle di cui alle precedenti lettere a) e b) in caso di presentazione di garanzie
+fideiussorie:
+
+- gestite mediante ricorso a piattaforme telematiche operanti con tecnologie basate su registri distribuiti;
+
+- verificabili telematicamente sul sito internet dell'emittente.
+
+d. Riduzione del 10 % in caso di possesso di una o più delle seguenti certificazioni/marchi: UNI EN ISO 14001 o UNI EN
+ISO 45000:2018. Tale riduzione è cumulabile con quelle indicate alle lett. a), b) e c). In caso di partecipazione in forma
+associata la riduzione si ottiene:
+
+- per i soggetti di cui all'articolo 65, comma 2, lettere e), f), g), h) del Codice se uno dei soggetti che costituiscono il
+raggruppamento, consorzio ordinario o GEIE, o una delle imprese retiste che partecipano alla gara sia in possesso
+della certificazione;
+
+- per i consorzi di cui all'articolo 65, comma 2, lettere b), c), d) del Codice se il consorzio 0 una delle consorziate sia
+
+in possesso della certificazione.
+
+Per fruire delle riduzioni di cui all'art. 106, comma 8 del Codice. il concorrente dichiara nella domanda di
+
+partecipazione il possesso delle certificazioni e inserisce copia delle certificazioni possedute qualora non già presenti
+
+nel F.V.O.E..
+
+È sanabile, mediante soccorso istruttorio, la mancata presentazione della garanzia provvisoria, solo a condizione che sia stata
+già costituita prima della scadenza del termine di presentazione dell’offerta.
+
+Non è sanabile - e quindi è causa di esclusione - la sottoscrizione della garanzia provvisoria da parte di un soggetto non
+legittimato a rilasciare la garanzia o non autorizzato ad impegnare il garante.
+
+10. SOPRALLUOGO
+
+Ai sensi dell’art. 92, D.Lgs. 36/2023, i concorrenti NON sono tenuti ad effettuare il sopralluogo nelle aree di intervento.
+
+11. MODALITÀ DI PRESENTAZIONE DELL’OFFERTA E SOTTOSCRIZIONE DEI DOCUMENTI DI GARA:
+
+La Stazione appaltante utilizza il sistema di intermediazione telematica https://albo-gare.ciip.it/ al quale è possibile
+accedere attraverso il punto di presenza sulle reti telematiche.
+
+I Concorrenti dovranno inserire nella piattaforma e-procurement, entro il termine perentorio, pena l’esclusione, delle ore
+10.30 del giorno 16/12/2026 la documentazione richiesta, che costituirà l'offerta, debitamente firmata digitalmente, pena la
+nullità della stessa e comunque la non ammissione alla procedura.
+
+AI primo STEP del percorso guidato il concorrente dovrà allegare nell’apposito campo la documentazione di seguito
+descritta.
+
+Non sarà ritenuta valida, e non sarà accettata alcuna offerta pervenuta oltre tale termine, anche per causa non imputabile al
+concorrente.
+
+Il mancato ricevimento di tutta o parte della documentazione richiesta per la partecipazione alla procedura comporta la non
+ricevibilità dell’offerta e la non ammissione alla procedura.
+
+È in ogni caso responsabilità dei concorrenti l’invio tempestivo e completo dei documenti e delle informazioni richieste,
+pena l’esclusione dalla procedura.
+
+L'offerta si considera ricevuta nel tempo indicato dalla piattaforma, come risultante dai log del sistema. I concorrenti
+esonerano la stazione appaltante e il gestore della piattaforma telematica da qualsiasi responsabilità inerente il mancato o
+imperfetto funzionamento dei forniture di connettività necessari a raggiungere la piattaforma ed a inviare i relativi documenti
+necessari per la partecipazione alla procedura. Saranno escluse le offerte irregolari, condizionate in qualsiasi modo, difformi
+dalla richiesta.
+
+La redazione dell’offerta dovrà avvenire seguendo le diverse fasi successive della apposita procedura guidata sulla
+piattaforma, che consentono di predisporre:
+
+-  Plico telematico — Documentazione amministrativa;
+
+-  Plico telematico — Offerta economica.
+
+Per i concorrenti aventi sede legale in Italia 0 in uno dei Paesi dell’Unione europea, le dichiarazioni sostitutive si redigono
+ai sensi degli articoli 46 e 47 del D.P.R. 28 dicembre 2000, n. 445; per i concorrenti non aventi sede legale in uno dei Paesi
+dell’Unione europea, le dichiarazioni sostitutive sono rese mediante documentazione idonea equivalente secondo la
+legislazione dello Stato di appartenenza.
+
+Tutte le dichiarazioni sostitutive rese ai sensi degli artt. 46 e 47 del D.P.R. n. 445/2000 (domanda di partecipazione e offerta
+economica) devono essere sottoscritte dal rappresentante legale del concorrente 0 suo procuratore.
+
+Le offerte tardive saranno escluse in quanto inammissibili.
+
+ALLEGATO C-Disciplinare di gara.docx Pag. 10/20
+CI I) Cicli Integrati Impianti Primari spa
+
+L’offerta vincolerà il concorrente ai sensi dell’art. 17, co. 4, del D.Lgs. n. 36/2023 (e s.m.i.) per 180 giorni dalla
+scadenza del termine indicato per la presentazione dell’offerta. Nel caso in cui alla data di scadenza della validità delle
+offerte le operazioni di gara siano ancora in corso, la stazione appaltante potrà richiedere agli offerenti, ai sensi dell’art. 17,
+co. 4, del D.Lgs. n. 36/2023 e s.m.i., di confermare la validità dell’offerta sino alla data che sarà indicata e di produrre un
+apposito documento attestante la validità della garanzia prestata in sede di gara fino alla medesima data. Il mancato riscontro
+alla richiesta della stazione appaltante sarà considerato come rinuncia del concorrente alla partecipazione alla gara.
+
+Fermo restando quanto previsto all'art. 101 del medesimo D.Lgs. n. 36/2023 (e s.m.i.), sono considerate inammissibili le
+offerte:
+
+a) non conformi ai documenti di gara;
+
+b) ricevute oltre i termini indicati nella presente lettera di invito;
+
+c) inrelazione alle quali vi sono prove di corruzione o collusione;
+
+d) considerate anormalmente basse;
+
+e) presentate da offerenti che non possiedono la qualificazione necessaria;
+
+f) il cui prezzo supera l'importo posto a base di gara, stabilito nella presente lettera di invito.
+
+12. SOCCORSO ISTRUTTORIO
+
+Con la procedura di soccorso istruttorio di cui all'articolo 101 del Codice, possono essere sanate le carenze della
+documentazione trasmessa con la domanda di partecipazione, ma non quelle della documentazione che compone l’offerta
+economica.
+
+Con la medesima procedura può essere sanata ogni omissione, inesattezza o irregolarità della domanda di partecipazione e
+di ogni altro documento richiesto per la partecipazione alla procedura di gara, con esclusione della documentazione che
+compone l’offerta economica. Non sono sanabili le omissioni, le inesattezze e irregolarità che rendono assolutamente incerta
+l’identità del concorrente.
+
+In particolare:
+
+- il mancato possesso dei prescritti requisiti di partecipazione non è sanabile mediante soccorso istruttorio ed è causa di
+esclusione dalla procedura di gara;
+
+-  l’omessa o incompleta nonché irregolare presentazione delle dichiarazioni sul possesso dei requisiti di partecipazione e
+ogni altra mancanza, incompletezza o irregolarità della domanda, sono sanabili, ad eccezione delle false dichiarazioni;
+
+- la mancata produzione del contratto di avvalimento, della garanzia provvisoria, del mandato collettivo speciale o
+dell’impegno a conferire mandato collettivo può essere oggetto di soccorso istruttorio solo se i citati documenti sono
+preesistenti e comprovabili con data certa anteriore al termine di presentazione dell’offerta;
+
+- il difetto di sottoscrizione della domanda di partecipazione, delle dichiarazioni richieste e dell’offerta è sanabile.
+
+Ai fini del soccorso istruttorio la stazione appaltante assegna al concorrente un congruo termine - non inferiore a 5 (cinque)
+giorni - perché siano rese, integrate o regolarizzate le dichiarazioni necessarie, indicando il contenuto e i soggetti che le
+devono rendere, nonché la sezione della Piattaforma dove deve essere inserita la documentazione richiesta.
+
+In caso di inutile decorso del termine, la stazione appaltante procede all’esclusione del concorrente dalla procedura.
+
+Ove il concorrente produca dichiarazioni o documenti non perfettamente coerenti con la richiesta, la stazione appaltante può
+chiedere ulteriori precisazioni o chiarimenti, limitate alla documentazione presentata in fase di soccorso istruttorio, fissando
+un termine a pena di esclusione.
+
+Ai sensi del citato art. 101 del Codice, la stazione appaltante può sempre chiedere chiarimenti sui contenuti dell'offerta
+economica e su ogni loro allegato. L’operatore economico è tenuto a fornire risposta nel termine di almeno 3 (tre) giorni
+assegnato dalla stazione appaltante. I chiarimenti resi dall’operatore economico non possono modificare il contenuto
+dell’offerta.
+
+13. CARICAMENTO TELEMATICO DELLA DOCUMENTAZIONE AMMINISTRATIVA SUL SISTEMA
+L’invio della documentazione informatica rimane ad esclusivo rischio dei mittenti.
+
+Entro il termine previsto per la presentazione della domanda, l'operatore economico dovrà depositare, nel Sistema,
+nell’apposito spazio dedicato, la seguente documentazione:
+
+1. Modello di Documento Di Gara Unico Europeo (DGUE) Allegato A)
+
+il documento di Gara Unico Europeo deve essere reso e sottoscritto digitalmente:
+
+e dallegale rappresentante del concorrente;
+
+ALLEGATO C-Disciplinare di gara.docx Paa 14/20
+CIO Cicli Integrati Impianti Primari spa
+
+Nel caso di un procuratore va trasmessa — a pena di esclusione — la relativa procura.
+
+Ai fini della corretta compilazione del Documento di Gara Unico Europeo (DGUE), relativo alla gara in oggetto, l’operatore
+economico dovrà compilare l’apposito file, disponibile tra la documentazione pubblicata nel Portale. “Documento di gara
+unico europeo (c.d. D.G.U.E.) scaricabile anche dal sito internet dell’Agid:
+http://www. agid.gov.it/it/piattaforme/procurement/documento-gara-unico-europeo”.
+
+Tale documento elettronico è finalizzato alla dimostrazione del possesso dei requisiti di ordine generale e speciale di cui,
+rispettivamente, agli artt. 94, 95, 98 e 100 del D.Lgs. n. 36/2023.
+
+Una volta compilato dovrà essere caricato nell'apposito spazio con il formato previsto dalla normativa riguardante la
+digitalizzazione. Per qualsiasi dubbio si suggerisce di consultare l’apposito manuale presente all’interno della sezione
+“MANUALI” della Piattaforma Digital PA.
+
+II D.G.U.E. è presentato, oltre che dal concorrente singolo. da ciascuno dei seguenti soggetti:
+
+a) nel caso di raggruppamenti temporanei, consorzi ordinari e GEIE, da ciascuno degli operatori economici che partecipano
+alla procedura in forma congiunta;
+
+b) nel caso di aggregazione di rete, dall’organo comune, ove presente, e da tutti i retisti partecipanti;
+
+c) nel caso di consorzi, dal consorzio e dai consorziati per conto dei quali il consorzio concorre.
+
+2. Istanza di ammissione — Dichiarazione unica e integrativa del DGUE, redatta ai sensi degli artt. 46 e 47 del DPR n.
+445/2000, utilizzando il fac-simile specificatamente predisposto e allegato alla presente lettera di invito (MODELLO 1), 0
+riprodotto in modo sostanzialmente conforme, sottoscritta digitalmente dal legale rappresentante dell’impresa concorrente
+(e dagli altri soggetti partecipanti al RTI o consorzi) ed alla quale andrà allegata la fotocopia del documento d’identità del
+sottoscrittore in corso di validità.
+
+3. Dichiarazione sostitutiva casellario Giudiziale e Carichi pendenti; redatta ai sensi degli artt. 46 e 47 del DPR n.
+445/2000, utilizzando il fac-simile specificatamente predisposto e allegato alla presente lettera di invito MODELLO 2), o
+riprodotto in modo sostanzialmente conforme, sottoscritta digitalmente dal legale rappresentante dell’impresa concorrente
+(e dagli altri soggetti partecipanti come indicato nel seguito della presente lettera di invito) ed alla quale andrà allegata la
+fotocopia del documento d’identità del sottoscrittore in corso di validità.
+
+4. (unicamente nel caso în cui l’offerta sia presentata da un soggetto diverso dal legale rappresentante della Ditta
+concorrente) COPIA DELLA PROCURA, anche in semplice copia fotostatica accompagnata da una dichiarazione
+sostitutiva resa dal legale rappresentante ai sensi dell’art. 47 del D.P.R. n. 445/2000, che confermi la persistenza del
+conferimento dei poteri di rappresentanza, accompagnata da copia fotostatica del documento d’identità valido del
+sottoscrittore.
+
+5. Dichiarazione di idoneità morale resa dai soggetti elencati all’art. 94, comma 3 del D.Lgs. 36/2023 e s.m.i.
+(MODELLO 3), redatta ai sensi degli articoli 46 e 47 del DPR 445/2000, in formato digitale.
+N.B.: La dichiarazione sostitutiva in ordine all'assenza delle condizioni di esclusione di cui agli artt. 94, 95 e 98 del Codice,
+deve essere resa o deve riferirsi ai seguenti soggetti:
+ein caso di concorrente individuale = titolare e direttore tecnico;
+ein caso di società in nome collettivo = socio e direttore tecnico;
+ein caso di società in accomandita semplice = soci accomandatari e direttore tecnico;
+saltri tipi di società o consorzio = membri del consiglio di amministrazione cui sia stata conferita la legale
+rappresentanza, ivi compresi institori e procuratori generali, membri degli organi con poteri di direzione o di
+vigilanza o soggetti muniti di poteri di rappresentanza, di direzione o di controllo, direttore tecnico 0 socio unico
+persona fisica, ovvero socio di maggioranza.
+
+6. Dichiarazione sostitutiva da compilare sulla base dello stampato redatto da questa Società (Dichiarazione dei requisiti
+— MODELLO 4), contenente tutte le attestazioni ivi indicate, resa ai sensi degli artt. 46 e 47 del D.P.R. n.445/2000 dal
+legale rappresentante o da persona munita dei necessari comprovati poteri di rappresentanza; nel caso di concorrenti costituiti
+da imprese riunite o associate o da riunirsi o da associarsi la medesima dichiarazione deve essere prodotta e sottoscritta dalla
+capogruppo e da ciascun concorrente che costituisce o che costituirà l’associazione (mandante) per le parti di propria
+competenza, dalla quale risulti il possesso dei requisiti, generali e speciali, di qualificazione, richiesti al precedente paragrafo
+7.
+
+I requisiti dovranno essere comprovati in caso di aggiudicazione della gara.
+
+7. Dichiarazione sulla qualifica di operatore economico (Produttore o Distributore) resa secondo le modalità indicate
+al criterio B, punto 3 del presente disciplinare di gara e sottoscritta digitalmente dal legale rappresentante dell'operatore
+economico;
+
+8. CAPITOLATO D’ONERI.- fornito dalla CIIP S.p.A., (Allegato D) sottoscritto con firma digitale, a pena di esclusione
+
+ALLEGATO C-Disciplinare di gara.docx Paa. 12/20
+CI Cicli Integrati Impianti Primari spa
+
+dalla gara, dal legale rappresentante, o dai legali rappresentanti dell’operatore economico, nella prima o ultima pagina. In
+caso di Raggruppamento Temporaneo di Imprese (RTI) o consorzio ordinario di concorrenti. di cui all’art. 65. comma 2.
+lett. e) e f) del D.Lgs. 36/2023. la firma digitale deve essere apposta dai legali rappresentanti di tutte le imprese associate o
+consorziate; in caso di consorzi di cui all’art. 65. comma?2. lett. b). c) e d) del D.Lgs. 36/2023. la firma digitale deve essere
+apposta dal legale rappresentante del consorzio.
+
+9. Pagamento del contributo a favore dell’ A.N.AC: BDC3C308B4
+Ai sensi della Deliberazione A.N.AC. 22 dicembre 2025 n. 584, i partecipanti alla gara devono versare a favore dell’ Autorità
+un contributo nella misura indicata al precedente paragrafo 6.
+
+A tal fine dovrà essere allegata in alternativa:
+
+a) copia stampata della e-mail di conferma, trasmessa dal sistema di riscossione, in caso di pagamento on line tramite il
+portale web “Sistema di riscossione” (https://contributi.anticorruzione.it).
+
+ovvero
+
+b) originale (o fotocopia corredata da dichiarazione di autenticità ai sensi del DPR 445/2000) dello scontrino in caso di
+pagamento tramite punto vendita della rete tabaccai lottisti abilitati al pagamento di bollette e bollettini.
+
+Le indicazioni operative sulla modalità di pagamento del contributo sono disponibili sul sito dell’ Autorità Nazionale
+Anticorruzione al seguente link: htips:/yww.anticorruzione.it/-/nortale-dei-pagamenti-di-anac.
+
+In caso di riunione di impresa dovrà essere effettuato un unico versamento da parte della capogruppo. Il mancato
+pagamento comporterà l’esclusione del concorrente dalla presente gara.
+
+10. Cauzione provvisoria
+Fideiussione bancaria ovvero polizza assicurativa originale relativa alla cauzione provvisoria pari al 2% (due per cento) (o
+
+in misura ridotta) del valore complessivo della procedura, ai sensi dell’art. 106, comma 1, del Codice, per gli importi indicati
+al precedente paragrafo 9 del presente Disciplinare. In caso di partecipazione alla gara di un raggruppamento temporaneo di
+imprese, la garanzia fideiussoria deve riguardare tutte le imprese del raggruppamento medesimo.
+
+11. Legge 68/99 - Per gli operatori con più di 15 dipendenti: a tal fine, il concorrente dichiara di occupare un numero pari 0
+superiore a 15 dipendenti e che l'azienda ottempera agli obblighi di cui alla Legge n. 68/1999, risultando in regola con le
+relative assunzioni protette, come certificabile mediante apposita attestazione rilasciata dagli uffici competenti.
+
+12. Documentazione in caso di avvalimento (MODELLI 5 E 6)
+
+L'impresa concorrente rende le dichiarazioni dell’impresa ausiliaria sul possesso dei requisiti di ordine generale e di ordine
+speciale, mediante compilazione dell’apposita sezione della domanda di partecipazione integrata dal DGUE.
+
+Il concorrente, per ciascuna ausiliaria, allega:
+1) la dichiarazione di avvalimento;
+2) il contratto di avvalimento;
+
+Nel caso di concorrenti costituiti da imprese riunite o associate o da riunirsi o da associarsi le medesime dichiarazioni
+devono essere prodotte e sottoscritte dalla capogruppo e da ciascun concorrente che costituisce 0 che costituirà
+l’associazione (mandante) per le parti di propria competenza.
+
+Tutti i files della documentazione amministrativa dovranno essere caricati negli appositi spazi predisposti con
+apposizione di firma digitale ove richiesto. I files dovranno avere un formato non modificabile #.pdf”, qualora firmati
+digitalmente il formato è “.pdf.p7m”.
+
+14. INFORMAZIONI AGGIUNTIVE:
+
+14.1 La domanda e le relative dichiarazioni sono sottoscritte ai sensi del decreto legislativo n. 82/2005:
+
+- dal concorrente che partecipa in forma singola;
+
+- nel caso di raggruppamento temporaneo o consorzio ordinario o GEIE costituiti, dalla mandataria/capofila;
+
+- nel caso di raggruppamento temporaneo o consorzio ordinario o GEIE non ancora costituiti, da tutti i soggetti che
+costituiranno il raggruppamento o il consorzio o il gruppo;
+
+- nel caso di aggregazioni di retisti:
+
+a. se la rete è dotata di un organo comune con potere di rappresentanza e con soggettività giuridica, ai sensi dell’articolo
+3, comma 4-quater, del decreto legge 10 febbraio 2009, n. 5, la domanda di partecipazione deve essere sottoscritta dal
+solo operatore economico che riveste la funzione di organo comune;
+
+b. se la rete è dotata di un organo comune con potere di rappresentanza ma è priva di soggettività giuridica, ai sensi
+dell’articolo 3, comma 4-quater, del decreto legge 10 febbraio 2009, n. 5, la domanda di partecipazione deve essere
+sottoscritta dall’impresa che riveste le funzioni di organo comune nonché da ognuno dei retisti che partecipa alla
+gara;
+
+ALLEGATO C-Disciplinare di gara.docx Paa 13/20
+CIO Cicli Integrati Impianti Primari spa
+
+c. se la rete è dotata di un organo comune privo del potere di rappresentanza o se la rete è sprovvista di organo comune,
+oppure se l’organo comune è privo dei requisiti di qualificazione richiesti per assumere la veste di mandataria, la
+domanda di partecipazione deve essere sottoscritta dal retista che riveste la qualifica di mandatario, ovvero, in caso
+di partecipazione nelle forme del raggruppamento da costituirsi, da ognuno dei retisti che partecipa alla gara.
+
+- nel caso di consorzio di cooperative e imprese artigiane o di consorzio stabile di cui all’articolo 65, comma 2 lettera b),
+
+c) e d) del Codice, la domanda è sottoscritta digitalmente dal consorzio medesimo.
+
+La domanda e le relative dichiarazioni sono firmate dal legale rappresentante del concorrente o da un suo procuratore munito
+della relativa procura. In tal caso, il concorrente allega alla domanda copia conforme all’originale della procura. Non è
+necessario allegare la procura se dalla visura camerale del concorrente risulti l’indicazione espressa dei poteri rappresentativi
+conferiti al procuratore;
+
+14.2 Documentazione ulteriore per i soggetti associati MODELLO 7)
+
+Per i raggruppamenti temporanei già costituiti
+
+- copia del mandato collettivo irrevocabile con rappresentanza conferito alla mandataria per atto pubblico o scrittura
+privata autenticata;
+
+- dichiarazione delle parti della fornitura, che saranno eseguite dai singoli operatori economici riuniti 0 consorziati.
+
+Per i consorzi ordinari o GEIE già costituiti
+- copia dell’atto costitutivo e dello statuto del consorzio o GEIE, con indicazione del soggetto designato quale capofila;
+- dichiarazione sottoscritta delle parti della fornitura che saranno eseguite dai singoli operatori economici consorziati.
+
+Per i raggruppamenti temporanei o consorzi ordinari o GEIE non ancora costituiti
+- dichiarazione rese da ciascun concorrente, attestante:
+a. a quale operatore economico, in caso di aggiudicazione, sarà conferito mandato speciale con rappresentanza o
+funzioni di capogruppo;
+b. l’impegno, in caso di aggiudicazione, ad uniformarsi alla disciplina vigente con riguardo ai raggruppamenti temporanei
+o consorzi 0 GEIE ai sensi dell’articolo 68 del Codice, conferendo mandato collettivo speciale con rappresentanza
+all’impresa qualificata come mandataria, che stipulerà il contratto in nome e per conto delle mandanti/consorziate;
+c. le parti della fornitura che saranno eseguite dai singoli operatori economici riuniti o consorziati.
+
+Per le aggregazioni di retisti: se la rete è dotata di un organo comune con potere di rappresentanza e soggettività
+
+giuridica
+
+- copia del contratto di rete, con indicazione dell’organo comune che agisce in rappresentanza della rete;
+
+- dichiarazione che indichi per quali imprese la rete concorre;
+
+- dichiarazione sottoscritta con firma digitale delle parti del forniture o della fornitura, ovvero la percentuale in caso di
+forniture/forniture indivisibili, che saranno eseguite dai singoli operatori economici aggregati in rete.
+
+Per le aggregazioni di retisti: se la rete è dotata di un organo comune con potere di rappresentanza ma è priva di
+
+soggettività giuridica
+
+- copia del contratto di rete;
+
+- copia del mandato collettivo irrevocabile con rappresentanza conferito all’organo comune;
+
+- dichiarazione delle parti del forniture o della fornitura, ovvero la percentuale in caso di forniture/forniture indivisibili,
+che saranno eseguite dai singoli operatori economici aggregati in rete.
+
+Per le aggregazioni di imprese aderenti al contratto di rete: se la rete è dotata di un organo comune privo del potere
+di rappresentanza o se la rete è sprovvista di organo comune, ovvero, se l’organo comune è privo dei requisiti di
+qualificazione richiesti, partecipa nelle forme del raggruppamento temporaneo di imprese costituito o costituendo
+- in caso di raggruppamento temporaneo di imprese costituito:
+- copia del contratto di rete;
+- copia del mandato collettivo irrevocabile con rappresentanza conferito alla mandataria;
+- dichiarazione delle parti del forniture o della fornitura, ovvero la percentuale in caso di forniture/forniture indivisibili,
+che saranno eseguite dai singoli operatori economici aggregati in rete;
+- in caso di raggruppamento temporaneo di imprese costituendo:
+- copia del contratto di rete - dichiarazioni, rese da ciascun concorrente aderente all’aggregazione di rete, attestanti: a.
+a quale concorrente, in caso di aggiudicazione, sarà conferito mandato speciale con rappresentanza o funzioni di
+capogruppo;
+b. l’impegno, in caso di aggiudicazione, ad uniformarsi alla disciplina vigente in materia di raggruppamenti temporanei;
+c. le parti del forniture o della fornitura, ovvero la percentuale in caso di forniture/forniture indivisibili, che saranno eseguite
+dai singoli operatori economici aggregati in rete.
+
+ALLEGATO C-Disciplinare di gara.docx Paa. 14/20
+CI so) Cicli Integrati Impianti Primari spa
+
+15. OFFERTA ECONOMICA
+
+L'operatore economico inserisce la documentazione economica nell'apposita sezione della Piattaforma. L'offerta
+economica, firmata secondo le modalità di cui al precedente articolo 14, deve indicare, a pena di esclusione:
+
+e il ribasso percentuale unico offerto sull'importo a base d'asta, formulato mediante il “Modello Offerta Economica”
+(MOD. 8) messo a disposizione da CIIP S.p.A., debitamente compilato in ogni sua parte, sia in cifre che in lettere.
+
+* la stima dei propri costi aziendali della manodopera e della sicurezza di cui all'art. 108, comma 9, del D.Lgs. 36/2023;
+
+Nel caso di discordanza fra il prezzo indicato in lettere e quello indicato in cifre, sarà ritenuta valida indicazione in
+lettere;
+
+Trattandosi di sola fornitura priva di posa in opera, la Stazione Appaltante non ha predeterminato una quota di manodopera
+a base d'asta. Ciononostante, ciascun concorrente è tenuto a specificare nell’offerta economica i propri costi interni di
+manodopera legati all'esecuzione delle prestazioni, ai fini della successiva verifica della congruità e del rispetto dei
+trattamenti retributivi.
+
+A pena di esclusione, l'offerta economica deve essere sottoscritta con firma digitale dal legale rappresentante della Ditta
+concorrente; nel caso di RTI la sottoscrizione deve essere effettuata dai rappresentanti legali di ciascuna delle imprese
+temporaneamente raggruppate; nel caso di Consorzio, dal legale rappresentante dello stesso;
+
+Nel caso di Rete d’impresa:
+Rete dotata di organo comune con potere di rappresentanza ma priva di soggettività giuridica
+
+in tal caso l’Offerta Prezzi dovrà essere sottoscritta dal legale rappresentante dell’organo comune e di ciascun operatore
+retista partecipante (o da un delegato/procuratore munito di idonei poteri di firma).
+
+Rete dotata di organo comune privo di potere di rappresentanza o reti sprovviste di organo comune:
+
+si rinvia alle modalità di presentazione, per quanto compatibili, stabilite per il Raggruppamento temporaneo o consorzio
+ordinario di concorrenti non ancora costituito oppure al Raggruppamento temporaneo o consorzio ordinario di concorrenti
+già costituito / G.E.LE.
+
+Rete dotata di organo comune e di soggettività giuridica:
+
+in tal caso l’Offerta Prezzi dovrà essere sottoscritta dal legale rappresentante dell’organo comune (o da un
+delegato/procuratore munito di idonei poteri di firma)
+
+In tale cartella non debbono essere inseriti altri documenti.
+
+16. CRITERIO DI AGGIUDICAZIONE
+
+L’accordo quadro è aggiudicato in base al criterio del minor prezzo (massimo ribasso percentuale unico sull’importo posto
+a base di gara), ai sensi dell’art. 108, comma 3 del D.Lgs. 36/2023, trattandosi di fornitura con caratteristiche standardizzate
+e condizioni definite dal mercato.
+
+La graduatoria verrà formulata in ordine decrescente sulla base del ribasso percentuale offerto dai concorrenti.
+L'aggiudicazione avverrà a favore dei concorrenti (fino a 4 concorrenti) che avranno presentato il massimo ribasso
+percentuale.
+
+Ai sensi dell’art. 110 del D.Lgs. 36/2023, la Stazione Appaltante si riserva la facoltà di valutare la congruità, la serietà, la
+sostenibilità e la realizzabilità di qualsiasi offerta che, in base ad elementi specifici e ad un giudizio motivato del RUP,
+appaia anormalmente bassa.
+
+In tal caso, la Stazione Appaltante richiederà per iscritto al concorrente di presentare, entro un termine non inferiore a 15
+(quindici) giorni, le spiegazioni e i dettagli dei costi dell'offerta (es. costi di produzione, spese generali, utile d'impresa,
+costi di trasporto/logistica ADR e rispetto delle norme sulla sicurezza e sul costo della manodopera).
+
+17. TERMINI E MODALITA’ DI PRESENTAZIONE DELLE OFFERTE
+
+L’offerta e la documentazione ad essa relativa devono essere redatte e trasmesse esclusivamente per via telematica, attraverso
+la piattaforma, in formato elettronico, all’indirizzo internet https:/albo-gare ciîp. it entro e non oltre il termine ultimo per la
+presentazione delle offerte, fissato per le ore 10.30 del giorno 16/12/2026, pena l’irricevibilità dell'offerta e comunque la
+
+ALLEGATO C-Disciplinare di gara.docx Pan 15/20
+CliO Cicli Integrati Impianti Primari spa
+
+non ammissione alla procedura, e, salvo laddove diversamente indicato, sottoscritte con firma digitale di cui all’art. 1, comma
+1, lettera s), D.Lgs. 82/2005 secondo le modalità stabilite nel Disciplinare telematico.
+
+Tutte le dichiarazioni sostitutive richieste ai fini della partecipazione alla presente procedura di gara:
+
+a) Devonoessere rilasciate ai sensi degli artt. 46 e 47 del D.P.R. 28 dicembre 2000 n. 445 e ss.mm. in carta semplice, con
+la sottoscrizione con firma digitale del dichiarante (rappresentante legale del concorrente o altro soggetto dotato del potere
+di impegnare contrattualmente il concorrente stesso),
+
+b) Potranno essere firmate digitalmente anche da procuratori e/o institori dei legali rappresentanti e, in tal caso, alle
+dichiarazioni dovrà essere allegata in formato digitale la scansione dell’originale della relativa procura o di una sua copia
+conforme;
+
+c) Devono essere inserite nelle apposite sezioni del Sistema relative alla presente procedura.
+
+In caso di concorrenti non stabiliti in Italia, la documentazione dovrà essere prodotta in modalità idonea equivalente secondo
+la legislazione dello Stato di appartenenza; si applica l’art. 100 del Codice.
+
+Tutta la documentazione da produrre deve essere in lingua italiana.
+
+FARE MOLTA ATTENZIONE: Per una proficua collaborazione con CIIP SpA, si invitano gli operatori economici ad
+utilizzare preferibilmente i Modelli Allegati disponibili nella documentazione di gara, al fine di agevolare la valutazione
+del Seggio di gara.
+
+I modelli predisposti dalla stazione appaltante sono scaricabili nei dettagli della gara su bttps:/albo- ciip.it/.
+
+Il dichiarante allega scansione di un documento di riconoscimento, in corso di validità (per ciascun dichiarante è sufficiente
+una sola scansione del documento di riconoscimento anche in presenza di più dichiarazioni su più fogli distinti).
+
+CP SpA si riserva di richiedere al concorrente, in ogni momento della procedura, copia autentica o conforme all’originale
+della documentazione richiesta.
+
+Verranno escluse le offerte plurime, condizionate, tardive, alternative o espresse in aumento rispetto all’importo a
+base di gara.
+
+Con la presentazione dell’offerta si intenderanno integralmente accettate dal concorrente tutte le condizioni e
+prescrizioni del Capitolato d’Oneri e del presente Disciplinare di gara, al cui rispetto l'operatore economico sarà
+vincolato in caso di aggiudicazione.
+
+L’offerta, a pena di esclusione, dovrà contenere le seguenti “buste digitali”:
+- “Busta” A): Documentazione amministrativa;
+- “Busta” B): Offerta economica.
+
+L’inserimento di elementi concernenti il prezzo in documenti contenuti nella “busta” della documentazione amministrativa
+è causa di esclusione dalla gara.
+
+La mancata separazione dell’offerta amministrativa dall’offerta economica, ovvero l’inserimento di elementi concernenti il
+prezzo in documenti non contenuti nella busta dedicata all’offerta economica, costituirà causa di esclusione. Verranno
+escluse le offerte plurime, parziali, condizionate, alternative o espresse in rialzo rispetto agli importi di gara.
+
+Per i concorrenti con sede legale in Italia 0 in uno dei Paesi dell’Unione Europea, le dichiarazioni sostitutive si
+redigono ai sensi degli articoli 46 e 47 del DPR 445/2000: per i concorrenti non aventi sede legale in uno dei Paesi
+dell’Unione Europea, le dichiarazioni sostitutive sono rese mediante documentazione idonea equivalente secondo la
+legislazione dello Stato di appartenenza. Si applica in ogni caso l’art. 69 del Codice.
+
+Tutte le dichiarazioni sostitutive rese ai sensi degli artt. 46 e 47 del DPR 445/2000, ivi compreso il DGUE, la domanda
+di partecipazione. l’offerta tecnica e l’offerta economica devono essere sottoscritte dal rappresentante legale del
+concorrente o da un procuratore/institore.
+
+La documentazione, ove non richiesta espressamente in originale, potrà essere prodotta in copia autentica o in copia
+conforme: ove non diversamente specificato è ammessa la copia semplice.
+
+N.B.: È responsabilità di ogni Operatore Economico verificare e controllare il corretto caricamento automatico dei
+documenti sul Portale della gara. La Stazione Appaltante e il gestore del sistema sono esonerati da qualsiasi
+responsabilità inerente il mancato controllo da parte dell’operatore economico sul corretto caricamento della
+documentazione.
+
+18. SVOLGIMENTO DELLE OPERAZIONI DI GARA - APERTURA BUSTE
+
+L’apertura delle offerte in gara è prevista per il giorno 16/12/2026 alle ore 11.00 presso gli uffici amministrativi di CIIP
+SpA siti in Viale della Repubblica e vi potranno partecipare i legali rappresentanti o loro delegati, muniti di delega scritta e
+sottoscritte dal legale rappresentante del concorrente, con allegata fotocopia del documento di identità dello stesso in corso
+di validità, per ogni concorrente.
+
+Le eventuali, successive sedute pubbliche saranno comunicate ai concorrenti a mezzo pec, all’indirizzo di posta elettronica
+certificata indicata dal concorrente, almeno 3 (tre) giorni prima della data fissata.
+
+Sulla base della documentazione presentata in piattaforma si procederà a:
+
+a. verificare la completezza e correttezza formale della documentazione;
+
+b. verificare che non si siano presentate imprese che, in base alle dichiarazioni rese, siano fra di loro in situazione di
+
+ALLEGATO C-Disciplinare di gara.docx Paa 18/20
+CIO Cicli Integrati Impianti Primari spa
+
+controllo ed in caso positivo ad escluderle entrambe dalla gara;
+
+c. verificare che non sussistano altre situazioni che, in base alla vigente normativa (a mero titolo esemplificativo
+partecipazione alla gara in più di un raggruppamento temporaneo o consorzio, ovvero partecipazione alla gara da parte di
+consorziati per conto dei quali i consorzi di cui all’articolo 65, comma 2, lettere b), c) e d), del D.Lgs n. 36/2023, hanno
+indicato che concorrono, ovvero partecipazione alla gara, in proprio o come associata o come consorziata, da parte di
+un'impresa ausiliaria, ecc...) comportano l’esclusione dei concorrenti dalla gara. Resta fermo che si procederà all’esclusione
+dalla gara dei concorrenti anche quando le predette situazioni di incompatibilità dovessero emergere in successive fasi della
+gara stessa.
+
+Il concorrente rilascia apposita dichiarazione in sede di partecipazione, recante il consenso affinché CITP SpA possa, a
+propria discrezione, procedere alla verifica circa il possesso dei requisiti generali e speciali di qualificazione dei concorrenti
+al fine della loro ammissione alla gara, sulla base delle dichiarazioni da essi presentate e dai riscontri rilevabili dagli archivi
+informatici di enti pubblici e/o amministrazioni pubbliche e dal F.V.O.E. presso la Banca Dati Nazionale dei Contratti
+Pubblici. Resta inoltre fermo il potere di accertare sia su tutti i soggetti, che su uno singolo, ovvero su alcuni di loro (anche
+a campione), in qualunque fase della procedura, il possesso di tutti i requisiti dichiarati, ferma restando la verifica dei requisiti
+dell’aggiudicatario provvisorio della gara.
+
+Concluse le operazioni di valutazione della documentazione amministrativa, in successiva seduta pubblica, da tenersi nella
+data preventivamente comunicata ai concorrenti, si procederà all’apertura della busta C - Offerta economica, e alla
+determinazione della graduatoria provvisoria.
+
+CUP SpA procederà quindi, ai sensi dell’art. 110 del D.Lgs. 36/2023, alla valutazione della congruità dell’offerta
+dell’aggiudicatario provvisorio.
+
+19. CAUSE DI ESCLUSIONE
+
+I plichi e le buste contenenti le offerte dovranno essere presentati nei termini e con le modalità previste nel presente
+Disciplinare: si farà luogo all’esclusione dalla gara di quelle offerte che manchino di documenti o formalità o che comunque
+risultino incomplete o irregolari, fatte salve le ipotesi di soccorso istruttorio come disciplinate dall’art. 101 del D.Lgs. n.
+36/2023.
+
+Sono escluse le imprese che non risultino in possesso dei requisiti minimi di cui al presente Disciplinare. Sono altresì escluse
+le Ditte concorrenti che presentano offerte parziali, condizionate o comunque espresse in modo indeterminato. L'offerta
+economica presentata in maniera difforme o incompleta rispetto a quanto previsto nel presente Disciplinare è causa
+di esclusione immediata dalla gara. Fatta salva l'ipotesi di falsità, l’omissione totale o la carenza sostanziale di anche solo
+una delle dichiarazioni previste nella presente lettera di invito nonché nel DGUE, nel “modelli allegati all’istanza”
+comporteranno l’esclusione immediata dalla gara, salve le ipotesi di regolarizzazione con la procedura di soccorso istruttorio,
+ove ammissibile. Non sono ammesse, e quindi immediatamente escluse dalla gara, le offerte (1.V.A. esclusa) pari o in
+aumento rispetto all’importo posto a base d’asta soggetto a sconto. Le autocertificazioni, le certificazioni, i documenti
+e l'offerta devono essere redatti rigorosamente in lingua italiana, la mancata redazione in lingua italiana comporta
+l'esclusione dalla gara. La partecipante è altresì esclusa nel caso in cui non abbia reso, regolarizzato o integrato la
+documentazione essenziale di gara ai sensi di quanto disposto dall'art. 101 del D.Lgs. n. 36/2023.
+
+20. VERIFICHE SUCCESSIVE ALLE OPERAZIONI DI GARA
+
+Si procederà all’aggiudicazione anche quando sia pervenuta una sola offerta valida, purché congrua.
+
+A seguito della comunicazione detta Stazione Appaltante circa l’intervenuta aggiudicazione efficace della gara, il soggetto
+aggiudicatario produce alla Stazione Appaltante, la documentazione necessaria per la sottoscrizione del contratto, completa
+di garanzie cauzionali e polizze assicurative (art. 117 del D.Lgs. 36/2023).
+
+L'aggiudicazione efficace sarà formalizzata, con apposito provvedimento, previo accertamento a carico dell’operatore
+economico aggiudicatario della regolarità della sua situazione contributiva nei confronti degli Enti assicurativi ed
+assistenziali e delta regolarità fiscale, nonché di tutte le dichiarazioni rese in sede di gara. Nei casi previsti dall’art. 124 del
+D.Lgs. 36/2023, | Amministrazione si riserva la facoltà di interpellare progressivamente i soggetti che hanno partecipato
+all’originaria procedura di gara, risultanti dalla relativa graduatoria, al fine di stipulare un nuovo contratto per l'affidamento
+del completamento dell’appalto. L'affidamento avverrà alle condizioni proposte dal nuovo aggiudicatario in sede di offerta.
+
+21. GARANZIA DEFINITIVA: Prima della stipula del contratto di Accordo Quadro, gli operatori economici aggiudicatari
+sono tenuti a prestare la garanzia definitiva ai sensi dell’art. 117 del D.Lgs. n. 36/2023 e s.m.i.
+
+Trattandosi di affidamento mediante Accordo Quadro con più operatori economici, ai sensi dell’art. 117, comma 1, del
+D.Lgs. 36/2023, la garanzia definitiva per la sottoscrizione dell'Accordo Quadro è determinata nella misura del 2% del
+valore massimo dell'Accordo Quadro attribuibile al singolo aggiudicatario sulla base della quota a ciascuno assegnata.
+A tale importo si applicano le riduzioni previste dall’art. 106. comma 8, del Codice in favore degli operatori economici in
+possesso delle relative certificazioni di qualità (cs. UNI EN ISO 9001, ISO 14001, ISO 45001).
+
+La garanzia definitiva copre gli oneri per il mancato o inesatto adempimento di tutte le obbligazioni contrattuali derivanti
+dall'Accordo Quadro. In caso di risoluzione per inadempimento dell’affidatario. CITP S.p.A. provvederà all’escussione della
+garanzia, fatto salvo il risarcimento di eventuali maggiori danni.
+
+La garanzia deve avere validità pari all'intera durata dell'Accordo Quadro e comunque sino allo svincolo espressamente
+disposto da CIIP S.p.A., e dovrà essere reintegrata nel caso in cui la Stazione Appaltante debba avvalersene in corso
+d'esecuzione.
+
+Polizza di Assicurazione (RCT/RCO e Rischio Ambientale):
+
+ALLEGATO C-Disciplinare di gara.docx Paa 17/20
+CHO Cicli Integrati Impianti Primari spa
+
+Almeno 10 (dieci) giorni prima della stipula dell'Accordo Quadro, ciascun aggiudicatario dovrà presentare una polizza di
+assicurazione della responsabilità civile verso terzi e prestatori di lavoro (RCT/RCO), inclusa la copertura dei danni
+ambientali/inquinamento, a garanzia dei rischi connessi all'esecuzione delle forniture, secondo i massimali e le condizioni
+stabilite nel Capitolato d’Oneri.
+
+22. ALTRE INFORMAZIONI
+
+e nel caso di offerte uguali, si procederà al rilancio competitivo, secondo modalità specificate dal RUP;
+
+e sonoritenute cause di esclusione la presentazione di offerte in aumento, parziali, alternative, condizionate o espresse in
+modo indeterminato o presentate in modo non conforme al presente Disciplinare;
+
+e in conformità a quanto disposto dall’art. 124 del D.Lgs. n. 36/2023, l’Amministrazione, se tecnicamente ed
+economicamente possibile provvederà ad interpellare progressivamente i soggetti che hanno partecipato all'originaria
+procedura di gara, risultanti dalla relativa graduatoria, per stipulare un nuovo contratto per l'affidamento dell'esecuzione
+o del completamento dell’appalto, in caso di liquidazione giudiziale, di liquidazione coatta e concordato preventivo,
+oppure di risoluzione del contratto ai sensi dell’articolo 122 o di recesso dal contratto ai sensi dell'articolo 88, comma 4-
+ter, del codice delle leggi antimafia e delle misure di prevenzione, di cui al decreto legislativo 6 settembre 2011, n. 159,
+oppure in caso di dichiarazione giudiziale di inefficacia del contratto. L’ Amministrazione provvederà ad interpellare
+l'operatore economico a partire da quello che ha formulato la prima migliore offerta;
+
+® l’aggiudicazione resta subordinata alla verifica del possesso dei requisiti generali, economico- finanziari, di capacità
+tecnica dichiarati dall’impresa in sede di gara, al positivo esito delle verifiche previste dalla vigente disciplina antimafia
+e alla trasmissione della documentazione dovuta dalla ditta “per la stipula del contratto”;
+
+e qualora, a seguito delle verifiche, dovesse risultare che l'aggiudicatario non è in possesso dei requisiti richiesti per la
+partecipazione alla gara ovvero non rispetti gli adempimenti previsti a suo carico prima della stipula del contratto, lo
+stesso decadrà dall’aggiudicazione che fino a tale momento deve intendersi sottoposta a condizione risolutiva espressa,
+fatto salvo il risarcimento del danno. Si rammenta che la non veridicità delle dichiarazioni rese in sede di gara, accertata
+in sede di verifica, comporta per il dichiarante non solo la decadenza immediata dei benefici eventualmente ottenuti sulla
+base della dichiarazione falsa, ma anche l’applicazione delle sanzioni penali previste dagli artt. 75 e 76 del D.P.R. n.
+445/2000 (e smi);
+
+e è ammesso il subappalto, ai sensi dell’art. 119 del D.Lgs. n. 36/2023, a condizione che il concorrente lo dichiari
+espressamente all’atto dell’offerta, utilizzando l’apposito spazio previsto nell’allegato “DGUE”, con espressa
+indicazione delle parti che intende subappaltare. La quota parte subappaltabile non può in ogni caso superare i limiti e le
+condizioni previsti dall’art. 119 del D.Lgs. n. 36/2023;
+
+* la partecipazione alla gara prevede la piena accettazione dei documenti che fanno parte della stessa (Bando di gara,
+Disciplinare, Capitolato d’Oneri e allegati).
+
+23. DOCUMENTI PER LA STIPULA DEL CONTRATTO E PROVA CONFERMATIVA
+
+Divenuta efficace l’aggiudicazione definitiva, fatto salvo l'esercizio dei poteri di auto tutela nei casi consentiti dalle norme
+vigenti, la stipulazione del contratto di appalto ha luogo entro il termine di 60 (sessanta) giorni, ovvero fatta salva l’ipotesi
+di differimento espressamente concordata con l’aggiudicatario. Se la stipulazione del contratto non avviene nel termine
+fissato, l'aggiudicatario può, mediante atto notificato alla stazione appaltante, sciogliersi da ogni vincolo 0 recedere dal
+contratto. All’aggiudicatario non spetta alcun indennizzo, salvo il rimborso delle spese contrattuali documentate.
+
+Il contratto non può comunque essere stipulato prima di 32 (trentadue) giorni dall’invio ai concorrenti dell'ultima
+delle comunicazioni concernenti il provvedimento di aggiudicazione efficace, ai sensi dell’art. 18, comma 3 del D.Lgs.
+36/2023.
+
+Sarà possibile, in caso di necessità, procedere alla consegna della fornitura anticipata, in via d'urgenza, ove ricorrano le
+condizioni di cui all’art. 17, commi 8 e 9 del Codice.
+
+In merito agli adempimenti "antimafia", qualora intervengano, successivamente alla richiesta della documentazione
+antimafia e in qualunque momento della gestione del contratto, variazioni sostanziali dell’assetto gestionale dell’impresa
+(escluse le figure prive di poteri di gestione, come i componenti del collegio sindacale) l'impresa è obbligata a darne
+comunicazione a CHIP SpA per l’aggiornamento della documentazione antimafia prescritta.
+
+Prima della stipula del contratto dell'Accordo Quadro, i soggetti utilmente collocati in graduatoria saranno sottoposti a una
+prova confermativa sul prodotto offerto, finalizzata a verificare il raggiungimento delle prestazioni attese.
+
+Per la disciplina dettagliata delle modalità di svolgimento della prova, dei parametri e delle tolleranze ammissibili, nonché
+delle conseguenze in caso di mancato superamento, si rinvia espressamente a quanto previsto al Paragrafo 5 ("Prova
+confermativa'') del Capitolato d’Oneri.
+
+ALLEGATO C-Disciplinare di aara.docx Dan A2/19N
+CIO Cicli Integrati Impianti Primari spa
+
+24. OBBLIGHI ASSUNTI DALL’APPALTATORE
+
+La formulazione dell’offerta comporta per l'impresa:
+
+a) di accettare integralmente le norme contenute nella legislazione vigente in materia di contratti pubblici (D.Lgs. n. 36/2023
+e s.m.i.) e nel Capitolato d’Oneri;
+
+b) di attenersi scrupolosamente alle disposizioni in materia di sicurezza e salute sui luoghi di lavoro di cui al D.Lgs. n.
+81/2008 e s.m.i., nonché agli obblighi derivanti dalla sottoscrizione del DUVRI;
+
+©) di provvedere alla costituzione delle garanzie fideiussorie e delle polizze assicurative specificate nel presente Disciplinare
+e nel Capitolato d’Oneri;
+
+d) di essere sin d’ora disponibile alla stipula del contratto di Accordo Quadro nei termini e con le modalità che verranno
+fissate da CIIP S.p.A.;
+
+e) di aderire fin dora, in caso di aggiudicazione e su richiesta motivata della Stazione Appaltante, all’esecuzione d’urgenza
+anticipata della fornitura, ai sensi dell’art. 17, comma 8, del D.Lgs. n. 36/2023.
+
+25. SPESE DI CONTRATTO
+
+Tutte le spese, nessuna esclusa, relative alla partecipazione alla presente procedura e tutti gli oneri, costi o spese di qualsiasi
+genere 0 tipo, comunque inerenti e/o conseguenti al presente appalto sono a totale ed esclusivo carico dell’aggiudicatario,
+ad eccezione della sola IVA che è a carico della Stazione Appaltante.
+
+Le spese di contratto, gli oneri fiscali, quali imposte e tasse, ivi comprese quelle di registro, ove dovute in caso d’uso, faranno
+carico all’operatore economico aggiudicatario, in sede di stipula, in applicazione delle disposizioni in materia di cui all’art.
+18, comma 10 e all’Allegato I.4 al Codice.
+
+26. DATI PERSONALI
+
+I dati personali relativi alle imprese partecipanti alla gara saranno oggetto di trattamento, con o senza ausilio di mezzi
+elettronici, limitatamente e per il tempo necessario agli adempimenti relativ gara (“Tutela Privacy"). Titolare del
+trattamento e CIIP SpA. Si fa rinvio agli artt. 15 e seguenti del Regolamento UE 2016/679 (GDPR) circa i diritti degli
+interessati alla riservatezza dei dati
+
+27. CONTROVERSIE
+
+Per la definizione delle controversie si procederà secondo quanto indicato dagli artt. 210 e 212 del D.Lgs. 36/2023. In caso
+di mancato raggiungimento dell’accordo bonario, è esclusa la competenza arbitrale. Il Foro competente è quello di Ascoli
+Piceno.
+
+28 - ACCESSO AGLI ATTI
+Si applicano le disposizioni di cui agli artt. 35 e 36 del D.Lgs 36/2023.
+
+29 - DISCIPLINA DEI PAGAMENTI - REVISIONE PREZZI — RINEGOZIAZIONE DEL CONTRATTO
+
+In conformità all’art. 125 del Codice, è prevista l’erogazione in favore dell’ Appaltatore di una anticipazione del corrispettivo
+d’appalto nella misura pari al 20% del valore del contratto, con le modalità indicate nel Capitolato d’Oneri.
+
+Per la disciplina dei pagamenti, si rende noto che CIIP SpA è tenuta all’applicazione del meccanismo dello split payment,
+di cui al D.L. 50/2017 e s.m.i. Nel rinviare integralmente sul punto al Capitolato d’Oneri, si precisa che CIIP SpA effettuerà
+i pagamenti a 30 gg decorrenti dalla data di emissione dei certificati di pagamento relativi ai singoli SS.A.LL., previa
+emissione di fattura dell'operatore economico affidatario.
+
+I pagamenti avverranno, ai sensi dell’art. 3 della L. n. 136 del 13.8.2010 e s.m.i., esclusivamente tramite bonifico bancario
+o postale, ovvero con altri strumenti di pagamento idonei a consentire la piena tracciabilità delle operazioni, su appositi conti
+correnti dedicati, anche in via non esclusiva, alle commesse pubbliche i cui estremi (unitamente alle generalità ed al codice
+fiscale delle persone delegate ad operare su di essi) dovranno essere comunicati al committente entro 7 giorni dalla loro
+accensione o dalla prima utilizzazione in operazioni finanziarie relative alla presente commessa.
+
+I pagamenti sono subordinati al previo accertamento della regolare esecuzione delle prestazioni contrattuali, della regolarità
+contributiva e fiscale dell’affidatario, nonché di ogni altra verifica prevista dalla legge e dai documenti di gara.
+
+Il pagamento non implica accettazione delle forniture da parte della Stazione Appaltante, in termini di condizioni, di qualità,
+quantità, prezzo e non significa che CIIP SpA rinunci ai diritti, direttamente o indirettamente, derivanti dalle condizioni
+individuate come esecuzione delle forniture.
+
+L’Appaltatore non può mai sospendere l’esecuzione delle proprie prestazioni contrattuali.
+
+La Stazione Appaltante, nel caso in cui vengano contestate inadempienze, può sospendere i pagamenti all’ Appaltatore fino
+a che questi non sia posto in regola con gli obblighi contrattuali, ferma restando l’applicazione delle penali.
+
+Non sono previsti pagamenti in acconto delle fatture emesse.
+
+> N.B.: è obbligatoria l'emissione e trasmissione delle fatture in modalità elettronica. Le fatture elettroniche dovranno
+pertanto essere emesse esclusivamente utilizzando il “Sistema di Interscambio” (SDI) e secondo il formato previsto dalla
+normativa (XML). Al fine di poter adempiere a tale obbligo, l’appaltatore dovrà inviare le fatture al seguente codice
+destinatario:0000000.
+
+ALLEGATO C-Disciplinare di aara.docx Pan 19/20
+CIO Cicli Integrati Impianti Primari spa
+
+Revisione prezzi: qualora nel corso di esecuzione del contratto, al verificarsi di particolari condizioni di natura oggettiva,
+si determina una variazione, in aumento o in diminuzione, del costo delle forniture superiore al 5% (cinquepercento)
+dell’importo complessivo, i prezzi sono aggiornati, nella misura dell’80% (ottantapercento) del valore eccedente la
+variazione del 5%, in relazione alle prestazioni da eseguire. Ai fini del calcolo della variazione dei prezzi si utilizza la
+combinazione di indici tra quelli indicati all’articolo 60, comma 3, lettera b del Codice, in base alla tipologia di appalto.
+
+Ai sensi dell’art. 9 del D.Lgs. 36/2023, se sopravvengono circostanze straordinarie e imprevedibili, estranee alla normale
+alea imprenditoriale, tali da alterare in maniera rilevante l’equilibrio originario del contratto, è ammessa la rinegoziazione
+del contratto di Accordo Quadro secondo buona fede. Le modalità di rinegoziazione sono specificate dal Responsabile
+unico di Progetto, con applicazione degli artt. 60 e 120 del Codice.
+
+30. OBBLIHI RELATIVI ALLA TRACCIABILITÀ DEI FLUSSI FINANZIARI
+Il contratto di Accordo Quadro è soggetto agli obblighi in tema di tracciabilità dei flussi finanziari di cui alla legge 13
+agosto 2010, n. 136.
+L’affidatario deve comunicare alla stazione appaltante:
+— gli estremi identificativi dei conti correnti bancari o postali dedicati, con l'indicazione dell'opera/forniture/fornitura
+
+alla quale sono dedicati;
+
+— le generalità e il codice fiscale delle persone delegate ad operare sugli stessi;
+
+— ogni modifica relativa ai dati trasmessi.
+La comunicazione deve essere effettuata entro sette giorni dall'accensione del conto corrente ovvero, nel caso di conti
+correnti già esistenti, dalla loro prima utilizzazione in operazioni finanziarie relative ad una commessa pubblica. In caso di
+persone giuridiche, la comunicazione de quo deve essere sottoscritta da un legale rappresentante ovvero da un soggetto
+munito di apposita procura. L'omessa, tardiva o incompleta comunicazione degli elementi informativi comporta, a carico
+del soggetto inadempiente, l'applicazione di una sanzione amministrativa pecuniaria da 500 a 3.000 euro.
+Il mancato adempimento agli obblighi previsti per la tracciabilità dei flussi finanziari relativi all’appalto comporta la
+risoluzione di diritto del contratto.
+In occasione di ogni pagamento all’appaltatore o di interventi di controllo ulteriori si procede alla verifica
+dell’assolvimento degli obblighi relativi alla tracciabilità dei flussi finanziari.
+
+Il Responsabile Unico del Progetto
+Dott. Giovanni Celani
+
+ALLEGATO C-Disciplinare di aara.docx Daa AnMA

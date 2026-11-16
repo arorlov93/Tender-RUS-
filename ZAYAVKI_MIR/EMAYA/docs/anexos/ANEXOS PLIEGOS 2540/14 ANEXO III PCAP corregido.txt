@@ -1,0 +1,140 @@
+ANEXO III
+MODELO DE PROPOSICIÓN ECONÓMICA
+D./Dª. ..................…………………............................., con domicilio en ......………………......., calle..………………………….……………….............., núm. .............., CP………........, con DNI núm. .....................…........., y teléfono...............……..., con plena capacidad de obrar, en nombre propio/ o en representación de la empresa…………………………................, con domicilio en..........................., calle........, CP..........., teléfono.................................. y CIF.........................................
+DECLARO:
+Estar informado del anuncio publicado en la Plataforma de Contratación del Sector Público el día ..........de ........................ de 20......., y de las condiciones y requisitos que se exigen para la adjudicación en público procedimiento abierto del contrato de .............................................................................................................................................................................................................................................................................
+Que me comprometo en nombre propio (o en nombre y representación de la empresa…………………………………………………………………………, NIF/CIF……………………………), a ejecutarlo con sujeción estricta a los requisitos y las condiciones estipuladas en los Pliegos de cláusulas particulares y de prescripciones técnicas del contrato, según el siguiente desglose:
+LOTE 1 CATEGORÍA 1
+Material | Cantidad | Unidad de medida | Precio máximo de licitación | Importe total IVA excluido | Precio unitario ofertado IVA excluido | Importe total ofertado IVA excluido
+HIPOCLORITO SODICO-JERRICAN | 10.600 | KG | 0,50 € | 5.300,00 € |  | 
+BIDONES JERRY CAN DE 25 LTS | 60 | UD | 10,00 € | 600,00 € |  | 
+HIPOCLORITO SODICO -G.R.G. | 300.000 | KG | 0,46 € | 138.000,00 € |  | 
+HIPOCLORITO SODICO EN CISTERNAS | 25.400 | KG | 0,36 € | 9.144,00 € |  | 
+ACIDO CLORHIDRICO 32% - G.R.G . | 72.000 | KG | 0,60 € | 43.200,00 € |  | 
+ACIDO CLORHÍDRICO 32% - JERRICAN | 1.200 | KG | 0,63 € | 756,00 € |  | 
+ACIDO FORMICO 85 % 103,5 KG | 1.250 | KG | 2,00 € | 2.500,00 € |  | 
+ANTIESPUMANTE (EN  JERRY CAN DE 25 LTS) | 6.000 | KG | 6,00 € | 36.000,00 € |  | 
+SOSA CAUSTICA LIQUIDA 50% G.R.G. | 12.000 | KG | 0,85 € | 10.200,00 € |  | 
+PRESUPUESTO BASE DE LICITACIÓN IVA EXCLUIDO | 245.700,00 € | TOTAL OFERTA IVA EXCLUIDO | 
+LOTE 1 CATEGORÍA 2
+Material | Cantidad | Unidad de medida | Precio máximo de licitación | Importe total IVA excluido | Precio unitario ofertado IVA excluido | Importe total ofertado IVA excluido
+ACIDO SULFÚRICO  98% - JERRICAN (KG) | 5.750 | KG | 0,68 € | 3.910,00 € |  | 
+ACIDO SULFURICO 98% (GRANEL) | 192.688 | KG | 0,52 € | 100.197,76 € |  | 
+PRESUPUESTO BASE DE LICITACIÓN IVA EXCLUIDO | 245.700,00 € | TOTAL OFERTA IVA EXCLUIDO | 
+LOTE 1 CATEGORÍA 3 DISPERSANTE / ANTIINCRUSTANTE
+ |  | SALOBRE
+PARÁMETRO | UNIDADES | A | B | C
+TDS | (mg/l) | 1000 - 2000 | 2000 - 3000 | 3000 - 4000
+CONV. | % | 81,5 | 81,4 | 80,2
+Ba++ | (µg/L) | 62 | 65 | 52
+F- | (mg/L) | 0,32 | 0,2 | 0,4
+FOSF. | (µg/L P4O3-) | 54 | 11,6 | 13,6
+COND. | (µS/cm 20ºC) | 2318 | 3357 | 4680
+Ca2+ | (mg/L) | 164 | 194 | 235
+Mg2+ | (mg/L) | 57 | 79,5 | 113,8
+Na+ | (mg/L) | 297 | 475,8 | 764,1
+K+ | (mg/L) | 8,3 | 10,9 | 16,1
+Sr | (mg/L) | 1,3 | 1,6 | 1,8
+Fe | (µg/L) | 30 | 30 | 30
+Al | (µg/L) | 6 | 6 | 14
+Cl- | (mg/L) | 551 | 929 | 1541
+Br- | (mg/L) | 2,1 | 3,3 | 5,4
+SO42- | (mg/L) | 200 | 236 | 334
+CO32- | (mg/L) | 0 | 0 | 0
+HCO3- | (mg/L) | 347 | 329 | 343
+NO3- | (mg/L) | 40 | 47 | 39
+NO2- | (mg/L) | 0 | 0 | 0,5
+SiO2 | (mg/L) | 8,6 | 7,7 | 7,9
+Mn | (µg/L) | 0,47 | 0,47 | 0,47
+B | (µg/L) | 0,17 | 0,17 | 0,17
+TURB. | (UNF) | 0,3 | 0,2 | 0,5
+Conversión | % | 81,5 | 81,4 | 80,2
+TEMP. | (°C) | 20,5 | 20,5 | 20,5
+pH | (Unidad pH) | 7,15 | 7,15 | 7,15
+Producto antiincrustante seleccionado:
+(*) Dosis total en agua de alimentación para agua de calidad tipo A de la tabla núm. 1 presentada por el licitador + 0,4 ppm seguridad.
+Precio (€/Kg):
+(**)OFERTA ECONÓMICA: | €
+La Propuesta económica del licitador se calculará con la siguiente fórmula = 8.834*Dosis (mg/L)*Coste (€/kg antiincrustante) *Duración del contrato en años.
+LOTE 1 CATEGORÍA 4
+Material | Cantidad | Unidad de medida | Precio máximo de licitación | Importe total IVA excluido | Precio unitario ofertado IVA excluido | Importe total ofertado IVA excluido
+PERMACLEAN 55 (BIOCIDA EFECTO RAPIDO) | 5.167 | KG | 6,44 € | 33.275,48 € |  | 
+LOTE 1 CATEGORÍA 5
+Material | Cantidad | Unidad de medida | Precio máximo de licitación | Importe total IVA excluido | Precio unitario ofertado IVA excluido | Importe total ofertado IVA excluido
+ADICLEAN 128 (BIOCIDA EFECTO LENTO) | 500 | KG | 6,26 € | 3.130,00 € |  | 
+LOTE 2 CATEGORÍA 1
+Material | Cantidad | Unidad de medida | Precio máximo de licitación | Importe total IVA excluido | Precio unitario ofertado IVA excluido | Importe total ofertado IVA excluido
+FLOCULANT POLI CAT. ESPESSA.(750kg) | 161.875 | KG | 3,6 | 582.750,00 |  | 
+LOTE 2 CATEGORÍA 2
+Material | Cantidad | Unidad de medida | Precio máximo de licitación | Importe total IVA excluido | Precio unitario ofertado IVA excluido | Importe total ofertado IVA excluido
+FLOCULANT POLI CAT. PER ASSECAT(25kg) | 345.888 | KG | 3,6 | 1.245.196,80 |  | 
+LOTE 2 CATEGORÍA 3
+Material | Cantidad | Unidad de medida | Precio máximo de licitación | Importe total IVA excluido | Precio unitario ofertado IVA excluido | Importe total ofertado IVA excluido
+FLOCULANT POLI CAT. ESPESSA.LIQUDO | 1.600 | KG | 4,8 | 7.680,00 |  | 
+B) OFERTA CRITERIO CUALITATIVO
+Que así mismo me comprometo en nombre propio (o en nombre y representación de la empresa …………………………………………………………………………. NIF/CIF……………………………..) a: 
+LOTE 1 CATEGORÍA 1
+Breve descripción | Plazo de entrega ordinaria | Plazo de entrega urgente | Plazo de entrega ordinaria ofertado | Plazo de entrega urgente ofertado
+HIPOCLORITO SODICO- EN ENVASE JERRY CAN DE 25 LTS | 5 días | 2 días | __ días | __ días
+ENVASE - JERRY CAN DE 25 LTS | 5 días | 5 días | __ días | __ días
+HIPOCLORITO SODICO -EN ENVASE G.R. G | 5 días | 2 días | __ días | __ días
+HIPOCLORITO SODICO – EN CISTERNAS | 5 días | 2 días | __ días | __ días
+ÁCIDO CLORHIDRICO 32% - EN ENVASE G.R.G. | 5 días | 2 días | __ días | __ días
+ÁCIDO CLORHÍDRICO 32% - EN ENVASE JERRY CAN DE 25 LTS | 5 días | 2 días | __ días | __ días
+ÁCIDO FORMICO 85 % - EN ENVASE JERRY CAN DE 25 LTS | 5 días | 2 días | __ días | __ días
+ANTIESPUMANTE - EN ENVASE JERRY CAN DE 25 LTS | 5 días | 2 días | __ días | __ días
+SOSA CAUSTICA LIQUIDA 50% - EN ENVASE G.R. G | 5 días | 2 días | __ días | __ días
+LOTE 1 CATEGORÍA 2
+Breve descripción | Plazo de entrega ordinaria | Plazo de entrega urgente | Plazo de entrega ordinaria ofertado | Plazo de entrega urgente ofertado
+ACIDO SULFÚRICO  98% - EN ENVASE JERRY CAN DE 25 LTS | 2 días | 1 día | __ días | __ días
+ACIDO SULFURICO 98% (GRANEL) | 5 días | 2 días | __ días | __ días
+LOTE 1 CATEGORÍA 3
+Breve descripción | Plazo de entrega ordinaria | Plazo de entrega urgente | Plazo de entrega ordinaria ofertado | Plazo de entrega urgente ofertado
+DISPERSANTE / ANTIINCRUSTANTE | 15 días | 7 días | __ días | __ días
+Compromiso que acredite la compatibilidad de los productos ofrecidos con las membranas de las que se dispone actualmente en la ETAP de osmosis inversa | Descripción | Marcar con “X”
+ | Si se dispone y se presenta: 2 puntos | 
+ | Si no se dispone del certificado: 0 puntos. | 
+LOTE 1 CATEGORÍA 4
+Breve descripción | Plazo de entrega ordinaria | Plazo de entrega urgente | Plazo de entrega ordinaria ofertado | Plazo de entrega urgente ofertado
+BIOCIDA EFECTO RÁPIDO | 15 días | 7 días | __ días | __ días
+Compromiso que acredite la compatibilidad de los productos ofrecidos con las membranas de las que se dispone actualmente en la ETAP de osmosis inversa | Descripción | Marcar con “X”
+ | Si se dispone y se presenta: 5 puntos | 
+ | Si no se dispone del certificado: 0 puntos. | 
+LOTE 1 CATEGORÍA 5
+Breve descripción | Plazo de entrega ordinaria | Plazo de entrega urgente | Plazo de entrega ordinaria ofertado | Plazo de entrega urgente ofertado
+BIOCIDA EFECTO LENTO | 15 días | 7 días | __ días | __ días
+Compromiso que acredite la compatibilidad de los productos ofrecidos con las membranas de las que se dispone actualmente en la ETAP de osmosis inversa | Descripción | Marcar con “X”
+ | Si se dispone y se presenta: 5 puntos | 
+ | Si no se dispone del certificado: 0 puntos. | 
+Palma, ………. de …………………………de………… 
+(Firma)
+ANEXO IV
+DECLARACIÓN RESPONSABLE DE CONOCIMIENTO Y CUMPLIMIENTO DE LA NORMATIVA DE SEGURIDAD TIC PARA EXTERNOS Y EMPRESAS ADJUDICATARIAS DE SERVICIOS Y DE LOS REQUISITOS TÉCNICOS DE ARQUITECTURA Y CIBERSEGURIDAD PARA LA ADQUISICIÓN E IMPLANTACIÓN DE NUEVOS SISTEMAS O DISPOSITIVOS
+D./Dª___________________________________, con DNI número_______________, en representación de ________________________, con NIF número________________, y domicilio social en ______________________________________________________________________.
+Declara que la solución propuesta para la presente licitación cumple con todos los requisitos indicados en el apartado 6 “Normativa de seguridad TIC para externos y empresas adjudicatarias” y en el apartado 7 “Requisitos técnicos de arquitectura y ciberseguridad para la adquisición e implantación de nuevos sistemas o dispositivos” del Pliego de Prescripciones Técnicas, y que en caso de que no se cumpla con alguno de dichos requisitos se compromete a encontrar una solución satisfactoria conjuntamente con el Departamento de Tecnología de la Información y Comunicación de EMAYA en aras a que la arquitectura y la seguridad de los sistemas de EMAYA no puedan verse comprometidos por la solución ofrecida.
+Y para que conste, firmo la presente declaración responsable.
+Palma, ………. de …………………………de………… 
+(Firma)
+ANEXO V
+ANEXO VI 
+DECLARACIÓN RESPONSABLE PROCEDIMIENTOS SIMPLIFICADOS ART. 159.
+D./Dª. ..................…………………............................., con domicilio en ......………………......., calle..………………………….……………….............., n.º .............., CP………........, con DNI n.º .....................…........., y teléfono...............……..., con plena capacidad de obrar, en nombre propio/ o en representación de la empresa…………………………................, con domicilio en..........................., calle........, CP..........., teléfono.................................. y CIF......................................... 
+En relación al procedimiento abierto simplificado abreviado del contrato de ..........................................................................................................................................................................................................................................................................................................................
+DECLARA RESPONSABLEMENTE: 
+Que tengo la representación de la Sociedad que presenta esta oferta. 
+Que la sociedad que represento dispone de las autorizaciones necesarias para ejercer la actividad.  
+Que la sociedad que represento cumple con los requisitos de solvencia económica y financiera, y profesional o técnica establecidos en el pliego de prescripciones administrativas particulares. 
+Que la sociedad que represento no está incursa en prohibición alguna de contratar.
+Que la sociedad, en caso de ser extranjera, se somete a la jurisdicción de los juzgados y tribunales españoles de cualquier orden, para todas las incidencias que de manera directa o indirecta puedan surgir del contrato, con renuncia, si se tercia, al fuero jurisdiccional extranjero que le pueda corresponder al licitador. 
+Que en el supuesto que la oferta la presente una unión temporal de empresarios, me comprometo a la constitución de la unión en el caso de resultar adjudicatario. 
+Que la sociedad que represento: 
+  Está inscrita en el Registro Oficial de Licitadores y Empresas Clasificadas del Sector público (ROLECE), y que las circunstancias que constan inscritas no han experimentado variación. 
+  Ha solicitado su inscripción en el ROLECE antes de la finalización del plazo de presentación de las ofertas del procedimiento de referencia. 
+Que la Sociedad que represento se encuentra al corriente de sus obligaciones con EMAYA. 
+Que la sociedad que represento es una Pequeña y Mediana Empresa (PYME):
+ Sí
+ No
+Que la empresa conoce, acepta y se compromete a cumplir todos los requisitos exigidos tanto en el Pliego de Cláusulas Administrativas Particulares como en el Pliego de Prescripciones Técnicas.  
+Y para que conste, firmo la presente declaración responsable en, 
+Palma, ……….. de …………………………..de…………
+(FIRMA)

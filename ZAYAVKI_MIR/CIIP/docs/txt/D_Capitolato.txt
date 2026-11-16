@@ -1,0 +1,1077 @@
+                                Cicli Integrati Impianti Primari spa
+                                Capitale Sociale € 4.883.340,00 i.v.
+                                Viale della Repubblica, 24
+                                63100 Ascoli Piceno
+                                C.F.-P.I. e n. iscr. R.I.di AP 00101350445
+                                tel +39 0736 2721 fax +39 0736 272222
+                                Numero Verde 800-216172
+                                www.ciip.it e-mail: info@ciip.it
+                                PEC: servizio.protocollo@pec.ciip.it
+
+
+
+
+                                        Capitolato d’Oneri
+
+
+
+
+Accordo quadro per la fornitura di polielettrolita per le sezioni di disidratazione dei fanghi biologici
+                       degli impianti di depurazione gestiti dalla CIIP S.p.A.
+
+
+
+
+                                                                        Il Responsabile Tecnico del Procedimento
+                                                                               Ing. Claudio Bernardo Carini
+                                                                                                             Firmato
+                                                                                                             digitalmente da:
+                                                                                                             Carini Claudio
+                                                                                                             Bernardo
+                                                                                                             Firmato il
+                                                                                                             12/11/2026 12:58
+                                                                                                             Seriale Certificato: 4865393
+
+
+                                                                                                             Valido dal 17/09/2025 al
+                                                                                                             17/09/2028
+
+                                                                                                             InfoCamere Qualified
+                                                                                                             Electronic Signature CA
+Cicli Integrati Impianti Primari spa
+
+
+
+
+Sommario
+1. Oggetto dell’Accordo Quadro                                                                           3
+2. Termini e Durata della Fornitura                                                                      3
+3. Modalità di gara                                                                                      4
+4. Criterio di aggiudicazione                                                                            4
+5. Prova confermativa                                                                                    5
+6. Importo                                                                                               5
+7. Durata dell’appalto                                                                                   6
+8. Opzioni contrattuali e proroga tecnica                                                                6
+9. Descrizione della fornitura richiesta: caratteristiche del prodotto e garanzie prestazionali          6
+10. Organizzazione delle forniture                                                                       7
+  Service di calibrazione semestrale dei polipreparatori                                                 8
+  Prestazione dei prodotti                                                                               8
+  Assistenza tecnica                                                                                     9
+11. Gestione delle non conformità                                                                9
+12. Prezzi unitari e revisione prezzi                                                           10
+13. Assicurazione                                                                               11
+14. Osservanza e attuazione delle norme di sicurezza: informazione sui rischi specifici e misure di
+prevenzione                                                                                     11
+15. Oneri e responsabilità dell’appaltatore                                                     12
+16. Oneri e responsabilità della stazione appaltante                                            14
+17. Contabilizzazione, fatture e pagamenti                                                      14
+18. Verbali di controllo e verifica sulle forniture                                             15
+  Controllo quantità                                                                            15
+  Controllo qualità – composizione del prodotto                                                        15
+  Controllo qualità – efficacia del prodotto                                                           16
+19. Penali                                                                                             16
+  Penali economiche per ritardata consegna                                                             16
+  Penali economiche per difformità del prodotto                                                        17
+  Penali economiche mancato ritiro contenitori vuoti                                                   17
+20.   Divieto di cessioni e subappalto                                                                 18
+21.   Risoluzione del Contratto per Colpa dell’Appaltatore                                             18
+22.   Impianti di videosorveglianza                                                                    19
+23.   Qualità e ambiente                                                                               19
+24.   Richiamo alle leggi                                                                              19
+25.   Controversie e Riserve                                                                           19
+26.   Trattamento dei Dati e Tutela della Riservatezza                                                 19
+
+
+
+
+CSA_OEPV
+                                                                                                  Pag. 2/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+1.         OGGETTO DELL’ACCORDO QUADRO
+Il presente accordo quadro ha per oggetto la fornitura di polielettrolita cationico in emulsione da impiegarsi
+nelle sezioni di disidratazione dei fanghi presenti presso gli impianti di depurazione gestiti dalla CIIP S.p.A.,
+ubicati nel territorio per cui la CIIP S.p.A. è gestore del SII per l’EGATO n.5 – Marche Sud. Specificamente tali
+impianti sono ubicati nei comuni di Ascoli Piceno, San Benedetto del Tronto, Fermo, Comunanza, Offida,
+Grottammare, Cupramarittima, Pedaso, Altidona.
+La procedura prevede la sottoscrizione di un accordo quadro con uno o più operatori economici, ai sensi
+dell’art. 59 comma 4 del D. Lgs. 36/2023 da formalizzarsi attraverso l’applicazione di uno o più contratti
+applicativi. Con l’Accordo quadro di natura generale ciascun aggiudicatario si obbliga irrevocabilmente nei
+confronti di CIIP S.p.A. a fornire a fronte dell’emissione di contratti applicativi / ordini, polielettrolita
+cationico in emulsione per la disidratazione dei fanghi biologici avente le caratteristiche di cui al presente
+Capitolato d’Oneri.
+L’accordo ed il capitolato non sono fonte di alcuna obbligazione per CIIP S.p.A. nei confronti dei fornitori
+aggiudicatari, né costituiscono impegno a dar corso ad alcuno dei contratti applicativi.
+CIIP S.p.A. assumerà obblighi nei confronti degli aggiudicatari esclusivamente con l’emissione dei contratti
+attuativi – singoli ordini attuativi.
+Le caratteristiche, nonché i quantitativi da fornire sono descritti nel presente capitolato che costituisce parte
+integrante e sostanziale dell’Accordo quadro. Le quantità del prodotto di seguito indicate si riferiscono in via
+puramente indicativa al fabbisogno relativo alla durata dell’Accordo Quadro.
+
+                   Impianto                          Comune               Quantità [kg]   Prezzo presunto
+     Marina - DEPUR00034                 Altidona                                4.550          19.110,00 €
+     Marino - DEPUR00044                 Ascoli Piceno                          18.930          79.506,00 €
+     Campolungo - DEPUR00404             Ascoli Piceno                          49.333        207.200,00 €
+     Santa Maria - DEPUR00253            Comunanza                               2.590          10.878,00 €
+     Taffetani - DEPUR00079              Cupramarittima                          3.150          13.230,00 €
+     Basso Tenna - DEPUR00398            Fermo                                   7.000          29.400,00 €
+     Lido - DEPUR00080                   Fermo                                  14.000          58.800,00 €
+     Salvano - DEPUR00081                Fermo                                  16.800          70.560,00 €
+     San Leonardo - DEPUR00085           Grottammare                             9.800          41.160,00 €
+     Santa Maria Goretti - DEPUR00525    Offida                                  3.500          14.700,00 €
+     Valdaso PIP - DEPUR00140            Pedaso                                  2.800          11.760,00 €
+     Brodolini - DEPUR00198              San Benedetto del Tronto               38.067        159.880,00 €
+     Totale                                                                   170.520         716.184,00 €
+
+
+
+2.         TERMINI E DURATA DELLA FORNITURA
+Il presente accordo quadro avrà durata di 12 (dodici) mesi a decorrere dalla firma dello stesso. Si precisa che
+per durata dell’accordo quadro s’intende il termine entro il quale CIIP S.p.A. potrà stipulare i singoli ordini
+applicativi.
+Il termine di validità contrattuale dell’accordo cessa indipendentemente dal fatto che si raggiunga o meno
+l’importo a base di gara nel termine succitato oppure nel caso in cui si raggiunga l’importo massimo previsto
+in tempi minori. Qualora alla data di scadenza del termine fossero in corso contratti applicativi di fornitura
+gli stessi continueranno ad essere validi ed efficaci fino al termine previsto.
+L’importo complessivo a base d’asta per l’intero periodo contrattuale (1 anno) è pari a € 716.184,00 (euro
+settecentosedicimilacentoottantaquattro/00) oltre IVA, inclusi oneri per la sicurezza stimati in € 2.400,00
+come da DUVRI allegato.
+Il prezzo unitario previsto, compresi gli oneri per la sicurezza, è pari a 4,2 €/kg.
+
+
+
+CSA_OEPV
+                                                                                                         Pag. 3/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+3.         MODALITÀ DI GARA
+Per l’aggiudicazione della fornitura si procederà mediante procedura aperta ai sensi dell’art. 71 D.Lgs.
+36/2023 con il criterio del minor prezzo ai sensi dell’art. 108 comma 3 bis, con la modalità dell’accordo quadro
+ai sensi dell’art. 59 comma 4 del medesimo.
+Non sono ammesse offerte alla pari, in aumento o condizionate.
+CIIP S.p.A. si riserva la facoltà di aggiudicare la gara anche in presenza di una sola offerta valida.
+L’aggiudicazione dell’accordo quadro avverrà in favore di tutti gli operatori economici – fino a un massimo di
+4 (quattro) – ritenuti idonei alla fornitura, collocatisi nella graduatoria, che non siano incorsi in alcuna ipotesi
+di esclusione. Fermo restando quanto sopra, saranno stipulati i contratti/ordini attuativi – sulla base della
+graduatoria derivante dalla presente procedura; questi contratti/ordini verranno emessi a insindacabile
+giudizio della CIIP S.p.A. in ragione del principio di ottimizzazione delle performance di disidratazione fango
+e di riduzione dei consumi di polielettrolita e comunque, in ogni caso, prioritariamente in favore
+dell’operatore economico risultato primo in graduatoria.
+Nei casi di:
+     - Indisponibilità da parte di un aggiudicatario alla fornitura del prodotto nei tempi previsti dal presente
+         capitolato;
+     - Urgenza di ripristino delle condizioni di funzionalità dei dosaggi o delle performance desiderate
+         presso gli impianti gestiti dalla CIIP e oggetto di fornitura;
+la CIIP si riserva di rivolgersi, qualora presenti, ai successivi classificati in graduatoria, procedendo secondo
+questa, fino all’esaurimento della capienza contrattuale di ciascun fornitore e comunque a insindacabile
+giudizio della Stazione Appaltante.
+La formazione della graduatoria avverrà come meglio specificato nell’art. 4. Criterio di aggiudicazione.
+Ciascun contratto si intende risolto alla concorrenza dell’importo contrattuale o alla sua naturale scadenza.
+In caso di offerte con importi uguali, per la formazione della graduatoria, si procederà a sorteggio tra i
+concorrenti con pari offerta, ai sensi dell’art. 77 del R.D. 827/1924.
+La CIIP S.p.A. si riserva la facoltà di non precedere all’aggiudicazione se nessuna offerta risulti conveniente o
+idonea in relazione all’oggetto del contratto.
+Non saranno ammesse offerte economiche in aumento o condizionate.
+
+
+4.         CRITERIO DI AGGIUDICAZIONE
+L’aggiudicazione avverrà con il criterio del minor prezzo: all’operatore economico che offrirà il prezzo più
+basso verrà contrattualizzato l’importo maggiore, procedendo a scalare sugli importi contrattuali, per tutti
+gli operatori economici ritenuti idonei alla fornitura.
+I fornitori o il singolo a cui verrà affidata la fornitura disciplinata dal presente Capitolato verranno individuati
+attraverso l’applicazione delle seguenti regole.
+Qualora il numero degli operatori economici fosse pari a 1 (uno), l’operatore economico eseguirà la
+prestazione          fino      alla      concorrenza         dell’importo       di     €      716.184,00       (euro
+settecentosedicimilacentottantaquattro/00) IVA esclusa.
+Qualora il numero degli operatori economici fosse pari a 2 (due), l’importo complessivo massimo
+dell’accordo quadro, pari a € 716.184,00 (euro settecentosedicimila/00), IVA esclusa, verrà ripartito con il
+seguente criterio:
+     - Il primo in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 393.901,20
+          (euro trecentonovantatremilanovecentouno/20);
+     - Il secondo in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 322.282,80
+          (euro trecentoventiduemiladuecentoottantadue/80).
+Qualora il numero degli operatori economici fosse pari a 3 (tre), l’importo complessivo massimo dell’accordo
+quadro, pari a € 716.184,00 (euro settecentosedicimila/00), IVA esclusa, verrà ripartito con il seguente
+criterio:
+
+
+
+CSA_OEPV
+                                                                                                            Pag. 4/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+     -  Il primo in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 358.092,00
+        (euro trecentocinquantottomilanovantadue/00);
+     - Il secondo in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 214.855,20
+        (euro duecentoquattordicimilaottocentocinquantacinque/20);
+     - Il terzo in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 143.236,80
+        (euro centoquarantatremiladuecentotrentasei/80).
+Qualora il numero degli operatori economici fosse pari a 4 (quattro), l’importo complessivo massimo
+dell’accordo quadro, pari a € 716.184,00 (euro settecentosedicimila/00), IVA esclusa, verrà ripartito con il
+seguente criterio:
+     - Il primo in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 286.473,60
+        (euro duecentoottantaseimilaquattrocentosettantatre/60);
+     - Il secondo in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 214.855,20
+        (euro duecentoquattordicimilaottocentocinquantacinque/20);
+     - Il terzo in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 143.236,80
+        (euro centoquarantatremiladuecentotrentasei/80);
+     - Il quarto in graduatoria si aggiudicherà la fornitura per un importo contrattuale pari a € 71.618,40
+        (euro settantunomilaseicentodiciotto/40).
+
+
+5.         PROVA CONFERMATIVA
+Al fine di valutare la qualità del prodotto, prima della stipula del contratto, verranno eseguite prove
+confermative per garantire la prestazione attesa. Per prestazione attesa si intende il raggiungimento del
+grado di funzionamento della sezione di disidratazione fanghi del singolo impianto così come rappresentato
+dalle grandezze presenti nell’Allegato A. Il grado di tolleranza ammissibile, nel caso di prova confermativa è
+rappresentato da uno scostamento negativo (ovvero riduzione del tenore di secco) inferiore al 10 % (dieci
+percento) o da un valore di consumo specifico (espresso in gpoli/kgfango,SS) con scostamenti positivi (ovvero
+maggior dosaggio) inferiore al 10% (dieci percento) del valore riportato nell’Allegato A. Al verificarsi di
+almeno una delle due condizioni predette, la prova confermativa non risulterà superata e, di conseguenza,
+non si procederà alla contrattualizzazione della fornitura.
+Il concorrente, convocato dal Direttore dell’Esecuzione del Contratto della CIIP S.p.A., dovrà presenziare con
+un proprio tecnico munito di delega del Legale Rappresentante presso l’impianto scelto dalla Stazione
+Appaltante con i prodotti che ha presentato per la partecipazione alla gara. Avrà a disposizione 4 (quattro)
+ore di tempo per effettuare tutte le prove necessarie e la calibrazione del polipreparatore con le modalità
+descritte nel paragrafo 10. Organizzazione delle forniture – e ottenere conseguentemente i risultati attesi
+dalla Stazione Appaltante.
+La prova confermativa per la stipula del contratto è unica e il mancato superamento della stessa rappresenta
+condizione ostativa alla prosecuzione dei rapporti contrattuali.
+Nel caso di non superamento della prova confermativa, verranno ripescati dalla graduatoria di cui all’art. 4.
+Criterio di aggiudicazione i concorrenti precedentemente ritenuti non idonei, secondo le priorità definite
+dalla graduatoria e in numero pari al numero dei concorrenti che non hanno superato la prova confermativa,
+ai quali verrà richiesto il superamento della prova confermativa ai sensi del presente articolo.
+CIIP spa si riserva la facoltà di sottoporre a verifiche confermative solo un campione selezionato di impianti
+di depurazione, sulla base di proprie valutazioni discrezionali ed insindacabili.
+Per tutte le prove inerenti al valore di tenore di secco e di verifica di peso dei prodotti sarà impiegata la
+strumentazione e i dispositivi presenti presso gli impianti della CIIP S.p.A.
+6.         IMPORTO
+L’importo complessivo delle forniture e dei servizi oggetto dell’Accordo Quadro è preventivato in €
+713.784,00 comprensivo degli oneri di sicurezza non soggetti a ribasso d’asta pari a € 2.400,00 dettagliato
+come segue:
+
+
+CSA_OEPV
+                                                                                                      Pag. 5/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+     Attività                                                                           Importo €
+     1. Fornitura di polielettrolita per le sezioni di disidratazione dei fanghi               716.184,00 €
+     biologici degli impianti di depurazione gestiti dalla CIIP S.p.A.
+     2. Oneri per la sicurezza non soggetti a ribasso fornitura in opera                          2.400,00 €
+     importo a base d’asta                                                                      713.784,00 €
+
+L’offerta deve indicare il ribasso percentuale espresso in cifre e lettere, secondo il modello allegato al
+presente bando.
+
+
+7.         DURATA DELL’APPALTO
+La durata dell’appalto è di 12 mesi intesi come periodo nel quale la Stazione Appaltante può emettere
+ordinativi in funzione della data di inizio delle attività. Il contratto, in ogni caso, terminerà all’esaurimento
+dell’importo contrattuale qualora questo si verifichi prima della durata stimata.
+Qualora, al termine della durata stabilita, non sia stato consumato l’intero importo contrattuale di ciascun
+contratto, la committente si riserva la facoltà di disporre una proroga temporale del singolo contratto non
+consumato per un periodo non superiore a 6 mesi.
+
+
+
+8.         OPZIONI CONTRATTUALI E PROROGA TECNICA
+La stazione appaltante si riserva di applicare quanto stabilito dal comma 9 dell’art. 120 del D. Lgs. 36/2023;
+in tal caso l’Appaltatore è tenuto all’esecuzione delle prestazioni contrattuali alle condizioni originariamente
+previste.
+E’ escluso il tacito rinnovo del contratto alla scadenza dei 12 mesi.
+Non sono previste proroghe del contratto ma (eventuale) la semplice “proroga tecnica” di cui al comma 10 e
+al comma 11 dell’art. 120 del codice, ed esclusivamente per il tempo strettamente necessario per bandire la
+nuova gara e comunque non superiore a 3 mesi. In tal caso l’Appaltatore è tenuto all’esecuzione delle
+prestazioni previste nel contratto agli stessi prezzi, patti e condizioni.
+
+
+
+9.         DESCRIZIONE DELLA FORNITURA RICHIESTA: CARATTERISTICHE DEL PRODOTTO E GARANZIE PRESTAZIONALI
+I prodotti oggetto dell’appalto dovranno essere assolutamente idonei al condizionamento dei fanghi biologici
+da disidratare derivanti dal trattamento delle acque reflue e prodotti presso gli impianti di cui al precedente
+punto 1. Oggetto dell’A. Dovranno essere consegnati in contenitori IBC da almeno 1000 litri di capacità. Il
+servizio richiesto prevede la consegna dei contenitori pieni ed il ritiro, anche non contestuale, dei vuoti
+(vuoto a rendere).
+Ciascun contraente, per l’intera durata della fornitura, si impegna a garantire che i prodotti abbiano le
+caratteristiche di cui alle schede techiche presentate in sede di gara e afferenti ai prodotti offerti.
+
+Per il prodotto, in particolare, sono richiesti i seguenti requisiti minimi:
+     a) Essere polielettrolita cationico in emulsione;
+     b) Avere una densità di carica > 20%;
+     c) Avere il titolo del principio attivo superiore al 45%.
+I prodotti offerti dalle Imprese Concorrenti dovranno rispettare le prescrizioni di cui al d.lgs. 81/2008 e s.m.i.;
+le forniture dovranno essere eseguite secondo quanto previsto dagli articoli che seguono e nel rispetto delle
+norme del predetto Testo Unico Sicurezza.
+
+
+
+CSA_OEPV
+                                                                                                           Pag. 6/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+Per l’intera durata della fornitura, le Imprese appaltatrici dovranno garantire che i prodotti abbiano le
+caratteristiche di cui alle schede tecniche presentate in sede di gara e afferenti ai prodotti offerti.
+Le imprese appaltatrici, per ciascuna fornitura effettuata nel periodo di esecuzione contrattuale, dovranno
+produrre:
+    -     Una “Dichiarazione di Conformità” del prodotto fornito, in cui sia riportata la certificazione di origine
+         dello stesso (impresa produttrice, lotto e data di produzione, copia del certificato rilasciato dal
+         produttore);
+    - Una “Dichiarazione di Garanzia” del produttore nel merito del quantitativo di poliacrilammide
+         cationica in emulsione;
+    - Una “Dichiarazione di Garanzia” del produttore nel merito dell’utilizzo di flocculante in emulsione
+         non classificato come irritante
+    - Una “Dichiarazione di Garanzia di Assenza di Sali di Ammonio” nel prodotto,
+Ciascuna di queste sottoscritte dal Legale Rappresentante.
+
+I prodotti forniti dovranno corrispondere esattamente alle schede tecniche depositate dall’appaltatore in
+sede di gara e rinnovate per ciascuna singola fornitura; le stesse rappresentano vincolo contrattuale e
+costituiranno parte integrante del contratto di appalto.
+Il prodotto deve essere perfettamente conservato e rispondente alla funzione e al servizio cui è destinato. A
+titolo indicativo non saranno accettati:
+     - Contenitori non etichettati o con etichetta non leggibile;
+     - Contenitori danneggiati;
+     - Contenitori contenenti una quantità inferiore di prodotto.
+La CIIP S.p.A. potrà rifiutare in qualunque momento le forniture che, per qualsiasi causa, non fossero
+conformi alle condizioni del contratto o comunque inadeguate alle funzioni cui sono destinate.
+
+L’appaltatore dovrà garantire la purezza dei prodotti offerti.
+
+Al momento della fornitura, e per tutta la durata dell’appalto, la CIIP S.p.A. si riserva la facoltà di procedere:
+    - a una verifica delle caratteristiche del prodotto / dei prodotti consegnati;
+    - al prelievo di un campione per un’analisi del prodotto fornito.
+
+
+10.        ORGANIZZAZIONE DELLE FORNITURE
+Ciascuna fornitura dovrà essere attivata nei termini che verranno stabiliti dalla Committenza, fatto salvo
+quanto indicato nei precedenti articoli. L’attivazione della singola fornitura avverrà con una semplice richiesta
+del Tecnico di Zona della CIIP S.p.A. per la relativa zona.
+È di totale ed esclusiva responsabilità dell'Appaltatore tutto quanto concerne l'organizzazione della fornitura,
+la direzione del proprio personale e il controllo del rispetto delle norme antinfortunistiche vigenti
+nell’esecuzione degli interventi.
+A tale riguardo, l’Appaltatore nominerà un proprio Responsabile Tecnico e un eventuale sostituto.
+Le forniture saranno oggetto, per i siti predisposti, di pesatura del prodotto fornito con pese conformi alle
+Norme UNI EN 45501. Il cedolino del prodotto fornito sarà utilizzato per la liquidazione delle spettanze.
+Il personale di conduzione degli impianti avrà solo compiti di verifica delle forniture, pesatura e
+accompagnamento alle aree di scarico.
+Fermo restando che le quantità annue e le modalità di consegna/stoccaggio indicate in precedenza sono da
+ritenere indicative ai fini della formulazione dei prezzi unitari per ciascun articolo, sarà facoltà delle
+committenti adeguare il quantitativo richiesto e la tipologia di consegna in relazione alle proprie esigenze, e
+comunque, sino ad esaurimento dell’importo complessivo di contratto.
+Le consegne dovranno essere effettuate come segue:
+     - Polielettrolita in emulsione: in cisternette da 1.000 kg/cad o taniche da 25 kg/cad.
+Gli automezzi utilizzati per le forniture devono:
+
+CSA_OEPV
+                                                                                                           Pag. 7/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+    -    Essere omologati e specificatamente autorizzati dal Ministero dei Trasporti per le consegne del
+         prodotto oggetto della fornitura (normativa ADR);
+     - Avere le dotazioni previste dalla Legge n. 1839/62 - DPR n.1285/69.
+Le richieste di fornitura saranno emesse dal Direttore dell’Esecuzione nominato dalla CIIP S.p.A. e saranno
+comunicate all’Appaltatore, per via informatica, tramite appositi Ordini di Lavoro trasmessi via email che
+riporteranno le seguenti informazioni:
+     - Luogo di fornitura;
+     - Descrizione del materiale da fornire;
+     - Quantità del materiale da fornire;
+     - Data di consegna.
+Gli ordini di lavoro emessi per la fornitura del prodotto indicheranno anche i seguenti dati, che dovranno
+essere riportati sulle fatture:
+     - Contratto di riferimento;
+     - Codice CIG.
+Le operazioni di consegna e scarico dei prodotti dovranno essere effettuate con le dovute precauzioni,
+utilizzando mezzi ed attrezzature adeguate.
+L’Impresa Appaltatrice non potrà effettuare depositi temporanei di prodotti presso i siti approvvigionati,
+salvo i casi di forza maggiore, che dovranno essere, comunque, autorizzati dalla Stazione Appaltante.
+L’Impresa Appaltatrice durante le operazioni di consegna e di scarico del prodotto dovrà evitarne la
+fuoriuscita accidentale e la conseguente contaminazione dei siti.
+In caso di perdita accidentale di prodotto, i quantitativi sversati non verranno valutati come consegnati e,
+pertanto, non potranno essere esposti in fattura.
+Prima di iniziare le procedure di scarico, la Stazione Appaltante potrà effettuare la verifica del quantitativo
+presso la pesa ubicata all’interno del proprio impianto (ove presente).
+Eventuali danni alle cose e/o alle persone, che si dovessero verificare durante la consegna del prodotto,
+saranno a totale carico dell’Impresa Appaltatrice.
+Rimane a carico dell’Impresa Appaltatrice l’onere del ritiro delle cisternette vuote.
+Sono altresì a carico dell’Appaltatore e compresi nel prezzo definito per la fornitura del prodotto, tutti gli
+oneri della manodopera per la consegna delle forniture richieste, oltre all'adozione di tutti i provvedimenti
+necessari ad impedire ogni tipo di contatto tra sostanze che presentano incompatibilità.
+
+SERVICE DI CALIBRAZIONE SEMESTRALE DEI POLIPREPARATORI
+Al fine di ottimizzare le rese prestazionali delle apparecchiature, viene richiesto all’appaltatore di fornire un
+servizio di supporto che consiste nella verifica delle impostazioni dei polipreparatori installati negli impianti
+oggetto della gara. In particolare, dovrà essere verificata e calibrata la diluizione del prodotto in funzione del
+tenore di SS del fango in ingresso alla disidratazione e dei parametri di funzionamento delle
+centrifughe/presse a vite. Per ogni impianto dovrà essere rilasciato un rapportino di intervento contenente
+le indicazioni delle azioni svolte e il valore dei parametri impostati/modificati.
+Tale servizio, compreso nell’importo di gara, avrà cadenza semestrale e dovrà essere eseguito per tutta la
+durata del contratto.
+PRESTAZIONE DEI PRODOTTI
+Il prodotto fornito dovrà garantire il raggiungimento delle performance riportate nell’Allegato A in termini di
+tenori di secco e di dosaggi specifici.
+Al fine di verificare le rese di cui sopra, le CIIP S.p.A., con cadenza trimestrale effettuerà un controllo sulla
+media dei dati del trimestre confrontandola con quanto indicato nell’Allegato A.
+Qualora, a parità di condizioni di funzionamento delle apparecchiature, si riscontrasse un tenore di sostanza
+secca (espressa in %SS) con scostamenti negativi (ovvero riduzione del tenore di secco) oltre il 10 % (dieci
+percento) o un valore di consumo specifico (espresso in gpoli/kgfango,SS) con scostamenti positivi (ovvero
+maggior dosaggio) oltre il 10% (dieci percento) del valore riportato nell’Allegato A, la CIIP S.p.A. evidenzierà
+all’Impresa Appaltatrice la situazione di difformità. L’Appaltatore, entro 5 (cinque) giorni dalla segnalazione
+
+CSA_OEPV
+                                                                                                          Pag. 8/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+di difformità, dovrà fornire alla CIIP S.p.A. un prodotto alternativo al fine di ripristinare le corrette condizioni
+di funzionamento delle apparecchiature (conformità delle prestazioni in accordo con i valori riportati
+nell’Allegato A).
+Qualora l’Appaltatore non fosse in grado di fornire un prodotto in grado di garantire le performance riportate
+nell’Allegato A, la CIIP S.p.A. si riserveranno il diritto di risolvere il contratto.
+ASSISTENZA TECNICA
+Al fine di ottenere la garanzia prestazionale richiesta l’Appaltatore si impegna a fornire assistenza tecnica –
+mediante propri operatori. Tale assistenza dovrà avvenire in loco – presso l’impianto nel quale viene
+impiegato il prodotto; il tecnico dell’Appaltatore dovrà recarsi in impianto entro 48 ore successive alla
+chiamata da parte della CIIP S.p.A.
+
+
+11.        GESTIONE DELLE NON CONFORMITÀ
+Dopo l’avvenuta aggiudicazione e prima dell’inizio della fornitura di ciascun prodotto, l’Appaltatore è tenuto
+a fornire, a titolo gratuito e per ciascun prodotto fornito, n. 1 bottiglia in vetro trasparente da 1 litro
+perfettamente pulita contenente un campione di polielettrolita; tale campione, che sarà prelevato con oneri
+a carico dell’Appaltatore, direttamente dalla cisterna consegnata in impianto, sarà considerato
+rappresentativo della fornitura e conservato quale ‘prova in bianco’: il contenitore sigillato, dovrà riportare
+etichettatura con i dati identificativi del prodotto, del luogo e del lotto di produzione. Il personale delle
+società committenti potrà respingere in qualsiasi momento e chiedere l’immediata sostituzione di forniture
+il cui aspetto (colore, presenza di impurità) differisca in maniera evidente dal campione ‘in bianco’
+consegnato dall’Appaltatore.
+L’eventuale prelievo finalizzato alle analisi verrà eseguito dall’incaricato dalla CIIP S.p.A. alla presenza
+dell’incaricato dell’Appaltatore; sarà raccolto un campione, che verrà sigillato e sul quale sarà apposta
+un’etichetta con una sigla dell’incaricato e la data. La CIIP S.p.A. svolgerà le analisi presso il proprio
+Laboratorio Certificato.
+Qualora le caratteristiche tecniche del campione analizzato non siano conformi alla scheda tecnica depositata
+dall’Appaltatore verrà imposto all’Appaltatore il ritiro del prodotto, addebitando:
+     - Gli oneri di ritiro del prodotto;
+     - La nuova fornitura del prodotto con caratteristiche tecniche adeguate.
+La fornitura del nuovo prodotto deve avvenire entro 1 (uno) giorno lavorativo a partire dalla segnalazione di
+non conformità da parte della Committente.
+Qualora la non conformità del prodotto fornito dovesse procurare danni agli impianti, all’ambiente, alle
+persone o non consentire di raggiungere i parametri qualitativi dell’acqua in uscita dal depuratore,
+l’Appaltatore sarà tenuto a risarcire alle società committenti tutti i danni diretti e indiretti provocati ed i costi
+aggiuntivi sostenuti per ripristinare lo stato di fatto.
+In caso di prodotti non conformi alle caratteristiche riportati nelle schede tecniche, entro 10 (dieci) giorni
+dall’accertamento la CIIP S.p.A. notificherà in forma scritta all’Impresa Appaltatrice (a mezzo PEC) i difetti di
+qualità riscontrati; l’Impresa Appaltatrice avrà 5 (cinque) giorni di tempo per formalizzare le proprie
+controdeduzioni ed, eventualmente, richiedere ulteriori approfondimenti e/o verifiche.
+Qualora, a seguito di ulteriori approfondimenti e/o verifiche, si riscontrasse un risultato sulle caratteristiche
+in accettazione non conforme rispetto ai parametri definiti nelle “schede tecniche”, il Laboratorio della
+Committenza ripeterà l'analisi.
+Su richiesta potranno presenziare alle operazioni di riesame anche rappresentanti dell’Impresa Appaltatrice.
+Qualora l’Impresa Appaltatrice non abbia provveduto a prelevare un proprio campione, le suddette verifiche
+saranno comunque eseguite sulla parte conservata dalla Committente.
+In caso di discordanza tra i risultati ottenuti si provvederà, entro 3 (tre) giorni, ad effettuare ulteriori verifiche,
+la cui natura e durata saranno determinate dal Laboratorio del Committente. Dette verifiche potranno essere
+condotte anche presso i siti approvvigionati, alla presenza dei rappresentanti dell’Impresa Appaltatrice.
+
+
+
+CSA_OEPV
+                                                                                                               Pag. 9/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+Qualora siano confermati i difetti riscontrati in accettazione, l’Impresa Appaltatrice avrà l’onere di porre
+rimedio ai danni arrecati. Resta salva l’applicazione delle penali, la cui entità sarà determinata sulla base di
+quanto previsto al successivo art.19. Penali.
+Il costo delle operazioni atte alla risoluzione della situazione di non conformità sarà completamente a carico
+dell’Impresa Appaltatrice, la quale dovrà ripristinare la quantità complessivamente stoccata dopo la
+consegna. Saranno, inoltre, a carico dell’Impresa Appaltatrice tutte le eventuali azioni di ripristino dei sistemi
+di stoccaggio presenti nel sito, compresa la pulizia o l’eventuale sostituzione.
+L’Impresa Appaltatrice resta, comunque, l’unica responsabile per i danni arrecati agli impianti od a terzi,
+anche rilevati in un secondo momento, in conseguenza della fornitura non conforme.
+In considerazione del numero di impianti interessati dalla fornitura in oggetto, e delle diverse condizioni di
+funzionamento degli stessi, che comportano la variazione delle caratteristiche dei fanghi da sottoporre a
+disidratazione, l’Appaltatore è obbligato, se necessario e dietro richiesta del Responsabile Tecnico di Zona
+Operativa della CIIP S.p.A., a sostituire il prodotto consegnato con altro adeguato alle caratteristiche del
+fango prodotto dall’impianto richiedente.
+Inoltre, nel caso in cui sorgessero problematiche durante l’uso del prodotto, l’Appaltatore si impegna a
+ricercare un nuovo tipo di polielettrolita, idoneo alla risoluzione delle problematiche riscontrate, ed a fornirlo
+alla Stazione Appaltante mantenendo inalterate le condizioni commerciali.
+Nel caso di ripetute forniture difformi o non opportunamente sostituite (in numero > 3), la Committente si
+riserva il diritto di risolvere il contratto.
+Il controllo dell’esatta quantità del prodotto consegnato potrà essere effettuato attraverso:
+     - Doppia pesata, prima e dopo lo scarico del materiale, presso i siti che dispongono di idoneo sistema
+         per la pesatura di autocarri;
+     - Verifica di corrispondenza tra i quantitativi effettivamente scaricati ed i documenti di trasporto
+         relativi (in caso di consegne frazionate su più di un sito verrà verificata la corrispondenza tra la somma
+         dei diversi quantitativi scaricati e le quantità di prodotti complessivamente dichiarate per lo specifico
+         viaggio), presso i siti non dotati di sistema di pesatura.
+Nel caso in cui la quantità complessivamente rilevata in consegna sia inferiore a quella dichiarata dall’Impresa
+Appaltatrice nei documenti di trasporto o in fattura, la stessa dovrà correggere i quantitativi erroneamente
+addebitati e riportare in fattura quelli effettivi.
+In caso di reiterate consegne con quantitativi significativamente inferiori rispetto a quanto dichiarato nei
+documenti di trasporto verranno applicate le penali di cui al successivo art.19. Penali.
+Ad ogni consegna del reagente, dovrà essere sempre prodotta la relativa SCHEDA DEL PRODOTTO (normativa
+ADR).
+Per quanto sopra descritto, si può fare riferimento alle informazioni contenute nell’Allegato Tecnico.
+
+
+
+12.        PREZZI UNITARI E REVISIONE PREZZI
+A titolo indicativo, ma non esaustivo, si intendono inclusi nei prezzi della fornitura:
+     - Tutte le spese e tasse inerenti al contratto;
+     - I contributi e gli oneri imposti dalle Leggi e dai regolamenti relativi alle assicurazioni e provvidenze
+         per i dipendenti.
+     - Gli imballaggi necessari per preservare i materiali;
+     - I trasporti;
+     - Tutti i costi necessari per eseguire le forniture in piena sicurezza;
+     - Gli utili d’impresa e le sue spese generali ed accessorie e tutti gli oneri derivanti dalle prescrizioni
+         dell’Allegato Tecnico.
+Ai sensi dell’art. 60 del D.lgs. 36/2023, i corrispettivi dell’accordo quadro potranno subire variazioni in base
+alle modalità definite nel Disciplinare di gara, ovvero ogni 3 mesi si verifica l’eventuale incremento medio
+dell’indice ISTAT di riferimento e, se superiore alle soglie del citato art. 60, si procederà all’adeguamento
+revisionale.
+
+CSA_OEPV
+                                                                                                          Pag. 10/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+13.        ASSICURAZIONE
+Ad avvenuta aggiudicazione, ciascuna società per la quale la presente procedura viene bandita, procederà in
+autonomia alla stipulazione del contratto di appalto e alla richiesta delle relative garanzie e coperture
+assicurative.
+In ogni caso, l’aggiudicatario si obbliga a stipulare una polizza di assicurazione a garanzia di:
+    - Eventuali danni subiti da terzi, compresa anche la Committente, RCT/O per l’esecuzione del contratto
+         in essere, con un massimale pari ad almeno € 500.000,00; tale polizza dovrà inoltre garantire la
+         Committente nei casi di responsabilità civile per danni causati a terzi nel corso dell’esecuzione del
+         contratto;
+    - Eventuali danni ambientali per inquinamento, con un massimale pari ad almeno € 500.000,00
+Copia della polizza dovrà essere prodotta prima della stipula del Contratto.
+È assolutamente vietata la cessione totale o parziale del contratto, così come qualunque cessione di credito
+e qualunque procura o delega all’incasso, salvo che le Committenti non le riconoscano espressamente con
+apposito provvedimento.
+È vietata la cessione del contratto anche parziale.
+È vietata la cessione del credito e qualunque procura o delega all’incasso, salvo che la Committente lo
+autorizzi espressamente con apposito provvedimento.
+
+
+14.        OSSERVANZA E ATTUAZIONE DELLE NORME DI SICUREZZA: INFORMAZIONE SUI RISCHI SPECIFICI E MISURE DI
+PREVENZIONE
+
+Le forniture dovranno svolgersi nel pieno rispetto di tutte le Norme vigenti in materia di prevenzione degli
+infortuni e igiene del lavoro e, in ogni caso, in condizione di permanente sicurezza e igiene.
+Le forniture saranno effettuate all’interno di aree occupate da impianti di depurazione delle acque reflue, in
+esercizio, pertanto dovranno essere adottate tutte le misure di prevenzione e protezione necessarie per
+tutelare la sicurezza dei lavoratori addetti alle prestazioni in oggetto.
+Per quanto sopra, si evidenziano i rischi per la salute dei lavoratori che rendono necessaria l’attuazione di
+misure tecniche, organizzative e procedurali di sicurezza.
+L’Appaltatore si obbliga ad adottare tutte le misure di protezione necessarie, nessuna esclusa, a tutela della
+sicurezza e salute dei propri lavoratori.
+In ottemperanza agli obblighi previsti dall’Art. 26 del D. Lgs. n. 81/2008, così come integrato dal D. Lgs. N.
+106/2009, vengono qui di seguito elencati i principali rischi specifici individuati negli impianti di depurazione
+in esercizio, di cui l’Appaltatore dovrà tenere debito conto nell’esecuzione delle forniture:
+     - Rischio di incendio e scoppio, connesso alla produzione e stoccaggio di biogas;
+     - Rischio di esposizione a sostanze nocive, dove si impiegano prodotti chimici e reagenti;
+     - Rischio di caduta in vasche a spinta idrostatica ridotta;
+     - Rischio di esposizione a rumore;
+     - Rischio di collisione/investimento;
+     - Rischio biologico connesso con la depurazione delle acque reflue e il trattamento dei fanghi;
+Per quanto riguarda quest’ultimo punto si precisa che, per i lavoratori che a qualsiasi titolo operano
+all’interno degli impianti di depurazione, si identifica una potenziale esposizione ad agenti biologici compresi
+nel “Gruppo 2” (secondo la classificazione prevista dall’articolo 268, comma 1 del D.lgs. 81/08), ovvero
+microorganismi che possono causare malattie in soggetti umani e rappresentare un rischio per i lavoratori
+che, con poca probabilità, possono propagarsi nella comunità e di cui si dispone, di norma, di efficaci misure
+profilattiche o terapeutiche.
+
+
+
+
+CSA_OEPV
+                                                                                                        Pag. 11/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+Tale esposizione può derivare dal contatto con reflui e fanghi trattati nell’impianto, potenzialmente infetti, e
+dal contatto/ingestione/inspirazione degli aerosol che possono svilupparsi durante il ciclo produttivo, in
+particolare negli ambienti confinati.
+Ai fini dell’adempimento degli obblighi previsti dall’Art. 26 del citato D.Lgs. n. 81/08, così come integrato dal
+D. Lgs. n. 106/2009, CIIP S.p.A. ha predisposto l’allegato DUVRI.
+L’Appaltatore sarà tenuto a divulgare ai propri lavoratori, nonché ad eventuali subappaltatori autorizzati, il
+contenuto del DUVRI.
+Sarà facoltà delle committenti richiamare in qualsiasi momento l’osservanza di tali disposizioni.
+Le gravi o ripetute violazioni delle norme di prevenzione infortuni, sicurezza e igiene del lavoro da parte
+dell’Appaltatore, comunque accertate, previa formale costituzione in mora dell’interessato, costituiscono
+causa di risoluzione del contratto.
+Si precisa che l’accesso agli impianti sarà consentito esclusivamente alle persone ed ai mezzi i cui nominativi
+e dati siano stati preventivamente comunicati ed autorizzati ed alle persone che hanno ricevuto le
+informazioni sui rischi specifici e sulle norme comportamentali da adottare.
+L’Appaltatore dovrà comunicare preventivamente l’elenco del personale e dei mezzi che saranno impegnati
+nelle attività oggetto delle prestazioni inerenti il lavoro.
+Nello svolgimento del lavoro, il personale dell’Appaltatore dovrà essere dotato di apposita tessera di
+riconoscimento corredata di fotografia, contenente le generalità del lavoratore, la data di nascita e
+l'indicazione del datore di lavoro; i lavoratori sono tenuti ad esporre detta tessera di riconoscimento (ART.
+26 D. LGS. N. 81/2008) e ss.mm.ii.
+Sarà fatto divieto assoluto di accesso alle sedi e agli impianti oggetto dell’appalto, al personale e ai mezzi non
+autorizzati e/o diversi da quelli preventivamente comunicati e autorizzati.
+Per quanto sopra, prima dell’inizio della fornitura l’Appaltatore dovrà comunicare per iscritto alle società
+committenti:
+     - L’elenco del personale regolarmente abilitato secondo la normativa ADR e l’elenco degli automezzi
+         (con le relative targhe) che saranno impiegati nelle attività oggetto della fornitura;
+     - Il nominativo del proprio Responsabile Tecnico professionalmente qualificato (o Consulente per la
+         sicurezza del trasporto di merce pericolose), unitamente alla dichiarazione dell’interessato di
+         accettazione dell’incarico. Il Responsabile Tecnico sarà un tecnico specializzato, munito di delega
+         scritta, che si assumerà ogni responsabilità di Legge e provvederà alla conduzione del personale
+         operativo. Oltre ciò, il Responsabile Tecnico dell’Appaltatore sarà titolare di ogni incombenza relativa
+         alla direzione della fornitura nelle varie fasi sugli impianti in gestione CIIP S.p.A. con conseguenti
+         responsabilità amministrative, civili e penali, e rimarrà, ad ogni effetto, l’unico responsabile della
+         sicurezza, per danni o sinistri di qualsiasi entità che avessero a verificarsi a persone e/o a cose in
+         conseguenza della cattiva esecuzione delle prestazioni e di mancanza di adeguate cautele.
+     L’Appaltatore dovrà rendere edotto il proprio personale delle misure di sicurezza relative alla
+     prevenzione degli infortuni, dovrà organizzare e provvedere alla conduzione degli interventi con mezzi
+     adeguati (i quali dovranno essere in tutto conformi alle norme vigenti) e gli utilizzatori dovranno essere
+     adeguatamente addestrati al loro utilizzo.
+
+
+15.        ONERI E RESPONSABILITÀ DELL’APPALTATORE
+Sono a carico dell’Appaltatore, e quindi da considerarsi compresi nell’appalto e remunerati con i prezzi di
+contratto, oltre a quanto previsto dalla Normativa vigente e dal presente Allegato Tecnico, i seguenti oneri e
+obblighi:
+   - Tutte le spese e le tasse inerenti e conseguenti all’appalto, I.V.A. esclusa;
+   - Tutti gli eventuali imballaggi necessari a preservare il prodotto;
+   - L’organizzazione e la conduzione della fornitura, il trasporto e lo scarico, con mezzi idonei, nei
+        serbatoi di stoccaggio, presso gli impianti elencati al punto 1. Oggetto dell’A. S’intende a esclusivo
+        carico dell’Appaltatore anche la verifica della corretta dotazione del mezzo deputato alla consegna;
+
+
+CSA_OEPV
+                                                                                                         Pag. 12/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+    -      L’adozione di tutti i provvedimenti e le cautele necessarie, in particolare quelle antinfortunistiche, al
+           fine di garantire la vita e l’incolumità degli operai, delle altre persone addette ai lavori e di terzi,
+           nonché per evitare danni ai beni pubblici e privati. Ogni responsabilità civile e penale in caso di
+           infortuni ricadrà, pertanto, sull’Impresa, restandone sollevate le società committenti, a qualsiasi
+           ragione debba imputarsi l’incidente; in tal senso l’Appaltatore dovrà tenere conto di quanto previsto
+           dalla normativa vigente per quanto riguarda il rischio biologico per lavori in impianti di depurazione
+           delle acque reflue;
+    -      L’esecuzione delle consegne con personale tecnico idoneo, per numero e qualità, e di provata
+           capacità; tutte le operazioni inerenti alla fornitura dovranno essere eseguite autonomamente dal
+           personale dell’Appaltatore, ancorché in taluni casi e a discrezione di CIIP S.p.A. possa assistere il
+           proprio personale solo con compiti di verifica della quantità e qualità del prodotto consegnato;
+    -      Possedere tutte le necessarie autorizzazioni allo svolgimento dell’attività di trasporto del prodotto
+           oggetto dell’appalto, nonché a dare immediata comunicazione alle società committenti
+           dell’eventuale sospensione o revoca delle suddette autorizzazioni da parte dell’Autorità preposta;
+           per gli autisti dovrà essere ottemperato quanto previsto al comma 4 dell’art. 41 del D. Lgs. n. 81/2008
+           in materia di sorveglianza sanitaria.
+    -      L’adempimento e la perfetta esecuzione delle forniture affidate, restando inteso esplicitamente che
+           le prescrizioni contenute nel presente documento sono riconosciute idonee al raggiungimento di tali
+           scopi; la loro osservanza, quindi, non limita né riduce comunque la responsabilità dell’Appaltatore;
+           la CIIP S.p.A. si riserva la facoltà di verificare la correttezza delle forniture effettuate e che il servizio
+           sia svolto in conformità agli impegni contrattuali;
+    -      La responsabilità dell'operato e del comportamento di tutti i suoi dipendenti, nonché di quelli di
+           eventuali subappaltatori;
+    -      L’osservanza delle norme e prescrizioni dei contratti collettivi, delle Leggi e Regolamenti (in vigore o
+           che potranno intervenire nel corso dell'appalto) relativi alle malattie Che il personale addetto sia
+           regolarmente iscritto agli Istituti di Previdenza e Assistenza. Le società committenti si riservano la
+           facoltà di effettuare qualsiasi verifica di quanto sopra stabilito e la Ditta appaltatrice dovrà, in ogni
+           momento, poter dimostrare la regolarità della posizione assicurativa e previdenziale di ogni
+           dipendente impegnato nel servizio in appalto (art.5 L.82/94);
+    -      Il rispetto di tutti gli obblighi e gli oneri assicurativi antinfortunistici, assistenziali e previdenziali, che
+           restano a carico dell’Appaltatore;
+    -      L'attuazione nei confronti dei lavoratori dipendenti occupati nei lavori, e se cooperativa anche nei
+           confronti dei soci, di condizioni normative e retributive non inferiori a quelle risultanti dai contratti
+           collettivi di lavoro applicabili alla data dell’appalto per categoria e località in cui si svolgono i lavori,
+           nonché le condizioni risultanti da successive modifiche ed integrazioni ed in generale da ogni altro
+           contratto collettivo applicabile nelle località che per la categoria venga successivamente stipulato.
+           L'Impresa è tenuta altresì ad applicare i sopra indicati contratti collettivi anche dopo la scadenza e
+           fino alla loro sostituzione. I suddetti obblighi vincolano l'Impresa anche nel caso che la stessa non sia
+           aderente ad associazioni sindacali di categoria o receda da esse;
+    -      Provvedere a che sia rigorosamente rispettata l'osservanza delle norme di cui ai precedenti commi
+           anche da parte degli eventuali subappaltatori nei confronti dei rispettivi loro dipendenti, anche nel
+           caso in cui il contratto non disciplini il subappalto. Il fatto che il subappalto sia stato autorizzato non
+           esime l'Impresa dalla suddetta responsabilità e ciò senza pregiudizio degli altri diritti della CIIP;
+    -      La sostituzione, con le modalità precedentemente illustrate, di prodotti eventualmente rifiutati,
+           poiché ritenuti non corrispondenti alle prescrizioni fornite;
+    -      L’obbligo di rendere edotto il proprio personale sulle misure di sicurezza relative alla prevenzione
+           degli infortuni ed organizzare e provvedere alla conduzione dei lavori con mezzi adeguati, in tutto
+           conformi alle norme vigenti e utilizzati da personale adeguatamente addestrato;
+    -      Il rispetto delle procedure e dei regolamenti interni dei siti CIIP S.p.A. (Piani di emergenza ed
+           evacuazione, divieto di fumo, norme comportamentali, etc).
+
+
+CSA_OEPV
+                                                                                                                  Pag. 13/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+      -    Che il personale sia dotato di apposito cartellino di riconoscimento conforme alle prescrizioni del
+           D.Lgs 81/08 e s.m.i.;
+      -    L’adozione e la scrupolosa osservanza, in conformità a quanto previsto dal D. Lgs. 81/08 e la
+           partecipazione del proprio personale operativo e tecnico alle riunioni di coordinamento;
+      -    L’Appaltatore dovrà provvedere, con proprio personale e mezzi, allo scarico delle cisternette piene o
+           dei sacchi dall’automezzo sino all’area di stoccaggio indicatagli dalla Committente ed al carico delle
+           cisternette vuote sul proprio automezzo;
+      -    Le cisternette utilizzate ed i sacchi dovranno avere caratteristiche conformi al prodotto da contenere,
+           essere sempre provviste dell’obbligatoria etichetta leggibile;
+      -    È fatto divieto assoluto all’Appaltatore di procedere al travaso nelle cisternette presso gli impianti
+           nella disponibilità della Committente ovvero in luogo non autorizzato;
+      -    Gli automezzi utilizzati per i trasporti dovranno essere di adeguata capacità e dotati di tutte le
+           attrezzature necessarie allo scarico delle cisternette.
+      -    L’appaltatore dovrà provvedere al ritiro, a propria cura e spese, delle cisternette vuote.
+
+
+16.        ONERI E RESPONSABILITÀ DELLA STAZIONE APPALTANTE
+Saranno a carico della Stazione Appaltante:
+    - L’erogazione di energia elettrica eventualmente occorrente al funzionamento delle attrezzature
+       dell’Appaltatore, nei limiti della potenza disponibile presso l’impianto;
+    - L’erogazione di acqua potabile e di quella a uso industriale (se necessaria).
+    -
+17.        CONTABILIZZAZIONE, FATTURE E PAGAMENTI
+La contabilizzazione mensile delle forniture sarà “a misura” applicando gli importi così come risultanti
+dall’offerta formulata in sede di gara da parte dall’Impresa Appaltatrice. Gli oneri della sicurezza da
+interferenze verranno corrisposti in sede di prima contabilità/fatturazione.
+La contabilità dovrà contenere le seguenti informazioni:
+     - data della consegna;
+     - sito (impianto);
+     - descrizione tipologia di fornitura;
+     - prezzo unitario (€/kg) della fornitura, offerto in sede di gara (IVA esclusa);
+     - importo totale per fornitura presso ciascun sito (IVA esclusa);
+     - importo complessivo da fatturare (IVA esclusa);
+     - oneri sicurezza (per la prima contabilità).
+Dalla ricezione della contabilità, CIIP S.p.A. si riserva 7 (sette) giorni per la verifica e l’approvazione in forma
+scritta.
+La fatturazione per le forniture avverrà mensilmente solo dopo approvazione della contabilità, mediante
+comunicazione scritta da parte di CIIP S.p.A.
+La data della fattura dovrà essere pari o successiva al giorno di approvazione della contabilità.
+Le fatture mensili dovranno riportare quanto segue:
+     - oggetto e numero del contratto;
+     - numero CIG;
+     - importo della fornitura al netto della ritenuta di garanzia di cui all’art. 11, c. 6, del D.lgs. 36/2023;
+     - conto corrente dedicato per la tracciabilità dei flussi finanziari.
+CIIP S.p.A. svincolerà in sede di liquidazione finale l’importo complessivo delle ritenute applicate ai sensi
+dell’art. 11, c. 6, del D.lgs. 36/2023.
+Si precisa che CIIP S.p.A. rientra nel perimetro applicativo del regime IVA Split-Payment delineato dall’art. 3
+comma 1, lettera c) del D.L. n. 148/2017 convertito in legge, con modificazioni, dalla L. n. 172/2017. Pertanto,
+le fatture emesse nei confronti di CIIP S.p.A. dovranno riportare la seguente dicitura: “Operazione
+
+
+CSA_OEPV
+                                                                                                           Pag. 14/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+assoggettata alla scissione dei pagamenti (Split-Payment) con IVA non incassata dal cedente ai sensi dell’art.
+17-ter del D.P.R. n. 633/72”.
+CIIP S.p.A. provvederà al pagamento con bonifico bancario a 60 giorni – fine mese – dalla data della fattura
+corredata dal verbale di controllo.
+In seguito all’entrata in vigore della Fatturazione Elettronica le fatture emesse nei confronti della CIIP S.p.a.
+dovranno indicare come “Codice Destinatario” il codice convenzionale costituito da sette zeri consecutivi.
+Pertanto, i dati anagrafici necessari per una corretta fatturazione xml sono i seguenti: CICLI INTEGRATI
+IMPIANTI PRIMARI S.P.A. – VIALE DELLA REPUBBLICA N. 24 – 63100 ASCOLI PICENO – C.F. E P.I. 00101350445
+– CODICE DESTINATARIO: 0000000.
+Le fatture stesse dovranno riportare il numero del contratto, unitamente a: Codice Commessa; codice CIG e
+codice CUP, indicati nel presente contratto.
+
+Il pagamento di ogni fattura avverrà solo ed esclusivamente, ai sensi di legge, previa acquisizione da parte
+della CIIP S.p.A. della documentazione attestante la regolarità contributiva – DURC.
+Le prestazioni eseguite da eventuali subappaltatori saranno pagate all’Appaltatore che dovrà trasmettere
+alla Stazione Appaltante, entro 20 giorni dalla data del pagamento, copia delle fatture quietanzate dal
+subappaltatore.
+In caso di aggiudicazione, la società dovrà, pena la mancata stipula contrattuale, assumersi gli obblighi di
+tracciabilità dei flussi finanziari di cui alla L. 136/2010 art. 3 e ss.mm.ii.
+Il pagamento delle eventuali penali verrà compensato sulle singole fatture.
+Il pagamento degli importi relativi ad assistenza e manutenzione sarà corrisposto con cadenza
+quadrimestrale.
+
+
+18.        VERBALI DI CONTROLLO E VERIFICA SULLE FORNITURE
+La CIIP S.p.A. procederà alla verifica delle forniture e delle attività eseguite al termine delle fasi previste
+all’art. 10. Organizzazione delle forniture.
+I verbali di controllo, con esito positivo, non esonerano l’esecutore delle garanzie di cui all’art. 13.
+Assicurazione, oltre che delle responsabilità di legge.
+
+CONTROLLO QUANTITÀ
+La determinazione dei quantitativi di prodotto scaricato ad ogni consegna presso uno degli impianti di CIIP
+S.p.A. potrà essere effettuata, in contraddittorio, per pesatura su apposite pese ove presenti.
+Copia delle ricevute della pesatura, allegata al ddt di consegna, verrà rilasciata da CIIP S.p.A. al trasportatore.
+
+CONTROLLO QUALITÀ – COMPOSIZIONE DEL PRODOTTO
+Il Committente si riserva di controllare presso il laboratorio, ogni qualvolta lo riterrà opportuno, la qualità del
+prodotto.
+Per effettuare il controllo verrà prelevato un campione del prodotto dalla cisterna oggetto
+dell’approfondimento analitici sulla qualità del prodotto, che sarà suddiviso in quattro contenitori sigillati e
+firmati dal prelevatore e dal trasportatore, di cui uno dovrà essere consegnato alla ditta fornitrice tramite
+l’autotrasportatore e tre al laboratorio selezionato da CIIP S.p.A.
+Due di questi saranno impiegati per le analisi di controllo mentre il terzo sarà conservato sigillato per la
+definitiva verifica analitica, in caso di controversia. In questo caso le due parti eseguiranno congiuntamente
+il controllo presso il laboratorio selezionato da CIIP S.p.A. sul terzo campione sigillato e, eventualmente, su
+quello della ditta se esso risulterà integro e non manomesso, previo opportuno accordo.
+La ditta, in possesso del proprio campione, dal momento della comunicazione della non conformità della
+fornitura avrà 30 (trenta) giorni di tempo per procedere a eventuali contestazioni, pena la decadenza di ogni
+diritto. Ove la ditta procedesse a contestare la definitiva verifica analitica, che sarà debitamente verbalizzata
+
+
+CSA_OEPV
+                                                                                                          Pag. 15/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+e a cui la ditta è obbligata a partecipare pena la decadenza di ogni diritto, tale contestazione dovrà avvenire
+entro un termine di 90 (novanta) giorni dall’avvenuta comunicazione della non conformità.
+Inoltre durante l’uso del prodotto, in caso di disfunzioni e/o anomalie (ad esempio scarso rendimento
+macchina decanter rispetto ai dati storici) in cui si ritiene una causa attribuibile al polielettrolita, la Ditta
+aggiudicataria dovrà garantire l’assistenza di proprio personale tecnico entro 48 ore collaborando alla
+risoluzione del problema. La Ditta aggiudicataria si impegna a ricercare il prodotto più idoneo alla risoluzione
+delle problematiche riscontrate, se derivanti dal prodotto in uso, ed a fornirlo mantenendo inalterate le
+condizioni commerciali.
+
+CONTROLLO QUALITÀ – EFFICACIA DEL PRODOTTO
+Qualora si rilevassero gli estremi per la verifica a seguito di anomalie rilevate rispetto ai valori contenuti
+nell’Allegato A durante la fase di esecuzione contrattuale, la CIIP S.p.A. attiverà la seguente procedura di test.
+In presenza di un rappresentante della ditta appaltatrice verranno eseguiti controlli presso l’impianto dove è
+impiegato il prodotto oggetto di contestazione. I test riguarderanno:
+     1. Caratteristiche e titolo del principio attivo;
+     2. Il valore medio di secco di fango disidratato;
+     3. Il valore del “dosaggio” D del polielettrolita, rilevato dopo la prova sulla base della formula che segue:
+                                                                𝐾𝑘𝑔
+                                                 𝐷𝑘𝑔 /𝑡𝑜 𝑛 =
+                                                               𝑆𝑆𝑡𝑜𝑛
+
+Dove
+
+Kkg =   polielettrolita consumato durante l’esecuzione del test (kg prodotto commerciale) calcolato sulla
+        base dei litri dosati durante il periodo di funzionamento;
+SSton = sostanza secca contenuta nel fango trattato dalla macchina, determinato come prodotto del volume
+        di fango trattato (mc) per la concentrazione dei solidi rilevati (ton/mc) all’inizio del test.
+
+Per quanto concerne la verifica della composizione e del titolo del prodotto consegnato si seguirà la
+procedura in allegato, denominata procedura operativa per controllo Polielettrolita.
+Per gli altri parametri si procederà come segue. Il rappresentante della ditta appaltatrice potrà intervenire,
+per non più di due ore, nelle regolazioni della macchina e dei dosaggi, per raggiungere le prestazioni
+individuate, per ciascun impianto nell’Allegato A. Una volta verificato che il titolo del principio attivo sia
+quello dichiarato, qualora si rilevasse un superamento di uno o più parametri sopra elencati da 1 a 3, il test
+si considererà non superato e si applicherà la relativa penale di cui all’art. 19. Penali. Su richiesta
+dell’Appaltatore, il test potrà essere ripetuto a distanza di almeno 48 ore dal primo, nelle stesse modalità.
+Qualora non risultasse superato anche il secondo test, si attiveranno le procedure di risoluzione del contratto
+di cui all’art. 21. Risoluzione del Contratto per Colpa dell’Appaltatore.
+
+Per tutto quanto sopra descritto, si può fare riferimento alle informazioni contenute nell’Allegato Tecnico.
+
+
+19.        PENALI
+PENALI ECONOMICHE PER RITARDATA CONSEGNA
+Eventuali ritardi nella consegna delle forniture richieste, comporteranno l’applicazione di una penale in
+detrazione, nella seguente misura:
+    - Per ogni giorno di ritardo rispetto alla data di consegna richiesta, compresi i giorni festivi, si
+        applicherà una penale pari all’ 0,1% del valore economico dell’ordine. Verranno contabilizzati i giorni
+        di ritardo dovuti alla sostituzione di una fornitura non conforme fino alla data di consegna definitiva.
+    - Nel caso in cui l’Appaltatore sospenda la fornitura si applicherà una penale giornaliera pari all’ 0,1%
+        dell’importo a base di gara del lotto di riferimento dell’ordine.
+
+CSA_OEPV
+                                                                                                         Pag. 16/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+    -    Nel caso in cui vengano ravvisate, durante controlli a campione, caratteristiche tecniche non
+         conformi alle schede tecniche si applicherà la richiesta di reintegro a titolo gratuito entro cinque
+         giorni dalla notifica di forniture non conformi
+Nel caso in cui si dovesse superare un ritardo cumulato di 30 giorni sulle consegne delle forniture, si
+applicherà una Non Conformità grave.
+E' fatto salvo il diritto delle committenti al risarcimento del danno e dell’eventuale maggior danno.
+Le committenti si riservano comunque la facoltà di risolvere il contratto in qualsiasi momento, nel caso di
+constatata incapacità dell’Appaltatore ad eseguire le prestazioni affidate e/o nel caso di gravi ritardi.
+Le penali verranno dedotte dalle fatture o, in mancanza, verranno prelevate dalla cauzione; in tal caso
+l’Appaltatore dovrà prontamente reintegrare la cauzione.
+Sarà compito dell’azienda comunicare l’ammontare effettivo della penale.
+
+
+PENALI ECONOMICHE PER DIFFORMITÀ DEL PRODOTTO
+Il prodotto consegnato dovrà essere completamente rispondente alle caratteristiche tecniche riportate nella
+scheda tecnica da voi consegnate.
+In caso di difformità, CIIP S.p.A. contesterà formalmente la singola consegna e provvederà all’applicazione
+della penale.
+Qualora CIIP S.p.A. riscontri una presenza superiore di sostanze tossiche e/o impurezze rispetto a quelle
+dichiarate, così come nel caso di consegne che alla verifica qualitativa e organolettica risultino
+manifestamente difformi (e che saranno quindi rifiutate), sarà applicata una penale in funzione della
+difformità rilevata, come di seguito riportato.
+
+Nel caso in cui si attivasse la procedura di conformità di cui al punto 18. Verbali di controllo e verifica sulle
+forniture – Controllo qualità – composizione del prodotto e si riscontrasse la non corrispondenza del prodotto
+a causa di:
+    - Principio attivo rilevato inferiore al titolo richiesto;
+    - Presenza di Sali di Ammonio nel prodotto;
+    - Non conformità del prodotto con il ‘campione in bianco’;
+si applicherà una penale pari al 10% dell’importo posto a base di gara che verrà detratta sin dal primo
+pagamento utile.
+
+Nel caso in cui si attivasse la procedura di conformità di cui al punto 18. Verbali di controllo e verifica sulle
+forniture – Controllo qualità – efficacia del prodotto, e si rilevasse uno scostamento superiore al 10% di
+almeno uno dei parametri elencati da 1 a 3, si applicherà una penale pari al 5% dell’importo posto a base di
+gara, che verrà detratta sin dal primo pagamento utile.
+
+Ferma restando l’applicazione della penale e fatta salva la possibilità per la ditta di procedere a contestazione
+formale, la fornitura non conforme dovrà comunque essere sostituita con altra idonea entro e non oltre 3
+(tre) giorni lavorativi a far data dal giorno di contestazione da parte della stazione appaltante.
+Qualora anche la fornitura in sostituzione risultasse non conforme, ferma restando l’ulteriore applicazione
+della penale, la stazione appaltante procederà alla risoluzione del contratto con eventuale addebito dei danni
+subiti e dei maggior costi sostenuti.
+Sarà compito di questa Azienda comunicare l’ammontare effettivo della penale e del maggior costo.
+
+PENALI ECONOMICHE MANCATO RITIRO CONTENITORI VUOTI
+Il fornitore, salvo diversa indicazione della committenza, sarà soggetto ad una penale relativa al mancato
+ritiro dei vuoti pari a 50,00 Euro per ogni contenitore non ritirato.
+La penale scatterà automaticamente dopo quattro consegne consecutive presso il medesimo impianto
+(indipendentemente dalle quantità consegnate) che viene effettuata senza il ritiro delle cisterne vuote
+
+CSA_OEPV
+                                                                                                        Pag. 17/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+accumulate in loco e si calcolerà sull’ammontare delle cisterne vuote presenti al momento della
+contestazione.
+
+
+
+20.        DIVIETO DI CESSIONI E SUBAPPALTO
+Non è ammessa la cessione del contratto ed è assolutamente vietata la cessione del credito e qualunque
+procura o delega all’incasso.
+Il soggetto affidatario dell’appalto dovrà eseguire in proprio i servizi, le forniture compresi nel contratto. Il
+contratto non può essere ceduto a pena di nullità, fatto salvo quanto previsto dall'articolo 120, comma 1,
+lettera d) D.Lgs. 36/2023.
+Il subappalto è ammesso alle condizioni e con le modalità previste dalla normativa vigente.
+Il subappalto è concesso nel rispetto delle norme e nei limiti di Legge, previa autorizzazione delle società
+committenti, sempre che il Concorrente abbia avanzato già in sede di offerta una specifica richiesta in tal
+senso.
+
+
+
+21.        RISOLUZIONE DEL CONTRATTO PER COLPA DELL’APPALTATORE
+La Stazione Appaltante, fatto salvo il risarcimento dei danni subiti, è in diritto di decretare la risoluzione del
+contratto e procedere con l’esecuzione d’ufficio dello stesso, con le maggiori spese a carico dell’Appaltatore,
+a titolo esemplificativo e non esaustivo, quando:
+     - La struttura organizzativa e operativa dell’Appaltatore sia causa di reiterati inconvenienti;
+     - L’Appaltatore si rifiuti, senza motivo valido, di adempiere alle prescrizioni della committente CIIP
+         S.p.A. e sospenda o ritardi le consegne o si renda irreperibile;
+     - L’Appaltatore causi direttamente o indirettamente un danno economico alla Stazione Appaltante;
+     - L’Appaltatore si renda responsabile di inosservanze tali da creare pericoli per la sicurezza dei propri
+         lavoratori e di quelli della Stazione Appaltante – la risoluzione sarà operante con la seconda
+         infrazione rilevata in forma scritta;
+     - L’Appaltatore si renda colpevole di frode o di inadempienze gravi tali da compromettere la buona
+         esecuzione del contratto e/o da far cessare il rapporto fiduciario instaurato con il contratto;
+     - L’Appaltatore si renda responsabile, senza validi motivi, di fatti o circostanze che causino un serio
+         pregiudizio dell’immagine della Stazione Appaltante nei confronti dell’utenza;
+     - L’Appaltatore affidi in subappalto a terzi, senza autorizzazione, interventi o prestazioni facenti parte
+         del presente contratto;
+     - Sia ripetutamente accertato, attraverso analisi eseguite dalle committenti in contraddittorio con
+         l’Appaltatore, il mancato rispetto delle caratteristiche tecniche di cui all’art. 18. Verbali di controllo
+         e verifica sulle forniture del presente Capitolato.
+     - l’Appaltatore non si attenga a quanto disposto dall’Impegno Etico delle singole società Committenti.
+
+Clausole risolutive espresse ai sensi dell’art. 1456 del Codice Civile:
+    1. Nel caso di gravi infortuni a causa della mancata osservanza della normativa sulla sicurezza;
+    2. Qualora l’ammontare massimo delle penali comminate superi complessivamente il 10% dell’importo
+        contrattuale;
+    3. Nel caso di ritardo superiore a 20 giorni nella consegna di quanto indicato al punto 13) Descrizione
+        esaustiva della struttura organizzativa per garantire il full service, gestione delle anomalie analitiche,
+        esecuzione delle operazioni di taratura certificata
+    4. Esito negativo di uno dei verbali di controllo;
+    5. Cessione del contratto;
+    6. Penali superiori al 10% dell’importo contrattuale.
+
+
+CSA_OEPV
+                                                                                                          Pag. 18/19
+Cicli Integrati Impianti Primari spa
+
+
+
+
+In caso di risoluzione per inadempimento dell’impresa, la CIIP S.p.A. si rivarrà sulle competenze
+eventualmente spettanti all’impresa stessa nonché sulla cauzione definitiva prestata a garanzia del contratto,
+per i maggiori costi che dovranno essere sostenuti sino alla naturale scadenza del contratto risolto e per gli
+altri danni provocati dall’inadempimento, salva l’azione per il risarcimento dei maggiori danni subiti, qualora
+la cauzione risultasse insufficiente, e salva ogni altra azione che la Committente ritenesse di intraprendere a
+tutela dei propri interessi.
+Nel caso di sospensione arbitraria del servizio da parte della ditta Appaltatrice, anche in una sola delle sedi
+oggetto del Contratto, le committenti dopo 5 giorni di sospensione, oltre alle detrazioni e alle penali di cui
+sopra, avrà la facoltà di recedere dal contratto e conseguentemente di adottare le misure indicate nel comma
+precedente.
+
+
+
+22.        IMPIANTI DI VIDEOSORVEGLIANZA
+Nei siti oggetto delle forniture possono essere presenti impianti di video sorveglianza costituiti da un sistema
+di Telecamere a Circuito Chiuso (TVCC); le immagini saranno trattate nel rispetto della Normativa vigente in
+materia.
+
+
+23.        QUALITÀ E AMBIENTE
+L’Appaltatore dovrà tenere in debito conto che CIIP S.p.A. è certificata ISO 9001, ISO 14001 e ISO 45001
+trattando con particolare attenzione tutti gli aspetti in qualche modo riconducibili a tematiche di qualità e
+ambiente.
+
+
+24.        RICHIAMO ALLE LEGGI
+Per quanto non previsto dal presente Capitolato Tecnico e/o da altri documenti ad esso riferibili ed in quanto
+ad essi non contraddicano, valgono, in quanto applicabili, le norme del D.Lgs. n. 36/2023 e s.m.i. e del Codice
+Civile.
+
+
+25.        CONTROVERSIE E RISERVE
+Per tutte le controversie derivanti dall’interpretazione e dall’esecuzione del contratto è competente in via
+esclusiva il foro di Ascoli Piceno.
+
+
+26.        TRATTAMENTO DEI DATI E TUTELA DELLA RISERVATEZZA
+Ai sensi e per gli effetti del d.lgs. 196/03, i dati forniti dalle concorrenti sono trattati dalla CIIP S.p.A.
+esclusivamente per le finalità connesse alla gara e per l’eventuale successiva stipula e gestione del contratto.
+Con la sottoscrizione e l’invio dell’offerta economica le concorrenti esprimono il loro consenso al suddetto
+trattamento.
+
+
+
+
+CSA_OEPV
+                                                                                                       Pag. 19/19
+

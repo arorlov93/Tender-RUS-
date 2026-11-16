@@ -1,0 +1,67 @@
+                                                                                                                     Solicitud de alta de proveedor
+Proveedor (nombre fiscal)                                                                                                                CIF
+
+
+
+Dirección                                                                                                          Código postal         Localidad
+
+
+
+Persona de contacto | Comercial
+
+
+
+Correo electrónico | Comercial                                                                                                           Tfno. de contacto | Comercial
+
+
+
+Correo electrónico | Administración                                                                                                      Tfno. de contacto | Administración
+
+
+
+Correo electrónico | Pedidos                                                                                                             Tfno. de contacto | Pedidos
+
+
+
+
+Datos bancarios
+IBAN
+
+
+
+Nombre                                                                                                                                   Localidad
+
+
+
+Régimen especial de IVA de criterio de caja                         Retenciones en la factura
+
+     Sí *         No                                                      Sí         No
+* En caso afirmativo, se debe aportar el modelo de
+  alta censal (036/037) justificando la inclusión en el
+  régimen especial de IVA de criterio de caja.
+
+
+Notas
+
+
+
+
+                                                                                                                                   Firma digital de la persona apoderada
+
+
+
+
+Información básica sobre protección de datos
+Responsable     EMAYA, Empresa Municipal d’Aigües i Clavegueram, S.A.
+Finalidad       Tramitación de su solicitud.
+Legitimación    Tratamiento de los datos necesarios para la localización profesional, con el fin de mantener
+                relaciones con la persona jurídica en la que la persona afectada presta sus servicios
+Destinatarios   No se cederán datos a terceros, excepto por obligación legal.
+Derechos        Acceder a los datos, rectificarlos y suprimirlos, así como otros derechos, como se explica en la
+                información adicional.
+Información     Podéis consultar la información adicional y detallada sobre protección de datos en nuestra web            Se debe adjuntar copia del poder que acredita
+adicional       https://www.emaya.es/política-de-privacitat/ o solicitarla en papel en las oficinas centrales de          la persona apoderada, excepto en los casos de
+                EMAYA en la calle de Joan Maragall, 3, 07006 Palma.                                                       adjudicación directa
+
+EMAYA, Empresa Municipal d’Aigües i Clavegueram S.A.                                                                                                          CM-001-E09
+

@@ -1,0 +1,257 @@
+ALLEGATO B —- BANDO DI GARA
+
+MODELLO REDATTO AI SENSI DELL'ALLEGATO IL6, PARTE I, LETT. € DEL D.LGS. 36/2023 E DEL REGOLAMENTO DI
+
+ESECUZIONE (UE) 2019/1780 (eForms— Formulario Standard 16)
+CIG: BDC3C308B4 | CPV: 24962000-5
+
+PROCEDURA APERTA TELEMATICA, AI SENSI DELL'ART. 71 DEL D.LGS. 36/2023, PER
+L'AFFIDAMENTO DELL'ACCORDO QUADRO CON PIÙ OPERATORI ECONOMICI PER LA
+FORNITURA DI POLIELETTROLITA CATIONICO IN EMULSIONE PER LE SEZIONI DI
+DISIDRATAZIONE DEI FANGHI BIOLOGICI DEGLI IMPIANTI DI DEPURAZIONE GESTITI
+DALLA CIIP S.P.A.
+
+SEZIONE I: STAZIONE APPALTANTE / ENTE AGGIUDICATORE
+
+1.1) Denominazione e indirizzi: CIIP S.p.A. — Cicli Integrati Impianti Primari
+
+Indirizzo postale: Viale della Repubblica n. 24 — 63100 Ascoli Piceno (AP) — Italia
+
+Codice NUTS: ITI34 (Ascoli Piceno)
+
+Telefono: +39 0736 2721 | Fax: +39 0736 272222
+
+E-mail: info@ciip.it | PEC: servizio.protocollo@pec.ciip.it
+
+Indirizzo Internet (URL principale): https://www.ciip.it
+
+Indirizzo del profilo di committente / Piattaforma e-procurement: https://albo-gare.ciip.it/
+
+1.1.1) Punti di contatto: Responsabile Unico del Progetto (RUP): Dott. Giovanni Celani — E-mail:
+celani@ciip.it
+
+Responsabile del Procedimento Tecnico: Dott. Ing. Claudio Bernardo Carini — E-mail: carini@ciip.it
+
+1.2) Appalto congiunto: L'appalto non è congiunto. La procedura non è gestita da una centrale di committenza.
+1.3) Comunicazione: I documenti di gara sono disponibili per un accesso gratuito, illimitato e diretto presso la
+piattaforma telematica di e-procurement della Stazione Appaltante al seguente indirizzo URL: https://albo-
+gare.ciip.it/
+
+Le offerte e le domande di partecipazione devono essere inviate esclusivamente in versione elettronica mediante
+la medesima piattaforma telematica: https://albo-gare.ciip.it/
+
+1.4) Tipo di amministrazione aggiudicatrice / Principale settore di attività: Ente aggiudicatore / Gestore del
+Servizio Idrico Integrato.
+
+SEZIONE II: OGGETTO DELL'APPALTO
+
+11.1) Entità dell'appalto:
+
+II.1.1) Denominazione: Accordo Quadro con più operatori economici per la fornitura di polielettrolita cationico
+in emulsione destinato alle sezioni di disidratazione dei fanghi biologici degli impianti di depurazione gestiti da
+CIIP S.p.A. — CIG: BDC3C308B4.
+
+1I.1.2) Codice CPV principale: 24962000-5 — Prodotti chimici per il trattamento dell'acqua.
+
+1I.1.3) Tipo di appalto: Forniture.
+
+I1.1.4) Breve descrizione: Affidamento mediante Accordo Quadro con più operatori economici (fino a un
+massimo di 4 aggiudicatari), ai sensi dell'art. 59, comma 4, del D.Lgs. 36/2023, della fornitura di polielettrolita
+cationico in emulsione per le sezioni di disidratazione dei fanghi biologici degli impianti di depurazione gestiti da
+CIIP S.p.A. nei comuni di Altidona, Ascoli Piceno, Comunanza, Cupramarittima, Fermo e Grottammare.
+L'esecuzione avverrà mediante singoli Contratti Attuativi / Ordini di Fornitura sulla base delle effettive esigenze
+operative della Stazione Appaltante.
+1I.1.5) Valore totale stimato: Valore complessivo massimo stimato dell'Accordo Quadro (IVA esclusa): €
+716.184,00, così ripartito:
+
+Rif. Voce di spesa Importo (IVA esclusa)
+A Importo forniture a base di gara (soggetto a ribasso) € 713.784,00
+B Costi della sicurezza da interferenze (non soggetti a ribasso) € 2.400,00
+(6. Costi diretti della manodopera (mera fornitura senza posa in opera) € 0,00
+A+B Importo complessivo massimo stimato dell'Accordo Quadro € 716.184,00
+
+II.1.6) Informazioni relative ai lotti: Questo appalto non è suddiviso in lotti. Ai sensi dell'art. 58, comma 2, del
+D.Lgs. 36/2023, la mancata suddivisione è motivata dall'unicità delle prestazioni, funzionalmente connesse sotto
+il profilo tecnico, che consente di conseguire migliori economie di scala e maggiore efficienza operativa
+complessiva.
+
+11.2) Descrizione:
+
+II.2.3) Luogo di esecuzione: Codice  NUTS: ITI34 (Ascoli Piceno) e ITI35 (Fermo).
+Luoghi principali di consegna: Impianti di depurazione gestiti da CIIP S.p.A. ubicati nei Comuni di Altidona (FM),
+Ascoli Piceno (AP), Comunanza (AP), Cupramarittima (AP), Fermo (FM) e Grottammare (AP).
+
+II.2.5) Criteri di aggiudicazione: Criterio del minor prezzo, ai sensi dell'art. 108, comma 3, del D.Lgs. 36/2023,
+trattandosi di fornitura con caratteristiche standardizzate e condizioni definite dal mercato, mediante ribasso
+percentuale unico sull'importo posto a base di gara. L'aggiudicazione avverrà a favore degli operatori economici
+idonei (fino a un massimo di 4) utilmente collocati in graduatoria con ripartizione a scalare secondo l'art. 4 del
+Capitolato d'Oneri.
+
+1I.2.7) Durata del contratto d'appalto, dell'accordo quadro o del sistema dinamico di acquisizione: Durata
+ordinaria: 12 mesi (1 anno) decorrenti dalla data di sottoscrizione del contratto di Accordo Quadro, ovvero fino
+al raggiungimento dell'importo massimo contrattuale se anteriore.
+
+Il contratto è oggetto di opzione di proroga tecnica: sì. Ai sensi dell'art. 120, comma 11, del D.Lgs. 36/2023, la
+Stazione Appaltante si riserva la facoltà di prorogare il contratto per un massimo di 3 mesi, per il tempo
+strettamente necessario alla conclusione delle procedure per l'individuazione dei nuovi contraenti, agli stessi
+prezzi, patti e condizioni.
+
+1I.2.10) Informazioni sulle varianti: Sono autorizzate varianti: no.
+
+II.2.11) Informazioni relative alle opzioni: Opzioni: sì — Proroga tecnica fino a 3 mesi ai sensi dell'art. 120,
+comma 11, del D.Lgs. 36/2023.
+
+II.2.13) Informazioni relative ai fondi dell'Unione europea: L'appalto non è connesso a un progetto e/o
+programma finanziato da fondi dell'Unione europea. Finanziamento: fondi propri della Stazione Appaltante (CIIP
+S.p.A.)
+
+II.2.14) Informazioni complementari: CCNL applicabile ai sensi dell'art. 11, comma 2, D.Lgs. 36/2023: settore
+Chimico-Farmaceutico (Codice CNEL B011), ferma restando la facoltà di indicare un CCNL equivalente ai sensi
+dell'art. 11, comma 3, del Codice. Sopralluogo obbligatorio: non richiesto ai sensi dell'art. 92 del D.Lgs. 36/2023.
+
+SEZIONE III: INFORMAZIONI DI CARATTERE GIURIDICO, ECONOMICO, FINANZIARIO
+E TECNICO
+
+III.1) Condizioni di partecipazione:
+III.1.1) Abilitazione all'esercizio dell'attività professionale, inclusi i requisiti relativi all'iscrizione nell'albo
+professionale o nel registro commerciale: Sono ammessi i soggetti di cui all'art. 65 del D.Lgs. 36/2023. A pena
+di esclusione, i concorrenti devono possedere:
+
+e Requisiti generali: Insussistenza delle cause di esclusione automatica e non automatica di cui agli artt. 94, 95 e
+98 del D.Lgs. 36/2023, delle cause di divieto/decadenza ex art. 67 D.Lgs. 159/2011, delle situazioni ex art. 53,
+comma 16-ter, D.Lgs. 165/2001 e rispetto dei Protocolli di Legalità ex art. 83-bis D.Lgs. 159/2011.
+
+e Iscrizione camerale (art. 100, co. 1, lett. a): Iscrizione nel Registro delle Imprese presso la C.C.LA.A. (0
+registro equivalente di altro Stato membro UE ex Allegato II.11 D.Lgs. 36/2023) per attività coerenti con
+l'oggetto della gara.
+
+e Abilitazioni ADR: Possesso delle abilitazioni ADR per il trasporto di merci pericolose (mezzi idonei, patentino
+ADR conducenti e nomina del Consulente DGSA ex D.Lgs. 35/2010) in caso di trasporto in proprio, ovvero
+dichiarazione di impegno ad affidare il trasporto a vettore terzo abilitato ADR nel rispetto dell'art. 119 D.Lgs.
+36/2023.
+
+e Qualifica Produttore/Distributore: Dichiarazione di partecipare in qualità di produttore del polielettrolita
+offerto oppure di distributore/rivenditore munito di formale dichiarazione di impegno del produttore a garantire
+disponibilità e assistenza tecnica per l'intera durata dell'Accordo Quadro.
+
+III.1.2) Capacità economica e finanziaria: Criteri di selezione indicati nei documenti di gara (art. 100, comma
+I, lett. b, D.Lgs. 36/2023):
+
+Possesso di un fatturato globale d'impresa maturato nei migliori tre anni degli ultimi cinque anni antecedenti alla
+data di pubblicazione del bando di gara complessivamente non inferiore a € 1.400.000,00 (IVA esclusa). Per le
+imprese costituite da meno di tre anni si applica il criterio di proporzionalità come specificato al par. 7, lett. C)
+del Disciplinare di gara.
+
+II1.1.3) Capacità professionale e tecnica: Criteri di selezione indicati nei documenti di gara (art. 100, comma
+
+I, lett. c, D.Lgs. 36/2023):
+
+Esecuzione di forniture analoghe (fornitura di polielettroliti/reagenti per il trattamento acque o disidratazione
+fanghi) eseguite complessivamente negli ultimi 10 anni dalla data di indizione della gara per un importo
+complessivo non inferiore a € 700.000,00 (IVA esclusa), comprovabili secondo le modalità di cui al par. 7, lett.
+D) del Disciplinare di gara.
+
+1II.1.6) Cauzioni e garanzie richieste: 1) Garanzia provvisoria (art. 106 D.Lgs. 36/2023): pari al 2% del valore
+complessivo della procedura, ovvero € 14.323,68 (salve le riduzioni di cui all'art. 106, comma 8, del Codice),
+con validità di 180 giorni.
+
+2) Garanzia definitiva (art. 117 D.Lgs. 36/2023): prima della stipula dell'Accordo Quadro, pari al 2% del valore
+massimo attribuibile al singolo aggiudicatario.
+
+3) Polizza assicurativa RCT/RCO e Rischio Ambientale/Inquinamento da produrre almeno 10 giorni prima della
+stipula.
+
+1II.1.7) Principali modalità di finanziamento e di pagamento e/o riferimenti alle disposizioni applicabili in
+materia: Finanziamento con fondi propri di CIIP S.p.A. Anticipazione contrattuale del 20% ai sensi dell'art. 125
+D.Lgs. 36/2023. Pagamenti a 30 giorni dall'emissione dei certificati di pagamento relativi ai singoli SS.A.LL.,
+soggetti a split payment (D.L. 50/2017) e tracciabilità dei flussi finanziari (L. 136/2010), tramite fatturazione
+elettronica (Codice Destinatario SDI: 0000000).
+
+III.2) Condizioni relative al contratto d'appalto:
+
+1I1.2.2) Condizioni di esecuzione del contratto d'appalto: Adempimenti relativi al Rapporto sulla situazione del
+personale / Relazione di genere e alla Legge n. 68/1999 ai sensi dell'Allegato II.3 al D.Lgs. 36/2023 (par. 7, lett.
+D del Disciplinare). Subappalto ammesso nei limiti dell'art. 119 D.Lgs. 36/2023, con divieto di subappalto a
+cascata ai sensi dell'art. 119, comma 17. Prima della stipula dell'Accordo Quadro, i soggetti utilmente collocati in
+graduatoria saranno sottoposti a prova confermativa sul prodotto offerto ai sensi dell'art. 5 del Capitolato d'Oneri.
+SEZIONE IV: PROCEDURA
+
+IV.1) Descrizione:
+
+IV.1.1) Tipo di procedura: Procedura aperta telematica ai sensi dell'art. 71 del D.Lgs. 36/2023.
+
+IV.1.3) Informazioni su un accordo quadro o un sistema dinamico di acquisizione: L'avviso comporta la
+conclusione di un accordo quadro con più operatori economici (numero massimo previsto di partecipanti
+all'accordo quadro: 4).
+
+IV.1.8) Informazioni relative all'accordo sugli appalti pubblici (AAP): L'appalto è disciplinato dall'accordo
+sugli appalti pubblici: NO.
+
+IV.2) Informazioni di carattere amministrativo:
+
+IV.2.2) Termine per il ricevimento delle offerte o delle domande di partecipazione: Data: 16/12/2026 —
+Ora locale: 10:30.
+
+IV.2.4) Lingue utilizzabili per la presentazione delle offerte o delle domande di partecipazione: Italiano.
+IV.2.6) Periodo minimo durante il quale l'offerente è vincolato alla propria offerta: 180 giorni dal termine
+ultimo per il ricevimento delle offerte.
+
+IV.2.7) Modalità di apertura delle offerte: Data: 16/12/2026 — Ora locale: 11:00
+
+Luogo: Uffici amministrativi di CIIP S.p.A., Viale della Repubblica n. 24 — 63100 Ascoli Piceno (AP) e seduta
+telematica.
+
+Informazioni relative alle persone ammesse e alla procedura di apertura: Legali rappresentanti dei concorrenti o
+loro delegati muniti di delega scritta e copia del documento d'identità in corso di validità.
+
+SEZIONE VI: ALTRE INFORMAZIONI
+
+V1.1) Informazioni relative alla rinnovabilità: Si tratta di un appalto rinnovabile: no (fatta salva l'opzione di
+proroga tecnica di 3 mesi ex art. 120, comma 11, D.Lgs. 36/2023).
+
+VI.2) Informazioni relative ai flussi di lavoro elettronici: Sarà accettata la fatturazione elettronica. Sarà
+utilizzato il pagamento elettronico. Verifica dei requisiti tramite Fascicolo Virtuale dell'Operatore Economico
+(FVOE 2.0) presso ANAC.
+
+VI1.3) Informazioni complementari:
+
+e Indizione procedura: Deliberazione del Consiglio di Amministrazione di CIIP S.p.A. n. 78 del 06/05/2026.
+
+e Contributo ANAC: A pena di esclusione, i concorrenti devono versare il contributo in favore dell'ANAC pari a
+€ 77,00 (Deliberazione ANAC n. 584 del 22/12/2025) associato al CIG BDC3C308B4.
+
+e Richieste di chiarimenti: Da inoltrare esclusivamente in forma anonima tramite l'area 'Quesiti' della piattaforma
+https://albo-gare.ciip.it/ entro e non oltre le ore 12:00 del giorno 10/12/2026. Risposte pubblicate almeno 6
+giorni lavorativi prima della scadenza.
+
+e Anomalia dell'offerta: Facoltà di verifica della congruità ai sensi dell'art. 110 del D.Lgs. 36/2023.
+
+e Aggiudicazione: Si procederà all'aggiudicazione anche in presenza di una sola offerta valida, purché ritenuta
+congrua e conveniente.
+
+e Spese contrattuali: A carico dell'aggiudicatario ai sensi dell'art. 18, comma 10, e Allegato 1.4 del D.Lgs. 36/2023.
+
+e Documentazione integrale di gara: Bando di gara (Allegato B), Disciplinare di gara (Allegato C), DGUE
+(Allegato A), Capitolato d'Oneri (Allegato D), Schema di Contratto (Allegato E), Elaborati Tecnici (Allegato
+F) e Modelli da 1 a 8 disponibili su https://albo-gare.ciip.it/.
+
+VI.4) Procedure di ricorso:
+
+VI.4.1) Organismo responsabile delle procedure di ricorso: Tribunale Amministrativo Regionale (T.A.R.) per
+le Marche — Via della Loggia n. 24 — 60121 Ancona (AN) - Italia
+
+Sito internet: https://www.giustizia-amministrativa.it
+VI.4.3) Procedure di ricorso (termini): 30 giorni dalla pubblicazione del presente bando sulla Banca Dati
+Nazionale dei Contratti Pubblici (BDNCP) / piattaforma di pubblicità a valore legale, ai sensi dell'art. 120 del
+D.Lgs. 104/2010 (Codice del Processo Amministrativo). Per le controversie derivanti dall'esecuzione del
+contratto è esclusa la competenza arbitrale; Foro competente: Ascoli Piceno.
+
+VI.5) Data di spedizione del presente avviso alla GUUE: 13/11/2026 — Numero 789637-2026
+
+Il Responsabile Unico del Progetto .
+
+Dott. Giovanni Celani __,, _
+
+x, SY NAA
+a Vu ( CU!
+4

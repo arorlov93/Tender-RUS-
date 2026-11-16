@@ -1,0 +1,70 @@
+ANEXO A:
+LOTE 1 CATEGORÍA 3:
+TABLA NÚM. 1 
+ |  | SALOBRE
+PARÁMETRO | UNIDADES | A | B | C
+TDS | (mg/l) | 1000 - 2000 | 2000 - 3000 | 3000 - 4000
+CONV. | % | 81,5 | 81,4 | 80,2
+Ba++ | (µg/L) | 62 | 65 | 52
+F- | (mg/L) | 0,32 | 0,2 | 0,4
+FOSF. | (µg/L P4O3-) | 54 | 11,6 | 13,6
+COND. | (µS/cm 20ºC) | 2318 | 3357 | 4680
+Ca2+ | (mg/L) | 164 | 194 | 235
+Mg2+ | (mg/L) | 57 | 79,5 | 113,8
+Na+ | (mg/L) | 297 | 475,8 | 764,1
+K+ | (mg/L) | 8,3 | 10,9 | 16,1
+Sr | (mg/L) | 1,3 | 1,6 | 1,8
+Fe | (µg/L) | 30 | 30 | 30
+Al | (µg/L) | 6 | 6 | 14
+Cl- | (mg/L) | 551 | 929 | 1541
+Br- | (mg/L) | 2,1 | 3,3 | 5,4
+SO42- | (mg/L) | 200 | 236 | 334
+CO32- | (mg/L) | 0 | 0 | 0
+HCO3- | (mg/L) | 347 | 329 | 343
+NO3- | (mg/L) | 40 | 47 | 39
+NO2- | (mg/L) | 0 | 0 | 0,5
+SiO2 | (mg/L) | 8,6 | 7,7 | 7,9
+Mn | (µg/L) | 0,47 |  | 
+B | (µg/L) | 0,17 |  | 
+TURB. | (UNF) | 0,3 | 0,2 | 0,5
+Conversión | % | 81,5 | 81,4 | 81,3
+TEMP. | (°C) | 20,5 | 20,5 | 20,5
+pH | (Unidad pH) | 7,15 | 7,15 | 7,15
+ |  |  |  | 
+DATOS FUNCIONAMIENTO PLANTA | 
+Tipo de membrana | DOW FILMTEC CR100 FORTILIFE en 1ª y 2ª etapa.
+Presión | 17 bar |  |  | 
+Temperatura | 20 ºC |  |  | 
+Caudal de alimentación | 8040,0 m3/día |  |  | 
+Caudal producido | 6552,0 m3/día |  |  | 
+Caudal del concentrado | 1487,0 m3/día |  |  | 
+Recuperación | 81,50% |  |  | 
+Horas por día | 24,0 horas |  |  | 
+TABLA NÚM. 2 
+DATOS AGUA TRATADA Índices de Incrustación
+ | A | B | C
+CaCo3 | % | % | %
+CaSO4 | % | % | %
+BaSO4 | % | % | %
+SrSO4 | % | % | %
+CaF2 | % | % | %
+Fe | % | % | %
+Al | % | % | %
+Mn | % | % | %
+SiO2 | % | % | %
+Ca3(PO4)2 | % | % | %
+Producto seleccionado |  |  | 
+Dosis total en agua de alimentación | ppm | ppm | ppm
+TABLA NÚM. 3 y 4 (LOTE 1 Categoría 4 y 5):
+Tabla 3 | Biocidas de efecto rápido (categoría 4)
+ |  | 
+BIOCIDAS | Dosis (ppm) | Nº choques realizables cantidad licitación
+Producto A |  | 
+Producto B |  | 
+Etc. |  | 
+Tabla 4 | Biocidas de efecto lento (inertización)
+ |  | 
+BIOCIDAS | Dosis (ppm) | Días protección membranas
+Producto A |  | 
+Producto B |  | 
+Etc. |  | 
