@@ -1,0 +1,98 @@
+                                                                                                                                                  002540/2026
+
+                                                                                     INFORME TÉCNICO
+
+Asunto: Informe técnico en relación a valores de conversión de la tabla 1 de la categoría 3, a raíz de
+una consulta de un proveedor.
+
+
+
+NOMBRE DEL EXPEDIENTE: AM PARA EL SUMINISTRO DE PRODUCTOS QUÍMICOS
+N.º EXPEDIENTE: 002540/2026
+N.º LOTE: Lote 1
+       - Categoría 3: DISPERSANTE / ANTINCRUSTANTE
+
+
+Con fecha 2 de noviembre de 2026, se publicaron los pliegos que rigen el procedimiento de contratación arriba
+referenciado.
+
+Durante la revisión posterior, a razón de una pregunta realizada por un proveedor sobre la documentación
+publicada, se ha detectado una duplicidad del dato de conversión en la tabla del Lote 1 categoría 3
+DISPERSANTE / ANTINCRUSTANTE.
+
+Se subsana la deficiencia modificando la tabla de tal manera que se elimina la fila “CONV.” y se mantiene
+como valida la fila “Conversión” corrigiendo el valor del caso C de 81,3 % a 80,2 %.
+
+
+                                                  LOTE 1 CATEGORÍA 3 DISPERSANTE / ANTIINCRUSTANTE
+                                                                                                                       SALOBRE
+                    PARÁMETRO                                      UNIDADES                                 A             B             C
+
+                    TDS                                            (mg/l)                               1000 - 2000   2000 - 3000   3000 - 4000
+
+                    Ba++                                           (µg/L)                                   62            65            52
+
+                    F-                                             (mg/L)                                  0,32           0,2           0,4
+
+                    FOSF.                                          (µg/L P4O3-)                             54           11,6          13,6
+
+                    COND.                                          (µS/cm 20ºC)                            2318          3357          4680
+
+                    Ca2+                                           (mg/L)                                  164           194           235
+
+                    Mg2+                                           (mg/L)                                   57           79,5         113,8
+
+                    Na+                                            (mg/L)                                  297          475,8         764,1
+
+                    K+                                             (mg/L)                                   8,3          10,9          16,1
+
+                    Sr                                             (mg/L)                                   1,3           1,6           1,8
+
+                    Fe                                             (µg/L)                                   30            30            30
+
+                    Al                                             (µg/L)                                   6             6             14
+
+                    Cl-                                            (mg/L)                                  551           929           1541
+
+                    Br-                                            (mg/L)                                   2,1           3,3           5,4
+
+                    SO42-                                          (mg/L)                                  200           236           334
+
+                    CO32-                                          (mg/L)                                   0             0             0
+
+                    HCO3-                                          (mg/L)                                  347           329           343
+
+                    NO3-                                           (mg/L)                                   40            47            39
+
+
+
+
+Carrer de Joan Maragall, 3. 07006 Palma, Illes Balears. www.emaya.es
+EMAYA, Empresa Municipal d’Aigües i Clavegueram S.A. NIF: A-07000029
+Registre Mercantil de Palma, Llibre de Societats, Tom 229, Foli 59, Full 4499. Data: 30 Setembre 1974
+                                                                                   002540/2026
+
+          NO2-                      (mg/L)               0            0     0,5
+
+          SiO2                      (mg/L)               8,6         7,7    7,9
+
+          Mn                        (µg/L)              0,47         0,47   0,47
+
+          B                         (µg/L)              0,17         0,17   0,17
+
+          TURB.                     (UNF)                0,3         0,2    0,5
+
+          Conversión                %                   81,5         81,4   80,2
+
+          TEMP.                     (°C)                20,5         20,5   20,5
+
+          pH                        (Unidad pH)         7,15         7,15   7,15
+
+
+
+
+Por los motivos expuestos, se procede a subsanar dicha incidencia.
+        Firmado por Ana Rodríguez Godoy el día
+        12/11/2026 con un certificado emitido por
+        AC FNMT Usuarios
+

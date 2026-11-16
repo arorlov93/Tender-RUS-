@@ -1,0 +1,114 @@
+                                                                                                        002540/2026
+
+                                                                                     INFORME TÉCNICO
+
+Asunto: Informe técnico de corrección de errores en el Pliego de Prescripciones Técnicas de la
+licitación 002540/2026, en el Lote 2.
+
+
+
+NOMBRE DEL EXPEDIENTE: AM PARA EL SUMINISTRO DE PRODUCTOS QUÍMICOS
+Nº EXPEDIENTE: 002540/2026
+Nº LOTE: Lote 2
+      - Categoría 1: FLOCULANTE POLIELECTROLITO CATIÓNICO PARA ESPESADORES
+      - Categoría 2: FLOCULANTE POLIELECTROLITO CATIÓNICO PARA CENTRIFUGAS
+      - Categoría 3: FLOCULANTE POLIELECTROLITO CATIONICO (LIQUIDCO)
+
+1.- Disponibilidad de un stock mínimo en Lote 2, Categoría 1 y 2
+
+Con fecha 2 de noviembre de 2026, se publicaron los pliegos que rigen el procedimiento de contratación arriba
+referenciado.
+
+Durante la revisión posterior, a razón de una pregunta realizada por un proveedor, sobre la documentación
+publicada, se ha detectado una omisión material en el Pliego de Prescripciones Técnicas (PPT), consistente
+en la falta de inclusión expresa de la cantidad mínima de stock que deben acreditar los licitadores para las
+categorías 1 y 2 del Lote 2.
+
+No obstante, el apartado 3 Documentación que debe incluir la oferta para concurrir al establecimiento del
+acuerdo marco, sí establece la obligación de los licitadores de aportar en el SOBRE B un compromiso o
+declaración responsable acreditativa de la disponibilidad de stock mínimo exigido en el Pliego.
+
+Asimismo, debe señalarse que en el expediente contractual precedente (002289/2025 SUMINISTRO DE
+FLOCULANTE POLIELECROLITO CATIÓNICO Y ANIÓNICO PARA LAS ESTACIONES DEPURADORAS),
+relativo al mismo suministro ya se contemplaba expresamente la exigencia de una disponibilidad mínima de
+stock para dichas referencias, fijándose una cantidad de 18.000 kg, exigencia que respondía a las
+necesidades reales de abastecimiento del centro y a la garantía de continuidad del servicio, para cada
+categoría.
+
+La ausencia de una cuantificación concreta del stock mínimo exigible constituye una omisión material del PPT,
+ya que, aun cuando el pliego exige la aportación de un compromiso de disponibilidad de stock, no se incorporó
+la cifra concreta que permite determinar el alcance de dicha obligación.
+
+La correcta ejecución del contrato requiere que los adjudicatarios dispongan de una capacidad de suministro
+inmediata y continuada que permita atender las necesidades previstas sin riesgo de desabastecimiento.
+
+Por ello, resulta necesario concretar expresamente que para las categorías 1 y 2 del Lote 2, los licitadores
+deberán acreditar mediante declaración responsable la disponibilidad de un stock mínimo de:
+
+18.000 kg del material objeto de cada categoría.
+
+Por todo lo expuesto, se informa favorablemente la necesidad de subsanar la omisión detectada en el Pliego
+de Prescripciones Técnicas e incorporar en su apartado 4 Características técnicas y calidades del
+producto a suministrar, relativo al Lote 2, Categorías 1 y 2 lo siguiente:
+
+ “La entidad adjudicataria de la Categoría 1 FLOCULANTE POLIELECTROLITO CATIÓNICO PARA
+ESPESADORES deberá disponer de un stock mínimo permanente en sus instalaciones de 18.000 kg del
+producto ofertado. Por su parte, la empresa adjudicataria de la Categoría 2 FLOCULANTE
+
+
+
+
+Carrer de Joan Maragall, 3. 07006 Palma, Illes Balears. www.emaya.es
+EMAYA, Empresa Municipal d’Aigües i Clavegueram S.A. NIF: A-07000029
+Registre Mercantil de Palma, Llibre de Societats, Tom 229, Foli 59, Full 4499. Data: 30 Setembre 1974
+                                                                                               002540/2026
+
+POLIELECTROLITO CATIÓNICO PARA CENTRIFUGAS deberá disponer también de un stock mínimo
+permanente en sus instalaciones de 18.000 kg del floculante ofertado.
+
+En SOBRE B se deberá presentar Declaración responsable conforme se dispone del stock mínimo exigido en
+el pliego relativo a la categoría a la cual se presente oferta”.
+
+
+
+2-. Supresión de la tabla de características de Polielectrolito Aniónico
+
+Se debe suprimir además del apartado 4 Características técnicas y calidades del producto a suministrar
+del PPT, la tabla de características del Polielectrolito Aniónico al haberse incorporado por error. Dado que
+las especificaciones técnicas requeridas en la licitación corresponden únicamente al Polielectrolito
+Catiónico, procede mantener exclusivamente la tabla relativa a este producto, garantizando la coherencia y
+correcta adecuación de la documentación técnica.
+
+        -    Polielectrolito aniónico. (debe suprimirse)
+            Peso molecular                                    Alto/muy alto
+            Polímero                                          Poliacrilamida
+            Ionicidad                                           Aniónico
+            Carga iónica                                          media
+            Forma física                                     Polvo granular
+            Desprendimiento de polvo                                No
+            Densidad aparente aproximada                     0,9 ±0,2 gr/cm3
+            pH (disolución al 0,5%)                                6-9
+            Viscosidad al 0,5% 25ºC/mPa.s                          300
+            Tamaño partícula                               >98% <1400 micras
+            % Sólidos                                         Mínimo 90%
+            Insolubles                                           <0,01%
+
+
+2- Aclaración prueba Jar Test, Categoría 3 Lote 2.
+
+Finalmente, se ha detectado que la prueba de Jar Test, referente a la Categoría 3 Floculante polielectrolito
+catiónico (líquido) se ha descrito en el apartado 5 Condiciones en que debe ejecutarse el suministro del PPT,
+y, por error, en el Anexo B del mismo documento, donde se detalla una metodología no aplicable al presente
+procedimiento. En consecuencia, procede la supresión del ANEXO B: JAR TEST, siendo aplicable la
+evaluación de conformidad con el citado apartado 5 del PPT, ubicado en sus páginas 13 y 14.
+
+
+
+
+Palma, a fecha de la firma electrónica
+
+
+Firmado por Ana Rodríguez Godoy el
+día 09/11/2026 con un certificado
+emitido por AC FNMT Usuarios
+
