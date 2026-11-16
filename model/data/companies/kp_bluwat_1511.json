@@ -1,0 +1,28 @@
+{
+ "supplier": "Yixing Bluwat Chemicals Co., Ltd (CN)",
+ "contact": "Leo Zhou, leo.zhou@bluwat.com.cn, +86 13961555590",
+ "date": "2026-11-15",
+ "items": [
+  {
+   "product": "PAC liquid Al2O3>=17%, basicity>40%, NSF/ANSI 60",
+   "price_usd_t": 355,
+   "incoterm": "FOB Shanghai",
+   "pack": "IBC 1350 kg"
+  },
+  {
+   "product": "Cationic PAM powder C-8060 (sludge dewatering)",
+   "price_usd_t": 3050,
+   "incoterm": "FOB Qingdao",
+   "pack": "25 kg bags"
+  },
+  {
+   "product": "Cationic PAM emulsion EC8080, active >45%",
+   "price_usd_t": 2500,
+   "incoterm": "FOB Qingdao",
+   "pack": "IBC 1000 kg"
+  }
+ ],
+ "terms": "T/T or L/C at sight; lead time 2-3 weeks; CIF only on order (freight unstable); free samples 1-5 kg (need DHL import account)",
+ "nsf": "PAC certified; PAM can apply",
+ "reach": "NO REACH registration, no EU only-representative"
+}
