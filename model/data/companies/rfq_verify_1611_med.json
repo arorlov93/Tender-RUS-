@@ -1,0 +1,136 @@
+[
+  {
+    "company": "АО «Елатомский приборный завод» (ЕЛАМЕД), подразделение ЕЛАМЕД ЛПУ (для торговых и медицинских организаций)",
+    "product_group": "A: вакуумная пробирка с активатором свертывания 13х75 4 мл (Z.1375–4,0, красная крышка, ПЭТФ)",
+    "status": "FIX_EMAIL",
+    "email": "2126@lpu.elamed.com; копия lpu@lpu.elamed.com",
+    "phone": "8 800 350-06-13 (ЕЛАМЕД ЛПУ, многоканальный)",
+    "sales_contact_person": "Морозова Оксана Александровна, менеджер по продукции ЛПУ (закреплена за Сахалинской областью)",
+    "reason": "Продукт есть: Z.1375–4,0, 13х75, 4,0 мл, кремнезем, ПЭТФ, ГИКС.941419.101 ТУ, РУ РЗН 2017/6321, на карточках есть выписки из реестра РПП (например, № 10811887 для Z.1375-1,0; для 4,0 мл выписку проверить в ГИСП). contact@elamed.com — общий ящик для вопросов и техподдержки розничного бренда (Алмаг), а 8 (4912) 51-35-65 — приёмная завода и отдел кадров. Есть риск ответа «не по адресу» или долгой пересылки. Заявки юрлиц и торговых компаний обрабатывает ЕЛАМЕД ЛПУ (lpu.elamed.com, «торговым компаниям — особые условия, дистрибьюторские договоры»). Учесть: у ЕЛАМЕД свой тендерный отдел, сам участвует в 44-ФЗ, поэтому может оказаться конкурентом.",
+    "evidence_urls": [
+      "https://lpu.elamed.com/catalog/vakuumnye-sistemy-dlya-zabora-venoznoy-krovi/probirka-vakuumnaya-oksid-kremniya-4-ml-z-1375-4-0-krasnaya-kryshka-neprozrachnaya-etiketka",
+      "http://lpu.elamed.com/contacts",
+      "https://elamed.com/partnyeram",
+      "https://elamed.com/o-kompanii/kontakty",
+      "http://lpu.elamed.com/tendery",
+      "https://files.elamed.com/katalog_elamed_med_tehnika_2022.pdf",
+      "https://medcub.ru/catalog/instrumenty_i_raskhodnye_materialy/vakuumnye_systemy_probirki_dlya_zabora_venoznoy_krovi"
+    ]
+  },
+  {
+    "company": "ООО «Беримед» (BERIMED), Смоленская обл. / Москва",
+    "product_group": "A: вакуумная пробирка с диоксидом кремния (SiO2) 13х75 4,0 мл",
+    "status": "OK",
+    "email": "info@berimed.ru",
+    "phone": "+7 (4812) 70-48-13 (отдел продаж); приёмная +7 (4812) 70-48-11",
+    "sales_contact_person": "не указан; в тендерной переписке встречается e.mironova@berimed.ru (Миронова Е.) — можно поставить в копию",
+    "reason": "Производитель, позиционирует себя как «производство и оптовая продажа», есть скидки оптовикам, «150 крупных клиентов — поставщики и фармкомпании», значит с реселлерами работает. В прайсе 2024 есть SiO2 13х75 1,0–4,0 мл, РУ РЗН 2022/16972 (бессрочно), акт ТПП и СТ-1 на SiO2 13х75 4,0. Реестровые записи ПП719 действуют до 26.02.2028 (например, № 10582907; на SiO2 4,0 мл номер уточнить). info@berimed.ru указан как ящик отдела продаж на сайте, в прайсе и в каталоге Экспоцентра (3 источника). Минус: отгрузка до ТК в Смоленске, доставку на Сахалин закладывать отдельно.",
+    "evidence_urls": [
+      "https://berimed.ru/",
+      "https://berimed.ru/wp-content/uploads/2024/01/price-2.pdf",
+      "https://berimed.ru/shop/probirki",
+      "https://nevacert.ru/reestry/med-reestr/rzn-202216972-61696.html",
+      "https://zakupki.tpprf.ru/pdf?id=222613",
+      "https://tz-lab.ru/reestr/10582907",
+      "https://icatalog.expocentr.ru/en/exhibitions/de590dc5-417d-11ee-80ce-a0d3c1fab97f/exhibitors/376202?&stand=6C075",
+      "https://profas.expert/get_file/693149"
+    ]
+  },
+  {
+    "company": "ООО «Гранат Био Тех» (Acti-Fine), Дубна",
+    "product_group": "A: Acti-Fine с активатором свертывания 13х75, 4,0 мл (кат. 10014000) / 4,5 мл (10014500)",
+    "status": "FIX_EMAIL",
+    "email": "granatbio@granatbio.ru; копия info@granatbio.ru",
+    "phone": "+7 (495) 103-41-16; +7 (495) 218-10-28",
+    "sales_contact_person": "не указан (ген. директор Шишов А.Л. — a.shishov@granatbio.ru, писать ему не рекомендуется)",
+    "reason": "Продукт есть: РУ РЗН 2019/8079, сертификат 2025, кат. 10014000 (4,0 мл) держит ОМБ складской позицией. Крупнейший производитель («каждая третья пробирка в РФ»). На странице контактов «Коммерческий отдел» = granatbio@granatbio.ru + info@granatbio.ru, а info@ в инструкциях дан как адрес для рекламаций, поэтому основным лучше ставить granatbio@. На сайте названы официальные дистрибьюторы ОМБ и Делрус. Партия 46 150 шт. (~920 уп.) небольшая, завод с высокой вероятностью перенаправит к дистрибьютору (ОМБ, у него есть представительство ДФО, см. ADD). Номер записи ПП719 по сайтам не подтверждён, запросить выписку из ГИСП.",
+    "evidence_urls": [
+      "https://granatbio.ru/contacts/",
+      "https://granatbio.ru/",
+      "https://omb.ru/products/probirki_vakuumnye_acti_fine_dlya_zabora_venoznoy_krovi_s_aktivatorom_svertyvaniya_razmer_13kh75_mm__5",
+      "https://omb.ru/upload/iblock/817/pu6ebl75fc7oiwe9dbc43k32qn3q2o8u/ru_2019_8079_probirki_vakuumnye_acti_fine_dlya_zabora_venoznoy_krovi_s_dobavkami_i_bez_po_tu_32_50_50_001_00057974_2017_ot_23_03_2021.pdf",
+      "https://lab-medica.ru/wp-content/uploads/2025/05/4n5cc24gjy762igba7vfpi1t817hogy3.pdf",
+      "https://diama.ru/members/ooo-granat-bio-teh"
+    ]
+  },
+  {
+    "company": "ООО «ОМБ» — официальный дистрибьютор Гранат Био Тех, представительство ДФО (Хабаровск/Владивосток)",
+    "product_group": "A: Acti-Fine с активатором свертывания 13х75 4,0 мл (10014000, складская позиция)",
+    "status": "ADD",
+    "email": "dfo@omb.ru (головной офис: omb@omb.ru)",
+    "phone": "+7 (909) 807-70-06 (Дзюба А.С.); головной офис +7 (495) 925-81-50",
+    "sales_contact_person": "Дзюба Алёна Сергеевна, руководитель представительства ДФО",
+    "reason": "Официальный дистрибьютор Гранат Био Тех (ссылка со страницы контактов завода). Сайт адресован в том числе «поставщикам медицинских изделий», т.е. реселлерам. Есть представительство на Дальнем Востоке, позиция 4,0 мл складская. Это запасной канал на случай, если завод отправит к дистрибьютору.",
+    "evidence_urls": [
+      "https://omb.ru/about/contacts",
+      "https://granatbio.ru/contacts/",
+      "https://omb.ru/products/probirki_vakuumnye_acti_fine_dlya_zabora_venoznoy_krovi_s_aktivatorom_svertyvaniya_razmer_13kh75_mm__5"
+    ]
+  },
+  {
+    "company": "ГК «Церебрум–Юнимед» (ООО «Юнимед»; производитель — ООО «Эйлитон», UNIVAC)",
+    "product_group": "A: UNIVAC 1375.4.0.АК (кремнезем, 13х75, 4,0 мл, красная крышка, пластик)",
+    "status": "OK",
+    "email": "office@unimed.ru",
+    "phone": "+7 (495) 734-91-31",
+    "sales_contact_person": "не указан",
+    "reason": "Эйлитон — завод, Юнимед — торговый дом группы (продажа только юрлицам). Артикул 1375.4.0.АК есть в каталогах (lab-medica, Юнимед Сибирь). РУ РЗН 2015/2307, ПП719 подтверждено: в каталоге 75 баллов, Минпромторг подтвердил производство всех видов UNIVAC. office@unimed.ru стоит на контактной странице и в каталоге СВК (2 источника). Писать на Юнимед, а не на ailiton.ru (там завод, не продажи). Для Сахалина удобнее дальневосточная компания группы — Церебрум, Владивосток (см. ADD).",
+    "evidence_urls": [
+      "https://unimed.ru/kontakty.html",
+      "https://unimed.ru/vakuumnye-sistemy/vakuumnye-probirki.html",
+      "https://cereb.su/upload/iblock/7dd/g2zeekgk4q8yx3gdus2jsucefnk8t03g/Katalog-SVK_compressed.pdf",
+      "https://lab-medica.ru/univac/",
+      "http://unimedsib.ru/vakuumnyye-probirki-univac-r",
+      "https://ailiton.ru/"
+    ]
+  },
+  {
+    "company": "ООО «Церебрум-М» (ГК Церебрум–Юнимед), Владивосток",
+    "product_group": "A: UNIVAC 1375.4.0.АК 13х75 4,0 мл",
+    "status": "ADD",
+    "email": "info@cereb.su",
+    "phone": "+7 (423) 230-20-39 (Владивосток)",
+    "sales_contact_person": "не указан",
+    "reason": "Входит в одну группу с Юнимед, офис и склад во Владивостоке (ул. Комсомольская 3; склад — 4-я Пригородная 5). Интернет-магазин работает с юрлицами, на сайте есть раздел «Сотрудничество». Ближайшая к Южно-Сахалинску точка отгрузки UNIVAC. info@cereb.su подтверждён на странице контактов и в каталоге СВК рядом с office@unimed.ru.",
+    "evidence_urls": [
+      "https://cereb.su/contacts/",
+      "https://cereb.su/upload/iblock/7dd/g2zeekgk4q8yx3gdus2jsucefnk8t03g/Katalog-SVK_compressed.pdf",
+      "https://cereb.su/catalog/laboratornaya_diagnostika/vakuumnye_sistemy_vzyatiya_venoznoy_krovi_proizvodstvo_rossiya/probirki_vakuumnye_univac_dlya_vzyatiya_venoznoy_krovi_/vakuumnye_probirki_univac_s_aktivatorom_svertyvaniya_krovi_trombin_i_razdelitelnym_gelem/vakuumnye_probirki_univac_3_5_ml_13kh75_mm_aktivator_svertyvaniya_trombin_gel"
+    ]
+  },
+  {
+    "company": "АО «Завод медицинских технологий» (ЗМТ / ZMT), Екатеринбург",
+    "product_group": "A: ZMT пробирка для сыворотки с активатором свертывания (кремнезем или тромбин) 13х75 4,0 мл",
+    "status": "FIX_EMAIL",
+    "email": "olv@zmt.ru; копия sal@zmt.ru",
+    "phone": "+7 (343) 288-22-00 доб. 109 (Осинцева), моб. +7 922 195-33-56",
+    "sales_contact_person": "Осинцева Лариса Викторовна, начальник отдела продаж; Салихова Эльвира Ризвановна, коммерческий директор (доб. 115)",
+    "reason": "Компания та, продукт есть: вакуумные пробирки ZMT выпускаются с 2018 г., на сайте раздел «с активатором свертывания (кремнезем)». Тромбиновые 13х75 4,0 мл — арт. 20537401 (каталог Галена). Сама завод: 2971 контракт по 44-ФЗ, в том числе на пробирки с активатором свертывания, то есть работает с тендерами напрямую. info@zmt.ru на сайте подписан как «Техподдержка», для КП не лучший адрес. Есть страница отдела продаж с поимёнными адресами. Номер записи ПП719 для пробирок ZMT по открытым источникам не подтверждён, запросить выписку. Дистрибьютор — Гален (galen@galen.ru).",
+    "evidence_urls": [
+      "https://zmt.ru/sales-department",
+      "https://zmt.ru/contacts",
+      "https://zmt.ru/",
+      "https://galen.ru/item/probirki-vakuumnye-zmt-dlya-syvorotki-s-aktivatorom-svertyvaniya-kremnezem-i-razdelitelnym-gelem",
+      "https://www.tbank.ru/business/contractor/legal/1026605607665",
+      "https://zdrav.expert/index.php/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F:%D0%97%D0%B0%D0%B2%D0%BE%D0%B4_%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D1%85_%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B9_(%D0%97%D0%9C%D0%A2)"
+    ]
+  },
+  {
+    "company": "ООО «Спектр» (Омск), производитель «Страж-ПВР», ИНН 5504149471",
+    "product_group": "B: персональный видеорегистратор «Страж-ПВР-05» 64 ГБ, 17 шт., Кемерово",
+    "status": "OK",
+    "email": "e.lenskaya@spectr-tech.ru",
+    "phone": "8 (3812) 32-53-66",
+    "sales_contact_person": "Ленская Елена Юрьевна — директор ООО «Спектр»; её адрес на сайте указан как адрес коммерческого отдела",
+    "reason": "Изготовитель, модель текущая: на сайте есть карточка, цена 27 035 руб., паспорт 2025 г.; память до 256 ГБ опционально, 64 ГБ — стандарт прежних паспортов. ПВР-05 в реестре радиоэлектронной продукции ПП878. e.lenskaya@spectr-tech.ru — «коммерческий отдел» на главной сайта, в паспорте 2025 г. и на Производитель.рф (3 источника). support@strazhpvr.ru — техподдержка, туда не писать. Страницы дилеров или партнёров на сайте нет (/partners и /contacts отдают 404), региональных дилеров в Сибири/Кузбассе найти не удалось. Изделие перепродают сторонние компании (СВП Москва, pro-spec, n-sb), т.е. «Спектр» продаёт реселлерам напрямую. Компания маленькая (11 чел.), письмо уйдёт лично директору, поэтому писать коротко и вежливо. Не путать со старыми контактами в паспорте 2022 г. (ngtron.com, proto-x.net) — они устарели. Альтернатива: ved@spectr-tech.ru (из декларации ЕАЭС).",
+    "evidence_urls": [
+      "https://strazhpvr.ru/",
+      "https://strazhpvr.ru/pvr-05-razd",
+      "https://proto-x.net/docs/passports/passport_civil_PVR-05_razd_site_20250319.pdf",
+      "https://xn--b1aedfedwrdfl5a6k.xn--p1ai/producer/strazh-0",
+      "http://proto-x.net/upload/iblock/a90/9c4wq7divaf5m63qx2cis570d32p2q7n/ds_EAC_pvr_2029.pdf",
+      "https://www.svp.ru/catalog/nosimye_videoregistratory/10487",
+      "https://strazhpvr.ru/support"
+    ]
+  }
+]
