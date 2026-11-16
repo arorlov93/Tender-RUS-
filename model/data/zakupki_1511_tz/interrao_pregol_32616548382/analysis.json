@@ -1,0 +1,117 @@
+{
+ "tender": {
+  "number": "32616548382",
+  "internal": "634.26.00395 (карта №226949)",
+  "customer": "АО «Интер РАО – Электрогенерация», Прегольская ТЭС (организатор — филиал «Калининградская ТЭЦ-2»)",
+  "subject": "Химические реагенты для обработки мембранных установок для Прегольской ТЭС",
+  "procedure": "открытый запрос котировок (ЭТП irao.tektorg.ru)",
+  "participant": "ООО «Гидропас» (УСН 15% доходы-минус-расходы, МСП)",
+  "analysis_date": "2026-11-16"
+ },
+ "deadline": "2026-11-13T11:00:00+03:00 — ИСТЁК (вскрытие 16.11.2026, итоги до 03.12.2026)",
+ "nmc": {
+  "without_vat": 1314138.0
+ },
+ "positions": [
+  {
+   "n": 1,
+   "kcu": "515639",
+   "name": "Антискалант JURBY JurbySOFT M422 (универсальный для ОО на жёсткой воде)",
+   "unit": "кг",
+   "qty": 504,
+   "nmc_unit_without_vat": 837.0,
+   "nmc_sum_without_vat": 421848.0,
+   "okpd2": "20.59.59.900",
+   "national_measure": "ограничение (прил.2 ПП 1875)",
+   "country_plan": "Литва",
+   "brand": "JURBY (JURBY WATERTECH, Литва)",
+   "equiv_allowed": false
+  },
+  {
+   "n": 2,
+   "kcu": "554729",
+   "name": "Промывка кислотная модулей ЭДИ JURBY JurbySOFT DS1plus, концентрат",
+   "unit": "кг",
+   "qty": 50,
+   "nmc_unit_without_vat": 350.0,
+   "nmc_sum_without_vat": 17500.0,
+   "okpd2": "20.59.59.900",
+   "national_measure": "ограничение (прил.2 ПП 1875)",
+   "country_plan": "Литва",
+   "brand": "JURBY (JURBY WATERTECH, Литва)",
+   "equiv_allowed": false
+  },
+  {
+   "n": 3,
+   "kcu": "519347",
+   "name": "Реагент-биоцид JURBY JurbySOFT DB (стабилизированный бром)",
+   "unit": "кг",
+   "qty": 435,
+   "nmc_unit_without_vat": 930.0,
+   "nmc_sum_without_vat": 404550.0,
+   "okpd2": "20.59.59.900",
+   "national_measure": "ограничение (прил.2 ПП 1875)",
+   "country_plan": "Литва",
+   "brand": "JURBY (JURBY WATERTECH, Литва)",
+   "equiv_allowed": false
+  },
+  {
+   "n": 4,
+   "kcu": "515637",
+   "name": "Средство моющее щелочное JURBY JurbySoft M432",
+   "unit": "кг",
+   "qty": 493,
+   "nmc_unit_without_vat": 680.0,
+   "nmc_sum_without_vat": 335240.0,
+   "okpd2": "20.59.59.900",
+   "national_measure": "ограничение (прил.2 ПП 1875)",
+   "country_plan": "Литва",
+   "brand": "JURBY (JURBY WATERTECH, Литва)",
+   "equiv_allowed": false
+  },
+  {
+   "n": 5,
+   "kcu": "515636",
+   "name": "Средство моющее сильнокислотное JURBY JurbySoft M4330",
+   "unit": "кг",
+   "qty": 216,
+   "nmc_unit_without_vat": 625.0,
+   "nmc_sum_without_vat": 135000.0,
+   "okpd2": "20.59.59.900",
+   "national_measure": "ограничение (прил.2 ПП 1875)",
+   "country_plan": "Литва",
+   "brand": "JURBY (JURBY WATERTECH, Литва)",
+   "equiv_allowed": false
+  }
+ ],
+ "requirements": {
+  "delivery": "DDP склад Прегольской ТЭС: 238325, Калининградская обл., Гурьевский р-н, п. Луговое, ул. Энергетическая 1",
+  "equivalents": "НЕ допускаются (пп.3 «б» п.6.1 ст.3 223-ФЗ) — только JURBY",
+  "national_regime": "ограничение ПП 1875 по всем позициям (страна плана — Литва)",
+  "security": "заявки — нет; исполнения договора — по проекту договора (как правило 10%)",
+  "evaluation": "наименьшая цена без НДС",
+  "payment": "по проекту договора (аналог Приморской: 60 дней)"
+ },
+ "economics": {
+  "cost": null,
+  "revenue_nmc": 1314138.0,
+  "profit_nmc": null,
+  "profit_m10": null,
+  "profit_m20": null,
+  "margin_pct_m10": null,
+  "breakeven_discount_pct": null,
+  "assumptions": [
+   "Расчёт не выполнялся: срок подачи истёк 13.11.2026; цен на JURBY (литовский бренд, поставки через параллельный импорт) не искали."
+  ]
+ },
+ "suppliers": [],
+ "verdict": "НЕ УЧАСТВОВАТЬ — срок подачи истёк",
+ "verdict_reason": "Окончание подачи 13.11.2026 11:00 МСК (сегодня 16.11). Кроме того — только бренд JURBY без эквивалентов, литовское происхождение, санкционные и логистические риски.",
+ "todo": [
+  "Отслеживать возможную повторную закупку (если признают несостоявшейся) — тогда предлагать российские эквиваленты через запрос разъяснений."
+ ],
+ "risks": [
+  "Литовский товар под «ограничением» ПП 1875 и ограничениями ЕС на экспорт в РФ"
+ ],
+ "missing_docs": []
+}
