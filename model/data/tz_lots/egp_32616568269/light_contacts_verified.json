@@ -1,0 +1,406 @@
+{
+  "checked_at": "2026-11-17",
+  "note": "Никому не писали/не звонили. Статусы — по checko/vbr/saby. 'не проверено' = не нашли подтверждения в отведённое время.",
+  "companies": [
+    {
+      "company": "ООО «ИнПродакшн» (ТМ GENILED), Екатеринбург",
+      "site": "https://geniled.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "6671026720",
+      "ogrn": "1156658089587",
+      "status_source": "checko.ru/company/1156658089587 — действующая (на 25.09.2026), выручка 2025 994,7 млн",
+      "phone": "8 800 222-71-10",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://geniled.ru/contacts/ (Все регионы: 8 800 222 71 10, 8 (343) 344-44-00)",
+        "https://checko.ru/company/1156658089587 (+7 800 222-71-10, +7 343 344-44-00)"
+      ],
+      "email": "info@geniled.ru",
+      "email_ok": true,
+      "email_sources": [
+        "https://geniled.ru/contacts/",
+        "https://checko.ru/company/1156658089587",
+        "Декларация ЕАЭС (cdn.vseinstrumenti.ru) — info@geniled.ru"
+      ],
+      "better_email": "Отделы продаж по регионам на geniled.ru/contacts: ekb@geniled.ru (+7 912 294-41-11), spb@geniled.ru, tyumen@, samara@, chelyabinsk@; для ЦФО/Москвы отдельного нет — info@geniled.ru",
+      "better_phone": "8 (343) 344-44-00 (городской); Свердловская обл. +7 912 294-41-11",
+      "ring": {
+        "verdict": "no/не найдено",
+        "link": null,
+        "note": "кольцевых Ø1600 в каталоге не найдено"
+      },
+      "track_spot": {
+        "verdict": "yes",
+        "link": "https://cdn.vseinstrumenti.ru/instruction/nomenclaturecontent/202407/38454584.pdf/13777951_manual.pdf",
+        "note": "Track Classic Zoom 20 Вт: 1-фаз., зум 15–60°, Ra90, 1800 лм (4000K)/1760 лм (3000K) — по 3000K чуть ниже 1800"
+      },
+      "busbar": {
+        "verdict": "yes",
+        "link": "https://www.vseinstrumenti.ru/product/komplekt-shinoprovoda-odnofaznogo-geniled-2000-chernyj-s-zaglushkoj-i-vvodom-pitaniya-22011-22029-22031-19237257/",
+        "note": "комплект 2 м черный с вводом питания и заглушкой (22011/22029/22031); тросовый подвес 2 м — уточнить"
+      },
+      "note": "Юр.адрес ул. 8 Марта 267, офис/производство Амундсена 107. audit-it отмечает налоговую задолженность на 01.10.2026 — мелкий флаг. Сильный кандидат по лотам (b),(c)."
+    },
+    {
+      "company": "Darklum (ООО «Диолум Трейд»), Москва",
+      "site": "https://darklum.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "7736280705",
+      "ogrn": "5167746235806",
+      "status_source": "checko.ru/company/5167746235806 — действующая на 17.11.2026; 76 чел., ОКВЭД 27.40",
+      "phone": "+7 (495) 149-01-99",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://darklum.ru/kontakti (Отдел продаж)",
+        "https://checko.ru/company/5167746235806"
+      ],
+      "email": "zakaz@darklum.ru",
+      "email_ok": true,
+      "email_sources": [
+        "https://darklum.ru/kontakti («Отдел продаж», «Почта для приема заказов»)",
+        "https://diolum.ru/ (зеркало/старый домен — тот же адрес)"
+      ],
+      "better_email": "Именные менеджеры: mtihonenkov@darklum.ru, autkina@darklum.ru (прямые продажи), rodivilov@darklum.ru (ключевые партнеры), irina.a@darklum.ru (стратег. партнерства); info@darklum.ru — общие вопросы",
+      "better_phone": null,
+      "ring": {
+        "verdict": "maybe",
+        "link": "https://darklum.ru/products/oreol-1600/svetodiodnyiy-svetilnik-oreol-1600-125vt-4000k-chernyiy",
+        "note": "OREOL-1600 черный CRI90 125 Вт/10625 лм, высота 100 мм; OREOL-SOFT-L60-1600 105 Вт/8970 лм. Профиль не 80×80, мощность выше — нужна модификация ~96 Вт"
+      },
+      "track_spot": {
+        "verdict": "не проверено",
+        "link": null,
+        "note": "трековых zoom не найдено"
+      },
+      "busbar": {
+        "verdict": "не проверено",
+        "link": null,
+        "note": ""
+      },
+      "note": "email-подтверждение — только сайты самой компании (darklum.ru и diolum.ru); в checko адреса на домене diolum.ru. С 01.12.2026 работают только по ЭДО (Честный знак)."
+    },
+    {
+      "company": "МГК «Световые Технологии» (LT Company), Москва",
+      "site": "https://www.ltcompany.com",
+      "site_live": true,
+      "active": true,
+      "inn": "7715723321",
+      "ogrn": "5087746335177",
+      "status_source": "kontragent.vbr.ru — действующая, проверено 14.11.2026; РБК Компании — действует",
+      "phone": "8 800 333-23-77",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://www.ltcompany.com/ru/ (шапка/подвал)",
+        "https://industrials.ru/proizvoditel/15693-... (+7 800 333-23-77, обн. 25.02.2026)",
+        "https://paluba.media/company/ltcompany",
+        "https://prorus.ru/materials/svetovye-tehnologii/"
+      ],
+      "email": "info@msk.ltcompany.com",
+      "email_ok": true,
+      "email_sources": [
+        "https://www.ltcompany.com/about (Москва)",
+        "https://ecs-sko.ru/catalog/factory/18322",
+        "https://industrials.ru/proizvoditel/15693-..."
+      ],
+      "better_email": "Региональные: r.degtyarev@ltcompany.com (Воронеж), a.voloshenko@ltcompany.com (Иркутск); отдельного sales/tender e-mail на сайте нет",
+      "better_phone": "Москва офис: +7 (495) 995-55-95 (ltcompany.com/about, ecs-sko, swetotehnika)",
+      "ring": {
+        "verdict": "maybe/скорее нет",
+        "link": "https://www.ltcompany.com/en/series/cycle-p-led/cycle-p-led-1200-bl-4000k",
+        "note": "CYCLE P LED — кольцо, есть BL (черный) до 1200; Ø1600 с 80×80 не найдено"
+      },
+      "track_spot": {
+        "verdict": "no",
+        "link": "https://www.ltcompany.com/catalog/by-product-type/vnutrennee-osveshchenie/trekovye-svetilniki-i-sistemy",
+        "note": "только 3-фазная 230 В и магнитная 48 В системы"
+      },
+      "busbar": {
+        "verdict": "no",
+        "link": "https://www.ltcompany.com/catalog/by-product-type/vnutrennee-osveshchenie/trekovye-svetilniki-i-sistemy",
+        "note": "шинопровод только 3-фазный euro-DIN/DALI"
+      },
+      "note": "Крупный (960–1028 чел.). Продажи через дистрибьюторов — может перенаправить на дилера. 8-800 — горячая линия."
+    },
+    {
+      "company": "SMD-Line (ООО «Экономия света»), Екатеринбург",
+      "site": "https://smd-line.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "6670414375",
+      "ogrn": "1136670028164",
+      "status_source": "checko.ru/company/1136670028164 — действующая на 17.11.2026; 15 чел.",
+      "phone": "8 (343) 328-33-32",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://smd-line.ru/ (подвал «Екб: +7(343) 328-33-32», реквизиты)",
+        "https://checko.ru/company/1136670028164"
+      ],
+      "email": "sales@smd-line.ru",
+      "email_ok": true,
+      "email_sources": [
+        "https://smd-line.ru/ и /kontakty/",
+        "https://checko.ru/company/1136670028164"
+      ],
+      "better_email": null,
+      "better_phone": "Москва: +7 (499) 346-85-95; в шапке/контактах сейчас Екб 8 (343) 226-48-17 (кол-центр 06–20 МСК); saving-light.ru даёт +7 343 288-36-85",
+      "ring": {
+        "verdict": "maybe",
+        "link": "https://smd-line.ru/tovar/smd-line-rs-45w-900mm/",
+        "note": "SMD-Line-RS (кольцо) размеры 700–3000 мм вкл. 1600, черный; сечение и Ra — уточнить. Есть SMD-Line-R КОЛЬЦО"
+      },
+      "track_spot": {
+        "verdict": "не проверено",
+        "link": "https://smd-line.ru/katalog/interernye-svetilniki/trekovye/",
+        "note": "есть раздел трековых"
+      },
+      "busbar": {
+        "verdict": "не проверено",
+        "link": null,
+        "note": ""
+      },
+      "note": "Телефон 328-33-32 подтверждён, но в шапке сайта основным теперь стоит 226-48-17 — лучше указать оба. Микропредприятие."
+    },
+    {
+      "company": "DC-Light (ООО «ДС Электро»), Санкт-Петербург",
+      "site": "https://dc-light.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "7806563876",
+      "ogrn": "1197847177593",
+      "status_source": "checko.ru/company/1197847177593 — действующая на 17.11.2026",
+      "phone": "8 800 777-13-69",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://dc-light.ru/contacts/",
+        "https://dc-light.ru/info/requisites/",
+        "https://dc-electro.ru/proizvodstvo/ (аффилированный магазин — не полностью независимый)"
+      ],
+      "email": "zakaz@dc-light.ru",
+      "email_ok": "partial",
+      "email_sources": [
+        "https://dc-light.ru/contacts/",
+        "https://dc-light.ru/ (FAQ: «отправьте план на zakaz@dc-light.ru»)"
+      ],
+      "better_email": "Аффилированный dc-electro.ru: zakaz@dc-electro.ru; в реквизитах: dc-lighting@yandex.ru",
+      "better_phone": "СПб +7 (812) 200-47-23 (dc-electro.ru); WhatsApp +7 911 929-00-31",
+      "ring": {
+        "verdict": "maybe",
+        "link": "https://dc-light.ru/catalog/figurnye-svetilniki/",
+        "note": "Кольцо D1600 180 Вт 4000K профиль 50×80 черный (PRNG-50х80-1600-180-4K-bl); делают под заказ по ТЗ — 80×80/96 Вт/Ra90 уточнить"
+      },
+      "track_spot": {
+        "verdict": "не проверено",
+        "link": null,
+        "note": ""
+      },
+      "busbar": {
+        "verdict": "не проверено",
+        "link": null,
+        "note": ""
+      },
+      "note": "ФЛАГ: юрлицо — микропредприятие, 4 чел., осн. ОКВЭД 46.43 (опт), юр.адрес — квартира (ул. Лазо 5А, кв.158); сайт заявляет «завод». e-mail подтверждён только на собственных сайтах."
+    },
+    {
+      "company": "Ledmonster (ООО «Монстр»), Москва",
+      "site": "https://ledmonster.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "9709033080",
+      "ogrn": "1187746548142",
+      "status_source": "checko.ru/company/1187746548142 — действующая на 17.11.2026; 40 чел.",
+      "phone": "+7 (495) 109-23-00",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://ledmonster.ru/contacts/",
+        "https://urbanbaza.ru/company/ledmonster/"
+      ],
+      "email": "order@ledmonster.ru",
+      "email_ok": true,
+      "email_sources": [
+        "https://ledmonster.ru/contacts/",
+        "https://urbanbaza.ru/company/ledmonster/"
+      ],
+      "better_email": "СПб дистрибьютор: spb@ledmonster.ru (+7 812 646-50-88); контрактные поставки — раздел /contracts/",
+      "better_phone": "WhatsApp +7 964 395-03-00",
+      "ring": {
+        "verdict": "maybe/likely",
+        "link": "https://ledmonster.ru/catalog/production/ringus/",
+        "note": "серии Ringus D/I/UD/exclusive (стандарт до 1500), производят на заказ — Ø1600/80×80 уточнить"
+      },
+      "track_spot": {
+        "verdict": "не проверено",
+        "link": "https://ledmonster.ru/catalog/track/universe-back/",
+        "note": "системы Universe/Muse/Евротрек; zoom 15–60 не подтверждён"
+      },
+      "busbar": {
+        "verdict": "maybe",
+        "link": "https://ledmonster.ru/catalog/track/universe-addition/",
+        "note": "комплектующие Universe"
+      },
+      "note": "Мелочь: на сайте КПП 780701001, в ЕГРЮЛ 770801001 (опечатка сайта). Сайт с curl из песочницы не открылся (таймаут), через поисковый кэш живой. Осн. ОКВЭД по ФНС — 46.47.2 (опт)."
+    },
+    {
+      "company": "АРДА-Свет (ИП Попов М.С. / ООО «Арда Свет»), Москва/СПб",
+      "site": "https://ardasvet.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "031702035710 (ИП); ООО «Арда Свет» 7817148399",
+      "ogrn": "312784714600161 (ОГРНИП); 1257800076412 (ООО)",
+      "status_source": "checko: ИП Попов М.С. (рег. 2012, СПб) — связи и госконтракты, признаков прекращения нет; ООО «Арда Свет» рег. 25.08.2025, 1 чел., выручка 2025 3,9 млн",
+      "phone": "+7 (995) 230-33-55",
+      "phone_ok": "partial",
+      "phone_sources": [
+        "https://ardasvet.ru/ и /contact"
+      ],
+      "email": "info@ardasvet.ru",
+      "email_ok": true,
+      "email_sources": [
+        "https://ardasvet.ru/contact",
+        "https://checko.ru/company/1257800076412 (ООО «Арда Свет»)"
+      ],
+      "better_email": null,
+      "better_phone": "WhatsApp/Telegram на тот же +7 995 230-33-55",
+      "ring": {
+        "verdict": "maybe/likely",
+        "link": "https://ardasvet.ru/podvesnye-svetilniki-ring",
+        "note": "кольца больших размеров под заказ любой диаметр/цвет; конкретный 1600/80×80 не показан"
+      },
+      "track_spot": {
+        "verdict": "не проверено",
+        "link": null,
+        "note": ""
+      },
+      "busbar": {
+        "verdict": "не проверено",
+        "link": null,
+        "note": ""
+      },
+      "note": "ФЛАГ: не «московский завод», а ИП из СПб (пр. Елизарова 34Л) + новое ООО-микропредприятие (1 чел.); телефон — мобильный, второго независимого источника не нашёл. Каталог включает перепродажу «Новый Век»."
+    },
+    {
+      "company": "Arlight (ООО «Арлайт Рус»), Москва",
+      "site": "https://arlight.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "7743089178",
+      "ogrn": "1157746151815",
+      "status_source": "saby.ru — действует на 13.10.2026; checko ОГРН 1157746151815; 408 чел.",
+      "phone": "8 800 234-07-70",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://arlight.ru/ (горячая линия)",
+        "https://www.elec.ru/catalog/arlight/requisites",
+        "https://marketelectro.ru/company/ooo-arlayt-rus-arlight",
+        "https://urbanbaza.ru/company/arlight/"
+      ],
+      "email": "info@arlight.ru",
+      "email_ok": true,
+      "email_sources": [
+        "https://arlight.ru/",
+        "https://checko.ru/company/1157746151815",
+        "https://www.elec.ru/catalog/arlight/requisites"
+      ],
+      "better_email": "Отдельного sales/tender e-mail на сайте нет; проекты — через arlight.ru/projects и «Где купить» (дилеры)",
+      "better_phone": "+7 495 926-56-50 (checko/zachestnyibiznes)",
+      "ring": {
+        "verdict": "не проверено",
+        "link": null,
+        "note": ""
+      },
+      "track_spot": {
+        "verdict": "maybe",
+        "link": "https://arlight.company/upload/products/DE470C09A159E34BBEC75101DEEAD835.pdf",
+        "note": "LGD-GELIOS-2TR-R67-20W: 1-фаз., CRI>90, зум 20–60° (не 15), 1200/1680/1920 лм; ZEUS-2TR 20 Вт 20–60°"
+      },
+      "busbar": {
+        "verdict": "yes",
+        "link": "https://cdn.promelec.ru/upload/grab/arlight/datasheets/Track%20LGD-2TR%20DATA.pdf",
+        "note": "LGD-2TR-TRACK-2000-BK (022772), ввод LGD-2TR-CON-POWER-BK (023109), заглушка 022781, подвес LGD-2TR-HANG-1-BK до 2 м (022784)"
+      },
+      "note": "Основной ОКВЭД 46.90 (опт), производство в Бресте/Китае/Польше — для «производитель РФ / ПП719» уточнять. Продают через дилеров."
+    },
+    {
+      "company": "ТПК «Интера Лайтинг» (ТМ Оптима), Москва",
+      "site": "https://interalighting.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "9715303105",
+      "ogrn": "1177746536131",
+      "status_source": "checko.ru/company/1177746536131 — действующая на 17.11.2026; 6 чел., выручка 2025 50,8 млн",
+      "phone": "+7 (495) 641-38-48",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://interalighting.ru/contacts/",
+        "Google Maps «Свет для бизнеса Интера Лайтинг», Полярная 41 (+7 495 641-38-48, данные 04.11.2026)",
+        "https://logdok.ru/company/rekomendatsii/intera-lajting/"
+      ],
+      "email": "info@interalighting.ru",
+      "email_ok": true,
+      "email_sources": [
+        "https://interalighting.ru/contacts/",
+        "https://logdok.ru/company/rekomendatsii/intera-lajting/ (2016, старый)"
+      ],
+      "better_email": null,
+      "better_phone": "8 800 222-96-70; Telegram t.me/InteraLighting",
+      "ring": {
+        "verdict": "maybe",
+        "link": "https://interalighting.ru/catalog",
+        "note": "RIN 70 (Оптима) 40–190 Вт, Ra90+, 3800–19000 лм — кольцевой, сечение 70; 1600/80×80 уточнить"
+      },
+      "track_spot": {
+        "verdict": "no/не найдено",
+        "link": "https://interalighting.ru/catalog/track-spotlights",
+        "note": "фиксированные углы 15/16°… без зума"
+      },
+      "busbar": {
+        "verdict": "maybe",
+        "link": "https://interalighting.ru/catalog/track-for-track-fixtures",
+        "note": "шинопровод Busline и аксессуары BSL (заглушка, тросовый подвес BSL 19 1500/3000) — фазность уточнить"
+      },
+      "note": "Второй источник e-mail — старый (2016). Юрлицо маленькое (6 чел.); есть связанное ООО «Компания «Интера Лайтинг»»."
+    },
+    {
+      "company": "ЛЕД-Эффект, Москва",
+      "site": "https://ledeffect.ru",
+      "site_live": true,
+      "active": true,
+      "inn": "7724759892",
+      "ogrn": "1107746732235",
+      "status_source": "checko.ru/company/1107746732235 — действующая на 17.11.2026",
+      "phone": "+7 (495) 545-46-05",
+      "phone_ok": true,
+      "phone_sources": [
+        "https://ledeffect.ru/contacts/",
+        "https://checko.ru/company/1107746732235",
+        "https://yandex.ru/maps/org/led_effekt/54435537581"
+      ],
+      "email": "info@ledef.ru",
+      "email_ok": true,
+      "email_sources": [
+        "https://ledeffect.ru/contacts/",
+        "https://checko.ru/company/1107746732235",
+        "декларации ЕАЭС (info@ledef.ru)"
+      ],
+      "better_email": "Отдел ключевых клиентов: s.medvedevskih@ledef.ru (+7 950 206-02-12, рук. отдела, зам. коммерч. директора); см. также /contacts/institute.php (проектные институты), /contacts/representatives/",
+      "better_phone": "+7 (495) 649-66-88 (в декларациях/checko)",
+      "ring": {
+        "verdict": "no/не найдено",
+        "link": null,
+        "note": "профиль — технический/уличный/промышленный свет"
+      },
+      "track_spot": {
+        "verdict": "no/не найдено",
+        "link": null,
+        "note": ""
+      },
+      "busbar": {
+        "verdict": "no/не найдено",
+        "link": null,
+        "note": ""
+      },
+      "note": "Сайт ledeffect.ru, почта на домене ledef.ru — это нормально. Продажи через дилерскую сеть (сказано на сайте) — прямой КП могут не дать. Профиль слабо подходит под лоты."
+    }
+  ]
+}
