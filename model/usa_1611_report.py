@@ -96,7 +96,7 @@ d.column_dimensions["A"].width = 22; d.column_dimensions["B"].width = 170
 for row in d.iter_rows(min_row=2):
     for c in row: c.alignment = W
 p = wb.create_sheet("Что оформить")
-for x in ["1. SAM.gov: EIN → Login.gov → UEI → полная регистрация (CAGE авто). 2–4 недели для фирмы с иностранным владельцем. Нужна для федеральных и полезна для муниципальных.",
+for x in ["1. SAM.gov: ISP Group уже зарегистрирована (подтверждено 17.11.2026). Проверить: статус Active и дата продления, NAICS 424690/325180/325998/424610 в профиле, малый бизнес (SBA size), Reps & Certs, правила ФАР 52.204-24/25/26 и сертификации по закупкам у РФ.",
           "2. Регистрации на порталах заказчиков: OpenGov (Collier), Bonfire (Kansas City), DemandStar/BidNet, IonWave (Choice Partners TX), PlanetBids (BACC CA — февраль 2027).",
           "3. Страхование: GL $1M/$2M, umbrella, auto $1M (HNOA), pollution liability $1–5M — ~$15–40 тыс./год. Сертификат страхования часто нужен уже при подаче.",
           "4. Бонды: заявочный ~5 %, исполнения до 100 % — кредитная линия у сюрети ($250–500 тыс., премия 1,5–4 %, личное поручительство) или программа SBA Surety Bond Guarantee.",
