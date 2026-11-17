@@ -1,0 +1,45 @@
+{
+ "supplier": "Active Char Products Pvt Ltd (MFCARB), Kochi, Kerala",
+ "contact": "Jaison John, Director Marketing, +91 8943074694",
+ "date": "2026-11-17",
+ "nsf": "NSF/ANSI/CAN 61 listed GAC & PAC (Ernakulam) — confirmed in NSF listings 16.11",
+ "terms": "MOQ 20 t (40ft), 30% advance / 70% vs copy B/L, 2-3 weeks, valid to 2026-12-10, 500 kg supersacks (+$35/t for 25 kg bags)",
+ "refs": "Calgon, CAC, Karbonus, ML Ball, Donau, Desotec, General Carbon",
+ "assumptions": "duty 4.8% MFN (HTS 3802.10) + 10% India (Section-based after SCOTUS struck IEEPA reciprocal; deal pending) on FOB; MPF/HMF 0.47%; port/broker/drayage $75/t; warehouse $60/t; local delivery $0.08/lb",
+ "grades": [
+  {
+   "grade": "PAC M100",
+   "fob": 2150,
+   "cif": 2700,
+   "landed_fl_per_t": 3166,
+   "landed_per_lb": 1.44,
+   "delivered_per_lb": 1.52
+  },
+  {
+   "grade": "PAC M200",
+   "fob": 2450,
+   "cif": 3000,
+   "landed_fl_per_t": 3512,
+   "landed_per_lb": 1.59,
+   "delivered_per_lb": 1.67
+  },
+  {
+   "grade": "GAC 8x30",
+   "fob": 2950,
+   "cif": 3500,
+   "landed_fl_per_t": 4088,
+   "landed_per_lb": 1.85,
+   "delivered_per_lb": 1.93
+  },
+  {
+   "grade": "GAC 12x40",
+   "fob": 3000,
+   "cif": 3550,
+   "landed_fl_per_t": 4146,
+   "landed_per_lb": 1.88,
+   "delivered_per_lb": 1.96
+  }
+ ],
+ "market": "US bids: GAC virgin 1.55-2.09 $/lb (with change-out), small-lot supersacks 2.6-3.0 $/lb; PAC 0.89-2.15 $/lb, typical bulk 1.05-1.50",
+ "vs_indcarb": "Indcarb GAC 12x40 FOB 3,190 -> Active Char 3,000 is $190/t cheaper"
+}
