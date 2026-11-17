@@ -533,5 +533,27 @@
    "market": "US municipal"
   }
  ],
- "daily_count_1611": 20
+ "daily_count_1611": 20,
+ "usa_rocksalt_rfq_1711": {
+  "tender": "SAM M6700127Q1014 Rock Salt, MCAS Cherry Point, due 2026-11-23 16:00 ET",
+  "reply_by": "2026-11-21",
+  "sent": [
+   {
+    "to": "sales@mid-atlanticsalt.com",
+    "msg": "1a1ea5bf34ab58e5"
+   },
+   {
+    "to": "sales@rocksalttoday.com",
+    "msg": "1a1ea5bf75d50fa9"
+   },
+   {
+    "to": "Orders@ChemicalEquipmentLabs.com",
+    "msg": "1a1ea5bfaad02f9d"
+   },
+   {
+    "to": "sales@midamericansalt.com",
+    "msg": "1a1ea5bfd8f47c0b"
+   }
+  ]
+ }
 }
