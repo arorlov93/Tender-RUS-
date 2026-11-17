@@ -84,7 +84,7 @@ wb.save(f"{OUT}/SAM_RAZBOR_1711.xlsx")
 # --- 4. Черновик котировки ------------------------------------------------------
 d = Document(); st = d.styles["Normal"]; st.font.name = "Calibri"; st.font.size = Pt(11)
 P = d.add_paragraph
-P("ISP Group LLC\n[Street address], [City], FL [ZIP]\nUEI: WA46PAMTYMQ7   CAGE: 217F4\nPhone: [ ]   Email: info@ispgroupgc.com")
+P("ISP Group LLC\n16395 Biscayne Blvd, North Miami Beach, FL 33160\nUEI: WA46PAMTYMQ7   CAGE: 217F4\nPhone: +1 929 830 0038   Email: info@ispgroupgc.com")
 P("November [ ], 2026")
 P("To: Sierra Maye, Contract Specialist\nMCIEAST-MCB Camp Lejeune / MCAS Cherry Point Satellite Contracting Office\nsierra.c.maye.civ@usmc.mil")
 P("Subject: RFQ M67001-27-Q-1014 (M6700127Q1014) — Rock Salt, Central Heating Plant, MCAS Cherry Point — Quotation").runs[0].bold = True
@@ -108,6 +108,6 @@ d.add_heading("3. Past performance", level=2)
 P("ISP Group LLC affirmatively states that it possesses no relevant past performance history with Federal contracts of similar technical complexity. [If applicable, list commercial supply references here: customer, contract no., POC, description, value, period.] Our distribution partner [supplier] has an established record of pneumatic bulk salt deliveries to municipal and industrial water plants in the region.")
 d.add_heading("4. Representations", level=2)
 P("Completed SF1449 (blocks 17 and 30) and DFARS 252.204-7017 representation are attached. Annual representations and certifications are current in SAM.")
-P("Sincerely,\n\n______________________\nAleksandr Orlov, [Title]\nISP Group LLC")
+P("Sincerely,\n\n______________________\nAleksandr Orlov, Managing Member\nISP Group LLC")
 d.save(f"{RS}/QUOTE_M6700127Q1014.docx")
 print("ok", len(rows))
