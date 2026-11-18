@@ -1,0 +1,49 @@
+{
+ "date": "2026-11-18",
+ "no": "JLQT_261118001",
+ "supplier": "Luoyang Jalon Micro-nano New Materials",
+ "prices_usd_kg": {
+  "3A 1.6-2.5mm": {
+   "drum150": {
+    "FCA": 1.97,
+    "FOB_Qingdao": 2.06
+   },
+   "sack1000": {
+    "FCA": 1.85,
+    "FOB_Qingdao": 1.95
+   }
+  },
+  "4A 1.6-2.5mm": {
+   "drum150": {
+    "FCA": 1.82,
+    "FOB_Qingdao": 1.91
+   },
+   "sack1000": {
+    "FCA": 1.7,
+    "FOB_Qingdao": 1.8
+   }
+  },
+  "13X 1.6-2.5mm": {
+   "drum140": {
+    "FCA": 2.18,
+    "FOB_Qingdao": 2.27
+   },
+   "sack1000": {
+    "FCA": 2.06,
+    "FOB_Qingdao": 2.16
+   }
+  },
+  "activated alumina JLAA": {
+   "sack1000": {
+    "FCA": 1.2,
+    "FOB_Qingdao": 1.3
+   }
+  }
+ },
+ "container": "20' = 80 drums / 10 sacks; 40' = 160 drums / 20 sacks",
+ "payment": "30% T/T + 70% against copies of shipping docs",
+ "validity": "30 days",
+ "lead": "25 days",
+ "samples": "free, we pay courier",
+ "pending": "rail freight to Central Asia — promised 19.11"
+}
