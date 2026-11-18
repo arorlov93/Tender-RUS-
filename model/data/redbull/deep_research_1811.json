@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "task": "Red Bull 250 мл (Original/SF) для ISP GROUP LLC: поставщики вне ЕС, импортёры РФ, торговые потоки и маршруты",
+  "date": "2026-11-18",
+  "excluded_already_covered": "Nostra Trade, M&D&M, HM Distribution, PR Company, Green Trading, Food Brokers, Dumilco, Big Shopper, Bebidas Intl, Cosmo-Trade, ESCOS, Lekkerland, Chi und Jandel, VOVAN, Wise Trading, Kotendzhy, Big Brands, Food Country, Alfa Global, Gida Borsasi, Nimbus, Akil Global, ZZ Exporter, Toko, HEMA, Aviator Spain, TriStar/Emirates Bulk, Tradeling, AKLIFE, Bizim Toptan, Napitki-Optom KZ, FMCG Viet, Asia Grocery, GFA Trading, VIE VITA",
+  "method": "web search/fetch (parallel.ai), Volza/TradeData/ExportGenius сводки, RDAP (возраст доменов .com), сайты компаний. Никто не контактировался.",
+  "rdap_domain_dates": {
+   "dodexport.com": "2024-08-24",
+   "araz34.com": "2026-04-30",
+   "vpsgentrading.com": "2025-12-27",
+   "farwaycompany.com": "2010-02-17",
+   "agro-factory.com": "2007-07-03",
+   "treasure-orbit.com": "2017-08-26",
+   "equinoxforeigntrade.com": "2018-03-20",
+   "cigdemtedarik.com": "2021-08-24",
+   "orkoexport.com": "2021-11-30",
+   "fruitsfromturkey.com": "2019-12-18",
+   "askgida.com": "2021-10-03",
+   "eurovantrading.com": "2022-03-06"
+  }
+ },
+ "entries": [
+  {
+   "legal_name": "Treasure Islands Food & Beverages LLC (Treasure Islands TM)",
+   "country": "UAE",
+   "city": "Dubai, Deira (Office 902, Sherina Plaza Bldg 3, opp. Gold Souk Metro, P.O. Box 25375)",
+   "segment": "A: re-exporter/trader UAE",
+   "website": "https://www.treasureislands.ae",
+   "emails": [
+    "info@treasureislands.ae"
+   ],
+   "phones": [
+    "+971 4 235 2880",
+    "+971 4 343 4935",
+    "+971 50 631 9525"
+   ],
+   "contacts_source": "treasureislands.ae (главная и страница Red Bull)",
+   "offer": "Red Bull 250/355/473 мл, происхождение Австрия, срок 24 мес., 40ft контейнеры паллетированные; также Monster, Power Horse",
+   "price": "по запросу",
+   "moq": "контейнер 40ft (на сайте)",
+   "incoterms": "не указано (обычно EXW/FOB Jebel Ali)",
+   "evidence_russia_cis": "Прямо РФ не упоминает; 'ships to Middle East, Africa, Asia'; заявляет себя 'largest importers and re-exporters', офис в Нидерландах",
+   "verification": "Работает с 2009 (по сайту); адрес и 3 телефона на сайте; реестр DED/Dubai не проверялся (недоступно)",
+   "risk": "medium",
+   "risk_reasons": "Давний сайт и стабильные контакты, но это параллельный трейдер; поставка в РФ не заявлена — может отказать; цена неизвестна; требовать торговую лицензию DED и счёт на юрлицо.",
+   "sources": [
+    "https://www.treasureislands.ae/brands/beverages/redbull-importer-distributor-dubai.php",
+    "https://treasureislands.ae/"
+   ],
+   "note": null,
+   "id": "A1"
+  },
+  {
+   "legal_name": "Asia & Africa General Trading FZE L.L.C. (AAGT, agro-factory.com)",
+   "country": "UAE",
+   "city": "Dubai, Deira (Al Shizawi Bldg, Al Ahmadiya St, opp. Al Ras Metro)",
+   "segment": "A: re-exporter/trader UAE",
+   "website": "https://www.agro-factory.com",
+   "emails": [
+    "sales@agro-factory.com",
+    "uae@agro-factory.com"
+   ],
+   "phones": [
+    "+971 55 956 9379 (export & purchase)",
+    "+971 55 956 9371 (local)"
+   ],
+   "contacts_source": "agro-factory.com (карточка Red Bull)",
+   "offer": "Red Bull 250 мл ж/б",
+   "price": "по запросу",
+   "moq": "не указан",
+   "incoterms": "не указано",
+   "evidence_russia_cis": "На карточке Red Bull в списке 'Country/Region of demand' явно указаны Russia и Azerbaijan",
+   "verification": "Домен с 2007-07-03 (RDAP); 'since 2005' на сайте; FZE LLC",
+   "risk": "medium",
+   "risk_reasons": "Старый домен и корпоративная почта; явно указывает Россию как рынок. Минус: широкий мультикатегорийный трейдер (рис, сахар, масло) — Red Bull, вероятно, из вторых рук; происхождение (AT/CH vs Egypt/ME) уточнять.",
+   "sources": [
+    "https://www.agro-factory.com/product/red-bull-energy-drink"
+   ],
+   "note": null,
+   "id": "A2"
+  },
+  {
+   "legal_name": "Far Way (Far Way Company; регистрированная ТМ)",
+   "country": "UAE",
+   "city": "Dubai, Deira (Office 504, New Century City Tower)",
+   "segment": "A: re-exporter/trader UAE",
+   "website": "https://farwaycompany.com",
+   "emails": [
+    "contact@farwaycompany.com"
+   ],
+   "phones": [
+    "+971 42 289501",
+    "+971 52 76 76 100 (food, WhatsApp)"
+   ],
+   "contacts_source": "farwaycompany.com (карточка Red Bull)",
+   "offer": "Red Bull Energy Drink (EU) и Red Bull Thailand; заказ контейнерами 20/40ft",
+   "price": "по запросу (форма 'Get price')",
+   "moq": "20ft контейнер",
+   "incoterms": "не указано",
+   "evidence_russia_cis": "Не заявлено",
+   "verification": "Домен с 2010-02-17 (RDAP)",
+   "risk": "medium",
+   "risk_reasons": "Давний домен, корпоративная почта; но РФ не заявлена, происхождение партий не указано (возможно ближневосточный/тайский Red Bull — не подходит).",
+   "sources": [
+    "https://farwaycompany.com/product/red-bull-energy-drink-exporter-fmcg-distributor-dubai-uae-middle-east"
+   ],
+   "note": null,
+   "id": "A3"
+  },
+  {
+   "legal_name": "Treasure Orbit Trading L.L.C.",
+   "country": "UAE (также HK, India)",
+   "city": "Dubai",
+   "segment": "A: re-exporter/trader UAE",
+   "website": "https://www.treasure-orbit.com",
+   "emails": [
+    "info.dxb@treasureorbitgroup.com"
+   ],
+   "phones": [
+    "+971 4 226 4132"
+   ],
+   "contacts_source": "treasure-orbit.com/brand/redbull",
+   "offer": "Red Bull 250 мл: Original, Sugar Free, Editions (Red/Yellow/Summer/Ice и др.)",
+   "price": "по запросу",
+   "moq": "только контейнеры 20ft/40ft",
+   "incoterms": "не указано",
+   "evidence_russia_cis": "Не заявлено",
+   "verification": "Домен с 2017-08-26 (RDAP)",
+   "risk": "medium",
+   "risk_reasons": "Утверждает 'authorized Red Bull distributor in UAE' — сомнительно (не подтверждено Red Bull), хотя компания существует давно. Проверить лицензию DED.",
+   "sources": [
+    "https://www.treasure-orbit.com/brand/redbull"
+   ],
+   "note": null,
+   "id": "A4"
+  },
+  {
+   "legal_name": "VPS General Trading LLC",
+   "country": "UAE",
+   "city": "Sharjah, Sharjah Media City Free Zone (Shams Business Center)",
+   "segment": "A: re-exporter/trader UAE",
+   "website": "https://www.vpsgentrading.com",
+   "emails": [
+    "info@vpsgentrading.com"
+   ],
+   "phones": [
+    "+971 56 897 7404 (WhatsApp)"
+   ],
+   "contacts_source": "vpsgentrading.com",
+   "offer": "Red Bull 250 мл x24 — происхождение ЕГИПЕТ, арабская этикетка, 4112 коробок/40ft",
+   "price": "по запросу",
+   "moq": "контейнер",
+   "incoterms": "не указано",
+   "evidence_russia_cis": "Не заявлено",
+   "verification": "Домен с 2025-12-27 (RDAP); лицензия Shams (дешёвая медиа-фризона, не торговая)",
+   "risk": "high",
+   "risk_reasons": "Новый домен (<1 года), фризона Shams Media City нехарактерна для FMCG-оптовика; товар египетского розлива с арабской этикеткой — для РФ нужна переклейка/сертификация, не 'австрийский' Red Bull.",
+   "sources": [
+    "https://www.vpsgentrading.com/"
+   ],
+   "note": null,
+   "id": "A5"
+  },
+  {
+   "legal_name": "AL SHOROOQ OASIS GENERAL TRADING LLC",
+   "country": "UAE",
+   "city": "Dubai, Al Ras Deira (Shop G-12, Al Sheikh Butti Bldg)",
+   "segment": "A: re-exporter/trader UAE",
+   "website": "https://alshorooqoasis.ae",
+   "emails": [
+    "alshorooqoasis@gmail.com"
+   ],
+   "phones": [
+    "+971 4 251 8401",
+    "+971 55 690 4609",
+    "+971 50 675 2443"
+   ],
+   "contacts_source": "alshorooqoasis.ae",
+   "offer": "Заявляет 'one of the biggest Red Bull suppliers in the Middle East'",
+   "price": "нет",
+   "moq": "нет",
+   "incoterms": "нет",
+   "evidence_russia_cis": "Нет",
+   "verification": "Тексты сайта дословно скопированы с treasureislands.ae; почта Gmail",
+   "risk": "high",
+   "risk_reasons": "Копия чужого сайта + бесплатная почта — классический признак подставной/мелкой фирмы. Не рекомендуется.",
+   "sources": [
+    "https://alshorooqoasis.ae/"
+   ],
+   "note": null,
+   "id": "A6"
+  },
+  {
+   "legal_name": "Eurovan Trading (Египет; экспорт в Дубай/Jebel Ali)",
+   "country": "Egypt / UAE",
+   "city": "Egypt (контакт Mahmoud Elbarbary)",
+   "segment": "A: exporter Egypt->UAE",
+   "website": "https://eurovantrading.com",
+   "emails": [],
+   "phones": [
+    "+20 120 828 7576 (WhatsApp/тел.)"
+   ],
+   "contacts_source": "eurovantrading.com (статьи о Red Bull)",
+   "offer": "Red Bull 250 мл, Sugar Free — египетский розлив/партии, доставка в Jebel Ali, реэкспорт GCC",
+   "price": "по запросу",
+   "moq": "контейнер",
+   "incoterms": "CIF/DAP Jebel Ali (по описанию)",
+   "evidence_russia_cis": "Нет (фокус GCC)",
+   "verification": "Домен с 2022-03-06; заявлено 'founded 2000'",
+   "risk": "high",
+   "risk_reasons": "Египетский Red Bull (арабская этикетка) — не тот продукт для РФ; заявление 'since 2000' при домене 2022; только WhatsApp-телефон.",
+   "sources": [
+    "https://eurovantrading.com/red-bull-distributor-in-dubai",
+    "https://eurovantrading.com/red-bull-supplier-egypt-dubai"
+   ],
+   "note": null,
+   "id": "A7"
+  },
+  {
+   "legal_name": "Cognition General Trading LLC",
+   "country": "UAE",
+   "city": "Dubai, Al Quoz Industrial Area 1 (Unit 12, Bldg 6)",
+   "segment": "A: cash&carry UAE (бенчмарк)",
+   "website": "https://cognitionuae.com",
+   "emails": [],
+   "phones": [
+    "+971 4 266 1113",
+    "+971 58 847 6763 (WhatsApp)"
+   ],
+   "contacts_source": "cognitionuae.com",
+   "offer": "Red Bull 250 мл x24, происхождение Швейцария, Halal",
+   "price": "AED 224 за 24 (≈ AED 9,33 ≈ €2,26/банка) — розничный/мелкооптовый, 15 коробок в наличии",
+   "moq": "1 коробка",
+   "incoterms": "самовывоз",
+   "evidence_russia_cis": "Нет",
+   "verification": "Магазин с адресом и складом",
+   "risk": "low",
+   "risk_reasons": "Реальный магазин, но не поставщик фур — только ценовой ориентир ОАЭ (≈3,7× дороже EXW Варшава).",
+   "sources": [
+    "https://cognitionuae.com/red-bull-energy-drink-250-ml-x-24-cans.html"
+   ],
+   "note": null,
+   "id": "A8"
+  },
+  {
+   "legal_name": "DODEXPORT GIDA İÇECEK DIŞ TİCARET LTD. ŞTİ.",
+   "country": "Turkey",
+   "city": "İzmir, Konak/Karşıyaka (Çınarlı Mah. 1572 Sk. No:33); офис London (Enfield)",
+   "segment": "A: Turkish FMCG exporter",
+   "website": "https://www.dodexport.com",
+   "emails": [
+    "export@dodexport.com"
+   ],
+   "phones": [
+    "+90 544 159 2907"
+   ],
+   "contacts_source": "dodexport.com/about и /contact; Google Maps; Europages",
+   "offer": "Red Bull 250 мл x24 (EAN 9002490100070), 108 коробок/паллета; mixed pallets, FTL/FCL",
+   "price": "по запросу",
+   "moq": "3650 коробок (Europages)",
+   "incoterms": "не указано",
+   "evidence_russia_cis": "Прямо не заявлено; источники Турция + DE/IT/FR/BG/RO/BA/RS",
+   "verification": "Налоговый № Karşıyaka VD 3021376123 (на сайте); основана 2024; домен с 2024-08-24; CEO Ismail Didin",
+   "risk": "medium",
+   "risk_reasons": "Молодая компания (2024), 1–9 сотрудников; на Europages ложное утверждение 'produced in Türkiye' (Red Bull в Турции не производится). Плюс: раскрыт налоговый номер, физ. адрес, корпоративная почта. Проверить по VKN в GİB.",
+   "sources": [
+    "https://www.dodexport.com/about",
+    "https://www.europages.de/en/company/dodexport-gida-icecek-di-ticaret-limited-irketi-22379655"
+   ],
+   "note": null,
+   "id": "A9"
+  },
+  {
+   "legal_name": "ÇİĞDEM ENDÜSTRİYEL ÜRÜNLER VE GIDA SAN. TİC. LTD. ŞTİ. (Çiğdem Tedarik)",
+   "country": "Turkey",
+   "city": "İstanbul, Fatih (Alemdar, Bab-ı Ali Cd. No:38/C); склад Bayrampaşa",
+   "segment": "A: Turkish wholesaler",
+   "website": "https://www.cigdemtedarik.com",
+   "emails": [
+    "info@cigdemtedarik.com"
+   ],
+   "phones": [
+    "+90 212 522 99 62",
+    "+90 553 766 26 24 (WhatsApp)"
+   ],
+   "contacts_source": "cigdemtedarik.com/iletisim",
+   "offer": "Red Bull 250/375(355)/473 мл, все вкусы, продажа паллетами",
+   "price": "по запросу",
+   "moq": "паллета",
+   "incoterms": "не указано (есть раздел 'İhracat')",
+   "evidence_russia_cis": "Не заявлено",
+   "verification": "Europages: основана 1976, 5–9 сотр.; домен с 2021-08-24",
+   "risk": "medium",
+   "risk_reasons": "Старый бизнес с офисом и складом в Стамбуле; но малый штат — объём 4–10 фур/мес сомнителен; турецкий Red Bull обычно дороже ЕС (Bizim Toptan ≈ €0,97).",
+   "sources": [
+    "https://www.cigdemtedarik.com/iletisim",
+    "https://www.europages.co.uk/en/company/cigdem-endustriyel-urunler-ve-gida-santicltdsti-22184231/products/redbull-enerji-icecei-redbull-250ml-375ml-ve-473ml-sat-35427599"
+   ],
+   "note": null,
+   "id": "A10"
+  },
+  {
+   "legal_name": "EKİNOKS İÇ VE DIŞ TİCARET LTD. ŞTİ. (Ekinoks Foreign Trade)",
+   "country": "Turkey",
+   "city": "İstanbul, Sirkeci/Fatih (Hobyar Mah. Aşirefendi Cad. Emir Han No:14 K:2 D:204)",
+   "segment": "A: Turkish wholesaler/exporter",
+   "website": "https://equinoxforeigntrade.com",
+   "emails": [
+    "info@equinoxforeigntrade.com"
+   ],
+   "phones": [
+    "+90 212 522 93 87",
+    "+90 505 393 72 45 (WhatsApp)"
+   ],
+   "contacts_source": "equinoxforeigntrade.com; Facebook-страница компании",
+   "offer": "Red Bull 250 мл (Europages), Hell, Uludağ и др.",
+   "price": "по запросу",
+   "moq": "не указан",
+   "incoterms": "не указано",
+   "evidence_russia_cis": "Не заявлено",
+   "verification": "LinkedIn: основана 2018, 2–10 сотр.; домен с 2018-03-20; Europages указывает 1997",
+   "risk": "medium",
+   "risk_reasons": "Реальная маленькая трейдинговая фирма; Red Bull — один из сотен SKU; расхождение года основания (1997 vs 2018).",
+   "sources": [
+    "https://equinoxforeigntrade.com/",
+    "https://www.europages.co.uk/companies/turkey/energy-drinks.html"
+   ],
+   "note": null,
+   "id": "A11"
+  },
+  {
+   "legal_name": "ORKO TARIM DIŞ TİCARET LTD. ŞTİ. (ORKO Export)",
+   "country": "Turkey (+ офис Варшава)",
+   "city": "Denizli (Sümer mah. 2482/2 Sk. Sky City B Blok No:4/1/26)",
+   "segment": "A: Turkish exporter (фрукты + напитки)",
+   "website": "https://fruitsfromturkey.com",
+   "emails": [
+    "info@orkoexport.com"
+   ],
+   "phones": [
+    "+90 543 723 76 77 (EN)",
+    "+90 538 331 92 72 (RU/UA/PL)",
+    "+48 600 749 836 (офис Варшава)"
+   ],
+   "contacts_source": "fruitsfromturkey.com",
+   "offer": "Red Bull, Coca-Cola — wholesale/export",
+   "price": "по запросу",
+   "moq": "не указан",
+   "incoterms": "не указано",
+   "evidence_russia_cis": "Русскоговорящий менеджер; экспорт в Молдову/Украину/Польшу; РФ прямо не указана",
+   "verification": "Europages: основана 2019, 5–9 сотр.; домены fruitsfromturkey.com (2019), orkoexport.com (2021)",
+   "risk": "medium",
+   "risk_reasons": "Основной профиль — фрукты/овощи; Red Bull второстепенен (вероятно, перепродажа). Плюс: русскоязычная линия.",
+   "sources": [
+    "https://fruitsfromturkey.com/"
+   ],
+   "note": null,
+   "id": "A12"
+  },
+  {
+   "legal_name": "ARAZ34 O M Ticaret Ltd.",
+   "country": "Turkey",
+   "city": "İstanbul, Esenyurt (Ak Blokları A Blok Kat 26 D.84)",
+   "segment": "A: Turkish FMCG exporter",
+   "website": "https://araz34.com",
+   "emails": [
+    "sales@araz34.com",
+    "info@araz34.com"
+   ],
+   "phones": [
+    "+90 533 018 71 03"
+   ],
+   "contacts_source": "araz34.com",
+   "offer": "Red Bull 250 мл ж/б (каталог 1179 SKU), 'Turkey & CIS 6 countries served'",
+   "price": "по запросу",
+   "moq": "от 20 коробок",
+   "incoterms": "не указано",
+   "evidence_russia_cis": "На сайте заявлены поставки в 'Turkey & CIS' (6 стран)",
+   "verification": "Домен с 2026-04-30 (RDAP) — моложе 7 месяцев",
+   "risk": "high",
+   "risk_reasons": "Очень новый домен, шаблонный сайт с 'testimonials', адрес в жилом комплексе Esenyurt; реестр не проверен. Только после проверки VKN/MERSİS и без предоплаты.",
+   "sources": [
+    "https://araz34.com/"
+   ],
+   "note": null,
+   "id": "A13"
+  },
+  {
+   "legal_name": "Ask Gıda (askgida.com)",
+   "country": "Turkey",
+   "city": "İstanbul",
+   "segment": "A: Turkish FMCG wholesaler",
+   "website": "https://www.askgida.com",
+   "emails": [
+    "info@askgida.com"
+   ],
+   "phones": [
+    "+90 532 360 27 36"
+   ],
+   "contacts_source": "askgida.com",
+   "offer": "Red Bull среди 'top 500 brands' FMCG",
+   "price": "нет",
+   "moq": "нет",
+   "incoterms": "нет",
+   "evidence_russia_cis": "Нет",
+   "verification": "Домен с 2021-10-03; в подвале сайта 'Copyright 2020 © Food Country' — тот же шаблон/владелец, что у Food Country (уже в базе)",
+   "risk": "high",
+   "risk_reasons": "Вероятный клон/зеркало Food Country (уже проверенного ранее) — не новый независимый источник.",
+   "sources": [
+    "https://www.askgida.com/"
+   ],
+   "note": "Связан с Food Country — не дублировать запрос.",
+   "id": "A14"
+  },
+  {
+   "legal_name": "Apeira Trade DOO Beograd",
+   "country": "Serbia",
+   "city": "Belgrade-Čukarica (Nodilova 10/3/9)",
+   "segment": "A: Serbian FMCG distributor/exporter",
+   "website": "https://apeira.rs",
+   "emails": [
+    "sales@apeira.rs"
+   ],
+   "phones": [
+    "+381 61 5727 824"
+   ],
+   "contacts_source": "apeira.rs",
+   "offer": "Soft & energy drinks: Coca-Cola, Pepsi, Red Bull, Monster, Hell",
+   "price": "по запросу",
+   "moq": "не указан",
+   "incoterms": "доставка 'worldwide' (Европа, Азия, Ближний Восток)",
+   "evidence_russia_cis": "Не заявлено; Сербия — вне санкций ЕС, есть прямое авто/ж.д. сообщение с РФ",
+   "verification": "Сайт с 2025; реестр APR (Сербия) не проверен",
+   "risk": "medium",
+   "risk_reasons": "Сербия не применяет санкции ЕС, но авто в РФ всё равно идёт транзитом через ЕС (HU/RO→PL→BY) либо через Болгарию–Турцию–Грузию. Компания малоизвестна, объёмы не подтверждены; проверить ПИБ/MB в APR.",
+   "sources": [
+    "https://apeira.rs/"
+   ],
+   "note": null,
+   "id": "A15"
+  },
+  {
+   "legal_name": "ООО «ТИБЕТРЭЙ» (Mostra Group) — официальный дистрибьютор Red Bull в Беларуси",
+   "country": "Belarus",
+   "city": "Минск (юр.: ул. Селицкого 21Б пом.2 каб.52 / ул. Уручская 11А к.43; почт.: пр. Партизанский 79)",
+   "segment": "A: official BY distributor (только для справки)",
+   "website": "https://tibetray.by",
+   "emails": [],
+   "phones": [
+    "+375 17 389 06 40",
+    "+375 17 389 06 00"
+   ],
+   "contacts_source": "tibetray.by (реквизиты)",
+   "offer": "Red Bull в РБ: партии из Грузии (Healthy Water, Набеглави) и Австрии (Rauch, Нюцидерс)",
+   "price": "опт не публикуется; розница РБ 4,54–5,99 BYN",
+   "moq": "—",
+   "incoterms": "—",
+   "evidence_russia_cis": "Импортёр Red Bull в РБ (этикетки Едоставка/Юнистор)",
+   "verification": "УНП 101472823, ОКПО 37507521, Приорбанк; с 1998",
+   "risk": "low",
+   "risk_reasons": "Надёжная компания, но это официальный дистрибьютор Red Bull GmbH — продажа на реэкспорт в РФ маловероятна/запрещена контрактом. Полезна как ориентир цены в РБ и как партнёр по логистике/СВХ при ввозе через Минск.",
+   "sources": [
+    "https://tibetray.by/",
+    "https://edostavka.by/product/2095157",
+    "https://opt.unistore.by/product/8307"
+   ],
+   "note": null,
+   "id": "A16"
+  },
+  {
+   "legal_name": "Caravan Beverage Group (CBG) — дистрибьютор Red Bull в Казахстане с 2003",
+   "country": "Kazakhstan",
+   "city": "Алматы, ул. Байтурсынова 22",
+   "segment": "A: official KZ distributor (справочно)",
+   "website": "https://cbg.kz",
+   "emails": [
+    "info@cbg.kz"
+   ],
+   "phones": [
+    "+7 701 928 2341"
+   ],
+   "contacts_source": "cbg.kz/about-us",
+   "offer": "Red Bull, Borjomi, Budweiser Budvar, Guinness и др.; экспорт в KG (с 2022), UZ/TJ/TM (с 2024)",
+   "price": "не публикуется",
+   "moq": "—",
+   "incoterms": "—",
+   "evidence_russia_cis": "Экспорт в страны ЦА; РФ не указана",
+   "verification": "Работает с 1990-х; импорт Red Bull в KZ идёт через ТОО Red Bull Kazakhstan (Volza)",
+   "risk": "low",
+   "risk_reasons": "Надёжный, но официальный канал — поставки в РФ противоречат политике Red Bull GmbH; розница KZ ≈ 689–990 тг (≈ €1,36–1,95) — дороже ЕС. Только как ориентир/контакт.",
+   "sources": [
+    "https://cbg.kz/en/about-company",
+    "https://magnumopt.kz/catalog/1593-napitki-energeticheskie"
+   ],
+   "note": null,
+   "id": "A17"
+  },
+  {
+   "legal_name": "Europroduct LLC (Եվրոպրոդուկտ ՍՊԸ) — эксклюзивный дистрибьютор Red Bull в Армении",
+   "country": "Armenia",
+   "city": "Ереван, пр. Аршакуняц 2/202",
+   "segment": "A: official AM distributor (справочно)",
+   "website": null,
+   "emails": [],
+   "phones": [
+    "+374 10 580 779"
+   ],
+   "contacts_source": "staff.am / job.am (профиль компании)",
+   "offer": "Red Bull (из Австрии, партии по 75 168 / 150 336 банок), Bonduelle",
+   "price": "—",
+   "moq": "—",
+   "incoterms": "—",
+   "evidence_russia_cis": "Импорт ~$8,3 млн/год, из них Россия 37 % (Bonduelle Кубань); Red Bull — из Австрии (ExportGenius)",
+   "verification": "Профили на staff.am/job.am, торговые записи ExportGenius",
+   "risk": "low",
+   "risk_reasons": "Официальный дистрибьютор — реэкспорт в РФ не предложит. Армения (ЕАЭС) как маршрут теоретически возможна, но это был бы 'серый' канал против контракта.",
+   "sources": [
+    "https://staff.am/company/europroduct-llc",
+    "https://www.exportgenius.in/company/europroduct-llc/32d5fc047b79676ad12b1033a0ad367a"
+   ],
+   "note": null,
+   "id": "A18"
+  },
+  {
+   "legal_name": "JSC Healthy Water (Margebeli Holding) — контрактный розлив Red Bull в Грузии",
+   "country": "Georgia",
+   "city": "с. Набеглави, Чохатаурский муниципалитет, Гурия",
+   "segment": "A: co-packer (справочно)",
+   "website": "https://healthywater.ge",
+   "emails": [
+    "info@healthywater.ge"
+   ],
+   "phones": [
+    "+995 322 242324"
+   ],
+   "contacts_source": "healthywater.ge",
+   "offer": "Розлив Red Bull (ED KZ/UZ/BY) для Red Bull GmbH; партнёр Rauch с 2017",
+   "price": "таможенная стоимость экспорта ≈ $0,42/банка 250 мл (KZ, 03.2025: 62 208 банок = $26 361)",
+   "moq": "—",
+   "incoterms": "—",
+   "evidence_russia_cis": "Экспорт Red Bull в KZ (58 %), UZ (Ritz Unique Inc), BY (57 % импорта РБ), KG, TJ — Volza/TradeData",
+   "verification": "EBRD-кейс, сайт, торговые записи",
+   "risk": "low",
+   "risk_reasons": "Производитель по контракту Red Bull/Rauch — третьим лицам не продаст. Важен как доказательство: грузинский Red Bull законно присутствует в ЕАЭС (РБ/KZ).",
+   "sources": [
+    "https://tradedata.pro/trade-database-demo/georgia/export-data/company/jsc-healthy-water",
+    "https://www.volza.com/p/red-bull/export-data/exports-from-georgia/",
+    "https://healthywater.ge/en_GB/about"
+   ],
+   "note": null,
+   "id": "A19"
+  },
+  {
+   "legal_name": "ООО «Ред Булл (Рус)»",
+   "country": "Russia",
+   "city": "Москва, ул. Станиславского 21 стр. 3",
+   "segment": "B: официальный импортёр (конкурент)",
+   "website": null,
+   "emails": [],
+   "phones": [],
+   "contacts_source": "ЕГРЮЛ через РБК Компании / audit-it / Т-Банк",
+   "offer": "Официальный ввоз Red Bull (Швейцария, Австрия, Сербия-Rauch, Польша); выручка 2025 — 17,33 млрд ₽ (+7,4 %), прибыль 464 млн ₽",
+   "price": "таможенная стоимость 2024: 250 мл Original ≈ $0,39–0,42/банка (72 576 банок = $27 975–30 641), SF ≈ $0,39–0,42 (75 168 банок = $28 974–31 339)",
+   "moq": "—",
+   "incoterms": "—",
+   "evidence_russia_cis": "Учредители Red Bull GmbH 73 % / Red Bull Deutschland 27 %; ИНН 7704532646, ОГРН 1047796725272; ген. дир. Козлова О.Г.",
+   "verification": "ЕГРЮЛ (вторичные агрегаторы)",
+   "risk": "low",
+   "risk_reasons": "Не поставщик для ISP Group — это главный конкурент: официальный Red Bull в РФ продолжает поставляться, поэтому параллельный импорт конкурирует с официальной ценой.",
+   "sources": [
+    "https://companies.rbc.ru/id/1047796725272-ooo-red-bull-rus",
+    "https://www.audit-it.ru/contragent/1047796725272_ooo-red-bull-rus",
+    "https://www.volza.com/p/red-bull/export-data/exports-from-serbia-and-montenegro/",
+    "https://leave-russia.org/red-bull"
+   ],
+   "note": null,
+   "id": "B1"
+  },
+  {
+   "legal_name": "ООО «МК-ЛИДЕР» (DrPepper-Russia.ru)",
+   "country": "Russia",
+   "city": "Москва (филиалы-витрины по регионам, в т.ч. Минск)",
+   "segment": "B: импортёр параллельного/эксклюзивного ассортимента",
+   "website": "https://www.drpepper-russia.ru",
+   "emails": [],
+   "phones": [],
+   "contacts_source": "drpepper-russia.ru (контакты не извлечены — страница 404)",
+   "offer": "Red Bull 250 мл: Original, Sugar Free, Red/Blue/Green/Tropical/White Editions, Krating Daeng (TH); 'русифицированные наклейки, сертифицировано'",
+   "price": "на сайте цены скрыты / 'сообщить о поступлении' (нет в наличии на 09.2026)",
+   "moq": "—",
+   "incoterms": "—",
+   "evidence_russia_cis": "Импортёр зарубежных брендов (Dr.Pepper, Arizona, Fanta) с русскими наклейками — типичный параллельный импортёр",
+   "verification": "ИНН не найден на сайте — проверить в ЕГРЮЛ по названию",
+   "risk": "medium",
+   "risk_reasons": "Потенциальный ПОКУПАТЕЛЬ для ISP Group (не поставщик). Нет товара в наличии — признак дефицита параллельного Red Bull.",
+   "sources": [
+    "https://www.drpepper-russia.ru/catalog/red-bull"
+   ],
+   "note": null,
+   "id": "B2"
+  },
+  {
+   "legal_name": "napolke.ru (B2B-маркетплейс; продавцы «Акварисейл-опт», «ИМПОРТ», «ИМПОРТ+», «ОПТ 24», «ТД Густорико»)",
+   "country": "Russia",
+   "city": "Москва",
+   "segment": "B: B2B-маркетплейс (бенчмарк)",
+   "website": "https://napolke.ru",
+   "emails": [],
+   "phones": [
+    "+7 925 751-25-11"
+   ],
+   "contacts_source": "napolke.ru",
+   "offer": "Red Bull Австрия 250 мл — 110,00 ₽; SF Австрия — 110,00 ₽; Editions 128,25 ₽ (в т.ч. 'лайм Сербия'); 355 мл — 142,04 ₽; 473 мл — 201,71 ₽; Krating Daeng 250 — 84,00 ₽",
+   "price": "110 ₽/банка (24 шт.), 10.2026",
+   "moq": "от 5–15 тыс. ₽",
+   "incoterms": "доставка Москва",
+   "evidence_russia_cis": "Продавцы 'ИМПОРТ'/'ИМПОРТ+' — параллельные импортёры",
+   "verification": "—",
+   "risk": "low",
+   "risk_reasons": "Ценовой ориентир и список потенциальных покупателей.",
+   "sources": [
+    "https://napolke.ru/catalog?brands%5B0%5D=21"
+   ],
+   "note": null,
+   "id": "B3"
+  },
+  {
+   "legal_name": "ООО «ДЭН» (лот на Drinkinfo B2B)",
+   "country": "Russia",
+   "city": "Московская обл.",
+   "segment": "B: оптовик (бенчмарк)",
+   "website": "https://drinkinfo.ru/marketplace/drinks/energetik",
+   "emails": [],
+   "phones": [],
+   "contacts_source": "drinkinfo.ru",
+   "offer": "Ред Булл ж/б 0,25 × 24",
+   "price": "99,00 ₽/банка (лот 03.09.2026)",
+   "moq": "—",
+   "incoterms": "—",
+   "evidence_russia_cis": "—",
+   "verification": "ИНН 7733346958 (ранее в базе)",
+   "risk": "low",
+   "risk_reasons": "Уже в базе (otlichnye-tseny.ru, 116,93 ₽) — здесь новая, более низкая цена 99 ₽.",
+   "sources": [
+    "https://drinkinfo.ru/marketplace/drinks/energetik"
+   ],
+   "note": null,
+   "id": "B4"
+  },
+  {
+   "legal_name": "Соковоз (sokovoz.ru)",
+   "country": "Russia",
+   "city": "Москва, 1-й Саратовский пр-д 3а стр.1",
+   "segment": "B: оптово-розничный (бенчмарк)",
+   "website": "https://sokovoz.ru",
+   "emails": [
+    "info@sokovoz.ru"
+   ],
+   "phones": [
+    "+7 499 390-17-11",
+    "+7 925 753-13-63"
+   ],
+   "contacts_source": "sokovoz.ru",
+   "offer": "Red Bull 0,25 ж/б × 24 = 3 250 ₽",
+   "price": "135,42 ₽/банка",
+   "moq": "—",
+   "incoterms": "доставка Москва",
+   "evidence_russia_cis": "—",
+   "verification": "—",
+   "risk": "low",
+   "risk_reasons": "Верхняя граница мелкого опта.",
+   "sources": [
+    "https://sokovoz.ru/shop/293/imgs/red-bull-0-25-litra-zh-b-24-shtuki-v-upakovke"
+   ],
+   "note": null,
+   "id": "B5"
+  }
+ ],
+ "market_notes": {
+  "date": "2026-11-18",
+  "fx_ref": "ЦБ РФ 07.11.2026: EUR 92,19 ₽; USD 82,14 ₽; BYN 27,45 ₽; KZT 0,1818 ₽; AED 22,37 ₽",
+  "key_finding": "Red Bull НЕ ушёл из РФ: ООО «Ред Булл (Рус)» (100 % Red Bull GmbH/Deutschland) — выручка 2025 17,3 млрд ₽, официальные поставки из Швейцарии, Австрии, Сербии (Rauch Serbia DOO), Польши. Таможенная стоимость официальных партий 250 мл ≈ $0,39–0,42/банка. Параллельный импорт по €0,61–0,79 конкурирует с официальной ценой и с опт-ценой 99–125 ₽.",
+  "ru_wholesale_benchmarks_rub_per_can_250ml": [
+   {
+    "seller": "ООО ДЭН (drinkinfo B2B)",
+    "price": 99.0,
+    "date": "2026-09-03",
+    "url": "https://drinkinfo.ru/marketplace/drinks/energetik"
+   },
+   {
+    "seller": "napolke.ru, Red Bull Австрия (Original и SF)",
+    "price": 110.0,
+    "date": "2026-10",
+    "url": "https://napolke.ru/catalog?brands%5B0%5D=21"
+   },
+   {
+    "seller": "napolke.ru, Krating Daeng (тайский)",
+    "price": 84.0,
+    "date": "2026-10",
+    "url": "https://napolke.ru/catalog?brands%5B0%5D=21"
+   },
+   {
+    "seller": "Alligator (МДК Продукт)",
+    "price": 91.21,
+    "date": "2026-11",
+    "url": "https://alligator.market/ru/p/red-bull"
+   },
+   {
+    "seller": "Калининская База СПб",
+    "price": "101–106",
+    "date": "2026-11-08",
+    "url": "(ранее в базе)"
+   },
+   {
+    "seller": "ОКОЛО: Граф-М / Соцторгцентр / Продвей",
+    "price": "114,8 / 118,71 / 122,67",
+    "date": "2026-11-08",
+    "url": "https://okolo.market/product/energeticheskiy-napitok-red-bull-0-25-l/"
+   },
+   {
+    "seller": "VendLiga SF",
+    "price": 130.0,
+    "date": "2026-11",
+    "url": "https://vendliga.ru/catalog/ingredienty-dlya-vendinga/dlya-snekovyh-avtomatov/energetiki-napitki-voda/red-bull-red-bull-bez-sakhara-0-25-l.html"
+   },
+   {
+    "seller": "Соковоз",
+    "price": 135.42,
+    "date": "2026-11",
+    "url": "https://sokovoz.ru/shop/293/imgs/red-bull-0-25-litra-zh-b-24-shtuki-v-upakovke"
+   }
+  ],
+  "ru_wholesale_summary": "Опт Москва/СПб (с НДС): 91–135 ₽/банка, медиана ≈ 110 ₽ (≈ €1,19). Крупный опт (фуры сетям) — ориентир 95–105 ₽ с НДС.",
+  "landed_cost_check": {
+   "method": "скрипт .claude/skills/wholesale-sourcing/scripts/landed_cost.py, маршрут через РБ, параметры как в examples/redbull_vievita.json (пошлина 8 % ≥ €0,03/л, акциз РБ 0,5 BYN/л, акциз РФ 11 ₽/л для Original, фура 2 600 € + 100 000 ₽, Честный знак, стикеровка)",
+   "EXW_0.45_eur": {
+    "original_rub_ex_vat": 61.45,
+    "original_rub_one_vat": 74.23,
+    "sf_rub_one_vat": 70.88
+   },
+   "EXW_0.611_eur": {
+    "original_rub_ex_vat": 78.53,
+    "original_rub_one_vat": 94.95,
+    "sf_rub_one_vat": 77.85
+   },
+   "EXW_0.79_eur": {
+    "original_rub_ex_vat": 97.57,
+    "original_rub_one_vat": 118.02,
+    "sf_rub_one_vat": 114.67
+   },
+   "conclusion": "При опт-цене РФ ~100–110 ₽ с НДС закупка по €0,79 (паритет parallelbroker) убыточна; безубыточность ≈ €0,63–0,67/банка для Original; для нормальной маржи (15 %+) нужно ≤ €0,55. Цены ниже €0,50 у 'трейдеров' — почти наверняка мошенничество (средняя выручка Red Bull ≈ €0,87, а официальная трансфертная цена в РФ ≈ $0,40)."
+  },
+  "trade_flows": {
+   "volza_ru_red_bull_2022_2025": "Red Bull в РФ (HS 2202): Швейцария 56,7 %, Австрия, Сербия (Rauch Serbia → Red Bull Rus, 99 % экспорта Red Bull из Сербии идёт в РФ), Польша 5 % (308 партий 05.2023–12.2024, 10 покупателей/9 польских поставщиков — часть параллельные), Вьетнам (мелкие партии Red Bull Gold/TC Pharma ≈ $0,40/банка)",
+   "georgia": "Грузия (Healthy Water) — розлив Red Bull для KZ/UZ/BY/KG/TJ; 57 % импорта Red Bull в РБ — грузинский; таможенная стоимость ≈ $0,42/банка",
+   "kazakhstan": "Импорт Red Bull в KZ — ТОО Red Bull Kazakhstan (CH, AT, GE); Казахстан — крупнейший покупатель австрийского Red Bull (1 687 партий)",
+   "russia_energy_imports_2026": "Импорт энергетиков в РФ Q1 2026 +17 % до 21,2 млн л (Честный знак/Коммерсант); розничная средняя цена упаковки 260 ₽ (+16 %); продажи Q1 −7 %, Q2 +5 % (NTech)",
+   "regulation": "Акциз РФ на сахаросодержащие (>5 г/100 мл) — 11 ₽/л с 01.01.2026; Red Bull Sugar Free акцизом не облагается; маркировка Честный знак для энергетиков с 01.10.2024 (ТН ВЭД 2202 10 000 0); продажа <18 лет запрещена с 01.03.2025; ввоз оригинального Red Bull без согласия правообладателя возможен по механизму параллельного импорта (ПП № 506, перечень Минпромторга в ред. приказа № 4769 с 27.05.2026 — наличие бренда/кода 2202 сверить), при наличии декларации соответствия ЕАЭС и маркировки"
+  },
+  "routes": [
+   {
+    "route": "PL/LT/LV → Беларусь (перецепка/перегруз у границы) → Москва",
+    "detail": "Открытые переходы для фур (10.2026): Кукурыки–Козловичи, Бобровники–Берестовица (PL, только фуры ЕС-номеров), Мядининкай–Каменный Лог, Шальчининкай–Бенякони (LT), Патерниеки–Григоровщина (LV). Риск закрытий (PL 09.2025, LT 10–11.2025, LV 08.2026).",
+    "cost": "FTL Варшава→Москва от €4 000–4 500; сборный 3 паллеты €760; 3–5 дней + граница",
+    "sources": [
+     "https://swiftrans.ru/news/pogranperehody-es-belarus/",
+     "https://cargov.ru/en/dostavka-gruzov-iz-polshi"
+    ]
+   },
+   {
+    "route": "Роттердам → Санкт-Петербург (море)",
+    "detail": "20'/40' контейнер; Red Bull 250 мл ≈ 32 паллеты/40'",
+    "cost": "€4 900 (20') / €5 900 (40') морское плечо, 6–7 дней",
+    "sources": [
+     "https://cargov.ru/en/dostavka-gruzov-iz-evropy"
+    ]
+   },
+   {
+    "route": "Турция → Грузия (Сарпи) → Верхний Ларс → РФ",
+    "detail": "Альтернатива: Турция–Иран–Азербайджан–РФ (Самур), очереди до 5 дней; паром Самсун/Трабзон–Новороссийск",
+    "cost": "FTL Стамбул→Москва $6 050–7 150, 10–12 дней; 1 паллета $600–850",
+    "sources": [
+     "https://www.gokaytransport.com/en/blogs/rusya-nakliye-2025-lojistik-ve-tasimacilik-cozumleri",
+     "https://wctcorp.ru/en/uslugi/avto-perevozki",
+     "http://trasko.ru/publications/company/o-situatsii-na-rynke-gruzoperevozok-na-19-08-2026"
+    ]
+   },
+   {
+    "route": "ОАЭ → РФ",
+    "detail": "Авто РФ–Грузия–Турция–Сирия–Иордания–Саудовская Аравия–ОАЭ, 24–26 дней; либо море Jebel Ali → Новороссийск/Бандар-Аббас–INSTC. Для Red Bull экономически невыгодно (цены ОАЭ ≈ €1,6–2,3/банка).",
+    "cost": "н/д",
+    "sources": [
+     "http://trasko.ru/publications/company/o-situatsii-na-rynke-gruzoperevozok-na-19-08-2026"
+    ]
+   }
+  ],
+  "forwarders_seen": [
+   {
+    "name": "Cargov Logistics",
+    "site": "https://cargov.ru",
+    "note": "склады консолидации Варшава/Вильнюс, офисы DE/LT, свой брокер"
+   },
+   {
+    "name": "Swiftrans",
+    "site": "https://swiftrans.ru",
+    "note": "ЕС→РБ→РФ, актуальные данные по погранпереходам"
+   },
+   {
+    "name": "Gökay Transport",
+    "site": "https://www.gokaytransport.com",
+    "phone": "+90 533 302 33 10",
+    "note": "Турция→РФ FTL/LTL"
+   },
+   {
+    "name": "WestComTrans",
+    "site": "https://wctcorp.ru",
+    "note": "Турция/Китай→РФ, экспортное и импортное оформление"
+   },
+   {
+    "name": "Trasko",
+    "site": "http://trasko.ru",
+    "note": "обзоры рынка перевозок, Ближний Восток/Турция"
+   },
+   {
+    "name": "Logistic Systems",
+    "site": "https://log-s.com",
+    "note": "таможенный представитель ФТС, ЕС через перецепку в РБ"
+   }
+  ],
+  "fit_assessment": "Вне ЕС реальных источников австрийского Red Bull дешевле €0,61 не найдено. ОАЭ/Турция/Казахстан — дороже ЕС (€0,97–2,3). Официальные дистрибьюторы СНГ (Тибетрэй BY, CBG KZ, Europroduct AM, Healthy Water GE) реэкспорт в РФ не дадут. Лучшая стратегия — ЕС-трейдеры (PL/NL/DE) с проверкой VIES + перецепка в РБ, целевая цена ≤ €0,55–0,60 EXW."
+ }
+}
