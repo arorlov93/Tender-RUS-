@@ -1,0 +1,42 @@
+{
+ "date": "2026-11-19",
+ "supplier": "Magnesia Chemicals LLP (KMnO4) / Arista Chemicals LLP (NaMnO4), contact Mathews VP Sales, info@magnesiachemicals.com, +91 98191 86444",
+ "kmno4": {
+  "grade": "Free flowing 97.5%, NSF/ANSI/CAN 60, AWWA B603",
+  "qty": "18 t / 20ft FCL",
+  "cif_houston_usd_t": {
+   "25kg pails": 3451,
+   "50kg galv drums": 3550,
+   "150kg coated drums": 3653
+  }
+ },
+ "namno4": {
+  "brand": "ARISOL 40",
+  "pack": "1000 L IBC (1250 kg), 16 IBC = 20 t / 20ft",
+  "cif_houston_usd_t": {
+   "40%": 3257,
+   "20%": 2321
+  }
+ },
+ "terms": "100% TT against copy of B/L; 10-15 days; validity 7 days",
+ "us_refs": "Wintersun, Marubeni, Shannon, WSU, Key Source, Carus (2023)",
+ "landed_usd_kg_and_lb": {
+  "KMnO4 pails": [
+   4.249,
+   1.927
+  ],
+  "KMnO4 50kg drums": [
+   4.364,
+   1.979
+  ],
+  "NaMnO4 40%": [
+   4.03,
+   1.828
+  ],
+  "NaMnO4 20%": [
+   2.945,
+   1.336
+  ]
+ },
+ "assumptions": "duty 5.5% MFN + 10% India on FOB; freight $7.5k/FCL; MPF/HMF 0.47%; port/broker $75/t; warehouse $60/t; local delivery $0.08/lb"
+}
