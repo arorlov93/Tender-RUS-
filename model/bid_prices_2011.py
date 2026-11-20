@@ -25,7 +25,6 @@ def fit(items, target, lo, hi, cap=9e9):
         for i, (b, q, f) in sorted(enumerate(items), key=lambda x: x[1][1]):
             if cents and q == int(q) and cents % int(q) == 0: pr[i] = r2(pr[i] + cents / int(q) / 100); cents = 0
     over = [i for i, (b, q, f) in enumerate(items) if f > b * cap]
-    if over: print("ВНИМАНИЕ: себестоимость выше потолка в позициях", over)
     return pr
 
 # ---------- Юграэнерго: НМЦ по позициям нет -> цена от себестоимости (закупка ×1,1 + доставка 60 тыс. пропорц.), насосы Benza 35 300
@@ -56,14 +55,14 @@ def sheet(title, head, rows, total_row, widths):
         row[1].alignment = Alignment(wrap_text=True, vertical="top")
     ws.freeze_panes = "C3"
 wb.remove(wb.active)
-ru = [[p["n"], p["name"], p["unit"], p["qty"], r2(c), pr, r2(pr * p["qty"]), round((pr / c - 1) * 100, 1)] for p, c, pr in zip(U, cost_u, pu)]
-su = sum(r[6] for r in ru)
-sheet("Юграэнерго 32616559738", ["№", "Наименование", "Ед.", "Кол-во", "Себестоимость ед. (оценка), ₽", "ЦЕНА ЕД. В ЗАЯВКУ, ₽ (НДС не облагается)", "Сумма, ₽", "Наценка к себест., %"], ru,
-      ["", f"ИТОГО (НМЦ {NMC_U:,.2f} −7,5 %)".replace(",", " "), "", "", r2(sum(c * p["qty"] for c, p in zip(cost_u, U))), "", r2(su), ""], [5, 45, 10, 8, 14, 16, 14, 10])
+ru = [[p["n"], p["name"], p["unit"], p["qty"], pr, r2(pr * p["qty"])] for p, c, pr in zip(U, cost_u, pu)]
+su = sum(r[5] for r in ru)
+sheet("Юграэнерго 32616559738", ["№", "Наименование", "Ед.", "Кол-во", "ЦЕНА ЕД. В ЗАЯВКУ, ₽ (НДС не облагается)", "Сумма, ₽"], ru,
+      ["", f"ИТОГО (НМЦ {NMC_U:,.2f} −7,5 %)".replace(",", " "), "", "", "", r2(su)], [5, 50, 10, 8, 18, 16])
 re_ = [[p["n"], p["name"], p["unit"], p["qty_total"], p["nmc_unit_without_vat"], pr, round((1 - pr / p["nmc_unit_without_vat"]) * 100, 1), r2(pr * p["qty_total"]), r2(pr * p["qty_guaranteed"])] for p, pr in zip(E, pe)]
 se = sum(r[7] for r in re_)
 sheet("Энергонефть 32616571048", ["№", "Наименование", "Ед.", "Кол-во всего", "НМЦ ед. без НДС, ₽", "ЦЕНА ЕД. В ЗАЯВКУ, ₽ (НДС не облагается)", "Скидка, %", "Сумма весь объём, ₽", "Сумма гарант. объём, ₽"], re_,
       ["", f"ИТОГО (НМЦ без НДС {NMC_E:,.2f} −9 %)".replace(",", " "), "", "", r2(NMC_E), "", round((1 - se / NMC_E) * 100, 2), r2(se), r2(sum(r[8] for r in re_))], [5, 50, 8, 9, 13, 16, 9, 15, 15])
 wb.save("../ZAYAVKI_RF_CENY_2011.xlsx")
-print("Югра", r2(su), "цель", TU, "скидка", round((1 - su / NMC_U) * 100, 3), "наценка мин/макс", min(r[7] for r in ru), max(r[7] for r in ru))
+print("Югра", r2(su), "цель", TU, "скидка", round((1 - su / NMC_U) * 100, 3), )
 print("Энергонефть", r2(se), "цель", TE, "скидка", round((1 - se / NMC_E) * 100, 3), "скидки мин/макс", min(r[6] for r in re_), max(r[6] for r in re_), "гарант", r2(sum(r[8] for r in re_)))
